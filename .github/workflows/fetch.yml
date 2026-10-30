@@ -1,0 +1,50 @@
+name: Fetch sources
+
+on:
+  schedule:
+    # UTC 16:20 = 北京时间次日 00:20
+    - cron: '20 16 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-sources
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch enabled sources
+        run: node scripts/fetch-sources.mjs --rss-only
+
+      - name: Commit raw output
+        run: |
+          git config user.name "form-factor-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add content/_raw
+          if git diff --staged --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore: fetch sources $(date -u +%F)"
+            git push
+          fi
+
+      - name: Upload artifact for debugging
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-${{ github.run_id }}
+          path: content/_raw
+          retention-days: 3

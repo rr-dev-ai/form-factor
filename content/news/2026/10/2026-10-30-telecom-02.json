@@ -1,0 +1,41 @@
+{
+  "id": "2026-10-30-telecom-02",
+  "slug": "gsma-sgp22-v27-sgp32-v13-lite4-interop",
+  "industry": "telecom",
+  "tags": ["esim", "rsp"],
+  "status": "published",
+  "publishedAt": "2026-10-30T03:35:00+08:00",
+  "ingestedAt": "2026-10-30T03:24:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "eSIM Report",
+      "url": "https://www.esim.report/news/kigen-outlines-sgp22-v27-sgp32-v13-and-lite4",
+      "lang": "en",
+      "publishedAt": "2026-10-21T20:00:00+08:00"
+    },
+    {
+      "name": "Kigen",
+      "url": "https://kigen.com/resources/blog/esim-standards-evolution-explained-sgp-22-sgp-32-and-lite4-interoperability-for-oems",
+      "lang": "en",
+      "publishedAt": "2026-10-21T16:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "GSMA 两项 eSIM 标准进入互操作测试",
+    "en": "Two GSMA eSIM specs move into interoperability testing",
+    "es": "Dos especificaciones eSIM de la GSMA entran en pruebas de interoperabilidad"
+  },
+  "summary": {
+    "zh": "消费级 SGP.22 v2.7（4 月）与 IoT 级 SGP.32 v1.3（5 月）已发布，本周在法国 La Ciotat 进行 LITE4 互操作测试；两项标准强化了 eUICC 上第三方 applet 的隔离与测试 profile 的管控，并覆盖 eUICC OS 更新。",
+    "en": "Consumer SGP.22 v2.7 (April) and IoT SGP.32 v1.3 (May) are published, with the LITE4 interop event running this week in La Ciotat, France; both versions tighten isolation of third-party applets and control of test profiles on the eUICC, and now cover eUICC OS updates.",
+    "es": "SGP.22 v2.7 (abril) y SGP.32 v1.3 (mayo) están publicadas, con el evento LITE4 esta semana en La Ciotat; ambas versiones refuerzan el aislamiento de applets y el control de perfiles de prueba, e incluyen actualizaciones del SO del eUICC."
+  },
+  "whyItMatters": {
+    "zh": "互操作测试结果决定厂商宣称的兼容性能否兑现，eUICC 与 eIM 的选型窗口就在这几个月。",
+    "en": "Interop results decide whether vendor compatibility claims hold, and the window for choosing eUICC and eIM is now.",
+    "es": "Los resultados de interoperabilidad determinan si las promesas de compatibilidad se sostienen, y la ventana de selección de eUICC y eIM es ahora."
+  },
+  "confidence": 0.83,
+  "ai": { "model": "claude-sonnet-4.5", "promptVersion": "digest-v3", "tokens": 4860, "costUsd": 0.031 }
+}

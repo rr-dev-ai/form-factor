@@ -1,0 +1,99 @@
+---
+import Base from '../../../layouts/Base.astro';
+import NewsCard from '../../../components/NewsCard.astro';
+import { locales, type Locale } from '../../../config/site';
+import { industryName, tagName } from '../../../config/taxonomy';
+import { publishedNews } from '../../../lib/content';
+import { t, formatDate, localeLabel } from '../../../lib/i18n';
+
+export function getStaticPaths() {
+  return locales.flatMap((lang) =>
+    publishedNews().map((item) => ({ params: { lang, slug: item.slug } }))
+  );
+}
+
+const locale = Astro.params.lang as Locale;
+const slug = Astro.params.slug as string;
+const dict = t(locale);
+
+const all = publishedNews();
+const item = all.find((n) => n.slug === slug);
+if (!item) throw new Error(`未找到内容：${slug}`);
+
+const related = all.filter((n) => n.industry === item.industry && n.slug !== item.slug).slice(0, 3);
+const firstSource = item.sources[0];
+const sourceDate = firstSource?.publishedAt ?? item.publishedAt;
+---
+
+<Base
+  locale={locale}
+  path={`/news/${item.slug}`}
+  title={item.title[locale]}
+  description={item.summary[locale]}
+>
+  <article>
+    <header class="article-head">
+      <div class="card-meta">
+        <a href={`/${locale}/${item.industry}`}>{industryName(item.industry, locale)}</a>
+        <span aria-hidden="true">·</span>
+        <span>{formatDate(item.publishedAt, locale)}</span>
+      </div>
+      <h1>{item.title[locale]}</h1>
+      <div class="article-meta">
+        <span>{dict.collected} {formatDate(item.publishedAt, locale)}</span>
+        <span>{dict.publishedAt} {formatDate(sourceDate, locale, true)}</span>
+        <span>{dict.originalLang} {localeLabel[item.originalLang]}</span>
+      </div>
+    </header>
+
+    <div class="article-body">
+      <p>{item.summary[locale]}</p>
+    </div>
+
+    <div class="why-box">
+      <h3>{dict.whyItMatters}</h3>
+      <p>{item.whyItMatters[locale]}</p>
+    </div>
+
+    <div class="card-foot" style="margin:24px 0 32px">
+      {item.tags.map((tag) => <a class="tag" href={`/${locale}/tag/${tag}`}>{tagName(tag, locale)}</a>)}
+    </div>
+
+    <section>
+      <div class="section-head">
+        <h2>{dict.sources}</h2>
+        <span>{item.sources.length}</span>
+      </div>
+      <ul class="source-list">
+        {
+          item.sources.map((source) => (
+            <li>
+              <a href={source.url} target="_blank" rel="noopener noreferrer nofollow">
+                {source.name} ↗
+              </a>
+              <span class="meta">
+                {source.publishedAt ? formatDate(source.publishedAt, locale) : ''}
+                {source.lang ? ` · ${localeLabel[source.lang]}` : ''}
+              </span>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    {
+      related.length > 0 && (
+        <section class="section">
+          <div class="section-head">
+            <h2>{dict.related}</h2>
+          </div>
+          <div class="card-list">
+            {related.map((r) => (
+              <NewsCard item={r} locale={locale} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+  </article>
+</Base>

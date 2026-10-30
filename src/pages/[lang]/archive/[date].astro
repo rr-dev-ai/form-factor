@@ -1,0 +1,63 @@
+---
+import Base from '../../../layouts/Base.astro';
+import NewsCard from '../../../components/NewsCard.astro';
+import { locales, type Locale } from '../../../config/site';
+import { industries } from '../../../config/taxonomy';
+import { allDateKeys, byDate } from '../../../lib/content';
+import { t, formatDateKey } from '../../../lib/i18n';
+
+export function getStaticPaths() {
+  const dates = allDateKeys();
+  return locales.flatMap((lang) => dates.map((date) => ({ params: { lang, date } })));
+}
+
+const locale = Astro.params.lang as Locale;
+const date = Astro.params.date as string;
+const dict = t(locale);
+
+const items = byDate(date);
+const dates = allDateKeys();
+const idx = dates.indexOf(date);
+const newer = idx > 0 ? dates[idx - 1] : null;
+const older = idx >= 0 && idx < dates.length - 1 ? dates[idx + 1] : null;
+---
+
+<Base
+  locale={locale}
+  path={`/archive/${date}`}
+  title={formatDateKey(date, locale)}
+  description={`${formatDateKey(date, locale)} · ${items.length}${dict.items}`}
+>
+  <div class="page-head">
+    <h1>{formatDateKey(date, locale)}</h1>
+    <p>{items.length} {dict.items}</p>
+  </div>
+
+  <div class="card-foot" style="margin-bottom:28px">
+    {newer && <a class="tag" href={`/${locale}/archive/${newer}`}>← {newer}</a>}
+    <a class="tag" href={`/${locale}/archive`}>{dict.archiveTitle}</a>
+    {older && <a class="tag" href={`/${locale}/archive/${older}`}>{older} →</a>}
+  </div>
+
+  {
+    industries.map((industry) => {
+      const grouped = items.filter((i) => i.industry === industry.slug);
+      if (grouped.length === 0) return null;
+      return (
+        <section class="section">
+          <div class="section-head">
+            <h2>{industry.name[locale]}</h2>
+            <span>{grouped.length} {dict.items}</span>
+          </div>
+          <div class="card-list">
+            {grouped.map((item) => (
+              <NewsCard item={item} locale={locale} />
+            ))}
+          </div>
+        </section>
+      );
+    })
+  }
+
+  {items.length === 0 && <div class="empty"><strong>{dict.noUpdate}</strong>{dict.noUpdateHint}</div>}
+</Base>

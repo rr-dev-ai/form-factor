@@ -1,0 +1,35 @@
+{
+  "id": "2026-10-30-telecom-03",
+  "slug": "china-unicom-full-esim-device-support",
+  "industry": "telecom",
+  "tags": ["esim"],
+  "status": "published",
+  "publishedAt": "2026-10-30T03:35:00+08:00",
+  "ingestedAt": "2026-10-30T03:26:00+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "极目新闻",
+      "url": "https://www.ctdsb.net/c1666_202610/2890806.html",
+      "lang": "zh",
+      "publishedAt": "2026-10-29T09:48:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "中国联通完成全终端 eSIM 适配",
+    "en": "China Unicom completes eSIM support across device lines",
+    "es": "China Unicom completa el soporte eSIM en toda su gama"
+  },
+  "summary": {
+    "zh": "联通称主流品牌手机与可穿戴设备均已完成适配，营业厅可办理双 eSIM 与一号双终端；随纯 eSIM 机型上市，国内手机 eSIM 进入规模办理阶段。",
+    "en": "Unicom says mainstream phones and wearables are now supported, with dual-eSIM and one-number-multi-device handled in stores; eSIM-only handsets push the market into volume activation.",
+    "es": "Unicom afirma que los principales teléfonos y wearables ya son compatibles, con doble eSIM y un número multi-dispositivo en tienda; los móviles solo eSIM llevan el mercado a volumen."
+  },
+  "whyItMatters": {
+    "zh": "最后一个主要市场的手机 eSIM 通道打开，SIM 供应与个性化产线的需求结构会随之改变。",
+    "en": "The last major market opening for handset eSIM changes demand structure for SIM supply and personalisation.",
+    "es": "La apertura del último gran mercado para eSIM en móviles cambia la demanda de SIM y personalización."
+  },
+  "confidence": 0.72,
+  "ai": { "model": "claude-sonnet-4.5", "promptVersion": "digest-v3", "tokens": 3940, "costUsd": 0.025 }
+}

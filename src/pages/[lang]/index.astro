@@ -1,0 +1,84 @@
+---
+import Base from '../../layouts/Base.astro';
+import NewsCard from '../../components/NewsCard.astro';
+import { locales, type Locale } from '../../config/site';
+import { industries } from '../../config/taxonomy';
+import { byDate, latestDateKey, publishedNews, toDateKey } from '../../lib/content';
+import { t, formatDateKey } from '../../lib/i18n';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang } }));
+}
+
+const locale = Astro.params.lang as Locale;
+const dict = t(locale);
+
+const latest = latestDateKey();
+const latestItems = latest ? byDate(latest) : [];
+const latestSet = new Set(latestItems.map((i) => i.id));
+const olderItems = publishedNews().filter((i) => !latestSet.has(i.id)).slice(0, 8);
+
+const todayKey = toDateKey(new Date().toISOString());
+const staleDays = latest
+  ? Math.round((Date.parse(`${todayKey}T00:00:00Z`) - Date.parse(`${latest}T00:00:00Z`)) / 86400000)
+  : 0;
+---
+
+<Base locale={locale} path="/">
+  <div class="page-head">
+    <h1>{latest ? formatDateKey(latest, locale) : dict.noUpdate}</h1>
+    <p>{`${latestItems.length} ${dict.items}`}</p>
+  </div>
+
+  {
+    staleDays >= 2 && (
+      <p class="notice">
+        {locale === 'zh' && `距最近一次更新已 ${staleDays} 天，采集任务可能中断，详见运行状态页。`}
+        {locale === 'en' && `${staleDays} days since the last update. The daily job may be failing — see Status.`}
+        {locale === 'es' && `Han pasado ${staleDays} días desde la última actualización. Consulta Estado.`}
+      </p>
+    )
+  }
+
+  {
+    industries.map((industry) => {
+      const items = latestItems.filter((i) => i.industry === industry.slug);
+      return (
+        <section class="section">
+          <div class="section-head">
+            <h2>{industry.name[locale]}</h2>
+            <a href={`/${locale}/${industry.slug}`}>{dict.viewAll} →</a>
+          </div>
+          {items.length > 0 ? (
+            <div class="card-list">
+              {items.map((item) => (
+                <NewsCard item={item} locale={locale} />
+              ))}
+            </div>
+          ) : (
+            <div class="empty">
+              <strong>{dict.noUpdate}</strong>
+              {dict.noUpdateHint}
+            </div>
+          )}
+        </section>
+      );
+    })
+  }
+
+  {
+    olderItems.length > 0 && (
+      <section class="section">
+        <div class="section-head">
+          <h2>{locale === 'zh' ? '更早' : locale === 'en' ? 'Earlier' : 'Anteriores'}</h2>
+          <a href={`/${locale}/archive`}>{dict.archive} →</a>
+        </div>
+        <div class="card-list">
+          {olderItems.map((item) => (
+            <NewsCard item={item} locale={locale} showIndustry />
+          ))}
+        </div>
+      </section>
+    )
+  }
+</Base>

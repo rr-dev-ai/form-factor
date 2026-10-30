@@ -1,0 +1,88 @@
+---
+import Base from '../../layouts/Base.astro';
+import { locales, type Locale } from '../../config/site';
+import { industryName } from '../../config/taxonomy';
+import { loadRuns, publishedNews } from '../../lib/content';
+import { t, formatDate } from '../../lib/i18n';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang } }));
+}
+
+const locale = Astro.params.lang as Locale;
+const dict = t(locale);
+
+const allRuns = loadRuns();
+const total = publishedNews().length;
+
+const shiftDate = (key: string, days: number) => {
+  const d = new Date(`${key}T00:00:00Z`);
+  d.setUTCDate(d.getUTCDate() + days);
+  return d.toISOString().slice(0, 10);
+};
+
+const latestDate = allRuns[0]?.date ?? null;
+const windowStart = latestDate ? shiftDate(latestDate, -6) : null;
+const runs = windowStart ? allRuns.filter((r) => r.date >= windowStart) : [];
+
+const published7 = runs.reduce((sum, r) => sum + r.published, 0);
+const fetched7 = runs.reduce((sum, r) => sum + r.fetched, 0);
+---
+
+<Base locale={locale} path="/status" title={dict.statusTitle}>
+  <div class="page-head">
+    <h1>{dict.statusTitle}</h1>
+    <p>{latestDate && windowStart ? `${windowStart} — ${latestDate}` : dict.noRuns}</p>
+  </div>
+
+  <section class="run">
+    <div class="metrics">
+      <div><b>{published7}</b>{dict.publishedItems}</div>
+      <div><b>{fetched7}</b>{dict.fetched}</div>
+      <div><b>{total}</b>{dict.items} · {dict.total}</div>
+    </div>
+  </section>
+
+  <section class="section">
+    {
+      runs.map((run) => (
+        <div class="run">
+          <div class="run-head">
+            <span class="title">
+              {run.date} · {industryName(run.industry, locale)}
+            </span>
+            <span class="time">
+              {formatDate(run.startedAt, locale, true)} · {Math.round(run.durationMs / 1000)}s
+            </span>
+          </div>
+          <div class="metrics">
+            <div><b>{run.fetched}</b>{dict.fetched}</div>
+            <div><b>{run.afterDedup}</b>{dict.dedup}</div>
+            <div><b>{run.passed}</b>{dict.gate}</div>
+            <div><b>{run.published}</b>{dict.publishedItems}</div>
+          </div>
+          {run.rejected.length > 0 && (
+            <ul class="reject-list">
+              {run.rejected.map((r) => (
+                <li>
+                  {r.title} <span class="reason">— {r.reason}</span>
+                </li>
+              ))}
+            </ul>
+          )}
+          {run.failedSources.length > 0 && (
+            <ul class="reject-list">
+              {run.failedSources.map((f) => (
+                <li>
+                  {f.name} <span class="reason">— {f.stage}: {f.error}</span>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      ))
+    }
+
+    {runs.length === 0 && <div class="empty"><strong>{dict.noRuns}</strong></div>}
+  </section>
+</Base>

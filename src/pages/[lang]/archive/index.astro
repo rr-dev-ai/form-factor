@@ -1,0 +1,71 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { locales, type Locale } from '../../../config/site';
+import { allDateKeys, byDate, groupByMonth, publishedNews } from '../../../lib/content';
+import { t, formatDateKey } from '../../../lib/i18n';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang } }));
+}
+
+const locale = Astro.params.lang as Locale;
+const dict = t(locale);
+
+const months = [...groupByMonth(allDateKeys()).entries()];
+const totalItems = publishedNews().length;
+---
+
+<Base locale={locale} path="/archive" title={dict.archiveTitle}>
+  <div class="page-head">
+    <h1>{dict.archiveTitle}</h1>
+    <p>{`${totalItems} ${dict.items}`}</p>
+  </div>
+
+  <nav class="month-nav" aria-label={dict.archiveTitle}>
+    {
+      months.map(([month]) => (
+        <a href={`#${month}`}>{month}</a>
+      ))
+    }
+  </nav>
+
+  {
+    months.map(([month, dates], index) => (
+      <details class="month-group" id={month} open={index === 0}>
+        <summary>
+          <span class="m">{month}</span>
+          <span class="c">{dates.length}</span>
+        </summary>
+        <div class="rows">
+          {dates.map((date) => (
+            <a class="date-row" href={`/${locale}/archive/${date}`}>
+              <span>{formatDateKey(date, locale)}</span>
+              <span class="count">{byDate(date).length}</span>
+            </a>
+          ))}
+        </div>
+      </details>
+    ))
+  }
+
+  {months.length === 0 && <div class="empty"><strong>{dict.noUpdate}</strong></div>}
+</Base>
+
+<style is:global>
+  details.month-group:target summary {
+    color: var(--accent);
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    function expandFromHash() {
+      var hash = window.location.hash;
+      if (!hash) return;
+      var target = document.querySelector(hash);
+      if (target && target.tagName === 'DETAILS') target.open = true;
+    }
+    expandFromHash();
+    window.addEventListener('hashchange', expandFromHash);
+  })();
+</script>

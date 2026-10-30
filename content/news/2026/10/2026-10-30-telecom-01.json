@@ -1,0 +1,41 @@
+{
+  "id": "2026-10-30-telecom-01",
+  "slug": "philippines-ntc-sim-registration-purge",
+  "industry": "telecom",
+  "tags": ["sim-registration"],
+  "status": "published",
+  "publishedAt": "2026-10-30T03:35:00+08:00",
+  "ingestedAt": "2026-10-30T03:22:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Daily Tribune",
+      "url": "https://tribune.net.ph/2026/10/28/ntc-orders-15-day-dubious-sim-purge",
+      "lang": "en",
+      "publishedAt": "2026-10-28T15:12:00+08:00"
+    },
+    {
+      "name": "Inquirer Business",
+      "url": "https://business.inquirer.net/618566/telcos-told-to-tighten-checks-on-users-with-multiple-sims",
+      "lang": "en",
+      "publishedAt": "2026-10-28T18:40:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "菲律宾要求 15 天内清理超量注册 SIM",
+    "en": "Philippines orders telcos to purge excess registered SIMs in 15 days",
+    "es": "Filipinas ordena depurar SIM registradas en exceso en 15 días"
+  },
+  "summary": {
+    "zh": "监管机构 NTC 要求运营商对单人名下超过 100 张 SIM 的账户重新核验，无法证明本人在用的一律停机，且停机后不可恢复。",
+    "en": "Regulator NTC gives operators 15 days to re-verify subscribers holding more than 100 SIMs under one name and deactivate any that cannot prove continued possession; deactivation is permanent.",
+    "es": "El regulador NTC da 15 días a los operadores para reverificar abonados con más de 100 SIM a su nombre y desactivar las que no puedan demostrar posesión; la baja es permanente."
+  },
+  "whyItMatters": {
+    "zh": "SIM 注册与身份核验第一次被压到 15 天的硬期限内执行，运营商的 KYC 流程与批量停机的幂等设计要同时扛住。",
+    "en": "SIM registration and identity checks now run against a hard 15-day clock, putting pressure on both KYC flows and the idempotency of bulk deactivation.",
+    "es": "El registro de SIM y la verificación de identidad pasan a un plazo fijo de 15 días, exigiendo robustez tanto en el KYC como en la desactivación masiva."
+  },
+  "confidence": 0.88,
+  "ai": { "model": "claude-sonnet-4.5", "promptVersion": "digest-v3", "tokens": 5120, "costUsd": 0.033 }
+}

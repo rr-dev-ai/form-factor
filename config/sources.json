@@ -1,0 +1,1343 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-30",
+  "stats": {
+    "total": 67,
+    "rss": 28,
+    "scrape": 39,
+    "byIndustry": {
+      "identity": 24,
+      "payments": 25,
+      "telecom": 24
+    },
+    "multiIndustry": 4,
+    "disabled": 7
+  },
+  "sources": [
+    {
+      "id": "idemia",
+      "name": "IDEMIA",
+      "url": "https://www.idemia.com",
+      "host": "idemia.com",
+      "industries": [
+        "identity",
+        "payments",
+        "telecom"
+      ],
+      "type": "vendor",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.idemia.com/feed/"
+      },
+      "frequency": "每周",
+      "focus": "证件个性化、边境生物识别、活体与注入攻击防护",
+      "weight": 0.9,
+      "evidenceCount": 3,
+      "enabled": true
+    },
+    {
+      "id": "thales",
+      "name": "Thales",
+      "url": "https://www.thalesgroup.com",
+      "host": "thalesgroup.com",
+      "industries": [
+        "identity",
+        "payments",
+        "telecom"
+      ],
+      "type": "vendor",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.thalesgroup.com",
+        "selector": null
+      },
+      "frequency": "每月",
+      "focus": "护照与驾照签发系统、边境电子闸机与证件阅读器",
+      "weight": 0.9,
+      "evidenceCount": 2,
+      "enabled": true
+    },
+    {
+      "id": "biometric-update",
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com",
+      "host": "biometricupdate.com",
+      "industries": [
+        "identity"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.biometricupdate.com/feed/"
+      },
+      "frequency": "每日多次",
+      "focus": "全球生物识别与数字身份的日更新闻，覆盖招标、标准进展与各国落地",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "esim-report",
+      "name": "eSIM Report",
+      "url": "https://www.esim.report",
+      "host": "esim.report",
+      "industries": [
+        "telecom"
+      ],
+      "type": "blog",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.esim.report",
+        "selector": null
+      },
+      "frequency": "活跃",
+      "focus": "唯一专注 eSIM 产业链的垂直站，规范版本、认证与厂商动向拆得最细",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "etsi",
+      "name": "ETSI",
+      "url": "https://www.etsi.org",
+      "host": "etsi.org",
+      "industries": [
+        "identity",
+        "telecom"
+      ],
+      "type": "standards",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.etsi.org/feed"
+      },
+      "frequency": "每周",
+      "focus": "远程核身（TS 119 461）与 AI 安全技术规范，欧洲合规测试的实际依据",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "fido-alliance",
+      "name": "FIDO Alliance",
+      "url": "https://fidoalliance.org",
+      "host": "fidoalliance.org",
+      "industries": [
+        "identity"
+      ],
+      "type": "association",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://fidoalliance.org/feed/"
+      },
+      "frequency": "每月",
+      "focus": "数字凭证钱包认证、Verifier ID 与凭证方案规范",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": false,
+      "note": "Cloudflare 挑战页"
+    },
+    {
+      "id": "fiserv",
+      "name": "Fiserv",
+      "url": "https://www.fiserv.com",
+      "host": "fiserv.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "vendor",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.fiserv.com",
+        "selector": null
+      },
+      "frequency": "每月数篇",
+      "focus": "收单网关、Clover 终端与发卡处理；Commerce Hub 的整合进度是架构变化指标",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "gsma-newsroom",
+      "name": "GSMA Newsroom",
+      "url": "https://www.gsma.com/newsroom/",
+      "host": "gsma.com",
+      "industries": [
+        "telecom"
+      ],
+      "type": "standards",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.gsma.com/newsroom/feed/"
+      },
+      "frequency": "每周数篇",
+      "focus": "SGP.22/SGP.32/SGP.42 规范与 eSA、SAS 认证的权威发布口",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "id-secure-document-news",
+      "name": "ID & Secure Document News",
+      "url": "https://securedocumentnews.com",
+      "host": "securedocumentnews.com",
+      "industries": [
+        "identity"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://securedocumentnews.com",
+        "selector": null
+      },
+      "frequency": "每周",
+      "focus": "护照与身份证的印制、个性化设备与防伪特征",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "id-tech-findbiometrics",
+      "name": "ID Tech（原 FindBiometrics）",
+      "url": "https://idtechwire.com",
+      "host": "idtechwire.com",
+      "industries": [
+        "identity"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://idtechwire.com/feed/"
+      },
+      "frequency": "每日",
+      "focus": "北美视角的证件、mDL 与机场生物识别快讯，附每日摘要",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": false,
+      "note": "Cloudflare 挑战页"
+    },
+    {
+      "id": "intergraf",
+      "name": "Intergraf",
+      "url": "https://www.intergraf.eu",
+      "host": "intergraf.eu",
+      "industries": [
+        "identity"
+      ],
+      "type": "association",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.intergraf.eu",
+        "selector": null
+      },
+      "frequency": "每年（会议季集中）",
+      "focus": "安全印务与证件产业的年会、认证要求与防伪趋势",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "iot-now",
+      "name": "IoT Now",
+      "url": "https://iot-now.com",
+      "host": "iot-now.com",
+      "industries": [
+        "telecom"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://iot-now.com/feed/"
+      },
+      "frequency": "活跃",
+      "focus": "IoT 侧 eSIM/eUICC 认证、模组与连接平台发布会首发最密集",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "iso-iec-jtc-1-sc-17",
+      "name": "ISO/IEC JTC 1/SC 17",
+      "url": "https://www.iso.org/committee/45144.html",
+      "host": "iso.org",
+      "industries": [
+        "identity"
+      ],
+      "type": "standards",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.iso.org/committee/45144.html",
+        "selector": null
+      },
+      "frequency": "每年全会，工作组全年滚动",
+      "focus": "识别卡与身份识别安全设备，18013、23220、7367 系列的归属委员会",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "keesing-platform",
+      "name": "Keesing Platform",
+      "url": "https://platform.keesingtechnologies.com",
+      "host": "platform.keesingtechnologies.com",
+      "industries": [
+        "identity"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://platform.keesingtechnologies.com/feed/"
+      },
+      "frequency": "每周",
+      "focus": "安全印务与证件防伪技术情报，供应商样证与芯片方案常在此首发",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "kigen",
+      "name": "Kigen",
+      "url": "https://kigen.com",
+      "host": "kigen.com",
+      "industries": [
+        "telecom"
+      ],
+      "type": "vendor",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://kigen.com/feed/"
+      },
+      "frequency": "每周数篇",
+      "focus": "eSIM/iSIM OS 与 eIM，规范版本演进的技术解读最及时",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": false,
+      "note": "空 feed：返回合法 RSS 但 0 条目，需改抓列表页"
+    },
+    {
+      "id": "malaysian-communications-and-multimedia-commission",
+      "name": "Malaysian Communications and Multimedia Commission",
+      "url": "https://www.mcmc.gov.my/en",
+      "host": "mcmc.gov.my",
+      "industries": [
+        "telecom"
+      ],
+      "type": "regulator",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.mcmc.gov.my/en",
+        "selector": null
+      },
+      "frequency": "低频",
+      "focus": "东南亚对旅游 eSIM、境外 IMSI 与永久漫游的监管试验田",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "marqeta",
+      "name": "Marqeta",
+      "url": "https://www.marqeta.com",
+      "host": "marqeta.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "vendor",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.marqeta.com",
+        "selector": null
+      },
+      "frequency": "每月 2–4 篇",
+      "focus": "现代发卡处理平台，商户卡与稳定币卡的项目制迁移首选观察对象",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "mastercard-newsroom",
+      "name": "Mastercard Newsroom",
+      "url": "https://www.mastercard.com/news/",
+      "host": "mastercard.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "scheme",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.mastercard.com/news/",
+        "selector": null
+      },
+      "frequency": "每周数篇（按区域分站）",
+      "focus": "令牌化、Click to Pay 与稳定币结算的落地进展，区域稿分散在各市场站点",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "nist",
+      "name": "NIST",
+      "url": "https://www.nist.gov",
+      "host": "nist.gov",
+      "industries": [
+        "identity"
+      ],
+      "type": "standards",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.nist.gov/news-events/news/rss.xml"
+      },
+      "frequency": "每月",
+      "focus": "SP 800-63-4 身份保证级别、生物识别测试方法与一致性准则",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "payments-dive",
+      "name": "Payments Dive",
+      "url": "https://www.paymentsdive.com",
+      "host": "paymentsdive.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.paymentsdive.com/feeds/news/"
+      },
+      "frequency": "工作日每日 2–4 篇",
+      "focus": "美国收单、发卡与监管诉讼的一线报道，规则变更落地影响写得最实",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "pci-security-standards-council",
+      "name": "PCI Security Standards Council",
+      "url": "https://www.pcisecuritystandards.org",
+      "host": "pcisecuritystandards.org",
+      "industries": [
+        "payments"
+      ],
+      "type": "standards",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.pcisecuritystandards.org",
+        "selector": null
+      },
+      "frequency": "每月 1–2 篇公告",
+      "focus": "MPoC/PTS/PIN 等终端与 SoftPOS 安全标准的唯一权威源；/feed 结构合法但条目为空，实际需盯公告页",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "reserve-bank-of-australia-payments",
+      "name": "Reserve Bank of Australia — Payments",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/",
+      "host": "rba.gov.au",
+      "industries": [
+        "payments"
+      ],
+      "type": "regulator",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.rba.gov.au/rss/rss-cb-media-releases.xml"
+      },
+      "frequency": "每月数篇（支付专题更少）",
+      "focus": "交换费上限、附加费与受理规则的原始裁定方，结论文件比媒体解读更准",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "telecoms-com",
+      "name": "Telecoms.com",
+      "url": "https://www.telecoms.com",
+      "host": "telecoms.com",
+      "industries": [
+        "telecom"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.telecoms.com",
+        "selector": null
+      },
+      "frequency": "活跃",
+      "focus": "欧洲视角的运营商战略与监管，IoT eSIM 商用案例跟进快",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "uk-government-digital-service",
+      "name": "UK Government Digital Service",
+      "url": "https://www.gov.uk/government/organisations/government-digital-service",
+      "host": "gov.uk",
+      "industries": [
+        "identity"
+      ],
+      "type": "regulator",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.gov.uk/government/organisations/government-digital-service",
+        "selector": null
+      },
+      "frequency": "每月",
+      "focus": "GOV.UK One Login、GOV.UK Wallet 与数字驾照沙盒",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "veridos",
+      "name": "Veridos",
+      "url": "https://www.veridos.com",
+      "host": "veridos.com",
+      "industries": [
+        "identity"
+      ],
+      "type": "vendor",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.veridos.com",
+        "selector": null
+      },
+      "frequency": "每月",
+      "focus": "护照材料、安全印务、个性化与移动 ID",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "visa-newsroom",
+      "name": "Visa Newsroom",
+      "url": "https://usa.visa.com/about-visa/newsroom.html",
+      "host": "usa.visa.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "scheme",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://usa.visa.com/about-visa/newsroom.html",
+        "selector": null
+      },
+      "frequency": "每周 1–3 篇",
+      "focus": "卡组织产品与网络扩张的一手发布；规则手册本身不在新闻室，需另找商户侧解读",
+      "weight": 0.9,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "cen-cenelec",
+      "name": "CEN-CENELEC",
+      "url": "https://www.cencenelec.eu",
+      "host": "cencenelec.eu",
+      "industries": [
+        "identity"
+      ],
+      "type": "standards",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.cencenelec.eu",
+        "selector": null
+      },
+      "frequency": "每月",
+      "focus": "欧洲标准，含 CEN/TS 18099 注入攻击检测框架",
+      "weight": 0.8,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "european-banking-authority",
+      "name": "European Banking Authority",
+      "url": "https://www.eba.europa.eu",
+      "host": "eba.europa.eu",
+      "industries": [
+        "payments"
+      ],
+      "type": "regulator",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.eba.europa.eu/rss.xml"
+      },
+      "frequency": "每周 1–2 篇",
+      "focus": "EU 强客户认证、PSD 系列与跨境支付监管口径，决定令牌化与收单的合规边界",
+      "weight": 0.8,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "european-commission-digital-strategy",
+      "name": "European Commission – Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu",
+      "host": "digital-strategy.ec.europa.eu",
+      "industries": [
+        "identity"
+      ],
+      "type": "regulator",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://digital-strategy.ec.europa.eu/en/rss.xml"
+      },
+      "frequency": "每月",
+      "focus": "EUDI 钱包实施法案、年龄验证蓝图与成员国部署进度",
+      "weight": 0.8,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "fcc",
+      "name": "FCC",
+      "url": "https://www.fcc.gov",
+      "host": "fcc.gov",
+      "industries": [
+        "telecom"
+      ],
+      "type": "regulator",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.fcc.gov",
+        "selector": null
+      },
+      "frequency": "活跃",
+      "focus": "SIM 换卡与携转反欺诈规则（47 CFR 64.2010(h)/52.37）、设备认证与号码资源",
+      "weight": 0.8,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "gcf",
+      "name": "GCF",
+      "url": "https://www.globalcertificationforum.org/",
+      "host": "globalcertificationforum.org",
+      "industries": [
+        "telecom"
+      ],
+      "type": "standards",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.globalcertificationforum.org/",
+        "selector": null
+      },
+      "frequency": "低频",
+      "focus": "终端一致性认证，eSIM 与 SGP.32 测试用例进入运营商入库的前置条件",
+      "weight": 0.8,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "icao",
+      "name": "ICAO",
+      "url": "https://www.icao.int",
+      "host": "icao.int",
+      "industries": [
+        "identity"
+      ],
+      "type": "standards",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.icao.int",
+        "selector": null
+      },
+      "frequency": "不定期",
+      "focus": "DTC、PKD 与 Doc 9303 的规范文本、理事会决议与 TRIP 会议",
+      "weight": 0.8,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "ofcom",
+      "name": "Ofcom",
+      "url": "https://www.ofcom.org.uk",
+      "host": "ofcom.org.uk",
+      "industries": [
+        "telecom"
+      ],
+      "type": "regulator",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.ofcom.org.uk",
+        "selector": null
+      },
+      "frequency": "活跃",
+      "focus": "英国电信安全法规（TSA）中的 eSIM 威胁缓解措施与携号转网规则",
+      "weight": 0.8,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "trai",
+      "name": "TRAI",
+      "url": "https://trai.gov.in",
+      "host": "trai.gov.in",
+      "industries": [
+        "telecom"
+      ],
+      "type": "regulator",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://trai.gov.in",
+        "selector": null
+      },
+      "frequency": "每周数篇",
+      "focus": "M2M eSIM 本地化配置、KYC 与携转反欺诈规则的主要来源",
+      "weight": 0.8,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "trusted-connectivity-alliance",
+      "name": "Trusted Connectivity Alliance",
+      "url": "https://trustedconnectivityalliance.org/",
+      "host": "trustedconnectivityalliance.org",
+      "industries": [
+        "telecom"
+      ],
+      "type": "standards",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://trustedconnectivityalliance.org/feed/"
+      },
+      "frequency": "低频",
+      "focus": "原 SIMalliance，eUICC 安全评估与卡端产业立场",
+      "weight": 0.8,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "tsa-digital-id",
+      "name": "TSA Digital ID",
+      "url": "https://www.tsa.gov/digital-id",
+      "host": "tsa.gov",
+      "industries": [
+        "identity"
+      ],
+      "type": "regulator",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.tsa.gov/digital-id",
+        "selector": null
+      },
+      "frequency": "不定期",
+      "focus": "美国 mDL 与数字护照在机场安检的受理州与钱包清单",
+      "weight": 0.8,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "aamva",
+      "name": "AAMVA",
+      "url": "https://www.aamva.org",
+      "host": "aamva.org",
+      "industries": [
+        "identity"
+      ],
+      "type": "association",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.aamva.org",
+        "selector": null
+      },
+      "frequency": "每月",
+      "focus": "美国 mDL 与 Digital Trust Service 规则、州 DMV 实施口径",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "adyen",
+      "name": "Adyen",
+      "url": "https://www.adyen.com",
+      "host": "adyen.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "vendor",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.adyen.com",
+        "selector": null
+      },
+      "frequency": "每月数篇",
+      "focus": "单栈收单与平台化的基准，线下受理与 agentic checkout 的产品化进度看这里",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "american-banker",
+      "name": "American Banker",
+      "url": "https://www.americanbanker.com",
+      "host": "americanbanker.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.americanbanker.com",
+        "selector": null
+      },
+      "frequency": "每日多更",
+      "focus": "美国银行与卡组织高管表态、发卡侧策略；多数深度稿件在付费墙内",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "american-express-newsroom",
+      "name": "American Express Newsroom",
+      "url": "https://www.americanexpress.com/en-us/newsroom/",
+      "host": "americanexpress.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "scheme",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.americanexpress.com/en-us/newsroom/",
+        "selector": null
+      },
+      "frequency": "每周数篇",
+      "focus": "三方卡组织的受理与联名卡策略，是观察非 RBA 监管侧规则变化的窗口",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "bundesdruckerei",
+      "name": "Bundesdruckerei",
+      "url": "https://www.bundesdruckerei.de",
+      "host": "bundesdruckerei.de",
+      "industries": [
+        "identity"
+      ],
+      "type": "vendor",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.bundesdruckerei.de",
+        "selector": null
+      },
+      "frequency": "每月",
+      "focus": "德国身份证与护照印制、后量子证件试验",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "celent",
+      "name": "Celent",
+      "url": "https://www.celent.com",
+      "host": "celent.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "analyst",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.celent.com",
+        "selector": null
+      },
+      "frequency": "每月数篇",
+      "focus": "发卡与收单技术栈的厂商能力评估，适合判断平台取舍而非追新闻",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "deutsche-telekom",
+      "name": "Deutsche Telekom",
+      "url": "https://www.telekom.com/en",
+      "host": "telekom.com",
+      "industries": [
+        "telecom"
+      ],
+      "type": "operator",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.telekom.com/en",
+        "selector": null
+      },
+      "frequency": "每周数篇",
+      "focus": "欧洲最大运营商的 eSIM 开通流程与旅行 eSIM 产品（T-Travel）",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "fierce-network",
+      "name": "Fierce Network",
+      "url": "https://www.fierce-network.com",
+      "host": "fierce-network.com",
+      "industries": [
+        "telecom"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.fierce-network.com/rss/xml"
+      },
+      "frequency": "活跃",
+      "focus": "美国运营商业务与政策解读，SIM 换卡欺诈、号码治理报道多",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "finextra",
+      "name": "Finextra",
+      "url": "https://www.finextra.com",
+      "host": "finextra.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.finextra.com/rss/headlines.aspx"
+      },
+      "frequency": "每日多更",
+      "focus": "欧洲视角的支付与银行科技快讯，厂商新闻稿密度高，适合抓首发时间点",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": false,
+      "note": "Cloudflare 挑战页，curl 与 fetch 均返回 HTML"
+    },
+    {
+      "id": "fis",
+      "name": "FIS",
+      "url": "https://www.fisglobal.com",
+      "host": "fisglobal.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "vendor",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.fisglobal.com",
+        "selector": null
+      },
+      "frequency": "每月数篇",
+      "focus": "发卡处理与核心银行侧能力，需与 Fiserv 对照看美国发卡/收单双寡头",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "giesecke-devrient",
+      "name": "Giesecke+Devrient",
+      "url": "https://www.gi-de.com",
+      "host": "gi-de.com",
+      "industries": [
+        "identity",
+        "payments"
+      ],
+      "type": "vendor",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.gi-de.com",
+        "selector": null
+      },
+      "frequency": "每月",
+      "focus": "证件芯片、安全纸与后量子密码迁移",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "hid-global",
+      "name": "HID Global",
+      "url": "https://www.hidglobal.com",
+      "host": "hidglobal.com",
+      "industries": [
+        "identity"
+      ],
+      "type": "vendor",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.hidglobal.com",
+        "selector": null
+      },
+      "frequency": "每月",
+      "focus": "证件个性化设备、发卡系统与政府 ID 项目交付",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "ibia",
+      "name": "IBIA",
+      "url": "https://www.ibia.org",
+      "host": "ibia.org",
+      "industries": [
+        "identity"
+      ],
+      "type": "association",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.ibia.org/feed"
+      },
+      "frequency": "每月",
+      "focus": "生物识别行业立场、机场与边境部署数据",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": false,
+      "note": "域名无法解析或已下线"
+    },
+    {
+      "id": "infineon",
+      "name": "Infineon",
+      "url": "https://www.infineon.com",
+      "host": "infineon.com",
+      "industries": [
+        "telecom"
+      ],
+      "type": "vendor",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.infineon.com",
+        "selector": null
+      },
+      "frequency": "每周数篇",
+      "focus": "TEGRION SLx22 安全控制器，eSIM 芯片底座的实际供给方",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "javelin-strategy-research",
+      "name": "Javelin Strategy & Research",
+      "url": "https://www.javelinstrategy.com",
+      "host": "javelinstrategy.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "analyst",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.javelinstrategy.com",
+        "selector": null
+      },
+      "frequency": "每月数篇",
+      "focus": "发卡侧欺诈、数字身份与账户接管研究，偏美国零售银行",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "light-reading",
+      "name": "Light Reading",
+      "url": "https://www.lightreading.com",
+      "host": "lightreading.com",
+      "industries": [
+        "telecom"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.lightreading.com/rss.xml"
+      },
+      "frequency": "活跃",
+      "focus": "北美运营商网络与平台层，eSIM 平台与核心网改造报道偏技术",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "mobile-europe",
+      "name": "Mobile Europe",
+      "url": "https://www.mobileeurope.co.uk",
+      "host": "mobileeurope.co.uk",
+      "industries": [
+        "telecom"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.mobileeurope.co.uk/feed/"
+      },
+      "frequency": "每周数篇",
+      "focus": "欧洲移动市场半月刊式报道，侧重 MVNO 与 eSIM 分销模式",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "mobile-world-live",
+      "name": "Mobile World Live",
+      "url": "https://www.mobileworldlive.com",
+      "host": "mobileworldlive.com",
+      "industries": [
+        "telecom"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.mobileworldlive.com/feed/"
+      },
+      "frequency": "活跃",
+      "focus": "GSMA 旗下日更媒体，运营商 eSIM 商用进展与 Topic Hub 聚合最全",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "nfc-world",
+      "name": "NFC World",
+      "url": "https://www.nfcw.com",
+      "host": "nfcw.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.nfcw.com/feed/"
+      },
+      "frequency": "每周 1–3 篇",
+      "focus": "非接、SoftPOS、交通与穿戴支付的终端侧细节，更新慢但技术颗粒度最高",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": false,
+      "note": "Cloudflare 挑战页，需浏览器渲染"
+    },
+    {
+      "id": "nilson-report",
+      "name": "Nilson Report",
+      "url": "https://nilsonreport.com",
+      "host": "nilsonreport.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "analyst",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://nilsonreport.com/feed/"
+      },
+      "frequency": "每周 1–2 次",
+      "focus": "卡量、交易额与发卡产业链口径的基准数据；正文订阅付费，RSS 只给标题",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": false,
+      "note": "Cloudflare 挑战页"
+    },
+    {
+      "id": "payments-cards-mobile",
+      "name": "Payments Cards & Mobile",
+      "url": "https://www.paymentscardsandmobile.com",
+      "host": "paymentscardsandmobile.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.paymentscardsandmobile.com/feed/"
+      },
+      "frequency": "每日 2–5 篇",
+      "focus": "英国与欧洲的卡、POS 与监管动态，含央行与标准类短讯",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "pymnts",
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com",
+      "host": "pymnts.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.pymnts.com/feed/"
+      },
+      "frequency": "每日十余篇",
+      "focus": "商户侧受理、钱包与 agentic commerce 的量大快讯，噪音也多",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "rcr-wireless-news",
+      "name": "RCR Wireless News",
+      "url": "https://www.rcrwireless.com",
+      "host": "rcrwireless.com",
+      "industries": [
+        "telecom"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.rcrwireless.com/feed"
+      },
+      "frequency": "活跃",
+      "focus": "北美无线产业，芯片与模组侧的 eSIM/iSIM 设计导入较多",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "secure-identity-alliance",
+      "name": "Secure Identity Alliance",
+      "url": "https://secureidentityalliance.org",
+      "host": "secureidentityalliance.org",
+      "industries": [
+        "identity"
+      ],
+      "type": "association",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://secureidentityalliance.org",
+        "selector": null
+      },
+      "frequency": "每季",
+      "focus": "OSIA 开放标准与政府数字 ID 生态的中立协调",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "secureidnews",
+      "name": "SecureIDNews",
+      "url": "https://www.secureidnews.com",
+      "host": "secureidnews.com",
+      "industries": [
+        "identity"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.secureidnews.com",
+        "selector": null
+      },
+      "frequency": "每周",
+      "focus": "政府证件签发、驾照主管机构与身份核验项目的深度报道",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "stripe-newsroom",
+      "name": "Stripe Newsroom",
+      "url": "https://stripe.com/newsroom",
+      "host": "stripe.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "vendor",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://stripe.com/newsroom",
+        "selector": null
+      },
+      "frequency": "每月数篇",
+      "focus": "Stripe Issuing/Treasury 与 agent 钱包，是发卡即 API 路线的基准",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "telef-nica",
+      "name": "Telefónica",
+      "url": "https://www.telefonica.com/en",
+      "host": "telefonica.com",
+      "industries": [
+        "telecom"
+      ],
+      "type": "operator",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.telefonica.com/en/feed/"
+      },
+      "frequency": "每周数篇",
+      "focus": "Telefónica Tech 的 SGP.32 平台与批发侧 eSIM 能力",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "the-paypers",
+      "name": "The Paypers",
+      "url": "https://thepaypers.com",
+      "host": "thepaypers.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://thepaypers.com",
+        "selector": null
+      },
+      "frequency": "每日 5–10 篇",
+      "focus": "欧洲支付与发卡平台的项目制落地新闻，稳定币发卡线尤其全；站点有 Cookie 墙，RSS 未取到",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "total-telecom",
+      "name": "Total Telecom",
+      "url": "https://www.totaltele.com",
+      "host": "totaltele.com",
+      "industries": [
+        "telecom"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.totaltele.com/rss"
+      },
+      "frequency": "每周数篇",
+      "focus": "全球运营商动态，欧洲与中东 eSIM 商用发布常在此首发",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "vodafone",
+      "name": "Vodafone",
+      "url": "https://www.vodafone.com",
+      "host": "vodafone.com",
+      "industries": [
+        "telecom"
+      ],
+      "type": "operator",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.vodafone.com",
+        "selector": null
+      },
+      "frequency": "每周数篇",
+      "focus": "旅行 eSIM 与 IoT eSIM 商用，欧洲与非洲双市场",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "worldpay",
+      "name": "Worldpay",
+      "url": "https://www.worldpay.com",
+      "host": "worldpay.com",
+      "industries": [
+        "payments"
+      ],
+      "type": "vendor",
+      "fetch": {
+        "kind": "scrape",
+        "url": "https://www.worldpay.com",
+        "selector": null
+      },
+      "frequency": "每月数篇",
+      "focus": "大型商户收单与令牌化落地，Visa/Mastercard 新规则的商户侧执行样本",
+      "weight": 0.6,
+      "evidenceCount": 0,
+      "enabled": true
+    }
+  ]
+}

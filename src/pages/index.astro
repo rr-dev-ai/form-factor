@@ -1,0 +1,18 @@
+---
+const target = `${import.meta.env.BASE_URL}zh/`.replace(/\/{2,}/g, '/');
+---
+
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={target} />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Industry Signal</title>
+  </head>
+  <body>
+    <a href={target}>Industry Signal</a>
+  </body>
+</html>

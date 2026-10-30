@@ -1,0 +1,128 @@
+---
+import '../styles/global.css';
+import { industries } from '../config/taxonomy';
+import { site, locales, type Locale } from '../config/site';
+import { t, localeTag } from '../lib/i18n';
+import { href } from '../lib/url';
+
+interface Props {
+  locale: Locale;
+  /** 不含语言前缀的逻辑路径，如 '/'、'/banking'、'/news/xxx' */
+  path: string;
+  title?: string;
+  description?: string;
+}
+
+const { locale, path, title, description } = Astro.props;
+const dict = t(locale);
+const fullTitle = title ? `${title} · ${site.name}` : `${site.name} · ${site.tagline[locale]}`;
+const desc = description ?? site.description[locale];
+const canonical = new URL(href(`/${locale}${path}`), site.baseUrl).toString();
+
+const nav = [
+  { label: dict.home, path: '/' },
+  ...industries.map((i) => ({ label: i.name[locale], path: `/${i.slug}` })),
+  { label: dict.archive, path: '/archive' },
+  { label: dict.status, path: '/status' },
+];
+
+const isCurrent = (target: string) =>
+  target === '/' ? path === '/' : path === target || path.startsWith(`${target}/`);
+---
+
+<!doctype html>
+<html lang={localeTag[locale]} data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script is:inline>
+      (function () {
+        try {
+          var saved = localStorage.getItem('theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.setAttribute(
+            'data-theme',
+            saved || (prefersDark ? 'dark' : 'light')
+          );
+        } catch (e) {
+          /* 保持默认深色，避免首屏闪白 */
+        }
+      })();
+    </script>
+    <title>{fullTitle}</title>
+    <meta name="description" content={desc} />
+    {!site.indexable && <meta name="robots" content="noindex, nofollow" />}
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary" />
+    <link rel="alternate" type="application/rss+xml" title={site.name} href={href('/rss.xml')} />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href={href(`/${locale}/`)}><span>◈</span>{site.name}</a>
+        <nav class="nav" aria-label="primary">
+          {
+            nav.map((item) => (
+              <a
+                href={href(`/${locale}${item.path === '/' ? '/' : item.path}`)}
+                aria-current={isCurrent(item.path) ? 'page' : undefined}
+              >
+                {item.label}
+              </a>
+            ))
+          }
+        </nav>
+        <div class="tools">
+          <a class="icon-btn" href={href(`/${locale}/search`)} aria-label={dict.search} title={dict.search}>
+            ⌕
+          </a>
+          <div class="lang-switch">
+            {
+              locales.map((l) => (
+                <a
+                  href={href(`/${l}${path === '/' ? '/' : path}`)}
+                  aria-current={l === locale ? 'true' : 'false'}
+                  hreflang={l}
+                >
+                  {l.toUpperCase()}
+                </a>
+              ))
+            }
+          </div>
+          <button class="icon-btn" id="theme-toggle" aria-label={dict.theme} title={dict.theme}>
+            ◐
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="wrap">
+        <slot />
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <span>{site.name} · {site.tagline[locale]}</span>
+      </div>
+    </footer>
+
+    <script is:inline>
+      document.getElementById('theme-toggle')?.addEventListener('click', function () {
+        var root = document.documentElement;
+        var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try {
+          localStorage.setItem('theme', next);
+        } catch (e) {}
+      });
+    </script>
+  </body>
+</html>

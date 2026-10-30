@@ -1,0 +1,40 @@
+{
+  "id": "2026-10-30-banking-01",
+  "slug": "visa-credentials-5-2-billion-tokenised",
+  "industry": "banking",
+  "tags": ["tokenization", "issuing"],
+  "status": "published",
+  "publishedAt": "2026-10-30T04:35:00+08:00",
+  "ingestedAt": "2026-10-30T04:12:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Payments Industry Intelligence",
+      "url": "https://paymentsindustryintelligence.com/visa-builds-agentic-commerce-infrastructure-today/",
+      "lang": "en",
+      "publishedAt": "2026-10-29T18:39:00+08:00"
+    },
+    {
+      "name": "Visa Investor Relations",
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-Fiscal-Fourth-Quarter-and-Full-Year-2026-Financial-Results/default.aspx",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "Visa 凭证规模达 52 亿，过半已令牌化",
+    "en": "Visa credentials reach 5.2 billion, over half tokenised",
+    "es": "Las credenciales de Visa llegan a 5.200 millones, más de la mitad tokenizadas"
+  },
+  "summary": {
+    "zh": "Visa 财年末全球凭证基数增至 52 亿，逾半数完成令牌化，电商交易中令牌化凭证占比超过 60%；同时以 Trusted Agent Protocol 试点，让 AI 代理在授权范围内发起支付。",
+    "en": "Visa's global credential base grew to 5.2 billion at fiscal year end, with more than half tokenised and over 60% of e-commerce transactions using tokenised credentials; a Trusted Agent Protocol pilot lets AI agents initiate payments within approved limits.",
+    "es": "La base global de credenciales de Visa alcanzó 5.200 millones al cierre del ejercicio, con más de la mitad tokenizadas y más del 60% del comercio electrónico usándolas; un piloto con Trusted Agent Protocol permite a agentes de IA iniciar pagos dentro de límites aprobados."
+  },
+  "whyItMatters": {
+    "zh": "凭证的载体从塑料转向令牌，受理方要验证的不再是卡号，而是代理的身份与授权范围，鉴权链条随之变长。",
+    "en": "As the carrier shifts from plastic to token, acceptors verify an agent's identity and mandate rather than a card number — the authorisation chain gets longer.",
+    "es": "Al pasar el soporte del plástico al token, el aceptador verifica la identidad y el mandato de un agente, no un número de tarjeta: la cadena de autorización se alarga."
+  },
+  "confidence": 0.86,
+  "ai": { "model": "claude-sonnet-4.5", "promptVersion": "digest-v3", "tokens": 5340, "costUsd": 0.035 }
+}

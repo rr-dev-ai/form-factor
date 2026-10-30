@@ -1,0 +1,30 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.local
+.env.*.local
+
+# 本地工作数据与截图，不进公开仓库
+.workbuddy/
+.tmp/
+
+# 凭据类文件，绝对不提交
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+credentials*.json
+
+# --- 以下只保留在本地，不进远端仓库 ---
+# 需求文档、部署清单、运维编排
+/docs/
+# 来源调研的原始产出
+/research/
+# 给 agent 的项目契约，本地运行时可读，无需公开
+/AGENTS.md
+# 一次性构建工具（源池合并）
+/scripts/build-source-list.mjs

@@ -1,0 +1,42 @@
+[
+  {
+    "date": "2026-10-30",
+    "industry": "telecom",
+    "startedAt": "2026-10-30T03:10:00+08:00",
+    "durationMs": 312000,
+    "fetched": 15,
+    "afterDedup": 8,
+    "passed": 3,
+    "published": 3,
+    "rejected": [
+      {
+        "title": "中国移动提前完成 eSIM 服务布局",
+        "reason": "光明网标注为商业信息，属渠道营销稿"
+      },
+      {
+        "title": "三大运营商获 eSIM 手机商用试验批复",
+        "reason": "事件发生于 10-13，超出 72 小时时效窗口"
+      },
+      {
+        "title": "SoSIM now fully supports eSIM",
+        "reason": "9 月 24 日旧闻，非本周增量"
+      },
+      {
+        "title": "eSIM Industry News Roundup: September 2026",
+        "reason": "月度综述，非单一事件"
+      },
+      {
+        "title": "Cell C / Telkom / rain Black Friday",
+        "reason": "资费促销，无技术要素"
+      }
+    ],
+    "failedSources": [
+      {
+        "name": "lightreading.com / mobileworldlive.com / telecoms.com",
+        "stage": "fetch",
+        "error": "域名限定检索返回 0 条结果，疑似索引未覆盖，需改用 RSS"
+      }
+    ],
+    "costUsd": 0.089
+  }
+]

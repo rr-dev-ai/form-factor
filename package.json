@@ -1,0 +1,25 @@
+{
+  "name": "industry-signal",
+  "version": "0.1.0",
+  "description": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@astrojs/rss": "^4.0.19",
+    "astro": "^7.4.1",
+    "cheerio": "^1.2.0",
+    "minisearch": "^7.2.0",
+    "zod": "^4.6.7"
+  },
+  "private": true,
+  "type": "module"
+}

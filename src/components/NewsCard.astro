@@ -1,0 +1,30 @@
+---
+import type { NewsItem } from '../lib/schema';
+import type { Locale } from '../config/site';
+import { t, formatDate } from '../lib/i18n';
+import { industryName, tagName } from '../config/taxonomy';
+import { href } from '../lib/url';
+
+interface Props {
+  item: NewsItem;
+  locale: Locale;
+  showIndustry?: boolean;
+}
+
+const { item, locale, showIndustry = false } = Astro.props;
+const dict = t(locale);
+---
+
+<a class="card" href={href(`/${locale}/news/${item.slug}`)}>
+  <div class="card-meta">
+    {showIndustry && <span>{industryName(item.industry, locale)}</span>}
+    <span>{formatDate(item.publishedAt, locale)}</span>
+    <span aria-hidden="true">·</span>
+    <span class="src-count">{item.sources.length} {dict.sources.toLowerCase()}</span>
+  </div>
+  <h3 class="card-title">{item.title[locale]}</h3>
+  <p class="card-summary">{item.summary[locale]}</p>
+  <div class="card-foot">
+    {item.tags.slice(0, 4).map((tag) => <span class="tag">{tagName(tag, locale)}</span>)}
+  </div>
+</a>
