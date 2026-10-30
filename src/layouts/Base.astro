@@ -79,8 +79,16 @@ const isCurrent = (target: string) =>
           }
         </nav>
         <div class="tools">
-          <a class="icon-btn" href={href(`/${locale}/search`)} aria-label={dict.search} title={dict.search}>
-            ⌕
+          <a
+            class="icon-btn icon-btn--search"
+            href={href(`/${locale}/search`)}
+            aria-label={dict.search}
+            title={dict.search}
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="10.5" cy="10.5" r="6.6"></circle>
+              <path d="M15.4 15.4 20.2 20.2"></path>
+            </svg>
           </a>
           <div class="lang-switch">
             {
@@ -95,8 +103,16 @@ const isCurrent = (target: string) =>
               ))
             }
           </div>
-          <button class="icon-btn" id="theme-toggle" aria-label={dict.theme} title={dict.theme}>
-            ◐
+          <button
+            class="icon-btn icon-btn--theme"
+            id="theme-toggle"
+            aria-label={dict.theme}
+            title={dict.theme}
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="8"></circle>
+              <path class="half" d="M12 4a8 8 0 0 0 0 16z"></path>
+            </svg>
           </button>
         </div>
       </div>

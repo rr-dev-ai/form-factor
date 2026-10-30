@@ -21,6 +21,9 @@
 
   --w: 880px;
   --radius: 10px;
+  --radius-sm: 6px;
+  /* 头部控件统一尺寸：搜索、语言、主题三种控件同高同圆角 */
+  --ctl: 28px;
 }
 
 [data-theme='dark'] {
@@ -111,6 +114,7 @@ button {
   font-size: 17px;
   letter-spacing: -0.01em;
   white-space: nowrap;
+  flex: none;
 }
 
 .brand span {
@@ -147,22 +151,32 @@ button {
   align-items: center;
   gap: 6px;
   font-size: 12px;
+  flex: none;
 }
 
 .lang-switch {
   display: flex;
+  align-items: stretch;
   gap: 2px;
+  height: var(--ctl);
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   padding: 2px;
 }
 
 .lang-switch a {
-  padding: 1px 6px;
+  display: grid;
+  place-items: center;
+  padding: 0 7px;
   border-radius: 4px;
   color: var(--text-3);
   font-size: 11px;
+  line-height: 1;
   letter-spacing: 0.02em;
+}
+
+.lang-switch a:hover {
+  color: var(--text);
 }
 
 .lang-switch a[aria-current='true'] {
@@ -171,14 +185,29 @@ button {
 }
 
 .icon-btn {
-  width: 28px;
-  height: 28px;
+  width: var(--ctl);
+  height: var(--ctl);
   display: grid;
   place-items: center;
-  border-radius: 6px;
+  padding: 0;
+  border-radius: var(--radius-sm);
   border: 1px solid var(--border);
   color: var(--text-2);
-  font-size: 13px;
+  line-height: 1;
+}
+
+.icon-btn svg {
+  width: 15px;
+  height: 15px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+}
+
+.icon-btn svg .half {
+  fill: currentColor;
+  stroke: none;
 }
 
 .icon-btn:hover {
@@ -648,21 +677,38 @@ a.tag:hover {
   flex-wrap: wrap;
 }
 
-@media (max-width: 640px) {
+/* 窄屏：导航独占一行，控件不再与品牌、导航争宽度 */
+@media (max-width: 820px) {
   .wrap {
     padding: 0 18px;
   }
   .header-inner {
-    height: 52px;
-    gap: 12px;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 8px 18px 5px;
+    gap: 2px 10px;
   }
   .brand {
+    order: 1;
     font-size: 15px;
   }
+  .tools {
+    order: 2;
+    margin-left: auto;
+  }
   .nav {
-    gap: 12px;
+    order: 3;
+    flex: 1 1 100%;
+    min-width: 0;
+    gap: 14px;
     font-size: 12px;
   }
+  .nav a {
+    padding: 2px 0;
+  }
+}
+
+@media (max-width: 640px) {
   .page-head h1,
   .article-head h1 {
     font-size: 24px;
