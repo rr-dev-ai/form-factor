@@ -1,0 +1,98 @@
+{
+  "id": "2026-10-26-telecom-01",
+  "slug": "karnataka-high-court-sim-inventory-reconciliation",
+  "industry": "telecom",
+  "tags": [
+    "sim-registration",
+    "fraud"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-26T03:35:00+08:00",
+  "ingestedAt": "2026-10-26T03:15:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Verdictum（判决要点）",
+      "url": "https://www.verdictum.in/karnataka-high-court/mallikarjuna-v-state-of-karnataka-2026khc54091-unauthorised-sim-cards-1624522",
+      "lang": "en",
+      "publishedAt": "2026-10-23T04:30:00+08:00"
+    },
+    {
+      "name": "Deccan Herald（同期 SIM box 案）",
+      "url": "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fbengaluru%2Fcyber-command-busts-illegal-sim-box-network-linked-to-cybercrimes-in-bengaluru-4191588",
+      "lang": "en",
+      "publishedAt": "2026-10-25T18:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "印度法院把 SIM 的「领了多少、激活多少」变成对账义务",
+    "en": "Indian court turns SIM stock and activation into a reconciliation duty",
+    "es": "Un tribunal indio convierte el inventario de SIM en obligación de conciliación"
+  },
+  "summary": {
+    "zh": "卡纳塔克邦高等法院 10 月 23 日驳回一名 Jio 促销员的撤案申请，同时要求运营商建立对账系统：把发给分销商的 SIM 数量与售出、退回、激活的数量对起来，11 月 27 日报告合规进展。",
+    "en": "The Karnataka High Court dismissed a Jio promoter's plea on 23 October and ordered carriers to reconcile SIMs issued to distributors against those sold, returned or activated, reporting compliance on 27 November.",
+    "es": "El Tribunal Superior de Karnataka desestimó el recurso de un promotor de Jio y ordenó a los operadores conciliar las SIM entregadas a distribuidores con las vendidas, devueltas o activadas, con informe el 27 de noviembre."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "案子的起点很小：一名 Jio 促销员被指从买卡的顾客手里拿到 Aadhaar 号和照片，用别人的身份激活 SIM，警方查获 55 张 Jio 加 20 张 Vodafone 已激活、却登记在他人名下的卡。法院驳回了他的撤案申请，但把个案上升成了系统性审查。",
+        "en": "The case started small: a Jio promoter allegedly collected Aadhaar numbers and photos from customers and activated SIMs in other people's names. Police seized 55 Jio and 20 Vodafone SIMs, active but registered to someone else. The court refused to quash the case and turned it into a systemic review.",
+        "es": "El caso empezó pequeño: un promotor de Jio habría tomado números de Aadhaar y fotos de clientes para activar SIM a nombre de otros. La policía incautó 55 SIM de Jio y 20 de Vodafone activas a nombre ajeno. El tribunal rechazó archivar y lo convirtió en revisión sistémica."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "对账：运营商要把「发给促销员与分销商的 SIM 数量」与「售出、退回、注销或另行处置的数量」对起来，找出领卡量与激活量之间说不清的差额",
+          "en": "Reconciliation: carriers must match SIMs issued to promoters and distributors against those sold, returned, cancelled or otherwise disposed of, flagging unexplained gaps",
+          "es": "Conciliación: los operadores deben casar las SIM entregadas a promotores y distribuidores con las vendidas, devueltas, canceladas o dispuestas, señalando diferencias sin explicar"
+        },
+        {
+          "zh": "异常检测：系统要能识别某个中介、网点或渠道的重复激活、异常激活",
+          "en": "Anomaly detection: systems must flag repeated or unusual activations at a given intermediary, outlet or channel",
+          "es": "Detección de anomalías: señalar activaciones repetidas o inusuales en un intermediario, punto o canal"
+        },
+        {
+          "zh": "渠道治理：审查促销员与分销商的委任、授权、监督，以及未激活卡的保管、领用与退回登记",
+          "en": "Channel governance: review how promoters and distributors are appointed, authorised and supervised, plus custody and return logs for inactive cards",
+          "es": "Gobierno de canal: revisar nombramiento, autorización y supervisión, además del registro de custodia y devolución de tarjetas inactivas"
+        },
+        {
+          "zh": "客户救济：受理冒名激活的投诉并纠正，主动通知受影响用户；同时明确不得据此进行无差别监控或违法披露个人信息",
+          "en": "Remedies: handle and correct impersonation complaints, notify affected users, with an explicit bar on indiscriminate surveillance or unlawful data disclosure",
+          "es": "Remedios: atender y corregir reclamaciones por suplantación, avisar a los afectados y prohibir expresamente la vigilancia indiscriminada"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "法院的关键表述值得记住：SIM 卡不只是接入网络的设备，还是建立数字身份、接收验证码、注册账号、与金融机构通信的工具。这句话把「实名制」从登记环节推到了「登记之后」——谁在持有、这张卡从出厂到激活中间去了哪里。",
+        "en": "The court's key line is worth keeping: a SIM is not just a device for accessing a network but a tool for building digital identity, receiving one-time codes, registering accounts and talking to financial institutions. That pushes registration past the counter into what happens afterwards — who holds the card and where it went between factory and activation.",
+        "es": "La frase clave del tribunal merece guardarse: la SIM no solo da acceso a la red, es una herramienta para construir identidad digital, recibir códigos, abrir cuentas y hablar con entidades financieras. Eso empuja el registro más allá del mostrador: quién la tiene y por dónde pasó hasta activarse."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这套逻辑在 eSIM 上没有物理对应物：eSIM 配置不进仓库、不经分销商，领用与退回无从谈起。要等价监管，只能落到发卡平台的下载次数与设备绑定记录上。这也解释了为什么实体卡转 eSIM 会变成黑产的一个产业环节。",
+        "en": "None of that logic has a physical counterpart on eSIM: profiles do not sit in a warehouse or pass through a distributor, so issue-and-return logs have no meaning. Equivalent oversight would have to land on download counts and device-binding records at the provisioning platform — which is exactly why converting physical SIMs into eSIM profiles became an industrial step for fraud.",
+        "es": "Esa lógica no tiene equivalente físico en la eSIM: el perfil no pasa por almacén ni distribuidor, así que los registros de entrega y devolución no existen. Un control equivalente tendría que recaer en los conteos de descarga y los vínculos con el dispositivo, y por eso convertir SIM físicas en perfiles eSIM se volvió un paso industrial del fraude."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "监管义务第一次压到「卡从出厂到激活之间那一段的数量闭环」，而这恰好是 eSIM 化之后会消失的控制点。",
+    "en": "Obligation lands for the first time on the count between factory and activation — precisely the checkpoint that disappears with eSIM.",
+    "es": "La obligación recae por primera vez en el conteo entre fábrica y activación, justo el control que desaparece con la eSIM."
+  },
+  "confidence": 0.85,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

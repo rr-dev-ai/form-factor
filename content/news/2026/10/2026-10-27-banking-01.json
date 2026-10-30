@@ -1,0 +1,79 @@
+{
+  "id": "2026-10-27-banking-01",
+  "slug": "wero-netherlands-ecommerce-live",
+  "industry": "banking",
+  "tags": [
+    "digital-wallet",
+    "payment-gateway"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-27T04:35:00+08:00",
+  "ingestedAt": "2026-10-27T04:12:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "EPI Company",
+      "url": "https://epicompany.eu/media-insights/epi-company-initiates-wero-roll-out-in-the-netherlands",
+      "lang": "en",
+      "publishedAt": "2026-10-26T20:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "Wero 在荷兰开出网店支付，iDEAL 进入两年迁移期",
+    "en": "Wero opens at Dutch online checkout, starting iDEAL's two-year exit",
+    "es": "Wero llega al pago online neerlandés y arranca la salida de iDEAL"
+  },
+  "summary": {
+    "zh": "荷兰 11 家银行自 10 月 26 日起在网店结账支持 Wero，商户可跟着自己用的支付服务商分批迁移，目标 2027 年底把 iDEAL 全部换掉；订阅与货到付款要等到 2027 年第二季度。",
+    "en": "Eleven Dutch banks now offer Wero at online checkout from 26 October. Merchants migrate at their own pace, with iDEAL fully retired by end-2027; subscriptions and pay-on-delivery only arrive in Q2 2027.",
+    "es": "Once bancos neerlandeses ya ofrecen Wero en el pago online desde el 26 de octubre. Los comercios migran a su ritmo y iDEAL desaparecerá a finales de 2027; las suscripciones llegan en el segundo trimestre de 2027."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "荷兰人在网上下单，最常用的付款方式一直是 iDEAL：在银行 App 里点一下确认，钱直接从账户划走。现在这套要整体换成 Wero。10 月 26 日起，荷兰 11 家参与银行的客户可以在网店结账时直接选 Wero，覆盖 ABN AMRO、ING、Rabobank、bunq、Triodos 等主要银行。商户不必同一时间切换，可以跟着自己用的支付服务商走，整体目标是在 2027 年底前把 iDEAL 迁移完成。荷兰大约涉及 1,500 万消费者。",
+        "en": "For years the Dutch have paid online with iDEAL: one tap in the banking app and the money leaves the account. That is now being replaced wholesale by Wero. From 26 October, customers of eleven Dutch banks can choose Wero at online checkout, including ABN AMRO, ING, Rabobank, bunq and Triodos. Merchants do not have to switch at once — they can move at the pace of their payment service provider, with iDEAL fully retired by the end of 2027. Around 15 million consumers are affected.",
+        "es": "Durante años los neerlandeses han pagado online con iDEAL: un toque en la app del banco y el dinero sale de la cuenta. Ahora se sustituye por completo por Wero. Desde el 26 de octubre, los clientes de once bancos pueden elegir Wero en el pago online, entre ellos ABN AMRO, ING, Rabobank, bunq y Triodos. Los comercios no tienen que cambiar de golpe: avanzan al ritmo de su proveedor de pagos, con iDEAL eliminado a finales de 2027. Afecta a unos 15 millones de consumidores."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "现在的 Wero 只能付一次性款，订阅、货到付款这类功能要到 2027 年第二季度才补",
+          "en": "Wero currently handles one-off payments only; subscriptions and pay-on-delivery arrive in Q2 2027",
+          "es": "Por ahora Wero solo admite pagos únicos; las suscripciones y el pago contra reembolso llegan en el segundo trimestre de 2027"
+        },
+        {
+          "zh": "购买保护（付了钱出问题能追回）排在 2028 年 1 月之前，具体方案 2027 年第一季度公布",
+          "en": "Buyer protection, i.e. getting money back when something goes wrong, is due before January 2028, with the scheme published in Q1 2027",
+          "es": "La protección de compra, recuperar el dinero si algo falla, llegará antes de enero de 2028, con el esquema publicado en el primer trimestre de 2027"
+        },
+        {
+          "zh": "Wero 在德国、比利时、卢森堡已能线下扫码付款，法国 2026 年内分批上线；转账功能覆盖四国约 6,000 万用户",
+          "en": "Wero already works for in-store QR payments in Germany, Belgium and Luxembourg, with France rolling out during 2026; person-to-person transfers cover about 60 million users in four countries",
+          "es": "Wero ya funciona para pagos con QR en tienda en Alemania, Bélgica y Luxemburgo, con Francia desplegando en 2026; las transferencias entre personas cubren unos 60 millones de usuarios en cuatro países"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "对商户和收单方来说，麻烦的不是多接一种支付方式，而是背后的账不一样了。刷卡是「先授权、再请款、最后清算」，钱几天后才到；Wero 走账户到账户的即时转账，确认完立刻到账，但同时也没有卡组织那层拒付和争议处理托底。未来一年多，荷兰的电商收单要同时维护两套逻辑：卡通道留给订阅和跨境，Wero 承接本地的一次性付款。",
+        "en": "The hard part for merchants and acquirers is not adding another button — it is that the accounting underneath changes. Card payments authorise, capture, then clear days later. Wero moves money account to account instantly: funds arrive at once, but no card scheme stands behind chargebacks and disputes. For the next year or so, Dutch e-commerce will run two logics in parallel: cards for subscriptions and cross-border, Wero for domestic one-off purchases.",
+        "es": "Lo difícil para comercios y adquirentes no es añadir otro botón, sino que cambia la contabilidad de fondo. Con tarjeta se autoriza, se captura y se compensa días después. Wero mueve dinero entre cuentas al instante: llega enseguida, pero ningún esquema de tarjetas responde por contracargos y disputas. Durante el próximo año, el comercio electrónico neerlandés funcionará con dos lógicas: tarjeta para suscripciones y cross-border, Wero para el pago único nacional."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "一个国家的国民级付款方式被整体替换，收单方要重新回答「钱怎么到、出了问题谁负责」，而不只是多接一个支付按钮。",
+    "en": "A country's default way of paying online is being swapped out, so acquirers must answer how the money moves and who is liable — not just plug in another method.",
+    "es": "Se sustituye el método de pago online por defecto de un país, así que el adquirente debe responder cómo llega el dinero y quién responde, no solo enchufar otro botón."
+  },
+  "confidence": 0.88,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

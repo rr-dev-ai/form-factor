@@ -2,7 +2,10 @@
   "id": "2026-10-30-telecom-02",
   "slug": "gsma-sgp22-v27-sgp32-v13-lite4-interop",
   "industry": "telecom",
-  "tags": ["esim", "rsp"],
+  "tags": [
+    "esim",
+    "rsp"
+  ],
   "status": "published",
   "publishedAt": "2026-10-30T03:35:00+08:00",
   "ingestedAt": "2026-10-30T03:24:00+08:00",
@@ -27,15 +30,58 @@
     "es": "Dos especificaciones eSIM de la GSMA entran en pruebas de interoperabilidad"
   },
   "summary": {
-    "zh": "消费级 SGP.22 v2.7（4 月）与 IoT 级 SGP.32 v1.3（5 月）已发布，本周在法国 La Ciotat 进行 LITE4 互操作测试；两项标准强化了 eUICC 上第三方 applet 的隔离与测试 profile 的管控，并覆盖 eUICC OS 更新。",
+    "zh": "消费级 SGP.22 v2.7（4 月）与 IoT 级 SGP.32 v1.3（5 月）已发布，本周在法国 La Ciotat 进行 LITE4 互操作测试；两项标准收紧了 eSIM 芯片里第三方小程序的隔离，以及测试用配置的管控，并覆盖芯片自身系统的更新。",
     "en": "Consumer SGP.22 v2.7 (April) and IoT SGP.32 v1.3 (May) are published, with the LITE4 interop event running this week in La Ciotat, France; both versions tighten isolation of third-party applets and control of test profiles on the eUICC, and now cover eUICC OS updates.",
     "es": "SGP.22 v2.7 (abril) y SGP.32 v1.3 (mayo) están publicadas, con el evento LITE4 esta semana en La Ciotat; ambas versiones refuerzan el aislamiento de applets y el control de perfiles de prueba, e incluyen actualizaciones del SO del eUICC."
   },
   "whyItMatters": {
-    "zh": "互操作测试结果决定厂商宣称的兼容性能否兑现，eUICC 与 eIM 的选型窗口就在这几个月。",
-    "en": "Interop results decide whether vendor compatibility claims hold, and the window for choosing eUICC and eIM is now.",
-    "es": "Los resultados de interoperabilidad determinan si las promesas de compatibilidad se sostienen, y la ventana de selección de eUICC y eIM es ahora."
+    "zh": "标准写完不等于能用：厂商宣称的兼容性要在这类测试之后才算数，选芯片和平台的窗口就在这几个月。",
+    "en": "Writing the standard is not the same as making it work: vendor compatibility claims only count after tests like this, and the window to pick chips and platforms is now.",
+    "es": "Escribir el estándar no es hacerlo funcionar: la compatibilidad anunciada solo cuenta tras estas pruebas, y la ventana para elegir chip y plataforma es ahora."
   },
   "confidence": 0.83,
-  "ai": { "model": "claude-sonnet-4.5", "promptVersion": "digest-v3", "tokens": 4860, "costUsd": 0.031 }
+  "ai": {
+    "model": "claude-sonnet-4.5",
+    "promptVersion": "digest-v3",
+    "tokens": 4860,
+    "costUsd": 0.031
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "两项 eSIM 标准的新版本今年已经落地：面向手机的 SGP.22 v2.7 在 4 月发布，面向物联网的 SGP.32 v1.3 在 5 月发布。10 月底在法国 La Ciotat 做的是互操作测试，也就是把不同厂商的芯片、系统和平台放在一起跑，看能不能真的互通。",
+        "en": "Two eSIM standards shipped new versions this year: SGP.22 v2.7 for phones in April and SGP.32 v1.3 for IoT in May. The late-October session in La Ciotat, France, is interoperability testing — putting different vendors' chips, systems and platforms in one room to see whether they actually work together.",
+        "es": "Dos estándares eSIM estrenaron versión este año: SGP.22 v2.7 para móviles en abril y SGP.32 v1.3 para IoT en mayo. La sesión de finales de octubre en La Ciotat (Francia) es una prueba de interoperabilidad: chips, sistemas y plataformas de distintos fabricantes juntos para ver si funcionan."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "强化 eSIM 芯片里第三方小程序的隔离——一张卡里装进别家程序时，互相不能看见",
+          "en": "Stronger isolation for third-party applets on the eUICC, so programs from different parties cannot see each other on one card",
+          "es": "Mayor aislamiento de applets de terceros en la eUICC: programas de distintos actores no se ven entre sí en una tarjeta"
+        },
+        {
+          "zh": "测试用配置的管控收紧，避免拿测试环境绕过商用限制",
+          "en": "Tighter control of test profiles to stop test configurations being used to bypass commercial limits",
+          "es": "Mayor control de los perfiles de prueba para evitar que se usen para saltarse límites comerciales"
+        },
+        {
+          "zh": "覆盖 eSIM 芯片自身系统的更新流程，而不只是首次下载",
+          "en": "It covers eUICC operating system updates, not just the first download",
+          "es": "Cubre la actualización del sistema operativo de la eUICC, no solo la primera descarga"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "标准文本写得再细，最终体验取决于互操作测试暴露多少问题。厂商宣称的兼容性，要在这类测试跑完之后才算数。",
+        "en": "However precise the text, the experience depends on what interoperability testing exposes. A vendor's compatibility claim only counts after rounds like this.",
+        "es": "Por preciso que sea el texto, la experiencia depende de lo que revele la prueba. La compatibilidad que anuncia un fabricante solo cuenta tras estas rondas."
+      }
+    }
+  ]
 }

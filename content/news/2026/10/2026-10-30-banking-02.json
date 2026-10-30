@@ -1,0 +1,92 @@
+{
+  "id": "2026-10-30-banking-02",
+  "slug": "botim-jaywan-prepaid-issuer",
+  "industry": "banking",
+  "tags": [
+    "issuing",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-30T04:35:00+08:00",
+  "ingestedAt": "2026-10-30T04:12:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Zawya（官方新闻稿）",
+      "url": "https://www.zawya.com/en/press-release/companies-news/botim-becomes-first-fintech-to-issue-the-jaywan-prepaid-card-expanding-access-to-the-uaes-national-card-scheme-1856256",
+      "lang": "en",
+      "publishedAt": "2026-10-29T19:40:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "阿联酋首家 fintech 发行本国卡组织预付卡，发薪即发卡",
+    "en": "UAE's first fintech-issued national scheme card arrives via payroll",
+    "es": "Primera tarjeta de fintech del esquema nacional de EAU, emitida desde la nómina"
+  },
+  "summary": {
+    "zh": "Botim 成为阿联酋第一个发行 Jaywan 卡的 fintech，把卡片挂到工资保护系统上：雇主线上发薪，工人当场拿到一张能在本地转接的预付卡。",
+    "en": "Botim becomes the first fintech to issue a Jaywan card in the UAE, attaching it to the wage protection system: employers pay salaries online and workers immediately get a prepaid card that routes domestically.",
+    "es": "Botim es la primera fintech que emite una tarjeta Jaywan en EAU y la engancha al sistema de protección salarial: la empresa paga online y el trabajador recibe al instante una tarjeta prepago de routing local."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "阿联酋有自己的国家卡组织 Jaywan，由央行子公司 Al Etihad Payments 运营，境内刷卡走本地转接，不经过国际卡组织。过去发卡主体以银行为主，现在第一次给了 fintech。",
+        "en": "The UAE runs its own national card scheme, Jaywan, operated by the central bank subsidiary Al Etihad Payments: domestic card payments route locally instead of through international schemes. Issuing had been reserved largely for banks; now a fintech has been let in.",
+        "es": "EAU tiene su propio esquema nacional, Jaywan, operado por Al Etihad Payments, filial del banco central: los pagos domésticos se enrutan localmente en lugar de por esquemas internacionales. La emisión estaba reservada sobre todo a bancos; ahora entra una fintech."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Botim 的做法是把发卡挂到工资上。它是人力资源部认证的工资保护系统服务机构，雇主通过它发薪，员工拿到的不只是账户余额，而是一张 Jaywan 预付卡，可以立刻在 POS 和线上消费。",
+        "en": "Botim's move is to hang issuance on payroll. It is a wage protection system provider accredited by the labour ministry: employers pay through it, and workers receive not just a balance but a Jaywan prepaid card they can spend at a terminal or online right away.",
+        "es": "La jugada de Botim es colgar la emisión de la nómina. Es proveedor acreditado del sistema de protección salarial: las empresas pagan a través de él y el trabajador recibe no solo un saldo, sino una tarjeta Jaywan que puede usar de inmediato en terminal o online."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "阿联酋用户 850 万，其中 65% 蓝领、31% 灰领",
+          "en": "8.5 million UAE users, of whom 65% are blue-collar and 31% grey-collar",
+          "es": "8,5 millones de usuarios en EAU, de ellos 65 % de cuello azul y 31 % de cuello gris"
+        },
+        {
+          "zh": "一期通过企业工资关系和兑换所渠道触达 20 万以上工人，长期目标 400 万",
+          "en": "Phase one reaches over 200,000 workers through employers and exchange houses, targeting 4 million long term",
+          "es": "La primera fase llega a más de 200.000 trabajadores vía empresas y casas de cambio, con objetivo de 4 millones"
+        },
+        {
+          "zh": "权益含 170 多个汇款目的地，无最低工资、无最低余额要求",
+          "en": "Benefits include more than 170 remittance destinations, with no minimum salary or balance",
+          "es": "Incluye más de 170 destinos de remesas, sin salario mínimo ni saldo mínimo"
+        },
+        {
+          "zh": "卡组织、发卡方与代发工资三方合成一条链路，获客不依赖营销",
+          "en": "Scheme, issuer and payroll collapse into one chain, so acquisition does not depend on marketing",
+          "es": "Esquema, emisor y nómina se funden en una cadena, así que la captación no depende del marketing"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这套模板对正在推本币卡组织的新兴市场很直接：不发信用卡、不抢高端客群，而是从「合规必须发生的动作」——发工资——切进去。工人不需要被说服，他们的工资天然带一张卡。",
+        "en": "For emerging markets building domestic schemes the template is direct: no credit cards, no premium segment, but an entry through something compliance already forces — paying wages. Workers do not need convincing; their salary arrives with a card attached.",
+        "es": "Para mercados emergentes que construyen esquemas locales la plantilla es directa: sin tarjetas de crédito ni segmento premium, entrando por algo que el cumplimiento ya obliga, pagar salarios. Al trabajador no hay que convencerlo: su salario llega con tarjeta."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "国家卡组织第一次向非银行开放发卡，工资代发成了不花获客成本的发卡渠道。",
+    "en": "A national scheme opens issuance to non-banks for the first time, and payroll becomes a distribution channel with near-zero acquisition cost.",
+    "es": "Un esquema nacional abre la emisión a no bancos por primera vez, y la nómina se convierte en un canal de distribución con coste de captación casi nulo."
+  },
+  "confidence": 0.83,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

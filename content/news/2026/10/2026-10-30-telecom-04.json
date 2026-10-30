@@ -1,0 +1,105 @@
+{
+  "id": "2026-10-30-telecom-04",
+  "slug": "brazil-south-africa-biometric-sim-verification",
+  "industry": "telecom",
+  "tags": [
+    "sim-registration",
+    "biometrics",
+    "liveness"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-30T03:35:00+08:00",
+  "ingestedAt": "2026-10-30T03:15:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Telecompaper（巴西 Anatel）",
+      "url": "https://www.telecompaper.com/news/brazil-mandates-biometric-verification-for-mobile-phone-users--1587231",
+      "lang": "en",
+      "publishedAt": "2026-10-29T21:46:00+08:00"
+    },
+    {
+      "name": "TechCentral（南非 ICASA）",
+      "url": "https://techcentral.co.za/icasa-biometric-sim-verification-fingerprint/287770/",
+      "lang": "en",
+      "publishedAt": "2026-10-29T16:00:00+08:00"
+    },
+    {
+      "name": "Tech Times（含 PAD 等级与时间表）",
+      "url": "https://www.techtimes.com/articles/329669/20261029/brazil-forces-263-million-mobile-users-submit-facial-biometric-scan.htm",
+      "lang": "en",
+      "publishedAt": "2026-10-29T18:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "巴西和南非同周把 SIM 实名推到「刷脸」这一步",
+    "en": "Brazil and South Africa push SIM registration into facial verification",
+    "es": "Brasil y Sudáfrica llevan el registro de SIM a la verificación facial"
+  },
+  "summary": {
+    "zh": "巴西 Anatel 定稿要求入网与换卡做人脸加活体检测，须达到防伪等级 2；南非 ICASA 草案要求用内政部记录做指纹或人脸核验，并限制单人单运营商最多 5 个号。",
+    "en": "Brazil's Anatel finalised rules requiring face plus liveness checks at activation and SIM swap, at presentation-attack level 2. South Africa's ICASA drafted rules requiring fingerprint or face checks against home affairs records, capping users at five numbers per operator.",
+    "es": "Anatel exige rostro y prueba de vida en el alta y el cambio de SIM, con nivel 2 anti-suplantación. El borrador de ICASA pide huella o rostro contra el registro civil y limita a cinco números por operador."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "两件事发生在同一周，形态刚好互补：巴西是已经批准的强制规范加明确罚期，南非是草案加号码数量上限。方向一致——把实名从「填个身份证号」推到「当场验生物特征」。",
+        "en": "Two moves in one week, complementary in shape: Brazil has an approved mandate with deadlines, South Africa a draft with a cap on numbers. Same direction: registration moves from typing an ID number to verifying a face or finger on the spot.",
+        "es": "Dos movimientos en una semana, complementarios: Brasil tiene una norma aprobada con plazos y Sudáfrica un borrador con límite de números. Misma dirección: del número de documento a verificar rostro o huella en el momento."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "巴西：所有个人移动业务提供者，含虚拟运营商与持牌转售商，不因规模豁免，入网与重新登记都要接入人脸识别加活体检测",
+          "en": "Brazil: every personal mobile provider, MVNOs and licensed resellers included, no size exemption, must run face plus liveness checks at activation and re-registration",
+          "es": "Brasil: todo proveedor móvil personal, con OMV y revendedores, sin exención por tamaño, debe aplicar rostro y prueba de vida en el alta y el reregistro"
+        },
+        {
+          "zh": "门槛写死了：必须达到 ISO/IEC 30107-3 的呈现攻击检测 2 级，能挡 3D 面具、高质量打印件和高清回放；只挡屏幕翻拍的通用方案不达标，需第三方认证",
+          "en": "The bar is explicit: ISO/IEC 30107-3 presentation-attack detection level 2, able to resist 3D masks, high-quality prints and HD replay; consumer-grade screen-recapture checks do not qualify and third-party certification is required",
+          "es": "El umbral es explícito: nivel 2 de detección de ataques de presentación ISO/IEC 30107-3, capaz de resistir máscaras 3D, impresiones de alta calidad y replay HD; las soluciones básicas no valen y se exige certificación"
+        },
+        {
+          "zh": "时间表：2027 年 9 月底起新预付费开卡，2027 年底起新后付费、换卡与携号转网，2028 年底前存量未核验用户补登，2029 年 1 月起未核验号码停机直至销户",
+          "en": "Timeline: new prepaid activations from September 2027, new postpaid, SIM swaps and porting from end-2027, existing unverified users re-registered by end-2028, unverified numbers suspended from January 2029 until closed",
+          "es": "Calendario: nuevas prepago desde septiembre de 2027; pospago, cambios de SIM y portabilidad desde finales de 2027; usuarios sin verificar regularizados antes de finales de 2028; suspensión desde enero de 2029 hasta la baja"
+        },
+        {
+          "zh": "南非：激活或重新激活号码时用内政部记录做生物核验，存量用户两年内补做，换卡同样适用，申请人与登记人不符必须拒绝；单人单运营商最多 5 个号；违反核心核验规则每次罚 200 万至 400 万兰特",
+          "en": "South Africa: biometric checks against home affairs records at activation or reactivation, existing users within two years, SIM swaps included, mismatched applicants refused; five numbers per operator; fines of R2m to R4m per breach",
+          "es": "Sudáfrica: verificación biométrica contra el registro civil al activar o reactivar, usuarios existentes en dos años, también en cambios de SIM, rechazo si no coincide; cinco números por operador; multas de 2 a 4 millones de rand"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "落地难点在预付费。南非监管机构自己在备忘录里写：多数运营商去年声称已上线生物核验，实际只做在后付费产品上，而 MTN 一家每年投放约 9,000 万张预付费卡。巴西这边则是 2.63 亿用户要在两年多里完成核验或补登。",
+        "en": "The hard part is prepaid. ICASA's own memo notes that most operators claimed biometric verification last year but implemented it only for postpaid, while MTN alone ships around 90 million prepaid SIMs a year. In Brazil, 263 million users must be verified or re-registered within roughly two years.",
+        "es": "Lo difícil es el prepago. El propio memorando de ICASA señala que la mayoría de operadores decía tener verificación biométrica pero solo la aplicaba al pospago, mientras MTN distribuye unos 90 millones de SIM prepago al año. En Brasil, 263 millones de usuarios deben verificarse en unos dos años."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "还有一个共同的空白：两国文本都盯着「激活」「换卡」「携号转网」，却没有单独处理 eSIM 远程开通这一动作——下载、删除、转移一份 eSIM 配置。如果核验只绑在实体卡和号码激活上，eSIM 恰好是绕开点。",
+        "en": "One gap is shared: both texts target activation, SIM swap and porting but say nothing specific about remote eSIM — downloading, deleting or moving a profile. If checks attach only to physical cards and number activation, eSIM is exactly where the process leaks.",
+        "es": "Hay un vacío común: ambos textos apuntan al alta, al cambio de SIM y a la portabilidad, pero nada específico sobre la eSIM remota: descargar, borrar o mover un perfil. Si el control se ata a la tarjeta física y al alta, la eSIM es la fuga."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "监管第一次把「核验强度」写成可采购、可审计的工程指标，运营商的柜台流程、App 改造与批量停机要同步扛住。",
+    "en": "For the first time regulators turn verification strength into a purchasable, auditable engineering spec, so counters, apps and bulk suspension all have to hold at once.",
+    "es": "Por primera vez la intensidad de verificación se vuelve especificación comprable y auditable, y mostradores, apps y suspensiones masivas deben resistir a la vez."
+  },
+  "confidence": 0.88,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

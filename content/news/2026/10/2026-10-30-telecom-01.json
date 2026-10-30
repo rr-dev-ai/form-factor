@@ -2,7 +2,9 @@
   "id": "2026-10-30-telecom-01",
   "slug": "philippines-ntc-sim-registration-purge",
   "industry": "telecom",
-  "tags": ["sim-registration"],
+  "tags": [
+    "sim-registration"
+  ],
   "status": "published",
   "publishedAt": "2026-10-30T03:35:00+08:00",
   "ingestedAt": "2026-10-30T03:22:00+08:00",
@@ -32,10 +34,61 @@
     "es": "El regulador NTC da 15 días a los operadores para reverificar abonados con más de 100 SIM a su nombre y desactivar las que no puedan demostrar posesión; la baja es permanente."
   },
   "whyItMatters": {
-    "zh": "SIM 注册与身份核验第一次被压到 15 天的硬期限内执行，运营商的 KYC 流程与批量停机的幂等设计要同时扛住。",
-    "en": "SIM registration and identity checks now run against a hard 15-day clock, putting pressure on both KYC flows and the idempotency of bulk deactivation.",
-    "es": "El registro de SIM y la verificación de identidad pasan a un plazo fijo de 15 días, exigiendo robustez tanto en el KYC como en la desactivación masiva."
+    "zh": "实名登记第一次被压进 15 天的硬期限：运营商既要能在半个月内核对上百万个号码，又要保证停机不误伤、重复执行也不出错。",
+    "en": "Registration lands on a hard 15-day clock: carriers must check hundreds of thousands of numbers in a fortnight while making sure deactivation is accurate and repeatable.",
+    "es": "El registro entra en un plazo fijo de 15 días: los operadores deben revisar cientos de miles de números en dos semanas sin desactivar por error ni fallar al repetir."
   },
   "confidence": 0.88,
-  "ai": { "model": "claude-sonnet-4.5", "promptVersion": "digest-v3", "tokens": 5120, "costUsd": 0.033 }
+  "ai": {
+    "model": "claude-sonnet-4.5",
+    "promptVersion": "digest-v3",
+    "tokens": 5120,
+    "costUsd": 0.033
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "菲律宾 2022 年开始要求 SIM 实名登记，但执行一直靠用户自觉。10 月底监管机构 NTC 换了个方式：不查流程，直接对数量下手。",
+        "en": "The Philippines has required SIM registration since 2022, but enforcement relied on users complying. In late October the regulator, NTC, changed tack: instead of auditing process, it went after volume.",
+        "es": "Filipinas exige registro de SIM desde 2022, pero el cumplimiento dependía del usuario. A finales de octubre el regulador, NTC, cambió de enfoque: en lugar de auditar procesos, atacó el volumen."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "单人名下超过 100 张 SIM 的账户，15 天内重新核验",
+          "en": "Accounts holding more than 100 SIMs under one name must be re-verified within 15 days",
+          "es": "Las cuentas con más de 100 SIM a un nombre deben reverificarse en 15 días"
+        },
+        {
+          "zh": "无法证明本人在用的，一律停机，且停机后不可恢复",
+          "en": "Those that cannot prove ongoing possession are deactivated, permanently",
+          "es": "Las que no prueben uso propio se desactivan de forma permanente"
+        },
+        {
+          "zh": "运营商要同步收紧对多卡用户的审核，不能只做一次性清理",
+          "en": "Carriers must tighten checks on multi-SIM subscribers, not just run a one-off purge",
+          "es": "Los operadores deben endurecer la revisión de usuarios con muchas SIM, no solo hacer una limpieza puntual"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "100 张这个阈值并不高。正常的双卡用户、家庭套餐、物联网设备都不该碰到它；它瞄准的是批量注册后转卖的黑产——这些号码最后流向诈骗、垃圾短信和账号注册。",
+        "en": "A hundred is a low bar. Ordinary dual-SIM users, family plans and IoT devices never come near it. The target is bulk registration for resale, where numbers end up in scams, spam and account farming.",
+        "es": "Cien es un umbral bajo. Un usuario de doble SIM, un plan familiar o un dispositivo IoT no se acercan. El objetivo es el registro masivo para reventa, cuyos números acaban en estafas, spam y creación de cuentas."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "难点在工程上。批量停机如果重跑一次，会把已经停过的号再停一遍、把正常用户误伤；这要求停机动作可以重复执行而不出错，同时留下可追溯的核验记录。",
+        "en": "The difficulty is operational. Run a bulk deactivation twice and you deactivate numbers already off, or catch legitimate users in the sweep. The action has to be repeatable without error and leave an auditable record of each check.",
+        "es": "La dificultad es operativa. Ejecutar la desactivación masiva dos veces desactiva números ya dados de baja o alcanza a usuarios legítimos. La acción debe poder repetirse sin errores y dejar registro auditable de cada verificación."
+      }
+    }
+  ]
 }

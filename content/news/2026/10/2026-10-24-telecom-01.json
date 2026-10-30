@@ -1,0 +1,98 @@
+{
+  "id": "2026-10-24-telecom-01",
+  "slug": "china-esim-acceptance-online-selfservice",
+  "industry": "telecom",
+  "tags": [
+    "esim",
+    "sim-registration"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-24T03:35:00+08:00",
+  "ingestedAt": "2026-10-24T03:20:00+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "中国移动（IT之家转载）",
+      "url": "https://news.qq.com/rain/a/20261023A0C49000",
+      "lang": "zh",
+      "publishedAt": "2026-10-23T18:34:00+08:00"
+    },
+    {
+      "name": "CNMO（Apple Store 驻店）",
+      "url": "https://www.toutiao.com/article/7699676345194594825",
+      "lang": "zh",
+      "publishedAt": "2026-10-23T09:56:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "中国 eSIM 受理松动：移动松口线上办理，苹果店现场驻店",
+    "en": "China's eSIM onboarding loosens: China Mobile hints at online self-service",
+    "es": "La activación de eSIM en China se relaja: China Mobile apunta a la autogestión online"
+  },
+  "summary": {
+    "zh": "国行纯 eSIM 机型开售当天，中国移动首次表态将推动线上自助办理，三家运营商在全国 Apple Store 驻店办卡；联通此前的线上办理入口反而挂出「升级改造中」。",
+    "en": "On launch day for China's first eSIM-only phone, China Mobile said it will push online self-service onboarding, and all three carriers staffed Apple Stores nationwide. Unicom's earlier online entry point, meanwhile, was taken down for upgrades.",
+    "es": "El día del lanzamiento del primer móvil solo eSIM de China, China Mobile anunció autogestión online y las tres operadoras se instalaron en las Apple Store. La entrada online de Unicom, en cambio, quedó fuera de servicio."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "国行首款纯 eSIM 手机 10 月 23 日开售。同一天，中国 eSIM 的办理方式出现了三处以前没有的动作，方向一致：让「必须本人跑营业厅」这件事松一点。",
+        "en": "China's first eSIM-only phone went on sale on 23 October. The same day brought three new moves on how eSIM is activated, all pointing the same way: loosening the rule that only the subscriber, in person, at a carrier store, can get one.",
+        "es": "El primer móvil solo eSIM de China salió a la venta el 23 de octubre. Ese mismo día hubo tres novedades sobre la activación, todas en la misma dirección: relajar la regla de que solo el titular, en persona y en una tienda, puede contratarla."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "中国移动首次官方表态「后续将持续推动 eSIM 线上自助办理能力上线」；自营厅已全面支持新开号与实体卡转 eSIM，持身份证一站式完成，全程十分钟以内",
+          "en": "China Mobile said for the first time that it will push online self-service eSIM activation; its own stores already handle new numbers and physical-to-eSIM conversion in one visit, ID card in hand, under ten minutes",
+          "es": "China Mobile afirmó por primera vez que impulsará la activación online; sus tiendas propias ya gestionan números nuevos y el paso de SIM física a eSIM en una visita, con el DNI, en menos de diez minutos"
+        },
+        {
+          "zh": "全国 Apple Store 在发售日安排三家运营商驻店，买到就能当场激活；联通另在授权店派驻千余名店员",
+          "en": "Apple Stores nationwide hosted all three carriers on launch day so buyers could activate on the spot; Unicom alone stationed over a thousand staff in authorised resellers",
+          "es": "Las Apple Store acogieron a las tres operadoras el día del lanzamiento para activar en el momento; Unicom destinó más de mil empleados a revendedores autorizados"
+        },
+        {
+          "zh": "反向信号：联通此前上线的「eSIM 线上办理资格抽取」页面显示「升级改造中」",
+          "en": "A counter-signal: Unicom's earlier online eSIM lottery page now says it is under upgrade",
+          "es": "Una señal contraria: la página de Unicom para sorteos de activación online aparece ahora en remodelación"
+        },
+        {
+          "zh": "联通披露过去一年国内 eSIM 手机累计 28 款机型、覆盖 7 个品牌，2026 年出货预计 3,000 万台",
+          "en": "Unicom says 28 eSIM phone models across seven brands shipped in the past year, with 30 million units expected in 2026",
+          "es": "Unicom informa de 28 modelos eSIM de siete marcas en el último año, con 30 millones de unidades previstas en 2026"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "「持续推动」没有时间表。最保守的一方主动松口，说明技术不是瓶颈，卡点在远程实名核验：活体检测、人证一致、号码归属校验。短期更可能按用户分层试点，比如高网龄、高信用用户先开，而不是全量放开。苹果店驻店是低成本的折中——把「必须去营业厅」变成「在买手机的地方就能办」，实名一步没让。",
+        "en": "\"Will push\" comes without a date. That the most conservative carrier moved first suggests the blocker is not technology but remote identity checks: liveness detection, matching face to ID, verifying number ownership. Expect tiered pilots — long-tenure, high-credit users first — rather than a full opening. Staffing Apple Stores is the cheap compromise: instead of a carrier store, activate where you buy the phone, with identity checks untouched.",
+        "es": "\"Lo impulsará\" llega sin fecha. Que el operador más conservador se mueva primero sugiere que el obstáculo no es técnico sino la verificación remota de identidad: prueba de vida, coincidencia rostro-DNI, titularidad del número. Cabe esperar pilotos por segmentos — primero usuarios antiguos y de alta solvencia — y no una apertura total. Presenciar las Apple Store es el compromiso barato: activar donde compras el móvil, sin tocar la verificación."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "也要看清另一半：办理在松，存量迁移和出境写入仍然紧——一机两号、每月新开不超两个、境外的 eSIM 配置写不进来。真正要观察的是线上自助落地时，会不会同步放开换机时的自服务迁移，那才是决定 eSIM 能不能替代实体卡的部分。",
+        "en": "The other half matters too: onboarding is easing while migration and inbound profiles stay tight — two eSIMs per handset, at most two new numbers a month, no foreign profiles. The thing to watch is whether online self-service arrives with self-service migration when users change phones. That is what decides whether eSIM actually replaces the plastic card.",
+        "es": "La otra mitad también cuenta: la activación se relaja mientras la migración y los perfiles extranjeros siguen restringidos: dos eSIM por terminal, máximo dos números nuevos al mes, sin perfiles del exterior. Habrá que ver si la autogestión online llega junto con la migración al cambiar de móvil: eso decide si la eSIM sustituye de verdad a la tarjeta."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "「必须本人跑营业厅」第一次出现松动方向，而卡点在远程实名核验——这一步怎么放开，决定了 eSIM 的办理速度。",
+    "en": "The in-person-only rule has a direction of travel for the first time, and the bottleneck is remote identity checking — how that opens decides how fast eSIM onboarding scales.",
+    "es": "La regla de acudir en persona tiene por fin una dirección, y el cuello de botella es la verificación remota: cómo se abra decidirá la velocidad de la eSIM."
+  },
+  "confidence": 0.86,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

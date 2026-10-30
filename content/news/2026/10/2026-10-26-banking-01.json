@@ -1,0 +1,98 @@
+{
+  "id": "2026-10-26-banking-01",
+  "slug": "vietnam-napas-card-day-renamed-digital-payment",
+  "industry": "banking",
+  "tags": [
+    "digital-wallet",
+    "acquiring"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-26T04:35:00+08:00",
+  "ingestedAt": "2026-10-26T04:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Vietnam.vn",
+      "url": "https://www.vietnam.vn/en/khai-mac-song-festival-2026-cham-so-song-xanh",
+      "lang": "en",
+      "publishedAt": "2026-10-24T21:00:00+08:00"
+    },
+    {
+      "name": "World Culture Festival",
+      "url": "https://worldculturefestival.vn/en/nguoi-dan-thu-do-trai-nghiem-quet-ma-thanh-toan-cham-tai-song-festival",
+      "lang": "en",
+      "publishedAt": "2026-10-25T20:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "越南把「卡日」改名「数字支付日」，国家转接组织换了叙事",
+    "en": "Vietnam renames Card Day to Digital Payment Day",
+    "es": "Vietnam rebautiza el Día de la Tarjeta como Día del Pago Digital"
+  },
+  "summary": {
+    "zh": "越南国家支付公司 NAPAS 把办了五届的「越南卡日」正式改名为「越南数字支付日」，现场 31 家机构、约 70 个展位全部以卡、二维码、钱包、生物识别完成交易，不收现金。",
+    "en": "NAPAS renamed its five-year-old Vietnam Card Day to Vietnam Digital Payment Day. At the event, 31 institutions and about 70 booths took payments only by card, QR, wallet or biometrics — no cash.",
+    "es": "NAPAS rebautizó su Día de la Tarjeta como Día del Pago Digital. En el evento, 31 instituciones y unos 70 stands cobraron solo con tarjeta, QR, monedero o biometría, sin efectivo."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "一个国家的转接组织给活动改名，通常只是市场部的事。但这次改名发生在卡组织自己身上：越南国家支付公司 NAPAS 把办了五届的「越南卡日」正式换成「越南数字支付日」，第 6 届活动 10 月 24 日至 25 日在河内步行街办，31 家银行、金融机构与国际卡组织参展，近 70 个展位。",
+        "en": "Renaming an event is usually a marketing decision, but here the card switch itself did the renaming: NAPAS, Vietnam's national payment company, replaced its five-year-old Vietnam Card Day with Vietnam Digital Payment Day. The sixth edition ran 24–25 October on a pedestrian street in Hanoi with 31 banks, financial institutions and international schemes across nearly 70 booths.",
+        "es": "Rebautizar un evento suele ser marketing, pero aquí lo hizo la propia entidad de conmutación: NAPAS cambió su Día de la Tarjeta por el Día del Pago Digital. La sexta edición se celebró el 24 y 25 de octubre en una calle peatonal de Hanói con 31 bancos, entidades y esquemas internacionales en casi 70 stands."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "现场 100% 交易通过卡、二维码、电子钱包、生物识别完成，不接受现金",
+          "en": "Every transaction on site ran through card, QR, wallet or biometrics; no cash accepted",
+          "es": "Todas las operaciones del recinto se hicieron con tarjeta, QR, monedero o biometría; sin efectivo"
+        },
+        {
+          "zh": "主办方发放 5,000 份各 5 万越南盾的返现，用来引导人当场体验",
+          "en": "Organisers handed out 5,000 cashback vouchers of VND 50,000 each to drive on-site trials",
+          "es": "Se repartieron 5.000 bonos de 50.000 dong para incentivar la prueba en el momento"
+        },
+        {
+          "zh": "NAPAS 表示支付范围正从境内扩到跨境：用户在境外扫熟悉的 App 二维码即可付款",
+          "en": "NAPAS says the scope is moving from domestic to cross-border: users scan the app they already know when abroad",
+          "es": "NAPAS señala que el alcance pasa de lo nacional a lo transfronterizo: el usuario escanea su app habitual en el extranjero"
+        },
+        {
+          "zh": "越南央行数据：前 8 个月非现金交易笔数同比 +34.5%，金额同比 +13.26%",
+          "en": "Central bank data: non-cash transactions up 34.5% year on year in the first eight months, value up 13.26%",
+          "es": "Datos del banco central: operaciones sin efectivo +34,5 % interanual en ocho meses, importe +13,26 %"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "改名不是替换，是分层。参展方里仍然有国际卡组织，说明卡被留在高端与跨境场景，二维码和钱包承担日常小额。对做发卡和受理产品线的人，这是国家层面的一句实话：卡还在，但已经不是叙事中心。",
+        "en": "The rename signals layering, not replacement. International schemes still exhibit, so cards stay for premium and cross-border use while QR and wallets take everyday small tickets. For anyone building issuing or acceptance products, that is a national-level admission: cards remain, but no longer anchor the story.",
+        "es": "El cambio indica capas, no sustitución. Los esquemas internacionales siguen presentes: la tarjeta queda para lo premium y transfronterizo, y el QR y el monedero toman el ticket pequeño. Para quien construye emisión o aceptación, es una confesión a escala nacional: la tarjeta sigue, pero ya no es el centro."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "需要说明权重：这是一个活动与战略口径层面的信号，不是产品发布。真正要看的是越南境内卡交易占比与非现金交易的增速差，以及跨境二维码能否从旅游场景走进贸易结算。",
+        "en": "Weight this accordingly: it is a signal at the level of events and strategy, not a product launch. What matters is the gap between domestic card share and non-cash growth, and whether cross-border QR moves from tourism into trade settlement.",
+        "es": "Conviene ponderarlo: es una señal de estrategia y evento, no un lanzamiento. Lo relevante es la brecha entre la cuota de tarjeta y el crecimiento sin efectivo, y si el QR transfronterizo pasa del turismo a la liquidación comercial."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "国家转接组织自己承认「卡不再是国民支付叙事的核心」，对以卡为核心的发卡与受理产品线是一句明确的战略信号。",
+    "en": "When the national switch admits cards no longer anchor the payment story, that is a strategic signal to card-centric issuing and acceptance lines.",
+    "es": "Que la entidad nacional admita que la tarjeta ya no es el centro del relato es una señal estratégica para las líneas centradas en tarjeta."
+  },
+  "confidence": 0.76,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

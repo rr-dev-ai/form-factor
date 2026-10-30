@@ -1,0 +1,89 @@
+{
+  "id": "2026-10-30-banking-03",
+  "slug": "checkout-com-visa-payment-passkey",
+  "industry": "banking",
+  "tags": [
+    "payment-gateway",
+    "fraud"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-30T04:35:00+08:00",
+  "ingestedAt": "2026-10-30T04:12:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Merchant's Eye（含 Checkout.com 新闻稿全文）",
+      "url": "https://www.merchantseye.com/news/checkout-com-at-the-forefront-of-bringing-visa-payment-passkey-to-merchants-glob-8ab571fa",
+      "lang": "en",
+      "publishedAt": "2026-10-29T20:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "Checkout.com 上线 Visa 支付密钥，结账不再输短信验证码",
+    "en": "Checkout.com goes live with Visa Payment Passkey, replacing SMS codes",
+    "es": "Checkout.com activa Visa Payment Passkey y sustituye los códigos SMS"
+  },
+  "summary": {
+    "zh": "商户结账时可用持卡人的指纹或人脸替代一次性密码，认证跑在原有的 3DS 链路上，不重建结账流程；密钥不可用时自动回落到旧方式。",
+    "en": "Merchants can now replace one-time codes with the cardholder's fingerprint or face, running on the existing 3-D Secure rails without rebuilding checkout, and falling back automatically when a passkey is unavailable.",
+    "es": "Los comercios pueden sustituir los códigos de un solo uso por la huella o el rostro del titular, sobre la infraestructura 3-D Secure existente y sin rehacer el checkout, con vuelta automática si la passkey no está disponible."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "网购结账常卡在一步：银行发一条短信验证码，用户等、输错、放弃。Visa Payment Passkey 要做的就是把这一步换成手机上的一次指纹或人脸确认。它背后用的是设备里已有的通行密钥——把私钥存在芯片里、认证时不出设备、也不联网传输的一种登录方式。",
+        "en": "Online checkout often stalls on one step: the bank sends an SMS code, the shopper waits, mistypes, gives up. Visa Payment Passkey replaces that with a fingerprint or a glance at the phone. It relies on passkeys already in the device: a private key stored in the chip that never leaves it and is never transmitted.",
+        "es": "El pago online suele atascarse en un paso: el banco envía un código SMS, el comprador espera, se equivoca, abandona. Visa Payment Passkey lo sustituye por una huella o un vistazo al teléfono. Se apoya en las passkeys del dispositivo: una clave privada guardada en el chip que nunca sale de él."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "Checkout.com 已正式上线，首批是英国和欧洲的选定商户",
+          "en": "Checkout.com is live, starting with selected merchants in the UK and Europe",
+          "es": "Checkout.com ya está operativo, empezando por comercios seleccionados del Reino Unido y Europa"
+        },
+        {
+          "zh": "不需要重建结账流程，跑在商户已经在用的认证基础设施上",
+          "en": "No checkout rebuild: it runs on the authentication infrastructure merchants already use",
+          "es": "Sin rehacer el checkout: funciona sobre la infraestructura de autenticación que el comercio ya usa"
+        },
+        {
+          "zh": "密钥不可用时自动退回原有验证方式，不会直接把交易打死",
+          "en": "When a passkey is unavailable the transaction falls back to the old method instead of failing outright",
+          "es": "Si la passkey no está disponible, la operación vuelve al método anterior en lugar de fallar"
+        },
+        {
+          "zh": "分阶段铺开，长期复购场景（零售、平台、外卖、数字服务）收益最大",
+          "en": "Rolling out in phases, with the biggest gains in repeat-purchase categories: retail, marketplaces, delivery, digital services",
+          "es": "Despliegue por fases, con mayores beneficios en compras repetidas: retail, marketplaces, reparto y servicios digitales"
+        },
+        {
+          "zh": "同批还接了 Visa 的 Trusted Agent Protocol，用来区分可信的 AI 购物代理和爬虫",
+          "en": "It also supports Visa's Trusted Agent Protocol, separating trusted AI shopping agents from bots",
+          "es": "También admite el Trusted Agent Protocol de Visa, que distingue agentes de compra de IA de los bots"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "判断这类方案能不能用，关键看有没有降级路径——没有回落的试点最后都停在演示阶段。更值得注意的是，「验证付款人」和「验证发起意图的代理」被合并进同一层：当结账的可能是一段程序时，网关卖的东西就不再是通道，而是「这次付款到底是谁、被谁授权」。",
+        "en": "The test for this kind of launch is the fallback path: pilots without one stay demos. More interesting is that verifying the payer and verifying the agent acting for them are collapsing into one layer. When the thing checking out may be software, a gateway no longer sells a pipe — it sells who is paying and who authorised it.",
+        "es": "La prueba de este tipo de lanzamiento es la ruta de respaldo: los pilotos sin ella se quedan en demo. Más interesante es que verificar al pagador y verificar al agente que actúa por él se funden en una capa. Cuando quien paga puede ser software, la pasarela ya no vende un tubo, vende quién paga y quién lo autorizó."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "认证从「发一条短信」变成「出示设备上的生物凭据」，网关的竞争点从路由上移到确认付款人是谁、被谁授权。",
+    "en": "Authentication shifts from sending an SMS to presenting a device-bound credential, moving gateway competition from routing up to who is paying and who mandated it.",
+    "es": "La autenticación pasa de enviar un SMS a presentar una credencial del dispositivo, y la competencia de pasarelas sube de la ruta a quién paga y quién lo autoriza."
+  },
+  "confidence": 0.86,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

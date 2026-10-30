@@ -1,0 +1,93 @@
+{
+  "id": "2026-10-29-telecom-02",
+  "slug": "tongxin-esim-chip-unicom-procurement",
+  "industry": "telecom",
+  "tags": [
+    "esim",
+    "isim"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-29T03:35:00+08:00",
+  "ingestedAt": "2026-10-29T03:20:00+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "中证网",
+      "url": "https://www.cs.com.cn/ssgs/01/2026/10/27/detail_2026102710047562.html",
+      "lang": "zh",
+      "publishedAt": "2026-10-27T18:00:00+08:00"
+    },
+    {
+      "name": "紫光国微投资者关系活动记录表",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225632746.PDF",
+      "lang": "zh",
+      "publishedAt": "2026-10-28T17:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "联通把 eSIM 芯片采购接过来，替中小终端厂商买卡",
+    "en": "Unicom takes over eSIM chip buying for smaller device makers",
+    "es": "Unicom asume la compra de chips eSIM para fabricantes pequeños"
+  },
+  "summary": {
+    "zh": "紫光同芯入选中国联通「eSIM 卡集采赋能行动」首批芯片供应商，联通以「市场化销售 + 定向赋能」帮中小终端厂商解决买不到、不会选、买不起、没人支撑四个问题。",
+    "en": "Tongxin Microelectronics is among the first chip suppliers in China Unicom's eSIM procurement programme, which uses pooled buying plus targeted support to fix four problems smaller device makers face: no channel, no know-how, too costly, no backup.",
+    "es": "Tongxin Microelectronics entra entre los primeros proveedores de chips del programa de compra de eSIM de China Unicom, que combina compra agregada y apoyo dirigido ante cuatro problemas: sin canal, sin criterio, caro y sin soporte."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "eSIM 要装进设备，芯片得先买得到。大厂有采购团队和议价能力，中小终端厂商没有：渠道受限、不会选型、拿不到质控、成本偏高、出了问题没人支撑。联通的做法是把这个环节接过来。",
+        "en": "An eSIM has to get into a device, and the chip has to be bought first. Large vendors have procurement teams and leverage; smaller ones do not: limited channels, no selection know-how, no quality control, high unit cost, no one to call. Unicom's move is to take that step over.",
+        "es": "Para llevar una eSIM a un dispositivo hay que comprar el chip. Los grandes tienen equipo de compras y poder de negociación; los pequeños no: canales limitados, sin criterio de selección, sin control de calidad, coste alto y sin soporte. Unicom asume ese paso."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "紫光国微三季报披露，子公司紫光同芯成为「eSIM 卡集采赋能行动」首批芯片供应商。该行动以「市场化销售 + 定向化赋能」两种模式运作。",
+        "en": "Guoxin Micro's quarterly report disclosed that its subsidiary Tongxin Microelectronics is among the first chip suppliers in the \"eSIM card procurement enablement\" programme, which runs on two modes: market-based sales and targeted enablement.",
+        "es": "El informe trimestral de Guoxin Micro revela que su filial Tongxin Microelectronics es uno de los primeros proveedores del programa de compra de eSIM, con dos modos: venta de mercado y capacitación dirigida."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "紫光同芯自称国内首家通过 GSMA SAS-UP 认证的晶圆级个人化安全芯片企业，eSIM 产品累计出货数千万颗",
+          "en": "Tongxin says it is the first Chinese company certified under GSMA SAS-UP for wafer-level personalisation, with tens of millions of eSIM chips shipped",
+          "es": "Tongxin se presenta como la primera empresa china certificada GSMA SAS-UP en personalización a nivel de oblea, con decenas de millones de chips eSIM enviados"
+        },
+        {
+          "zh": "它同时是《基于晶圆级封装 eUICC 产品个人化安全白皮书》的牵头编制单位",
+          "en": "It also led the industry white paper on personalisation security for wafer-level eUICC packaging",
+          "es": "También lideró el libro blanco sobre seguridad de personalización de eUICC en encapsulado a nivel de oblea"
+        },
+        {
+          "zh": "信息来自上市公司定期报告与交易所披露文件；联通侧尚未见对应的官方公告、集采规模与金额",
+          "en": "The information comes from a listed company's periodic report and exchange filings; Unicom has published no matching announcement, volume or value",
+          "es": "La información proviene del informe periódico y de los registros bursátiles; Unicom no ha publicado anuncio, volumen ni importe equivalente"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "把上下游接起来看：白皮书定的是「晶圆厂这一层怎么做个人化」，集采赋能定的是「芯片怎么进到中小厂商的物料清单」。国内 eSIM 的推进，正在从营业厅受理往芯片、终端、采购整条链上延伸。",
+        "en": "Read upstream and downstream together: the white paper defines how personalisation works at the wafer level, the procurement programme defines how the chip reaches a smaller vendor's bill of materials. China's eSIM push is spreading from carrier counters to chips, devices and purchasing.",
+        "es": "Leídos en conjunto: el libro blanco define la personalización en la oblea y el programa define cómo llega el chip a la lista de materiales de un fabricante pequeño. El impulso de la eSIM en China pasa del mostrador al chip, al dispositivo y a la compra."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "瓶颈不只在营业厅受理，也不只在芯片，而在中间的采购环节——运营商从采购方变成赋能方。",
+    "en": "The bottleneck sits neither at the counter nor in the chip but in purchasing in between, and the carrier shifts from buyer to enabler.",
+    "es": "El cuello de botella no está en el mostrador ni en el chip, sino en la compra intermedia: la operadora pasa de compradora a facilitadora."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

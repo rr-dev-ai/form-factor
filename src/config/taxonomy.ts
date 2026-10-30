@@ -36,6 +36,7 @@ export const tags: Tag[] = [
   { slug: 'mvno', name: { zh: '虚拟运营商', en: 'MVNO', es: 'OMV' }, industry: 'telecom' },
   { slug: 'isim', name: { zh: 'iSIM', en: 'iSIM', es: 'iSIM' }, industry: 'telecom' },
   { slug: 'sim-registration', name: { zh: '实名注册', en: 'SIM registration', es: 'Registro de SIM' }, industry: 'telecom' },
+  { slug: 'satellite', name: { zh: '卫星直连', en: 'Satellite D2D', es: 'Satélite directo' }, industry: 'telecom' },
   { slug: 'passport', name: { zh: '护照', en: 'Passport', es: 'Pasaporte' }, industry: 'identity' },
   { slug: 'national-id', name: { zh: '身份证', en: 'National ID', es: 'Documento nacional' }, industry: 'identity' },
   { slug: 'mobile-id', name: { zh: '移动证件', en: 'Mobile ID', es: 'Identidad móvil' }, industry: 'identity' },

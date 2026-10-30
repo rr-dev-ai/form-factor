@@ -15,6 +15,16 @@ const localized = (max: number) =>
   });
 
 /**
+ * 正文的一个块。用块而不是整段 HTML：页面负责排版，
+ * 内容只声明"这是一句小标题 / 一段话 / 一组要点"。
+ */
+const bodyBlock = z.discriminatedUnion('kind', [
+  z.object({ kind: z.literal('h'), text: localized(80) }),
+  z.object({ kind: z.literal('p'), text: localized(1400) }),
+  z.object({ kind: z.literal('ul'), items: z.array(localized(400)).min(2).max(6) }),
+]);
+
+/**
  * 一条新闻的契约。AI 任务按此写入，构建按此校验，页面按此渲染。
  * 字段变更必须同步 content/ 下所有文件，否则构建失败并定位到具体字段。
  */
@@ -39,7 +49,10 @@ export const newsItemSchema = z.object({
     .min(1)
     .max(6),
   title: localized(120),
+  /** 一句话导语，出现在卡片与详情页开头 */
   summary: localized(600),
+  /** 正文：2–8 个块，把事件讲清楚，可含小标题与要点列表 */
+  body: z.array(bodyBlock).min(2).max(8),
   whyItMatters: localized(400),
   confidence: z.number().min(0).max(1),
   ai: z.object({

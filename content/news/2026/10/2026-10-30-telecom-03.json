@@ -2,7 +2,9 @@
   "id": "2026-10-30-telecom-03",
   "slug": "china-unicom-full-esim-device-support",
   "industry": "telecom",
-  "tags": ["esim"],
+  "tags": [
+    "esim"
+  ],
   "status": "published",
   "publishedAt": "2026-10-30T03:35:00+08:00",
   "ingestedAt": "2026-10-30T03:26:00+08:00",
@@ -26,10 +28,53 @@
     "es": "Unicom afirma que los principales teléfonos y wearables ya son compatibles, con doble eSIM y un número multi-dispositivo en tienda; los móviles solo eSIM llevan el mercado a volumen."
   },
   "whyItMatters": {
-    "zh": "最后一个主要市场的手机 eSIM 通道打开，SIM 供应与个性化产线的需求结构会随之改变。",
-    "en": "The last major market opening for handset eSIM changes demand structure for SIM supply and personalisation.",
-    "es": "La apertura del último gran mercado para eSIM en móviles cambia la demanda de SIM y personalización."
+    "zh": "手机 eSIM 从少数机型走到规模办理，实体卡的订单会跟着机型结构一起变；但办理是否方便，仍取决于线上入口什么时候开。",
+    "en": "Phone eSIM moves from a handful of models to volume, shifting physical card orders with the device mix; convenience still waits on online entry points.",
+    "es": "La eSIM pasa de unos modelos a volumen y los pedidos de tarjeta física cambian con la gama; la comodidad depende aún de las vías online."
   },
   "confidence": 0.72,
-  "ai": { "model": "claude-sonnet-4.5", "promptVersion": "digest-v3", "tokens": 3940, "costUsd": 0.025 }
+  "ai": {
+    "model": "claude-sonnet-4.5",
+    "promptVersion": "digest-v3",
+    "tokens": 3940,
+    "costUsd": 0.025
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "中国联通称主流品牌手机与可穿戴设备均已完成 eSIM 适配，营业厅可办理双 eSIM 与一号双终端。随着纯 eSIM 机型上市，国内手机 eSIM 从「少数机型试点」进入规模办理。",
+        "en": "China Unicom says mainstream phones and wearables are now eSIM-ready, with stores able to activate dual eSIM and one-number-multiple-devices. With eSIM-only handsets on sale, phone eSIM in China moves from a few pilot models to volume.",
+        "es": "China Unicom afirma que móviles y wearables de las principales marcas ya son compatibles, y sus tiendas activan eSIM dual y un número en varios dispositivos. Con móviles solo eSIM a la venta, la eSIM pasa de pilotos a volumen."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "手机与可穿戴双线适配完成，门店可直接办理",
+          "en": "Phones and wearables are both covered, and stores can activate on the spot",
+          "es": "Móviles y wearables cubiertos, con activación en tienda"
+        },
+        {
+          "zh": "支持双 eSIM 与一号双终端两种形态",
+          "en": "Both dual eSIM and one-number-multiple-devices are supported",
+          "es": "Se admiten eSIM dual y un número en varios dispositivos"
+        },
+        {
+          "zh": "办理仍以线下实名核验为主，线上入口尚未全面开放",
+          "en": "Activation still runs mainly through in-person identity checks; online entry points are not fully open",
+          "es": "La activación sigue siendo presencial en su mayoría; las vías online no están plenamente abiertas"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这一步解决的是终端侧「有没有」，没解决「方不方便」。线上自助、换机迁移、境外的 eSIM 配置写不进来，而这些才是决定 eSIM 能不能真正替代实体卡的部分。",
+        "en": "This solves whether devices support eSIM, not whether it is convenient. Online self-service, migration between phones and foreign profiles remain restricted — and those decide whether eSIM actually replaces the plastic card.",
+        "es": "Esto resuelve si el dispositivo admite eSIM, no si es cómodo. La autogestión online, la migración entre móviles y los perfiles extranjeros siguen limitados, y eso decide si la eSIM sustituye a la tarjeta."
+      }
+    }
+  ]
 }

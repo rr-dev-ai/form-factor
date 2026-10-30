@@ -1,0 +1,92 @@
+{
+  "id": "2026-10-28-telecom-01",
+  "slug": "ipad-mini-8-esim-unicom-only-acceptance",
+  "industry": "telecom",
+  "tags": [
+    "esim"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-28T03:35:00+08:00",
+  "ingestedAt": "2026-10-28T03:18:00+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "腾讯新闻（国行价格与 eSIM 方案）",
+      "url": "https://news.qq.com/rain/a/20261027A002UM00",
+      "lang": "zh",
+      "publishedAt": "2026-10-27T09:00:00+08:00"
+    },
+    {
+      "name": "腾讯新闻（国行 eSIM 仅联通受理）",
+      "url": "https://news.qq.com/rain/a/20261027A04XFH00",
+      "lang": "zh",
+      "publishedAt": "2026-10-27T12:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "iPad mini 8 只做 eSIM，但国内平板 eSIM 只剩联通能办",
+    "en": "iPad mini 8 drops the SIM tray, yet only one Chinese carrier still activates tablet eSIM",
+    "es": "El iPad mini 8 elimina la bandeja, pero solo una operadora china activa eSIM en tablets"
+  },
+  "summary": {
+    "zh": "第八代 iPad mini 蜂窝版延续纯 eSIM 方案、不提供卡槽，蜂窝版比 Wi-Fi 版贵 1,300 元；但国内目前只有中国联通受理平板 eSIM，移动与电信已停办。",
+    "en": "The eighth-generation iPad mini keeps the eSIM-only design with no tray, at 1,300 yuan more than Wi-Fi. In China, however, only Unicom still activates tablet eSIM; China Mobile and China Telecom have stopped.",
+    "es": "El iPad mini de octava generación mantiene el diseño solo eSIM sin bandeja, 1.300 yuanes más que el Wi-Fi. En China solo Unicom activa eSIM en tablets; China Mobile y Telecom dejaron de hacerlo."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "苹果 10 月 26 日晚发布第八代 iPad mini。蜂窝版有个熟悉的取舍：延续纯 eSIM 方案，机身里没有卡槽。国行蜂窝版 6,799 元起，比同配置 Wi-Fi 版贵 1,300 元。",
+        "en": "Apple announced the eighth-generation iPad mini on the evening of 26 October. The cellular model repeats a familiar trade-off: eSIM only, no tray. It starts at 6,799 yuan in China, 1,300 more than the equivalent Wi-Fi model.",
+        "es": "Apple presentó el iPad mini de octava generación el 26 de octubre. La versión cellular repite la decisión conocida: solo eSIM, sin bandeja. En China parte de 6.799 yuanes, 1.300 más que el Wi-Fi equivalente."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "问题出在受理侧。国内目前只有中国联通支持 iPad 蜂窝版 eSIM，适用范围限国行「无线局域网 + 蜂窝网络」机型（iPad mini 7 及更新可申办），中国移动与中国电信已经停办；海外版本即使型号相同，也不能写入国内 eSIM。",
+        "en": "The problem sits on the activation side. In China only Unicom supports eSIM on cellular iPads, limited to mainland Wi-Fi plus cellular models (iPad mini 7 and newer); China Mobile and China Telecom have stopped. A foreign unit with the same model number cannot load a Chinese eSIM either.",
+        "es": "El problema está en la activación. En China solo Unicom admite eSIM en iPad cellular, limitado a modelos nacionales Wi-Fi más cellular (iPad mini 7 y posteriores); China Mobile y Telecom lo han dejado. Una unidad extranjera del mismo modelo tampoco puede cargar una eSIM china."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "终端层面已经纯 eSIM，受理层面却从三家并进退回一家独撑",
+          "en": "The device went eSIM-only while activation retreated from three carriers to one",
+          "es": "El dispositivo ya es solo eSIM, pero la activación pasó de tres operadoras a una"
+        },
+        {
+          "zh": "手机端的对照很直接：三家公司都拿到了 eSIM 商用试验批复，并在纯 eSIM 手机首发时同场竞争",
+          "en": "The contrast with phones is direct: all three hold commercial eSIM trial approval and competed on the eSIM-only phone launch",
+          "es": "El contraste con el móvil es claro: las tres tienen aprobación de prueba comercial y compitieron en el lanzamiento solo eSIM"
+        },
+        {
+          "zh": "平板成为国内第二个 eSIM 商用品类，品类扩张快于受理能力的铺开",
+          "en": "Tablets are the second commercial eSIM category in China, and categories are expanding faster than activation capacity",
+          "es": "Las tablets son la segunda categoría eSIM comercial en China, y las categorías crecen más rápido que la activación"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "对一台 6,799 元起的设备，这意味着买之前得先确认自己在哪家运营商。这是真实的转化摩擦，也会反过来影响蜂窝版在国内的选配率。同一家运营商对不同终端品类的受理策略并不一致，这一点比单个产品更值得记录。",
+        "en": "On a device starting at 6,799 yuan that means checking your carrier before buying. That is real friction at checkout, and it feeds back into how often the cellular model is configured in China. The larger point is that a single carrier's activation policy differs by device category.",
+        "es": "En un dispositivo desde 6.799 yuanes, eso obliga a comprobar la operadora antes de comprar. Es fricción real en la decisión, y repercute en cuántas unidades cellular se configuran en China. Lo relevante es que la política de una misma operadora cambia según la categoría."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "终端已经纯 eSIM，受理却只剩一家：品类扩张快于受理能力，买之前的这一步确认会直接影响蜂窝版的销量结构。",
+    "en": "The hardware is eSIM-only while activation narrows to one carrier: categories outrun activation capacity, and that pre-purchase check shapes cellular mix.",
+    "es": "El hardware es solo eSIM y la activación se reduce a una operadora: las categorías superan la capacidad, y esa comprobación previa condiciona la mezcla cellular."
+  },
+  "confidence": 0.83,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

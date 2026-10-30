@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-28-banking-01",
+  "slug": "mukuru-account-card-south-africa",
+  "industry": "banking",
+  "tags": [
+    "issuing",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-28T04:35:00+08:00",
+  "ingestedAt": "2026-10-28T04:12:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Fintech News UAE",
+      "url": "https://fintechnews.ae/34543/fintech-africa/mukuru-account-card-paymentology-south-africa/",
+      "lang": "en",
+      "publishedAt": "2026-10-27T18:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "汇款公司拿到银行账户与卡，50 万预付卡用户原地升级",
+    "en": "A remittance firm gets accounts and cards, upgrading 500,000 prepaid users in place",
+    "es": "Una remesadora obtiene cuentas y tarjetas: 500.000 usuarios suben de nivel"
+  },
+  "summary": {
+    "zh": "南非汇款服务商 Mukuru 联合 Bank Zero 与 Paymentology 上线账户加卡产品，可收工资、付本地账、境内外消费与汇款；约 50 万存量预付卡用户可直接迁移。",
+    "en": "South African remittance firm Mukuru launched an account plus card with Bank Zero and Paymentology: salary deposits, local payments, spending at home and abroad, and outbound remittance. About 500,000 existing prepaid users can migrate directly.",
+    "es": "La remesadora sudafricana Mukuru lanzó cuenta y tarjeta con Bank Zero y Paymentology: nómina, pagos locales, consumo y remesas. Unos 500.000 usuarios de prepago pueden migrar directamente."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Mukuru 做了二十多年跨境汇款：工人在南非挣钱，往津巴布韦、马拉维这些地方汇。现在它把业务往前提了一步，推出账户加卡，用户不只是能汇钱，还能收工资、付本地账单、在店里和网上消费、取现。",
+        "en": "Mukuru has moved money across borders for over twenty years: workers earn in South Africa and send it to Zimbabwe, Malawi and beyond. Now it steps forward with an account plus card, so users can also receive salaries, pay local bills, spend in shops and online, and withdraw cash.",
+        "es": "Mukuru lleva más de veinte años moviendo dinero entre fronteras: se gana en Sudáfrica y se envía a Zimbabue, Malaui y otros países. Ahora da un paso más con cuenta y tarjeta: cobrar nómina, pagar servicios locales, consumir en tienda y online, y retirar efectivo."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "分工是三段：Bank Zero 提供持牌银行能力，Paymentology 负责发卡与处理，Mastercard 做卡网络。Mukuru 自己不用申请银行牌照，也不用建支付基础设施。",
+        "en": "The split has three parts: Bank Zero supplies the licensed banking capability, Paymentology issues and processes, Mastercard provides the network. Mukuru needs neither a banking licence nor its own payment infrastructure.",
+        "es": "El reparto tiene tres partes: Bank Zero aporta la capacidad bancaria licenciada, Paymentology emite y procesa, Mastercard pone la red. Mukuru no necesita licencia bancaria ni infraestructura propia."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "约 50 万 Mukuru 客户已持有预付卡，可原地升级到新账户，获得更多功能与更高月消费额度",
+          "en": "About 500,000 Mukuru customers already hold a prepaid card and can upgrade in place, gaining more functions and a higher monthly spending limit",
+          "es": "Unos 500.000 clientes ya tienen tarjeta prepago y pueden subir al nuevo producto, con más funciones y mayor límite mensual"
+        },
+        {
+          "zh": "升级路径要复用卡号前缀（BIN）、卡号、余额与既有的身份核验结果，而不是重新发一批卡",
+          "en": "The upgrade reuses BIN, card number, balance and existing identity checks rather than issuing a new card batch",
+          "es": "La migración reutiliza BIN, número, saldo y verificaciones ya hechas, en lugar de emitir otro lote"
+        },
+        {
+          "zh": "Paymentology 今年早些时候成为 Bank Zero 的首个合作方，形成「银行出牌照、处理商出发卡能力」的分工",
+          "en": "Paymentology became Bank Zero's first alliance partner earlier this year: the bank supplies the licence, the processor supplies issuing",
+          "es": "Paymentology fue el primer aliado de Bank Zero este año: el banco aporta licencia y el procesador, la emisión"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "对做发卡平台与银行即服务的机构，这个案例的看点在「可迁移的存量」而不是「新签了多少客户」：一次性把 50 万人从预付卡搬到账户，意味着卡号、余额、身份信息能平滑过渡，这才说明平台真的成熟。对用户，它是从「汇款工具」变成「日常账户」的一步。",
+        "en": "For issuing platforms and banking-as-a-service providers the interesting number is migratable stock, not new signings: moving half a million people from prepaid to an account in one go requires card numbers, balances and identity records to carry over cleanly, and that is what proves a platform. For users it is the step from a remittance tool to a daily account.",
+        "es": "Para plataformas de emisión y banca como servicio, la cifra interesante es el stock migrable, no las altas nuevas: mover medio millón de personas de prepago a cuenta exige que número, saldo e identidad pasen sin fricción, y eso demuestra la plataforma. Para el usuario es el paso de herramienta de remesas a cuenta cotidiana."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "「保荐银行 + 独立发卡处理商」这套分工在非洲跑通了一次 50 万人级别的迁移，验证的是存量能不能平滑搬家，而不只是能不能发新卡。",
+    "en": "The sponsor-bank plus processor split carried a 500,000-user migration, proving existing balances and credentials can move rather than just new cards being issued.",
+    "es": "El esquema banco patrocinador más procesador logró migrar 500.000 usuarios, probando que el saldo y las credenciales se mueven, no solo que se emiten tarjetas."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

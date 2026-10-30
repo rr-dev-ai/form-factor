@@ -1,0 +1,110 @@
+{
+  "id": "2026-10-30-telecom-06",
+  "slug": "fcc-d2d-rules-modernization-nprm",
+  "industry": "telecom",
+  "tags": [
+    "satellite",
+    "5g",
+    "roaming"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-30T03:35:00+08:00",
+  "ingestedAt": "2026-10-30T03:15:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "TSN Media",
+      "url": "https://tsnmedia.org/fcc-satellite-direct-device-spectrum",
+      "lang": "en",
+      "publishedAt": "2026-10-29T22:00:00+08:00"
+    },
+    {
+      "name": "SmallSat News",
+      "url": "https://smallsatnews.com/2026/10/29/fcc-proposes-modernized-direct-to-device-rules-explores-482-mhz-expansion-for-satellite-cellular",
+      "lang": "en",
+      "publishedAt": "2026-10-29T23:00:00+08:00"
+    },
+    {
+      "name": "TelecomLead",
+      "url": "https://telecomlead.com/5g/fcc-proposes-25-mhz-spectrum-auction-for-5g-and-satellite-d2d-as-us-operators-prepare-for-400-mhz-expansion-128451",
+      "lang": "en",
+      "publishedAt": "2026-10-30T00:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "FCC 放开卫星直连：13 个频段，不再必须向运营商租频谱",
+    "en": "FCC opens satellite-to-phone: 13 bands, no more mandatory carrier leases",
+    "es": "La FCC abre el satélite-móvil: 13 bandas y fin del alquiler obligatorio"
+  },
+  "summary": {
+    "zh": "FCC 10 月 29 日启动卫星直连规则现代化：可用频段从 5 个扩到 13 个、净增 482MHz，并拟取消「必须先拿到地面运营商频谱租约」这一前置条件，改为共存协议加按需划定许可区。",
+    "en": "The FCC opened a rewrite of direct-to-device rules on 29 October: bands go from five to thirteen, adding 482 MHz, and the requirement to hold a terrestrial carrier's spectrum lease would be replaced by coexistence agreements and demand-based licence areas.",
+    "es": "La FCC inició el 29 de octubre la revisión de las reglas de satélite-móvil: de cinco a trece bandas, 482 MHz más, y el alquiler obligatorio a un operador terrestre se cambia por acuerdos de coexistencia y áreas de licencia a demanda."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "卫星直连手机（D2D）过去两年一直是逐个批：SpaceX 找 T-Mobile，AST 找本地运营商，一家一份租约、一次一次豁免。FCC 自己也承认，现行规则已经造成「豁免要例行化」的局面。10 月 29 日它用一份规则制定通知，把这件事改成通用规则。",
+        "en": "For two years direct-to-device has been approved case by case: SpaceX with T-Mobile, AST with local carriers, one lease and one waiver at a time. The FCC itself concedes the rules have made waivers routine. On 29 October it issued a rulemaking to turn that into general rules.",
+        "es": "Durante dos años el satélite-móvil se aprobó caso por caso: SpaceX con T-Mobile, AST con operadores locales, un contrato y una excepción cada vez. La propia FCC admite que las reglas han hecho rutinarias las excepciones. El 29 de octubre lanzó una norma general."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "频段池从 5 个扩到 13 个，净增 482MHz，覆盖 600MHz 到 3.45GHz，包括承载主要流量的 700MHz、800MHz、AWS、PCS 与 2.5GHz",
+          "en": "The band pool grows from five to thirteen, adding 482 MHz from 600 MHz to 3.45 GHz, including the 700 MHz, 800 MHz, AWS, PCS and 2.5 GHz bands that carry most traffic",
+          "es": "El conjunto pasa de cinco a trece bandas, con 482 MHz más de 600 MHz a 3,45 GHz, incluidas 700, 800, AWS, PCS y 2,5 GHz, que soportan la mayor parte del tráfico"
+        },
+        {
+          "zh": "拟删掉两个前置条件：许可必须覆盖地理独立的大面积区域；卫星方必须持有地面牌照方的频谱租约",
+          "en": "Two preconditions would go: licences covering large geographically separate areas, and holding a terrestrial licensee's spectrum lease",
+          "es": "Se eliminarían dos condiciones: licencias sobre grandes áreas geográficamente separadas y tener el contrato de espectro de un titular terrestre"
+        },
+        {
+          "zh": "替代方案是按运营商需求划许可区，加与地面牌照方签共存协议；消费级终端拟改为「按规则许可」，不必逐台认证",
+          "en": "Instead, licence areas would follow demand plus coexistence agreements with terrestrial licensees; consumer terminals would be licensed by rule rather than per device",
+          "es": "En su lugar, áreas de licencia según demanda y acuerdos de coexistencia; los terminales de consumo quedarían autorizados por regla, sin certificación unitaria"
+        },
+        {
+          "zh": "同时征求意见：卫星与地面规则是否统一、D2D 要达什么服务性能标准、卫星 911 规则是否修改",
+          "en": "The FCC also asks whether satellite and terrestrial rules should merge, what performance standard D2D must meet, and whether satellite 911 rules need changes",
+          "es": "También pregunta si deben unificarse las reglas satelitales y terrestres, qué rendimiento debe cumplir el D2D y si cambian las reglas del 911 satelital"
+        },
+        {
+          "zh": "程序上，联邦公报刊登后 60 天征求意见、90 天回复；同场还通过了 25MHz 频谱拍卖规则",
+          "en": "Procedurally: 60 days for comments and 90 for replies after Federal Register publication; a 25 MHz auction rule was adopted at the same meeting",
+          "es": "Plazos: 60 días de comentarios y 90 de réplicas tras su publicación; en la misma sesión se aprobó la subasta de 25 MHz"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "最实质的不是 482MHz，而是取消租约要求。原来卫星方只有拿到全国性运营商的租约才能连手机，这正是 D2D 一律以「运营商合作」形态出现的原因。改成共存协议后，中小运营商和区域性牌照方也能单独谈——但仍需地面牌照方点头，闸门没被完全拆掉。",
+        "en": "The substance is not the 482 MHz but dropping the lease. A satellite operator could only reach phones by leasing spectrum from a nationwide carrier, which is exactly why every D2D deal looks like a carrier partnership. With coexistence agreements, smaller and regional licensees can deal directly — though the terrestrial holder still has to agree, so the gate is narrowed, not removed.",
+        "es": "Lo sustantivo no son los 482 MHz sino eliminar el alquiler. Un operador satelital solo llegaba al móvil alquilando espectro a un operador nacional, y por eso todo acuerdo D2D parece una alianza con operador. Con acuerdos de coexistencia, los pequeños y regionales negocian directo, aunque el titular terrestre aún debe aceptar: la puerta se estrecha, no desaparece."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "另一个悬而未决的问题在 eSIM 配置这一层：卫星连接至今没进运营商的 eSIM profile，它挂在终端射频和手机厂商账号上。如果直连变成通用能力，卫星连接的编排权是留在运营商手里，还是被终端与卫星方直接拿走，取决于 profile 层跟不跟。",
+        "en": "One question stays open at the profile layer: satellite connectivity has never entered a carrier's eSIM profile; it hangs off the radio and the handset maker's account. If direct-to-device becomes a general capability, whether carriers keep control of orchestrating it depends on whether the profile layer follows.",
+        "es": "Queda abierta la capa de perfil: la conectividad satelital nunca entró en el perfil eSIM del operador; cuelga de la radio y de la cuenta del fabricante. Si el D2D se generaliza, que el operador conserve la orquestación depende de si la capa de perfil le sigue."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "卫星连手机从「逐个个案批」变成「通用规则」，运营商对频谱的独家闸门被削弱，但最终谁掌握连接编排权仍未定。",
+    "en": "Satellite-to-phone moves from case-by-case waivers to general rules, weakening carriers' exclusive gate on spectrum while leaving orchestration control undecided.",
+    "es": "El satélite-móvil pasa de excepciones puntuales a reglas generales, debilita la puerta exclusiva del operador y deja abierto quién orquesta la conexión."
+  },
+  "confidence": 0.87,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

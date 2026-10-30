@@ -1,0 +1,101 @@
+{
+  "id": "2026-10-30-telecom-05",
+  "slug": "malaysia-mcmc-travel-esim-consultation",
+  "industry": "telecom",
+  "tags": [
+    "esim",
+    "roaming",
+    "sim-registration"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-30T03:35:00+08:00",
+  "ingestedAt": "2026-10-30T03:15:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Bernama",
+      "url": "https://www.bernama.com/en/general/news.php?id=2627307",
+      "lang": "en",
+      "publishedAt": "2026-10-29T18:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "马来西亚把「旅行 eSIM」当监管对象，咨询期今日截止",
+    "en": "Malaysia turns travel eSIM into a regulatory subject",
+    "es": "Malasia convierte la eSIM de viaje en objeto regulatorio"
+  },
+  "summary": {
+    "zh": "MCMC 就境外 eSIM 与永久漫游公开征求意见，问的是四件事：漫游要不要设 30 或 60 天上限、用境外号码提供服务的分销商要不要持牌、消费者如何保护、线上实名核验（e-KYC）是否强制。",
+    "en": "MCMC opened a consultation on foreign eSIM and permanent roaming, asking whether roaming needs a 30 or 60 day cap, whether distributors using foreign numbers need licences, how consumers are protected, and whether e-KYC should be mandatory.",
+    "es": "MCMC abrió consulta sobre eSIM extranjera e itinerancia permanente: si el roaming necesita tope de 30 o 60 días, si los distribuidores con números extranjeros requieren licencia, cómo proteger al consumidor y si la e-KYC será obligatoria."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "旅行 eSIM 长期处在灰色地带：用户在国外 App 里买个套餐，落地就能上网，连接用的是境外运营商签发的号码，本地运营商一分钱赚不到，出了诈骗案警方追到境外就断了。",
+        "en": "Travel eSIM has long lived in a grey zone: buy a plan in a foreign app, land, get online. The connection uses a number issued by a foreign operator, the local carrier earns nothing, and fraud investigations stall the moment they cross the border.",
+        "es": "La eSIM de viaje vive en zona gris: compras un plan en una app extranjera, aterrizas y navegas. La conexión usa un número emitido por un operador extranjero, el operador local no ingresa nada y la investigación de un fraude se detiene en la frontera."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "马来西亚通信与多媒体委员会 10 月 29 日发布咨询文件，标题直接把「通过 eSIM 提供的国际漫游连接服务」写进去，反馈截止 10 月 30 日。",
+        "en": "On 29 October the Malaysian Communications and Multimedia Commission published a consultation whose title names \"international roaming-based connectivity services, including through eSIM solutions\". Feedback closes on 30 October.",
+        "es": "El 29 de octubre la comisión malasia publicó una consulta cuyo título nombra los servicios de conectividad basados en itinerancia internacional, incluidas soluciones eSIM. El plazo termina el 30 de octubre."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "国际漫游是否要设 30 天或 60 天使用上限，同时要兼顾物联网与车联网的长周期需求",
+          "en": "Whether roaming should carry a 30 or 60 day cap, while accommodating long-lived IoT and connected-car needs",
+          "es": "Si la itinerancia debe tener tope de 30 o 60 días, atendiendo también a IoT y vehículos conectados"
+        },
+        {
+          "zh": "用境外签发号码、以永久漫游方式提供服务的分销商、转售商、聚合商，是否要纳入牌照要求",
+          "en": "Whether distributors, resellers and aggregators using foreign numbers under permanent roaming need licences",
+          "es": "Si distribuidores, revendedores y agregadores con números extranjeros bajo itinerancia permanente necesitan licencia"
+        },
+        {
+          "zh": "境外主体在消费者保护、投诉处理、价格透明度、服务质量上，是否应承担与本地运营商可比的义务",
+          "en": "Whether foreign providers should carry consumer protection, complaints, price transparency and service quality duties comparable to local carriers",
+          "es": "Si los proveedores extranjeros deben asumir protección al consumidor, reclamaciones, transparencia de precios y calidad comparables a los locales"
+        },
+        {
+          "zh": "个人数据保护法合规、合法接入要求，以及是否用线上实名核验（e-KYC）确认身份",
+          "en": "Data protection compliance, lawful access requirements, and whether e-KYC is used for identity checks",
+          "es": "Cumplimiento de protección de datos, acceso legal y si se usa e-KYC para verificar identidad"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "学界口径更激进：国民大学网络安全研究中心主张每笔 eSIM 购买都强制 e-KYC，并直连国民登记局数据库；马来亚大学的说法很形象——锁了前门却敞开后门：本地 SIM 要实名，境外 eSIM 却可以匿名。",
+        "en": "Academics go further. Researchers at UKM want mandatory e-KYC on every eSIM purchase, wired to the national registration database. A Malaya University scholar puts it plainly: the front door is locked while the back door stands open — local SIMs need real names, foreign eSIMs do not.",
+        "es": "Los académicos van más lejos. Investigadores de UKM piden e-KYC obligatoria en cada compra de eSIM, conectada al registro nacional. Un académico de Malaya lo resume: la puerta principal está cerrada y la trasera abierta: la SIM local exige nombre, la eSIM extranjera no."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这是「窗口正在关闭」的信息，不是已经出台的规则。但议题设置已经点到要害：漫游上限等于给永久漫游型产品判了期限，牌照要求等于把境外发行方纳入属地管辖。",
+        "en": "This is a window closing, not a rule in force. Yet the questions already touch the nerve: a roaming cap puts an expiry date on permanent-roaming products, and licensing brings foreign issuers under local jurisdiction.",
+        "es": "Es una ventana que se cierra, no una norma vigente. Pero las preguntas ya tocan el nervio: un tope de itinerancia pone fecha de caducidad a los productos de roaming permanente, y la licencia somete a los emisores extranjeros a jurisdicción local."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "监管第一次从「谁有权向本国用户卖连接」这一侧入手，旅行 eSIM 的成本结构可能被重塑。",
+    "en": "Regulators come at it from the supply side for the first time — who may sell connectivity to domestic users — which could reshape travel eSIM economics.",
+    "es": "Por primera vez se entra por la oferta —quién puede vender conectividad a usuarios locales—, lo que puede rehacer la economía de la eSIM de viaje."
+  },
+  "confidence": 0.83,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

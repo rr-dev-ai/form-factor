@@ -2,7 +2,10 @@
   "id": "2026-10-30-banking-01",
   "slug": "visa-credentials-5-2-billion-tokenised",
   "industry": "banking",
-  "tags": ["tokenization", "issuing"],
+  "tags": [
+    "tokenization",
+    "issuing"
+  ],
   "status": "published",
   "publishedAt": "2026-10-30T04:35:00+08:00",
   "ingestedAt": "2026-10-30T04:12:00+08:00",
@@ -31,10 +34,61 @@
     "es": "La base global de credenciales de Visa alcanzó 5.200 millones al cierre del ejercicio, con más de la mitad tokenizadas y más del 60% del comercio electrónico usándolas; un piloto con Trusted Agent Protocol permite a agentes de IA iniciar pagos dentro de límites aprobados."
   },
   "whyItMatters": {
-    "zh": "凭证的载体从塑料转向令牌，受理方要验证的不再是卡号，而是代理的身份与授权范围，鉴权链条随之变长。",
-    "en": "As the carrier shifts from plastic to token, acceptors verify an agent's identity and mandate rather than a card number — the authorisation chain gets longer.",
-    "es": "Al pasar el soporte del plástico al token, el aceptador verifica la identidad y el mandato de un agente, no un número de tarjeta: la cadena de autorización se alarga."
+    "zh": "卡号正在被令牌替代，而令牌背后可能是人，也可能是一段程序。受理方要确认的东西，从「这张卡是真的」变成「这次付款是谁授权的」。",
+    "en": "Card numbers are giving way to tokens, and behind a token may sit a person or a piece of software. Acceptors shift from checking that a card is real to checking who authorised the payment.",
+    "es": "Los números de tarjeta ceden ante los tokens, y tras un token puede haber una persona o un programa. El aceptador pasa de comprobar que la tarjeta es real a comprobar quién autorizó el pago."
   },
   "confidence": 0.86,
-  "ai": { "model": "claude-sonnet-4.5", "promptVersion": "digest-v3", "tokens": 5340, "costUsd": 0.035 }
+  "ai": {
+    "model": "claude-sonnet-4.5",
+    "promptVersion": "digest-v3",
+    "tokens": 5340,
+    "costUsd": 0.035
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Visa 财年结束时，全球流通的凭证——卡号、令牌、账户这些能发起付款的东西——总数到了 52 亿。比总数更值得看的是结构：其中超过一半已经不再是卡号，而是令牌。",
+        "en": "Visa ended its fiscal year with 5.2 billion credentials in circulation — the card numbers, tokens and accounts that can initiate a payment. The structure matters more than the total: more than half are no longer card numbers but tokens.",
+        "es": "Visa cerró su ejercicio con 5.200 millones de credenciales en circulación: números de tarjeta, tokens y cuentas capaces de iniciar un pago. La estructura importa más que el total: más de la mitad ya no son números de tarjeta sino tokens."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "令牌化的做法是把真卡号换成一串只在某台设备、某个商户可用的替代号码。真卡号不外传，即使泄露也只能在那一处用，所以电商里令牌化凭证已经占了六成以上的交易。",
+        "en": "Tokenisation swaps the real card number for a substitute that only works on one device or at one merchant. The real number never travels, and a leak is only useful in that one place — which is why tokens now cover over 60% of e-commerce transactions.",
+        "es": "La tokenización cambia el número real por un sustituto que solo sirve en un dispositivo o comercio. El número real no viaja y una filtración solo sirve ahí, por eso los tokens cubren más del 60 % del comercio electrónico."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "全球凭证 52 亿，其中过半已令牌化",
+          "en": "5.2 billion credentials worldwide, over half tokenised",
+          "es": "5.200 millones de credenciales, más de la mitad tokenizadas"
+        },
+        {
+          "zh": "电商交易中，令牌化凭证占比超过 60%",
+          "en": "Tokens account for more than 60% of e-commerce transactions",
+          "es": "Los tokens superan el 60 % de las transacciones de comercio electrónico"
+        },
+        {
+          "zh": "同期试点 Trusted Agent Protocol，让 AI 代理在授权范围内发起支付",
+          "en": "A parallel pilot, Trusted Agent Protocol, lets AI agents initiate payments within approved limits",
+          "es": "En paralelo, Trusted Agent Protocol permite a agentes de IA iniciar pagos dentro de límites aprobados"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "代理支付把问题推到了下一步。受理方要确认的不再是「这个卡号是不是真的」，而是「这个代理是谁、被授权花多少、买什么」。Visa 给出的答案是一套协议，但协议能不能成为默认做法，要看商户和发卡行愿不愿意在同一层做校验。",
+        "en": "Agent payments push the question one step further. The acceptor no longer checks whether a card number is real, but who the agent is, how much it may spend and on what. Visa's answer is a protocol; whether it becomes the default depends on merchants and issuers agreeing to verify at that layer.",
+        "es": "Los pagos con agentes llevan la pregunta un paso más allá. El aceptador ya no comprueba si el número es real, sino quién es el agente, cuánto puede gastar y en qué. La respuesta de Visa es un protocolo; que sea el estándar depende de que comercios y emisores verifiquen en esa capa."
+      }
+    }
+  ]
 }

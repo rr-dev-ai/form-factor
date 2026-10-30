@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-29-banking-02",
+  "slug": "blik-recurring-payments-netflix",
+  "industry": "banking",
+  "tags": [
+    "digital-wallet",
+    "scheme-rules"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-29T04:35:00+08:00",
+  "ingestedAt": "2026-10-29T04:15:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "The Paypers",
+      "url": "https://thepaypers.com/payments/news/blik-launches-recurring-payments-for-netflix-users-in-poland",
+      "lang": "en",
+      "publishedAt": "2026-10-28T18:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "BLIK 上线订阅自动扣款，波兰人不必再把卡号交给商户",
+    "en": "BLIK adds recurring payments, so Poles stop handing card numbers to merchants",
+    "es": "BLIK añade pagos recurrentes: los polacos dejan de ceder el número de tarjeta"
+  },
+  "summary": {
+    "zh": "波兰银行系支付 BLIK 推出定期付款，Netflix 为首家商户。用户在自家手机银行里授权一次，之后按期自动扣款，全程不向商户提供卡号。",
+    "en": "Poland's bank-owned BLIK launched recurring payments with Netflix as the first merchant. Users approve once inside their own banking app and are then charged on schedule, never giving the merchant a card number.",
+    "es": "BLIK, el sistema bancario polaco, lanzó pagos recurrentes con Netflix como primer comercio. El usuario autoriza una vez en su app bancaria y luego se le cobra periódicamente, sin dar el número de tarjeta al comercio."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "波兰人日常小额付款大量用 BLIK：在手机银行里生成一个六位码，输进去就付完了。现在这套机制延伸到订阅——10 月 28 日上线的 BLIK Recurring Payments，第一家商户是 Netflix。",
+        "en": "Poles pay small amounts with BLIK all day: generate a six-digit code in the banking app, type it in, done. That mechanism now extends to subscriptions. BLIK Recurring Payments went live on 28 October, with Netflix as the first merchant.",
+        "es": "Los polacos pagan importes pequeños con BLIK todo el día: generan un código de seis dígitos en la app del banco, lo escriben y listo. Ese mecanismo se extiende ahora a las suscripciones. BLIK Recurring Payments se lanzó el 28 de octubre con Netflix como primer comercio."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "流程和过去正好相反。以前订 Netflix 要把卡号填给商户，卡过期或换卡后靠「卡号自动更新」服务续命，扣款失败就成了用户悄悄流失。现在用户在本人手机银行里确认一次授权，之后每期由银行侧按授权扣款，商户拿不到卡号。",
+        "en": "The flow is the reverse of the old one. Subscribing used to mean typing a card number into the merchant's form; when the card expired, an account updater service patched it, and failed charges showed up as silent churn. Now the user approves once inside their own banking app, the bank charges per mandate, and the merchant never sees the number.",
+        "es": "El flujo es el inverso. Antes, suscribirse era escribir el número de tarjeta en el formulario del comercio; cuando caducaba, un servicio de actualización lo parcheaba y los cobros fallidos se convertían en bajas silenciosas. Ahora el usuario aprueba una vez en su app bancaria, el banco cobra según el mandato y el comercio nunca ve el número."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "授权、限额和风控都留在用户的开户银行，取消也在银行 App 里",
+          "en": "Mandate, limits and risk checks stay with the user's own bank, and cancellation happens in the banking app",
+          "es": "El mandato, los límites y el riesgo quedan en el banco del usuario, y la cancelación se hace en la app bancaria"
+        },
+        {
+          "zh": "BLIK 由波兰七家银行加 Mastercard 共同持股的机构运营，几乎覆盖所有波兰手机银行",
+          "en": "BLIK is run by a company co-owned by seven Polish banks and Mastercard, and reaches nearly every Polish banking app",
+          "es": "BLIK lo gestiona una sociedad participada por siete bancos polacos y Mastercard, y llega a casi todas las apps bancarias del país"
+        },
+        {
+          "zh": "卡组织在这里不是对手：Mastercard 本身是股东",
+          "en": "The card schemes are not the opposition here: Mastercard is a shareholder",
+          "es": "Los esquemas de tarjetas no son la oposición: Mastercard es accionista"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这条线和荷兰用 Wero 替换 iDEAL 是同一件事的两个侧面：钱从「卡」回到「账户」，账户背后的银行重新拿回授权环节。对做订阅类商户的收单机构，卡号自动更新、失败重试、拒付处理这些收费项的价值会被一点点削掉。",
+        "en": "This and the Wero-for-iDEAL swap in the Netherlands are two sides of one shift: money moves from cards back to accounts, and the bank behind the account retakes authorisation. For acquirers serving subscription merchants, account updaters, retry logic and chargeback handling steadily lose value.",
+        "es": "Esto y el reemplazo de iDEAL por Wero en Países Bajos son dos caras del mismo cambio: el dinero vuelve de la tarjeta a la cuenta y el banco recupera la autorización. Para los adquirentes de comercios por suscripción, la actualización de tarjetas, los reintentos y la gestión de contracargos pierden valor."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "订阅扣款从「商户存卡」改成「银行侧授权」，卡号保管、换卡失效、扣款失败这一整套成本结构随之转移。",
+    "en": "Recurring billing moves from stored card numbers to bank-side mandates, shifting the cost of storing, refreshing and retrying credentials.",
+    "es": "El cobro recurrente pasa de guardar tarjetas a mandatos bancarios, y con ello se traslada el coste de almacenar, actualizar y reintentar credenciales."
+  },
+  "confidence": 0.84,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

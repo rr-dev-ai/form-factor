@@ -1,0 +1,97 @@
+{
+  "id": "2026-10-29-telecom-01",
+  "slug": "huawei-mate90-four-numbers-three-standby",
+  "industry": "telecom",
+  "tags": [
+    "esim"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-29T03:35:00+08:00",
+  "ingestedAt": "2026-10-29T03:20:00+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "光明网",
+      "url": "https://economy.gmw.cn/2026-10/28/content_39071589.htm",
+      "lang": "zh",
+      "publishedAt": "2026-10-28T20:00:00+08:00"
+    },
+    {
+      "name": "IT之家 / 凤凰网科技",
+      "url": "https://tech.ifeng.com/c/8xaj8sryJpt",
+      "lang": "zh",
+      "publishedAt": "2026-10-28T21:30:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "华为把 eSIM 当「额外号码位」：四卡三待，不做纯 eSIM",
+    "en": "Huawei treats eSIM as an extra slot, not a replacement",
+    "es": "Huawei trata la eSIM como ranura extra, no como reemplazo"
+  },
+  "summary": {
+    "zh": "Mate 90 Pro Max 最多存两张实体卡加两组 eSIM、三个号码同时在线，标准版与 Pro 将在新年前通过 OTA 获得；这与国行纯 eSIM 机型只做两个号码形成明显分化。",
+    "en": "The Mate 90 Pro Max stores two physical SIMs plus two eSIMs and keeps three numbers online at once, with the standard and Pro models getting it by OTA before the new year — a sharp divergence from eSIM-only handsets limited to two numbers.",
+    "es": "El Mate 90 Pro Max guarda dos SIM físicas y dos eSIM y mantiene tres números en línea, y los modelos estándar y Pro lo recibirán por OTA antes de fin de año, frente a los móviles solo eSIM limitados a dos números."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "过去一年国内 eSIM 的主线是「减卡槽」：纯 eSIM 手机、纯 eSIM 平板，机身里连卡针孔都没有。华为在 10 月 28 日的发布会上给了相反方向的答案——不减，加。",
+        "en": "For a year the story in China has been removing the tray: eSIM-only phones, eSIM-only tablets, not even a pinhole left. At its 28 October launch Huawei answered in the opposite direction: add, do not remove.",
+        "es": "Durante un año la tendencia en China ha sido quitar la bandeja: móviles y tablets solo eSIM, sin siquiera un orificio para el pin. En su evento del 28 de octubre Huawei respondió al revés: añadir, no quitar."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "Mate 90 Pro Max 最多存两张实体卡加两组 eSIM，共四个号码位，支持三个同时待机、同时通话上网收发短信",
+          "en": "The Mate 90 Pro Max holds two physical SIMs plus two eSIM profiles — four numbers — with three on standby simultaneously for calls, data and SMS",
+          "es": "El Mate 90 Pro Max guarda dos SIM físicas y dos perfiles eSIM, cuatro números, con tres en espera para llamadas, datos y SMS"
+        },
+        {
+          "zh": "可组合为两实体、一实体加一 eSIM、两实体加一 eSIM；信号栏分别显示三张卡",
+          "en": "Combinations include two physical, one physical plus one eSIM, and two physical plus one eSIM; the status bar shows all three",
+          "es": "Se combinan dos físicas, una física más una eSIM, o dos físicas más una eSIM; la barra muestra las tres"
+        },
+        {
+          "zh": "全系支持，标准版与 Pro 靠 OTA 在新年前下放",
+          "en": "The whole line supports it, with standard and Pro models getting it by OTA before the new year",
+          "es": "Toda la gama lo admite; los modelos estándar y Pro lo reciben por OTA antes de fin de año"
+        },
+        {
+          "zh": "华为这条线起点是 2025 年 12 月的 Mate 80 RS：两张实体卡加双 eSIM",
+          "en": "Huawei's line starts with the Mate 80 RS in December 2025: two physical SIMs plus dual eSIM",
+          "es": "La línea arranca con el Mate 80 RS de diciembre de 2025: dos SIM físicas y eSIM dual"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "分化很直接：国行纯 eSIM 机型最多存两个号，且每台每月新开不超过两个；Mate 90 Pro Max 给到四个号码位、三个待机。对换机的人来说，这是一个能实际感知的参数，而不是宣传口径。",
+        "en": "The divergence is concrete: eSIM-only handsets in China store at most two numbers and allow two new ones per device per month; the Mate 90 Pro Max offers four slots and three on standby. For anyone buying a phone that is a felt specification, not marketing.",
+        "es": "La diferencia es concreta: los móviles solo eSIM en China guardan dos números como máximo y permiten dos altas al mes por dispositivo; el Mate 90 Pro Max ofrece cuatro ranuras y tres en espera. Para quien compra, es una especificación perceptible, no marketing."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "但有两个口径没验证。一是三待的射频调度还没看到第三方拆解；二是三大运营商对「双 eSIM 同时在线」的受理规则至今没有公开表态——平板端已经出现过「终端只支持 eSIM、国内只剩一家能受理」的错配。如果手机端双 eSIM 不被受理，四卡三待在国内实际只能退化为两实体加一 eSIM。",
+        "en": "Two claims remain unverified. No teardown has shown how the radio schedules three lines, and no carrier has published rules for two eSIMs online simultaneously. Tablets already showed the mismatch: an eSIM-only device with only one carrier able to activate it. If dual eSIM is not accepted on phones, four-card three-standby degrades in practice to two physical plus one eSIM.",
+        "es": "Dos afirmaciones siguen sin verificar. Ningún desmontaje muestra cómo la radio gestiona tres líneas, y ninguna operadora ha publicado reglas para dos eSIM simultáneas. Las tablets ya mostraron el desajuste: un dispositivo solo eSIM con una sola operadora capaz de activarlo. Si no se acepta la eSIM dual en móviles, la cuádruple queda en dos físicas más una eSIM."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "eSIM 的终端形态出现第二条路：不是替代卡槽，而是叠加号码位，号码容量成了换机时能被实际感知的参数。",
+    "en": "A second device pattern emerges: eSIM as extra capacity rather than a replacement tray, making number count a felt buying criterion.",
+    "es": "Aparece un segundo patrón: la eSIM como capacidad extra en lugar de bandeja sustituida, y el número de líneas pasa a ser criterio de compra."
+  },
+  "confidence": 0.82,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

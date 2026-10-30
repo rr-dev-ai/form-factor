@@ -1,0 +1,90 @@
+{
+  "id": "2026-10-27-banking-02",
+  "slug": "us-debit-interchange-cap-vacated",
+  "industry": "banking",
+  "tags": [
+    "scheme-rules",
+    "clearing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-27T04:35:00+08:00",
+  "ingestedAt": "2026-10-27T04:12:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/legal/2026/feds-debit-card-swipe-fee-rule-quashed-by-appeals-court/",
+      "lang": "en",
+      "publishedAt": "2026-10-26T22:00:00+08:00"
+    },
+    {
+      "name": "Merchant Payments Coalition（判决书原文）",
+      "url": "https://www.merchantspaymentscoalition.com/sites/default/files/2026-10/CornerPost-2026-10-26-Upheld.pdf",
+      "lang": "en",
+      "publishedAt": "2026-10-26T23:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "美国上诉法院维持原判，借记卡刷卡费上限要重写",
+    "en": "US appeals court upholds vacatur of the debit swipe fee cap",
+    "es": "Un tribunal de apelaciones de EE. UU. confirma la anulación del tope a la tasa de débito"
+  },
+  "summary": {
+    "zh": "第八巡回上诉法院 10 月 26 日维持下级法院裁决，认定美联储在借记卡交换费里多加的「欺诈防范」成本类别越权，现行每笔 21 美分加 0.05% 的上限必须重新制定。",
+    "en": "The Eighth Circuit upheld a lower court ruling that the Fed overstepped by adding a fraud-prevention cost category to the debit interchange cap, so the current 21 cents plus 0.05% formula must be rewritten.",
+    "es": "El Octavo Circuito confirmó que la Reserva Federal se excedió al añadir una categoría de costes antifraude al límite de la tasa de débito: la fórmula actual de 21 centavos más 0,05 % debe reescribirse."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "在美国刷借记卡，商户要付一笔「交换费」，由收单方代收后转给发卡行。2010 年的杜宾修正案要求美联储给这笔费用设上限，最终定成每笔 21 美分，加交易金额的 0.05%，再加 1 美分的欺诈防范成本。",
+        "en": "Every debit card payment in the US carries an interchange fee, collected by the acquirer and passed to the issuing bank. The 2010 Durbin Amendment told the Federal Reserve to cap it; the Fed settled on 21 cents per transaction plus 0.05% of the amount plus one cent for fraud prevention.",
+        "es": "Cada pago con tarjeta de débito en EE. UU. lleva una tasa de intercambio que el adquirente cobra y traslada al banco emisor. La enmienda Durbin de 2010 ordenó a la Reserva Federal ponerle un tope; la Fed fijó 21 centavos por operación más el 0,05 % del importe más un centavo por prevención de fraude."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "起诉方是北达科他州一家便利店 Corner Post，理由是杜宾修正案只允许两类成本计入",
+          "en": "The plaintiff is Corner Post, a North Dakota convenience store, arguing the amendment allows only two cost categories",
+          "es": "El demandante es Corner Post, una tienda de Dakota del Norte, que sostiene que la enmienda solo permite dos categorías de costes"
+        },
+        {
+          "zh": "一审法官的说法很直白：国会没在法案里藏第三个成本类别的彩蛋",
+          "en": "The district judge put it bluntly: Congress did not hide a third cost category in the statute like an Easter egg",
+          "es": "El juez de primera instancia fue directo: el Congreso no escondió una tercera categoría de costes como un huevo de Pascua"
+        },
+        {
+          "zh": "第八巡回法院 10 月 26 日维持原判，要求美联储重新制定符合法条边界的标准",
+          "en": "The Eighth Circuit upheld that ruling on 26 October and told the Fed to write a standard that stays inside the statute",
+          "es": "El Octavo Circuito confirmó la sentencia el 26 de octubre y pidió a la Fed un estándar que respete la ley"
+        },
+        {
+          "zh": "商户组织欢迎，信用社团体反对，认为风控和网络成本不会因为判决消失",
+          "en": "Merchant groups welcomed it; credit unions objected that risk and network costs do not disappear because a court said so",
+          "es": "Las asociaciones de comercios lo celebraron; las cooperativas de crédito objetaron que los costes de riesgo y red no desaparecen porque lo diga un tribunal"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "接下来不是马上降价，而是进入重写规则的漫长流程，还可能被要求全席审理或上诉到最高法院。但方向已经比较清楚：新上限大概率低于现在的水平。对收单方，按「成本加成」报给商户的价格有下行空间；对大型发卡行，借记卡返现和权益的钱会变少。",
+        "en": "What follows is not an immediate price cut but a long rewrite, with a possible en banc rehearing or a Supreme Court appeal. The direction is clear enough: the new cap will most likely be lower. Acquirers pricing merchants on a cost-plus basis gain room to move; large issuers have less money for debit rewards.",
+        "es": "Lo que sigue no es una bajada inmediata sino una reescritura larga, con posible revisión del pleno o recurso al Supremo. La dirección está clara: el nuevo tope será probablemente más bajo. Los adquirentes que fijan precios con coste más margen tendrán margen; los grandes emisores tendrán menos dinero para recompensas de débito."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "商户刷卡成本里最大的一个变量被重新打开，收单方报价、发卡行借记卡权益、借记网络之间的竞争都要按新费率重算。",
+    "en": "The biggest single variable in card acceptance costs is open again: acquirer pricing, issuer debit rewards and network competition all get recalculated.",
+    "es": "La mayor variable del coste de aceptación vuelve a estar abierta: precios del adquirente, recompensas de débito y competencia entre redes se recalculan."
+  },
+  "confidence": 0.87,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

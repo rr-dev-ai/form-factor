@@ -1,0 +1,88 @@
+{
+  "id": "2026-10-25-telecom-01",
+  "slug": "lebanon-touch-inapp-prepaid-esim",
+  "industry": "telecom",
+  "tags": [
+    "esim",
+    "sim-registration",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-25T03:35:00+08:00",
+  "ingestedAt": "2026-10-25T03:15:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "LeBusiness",
+      "url": "https://leb.business/en/article/new-mobile-line-in-minutes-touch-takes-subscriptions-fully-online",
+      "lang": "en",
+      "publishedAt": "2026-10-23T20:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "黎巴嫩运营商把开卡搬进 App：扫护照、刷脸、电子签约",
+    "en": "Lebanon's touch moves SIM signup into its app: passport scan, face check, e-signature",
+    "es": "touch lleva el alta de SIM a su app: pasaporte, rostro y firma electrónica"
+  },
+  "summary": {
+    "zh": "黎巴嫩运营商 touch 上线全线上开卡：在 App 内选号、扫描黎巴嫩护照、人脸识别、电子签署合同，几分钟内开通一条预付费 eSIM，全程不到营业厅。",
+    "en": "Lebanese operator touch now signs up subscribers entirely in its app: pick a number, scan a Lebanese passport, pass a face check, sign electronically, and a prepaid eSIM is live in minutes.",
+    "es": "La operadora libanesa touch permite el alta íntegra en su app: elegir número, escanear el pasaporte libanés, verificación facial, firma electrónica y eSIM prepago activa en minutos."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "黎巴嫩两家移动运营商之一的 touch 把开卡流程整体搬进了 App。用户在更新后的客户端里选号、扫描黎巴嫩护照、做人脸识别、电子签署入网合同，几分钟后一条预付费 eSIM 就开通了。发布会上当场演示了一次真实开卡，还打给了第一位通过新平台注册的客户。",
+        "en": "touch, one of Lebanon's two mobile operators, moved the whole signup into its app. A user picks a number, scans a Lebanese passport, passes a face check, signs the contract electronically, and a prepaid eSIM is live minutes later. The launch event included a live activation and a call to the first customer who signed up through the platform.",
+        "es": "touch, una de las dos operadoras móviles de Líbano, trasladó todo el alta a su app. El usuario elige número, escanea el pasaporte libanés, pasa verificación facial, firma el contrato electrónicamente y la eSIM prepago queda activa en minutos. En el evento se activó una línea en vivo y se llamó al primer cliente registrado."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "第一阶段只覆盖预付费 eSIM，后付费线路列入二期；只接受黎巴嫩护照，身份证支持「后续再加」，两个「后续」都没有日期",
+          "en": "Phase one covers prepaid eSIM only, postpaid comes later; only Lebanese passports are accepted, national IDs later, with no dates for either",
+          "es": "La primera fase solo cubre eSIM prepago; el pospago llega después. Solo se acepta pasaporte libanés, el DNI queda para más adelante, sin fechas"
+        },
+        {
+          "zh": "资费沿用既有价目：新预付费线路 7 美元、新后付费 16.67 美元、实体卡转 eSIM 1.67 美元，均不含税",
+          "en": "Pricing is unchanged: USD 7 for a new prepaid line, USD 16.67 for postpaid, USD 1.67 to convert a physical SIM, all before tax",
+          "es": "Precios sin cambios: 7 dólares la línea prepago, 16,67 la pospago y 1,67 por pasar de SIM física a eSIM, antes de impuestos"
+        },
+        {
+          "zh": "技术合作方是 Assentify、Intalio 与 Democ；平台经部长会议决议授权，电信部长已视察并批准运行",
+          "en": "Technology partners are Assentify, Intalio and Democ; the platform was authorised by cabinet decision and approved by the telecom minister",
+          "es": "Los socios tecnológicos son Assentify, Intalio y Democ; la plataforma fue autorizada por decisión del consejo de ministros y aprobada por el ministro"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这件事的价值不在「快」，而在于它证明了远程开卡的三个前提可以在治理能力偏弱的市场里凑齐：证件库能被可信地调用、活体与人脸比对能落地、电子签名有法律效力。缺任何一件，运营商都只能把用户请回柜台。",
+        "en": "The point is not speed. It is that three preconditions for remote signup can be assembled even in a market with weak institutions: a credential source that can be called on reliably, workable liveness and face matching, and an electronic signature with legal force. Miss any one and the carrier has to send the customer back to a counter.",
+        "es": "Lo importante no es la rapidez, sino que las tres condiciones del alta remota pueden reunirse incluso con instituciones frágiles: una fuente de documentos consultable con confianza, prueba de vida y comparación facial viables, y firma electrónica con valor legal. Si falta una, el cliente vuelve al mostrador."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "对照来看，中国目前的约束不是技术能力，而是远程实名出问题时责任算谁的：一机两号、每月新开不超两个、必须本人持机到厅。这也是为什么「推动线上自助办理」只能先表态、不给时间表。",
+        "en": "By contrast, China's constraint is not technical capability but liability when a remote identity check goes wrong: two eSIMs per handset, at most two new numbers a month, and in-person activation. That is why pushing online self-service arrives as a statement without a date.",
+        "es": "En contraste, la limitación china no es técnica sino de responsabilidad cuando falla la verificación remota: dos eSIM por terminal, dos altas al mes y activación presencial. Por eso impulsar la autogestión llega como declaración sin fecha."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "远程开卡能不能成立，取决于证件库可调用、活体比对可用、电子签名有效这三件事，而不是运营商的 IT 能力——这决定了线上办理会在哪些市场先跑通。",
+    "en": "Remote signup depends on a callable credential source, usable liveness checks and a legally valid e-signature, not on IT capability — which decides where online activation lands first.",
+    "es": "El alta remota depende de una fuente documental consultable, prueba de vida viable y firma con valor legal, no de la capacidad técnica, y eso decide dónde llega primero."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

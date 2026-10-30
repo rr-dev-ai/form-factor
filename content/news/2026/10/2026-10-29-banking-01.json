@@ -1,0 +1,102 @@
+{
+  "id": "2026-10-29-banking-01",
+  "slug": "snap-ebt-chip-nfc-mandate",
+  "industry": "banking",
+  "tags": [
+    "acquiring",
+    "issuing",
+    "fraud"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-29T04:35:00+08:00",
+  "ingestedAt": "2026-10-29T04:15:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Federal Register · 91 FR 66958",
+      "url": "https://thefederalregister.org/documents/2026-21658/supplemental-nutrition-assistance-program-electronic-benefits-transfer-card-security-measures",
+      "lang": "en",
+      "publishedAt": "2026-10-23T20:00:00+08:00"
+    },
+    {
+      "name": "ProPublica",
+      "url": "https://www.propublica.org/article/snap-theft-chip-cards-trump-rule",
+      "lang": "en",
+      "publishedAt": "2026-10-26T18:00:00+08:00"
+    },
+    {
+      "name": "NPR",
+      "url": "https://www.ctpublic.org/2026-10-26/trump-administration-pushes-for-food-assistance-card-upgrade-to-fight-fraud",
+      "lang": "en",
+      "publishedAt": "2026-10-27T02:41:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "美国 SNAP 福利卡要换成芯片卡，两年内全量替换",
+    "en": "US SNAP benefit cards move to chips, with a two-year clock",
+    "es": "Las tarjetas de ayuda alimentaria de EE. UU. pasan al chip en dos años"
+  },
+  "summary": {
+    "zh": "美国农业部拟规定各州在最终规则发布后两年内，把 SNAP 电子福利卡换成带芯片、可插可挥的卡；零售商要自费升级终端，且必须先试芯片、失败才能刷磁条。",
+    "en": "USDA proposes that states issue SNAP EBT cards with chips and tap-to-pay within two years of a final rule. Retailers pay for terminal upgrades and must try chip first, falling back to the stripe only if it fails.",
+    "es": "El USDA propone que los estados emitan tarjetas EBT con chip y pago sin contacto en dos años desde la norma final. Los comercios pagan la actualización de terminales y deben intentar el chip antes de la banda."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "SNAP 是美国的食品补助，每月把钱打到一张 EBT 卡上，在超市刷卡买食品。这张卡一直是磁条卡，侧录盗刷严重。美国农业部 10 月 23 日在《联邦公报》挂出拟议规则，正式要把卡换成芯片卡，评论截止 12 月 22 日。",
+        "en": "SNAP is US food assistance: money lands on an EBT card each month and is spent at the till. That card has always been a magnetic stripe card, and skimming has been rampant. On 23 October USDA published a proposed rule to move it to chip, with comments open until 22 December.",
+        "es": "SNAP es la ayuda alimentaria de EE. UU.: cada mes el dinero llega a una tarjeta EBT y se gasta en la caja. Esa tarjeta siempre ha sido de banda magnética y el skimming ha sido masivo. El 23 de octubre el USDA publicó una norma propuesta para pasar al chip, con comentarios hasta el 22 de diciembre."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "卡要能插、也能挥；零售商先试芯片，芯片失败才能回退磁条",
+          "en": "Cards must support both insert and tap; retailers try chip first and fall back to the stripe only on failure",
+          "es": "La tarjeta debe permitir inserción y pago sin contacto; el comercio intenta el chip primero y solo recurre a la banda si falla"
+        },
+        {
+          "zh": "卡号改印背面，线上付款要校验卡背三位码与有效期；新卡在激活前处于未启用状态",
+          "en": "The card number moves to the back, online payments must check the security code and expiry, and new cards stay inactive until activated",
+          "es": "El número pasa al reverso, el pago online debe validar el código de seguridad y la caducidad, y la tarjeta nueva queda inactiva hasta activarse"
+        },
+        {
+          "zh": "持卡人要能自己开关六类限制：锁州外交易、锁线上交易、全部锁卡、短信或邮件告警、自设单笔上限",
+          "en": "Cardholders get six self-service controls: block out-of-state, block card-not-present, block everything, SMS or email alerts, and their own per-transaction limit",
+          "es": "El titular dispondrá de seis controles: bloquear fuera del estado, bloquear compras sin tarjeta presente, bloquear todo, alertas por SMS o correo y límite propio por operación"
+        },
+        {
+          "zh": "交易记录保留从 2 个月延长到 12 个月；禁用顺序号、重复数字这类弱密码",
+          "en": "Transaction history goes from two months to twelve; weak PINs such as sequences and repeated digits are banned",
+          "es": "El historial pasa de dos a doce meses; se prohíben PIN débiles como secuencias o dígitos repetidos"
+        },
+        {
+          "zh": "一次性实施成本约 2.83 亿美元，官方预计十年减少至少 15 亿美元被盗福利；芯片卡制卡成本约为磁条卡的 10 倍，联邦不额外给钱",
+          "en": "One-off implementation cost is about $283 million, against at least $1.5 billion of stolen benefits avoided over ten years; chip cards cost roughly ten times a stripe card to make, with no extra federal funding",
+          "es": "El coste único ronda los 283 millones de dólares, frente a al menos 1.500 millones en prestaciones robadas evitadas en diez años; la tarjeta con chip cuesta unas diez veces más y no hay fondos federales adicionales"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "真正被低估的是发卡这一侧。卡号位置、卡背校验码、有效期、默认未激活、到期换卡——这些过去只属于信用卡和借记卡的生命周期管理，现在整套搬到福利卡上。对做制卡和个人化的厂商，这是一批有明确截止日的批量订单；对做美国中小商户终端的厂商，这是一次可预测的换机周期，而且换的不只是机器：EMV 内核的回退逻辑也要能过审。",
+        "en": "The underrated half is issuance. Card number placement, a printed security code, an expiry date, cards inactive until activated, replacement cycles — lifecycle management that used to belong only to credit and debit cards now lands on a benefit card. For card makers that is a batch order with a hard deadline; for terminal vendors it is a predictable refresh, and not just hardware: the EMV fallback logic has to be verifiable too.",
+        "es": "La mitad subestimada es la emisión. Ubicación del número, código impreso, caducidad, tarjeta inactiva hasta activarse, ciclos de reemplazo: la gestión del ciclo de vida que antes era solo de crédito y débito llega ahora a una tarjeta de prestación. Para los fabricantes es un pedido por lotes con fecha límite; para los terminales, una renovación previsible, y no solo de hardware: la lógica de fallback EMV también debe ser verificable."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "福利卡第一次有了芯片、有效期和换卡周期，受理终端与制卡个人化两条产线被同一份规则同时推动。",
+    "en": "For the first time a benefit card gets a chip, an expiry and a replacement cycle, pushing terminal fleets and card personalisation on the same deadline.",
+    "es": "Por primera vez una tarjeta de prestación tiene chip, caducidad y ciclo de reemplazo, lo que empuja terminales y personalización con el mismo plazo."
+  },
+  "confidence": 0.85,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}
