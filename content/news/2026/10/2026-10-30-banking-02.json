@@ -19,20 +19,20 @@
     }
   ],
   "title": {
-    "zh": "阿联酋首家 fintech 发行本国卡组织预付卡，发薪即发卡",
-    "en": "UAE's first fintech-issued national scheme card arrives via payroll",
-    "es": "Primera tarjeta de fintech del esquema nacional de EAU, emitida desde la nómina"
+    "zh": "阿联酋 fintech 发行本国卡组织预付卡，发薪即发卡",
+    "en": "A UAE fintech issues a national scheme card, delivered through payroll",
+    "es": "Una fintech de EAU emite tarjeta del esquema nacional desde la nómina"
   },
   "summary": {
-    "zh": "Botim 成为阿联酋第一个发行 Jaywan 卡的 fintech，把卡片挂到工资保护系统上：雇主线上发薪，工人当场拿到一张能在本地转接的预付卡。",
-    "en": "Botim becomes the first fintech to issue a Jaywan card in the UAE, attaching it to the wage protection system: employers pay salaries online and workers immediately get a prepaid card that routes domestically.",
-    "es": "Botim es la primera fintech que emite una tarjeta Jaywan en EAU y la engancha al sistema de protección salarial: la empresa paga online y el trabajador recibe al instante una tarjeta prepago de routing local."
+    "zh": "Botim 把 Jaywan 卡发了出来，并把卡片挂到工资保护系统上：雇主线上发薪，工人当场拿到一张能在本地转接的预付卡。",
+    "en": "A UAE fintech now issues a Jaywan card, attaching it to the wage protection system: employers pay salaries online and workers get a prepaid card that routes domestically.",
+    "es": "Una fintech de EAU emite ya tarjeta Jaywan ligada al sistema de protección salarial: la empresa paga online y el trabajador recibe una tarjeta prepago de routing local."
   },
   "body": [
     {
       "kind": "p",
       "text": {
-        "zh": "阿联酋有自己的国家卡组织 Jaywan，由央行子公司 Al Etihad Payments 运营，境内刷卡走本地转接，不经过国际卡组织。过去发卡主体以银行为主，现在第一次给了 fintech。",
+        "zh": "阿联酋有自己的国家卡组织 Jaywan，由央行子公司 Al Etihad Payments 运营，境内刷卡走本地转接，不经过国际卡组织。过去发卡主体以银行为主，现在向 fintech 开放。",
         "en": "The UAE runs its own national card scheme, Jaywan, operated by the central bank subsidiary Al Etihad Payments: domestic card payments route locally instead of through international schemes. Issuing had been reserved largely for banks; now a fintech has been let in.",
         "es": "EAU tiene su propio esquema nacional, Jaywan, operado por Al Etihad Payments, filial del banco central: los pagos domésticos se enrutan localmente en lugar de por esquemas internacionales. La emisión estaba reservada sobre todo a bancos; ahora entra una fintech."
       }
@@ -80,9 +80,9 @@
     }
   ],
   "whyItMatters": {
-    "zh": "国家卡组织第一次向非银行开放发卡，工资代发成了不花获客成本的发卡渠道。",
-    "en": "A national scheme opens issuance to non-banks for the first time, and payroll becomes a distribution channel with near-zero acquisition cost.",
-    "es": "Un esquema nacional abre la emisión a no bancos por primera vez, y la nómina se convierte en un canal de distribución con coste de captación casi nulo."
+    "zh": "国家卡组织向非银开放发卡，多了一批不需要银行牌照的发卡客户，他们对 CMS、制卡、KYC 的采购更轻更快。机会在同类新兴市场项目；风险是体量大、单价低，交付不标准化就做不出利润。",
+    "en": "A national scheme opening issuance to non-banks adds customers who need no banking licence and buy CMS, card production and KYC in smaller, faster chunks. The opportunity is similar emerging-market projects; the risk is volume with low unit prices and no margin without standardised delivery.",
+    "es": "Que un esquema nacional abra la emisión a no bancos añade clientes sin licencia bancaria que compran CMS, producción de tarjeta y KYC en bloques más pequeños y rápidos. La oportunidad son proyectos similares en mercados emergentes; el riesgo es volumen con precios bajos y sin margen si la entrega no se estandariza."
   },
   "confidence": 0.83,
   "ai": {

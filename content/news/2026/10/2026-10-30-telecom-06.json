@@ -98,9 +98,9 @@
     }
   ],
   "whyItMatters": {
-    "zh": "卫星连手机从「逐个个案批」变成「通用规则」，运营商对频谱的独家闸门被削弱，但最终谁掌握连接编排权仍未定。",
-    "en": "Satellite-to-phone moves from case-by-case waivers to general rules, weakening carriers' exclusive gate on spectrum while leaving orchestration control undecided.",
-    "es": "El satélite-móvil pasa de excepciones puntuales a reglas generales, debilita la puerta exclusiva del operador y deja abierto quién orquesta la conexión."
+    "zh": "取消频谱租约前置，卫星方可以直接和中小运营商谈，星地协同类项目会变多。机会在连接编排与配置管理；风险是卫星连接长期挂在终端与厂商账号上、没进运营商配置层，我们的位置可能被绕过。",
+    "en": "Dropping the lease precondition lets satellite operators deal with smaller carriers directly, so hybrid projects multiply. The opportunity is orchestration and profile management; the risk is satellite access sitting on device and vendor accounts rather than the carrier profile layer, which can route around us.",
+    "es": "Eliminar el alquiler previo permite al satélite negociar con operadores pequeños, y los proyectos híbridos se multiplican. La oportunidad es la orquestación y la gestión de perfiles; el riesgo es que el acceso satelital viva en cuentas del dispositivo y del fabricante y no en la capa del operador, esquivando nuestra posición."
   },
   "confidence": 0.87,
   "ai": {

@@ -34,9 +34,9 @@
     "es": "El regulador NTC da 15 días a los operadores para reverificar abonados con más de 100 SIM a su nombre y desactivar las que no puedan demostrar posesión; la baja es permanente."
   },
   "whyItMatters": {
-    "zh": "实名登记第一次被压进 15 天的硬期限：运营商既要能在半个月内核对上百万个号码，又要保证停机不误伤、重复执行也不出错。",
-    "en": "Registration lands on a hard 15-day clock: carriers must check hundreds of thousands of numbers in a fortnight while making sure deactivation is accurate and repeatable.",
-    "es": "El registro entra en un plazo fijo de 15 días: los operadores deben revisar cientos de miles de números en dos semanas sin desactivar por error ni fallar al repetir."
+    "zh": "15 天清理超量卡，运营商要的是能批量核验、批量停机且可重复执行的工具，交付窗口很窄，是典型项目型需求。长期看多卡治理会变成常态化的号码资产管理，值得做成产品而不是一次性开发。",
+    "en": "Purging excess SIMs in 15 days needs batch verification and repeatable bulk deactivation: a narrow delivery window and a project-shaped order. Longer term, multi-SIM governance becomes routine number asset management — worth productising rather than building once.",
+    "es": "Depurar SIM en exceso en 15 días exige verificación masiva y desactivación repetible: una ventana estrecha y un pedido tipo proyecto. A largo plazo, el gobierno de múltiples SIM se vuelve gestión habitual de números, y conviene convertirlo en producto y no en un desarrollo puntual."
   },
   "confidence": 0.88,
   "ai": {

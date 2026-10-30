@@ -67,9 +67,9 @@
     }
   ],
   "whyItMatters": {
-    "zh": "一个国家的国民级付款方式被整体替换，收单方要重新回答「钱怎么到、出了问题谁负责」，而不只是多接一个支付按钮。",
-    "en": "A country's default way of paying online is being swapped out, so acquirers must answer how the money moves and who is liable — not just plug in another method.",
-    "es": "Se sustituye el método de pago online por defecto de un país, así que el adquirente debe responder cómo llega el dinero y quién responde, no solo enchufar otro botón."
+    "zh": "荷兰要在一年多内把 iDEAL 换成 Wero，结账与收单层的改造是一波确定需求：插件、对账、退款与争议处理都要重做。风险是订阅功能 2027 年才补齐，现在只覆盖一次性付款，方案里必须保留卡通道，别把客户说服到单腿走路。",
+    "en": "Replacing iDEAL with Wero inside a year-plus is a defined wave of checkout and acquiring work: plugins, reconciliation, refunds, disputes. The risk is that subscriptions only arrive in 2027, so today it covers one-off payments only; keep a card rail in the design instead of talking customers into a single leg.",
+    "es": "Sustituir iDEAL por Wero en poco más de un año es una ola concreta de trabajo en checkout y adquirencia: plugins, conciliación, reembolsos y disputas. El riesgo es que las suscripciones llegan en 2027, así que hoy solo cubre pagos únicos; conviene mantener el carril de tarjeta en el diseño."
   },
   "confidence": 0.88,
   "ai": {

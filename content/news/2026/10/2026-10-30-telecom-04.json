@@ -93,9 +93,9 @@
     }
   ],
   "whyItMatters": {
-    "zh": "监管第一次把「核验强度」写成可采购、可审计的工程指标，运营商的柜台流程、App 改造与批量停机要同步扛住。",
-    "en": "For the first time regulators turn verification strength into a purchasable, auditable engineering spec, so counters, apps and bulk suspension all have to hold at once.",
-    "es": "Por primera vez la intensidad de verificación se vuelve especificación comprable y auditable, y mostradores, apps y suspensiones masivas deben resistir a la vez."
+    "zh": "核验强度被写成可采购的指标——防伪等级、第三方认证、逐次留痕，意味着生物识别方案要按等级报价，过不了认证的直接出局。机会在合规集成与审计留痕；风险是时间表紧，本地化与数据合规要提前备。",
+    "en": "Verification strength becomes a purchasable spec — attack level, third-party certification, per-check audit trails — so biometrics must be priced by grade and uncertified options drop out. The opportunity is compliance integration and audit logging; the risk is a tight timetable for localisation and data rules.",
+    "es": "La intensidad de verificación se vuelve especificación comprable: nivel anti-suplantación, certificación de terceros y registro por comprobación. La biometría debe cotizarse por grado y lo no certificado queda fuera. La oportunidad es la integración compliance y el registro de auditoría; el riesgo, el calendario ajustado para localización y datos."
   },
   "confidence": 0.88,
   "ai": {

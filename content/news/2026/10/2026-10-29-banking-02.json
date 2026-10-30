@@ -24,17 +24,17 @@
     "es": "BLIK añade pagos recurrentes: los polacos dejan de ceder el número de tarjeta"
   },
   "summary": {
-    "zh": "波兰银行系支付 BLIK 推出定期付款，Netflix 为首家商户。用户在自家手机银行里授权一次，之后按期自动扣款，全程不向商户提供卡号。",
-    "en": "Poland's bank-owned BLIK launched recurring payments with Netflix as the first merchant. Users approve once inside their own banking app and are then charged on schedule, never giving the merchant a card number.",
-    "es": "BLIK, el sistema bancario polaco, lanzó pagos recurrentes con Netflix como primer comercio. El usuario autoriza una vez en su app bancaria y luego se le cobra periódicamente, sin dar el número de tarjeta al comercio."
+    "zh": "波兰银行系支付 BLIK 推出定期付款，上线时接入的商户是 Netflix。用户在自家手机银行里授权一次，之后按期自动扣款，全程不向商户提供卡号。",
+    "en": "Poland's bank-owned BLIK launched recurring payments with Netflix as the launch merchant. Users approve once inside their own banking app and are then charged on schedule, never giving the merchant a card number.",
+    "es": "BLIK, el sistema bancario polaco, lanzó pagos recurrentes con Netflix como comercio de lanzamiento. El usuario autoriza una vez en su app bancaria y luego se le cobra periódicamente, sin dar el número de tarjeta al comercio."
   },
   "body": [
     {
       "kind": "p",
       "text": {
-        "zh": "波兰人日常小额付款大量用 BLIK：在手机银行里生成一个六位码，输进去就付完了。现在这套机制延伸到订阅——10 月 28 日上线的 BLIK Recurring Payments，第一家商户是 Netflix。",
-        "en": "Poles pay small amounts with BLIK all day: generate a six-digit code in the banking app, type it in, done. That mechanism now extends to subscriptions. BLIK Recurring Payments went live on 28 October, with Netflix as the first merchant.",
-        "es": "Los polacos pagan importes pequeños con BLIK todo el día: generan un código de seis dígitos en la app del banco, lo escriben y listo. Ese mecanismo se extiende ahora a las suscripciones. BLIK Recurring Payments se lanzó el 28 de octubre con Netflix como primer comercio."
+        "zh": "波兰人日常小额付款大量用 BLIK：在手机银行里生成一个六位码，输进去就付完了。现在这套机制延伸到订阅——10 月 28 日上线的 BLIK Recurring Payments，上线时接入的商户是 Netflix。",
+        "en": "Poles pay small amounts with BLIK all day: generate a six-digit code in the banking app, type it in, done. That mechanism now extends to subscriptions. BLIK Recurring Payments went live on 28 October, with Netflix as the launch merchant.",
+        "es": "Los polacos pagan importes pequeños con BLIK todo el día: generan un código de seis dígitos en la app del banco, lo escriben y listo. Ese mecanismo se extiende ahora a las suscripciones. BLIK Recurring Payments se lanzó el 28 de octubre con Netflix como comercio de lanzamiento."
       }
     },
     {
@@ -75,9 +75,9 @@
     }
   ],
   "whyItMatters": {
-    "zh": "订阅扣款从「商户存卡」改成「银行侧授权」，卡号保管、换卡失效、扣款失败这一整套成本结构随之转移。",
-    "en": "Recurring billing moves from stored card numbers to bank-side mandates, shifting the cost of storing, refreshing and retrying credentials.",
-    "es": "El cobro recurrente pasa de guardar tarjetas a mandatos bancarios, y con ello se traslada el coste de almacenar, actualizar y reintentar credenciales."
+    "zh": "订阅从存卡改成银行侧授权，卡号保管、换卡更新、失败重试这一串增值服务的价值被削。做收单或订阅计费的，要尽早把「授权管理」做成独立能力，别把收入押在卡号生命周期上。",
+    "en": "Moving subscriptions from stored cards to bank-side mandates erodes the value of number vaulting, card refresh and retry services. Acquirers and billing platforms should make mandate management a product of its own instead of betting revenue on the card lifecycle.",
+    "es": "Pasar las suscripciones de tarjeta guardada a mandatos bancarios erosiona el valor de la custodia del número, la actualización y los reintentos. Los adquirentes y plataformas de cobro deben convertir la gestión de mandatos en producto propio en lugar de apostar por el ciclo de vida de la tarjeta."
   },
   "confidence": 0.84,
   "ai": {

@@ -77,9 +77,9 @@
     }
   ],
   "whyItMatters": {
-    "zh": "认证从「发一条短信」变成「出示设备上的生物凭据」，网关的竞争点从路由上移到确认付款人是谁、被谁授权。",
-    "en": "Authentication shifts from sending an SMS to presenting a device-bound credential, moving gateway competition from routing up to who is paying and who mandated it.",
-    "es": "La autenticación pasa de enviar un SMS a presentar una credencial del dispositivo, y la competencia de pasarelas sube de la ruta a quién paga y quién lo autoriza."
+    "zh": "认证从短信变成设备凭据，网关的卖点从通道上移到「确认付款人是谁」。机会是帮商户接 passkey 与代理识别；风险是只做短信验证码通道的集成商会先被替换。客户第一个会问的是降级路径。",
+    "en": "Authentication moving from SMS to device credentials shifts gateway value from routing to confirming who pays. The opportunity is passkey and agent-identification integration; integrators selling only SMS codes get replaced first. The first question customers ask is the fallback path.",
+    "es": "Que la autenticación pase del SMS a credenciales del dispositivo mueve el valor de la pasarela de la ruta a confirmar quién paga. La oportunidad es integrar passkeys e identificación de agentes; quien solo vende códigos SMS se queda fuera antes. La primera pregunta del cliente es la ruta de respaldo."
   },
   "confidence": 0.86,
   "ai": {

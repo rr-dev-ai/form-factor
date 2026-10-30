@@ -59,9 +59,9 @@
           "es": "La migración reutiliza BIN, número, saldo y verificaciones ya hechas, en lugar de emitir otro lote"
         },
         {
-          "zh": "Paymentology 今年早些时候成为 Bank Zero 的首个合作方，形成「银行出牌照、处理商出发卡能力」的分工",
-          "en": "Paymentology became Bank Zero's first alliance partner earlier this year: the bank supplies the licence, the processor supplies issuing",
-          "es": "Paymentology fue el primer aliado de Bank Zero este año: el banco aporta licencia y el procesador, la emisión"
+          "zh": "Paymentology 今年早些时候成为 Bank Zero 签下的合作方，形成「银行出牌照、处理商出发卡能力」的分工",
+          "en": "Paymentology became an alliance partner of Bank Zero earlier this year: the bank supplies the licence, the processor supplies issuing",
+          "es": "Paymentology se convirtió en aliado de Bank Zero este año: el banco aporta licencia y el procesador, la emisión"
         }
       ]
     },
@@ -75,9 +75,9 @@
     }
   ],
   "whyItMatters": {
-    "zh": "「保荐银行 + 独立发卡处理商」这套分工在非洲跑通了一次 50 万人级别的迁移，验证的是存量能不能平滑搬家，而不只是能不能发新卡。",
-    "en": "The sponsor-bank plus processor split carried a 500,000-user migration, proving existing balances and credentials can move rather than just new cards being issued.",
-    "es": "El esquema banco patrocinador más procesador logró migrar 500.000 usuarios, probando que el saldo y las credenciales se mueven, no solo que se emiten tarjetas."
+    "zh": "50 万人从预付卡迁到账户，考的是迁移能力：卡号前缀、余额、身份记录要平滑过渡。这类项目是「存量可搬家」最好的证明，也是壁垒——只会发新卡的供应商接不了这种活。",
+    "en": "Moving 500,000 people from prepaid to an account tests migration: BIN, balance and identity records must carry over cleanly. Projects like this are the best proof that existing stock can move, and a barrier — suppliers who only issue new cards cannot take the work.",
+    "es": "Mover 500.000 personas de prepago a cuenta pone a prueba la migración: BIN, saldo e identidad deben pasar sin fricción. Estos proyectos son la mejor prueba de que el stock existente se puede mover, y una barrera: quien solo emite tarjetas nuevas no puede asumirlo."
   },
   "confidence": 0.8,
   "ai": {

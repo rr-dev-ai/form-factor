@@ -90,9 +90,9 @@
     }
   ],
   "whyItMatters": {
-    "zh": "福利卡第一次有了芯片、有效期和换卡周期，受理终端与制卡个人化两条产线被同一份规则同时推动。",
-    "en": "For the first time a benefit card gets a chip, an expiry and a replacement cycle, pushing terminal fleets and card personalisation on the same deadline.",
-    "es": "Por primera vez una tarjeta de prestación tiene chip, caducidad y ciclo de reemplazo, lo que empuja terminales y personalización con el mismo plazo."
+    "zh": "芯片、有效期、激活状态、六类自助开关——全是发卡系统与卡面设计的能力项。四十多个州、数十万零售商、两年内换完，是少见带硬截止日的批量订单；门槛是能不能过 EMV 与 X9.58 的合规。",
+    "en": "Chip, expiry, activation state, six self-service switches — all capabilities of the issuing system and card design. Forty-plus states and hundreds of thousands of retailers inside two years is a rare batch order with a hard deadline; the price of entry is EMV and X9.58 compliance.",
+    "es": "Chip, caducidad, estado de activación y seis controles de autoservicio: capacidades del sistema de emisión y del diseño de tarjeta. Más de cuarenta estados y cientos de miles de comercios en dos años es un pedido por lotes con fecha límite; la entrada exige cumplir EMV y X9.58."
   },
   "confidence": 0.85,
   "ai": {

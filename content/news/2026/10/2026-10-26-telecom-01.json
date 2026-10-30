@@ -86,9 +86,9 @@
     }
   ],
   "whyItMatters": {
-    "zh": "监管义务第一次压到「卡从出厂到激活之间那一段的数量闭环」，而这恰好是 eSIM 化之后会消失的控制点。",
-    "en": "Obligation lands for the first time on the count between factory and activation — precisely the checkpoint that disappears with eSIM.",
-    "es": "La obligación recae por primera vez en el conteo entre fábrica y activación, justo el control que desaparece con la eSIM."
+    "zh": "对账会变成运营商采购里的硬指标：谁能交出「领用—激活—退回」可核对的库存系统，谁才进得了这个标。风险是这类项目按运营商定制、周期长、毛利薄。eSIM 侧没有物理库存，同样的问题会落到下载记录与设备绑定日志上。",
+    "en": "Reconciliation becomes a hard procurement requirement: whoever can show an auditable issue-activate-return inventory wins the bid. The risk is bespoke builds, long cycles and thin margins. On eSIM there is no physical stock, so the same question lands on download records and device-binding logs.",
+    "es": "La conciliación se vuelve requisito de compra: quien muestre un inventario auditable de entrega, activación y devolución gana la licitación. El riesgo son desarrollos a medida, ciclos largos y márgenes bajos. En eSIM no hay stock físico, así que la pregunta recae en los registros de descarga y vinculación."
   },
   "confidence": 0.85,
   "ai": {

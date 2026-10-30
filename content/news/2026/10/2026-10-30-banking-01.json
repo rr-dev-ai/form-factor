@@ -34,9 +34,9 @@
     "es": "La base global de credenciales de Visa alcanzó 5.200 millones al cierre del ejercicio, con más de la mitad tokenizadas y más del 60% del comercio electrónico usándolas; un piloto con Trusted Agent Protocol permite a agentes de IA iniciar pagos dentro de límites aprobados."
   },
   "whyItMatters": {
-    "zh": "卡号正在被令牌替代，而令牌背后可能是人，也可能是一段程序。受理方要确认的东西，从「这张卡是真的」变成「这次付款是谁授权的」。",
-    "en": "Card numbers are giving way to tokens, and behind a token may sit a person or a piece of software. Acceptors shift from checking that a card is real to checking who authorised the payment.",
-    "es": "Los números de tarjeta ceden ante los tokens, y tras un token puede haber una persona o un programa. El aceptador pasa de comprobar que la tarjeta es real a comprobar quién autorizó el pago."
+    "zh": "令牌化过半、代理支付开始试点，受理方要验的从卡号变成「谁授权」。令牌化接入与代理身份校验是新需求；只做卡号存储与转发的产品持续贬值。先跟 Trusted Agent Protocol 的接口与商户侧要求。",
+    "en": "With tokens past half and agent payments in pilot, acceptors verify who authorised rather than which card. Token onboarding and agent verification are the new work; number storage and forwarding keeps losing value. Start with the Trusted Agent Protocol interfaces and merchant requirements.",
+    "es": "Con los tokens por encima de la mitad y los pagos con agentes en piloto, el aceptador verifica quién autorizó, no qué tarjeta. La tokenización y la verificación de agentes son el trabajo nuevo; almacenar y reenviar números pierde valor. Conviene empezar por las interfaces de Trusted Agent Protocol."
   },
   "confidence": 0.86,
   "ai": {

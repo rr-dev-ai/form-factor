@@ -50,9 +50,9 @@
       "kind": "ul",
       "items": [
         {
-          "zh": "同一张卡上同时跑 NIST 标准算法和韩国自研 KpqC1，验证通过后将是 KpqC1 在韩国智能卡上的首次实现",
-          "en": "One card runs both NIST algorithms and Korea's own KpqC1; if validated it would be the first KpqC1 implementation on a Korean smart card",
-          "es": "Una tarjeta ejecuta algoritmos NIST y el coreano KpqC1; si se valida, sería la primera implementación de KpqC1 en una tarjeta inteligente coreana"
+          "zh": "同一张卡上同时跑 NIST 标准算法和韩国自研 KpqC1，验证通过后，KpqC1 将跑在韩国智能卡上",
+          "en": "One card runs both NIST algorithms and Korea's own KpqC1; if validated it would put KpqC1 on a Korean smart card",
+          "es": "Una tarjeta ejecuta algoritmos NIST y el coreano KpqC1; si se valida, llevaría KpqC1 a una tarjeta inteligente coreana"
         },
         {
           "zh": "这套做法叫「密码敏捷性」：设备端不动，换算法只换卡里的软件",
@@ -76,9 +76,9 @@
     }
   ],
   "whyItMatters": {
-    "zh": "SIM 的职责从「证明你是哪个用户」扩到「替设备和网络做密码运算」，发卡侧的证书链必须跟着换代。",
-    "en": "The SIM's job widens from proving which subscriber you are to running cryptography for devices and networks, which forces the provisioning certificate chain to be upgraded too.",
-    "es": "La SIM pasa de probar qué abonado eres a hacer criptografía para dispositivos y redes, lo que obliga a renovar también la cadena de certificados del aprovisionamiento."
+    "zh": "抗量子从标准讨论落到卡里，安全元件要装下更大的算法，测试与认证成本先涨。机会在 PQC 迁移的集成与测试服务；风险是只换卡不换证书链，客户验收时整体强度还是不够，最后算到供应商头上。",
+    "en": "Post-quantum moving from debate into the card means the secure element must carry bigger algorithms, and test and certification costs rise first. The opportunity is migration and test services; the risk is swapping the card but not the certificate chain, leaving acceptance short and the blame on the supplier.",
+    "es": "Que lo post-cuántico pase del debate a la tarjeta obliga al elemento seguro a soportar algoritmos mayores, y los costes de prueba y certificación suben primero. La oportunidad son los servicios de migración y prueba; el riesgo es cambiar la tarjeta sin la cadena de certificados y quedarse corto en la aceptación."
   },
   "confidence": 0.84,
   "ai": {

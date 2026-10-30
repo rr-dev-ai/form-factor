@@ -76,9 +76,9 @@
     }
   ],
   "whyItMatters": {
-    "zh": "远程开卡能不能成立，取决于证件库可调用、活体比对可用、电子签名有效这三件事，而不是运营商的 IT 能力——这决定了线上办理会在哪些市场先跑通。",
-    "en": "Remote signup depends on a callable credential source, usable liveness checks and a legally valid e-signature, not on IT capability — which decides where online activation lands first.",
-    "es": "El alta remota depende de una fuente documental consultable, prueba de vida viable y firma con valor legal, no de la capacidad técnica, y eso decide dónde llega primero."
+    "zh": "远程开卡能不能卖，取决于三件事：客户手里有没有可调用的证件库、能过检的活体方案、法律认可的电子签名。这三样我们都能供货或集成，缺一件项目就退回柜台模式。售前先把这三项问清楚，别只谈 App 体验。",
+    "en": "Whether remote signup sells comes down to three things the customer must have: a credential source it can call, a liveness check that passes muster, and a legally valid e-signature. We can supply or integrate all three; if one is missing the project falls back to the counter. Qualify these three before discussing app experience.",
+    "es": "Que el alta remota se venda depende de tres cosas que el cliente debe tener: una fuente documental consultable, una prueba de vida que pase el corte y una firma electrónica con valor legal. Podemos suministrar o integrar las tres; si falta una, el proyecto vuelve al mostrador. Conviene calificarlas antes de hablar de la experiencia de la app."
   },
   "confidence": 0.8,
   "ai": {

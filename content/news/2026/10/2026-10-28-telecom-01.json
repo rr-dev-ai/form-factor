@@ -59,7 +59,7 @@
           "es": "El dispositivo ya es solo eSIM, pero la activación pasó de tres operadoras a una"
         },
         {
-          "zh": "手机端的对照很直接：三家公司都拿到了 eSIM 商用试验批复，并在纯 eSIM 手机首发时同场竞争",
+          "zh": "手机端的对照很直接：三家公司都拿到了 eSIM 商用试验批复，并在纯 eSIM 手机上市时同场竞争",
           "en": "The contrast with phones is direct: all three hold commercial eSIM trial approval and competed on the eSIM-only phone launch",
           "es": "El contraste con el móvil es claro: las tres tienen aprobación de prueba comercial y compitieron en el lanzamiento solo eSIM"
         },
@@ -80,9 +80,9 @@
     }
   ],
   "whyItMatters": {
-    "zh": "终端已经纯 eSIM，受理却只剩一家：品类扩张快于受理能力，买之前的这一步确认会直接影响蜂窝版的销量结构。",
-    "en": "The hardware is eSIM-only while activation narrows to one carrier: categories outrun activation capacity, and that pre-purchase check shapes cellular mix.",
-    "es": "El hardware es solo eSIM y la activación se reduce a una operadora: las categorías superan la capacidad, y esa comprobación previa condiciona la mezcla cellular."
+    "zh": "终端纯 eSIM、受理只剩一家，这个空档是给客户做方案时要解释的摩擦。平板换机频次低，受理不全直接压低蜂窝版选配率。跟着苹果的支持页名单走，比跟着发布会走有用。",
+    "en": "An eSIM-only device with a single carrier able to activate it is friction we have to explain in every proposal. Tablets refresh slowly, so incomplete activation directly cuts cellular take-up. Track Apple's carrier support page, not the keynote.",
+    "es": "Un dispositivo solo eSIM con una única operadora capaz de activarlo es fricción que hay que explicar en cada propuesta. Las tablets se renuevan despacio, así que una activación incompleta reduce la elección de la versión cellular. Conviene seguir la página de operadores de Apple, no la keynote."
   },
   "confidence": 0.83,
   "ai": {

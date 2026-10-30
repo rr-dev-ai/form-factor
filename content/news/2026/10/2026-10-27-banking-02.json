@@ -78,9 +78,9 @@
     }
   ],
   "whyItMatters": {
-    "zh": "商户刷卡成本里最大的一个变量被重新打开，收单方报价、发卡行借记卡权益、借记网络之间的竞争都要按新费率重算。",
-    "en": "The biggest single variable in card acceptance costs is open again: acquirer pricing, issuer debit rewards and network competition all get recalculated.",
-    "es": "La mayor variable del coste de aceptación vuelve a estar abierta: precios del adquirente, recompensas de débito y competencia entre redes se recalculan."
+    "zh": "费率往下走，收单方报价空间变大、发卡行借记权益预算变小。收单侧的定价与对账工具是机会，发卡侧的权益营销类需求会缩。别当短期订单看：规则要重写，还可能上诉，周期一年以上，先跟征求意见的节奏。",
+    "en": "Lower fees widen room for acquirer pricing and shrink issuer debit-rewards budgets. Pricing and reconciliation tooling on the acquiring side is the opportunity; rewards marketing on the issuing side shrinks. Not a short-term order: the rule must be rewritten and may be appealed, so track the comment calendar.",
+    "es": "Menos tasa deja margen al precio del adquirente y recorta el presupuesto de recompensas del emisor. La oportunidad está en herramientas de precio y conciliación; el marketing de recompensas se contrae. No es un pedido inmediato: la norma debe reescribirse y puede haber recurso, así que hay que seguir el calendario de comentarios."
   },
   "confidence": 0.87,
   "ai": {

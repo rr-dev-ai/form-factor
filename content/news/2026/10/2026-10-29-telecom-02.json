@@ -55,9 +55,9 @@
       "kind": "ul",
       "items": [
         {
-          "zh": "紫光同芯自称国内首家通过 GSMA SAS-UP 认证的晶圆级个人化安全芯片企业，eSIM 产品累计出货数千万颗",
-          "en": "Tongxin says it is the first Chinese company certified under GSMA SAS-UP for wafer-level personalisation, with tens of millions of eSIM chips shipped",
-          "es": "Tongxin se presenta como la primera empresa china certificada GSMA SAS-UP en personalización a nivel de oblea, con decenas de millones de chips eSIM enviados"
+          "zh": "紫光同芯称已通过 GSMA SAS-UP 认证，做晶圆级个人化安全芯片，eSIM 产品累计出货数千万颗",
+          "en": "Tongxin says it is certified under GSMA SAS-UP for wafer-level personalisation, with tens of millions of eSIM chips shipped",
+          "es": "Tongxin se presenta como empresa certificada GSMA SAS-UP en personalización a nivel de oblea, con decenas de millones de chips eSIM enviados"
         },
         {
           "zh": "它同时是《基于晶圆级封装 eUICC 产品个人化安全白皮书》的牵头编制单位",
@@ -81,9 +81,9 @@
     }
   ],
   "whyItMatters": {
-    "zh": "瓶颈不只在营业厅受理，也不只在芯片，而在中间的采购环节——运营商从采购方变成赋能方。",
-    "en": "The bottleneck sits neither at the counter nor in the chip but in purchasing in between, and the carrier shifts from buyer to enabler.",
-    "es": "El cuello de botella no está en el mostrador ni en el chip, sino en la compra intermedia: la operadora pasa de compradora a facilitadora."
+    "zh": "运营商替中小厂商解决芯片采购，等于把准入名单收窄到几家：在名单里是机会，不在就得走定向选型。这类集采通常带质控与交付条款，单价压得低，接之前先算清交付能不能标准化。",
+    "en": "Carrier-run chip procurement narrows the supplier list to a few: being on it is the opportunity, being off it means bespoke selection work. Such programmes come with quality and delivery terms and thin unit prices — check whether delivery can be standardised before bidding.",
+    "es": "La compra agregada del operador reduce la lista de proveedores a unos pocos: estar dentro es la oportunidad, quedar fuera obliga a la selección a medida. Estos programas traen condiciones de calidad y entrega y precios unitarios bajos: conviene verificar si la entrega se puede estandarizar."
   },
   "confidence": 0.8,
   "ai": {

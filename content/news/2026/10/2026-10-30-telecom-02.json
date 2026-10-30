@@ -35,9 +35,9 @@
     "es": "SGP.22 v2.7 (abril) y SGP.32 v1.3 (mayo) están publicadas, con el evento LITE4 esta semana en La Ciotat; ambas versiones refuerzan el aislamiento de applets y el control de perfiles de prueba, e incluyen actualizaciones del SO del eUICC."
   },
   "whyItMatters": {
-    "zh": "标准写完不等于能用：厂商宣称的兼容性要在这类测试之后才算数，选芯片和平台的窗口就在这几个月。",
-    "en": "Writing the standard is not the same as making it work: vendor compatibility claims only count after tests like this, and the window to pick chips and platforms is now.",
-    "es": "Escribir el estándar no es hacerlo funcionar: la compatibilidad anunciada solo cuenta tras estas pruebas, y la ventana para elegir chip y plataforma es ahora."
+    "zh": "两版标准进入互操作测试，接下来几个月客户会拿测试结果问「你们的方案过没过」。选芯片与平台要按测试批次对齐，别只看规格书；参与测试本身也是拿早期客户的技术背书。",
+    "en": "With both standards in interoperability testing, customers will soon ask whether your stack passed. Align chip and platform choices with test rounds rather than datasheets, and treat participation as technical proof for early customers.",
+    "es": "Con ambos estándares en pruebas de interoperabilidad, los clientes preguntarán pronto si la solución pasó. Conviene alinear chip y plataforma con las rondas de prueba y no con las hojas de datos, y usar la participación como respaldo técnico ante clientes tempranos."
   },
   "confidence": 0.83,
   "ai": {
@@ -69,7 +69,7 @@
           "es": "Mayor control de los perfiles de prueba para evitar que se usen para saltarse límites comerciales"
         },
         {
-          "zh": "覆盖 eSIM 芯片自身系统的更新流程，而不只是首次下载",
+          "zh": "覆盖 eSIM 芯片自身系统的更新流程，而不只是初次下载",
           "en": "It covers eUICC operating system updates, not just the first download",
           "es": "Cubre la actualización del sistema operativo de la eUICC, no solo la primera descarga"
         }
