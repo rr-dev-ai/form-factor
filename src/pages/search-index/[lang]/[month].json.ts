@@ -23,6 +23,10 @@ export const GET: APIRoute = ({ params }) => {
     id: n.id,
     title: n.title[lang],
     summary: n.summary[lang],
+    // 正文也进索引：大量信息只在正文里出现，不索引会搜不到
+    body: n.body
+      .map((b) => (b.kind === 'ul' ? b.items.map((i) => i[lang]).join(' ') : b.text[lang]))
+      .join(' '),
     tags: n.tags.map((t) => tagName(t, lang)).join(' '),
     industry: industryName(n.industry, lang),
     date: formatDate(n.publishedAt, lang),

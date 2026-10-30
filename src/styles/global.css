@@ -365,6 +365,43 @@ a.tag:hover {
   margin: 0 0 18px;
 }
 
+.article-body .article-lede {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--text);
+  margin-bottom: 20px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--border);
+}
+
+.article-body h2 {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--text);
+  margin: 30px 0 12px;
+  padding-left: 10px;
+  border-left: 3px solid var(--accent);
+  line-height: 1.5;
+}
+
+.article-body ul {
+  margin: 0 0 20px;
+  padding-left: 20px;
+  font-size: 15.5px;
+  line-height: 1.8;
+}
+
+.article-body li {
+  margin-bottom: 8px;
+}
+
+.article-body li::marker {
+  color: var(--text-3);
+}
+
 .why-box {
   background: var(--surface-2);
   border-left: 3px solid var(--accent);

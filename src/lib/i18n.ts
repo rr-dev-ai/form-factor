@@ -35,6 +35,8 @@ type Dict = {
   today: string;
   noUpdate: string;
   noUpdateHint: string;
+  noIndustry: string;
+  noIndustryHint: string;
   archiveTitle: string;
   archiveDesc: string;
   statusTitle: string;
@@ -90,6 +92,8 @@ export const ui: Record<Locale, Dict> = {
     today: '今日',
     noUpdate: '今日无更新',
     noUpdateHint: '今日该行业没有通过质量门禁的内容，因此不发布。',
+    noIndustry: '该行业暂无收录',
+    noIndustryHint: '采集任务还没有在这个行业发布过内容，有合格条目后会出现在这里。',
     archiveTitle: '归档',
     archiveDesc: '按日期查看每日收录的全部内容',
     statusTitle: '运行状态',
@@ -143,6 +147,8 @@ export const ui: Record<Locale, Dict> = {
     today: 'Today',
     noUpdate: 'No update today',
     noUpdateHint: 'Nothing passed the quality gate for this industry today, so nothing was published.',
+    noIndustry: 'Nothing in this sector yet',
+    noIndustryHint: 'No item has passed the gate for this sector so far; qualifying ones will show up here.',
     archiveTitle: 'Archive',
     archiveDesc: 'Browse everything collected, by date',
     statusTitle: 'Status',
@@ -196,6 +202,8 @@ export const ui: Record<Locale, Dict> = {
     today: 'Hoy',
     noUpdate: 'Sin novedades hoy',
     noUpdateHint: 'Hoy ningún contenido superó el control de calidad en este sector, por eso no se publicó nada.',
+    noIndustry: 'Sin contenido en este sector',
+    noIndustryHint: 'Todavía no se ha publicado nada en este sector; los elementos válidos aparecerán aquí.',
     archiveTitle: 'Archivo',
     archiveDesc: 'Todo lo recopilado, por fecha',
     statusTitle: 'Estado',

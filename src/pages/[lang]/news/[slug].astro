@@ -48,7 +48,21 @@ const sourceDate = firstSource?.publishedAt ?? item.publishedAt;
     </header>
 
     <div class="article-body">
-      <p>{item.summary[locale]}</p>
+      <p class="article-lede">{item.summary[locale]}</p>
+      {
+        item.body.map((block) => {
+          if (block.kind === 'h') return <h2>{block.text[locale]}</h2>;
+          if (block.kind === 'ul')
+            return (
+              <ul>
+                {block.items.map((li) => (
+                  <li>{li[locale]}</li>
+                ))}
+              </ul>
+            );
+          return <p>{block.text[locale]}</p>;
+        })
+      }
     </div>
 
     <div class="why-box">
