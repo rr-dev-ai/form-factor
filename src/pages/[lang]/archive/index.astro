@@ -3,6 +3,7 @@ import Base from '../../../layouts/Base.astro';
 import { locales, type Locale } from '../../../config/site';
 import { allDateKeys, byDate, groupByMonth, publishedNews } from '../../../lib/content';
 import { t, formatDateKey } from '../../../lib/i18n';
+import { localePath } from '../../../lib/url';
 
 export function getStaticPaths() {
   return locales.map((lang) => ({ params: { lang } }));
@@ -38,7 +39,7 @@ const totalItems = publishedNews().length;
         </summary>
         <div class="rows">
           {dates.map((date) => (
-            <a class="date-row" href={`/${locale}/archive/${date}`}>
+            <a class="date-row" href={localePath(locale, `/archive/${date}`)}>
               <span>{formatDateKey(date, locale)}</span>
               <span class="count">{byDate(date).length}</span>
             </a>

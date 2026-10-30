@@ -5,6 +5,7 @@ import { locales, type Locale } from '../../../config/site';
 import { industryName, tagName } from '../../../config/taxonomy';
 import { publishedNews } from '../../../lib/content';
 import { t, formatDate, localeLabel } from '../../../lib/i18n';
+import { localePath } from '../../../lib/url';
 
 export function getStaticPaths() {
   return locales.flatMap((lang) =>
@@ -34,7 +35,7 @@ const sourceDate = firstSource?.publishedAt ?? item.publishedAt;
   <article>
     <header class="article-head">
       <div class="card-meta">
-        <a href={`/${locale}/${item.industry}`}>{industryName(item.industry, locale)}</a>
+        <a href={localePath(locale, `/${item.industry}`)}>{industryName(item.industry, locale)}</a>
         <span aria-hidden="true">·</span>
         <span>{formatDate(item.publishedAt, locale)}</span>
       </div>
@@ -56,7 +57,7 @@ const sourceDate = firstSource?.publishedAt ?? item.publishedAt;
     </div>
 
     <div class="card-foot" style="margin:24px 0 32px">
-      {item.tags.map((tag) => <a class="tag" href={`/${locale}/tag/${tag}`}>{tagName(tag, locale)}</a>)}
+      {item.tags.map((tag) => <a class="tag" href={localePath(locale, `/tag/${tag}`)}>{tagName(tag, locale)}</a>)}
     </div>
 
     <section>

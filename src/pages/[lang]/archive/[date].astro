@@ -5,6 +5,7 @@ import { locales, type Locale } from '../../../config/site';
 import { industries } from '../../../config/taxonomy';
 import { allDateKeys, byDate } from '../../../lib/content';
 import { t, formatDateKey } from '../../../lib/i18n';
+import { localePath } from '../../../lib/url';
 
 export function getStaticPaths() {
   const dates = allDateKeys();
@@ -34,9 +35,9 @@ const older = idx >= 0 && idx < dates.length - 1 ? dates[idx + 1] : null;
   </div>
 
   <div class="card-foot" style="margin-bottom:28px">
-    {newer && <a class="tag" href={`/${locale}/archive/${newer}`}>← {newer}</a>}
-    <a class="tag" href={`/${locale}/archive`}>{dict.archiveTitle}</a>
-    {older && <a class="tag" href={`/${locale}/archive/${older}`}>{older} →</a>}
+    {newer && <a class="tag" href={localePath(locale, `/archive/${newer}`)}>← {newer}</a>}
+    <a class="tag" href={localePath(locale, '/archive')}>{dict.archiveTitle}</a>
+    {older && <a class="tag" href={localePath(locale, `/archive/${older}`)}>{older} →</a>}
   </div>
 
   {

@@ -5,6 +5,7 @@ import { locales, type Locale } from '../../config/site';
 import { industries } from '../../config/taxonomy';
 import { byDate, latestDateKey, publishedNews, toDateKey } from '../../lib/content';
 import { t, formatDateKey } from '../../lib/i18n';
+import { localePath } from '../../lib/url';
 
 export function getStaticPaths() {
   return locales.map((lang) => ({ params: { lang } }));
@@ -47,7 +48,7 @@ const staleDays = latest
         <section class="section">
           <div class="section-head">
             <h2>{industry.name[locale]}</h2>
-            <a href={`/${locale}/${industry.slug}`}>{dict.viewAll} →</a>
+            <a href={localePath(locale, `/${industry.slug}`)}>{dict.viewAll} →</a>
           </div>
           {items.length > 0 ? (
             <div class="card-list">
@@ -71,7 +72,7 @@ const staleDays = latest
       <section class="section">
         <div class="section-head">
           <h2>{locale === 'zh' ? '更早' : locale === 'en' ? 'Earlier' : 'Anteriores'}</h2>
-          <a href={`/${locale}/archive`}>{dict.archive} →</a>
+          <a href={localePath(locale, '/archive')}>{dict.archive} →</a>
         </div>
         <div class="card-list">
           {olderItems.map((item) => (

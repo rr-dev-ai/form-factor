@@ -1,18 +1,21 @@
 ---
-const target = `${import.meta.env.BASE_URL}zh/`.replace(/\/{2,}/g, '/');
+import { localePath } from '../lib/url';
+import { site } from '../config/site';
+
+const target = localePath(site.defaultLocale, '/');
 ---
 
 <!doctype html>
-<html lang="zh">
+<html lang={site.defaultLocale}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="refresh" content={`0; url=${target}`} />
     <link rel="canonical" href={target} />
     <meta name="robots" content="noindex, nofollow" />
-    <title>Industry Signal</title>
+    <title>{site.name}</title>
   </head>
   <body>
-    <a href={target}>Industry Signal</a>
+    <a href={target}>{site.name}</a>
   </body>
 </html>
