@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import { locales, site, type Locale } from '../../config/site';
 import { industries } from '../../config/taxonomy';
 import { regionName } from '../../config/regions';
-import { loadDays, publishedNews, regionCoverage } from '../../lib/content';
+import { byDate, coverageOf, loadDays, publishedNews, regionCoverage } from '../../lib/content';
 import { t, formatDate } from '../../lib/i18n';
 
 export function getStaticPaths() {
@@ -17,7 +17,7 @@ const allDays = loadDays();
 const total = publishedNews().length;
 
 const recent = allDays.slice(0, 7);
-const published7 = recent.reduce((sum, day) => sum + day.published, 0);
+const published7 = recent.reduce((sum, day) => sum + byDate(day.date).length, 0);
 const fetched7 = recent.reduce((sum, day) => sum + day.fetched, 0);
 
 const latestDate = allDays[0]?.date ?? null;
@@ -26,23 +26,32 @@ const windowLabel = latestDate
   ? `${recent[recent.length - 1].date} — ${latestDate}`
   : dict.noRuns;
 
-/** 区域覆盖列：已覆盖的写名字，缺口写数量；历史迁移数据没有覆盖信息，显示破折号 */
-function regionCell(day: (typeof allDays)[number]) {
-  if (day.migrated && day.regions.length === 0) return '—';
-  const names = day.regions.map((slug) => regionName(slug, locale)).join(' ');
-  const gap = day.missing.length
-    ? dict.missingRegions.replace('{n}', String(day.missing.length))
-    : '';
-  return [names, gap].filter(Boolean).join(' · ');
+/**
+ * 一天的条数与覆盖一律由内容推得，不用 runs.json 里的计数：
+ * 历史记录是「每行业一条」合并来的，条数不全；内容才是真相。
+ */
+function dayView(day: (typeof allDays)[number]) {
+  const items = byDate(day.date);
+  const counts = industries.map(
+    (industry) => items.filter((item) => item.industry === industry.slug).length
+  );
+  const { covered, missing } = coverageOf(day.date, items);
+  return { counts, covered, missing, total: items.length };
 }
 
-/** 任一行业低于下限或存在区域缺口时标出，历史迁移数据不参与判断 */
-function underTarget(day: (typeof allDays)[number]) {
-  if (day.migrated) return false;
-  const short = industries.some(
-    (industry) => (day.industries[industry.slug]?.published ?? 0) < site.perIndustryDailyMin
-  );
-  return short || day.missing.length > 0;
+const views = allDays.map((day) => dayView(day));
+
+function regionCell(view: (typeof views)[number]) {
+  const names = view.covered.map((region) => regionName(region.slug, locale)).join(' ');
+  const gap = view.missing.length
+    ? dict.missingRegions.replace('{n}', String(view.missing.length))
+    : '';
+  return [names, gap].filter(Boolean).join(' · ') || '—';
+}
+
+function underTarget(view: (typeof views)[number]) {
+  const short = view.counts.some((count) => count < site.perIndustryDailyMin);
+  return short || view.missing.length > 0;
 }
 ---
 
@@ -72,25 +81,27 @@ function underTarget(day: (typeof allDays)[number]) {
           <span>{dict.dayTotal}</span>
         </div>
 
-        {allDays.map((day) => (
-          <details class="day-row" data-under={underTarget(day) ? 'true' : undefined}>
+        {allDays.map((day, index) => (
+          <details class="day-row" data-under={underTarget(views[index]) ? 'true' : undefined}>
             <summary>
               <span class="day-date">{day.date.slice(5)}</span>
-              {industries.map((industry) => (
-                <span class="day-cell">
-                  {day.industries[industry.slug]?.published ?? '—'}
-                </span>
+              {views[index].counts.map((count) => (
+                <span class="day-cell">{count}</span>
               ))}
-              <span class="day-regions">{regionCell(day)}</span>
-              <span class="day-total">{day.published}</span>
+              <span class="day-regions">{regionCell(views[index])}</span>
+              <span class="day-total">{views[index].total}</span>
             </summary>
             <div class="day-detail">
-              <div class="metrics">
-                <div><b>{day.fetched}</b>{dict.fetched}</div>
-                <div><b>{day.afterDedup}</b>{dict.dedup}</div>
-                <div><b>{day.passed}</b>{dict.gate}</div>
-                <div><b>{day.published}</b>{dict.publishedItems}</div>
-              </div>
+              {day.published === views[index].total ? (
+                <div class="metrics">
+                  <div><b>{day.fetched}</b>{dict.fetched}</div>
+                  <div><b>{day.afterDedup}</b>{dict.dedup}</div>
+                  <div><b>{day.passed}</b>{dict.gate}</div>
+                  <div><b>{day.published}</b>{dict.publishedItems}</div>
+                </div>
+              ) : (
+                <p class="day-meta">—</p>
+              )}
               <p class="day-meta">
                 {formatDate(day.startedAt, locale, true)} · {Math.round(day.durationMs / 1000)}s
                 {day.supplement.triggered && ` · ${dict.supplement} ${day.supplement.items}`}

@@ -744,122 +744,6 @@ a.tag:hover {
   border-style: dashed;
 }
 
-/* 页内筛选条：与标签同形，但承担筛选而非分类 */
-.filter-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 20px;
-}
-
-.filter-chip {
-  font-size: 11.5px;
-  line-height: 1.7;
-  color: var(--text-2);
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 1px 10px;
-  white-space: nowrap;
-  transition: border-color 0.12s, color 0.12s;
-}
-
-.filter-chip:hover {
-  border-color: var(--border-strong);
-  color: var(--text);
-}
-
-.filter-chip[aria-current='true'] {
-  border-color: var(--accent);
-  background: var(--accent-soft);
-  color: var(--accent);
-}
-
-.filter-chip--clear {
-  color: var(--text-3);
-  border-style: dashed;
-}
-
-/* 导航下拉：details/summary，无 JS 也能展开 */
-.nav-menu {
-  position: relative;
-  flex: none;
-}
-
-.nav-menu summary {
-  list-style: none;
-  cursor: pointer;
-  white-space: nowrap;
-  padding: 4px 0;
-}
-
-.nav-menu summary::-webkit-details-marker {
-  display: none;
-}
-
-.nav-menu summary::after {
-  content: ' ▾';
-  font-size: 9px;
-  opacity: 0.55;
-}
-
-.nav-menu[open] summary,
-.nav-menu[data-current='true'] summary {
-  color: var(--text);
-}
-
-.nav-menu[data-current='true'] summary {
-  border-bottom: 1.5px solid var(--accent);
-}
-
-.nav-menu ul {
-  position: absolute;
-  top: calc(100% + 10px);
-  left: 0;
-  z-index: 20;
-  min-width: 190px;
-  margin: 0;
-  padding: 6px;
-  list-style: none;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.14);
-}
-
-.nav-menu li a {
-  display: flex;
-  justify-content: space-between;
-  gap: 18px;
-  padding: 6px 8px;
-  border-radius: 4px;
-  color: var(--text-2);
-}
-
-.nav-menu li a:hover {
-  background: var(--surface-2);
-  color: var(--text);
-}
-
-.nav-menu li a[aria-current='page'] {
-  color: var(--accent);
-  border-bottom: none;
-}
-
-.nav-count {
-  color: var(--text-3);
-  font-variant-numeric: tabular-nums;
-}
-
-@media (max-width: 820px) {
-  .nav-menu ul {
-    position: static;
-    box-shadow: none;
-    border: none;
-    padding: 4px 0 4px 12px;
-  }
-}
-
 /* 导航下拉：details/summary，无 JS 也能展开 */
 .nav-menu {
   position: relative;
@@ -1041,103 +925,20 @@ a.tag:hover {
   }
 }
 
-/* 状态页：一天一行 */
-.day-head,
-.day-row summary {
-  display: grid;
-  grid-template-columns: 58px repeat(3, minmax(48px, 0.55fr)) minmax(0, 2.6fr) 48px;
-  gap: 12px;
-  align-items: baseline;
+/* 筛选命中的卡片靠类隐藏，不用 [hidden]：UA 的 [hidden] 优先级低于 .card 的 display */
+.is-hidden {
+  display: none !important;
 }
 
-.day-head {
-  font-size: 11px;
-  color: var(--text-3);
-  padding: 0 2px 8px;
-  border-bottom: 1px solid var(--border);
-}
-
-.day-head span:nth-child(n + 2),
-.day-cell,
-.day-total {
-  text-align: right;
-}
-
-.day-row {
-  border-bottom: 1px solid var(--border);
-}
-
-.day-row summary {
-  list-style: none;
-  cursor: pointer;
-  padding: 10px 2px;
-  font-size: 13px;
-  color: var(--text-2);
-}
-
-.day-row summary::-webkit-details-marker {
+.filter-bar:not(.is-filtered) .filter-chip--clear {
   display: none;
 }
 
-.day-row summary:hover {
-  color: var(--text);
+/* 筛选命中的卡片靠类隐藏，不用 [hidden]：UA 的 [hidden] 优先级低于 .card 的 display */
+.is-hidden {
+  display: none !important;
 }
 
-.day-date {
-  font-variant-numeric: tabular-nums;
-  color: var(--text);
-}
-
-.day-row[data-under='true'] .day-date {
-  font-weight: 600;
-  color: var(--warn);
-}
-
-.day-regions {
-  color: var(--text-3);
-  font-size: 12px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.day-total {
-  color: var(--text);
-  font-variant-numeric: tabular-nums;
-}
-
-.day-detail {
-  padding: 4px 2px 16px;
-}
-
-.day-meta {
-  margin: 8px 0 0;
-  font-size: 12px;
-  color: var(--text-3);
-}
-
-.lookback-title {
-  font-size: 13px;
-  color: var(--text-2);
-  margin: 0 0 8px;
-}
-
-.lookback {
-  margin: 0;
-  font-size: 12px;
-  color: var(--text-3);
-  line-height: 1.9;
-}
-
-@media (max-width: 640px) {
-  .day-head,
-  .day-row summary {
-    grid-template-columns: 46px repeat(3, 34px) minmax(0, 1fr) 34px;
-    gap: 8px;
-    font-size: 12px;
-  }
-
-  .day-regions {
-    font-size: 11px;
-  }
+.filter-bar:not(.is-filtered) .filter-chip--clear {
+  display: none;
 }

@@ -22,7 +22,6 @@ type Dict = {
   supplement: string;
   regionCoverage: string;
   dayTotal: string;
-  dayTotal: string;
   archive: string;
   status: string;
   search: string;
@@ -88,7 +87,6 @@ export const ui: Record<Locale, Dict> = {
     supplement: '补位',
     regionCoverage: '近 30 天区域覆盖',
     dayTotal: '合计',
-    dayTotal: '合计',
     archive: '归档',
     status: '运行状态',
     search: '搜索',
@@ -152,7 +150,6 @@ export const ui: Record<Locale, Dict> = {
     supplement: 'Fill-in',
     regionCoverage: 'Region coverage, last 30 days',
     dayTotal: 'Total',
-    dayTotal: 'Total',
     archive: 'Archive',
     status: 'Status',
     search: 'Search',
@@ -215,7 +212,6 @@ export const ui: Record<Locale, Dict> = {
     missingRegions: 'faltan {n}',
     supplement: 'Relleno',
     regionCoverage: 'Cobertura regional, últimos 30 días',
-    dayTotal: 'Total',
     dayTotal: 'Total',
     archive: 'Archivo',
     status: 'Estado',

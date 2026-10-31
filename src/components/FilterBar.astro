@@ -12,7 +12,7 @@ interface Props {
 }
 
 const { param, options, clearLabel } = Astro.props;
-const values = options.map((o) => o.value).join(',');
+const values = options.map((option) => option.value).join(',');
 ---
 
 <nav class="filter-bar" data-param={param} data-values={values} aria-label={param}>
@@ -23,28 +23,12 @@ const values = options.map((o) => o.value).join(',');
       </a>
     ))
   }
-  <a class="filter-chip filter-chip--clear" href="?" hidden>{clearLabel}</a>
+  <a class="filter-chip filter-chip--clear" href="?">{clearLabel}</a>
 </nav>
 
-<script is:inline>
-  (function () {
-    var bar = document.querySelector('.filter-bar');
-    if (!bar) return;
-    var key = bar.getAttribute('data-param');
-    var valid = (bar.getAttribute('data-values') || '').split(',');
-    var value = new URLSearchParams(location.search).get(key);
-    // 未知取值一律退回全量，避免 ?region=mars 这种地址把列表清空
-    if (!value || valid.indexOf(value) === -1) return;
+<script>
+  import { applyFilter, type FilterDocument } from '../scripts/filter';
 
-    bar.querySelectorAll('.filter-chip[data-value]').forEach(function (chip) {
-      if (chip.getAttribute('data-value') === value) chip.setAttribute('aria-current', 'true');
-    });
-    var clear = bar.querySelector('.filter-chip--clear');
-    if (clear) clear.hidden = false;
-
-    document.querySelectorAll('[data-region]').forEach(function (el) {
-      var own = el.getAttribute('data-' + key) || '';
-      if (own.split(',').indexOf(value) === -1) el.hidden = true;
-    });
-  })();
+  // 打包后的模块脚本在 DOM 解析完成后执行，能拿到全部卡片
+  applyFilter(document as unknown as FilterDocument, location.search);
 </script>

@@ -12,7 +12,7 @@
       "banking": 7
     },
     "multiIndustry": 10,
-    "disabled": 7
+    "disabled": 46
   },
   "sources": [
     {
@@ -56,7 +56,7 @@
       "focus": "护照与驾照签发系统、边境电子闸机与证件阅读器",
       "weight": 0.9,
       "evidenceCount": 2,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "biometric-update",
@@ -95,7 +95,7 @@
       "focus": "唯一专注 eSIM 产业链的垂直站，规范版本、认证与厂商动向拆得最细",
       "weight": 0.9,
       "evidenceCount": 1,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "etsi",
@@ -155,7 +155,7 @@
       "focus": "收单网关、Clover 终端与发卡处理；Commerce Hub 的整合进度是架构变化指标",
       "weight": 0.9,
       "evidenceCount": 1,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "gsma-newsroom",
@@ -194,7 +194,7 @@
       "focus": "护照与身份证的印制、个性化设备与防伪特征",
       "weight": 0.9,
       "evidenceCount": 1,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "id-tech-findbiometrics",
@@ -234,7 +234,7 @@
       "focus": "安全印务与证件产业的年会、认证要求与防伪趋势",
       "weight": 0.9,
       "evidenceCount": 1,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "iot-now",
@@ -273,7 +273,7 @@
       "focus": "识别卡与身份识别安全设备，18013、23220、7367 系列的归属委员会",
       "weight": 0.9,
       "evidenceCount": 1,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "keesing-platform",
@@ -332,7 +332,7 @@
       "focus": "东南亚对旅游 eSIM、境外 IMSI 与永久漫游的监管试验田",
       "weight": 0.9,
       "evidenceCount": 1,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "marqeta",
@@ -352,7 +352,7 @@
       "focus": "现代发卡处理平台，商户卡与稳定币卡的项目制迁移首选观察对象",
       "weight": 0.9,
       "evidenceCount": 1,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "mastercard-newsroom",
@@ -372,7 +372,7 @@
       "focus": "令牌化、Click to Pay 与稳定币结算的落地进展，区域稿分散在各市场站点",
       "weight": 0.9,
       "evidenceCount": 1,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "nist",
@@ -430,7 +430,7 @@
       "focus": "MPoC/PTS/PIN 等终端与 SoftPOS 安全标准的唯一权威源；/feed 结构合法但条目为空，实际需盯公告页",
       "weight": 0.9,
       "evidenceCount": 1,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "reserve-bank-of-australia-payments",
@@ -469,7 +469,7 @@
       "focus": "欧洲视角的运营商战略与监管，IoT eSIM 商用案例跟进快",
       "weight": 0.9,
       "evidenceCount": 1,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "uk-government-digital-service",
@@ -489,7 +489,7 @@
       "focus": "GOV.UK One Login、GOV.UK Wallet 与数字驾照沙盒",
       "weight": 0.9,
       "evidenceCount": 1,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "veridos",
@@ -509,7 +509,7 @@
       "focus": "护照材料、安全印务、个性化与移动 ID",
       "weight": 0.9,
       "evidenceCount": 1,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "visa-newsroom",
@@ -529,7 +529,7 @@
       "focus": "卡组织产品与网络扩张的一手发布；规则手册本身不在新闻室，需另找商户侧解读",
       "weight": 0.9,
       "evidenceCount": 1,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "cen-cenelec",
@@ -549,7 +549,7 @@
       "focus": "欧洲标准，含 CEN/TS 18099 注入攻击检测框架",
       "weight": 0.8,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "european-banking-authority",
@@ -607,7 +607,7 @@
       "focus": "SIM 换卡与携转反欺诈规则（47 CFR 64.2010(h)/52.37）、设备认证与号码资源",
       "weight": 0.8,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "gcf",
@@ -627,7 +627,7 @@
       "focus": "终端一致性认证，eSIM 与 SGP.32 测试用例进入运营商入库的前置条件",
       "weight": 0.8,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "icao",
@@ -647,7 +647,7 @@
       "focus": "DTC、PKD 与 Doc 9303 的规范文本、理事会决议与 TRIP 会议",
       "weight": 0.8,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "ofcom",
@@ -667,7 +667,7 @@
       "focus": "英国电信安全法规（TSA）中的 eSIM 威胁缓解措施与携号转网规则",
       "weight": 0.8,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "trai",
@@ -687,7 +687,7 @@
       "focus": "M2M eSIM 本地化配置、KYC 与携转反欺诈规则的主要来源",
       "weight": 0.8,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "trusted-connectivity-alliance",
@@ -726,7 +726,7 @@
       "focus": "美国 mDL 与数字护照在机场安检的受理州与钱包清单",
       "weight": 0.8,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "aamva",
@@ -746,7 +746,7 @@
       "focus": "美国 mDL 与 Digital Trust Service 规则、州 DMV 实施口径",
       "weight": 0.6,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "adyen",
@@ -766,7 +766,7 @@
       "focus": "单栈收单与平台化的基准，线下受理与 agentic checkout 的产品化进度看这里",
       "weight": 0.6,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "american-banker",
@@ -786,7 +786,7 @@
       "focus": "美国银行与卡组织高管表态、发卡侧策略；多数深度稿件在付费墙内",
       "weight": 0.6,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "american-express-newsroom",
@@ -806,7 +806,7 @@
       "focus": "三方卡组织的受理与联名卡策略，是观察非 RBA 监管侧规则变化的窗口",
       "weight": 0.6,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "bundesdruckerei",
@@ -826,7 +826,7 @@
       "focus": "德国身份证与护照印制、后量子证件试验",
       "weight": 0.6,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "celent",
@@ -846,7 +846,7 @@
       "focus": "发卡与收单技术栈的厂商能力评估，适合判断平台取舍而非追新闻",
       "weight": 0.6,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "deutsche-telekom",
@@ -866,7 +866,7 @@
       "focus": "欧洲最大运营商的 eSIM 开通流程与旅行 eSIM 产品（T-Travel）",
       "weight": 0.6,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "fierce-network",
@@ -925,7 +925,7 @@
       "focus": "发卡处理与核心银行侧能力，需与 Fiserv 对照看美国发卡/收单双寡头",
       "weight": 0.6,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "giesecke-devrient",
@@ -946,7 +946,7 @@
       "focus": "证件芯片、安全纸与后量子密码迁移",
       "weight": 0.6,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "hid-global",
@@ -966,7 +966,7 @@
       "focus": "证件个性化设备、发卡系统与政府 ID 项目交付",
       "weight": 0.6,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "ibia",
@@ -1006,7 +1006,7 @@
       "focus": "TEGRION SLx22 安全控制器，eSIM 芯片底座的实际供给方",
       "weight": 0.6,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "javelin-strategy-research",
@@ -1026,7 +1026,7 @@
       "focus": "发卡侧欺诈、数字身份与账户接管研究，偏美国零售银行",
       "weight": 0.6,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "light-reading",
@@ -1200,7 +1200,7 @@
       "focus": "OSIA 开放标准与政府数字 ID 生态的中立协调",
       "weight": 0.6,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "secureidnews",
@@ -1220,7 +1220,7 @@
       "focus": "政府证件签发、驾照主管机构与身份核验项目的深度报道",
       "weight": 0.6,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "stripe-newsroom",
@@ -1240,7 +1240,7 @@
       "focus": "Stripe Issuing/Treasury 与 agent 钱包，是发卡即 API 路线的基准",
       "weight": 0.6,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "telef-nica",
@@ -1279,7 +1279,7 @@
       "focus": "欧洲支付与发卡平台的项目制落地新闻，稳定币发卡线尤其全；站点有 Cookie 墙，RSS 未取到",
       "weight": 0.6,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "total-telecom",
@@ -1318,7 +1318,7 @@
       "focus": "旅行 eSIM 与 IoT eSIM 商用，欧洲与非洲双市场",
       "weight": 0.6,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "worldpay",
@@ -1338,7 +1338,7 @@
       "focus": "大型商户收单与令牌化落地，Visa/Mastercard 新规则的商户侧执行样本",
       "weight": 0.6,
       "evidenceCount": 0,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "mobiletime",
