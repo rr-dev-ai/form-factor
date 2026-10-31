@@ -2,6 +2,10 @@
   "id": "2026-10-30-telecom-04",
   "slug": "brazil-south-africa-biometric-sim-verification",
   "industry": "telecom",
+  "region": "latam",
+  "regions": [
+    "africa"
+  ],
   "tags": [
     "sim-registration",
     "biometrics",

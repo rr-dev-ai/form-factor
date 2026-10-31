@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { newsItemSchema, runRecordSchema, type NewsItem, type RunRecord } from './schema';
 import { tagName, tags } from '../config/taxonomy';
+import { regionIssues } from '../config/regions';
 import { site } from '../config/site';
 
 const ROOT = process.cwd();
@@ -59,6 +60,13 @@ export function loadNews(): NewsItem[] {
       errors.push(`${rel}\n  · 未在 taxonomy 中定义的标签：${unknown.join(', ')}`);
       continue;
     }
+
+    const regionProblem = regionIssues(item);
+    if (regionProblem.length) {
+      errors.push(`${rel}\n  · ${regionProblem.join('；')}`);
+      continue;
+    }
+
     if (seenSlug.has(item.slug)) {
       errors.push(`${rel}\n  · slug 与 ${seenSlug.get(item.slug)} 重复：${item.slug}`);
       continue;

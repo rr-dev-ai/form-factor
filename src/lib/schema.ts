@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { REGION_SLUGS } from '../config/regions.ts';
 
 /** 带时区的 ISO 8601。手写正则而非依赖 zod 版本的 datetime API，避免升降级时静默失效。 */
 const isoDateTime = z
@@ -43,6 +44,10 @@ export const newsItemSchema = z.object({
   id: z.string().min(3),
   slug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'slug 只允许小写字母、数字与连字符'),
   industry: z.enum(['banking', 'telecom', 'identity']),
+  /** 主区域：这条变化实际落在哪个市场 */
+  region: z.enum(REGION_SLUGS),
+  /** 涉及的其他区域，不含主区域；global 只能作为主区域 */
+  regions: z.array(z.enum(REGION_SLUGS)).max(3).default([]),
   tags: z.array(z.string()).min(1).max(6),
   status: z.enum(['published', 'archived']),
   publishedAt: isoDateTime,
