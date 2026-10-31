@@ -28,3 +28,6 @@ credentials*.json
 /AGENTS.md
 # 一次性构建工具（源池合并）
 /scripts/build-source-list.mjs
+
+# 编辑任务的中间产物，聚合后即删除
+content/_meta/runs.partial-*.json
