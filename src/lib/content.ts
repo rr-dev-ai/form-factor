@@ -104,10 +104,6 @@ export function byIndustry(slug: string): NewsItem[] {
   return publishedNews().filter((n) => n.industry === slug);
 }
 
-export function byTag(slug: string): NewsItem[] {
-  return publishedNews().filter((n) => n.tags.includes(slug));
-}
-
 /** 主区域在前，涉及区域在后，去重。筛选用它；覆盖统计用主区域。 */
 export function allRegions(item: NewsItem): string[] {
   return [item.region, ...item.regions.filter((r) => r !== item.region)];

@@ -19,6 +19,15 @@ const slug = Astro.params.slug as string;
 const dict = t(locale);
 
 const items = byRegion(slug);
+
+/** 只给有内容的行业出 chip */
+const industryOptions = industries
+  .map((industry) => ({
+    value: industry.slug,
+    label: industry.name[locale],
+    count: items.filter((item) => item.industry === industry.slug).length,
+  }))
+  .filter((option) => option.count > 0);
 ---
 
 <Base
@@ -34,7 +43,7 @@ const items = byRegion(slug);
 
   <FilterBar
     param="industry"
-    options={industries.map((industry) => ({ value: industry.slug, label: industry.name[locale] }))}
+    options={industryOptions}
     clearLabel={dict.filterClear}
   />
 

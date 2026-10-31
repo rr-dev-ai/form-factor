@@ -6,29 +6,33 @@ interface Option {
 
 interface Props {
   /** query 参数名，决定这一行筛的是哪个维度 */
-  param: 'region' | 'industry';
+  param: 'region' | 'industry' | 'tag';
   options: Option[];
   clearLabel: string;
 }
 
 const { param, options, clearLabel } = Astro.props;
-const values = options.map((option) => option.value).join(',');
 ---
 
-<nav class="filter-bar" data-param={param} data-values={values} aria-label={param}>
+<nav class="filter-bar" data-param={param} aria-label={param}>
   {
     options.map((option) => (
-      <a class="filter-chip" href={`?${param}=${option.value}`} data-value={option.value}>
+      <a
+        class="filter-chip"
+        href={`?${param}=${option.value}`}
+        data-param={param}
+        data-value={option.value}
+      >
         {option.label}
       </a>
     ))
   }
-  <a class="filter-chip filter-chip--clear" href="?">{clearLabel}</a>
+  <a class="filter-chip filter-chip--clear" href="?" data-param={param}>{clearLabel}</a>
 </nav>
 
 <script>
-  import { applyFilter, type FilterDocument } from '../scripts/filter';
+  import { applyFilters, type FilterDocument } from '../scripts/filter';
 
   // 打包后的模块脚本在 DOM 解析完成后执行，能拿到全部卡片
-  applyFilter(document as unknown as FilterDocument, location.search);
+  applyFilters(document as unknown as FilterDocument, location.search);
 </script>

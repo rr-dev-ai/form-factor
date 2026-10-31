@@ -21,6 +21,7 @@ const dict = t(locale);
   href={href(`/${locale}/news/${item.slug}`)}
   data-region={allRegions(item).join(',')}
   data-industry={item.industry}
+  data-tag={item.tags.join(',')}
 >
   <div class="card-meta">
     <span>{industryName(item.industry, locale)}</span>

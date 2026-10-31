@@ -55,9 +55,7 @@ type Dict = {
   themeDark: string;
   items: string;
   related: string;
-  backHome: string;
   industryLabel: string;
-  allTags: string;
   publishedCount: string;
   lastRun: string;
   fetched: string;
@@ -120,9 +118,7 @@ export const ui: Record<Locale, Dict> = {
     themeDark: '深色',
     items: '条',
     related: '相关阅读',
-    backHome: '返回首页',
     industryLabel: '行业',
-    allTags: '全部标签',
     publishedCount: '条已发布',
     lastRun: '最近一次运行',
     fetched: '抓取',
@@ -183,9 +179,7 @@ export const ui: Record<Locale, Dict> = {
     themeDark: 'Dark',
     items: 'items',
     related: 'Related',
-    backHome: 'Back home',
     industryLabel: 'Industry',
-    allTags: 'All tags',
     publishedCount: 'published',
     lastRun: 'Last run',
     fetched: 'Fetched',
@@ -246,9 +240,7 @@ export const ui: Record<Locale, Dict> = {
     themeDark: 'Oscuro',
     items: 'elementos',
     related: 'Relacionado',
-    backHome: 'Volver al inicio',
     industryLabel: 'Sector',
-    allTags: 'Todas las etiquetas',
     publishedCount: 'publicados',
     lastRun: 'Última ejecución',
     fetched: 'Recopilados',

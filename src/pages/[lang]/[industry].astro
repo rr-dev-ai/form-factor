@@ -3,11 +3,10 @@ import Base from '../../layouts/Base.astro';
 import NewsCard from '../../components/NewsCard.astro';
 import FilterBar from '../../components/FilterBar.astro';
 import { locales, type Locale } from '../../config/site';
-import { industries, industryName, tags, tagName } from '../../config/taxonomy';
+import { industries, industryName, tags } from '../../config/taxonomy';
 import { regions } from '../../config/regions';
-import { byIndustry } from '../../lib/content';
+import { allRegions, byIndustry } from '../../lib/content';
 import { t } from '../../lib/i18n';
-import { localePath } from '../../lib/url';
 
 export function getStaticPaths() {
   return locales.flatMap((lang) => industries.map((i) => ({ params: { lang, industry: i.slug } })));
@@ -19,6 +18,24 @@ const dict = t(locale);
 
 const items = byIndustry(industry);
 const relatedTags = tags.filter((tag) => tag.industry === industry);
+
+/** 只给有内容的选项出 chip：点进去一片空白的筛选没有意义 */
+const regionOptions = regions
+  .map((region) => ({
+    value: region.slug,
+    label: region.name[locale],
+    count: items.filter((item) => allRegions(item).includes(region.slug)).length,
+  }))
+  .filter((option) => option.count > 0);
+
+const tagOptions = relatedTags
+  .map((tag) => ({
+    value: tag.slug,
+    label: tag.name[locale],
+    count: items.filter((item) => item.tags.includes(tag.slug)).length,
+  }))
+  .filter((option) => option.count > 0);
+
 ---
 
 <Base
@@ -32,21 +49,9 @@ const relatedTags = tags.filter((tag) => tag.industry === industry);
     <p>{`${items.length} ${dict.items}`}</p>
   </div>
 
-  <div class="card-foot" style="margin-bottom:24px">
-    {
-      relatedTags.map((tag) => (
-        <a class="tag" href={localePath(locale, `/tag/${tag.slug}`)}>
-          {tag.name[locale]}
-        </a>
-      ))
-    }
-  </div>
+  <FilterBar param="region" options={regionOptions} clearLabel={dict.filterClear} />
 
-  <FilterBar
-    param="region"
-    options={regions.map((region) => ({ value: region.slug, label: region.name[locale] }))}
-    clearLabel={dict.filterClear}
-  />
+  <FilterBar param="tag" options={tagOptions} clearLabel={dict.filterClear} />
 
   {
     items.length > 0 ? (

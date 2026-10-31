@@ -187,6 +187,29 @@ const menuCurrent = (menu?: MenuItem[]) => !!menu && menu.some((item) => isCurre
           if (!menu.contains(event.target)) menu.removeAttribute('open');
         });
       });
+
+      // 鼠标设备上悬停展开。120ms 意图延迟：没有它，光标从「首页」移向「归档」
+      // 会连着扫开两个菜单。触屏与键盘仍走点击与 focus。
+      if (window.matchMedia && window.matchMedia('(hover: hover)').matches) {
+        document.querySelectorAll('.nav-menu').forEach(function (menu) {
+          var openTimer, closeTimer;
+          menu.addEventListener('mouseenter', function () {
+            window.clearTimeout(closeTimer);
+            openTimer = window.setTimeout(function () {
+              menu.setAttribute('open', '');
+            }, 120);
+          });
+          menu.addEventListener('mouseleave', function () {
+            window.clearTimeout(openTimer);
+            closeTimer = window.setTimeout(function () {
+              menu.removeAttribute('open');
+            }, 150);
+          });
+          menu.addEventListener('focusin', function () {
+            window.clearTimeout(closeTimer);
+          });
+        });
+      }
     </script>
   </body>
 </html>

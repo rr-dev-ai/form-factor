@@ -71,7 +71,7 @@ const sourceDate = firstSource?.publishedAt ?? item.publishedAt;
     </div>
 
     <div class="card-foot" style="margin:24px 0 32px">
-      {item.tags.map((tag) => <a class="tag" href={localePath(locale, `/tag/${tag}`)}>{tagName(tag, locale)}</a>)}
+      {item.tags.map((tag) => <a class="tag" href={localePath(locale, `/${item.industry}?tag=${tag}`)}>{tagName(tag, locale)}</a>)}
     </div>
 
     <section>
