@@ -16,6 +16,7 @@ export const localeLabel: Record<Locale, string> = {
 type Dict = {
   home: string;
   industries: string;
+  regions: string;
   archive: string;
   status: string;
   search: string;
@@ -75,6 +76,7 @@ export const ui: Record<Locale, Dict> = {
   zh: {
     home: '首页',
     industries: '行业',
+    regions: '区域',
     archive: '归档',
     status: '运行状态',
     search: '搜索',
@@ -132,6 +134,7 @@ export const ui: Record<Locale, Dict> = {
   en: {
     home: 'Home',
     industries: 'Industries',
+    regions: 'Regions',
     archive: 'Archive',
     status: 'Status',
     search: 'Search',
@@ -189,6 +192,7 @@ export const ui: Record<Locale, Dict> = {
   es: {
     home: 'Inicio',
     industries: 'Sectores',
+    regions: 'Regiones',
     archive: 'Archivo',
     status: 'Estado',
     search: 'Buscar',

@@ -1,6 +1,8 @@
 ---
 import '../styles/global.css';
 import { industries } from '../config/taxonomy';
+import { regions } from '../config/regions';
+import { byIndustry, byRegion } from '../lib/content';
 import { site, locales, type Locale } from '../config/site';
 import { t, localeTag } from '../lib/i18n';
 import { href } from '../lib/url';
@@ -19,15 +21,36 @@ const fullTitle = title ? `${title} · ${site.name}` : `${site.name} · ${site.t
 const desc = description ?? site.description[locale];
 const canonical = new URL(href(`/${locale}${path}`), site.baseUrl).toString();
 
-const nav = [
+interface MenuItem {
+  label: string;
+  path: string;
+  count: number;
+}
+
+const industryMenu: MenuItem[] = industries.map((industry) => ({
+  label: industry.name[locale],
+  path: `/${industry.slug}`,
+  count: byIndustry(industry.slug).length,
+}));
+
+const regionMenu: MenuItem[] = regions.map((region) => ({
+  label: region.name[locale],
+  path: `/region/${region.slug}`,
+  count: byRegion(region.slug).length,
+}));
+
+const nav: { label: string; path: string | null; menu?: MenuItem[] }[] = [
   { label: dict.home, path: '/' },
-  ...industries.map((i) => ({ label: i.name[locale], path: `/${i.slug}` })),
+  { label: dict.industries, path: null, menu: industryMenu },
+  { label: dict.regions, path: null, menu: regionMenu },
   { label: dict.archive, path: '/archive' },
   { label: dict.status, path: '/status' },
 ];
 
-const isCurrent = (target: string) =>
-  target === '/' ? path === '/' : path === target || path.startsWith(`${target}/`);
+const isCurrent = (target: string | null) =>
+  !target ? false : target === '/' ? path === '/' : path === target || path.startsWith(`${target}/`);
+
+const menuCurrent = (menu?: MenuItem[]) => !!menu && menu.some((item) => isCurrent(item.path));
 ---
 
 <!doctype html>
@@ -68,14 +91,33 @@ const isCurrent = (target: string) =>
         <a class="brand" href={href(`/${locale}/`)}><span>◈</span>{site.name}</a>
         <nav class="nav" aria-label="primary">
           {
-            nav.map((item) => (
-              <a
-                href={href(`/${locale}${item.path === '/' ? '/' : item.path}`)}
-                aria-current={isCurrent(item.path) ? 'page' : undefined}
-              >
-                {item.label}
-              </a>
-            ))
+            nav.map((item) =>
+              item.menu ? (
+                <details class="nav-menu" data-current={menuCurrent(item.menu) ? 'true' : undefined}>
+                  <summary>{item.label}</summary>
+                  <ul>
+                    {item.menu.map((entry) => (
+                      <li>
+                        <a
+                          href={href(`/${locale}${entry.path}`)}
+                          aria-current={isCurrent(entry.path) ? 'page' : undefined}
+                        >
+                          <span>{entry.label}</span>
+                          <span class="nav-count">{entry.count}</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              ) : (
+                <a
+                  href={href(`/${locale}${item.path === '/' ? '/' : item.path}`)}
+                  aria-current={isCurrent(item.path) ? 'page' : undefined}
+                >
+                  {item.label}
+                </a>
+              )
+            )
           }
         </nav>
         <div class="tools">
@@ -138,6 +180,12 @@ const isCurrent = (target: string) =>
         try {
           localStorage.setItem('theme', next);
         } catch (e) {}
+      });
+
+      document.addEventListener('click', function (event) {
+        document.querySelectorAll('.nav-menu[open]').forEach(function (menu) {
+          if (!menu.contains(event.target)) menu.removeAttribute('open');
+        });
       });
     </script>
   </body>
