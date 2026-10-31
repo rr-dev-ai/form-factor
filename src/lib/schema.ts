@@ -15,6 +15,17 @@ const localized = (max: number) =>
   });
 
 /**
+ * 三语上限不同时使用。一个汉字的信息量约等于 2.5–3.5 个拉丁字符，
+ * 三语共用同一个字符上限，等于强迫英西语删掉一半内容。
+ */
+const localizedByLang = (max: { zh: number; en: number; es: number }) =>
+  z.object({
+    zh: z.string().min(1).max(max.zh),
+    en: z.string().min(1).max(max.en),
+    es: z.string().min(1).max(max.es),
+  });
+
+/**
  * 正文的一个块。用块而不是整段 HTML：页面负责排版，
  * 内容只声明"这是一句小标题 / 一段话 / 一组要点"。
  */
@@ -53,7 +64,7 @@ export const newsItemSchema = z.object({
   summary: localized(600),
   /** 正文：2–8 个块，把事件讲清楚，可含小标题与要点列表 */
   body: z.array(bodyBlock).min(2).max(8),
-  whyItMatters: localized(400),
+  whyItMatters: localizedByLang({ zh: 400, en: 700, es: 720 }),
   confidence: z.number().min(0).max(1),
   ai: z.object({
     model: z.string().min(1),
