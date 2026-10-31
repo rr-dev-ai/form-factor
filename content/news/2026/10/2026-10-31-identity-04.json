@@ -1,0 +1,97 @@
+{
+  "id": "2026-10-31-identity-04",
+  "slug": "nistir-8547-pqc-transition-timetable",
+  "industry": "identity",
+  "tags": [
+    "pki",
+    "secure-chip"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-31T06:15:00+08:00",
+  "ingestedAt": "2026-10-31T09:30:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "NIST（新闻稿）",
+      "url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+      "lang": "en",
+      "publishedAt": "2026-10-27T12:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "NIST 发布 NISTIR 8547，给出后量子迁移时间表与算法淘汰清单",
+    "en": "NIST's NISTIR 8547 sets the post-quantum timetable and names the algorithms being retired",
+    "es": "El NISTIR 8547 fija el calendario poscuántico y nombra los algoritmos que se retiran"
+  },
+  "summary": {
+    "zh": "NIST 10 月 27 日发布 NISTIR 8547《向后量子密码标准迁移》，逐条点名现有标准里量子可破的算法、说明各自由哪个后量子标准接替，并给出联邦系统的迁移节点：高价值资产 2030 年前完成密钥建立迁移、2031 年前完成数字签名迁移。",
+    "en": "NIST published NISTIR 8547, Transition to Post-Quantum Cryptography Standards, on 27 October, naming the quantum-vulnerable algorithms in its existing standards, stating what replaces each, and setting federal dates: key establishment by 2030 and digital signatures by 2031 for high-value assets.",
+    "es": "El NIST publicó el 27 de octubre el NISTIR 8547, Transición a los estándares de criptografía poscuántica, que identifica los algoritmos vulnerables de sus normas actuales, indica qué estándar los sustituye y fija fechas federales: establecimiento de claves en 2030 y firmas digitales en 2031 para activos de alto valor."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "NIST 在 10 月 27 日发布 NISTIR 8547，标题就是《向后量子密码标准迁移》。报告做两件事：把 NIST 现有标准里量子计算机能破的算法逐条点名，说明各自由 2024 年发布的后量子标准接替；再给出迁移时间表——哪些算法在某个日期之后于联邦系统内被禁用，哪些允许继续使用但风险自担。",
+        "en": "NIST published NISTIR 8547 on 27 October under the title Transition to Post-Quantum Cryptography Standards. It does two things: names, one by one, the algorithms in NIST's existing standards that a quantum computer would break, and says which post-quantum standard replaces each; then sets the timetable — which algorithms are disallowed in federal systems after a given date, and which stay allowed at the user's own risk.",
+        "es": "El NIST publicó el 27 de octubre el NISTIR 8547, titulado Transición a los estándares de criptografía poscuántica. Hace dos cosas: nombra uno por uno los algoritmos de sus normas actuales que un ordenador cuántico rompería e indica qué estándar poscuántico los sustituye; después fija el calendario: qué algoritmos quedan prohibidos en sistemas federales a partir de cierta fecha y cuáles siguen permitidos bajo riesgo del usuario."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "联邦系统整体迁移目标年份 2035，源自国家安全备忘录 10",
+          "en": "2035 is the overall federal target, set by National Security Memorandum 10",
+          "es": "2035 es el objetivo federal global, fijado por el Memorando de Seguridad Nacional 10"
+        },
+        {
+          "zh": "行政令 14412 把高价值资产与高影响系统提前：密钥建立 2030 年、数字签名 2031 年",
+          "en": "Executive Order 14412 pulls high-value assets and high-impact systems forward: key establishment by 2030, signatures by 2031",
+          "es": "La Orden Ejecutiva 14412 adelanta los activos de alto valor y sistemas de alto impacto: claves en 2030, firmas en 2031"
+        },
+        {
+          "zh": "允许混合模式：传统算法与后量子算法并行，安全上更保守，代价是算力与报文开销",
+          "en": "Hybrid mode is permitted: conventional and post-quantum algorithms in parallel, more conservative but costlier in compute and message size",
+          "es": "Se admite el modo híbrido: algoritmos convencionales y poscuánticos en paralelo, más conservador pero con más cómputo y tamaño de mensaje"
+        },
+        {
+          "zh": "长期保密的数据应优先迁移密钥建立（FIPS 203），应对「先存后解」",
+          "en": "Key establishment (FIPS 203) is worth migrating first for long-lived secrets, against harvest-now-decrypt-later",
+          "es": "Conviene migrar primero el establecimiento de claves (FIPS 203) para secretos de vida larga, frente al «capturar ahora, descifrar después»"
+        },
+        {
+          "zh": "报告强调迁移不只是换算法，还要盘整整条密码供应链",
+          "en": "The report stresses that migration is not swapping algorithms but auditing the whole cryptographic supply chain",
+          "es": "El informe subraya que migrar no es cambiar algoritmos, sino auditar toda la cadena de suministro criptográfica"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "对卡、eSIM、护照、移动证件这类载体，时间表的分量比服务器更重：一张卡在场上要活三到五年，芯片里的密钥算法一旦要换，通常意味着换卡，或者至少重做个人化与密钥注入流程。2030／2031 这两个节点约束的是美国联邦采购，但会顺着采购条款传导到给联邦机构供货的卡片厂商、HSM 厂商与 CA。",
+        "en": "For cards, eSIMs, passports and mobile credentials the timetable bites harder than on servers: a card stays in the field three to five years, and changing the key algorithm inside the chip usually means reissuing it, or at least redoing personalisation and key injection. The 2030/2031 dates bind US federal procurement, but they travel down procurement terms to the card makers, HSM vendors and CAs that supply federal agencies.",
+        "es": "En tarjetas, eSIM, pasaportes y credenciales móviles el calendario pesa más que en servidores: una tarjeta vive de tres a cinco años en el campo y cambiar el algoritmo de clave dentro del chip suele implicar reemitirla, o al menos rehacer la personalización y la inyección de claves. Las fechas 2030/2031 obligan a la compra pública estadounidense, pero bajan por los pliegos hasta los fabricantes de tarjetas, los proveedores de HSM y las CA que sirven a agencias federales."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "约束与下一步：报告是指导性文件，不是强制法规，真正的约束力来自各机构的采购与审计要求；混合模式虽被允许，却会让芯片上的运算时间与报文长度变长，性能预算要重算。要跟的是 NIST 后续公布的具体淘汰日期表、FIPS 203／204／205 在卡片操作系统上的认证进展，以及卡组织与各国证件机构是否给出对应的迁移要求。",
+        "en": "The limits: the report is guidance rather than regulation, and its force comes from agency procurement and audit requirements; hybrid mode is allowed but lengthens compute time and messages on the chip, so performance budgets need recalculating. Watch for NIST's detailed retirement dates, certification progress for FIPS 203/204/205 on card operating systems, and whether the schemes and document agencies issue matching migration requirements.",
+        "es": "Los límites: el informe es una guía, no un reglamento, y su fuerza viene de los pliegos y auditorías de cada agencia; el modo híbrido se admite, pero alarga el tiempo de cálculo y los mensajes en el chip, así que hay que recalcular el presupuesto de rendimiento. A seguir: las fechas concretas de retirada que publique el NIST, el avance de la certificación de FIPS 203/204/205 en sistemas operativos de tarjeta, y si los esquemas y las agencias de documentos emiten requisitos equivalentes."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "做卡片、eSIM、护照个人化和密钥管理的供应商，现在就得按 2030／2031 倒排路线：芯片 ROM 掩膜、COS 密码库、HSM 固件、CA 证书策略，任何一环换算法都要重新认证。机会是提前拿出「可升级到后量子」的平台去接联邦及其供应链的标；风险是只换算法不换流程——个人化脚本、密钥注入、验签终端没跟上，交付时才发现整条产线都要改。要跟 NIST 的淘汰日期表与各卡组织的迁移要求。",
+    "en": "Suppliers of card, eSIM and passport personalisation and key management should already be planning backwards from 2030 and 2031: chip ROM masks, the OS crypto library, HSM firmware, CA certificate policy — change the algorithm in any one and certification starts over. The opportunity is arriving with a platform that upgrades to post-quantum and bidding for federal work and its supply chain; the risk is changing the algorithm but not the process, then finding at delivery that personalisation scripts, key injection and verification terminals all need rework. Watch NIST's retirement dates and the schemes' migration requirements.",
+    "es": "Quien hace personalización y gestión de claves para tarjetas, eSIM y pasaportes ya debería planificar hacia atrás desde 2030 y 2031: máscaras ROM del chip, librería criptográfica del sistema operativo, firmware del HSM, política de certificados de la CA — cambiar el algoritmo en cualquiera de ellos reinicia la certificación. La oportunidad es llegar con una plataforma actualizable a poscuántico y pujar por contratos federales y su cadena; el riesgo es cambiar el algoritmo y no el proceso, y descubrir en la entrega que los scripts de personalización, la inyección de claves y los terminales de verificación también hay que rehacer. A seguir: las fechas de retirada del NIST y los requisitos de los esquemas."
+  },
+  "confidence": 0.85,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

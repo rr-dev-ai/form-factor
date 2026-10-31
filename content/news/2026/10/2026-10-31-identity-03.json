@@ -1,0 +1,103 @@
+{
+  "id": "2026-10-31-identity-03",
+  "slug": "etsi-ts-104-275-deepfake-prevention-standard",
+  "industry": "identity",
+  "tags": [
+    "verification",
+    "liveness"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-31T06:15:00+08:00",
+  "ingestedAt": "2026-10-31T09:30:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ETSI（新闻稿）",
+      "url": "https://www.etsi.org/newsroom/press-releases/etsi-unveils-new-standard-to-reduce-production-of-harmful-deepfakes/",
+      "lang": "en",
+      "publishedAt": "2026-10-29T09:44:06+00:00"
+    },
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202610/etsi-releases-specification-to-help-mitigate-ai-deepfake-risk",
+      "lang": "en",
+      "publishedAt": "2026-10-30T16:02:01+00:00"
+    }
+  ],
+  "title": {
+    "zh": "ETSI 发布 TS 104 275，要求生成式 AI 在设计阶段就防深度伪造",
+    "en": "ETSI's TS 104 275 asks generative AI developers to prevent deepfakes at design time",
+    "es": "La TS 104 275 de ETSI exige prevenir deepfakes al diseñar el sistema generativo"
+  },
+  "summary": {
+    "zh": "ETSI 的安全人工智能技术委员会 10 月 29 日发布技术规范 TS 104 275，要求生成式 AI 的开发与运营方在系统生命周期内做风险评估、人工监督、内容标注与持续监控，并给出配套的测试场景与判定标准。",
+    "en": "ETSI's Securing Artificial Intelligence committee published technical specification TS 104 275 on 29 October, requiring generative AI developers and operators to run risk assessment, human oversight, content labelling and monitoring across the system lifecycle, with matching test scenarios and pass/fail criteria.",
+    "es": "El comité de seguridad en inteligencia artificial de ETSI publicó el 29 de octubre la especificación técnica TS 104 275, que exige a desarrolladores y operadores de IA generativa evaluación de riesgos, supervisión humana, etiquetado de contenido y monitorización continua, con escenarios de prueba y criterios de aceptación."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "ETSI 的安全人工智能技术委员会（TC SAI）在 10 月 29 日发布技术规范 TS 104 275。它要解决的不是「怎么认出假脸」，而是要求生成式 AI 的开发方和运营方在系统上线之前，就把被滥用的可能性算进去：做风险评估、保留人工复核环节、加内容过滤与 AI 生成内容标注、持续监控，并留下能证明这些措施确实在运行的记录。规范建立在 ETSI 已有的 AI 系统基线安全标准 EN 304 223 之上，同时对齐欧盟人工智能法的目标，覆盖范围超出被划为高风险的系统。",
+        "en": "ETSI's Technical Committee on Securing Artificial Intelligence (TC SAI) published technical specification TS 104 275 on 29 October. It is not about spotting a fake face after the fact; it asks generative AI developers and operators to account for misuse before a system ships: risk assessment, human review, content filtering and AI-generated-content labelling, continuous monitoring, and records proving those controls actually run. The specification builds on ETSI's EN 304 223 baseline security standard for AI systems and aligns with the objectives of the EU AI Act, reaching beyond systems classified as high-risk.",
+        "es": "El comité técnico de seguridad en inteligencia artificial de ETSI (TC SAI) publicó el 29 de octubre la especificación técnica TS 104 275. No trata de reconocer una cara falsa después de creada: pide a los desarrolladores y operadores de IA generativa que asuman el riesgo de abuso antes de que el sistema salga al mercado —evaluación de riesgos, revisión humana, filtrado de contenido y etiquetado de material generado, monitorización continua y registros que demuestren que esos controles funcionan. Se apoya en la norma de seguridad base para sistemas de IA EN 304 223 y se alinea con los objetivos del Reglamento europeo de IA, alcanzando a sistemas que no están clasificados como de alto riesgo."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "五项要求：部署前风险评估、人工监督、滥用防护（内容过滤／AI 生成内容标注／用户提示）、持续监控、可举证的记录",
+          "en": "Five obligations: pre-deployment risk assessment, human oversight, misuse safeguards (content filtering, AI-content labelling, user warnings), ongoing monitoring, evidence-based records",
+          "es": "Cinco obligaciones: evaluación de riesgos previa al despliegue, supervisión humana, salvaguardas contra el abuso (filtrado, etiquetado de contenido generado, avisos al usuario), monitorización continua y registros probatorios"
+        },
+        {
+          "zh": "配套给出测试场景与通过／不通过判定，用来验证措施是否真的落地，而不是只看承诺",
+          "en": "Test scenarios with pass/fail criteria are included, so controls can be shown to work rather than merely promised",
+          "es": "Incluye escenarios de prueba con criterios de aceptación, para demostrar que los controles funcionan y no solo que se prometen"
+        },
+        {
+          "zh": "适用对象是生成式 AI 的提供方与运营方，不是核验或检测产品的供应商",
+          "en": "It applies to providers and operators of generative AI, not to verification or detection vendors",
+          "es": "Se dirige a proveedores y operadores de IA generativa, no a los fabricantes de verificación o detección"
+        },
+        {
+          "zh": "规范以 EN 304 223 的基线安全要求为底，与欧盟人工智能法的目标对齐",
+          "en": "It builds on the EN 304 223 baseline and aligns with EU AI Act objectives",
+          "es": "Parte de los requisitos base de la EN 304 223 y se alinea con los objetivos del Reglamento europeo de IA"
+        },
+        {
+          "zh": "Rapporteur Alex Cadzow 称，滥用合法商用软件即可造出有害深度伪造，风险要在设计阶段处理",
+          "en": "Rapporteur Alex Cadzow said harmful deepfakes can be made by misusing legal commercial software, so the risk belongs at design stage",
+          "es": "El ponente Alex Cadzow afirmó que un deepfake dañino se fabrica abusando de software comercial legal, así que el riesgo se trata en el diseño"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "边界要说清楚：它是技术规范，不是认证方案——没有第三方发证，也没有对应的合格评定程序；对生成内容标注的要求写的是「适当场景下」，留给实施方自行判断。短期内它更像采购问卷里的一条，而不是市场准入门槛。",
+        "en": "The limits matter: this is a technical specification, not a certification scheme — no third party issues a certificate and no conformity assessment accompanies it, and the labelling requirement is written as \"where appropriate\", leaving the judgement to the implementer. For now it reads as a line in a procurement questionnaire rather than a market gate.",
+        "es": "Conviene precisar los límites: es una especificación técnica, no un esquema de certificación. Ningún tercero emite certificado ni existe evaluación de conformidad asociada, y la exigencia de etiquetado se redacta como «cuando proceda», dejando la decisión al implementador. Por ahora es una línea del cuestionario de compras, no una barrera de acceso al mercado."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "对这条链上的人，影响是间接但具体的：远程开户、活体检测这类业务长期被动挨打，因为合成人脸的成本由别人承担，检测方只能不停追新一代。规范把一部分成本往上游推，但只有等它被写进采购条款或平台准入规则，供给端的合成数据才会真正减少。接下来看三件事：欧盟人工智能法的协调标准是否引用它、监管机构是否把它当作合规证据、大模型厂商是否公开声明符合。",
+        "en": "For this chain the effect is indirect but concrete: remote onboarding and liveness checks have long been on the defensive, because someone else bears the cost of synthesising a face while the detector chases each new generation. The specification pushes part of that cost upstream, but synthetic supply only falls once it lands in procurement terms or platform access rules. Three things to watch: whether the AI Act harmonised standards cite it, whether regulators accept it as compliance evidence, and whether model providers publicly claim conformance.",
+        "es": "Para esta cadena el efecto es indirecto pero concreto: la apertura remota de cuentas y la prueba de vida llevan años a la defensiva, porque otro asume el coste de sintetizar una cara mientras el detector persigue cada nueva generación. La especificación empuja parte de ese coste aguas arriba, pero la oferta de caras sintéticas solo baja cuando entra en pliegos o en reglas de acceso a plataformas. Tres cosas a seguir: si las normas armonizadas del Reglamento de IA la citan, si los reguladores la aceptan como prueba de cumplimiento, y si los proveedores de modelos declaran conformidad públicamente."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "如果你的方案里用到生成式模型——合成人脸做活体检测的压力测试、证件样本增广、视频客服——现在就要能回答「怎么防止它被拿去造假」，这已经是投标会被问到的问题。机会是帮客户补齐这条证据链：风险评估模板、测试场景落地、监控与留痕；风险是把 TS 104 275 当认证来卖，它没有发证机构，过度承诺会在验收阶段翻车。要盯的是它何时被欧盟人工智能法的协调标准引用。",
+    "en": "If your stack uses generative models — synthetic faces for liveness stress tests, document augmentation, video agents — you now need an answer to how you stop this being used to forge identities, and that question already appears in tenders. The opportunity is helping clients assemble the evidence: risk-assessment templates, test scenarios actually run, monitoring and record keeping. The risk is selling TS 104 275 as a certification; no body issues certificates against it, and overclaiming collapses at acceptance. Watch for it being cited by the AI Act harmonised standards.",
+    "es": "Si tu solución usa modelos generativos —caras sintéticas para probar la prueba de vida, aumento de muestras de documentos, agentes de vídeo— ya tienes que responder cómo evitas que se use para falsificar identidades, y esa pregunta aparece en los pliegos. La oportunidad es ayudar al cliente a montar la evidencia: plantillas de evaluación de riesgos, escenarios de prueba ejecutados de verdad, monitorización y registros. El riesgo es vender la TS 104 275 como certificación: nadie certifica contra ella y el exceso de promesa se cae en la aceptación. Hay que seguir su cita en las normas armonizadas del Reglamento de IA."
+  },
+  "confidence": 0.84,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

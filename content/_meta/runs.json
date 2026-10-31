@@ -135,7 +135,7 @@
     "fetched": 15,
     "afterDedup": 12,
     "passed": 5,
-    "published": 2,
+    "published": 5,
     "rejected": [
       {
         "title": "Switzerland seeks new e-ID chief as digital identity rollout remains delayed",
@@ -170,7 +170,7 @@
       {
         "name": "编辑任务（模型退化）",
         "stage": "publish",
-        "error": "模型在第 45 步输出失控，已通过筛选的 3 条候选（ETSI 深度伪造规范、NIST PQC 迁移指引、英国人脸识别监管）未写入，待补齐"
+        "error": "模型在第 45 步输出失控，已过筛选的 3 条候选（ETSI 深度伪造规范、NIST PQC 迁移指引、英国人脸识别监管）当场未写入，于 10-31 09:35 补齐"
       }
     ],
     "costUsd": 0
