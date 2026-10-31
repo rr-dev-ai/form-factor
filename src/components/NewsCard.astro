@@ -3,21 +3,30 @@ import type { NewsItem } from '../lib/schema';
 import type { Locale } from '../config/site';
 import { t, formatDate } from '../lib/i18n';
 import { industryName, tagName } from '../config/taxonomy';
+import { regionName } from '../config/regions';
+import { allRegions } from '../lib/content';
 import { href } from '../lib/url';
 
 interface Props {
   item: NewsItem;
   locale: Locale;
-  showIndustry?: boolean;
 }
 
-const { item, locale, showIndustry = false } = Astro.props;
+const { item, locale } = Astro.props;
 const dict = t(locale);
 ---
 
-<a class="card" href={href(`/${locale}/news/${item.slug}`)}>
+<a
+  class="card"
+  href={href(`/${locale}/news/${item.slug}`)}
+  data-region={allRegions(item).join(',')}
+  data-industry={item.industry}
+>
   <div class="card-meta">
-    {showIndustry && <span>{industryName(item.industry, locale)}</span>}
+    <span>{industryName(item.industry, locale)}</span>
+    <span aria-hidden="true">·</span>
+    <span>{regionName(item.region, locale)}</span>
+    <span aria-hidden="true">·</span>
     <span>{formatDate(item.publishedAt, locale)}</span>
     <span aria-hidden="true">·</span>
     <span class="src-count">{item.sources.length} {dict.sources.toLowerCase()}</span>

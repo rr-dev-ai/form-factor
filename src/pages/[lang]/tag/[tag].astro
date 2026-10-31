@@ -37,7 +37,7 @@ const items = byTag(tagSlug);
     items.length > 0 ? (
       <div class="card-list">
         {items.map((item) => (
-          <NewsCard item={item} locale={locale} showIndustry />
+          <NewsCard item={item} locale={locale} />
         ))}
       </div>
     ) : (

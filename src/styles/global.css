@@ -706,3 +706,75 @@ a.tag:hover {
     padding: 26px 0 56px;
   }
 }
+
+/* 页内筛选条：与标签同形，但承担筛选而非分类 */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.filter-chip {
+  font-size: 11.5px;
+  line-height: 1.7;
+  color: var(--text-2);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 1px 10px;
+  white-space: nowrap;
+  transition: border-color 0.12s, color 0.12s;
+}
+
+.filter-chip:hover {
+  border-color: var(--border-strong);
+  color: var(--text);
+}
+
+.filter-chip[aria-current='true'] {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.filter-chip--clear {
+  color: var(--text-3);
+  border-style: dashed;
+}
+
+/* 页内筛选条：与标签同形，但承担筛选而非分类 */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.filter-chip {
+  font-size: 11.5px;
+  line-height: 1.7;
+  color: var(--text-2);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 1px 10px;
+  white-space: nowrap;
+  transition: border-color 0.12s, color 0.12s;
+}
+
+.filter-chip:hover {
+  border-color: var(--border-strong);
+  color: var(--text);
+}
+
+.filter-chip[aria-current='true'] {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.filter-chip--clear {
+  color: var(--text-3);
+  border-style: dashed;
+}

@@ -1,8 +1,10 @@
 ---
 import Base from '../../layouts/Base.astro';
 import NewsCard from '../../components/NewsCard.astro';
+import FilterBar from '../../components/FilterBar.astro';
 import { locales, type Locale } from '../../config/site';
 import { industries, industryName, tags, tagName } from '../../config/taxonomy';
+import { regions } from '../../config/regions';
 import { byIndustry } from '../../lib/content';
 import { t } from '../../lib/i18n';
 import { localePath } from '../../lib/url';
@@ -39,6 +41,12 @@ const relatedTags = tags.filter((tag) => tag.industry === industry);
       ))
     }
   </div>
+
+  <FilterBar
+    param="region"
+    options={regions.map((region) => ({ value: region.slug, label: region.name[locale] }))}
+    clearLabel={dict.filterClear}
+  />
 
   {
     items.length > 0 ? (
