@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-01-identity-04",
+  "slug": "nigeria-bvas-upgrade-2027-verification-devices",
+  "industry": "identity",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "biometrics",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-01T03:35:00+08:00",
+  "ingestedAt": "2026-11-01T03:35:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202610/nigeria-tests-upgraded-biometric-voter-system-ahead-of-2027-elections",
+      "lang": "en",
+      "publishedAt": "2026-10-28T16:32:00-04:00"
+    }
+  ],
+  "title": {
+    "zh": "尼日利亚为 2027 年大选再备 5.7 万台核验终端，先补电池与指纹校准",
+    "en": "Nigeria readies 57,000 more voter verification devices, fixing batteries and fingerprint calibration",
+    "es": "Nigeria suma 57.000 equipos de verificación para 2027 y corrige baterías y calibración"
+  },
+  "summary": {
+    "zh": "尼日利亚独立选举委员会 10 月 23 至 28 日在全国范围做六天压力测试，为 2027 年大选再备 5.7 万台双模式选民核验终端（BVAS）。新机做软件加固、电池优化与生物特征校准，并加入给结果单做加密签名的 e-EC8A 环节。",
+    "en": "Nigeria's electoral commission ran a six-day nationwide stress test from 23 to 28 October and is preparing 57,000 additional Bimodal Voter Accreditation System devices for the 2027 elections. The new units get software hardening, battery optimisation and biometric calibration, plus an e-EC8A step that signs result sheets cryptographically.",
+    "es": "La comisión electoral de Nigeria hizo del 23 al 28 de octubre una prueba de esfuerzo nacional de seis días y prepara 57.000 equipos BVAS adicionales para las elecciones de 2027. Las nuevas unidades incorporan refuerzo de software, optimización de batería y calibración biométrica, además de un paso e-EC8A que firma criptográficamente las actas."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "尼日利亚独立选举委员会（INEC）10 月 23 至 28 日在全国做六天压力测试，检验升级后的双模式选民核验终端（BVAS），11 月还要做一次模拟认证。委员会主席 Joash Amupitan 说，这批新机加了三项改动：软件加固、电池优化、生物特征校准。设备用指纹或人脸把选民与选民册比对，同时拍下投票站的结果单，上传到公开的 IReV 平台。",
+        "en": "Nigeria's Independent National Electoral Commission ran a six-day nationwide stress test from 23 to 28 October on upgraded Bimodal Voter Accreditation System devices, with a mock accreditation exercise due in November. Commission chairman Joash Amupitan said the new units carry three changes: software hardening, battery optimisation and biometric calibration. The devices match voters against the register by fingerprint or face and photograph result sheets for upload to the public IReV portal.",
+        "es": "La comisión electoral de Nigeria (INEC) hizo del 23 al 28 de octubre una prueba de esfuerzo nacional de seis días sobre los equipos BVAS actualizados, con un simulacro de acreditación previsto en noviembre. Su presidente, Joash Amupitan, señaló tres cambios en las nuevas unidades: refuerzo de software, optimización de batería y calibración biométrica. Los equipos cotejan al votante con el censo por huella o rostro y fotografían las actas para subirlas al portal público IReV."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "再备 5.7 万台设备；总统与国民议会选举定在 2027 年 1 月 16 日，州长与州议会选举在 2 月 6 日",
+          "en": "Another 57,000 devices are being prepared; presidential and National Assembly elections are set for 16 January 2027, with governorship and state assembly votes on 6 February",
+          "es": "Se preparan 57.000 equipos más; las presidenciales y legislativas federales son el 16 de enero de 2027 y las estatales el 6 de febrero"
+        },
+        {
+          "zh": "新机内置电池，针对 2023 年偏远选区断电导致设备停摆的短板；委员会称选择加固现有系统而非换新平台，因为时间不够",
+          "en": "The units have built-in batteries aimed at the power failures that stopped devices in remote wards in 2023; the commission says it hardened the existing system rather than adopt an untested platform because time is short",
+          "es": "Las unidades llevan batería integrada para los cortes que dejaron equipos sin funcionar en zonas remotas en 2023; la comisión dice que reforzó el sistema existente en vez de adoptar una plataforma sin probar por falta de tiempo"
+        },
+        {
+          "zh": "2023 年大选中，Yiaga Africa 记录约 11% 的投票站出现 BVAS 故障，其中 9% 现场修复、2% 更换设备；模拟认证阶段约 20% 的投票站因指纹或人脸无法核验而拒绝选民",
+          "en": "In the 2023 election Yiaga Africa logged BVAS failures in about 11% of polling units, with 9% fixed on site and 2% replaced; during mock accreditation about 20% of units denied voters because fingerprints or faces could not be verified",
+          "es": "En 2023 Yiaga Africa registró fallos de BVAS en cerca del 11% de los colegios, con un 9% resuelto in situ y un 2% sustituido; en el simulacro, cerca del 20% de los colegios rechazó votantes por no poder verificar huella o rostro"
+        },
+        {
+          "zh": "14 家公民社会组织 8 月联名质疑 e-EC8A：结果单经加密签名后上传，谁掌握密钥就等于谁掌握结果",
+          "en": "Fourteen civil society groups questioned e-EC8A in August: once result sheets are cryptographically signed before upload, whoever holds the keys effectively controls the outcome",
+          "es": "Catorce organizaciones civiles cuestionaron en agosto el e-EC8A: si las actas se firman antes de subirlas, quien tenga las claves controla de hecho el resultado"
+        },
+        {
+          "zh": "易加非洲与 Punch 的民调显示，只有约 49% 的尼日利亚人信任 BVAS 与 IReV 用于认证和传结果，另有 84% 表示打算投票、其中 61% 担心暴力",
+          "en": "A Yiaga Africa and Punch survey found only about 49% of Nigerians trust BVAS and IReV for accreditation and transmission, while 84% intend to vote and 61% of those fear violence",
+          "es": "Una encuesta de Yiaga Africa y Punch halló que solo el 49% confía en BVAS e IReV para acreditar y transmitir, mientras el 84% piensa votar y el 61% de ellos teme violencia"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这一轮的采购逻辑是「不换平台，只换机器」。BVAS 2021 年取代上一代智能卡读卡器，2023 年大选是它在全国范围铺开使用的起点，出问题最多的是电力与网络，不是算法本身。所以新机的改动集中在续航与现场可用性：内置电池、把校准流程固化进设备、软件加固减少现场崩溃。选型不重做，意味着现有供应商与运维体系继续沿用，新进者只能从配件、电池模块和现场服务切入。",
+        "en": "The procurement logic this round is new machines, same platform. BVAS replaced the earlier smart card reader in 2021 and its first nationwide use was the 2023 election, where the failures were mostly power and connectivity rather than the matching algorithm. So the changes concentrate on endurance and field usability: built-in batteries, calibration baked into the device, hardened software to cut on-site crashes. Keeping the platform means the incumbent supplier and service network stay in place, leaving newcomers the accessory, battery-module and field-service layer.",
+        "es": "La lógica de compra es máquinas nuevas, misma plataforma. BVAS sustituyó al lector de tarjetas en 2021 y su primer uso nacional fue en 2023, donde los fallos fueron sobre todo de energía y conectividad, no del algoritmo. Por eso los cambios se centran en autonomía y uso en campo: batería integrada, calibración incorporada al equipo y software reforzado para reducir caídas. Mantener la plataforma deja en pie al proveedor y la red de servicio actuales, y a los nuevos solo les queda el terreno de accesorios, módulos de batería y servicio en campo."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "法律侧也往前走了一步：按原文表述，2026 年选举法第 47 条第 2 款把 BVAS 写进法条，是该国法律第一次点名这一设备作为选民认证方式。但争议没有解决——结果单在投票站完成签名再上传，密钥管理与审计权限归谁，至今只有委员会的说法。这一层如果不透明，设备再好也换不回信任，而信任恰恰是这类终端最难买到的部件。",
+        "en": "The legal footing moved too: as the report puts it, section 47(2) of the Electoral Act 2026 names BVAS as a statutory method of voter accreditation for the first time. The dispute is unresolved, though — result sheets are signed at the polling unit before upload, and who manages the keys and holds audit rights is still only the commission's word. Without transparency there, better hardware will not buy back trust, and trust is the component these terminals cannot be sold with.",
+        "es": "El anclaje legal también avanzó: según el reportaje, el artículo 47(2) de la ley electoral de 2026 menciona por primera vez el BVAS como método legal de acreditación. El conflicto sigue abierto: las actas se firman en el colegio antes de subirse y quién gestiona las claves y audita es aún palabra de la comisión. Sin transparencia en esa capa, mejor hardware no recupera la confianza, y la confianza es la pieza que estos equipos no incluyen."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "换机不换平台，等于把增量需求压到配件与现场服务：电池模块、校准工装、备机周转和偏远选区运维，比整机更容易拿到单。风险在责任划分——设备一落地，任何故障都会被算成供应商的问题，而电力与网络不在你手里。投标前先把故障归因规则和备件响应时限写进条款。",
+    "en": "New machines on the same platform push the incremental demand into parts and field service: battery modules, calibration jigs, spare-unit rotation and upkeep in remote wards are easier to win than the box itself, while the incumbent keeps the platform account. The risk is attribution — once the kit is on site, every failure gets booked to the supplier, while power and connectivity sit outside your control. Fix failure attribution and spare-part response times in the contract before bidding.",
+    "es": "Máquinas nuevas sobre la misma plataforma empujan la demanda incremental a repuestos y servicio de campo: módulos de batería, utillaje de calibración, rotación de equipos de repuesto y mantenimiento en zonas remotas se ganan más fácil que el equipo completo. El riesgo es la atribución: con el equipo en campo, todo fallo se carga al proveedor mientras la energía y la red no dependen de ti. Hay que fijar atribución de fallos y tiempos de repuesto en el contrato antes de pujar."
+  },
+  "confidence": 0.75,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

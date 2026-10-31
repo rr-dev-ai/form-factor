@@ -1,0 +1,102 @@
+{
+  "id": "2026-11-01-banking-04",
+  "slug": "itau-pay-checkout-brazil",
+  "industry": "banking",
+  "region": "latam",
+  "regions": [],
+  "tags": [
+    "payment-gateway",
+    "acquiring"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-01T04:35:00+08:00",
+  "ingestedAt": "2026-11-01T03:15:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Mobile Time",
+      "url": "https://www.mobiletime.com.br/noticias/30/10/2026/itau-checkout-eletronico/",
+      "lang": "en",
+      "publishedAt": "2026-10-30T18:05:00-03:00"
+    }
+  ],
+  "title": {
+    "zh": "Itaú 把结账搬进自家 App：分期与额度在银行侧算完，收单走 Rede",
+    "en": "Itaú moves checkout into its own app, settling instalments and limits bank-side while Rede acquires",
+    "es": "Itaú lleva el checkout a su propia app: plazos y límites se resuelven en el banco y Rede adquiere"
+  },
+  "summary": {
+    "zh": "巴西 Itaú 上线 Itaú Pay，让本行客户在电商结账时直接跳进银行 App 付款，可选账户扣款或信用卡分期，收单侧仍走集团自有机构 Rede。",
+    "en": "Itaú in Brazil launched Itaú Pay, sending its own customers into the bank app to pay at e-commerce checkout, by account debit or card instalments, with acquiring still handled by group-owned Rede.",
+    "es": "Itaú lanzó en Brasil Itaú Pay: sus clientes pagan en el checkout del comercio dentro de la app del banco, con cargo en cuenta o cuotas con tarjeta, mientras la adquirencia sigue en Rede, del propio grupo."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Itaú 在 10 月 30 日发布 Itaú Pay，把电商结账的最后一步挪进自己的手机银行：付款人不必在商户页面输卡号，而是跳到银行 App 里确认，可以选择账户扣款或信用卡付款，分期也可以在银行侧做。背后跑的是集团自有收单机构 Rede 的受理基础设施。",
+        "en": "Itaú released Itaú Pay on 30 October, moving the last step of e-commerce checkout into its own mobile banking app: the payer does not enter card details on the merchant page but confirms inside the bank app, choosing account debit or card payment, with instalments also arranged bank-side. The acceptance infrastructure underneath is Rede, the group's own acquirer.",
+        "es": "Itaú presentó Itaú Pay el 30 de octubre y trasladó el último paso del checkout a su app bancaria: el pagador no teclea la tarjeta en la página del comercio sino que confirma en la app, con cargo en cuenta o tarjeta, y los plazos también se arman en el banco. La infraestructura de aceptación es Rede, la adquirente del propio grupo."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "银行侧多做的那几件事",
+        "en": "What the bank does itself",
+        "es": "Lo que el banco hace por su cuenta"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "符合条件的分期可以比商户页面给出的期数更多，属于发卡行自己的授信决定",
+          "en": "Eligible buyers can split into more instalments than the merchant page offers, a call that belongs to the issuer",
+          "es": "Los compradores elegibles pueden pagar en más cuotas que las ofrecidas por el comercio, decisión que corresponde al emisor"
+        },
+        {
+          "zh": "持卡人可动用卡上额外额度，或用积分冲抵金额，这两项原本都不在商户结账页里",
+          "en": "Cardholders can draw on extra card limit or settle part of the amount with points, neither of which lived on the merchant checkout page",
+          "es": "El titular puede usar límite adicional de la tarjeta o cubrir parte del importe con puntos, algo que no existía en la página del comercio"
+        },
+        {
+          "zh": "银行称这套做法能减少因风控误判、流程过长或额度不足造成的弃单，并省掉撤销与反欺诈工具的额外成本",
+          "en": "The bank says this cuts abandoned orders caused by false fraud flags, long journeys or insufficient limit, and removes extra costs around reversals and anti-fraud tooling",
+          "es": "El banco afirma que reduce pedidos abandonados por falsos positivos de fraude, recorridos largos o límite insuficiente, y elimina costes de anulaciones y herramientas antifraude"
+        },
+        {
+          "zh": "首批客户是旅行平台 Decolar，接下来几个月将扩展到 Raia Drogasil、Localiza 与 Zig",
+          "en": "Travel platform Decolar is the first client, with Raia Drogasil, Localiza and Zig slated over the coming months",
+          "es": "La agencia de viajes Decolar es el primer cliente; Raia Drogasil, Localiza y Zig llegarán en los próximos meses"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "负责收单业务的董事 Angelo Russomanno 给出的估算是：这套结账能把交易通过率最多提高十个百分点，客单价提高约五成，结账速度比通行做法快至五倍。三项都是银行自己的测算，没有披露样本与统计口径。",
+        "en": "Angelo Russomanno, the bank's director for acquiring relationships, estimates the checkout can lift approval rates by up to ten percentage points, raise average ticket by roughly half, and run up to five times faster than the prevailing flow. All three are the bank's own figures, with no sample or methodology disclosed.",
+        "es": "Angelo Russomanno, director de relaciones de adquirencia del banco, estima que el checkout puede elevar la aprobación hasta diez puntos porcentuales, subir el ticket medio cerca de la mitad y ser hasta cinco veces más rápido que el flujo habitual. Las tres cifras son cálculo del propio banco, sin muestra ni metodología."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "对收单与网关这一侧，含义不在费率而在路径：当付款人跳进银行 App，商户页面上的卡号表单、3-D Secure 跳转和第三方网关都被绕开，交易从发卡行的身份与额度系统里直接出结果。银行因此拿到了结账环节的话事权，第三方网关只剩展示与对账角色。",
+        "en": "For the acquiring and gateway layer the implication is not fees but the path: once the payer jumps into the bank app, the card form, the 3-D Secure hop and the third-party gateway on the merchant page are bypassed, and the transaction is decided inside the issuer's identity and limit systems. The bank thereby takes the checkout, leaving third-party gateways with display and reconciliation.",
+        "es": "Para la capa de adquirencia y pasarelas la implicación no son las tasas sino el camino: cuando el pagador entra en la app del banco se evitan el formulario de tarjeta, el salto a 3-D Secure y la pasarela de terceros, y la operación se decide en los sistemas de identidad y límite del emisor. El banco se queda con el checkout y la pasarela externa solo conserva presentación y conciliación."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "结账环节从商户页面移到发卡行 App，受理路径被重画而不是费率被调。对网关与集成商，机会是接入银行自有结账的跳转与分期回传，做多收单方的路由与对账；风险是闭环交易被集团内收单机构吃掉，第三方只剩展示位。要跟的是 Decolar 之后几家商户的真实通过率。",
+    "en": "Checkout moves from the merchant page into the issuer's app, so the acceptance path is redrawn rather than fees adjusted. For gateways and integrators the opening is integrating the bank's own checkout redirect and instalment callbacks, plus routing and reconciliation across acquirers; the risk is that closed-loop volume goes to the in-group acquirer and third parties keep only the display slot. Watch actual approval rates at the merchants after Decolar.",
+    "es": "El checkout pasa de la página del comercio a la app del emisor: se redibuja el camino de aceptación, no se ajustan tasas. Para pasarelas e integradores la oportunidad es integrar la redirección al checkout del banco y los retornos de cuotas, además de enrutar y conciliar entre adquirentes; el riesgo es que el volumen cerrado se lo quede la adquirente del grupo y el tercero conserve solo el escaparate. Hay que ver la aprobación real en los comercios tras Decolar."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "claude-sonnet-4.5",
+    "promptVersion": "digest-v4-body"
+  }
+}

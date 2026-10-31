@@ -1,0 +1,47 @@
+{
+  "fetchedAt": "2026-11-01T02:45:00+08:00",
+  "fetchedFor": "2026-11-01",
+  "gap": ["cis", "africa"],
+  "items": [
+    {
+      "title": "Armenia signs off on biometric document PPP, e-gates to follow",
+      "url": "https://armenpress.am/en/article/1264356",
+      "publishedAt": "2026-10-30T12:00:00+04:00",
+      "industry": "identity",
+      "region": "cis",
+      "note": "亚美尼亚内政部长与 IN Groupe、HayPass 签署独立评估报告，确认投资义务履行完毕、项目进入运营阶段；新式生物识别护照与 ID 卡自 11 月 1 日起签发，全国先开 14 个服务中心（含埃里温 2 个，设在商场内）。会面同时确定在边境口岸部署电子闸机（e-gates），并在项目框架内建本地数据中心。证件由私营方采集指纹与照片、制作并发放，国家保留身份核验与准驳决定权。对设备与集成商的意义：这是独联体首个证件签发 PPP 落地，制证、自助采集终端与口岸核验设备三条采购线同时打开。"
+    },
+    {
+      "title": "Octobank opens Apple Pay and Google Pay internet acquiring to Uzbek merchants",
+      "url": "https://uznews.uz/ru/news/113864",
+      "publishedAt": "2026-10-29T20:40:00+05:00",
+      "industry": "banking",
+      "region": "cis",
+      "note": "乌兹别克斯坦 Octobank 向其商户开放 Apple Pay 与 Google Pay 的网络收单，商户可在自有网站和应用里接受钱包支付，买家以设备内已保存的卡确认交易，不再手工输卡号。该行称自己是当地少数提供钱包收单的银行之一，合作方已包含 Uzbekistan Airways、Centrum Air、ASIALUXE、MEDIAPARK。稿件以该行公告形式发布（标注为广告），事实以银行口径为准。意义在收单侧：本地 PSP 开始把钱包令牌化接进线上受理，而不只是卡片直连。"
+    },
+    {
+      "title": "Visa cardholders in Nigeria can now use Google Pay",
+      "url": "https://techpoint.africa/brandpress/visa-card-holders-in-nigeria-can-now-use-google-pay-for-fast-secure-digital-payments/",
+      "publishedAt": "2026-10-29T12:00:00+01:00",
+      "industry": "banking",
+      "region": "africa",
+      "note": "Visa 公告其在尼日利亚的持卡人可在 Google Wallet 内添加卡片并用 Google Pay 付款，覆盖线下 NFC 受理与线上结账。落地靠 Visa 的令牌化服务与本地收单连接，UBA 同时开放了符合条件的 Visa 预付卡。按其公告，可添加的卡仍限于少数发卡行与卡种，Verve、AfriGO 及 OPay、Moniepoint、Kuda、PalmPay 等 fintech 卡不在名单内。对受理侧的意义：卡组织令牌服务在尼日利亚落地，等于给收单机构一个升级非接终端的理由。"
+    },
+    {
+      "title": "Interswitch brings five Nigerian banks into tokenised tap-to-pay",
+      "url": "https://techcabal.com/2026/10/29/interswitch-tap-to-pay/",
+      "publishedAt": "2026-10-29T18:00:00+01:00",
+      "industry": "banking",
+      "region": "africa",
+      "note": "在拉各斯 Moonshot 2026 上，Interswitch 表示正与 GTBank、Wema、ProvidusUnity、Zenith、FirstBank 五家银行推进令牌化的拍付，并同步拉商户入网（超市 SPAR 已表达兴趣）。公司称过去两三年发出的卡大多已具备令牌化条件，剩下的瓶颈在商户终端与消费者认知。Verve 侧已有 4000 万张以上非接卡。对终端与收单供应商：非接受理设备与商户改造是这条链上接下来真正要出货的环节。"
+    },
+    {
+      "title": "Ghana's Sankofa Job gates sign-ups on Ghana Card verification",
+      "url": "https://3news.com/tech/beyond-degrees-new-platform-turns-every-ghanaian-skill-into-opportunity",
+      "publishedAt": "2026-10-29T12:00:00+00:00",
+      "industry": "identity",
+      "region": "africa",
+      "note": "加纳全国性用工平台 Sankofa Job 上线，覆盖全部 16 个地区，求职者与雇主双方都要通过国家身份管理局（NIA）用 Ghana Card 完成核验后才能发布或应聘，以对冲此前针对求职者的假招聘诈骗。由国家身份系统直接充当第三方平台的准入核验，是把证件核验接口做成通用基础设施的一个样本。对身份与核验供应商：这类私营平台接入 NIA 的模式，正是 eKYC 接口在民生场景扩张的路径。"
+    }
+  ]
+}

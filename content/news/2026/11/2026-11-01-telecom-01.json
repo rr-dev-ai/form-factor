@@ -1,0 +1,102 @@
+{
+  "id": "2026-11-01-telecom-01",
+  "slug": "terrestar-equatys-satellite-interworking-mou",
+  "industry": "telecom",
+  "region": "north-america",
+  "regions": [
+    "mena"
+  ],
+  "tags": [
+    "satellite",
+    "roaming"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-01T03:35:00+08:00",
+  "ingestedAt": "2026-11-01T03:20:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Mobile World Live",
+      "url": "https://www.mobileworldlive.com/network-tech/terrestar-inks-pact-with-viasat-space42-on-satellite-sharing/",
+      "lang": "en",
+      "publishedAt": "2026-10-29T20:12:00+08:00"
+    },
+    {
+      "name": "Mobile Europe",
+      "url": "https://www.mobileeurope.co.uk/space42-viasat-terrestar/",
+      "lang": "en",
+      "publishedAt": "2026-10-29T18:17:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "加拿大卫星商把自家星座接进共享平台，互联接口照 3GPP 与 GSMA 规则写",
+    "en": "Canada's Terrestar links its LEO plan to a shared platform, interworking written to 3GPP and GSMA rules",
+    "es": "Terrestar conecta su constelación LEO a una plataforma compartida con interfaces 3GPP y GSMA"
+  },
+  "summary": {
+    "zh": "加拿大 Terrestar 与阿联酋 Space42、美国 Viasat 签下谅解备忘录，把在建的 CaStar 低轨星座与两家合办的 Equatys 共享卫星平台对接，容量、波束、功率和关口站接入都按 3GPP 非地面网络规范与 GSMA 漫游框架协调。",
+    "en": "Canada's Terrestar signed an MoU with the UAE's Space42 and the US's Viasat to link its planned CaStar LEO constellation with Equatys, the pair's shared satellite platform, coordinating capacity, beams, power and gateway access under 3GPP non-terrestrial specs and GSMA roaming frameworks.",
+    "es": "Terrestar (Canadá) firmó un memorando con Space42 (EAU) y Viasat (EE. UU.) para enlazar su constelación LEO CaStar con Equatys, la plataforma satelital compartida de ambos, coordinando capacidad, haces, potencia y acceso a pasarelas según 3GPP y GSMA."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "10 月 29 日，加拿大的移动卫星运营商 Terrestar Solutions 与阿联酋 Space42、美国 Viasat 签了谅解备忘录。内容是把 Terrestar 在建的 CaStar 低轨星座，接到 Space42 与 Viasat 合办的共享卫星基础设施公司 Equatys 上。三家明确说这还只是框架，没有商业开通时间，也没披露金额。",
+        "en": "On 29 October Canada's mobile satellite operator Terrestar Solutions signed a memorandum of understanding with the UAE's Space42 and the US's Viasat. The subject is linking Terrestar's planned CaStar low-earth-orbit constellation to Equatys, the shared satellite infrastructure venture Space42 and Viasat set up together. All three stress it is a framework: no commercial launch date, no financial terms disclosed.",
+        "es": "El 29 de octubre el operador satelital canadiense Terrestar Solutions firmó un memorando con Space42 (EAU) y Viasat (EE. UU.). El objeto es enlazar su constelación LEO CaStar, aún en proyecto, con Equatys, la empresa de infraestructura satelital compartida de ambos. Las tres partes subrayan que es un marco: sin fecha comercial ni cifras económicas."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "协调的资源是四类：卫星容量、波束、功率和地面关口站接入权，通过厂商中立接口交换，不绑定某一家设备商",
+          "en": "Four resources get coordinated: satellite capacity, beams, power and ground gateway access, exchanged over vendor-neutral interfaces rather than tied to one equipment vendor",
+          "es": "Se coordinan cuatro recursos: capacidad satelital, haces, potencia y acceso a pasarelas terrestres, mediante interfaces neutrales respecto al proveedor"
+        },
+        {
+          "zh": "接口依据写成 3GPP 非地面网络规范加 GSMA 漫游与互联框架，等于把星地互通挂到现有的移动网规则上",
+          "en": "The interfaces follow 3GPP non-terrestrial network specifications plus GSMA roaming and interconnection frameworks, which puts satellite-terrestrial interworking under existing mobile rules",
+          "es": "Las interfaces siguen las especificaciones 3GPP de redes no terrestres y los marcos de itinerancia e interconexión de GSMA, sujetando la interconexión a las reglas móviles existentes"
+        },
+        {
+          "zh": "所有权不合并：各自的卫星、地面网络和客户关系仍由原运营方持有，加拿大境内关口站与地面设施留在 Terrestar 手里",
+          "en": "Ownership stays separate: each side keeps its satellites, ground networks and customer relationships, with Canadian gateways and ground facilities remaining with Terrestar",
+          "es": "La propiedad no se fusiona: cada parte conserva satélites, redes terrestres y clientes, y las pasarelas canadienses siguen en Terrestar"
+        },
+        {
+          "zh": "两家给出的理由是省钱：不必为覆盖全球自建并运营一整套星座，靠共享容量就能补上境外那段",
+          "en": "The stated rationale is cost: no need to build and run a full constellation for global coverage when shared capacity can fill the segment outside national borders",
+          "es": "El argumento es el coste: no hace falta construir y operar una constelación propia para cubrir el mundo si la capacidad compartida cubre el tramo exterior"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "对做集成的人来说，真正有信息量的是「按 GSMA 漫游框架协调」这句话。卫星直连过去是每家卫星方与地面运营商单独签、单独结算，用户换到另一颗星的覆盖区就得重新谈。写成漫游框架，意味着用户身份要跨卫星网络被识别，计费与结算要能对账，终端里的签约关系不再只指向一家运营商。",
+        "en": "For integrators, the load-bearing phrase is coordinating under GSMA roaming frameworks. Direct-to-device has so far been negotiated and settled operator by operator; a subscriber moving into another satellite's footprint meant a new deal. Framing it as roaming means subscriber identity has to be recognised across satellite networks, charging and settlement have to reconcile, and the subscription in the device no longer points at a single operator.",
+        "es": "Para los integradores, la frase que importa es la coordinación bajo marcos de itinerancia de GSMA. El D2D se ha negociado y liquidado operador por operador; que un abonado entre en la huella de otro satélite exigía un acuerdo nuevo. Hablar de itinerancia implica reconocer la identidad del abonado entre redes satelitales, conciliar tarificación y liquidación, y que la suscripción del dispositivo ya no apunte a un solo operador."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "需要打折看的地方有三处。CaStar 仍是计划中的星座，没有发射时间表；Equatys 去年才由两家以最高 10 亿美元等额出资成立，自身也还在建；谅解备忘录不具约束力。所以现在能拿到的是一份接口清单和标准引用，不是可以照着报价的采购需求。",
+        "en": "Three caveats. CaStar is still a planned constellation with no launch schedule; Equatys was formed only last year with up to $1bn in combined equity commitments and is itself still being built; and an MoU is not binding. What exists today is an interface list and a set of standard references, not a procurement requirement anyone can quote against.",
+        "es": "Tres salvedades. CaStar sigue siendo un proyecto sin calendario de lanzamiento; Equatys se creó el año pasado con hasta 1.000 millones de dólares de capital comprometido y aún se está construyendo; y un memorando no es vinculante. Hoy hay una lista de interfaces y referencias normativas, no un pliego al que se pueda cotizar."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "互联一旦按 3GPP 与 GSMA 的既有框架走，关口站接入、卫星漫游开通和跨网结算就有了可对照的规范面，做地面段与互联平台的供应商能提前把接口对齐，不必为每颗星重谈一次私有协议。风险在另一面：接口中立会抹平靠私有协议建立的差异，报价空间随之收窄，谁能把开通与对账做成产品，谁才留得住议价权。",
+    "en": "Once interworking follows existing 3GPP and GSMA frameworks, gateway access, satellite roaming activation and cross-network settlement gain a spec surface to align to before the constellation flies. Ground-segment and interconnect vendors can build against published interfaces instead of renegotiating a proprietary protocol per satellite. The risk runs the other way: vendor-neutral interfaces flatten the differences built on proprietary work and narrow pricing room, so leverage stays with whoever turns activation and reconciliation into a product rather than a per-deal project.",
+    "es": "Si la interconexión sigue los marcos 3GPP y GSMA, el acceso a pasarelas, el alta de itinerancia satelital y la liquidación entre redes tendrán una base normativa a la que alinearse antes de que la constelación vuele. Los proveedores de segmento terrestre e interconexión podrán construir sobre interfaces publicadas en lugar de renegociar un protocolo propietario por satélite. El riesgo es el inverso: las interfaces neutrales borran las diferencias construidas sobre trabajo propietario y estrechan el margen, así que conserva poder de negociación quien convierte el alta y la conciliación en producto, no en proyecto."
+  },
+  "confidence": 0.62,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-01-identity-02",
+  "slug": "ghana-sankofa-job-ghana-card-verification",
+  "industry": "identity",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "verification",
+    "national-id"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-01T03:25:00+08:00",
+  "ingestedAt": "2026-11-01T03:25:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "3News",
+      "url": "https://3news.com/tech/beyond-degrees-new-platform-turns-every-ghanaian-skill-into-opportunity",
+      "lang": "en",
+      "publishedAt": "2026-10-30T12:40:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "加纳国家用工平台把 Ghana Card 核验设成准入门槛",
+    "en": "Ghana's new national jobs platform makes Ghana Card verification the entry ticket",
+    "es": "La nueva plataforma nacional de empleo de Ghana exige verificación con Ghana Card"
+  },
+  "summary": {
+    "zh": "加纳公司 G&T Prestige 建设的 Sankofa Job 10 月 30 日在全国 16 个地区上线，求职者与雇主都要先通过国家身份管理局（NIA）做 Ghana Card 核验，才能发布岗位或应聘；平台对求职者免费。",
+    "en": "Sankofa Job, built by Ghanaian firm G&T Prestige, launched across all 16 regions on 30 October with both job seekers and employers required to pass Ghana Card verification through the National Identification Authority before posting or applying; it is free for job seekers.",
+    "es": "Sankofa Job, creada por la firma ghanesa G&T Prestige, se lanzó el 30 de octubre en las 16 regiones con verificación obligatoria de Ghana Card a través de la Autoridad Nacional de Identificación para demandantes y empleadores; es gratis para quien busca empleo."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Sankofa Job 10 月 30 日上线，覆盖加纳全部 16 个地区。它把身份核验放在最前面：不论找活的人还是招人的企业，都要先用 Ghana Card 通过国家身份管理局（NIA）的核验，才算完成注册。平台由加纳公司 G&T Prestige 建设，注册地在库马西 Abuakwa，对求职者不收注册、搜索与应聘费用。",
+        "en": "Sankofa Job went live on 30 October across all 16 regions of Ghana, with identity checks placed first: job seekers and employers alike must pass Ghana Card verification through the National Identification Authority before their registration counts. The platform is built by Ghanaian company G&T Prestige, registered in Abuakwa, Kumasi, and job seekers pay nothing to register, search or apply.",
+        "es": "Sankofa Job se lanzó el 30 de octubre en las 16 regiones de Ghana y sitúa la verificación de identidad en primer lugar: tanto quien busca trabajo como la empresa que contrata deben superar la comprobación de Ghana Card ante la Autoridad Nacional de Identificación para completar el registro. La plataforma la construye la firma ghanesa G&T Prestige, con sede en Abuakwa, Kumasi, y el solicitante no paga por registrarse, buscar ni postularse."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "覆盖 16 个地区，除正式岗位外还有按小时、按天、按周计酬的零工板块，完工与评分累积成可展示的记录",
+          "en": "Coverage spans 16 regions; beyond salaried jobs there is a gigs section billed by the hour, day or week, with completed gigs and ratings accumulating into a visible record",
+          "es": "Cubre 16 regiones; además de empleos formales hay un apartado de encargos por hora, día o semana, y los trabajos completados con valoraciones forman un historial visible"
+        },
+        {
+          "zh": "企业发布的岗位要经平台审核，用户可举报可疑内容；平台称对求职者不收取任何费用，也不允许第三方收费介绍工作",
+          "en": "Employer postings are reviewed and users can report anything suspicious; the platform says job seekers pay nothing and that paying a third party for a job introduction is not allowed",
+          "es": "Las ofertas pasan revisión y los usuarios pueden denunciar contenido sospechoso; la plataforma afirma que el solicitante no paga nada y que no se admite pagar a terceros por una presentación"
+        },
+        {
+          "zh": "背景数据：加纳 15 至 24 岁想工作的青年约三分之一找不到工作，近 200 万青年不在学、不在业、不在培训（加纳统计局）",
+          "en": "Background figures: about one in three Ghanaians aged 15 to 24 who want work cannot find it, and nearly two million young people are not in school, work or training, per the Ghana Statistical Service",
+          "es": "Datos de contexto: uno de cada tres ghaneses de 15 a 24 años que busca trabajo no lo encuentra y casi dos millones de jóvenes no estudian, trabajan ni se forman, según el servicio estadístico de Ghana"
+        },
+        {
+          "zh": "推动力之一是被假冒招聘骗怕了：加纳网络安全局此前就克隆网站与假招聘者发出过公开警示",
+          "en": "One driver is fraud fatigue: Ghana's Cyber Security Authority had publicly warned about cloned websites and fake recruiters",
+          "es": "Uno de los motivos es el fraude: la autoridad de ciberseguridad de Ghana ya había alertado sobre webs clonadas y falsos reclutadores"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "值得注意的不是平台本身，而是核验被摆在了什么位置。过去证件在窗口出示，由经办人看一眼；现在它变成第三方平台的准入开关，核验不通过就没有账号。这类设计把国家身份系统的负载从「按需查验」推到「按注册量调用」，接口的稳定性、失败重试和收费方式会直接决定平台能不能开放注册。",
+        "en": "The interesting part is not the platform but where verification sits. A document used to be shown at a counter for an official to glance at; here it is the switch that opens an account on a third-party service, and a failed check means no account. That design pushes load on the national identity system from occasional checks to calls proportional to sign-ups, so interface stability, retry behaviour and pricing decide whether registration can stay open.",
+        "es": "Lo relevante no es la plataforma sino dónde se coloca la verificación. Antes el documento se mostraba en una ventanilla para que alguien lo mirara; aquí es el interruptor que abre una cuenta en un servicio de terceros, y una comprobación fallida deja sin cuenta. Ese diseño traslada al sistema nacional de identidad una carga proporcional a los registros, de modo que la estabilidad de la interfaz, los reintentos y el precio deciden si el registro puede seguir abierto."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "报道没有披露核验的技术形态：是调用 NIA 的实时接口、批量比对，还是人工核对证件真伪与号码，都没有写。同一篇稿子里，平台的说法都来自公司自己的表述，尚无第三方验证过核验的实际拦截率。对准备接这类项目的集成商来说，这三项恰恰是报价前必须问清的部分。",
+        "en": "The report does not say what the check technically is: a live NIA interface, a batch match, or manual inspection of the card and its number. Everything about how it works comes from the company itself, and no third party has measured how many fraudulent sign-ups the check actually blocks. For integrators bidding on this kind of project, those three gaps are exactly what has to be settled before quoting.",
+        "es": "El reportaje no aclara la forma técnica de la comprobación: si es una interfaz en vivo de la NIA, un cotejo por lotes o una revisión manual de la tarjeta y su número. Todo lo que se dice del funcionamiento procede de la propia empresa y ningún tercero ha medido cuántos registros fraudulentos bloquea. Para quien integre este tipo de proyecto, esas tres lagunas son lo que hay que cerrar antes de cotizar."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "把证件核验设成平台准入，等于给国家身份系统开出一条面向私营企业的调用需求：谁能提供稳定、按次计费、失败可重试的核验服务，谁就吃到长尾。风险是这类平台多由本国公司承建，集成商往往只能做外包与运维。接下来跟 NIA 是否把核验接口标准化并公开计价。",
+    "en": "Making verification the entry condition creates a private-sector call volume against the national identity system: whoever can deliver checks that are stable, priced per call and safe to retry captures the long tail. The risk is that these platforms are usually built by local firms, leaving integrators with subcontracted build and operations work. Next thing to watch is whether the NIA standardises the verification interface and publishes a price list.",
+    "es": "Convertir la verificación en condición de acceso genera un volumen de llamadas privadas contra el sistema nacional de identidad: quien entregue comprobaciones estables, cobradas por consulta y con reintentos seguros se queda con la cola larga de este tipo de servicios. El riesgo es que estas plataformas suelen construirlas empresas locales, dejando al integrador la subcontrata y la operación. A seguir: si la NIA estandariza la interfaz y publica tarifas."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

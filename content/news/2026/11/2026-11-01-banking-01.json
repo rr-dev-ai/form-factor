@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-01-banking-01",
+  "slug": "octobank-apple-google-pay-acquiring-uzbekistan",
+  "industry": "banking",
+  "region": "cis",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-01T04:20:00+08:00",
+  "ingestedAt": "2026-11-01T03:15:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "UzNews.uz",
+      "url": "https://uznews.uz/ru/news/113864",
+      "lang": "en",
+      "publishedAt": "2026-10-29T20:40:00+05:00"
+    }
+  ],
+  "title": {
+    "zh": "乌兹别克 Octobank 向商户开放 Apple Pay 与 Google Pay 网络收单",
+    "en": "Uzbekistan's Octobank opens Apple Pay and Google Pay internet acquiring to merchants",
+    "es": "Octobank de Uzbekistán abre la adquirencia en internet con Apple Pay y Google Pay"
+  },
+  "summary": {
+    "zh": "乌兹别克斯坦 Octobank 把 Apple Pay 与 Google Pay 接进自家网络收单，商户可在网站与 App 里接受钱包付款，买家在设备上确认即可，不必手动输入卡号。",
+    "en": "Octobank in Uzbekistan has wired Apple Pay and Google Pay into its internet acquiring, so merchants can take wallet payments on their websites and apps with the buyer confirming on the device instead of typing card details.",
+    "es": "Octobank, en Uzbekistán, integró Apple Pay y Google Pay en su adquirencia en internet: los comercios aceptan pagos con monedero en su web y su app y el comprador confirma en el dispositivo sin teclear la tarjeta."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "乌兹别克斯坦的 Octobank 把两个手机钱包接进了自己的网络收单。商户可以在自有网站与手机应用里接受 Apple Pay 与 Google Pay，买家点确认完成付款，卡号不再经过商户的结账页面。银行的说法是，这解决的问题是习惯用钱包的顾客在最后一步找不到熟悉的付款方式而放弃下单。",
+        "en": "Octobank in Uzbekistan has connected the two mobile wallets to its internet acquiring. Merchants can accept Apple Pay and Google Pay on their own websites and apps; the buyer confirms on the device and the card number no longer passes through the merchant's checkout page. The bank's framing is that the problem being solved is shoppers who habitually use a wallet and abandon the order when the final step offers no familiar option.",
+        "es": "Octobank, en Uzbekistán, conectó los dos monederos móviles a su adquirencia en internet. Los comercios aceptan Apple Pay y Google Pay en su web y su app; el comprador confirma en el dispositivo y el número de tarjeta deja de pasar por la página de pago del comercio. El argumento del banco es que el problema resuelto es el comprador habituado al monedero que abandona el pedido cuando el último paso no le ofrece una opción conocida."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "谁已经接上",
+        "en": "Who is already connected",
+        "es": "Quién ya está conectado"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "银行列出的合作方包括 Uzbekistan Airways、Centrum Air、ASIALUXE 与 MEDIAPARK，集中在航空、旅游与零售",
+          "en": "The bank lists Uzbekistan Airways, Centrum Air, ASIALUXE and MEDIAPARK among partners, clustered in aviation, travel and retail",
+          "es": "El banco cita a Uzbekistan Airways, Centrum Air, ASIALUXE y MEDIAPARK entre sus socios, concentrados en aviación, viajes y retail"
+        },
+        {
+          "zh": "按其公告，Octobank 属于当地少数同时提供这两种钱包网络收单的银行之一",
+          "en": "By its own account, Octobank is among the few local banks offering both wallets for internet acquiring",
+          "es": "Según su propio comunicado, Octobank es uno de los pocos bancos locales que ofrece ambos monederos en adquirencia en internet"
+        },
+        {
+          "zh": "银行写明具体可用性取决于支持的卡种、设备与开通条件，并非所有卡都能加入钱包",
+          "en": "The bank states availability depends on supported cards, devices and onboarding terms; not every card can be loaded into a wallet",
+          "es": "El banco aclara que la disponibilidad depende de las tarjetas admitidas, los dispositivos y las condiciones de alta; no toda tarjeta puede cargarse en un monedero"
+        },
+        {
+          "zh": "稿件在文末标注为广告，交易量、受理商户数均未披露",
+          "en": "The article is marked as an advertisement at the end, and neither transaction volumes nor merchant counts are disclosed",
+          "es": "El artículo se marca como publicidad al final y no se revelan volúmenes de transacciones ni número de comercios"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "负责跨境汇款与电商业务的董事总经理 Vladimir Vasilyev 把付款环节说成整体服务的一部分：客户如果找不到常用的付款方式，就得另找替代，这一步流失的是订单本身。这个说法解释了银行为什么把它当成商户侧的销售工具，而不是一项技术升级。",
+        "en": "Vladimir Vasilyev, managing director for cross-border transfers and e-commerce, frames checkout as part of the overall service: a customer who cannot find a familiar payment method has to look elsewhere, and what is lost at that step is the order itself. That framing explains why the bank sells this as a merchant-side commercial tool rather than a technical upgrade.",
+        "es": "Vladimir Vasilyev, director gerente de transferencias transfronterizas y comercio electrónico, plantea el pago como parte del servicio global: si el cliente no encuentra su método habitual, busca otra opción y lo que se pierde en ese paso es el pedido. Ese enfoque explica por qué el banco lo vende como herramienta comercial para el comercio y no como una mejora técnica."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "受理环节的实质变化是钱包令牌进了本地网络收单，卡号不再经过商户页面。对网关与集成商，机会在结账页、令牌请求与对账三类改造；风险是消息由银行以广告形式发布，无交易量与可用卡种数据，实际覆盖面可能很窄。接下来要跟的是其他收单行是否跟进，以及商户能否常态化受理。",
+    "en": "What changes at the acceptance link is that wallet tokens now reach local internet acquiring, so the card number stops passing through the merchant page. For gateways and integrators the opening is three integration jobs: checkout page, token request and reconciliation. The risk is that the bank published this as an advertisement, with no volumes and no detail on qualifying cards, so real reach may be narrow. Watch whether other acquirers follow and whether merchants keep wallets switched on.",
+    "es": "El cambio real en el eslabón de aceptación es que los tokens de monedero llegan a la adquirencia local y el número de tarjeta deja de pasar por la página del comercio. Para pasarelas e integradores la oportunidad son tres trabajos de integración: página de pago, solicitud de token y conciliación. El riesgo es que el banco lo publicó como anuncio, sin volúmenes ni detalle de tarjetas admitidas, así que el alcance real puede ser estrecho. Hay que seguir si otros adquirentes se suman y si los comercios mantienen el monedero activo."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "claude-sonnet-4.5",
+    "promptVersion": "digest-v4-body"
+  }
+}

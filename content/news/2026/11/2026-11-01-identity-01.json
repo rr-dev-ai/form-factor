@@ -1,0 +1,101 @@
+{
+  "id": "2026-11-01-identity-01",
+  "slug": "armenia-biometric-documents-ppp-operational",
+  "industry": "identity",
+  "region": "cis",
+  "regions": [],
+  "tags": [
+    "passport",
+    "national-id",
+    "biometrics"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-01T03:20:00+08:00",
+  "ingestedAt": "2026-11-01T03:20:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Armenpress（内政部通报）",
+      "url": "https://armenpress.am/en/article/1264356",
+      "lang": "en",
+      "publishedAt": "2026-10-30T17:20:00+04:00"
+    },
+    {
+      "name": "ARKA",
+      "url": "https://arka.am/en/news/society/addresses-of-14-offices-for-issuing-new-biometric-passports-in-armenia-released",
+      "lang": "en",
+      "publishedAt": "2026-10-05T12:00:00+04:00"
+    }
+  ],
+  "title": {
+    "zh": "亚美尼亚生物识别证件 PPP 过了独立评估，边境还要装电子闸机",
+    "en": "Armenia's biometric document PPP clears independent review, e-gates added to the plan",
+    "es": "La APP de documentos biométricos de Armenia supera la revisión independiente y suma e-gates"
+  },
+  "summary": {
+    "zh": "亚美尼亚内政部长与 HayPass 首席执行官 10 月 30 日签署独立评估报告，确认投资义务履行完毕、项目转入运营阶段；新证件自 11 月 1 日起由私营方在 14 个服务中心受理。同场会议确定在边境口岸部署电子闸机，并在项目内建本地数据中心。",
+    "en": "Armenia's interior minister and HayPass's chief executive signed an independent review on 30 October confirming the investment obligations are met and the project moves into operations; private staff take biometrics at 14 centres from 1 November. The same meeting settled e-gates at border checkpoints and a local data centre.",
+    "es": "La ministra del Interior de Armenia y el consejero delegado de HayPass firmaron el 30 de octubre una evaluación independiente que confirma el cumplimiento de las obligaciones de inversión y el paso a la fase operativa; el socio privado atenderá 14 centros desde el 1 de noviembre. La misma reunión fijó e-gates en los pasos fronterizos y un centro de datos local."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "亚美尼亚内政部长 Arpine Sargsyan 10 月 30 日会见法国 IN Groupe 与本地公司 HayPass 的管理层，并与 HayPass 首席执行官 Régis Bauchiere 签署由独立机构出具的评估报告。报告认定双方已按约履行投资义务，项目可以从建设期转入运营期。内政部在通报中称其为该国「第一个」政府与社会资本合作（PPP）项目：国家保留判定法律身份、核准每一份申请的权力，私营方负责采集指纹与照片、制作证件、交付到公民手上。",
+        "en": "Armenia's interior minister, Arpine Sargsyan, met management from France's IN Groupe and local company HayPass on 30 October and signed an independent assessment with HayPass chief executive Régis Bauchiere. The report finds both sides have met their investment obligations, letting the project move from construction into operations. According to the interior ministry, it is the country's first public-private partnership: the state keeps the power to determine legal status and approve each application, while the private partner captures fingerprints and photographs, prints the documents and hands them to citizens.",
+        "es": "La ministra del Interior de Armenia, Arpine Sargsyan, recibió el 30 de octubre a la dirección del francés IN Groupe y de la firma local HayPass, y firmó con el consejero delegado de HayPass, Régis Bauchiere, una evaluación externa. El informe concluye que ambas partes han cumplido sus obligaciones de inversión y permite pasar de la construcción a la operación. Según el Ministerio del Interior, es la primera asociación público-privada del país: el Estado conserva la potestad de determinar la identidad legal y aprobar cada solicitud, y el socio privado captura huellas y fotografías, fabrica los documentos y los entrega."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "首批 14 个服务中心 11 月 1 日起受理，埃里温两处设在 Yerevan Mall 与 Mega Mall，其余分布在 10 个州，2027 年一季度扩到 23 个",
+          "en": "Fourteen service centres open on 1 November, two in Yerevan at the Yerevan Mall and Mega Mall, the rest across ten provinces, rising to 23 in the first quarter of 2027",
+          "es": "Catorce centros abren el 1 de noviembre, dos en Ereván (Yerevan Mall y Mega Mall) y el resto en diez provincias, hasta 23 en el primer trimestre de 2027"
+        },
+        {
+          "zh": "承接方是 IDEMIA Identity Security France 与 A.C.I. Technology 组成的联合体，2025 年 4 月在当地设立 HayPass；招标综合评分 94.97 对 79.24",
+          "en": "The contractor is a consortium of IDEMIA Identity Security France and A.C.I. Technology, which set up HayPass locally in April 2025; the tender scored 94.97 against 79.24",
+          "es": "El adjudicatario es un consorcio de IDEMIA Identity Security France y A.C.I. Technology, que creó HayPass en abril de 2025; la licitación puntuó 94,97 frente a 79,24"
+        },
+        {
+          "zh": "收费按私营方成本定：新版身份证 5,950 德拉姆，护照 28,650 德拉姆；旧证件在标注有效期内继续有效，换发时才作废",
+          "en": "Fees follow the private partner's cost: 5,950 drams for the new ID card and 28,650 for a passport; existing documents stay valid until their printed expiry and are voided only on replacement",
+          "es": "Las tasas siguen el coste del socio privado: 5.950 drams por el nuevo DNI y 28.650 por el pasaporte; los documentos actuales siguen válidos hasta su caducidad y solo se anulan al renovarlos"
+        },
+        {
+          "zh": "同场会议就边境口岸的电子闸机（e-gates）达成一致，称将在短期内装机；项目内还规划一座本地数据中心，两者均未给出时间表与金额",
+          "en": "The same meeting agreed to install e-gates at border checkpoints within a short timeframe, and the project includes a local data centre; neither has a published timeline or budget",
+          "es": "La reunión acordó instalar e-gates en los pasos fronterizos en poco tiempo y el proyecto incluye un centro de datos local; ninguno tiene calendario ni presupuesto publicados"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这次改的是受理环节，不是签发权。内政部移民与公民服务局此前解释过：法律身份认定、身份确认、人口登记仍由该局做，每份申请由国家核准，私营方在拿到授权后才执行采集、制证与送件这三件事。原来的服务网点不会在 11 月 1 日一次性关停，网络优化分阶段推进；内政部称电子排队与现场排队已合并，未成年人办证时间从 25 分钟压到 5 分钟。",
+        "en": "What changes is the intake, not the authority to issue. The interior ministry's migration and citizenship service said earlier that legal status determination, identity confirmation and the population register stay with the state; each application is approved by the state, and only then does the private partner capture data, print the document and deliver it. The old service points do not close on 1 November; the network is optimised in phases. The ministry says combined electronic and walk-in queues have cut processing for a minor from 25 minutes to five.",
+        "es": "Lo que cambia es la recepción, no la potestad de expedir. El servicio de migración y ciudadanía del Interior explicó antes que la determinación de la identidad legal, la confirmación de identidad y el registro de población siguen en manos del Estado; cada solicitud se aprueba oficialmente y solo entonces el socio privado captura datos, fabrica el documento y lo entrega. Las oficinas anteriores no cierran el 1 de noviembre: la red se optimiza por fases. El ministerio afirma que la cola electrónica combinada con la presencial reduce la tramitación de un menor de 25 a cinco minutos."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "招标与合同的链条也说得清楚：2025 年 3 月 31 日公布结果，三家通过资格审查、两家提交最终方案，联合体以 94.97 分胜出，合同 4 月 25 日签署，HayPass 承担系统与基础设施的全面技术维护。内政部称新基础设施正在按欧洲高标准做认证，项目本身是欧盟签证自由化行动计划的一部分。规格在运营期开头就锁死，之后再想替换，成本要按重新认证来算。",
+        "en": "The procurement chain is on the record too: results were published on 31 March 2025, three bidders passed qualification and two submitted final offers, the consortium won with 94.97 points, and the contract was signed on 25 April, with HayPass responsible for full technical and infrastructure maintenance. The ministry says the new infrastructure is being certified to high European standards, and the project is part of Armenia's EU visa liberalisation action plan. Specifications harden at the start of operations, so any later replacement has to be priced as a re-certification.",
+        "es": "La cadena de licitación también consta: el resultado se publicó el 31 de marzo de 2025, tres candidatos superaron la calificación y dos presentaron oferta final, el consorcio ganó con 94,97 puntos y el contrato se firmó el 25 de abril, con HayPass a cargo del mantenimiento técnico y de infraestructura. El ministerio dice que la nueva infraestructura se certifica con altos estándares europeos y el proyecto forma parte del plan de liberalización de visados con la UE. Las especificaciones se congelan al inicio de la operación: sustituirlas después se tarifa como una recertificación."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "证件签发外包后，生物特征采集终端、制证设备与服务网点改造成为三条独立采购线，耗材与维保按年续签。电子闸机刚在会上定项，口岸核验设备与本地数据中心还会各开一轮招标，想进场先要有个人化与采集的合规资质，并接受数据留在本国。风险在采集合规与跨境数据，达不到就别投。",
+    "en": "Outsourcing issuance turns three things into separate purchase lines: biometric enrolment kits, document personalisation equipment and service-centre fit-out, with consumables and maintenance renewed annually. The e-gates were only agreed in principle, so checkpoint verification hardware and the local data centre will each go to tender; getting onto those lists means holding personalisation and enrolment certifications and accepting that data stays in the country. The risk sits in enrolment compliance and cross-border data handling — if you cannot meet it, do not bid.",
+    "es": "Externalizar la expedición convierte tres cosas en líneas de compra separadas: kits de captura biométrica, equipos de personalización y adecuación de los centros, con consumibles y mantenimiento renovados cada año. Los e-gates solo se acordaron en principio, así que el hardware de verificación en frontera y el centro de datos local irán a licitación; entrar en esas listas exige certificaciones de personalización y captura y aceptar que los datos se queden en el país. El riesgo está en el cumplimiento de la captura y en el tratamiento transfronterizo: si no puedes cumplirlo, no pujes."
+  },
+  "confidence": 0.85,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

@@ -1,5 +1,241 @@
 [
   {
+    "date": "2026-11-01",
+    "startedAt": "2026-11-01T03:00:27+08:00",
+    "durationMs": 302961,
+    "fetched": 256,
+    "afterDedup": 98,
+    "passed": 10,
+    "published": 10,
+    "industries": {
+      "banking": {
+        "fetched": 95,
+        "afterDedup": 9,
+        "passed": 4,
+        "published": 4
+      },
+      "identity": {
+        "fetched": 65,
+        "afterDedup": 60,
+        "passed": 4,
+        "published": 4
+      },
+      "telecom": {
+        "fetched": 96,
+        "afterDedup": 29,
+        "passed": 2,
+        "published": 2
+      }
+    },
+    "regions": [
+      "cis",
+      "europe",
+      "north-america",
+      "latam",
+      "africa"
+    ],
+    "missing": [
+      "apac",
+      "mena"
+    ],
+    "supplement": {
+      "triggered": false,
+      "items": 0,
+      "sources": []
+    },
+    "rejected": [
+      {
+        "title": "Elavon pursues Paze, agentic commerce",
+        "reason": "高管访谈与表态，Paze 仅称「准备做试点」，没有授标、部署或规则落地，未过动作门",
+        "industry": "banking"
+      },
+      {
+        "title": "USDA proposes adding chip and tap-to-pay tech to EBT cards",
+        "reason": "事件发布于 10 月 27 日，超出 72 小时窗口，且无重大更新",
+        "industry": "banking"
+      },
+      {
+        "title": "Fed loses debit card cap appeal",
+        "reason": "事件发布于 10 月 26 日，超出 72 小时窗口",
+        "industry": "banking"
+      },
+      {
+        "title": "FTC, states sue Toast over fees",
+        "reason": "争点为止付与费用条款的诉讼，未改变受理形态或清算机制，未过动作门",
+        "industry": "banking"
+      },
+      {
+        "title": "Amex nabs new risk chief",
+        "reason": "人事变动，不在收录范围",
+        "industry": "banking"
+      },
+      {
+        "title": "Absa Opens Dubai Office to Tap Gulf Capital for Africa Deals",
+        "reason": "开设代表处属机构布局，不触及发卡、受理或清算环节，未过范围门；本条是 mena 唯一候选，故该区域今日无稿",
+        "industry": "banking"
+      },
+      {
+        "title": "HSBC launches RedCoin stablecoin for retail payments",
+        "reason": "稳定币发行，明确不在收录范围",
+        "industry": "banking"
+      },
+      {
+        "title": "Telefonica, Minsait deliver digital euro set-up",
+        "reason": "央行数字货币通信基础设施，不落在三条凭证链路的载体或受理环节",
+        "industry": "banking"
+      },
+      {
+        "title": "Türkiye plans digital ID wallet pilot for 2027 as age verification expands",
+        "reason": "已在 2026-10-31-identity-01 采用，来源 URL 重复",
+        "industry": "identity"
+      },
+      {
+        "title": "US Treasury makes ID.me mandatory as federal policy shifts toward Login.gov",
+        "reason": "已在 2026-10-31-identity-02 采用，来源 URL 重复",
+        "industry": "identity"
+      },
+      {
+        "title": "ETSI releases specification to help mitigate AI deepfake risk",
+        "reason": "已在 2026-10-31-identity-03 采用，来源 URL 重复",
+        "industry": "identity"
+      },
+      {
+        "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards",
+        "reason": "已在 2026-10-31-identity-04 采用，来源 URL 重复",
+        "industry": "identity"
+      },
+      {
+        "title": "UK facial recognition rollout widens as police oversight rules take shape",
+        "reason": "已在 2026-10-31-identity-05 采用，来源 URL 重复",
+        "industry": "identity"
+      },
+      {
+        "title": "Moldova data breach exposes records linked to 750,000 national ID numbers",
+        "reason": "数据泄露事件，按范围门排除",
+        "industry": "identity"
+      },
+      {
+        "title": "Brazil mandates SIM registration with face biometrics, Level 2 PAD",
+        "reason": "index 标注为 telecom，且已由电信任务处理，避免跨行业重复",
+        "industry": "identity"
+      },
+      {
+        "title": "IDEMIA Public Security Launches MFACE Gen2",
+        "reason": "发布于 2026-10-08，超出 72 小时时效窗口",
+        "industry": "identity"
+      },
+      {
+        "title": "IDEMIA WebCapture SDK Earns Independent Validation Against Deepfake and Biometric Fraud Attacks",
+        "reason": "发布于 2026-10-05，超出 72 小时时效窗口",
+        "industry": "identity"
+      },
+      {
+        "title": "Goodix launches integrated fingerprint and security solution",
+        "reason": "发布于 2026-10-20，超出 72 小时时效窗口",
+        "industry": "identity"
+      },
+      {
+        "title": "New Travel Industry Coalition Calls for EU Digital Omnibus",
+        "reason": "行业联盟公开呼吁，未改变形态或机制，动作门不通过；且发布于 2026-10-01",
+        "industry": "identity"
+      },
+      {
+        "title": "Biometrics and standards bring cross-border digital ID closer",
+        "reason": "周度综述，未报道新增事件，动作门不通过",
+        "industry": "identity"
+      },
+      {
+        "title": "Kodak Alaris appoints Kolok as SA distributor",
+        "reason": "渠道分销任命，标的不落在凭证链路上",
+        "industry": "identity"
+      },
+      {
+        "title": "Switzerland seeks new e-ID chief as digital identity rollout remains delayed",
+        "reason": "人事变动，按范围门排除",
+        "industry": "identity"
+      },
+      {
+        "title": "NIST 其余条目（量子测量、材料、资助、人事等）",
+        "reason": "与护照/身份证/mDL 的载体、签发与核验环节无关",
+        "industry": "identity"
+      },
+      {
+        "title": "Brazil mandates SIM registration with face biometrics, Level 2 PAD",
+        "reason": "与 2026-10-30-telecom-04 同一事件，已发布",
+        "industry": "telecom"
+      },
+      {
+        "title": "Rogers expands D2D roaming reach",
+        "reason": "已在 2026-10-31-telecom-01 采用",
+        "industry": "telecom"
+      },
+      {
+        "title": "Trusted Connectivity Alliance Updates eSIM Specification for 5G and Constrained IoT",
+        "reason": "原文发布于 2025-04-01，超出 72 小时窗口（索引标为 0.8 属误判）",
+        "industry": "telecom"
+      },
+      {
+        "title": "Keysight and KTL advance NR-NTN validation for satellite connectivity",
+        "reason": "事件发生 10 月 27 日，超出 72 小时窗口",
+        "industry": "telecom"
+      },
+      {
+        "title": "FCC outlines plan to auction 25MHz of spectrum for D2D, mobile",
+        "reason": "频谱拍卖，范围门外",
+        "industry": "telecom"
+      },
+      {
+        "title": "FCC seeks feedback on carrier warnings about running D2D in 5G bands",
+        "reason": "频谱共存咨询程序，范围门外",
+        "industry": "telecom"
+      },
+      {
+        "title": "T-Mobile: We'll be first with 6G, and no to SpaceX MVNO",
+        "reason": "6G 表态与 MVNO 传闻，无形态或机制变化",
+        "industry": "telecom"
+      },
+      {
+        "title": "Noble Mobile, the MVNO backed by Andrew Yang, acquires SmartLess Mobile",
+        "reason": "MVNO 品牌易手，载体与签发机制未变",
+        "industry": "telecom"
+      },
+      {
+        "title": "Con Chile y Perú a la cabeza, el ranking de Ookla destaca el crecimiento del D2D",
+        "reason": "市场数据报告，无授标、部署或规则动作",
+        "industry": "telecom"
+      },
+      {
+        "title": "European telcos consider joint bid for satellite spectrum",
+        "reason": "频谱竞标议题，且事件 10 月 20 日超窗",
+        "industry": "telecom"
+      }
+    ],
+    "failedSources": [
+      {
+        "name": "gsma-newsroom",
+        "stage": "fetch",
+        "error": "期望 feed，实际返回 HTML (curl-fallback)"
+      },
+      {
+        "name": "rcr-wireless-news",
+        "stage": "fetch",
+        "error": "期望 feed，实际返回 HTML (curl-fallback)"
+      },
+      {
+        "name": "GSMA Newsroom",
+        "stage": "fetch",
+        "error": "期望 feed，实际返回 HTML (curl-fallback)"
+      },
+      {
+        "name": "RCR Wireless News",
+        "stage": "fetch",
+        "error": "期望 feed，实际返回 HTML (curl-fallback)"
+      }
+    ],
+    "costUsd": 0,
+    "migrated": false
+  },
+  {
     "date": "2026-10-31",
     "startedAt": "2026-10-31T01:40:46+08:00",
     "durationMs": 1284567,

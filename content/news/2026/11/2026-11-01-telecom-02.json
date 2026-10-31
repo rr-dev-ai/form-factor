@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-01-telecom-02",
+  "slug": "starlink-d2d-emergency-activation-spain-toledo",
+  "industry": "telecom",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "satellite"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-01T03:35:00+08:00",
+  "ingestedAt": "2026-11-01T03:25:00+08:00",
+  "originalLang": "es",
+  "sources": [
+    {
+      "name": "Mobile World Live（西班牙语版）",
+      "url": "https://www.mobileworldlive.com/spanish/starlink-activa-su-cobertura-d2d-en-toledo-tras-el-accidente-ferroviario/",
+      "lang": "es",
+      "publishedAt": "2026-10-29T15:37:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "西班牙列车事故后，Starlink 用测试频段开通卫星直连",
+    "en": "After Spain's train crash, Starlink turns on direct-to-device on test frequencies",
+    "es": "Tras el accidente ferroviario en España, Starlink activa el D2D en frecuencias de prueba"
+  },
+  "summary": {
+    "zh": "10 月 28 日两列高铁在托莱多省相撞后，Starlink 为 Movistar 与 Orange 及其子品牌用户免费开通卫星直连，用手机就能发短信和传数据；所用频率是此前批准用于测试的 2.5GHz 频段，且按授权不享受干扰保护。",
+    "en": "After two high-speed trains collided in Toledo province on 28 October, Starlink opened direct-to-device free of charge to Movistar and Orange customers and their sub-brands, enough for texts and data on ordinary phones, on 2.5 GHz frequencies previously cleared for tests and with no interference protection.",
+    "es": "Tras chocar dos trenes de alta velocidad en la provincia de Toledo el 28 de octubre, Starlink abrió el D2D gratis a clientes de Movistar y Orange y sus marcas, suficiente para SMS y datos en móviles corrientes, en frecuencias de 2,5 GHz antes autorizadas para pruebas y sin protección frente a interferencias."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "10 月 28 日上午，Renfe 与 Iryo 两列高铁在马德里—塞维利亚线 Los Yébenes 与 Urda 之间相撞，卡斯蒂利亚-拉曼恰地方政府给出的临时伤亡数字是 69 人死亡。当天 Starlink 在托莱多省开通 Direct to Cell：Movistar 和 Orange 及其子品牌（MásMóvil、Pepephone、Simyo、Yoigo）的用户可以免费用，普通智能手机就能发短信、传数据，够用 WhatsApp 通话和 Google Maps。",
+        "en": "On the morning of 28 October two high-speed trains, one Renfe and one Iryo, collided between Los Yébenes and Urda on the Madrid-Sevilla line; the Castilla-La Mancha regional government put the provisional death toll at 69. That day Starlink activated Direct to Cell in Toledo province: free for Movistar and Orange customers and their sub-brands (MásMóvil, Pepephone, Simyo, Yoigo), working on ordinary smartphones for texts and data, enough for WhatsApp calls and Google Maps.",
+        "es": "La mañana del 28 de octubre chocaron dos trenes de alta velocidad, uno de Renfe y otro de Iryo, entre Los Yébenes y Urda, en la línea Madrid-Sevilla; el gobierno de Castilla-La Mancha cifró el balance provisional en 69 fallecidos. Ese día Starlink activó Direct to Cell en la provincia de Toledo: gratis para clientes de Movistar y Orange y sus marcas (MásMóvil, Pepephone, Simyo, Yoigo), con móviles corrientes para SMS y datos, suficiente para llamadas de WhatsApp y Google Maps."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "频段是 2560–2565MHz 上行、2680–2685MHz 下行，即原先批准用于测试的那一段，不是商用分配",
+          "en": "The frequencies are 2560–2565 MHz uplink and 2680–2685 MHz downlink: the block previously cleared for tests, not a commercial assignment",
+          "es": "Las frecuencias son 2560–2565 MHz en subida y 2680–2685 MHz en bajada: el bloque antes autorizado para pruebas, no una asignación comercial"
+        },
+        {
+          "zh": "按 Orange 西班牙数字服务总监在信中的说法，服务不造成干扰，但也不受干扰保护，依据是 FCC 给 SpaceX 的补充太空覆盖授权",
+          "en": "Per a letter from Orange Spain's digital services director, the service causes no interference but enjoys no protection from it, on the basis of the FCC's supplemental coverage from space authorisation to SpaceX",
+          "es": "Según una carta del director de servicios digitales de Orange España, el servicio no causa interferencias pero tampoco está protegido frente a ellas, con base en la autorización SCS de la FCC a SpaceX"
+        },
+        {
+          "zh": "Orange 与 Vodafone 在该区域共用网络，由后者维护；信中提到十余座基站被毁或失效，另有报道称最初受影响节点 18 个、已恢复 10 个",
+          "en": "Orange shares the regional network with Vodafone, which maintains it; the letter mentions more than a dozen destroyed or unusable towers, with reports of 18 nodes affected initially and 10 since restored",
+          "es": "Orange comparte red en la zona con Vodafone, que la mantiene; la carta cita más de una docena de torres destruidas o inutilizadas, y se reportan 18 nodos afectados al inicio con 10 ya recuperados"
+        },
+        {
+          "zh": "开通范围只覆盖受灾省份，运营商同期还派了移动基站车和 wifi 单元进现场",
+          "en": "Coverage was opened for the affected province only, alongside the mobile cell units and Wi-Fi units the operators sent to the site",
+          "es": "La cobertura se abrió solo en la provincia afectada, junto a las unidades móviles y de wifi que los operadores enviaron a la zona"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这是西班牙今年第二次动用这套手段。7 月 Sierra Oeste 山火烧过阿维拉、马德里与托莱多三省六万多公顷时，西班牙电信国务秘书处给了一次性许可，几小时内把技术试点变成应急服务，并对 Movistar 开放。据 Ookla 统计，那次接入卫星网络的设备数是平常水平的 30 倍；Starlink 称该轮约有 27 万用户，并已要求政府把这项服务转为长期授权。",
+        "en": "It is the second time Spain has used the mechanism this year. During the July Sierra Oeste fires, which burned more than 60,000 hectares across Ávila, Madrid and Toledo, the State Secretariat for Telecommunications granted a one-off permit that turned a technical pilot into an emergency service within hours and extended it to Movistar. Ookla counted up to 30 times the usual number of devices on the satellite network; Starlink put that episode at about 270,000 users and has asked the government for a permanent authorisation.",
+        "es": "Es la segunda vez este año que España recurre al mecanismo. En los incendios de Sierra Oeste de julio, que quemaron más de 60.000 hectáreas en Ávila, Madrid y Toledo, la Secretaría de Estado de Telecomunicaciones dio un permiso excepcional que convirtió un piloto técnico en servicio de emergencia en horas y lo abrió a Movistar. Ookla contó hasta 30 veces más dispositivos en la red satelital; Starlink cifró ese episodio en unos 270.000 usuarios y pidió al Gobierno una autorización definitiva."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "两次开通的共同点是都靠一次性许可，而不是常设制度。频段仍是测试性质、没有干扰保护，意味着容量和通话质量都不能对用户承诺；一旦要转成常态服务，就得走正式频谱安排、覆盖义务和互联条件这一整套程序。这一段目前是空的。",
+        "en": "What both activations share is reliance on one-off permits rather than a standing regime. The frequencies remain test-grade and unprotected against interference, which means neither capacity nor call quality can be promised to users; converting this into a regular service requires a formal spectrum arrangement, coverage obligations and interconnection terms. That layer is still missing.",
+        "es": "Ambas activaciones comparten el recurso a permisos puntuales en lugar de un régimen estable. Las frecuencias siguen siendo de prueba y sin protección frente a interferencias, así que no se puede prometer capacidad ni calidad de llamada; pasar a servicio regular exige un arreglo formal de espectro, obligaciones de cobertura y condiciones de interconexión. Esa capa sigue ausente."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变化落在授权这一环：卫星直连不再只靠商业合同，而是靠监管机构的一次性放行，且用的是未做干扰保护的测试频段。对做应急通信集成和终端适配的供应商，这意味着需求真实存在但不可预期，只能按「随时被叫起来开通」来准备；风险是容量与质量无法写进承诺，跟进重点是正式频谱安排与互联条件何时落地。",
+    "en": "The change lands in authorisation: direct-to-device no longer rides on commercial contracts alone but on one-off regulatory clearances, on test frequencies with no interference protection. For emergency-comms integrators and device-integration vendors this means real demand that cannot be forecast, only prepared for as being called up at short notice. The risk is that capacity and quality cannot go into a commitment, so what to track is when formal spectrum terms and interconnection conditions arrive.",
+    "es": "El cambio está en la autorización: el D2D ya no depende solo de contratos comerciales sino de permisos regulatorios puntuales, en frecuencias de prueba sin protección frente a interferencias. Para los integradores de comunicaciones de emergencia y de terminales implica demanda real pero no previsible, que solo se puede preparar para activarse con aviso corto. El riesgo es que capacidad y calidad no puedan comprometerse; conviene seguir cuándo llegan el arreglo formal de espectro y las condiciones de interconexión."
+  },
+  "confidence": 0.83,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

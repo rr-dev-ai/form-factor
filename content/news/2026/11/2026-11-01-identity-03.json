@@ -1,0 +1,91 @@
+{
+  "id": "2026-11-01-identity-03",
+  "slug": "intellicheck-dock-optimizer-freight-id-checks",
+  "industry": "identity",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "verification",
+    "national-id"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-01T03:30:00+08:00",
+  "ingestedAt": "2026-11-01T03:30:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202610/intellicheck-brings-id-verification-to-freight-docks-through-dock-optimizer",
+      "lang": "en",
+      "publishedAt": "2026-10-30T08:40:00-04:00"
+    }
+  ],
+  "title": {
+    "zh": "Intellicheck 把驾照条码核验塞进货场提货的自助流程",
+    "en": "Intellicheck puts driver's licence barcode checks inside freight self check-in",
+    "es": "Intellicheck integra la lectura del carné en el autochequeo de recogida de carga"
+  },
+  "summary": {
+    "zh": "货场提货系统 Dock Optimizer 接入 Intellicheck 的证件核验：司机自助签到先扫二维码，再扫驾照背面条码，平台读取条码内嵌的安全数据判断证件真伪，结果与预约记录绑定保存三年。流程中不含人脸比对。",
+    "en": "Freight dock software Dock Optimizer now calls Intellicheck's document checks: at self check-in a driver scans a QR code, then the barcode on the back of a driver's licence, and the platform reads embedded security data to judge authenticity, with results bound to the appointment record for three years. No facial matching is involved.",
+    "es": "El software de muelle Dock Optimizer incorpora la verificación documental de Intellicheck: en el autochequeo el conductor escanea un código QR y luego el código de barras del reverso del carné, y la plataforma lee los datos de seguridad incrustados para juzgar su autenticidad; el resultado queda ligado a la cita durante tres años. No hay comparación facial."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Dock Optimizer 由 Conmitto 开发，做的是货场提货的排程与放行。这次它把 Intellicheck 的证件核验接进来：司机到门岗自助签到，用手机扫一个二维码，再扫驾照背面的条码，Intellicheck 解析条码里写入的安全特征，判断这张证件是不是真的，结果回写到司机、承运商与预约记录上，作为放货前的一道检查。同一套核验也能用在货场大门和 Door Manager 界面上。",
+        "en": "Dock Optimizer, built by Conmitto, handles scheduling and release for freight pickups. It now calls Intellicheck's document checks: a driver self-checks in at the gate by scanning a QR code with a phone and then the barcode on the back of a driver's licence; Intellicheck parses the security features written into that barcode to judge whether the document is genuine, and the result is written back to the driver, carrier and appointment record as a check before cargo is released. The same check works at facility gates and through the Door Manager interface.",
+        "es": "Dock Optimizer, desarrollado por Conmitto, gestiona la programación y la liberación de recogidas. Ahora incorpora la verificación documental de Intellicheck: el conductor se registra en la puerta escaneando un código QR con el móvil y luego el código de barras del reverso del carné; Intellicheck interpreta los rasgos de seguridad grabados en ese código para dictaminar si el documento es auténtico, y el resultado se escribe en el registro del conductor, del transportista y de la cita como control previo a la entrega. La misma comprobación sirve en las puertas de la instalación y en la interfaz Door Manager."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "报道明确写到：这一流程不包含人脸比对，核验的是证件本身，不是持证人与证件是否一致",
+          "en": "The report states plainly that the workflow has no facial matching: it verifies the document, not whether the person holding it is the person it belongs to",
+          "es": "El reportaje precisa que el flujo no incluye comparación facial: verifica el documento, no si quien lo presenta es su titular"
+        },
+        {
+          "zh": "核验结果、驾照字段与时间戳随预约记录保存三年，用于货物保管链记录、安全调查与合规复核",
+          "en": "Results, licence fields and timestamps are stored with the appointment for three years to support chain-of-custody records, security investigations and compliance reviews",
+          "es": "Resultados, datos del carné y marcas de tiempo se guardan con la cita tres años para la cadena de custodia, investigaciones y revisiones de cumplimiento"
+        },
+        {
+          "zh": "托运人可以在第三方货场沿用自家的核验要求，前提是走自己的 Intellicheck 账户结算",
+          "en": "Shippers can carry their own verification rules into third-party docks, provided the checks run through their own Intellicheck accounts",
+          "es": "El cargador puede imponer sus reglas en muelles de terceros siempre que las comprobaciones pasen por su propia cuenta de Intellicheck"
+        },
+        {
+          "zh": "背景数据：2026 年二季度美国与加拿大录得 158 起虚构提货，去年同期 165 起；同期供应链盗窃 677 起，货值损失翻倍到 3.046 亿美元（Verisk CargoNet）",
+          "en": "Context: 158 fictitious pickups were recorded in the US and Canada in Q2 2026 against 165 a year earlier, while 677 supply-chain theft incidents saw losses more than double to $304.6 million, per Verisk CargoNet",
+          "es": "Contexto: en el segundo trimestre de 2026 se registraron 158 recogidas ficticias en EE. UU. y Canadá frente a 165 un año antes, y 677 incidentes de robo en la cadena elevaron las pérdidas a 304,6 millones de dólares, según Verisk CargoNet"
+        },
+        {
+          "zh": "IDScan 的统计显示，货运与物流行业可疑的身份核验尝试占比从 2023 年的 0.53% 升到 2025 年的 2.15%",
+          "en": "IDScan's figures put suspected fraudulent identity checks in cargo and logistics at 2.15% in 2025, up from 0.53% in 2023",
+          "es": "Los datos de IDScan sitúan los intentos de verificación sospechosos en carga y logística en el 2,15% en 2025, frente al 0,53% de 2023"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这个接入点选得很实际。提货出问题的环节通常在门岗和放货台，不在办公室：人、车、单三者对不上时，靠肉眼比对驾照照片几乎不可能发现伪造。改成扫码验条码，成本是一台手机加一次接口调用，不需要在货场装专用读卡器，也不需要司机注册任何应用。代价是只做了证件真伪这一层，身份一致性仍要另想办法。",
+        "en": "The insertion point is a practical one. Pickup failures happen at the gate and the release desk, not in the office: when the person, the truck and the paperwork do not line up, spotting a forged licence by eye is close to impossible. Swapping that for a barcode read costs a phone and one API call, needs no dedicated reader at the dock and no app for the driver to install. The trade-off is that only document authenticity is covered; binding the document to the person still needs another mechanism.",
+        "es": "El punto de inserción es práctico. Los fallos en la recogida ocurren en la puerta y en el mostrador de entrega, no en la oficina: cuando persona, camión y documentación no coinciden, detectar un carné falsificado a ojo es casi imposible. Cambiarlo por una lectura de código de barras cuesta un móvil y una llamada de interfaz, sin lector dedicado en el muelle ni aplicación para el conductor. La contrapartida es que solo cubre la autenticidad del documento; vincularlo a la persona requiere otro mecanismo."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "提货核验从「人看一眼」拆成扫码、验条码、写进预约记录三步，并留档三年。机会在集成：把核验挂进闸机、门禁与预约系统，按调用量收费，而不是卖读卡器。风险是只验证件不验人，出事后留痕反而成了追责证据；缺口要么补人脸比对，要么在合同里写清责任边界。",
+    "en": "Pickup checks split from a glance into three steps — scan, verify the barcode, write it into the appointment record — and the record sits there for three years. The opportunity is integration work: hook the check into gates, access control and scheduling systems and charge per call instead of selling readers. The risk is verifying a document while never verifying the person, so the trail becomes evidence against you after an incident; price the missing face match into the quote.",
+    "es": "La comprobación en la recogida pasa de un vistazo a tres pasos —escanear, validar el código, anotarlo en la cita— y el registro queda tres años. La oportunidad está en la integración: enganchar la verificación a puertas, control de accesos y sistemas de citas y cobrar por consulta en vez de vender lectores. El riesgo es validar el documento sin validar a la persona, de modo que el rastro se vuelve prueba en contra tras un incidente; hay que presupuestar esa carencia."
+  },
+  "confidence": 0.82,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

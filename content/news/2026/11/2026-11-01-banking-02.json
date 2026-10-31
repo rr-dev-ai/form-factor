@@ -1,0 +1,102 @@
+{
+  "id": "2026-11-01-banking-02",
+  "slug": "interswitch-tokenised-tap-to-pay-nigeria",
+  "industry": "banking",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "tokenization"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-01T04:25:00+08:00",
+  "ingestedAt": "2026-11-01T03:15:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/2026/10/29/interswitch-tap-to-pay/",
+      "lang": "en",
+      "publishedAt": "2026-10-29T12:00:00+01:00"
+    }
+  ],
+  "title": {
+    "zh": "Interswitch 拉五家尼日利亚银行做令牌化拍付，卡住的是商户终端",
+    "en": "Interswitch brings five Nigerian banks into tokenised tap-to-pay, and merchants are the bottleneck",
+    "es": "Interswitch suma cinco bancos nigerianos al pago sin contacto tokenizado; el freno está en el comercio"
+  },
+  "summary": {
+    "zh": "Interswitch 在拉各斯表示正与 GTBank、Wema、ProvidusUnity、Zenith、FirstBank 五家银行推进令牌化拍付，同时拉商户入网；其高管称银行侧已就绪，真正的缺口在商户终端与消费者认知。",
+    "en": "Interswitch said in Lagos it is working with GTBank, Wema, ProvidusUnity, Zenith and FirstBank to expand tokenised tap-to-pay while signing up merchants, with an executive arguing the banks are ready and the real gap sits in terminals and consumer awareness.",
+    "es": "Interswitch afirmó en Lagos que trabaja con GTBank, Wema, ProvidusUnity, Zenith y FirstBank para ampliar el pago sin contacto tokenizado y sumar comercios; su directivo sostiene que los bancos están listos y la brecha real está en los terminales y la percepción del consumidor."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "在拉各斯 Moonshot 2026 上，Interswitch 的品类传播负责人 Tomi Ogunlesi 把尼日利亚的拍付（tap-to-pay）现状讲得很直接：发卡行这边已经准备好，剩下要补的是商户和消费者，而后者缺得更多。公司称正与 GTBank、Wema、ProvidusUnity、Zenith、FirstBank 五家银行推进令牌化拍付，同时把商户拉进网络，连锁超市 Spar 已表示兴趣。",
+        "en": "At Moonshot 2026 in Lagos, Interswitch's Tomi Ogunlesi, divisional head of brands, communication, content and CSR, put the state of Nigerian tap-to-pay plainly: the issuing banks are ready, and what remains is merchants and consumers, the latter more than the former. The company says it is working with GTBank, Wema, ProvidusUnity, Zenith and FirstBank on tokenised tap-to-pay while pulling merchants into the network, with supermarket chain Spar already showing interest.",
+        "es": "En Moonshot 2026, en Lagos, Tomi Ogunlesi, responsable de marcas, comunicación y contenidos de Interswitch, describió el pago sin contacto nigeriano sin rodeos: los emisores están listos y lo que falta son comercios y consumidores, sobre todo lo segundo. La empresa dice trabajar con GTBank, Wema, ProvidusUnity, Zenith y FirstBank en pago sin contacto tokenizado mientras suma comercios a la red, con la cadena de supermercados Spar ya interesada."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "令牌化在这条链上做什么",
+        "en": "What tokenisation does here",
+        "es": "Qué hace la tokenización"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "拍付时真正发出去的不是卡号，而是一次性的替代值，商户系统与终端都拿不到原卡号",
+          "en": "What travels in a tap is not the card number but a substitute value, so neither terminal nor merchant system ever holds the real number",
+          "es": "En cada lectura no viaja el número de tarjeta sino un valor sustituto, de modo que ni el terminal ni el sistema del comercio guardan el número real"
+        },
+        {
+          "zh": "Interswitch 称过去两三年发出的卡大多已具备令牌化条件，硬件侧的存量并不构成主要障碍",
+          "en": "Interswitch says most cards it issued over the past two to three years are already tokenisation-ready, so the installed card base is not the main obstacle",
+          "es": "Interswitch asegura que la mayoría de las tarjetas emitidas en los últimos dos o tres años ya admiten tokenización, así que el parque instalado no es el obstáculo principal"
+        },
+        {
+          "zh": "这一步紧接万事达与 Interswitch 在 10 月 28 日宣布的 Google Pay 落地：符合条件的万事达卡可加入 Google 钱包，在支持非接的终端上付款",
+          "en": "This follows Mastercard and Interswitch launching Google Pay in Nigeria on 28 October, letting eligible Mastercard holders load cards into Google Wallet and pay at contactless-enabled terminals",
+          "es": "Esto sigue al lanzamiento de Google Pay en Nigeria por Mastercard e Interswitch el 28 de octubre, que permite cargar tarjetas elegibles en Google Wallet y pagar en terminales con contacto"
+        },
+        {
+          "zh": "公司另拍了一部 15 分钟纪录片做消费者教育，解释令牌为什么能替代卡号",
+          "en": "The company also produced a 15-minute documentary for consumer education, explaining why a token can stand in for a card number",
+          "es": "La empresa produjo además un documental de 15 minutos para educar al consumidor sobre por qué un token puede sustituir al número de tarjeta"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "尼日利亚并不是从零开始：2015 年 Unified Payments 联合多家银行推过 NFC 贴片式支付，2025 年 3 月 Access Bank 与 Visa 把安卓手机改成受理终端，本月 CashAfrica 与 Chicken Republic 在 350 多个门店上线手机拍付。这些尝试都没有让拍付变成主流，原因被归结为受理点不足与消费者不了解。",
+        "en": "Nigeria is not starting from zero: in 2015 Unified Payments ran an NFC tag-based service with several banks, in March 2025 Access Bank and Visa turned Android phones into acceptance terminals, and this month CashAfrica and Chicken Republic put mobile tap-to-pay into more than 350 outlets. None of it made tap-to-pay mainstream, with thin acceptance points and low consumer familiarity blamed.",
+        "es": "Nigeria no parte de cero: en 2015 Unified Payments lanzó un servicio NFC con varias entidades, en marzo de 2025 Access Bank y Visa convirtieron móviles Android en terminales de aceptación y este mes CashAfrica y Chicken Republic llevaron el pago móvil sin contacto a más de 350 locales. Nada de eso volvió mayoritario el sin contacto; se atribuye a la escasez de puntos de aceptación y al desconocimiento del consumidor."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Ogunlesi 也给卡片留了位置：跨境交易与差错争议处理仍靠卡组织的成熟流程，银行转账在国内好用，跨境出问题就难追。他判断卡片的物理形态会变，底层那套受理与清算结构不会消失。",
+        "en": "Ogunlesi still makes room for cards: cross-border commerce and dispute handling rely on processes the card networks have refined, and while bank transfers work domestically, recovering a failed cross-border payment is harder. His view is that the physical card will change form while the acceptance and clearing structure underneath persists.",
+        "es": "Ogunlesi deja sitio a la tarjeta: el comercio transfronterizo y la resolución de disputas dependen de procesos madurados por los esquemas, y si la transferencia bancaria funciona en el país, recuperar un pago transfronterizo fallido es más difícil. Su lectura es que la tarjeta cambiará de forma física pero la estructura de aceptación y compensación subyacente permanece."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这一步动的是受理端：令牌化拍付从单点试点变成五家银行共用一条路径，瓶颈随之从发卡侧移到商户终端与消费者。对终端厂商与收单集成商，机会是现有非接设备的改造与商户批量入网；风险是没有终端部署时间表与受理点数量，目前只是表态。要跟的是 Spar 这类连锁是否真的铺开。",
+    "en": "This moves the acceptance link: tokenised tap-to-pay goes from isolated pilots to one path shared by five banks, shifting the bottleneck from issuing to merchant terminals and consumer habit. For terminal vendors and acquiring integrators the opening is retrofitting installed contactless devices and onboarding merchants in batches; the risk is that no terminal rollout schedule or acceptance-point count exists yet, only statements. Watch whether chains like Spar actually deploy.",
+    "es": "Esto mueve el eslabón de aceptación: el pago tokenizado pasa de pilotos aislados a una vía compartida por cinco bancos y el cuello se traslada de la emisión a los terminales y al hábito del consumidor. Para fabricantes de terminales e integradores de adquirencia la oportunidad es adaptar los dispositivos sin contacto ya instalados y dar de alta comercios en bloque; el riesgo es que aún no hay calendario de despliegue ni número de puntos, solo declaraciones. Hay que ver si cadenas como Spar despliegan de verdad."
+  },
+  "confidence": 0.82,
+  "ai": {
+    "model": "claude-sonnet-4.5",
+    "promptVersion": "digest-v4-body"
+  }
+}
