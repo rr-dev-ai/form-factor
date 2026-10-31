@@ -614,23 +614,6 @@ a.tag:hover {
   line-height: 1.2;
 }
 
-.reject-list {
-  margin: 12px 0 0;
-  padding: 10px 0 0;
-  border-top: 1px dashed var(--border);
-  list-style: none;
-  font-size: 12px;
-  color: var(--text-2);
-}
-
-.reject-list li {
-  padding: 3px 0;
-}
-
-.reject-list .reason {
-  color: var(--text-3);
-}
-
 /* ---------- search ---------- */
 
 .search-box {

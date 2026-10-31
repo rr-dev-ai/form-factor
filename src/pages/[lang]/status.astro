@@ -61,24 +61,6 @@ const fetched7 = runs.reduce((sum, r) => sum + r.fetched, 0);
             <div><b>{run.passed}</b>{dict.gate}</div>
             <div><b>{run.published}</b>{dict.publishedItems}</div>
           </div>
-          {run.rejected.length > 0 && (
-            <ul class="reject-list">
-              {run.rejected.map((r) => (
-                <li>
-                  {r.title} <span class="reason">— {r.reason}</span>
-                </li>
-              ))}
-            </ul>
-          )}
-          {run.failedSources.length > 0 && (
-            <ul class="reject-list">
-              {run.failedSources.map((f) => (
-                <li>
-                  {f.name} <span class="reason">— {f.stage}: {f.error}</span>
-                </li>
-              ))}
-            </ul>
-          )}
         </div>
       ))
     }
