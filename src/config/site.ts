@@ -29,6 +29,12 @@ export const site = {
   /** 每行业每日发布上限，超出时按置信度截断 */
   perIndustryDailyLimit: 5,
 
+  /** 每行业每日发布下限，未达标时记入 runs.json 的 missing，不阻断发布 */
+  perIndustryDailyMin: 3,
+
+  /** 每个计入覆盖的区域每日至少 1 条 */
+  regionsDailyMin: 1,
+
   /** 搜索索引最多保留的月数，超出后旧月份不再生成分片 */
   searchIndexMonths: 12,
 } as const;
