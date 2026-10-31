@@ -81,19 +81,53 @@ export const newsItemSchema = z.object({
 
 export type NewsItem = z.infer<typeof newsItemSchema>;
 
-/** 单次采集运行的记录，供 /status 页面展示 */
-export const runRecordSchema = z.object({
+/**
+ * 一天的运行记录，供 /status 页展示。
+ * 一天一条而不是每行业一条：状态页要的是「当天整体是否达标」，
+ * 行业明细放在 industries 里。
+ */
+const industryDaySchema = z.object({
+  fetched: z.number().int().nonnegative(),
+  afterDedup: z.number().int().nonnegative(),
+  passed: z.number().int().nonnegative(),
+  published: z.number().int().nonnegative(),
+});
+
+export const dayRecordSchema = z.object({
   date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
-  industry: z.enum(['banking', 'telecom', 'identity']),
   startedAt: isoDateTime,
   durationMs: z.number().int().nonnegative(),
   fetched: z.number().int().nonnegative(),
   afterDedup: z.number().int().nonnegative(),
   passed: z.number().int().nonnegative(),
   published: z.number().int().nonnegative(),
-  rejected: z.array(z.object({ title: z.string(), reason: z.string() })).default([]),
-  failedSources: z.array(z.object({ name: z.string(), stage: z.string(), error: z.string() })).default([]),
+  industries: z
+    .object({
+      banking: industryDaySchema,
+      telecom: industryDaySchema,
+      identity: industryDaySchema,
+    })
+    .partial(),
+  /** 当天已覆盖的区域（只算主区域） */
+  regions: z.array(z.enum(REGION_SLUGS)).default([]),
+  /** 当天未覆盖的区域 */
+  missing: z.array(z.enum(REGION_SLUGS)).default([]),
+  supplement: z
+    .object({
+      triggered: z.boolean().default(false),
+      items: z.number().int().nonnegative().default(0),
+      sources: z.array(z.string()).default([]),
+    })
+    .default({}),
+  rejected: z
+    .array(z.object({ title: z.string(), reason: z.string(), industry: z.string() }))
+    .default([]),
+  failedSources: z
+    .array(z.object({ name: z.string(), stage: z.string(), error: z.string() }))
+    .default([]),
   costUsd: z.number().nonnegative().default(0),
+  /** 由旧的「每行业一条」记录合并而来，覆盖数据不可考 */
+  migrated: z.boolean().default(false),
 });
 
-export type RunRecord = z.infer<typeof runRecordSchema>;
+export type DayRecord = z.infer<typeof dayRecordSchema>;

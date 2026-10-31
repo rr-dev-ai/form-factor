@@ -939,3 +939,205 @@ a.tag:hover {
     padding: 4px 0 4px 12px;
   }
 }
+
+/* 状态页：一天一行 */
+.day-head,
+.day-row summary {
+  display: grid;
+  grid-template-columns: 58px repeat(3, minmax(48px, 0.55fr)) minmax(0, 2.6fr) 48px;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.day-head {
+  font-size: 11px;
+  color: var(--text-3);
+  padding: 0 2px 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.day-head span:nth-child(n + 2),
+.day-cell,
+.day-total {
+  text-align: right;
+}
+
+.day-row {
+  border-bottom: 1px solid var(--border);
+}
+
+.day-row summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 10px 2px;
+  font-size: 13px;
+  color: var(--text-2);
+}
+
+.day-row summary::-webkit-details-marker {
+  display: none;
+}
+
+.day-row summary:hover {
+  color: var(--text);
+}
+
+.day-date {
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+}
+
+.day-row[data-under='true'] .day-date {
+  font-weight: 600;
+  color: var(--warn);
+}
+
+.day-regions {
+  color: var(--text-3);
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.day-total {
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.day-detail {
+  padding: 4px 2px 16px;
+}
+
+.day-meta {
+  margin: 8px 0 0;
+  font-size: 12px;
+  color: var(--text-3);
+}
+
+.lookback-title {
+  font-size: 13px;
+  color: var(--text-2);
+  margin: 0 0 8px;
+}
+
+.lookback {
+  margin: 0;
+  font-size: 12px;
+  color: var(--text-3);
+  line-height: 1.9;
+}
+
+@media (max-width: 640px) {
+  .day-head,
+  .day-row summary {
+    grid-template-columns: 46px repeat(3, 34px) minmax(0, 1fr) 34px;
+    gap: 8px;
+    font-size: 12px;
+  }
+
+  .day-regions {
+    font-size: 11px;
+  }
+}
+
+/* 状态页：一天一行 */
+.day-head,
+.day-row summary {
+  display: grid;
+  grid-template-columns: 58px repeat(3, minmax(48px, 0.55fr)) minmax(0, 2.6fr) 48px;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.day-head {
+  font-size: 11px;
+  color: var(--text-3);
+  padding: 0 2px 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.day-head span:nth-child(n + 2),
+.day-cell,
+.day-total {
+  text-align: right;
+}
+
+.day-row {
+  border-bottom: 1px solid var(--border);
+}
+
+.day-row summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 10px 2px;
+  font-size: 13px;
+  color: var(--text-2);
+}
+
+.day-row summary::-webkit-details-marker {
+  display: none;
+}
+
+.day-row summary:hover {
+  color: var(--text);
+}
+
+.day-date {
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+}
+
+.day-row[data-under='true'] .day-date {
+  font-weight: 600;
+  color: var(--warn);
+}
+
+.day-regions {
+  color: var(--text-3);
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.day-total {
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.day-detail {
+  padding: 4px 2px 16px;
+}
+
+.day-meta {
+  margin: 8px 0 0;
+  font-size: 12px;
+  color: var(--text-3);
+}
+
+.lookback-title {
+  font-size: 13px;
+  color: var(--text-2);
+  margin: 0 0 8px;
+}
+
+.lookback {
+  margin: 0;
+  font-size: 12px;
+  color: var(--text-3);
+  line-height: 1.9;
+}
+
+@media (max-width: 640px) {
+  .day-head,
+  .day-row summary {
+    grid-template-columns: 46px repeat(3, 34px) minmax(0, 1fr) 34px;
+    gap: 8px;
+    font-size: 12px;
+  }
+
+  .day-regions {
+    font-size: 11px;
+  }
+}

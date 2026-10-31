@@ -17,6 +17,12 @@ type Dict = {
   home: string;
   industries: string;
   regions: string;
+  date: string;
+  missingRegions: string;
+  supplement: string;
+  regionCoverage: string;
+  dayTotal: string;
+  dayTotal: string;
   archive: string;
   status: string;
   search: string;
@@ -77,6 +83,12 @@ export const ui: Record<Locale, Dict> = {
     home: '首页',
     industries: '行业',
     regions: '区域',
+    date: '日期',
+    missingRegions: '缺 {n} 区',
+    supplement: '补位',
+    regionCoverage: '近 30 天区域覆盖',
+    dayTotal: '合计',
+    dayTotal: '合计',
     archive: '归档',
     status: '运行状态',
     search: '搜索',
@@ -135,6 +147,12 @@ export const ui: Record<Locale, Dict> = {
     home: 'Home',
     industries: 'Industries',
     regions: 'Regions',
+    date: 'Date',
+    missingRegions: '{n} missing',
+    supplement: 'Fill-in',
+    regionCoverage: 'Region coverage, last 30 days',
+    dayTotal: 'Total',
+    dayTotal: 'Total',
     archive: 'Archive',
     status: 'Status',
     search: 'Search',
@@ -193,6 +211,12 @@ export const ui: Record<Locale, Dict> = {
     home: 'Inicio',
     industries: 'Sectores',
     regions: 'Regiones',
+    date: 'Fecha',
+    missingRegions: 'faltan {n}',
+    supplement: 'Relleno',
+    regionCoverage: 'Cobertura regional, últimos 30 días',
+    dayTotal: 'Total',
+    dayTotal: 'Total',
     archive: 'Archivo',
     status: 'Estado',
     search: 'Buscar',

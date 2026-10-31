@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { newsItemSchema, runRecordSchema, type NewsItem, type RunRecord } from './schema.ts';
+import { newsItemSchema, dayRecordSchema, type NewsItem, type DayRecord } from './schema.ts';
 import { tagName, tags } from '../config/taxonomy.ts';
 import { regionIssues, coveredRegions, type Region, type RegionSlug } from '../config/regions.ts';
 import { site } from '../config/site.ts';
@@ -202,20 +202,20 @@ export function localizedTagNames(item: NewsItem, locale: 'zh' | 'en' | 'es'): s
   return item.tags.map((t) => tagName(t, locale));
 }
 
-let runsCache: RunRecord[] | null = null;
+let daysCache: DayRecord[] | null = null;
 
-export function loadRuns(): RunRecord[] {
-  if (runsCache) return runsCache;
+export function loadDays(): DayRecord[] {
+  if (daysCache) return daysCache;
   const file = path.join(META_DIR, 'runs.json');
   if (!fs.existsSync(file)) {
-    runsCache = [];
-    return runsCache;
+    daysCache = [];
+    return daysCache;
   }
   const raw = JSON.parse(fs.readFileSync(file, 'utf8'));
-  const parsed = runRecordSchema.array().safeParse(raw);
+  const parsed = dayRecordSchema.array().safeParse(raw);
   if (!parsed.success) {
     throw new Error(`content/_meta/runs.json 校验失败：\n${parsed.error.issues.map((i) => `  · ${i.path.join('.')}：${i.message}`).join('\n')}`);
   }
-  runsCache = parsed.data.sort((a, b) => b.date.localeCompare(a.date) || b.startedAt.localeCompare(a.startedAt));
-  return runsCache;
+  daysCache = parsed.data.sort((a, b) => b.date.localeCompare(a.date) || b.startedAt.localeCompare(a.startedAt));
+  return daysCache;
 }

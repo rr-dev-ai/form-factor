@@ -1,8 +1,9 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { locales, type Locale } from '../../config/site';
-import { industryName } from '../../config/taxonomy';
-import { loadRuns, publishedNews } from '../../lib/content';
+import { locales, site, type Locale } from '../../config/site';
+import { industries } from '../../config/taxonomy';
+import { regionName } from '../../config/regions';
+import { loadDays, publishedNews, regionCoverage } from '../../lib/content';
 import { t, formatDate } from '../../lib/i18n';
 
 export function getStaticPaths() {
@@ -12,27 +13,43 @@ export function getStaticPaths() {
 const locale = Astro.params.lang as Locale;
 const dict = t(locale);
 
-const allRuns = loadRuns();
+const allDays = loadDays();
 const total = publishedNews().length;
 
-const shiftDate = (key: string, days: number) => {
-  const d = new Date(`${key}T00:00:00Z`);
-  d.setUTCDate(d.getUTCDate() + days);
-  return d.toISOString().slice(0, 10);
-};
+const recent = allDays.slice(0, 7);
+const published7 = recent.reduce((sum, day) => sum + day.published, 0);
+const fetched7 = recent.reduce((sum, day) => sum + day.fetched, 0);
 
-const latestDate = allRuns[0]?.date ?? null;
-const windowStart = latestDate ? shiftDate(latestDate, -6) : null;
-const runs = windowStart ? allRuns.filter((r) => r.date >= windowStart) : [];
+const latestDate = allDays[0]?.date ?? null;
+const lookback = latestDate ? regionCoverage(latestDate, 30) : [];
+const windowLabel = latestDate
+  ? `${recent[recent.length - 1].date} — ${latestDate}`
+  : dict.noRuns;
 
-const published7 = runs.reduce((sum, r) => sum + r.published, 0);
-const fetched7 = runs.reduce((sum, r) => sum + r.fetched, 0);
+/** 区域覆盖列：已覆盖的写名字，缺口写数量；历史迁移数据没有覆盖信息，显示破折号 */
+function regionCell(day: (typeof allDays)[number]) {
+  if (day.migrated && day.regions.length === 0) return '—';
+  const names = day.regions.map((slug) => regionName(slug, locale)).join(' ');
+  const gap = day.missing.length
+    ? dict.missingRegions.replace('{n}', String(day.missing.length))
+    : '';
+  return [names, gap].filter(Boolean).join(' · ');
+}
+
+/** 任一行业低于下限或存在区域缺口时标出，历史迁移数据不参与判断 */
+function underTarget(day: (typeof allDays)[number]) {
+  if (day.migrated) return false;
+  const short = industries.some(
+    (industry) => (day.industries[industry.slug]?.published ?? 0) < site.perIndustryDailyMin
+  );
+  return short || day.missing.length > 0;
+}
 ---
 
 <Base locale={locale} path="/status" title={dict.statusTitle}>
   <div class="page-head">
     <h1>{dict.statusTitle}</h1>
-    <p>{latestDate && windowStart ? `${windowStart} — ${latestDate}` : dict.noRuns}</p>
+    <p>{windowLabel}</p>
   </div>
 
   <section class="run">
@@ -43,28 +60,60 @@ const fetched7 = runs.reduce((sum, r) => sum + r.fetched, 0);
     </div>
   </section>
 
-  <section class="section">
-    {
-      runs.map((run) => (
-        <div class="run">
-          <div class="run-head">
-            <span class="title">
-              {run.date} · {industryName(run.industry, locale)}
-            </span>
-            <span class="time">
-              {formatDate(run.startedAt, locale, true)} · {Math.round(run.durationMs / 1000)}s
-            </span>
-          </div>
-          <div class="metrics">
-            <div><b>{run.fetched}</b>{dict.fetched}</div>
-            <div><b>{run.afterDedup}</b>{dict.dedup}</div>
-            <div><b>{run.passed}</b>{dict.gate}</div>
-            <div><b>{run.published}</b>{dict.publishedItems}</div>
-          </div>
+  {
+    allDays.length > 0 ? (
+      <section class="section day-list">
+        <div class="day-head">
+          <span>{dict.date}</span>
+          {industries.map((industry) => (
+            <span>{industry.name[locale]}</span>
+          ))}
+          <span>{dict.regions}</span>
+          <span>{dict.dayTotal}</span>
         </div>
-      ))
-    }
 
-    {runs.length === 0 && <div class="empty"><strong>{dict.noRuns}</strong></div>}
-  </section>
+        {allDays.map((day) => (
+          <details class="day-row" data-under={underTarget(day) ? 'true' : undefined}>
+            <summary>
+              <span class="day-date">{day.date.slice(5)}</span>
+              {industries.map((industry) => (
+                <span class="day-cell">
+                  {day.industries[industry.slug]?.published ?? '—'}
+                </span>
+              ))}
+              <span class="day-regions">{regionCell(day)}</span>
+              <span class="day-total">{day.published}</span>
+            </summary>
+            <div class="day-detail">
+              <div class="metrics">
+                <div><b>{day.fetched}</b>{dict.fetched}</div>
+                <div><b>{day.afterDedup}</b>{dict.dedup}</div>
+                <div><b>{day.passed}</b>{dict.gate}</div>
+                <div><b>{day.published}</b>{dict.publishedItems}</div>
+              </div>
+              <p class="day-meta">
+                {formatDate(day.startedAt, locale, true)} · {Math.round(day.durationMs / 1000)}s
+                {day.supplement.triggered && ` · ${dict.supplement} ${day.supplement.items}`}
+              </p>
+            </div>
+          </details>
+        ))}
+      </section>
+    ) : (
+      <div class="empty"><strong>{dict.noRuns}</strong></div>
+    )
+  }
+
+  {
+    lookback.length > 0 && (
+      <section class="section">
+        <h2 class="lookback-title">{dict.regionCoverage}</h2>
+        <p class="lookback">
+          {lookback
+            .map((row) => `${regionName(row.slug, locale)} ${row.days}/${row.total}`)
+            .join(' · ')}
+        </p>
+      </section>
+    )
+  }
 </Base>
