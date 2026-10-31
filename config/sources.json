@@ -1,16 +1,17 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-30",
+  "updatedAt": "2026-10-31",
   "stats": {
-    "total": 67,
-    "rss": 28,
+    "total": 76,
+    "rss": 37,
     "scrape": 39,
     "byIndustry": {
-      "identity": 24,
+      "identity": 27,
       "payments": 25,
-      "telecom": 24
+      "telecom": 32,
+      "banking": 7
     },
-    "multiIndustry": 4,
+    "multiIndustry": 10,
     "disabled": 7
   },
   "sources": [
@@ -1337,6 +1338,186 @@
       "focus": "大型商户收单与令牌化落地，Visa/Mastercard 新规则的商户侧执行样本",
       "weight": 0.6,
       "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "mobiletime",
+      "name": "Mobile Time",
+      "url": "https://www.mobiletime.com.br",
+      "host": "mobiletime.com.br",
+      "industries": [
+        "telecom",
+        "banking"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.mobiletime.com.br/feed/"
+      },
+      "frequency": "每日多更",
+      "focus": "巴西电信与移动支付：eSIM 开通、Pix、数字钱包",
+      "weight": 0.8,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "dplnews",
+      "name": "DPL News",
+      "url": "https://dplnews.com",
+      "host": "dplnews.com",
+      "industries": [
+        "telecom",
+        "banking",
+        "identity"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://dplnews.com/feed/"
+      },
+      "frequency": "每日多更",
+      "focus": "拉美数字政策：频谱、数据保护、数字身份与支付监管",
+      "weight": 0.8,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "telesemana",
+      "name": "TeleSemana",
+      "url": "https://www.telesemana.com",
+      "host": "telesemana.com",
+      "industries": [
+        "telecom"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.telesemana.com/feed/"
+      },
+      "frequency": "每日",
+      "focus": "拉美运营商 eSIM、漫游与频谱的本地报道",
+      "weight": 0.8,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "itweb",
+      "name": "ITWeb",
+      "url": "https://www.itweb.co.za",
+      "host": "itweb.co.za",
+      "industries": [
+        "telecom",
+        "banking",
+        "identity"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.itweb.co.za/rss"
+      },
+      "frequency": "每日多更",
+      "focus": "南非运营商、银行科技与身份系统的招标与落地",
+      "weight": 0.75,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "comnews",
+      "name": "ComNews",
+      "url": "https://www.comnews.ru",
+      "host": "comnews.ru",
+      "industries": [
+        "telecom"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.comnews.ru/rss"
+      },
+      "frequency": "每日多更",
+      "focus": "俄罗斯与独联体运营商、eSIM 与频谱监管（俄文）",
+      "weight": 0.75,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "cbr-news",
+      "name": "Bank of Russia",
+      "url": "https://www.cbr.ru",
+      "host": "cbr.ru",
+      "industries": [
+        "banking"
+      ],
+      "type": "regulator",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.cbr.ru/rss/RssNews"
+      },
+      "frequency": "每日",
+      "focus": "俄罗斯支付系统、Mir 卡与发卡机构监管公告",
+      "weight": 0.7,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "tahawultech",
+      "name": "TahawulTech",
+      "url": "https://www.tahawultech.com",
+      "host": "tahawultech.com",
+      "industries": [
+        "telecom",
+        "identity",
+        "banking"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.tahawultech.com/feed/"
+      },
+      "frequency": "每周数篇",
+      "focus": "海湾地区数字身份、运营商与支付基础设施落地",
+      "weight": 0.7,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "ghanabusinessnews",
+      "name": "Ghana Business News",
+      "url": "https://www.ghanabusinessnews.com",
+      "host": "ghanabusinessnews.com",
+      "industries": [
+        "telecom",
+        "banking"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.ghanabusinessnews.com/feed/"
+      },
+      "frequency": "每日",
+      "focus": "加纳与西非的电信监管、移动支付与 SIM 实名",
+      "weight": 0.7,
+      "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "techmoran",
+      "name": "TechMoran",
+      "url": "https://techmoran.com",
+      "host": "techmoran.com",
+      "industries": [
+        "telecom",
+        "banking"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://techmoran.com/feed/"
+      },
+      "frequency": "每周数篇",
+      "focus": "非洲金融科技与移动网络的落地项目",
+      "weight": 0.65,
+      "evidenceCount": 1,
       "enabled": true
     }
   ]

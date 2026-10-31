@@ -26,6 +26,8 @@ jobs:
 
       - run: npm ci
 
+      # 只跑 rss 源：39 个 scrape 源的 selector 均未调通（实测 0/39 能取到条目），
+      # 全量跑只会固定产生 39 条失败，覆盖不了任何区域。调通后再放开。
       - name: Fetch enabled sources
         run: node scripts/fetch-sources.mjs --rss-only
 
