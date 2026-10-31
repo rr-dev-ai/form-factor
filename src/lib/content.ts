@@ -113,6 +113,11 @@ export function allRegions(item: NewsItem): string[] {
   return [item.region, ...item.regions.filter((r) => r !== item.region)];
 }
 
+/** 区域页与页内筛选用「全部区域」匹配，与覆盖统计口径不同 */
+export function byRegion(slug: string): NewsItem[] {
+  return publishedNews().filter((n) => allRegions(n).includes(slug));
+}
+
 /** 把带时区的时间归入站点时区的日期，用于日期归档页 */
 export function toDateKey(iso: string, timeZone = site.timeZone): string {
   return new Intl.DateTimeFormat('en-CA', {

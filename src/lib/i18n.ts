@@ -37,6 +37,8 @@ type Dict = {
   noUpdateHint: string;
   noIndustry: string;
   noIndustryHint: string;
+  noRegion: string;
+  noRegionHint: string;
   archiveTitle: string;
   archiveDesc: string;
   statusTitle: string;
@@ -94,6 +96,8 @@ export const ui: Record<Locale, Dict> = {
     noUpdateHint: '今日该行业没有通过质量门禁的内容，因此不发布。',
     noIndustry: '该行业暂无收录',
     noIndustryHint: '采集任务还没有在这个行业发布过内容，有合格条目后会出现在这里。',
+    noRegion: '该区域暂无收录',
+    noRegionHint: '采集任务还没有在这个区域发布过内容，有合格条目后会出现在这里。',
     archiveTitle: '归档',
     archiveDesc: '按日期查看每日收录的全部内容',
     statusTitle: '运行状态',
@@ -149,6 +153,8 @@ export const ui: Record<Locale, Dict> = {
     noUpdateHint: 'Nothing passed the quality gate for this industry today, so nothing was published.',
     noIndustry: 'Nothing in this sector yet',
     noIndustryHint: 'No item has passed the gate for this sector so far; qualifying ones will show up here.',
+    noRegion: 'Nothing in this region yet',
+    noRegionHint: 'No item has passed the gate for this region so far; qualifying ones will show up here.',
     archiveTitle: 'Archive',
     archiveDesc: 'Browse everything collected, by date',
     statusTitle: 'Status',
@@ -204,6 +210,8 @@ export const ui: Record<Locale, Dict> = {
     noUpdateHint: 'Hoy ningún contenido superó el control de calidad en este sector, por eso no se publicó nada.',
     noIndustry: 'Sin contenido en este sector',
     noIndustryHint: 'Todavía no se ha publicado nada en este sector; los elementos válidos aparecerán aquí.',
+    noRegion: 'Sin contenido en esta región',
+    noRegionHint: 'Todavía no se ha publicado nada en esta región; los elementos válidos aparecerán aquí.',
     archiveTitle: 'Archivo',
     archiveDesc: 'Todo lo recopilado, por fecha',
     statusTitle: 'Estado',
