@@ -73,6 +73,7 @@ const menuCurrent = (menu?: MenuItem[]) => !!menu && menu.some((item) => isCurre
       })();
     </script>
     <title>{fullTitle}</title>
+    <link rel="icon" type="image/svg+xml" href={href('/favicon.svg')} />
     <meta name="description" content={desc} />
     {!site.indexable && <meta name="robots" content="noindex, nofollow" />}
     <link rel="canonical" href={canonical} />

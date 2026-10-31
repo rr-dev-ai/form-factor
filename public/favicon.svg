@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <style>
+    .mark {
+      fill: none;
+      stroke: #0f6e56;
+    }
+    .dot {
+      fill: #0f6e56;
+    }
+    @media (prefers-color-scheme: dark) {
+      .mark {
+        stroke: #5dcaa5;
+      }
+      .dot {
+        fill: #5dcaa5;
+      }
+    }
+  </style>
+  <path class="mark" d="M16 3 29 16 16 29 3 16Z" stroke-width="2.6" stroke-linejoin="miter" />
+  <path class="dot" d="M16 10.5 21.5 16 16 21.5 10.5 16Z" />
+</svg>
