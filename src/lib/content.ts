@@ -1,9 +1,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { newsItemSchema, runRecordSchema, type NewsItem, type RunRecord } from './schema';
-import { tagName, tags } from '../config/taxonomy';
-import { regionIssues } from '../config/regions';
-import { site } from '../config/site';
+import { newsItemSchema, runRecordSchema, type NewsItem, type RunRecord } from './schema.ts';
+import { tagName, tags } from '../config/taxonomy.ts';
+import { regionIssues, coveredRegions, type Region, type RegionSlug } from '../config/regions.ts';
+import { site } from '../config/site.ts';
 
 const ROOT = process.cwd();
 const NEWS_DIR = path.join(ROOT, 'content', 'news');
@@ -120,6 +120,50 @@ export function toDateKey(iso: string, timeZone = site.timeZone): string {
 
 export function byDate(dateKey: string): NewsItem[] {
   return publishedNews().filter((n) => toDateKey(n.publishedAt) === dateKey);
+}
+
+/** 按日历日加减，输入输出都是站点时区的 YYYY-MM-DD */
+export function shiftDateKey(key: string, days: number): string {
+  const [y, m, d] = key.split('-').map(Number);
+  return new Date(Date.UTC(y, m - 1, d) + days * 86400000).toISOString().slice(0, 10);
+}
+
+/**
+ * 某天的区域覆盖。只按主区域统计——用 regions 统计会让一条七市场通稿
+ * 被算成七次覆盖。global 不计入门槛。
+ */
+export function coverageOf(
+  dateKey: string,
+  items: NewsItem[] = publishedNews()
+): { covered: Region[]; missing: Region[] } {
+  const present = new Set(
+    items.filter((i) => toDateKey(i.publishedAt) === dateKey).map((i) => i.region)
+  );
+  return {
+    covered: coveredRegions.filter((r) => present.has(r.slug)),
+    missing: coveredRegions.filter((r) => !present.has(r.slug)),
+  };
+}
+
+/** 以某天为终点，往前 days 个自然日里各区域各有几天有稿 */
+export function regionCoverage(
+  latestDateKey: string,
+  days: number,
+  items: NewsItem[] = publishedNews()
+): { slug: RegionSlug; days: number; total: number }[] {
+  const counts = new Map<string, number>();
+  for (let i = 0; i < days; i += 1) {
+    const key = shiftDateKey(latestDateKey, -i);
+    const present = new Set(
+      items.filter((it) => toDateKey(it.publishedAt) === key).map((it) => it.region)
+    );
+    for (const slug of present) counts.set(slug, (counts.get(slug) ?? 0) + 1);
+  }
+  return coveredRegions.map((r) => ({
+    slug: r.slug,
+    days: counts.get(r.slug) ?? 0,
+    total: days,
+  }));
 }
 
 export function allDateKeys(): string[] {
