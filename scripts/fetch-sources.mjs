@@ -1,5 +1,7 @@
 /**
  * 抓取 sources.json 中启用的源，输出原始条目到 content/_raw/YYYY-MM-DD.json。
+ * 文件名里的日期是**站点时区**（Asia/Shanghai）的日期，不是 UTC 日期：
+ * 定时任务在北京时间 00:20 跑，UTC 还停在前一天，用 UTC 命名会和归档页差一天。
  *
  * 每个源只有两种取链接的方式：
  *   rss    — 解析 feed（RSS 2.0 / Atom）
@@ -19,6 +21,19 @@ import { load } from 'cheerio';
 const ROOT = process.cwd();
 const CFG_PATH = path.join(ROOT, 'config', 'sources.json');
 const OUT_DIR = path.join(ROOT, 'content', '_raw');
+
+/** 站点时区。与 src/config/site.ts 的 site.timeZone 保持一致。 */
+const SITE_TZ = 'Asia/Shanghai';
+
+/** 按站点时区取日期（YYYY-MM-DD），不依赖运行机器的本地时区 */
+function siteDate(d) {
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: SITE_TZ,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).format(d);
+}
 
 const UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
@@ -195,8 +210,14 @@ async function pool(list, limit = 5) {
 
 const results = await pool(targets);
 
+// 同一个时刻同时决定 fetchedAt、fetchedFor 与文件名，避免跨越时区零点时三者不一致
+const now = new Date();
+const fetchedFor = siteDate(now);
+
 const payload = {
-  fetchedAt: new Date().toISOString(),
+  fetchedAt: now.toISOString(),
+  /** 本次抓取归属的站点日期。下游按这个字段找候选，不要靠文件名猜。 */
+  fetchedFor,
   stats: {
     total: results.length,
     ok: results.filter((r) => r.ok).length,
@@ -215,7 +236,7 @@ const payload = {
 };
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
-const outFile = path.join(OUT_DIR, `${new Date().toISOString().slice(0, 10)}.json`);
+const outFile = path.join(OUT_DIR, `${fetchedFor}.json`);
 fs.writeFileSync(outFile, JSON.stringify(payload, null, 2) + '\n', 'utf8');
 
 console.log(JSON.stringify(payload.stats, null, 2));

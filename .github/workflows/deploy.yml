@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'content/news/**'
+      - 'content/_meta/**'
       - 'src/**'
       - 'astro.config.mjs'
       - 'package.json'
