@@ -1,0 +1,106 @@
+{
+  "id": "2026-10-31-identity-01",
+  "slug": "turkiye-digital-id-wallet-2027-pilot-age-tokens",
+  "industry": "identity",
+  "tags": [
+    "mobile-id",
+    "national-id",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-31T06:15:00+08:00",
+  "ingestedAt": "2026-10-31T05:50:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202610/turkiye-plans-digital-id-wallet-pilot-for-2027-as-age-verification-expands",
+      "lang": "en",
+      "publishedAt": "2026-10-30T16:25:47+00:00"
+    }
+  ],
+  "title": {
+    "zh": "土耳其把国家数字身份钱包原型排进 2027 年计划，同时铺开年龄核验",
+    "en": "Türkiye puts a national digital ID wallet prototype into its 2027 programme alongside new age checks",
+    "es": "Turquía mete un prototipo de monedero de identidad digital en su programa de 2027 junto a nuevas verificaciones de edad"
+  },
+  "summary": {
+    "zh": "土耳其 2027 年总统年度计划列出国家数字身份钱包原型：先存放身份证件和学术毕业证，在一所大学试点；同期社交平台与烟草销售的年龄核验都要走国家政务门户。",
+    "en": "Türkiye's 2027 presidential annual programme lists a national digital identity wallet prototype holding basic ID documents and academic diplomas, piloted with a university, while age checks for social media and tobacco sales route through the national e-government gateway.",
+    "es": "El programa anual presidencial de 2027 en Turquía recoge un prototipo de monedero nacional de identidad digital con documentos básicos y diplomas académicos, probado en una universidad, mientras las verificaciones de edad en redes y tabaco pasan por el portal nacional de e-gobierno."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "钱包项目出现在土耳其 2027 年总统年度计划里，该计划 10 月 27 日刊登在国家公报上。按规划，钱包先存放基础身份证件和学术毕业证，并与一所未具名大学开展试点，优先服务公职人员，向公众开放的排期尚未公布。项目由国家网络安全局牵头，与内政部及其他负责数字化转型的机构共同推进。",
+        "en": "The wallet appears in Türkiye's 2027 presidential annual programme, published in the Official Gazette on 27 October. Under the plan it will initially hold basic identity documents and academic diplomas, piloted with an unnamed university and prioritising public employees; no timeline for general availability has been given. The Cybersecurity Presidency leads the project with the Ministry of Interior and other agencies responsible for parts of the country's digital transformation.",
+        "es": "El monedero figura en el programa anual presidencial de 2027, publicado en el Boletín Oficial el 27 de octubre. Según el plan, almacenará primero documentos básicos de identidad y diplomas académicos, con una prueba piloto en una universidad no identificada y prioridad para empleados públicos; no hay calendario de apertura general. La Presidencia de Ciberseguridad dirige el proyecto con el Ministerio del Interior y otros organismos de transformación digital."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "同期推进的政务门户与年龄核验",
+        "en": "The gateway and the age checks moving in parallel",
+        "es": "El portal y las verificaciones de edad avanzan en paralelo"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "e-Devlet 政务门户 2027 年目标：至少 7100 万注册用户、约 1 万项服务、7500 项移动服务",
+          "en": "e-Devlet targets for 2027: at least 71 million registered users, an estimated 10,000 services and 7,500 mobile services",
+          "es": "Objetivos de e-Devlet para 2027: al menos 71 millones de usuarios registrados, unas 10.000 servicios y 7.500 móviles"
+        },
+        {
+          "zh": "上个月该门户提供 9436 项服务，来自 1130 家机构；2 月注册用户已超 6800 万",
+          "en": "Last month the gateway offered 9,436 services from 1,130 institutions, and registered users passed 68 million in February",
+          "es": "El mes pasado ofrecía 9.436 servicios de 1.130 instituciones y en febrero superó los 68 millones de usuarios registrados"
+        },
+        {
+          "zh": "社交平台新规自 11 月 1 日起不得向 15 岁以下儿童提供账号；新用户须经 e-Devlet 核验年龄，存量账号须在 2027 年 3 月 31 日前完成核验",
+          "en": "From 1 November, social platforms may not offer accounts to children under 15; new users must verify age through e-Devlet, existing accounts by 31 March 2027",
+          "es": "Desde el 1 de noviembre las redes no podrán ofrecer cuentas a menores de 15 años; los nuevos usuarios verificarán la edad en e-Devlet y los existentes antes del 31 de marzo de 2027"
+        },
+        {
+          "zh": "年龄核验采用「年龄令牌」：只回答是否达到门槛，不向平台透露姓名与具体年龄",
+          "en": "The check uses an age token model built on data minimisation: it answers only whether a threshold is met, revealing neither name nor exact age",
+          "es": "La verificación usa un modelo de «token de edad» con minimización de datos: responde solo si se supera el umbral, sin revelar nombre ni edad exacta"
+        },
+        {
+          "zh": "烟草购买也拟上线电子销售与年龄核验系统：出示官方生成的二维码，核对身份证号判断满 18 岁，线上线下都覆盖，目标一年内落地",
+          "en": "Tobacco sales are set to use an Electronic Sales and Age Verification System: the buyer shows a QR code generated by the authority, matched against their national ID number to confirm they are 18, covering both physical and online sales within a year",
+          "es": "La venta de tabaco usaría un Sistema Electrónico de Venta y Verificación de Edad: el comprador muestra un QR generado por la autoridad, cruzado con su número de identidad para confirmar los 18 años, en tiendas y online, con un año de plazo"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这套打法的重点是先把「核验」做起来，再谈钱包载体。e-Devlet 早已成为事实上的身份来源：6800 万用户里，3390 万靠短信口令认证、3090 万靠国产密码信封认证。主管部门现在要把这套认证能力搬到两个新场景——平台年龄核验与零售当面核验,再由计划中的钱包承接更复杂的凭证。",
+        "en": "The sequencing matters: verification first, wallet later. e-Devlet is already the de facto identity source: of its 68 million users, 33.9 million authenticate by SMS password and 30.9 million through domestically issued password envelopes. The authorities are now extending that proofing capability into two new settings, online platform onboarding and point-of-sale age checks, with the planned wallet taking on richer credentials afterwards.",
+        "es": "El orden importa: primero la verificación, después el monedero. e-Devlet ya es la fuente de identidad de facto: de sus 68 millones de usuarios, 33,9 millones se autentican con contraseña por SMS y 30,9 millones con sobres de contraseña nacionales. Las autoridades extienden ahora esa capacidad a dos escenarios: alta en plataformas y verificación de edad en tienda, dejando para el futuro monedero las credenciales más complejas."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "约束在隐私与技术细节两头：年龄令牌、二维码核验与毕业证凭证的具体接口规范尚未公开，试点大学也未指定；公民隐私团体已对数据保护提出担忧，政府回应称会兼顾隐私。接下来要看 11 月 1 日社交核验的实际执行效果、2027 年上半年钱包试点范围的公布，以及是否会有明确的钱包接口标准开放给第三方",
+        "en": "Constraints sit on both the privacy and the technical side: interface specifications for the age token, the QR check and diploma credentials are not public, and the pilot university is unnamed; privacy groups have raised data-protection concerns, which the government says it will address. What comes next is how the 1 November social media check works in practice, disclosure of the pilot scope in the first half of 2027, and whether a formal wallet interface standard opens to third parties.",
+        "es": "Los límites están en la privacidad y en lo técnico: no son públicas las especificaciones de interfaz del token de edad, del control por QR ni de los diplomas, y no se ha designado la universidad piloto; los defensores de la privacidad han planteado dudas que el Gobierno dice atender. Lo siguiente es el resultado real de la verificación del 1 de noviembre, el alcance del piloto en la primera mitad de 2027 y si se abre un estándar formal de interfaz del monedero a terceros"
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "国家政务门户把部分认证能力当成公共设施向外接 ——先给平台端、再给收银端，证件方案商能接的项目从发卡／发证扩展到「属性核验」这一层。机会是年龄令牌与 QR 核验的接入改造、以及后续钱包原型需要的凭证格式适配；风险是技术规范不公开、试点范围窄，前期投入只能押运气。",
+    "en": "A national gateway is exposing part of its proofing capability as public infrastructure, first to platforms, then to the till, so credential vendors can bid beyond issuing into attribute verification. The opportunity is integration for age tokens and QR checks, plus credential formats for the coming wallet; the risk is unpublished specifications and a narrow pilot.",
+    "es": "Un portal nacional expone parte de su capacidad de verificación como infraestructura pública, primero para plataformas y luego para el punto de venta, así que los proveedores pueden ofrecer también verificación de atributos. La oportunidad es integrar tokens de edad y QR, y adaptar formatos al futuro monedero; el riesgo es que no haya especificaciones públicas y el piloto sea estrecho."
+  },
+  "confidence": 0.83,
+  "ai": {
+    "model": "claude-sonnet-4.5",
+    "promptVersion": "digest-v4-body"
+  }
+}

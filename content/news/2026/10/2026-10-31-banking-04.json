@@ -1,0 +1,97 @@
+{
+  "id": "2026-10-31-banking-04",
+  "slug": "idemia-emvco-pqc-payment-card-platform",
+  "industry": "banking",
+  "tags": [
+    "issuing",
+    "secure-chip"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-31T04:35:00+08:00",
+  "ingestedAt": "2026-10-31T04:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "IDEMIA Secure Transactions（公司公告）",
+      "url": "https://www.idemia.com/press-release/idemia-secure-transactions-enables-banks-prepare-cards-quantum-era-industry-first-certification-2026-10-29",
+      "lang": "en",
+      "publishedAt": "2026-10-29T13:46:59+00:00"
+    }
+  ],
+  "title": {
+    "zh": "IDEMIA 的支付卡平台获 EMVCo 认证，卡上可直接跑后量子算法",
+    "en": "IDEMIA's payment card platform is EMVCo-certified with post-quantum algorithms on the chip",
+    "es": "La plataforma de tarjetas de IDEMIA se certifica en EMVCo con algoritmos poscuánticos en el chip"
+  },
+  "summary": {
+    "zh": "IDEMIA Secure Transactions 的 Java Card 支付卡平台通过 EMVCo 认证，芯片内置后量子算法加速器，可在继续运行现有 EMV 支付应用的同时提供后量子算法与「换算法不换卡」的能力。",
+    "en": "IDEMIA Secure Transactions' Java Card payment platform has passed EMVCo certification with a hardware post-quantum accelerator on the chip, offering post-quantum algorithms and crypto-agility while still running today's EMV payment applications.",
+    "es": "La plataforma Java Card de IDEMIA Secure Transactions supera la certificación EMVCo con un acelerador poscuántico por hardware en el chip, y ofrece algoritmos poscuánticos y agilidad criptográfica sin dejar de ejecutar las aplicaciones EMV actuales."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "后量子密码（PQC）是一批被认为能扛住未来量子计算机攻击的新算法，卡组织与监管机构近两年开始要求各行为迁移做准备。卡片迁移比服务器难得多：一张卡发出去要用三到五年，芯片算力和存储都很有限，还必须和全球存量受理终端保持兼容。IDEMIA Secure Transactions 这次拿到的是 EMVCo 对平台本身的认证——即卡上运行的操作系统与运行环境，而不是某个具体支付应用的认证。",
+        "en": "Post-quantum cryptography is a family of algorithms designed to withstand attacks by future quantum computers, and schemes and regulators have pushed institutions to prepare for migration in the last two years. Cards are harder than servers: a card stays in the field for three to five years, its chip has tight compute and memory budgets, and it must stay compatible with the installed base of terminals. What IDEMIA Secure Transactions obtained is EMVCo certification of the platform itself, the card's operating environment, rather than of any single payment application.",
+        "es": "La criptografía poscuántica es un conjunto de algoritmos pensados para resistir ataques de futuros ordenadores cuánticos, y esquemas y reguladores llevan dos años pidiendo preparación. La tarjeta es más difícil que el servidor: vive de tres a cinco años, el chip tiene poca capacidad de cálculo y memoria, y debe seguir funcionando con el parque instalado de terminales. Lo que IDEMIA Secure Transactions obtuvo es la certificación EMVCo de la plataforma, el entorno operativo de la tarjeta, no de una aplicación de pago concreta."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "按其公告，这是 EMVCo 首次认证同时提供后量子算法与算法可替换能力的支付卡平台",
+          "en": "Per its announcement, this is the first EMVCo-certified card platform providing both post-quantum algorithms and crypto-agility",
+          "es": "Según su anuncio, es la primera plataforma de tarjeta certificada por EMVCo que ofrece a la vez algoritmos poscuánticos y agilidad criptográfica"
+        },
+        {
+          "zh": "芯片由 IDEMIA 自研，带专用后量子硬件加速器，配套 Sphere PQC 算法库",
+          "en": "The chip is designed by IDEMIA and carries a dedicated post-quantum hardware accelerator, paired with the Sphere PQC algorithm library",
+          "es": "El chip está diseñado por IDEMIA e incorpora un acelerador poscuántico por hardware, junto a la librería Sphere PQC"
+        },
+        {
+          "zh": "支持 NIST 已标准化的 ML-KEM（密钥协商）与 ML-DSA（数字签名）",
+          "en": "It supports the NIST-standardised ML-KEM for key establishment and ML-DSA for digital signatures",
+          "es": "Admite ML-KEM (establecimiento de claves) y ML-DSA (firma digital), ya estandarizados por NIST"
+        },
+        {
+          "zh": "同一平台还能承载 FIDO 认证、数字身份凭证与会员权益，可在发卡时写入或后续加载",
+          "en": "The same platform can host FIDO authentication, digital identity credentials and loyalty, loaded at issuance or later in the card's life",
+          "es": "La misma plataforma puede alojar autenticación FIDO, credenciales de identidad digital y fidelización, cargadas en la emisión o después"
+        },
+        {
+          "zh": "公司 CTO Marc Bertin 称，现在发卡时的选择决定了几年后支付基础设施的安全水位",
+          "en": "CTO Marc Bertin said the decisions taken now determine how prepared payment infrastructure will be years from now",
+          "es": "El director técnico Marc Bertin afirmó que las decisiones de hoy determinan la preparación de la infraestructura de pago dentro de unos años"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "约束要看清：认证覆盖的是平台能力，不等于 EMV 规范已经规定支付交易必须使用后量子算法，卡组织尚未给出离线支付的迁移时间表，认证也不自动带来终端侧兼容。在规范落地前，这张卡的实际价值是「算法可替换」——发行人现在发卡，将来不用换卡就能切算法，避免被锁死在旧方案上。",
+        "en": "The limits are worth stating plainly: the certification covers platform capability, not an EMV rule that payment transactions must use post-quantum algorithms. The schemes have not published a migration timetable for offline payments, and certification does not by itself deliver terminal-side compatibility. Until the specifications land, the practical value is crypto-agility — an issuer shipping cards today can switch algorithms later without reissuing, avoiding lock-in to an ageing scheme.",
+        "es": "Conviene precisar los límites: la certificación cubre la capacidad de la plataforma, no una norma EMV que obligue a usar algoritmos poscuánticos en el pago. Los esquemas no han publicado un calendario de migración para pagos offline y la certificación no garantiza por sí sola la compatibilidad en terminal. Hasta que lleguen las especificaciones, el valor real es la agilidad criptográfica: quien emita hoy podrá cambiar de algoritmo sin reemitir tarjetas y evitará quedar atrapado en un esquema antiguo."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "接下来要看三件事：EMVCo 何时把后量子算法写进支付规范、各家卡组织给出的离线交易迁移时间点、以及发卡行是否愿意为「未来可换算法」支付当下的溢价。决定权在规范与发卡行，供应商现在能做的是把个人化、密钥管理与多应用加载的对接准备到位。",
+        "en": "Three things come next: when EMVCo writes post-quantum algorithms into the payment specifications, what migration dates the schemes set for offline transactions, and whether issuers will pay today's premium for the option to swap algorithms later. Those calls sit with the specifications and the issuers; what suppliers can do now is get personalisation, key management and multi-application loading ready for integration.",
+        "es": "Tres cosas vienen ahora: cuándo incorporará EMVCo los algoritmos poscuánticos a las especificaciones de pago, qué fechas fijarán los esquemas para las transacciones offline y si los emisores pagarán hoy la prima por poder cambiar de algoritmo después. Esas decisiones son de las especificaciones y de los emisores; lo que el proveedor puede hacer ya es dejar lista la personalización, la gestión de claves y la carga de múltiples aplicaciones."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "「换算法不换卡」一旦成为发卡行选平台的硬指标，存量卡片平台就要重新评估：不支持算法替换的旧平台在续约时会掉价，支持多应用（支付＋FIDO＋身份凭证）的平台拿到更多单卡价值。机会在个人化、密钥管理与多应用加载的改造；风险是规范未定，过早按某家私有实现投入可能在标准落地后返工。",
+    "en": "If swapping algorithms without reissuing becomes a hard requirement, incumbents without crypto-agility lose value at renewal, while platforms hosting payment plus FIDO plus identity credentials earn more per card. The opportunity is personalisation and multi-application loading; the risk is that with specifications unsettled, building against one vendor's private implementation needs rework.",
+    "es": "Si cambiar de algoritmo sin reemitir se vuelve requisito, las plataformas sin agilidad criptográfica pierden valor en la renovación y las que alojan pago, FIDO y credenciales de identidad ganan valor por tarjeta. La oportunidad está en personalización y carga de aplicaciones; el riesgo es que, sin especificaciones cerradas, apostar por la implementación privada de un fabricante obligue a rehacer."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "claude-sonnet-4.5",
+    "promptVersion": "digest-v4-body"
+  }
+}

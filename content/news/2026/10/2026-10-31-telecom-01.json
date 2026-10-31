@@ -1,0 +1,92 @@
+{
+  "id": "2026-10-31-telecom-01",
+  "slug": "rogers-satellite-d2d-roaming-pacific",
+  "industry": "telecom",
+  "tags": [
+    "satellite",
+    "roaming"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-31T03:35:00+08:00",
+  "ingestedAt": "2026-10-31T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Mobile World Live",
+      "url": "https://www.mobileworldlive.com/asia-pacific/rogers-expands-d2d-roaming-reach/",
+      "lang": "en",
+      "publishedAt": "2026-10-30T11:49:21+00:00"
+    }
+  ],
+  "title": {
+    "zh": "Rogers 把卫星直连漫游扩到澳大利亚、新西兰和日本，可用境外市场增至四个",
+    "en": "Rogers extends satellite direct-to-device roaming to Australia, New Zealand and Japan",
+    "es": "Rogers extiende la itinerancia satelital directa a Australia, Nueva Zelanda y Japón"
+  },
+  "summary": {
+    "zh": "加拿大运营商 Rogers 为卫星直连（D2D）业务签下新一批漫游协议，用户在澳大利亚、新西兰和日本也能使用，境外可用市场因此增至四个。",
+    "en": "Canadian operator Rogers signed a new batch of roaming agreements for its satellite direct-to-device service, adding Australia, New Zealand and Japan and taking the number of available overseas markets to four.",
+    "es": "El operador canadiense Rogers cerró nuevos acuerdos de itinerancia para su servicio satelital directo al dispositivo, sumando Australia, Nueva Zelanda y Japón y elevando a cuatro los mercados disponibles en el extranjero."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "卫星直连（D2D，direct-to-device）是指普通手机在没有地面信号的区域，直接连到低轨卫星上收发消息。今年 10 月 30 日报道的这批协议，让 Rogers Satellite 的用户在澳大利亚、新西兰和日本也能用上，加上今年早前与美国 T-Mobile 的漫游协议，Rogers 用户可用的境外市场达到四个。日本一侧看起来是与 KDDI 合作——KDDI 今年早前选择了 Rogers 为它的 D2D 用户提供漫游。",
+        "en": "Direct-to-device means an ordinary handset reaching a low-earth-orbit satellite directly to send messages where there is no terrestrial coverage. The agreements reported on 30 October extend Rogers Satellite to Australia, New Zealand and Japan; with the T-Mobile US roaming deal struck earlier this year, Rogers users can use the service in four overseas markets. The Japan leg appears to run through KDDI, which earlier this year tapped Rogers to provide roaming access for its own D2D users.",
+        "es": "Directo a dispositivo significa que un móvil normal se conecta directamente a un satélite de órbita baja para enviar mensajes donde no hay cobertura terrestre. Los acuerdos del 30 de octubre extienden Rogers Satellite a Australia, Nueva Zelanda y Japón; con el pacto de itinerancia con T-Mobile US de principios de año, los clientes de Rogers tienen cuatro mercados en el extranjero. El tramo japonés parece pasar por KDDI, que este año eligió a Rogers para dar itinerancia a sus usuarios D2D."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "新覆盖：澳大利亚、新西兰、日本；境外可用市场合计四个",
+          "en": "New coverage: Australia, New Zealand and Japan, taking overseas markets to four in total",
+          "es": "Nueva cobertura: Australia, Nueva Zelanda y Japón; en total cuatro mercados en el extranjero"
+        },
+        {
+          "zh": "服务内容：短信，以及 Facebook Messenger、X、WhatsApp 等应用；谷歌地图与 AllTrails；AccuWeather 天气",
+          "en": "What works: messaging plus apps including Facebook Messenger, X and WhatsApp; Google and AllTrails maps; AccuWeather forecasts",
+          "es": "Qué funciona: mensajería y aplicaciones como Facebook Messenger, X y WhatsApp; mapas de Google y AllTrails; previsión de AccuWeather"
+        },
+        {
+          "zh": "资费门槛：Rogers Ultimate 套餐用户可用，部分 Roam Like Home 与 Travel Pass 选项也包含在内",
+          "en": "Who gets it: customers on Rogers' Ultimate plans, plus certain Roam Like Home and Travel Pass options",
+          "es": "Quién lo tiene: clientes de planes Ultimate de Rogers y algunas opciones Roam Like Home y Travel Pass"
+        },
+        {
+          "zh": "这种方式不需要换手机，出境漫游体验依赖运营商之间的双边协议逐国谈成",
+          "en": "No new handset is needed, but coverage abroad depends on bilateral deals negotiated country by country",
+          "es": "No hace falta cambiar de móvil, pero la cobertura en el exterior depende de acuerdos bilaterales negociados país por país"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "对这条链上的人来说，有意思的不是「又多了一个运营商上线」，而是卫星直连的漫游靠双边协议一国一国摊开：每个新市场都要谈成运营商配对、确认卫星频段在当地可用、并把计费和漫游撮合接到既有计费系统里。Rogers 与 KDDI 的安排是双向的，谁的用户落到对方网络都由对方提供接入，这类双向互惠正是后续扩张的主要形式。",
+        "en": "For anyone on this chain, the interesting part is not one more operator going live but how satellite roaming expands: country by country through bilateral deals, each requiring a partner operator, confirmation that satellite spectrum may be used locally, and billing and roaming settlement wired into existing systems. The Rogers-KDDI arrangement runs both ways, with each side carrying the other's subscribers, a reciprocity pattern likely to shape further expansion.",
+        "es": "Para quien trabaja en esta cadena, lo interesante no es un operador más en vivo, sino cómo se expande la itinerancia satelital: país a país, con acuerdos bilaterales que exigen un operador socio, confirmar que el espectro satelital puede usarse localmente y conectar facturación y liquidación de itinerancia a los sistemas existentes. El acuerdo Rogers-KDDI es bidireccional, cada parte da acceso a los clientes de la otra, un patrón de reciprocidad que probablemente marque la expansión."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "约束也很清楚：只在特定套餐开放、服务目前限于消息类与少量应用，语音和高速数据仍不在范围内；境外可用还受当地监管是否允许卫星频段落地影响，这一点运营商无法单方面决定。下一步看 Rogers 是否继续签新的双边协议，以及各国监管部门对卫星直连频谱的态度——后者才是决定扩张速度的变量。",
+        "en": "The constraints are clear: access is limited to specific plans, today's service covers messaging and a handful of apps rather than voice or high-speed data, and overseas availability still depends on whether local regulators permit satellite spectrum to be used in their territory, something operators cannot decide alone. What follows is whether Rogers keeps signing bilateral deals and how national regulators treat satellite spectrum — the latter sets the pace of expansion.",
+        "es": "Los límites están claros: el acceso se limita a planes concretos, el servicio cubre mensajería y pocas aplicaciones, no voz ni datos de alta velocidad, y la disponibilidad en el exterior depende de que el regulador local permita usar espectro satelital en su territorio, algo que el operador no decide por sí solo. Lo siguiente es ver si Rogers sigue firmando acuerdos bilaterales y cómo tratan los reguladores el espectro satelital: eso marca la velocidad de expansión."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "每新增一个卫星直连漫游市场，就要做一次配对运营商、漫游撮合、计费与套餐权益的对接，这些是运营商会外包的活。机会在漫游结算与多套餐权益配置、以及在eSIM／SIM 资料里给卫星承载做无损切换；风险是这个市场靠双边协议逐个推进，节奏由监管批文决定，排产很难做长期承诺。",
+    "en": "Every new satellite roaming market needs a partner operator, roaming settlement, billing and plan entitlement wired up, and much of it gets outsourced. The opportunity is settlement, multi-plan entitlement configuration and switching the satellite bearer inside the SIM/eSIM profile; the risk is that progress runs on bilateral deals timed by regulators, so long-term production commitments are hard.",
+    "es": "Cada nuevo mercado de itinerancia satelital exige conectar un socio, liquidar la itinerancia, facturar y configurar derechos por plan; buena parte se subcontrata. La oportunidad: liquidación, derechos por plan y conmutar el portador satelital dentro del perfil SIM/eSIM. El riesgo es que el avance dependa de acuerdos bilaterales sujetos a reguladores, e impide comprometer producción a largo plazo."
+  },
+  "confidence": 0.79,
+  "ai": {
+    "model": "claude-sonnet-4.5",
+    "promptVersion": "digest-v4-body"
+  }
+}

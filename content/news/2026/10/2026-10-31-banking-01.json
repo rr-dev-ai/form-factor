@@ -1,0 +1,92 @@
+{
+  "id": "2026-10-31-banking-01",
+  "slug": "visa-mastercard-honor-all-cards-settlement",
+  "industry": "banking",
+  "tags": [
+    "scheme-rules",
+    "acquiring"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-31T04:35:00+08:00",
+  "ingestedAt": "2026-10-31T04:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Payments Dive",
+      "url": "https://www.paymentsdive.com/news/will-ditching-honor-all-cards-rule-matter-visa-mastercard-amex/873187/",
+      "lang": "en",
+      "publishedAt": "2026-10-29T14:54:00-04:00"
+    }
+  ],
+  "title": {
+    "zh": "Visa 与万事达拟在和解中放弃「全卡受理」规则，商户可按产品线挑卡",
+    "en": "Visa and Mastercard would drop the honor-all-cards rule under a proposed merchant settlement",
+    "es": "Visa y Mastercard dejarían sin efecto la regla de aceptar todas las tarjetas en un acuerdo propuesto"
+  },
+  "summary": {
+    "zh": "两家卡组织在与商户长达二十年的诉讼和解中同意取消「受理一张就得受理全部」的规则，理论上商户可以只收部分卡、对高费率卡加收附加费；和解仍需联邦法官批准。",
+    "en": "The two networks agreed to give up the rule that accepting one card means accepting them all, letting merchants in principle take some cards and surcharge others; a federal judge still has to approve the deal.",
+    "es": "Las dos redes aceptan renunciar a la regla por la que aceptar una tarjeta implica aceptarlas todas, lo que en teoría permite al comercio elegir tarjetas y recargar las caras; falta la aprobación de un juez federal."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "「全卡受理」（honor all cards）是 Visa 与万事达沿用多年的受理规则：商户只要接受该品牌的任一产品，就必须接受其全部产品。这意味着高交换费的顶级信用卡必须和低费率的借记卡一并受理。在 10 月 29 日报道的这份和解中，两家卡组织为终结商户集体诉讼同意删除这条规则，美国运通不是诉讼当事方，不受直接约束。",
+        "en": "Honor all cards is the long-standing acceptance rule of Visa and Mastercard: take one product of a brand and you must take every product of that brand. In practice, a merchant accepting cheap debit also had to accept premium cards carrying higher interchange. In the settlement reported on 29 October, the two networks agreed to delete that rule to end two decades of merchant litigation. American Express is not party to the case and is not directly bound.",
+        "es": "La regla de «aceptar todas las tarjetas» obliga al comercio a aceptar todos los productos de una marca si acepta uno. En la práctica, quien aceptaba débito barato debía aceptar también tarjetas premium con mayor intercambio. En el acuerdo difundido el 29 de octubre, las dos redes aceptan eliminar esa regla para cerrar veinte años de litigios. American Express no es parte del caso y no queda directamente obligada."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "和解方案去年由双方律师提出，目前仍待联邦法官最终批准，尚未生效",
+          "en": "The pact was offered by both sides' lawyers last year and still awaits a federal judge's final approval",
+          "es": "El pacto se presentó el año pasado y aún espera la aprobación definitiva de un juez federal"
+        },
+        {
+          "zh": "规则取消后，商户在理论上可以对某些卡种加收附加费",
+          "en": "Once the rule goes, merchants would in principle be freer to surcharge expensive card products",
+          "es": "Sin la regla, el comercio tendría en teoría más margen para recargar los productos caros"
+        },
+        {
+          "zh": "美国运通 CEO 公开表示执行难度大，认为消费者会反感被拒卡",
+          "en": "The Amex CEO said publicly it will be hard to execute and predicted consumer backlash over rejected cards",
+          "es": "El consejero delegado de Amex dijo públicamente que será difícil ejecutarlo y auguró rechazo del consumidor"
+        },
+        {
+          "zh": "部分商户已表态反对这份和解，认为取消该规则意义有限",
+          "en": "Some merchants oppose the settlement, arguing that dropping the rule delivers little",
+          "es": "Algunos comercios rechazan el acuerdo porque consideran que eliminar la regla aporta poco"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "行业一线的判断是「结果可能不如商户预期」。前卡组织高管、现为商户提供咨询的 Dan Stiel 认为这是一项「空洞的收益」：在收银台前让顾客翻钱包找一张能用的卡，既拖慢队伍又伤体验；而持有高权益卡的客户往往客单价更高，为省手续费把他们拒之门外并不划算。要达到靠低费率省出钱的规模，需要极高的交易量，中小商户够不到。",
+        "en": "Practitioners read the outcome as smaller than merchants expected. Dan Stiel, a former card executive who now advises merchants, calls it an empty benefit: asking shoppers at the till to dig for a card the clerk may not recognise slows the queue and sours the experience, while elite cardholders tend to carry larger baskets, so turning them away to save interchange is shortsighted. The savings only stack up at volumes most mid-sized merchants never reach.",
+        "es": "Los profesionales lo ven menor de lo que esperaban los comercios. Dan Stiel, exejecutivo de tarjetas y hoy asesor de comercios, lo califica de beneficio vacío: pedir al cliente que busque una tarjeta que el cajero quizá no reconozca retrasa la cola y empeora la experiencia, y los tenedores premium suelen gastar más, así que rechazarlos para ahorrar intercambio es corto de miras. El ahorro solo compensa con volúmenes que la mayoría no alcanza."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "约束在两处：一是法官批不批、商户反对会不会推翻条款；二是即便规则生效，真正执行权仍在商户，谁也不愿先动手承担体验损失。下一步看三件事——法院是否批准和解、受理端的差别受理与附加费是否会进入 POS 或收单机构的参数配置、以及是否有商户集团公开反对并要求修改条款。",
+        "en": "Two constraints matter: whether the judge approves the deal despite merchant objections, and the fact that even once the rule falls, execution sits with merchants who are unwilling to be first to take the blame for a worse checkout. What follows is worth tracking — the court's ruling, whether differential acceptance and surcharging surface as configurable options in POS and acquirer setups, and whether merchant groups openly push to reopen the terms.",
+        "es": "Hay dos frenos: que el juez apruebe pese a la oposición del comercio, y que, aun vigente, la ejecución queda en manos de comercios que no quieren ser los primeros en asumir el coste de una peor experiencia. Conviene seguir tres cosas: la decisión judicial, si la aceptación diferencial y el recargo llegan como opciones configurables en el POS o en el adquirente, y si los grupos de comercio piden reabrir los términos."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这条规则一旦真正放开，受理端就要能按卡产品做判断——POS 与收单平台需要支持按卡号区间区分受理与否、差别附加费和事后举证，零售商可能会为此单独采购。机会在受理侧的路由与附加费配置能力；风险是政策尚未落地就投入改造，法官不批或商户不用，投入无法回收。",
+    "en": "If the rule really opens up, acceptance must decide per card product: POS and acquiring platforms need to accept or decline by card range, apply differential surcharges and keep evidence, work merchants may buy separately. The opportunity is acceptance-side routing and surcharge configuration; the risk is rebuilding for a policy that never takes effect, so the spend is unrecoverable.",
+    "es": "Si la regla se abre de verdad, la aceptación debe decidir por producto: el POS y la plataforma de adquirencia necesitan aceptar o rechazar por rango de tarjeta, aplicar recargos diferenciales y conservar evidencia, algo que el comercio podría comprar aparte. La oportunidad está en el enrutamiento y la configuración de recargos; el riesgo es invertir en una norma que quizá nunca entre en vigor"
+  },
+  "confidence": 0.82,
+  "ai": {
+    "model": "claude-sonnet-4.5",
+    "promptVersion": "digest-v4-body"
+  }
+}

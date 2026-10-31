@@ -1,0 +1,110 @@
+{
+  "id": "2026-10-31-banking-02",
+  "slug": "hmrc-mandatory-epos-software-standards",
+  "industry": "banking",
+  "tags": [
+    "acquiring",
+    "fraud"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-31T04:35:00+08:00",
+  "ingestedAt": "2026-10-31T04:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Payments Industry Intelligence",
+      "url": "https://paymentsindustryintelligence.com/uk-moves-to-mandate-pos-software-standards-effectively/",
+      "lang": "en",
+      "publishedAt": "2026-10-29T09:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "英国将对 POS 收银软件设定强制标准，交易记录不可悄悄改写",
+    "en": "The UK moves to mandatory POS software standards so sales records cannot be quietly altered",
+    "es": "Reino Unido prepara estándares obligatorios para el software de TPV: el registro de ventas no se podrá alterar"
+  },
+  "summary": {
+    "zh": "英国税务海关总署确认方向：为电子与移动 POS 系统引入强制软件标准，打击「电子销售抑制」——即篡改或隐藏零售交易记录以少报税款的做法。",
+    "en": "HM Revenue & Customs has confirmed its direction: mandatory software standards for electronic and mobile point-of-sale systems, aimed at electronic sales suppression, the practice of altering or hiding retail transaction records to under-report tax.",
+    "es": "El fisco británico confirma el rumbo: estándares de software obligatorios para TPV electrónicos y móviles contra la supresión electrónica de ventas, alterar u ocultar registros de transacciones para declarar menos impuestos."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "英国税务海关总署在 6 月启动咨询后确认了政策方向：要管的是「电子销售抑制」——商户通过改动或删除销售记录来少报税。过去主要靠事后稽查发现，现在要把防线做进软件本身。适用范围是电子 POS（EPOS）与移动 POS（MPOS）系统，包括 softPOS 这类跑在通用设备上的收银应用，覆盖的是英国本地零售场景。",
+        "en": "After a consultation launched in June, HM Revenue & Customs confirmed the policy direction. The target is electronic sales suppression: merchants tampering with or deleting sales records to under-report tax. Historically this was caught by investigation after the fact; the defence now moves into the software itself. Scope covers electronic and mobile point-of-sale systems, including SoftPOS-style checkout apps running on general-purpose devices, within UK retail.",
+        "es": "Tras una consulta abierta en junio, el fisco británico confirma el rumbo. El objetivo es la supresión electrónica de ventas: comercios que manipulan o borran registros de venta para declarar menos. Antes se detectaba con inspecciones a posteriori; ahora la defensa se integra en el propio software. El ámbito cubre TPV electrónicos y móviles, incluidas las aplicaciones tipo SoftPOS que corren en dispositivos genéricos, en el retail británico."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "时间表与未定项",
+        "en": "Timeline and open questions",
+        "es": "Calendario y puntos abiertos"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "更细的技术提案放在 2027 年夏天的第二轮咨询，届时才有可落地的具体条款",
+          "en": "Detailed technical proposals come in a second consultation in summer 2027; only then will there be concrete clauses to build against",
+          "es": "Las propuestas técnicas detalladas llegan en una segunda consulta en el verano de 2027; solo entonces habrá cláusulas concretas"
+        },
+        {
+          "zh": "备选技术手段包括数字签名、哈希与交易密码链，用于发现未经察觉的改动",
+          "en": "Candidate techniques include digital signatures, hashing and cryptographic transaction chaining to expose undetected manipulation",
+          "es": "Las técnicas candidatas incluyen firma digital, hash y encadenamiento criptográfico para detectar manipulación inadvertida"
+        },
+        {
+          "zh": "数据导出可能标准化，候选格式之一是税务标准审计文件 SAF-T，但尚未选定",
+          "en": "Data export may be standardised, with the Standard Audit File for Tax a candidate format, though no final model is chosen",
+          "es": "La exportación de datos podría estandarizarse, con el fichero SAF-T como candidato, sin modelo definitivo elegido"
+        },
+        {
+          "zh": "认证模式仍在评估，范围从厂商自我声明到第三方独立评估",
+          "en": "Certification models are still being weighed, ranging from manufacturer self-declaration to independent third-party assessment",
+          "es": "Los modelos de certificación siguen en estudio, desde la autodeclaración del fabricante hasta la evaluación independiente"
+        },
+        {
+          "zh": "尚无强制实施日期，现阶段不要求任何商户改动系统",
+          "en": "No mandatory compliance date exists yet and businesses are not currently required to change their systems",
+          "es": "No hay fecha obligatoria de cumplimiento y hoy nadie está obligado a cambiar sus sistemas"
+        },
+        {
+          "zh": "最终要通过未来的财政法案立法，目前正在等待 consulta 结束后起草",
+          "en": "It will ultimately be legislated through a future Finance Bill once the technical framework is drafted",
+          "es": "Al final se legislará mediante una futura Ley de Finanzas, una vez redactado el marco técnico"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "咨询收到的反馈总体支持，但强调三条边界：框架要与现有零售流程兼容、保持技术中立、对小软件厂商和小商户的成本要成比例。尚未解决的技术难点集中在未完成的交易、退款、取消与作废如何计入，以及小票是否要带统一编号或二维码。商家则在问一件事：现有系统是升级还是必须换掉。",
+        "en": "Consultation feedback broadly backed tougher controls but drew three boundaries: compatibility with existing retail workflows, technological neutrality, and proportionality of cost for smaller software vendors and merchants. Unresolved technical questions cluster around unfinished transactions, refunds, cancellations and voids, and whether receipts should carry standardised references or QR codes. The question merchants keep asking is whether their existing systems can be upgraded rather than replaced.",
+        "es": "Las respuestas a la consulta respaldan en general controles más duros, pero marcan tres límites: compatibilidad con los procesos actuales del retail, neutralidad tecnológica y proporcionalidad del coste para pequeños fabricantes de software y comercios. Las dudas técnicas sin resolver se concentran en transacciones incompletas, reembolsos, cancelaciones y anulaciones, y en si el recibo debe llevar referencias o códigos QR normalizados. La pregunta recurrente del comercio es si podrá actualizar su sistema o tendrá que sustituirlo."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "约束很明确：这是方向性确认而非成文规则，真实条款要等 2027 年夏天的咨询文本和后续财政法案。现阶段能做的是把交易记录、审计留痕、安全与数据导出四项能力盘点清楚，判断现有产品能否通过升级满足，而不是等条文出来再返工。",
+        "en": "The constraint is clear: this is a direction, not a rule on the books — binding clauses await the summer 2027 consultation and a later Finance Bill. The useful work now is auditing four capabilities, transaction recording, audit trail, security and data export, and judging whether current products can be upgraded rather than reworked once the text lands.",
+        "es": "El límite es claro: esto es una dirección, no una norma vigente; las cláusulas vinculantes esperan a la consulta del verano de 2027 y a una ley posterior. Lo útil hoy es auditar cuatro capacidades: registro de transacciones, trazabilidad de auditoría, seguridad y exportación de datos, y valorar si el producto actual puede actualizarse en lugar de rehacerse cuando llegue el texto."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "一旦成法，收银软件就必须自带防篡改记录能力，合规变成产品的一部分，低端 POS 与软 POS 若做不到防篡改留痕，会被挤出英国零售。机会在哈希／签名留痕、标准导出与配套的第三方认证；风险是认证模式未定、时间表压到 2027 年后，提前投入可能踩错技术要求。",
+    "en": "Once legislated, checkout software must carry tamper-evident records, making compliance part of the product and pushing out entry-level POS and SoftPOS that cannot meet it. The opportunity is hashing and signature trails, standard export and matching certification; the risk is an undecided certification model and a timeline slipping past 2027, so early build-out may target the wrong rule.",
+    "es": "Cuando se legisle, el software de cobro deberá incluir registro a prueba de manipulación, lo que convierte el cumplimiento en parte del producto y deja fuera al POS y SoftPOS básico. La oportunidad está en trazas de hash y firma, exportación estándar y certificación acorde; el riesgo es que el modelo de certificación no esté definido y el calendario pase de 2027, apuntando al requisito equivocado."
+  },
+  "confidence": 0.84,
+  "ai": {
+    "model": "claude-sonnet-4.5",
+    "promptVersion": "digest-v4-body"
+  }
+}

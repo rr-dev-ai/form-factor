@@ -1,5 +1,181 @@
 [
   {
+    "date": "2026-10-31",
+    "industry": "banking",
+    "startedAt": "2026-10-31T01:40:46+08:00",
+    "durationMs": 1284567,
+    "fetched": 25,
+    "afterDedup": 16,
+    "passed": 4,
+    "published": 4,
+    "rejected": [
+      {
+        "title": "FTC, states sue Toast over fees",
+        "reason": "诉讼进展，受理规则未变"
+      },
+      {
+        "title": "Elavon pursues Paze, agentic commerce",
+        "reason": "收单机构商业动作，无规则或机制变化"
+      },
+      {
+        "title": "Ripple Wins Final OCC Approval to Launch National Trust Bank",
+        "reason": "公司牌照事项，不改变发卡、收单或清算机制"
+      },
+      {
+        "title": "Visa and Mastercard Face £5bn UK Class Action Over Interchange Fees",
+        "reason": "诉讼进展，规则未变"
+      },
+      {
+        "title": "Remitiva Launches Instant Card Payouts to 140 Countries",
+        "reason": "公司产品发布，无机制变化"
+      },
+      {
+        "title": "Riksbank Reopens E-Krona Debate",
+        "reason": "仍处讨论阶段，无决定"
+      },
+      {
+        "title": "HSBC launches RedCoin stablecoin",
+        "reason": "公司产品发布，未改变受理或清算规则"
+      },
+      {
+        "title": "Amex nabs new risk chief",
+        "reason": "人事变动"
+      },
+      {
+        "title": "Liability looms over AI shopping",
+        "reason": "Money20/20 圆桌与访谈汇总，无明确规则变更或生效日期"
+      },
+      {
+        "title": "Settling cross-border payments remains tough",
+        "reason": "会议观点汇总，无具体机制变更"
+      }
+    ],
+    "failedSources": [
+      {
+        "name": "GSMA Newsroom / RCR Wireless News",
+        "stage": "fetch",
+        "error": "RSS 返回 0 条，本周无新条目或索引未更新"
+      }
+    ],
+    "costUsd": 0
+  },
+  {
+    "date": "2026-10-31",
+    "industry": "telecom",
+    "startedAt": "2026-10-31T01:40:46+08:00",
+    "durationMs": 1284567,
+    "fetched": 74,
+    "afterDedup": 18,
+    "passed": 1,
+    "published": 1,
+    "rejected": [
+      {
+        "title": "FCC outlines plan to auction 25MHz of spectrum for D2D, mobile",
+        "reason": "与既有 fcc-d2d-rules-modernization-nprm 重复"
+      },
+      {
+        "title": "India issues draft guidelines for AI use in telecoms",
+        "reason": "属 AI 治理规则，不涉及 SIM/漫游/卫星直连等凭证机制"
+      },
+      {
+        "title": "Telefonica, Minsait deliver digital euro set-up",
+        "reason": "供应商中标，属商业合同"
+      },
+      {
+        "title": "Openreach warns thousands could lose phone service in PSTN switch-off",
+        "reason": "与凭证形态无关"
+      },
+      {
+        "title": "Your devices cross borders. Does your SIM?",
+        "reason": "厂商赞助的分析简报，无具体事件"
+      },
+      {
+        "title": "TCA: IoT eSIM (SGP.32): A Technical Guide",
+        "reason": "技术指南而非事件，且早于时效窗口"
+      },
+      {
+        "title": "Keysight and KTL advance NR-NTN validation for satellite connectivity",
+        "reason": "厂商测试合作，属商业能力发布"
+      },
+      {
+        "title": "FCC sets vote to clamp down on contraband cellphones",
+        "reason": "终端管制，与凭证机制无关"
+      },
+      {
+        "title": "Space42, Viasat and Terrestar sign deal on satellite connectivity",
+        "reason": "公司间交易，未见规则或机制变化"
+      },
+      {
+        "title": "ETSI establishes new standards group to advance semantic communications for 6G",
+        "reason": "与凭证形态无关"
+      },
+      {
+        "title": "Semtech brings 5G network slicing, FIPS 140-3 to IACP 2026",
+        "reason": "厂商产品演示"
+      },
+      {
+        "title": "T-Mobile: We'll be first with 6G, and no to SpaceX MVNO",
+        "reason": "公司表态，无机制变化"
+      }
+    ],
+    "failedSources": [
+      {
+        "name": "GSMA Newsroom / RCR Wireless News",
+        "stage": "fetch",
+        "error": "RSS 返回 0 条，本周无新条目或索引未更新"
+      }
+    ],
+    "costUsd": 0
+  },
+  {
+    "date": "2026-10-31",
+    "industry": "identity",
+    "startedAt": "2026-10-31T01:40:46+08:00",
+    "durationMs": 1284567,
+    "fetched": 15,
+    "afterDedup": 12,
+    "passed": 5,
+    "published": 2,
+    "rejected": [
+      {
+        "title": "Switzerland seeks new e-ID chief as digital identity rollout remains delayed",
+        "reason": "人事变动与进度延期，未见机制调整"
+      },
+      {
+        "title": "Moldova data breach exposes records linked to 750,000 national ID numbers",
+        "reason": "数据泄露事件，未改变签发或核验机制"
+      },
+      {
+        "title": "Intellicheck brings ID verification to freight docks",
+        "reason": "产品落地，未改变规则"
+      },
+      {
+        "title": "Aware cuts Q3 losses",
+        "reason": "财报"
+      },
+      {
+        "title": "US CBP Officers Will No Longer Routinely Stamp Passports",
+        "reason": "事件发生于 10-14，超出 72 小时时效窗口"
+      },
+      {
+        "title": "Florida's Redesigned Driver License and ID Card",
+        "reason": "事件发生于 10-07，超出时效窗口"
+      },
+      {
+        "title": "NIST Finalizes Guidelines on Protecting Online Identity and Access Tokens From Misuse",
+        "reason": "9 月 15 日旧闻，非本周增量"
+      }
+    ],
+    "failedSources": [
+      {
+        "name": "编辑任务（模型退化）",
+        "stage": "publish",
+        "error": "模型在第 45 步输出失控，已通过筛选的 3 条候选（ETSI 深度伪造规范、NIST PQC 迁移指引、英国人脸识别监管）未写入，待补齐"
+      }
+    ],
+    "costUsd": 0
+  },
+  {
     "date": "2026-10-30",
     "industry": "telecom",
     "startedAt": "2026-10-30T03:10:00+08:00",

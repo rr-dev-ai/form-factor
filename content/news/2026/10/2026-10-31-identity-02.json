@@ -1,0 +1,97 @@
+{
+  "id": "2026-10-31-identity-02",
+  "slug": "treasury-idme-mandatory-treasurydirect-login-gov",
+  "industry": "identity",
+  "tags": [
+    "verification",
+    "biometrics"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-31T06:15:00+08:00",
+  "ingestedAt": "2026-10-31T05:50:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202610/us-treasury-makes-id-me-mandatory-as-federal-policy-shifts-toward-login-gov",
+      "lang": "en",
+      "publishedAt": "2026-10-30T15:10:19+00:00"
+    }
+  ],
+  "title": {
+    "zh": "美国财政部把 ID.me 设为 TreasuryDirect 唯一登录方式，与联邦 Login.gov 政策相抵触",
+    "en": "US Treasury makes ID.me the only way into TreasuryDirect, colliding with federal Login.gov policy",
+    "es": "El Tesoro de EE. UU. deja ID.me como único acceso a TreasuryDirect, en choque con la política federal Login.gov"
+  },
+  "summary": {
+    "zh": "自 10 月 28 日起，美国人只能通过商业身份验证商 ID.me 登录国债账户 TreasuryDirect；而在此六天前，白宫管理和预算办公室刚发文要求联邦机构默认使用官方的 Login.gov。",
+    "en": "Since 28 October, Americans can only log into TreasuryDirect, the system for buying and managing US savings bonds, through commercial identity verifier ID.me — six days after the Office of Management and Budget told agencies to default to the government's own Login.gov.",
+    "es": "Desde el 28 de octubre, los estadounidenses solo pueden entrar en TreasuryDirect, el sistema para comprar y gestionar bonos de ahorro, a través del verificador comercial ID.me, seis días después de que la Oficina de Gestión y Presupuesto pidiera usar por defecto Login.gov."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "TreasuryDirect 是美国财政部自管的国债买卖与持有平台，过去用自己的认证方式，现在改为只认 ID.me——一家用人脸识别做身份核验的商业公司。拒绝开 ID.me 账户的人仍可用纸质流程管理投资，但会失去对账户和税表的在线访问。事情发生的时间点很微妙：白宫管理和预算办公室 8 月 31 日发布 M-26-18 备忘录，要求联邦机构对面向公众的服务「必须提供 Login.gov」，需要身份核验时原则上就用它。",
+        "en": "TreasuryDirect is the Treasury-run platform for buying and holding US savings bonds. It has dropped its own legacy authentication for ID.me alone, a commercial identity verifier that uses facial recognition. Anyone declining an ID.me account can still manage holdings on paper but loses online access to their account and tax documents. The timing is awkward: on 31 August the Office of Management and Budget issued Memorandum M-26-18, telling agencies they must offer Login.gov for covered public-facing services and use it for identity verification by default.",
+        "es": "TreasuryDirect es la plataforma del Tesoro para comprar y mantener bonos de ahorro. Ha abandonado su autenticación propia y usa solo ID.me, un verificador comercial que recurre al reconocimiento facial. Quien rechace abrir cuenta en ID.me aún puede gestionar sus inversiones en papel, pero pierde el acceso online a su cuenta y a sus documentos fiscales. El momento es delicado: el 31 de agosto la Oficina de Gestión y Presupuesto publicó el memorando M-26-18, que obliga a las agencias a ofrecer Login.gov en servicios públicos y a usarlo por defecto cuando se requiera verificación de identidad."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "新规自 10 月 28 日生效；同日参议员 Ron Wyden 与 Elizabeth Warren 致函财政部长与国税局负责人，要求推迟到 2027 年报税季之后，并要求 11 月 9 日前答复",
+          "en": "The requirement took effect 28 October; senators Ron Wyden and Elizabeth Warren wrote to the Treasury Secretary and IRS chief asking for a delay past the 2027 filing deadline and a reply by 9 November",
+          "es": "El requisito rige desde el 28 de octubre; los senadores Ron Wyden y Elizabeth Warren escribieron al secretario del Tesoro y al responsable del IRS pidiendo aplazarlo hasta después de la campaña fiscal de 2027 y una respuesta antes del 9 de noviembre"
+        },
+        {
+          "zh": "M-26-18 留有例外：机构可认定 Login.gov 无法满足特定需求；在范围内网站一般有两年来接入 Login.gov 或向 OMB 说明原因",
+          "en": "M-26-18 leaves an exception where an agency judges Login.gov cannot meet specific requirements; in-scope sites generally have two years to deploy Login.gov or file an explanation with OMB",
+          "es": "El M-26-18 prevé excepciones si la agencia considera que Login.gov no cubre requisitos concretos; los sitios afectados suelen tener dos años para implantarlo o explicar a la OMB por qué no"
+        },
+        {
+          "zh": "财政部的历史理由是技术性的：2023 年文件写明 Login.gov 当时没有达到 IAL2（身份保障等级 2）的合规产品，而 Login.gov 在 2024 年 10 月已获得独立认证",
+          "en": "Treasury's earlier justification was technical: a 2023 document said Login.gov had no compliant IAL2 offering at the time, while Login.gov obtained independent IAL2 certification in October 2024",
+          "es": "La justificación previa del Tesoro era técnica: un documento de 2023 decía que Login.gov no tenía entonces una oferta IAL2 conforme, y Login.gov obtuvo la certificación IAL2 independiente en octubre de 2024"
+        },
+        {
+          "zh": "采购记录显示，财政部仍在为共享认证架构购买 ID.me：6 月一笔 81.7 万美元、8 月 25 日一笔 157 万美元，五年期协议上限约 10.3 亿美元，已支出约 9300 万美元",
+          "en": "Procurement records show continued buying: a $817,284 order in June and $1.57 million on 25 August, against a five-year vehicle with a roughly $1.03 billion ceiling and about $93 million obligated so far",
+          "es": "Los registros de compra muestran continuidad: 817.284 dólares en junio y 1,57 millones el 25 de agosto, dentro de un acuerdo de cinco años con techo de unos 1.030 millones y cerca de 93 millones ya comprometidos"
+        },
+        {
+          "zh": "参议员还问及 ID.me 是否在账户存续期及注销后 36 个月内保留生物特征数据、是否使用一对多比对；两人未称这些能力已获授权",
+          "en": "The senators also asked whether ID.me may retain biometric data for the life of an account and up to 36 months after closure, and whether one-to-many matching is used; they did not state these were authorised",
+          "es": "Los senadores también preguntan si ID.me puede conservar datos biométricos durante la vida de la cuenta y hasta 36 meses tras su cierre, y si se usa cotejo uno a muchos; no afirman que esté autorizado"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "两位参议员要财政部回答的核心问题很具体：对每个仍只用 ID.me、不提供 Login.gov 的财政或国税服务，请说明 Login.gov 究竟满足不了哪一项安全、技术、容量、反欺诈或运行要求。财政部的公开解释只说 ID.me 符合其安全标准，没有点明差距在哪。若答不出具体条款，财政部就需要按 M-26-18 的两年窗口改用官方入口或向 OMB 提交例外说明。",
+        "en": "The senators' core question is narrow: for every Treasury or IRS service that requires ID.me without offering Login.gov, identify the specific security, technical, capacity, fraud-prevention or operational requirement Login.gov cannot meet. Treasury's public explanation says only that ID.me aligns with its requirements, without naming the gap. If no concrete clause emerges, Treasury faces the M-26-18 two-year clock: move to the government service or file an exception with OMB.",
+        "es": "La pregunta de fondo de los senadores es concreta: para cada servicio del Tesoro o del IRS que exige ID.me y no ofrece Login.gov, que se indique qué requisito de seguridad, técnico, de capacidad, antifraude u operativo no cubre Login.gov. La explicación pública del Tesoro se limita a decir que ID.me encaja con sus requisitos, sin señalar la carencia. Si no aparece una cláusula concreta, se activa el plazo de dos años del M-26-18: migrar al servicio público o presentar una excepción ante la OMB."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "约束有三条：一是这不是国会立法，而是机构政策与采购决定的博弈，财政部可以维持现状；二是 M-26-18 的例外条款本身就给了机构自主空间，缺的是公开理由；三是 11 月 9 日的答复很可能只给出程序性回应。接下来要看财政部的书面答复是否列出技术差距，以及是否有其他联邦机构在同一时间窗口内被要求说明为什么还在使用商业核验商。",
+        "en": "Three constraints apply: this is not legislation but a contest between agency policy and procurement decisions, which Treasury can leave as is; M-26-18's exception clause already gives agencies room, so what is missing is a stated reason; and the 9 November reply may well be procedural. What follows is whether Treasury's written answer enumerates actual technical gaps, and whether other federal agencies are pressed in the same window to justify continued reliance on commercial verifiers.",
+        "es": "Hay tres límites: no es legislación, sino un pulso entre política interna y compras que el Tesoro puede dejar como está; la excepción del M-26-18 ya da margen a las agencias, así que falta un motivo explícito; y la respuesta del 9 de noviembre podría sermeramente procedimental. Lo siguiente es comprobar si el Tesoro enumera carencias técnicas reales y si otras agencias reciben en el mismo plazo la presión de justificar por qué siguen usando verificadores comerciales."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "美国联邦入口政策在收口：官方 Login.gov 成为默认，商业核验商要证明自己不可替代，否则要在两年内退出。对核验方案商来说，机会是做 Login.gov 的接入与混合验证包装，风险是既有联邦合同可能因政策被重新评估，人脸保留期限与一对多比对会成为招标必答题。",
+    "en": "US federal front-door policy is tightening: Login.gov becomes the default and commercial verifiers must prove they are irreplaceable or exit within two years. The opportunity is Login.gov integration and hybrid verification wrapping; the risk is federal contracts being re-examined, with biometric retention and one-to-many matching now standard tender questions.",
+    "es": "La política federal de acceso se estrecha: Login.gov pasa a ser la opción por defecto y los verificadores comerciales deben demostrar que son insustituibles o salir en dos años. La oportunidad es integrar con Login.gov y envolver la verificación híbrida; el riesgo es que se revisen los contratos federales, con la retención biométrica y el cotejo uno a muchos como preguntas obligadas."
+  },
+  "confidence": 0.85,
+  "ai": {
+    "model": "claude-sonnet-4.5",
+    "promptVersion": "digest-v4-body"
+  }
+}

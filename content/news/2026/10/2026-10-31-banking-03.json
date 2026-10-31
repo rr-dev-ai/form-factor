@@ -1,0 +1,92 @@
+{
+  "id": "2026-10-31-banking-03",
+  "slug": "visa-commercial-fraud-solutions-virtual-cards",
+  "industry": "banking",
+  "tags": [
+    "issuing",
+    "fraud"
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-31T04:35:00+08:00",
+  "ingestedAt": "2026-10-31T04:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Payments Industry Intelligence",
+      "url": "https://paymentsindustryintelligence.com/visa-adds-new-fraud-controls-as-virtual-cards-move-deeper-into-b2b-payments/",
+      "lang": "en",
+      "publishedAt": "2026-10-26T09:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "Visa 为 B2B 虚拟卡加上逐笔风控：先查收款方，再逐项设限",
+    "en": "Visa adds per-transaction controls for B2B virtual cards: vet the supplier, then cap each payment",
+    "es": "Visa refuerza el control por transacción en tarjetas virtuales B2B: verificar al proveedor y limitar cada pago"
+  },
+  "summary": {
+    "zh": "Visa 推出面向商业支付的 Visa Commercial Fraud Solutions：在批准付款前先验证供应商、验证持卡人身份，并按金额、商户类别、地区和时段逐笔设限。",
+    "en": "Visa has launched Visa Commercial Fraud Solutions for business payments: verify the supplier, authenticate the user, and set limits on amount, merchant category, geography and timing before each payment is approved.",
+    "es": "Visa lanza Visa Commercial Fraud Solutions para pagos empresariales: verifica al proveedor, autentica al usuario y fija límites por importe, categoría de comercio, zona y horario antes de aprobar cada pago."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "企业付款正在从「人登录账户再操作」变成「系统按流程自动发起」，虚拟卡是最适合这种自动化的凭证：一张卡对应一笔应付款，用完即废。Visa 这次推出的商业支付风控套件，把控制点从账户层挪到了单笔交易层——付款前先确认钱是打给了对的公司，确认用卡的人是本人，再按预设条件放行。",
+        "en": "Business payments are shifting from a person logging in and acting to a system issuing payments along a workflow, and the virtual card is the credential best suited to automation: one card per payable, spent once. Visa's new commercial fraud suite moves the control point from account level down to each individual transaction — confirm the money is going to the right company, confirm the person using the card is who they claim, then release the payment against preset conditions.",
+        "es": "Los pagos empresariales pasan de «una persona entra y opera» a «un sistema emite el pago siguiendo el flujo», y la tarjeta virtual es la credencial ideal para esa automatización: una tarjeta por cada cuenta por pagar, de un solo uso. La nueva suite antifraude comercial de Visa traslada el control del nivel de cuenta al de cada transacción: confirmar que el dinero va a la empresa correcta, confirmar quién usa la tarjeta y liberar el pago según condiciones predefinidas."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "三个控制点：供应商验证、用卡人通过 3-D Secure 认证、逐笔交易参数（限额、商户类别、地区、时段）",
+          "en": "Three control points: supplier validation, user authentication through 3-D Secure, and per-transaction parameters (limits, merchant category, geography, timing)",
+          "es": "Tres puntos de control: validación del proveedor, autenticación del usuario con 3-D Secure y parámetros por transacción (límites, categoría de comercio, zona, horario)"
+        },
+        {
+          "zh": "Visa Commercial Payment Controls 已在支持的市场可用；供应商验证与虚拟卡认证仍在试点，2027 年才广泛铺开",
+          "en": "Visa Commercial Payment Controls is live in supported markets; supplier validation and virtual card authentication remain in pilot until wider availability in 2027",
+          "es": "Visa Commercial Payment Controls ya está disponible en mercados compatibles; la validación de proveedores y la autenticación de tarjetas virtuales siguen en piloto hasta 2027"
+        },
+        {
+          "zh": "Visa 援引 Juniper Research 估算：到 2029 年全球 B2B 虚拟卡支付量或达 14.6 万亿美元，占虚拟卡市场 83%",
+          "en": "Visa cites Juniper Research estimates that global B2B virtual card volumes could reach $14.6 trillion by 2029, 83% of the wider virtual card market",
+          "es": "Visa cita estimaciones de Juniper Research: el volumen B2B con tarjeta virtual podría llegar a 14,6 billones de dólares en 2029, el 83 % del mercado"
+        },
+        {
+          "zh": "配套的 SESA 2.0 用 AI 给供应商打分，帮助发卡方找出更可能接受卡付的企业；Visa 称上一版已识别出超 6000 亿美元潜在可卡付支出",
+          "en": "The companion SESA 2.0 scores suppliers with AI to help issuers find businesses likely to accept cards; Visa says the earlier version identified over $600 billion of potentially cardable spend",
+          "es": "El complemento SESA 2.0 puntúa proveedores con IA para que el emisor detecte empresas dispuestas a cobrar con tarjeta; Visa afirma que la versión anterior identificó más de 600.000 millones de dólares"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "同一套框架也在接 AI 代理。Visa 与 BILL、Billtrust 开展了试点：获得授权的 AI 代理可以直接进入供应商门户，发起并完成已获批准的发票付款，底层用 Visa Intelligent Commerce 与 Trusted Agent Protocol（可信代理协议，用来确认这个代理是谁、被授权做什么）。付款仍受预设规则约束，代理拿不到无限制的账户权限。",
+        "en": "The same framework is being wired to AI agents. In a live pilot with BILL and Billtrust, authorised agents can enter supplier portals and initiate and complete approved invoice payments, using Visa Intelligent Commerce and the Trusted Agent Protocol, which establishes who the agent is and what it is allowed to do. Payments stay inside predefined business rules; the agent never gets unrestricted access to company funds.",
+        "es": "El mismo marco se está conectando a agentes de IA. En un piloto con BILL y Billtrust, agentes autorizados entran en portales de proveedores e inician y completan pagos de facturas aprobados, con Visa Intelligent Commerce y el Trusted Agent Protocol, que fija quién es el agente y qué puede hacer. El pago sigue sujeto a las reglas del negocio; el agente nunca obtiene acceso libre a los fondos."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "约束有两处。一是能力分阶段落地，供应商验证与虚拟卡认证要到 2027 年才广泛可用，现在能买到的主要是交易参数控制。二是这些控制依赖发卡侧与收单侧的数据配合，企业客户若用的是第三方应付账款系统，改造工作量落在集成方身上。接下来要看 2027 年试点转正式商用时的具体接口与认证要求。",
+        "en": "Two constraints: capabilities land in phases, with supplier validation and virtual card authentication not broadly available until 2027, so what can be bought today is mainly transaction-level parameters; and the controls depend on data cooperation between issuer and acquirer, so where a corporate customer runs a third-party accounts-payable system, the integration work lands on the integrator. The thing to watch next is the concrete interface and authentication requirements when the pilot turns commercial in 2027.",
+        "es": "Hay dos límites: las capacidades llegan por fases, con la validación de proveedores y la autenticación de tarjetas ampliamente disponibles solo en 2027, así que hoy se compra sobre todo el control por parámetros; y los controles dependen de la cooperación de datos entre emisor y adquirente, de modo que, si el cliente usa un sistema de cuentas por pagar de terceros, el trabajo de integración recae en el integrador. Lo siguiente a vigilar son los requisitos concretos de interfaz y autenticación cuando el piloto pase a comercial en 2027."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "商业卡的价值点正从支付工具转向「可编程的控制层」，发卡行会向供应商验证、逐笔限额、代理身份核验这些能力买单，卡 BIN 与授权链路的改造需求跟着上来。机会是做 B2B 虚拟卡的发卡处理与供应商数据接入；风险是各家协议不统一（Visa 用可信代理、万事达用另一种），选错技术路线要重做。",
+    "en": "Commercial cards are turning into a programmable control layer: issuers will pay for supplier validation, per-transaction limits and agent identity checks, pulling work into card BIN and authorisation. The opportunity is B2B virtual card processing and supplier data onboarding; the risk is protocol fragmentation — Visa's trusted agent differs from Mastercard's — so a wrong bet gets rebuilt.",
+    "es": "La tarjeta comercial pasa a capa de control programable: los emisores pagarán por validar proveedores, límites por operación y verificación del agente, y eso arrastra trabajo al BIN y a la autorización. La oportunidad es procesar tarjetas virtuales B2B y dar de alta proveedores; el riesgo es la fragmentación de protocolos —el agente de Visa no es el de Mastercard— y errar obliga a rehacer."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "claude-sonnet-4.5",
+    "promptVersion": "digest-v4-body"
+  }
+}
