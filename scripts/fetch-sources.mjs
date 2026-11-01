@@ -12,11 +12,16 @@
  *   node scripts/fetch-sources.mjs            # 全部启用源
  *   node scripts/fetch-sources.mjs --rss-only # 只跑 rss 源
  *   node scripts/fetch-sources.mjs gsma-newsroom esim-report  # 指定 id
+ *   node scripts/fetch-sources.mjs --no-write <id>  # 只看结果，不落盘
+ *
+ * 单源验证请一律带 `--no-write`：本脚本按站点日期写 `content/_raw/YYYY-MM-DD.json`，
+ * 单源跑会用这一条源的结果覆盖当天的全量抓取。
  */
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFile } from 'node:child_process';
 import { load } from 'cheerio';
+import { pickTargets } from './lib/targets.mjs';
 
 const ROOT = process.cwd();
 const CFG_PATH = path.join(ROOT, 'config', 'sources.json');
@@ -50,12 +55,19 @@ const TIMEOUT_MS = 20000;
 
 const args = process.argv.slice(2);
 const rssOnly = args.includes('--rss-only');
+const noWrite = args.includes('--no-write');
 const onlyIds = args.filter((a) => !a.startsWith('--'));
 
 const cfg = JSON.parse(fs.readFileSync(CFG_PATH, 'utf8'));
-let targets = cfg.sources.filter((s) => s.enabled);
-if (rssOnly) targets = targets.filter((s) => s.fetch.kind === 'rss');
-if (onlyIds.length) targets = targets.filter((s) => onlyIds.includes(s.id));
+const targets = pickTargets(cfg.sources, { ids: onlyIds, rssOnly });
+
+if (targets.length === 0) {
+  const hint = onlyIds.length
+    ? `没有匹配到 id：${onlyIds.join(', ')}${rssOnly ? '（--rss-only 会排除 scrape 源）' : ''}`
+    : '没有启用任何源';
+  console.error(`${hint}。未写入任何文件。`);
+  process.exit(1);
+}
 
 /**
  * 部分站点（Cloudflare 等）会按 TLS 指纹拦截 Node 原生 fetch，
@@ -235,13 +247,24 @@ const payload = {
   })),
 };
 
-fs.mkdirSync(OUT_DIR, { recursive: true });
-const outFile = path.join(OUT_DIR, `${fetchedFor}.json`);
-fs.writeFileSync(outFile, JSON.stringify(payload, null, 2) + '\n', 'utf8');
-
 console.log(JSON.stringify(payload.stats, null, 2));
 console.log('\nfailed:');
 for (const r of results.filter((x) => !x.ok)) {
   console.log(`  ${r.source.id} — ${r.error}`);
 }
-console.log(`\nwritten to ${path.relative(ROOT, outFile)}`);
+
+if (noWrite) {
+  console.log('\n--no-write：结果未落盘');
+} else {
+  const daily = pickTargets(cfg.sources, { rssOnly }).length;
+  const outFile = path.join(OUT_DIR, `${fetchedFor}.json`);
+  if (targets.length < daily && fs.existsSync(outFile)) {
+    console.error(
+      `\n警告：本次只跑了 ${targets.length}/${daily} 个源，将覆盖 ${path.relative(ROOT, outFile)} 的当日全量结果。` +
+        `\n若只是验证单个源，请加 --no-write。`
+    );
+  }
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+  fs.writeFileSync(outFile, JSON.stringify(payload, null, 2) + '\n', 'utf8');
+  console.log(`\nwritten to ${path.relative(ROOT, outFile)}`);
+}

@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-01",
   "stats": {
-    "total": 76,
-    "rss": 37,
+    "total": 81,
+    "rss": 42,
     "scrape": 39,
     "byIndustry": {
       "identity": 27,
       "payments": 25,
-      "telecom": 32,
-      "banking": 7
+      "telecom": 34,
+      "banking": 10
     },
     "multiIndustry": 10,
     "disabled": 46
@@ -1518,6 +1518,101 @@
       "focus": "非洲金融科技与移动网络的落地项目",
       "weight": 0.65,
       "evidenceCount": 1,
+      "enabled": true
+    },
+    {
+      "id": "fintechnews-sg",
+      "name": "Fintech News Singapore",
+      "url": "https://fintechnews.sg",
+      "host": "fintechnews.sg",
+      "industries": [
+        "banking"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://fintechnews.sg/feed/"
+      },
+      "frequency": "每日多更",
+      "focus": "新加坡与东南亚的支付和数字银行报道，收单、钱包、跨境 QR 落地的首发密度较高",
+      "weight": 0.7,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "fintechnews-hk",
+      "name": "Fintech News Hong Kong",
+      "url": "https://fintechnews.hk",
+      "host": "fintechnews.hk",
+      "industries": [
+        "banking"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://fintechnews.hk/feed/"
+      },
+      "frequency": "每日多更",
+      "focus": "香港与粤港澳的支付、虚拟银行与跨境清算",
+      "weight": 0.7,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "fintechnews-id",
+      "name": "Fintech News Indonesia",
+      "url": "https://fintechnews.id",
+      "host": "fintechnews.id",
+      "industries": [
+        "banking"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://fintechnews.id/feed/"
+      },
+      "frequency": "每周数篇",
+      "focus": "印尼的 QRIS 互联、电子钱包与支付牌照",
+      "weight": 0.7,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "telecom-review-asia",
+      "name": "Telecom Review Asia",
+      "url": "https://www.telecomreviewasia.com",
+      "host": "telecomreviewasia.com",
+      "industries": [
+        "telecom"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.telecomreviewasia.com/feed/"
+      },
+      "frequency": "每周数篇",
+      "focus": "亚太运营商的 5G、SIM 与漫游动态；奖项与峰会稿占比高，需按动作门筛",
+      "weight": 0.65,
+      "evidenceCount": 0,
+      "enabled": true
+    },
+    {
+      "id": "telecom-review-africa",
+      "name": "Telecom Review Africa",
+      "url": "https://www.telecomreviewafrica.com",
+      "host": "telecomreviewafrica.com",
+      "industries": [
+        "telecom"
+      ],
+      "type": "media",
+      "fetch": {
+        "kind": "rss",
+        "url": "https://www.telecomreviewafrica.com/feed/"
+      },
+      "frequency": "每周数篇",
+      "focus": "非洲运营商与监管动态，以南非、东非、西非为主",
+      "weight": 0.65,
+      "evidenceCount": 0,
       "enabled": true
     }
   ]
