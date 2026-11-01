@@ -101,18 +101,21 @@ const dict = t(locale);
 
       resultsEl.innerHTML = hits
         .map((hit) => {
-          const tags = ((hit.tagLabels as string[]) ?? [])
-            .map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`)
-            .join('');
+          const tags = ((hit.tagLabels as string[]) ?? []).slice(0, 2);
+          const parts = [
+            hit.industryLabel,
+            hit.regionLabel,
+            hit.date,
+            ...tags,
+            hit.sourceLabel,
+          ].filter(Boolean);
+          const meta = parts
+            .map((part) => `<span>${escapeHtml(part)}</span>`)
+            .join('<span aria-hidden="true">·</span>');
           return `<a class="card" href="${escapeHtml(hit.url)}">
-            <div class="card-meta">
-              <span>${escapeHtml(hit.date)}</span>
-              <span aria-hidden="true">·</span>
-              <span>${escapeHtml(hit.industryLabel)}</span>
-            </div>
+            <div class="card-meta">${meta}</div>
             <h3 class="card-title">${escapeHtml(hit.title)}</h3>
             <p class="card-summary">${escapeHtml(hit.summary)}</p>
-            <div class="card-foot">${tags}</div>
           </a>`;
         })
         .join('');

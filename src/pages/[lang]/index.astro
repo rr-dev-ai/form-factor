@@ -3,8 +3,8 @@ import Base from '../../layouts/Base.astro';
 import NewsCard from '../../components/NewsCard.astro';
 import { locales, type Locale } from '../../config/site';
 import { industries } from '../../config/taxonomy';
-import { byDate, latestDateKey, publishedNews, toDateKey } from '../../lib/content';
-import { t, formatDateKey } from '../../lib/i18n';
+import { allDateKeys, byDate, latestDateKey, toDateKey } from '../../lib/content';
+import { t, formatDateParts } from '../../lib/i18n';
 import { localePath } from '../../lib/url';
 
 export function getStaticPaths() {
@@ -16,8 +16,17 @@ const dict = t(locale);
 
 const latest = latestDateKey();
 const latestItems = latest ? byDate(latest) : [];
-const latestSet = new Set(latestItems.map((i) => i.id));
-const olderItems = publishedNews().filter((i) => !latestSet.has(i.id)).slice(0, 8);
+const latestParts = latest ? formatDateParts(latest, locale) : null;
+
+/**
+ * 更早：按天分组，每天最多 4 条、最多 2 天。
+ * 原先固定取 8 条，日期一多就会把两三天混成一列，读者只能逐条读卡片里的小字日期。
+ */
+const olderGroups = allDateKeys()
+  .filter((key) => key !== latest)
+  .slice(0, 2)
+  .map((key) => ({ key, parts: formatDateParts(key, locale), items: byDate(key).slice(0, 4) }))
+  .filter((group) => group.items.length > 0);
 
 const todayKey = toDateKey(new Date().toISOString());
 const staleDays = latest
@@ -26,9 +35,20 @@ const staleDays = latest
 ---
 
 <Base locale={locale} path="/">
-  <div class="page-head">
-    <h1>{latest ? formatDateKey(latest, locale) : dict.noUpdate}</h1>
-    <p>{`${latestItems.length} ${dict.items}`}</p>
+  <div class="page-head page-head--edition">
+    {
+      latest && latestParts ? (
+        <>
+          <h1>{latestParts.date}</h1>
+          <span class="sep" aria-hidden="true">·</span>
+          <p>{latestParts.weekday}</p>
+          <span class="sep" aria-hidden="true">·</span>
+          <p>{`${latestItems.length} ${dict.items}`}</p>
+        </>
+      ) : (
+        <h1>{dict.noUpdate}</h1>
+      )
+    }
   </div>
 
   {
@@ -53,7 +73,7 @@ const staleDays = latest
           {items.length > 0 ? (
             <div class="card-list">
               {items.map((item) => (
-                <NewsCard item={item} locale={locale} />
+                <NewsCard item={item} locale={locale} showIndustry={false} showDate={false} />
               ))}
             </div>
           ) : (
@@ -68,17 +88,26 @@ const staleDays = latest
   }
 
   {
-    olderItems.length > 0 && (
+    olderGroups.length > 0 && (
       <section class="section">
         <div class="section-head">
           <h2>{locale === 'zh' ? '更早' : locale === 'en' ? 'Earlier' : 'Anteriores'}</h2>
           <a href={localePath(locale, '/archive')}>{dict.archive} →</a>
         </div>
-        <div class="card-list">
-          {olderItems.map((item) => (
-            <NewsCard item={item} locale={locale} />
-          ))}
-        </div>
+        {olderGroups.map((group) => (
+          <>
+            <p class="group-date">
+              {group.parts.date}
+              <span class="sep" aria-hidden="true">·</span>
+              <span class="weekday">{group.parts.weekday}</span>
+            </p>
+            <div class="card-list card-list--older">
+              {group.items.map((item) => (
+                <NewsCard item={item} locale={locale} showDate={false} />
+              ))}
+            </div>
+          </>
+        ))}
       </section>
     )
   }

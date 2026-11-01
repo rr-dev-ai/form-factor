@@ -52,7 +52,7 @@ const older = idx >= 0 && idx < dates.length - 1 ? dates[idx + 1] : null;
           </div>
           <div class="card-list">
             {grouped.map((item) => (
-              <NewsCard item={item} locale={locale} />
+              <NewsCard item={item} locale={locale} showIndustry={false} showDate={false} />
             ))}
           </div>
         </section>

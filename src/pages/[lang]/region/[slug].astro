@@ -51,7 +51,7 @@ const industryOptions = industries
     items.length > 0 ? (
       <div class="card-list">
         {items.map((item) => (
-          <NewsCard item={item} locale={locale} />
+          <NewsCard item={item} locale={locale} showRegion={false} />
         ))}
       </div>
     ) : (

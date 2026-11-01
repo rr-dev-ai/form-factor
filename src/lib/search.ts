@@ -29,7 +29,16 @@ export function tokenize(text: string): string[] {
 /** 构建索引与客户端加载必须使用同一份配置，否则分片无法被正确检索 */
 export const searchOptions: Options = {
   fields: ['title', 'summary', 'body', 'tags', 'industry'],
-  storeFields: ['title', 'summary', 'date', 'industryLabel', 'tagLabels', 'url'],
+  storeFields: [
+    'title',
+    'summary',
+    'date',
+    'industryLabel',
+    'regionLabel',
+    'tagLabels',
+    'sourceLabel',
+    'url',
+  ],
   tokenize,
   searchOptions: {
     boost: { title: 3, tags: 2 },
@@ -48,7 +57,9 @@ export type SearchRecord = {
   industry: string;
   date: string;
   industryLabel: string;
+  regionLabel: string;
   tagLabels: string[];
+  sourceLabel: string;
   url: string;
 };
 

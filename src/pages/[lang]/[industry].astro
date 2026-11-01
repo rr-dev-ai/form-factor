@@ -57,7 +57,7 @@ const tagOptions = relatedTags
     items.length > 0 ? (
       <div class="card-list">
         {items.map((item) => (
-          <NewsCard item={item} locale={locale} />
+          <NewsCard item={item} locale={locale} showIndustry={false} />
         ))}
       </div>
     ) : (

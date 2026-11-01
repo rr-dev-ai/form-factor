@@ -1,8 +1,9 @@
 import type { APIRoute } from 'astro';
 import { locales, type Locale } from '../../../config/site';
 import { industryName, tagName } from '../../../config/taxonomy';
+import { regionName } from '../../../config/regions';
 import { publishedNews, toDateKey } from '../../../lib/content';
-import { formatDate } from '../../../lib/i18n';
+import { formatDate, sourceLabel } from '../../../lib/i18n';
 import { buildIndex, type SearchRecord } from '../../../lib/search';
 import { href } from '../../../lib/url';
 
@@ -31,7 +32,10 @@ export const GET: APIRoute = ({ params }) => {
     industry: industryName(n.industry, lang),
     date: formatDate(n.publishedAt, lang),
     industryLabel: industryName(n.industry, lang),
+    regionLabel: regionName(n.region, lang),
     tagLabels: n.tags.map((t) => tagName(t, lang)),
+    // 单个来源直接给媒体名，多个才退回数量——卡片上的元信息与列表页保持一致
+    sourceLabel: sourceLabel(n.sources, lang),
     url: href(`/${lang}/news/${n.slug}`),
   }));
 

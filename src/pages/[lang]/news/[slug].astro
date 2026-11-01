@@ -3,6 +3,7 @@ import Base from '../../../layouts/Base.astro';
 import NewsCard from '../../../components/NewsCard.astro';
 import { locales, type Locale } from '../../../config/site';
 import { industryName, tagName } from '../../../config/taxonomy';
+import { regionName } from '../../../config/regions';
 import { publishedNews } from '../../../lib/content';
 import { t, formatDate, localeLabel } from '../../../lib/i18n';
 import { localePath } from '../../../lib/url';
@@ -37,7 +38,7 @@ const sourceDate = firstSource?.publishedAt ?? item.publishedAt;
       <div class="card-meta">
         <a href={localePath(locale, `/${item.industry}`)}>{industryName(item.industry, locale)}</a>
         <span aria-hidden="true">·</span>
-        <span>{formatDate(item.publishedAt, locale)}</span>
+        <a href={localePath(locale, `/region/${item.region}`)}>{regionName(item.region, locale)}</a>
       </div>
       <h1>{item.title[locale]}</h1>
       <div class="article-meta">

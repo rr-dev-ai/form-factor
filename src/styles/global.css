@@ -8,7 +8,8 @@
   --border-strong: #cfcfc4;
   --text: #1a1a18;
   --text-2: #5c5c54;
-  --text-3: #8a8a80;
+  /* 11px 元信息承载文字，必须过 AA 4.5:1（当前 4.62:1） */
+  --text-3: #73736a;
   --accent: #0f6e56;
   --accent-soft: #e1f5ee;
   --warn: #8a5a00;
@@ -16,7 +17,11 @@
 
   --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', 'PingFang SC',
     'Hiragino Sans GB', 'Microsoft YaHei', system-ui, sans-serif;
-  --font-serif: 'Iowan Old Style', 'Source Han Serif SC', Georgia, 'Songti SC', serif;
+  /* 拉丁优先 Georgia（Windows 与 macOS 都有），中文字面走思源宋体。
+     Windows 没有前两者时落到 SimSun，此时 500/600 字重只能合成加粗，
+     所以标题字重统一用 400。 */
+  --font-serif: Georgia, 'Noto Serif SC', 'Noto Serif CJK SC', 'Source Han Serif SC', 'Songti SC',
+    SimSun, serif;
   --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
 
   --w: 880px;
@@ -34,7 +39,8 @@
   --border-strong: #3d3d46;
   --text: #e9e9e6;
   --text-2: #a3a39c;
-  --text-3: #74746e;
+  /* 同浅色主题，4.67:1 */
+  --text-3: #80807a;
   --accent: #5dcaa5;
   --accent-soft: #10352b;
   --warn: #e0b25c;
@@ -72,7 +78,7 @@ h1,
 h2,
 h3 {
   font-family: var(--font-serif);
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.3;
   margin: 0;
 }
@@ -238,6 +244,56 @@ main {
   font-size: 13px;
 }
 
+/* 首页刊头：日期是版面标签，不是标题。最有价值的位置留给当天第一条内容，
+   行业页 / 区域页的 h1 仍是页面主体，不受影响。 */
+.page-head--edition {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 26px;
+  font-variant-numeric: tabular-nums;
+}
+
+.page-head.page-head--edition h1 {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: var(--text-2);
+  margin: 0;
+}
+
+.page-head.page-head--edition p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-3);
+}
+
+.page-head--edition .sep,
+.group-date .sep {
+  color: var(--border-strong);
+  font-size: 12px;
+}
+
+.group-date {
+  margin: 30px 0 6px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.group-date .weekday {
+  font-weight: 400;
+  color: var(--text-3);
+}
+
+.section-head + .group-date {
+  margin-top: 12px;
+}
+
 .section {
   margin-top: 40px;
 }
@@ -270,6 +326,7 @@ main {
 }
 
 .card {
+  position: relative;
   display: block;
   padding: 18px 0;
   border-bottom: 1px solid var(--border);
@@ -279,12 +336,27 @@ main {
   padding-top: 4px;
 }
 
-.card:hover {
-  color: inherit;
+/* 整卡可点，同时让元信息里的链接保持可点：
+   标题链接用伪元素铺满卡片，元信息链接抬到它上面。
+   嵌套 a 不合法，这是等价做法。 */
+.card-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.card-meta a {
+  position: relative;
+  z-index: 1;
 }
 
 .card:hover .card-title {
   color: var(--accent);
+}
+
+.card:has(.card-link:focus-visible) {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }
 
 .card-meta {
@@ -306,7 +378,7 @@ main {
 }
 
 .card-summary {
-  margin: 0 0 10px;
+  margin: 0;
   color: var(--text-2);
   font-size: 13.5px;
   line-height: 1.7;
@@ -334,9 +406,13 @@ a.tag:hover {
   color: var(--accent);
 }
 
-.src-count {
-  font-size: 11px;
-  color: var(--text-3);
+/* 「更早」的卡片降一级：它是对归档的提示，不该和当天争主次 */
+.card-list--older .card-title {
+  font-size: 16.5px;
+}
+
+.card-list--older .card-summary {
+  font-size: 13px;
 }
 
 /* ---------- empty / notice ---------- */
@@ -354,7 +430,7 @@ a.tag:hover {
   display: block;
   font-family: var(--font-serif);
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: var(--text);
   margin-bottom: 4px;
 }
@@ -370,6 +446,8 @@ a.tag:hover {
 /* ---------- article ---------- */
 
 .article-head {
+  /* 题头与正文同列：否则题头下的分隔线会比正文长出一截 */
+  max-width: 640px;
   margin-bottom: 26px;
 }
 
@@ -387,6 +465,12 @@ a.tag:hover {
   color: var(--text-3);
   border-bottom: 1px solid var(--border);
   padding-bottom: 16px;
+}
+
+/* 阅读列收窄：832px @16px 中文一行约 50 字，换行时视线容易串行。
+   题头与来源列表仍用整宽，形成不对称，版式本身承担了「哪里是正文」 */
+.article-body {
+  max-width: 640px;
 }
 
 .article-body p {
@@ -433,6 +517,7 @@ a.tag:hover {
 }
 
 .why-box {
+  max-width: 640px;
   background: var(--surface-2);
   border-left: 3px solid var(--accent);
   border-radius: 0 8px 8px 0;
@@ -443,6 +528,7 @@ a.tag:hover {
 .why-box h3 {
   font-size: 12px;
   font-family: var(--font-sans);
+  font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--accent);
@@ -930,15 +1016,6 @@ a.tag:hover {
   .day-regions {
     font-size: 11px;
   }
-}
-
-/* 筛选命中的卡片靠类隐藏，不用 [hidden]：UA 的 [hidden] 优先级低于 .card 的 display */
-.is-hidden {
-  display: none !important;
-}
-
-.filter-bar:not(.is-filtered) .filter-chip--clear {
-  display: none;
 }
 
 /* 筛选命中的卡片靠类隐藏，不用 [hidden]：UA 的 [hidden] 优先级低于 .card 的 display */

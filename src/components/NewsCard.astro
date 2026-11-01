@@ -1,40 +1,72 @@
 ---
 import type { NewsItem } from '../lib/schema';
 import type { Locale } from '../config/site';
-import { t, formatDate } from '../lib/i18n';
+import { formatDate, sourceLabel } from '../lib/i18n';
 import { industryName, tagName } from '../config/taxonomy';
 import { regionName } from '../config/regions';
 import { allRegions } from '../lib/content';
-import { href } from '../lib/url';
+import { href, localePath } from '../lib/url';
 
 interface Props {
   item: NewsItem;
   locale: Locale;
+  /** 容器已经说明的字段不再重复：行业列表里不写行业，同一天的列表里不写日期 */
+  showIndustry?: boolean;
+  showRegion?: boolean;
+  showDate?: boolean;
 }
 
-const { item, locale } = Astro.props;
-const dict = t(locale);
+const { item, locale, showIndustry = true, showRegion = true, showDate = true } = Astro.props;
+
+const tags = item.tags.slice(0, 2).map((tag) => tagName(tag, locale));
 ---
 
-<a
+<article
   class="card"
-  href={href(`/${locale}/news/${item.slug}`)}
   data-region={allRegions(item).join(',')}
   data-industry={item.industry}
   data-tag={item.tags.join(',')}
 >
   <div class="card-meta">
-    <span>{industryName(item.industry, locale)}</span>
-    <span aria-hidden="true">·</span>
-    <span>{regionName(item.region, locale)}</span>
-    <span aria-hidden="true">·</span>
-    <span>{formatDate(item.publishedAt, locale)}</span>
-    <span aria-hidden="true">·</span>
-    <span class="src-count">{item.sources.length} {dict.sources.toLowerCase()}</span>
+    {
+      showIndustry && (
+        <>
+          <span>{industryName(item.industry, locale)}</span>
+          <span aria-hidden="true">·</span>
+        </>
+      )
+    }
+    {
+      showRegion && (
+        <>
+          {/* 区域是本页之外唯一能直达的维度，做成链接，省掉首页再加一条筛选条 */}
+          <a class="meta-link" href={localePath(locale, `/region/${item.region}`)}>
+            {regionName(item.region, locale)}
+          </a>
+          <span aria-hidden="true">·</span>
+        </>
+      )
+    }
+    {
+      showDate && (
+        <>
+          <span>{formatDate(item.publishedAt, locale)}</span>
+          <span aria-hidden="true">·</span>
+        </>
+      )
+    }
+    {
+      tags.map((tag) => (
+        <>
+          <span>{tag}</span>
+          <span aria-hidden="true">·</span>
+        </>
+      ))
+    }
+    <span>{sourceLabel(item.sources, locale)}</span>
   </div>
-  <h3 class="card-title">{item.title[locale]}</h3>
+  <h3 class="card-title">
+    <a class="card-link" href={href(`/${locale}/news/${item.slug}`)}>{item.title[locale]}</a>
+  </h3>
   <p class="card-summary">{item.summary[locale]}</p>
-  <div class="card-foot">
-    {item.tags.slice(0, 4).map((tag) => <span class="tag">{tagName(tag, locale)}</span>)}
-  </div>
-</a>
+</article>

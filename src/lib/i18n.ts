@@ -277,14 +277,43 @@ export function formatDate(iso: string, locale: Locale, withTime = false): strin
   }).format(new Date(iso));
 }
 
-export function formatDateKey(dateKey: string, locale: Locale): string {
+/**
+ * 把日期键拆成「日期」与「星期」两段。
+ * 中文的 dateStyle:'full' 会输出「2026年11月1日星期日」，日与星期连读；
+ * 页面需要自己决定分隔方式与两者的层级，所以拆开返回。
+ */
+export function formatDateParts(dateKey: string, locale: Locale): { date: string; weekday: string } {
   const [y, m, d] = dateKey.split('-').map(Number);
-  return new Intl.DateTimeFormat(localeTag[locale], {
-    dateStyle: 'full',
-    timeZone: 'UTC',
-  }).format(new Date(Date.UTC(y, m - 1, d)));
+  const at = new Date(Date.UTC(y, m - 1, d));
+  return {
+    date: new Intl.DateTimeFormat(localeTag[locale], {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      timeZone: 'UTC',
+    }).format(at),
+    weekday: new Intl.DateTimeFormat(localeTag[locale], {
+      weekday: 'long',
+      timeZone: 'UTC',
+    }).format(at),
+  };
+}
+
+export function formatDateKey(dateKey: string, locale: Locale): string {
+  const parts = formatDateParts(dateKey, locale);
+  // 英文与西语的 full 格式自带分隔（Sunday, November 1, 2026），只有中文需要补
+  return locale === 'zh' ? `${parts.date} · ${parts.weekday}` : `${parts.weekday}, ${parts.date}`;
 }
 
 export function formatNumber(n: number, locale: Locale): string {
   return new Intl.NumberFormat(localeTag[locale]).format(n);
+}
+
+/**
+ * 卡片上的来源标签：只有一条时直接给媒体名（「1 来源」不携带任何信息），
+ * 多条时退回数量。搜索结果与列表卡片共用，避免两处写法漂移。
+ */
+export function sourceLabel(sources: { name: string }[], locale: Locale): string {
+  if (sources.length === 1) return sources[0].name;
+  return `${sources.length} ${ui[locale].sources.toLowerCase()}`;
 }
