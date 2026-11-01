@@ -95,9 +95,9 @@ function underTarget(view: (typeof views)[number]) {
               {day.published === views[index].total ? (
                 <div class="metrics">
                   <div><b>{day.fetched}</b>{dict.fetched}</div>
-                  <div><b>{day.afterDedup}</b>{dict.dedup}</div>
-                  <div><b>{day.passed}</b>{dict.gate}</div>
-                  <div><b>{day.published}</b>{dict.publishedItems}</div>
+                  {day.candidates > 0 && <div><b>{day.candidates}</b>{dict.candidates}</div>}
+                  <div><b>{views[index].total}</b>{dict.publishedItems}</div>
+                  {day.supplement.triggered && <div><b>{day.supplement.items}</b>{dict.supplement}</div>}
                 </div>
               ) : (
                 <p class="day-meta">—</p>

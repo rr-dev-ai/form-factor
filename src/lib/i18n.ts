@@ -73,6 +73,7 @@ type Dict = {
   total: string;
   dedup: string;
   gate: string;
+  candidates: string;
 };
 
 export const ui: Record<Locale, Dict> = {
@@ -136,6 +137,7 @@ export const ui: Record<Locale, Dict> = {
     total: '累计',
     dedup: '去重',
     gate: '过审',
+    candidates: '候选',
   },
   en: {
     home: 'Home',
@@ -197,6 +199,7 @@ export const ui: Record<Locale, Dict> = {
     total: 'total',
     dedup: 'dedup',
     gate: 'gate',
+    candidates: 'Drafted',
   },
   es: {
     home: 'Inicio',
@@ -258,6 +261,7 @@ export const ui: Record<Locale, Dict> = {
     total: 'total',
     dedup: 'depurado',
     gate: 'control',
+    candidates: 'Borradores',
   },
 };
 
