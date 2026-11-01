@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-02-telecom-02",
+  "slug": "south-africa-act-rejects-icasa-biometric-sim-rules",
+  "industry": "telecom",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "sim-registration",
+    "biometrics"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-02T04:17:35+08:00",
+  "ingestedAt": "2026-11-02T02:55:20+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "TechCentral",
+      "url": "https://techcentral.co.za/icasa-fingerprint-sim-plan-telco-resistance-act/287826",
+      "lang": "en",
+      "publishedAt": "2026-10-30T12:00:00+02:00"
+    }
+  ],
+  "title": {
+    "zh": "南非六大运营商集体拒绝指纹实名草案，争的是谁有权管 SIM 登记",
+    "en": "South Africa's six operators reject the fingerprint SIM draft, and the fight is over who governs registration",
+    "es": "Los seis operadores sudafricanos rechazan el borrador de SIM con huella y disputan quién regula el registro"
+  },
+  "summary": {
+    "zh": "代表 Vodacom、MTN、Telkom、Cell C、Rain 与 Liquid 的行业协会 ACT 表示，不支持 ICASA 的指纹或人脸核验与单人五号上限按现文本落地，理由是成本与技术可行性未评估，且与现行 RICA 实名法重叠、管辖权重叠。",
+    "en": "ACT, the body representing Vodacom, MTN, Telkom, Cell C, Rain and Liquid, says it will not back ICASA's fingerprint or face checks and five-number cap as drafted, citing unevaluated cost and feasibility plus overlap with the existing RICA registration law and a jurisdictional clash.",
+    "es": "ACT, que agrupa a Vodacom, MTN, Telkom, Cell C, Rain y Liquid, no respalda los controles de huella o rostro ni el límite de cinco números tal como están redactados, por coste y viabilidad sin evaluar y por solapamiento con la ley RICA y conflicto de competencias."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "ICASA 于 10 月 28 日把号码规划规则的修订草案挂出来征求意见，要求运营商在号码激活、重新激活或换卡时，用内政部记录核验申请人的脸或指纹，存量用户两年内补做，单人单运营商最多五个号，违反核心核验规则每次罚 200 万至 400 万兰特。",
+        "en": "ICASA published draft amendments to the numbering plan rules for comment on 28 October, requiring operators to check a subscriber's face or fingerprint against home affairs records at activation, reactivation or SIM swap, re-verify existing users within two years, cap one subscriber at five numbers per operator, and fine breaches of the core checks at R2m to R4m each.",
+        "es": "ICASA publicó el 28 de octubre el borrador de enmienda a las reglas de numeración: verificar rostro o huella contra el registro civil en el alta, la reactivación o el cambio de SIM, revisar a los usuarios existentes en dos años, limitar a cinco números por operador y multar cada incumplimiento con 2 a 4 millones de rand."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "10 月 30 日，行业协会 ACT 给出了正式回应。它的措辞很讲究：支持「加强 SIM 登记」这个目标，但不支持「按现文本的这些措施」。ACT 的成员覆盖 Vodacom、MTN、Telkom、Cell C、Rain 和 Liquid，基本上就是南非的整张移动网。",
+        "en": "On 30 October industry body ACT responded formally, and the wording is careful: it supports the objective of stronger SIM registration but not the measures as currently drafted. ACT's members are Vodacom, MTN, Telkom, Cell C, Rain and Liquid — in effect the country's whole mobile network.",
+        "es": "El 30 de octubre la patronal ACT respondió formalmente con una fórmula cuidada: apoya el objetivo de reforzar el registro de SIM, pero no las medidas tal como están redactadas. Sus miembros son Vodacom, MTN, Telkom, Cell C, Rain y Liquid, es decir, toda la red móvil del país."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "管辖之争：ACT 认为 SIM 登记依法属 RICA 第 40 条，主管部门是司法与宪政发展部；ICASA 是借号码资源管理权引入实质性的身份核验义务，两套程序并行会造成重复实施成本",
+          "en": "Jurisdiction: ACT argues SIM registration belongs to section 40 of RICA under the justice department, and that ICASA is using numbering-resource powers to introduce substantive identity-verification duties, so two parallel processes duplicate implementation cost",
+          "es": "Competencia: para ACT, el registro corresponde al artículo 40 de RICA y al ministerio de Justicia, y ICASA usa sus poderes sobre numeración para imponer deberes sustantivos de verificación, duplicando costes"
+        },
+        {
+          "zh": "可行性未评估：与内政部记录比对的技术方案、系统集成、网点和存量用户的处理都还没算过账，ACT 称正与内政部对接技术标准，目前进到技术开发阶段",
+          "en": "Feasibility: the technical route for matching home affairs records, the integration, the retail footprint and handling of existing users are all uncosted; ACT says it is aligning technical standards with home affairs and has reached the technical development stage",
+          "es": "Viabilidad: la vía técnica de cotejo con el registro civil, la integración, la red de puntos y los usuarios existentes no están costeados; ACT dice estar alineando estándares con Interior en fase de desarrollo técnico"
+        },
+        {
+          "zh": "五号上限：ACT 要求重新考虑，认为在南非的社会经济条件下，个人与企业有正当理由持有多张卡；草案对公司豁免生物核验，但不豁免这个上限",
+          "en": "The five-number cap: ACT wants it reconsidered given South Africa's socio-economic conditions and legitimate reasons consumers and businesses hold multiple SIMs; the draft exempts companies from biometric checks but not from the cap",
+          "es": "Límite de cinco números: pide reconsiderarlo por las condiciones socioeconómicas y los motivos legítimos para tener varias SIM; el borrador exime a empresas de la biometría pero no del límite"
+        },
+        {
+          "zh": "节奏：同一套规则今年 7 月刚改过（休眠卡处理），三个月内再叠一层实质义务，ACT 认为损害监管可预期性",
+          "en": "Pace: the same rules were amended in July for dormant SIMs, and stacking substantive duties within three months undermines regulatory predictability, ACT says",
+          "es": "Ritmo: las mismas reglas se modificaron en julio por las SIM inactivas y añadir deberes sustantivos en tres meses mina la previsibilidad regulatoria"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "值得注意的是 ACT 并非只要拖延。它在 6 月已公布一套 interim 框架——更严的身份核验、更紧的登记管控、对 SIM 分销渠道更多监督，并把 RICA 第 40 条的修法建议递到了司法部。换句话说，行业要的是自己那套流程被采纳，而不是不登记。评议期自 10 月 28 日起 30 个工作日。",
+        "en": "ACT is not simply stalling. In June it published an interim framework of stronger identity checks, tighter registration controls and more oversight of SIM distribution channels, and sent proposals to amend section 40 of RICA to the justice department. The industry wants its own process adopted, not registration abandoned. Comments run for 30 working days from 28 October.",
+        "es": "ACT no se limita a dilatar: en junio publicó un marco interino con verificación más estricta, controles de registro más ajustados y más supervisión de los canales de distribución, y envió propuestas para reformar el artículo 40 de RICA a Justicia. La industria quiere que se adopte su proceso, no abandonar el registro. El plazo de comentarios es de 30 días hábiles desde el 28 de octubre."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "争的不是要不要验，而是验在谁的流程里。若按 ICASA 文本走，核验点落在号码资源管理侧，运营商要把内政部比对接进激活与换卡的每一步，做生物识别与网点受理的供应商面对的是一张覆盖预付费的改造单；若按 ACT 的框架走，核验点落在行业自建的登记渠道上，采购方从监管方变成六家运营商联合体，接口与验收标准由行业自己定。跟进要点是 30 个工作日评议期后文本怎么改，以及内政部的比对接口最终按谁的技术标准交付。",
+    "en": "The question is not whether to verify but whose process does the verifying. Under ICASA's text the check sits on the numbering-resource side, so operators must wire home-affairs matching into every activation and swap, and biometrics and store-onboarding vendors face a prepaid-wide retrofit. Under ACT's framework the check sits in an industry-built registration channel, and the buyer shifts from a regulator to a six-operator consortium that sets its own interfaces and acceptance criteria. Watch how the text changes after the 30-working-day comment period, and whose technical standard the home-affairs matching interface is finally built to.",
+    "es": "La cuestión no es verificar o no, sino en el proceso de quién. Con el texto de ICASA el control recae en la numeración y cada alta y cambio debe integrar el cotejo con Interior: los proveedores de biometría y alta en tienda afrontan una reforma que cubre el prepago. Con el marco de ACT el control queda en un canal de registro sectorial y el comprador pasa de un regulador a un consorcio de seis operadores que fija interfaces y criterios. Hay que seguir cómo cambia el texto tras los 30 días hábiles y a qué estándar se entregue la interfaz de cotejo."
+  },
+  "confidence": 0.7,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

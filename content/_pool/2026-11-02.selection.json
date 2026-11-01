@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-01T20:15:48.274Z",
+  "selected": [
+    {
+      "industry": "identity",
+      "slug": "armenia-haypass-biometric-documents-go-live",
+      "score": 0.8,
+      "reason": "region-floor",
+      "region": "cis",
+      "sourceDate": "2026-11-02"
+    },
+    {
+      "industry": "banking",
+      "slug": "adyen-visa-payment-passkey-uk-checkout",
+      "score": 0.72,
+      "reason": "region-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-02"
+    },
+    {
+      "industry": "telecom",
+      "slug": "south-africa-act-rejects-icasa-biometric-sim-rules",
+      "score": 0.7,
+      "reason": "region-floor",
+      "region": "africa",
+      "sourceDate": "2026-11-02"
+    },
+    {
+      "industry": "identity",
+      "slug": "india-digi-yatra-international-epassport-trials",
+      "score": 0.85,
+      "reason": "region-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-02"
+    },
+    {
+      "industry": "telecom",
+      "slug": "china-esim-only-handset-in-store-activation-limits",
+      "score": 0.66,
+      "reason": "industry-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-02"
+    },
+    {
+      "industry": "identity",
+      "slug": "moneygram-aiprise-verification-platform",
+      "score": 0.6,
+      "reason": "industry-floor",
+      "region": "global",
+      "sourceDate": "2026-11-02"
+    },
+    {
+      "industry": "identity",
+      "slug": "ghana-nia-verification-taskforce-photocopy-ban",
+      "score": 0.78,
+      "reason": "manual",
+      "region": "africa",
+      "sourceDate": "2026-11-02"
+    }
+  ],
+  "alternates": [],
+  "expired": [],
+  "gaps": [
+    {
+      "region": "mena",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "north-america",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "latam",
+      "note": "池内 0 条"
+    }
+  ],
+  "unaccounted": [
+    {
+      "title": "IDEMIA and JazzCash bring premiumization and personalization to payment cards in Pakistan",
+      "url": "https://www.idemia.com/news/idemia-and-jazzcash-bring-premiumization-and-personalization-payment-cards-pakistan-2026-10-07",
+      "confidence": 0.75
+    },
+    {
+      "title": "Florida’s Redesigned Driver License and ID Card",
+      "url": "https://platform.keesingtechnologies.com/floridas-redesigned-driver-license-and-id-card/",
+      "confidence": 0.65
+    }
+  ],
+  "conflicts": [
+    {
+      "kind": "undated",
+      "detail": "identity/ghana-nia-verification-taskforce-photocopy-ban 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    }
+  ]
+}

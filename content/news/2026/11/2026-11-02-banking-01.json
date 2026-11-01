@@ -1,0 +1,102 @@
+{
+  "id": "2026-11-02-banking-01",
+  "slug": "adyen-visa-payment-passkey-uk-checkout",
+  "industry": "banking",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "payment-gateway",
+    "fraud"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-02T04:17:35+08:00",
+  "ingestedAt": "2026-11-02T02:35:28+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Fintech News Singapore",
+      "url": "https://fintechnews.sg/140075/payments/visa-payment-passkey-adyen-authenticate/",
+      "lang": "en",
+      "publishedAt": "2026-10-30T05:05:36Z"
+    }
+  ],
+  "title": {
+    "zh": "Adyen 把 Visa 支付密钥接进结账：英国先上，验证从短信改成设备解锁",
+    "en": "Adyen adds Visa Payment Passkey to checkout, starting with the UK",
+    "es": "Adyen suma Visa Payment Passkey al checkout y arranca en el Reino Unido"
+  },
+  "summary": {
+    "zh": "Adyen 在认证模块 Authenticate 里接入 Visa Payment Passkey，英国商户先可用：持卡人用设备解锁确认付款，不再等短信验证码；2027 年才排到更多市场。",
+    "en": "Adyen has added Visa Payment Passkey to Authenticate, the authentication module inside its Uplift suite, so UK merchants can let shoppers confirm online payments with their device unlock instead of a one-time code. Wider markets are planned for 2027.",
+    "es": "Adyen incorporó Visa Payment Passkey a Authenticate, el módulo de autenticación de su suite Uplift, para que los comercios del Reino Unido permitan confirmar el pago con el desbloqueo del dispositivo en lugar de un código de un solo uso. La expansión a más mercados está prevista para 2027."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Adyen 把 Visa Payment Passkey 接进了 Authenticate——这是 Adyen Uplift 优化套件里的认证模块，负责判断一笔线上交易要不要验证、用哪种方式验、以及向发卡行传哪些信息。接入之后，符合条件的持卡人在结账时用设备已有的解锁方式（指纹、面容或设备密码）确认付款，不必再等短信里的一次性验证码。首批只开英国。",
+        "en": "Adyen has integrated Visa Payment Passkey into Authenticate, the authentication module inside its Adyen Uplift optimisation suite, which decides whether an online transaction needs authentication, which method to use and what information to pass to the issuer. With the integration, eligible cardholders confirm payment at checkout with their device's existing unlock method — fingerprint, face or device passcode — instead of waiting for a one-time code by SMS. The first market is the UK only.",
+        "es": "Adyen integró Visa Payment Passkey en Authenticate, el módulo de autenticación de su suite de optimización Adyen Uplift, que decide si una transacción online requiere autenticación, qué método usar y qué información enviar al emisor. Con la integración, los titulares elegibles confirman el pago con el desbloqueo del dispositivo —huella, rostro o código del equipo— en lugar de esperar un código de un solo uso por SMS. El primer mercado es solo el Reino Unido."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "密钥存在设备上，认的是发卡行",
+        "en": "The key lives on the device, the issuer does the recognising",
+        "es": "La clave vive en el dispositivo y el emisor es quien reconoce"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "按 Visa 的说法，持卡人先在发卡行完成身份核验并生成 passkey，此后每笔符合条件的交易都用设备解锁完成验证，首次购买与回头客都适用。商户页面不再承担收集卡号与验证码的角色，这与过去把卡号送进验证页面、再由发卡行发短信的做法不同。Adyen 把它定位成认证编排里多出来的一个选项：已经接入 Authenticate 的商户，不必为它单独再做一次集成。",
+        "en": "Under Visa's description, the cardholder first completes identity verification with the issuer and creates a passkey; from then on each eligible transaction is authenticated with the device unlock, for first-time purchases and returning customers alike. The merchant page no longer collects the card number and the code, unlike the older flow where the card went into an authentication page and the issuer sent an SMS. Adyen positions it as one more option inside the authentication orchestration: merchants already on Authenticate do not need a separate integration for it.",
+        "es": "Según la descripción de Visa, el titular completa primero la verificación de identidad con el emisor y crea una passkey; desde ahí cada transacción elegible se autentica con el desbloqueo del dispositivo, tanto en la primera compra como en las siguientes. La página del comercio deja de recoger el número de tarjeta y el código, a diferencia del flujo anterior en el que la tarjeta entraba en una página de autenticación y el emisor enviaba un SMS. Adyen lo plantea como una opción más dentro de la orquestación: los comercios que ya usan Authenticate no necesitan una integración aparte."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "结账页要能判断当前设备与浏览器是否支持 passkey，不支持时回落到原有的验证方式",
+          "en": "The checkout page has to detect whether the device and browser support passkeys, and fall back to the previous method when they do not",
+          "es": "La página de pago debe detectar si el dispositivo y el navegador admiten passkeys y volver al método anterior cuando no"
+        },
+        {
+          "zh": "认证编排要重新排优先级：什么条件下走 passkey，什么条件退回一次性验证码",
+          "en": "The authentication orchestration needs new priorities: when to route to a passkey and when to fall back to a one-time code",
+          "es": "La orquestación necesita nuevas prioridades: cuándo ir a la passkey y cuándo volver al código de un solo uso"
+        },
+        {
+          "zh": "与发卡行之间的信息传递按新流程裁剪，少传卡数据；拒付责任转移的适用条件要写进商户协议",
+          "en": "What is sent to the issuer gets trimmed under the new flow, with fewer card data fields; the conditions for liability shift belong in the merchant agreement",
+          "es": "Lo que se envía al emisor se recorta con el nuevo flujo, con menos datos de tarjeta; las condiciones de traslación de responsabilidad deben quedar en el contrato del comercio"
+        },
+        {
+          "zh": "原文没有给出支持卡种清单、覆盖商户数与交易量，实际可用范围要等上线后看",
+          "en": "The article gives no list of qualifying cards, merchant count or transaction volume, so real reach has to be measured after launch",
+          "es": "El artículo no detalla tarjetas admitidas, número de comercios ni volumen, así que el alcance real se medirá tras el lanzamiento"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "时间表写得明确：先在英国提供，后续增强与全球扩展排在 2027 年。短期能用的只是英国的一部分卡与设备组合。Checkout.com 10 月底已在商户侧开放同一能力，Adyen 这次的动作说明这套认证方式正在收单机构之间铺开。文中引述 Adyen 支付产品高级副总裁 Rahul Hampole 与 Visa 全球产品与计划高级副总裁 Dan Sanford，两人都把重点放在减少结账摩擦与改用设备本地的识别方式上，没有披露费率或商户激励安排。",
+        "en": "The timeline is explicit: the UK first, with further enhancements and global expansion scheduled for 2027, so what works in the short term is a subset of UK cards and devices. Checkout.com opened the same capability to its merchants in late October, and Adyen's move shows the method spreading across acquirers. The piece quotes Rahul Hampole, SVP Product for Payments at Adyen, and Dan Sanford, SVP Global Product and Initiatives at Visa, both framing the change around less checkout friction and the use of identification already on the device. Neither fee changes nor merchant incentives are disclosed.",
+        "es": "El calendario es explícito: primero el Reino Unido, con mejoras y expansión global previstas para 2027, de modo que a corto plazo funciona solo un subconjunto de tarjetas y dispositivos británicos. Checkout.com abrió la misma capacidad a sus comercios a finales de octubre y el movimiento de Adyen muestra que el método se extiende entre adquirentes. El texto cita a Rahul Hampole, SVP de Producto de Pagos de Adyen, y a Dan Sanford, SVP de Producto e Iniciativas Globales de Visa, que centran el cambio en menos fricción en el pago y en usar la identificación que ya trae el dispositivo. No se detallan cambios de tarifas ni incentivos a comercios."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "改变的是受理侧的认证环节：从「发短信—输码」变成「设备解锁—签名」，卡号不再经过商户页面。对网关与收单集成商，工作量落在结账页的能力探测、认证编排的优先级、以及对发卡行的信息裁剪三处，谈资是拒付责任转移的适用条件。风险是覆盖仍限英国与部分卡设备，且能力内嵌在平台侧——没有同等能力的独立服务商，会在这类交易上被排除在外。",
+    "en": "What changes is authentication at the acceptance link: from an SMS code to a device unlock and signature, with the card number no longer passing through the merchant page. For gateways and acquirer integrators the work sits in three places — capability detection on the checkout page, priority inside the authentication orchestration, and trimming what goes to the issuer — and the commercial argument is where liability shift applies. The risk is that coverage is still the UK and a subset of cards and devices, and that the capability sits inside one platform, so independent providers without an equivalent will be shut out of these transactions.",
+    "es": "Lo que cambia es la autenticación en el eslabón de aceptación: del código por SMS al desbloqueo del dispositivo y la firma, sin que el número de tarjeta pase por la página del comercio. Para pasarelas e integradores de adquirencia el trabajo está en tres puntos —detección de capacidades en la página de pago, prioridad dentro de la orquestación de autenticación y recorte de lo que se envía al emisor— y el argumento comercial es dónde aplica la traslación de responsabilidad. El riesgo es que la cobertura siga limitada al Reino Unido y a una parte de tarjetas y dispositivos, y que la capacidad viva dentro de una plataforma: los proveedores independientes sin equivalente quedarán fuera de estas transacciones."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

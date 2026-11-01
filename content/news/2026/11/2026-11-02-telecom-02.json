@@ -1,0 +1,105 @@
+{
+  "id": "2026-11-02-telecom-01",
+  "slug": "china-esim-only-handset-in-store-activation-limits",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "esim",
+    "sim-registration"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-02T04:17:35+08:00",
+  "ingestedAt": "2026-11-02T02:55:20+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "Apple",
+      "url": "https://www.apple.com.cn/shop/buy-iphone/iphone-duo",
+      "lang": "zh"
+    },
+    {
+      "name": "新浪财经",
+      "url": "https://t.cj.sina.com.cn/articles/view/7879995964/1d5af323c068018lxy?finpagefr=p_103",
+      "lang": "zh",
+      "publishedAt": "2026-11-01T14:14:00+08:00"
+    },
+    {
+      "name": "新浪财经",
+      "url": "https://t.cj.sina.com.cn/articles/view/7879996047/1d5af328f06801jw0a?finpagefr=p_103",
+      "lang": "zh",
+      "publishedAt": "2026-11-01T06:06:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "国行纯 eSIM 手机把开卡锁进营业厅：最多两张，删掉不能自助恢复",
+    "en": "China's eSIM-only handset keeps activation at the counter: two profiles, and deletion is not self-service",
+    "es": "El móvil solo eSIM de China mantiene el alta en la tienda: dos perfiles y borrado sin autoservicio"
+  },
+  "summary": {
+    "zh": "国行 iPhone Duo 没有实体卡槽，三大运营商都支持，但首次开通必须本人带身份证到营业厅核验写入；机身最多同时保存两张 eSIM，删掉内地号后不能扫码自助恢复，得回柜台重办。",
+    "en": "The mainland China model of the iPhone Duo has no SIM tray and all three carriers support it, but first activation requires the owner to appear in person at a store with an ID card. The handset holds at most two profiles, and a deleted mainland profile cannot be restored by scanning a code — it means a return visit.",
+    "es": "El modelo continental del iPhone Duo no tiene bandeja SIM y las tres operadoras lo soportan, pero el alta exige acudir en persona a una tienda con el documento de identidad. Caben dos perfiles como máximo y un perfil local borrado no se restaura escaneando un código: hay que volver."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "国行版 iPhone Duo 是全系无卡槽的纯 eSIM 机型，中国大陆售价 15,999 元起。苹果中国官网写明：中国移动、中国电信、中国联通均可为该机型提供 eSIM 支持，但用户需在设置好新机后，前往运营商线下营业厅完成身份证件核验并激活。",
+        "en": "The mainland China iPhone Duo ships without a SIM tray and is eSIM-only across the range, starting at 15,999 yuan. Apple's China store page states that China Mobile, China Telecom and China Unicom all support eSIM on the model, but that owners must go to a carrier store to have their identity document checked and the line activated after setting up the phone.",
+        "es": "El iPhone Duo continental llega sin bandeja SIM, solo eSIM en toda la gama, desde 15.999 yuanes. La página china de Apple indica que China Mobile, China Telecom y China Unicom dan soporte eSIM al modelo, pero el usuario debe acudir a una tienda para la verificación del documento y la activación tras configurar el teléfono."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "数量上限：国行最多同时保存并启用两张 eSIM，换号要先删一张；港版可存八张以上，但写不进内地三大运营商的配置",
+          "en": "Capacity: the mainland model stores and enables at most two profiles, so a third number means deleting one; the Hong Kong version holds eight or more but cannot carry mainland carrier profiles",
+          "es": "Capacidad: el modelo continental guarda y activa dos perfiles como máximo, así que un tercer número obliga a borrar uno; la versión de Hong Kong admite ocho o más pero no acepta perfiles de las operadoras continentales"
+        },
+        {
+          "zh": "首次办理要人到场：本人持身份证原件、已初始化的新机，旧号转 eSIM 还要带上原实体卡供读取；不能代办",
+          "en": "First activation is in person: the owner brings the original ID card and an initialised handset, plus the old physical SIM if an existing number is being converted; no proxy",
+          "es": "El alta es presencial: documento original y teléfono inicializado, más la SIM física si se convierte un número existente; no se admite representante"
+        },
+        {
+          "zh": "删除即失去自助路径：已删除的内地 eSIM 回国后不能扫码自助恢复，需重新到营业厅核验并写号",
+          "en": "Deletion closes the self-service path: a removed mainland profile cannot be restored by scanning a code on return, and requires a fresh in-store check and write",
+          "es": "Borrar cierra la vía de autoservicio: un perfil continental eliminado no se recupera escaneando un código al volver y exige nueva verificación y escritura en tienda"
+        },
+        {
+          "zh": "设备绑定连带维修：eSIM 与整机绑定，送修期间需先到营业厅补一张实体卡插备用机，新机回来再重新写号",
+          "en": "The profile is bound to the handset: during a repair the user must first obtain a physical SIM for a spare phone, then have the number written again when the device returns",
+          "es": "El perfil va atado al terminal: durante una reparación hay que obtener una SIM física para un teléfono de respaldo y volver a escribir el número al recibir el equipo"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "执行层面还有落差。三家都表态支持，但网点受理能力不一致：部分营业厅系统尚未收录该机型，异地号码转 eSIM 有网点直接拒办，合作网点与自营厅的政策也不同。中国联通在部分苹果直营店和授权店安排了驻店人员，购机现场即可办结；移动、电信也有驻店服务，但需提前确认门店。",
+        "en": "Execution is uneven. All three carriers say they support it, but store-level capability differs: some outlets have not registered the model in their systems, some refuse out-of-region numbers, and partner stores follow different rules from flagship ones. China Unicom has staff stationed in some Apple stores and authorised resellers so the line can be activated at purchase; China Mobile and China Telecom also offer in-store service but the branch has to be confirmed first.",
+        "es": "La ejecución es desigual. Las tres lo apoyan, pero la capacidad por tienda varía: algunas no tienen el modelo en sus sistemas, otras rechazan números de otra región y las tiendas asociadas aplican reglas distintas. China Unicom tiene personal en algunas Apple Store y revendedores autorizados; China Mobile y China Telecom también ofrecen el servicio, pero hay que confirmar la sucursal."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "把这几条放在一起看，落地形态很清楚：远程下载配置这一步还在，但「能不能拿到配置」和「删了还能不能拿回来」被推回到人工核验。对习惯用二维码自助开通的市场，这是一条相反的路——无卡化没有减少柜台环节，只是把柜台环节从卖卡挪到了写号和补号上。",
+        "en": "Read together, the shape is clear: remote profile download still exists, but whether a profile can be issued at all, and whether it can be reissued after deletion, has moved back to manual verification. For markets used to QR self-service, this runs the other way — going cardless has not removed the counter, it has moved the counter from selling a SIM to writing and restoring a number.",
+        "es": "Visto en conjunto, la forma es clara: la descarga remota del perfil sigue existiendo, pero si se puede emitir y si se puede reemitir tras borrarlo vuelve a la verificación manual. Para mercados acostumbrados al autoservicio por QR, va en sentido contrario: quitar la tarjeta no elimina el mostrador, lo traslada de vender una SIM a escribir y reponer un número."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "改变的是签发与再签发环节：配置仍从 SM-DP+ 下发，但触发权在柜台，删除后没有自助回路。对做 eUICC、SM-DP+ 和营业厅受理系统的供应商，需求从「发一张卡」变成「可审计的再签发」——读原卡、核验身份、校验终端绑定、留痕，这几步要能在一次到店里跑完。风险在另一头：双卡上限加上不可自助恢复，把换机和出境用户赶回柜台，靠线上分销的旅行 eSIM 空间被压窄，谁把补号流程做短，谁才拿得到这部分量。",
+    "en": "What changes is issuance and re-issuance: profiles still come down from an SM-DP+, but the trigger sits at the counter and deletion has no self-service return path. For eUICC, SM-DP+ and store onboarding vendors the requirement shifts from shipping a card to auditable re-issuance — read the old card, verify identity, check the device binding, keep a record, all inside one visit. The risk runs the other way: a two-profile cap plus no self-service recovery pushes handset upgrades and outbound travellers back to the counter and narrows the room for online travel-eSIM distribution, so the volume goes to whoever shortens the restore step.",
+    "es": "Lo que cambia es la emisión y la reemisión: el perfil sigue bajando de un SM-DP+, pero el disparador está en el mostrador y el borrado no tiene vuelta de autoservicio. Para proveedores de eUICC, SM-DP+ y sistemas de alta en tienda, el requisito pasa de entregar una tarjeta a una reemisión auditable: leer la tarjeta anterior, verificar identidad, comprobar el vínculo con el terminal y dejar registro, todo en una visita. El riesgo es el inverso: el límite de dos perfiles y la falta de recuperación autónoma devuelven al mostrador las renovaciones y los viajeros, y estrechan el espacio de la distribución online de eSIM de viaje."
+  },
+  "confidence": 0.66,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

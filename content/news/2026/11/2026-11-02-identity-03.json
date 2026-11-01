@@ -1,0 +1,88 @@
+{
+  "id": "2026-11-02-identity-04",
+  "slug": "moneygram-aiprise-verification-platform",
+  "industry": "identity",
+  "region": "global",
+  "regions": [],
+  "tags": [
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-02T04:17:35+08:00",
+  "ingestedAt": "2026-11-02T03:12:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/moneygram-selects-aiprise-for-verification-and-fraud-prevention-operations/",
+      "lang": "en",
+      "publishedAt": "2026-10-30T16:14:35+00:00"
+    }
+  ],
+  "title": {
+    "zh": "MoneyGram 把各国的客户核验收进一个平台，交给 AiPrise",
+    "en": "MoneyGram pulls country-by-country KYC into one platform and hands it to AiPrise",
+    "es": "MoneyGram unifica su KYC en una plataforma y lo entrega a AiPrise"
+  },
+  "summary": {
+    "zh": "汇款网络 MoneyGram 选定合规与身份核验平台 AiPrise，把文件核验、KYC/KYB 与制裁筛查收进同一套接口，覆盖其 200 多个国家和地区业务；AiPrise 称该平台接入 100 多个数据源、200 多个国家和 500 多个政府与商业登记库。",
+    "en": "MoneyGram has selected compliance and identity verification platform AiPrise to run document checks, KYC/KYB and sanctions screening through a single interface across its business in more than 200 countries and territories; AiPrise says the platform draws on more than 100 data sources and covers over 200 countries and 500-plus government and business registries.",
+    "es": "MoneyGram eligió a AiPrise, plataforma de cumplimiento y verificación de identidad, para ejecutar la verificación documental, el KYC/KYB y el cribado de sanciones mediante una sola interfaz en su negocio en más de 200 países y territorios; AiPrise afirma que se apoya en más de 100 fuentes de datos y cubre más de 200 países y 500 registros públicos y mercantiles."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "从一个市场一套流程，到一个接口一套判断",
+        "en": "From one process per market to one interface for every decision",
+        "es": "De un proceso por mercado a una interfaz para cada decisión"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "交易的内容是核验环节的收敛。按双方的说法，MoneyGram 将用 AiPrise 的单一平台处理「部分核验流程」，让不同市场的团队用同一套口径复核信息、判断证件核验结果，背后接的是 100 多个数据源。AiPrise 的产品形态是一个 API，覆盖企业核验、客户核验、反洗钱筛查与文件核验，宣称可查 200 多个国家、500 多个政府与商业登记库，并用模型对结果做初判供合规团队复核。",
+        "en": "The deal is about collapsing the verification step. Per both parties, MoneyGram will use AiPrise's single platform for \"select verification processes\", so teams in different markets review information and document-verification outcomes against one standard, drawing on more than 100 data sources. AiPrise's product is a single API covering know-your-business, know-your-customer, anti-money-laundering screening and document checks, pitched as reaching more than 200 countries and 500-plus government and business registries, with models pre-assessing results for compliance teams to review.",
+        "es": "El acuerdo consiste en concentrar el paso de verificación. Según ambas partes, MoneyGram usará la plataforma única de AiPrise para «determinados procesos de verificación», de modo que los equipos de distintos mercados revisen la información y los resultados documentales con un mismo criterio, apoyados en más de 100 fuentes de datos. El producto de AiPrise es una sola API que cubre verificación de empresas, de clientes, cribado antilavado y comprobación documental, con alcance declarado de más de 200 países y 500 registros públicos y mercantiles, y modelos que preevalúan los resultados para que los equipos de cumplimiento los revisen."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "规模解释了为什么值得换：MoneyGram 覆盖 200 多个国家和地区、近 50 万个线下网点，自称活跃客户超过 6,000 万，同时做法币与稳定币业务。它的合规主管 Bahar Sahajwalla 的说法是「核验是运营一个可信全球网络的前提」，希望在不同市场维持一致标准；首席产品与技术官 Luke Tuttle 把它归入平台现代化。AiPrise 首席执行官 Chaitanya Sarda 强调的是跨境场景下的可审计判断。此前 MoneyGram 已引入 Oscilar 做 AI 风险平台，这次是核验这一层的替换。",
+        "en": "Scale explains why the switch is worth making: MoneyGram covers more than 200 countries and territories and nearly half a million retail locations, claims more than 60 million active customers, and handles both fiat and stablecoin transactions. Its chief regulatory and public affairs officer, Bahar Sahajwalla, frames verification as \"essential to operating a trusted global payments network\" and wants consistent standards across markets; chief product and technology officer Luke Tuttle files it under platform modernisation. AiPrise chief executive Chaitanya Sarda stresses auditable decisions in cross-border settings. MoneyGram had already brought in Oscilar for an AI risk platform, so this replaces the verification layer specifically.",
+        "es": "La escala explica por qué merece la pena el cambio: MoneyGram opera en más de 200 países y territorios y cerca de medio millón de puntos físicos, declara más de 60 millones de clientes activos y trabaja con moneda fiduciaria y stablecoins. Su responsable de regulación y asuntos públicos, Bahar Sahajwalla, presenta la verificación como «esencial para operar una red global de confianza» y busca estándares homogéneos entre mercados; el responsable de producto y tecnología, Luke Tuttle, lo encuadra en la modernización de la plataforma. El consejero delegado de AiPrise, Chaitanya Sarda, subraya decisiones auditables en entornos transfronterizos. MoneyGram ya había incorporado a Oscilar para una plataforma de riesgo con IA, así que esto sustituye específicamente la capa de verificación."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "对做采集与外设的厂商：集成对象从各国本地的汇款代理或收单方，变成中间这一层平台；能不能被一个 API 接进去，比拿下单个国家的渠道更关键",
+          "en": "For capture and hardware vendors: the integration counterparty moves from local remittance agents or acquirers to the platform layer in between, so being pluggable into one API matters more than winning a single country's channel",
+          "es": "Para fabricantes de captura y hardware: la contraparte de integración deja de ser el agente local o el adquirente y pasa a ser la capa de plataforma, así que poder enchufarse a una API importa más que ganar el canal de un país"
+        },
+        {
+          "zh": "对合规团队：判断依据集中在一条链路上，留痕与复议口径统一，但每个市场的例外情形要显式写进配置，否则会被「一致标准」抹平",
+          "en": "For compliance teams: evidence sits on one chain with uniform record-keeping and review, but each market's exceptions have to be written into configuration explicitly or the \"consistent standards\" argument erases them",
+          "es": "Para los equipos de cumplimiento: la prueba queda en una sola cadena, con registro y revisión homogéneos, pero las excepciones de cada mercado deben quedar explícitas en la configuración o el argumento de «estándares homogéneos» las borra"
+        },
+        {
+          "zh": "风险是集中度：多国核验压到一家供应商，一旦其数据源或接口在某地失效，影响面是整条汇款链路而不是单个市场",
+          "en": "The risk is concentration: multi-country verification in one supplier means an outage of its data sources or interface in one place hits the whole remittance chain, not one market",
+          "es": "El riesgo es la concentración: la verificación multinacional en un solo proveedor implica que un fallo de sus fuentes o de su interfaz en un país golpea toda la cadena de remesas, no un mercado"
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "改变的是核验环节的采购结构。原来是每个市场各找本地核验商、各写一套流程，现在由一层 API 覆盖多国，供应商要证明的是「能否被这个聚合层接进去」，而不是单国渠道有多深。对做证件采集、活体检测与外设的厂商，接入对象从汇款代理变成平台方，接口文档与数据源清单成了入场券；对集成商，机会在把柜台采集、代理点设备与这套核验串起来的那段工程。要跟的是这套平台在监管差异大的市场怎么处理例外，以及单一供应商集中度带来的可用性风险。",
+    "en": "What changes is the buying structure of verification. Instead of each market sourcing a local verifier and writing its own process, one API layer now spans many countries, so vendors must prove they plug into that aggregation rather than how deep their single-country channel runs. For document capture, liveness and hardware vendors the counterparty shifts from remittance agents to the platform, making interface docs and data-source coverage the entry ticket; for integrators the opening is the engineering that ties counter capture and agent devices into that verification. Watch how exceptions are handled in markets with different rules, and the availability risk of concentration.",
+    "es": "Lo que cambia es la estructura de compra de la verificación. En lugar de que cada mercado busque un verificador local y escriba su proceso, una capa de API cubre ahora muchos países, así que el proveedor debe demostrar que se enchufa a esa agregación, no la fuerza de su canal nacional. Para captura documental, prueba de vida y hardware, la contraparte pasa del agente de remesas a la plataforma, y la documentación de interfaz y la cobertura de fuentes se vuelven el billete de entrada; para los integradores, la oportunidad está en unir la captura en ventanilla y los dispositivos de agente con esa verificación. Hay que seguir las excepciones en mercados con reglas distintas y el riesgo de concentración."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

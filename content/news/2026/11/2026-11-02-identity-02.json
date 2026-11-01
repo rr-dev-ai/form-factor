@@ -1,0 +1,95 @@
+{
+  "id": "2026-11-02-identity-03",
+  "slug": "india-digi-yatra-international-epassport-trials",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "passport",
+    "biometrics",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-02T04:17:35+08:00",
+  "ingestedAt": "2026-11-02T03:12:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "The New Indian Express",
+      "url": "https://www.newindianexpress.com/india/2026/Nov/01/digi-yatra-begins-international-passenger-trials-at-seven-airports-2",
+      "lang": "en",
+      "publishedAt": "2026-11-01T16:31:00+05:30"
+    },
+    {
+      "name": "The Economic Times",
+      "url": "https://m.economictimes.com/industry/transportation/airlines-/-aviation/digi-yatra-starts-international-passenger-trials-at-seven-airports-on-select-air-india-indigo-flights/articleshow/135428793.cms",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "Digi Yatra 把电子护照做成手机里的凭证，国际航班试点开在七个机场",
+    "en": "Digi Yatra turns the e-passport into a phone credential, with an international trial at seven airports",
+    "es": "Digi Yatra convierte el pasaporte electrónico en credencial móvil con una prueba en siete aeropuertos"
+  },
+  "summary": {
+    "zh": "自 11 月 1 日起，持电子护照的印度公民可在德里、孟买、班加罗尔、海得拉巴、钦奈、科钦与阿姆利则七个机场的国际航班上试用 Digi Yatra：在 App 内扫描护照机读区、用 NFC 读取芯片并拍一张自拍，生成可验证凭证存放在手机钱包里，再在航站楼入口、安检区与登机口用人脸比对通行。",
+    "en": "From 1 November, Indian nationals holding e-passports can use Digi Yatra on international flights at Delhi, Mumbai, Bengaluru, Hyderabad, Chennai, Cochin and Amritsar: the app scans the passport's machine-readable zone, reads the chip over NFC and takes a selfie to mint a verifiable credential stored in the phone's wallet, which is then matched by face at terminal entry, the security hold area and boarding gates.",
+    "es": "Desde el 1 de noviembre, los ciudadanos indios con pasaporte electrónico pueden usar Digi Yatra en vuelos internacionales en Delhi, Bombay, Bangalore, Hyderabad, Chennai, Cochín y Amritsar: la aplicación lee la zona de lectura mecánica, accede al chip por NFC y toma una selfi para emitir una credencial verificable que se guarda en el monedero del teléfono y se coteja por rostro en la entrada, la zona de seguridad y la puerta de embarque."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "跨境这一段，用的不是护照本身",
+        "en": "For the cross-border leg, the credential is not the passport itself",
+        "es": "En el tramo transfronterizo, la credencial no es el pasaporte en sí"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "在此之前，Digi Yatra 只服务国内航班：旅客在 App 里注册、人脸绑定登机牌，机场用摄像头比对放行。国际航班加了一道不同的工序——旅客要以电子护照为源头，自己生成一张可验证凭证：扫描护照的机读区、用手机 NFC 读取芯片、拍自拍、核对信息，凭证落在设备上的 Digi Yatra 钱包里，不上传到中心数据库。民航部的表述是「去中心化数字身份」，凭证由旅客持有，机场只在需要时验证。",
+        "en": "Until now Digi Yatra served domestic flights only: travellers enrolled in the app, linked a boarding pass to their face, and airports matched it by camera. International flights add a different step — the traveller mints a verifiable credential from the e-passport itself, scanning the machine-readable zone, reading the chip over the phone's NFC, taking a selfie and confirming the details, with the credential held in the on-device Digi Yatra wallet rather than uploaded to a central database. The civil aviation ministry calls it a decentralised digital identity: the passenger holds the credential and the airport verifies it on demand.",
+        "es": "Hasta ahora Digi Yatra solo servía vuelos nacionales: el viajero se registraba en la app, vinculaba la tarjeta de embarque a su rostro y el aeropuerto lo cotejaba por cámara. Los vuelos internacionales añaden un paso distinto: el viajero emite una credencial verificable a partir del pasaporte electrónico, leyendo la zona de lectura mecánica, accediendo al chip por NFC, tomando una selfi y confirmando los datos, con la credencial en el monedero local de Digi Yatra y no en una base central. El ministerio de Aviación Civil lo describe como identidad digital descentralizada: la credencial la lleva el pasajero y el aeropuerto la verifica cuando hace falta."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "试点范围写得很窄：七个机场（德里、孟买、班加罗尔、海得拉巴、钦奈、科钦、阿姆利则），只对持电子护照的印度公民开放，只覆盖印度航空与靛蓝航空的部分国际航班，可用环节限于航站楼入口、安检区与登机口，前提是当地已装好相应设备。试点 11 月起跑、12 月底结束，反馈用于规划 2027 年的推广。靛蓝航空称其 beta 阶段在 10 月底已经开始。官方同时强调这套流程是补充而非替代：证件仍要带，航空公司的文件查验、移民手续一样不能少。",
+        "en": "The scope is deliberately narrow: seven airports (Delhi, Mumbai, Bengaluru, Hyderabad, Chennai, Cochin, Amritsar), Indian nationals with e-passports only, select international flights by Air India and IndiGo only, and only at terminal entry, the security hold area and boarding gates where the equipment is already installed. Trials run from November to the end of December, with feedback shaping a wider rollout in 2027; IndiGo says its beta phase began at the end of October. Officials stress the process complements rather than replaces existing checks: passengers still carry their documents and still complete airline document checks and immigration.",
+        "es": "El alcance es deliberadamente estrecho: siete aeropuertos (Delhi, Bombay, Bangalore, Hyderabad, Chennai, Cochín y Amritsar), solo ciudadanos indios con pasaporte electrónico, solo vuelos internacionales seleccionados de Air India e IndiGo, y solo en la entrada, la zona de seguridad y la puerta de embarque donde ya hay equipos instalados. La prueba va de noviembre a finales de diciembre y sus resultados orientarán la extensión en 2027; IndiGo dice que su fase beta empezó a finales de octubre. Las autoridades subrayan que el proceso complementa y no sustituye los controles: hay que seguir llevando los documentos y pasar los controles de la aerolínea y de inmigración."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "体量已在：39 个国内机场、超过 2,650 万用户、逾 1.1 亿次出行；2027 年另有 25 个国内机场要装设备",
+          "en": "The installed base is already large: 39 domestic airports, more than 26.5 million users and over 110 million journeys, with 25 more domestic airports to be equipped in 2027",
+          "es": "La base ya es grande: 39 aeropuertos nacionales, más de 26,5 millones de usuarios y más de 110 millones de trayectos, con otros 25 aeropuertos nacionales equipados en 2027"
+        },
+        {
+          "zh": "互操作是下一个目标：Digi Yatra 基金会称会对接 IATA 的 One ID 与 ICAO 的公钥目录，这两者决定凭证能不能被别国机场认",
+          "en": "Interoperability is the next target: the Digi Yatra Foundation says it will align with IATA One ID and ICAO's Public Key Directory, the two things that decide whether a credential is accepted at a foreign airport",
+          "es": "La interoperabilidad es el siguiente objetivo: la Fundación Digi Yatra dice que se alineará con IATA One ID y el directorio de claves públicas de la OACI, que son lo que decide si una credencial se acepta en un aeropuerto extranjero"
+        },
+        {
+          "zh": "资格门槛本身就是限制：没有电子护照的旅客进不了这个流程，试点期也无法覆盖非印度籍旅客",
+          "en": "Eligibility is itself the limit: travellers without an e-passport cannot enter the flow, and foreign nationals are out of scope for the trial",
+          "es": "La elegibilidad es el propio límite: quien no tenga pasaporte electrónico no puede entrar en el flujo y los extranjeros quedan fuera de la prueba"
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "改变的是机场受理端的读法。过去闸机读护照芯片，判断的是证件真伪；现在还要认一张由旅客手机生成的派生凭证，并在同一处完成人脸比对。对设备与集成商，这意味着入口闸机、自助值机与安检通道要同时支持 NFC 读证与凭证验证，还要与航空公司的旅客系统对接，把「凭证—登机牌—人脸」三者绑在一起。跨境试点一旦跑通，采购口径会从「证件阅读器」变成「验证加活体比对的通道改造」；没跑通，问题多半出在凭证与登机牌的绑定环节。",
+    "en": "What changes is how the airport reads identity at acceptance. Gates used to read the passport chip to judge whether the document was genuine; now they must also accept a derived credential minted on the traveller's phone and do the face match there. For vendors that means entry gates, kiosks and security lanes must handle NFC document reading and credential verification together, and integrate with the airline's passenger system so credential, boarding pass and face are bound as one. If the trial works, the brief shifts from document readers to lane retrofits with liveness matching; if it stumbles, the failure will sit in binding the credential to the boarding pass.",
+    "es": "Lo que cambia es cómo el aeropuerto lee la identidad al aceptarla. Las puertas leían el chip del pasaporte para juzgar su autenticidad; ahora deben aceptar además una credencial derivada emitida en el teléfono y hacer allí el cotejo facial. Para los fabricantes, eso obliga a que puertas, kioscos y carriles manejen a la vez lectura NFC y verificación de credenciales, y a integrarse con el sistema de pasajeros para ligar credencial, tarjeta de embarque y rostro. Si la prueba funciona, el pliego pasa de lectores a reformas de carril con cotejo en vivo; si falla, el punto más probable es el enlace con la tarjeta de embarque."
+  },
+  "confidence": 0.85,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "date": "2026-11-02",
+  "industry": "identity",
+  "startedAt": "2026-11-02T03:12:00+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "Türkiye plans digital ID wallet pilot for 2027 as age verification expands",
+      "url": "https://www.biometricupdate.com/202610/turkiye-plans-digital-id-wallet-pilot-for-2027-as-age-verification-expands",
+      "reason": "已由本站 2026-10-31 identity-01 处理（土耳其 2027 数字身份钱包原型与年龄核验），同一事件不重复收录"
+    },
+    {
+      "title": "US Treasury makes ID.me mandatory as federal policy shifts toward Login.gov",
+      "url": "https://www.biometricupdate.com/202610/us-treasury-makes-id-me-mandatory-as-federal-policy-shifts-toward-login-gov",
+      "reason": "已由本站 2026-10-31 identity-02 处理（TreasuryDirect 只认 ID.me），同一事件不重复收录"
+    },
+    {
+      "title": "UK facial recognition rollout widens as police oversight rules take shape",
+      "url": "https://www.biometricupdate.com/202610/uk-facial-recognition-rollout-widens-as-police-oversight-rules-take-shape",
+      "reason": "已由本站 2026-10-31 identity-05 处理（英国警务人脸识别扩张与立法缺位）"
+    },
+    {
+      "title": "ETSI releases specification to help mitigate AI deepfake risk",
+      "url": "https://www.biometricupdate.com/202610/etsi-releases-specification-to-help-mitigate-ai-deepfake-risk",
+      "reason": "已由本站 2026-10-31 identity-03 处理（ETSI TS 104 275 深度伪造规范）"
+    },
+    {
+      "title": "Brazil mandates SIM registration with face biometrics, Level 2 PAD",
+      "url": "https://www.biometricupdate.com/202610/brazil-mandates-sim-registration-with-face-biometrics-level-2-pad",
+      "reason": "已由本站 2026-10-30 telecom-04 处理（Anatel 人脸实名规则），主区域同为 latam，不再重写"
+    },
+    {
+      "title": "Wyden and Warren Press Treasury to Delay ID.me Requirement for TreasuryDirect",
+      "url": "https://idtechwire.com/wyden-and-warren-press-treasury-to-delay-id-me-requirement-for-treasurydirect/",
+      "reason": "与 2026-10-31 identity-02 同一事件，属参议员质询的同一稿不同来源"
+    },
+    {
+      "title": "Adyen Rolls Out Visa Payment Passkey for Online Checkout",
+      "url": "https://fintechnews.sg/140075/payments/visa-payment-passkey-adyen-authenticate/",
+      "reason": "已由今日 banking 池处理（Adyen × Visa Payment Passkey），同一事件跨行业不重复落草"
+    },
+    {
+      "title": "Checkout.com and Adyen Begin Rolling Out Visa Payment Passkey to Merchants",
+      "url": "https://idtechwire.com/checkout-com-and-adyen-begin-rolling-out-visa-payment-passkey-to-merchants/",
+      "reason": "与今日 banking 池已写的 Visa Payment Passkey 同事件，且标的是支付认证方式，非证件链环节"
+    },
+    {
+      "title": "Moldova data breach exposes records linked to 750,000 national ID numbers",
+      "url": "https://www.biometricupdate.com/202610/moldova-data-breach-exposes-records-linked-to-750000-national-id-numbers",
+      "reason": "范围门不过：数据泄露事件明确不收，即便涉及身份证号"
+    },
+    {
+      "title": "Amadeus Breach Exposes Passport Numbers of Japan Airlines and ANA Customers",
+      "url": "https://idtechwire.com/amadeus-breach-exposes-passport-numbers-of-japan-airlines-and-ana-customers/",
+      "reason": "范围门不过：数据泄露事件，未改变证件载体、签发或核验机制"
+    },
+    {
+      "title": "DDoS Attack Disrupts DigiD Logins in the Netherlands",
+      "url": "https://idtechwire.com/ddos-attack-disrupts-digid-logins-in-the-netherlands/",
+      "reason": "范围门不过：可用性攻击事件，未改变凭证链任何环节的形态或机制"
+    },
+    {
+      "title": "Biometrics and standards bring cross-border digital ID closer",
+      "url": "https://www.biometricupdate.com/202610/biometrics-and-standards-bring-cross-border-digital-id-closer",
+      "reason": "动作门不过：周度综述，汇总多条旧闻，本身不含新事件"
+    },
+    {
+      "title": "Passkeys move from availability to everyday use, FIDO Index finds",
+      "url": "https://www.biometricupdate.com/202610/passkeys-move-from-availability-to-everyday-use-fido-index-finds",
+      "reason": "范围门不过：无密码登录方式的采用数据，不落在护照/身份证/mDL 的载体、签发或核验终端"
+    },
+    {
+      "title": "Building trust in biometrics: How organizations can implement safeguards",
+      "url": "https://www.biometricupdate.com/202610/building-trust-in-biometrics-how-organizations-can-implement-safeguards",
+      "reason": "动作门不过：操作建议类评论文，无授标、部署或落地动作"
+    },
+    {
+      "title": "Podcast: Deepfakes threaten election trust as AI-generated ads surge",
+      "url": "https://www.biometricupdate.com/202610/podcast-deepfakes-threaten-election-trust-as-ai-generated-ads-surge",
+      "reason": "动作门不过：播客访谈，属 AI 内容治理话题，非证件链机制变化"
+    },
+    {
+      "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards",
+      "url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+      "reason": "已由本站 2026-10-31 identity-04 处理（NISTIR 8547 后量子迁移），同一文件不重复收录"
+    },
+    {
+      "title": "Kodak Alaris appoints Kolok as SA distributor",
+      "url": "https://www.itweb.co.za/article/kodak-alaris-appoints-kolok-as-sa-distributor/KA3Ww7dzXGnqrydZ",
+      "reason": "范围门不过：通用文档扫描仪的渠道代理任命，设备与证件签发或核验终端无明确对应关系"
+    },
+    {
+      "title": "Trust Stamp Named Exclusive Technology Partner for Ghana Fire Safety Certification Program",
+      "url": "https://idtechwire.com/trust-stamp-named-exclusive-technology-partner-for-ghana-fire-safety-certification-program/",
+      "reason": "范围门不过：消防资质证书的数字化，不在护照/身份证/mDL 三项目标物之内"
+    },
+    {
+      "title": "Shufti Launches Know Your Agent to Tie AI Agent Actions to Verified Owners",
+      "url": "https://idtechwire.com/shufti-launches-know-your-agent-to-tie-ai-agent-actions-to-verified-owners/",
+      "reason": "范围门不过：面向 AI 代理的身份授权产品，不是自然人证件链的载体、签发或核验"
+    },
+    {
+      "title": "Mintive Raises $7 Million Seed Round to Govern Enterprise AI Agent Identities",
+      "url": "https://idtechwire.com/mintive-raises-7-million-seed-round-to-govern-enterprise-ai-agent-identities/",
+      "reason": "范围门不过：融资事件与 AI 代理身份管理，未落在证件链环节"
+    },
+    {
+      "title": "Connecticut mobile ID launches in November",
+      "url": "https://houstonnownews.com/news/article/ct-drivers-license-mobile-id-22502376.php",
+      "reason": "时效不过：州车管局公告为 10 月 29 日，距落盘超过 72 小时；11 月 18 日上线属未来事件"
+    },
+    {
+      "title": "UAE Announces New Overseas Travel Facilities and Procedures for Citizens Effective November 1, 2026",
+      "url": "https://en.akhbrna.ae/services/uae-announces-new-overseas-travel",
+      "reason": "证据不足：仅有聚合站转述阿联酋驻柏林使馆通告，德联邦警察 EasyPASS 页面与阿外交部原文均无法打开，单源不足以支撑跨国落地判断"
+    },
+    {
+      "title": "Vietnam-Singapore digital ID linkage paves the way for ASEAN integration",
+      "url": "https://en.vietnamplus.vn/vietnam-singapore-digital-id-linkage-paves-the-way-for-asean-integration-post354372.vnp",
+      "reason": "证据不足：正文无法读取，只有摘要提到 VNeID 与 Singpass、LAeID 在 11 月 15 日前完成试联，具体协议与主体无法核对"
+    },
+    {
+      "title": "GCIS warns of information breach",
+      "url": "https://www.itweb.co.za/article/gcis-warns-of-information-breach/wbrpO7g2ea3vDLZn",
+      "reason": "范围门不过：数据泄露事件，明确不收"
+    },
+    {
+      "title": "Information Regulator CIO scoops IT personality of the year award",
+      "url": "https://www.itweb.co.za/article/information-regulator-cio-scoops-it-personality-of-the-year-award/DZQ58vV8glEMzXy2",
+      "reason": "范围门不过：人事变动，明确不收"
+    },
+    {
+      "title": "AI exacerbates election disinformation, say experts",
+      "url": "https://www.itweb.co.za/article/ai-exacerbates-election-disinformation-say-experts/GxwQD71DL9WvlPVo",
+      "reason": "动作门不过：专家观点，无具体机制变化，且属信息治理议题"
+    },
+    {
+      "title": "Guia da ANPD não elimina todas dúvidas sobre ECA Digital, dizem especialistas",
+      "url": "https://www.mobiletime.com.br/noticias/29/10/2026/anpd-guia-eca-duvidas/",
+      "reason": "范围门不过：未成年人数字保护指引的解读，不涉证件载体、签发或核验终端"
+    },
+    {
+      "title": "Nigeria tests upgraded biometric voter system ahead of 2027 elections",
+      "url": "https://www.biometricupdate.com/202610/nigeria-tests-upgraded-biometric-voter-system-ahead-of-2027-elections",
+      "reason": "已由本站 2026-11-01 identity-04 处理（尼日利亚 5.7 万台 BVAS 升级）"
+    },
+    {
+      "title": "Intellicheck brings ID verification to freight docks through Dock Optimizer",
+      "url": "https://www.biometricupdate.com/202610/intellicheck-brings-id-verification-to-freight-docks-through-dock-optimizer",
+      "reason": "已由本站 2026-11-01 identity-03 处理（Intellicheck × Conmitto 货场提货核验）"
+    },
+    {
+      "title": "Armenia's biometric document PPP passes independent assessment",
+      "url": "https://armenpress.am/en/article/1264356",
+      "reason": "已由本站 2026-11-01 identity-01 处理（PPP 独立评估）；今日收录的是同一项目的启用、收费与网点时间表，作为新事实单列"
+    },
+    {
+      "title": "Beyond degrees: new platform turns every Ghanaian skill into opportunity",
+      "url": "https://3news.com/tech/beyond-degrees-new-platform-turns-every-ghanaian-skill-into-opportunity",
+      "reason": "已由本站 2026-11-01 identity-02 处理（Ghana Card 核验作用工平台准入）"
+    },
+    {
+      "title": "IDEMIA Public Security Launches MFACE Gen2 to Continue Delivering Faster, More Secure Traveler Processing",
+      "url": "https://www.idemia.com/press-release/idemia-public-security-launches-mface-gen2-continue-delivering-faster-more-secure-traveler-processing-2026-10-08",
+      "reason": "时效不过：发布日为 10 月 8 日，超出 72 小时窗口且无重大更新"
+    },
+    {
+      "title": "IDEMIA Public Security's WebCapture SDK Earns Independent Validation Against Deepfake and Biometric Fraud Attacks",
+      "url": "https://www.idemia.com/press-release/idemia-public-securitys-webcapture-sdk-earns-independent-validation-against-deepfake-and-biometric-fraud-attacks-2026-10-05",
+      "reason": "时效不过：发布日为 10 月 5 日，超出 72 小时窗口"
+    }
+  ],
+  "stats": {
+    "candidates": 66,
+    "written": 4,
+    "skippedByDedup": 11
+  },
+  "finishedAt": "2026-11-01T20:17:26.832Z"
+}

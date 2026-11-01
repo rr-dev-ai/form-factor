@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-02",
+  "industry": "telecom",
+  "startedAt": "2026-11-02T02:55:20+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "FCC gives OK for Amazon Leo's acquisition of Globalstar",
+      "url": "https://www.fierce-network.com/wireless/fcc-gives-ok-amazon-leos-acquisition-globalstar",
+      "reason": "动作门不过：这是并购获批，不属授标、联合部署、跨国落地三类；且委员会批准日为 10-27，超出 72 小时窗口"
+    },
+    {
+      "title": "FCC doubles down on D2D with spectrum plays",
+      "url": "https://www.fierce-network.com/wireless/fcc-doubles-down-d2d-spectrum-plays",
+      "reason": "范围门不过：标的是频谱分配，且与 10-30 已发条目同一程序"
+    },
+    {
+      "title": "FCC seeks feedback on carrier warnings about running D2D in 5G bands",
+      "url": "https://www.lightreading.com/satellite/fcc-seeks-feedback-on-carrier-warnings-about-running-d2d-in-5g-bands",
+      "reason": "范围门不过：核心是 2.5GHz 与 3.45GHz 的干扰与共存规则，属频谱事项；已由 10-30 telecom-06 覆盖同一程序"
+    },
+    {
+      "title": "FCC outlines plan to auction 25MHz of spectrum for D2D, mobile",
+      "url": "https://www.mobileworldlive.com/fcc/fcc-outlines-plan-to-auction-25mhz-of-spectrum-for-d2d-mobile/",
+      "reason": "范围门明确不收：频谱拍卖"
+    },
+    {
+      "title": "La FCC veut mettre aux enchères 25 MHz pour le D2D et le mobile",
+      "url": "https://www.mobileworldlive.com/french/la-fcc-veut-mettre-aux-encheres-25-mhz-pour-le-d2d-et-le-mobile/",
+      "reason": "同一稿的法文版，去重"
+    },
+    {
+      "title": "T-Mobile: We'll be first with 6G, and no to SpaceX MVNO",
+      "url": "https://www.lightreading.com/6g/t-mobile-we-ll-be-first-with-6g-and-no-to-spacex-mvno",
+      "reason": "范围门不过：6G 表态与高管否认 MVNO 谈判，无形态或机制变化"
+    },
+    {
+      "title": "T-Mobile US CEO quashes SpaceX MVNO talk",
+      "url": "https://www.mobileworldlive.com/t-mobile-us/t-mobile-us-ceo-quashes-spacex-mvno-talk/",
+      "reason": "动作门不过：否认一项未落地的合作，无新机制"
+    },
+    {
+      "title": "T-Mobile US enterre l'idée d'un accord MVNO avec SpaceX",
+      "url": "https://www.mobileworldlive.com/french/t-mobile-us-enterre-lidee-dun-accord-mvno-avec-spacex/",
+      "reason": "同一稿的法文版，去重"
+    },
+    {
+      "title": "SpaceX's spectrum quest could lead to the 600MHz band",
+      "url": "https://www.lightreading.com/satellite/spacex-s-spectrum-quest-could-lead-to-600mhz-band",
+      "reason": "范围门不过：频谱收购与用频规划"
+    },
+    {
+      "title": "Do SpaceX's 'missing pieces' carry a Dish logo on them?",
+      "url": "https://www.fierce-network.com/wireless/does-spacexs-missing-pieces-have-dish-logo-them",
+      "reason": "范围门不过：频谱交易猜测，未落在载体、签发、分发、受理任一环节"
+    },
+    {
+      "title": "SpaceX helps give towers new lease on life",
+      "url": "https://www.fierce-network.com/wireless/spacex-helps-give-towers-new-lease-life",
+      "reason": "范围门明确不收：基站与站址"
+    },
+    {
+      "title": "FCC clears drone operations in 800MHz band",
+      "url": "https://www.lightreading.com/regulatory-politics/fcc-clears-drone-operations-in-800mhz-band",
+      "reason": "范围门不过：无人机用频许可"
+    },
+    {
+      "title": "Ericsson CEO Per Narvinger wants a network without borders",
+      "url": "https://www.fierce-network.com/wireless/ericsson-ceo-narvinger-wants-network-without-borders",
+      "reason": "无事件：高管愿景访谈，动作门不过"
+    },
+    {
+      "title": "China slates latest US proposal targeting operators",
+      "url": "https://www.mobileworldlive.com/greater-china/china-slates-latest-us-proposal-targeting-operators/",
+      "reason": "范围门不过：运营商准入与地缘监管，不改变凭证链环节"
+    },
+    {
+      "title": "Does a football club really need its own mobile service? 'There's no need,' says Everton Mobile boss",
+      "url": "https://www.mobileeurope.co.uk/everton-fc-mobile/",
+      "reason": "动作门不过：MVNO 品牌访谈，谈的是定位与资费，未涉及配置下发或实名机制"
+    },
+    {
+      "title": "European telcos consider joint bid for satellite spectrum",
+      "url": "https://totaltele.com/european-telcos-to-club-together-to-bid-for-satellite-spectrum/",
+      "reason": "范围门不收频谱；且发布于 10-20，超窗"
+    },
+    {
+      "title": "Con Chile y Perú a la cabeza, el ranking de Ookla destaca el crecimiento del D2D en la región",
+      "url": "https://www.telesemana.com/blog/2026/10/30/con-chile-y-peru-a-la-cabeza-el-ranking-de-ookla-destaca-el-crecimiento-del-d2d-en-la-region/",
+      "reason": "无机制变化：第三方测速排名，属市场数据"
+    },
+    {
+      "title": "SIM cards with 12-month validity, AKEP approves new rules and authorises D2D testing",
+      "url": "https://sot.com.al/english/kartat-sim-me-vlefshmeri-12-muaj-dhe-rimbursim-te-kreditit-te-pa-perdorur-akep-miraton-rregullat-e-reja-per-telefonine-celulare-i5191178",
+      "reason": "两道门都过（AKEP 授权 One Albania 与 Starlink 测试 D2D 120 天），但事件时间为 10-29 董事会，距落盘超 72 小时约 10 小时，按时效拦下"
+    },
+    {
+      "title": "The satellite-to-phone fight: how 290MHz came to decide who owns the mobile customer",
+      "url": "https://www.gplpcn.com/2026/11/01/the-satellite-to-phone-fight-how-290mhz-came-to-decide-who-owns-the-mobile-customer",
+      "reason": "范围门不过：SpaceX 10-31 对 T-Mobile 反对意见的答复，争点是 2.5/3.45GHz 干扰与共存，属频谱；同一程序已由 10-30 telecom-06 处理"
+    },
+    {
+      "title": "上海市卫星互联网产业创新发展行动方案（2027-2030 年）",
+      "url": "https://www.toutiao.com/article/7702799208026112531/",
+      "reason": "范围门不过：产业规划与规模目标，未改变具体凭证链环节"
+    }
+  ],
+  "stats": {
+    "candidates": 198,
+    "written": 2,
+    "skippedByDedup": 10
+  },
+  "finishedAt": "2026-11-01T18:55:20.401Z"
+}

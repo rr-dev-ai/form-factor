@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-02-identity-02",
+  "slug": "ghana-nia-verification-taskforce-photocopy-ban",
+  "industry": "identity",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "verification",
+    "biometrics"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-02T04:17:35+08:00",
+  "ingestedAt": "2026-11-02T03:12:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Graphic Online",
+      "url": "https://www.graphic.com.gh/news/general-news/nia-taskforce-launches-nationwide-crackdown-on-ghana-card-photocopying-from-november-2.html",
+      "lang": "en",
+      "publishedAt": "2026-11-02T00:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "加纳 11 月 2 日起查复印证件：验身份只能走 NIA 平台，机构罚到 2.4 万塞地",
+    "en": "Ghana starts enforcing a photocopy ban on 2 November: identity checks must go through the NIA platform",
+    "es": "Ghana persigue desde el 2 de noviembre la fotocopia del carné: la verificación debe pasar por la plataforma de la NIA"
+  },
+  "summary": {
+    "zh": "加纳国家身份局启动生物核验工作组，自 11 月 2 日起全国执法，依据 2026 年国家身份登记（修订）条例 L.I. 2523：在交易中复印或凭肉眼查看 Ghana Card 属刑事犯罪，没有豁免，机构必须接入 NIA 身份核验系统平台。",
+    "en": "Ghana's National Identification Authority has activated its Biometric Verification Taskforce for nationwide enforcement from 2 November under the National Identity Register (Amendment) Regulations, 2026 (L.I. 2523): photocopying or visually inspecting a Ghana Card for a transaction is now a criminal offence with no exemptions, and institutions must connect to the NIA Identity Verification System Platform.",
+    "es": "La Autoridad Nacional de Identificación de Ghana activó su fuerza de verificación biométrica para aplicar desde el 2 de noviembre el reglamento de enmienda del registro nacional de identidad de 2026 (L.I. 2523): fotocopiar o mirar el carné a ojo para una transacción es delito, sin excepciones, y las entidades deben conectarse a la plataforma de verificación de la NIA."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "从「看一眼」改成「查系统」",
+        "en": "From a glance to a database check",
+        "es": "De un vistazo a una consulta al sistema"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "规则的落点很具体：判断一个人是不是他本人，不能再靠看卡面、比照片，也不能留一张复印件存档，只能把身份信息交给 NIA 的身份核验系统平台去比对。条例把复印与目视检查写成刑事犯罪，并明确没有豁免情形。国家身份局为此专门激活了生物核验工作组，从 11 月 2 日起在全国范围内对不合规机构执法，而不是发通知了事。",
+        "en": "The rule lands on a specific step: deciding whether someone is who they say cannot rest on looking at the card, comparing the photo or keeping a photocopy on file — the identity data has to be checked against the NIA's Identity Verification System Platform. The regulations make photocopying and visual inspection a criminal offence and state that there are no exemptions. The authority has stood up a dedicated biometric verification taskforce to enforce nationwide from 2 November rather than issue another circular.",
+        "es": "La norma recae sobre un paso concreto: decidir si alguien es quien dice ser no puede depender de mirar el carné, comparar la foto ni guardar una fotocopia; los datos deben cotejarse con la plataforma de verificación de la NIA. El reglamento tipifica como delito fotocopiar e inspeccionar a ojo y establece que no hay excepciones. La autoridad creó una fuerza específica de verificación biométrica para aplicarlo en todo el país desde el 2 de noviembre en lugar de emitir otra circular."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "罚则按「罚金单位」计：机构被即席定罪后处 500 至 2,000 个罚金单位，按当前每单位 12 塞地折算为 6,000 至 24,000 塞地；个人违规处 600 至 6,000 塞地。国家身份局同时提醒，所有需要核验身份的机构应立即接入平台，以免被起诉——这句话的实用含义是，合规成本从「买台复印机」变成「接一条接口、配一套能读卡的终端」。",
+        "en": "Penalties are set in penalty units: institutions convicted summarily face 500 to 2,000 units, which at the current GH¢12 per unit works out to GH¢6,000 to GH¢24,000, while individuals face GH¢600 to GH¢6,000. The authority also urged every institution that verifies identity to onboard to the platform immediately to avoid prosecution — in practice, compliance cost shifts from buying a photocopier to connecting an interface and fielding terminals that can read the card.",
+        "es": "Las multas se fijan en unidades de penalidad: las entidades condenadas de forma sumaria afrontan de 500 a 2.000 unidades, que a los 12 cedis actuales por unidad equivalen a entre 6.000 y 24.000 cedis, mientras las personas físicas se exponen a 600–6.000 cedis. La autoridad pidió además a toda entidad que verifique identidad conectarse de inmediato a la plataforma para evitar procesos: en la práctica, el coste de cumplimiento pasa de comprar una fotocopiadora a integrar una interfaz y desplegar terminales capaces de leer el carné."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "受影响的是高频柜台：银行开户、移动支付代理点、SIM 卡实名登记、医院与学校注册，凡是要确认「这张卡是不是本人的」环节都落在新规里",
+          "en": "The hits land on high-volume counters: bank account opening, mobile money agents, SIM registration, hospital and school enrolment — anything that has to confirm the card belongs to the person in front of it",
+          "es": "El impacto recae en ventanillas de alto volumen: apertura de cuentas, agentes de dinero móvil, registro de SIM, matrícula hospitalaria y escolar, todo paso que deba confirmar que el carné es de quien lo presenta"
+        },
+        {
+          "zh": "取证方式变了：核验结果要能证明「查过系统」，而不是留一张卡的图像；这对留痕、审计与事后追责的口径都提出新要求",
+          "en": "Evidence changes shape: the institution has to be able to show the system was queried, not keep an image of the card, which resets expectations for record-keeping, audit and after-the-fact liability",
+          "es": "Cambia la prueba: la entidad debe poder demostrar que consultó el sistema, no guardar una imagen del carné, lo que reordena las exigencias de registro, auditoría y responsabilidad posterior"
+        },
+        {
+          "zh": "时间点已经写死：11 月 2 日是执法起点，不是过渡期的开始；未接入平台的机构从这天起就处在被起诉的位置",
+          "en": "The date is fixed: 2 November is the start of enforcement, not of a grace period, and institutions not yet connected are exposed from that day",
+          "es": "La fecha está fijada: el 2 de noviembre arranca la aplicación, no un periodo de gracia, y las entidades sin conexión quedan expuestas desde ese día"
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "核验方式从「看卡」改成「连平台」，改变的是受理环节的设备与集成清单。每个柜台要么配能读卡取指纹的终端，要么接入 NIA 的核验接口，两者都要改写机构原有的开户、登记流程与留痕方式。对供应商，这是一张覆盖银行网点、移动支付代理与 SIM 登记点的存量改造单，且买方从单个机构变成「必须合规」的整个受理侧；对集成商，真正的门槛在接口稳定性与断网时的降级方案，因为一旦核验不通，开户与登记会直接停摆。要跟的是执法头两周的处罚案例落在哪个行业，以及 NIA 平台在峰值下的可用性。",
+    "en": "Verification moves from looking at a card to querying a platform, which changes the equipment and integration list at the point of acceptance. Every counter either fields a terminal that reads the card and captures a fingerprint, or connects to the NIA interface, and either route rewrites the onboarding flow and its evidence trail. For suppliers this is a retrofit across bank branches, mobile money agents and SIM registration points, with the buyer becoming an acceptance side that has no choice but to comply. For integrators the test is interface stability and a workable fallback when connectivity drops, because a failed check stops account opening outright.",
+    "es": "La verificación pasa de mirar un carné a consultar una plataforma, y eso cambia la lista de equipos e integraciones en el punto de aceptación. Cada ventanilla o despliega un terminal que lee el carné y captura la huella, o se conecta a la interfaz de la NIA, y ambas vías reescriben el flujo de alta y su prueba documental. Para los proveedores es una reforma que atraviesa sucursales, agentes de dinero móvil y puntos de registro de SIM, con un comprador que es todo el lado de aceptación y no tiene alternativa. Para los integradores la prueba es la estabilidad de la interfaz y un plan de contingencia cuando se cae la conexión, porque una comprobación fallida detiene el alta."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}
