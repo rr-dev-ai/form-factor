@@ -46,8 +46,11 @@ function regionCell(view: (typeof views)[number]) {
   const gap = view.missing.length
     ? dict.missingRegions.replace('{n}', String(view.missing.length))
     : '';
-  return [names, gap].filter(Boolean).join(' · ') || '—';
+  // 缺口单独成段：窄屏截断的是覆盖列表，不能把「缺 N 区」一起吃掉
+  return { names: names || '—', gap };
 }
+
+const regionCells = views.map((view) => regionCell(view));
 
 function underTarget(view: (typeof views)[number]) {
   const short = view.counts.some((count) => count < site.perIndustryDailyMin);
@@ -62,10 +65,10 @@ function underTarget(view: (typeof views)[number]) {
   </div>
 
   <section class="run">
-    <div class="metrics">
+    <div class="metrics metrics--summary">
       <div><b>{published7}</b>{dict.publishedItems}</div>
       <div><b>{fetched7}</b>{dict.fetched}</div>
-      <div><b>{total}</b>{dict.items} · {dict.total}</div>
+      <div><b>{total}</b>{dict.total}</div>
     </div>
   </section>
 
@@ -88,7 +91,10 @@ function underTarget(view: (typeof views)[number]) {
               {views[index].counts.map((count) => (
                 <span class="day-cell">{count}</span>
               ))}
-              <span class="day-regions">{regionCell(views[index])}</span>
+              <span class="day-regions">
+                <span class="region-names">{regionCells[index].names}</span>
+                {regionCells[index].gap && <span class="region-gap">{regionCells[index].gap}</span>}
+              </span>
               <span class="day-total">{views[index].total}</span>
             </summary>
             <div class="day-detail">

@@ -692,6 +692,30 @@ a.tag:hover {
   line-height: 1.2;
 }
 
+/* 顶部三项汇总铺满整行：等分三栏 + 竖线，数字给到 26px，
+   否则三个数字挤在左端，右边留一大片空 */
+.metrics--summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+}
+
+.metrics--summary > div {
+  padding: 2px 0 2px 24px;
+  border-left: 1px solid var(--border);
+}
+
+.metrics--summary > div:first-child {
+  padding-left: 0;
+  border-left: none;
+}
+
+.metrics--summary b {
+  font-size: 26px;
+  line-height: 1.15;
+  margin-bottom: 6px;
+}
+
 /* ---------- search ---------- */
 
 .search-box {
@@ -912,7 +936,7 @@ a.tag:hover {
 .day-head,
 .day-row summary {
   display: grid;
-  grid-template-columns: 58px repeat(3, minmax(48px, 0.55fr)) minmax(0, 2.6fr) 48px;
+  grid-template-columns: 58px repeat(3, minmax(56px, 0.8fr)) minmax(0, 2fr) 56px;
   gap: 12px;
   align-items: baseline;
 }
@@ -928,6 +952,14 @@ a.tag:hover {
 .day-cell,
 .day-total {
   text-align: right;
+}
+
+/* 区域是文本列：标题与内容都靠左，才和右对齐的数字列各成一套；
+   之前标题右对齐、内容左对齐，看着就是表格没对齐 */
+.day-head span:nth-child(5),
+.day-regions {
+  text-align: left;
+  padding-left: 8px;
 }
 
 .day-row {
@@ -961,11 +993,31 @@ a.tag:hover {
 }
 
 .day-regions {
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  min-width: 0;
   color: var(--text-3);
   font-size: 12px;
+}
+
+/* 覆盖列表可截断，缺口标记不截断——「缺 N 区」是这一列最该看见的信息 */
+.region-names {
+  min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.region-gap {
+  flex: none;
+  color: var(--text-3);
+}
+
+.region-gap::before {
+  content: '·';
+  margin-right: 6px;
+  color: var(--border-strong);
 }
 
 .day-total {
@@ -999,9 +1051,15 @@ a.tag:hover {
 @media (max-width: 640px) {
   .day-head,
   .day-row summary {
-    grid-template-columns: 46px repeat(3, 34px) minmax(0, 1fr) 34px;
+    /* 34px 的列宽塞不下「银行业」三个字，会一字一行；收到 10px + 38px */
+    grid-template-columns: 46px repeat(3, 38px) minmax(0, 1fr) 32px;
     gap: 8px;
     font-size: 12px;
+  }
+
+  .day-head {
+    font-size: 10px;
+    line-height: 1.35;
   }
 
   .day-regions {

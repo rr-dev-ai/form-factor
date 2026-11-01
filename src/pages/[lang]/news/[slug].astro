@@ -5,7 +5,7 @@ import { locales, type Locale } from '../../../config/site';
 import { industryName, tagName } from '../../../config/taxonomy';
 import { regionName } from '../../../config/regions';
 import { publishedNews } from '../../../lib/content';
-import { t, formatDate, localeLabel } from '../../../lib/i18n';
+import { t, formatDate, localeLabel, cleanSourceName } from '../../../lib/i18n';
 import { localePath } from '../../../lib/url';
 
 export function getStaticPaths() {
@@ -85,7 +85,7 @@ const sourceDate = firstSource?.publishedAt ?? item.publishedAt;
           item.sources.map((source) => (
             <li>
               <a href={source.url} target="_blank" rel="noopener noreferrer nofollow">
-                {source.name} ↗
+                {cleanSourceName(source.name)} ↗
               </a>
               <span class="meta">
                 {source.publishedAt ? formatDate(source.publishedAt, locale) : ''}

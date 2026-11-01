@@ -1,5 +1,5 @@
-import type { Locale } from '../config/site';
-import { site } from '../config/site';
+import type { Locale } from '../config/site.ts';
+import { site } from '../config/site.ts';
 
 export const localeTag: Record<Locale, string> = {
   zh: 'zh-CN',
@@ -310,10 +310,26 @@ export function formatNumber(n: number, locale: Locale): string {
 }
 
 /**
- * 卡片上的来源标签：只有一条时直接给媒体名（「1 来源」不携带任何信息），
- * 多条时退回数量。搜索结果与列表卡片共用，避免两处写法漂移。
+ * 来源名只保留机构名。编辑习惯把出处说明写进 name（「NIST（新闻稿）」
+ * 「Mobile World Live（西班牙语版）」），那是给人看的备注，不是机构名；
+ * 注释放到 url / lang 里就够，界面上三语共用同一个名字。
+ */
+export function cleanSourceName(name: string): string {
+  let value = name.trim();
+  // 反复剥掉结尾的括号段：全角、半角都算，剥空了就还原
+  let next = value.replace(/\s*[（(][^（()）]*[)）]\s*$/u, '').trim();
+  while (next && next !== value) {
+    value = next;
+    next = value.replace(/\s*[（(][^（()）]*[)）]\s*$/u, '').trim();
+  }
+  return value || name.trim();
+}
+
+/**
+ * 卡片上的来源标签：只有一条时直接给媒体名，多条时退回数量。
+ * 搜索结果与列表卡片共用，避免两处写法漂移。
  */
 export function sourceLabel(sources: { name: string }[], locale: Locale): string {
-  if (sources.length === 1) return sources[0].name;
+  if (sources.length === 1) return cleanSourceName(sources[0].name);
   return `${sources.length} ${ui[locale].sources.toLowerCase()}`;
 }
