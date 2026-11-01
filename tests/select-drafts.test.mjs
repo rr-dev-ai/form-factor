@@ -111,6 +111,13 @@ test('index 里高置信但池里既无稿也无拒稿记录 → unaccounted', (
   assert.deepEqual(r.unaccounted.map((u) => u.url), ['https://a.example/ghost']);
 });
 
+test('拒稿记录没带 url 时按标题对账，不算漏网', () => {
+  const docs = [mkPool('banking', [])];
+  docs[0].doc.rejected = [{ title: 'Ghost story', reason: '范围门外' }];
+  const index = { items: [{ url: 'https://a.example/g', title: 'Ghost story', confidence: 0.9 }] };
+  assert.deepEqual(run({ docs, index }).unaccounted, []);
+});
+
 test('总数不超过 15、每行业不超过 5', () => {
   const docs = ['banking', 'telecom', 'identity'].map((industry) =>
     mkPool(industry, Array.from({ length: 8 }, (_, i) =>

@@ -137,13 +137,24 @@ export function selectDrafts({ docs, broken = [], index, date, now, limit = 15, 
   }
 
   // 6. 高置信对账：index 说有、池里既没稿也没拒稿记录
+  // 拒稿记录可能没带 url（历史数据就如此），所以 url 与标题两条线都要对，
+  // 否则每天的「漏网」会涨到十几条，这个信号就没人看了。
+  const normalize = (text) => (text ?? '').trim().toLowerCase().replace(/\s+/g, ' ');
   const knownUrls = new Set();
-  for (const draft of raw) for (const url of urlsOf(draft)) knownUrls.add(url);
+  const knownTitles = new Set();
+  for (const draft of raw) {
+    for (const url of urlsOf(draft)) knownUrls.add(url);
+    for (const locale of ['zh', 'en', 'es']) knownTitles.add(normalize(draft.title?.[locale]));
+  }
   for (const entry of docs) {
-    for (const rejection of entry.doc?.rejected ?? []) if (rejection.url) knownUrls.add(rejection.url);
+    for (const rejection of entry.doc?.rejected ?? []) {
+      if (rejection.url) knownUrls.add(rejection.url);
+      knownTitles.add(normalize(rejection.title));
+    }
   }
   const unaccounted = (index?.items ?? [])
-    .filter((item) => (item.confidence ?? 0) >= 0.6 && item.url && !knownUrls.has(item.url))
+    .filter((item) => (item.confidence ?? 0) >= 0.6 && item.url)
+    .filter((item) => !knownUrls.has(item.url) && !knownTitles.has(normalize(item.title)))
     .map((item) => ({ title: item.title, url: item.url, confidence: item.confidence }));
 
   // 7. 断言：宁可进程失败，也不带病输出
