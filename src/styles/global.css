@@ -446,8 +446,6 @@ a.tag:hover {
 /* ---------- article ---------- */
 
 .article-head {
-  /* 题头与正文同列：否则题头下的分隔线会比正文长出一截 */
-  max-width: 640px;
   margin-bottom: 26px;
 }
 
@@ -465,12 +463,6 @@ a.tag:hover {
   color: var(--text-3);
   border-bottom: 1px solid var(--border);
   padding-bottom: 16px;
-}
-
-/* 阅读列收窄：832px @16px 中文一行约 50 字，换行时视线容易串行。
-   题头与来源列表仍用整宽，形成不对称，版式本身承担了「哪里是正文」 */
-.article-body {
-  max-width: 640px;
 }
 
 .article-body p {
@@ -517,7 +509,6 @@ a.tag:hover {
 }
 
 .why-box {
-  max-width: 640px;
   background: var(--surface-2);
   border-left: 3px solid var(--accent);
   border-radius: 0 8px 8px 0;
