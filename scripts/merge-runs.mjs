@@ -39,7 +39,7 @@ export function buildDayRecord({ date, docs, broken = [], selection, items, raw,
         .filter((row) => (row.industries ?? []).includes(industry))
         .reduce((sum, row) => sum + (row.count ?? 0), 0),
       afterDedup: Math.max(0, stat('candidates') - stat('skippedByDedup')),
-      passed: stat('written') || drafted,
+      passed: drafted + list.filter((item) => item.industry === industry).length,
       published: list.filter((item) => item.industry === industry).length,
     };
   }
@@ -59,7 +59,9 @@ export function buildDayRecord({ date, docs, broken = [], selection, items, raw,
   return {
     date,
     startedAt,
-    durationMs: durations.length ? Math.max(...durations) : 0,
+    // mtimeMs 是浮点，dayRecordSchema 要求整数；取整不然 runs.json 过不了校验，
+    // 而那条记录不会自愈——之后每次构建都会在 loadDays() 抛错。
+    durationMs: durations.length ? Math.round(Math.max(...durations)) : 0,
     fetched,
     afterDedup: industrySlugs.reduce((sum, slug) => sum + dayIndustries[slug].afterDedup, 0),
     passed: industrySlugs.reduce((sum, slug) => sum + dayIndustries[slug].passed, 0),

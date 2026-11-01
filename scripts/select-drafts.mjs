@@ -35,7 +35,7 @@ export function selectDrafts({ docs, broken = [], index, date, now, limit = 15, 
 
   const raw = [];
   for (const entry of docs) {
-    for (const draft of entry.doc?.drafts ?? []) raw.push(draft);
+    for (const draft of entry.doc?.drafts ?? []) raw.push({ ...draft, _sourceDate: entry.date });
   }
 
   // 1. 时效：按 sources 里最晚的事件时间算，不按池文件日期算
@@ -110,7 +110,7 @@ export function selectDrafts({ docs, broken = [], index, date, now, limit = 15, 
       continue;
     }
     taken.add(pick);
-    selected.push({ industry: pick.industry, slug: pick.slug, score: pick.confidence, reason: 'region-floor', region });
+    selected.push({ industry: pick.industry, slug: pick.slug, score: pick.confidence, reason: 'region-floor', region, sourceDate: pick._sourceDate });
   }
 
   for (const industry of INDUSTRIES) {
@@ -118,7 +118,7 @@ export function selectDrafts({ docs, broken = [], index, date, now, limit = 15, 
       const next = scored.find((d) => d.industry === industry && !taken.has(d));
       if (!next) break;
       taken.add(next);
-      selected.push({ industry, slug: next.slug, score: next.confidence, reason: 'industry-floor', region: next.region });
+      selected.push({ industry, slug: next.slug, score: next.confidence, reason: 'industry-floor', region: next.region, sourceDate: next._sourceDate });
     }
   }
 
@@ -126,7 +126,7 @@ export function selectDrafts({ docs, broken = [], index, date, now, limit = 15, 
     const next = scored.find((d) => !taken.has(d) && countOf(d.industry) < perIndustry);
     if (!next) break;
     taken.add(next);
-    selected.push({ industry: next.industry, slug: next.slug, score: next.confidence, reason: 'fill', region: next.region });
+    selected.push({ industry: next.industry, slug: next.slug, score: next.confidence, reason: 'fill', region: next.region, sourceDate: next._sourceDate });
   }
 
   // 5. 缺口：以实际入选结果为准，不看矩阵
@@ -144,12 +144,16 @@ export function selectDrafts({ docs, broken = [], index, date, now, limit = 15, 
   const knownTitles = new Set();
   for (const draft of raw) {
     for (const url of urlsOf(draft)) knownUrls.add(url);
-    for (const locale of ['zh', 'en', 'es']) knownTitles.add(normalize(draft.title?.[locale]));
+    for (const locale of ['zh', 'en', 'es']) {
+      const title = normalize(draft.title?.[locale]);
+      if (title) knownTitles.add(title);
+    }
   }
   for (const entry of docs) {
     for (const rejection of entry.doc?.rejected ?? []) {
       if (rejection.url) knownUrls.add(rejection.url);
-      knownTitles.add(normalize(rejection.title));
+      const title = normalize(rejection.title);
+      if (title) knownTitles.add(title);
     }
   }
   const unaccounted = (index?.items ?? [])
@@ -159,6 +163,13 @@ export function selectDrafts({ docs, broken = [], index, date, now, limit = 15, 
 
   // 7. 断言：宁可进程失败，也不带病输出
   if (selected.length > limit) throw new Error(`入选 ${selected.length} 条，超过上限 ${limit}`);
+  for (const pick of selected) {
+    if (!INDUSTRIES.includes(pick.industry)) throw new Error(`行业 ${pick.industry} 不在 taxonomy 内：${pick.slug}`);
+    const found = docs.some((entry) =>
+      (entry.doc?.drafts ?? []).some((draft) => draft.slug === pick.slug && draft.industry === pick.industry)
+    );
+    if (!found) throw new Error(`选中的 ${pick.slug} 在池里找不到`);
+  }
   for (const industry of INDUSTRIES) {
     if (countOf(industry) > perIndustry) throw new Error(`${industry} 入选 ${countOf(industry)} 条，超过上限 ${perIndustry}`);
   }

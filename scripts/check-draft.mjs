@@ -56,6 +56,14 @@ export function inspectPool(doc) {
   const problems = [];
   const lengths = [];
 
+  // 池级字段先查：缺 startedAt 会让整池草稿在提升时填不出 ingestedAt，
+  // 而单条草稿的校验看不出来。
+  const poolProblems = [];
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(doc?.date ?? '')) poolProblems.push('池缺少合法 date（YYYY-MM-DD）');
+  if (!doc?.industry) poolProblems.push('池缺少 industry');
+  if (!doc?.startedAt) poolProblems.push('池缺少 startedAt，提升时无法填写 ingestedAt');
+  if (poolProblems.length) problems.push({ slug: '(池)', messages: poolProblems });
+
   drafts.forEach((draft) => {
     const slug = draft?.slug ?? '(无 slug)';
     const messages = inspectDraft(draft);

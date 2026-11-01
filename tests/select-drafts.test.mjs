@@ -135,3 +135,14 @@ test('坏池文件只让该行业缺席，不让整批失败', () => {
   assert.equal(r.selected.some((s) => s.slug === 'ok'), true);
   assert.ok(r.conflicts.some((c) => c.kind === 'industry-invalid'));
 });
+
+test('入选条目带 sourceDate，便于跨日定位草稿', () => {
+  const yesterday = mkPool('banking', [mkDraft({ region: 'europe', slug: 'old', url: 'https://a.example/o' })], { date: '2026-11-01' });
+  const r = run({ docs: [yesterday] });
+  assert.equal(r.selected[0].sourceDate, '2026-11-01');
+});
+
+test('入选条目必须能在某个池里找到，否则直接失败', () => {
+  const docs = [mkPool('banking', [mkDraft({ region: 'apac', industry: 'payments', slug: 'wrong', url: 'https://a.example/w' })])];
+  assert.throws(() => run({ docs }), /不在 taxonomy|找不到/);
+});

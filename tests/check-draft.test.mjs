@@ -65,3 +65,11 @@ test('未在 taxonomy 定义的标签不通过', () => {
 test('空池合法', () => {
   assert.equal(inspectPool(pool()).ok, true);
 });
+
+test('池缺 startedAt 时判为不合规，不能留给构建去发现', () => {
+  const p = pool(draft());
+  delete p.startedAt;
+  const r = inspectPool(p);
+  assert.equal(r.ok, false);
+  assert.match(r.problems.map((x) => x.messages.join()).join(), /startedAt/);
+});

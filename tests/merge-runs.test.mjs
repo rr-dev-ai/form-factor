@@ -84,7 +84,7 @@ test('候选与余量取自池的 stats 与剩余草稿', () => {
   assert.equal(day.candidates, 9);
   assert.equal(day.pooled, 2);
   assert.equal(day.afterDedup, 9);
-  assert.equal(day.passed, 9);
+  assert.equal(day.passed, 2);
 });
 
 test('conflicts 与 fallback 从 selection 透传', () => {
@@ -121,4 +121,18 @@ test('生成的记录能通过 dayRecordSchema，否则 build 会直接失败', 
   );
   const parsed = dayRecordSchema.safeParse(day);
   assert.equal(parsed.success, true, parsed.success ? '' : JSON.stringify(parsed.error.issues, null, 2));
+});
+
+test('mtime 带小数时 durationMs 仍是整数，否则 runs.json 过不了 schema', () => {
+  const docs = [mkPool('banking', [], { mtimeMs: Date.parse('2026-11-02T03:30:00+08:00') + 90.5 })];
+  const day = buildDayRecord(base({ docs }));
+  assert.equal(Number.isInteger(day.durationMs), true);
+  assert.equal(dayRecordSchema.safeParse(day).success, true);
+});
+
+test('passed 是池内合格稿总数，不与 candidates 恒等', () => {
+  const docs = [mkPool('banking', [{}, {}], { stats: { candidates: 12, written: 9, skippedByDedup: 3 } })];
+  const day = buildDayRecord(base({ docs, items: [mkItem()] }));
+  assert.equal(day.passed, 3);
+  assert.equal(day.candidates, 9);
 });
