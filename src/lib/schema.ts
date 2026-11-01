@@ -82,6 +82,19 @@ export const newsItemSchema = z.object({
 export type NewsItem = z.infer<typeof newsItemSchema>;
 
 /**
+ * 草稿：编辑写进备选池的形态。
+ * 三个字段由提升脚本在发布时统一填写，编辑不许写——否则会重演
+ * 2026-11-01 那种「文件 03:07 写盘、publishedAt 却标 04:20」的假时间。
+ */
+export const draftItemSchema = newsItemSchema.omit({
+  status: true,
+  publishedAt: true,
+  ingestedAt: true,
+});
+
+export type DraftItem = z.infer<typeof draftItemSchema>;
+
+/**
  * 一天的运行记录，供 /status 页展示。
  * 一天一条而不是每行业一条：状态页要的是「当天整体是否达标」，
  * 行业明细放在 industries 里。
@@ -112,6 +125,22 @@ export const dayRecordSchema = z.object({
   regions: z.array(z.enum(REGION_SLUGS)).default([]),
   /** 当天未覆盖的区域 */
   missing: z.array(z.enum(REGION_SLUGS)).default([]),
+  /** 三个池内候选总数（stats.written 之和） */
+  candidates: z.number().int().nonnegative().default(0),
+  /** 当日池内未被提升的条数 */
+  pooled: z.number().int().nonnegative().default(0),
+  /** 是否由 05:00 兜底提升 */
+  fallback: z.boolean().default(false),
+  /** 终审裁决过的冲突 */
+  conflicts: z
+    .array(
+      z.object({
+        kind: z.string(),
+        detail: z.string(),
+        resolved: z.boolean().default(false),
+      })
+    )
+    .default([]),
   supplement: z
     .object({
       triggered: z.boolean().default(false),
