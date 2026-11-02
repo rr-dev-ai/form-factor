@@ -11,9 +11,8 @@ on:
       - 'package.json'
       - 'package-lock.json'
   workflow_dispatch:
-  schedule:
-    # 兜底重建：UTC 18:40 = 北京时间 02:40，在凌晨窗口内
-    - cron: '40 18 * * *'
+  # 不挂 schedule：05:00 的发布本身就会推送并触发构建，凌晨再定时重建一份同样的
+  # 内容只是重复部署。部署失败时从 Actions 里重跑，或用 workflow_dispatch 手动触发。
 
 permissions:
   contents: read
