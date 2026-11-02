@@ -852,6 +852,9 @@ a.tag:hover {
 }
 
 .nav-menu summary {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   list-style: none;
   cursor: pointer;
   white-space: nowrap;
@@ -862,10 +865,27 @@ a.tag:hover {
   display: none;
 }
 
-.nav-menu summary::after {
-  content: ' ▾';
-  font-size: 9px;
-  opacity: 0.55;
+/* 箭头是内联 SVG，不是边框拼的 V：边框拼出来的 V 只有一半是对称的，
+   翻转 180° 后笔画重心会跟着上下挪，开合时箭头会跳。SVG 的墨迹以盒子
+   中心对称，转向时原地翻面 */
+.nav-chev {
+  flex: none;
+  width: 10px;
+  height: 6px;
+  opacity: 0.8;
+  transition:
+    transform 0.18s ease,
+    opacity 0.18s ease;
+}
+
+.nav-menu:hover .nav-chev,
+.nav-menu[open] .nav-chev,
+.nav-menu[data-current='true'] .nav-chev {
+  opacity: 1;
+}
+
+.nav-menu[open] .nav-chev {
+  transform: rotate(180deg);
 }
 
 .nav-menu[open] summary,
