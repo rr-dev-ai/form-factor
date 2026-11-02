@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-03-telecom-01",
+  "slug": "att-smart-meter-global-sim-advanced",
+  "industry": "telecom",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "esim",
+    "rsp"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-03T04:17:02+08:00",
+  "ingestedAt": "2026-11-03T02:55:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "IoT Now",
+      "url": "https://iot-now.com/2026/11/02/159123-att-smart-meter-connected-healthcare-global-sim-advanced/",
+      "lang": "en",
+      "publishedAt": "2026-11-02T10:26:58Z"
+    },
+    {
+      "name": "AT&T",
+      "url": "https://about.att.com/story/2025/connected-solutions-global-sim-advanced.html",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "AT&T 把多 profile eSIM 装进远程监护设备：信号不够就换网",
+    "en": "AT&T puts multi-profile eSIM into remote patient monitoring devices",
+    "es": "AT&T lleva la eSIM multiperfil a la monitorización remota de pacientes"
+  },
+  "summary": {
+    "zh": "AT&T 与 Smart Meter 扩大合作，后者在远程病人监护设备里采用 Global SIM Advanced，设备在覆盖不足时切换到备选网络的 profile，不必换卡或返厂。",
+    "en": "AT&T and Smart Meter widened their partnership so the device maker can use Global SIM Advanced, an eSIM that switches a device to an approved backup network profile instead of swapping the card.",
+    "es": "AT&T y Smart Meter amplían su acuerdo para que los dispositivos de monitorización remota usen Global SIM Advanced, una eSIM que cambia el perfil a una red de respaldo aprobada en lugar de sustituir la tarjeta."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "换网在后台完成，设备不动",
+        "en": "The switch happens in the back office",
+        "es": "El cambio ocurre en el back office"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "AT&T 在 11 月 2 日宣布扩大与 Smart Meter 的合作。Smart Meter 做的是带蜂窝模组的远程监护设备，血糖、血压、体重、血氧这类读数由设备自动回传，不需要蓝牙配对，也不要求患者会用手机。新增的部分是把 AT&T 的 Global SIM Advanced 接进这条产品线。",
+        "en": "AT&T said on 2 November that it is widening its work with Smart Meter, which builds cellular remote patient monitoring devices that send glucose, blood pressure, weight and oxygen readings back on their own, without Bluetooth pairing or a handset. The new piece is AT&T Global SIM Advanced inside that product line.",
+        "es": "AT&T anunció el 2 de noviembre una ampliación de su colaboración con Smart Meter, fabricante de dispositivos celulares de monitorización remota que envían por su cuenta lecturas de glucosa, presión, peso y oxígeno, sin emparejamiento Bluetooth ni teléfono. La novedad es Global SIM Advanced dentro de esa línea de producto."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Global SIM Advanced 是 AT&T 在 2025 年推出的多 profile eSIM 方案：一张 eUICC 可常驻多个运营商的 profile，由连接管理平台决定当前启用哪一个。设备在某个区域连不上时，平台把设备切到另一个已获批的网络，不必派人上门换卡。AT&T 没有公布参与切换的运营商名单、切换的判定阈值，也没有说明这项能力眼下覆盖多少台设备。",
+        "en": "Global SIM Advanced, introduced by AT&T in 2025, is a multi-profile eSIM: one eUICC can hold profiles from several operators, and a connectivity management platform decides which one is active. When a device cannot hold a network in a given area, the platform moves it to another approved network instead of sending someone to swap a card. AT&T did not name the operators involved, the thresholds that trigger a switch, or how many devices run the capability today.",
+        "es": "Global SIM Advanced, presentada por AT&T en 2025, es una eSIM multiperfil: un eUICC guarda perfiles de varios operadores y una plataforma de gestión decide cuál está activo. Si el dispositivo no logra mantenerse en una red, la plataforma lo pasa a otra red aprobada en lugar de enviar a alguien a cambiar la tarjeta. AT&T no detalló qué operadores participan, qué umbral dispara el cambio ni cuántos dispositivos lo usan hoy."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "设备端要能常驻多个 profile 并接受远程切换指令，模组与 eUICC 的 profile 数量上限直接决定能接几家网。",
+          "en": "Devices must hold several profiles and accept remote switch commands; the profile limit on module and eUICC sets how many networks a single SKU can reach.",
+          "es": "El dispositivo debe alojar varios perfiles y aceptar órdenes remotas; el límite de perfiles del módulo y del eUICC define a cuántas redes llega un solo SKU."
+        },
+        {
+          "zh": "医疗场景的付费方是医疗机构而非患者，换网带来的资费变化由服务商吸收，供应商报价时要能说清切换后的计费方式。",
+          "en": "In healthcare the payer is the provider, not the patient, so the connectivity vendor absorbs any tariff change caused by a switch and has to explain billing under the new profile.",
+          "es": "En salud paga el proveedor, no el paciente, así que el proveedor de conectividad asume el cambio tarifario y debe explicar la facturación con el nuevo perfil."
+        },
+        {
+          "zh": "切换失败时的回退路径是招标里的常见追问，公告未涉及这部分，需要供应商自己给出验证记录。",
+          "en": "Fallback when a switch fails is a standard question in tenders; the announcement does not cover it, so suppliers need their own test evidence.",
+          "es": "La vuelta atrás si el cambio falla es pregunta habitual en licitaciones; el anuncio no la cubre y el proveedor debe aportar sus pruebas."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "改变的是「设备出厂即锁定一家运营商」这个环节。过去换运营商等于换卡或换设备，现在由平台在后台改 profile，设备商可以只出一个 SKU 覆盖全美。做模组、eUICC 与连接管理的供应商，得把多 profile 常驻、切换失败回退和跨网计费做进产品；只卖单 profile 卡的方案，在这类采购里会被追问为什么不能换网。",
+    "en": "What changes is the point where a device is locked to one operator at the factory. Swapping operators used to mean swapping cards or hardware; now a platform changes the profile, so a device maker can ship one SKU across the US. Module, eUICC and connectivity-management suppliers need multi-profile residency, fallback on failed switches and cross-network billing built in; single-profile card offers will be asked why they cannot move.",
+    "es": "Lo que cambia es el punto en que el dispositivo queda atado a un operador de fábrica. Antes cambiar de operador era cambiar tarjeta o equipo; ahora una plataforma cambia el perfil y el fabricante cubre EE. UU. con un solo SKU. Los proveedores de módulos, eUICC y gestión de conectividad necesitan perfiles residentes, vuelta atrás ante fallos y facturación entre redes; una tarjeta de un solo perfil será cuestionada por no poder moverse."
+  },
+  "confidence": 0.82,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "2026-11-03-telecom-02",
+  "slug": "china-unicom-esim-online-application-draw",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "esim",
+    "sim-registration"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-03T04:17:02+08:00",
+  "ingestedAt": "2026-11-03T02:55:00+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "通信世界",
+      "url": "https://www.cww.net.cn/article?id=615725",
+      "lang": "zh",
+      "publishedAt": "2026-11-02T11:20:00+08:00"
+    },
+    {
+      "name": "IT时报",
+      "url": "https://www.huxiu.com/article/4902246.html",
+      "lang": "zh",
+      "publishedAt": "2026-11-02T00:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "联通把 eSIM 开卡搬进 App：先抽签，抽中才能线上提交",
+    "en": "China Unicom moves eSIM sign-up into its app, via a draw for online slots",
+    "es": "China Unicom lleva el alta de eSIM a su app mediante un sorteo de cupos"
+  },
+  "summary": {
+    "zh": "联通上线「eSIM 业务首次线上办理资格抽取」，中签用户可在 App 内提交开卡；电信在 App 加了 eSIM 绑号量查询，移动称后续开放自助办理。换机迁移仍需本人到店。",
+    "en": "China Unicom now runs a draw for online eSIM sign-up slots, China Telecom added an eSIM line-count lookup to its app, and China Mobile says self-service is coming. Moving a profile to a new phone still requires a store visit.",
+    "es": "China Unicom sortea cupos para tramitar la eSIM en línea, China Telecom añadió a su app la consulta de líneas eSIM y China Mobile anuncia autoservicio. Migrar el perfil a otro teléfono sigue exigiendo ir a una tienda."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "线上开了一个口子，但只有抽中的能进",
+        "en": "Online access opens, but only for those who win a slot",
+        "es": "Se abre el canal online, solo para quienes ganan un cupo"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "三家运营商在 eSIM 手机业务上的入口开始分开。联通上线「eSIM 业务首次线上办理资格抽取」限时活动，中签用户可在联通 App 内提交办理，不必再去营业厅；电信在 App 里加了「eSIM 手机绑号量查询」，输入设备 EID 可查看已绑号码数与当月开卡次数；移动表示后续会把自助办理放进 App。这些入口目前仍属试点，联通的活动是限时、限额的。",
+        "en": "The three carriers are diverging on how a customer gets an eSIM. Unicom runs a limited-time draw for online sign-up: winners submit inside the app instead of visiting a store. Telecom added an in-app lookup that takes the device EID and returns how many numbers are attached and how many were opened this month. Mobile says self-service will follow in its app. All of this is still pilot-stage; the Unicom draw is time-limited and capped.",
+        "es": "Los tres operadores se separan en el acceso a la eSIM. Unicom sortea cupos por tiempo limitado para tramitar en línea dentro de la app. Telecom añadió una consulta que, con el EID del equipo, devuelve cuántos números hay asociados y cuántas altas se hicieron en el mes. Mobile dice que el autoservicio llegará a su app. Todo sigue en piloto: el sorteo de Unicom es limitado en tiempo y cupo."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "线下环节没有消失。按《IT时报》走访上海三家营业厅得到的口径，开卡、转卡、补卡都要现场核验设备 IMEI 与 EID，必须本人带机到场，不能代办；换机迁移要重新写入 profile，旧机上的配置同时失效，暂时没有线上自助迁移。国行机型同时可写入的 eSIM 数量也有上限，超出需先移除一张。",
+        "en": "The physical step has not gone away. Staff at three Shanghai stores told IT Times that opening, converting and replacing a line all require checking the device IMEI and EID on site, in person, with the phone present. Moving a number to a new handset means writing the profile again and the old one stops working; there is no self-service migration yet. Domestic models also cap how many eSIMs can be active at once, so adding one may mean removing another.",
+        "es": "El paso presencial no desaparece. Empleados de tres tiendas de Shanghái dijeron a IT Times que el alta, la conversión y la reposición exigen verificar IMEI y EID en el local, en persona y con el equipo. Pasar el número a otro teléfono implica reescribir el perfil y el anterior deja de funcionar; no hay migración autoservicio. Los modelos nacionales limitan cuántas eSIM pueden estar activas, así que añadir una puede exigir quitar otra."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "联通华盛称适配 eSIM 机型已近 30 款，线下门店约 3 分钟可完成开通，并在苹果直营店与授权店安排驻店人员。",
+          "en": "Unicom's device arm says close to 30 models are certified, a store activation takes about three minutes, and staff are stationed in Apple stores and authorised resellers.",
+          "es": "La división de terminales de Unicom afirma casi 30 modelos homologados, unos tres minutos de activación en tienda y personal destacado en Apple Stores y revendedores."
+        },
+        {
+          "zh": "联通华盛给出的量：2026 年上半年国内 eSIM 手机出货约 100 万台，9 月旗舰集中上市后，下半年有望超过 2000 万台。",
+          "en": "Unicom's figure: about 1 million eSIM phones shipped in China in the first half of 2026, with more than 20 million expected in the second half after September flagship launches.",
+          "es": "Cifra de Unicom: unos 1 millón de teléfonos eSIM vendidos en China en el primer semestre de 2026 y más de 20 millones previstos en el segundo tras los lanzamientos de septiembre."
+        },
+        {
+          "zh": "抽签制意味着线上受理能力仍然小于需求，运营商在验证远程实名核验与号码安全，而不是已经放开。",
+          "en": "A draw implies online capacity is still below demand: carriers are testing remote identity checks and number security rather than having opened the door.",
+          "es": "Un sorteo implica que la capacidad online sigue por debajo de la demanda: los operadores prueban la verificación remota de identidad y la seguridad del número, no han abierto la puerta."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "改变的是 eSIM 的分发入口：号码从只能在柜台写进设备，变成可以在 App 里申请，运营商因此要把实名核验、EID 校验和开卡配额搬到线上系统里。对做远程写卡、实名核验与终端适配的供应商，这是新一轮系统改造的入口；对渠道商，柜台的三分钟开通会逐步失去独占性，但要等到线上不再是抽签。",
+    "en": "The distribution entry point is what changes: a number no longer has to be written at a counter, so carriers must move identity checks, EID validation and line quotas into online systems. For suppliers of remote provisioning, identity verification and device certification this opens a round of system work; for channel partners the three-minute counter activation loses its exclusivity, though not while online access is still a lottery.",
+    "es": "Cambia el punto de distribución: el número ya no tiene que escribirse en un mostrador, así que el operador traslada a sistemas online la verificación de identidad, la validación del EID y las cuotas de altas. Para proveedores de aprovisionamiento remoto, verificación y homologación se abre una ronda de integración; para el canal, la activación de tres minutos en tienda pierde exclusividad, aunque no mientras el acceso online sea un sorteo."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11"
+  }
+}

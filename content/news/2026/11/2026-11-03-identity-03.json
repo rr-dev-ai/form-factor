@@ -1,0 +1,106 @@
+{
+  "id": "2026-11-03-identity-07",
+  "slug": "moldova-suspends-evo-digital-id-polling-stations",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "mobile-id",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-03T04:17:02+08:00",
+  "ingestedAt": "2026-11-03T03:10:21+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech Wire",
+      "url": "https://idtechwire.com/moldova-pulls-evo-digital-id-from-polling-stations-after-government-cyberattack/",
+      "lang": "en",
+      "publishedAt": "2026-11-02T00:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "摩尔多瓦投票日撤下 EVO 电子身份证：只能拿实体证件投票",
+    "en": "Moldova pulls EVO digital IDs on election day, leaving physical documents as the only proof",
+    "es": "Moldavia retira los documentos digitales de EVO el día electoral y deja solo el documento físico"
+  },
+  "summary": {
+    "zh": "摩尔多瓦中央选举委员会在 11 月 1 日地方选举与公投中暂停用 EVO 应用里的电子身份证核验选民，改回实体证件，原定的数字证件试点随之取消。",
+    "en": "Moldova's Central Electoral Commission suspended use of digital identity documents in the EVO app for voter identification in the 1 November local elections and referendum, falling back to physical documents and dropping a planned digital ID pilot.",
+    "es": "La Comisión Electoral Central de Moldavia suspendió el uso de los documentos digitales de la app EVO para identificar votantes en las elecciones locales y el referendo del 1 de noviembre, volviendo al documento físico y cancelando un piloto previsto."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "撤的是什么",
+        "en": "What was withdrawn",
+        "es": "Qué se retiró"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "EVO 是摩尔多瓦政府的数字身份与公共服务应用，内含身份证的数字版本。选委会以针对数字公共服务的网络安全事件为由，暂停它在投票站作为选民身份凭证使用，原定向这次投票做的数字证件试点一并取消，选民只能出示实体证件。选委会同时暂停了在线「选举投诉」模块，投诉改为邮件或现场提交。",
+        "en": "EVO is the Moldovan government's app for digital identity documents and public services, including digital versions of identity cards. Citing cybersecurity incidents against digital public services, the commission suspended its use as voter identification at polling stations and dropped the pilot planned for this vote, leaving physical documents as the only option. It also suspended the online electoral complaints module, moving complaints to email or in person.",
+        "es": "EVO es la app del gobierno moldavo para documentos de identidad digitales y servicios públicos, con versiones digitales del documento de identidad. Alegando incidentes de ciberseguridad contra servicios públicos digitales, la comisión suspendió su uso como identificación en los colegios y canceló el piloto previsto para esta votación, dejando solo el documento físico. También suspendió el módulo de reclamaciones electorales en línea, que pasa a correo electrónico o presencial."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "牵连范围",
+        "en": "The blast radius",
+        "es": "El alcance"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "投票覆盖六个地方的提前地方选举与一场公投：塔拉克利亚区的 Cairaclia、Novosiolovca，勒什坎尼区的 Costești，德罗基亚区的 Hăsnășenii Mari，加告兹的 Tomai、Chirsova，以及阿内尼诺伊区 Delacău 的公投。",
+          "en": "The vote covered early local elections in six localities, in Taraclia, Rîșcani, Drochia, Gagauzia and Anenii Noi district, plus one local referendum.",
+          "es": "La votación cubrió elecciones locales anticipadas en seis localidades de Taraclia, Rîșcani, Drochia, Gagauzia y el distrito de Anenii Noi, más un referendo local."
+        },
+        {
+          "zh": "起因是 10 月 19 日至 23 日针对政府信息系统的攻击，初步结论称约 75 万个国家识别号相关个人数据被非授权提取，可能含姓名、识别号、家庭信息、养老金记录、驾照信息与部分金融数据。",
+          "en": "The trigger was an attack on government systems between 19 and 23 October; preliminary findings say personal data tied to about 750,000 state identification numbers was extracted without authorisation, possibly including names, ID numbers, family details, pension records, licence data and some financial data.",
+          "es": "El detonante fue un ataque a sistemas estatales entre el 19 y el 23 de octubre; hallazgos preliminares indican que se extrajeron datos de unos 750.000 números de identificación, posiblemente con nombres, números, datos familiares, pensiones, permisos y algunos datos financieros."
+        },
+        {
+          "zh": "电子治理局随后对 82 项数字公共服务做安全检查，截至 10 月 30 日恢复 61 项、21 项仍在停用；当局称国家登记册未被篡改、银行卡数据未受影响，基希讷乌市检察院 10 月 30 日已立案侦查。",
+          "en": "The Electronic Governance Agency then ran security checks on 82 digital public services; by 30 October, 61 were restored and 21 still unavailable. Authorities say registers were not altered and card data was not compromised, and the Chisinau prosecutor opened a criminal case on 30 October.",
+          "es": "La Agencia de Gobernanza Electrónica revisó 82 servicios públicos digitales; al 30 de octubre, 61 estaban restablecidos y 21 seguían fuera de servicio. Las autoridades dicen que los registros no se alteraron y que los datos de tarjetas no se vieron afectados; la fiscalía de Chisináu abrió una causa penal el 30 de octubre."
+        }
+      ]
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "门没有关死",
+        "en": "The door is not closed",
+        "es": "La puerta no está cerrada"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "选委会说，与电子治理局保持沟通，待安全检查全部完成、相关服务的安全性得到确认后，会在今后的选举中重新考虑数字身份核验。这意味着问题落在服务端的安全状态，而不是数字证件这种形式本身。",
+        "en": "The commission says it stays in dialogue with the Electronic Governance Agency and will revisit digital identification for future elections once security checks are complete and the safety of the services is confirmed, framing the problem as the security state of the services rather than the digital document as a form.",
+        "es": "La comisión afirma mantener el diálogo con la Agencia de Gobernanza Electrónica y que reconsiderará la identificación digital en futuras elecciones cuando terminen las comprobaciones y se confirme la seguridad de los servicios; el problema se plantea como el estado de seguridad de los servicios, no como la forma digital en sí."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变的是受理端的兜底：数字证件被撤下之后，投票站没有任何替代通道，只能回到实体卡——这暴露了很多数字身份项目的单点依赖，整套受理流程没有「数字证件不可用时」的降级方案。做选举、边境、社保这类高可用场景的集成商，投标时该把降级路径写成明确条款：什么条件下切回实体证件、切换多久、由谁宣布。反过来，这也是数字证件推广的信任成本：一次安全事件就让一个已准备好的试点作废，后续重启要重新走一遍政治与合规流程。",
+    "en": "What changed is the fallback at the acceptance point: with the digital document withdrawn, polling stations had no alternative path and reverted to the physical card. That exposes a single-point dependency many digital ID programmes carry, with no defined degradation path for when the digital credential is unavailable. Integrators selling into elections, borders or benefits should make the fallback a contract clause: what triggers the switch back to physical documents, how long it lasts, and who declares it. It also prices the trust cost of digital ID: one security incident voided a prepared pilot, and restarting means going through the political and compliance cycle again.",
+    "es": "Lo que cambió es el respaldo en el punto de aceptación: retirado el documento digital, los colegios no tenían otra vía y volvieron a la tarjeta física. Eso expone la dependencia de un solo punto que arrastran muchos programas de identidad digital, sin ruta de degradación definida para cuando la credencial digital no está disponible. Los integradores de elecciones, fronteras o prestaciones deberían convertir el respaldo en cláusula: qué activa el retorno al documento físico, cuánto dura y quién lo declara. También pone precio a la confianza: un incidente anuló un piloto ya preparado, y reiniciarlo exige repetir el ciclo político y de cumplimiento."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "2026-11-03-identity-04",
+  "slug": "armenia-haypass-data-centre-eidas-assessment",
+  "industry": "identity",
+  "region": "cis",
+  "regions": [
+    "europe"
+  ],
+  "tags": [
+    "passport",
+    "national-id",
+    "biometrics"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-03T04:17:02+08:00",
+  "ingestedAt": "2026-11-03T03:10:21+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ARKA",
+      "url": "https://arka.am/en/news/society/haypass-data-processing-center-opens-in-armenia-infrastructure-to-be-evaluated-by-european-experts/",
+      "lang": "en",
+      "publishedAt": "2026-11-01T16:59:00+04:00"
+    }
+  ],
+  "title": {
+    "zh": "亚美尼亚 HayPass 数据中心启用：欧洲专家先评估两年，之后才谈认证",
+    "en": "Armenia opens the HayPass data centre, with EU experts assessing it for two years before certification",
+    "es": "Armenia abre el centro de datos de HayPass, con expertos de la UE evaluándolo dos años antes de certificarlo"
+  },
+  "summary": {
+    "zh": "亚美尼亚内务部通报，生物识别证件项目的 HayPass 数据处理中心已启用，按协议未来两年由欧洲专家组评估生产流程，之后才对这套基础设施发证。",
+    "en": "Armenia's interior ministry says the HayPass data processing centre for its biometric documents programme is open, and that a European expert group will spend the next two years assessing its production processes before the infrastructure is certified.",
+    "es": "El ministerio del Interior de Armenia informa que el centro de datos HayPass del programa de documentos biométricos ya funciona, y que un grupo de expertos europeos evaluará sus procesos durante dos años antes de certificar la infraestructura."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "谁到场，开了什么",
+        "en": "What opened, who came",
+        "es": "Qué se inauguró y quién asistió"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "中心在 10 月 31 日举行开幕仪式，副总理 Mher Grigoryan、内务部长 Arpine Sargsyan、欧盟委员会与欧盟驻亚美尼亚代表团代表出席。HayPass 主任 Régis Bouchier 向到场者介绍了中心的设施。",
+        "en": "The opening ceremony on 31 October was attended by Deputy Prime Minister Mher Grigoryan, Interior Minister Arpine Sargsyan, and representatives of the European Commission and the EU delegation to Armenia. HayPass director Régis Bouchier presented the facility.",
+        "es": "La inauguración del 31 de octubre contó con el viceprimer ministro Mher Grigoryan, la ministra del Interior Arpine Sargsyan y representantes de la Comisión Europea y de la delegación de la UE en Armenia. El director de HayPass, Régis Bouchier, presentó las instalaciones."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "认证路径写进了协议",
+        "en": "The certification path is in the contract",
+        "es": "La ruta de certificación está en el contrato"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "内务部说，协议条款规定未来两年由欧洲专家组对该中心的生产流程做深度评估，评估之后才对基础设施发证。设施按欧盟 eIDAS 条例的要求建设——这套条例是欧盟电子身份识别与信任服务的法律框架。项目以公私合营方式推进，执行方 HayPass 由含 IN Groupe 在内的联合体设立。",
+        "en": "According to the interior ministry, the agreement provides for an in-depth assessment of the centre's production processes by a European expert group over the next two years, with certification of the infrastructure to follow. The ministry says the facility was built to the requirements of the EU's eIDAS Regulation, the legal framework for electronic identification and trust services. The project runs as a public-private partnership through HayPass, a company set up by a consortium that includes IN Groupe.",
+        "es": "Según el ministerio del Interior, el acuerdo prevé una evaluación profunda de los procesos del centro por un grupo de expertos europeos durante los próximos dos años, y la certificación de la infraestructura después. El ministerio afirma que las instalaciones se construyeron conforme al reglamento europeo eIDAS, marco legal de la identificación electrónica y los servicios de confianza. El proyecto avanza como asociación público-privada mediante HayPass, sociedad creada por un consorcio que incluye a IN Groupe."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "通报没写的部分",
+        "en": "What the statement leaves out",
+        "es": "Lo que el comunicado no dice"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "加密机制、访问控制与生物特征数据保护的具体规格没有披露。",
+          "en": "No technical detail is given on encryption, access control or protection of biometric data.",
+          "es": "No se detallan cifrado, control de acceso ni protección de datos biométricos."
+        },
+        {
+          "zh": "是否接入欧盟跨境电子身份系统、亚美尼亚数字身份证能否被成员国互认，通报同样没有讲；eIDAS 对齐在这里只是建设要求，不等于互认。",
+          "en": "The statement says nothing about connecting to EU cross-border eID systems or whether Armenian digital IDs would be recognised by member states; aligning with eIDAS is a build requirement, not mutual recognition.",
+          "es": "El comunicado no menciona conexión con los sistemas europeos de identidad ni si los documentos digitales armenios serán reconocidos por los Estados miembros; alinearse con eIDAS es un requisito de construcción, no un reconocimiento mutuo."
+        },
+        {
+          "zh": "证件受理已从 11 月 1 日开始，首批 14 个公民服务中心，2027 年 3 月增至 23 个。",
+          "en": "Applications opened on 1 November with 14 citizen service offices, rising to 23 by March 2027.",
+          "es": "Las solicitudes empezaron el 1 de noviembre con 14 oficinas de atención, que serán 23 en marzo de 2027."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变的是发证的前提：证件生产设施要先被外部评估过，才有资格谈认证，而不是验收一次就完事。对制证与个性化设备的供应商，这意味着评估组看的是生产流程——数据怎么进、怎么留、谁能访问——成品合格不够用。这段时间窗口里产能已经上线，若两年后的评估要求改流程，改造成本落在谁头上，协议没有公开；投标这类项目时，把「评估期内的变更责任」写进合同比压价更值钱。",
+    "en": "What changed is the precondition for issuance: the production facility has to be assessed from outside before certification is even discussed, rather than signed off once. For suppliers of document personalisation equipment, that means assessors look at process, meaning how data enters, how long it stays and who can reach it, and a compliant card is not enough. Capacity is already live during that window, and the contract does not say who pays if the two-year review forces process changes; on bids like this, a clause on change liability during assessment is worth more than a price cut.",
+    "es": "Lo que cambió es la condición previa a la emisión: la planta debe ser evaluada desde fuera antes de hablar de certificación, en lugar de aprobarse una vez. Para los proveedores de personalización, eso significa que el evaluador mira el proceso —cómo entran los datos, cuánto se conservan y quién accede—, y un documento conforme no basta. La capacidad ya opera durante esa ventana y el contrato no dice quién paga si la revisión de dos años obliga a cambiar procesos; en licitaciones así, una cláusula de responsabilidad por cambios vale más que un descuento."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

@@ -1,5 +1,471 @@
 [
   {
+    "date": "2026-11-03",
+    "startedAt": "2026-11-03T02:32:00+08:00",
+    "durationMs": 336112,
+    "fetched": 441,
+    "afterDedup": 1311,
+    "passed": 14,
+    "published": 12,
+    "industries": {
+      "banking": {
+        "fetched": 149,
+        "afterDedup": 437,
+        "passed": 3,
+        "published": 3
+      },
+      "telecom": {
+        "fetched": 290,
+        "afterDedup": 436,
+        "passed": 4,
+        "published": 4
+      },
+      "identity": {
+        "fetched": 129,
+        "afterDedup": 438,
+        "passed": 7,
+        "published": 5
+      }
+    },
+    "regions": [
+      "apac",
+      "cis",
+      "mena",
+      "europe",
+      "north-america"
+    ],
+    "missing": [
+      "latam",
+      "africa"
+    ],
+    "candidates": 14,
+    "pooled": 2,
+    "fallback": false,
+    "conflicts": [],
+    "supplement": {
+      "triggered": true,
+      "items": 2,
+      "sources": [
+        "cis"
+      ]
+    },
+    "rejected": [
+      {
+        "title": "XTransfer, BOCHK Partner to Expand Cross-Border Trade Payments",
+        "reason": "合作内容是 B2B 贸易的收款、付款与外汇，走的是银行跨境结算与 XTransfer 的账户网络，没有发卡、收单终端、令牌化或卡组织规则任一环节，未过范围门",
+        "industry": "banking"
+      },
+      {
+        "title": "HKMA Unveils tConnect Launchpad as Hong Kong Pushes Tokenisation Forward",
+        "reason": "标的是代币化存款与代币化资产的结算（含 EnsembleTX 转 24/7 真实价值交易），不在凭证载体、受理终端或卡令牌化环节，未过范围门",
+        "industry": "banking"
+      },
+      {
+        "title": "Mastercard scales in India",
+        "reason": "事件是与 HDFC 银行的小企业发卡协议，签约发生在第三季度、由 10 月 29 日财报电话会披露，已超出 72 小时窗口；且消息来源为财报解读，属收录范围外",
+        "industry": "banking"
+      },
+      {
+        "title": "Klarna Teams With Fresha to Bring BNPL to Beauty Bookings",
+        "reason": "BNPL 嵌入商户预约平台的支付方式属受理侧变化，但原文未披露首批落地市场，region 无法按「变化落在哪个市场」判定，按不可核实处理",
+        "industry": "banking"
+      },
+      {
+        "title": "Govt to advance SA's digital wallet programme",
+        "reason": "事件为国家财政部长周五（10 月 30 日）发布的季度报告，距今约 77 小时，超出 72 小时窗口，无重大更新可援引",
+        "industry": "banking"
+      },
+      {
+        "title": "Apple Pay and Google Pay launch in Uzbekistan",
+        "reason": "同一事件已由 2026-11-01-banking-01 发布，来源指向同一篇乌兹别克通讯社报道",
+        "industry": "banking"
+      },
+      {
+        "title": "Itaú lança solução de checkout para comércio eletrônico",
+        "reason": "已由 2026-11-01-banking-01 发布，来源 URL 重复",
+        "industry": "banking"
+      },
+      {
+        "title": "NCBA's LOOP Launches LOOP BIZ+, a Square-Like Platform for Payments, Inventory & SME Loans",
+        "reason": "已由 2026-11-01-banking-02 发布，来源 URL 重复",
+        "industry": "banking"
+      },
+      {
+        "title": "Adyen Rolls Out Visa Payment Passkey for Online Checkout",
+        "reason": "已由 2026-11-02-banking-01 发布，来源 URL 重复",
+        "industry": "banking"
+      },
+      {
+        "title": "UK Moves to Mandate POS Software Standards in Crackdown on Till Fraud",
+        "reason": "标的与动作方向都合判据（EPOS/MPOS 强制软件标准），但过程停在政策方向确认：技术提案要等 2027 年夏再咨询，无实施日期，也未进入立法；且发布于 10 月 29 日 18:38Z，距今约 96 小时，超出窗口",
+        "industry": "banking"
+      },
+      {
+        "title": "Visa and Tencent ink agentic commerce and cross-border payments MoU",
+        "reason": "10 月 29 日发布，超出 72 小时窗口。记录它是为了与今日所写 TenPay Global×Mastercard 区分：主体不同（Visa 对 Mastercard）、事件不同，不构成重复",
+        "industry": "banking"
+      },
+      {
+        "title": "Elavon pursues Paze, agentic commerce",
+        "reason": "高管访谈与「准备做试点」的表态，无授标、部署或规则落地，未过动作门；发布于 10 月 29 日，亦超出窗口",
+        "industry": "banking"
+      },
+      {
+        "title": "FTC, states sue Toast over fees",
+        "reason": "争点为止付与费用条款的诉讼，受理形态与清算机制未变，未过动作门；发布于 10 月 29 日，亦超出窗口",
+        "industry": "banking"
+      },
+      {
+        "title": "Visa Builds Agentic Commerce Infrastructure as Credentials Reach 5.2 Billion",
+        "reason": "10 月 29 日发布，超出 72 小时窗口（该条此前已于 10-30 期按同一事件处理过）",
+        "industry": "banking"
+      },
+      {
+        "title": "Visa and Mastercard Face £5bn UK Class Action Over Interchange Fees",
+        "reason": "集体诉讼，交换费规则本身未变，未过动作门；发布于 10 月 28 日，超出窗口",
+        "industry": "banking"
+      },
+      {
+        "title": "IDEMIA Secure Transactions Enables Banks to Prepare Cards for the Quantum Era with Industry-First Certification",
+        "reason": "10 月 29 日发布，超出 72 小时窗口；标题自称 industry-first，属公司自述，不援引",
+        "industry": "banking"
+      },
+      {
+        "title": "HSBC launches RedCoin stablecoin for retail payments",
+        "reason": "稳定币发行，明确不在收录范围；且发布于 10 月 29 日，超出窗口",
+        "industry": "banking"
+      },
+      {
+        "title": "Ripple Wins Final OCC Approval to Launch National Trust Bank",
+        "reason": "银行牌照事项，不改变发卡、收单或清算机制；发布于 10 月 28 日，超出窗口",
+        "industry": "banking"
+      },
+      {
+        "title": "Thailand Plans New Rules for Stablecoins, BNPL and Gold Trading",
+        "reason": "稳定币发行与 BNPL 授信监管，标的不在发卡、收单或令牌化环节，未过范围门；发布于 10 月 30 日，亦超出窗口",
+        "industry": "banking"
+      },
+      {
+        "title": "Visa Adds New Fraud Controls as Virtual Cards Move Deeper Into B2B Payments",
+        "reason": "10 月 26 日发布，超出 72 小时窗口",
+        "industry": "banking"
+      },
+      {
+        "title": "Remitiva Launches Instant Card Payouts to 140 Countries as G20 Targets Fall Behind",
+        "reason": "10 月 23 日发布，超出 72 小时窗口",
+        "industry": "banking"
+      },
+      {
+        "title": "Bilt Pays $300 Million for Sports Loyalty Platform Lava",
+        "reason": "忠诚度平台收购，标的不在发卡、收单或清算环节，未过范围门",
+        "industry": "banking"
+      },
+      {
+        "title": "Uber Helped Scale Embedded Finance. Now It's Turning to 24/7 Enterprise Treasury.",
+        "reason": "企业资金管理与财资服务，无发卡、受理终端或令牌化动作，未过范围门",
+        "industry": "banking"
+      },
+      {
+        "title": "BTCPay Warns of Attacks on Crypto Payment Servers",
+        "reason": "加密支付服务器安全警告，标的不在三条凭证链路，未过范围门",
+        "industry": "banking"
+      },
+      {
+        "title": "eZAR opens rand stablecoin to SA public",
+        "reason": "稳定币发行，明确不在收录范围",
+        "industry": "banking"
+      },
+      {
+        "title": "RSA Warns Banks of the Risk of the Shadow Agent Explosion",
+        "reason": "银行侧 AI 代理安全的厂商警告，无受理或发卡机制变化，未过范围门",
+        "industry": "banking"
+      },
+      {
+        "title": "HugoHub Goes Live at Its First Regulated Bank, Pakistan's HugoBank",
+        "reason": "数字银行核心系统上线，属银行牌照与核心账务范畴，未触及卡、受理或清算规则，未过范围门",
+        "industry": "banking"
+      },
+      {
+        "title": "Building digital trust is key to unlock Middle East's next phase of growth: Mastercard",
+        "reason": "高管访谈与区域表态，无具体部署或规则变化，未过动作门；发布于 10 月 30 日，亦已超出窗口。本条是当日 mena 唯一候选，故该区域无稿",
+        "industry": "banking"
+      },
+      {
+        "title": "Black Friday 2026 to test retailer payment platforms",
+        "reason": "评论稿，预测高峰压力，无具体事件或机制变化，未过动作门；发布于 10 月 30 日，亦超出窗口",
+        "industry": "banking"
+      },
+      {
+        "title": "Absa Opens Dubai Office to Tap Gulf Capital for Africa Deals",
+        "reason": "开设代表处属机构布局，不触及发卡、受理或清算环节，未过范围门",
+        "industry": "banking"
+      },
+      {
+        "title": "OPay Scraps $304 Million US IPO Following Regulatory Probe",
+        "reason": "上市计划撤回，属资本事件，不在收录范围",
+        "industry": "banking"
+      },
+      {
+        "title": "Amex nabs new risk chief",
+        "reason": "人事变动，不在收录范围",
+        "industry": "banking"
+      },
+      {
+        "title": "Appointment of Chief Risk Officer",
+        "reason": "人事变动，不在收录范围",
+        "industry": "banking"
+      },
+      {
+        "title": "GXS Bank Names Harikrishnan Raguraman as Chief Technology Officer",
+        "reason": "人事变动，不在收录范围",
+        "industry": "banking"
+      },
+      {
+        "title": "Türkiye plans digital ID wallet pilot for 2027 as age verification expands",
+        "reason": "属身份链路的移动证件，归口 identity 行业；且发布于 10 月 30 日，超出窗口",
+        "industry": "banking"
+      },
+      {
+        "title": "Singapore Caps Private Hire Car Loans at 60 to 70 Percent",
+        "reason": "消费信贷额度规则，不在发卡、收单或清算范围",
+        "industry": "banking"
+      },
+      {
+        "title": "Finfra Secures Series A Extension Funding From ADB Ventures",
+        "reason": "融资事件，标的为嵌入式信贷基础设施，不在凭证链路范围",
+        "industry": "banking"
+      },
+      {
+        "title": "Superbank's Nine-Month Pre-Tax Profit Rises to US$21M",
+        "reason": "财报，不在收录范围",
+        "industry": "banking"
+      },
+      {
+        "title": "Illegal Online Lenders Account for 241 of OJK's 330 Cases",
+        "reason": "非法网贷执法统计，属信贷监管，不在收录范围",
+        "industry": "banking"
+      },
+      {
+        "title": "Binance 系列报道（North Korean 盗币、资产回补、恢复提现等 4 条，来自 ITWeb、TechMoran、PYMNTS）",
+        "reason": "加密交易所安全事件与资产处置，不落在卡组织、收单或发卡环节，未过范围门",
+        "industry": "banking"
+      },
+      {
+        "title": "Bank of Russia 统计与登记页（RUONIA、MIACR、抵押品清单、清算与交易所登记册、银行监管综述等 20 余条）",
+        "reason": "常设数据页与登记册，无具体事件，未过动作门",
+        "industry": "banking"
+      },
+      {
+        "title": "EBA E-mail alert（10 月 2 日至 29 日共 9 条）",
+        "reason": "邮件提醒的索引页，不含具体规则文本，无法核实议题与生效安排",
+        "industry": "banking"
+      },
+      {
+        "title": "Ghana Business News 社会与体育类条目（治安、教育、U-17、BRICS 表态等 10 条）",
+        "reason": "标的物不落在三条凭证链路的任何环节，未过范围门",
+        "industry": "banking"
+      },
+      {
+        "title": "与支付链无关的其余语料（ETSI、NIST、Fierce Network、Light Reading、Total Telecom、Mobile World Live、Mobile Europe、Telecom Review Asia、TeleSemana、DPL News、ComNews 等）",
+        "reason": "标的物为频谱、核心网、卫星、终端与 AI 治理等，不落在发卡、收单、令牌化或清算规则上，未过范围门",
+        "industry": "banking"
+      },
+      {
+        "title": "FCC gives OK for Amazon Leo's acquisition of Globalstar",
+        "reason": "范围门：标的是卫星移动频谱与星座资产的并购审批，不是 SIM/载体/鉴权机制；动作门：并购不等于授标、联合部署或跨国落地。",
+        "industry": "telecom"
+      },
+      {
+        "title": "European telcos consider joint bid for satellite spectrum",
+        "reason": "范围门：争的是 2GHz MSS 频谱评选，属频谱分配，AGENTS 明确不收。",
+        "industry": "telecom"
+      },
+      {
+        "title": "SpaceX in talks to buy Boost Mobile, network assets",
+        "reason": "范围门：MVNO 与网络资产的收购传闻，改变的是市场入口与频谱归属，不涉及 SIM 载体、RSP 或鉴权方式；且交易未官宣。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Brazil mandates SIM registration with face biometrics, Level 2 PAD",
+        "reason": "已由 2026-10-30-telecom-04 处理（巴西与南非同周推刷脸实名），同一事件不重复收录。",
+        "industry": "telecom"
+      },
+      {
+        "title": "11 月 1 日起巴西手机号分阶段强制生物识别（预付费 2027-09-30 等时间表）",
+        "reason": "与已发 2026-10-30-telecom-04 属同一 Anatel 决定，本条只是补充实施时间表，不构成新事件。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Rogers expands global satellite-to-mobile roaming coverage",
+        "reason": "已由 2026-10-31-telecom-01 处理（Rogers 把 D2D 漫游扩到澳新日）。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Space42, Viasat and Terrestar sign deal on satellite connectivity",
+        "reason": "已由 2026-11-01-telecom-01 处理。",
+        "industry": "telecom"
+      },
+      {
+        "title": "FCC seeks feedback on carrier warnings about running D2D in 5G bands",
+        "reason": "与已发 2026-10-30-telecom-06（FCC 卫星直连规则提案）同属一轮程序，非新机制。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Albania's AKEP authorises One Albania to test D2D with Starlink for 120 days",
+        "reason": "时效门：AKEP 董事会 10 月 29 日决定，距落盘已超 72 小时；内容本身过两道门，次日如仍无更新则彻底放弃。",
+        "industry": "telecom"
+      },
+      {
+        "title": "KT calls time on 3G sign-ups",
+        "reason": "范围门：3G 停止新入网属网络制式退网与核心网侧安排，不改 SIM 载体形态，也不改鉴权机制。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Vietnam fines up to VND 50 million for buying and selling registered SIM cards",
+        "reason": "时效门：所依据的 174/2026/NĐ-CP 法令 7 月 1 日已生效，本条为普法回顾，窗口内没有新的处置或规则动作。",
+        "industry": "telecom"
+      },
+      {
+        "title": "India's small businesses fear higher costs under SIM-binding rule",
+        "reason": "时效门：10 月 30 日发布，超出 72 小时；且内容是第三方研究报告，不是规则或部署动作。",
+        "industry": "telecom"
+      },
+      {
+        "title": "BBVA expands its offering in Italy with an eSIM service, powered by Gigs",
+        "reason": "时效门：新闻稿发布于 10 月 29 日，超出 72 小时；内容上过范围门（银行 App 成为 eSIM 零售入口），可留待后续同类事件复用角度。",
+        "industry": "telecom"
+      },
+      {
+        "title": "AST SpaceMobile targets initial intermittent D2D coverage in five markets by end-2026",
+        "reason": "来源为社交平台二手转述，未见公司公告原文；且内容为覆盖计划表态，未落在具体市场的落地动作上。",
+        "industry": "telecom"
+      },
+      {
+        "title": "China Mobile shows satellite and 6G exhibits at Wuzhen Internet Light expo",
+        "reason": "范围门/动作门：展会展示与 6G 表态，AGENTS 明确不收。",
+        "industry": "telecom"
+      },
+      {
+        "title": "HKT pulls out of US under FCC pressure – report",
+        "reason": "范围门：市场退出与监管压力，不涉及 SIM 载体、RSP 或鉴权方式。",
+        "industry": "telecom"
+      },
+      {
+        "title": "T-Mobile rolls out 5-Gig fiber, with 10-year price lock",
+        "reason": "范围门：固网宽带产品与资费，属资费促销类，明确不收。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Ericsson prepares ISAC platform for mobile operators",
+        "reason": "范围门：网络感知（ISAC）能力，落在核心网与无线侧功能，非凭证链路。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Digicel, Vodafone activate shared tower in Papua New Guinea",
+        "reason": "范围门：铁塔共享，属基站基础设施。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Finnair jets to SES, Eutelsat in-flight deal",
+        "reason": "范围门：机上互联带宽采购，不涉及 SIM、profile 或鉴权。",
+        "industry": "telecom"
+      },
+      {
+        "title": "GSMA re-elects Vittal as chair until end-2028",
+        "reason": "人事变动，两道门均不过。",
+        "industry": "telecom"
+      },
+      {
+        "title": "UNICC reuses biometric identity technology to expand its DPI footprint",
+        "reason": "动作门不过：全文是对 UNICC 官员的访谈，讲既有做法的复用逻辑，没有授标、联合部署或新落地，找不到可写入的事件时点",
+        "industry": "identity"
+      },
+      {
+        "title": "Jamaica opposition slams gov't plan to require national ID for disaster relief",
+        "reason": "动作门不过：只有总理口头表态与反对党回应，既无生效规则，也无部署动作，属政治争议而非机制变化",
+        "industry": "identity"
+      },
+      {
+        "title": "Govt to advance SA's digital wallet programme",
+        "reason": "时效不过：所依据的 Operation Vulindlela 季度报告发布于 10 月 30 日，距落盘超过 72 小时，无重大更新可援引",
+        "industry": "identity"
+      },
+      {
+        "title": "Deel Launches Deel Security to Check Worker Identities From Application Through Employment",
+        "reason": "范围门不过：员工背景核验产品，标的物不是护照/身份证/mDL 的载体、签发设备或核验终端",
+        "industry": "identity"
+      },
+      {
+        "title": "Facephi Cuts 2026 Revenue Forecast to €32.5 Million as Contracts Shift to Usage-Based Billing",
+        "reason": "范围门不过：财报与商业模式调整，AGENTS.md 明确不收财报",
+        "industry": "identity"
+      },
+      {
+        "title": "Merseyside Police Assessment Flags About 300,000 People With Custody Images Overdue for Deletion",
+        "reason": "范围门不过：影像留存合规问题，未改变证件载体、签发或核验机制",
+        "industry": "identity"
+      },
+      {
+        "title": "ASEAN's digital economy push needs to solve fragmentation",
+        "reason": "动作门不过：评论文章，讨论区域碎片化，没有具体授标、部署或落地",
+        "industry": "identity"
+      },
+      {
+        "title": "正式启用的“国家网络身份认证”，如何申领？",
+        "reason": "时效不过：正文实为人民日报 2025 年 7 月 25 日第 12 版旧稿，2026-11-02 只是转载，平台上线不在 72 小时窗口内",
+        "industry": "identity"
+      },
+      {
+        "title": "校园身份认证再升级！哈工大接入国家网络身份认证公共服务",
+        "reason": "证据不足与范围门双重问题：仅警方自媒体账号转述，无校方或平台方原文；且校园单点登录接入不涉及证件载体、签发设备或核验终端",
+        "industry": "identity"
+      },
+      {
+        "title": "越南 12 类电子交易账户须绑定 VNeID，银行账户期限延至 2027 年 6 月",
+        "reason": "时效不过：所依据的 320/2026/ND-CP 号法令 8 月 13 日颁布、9 月 28 日生效，11 月 2 日稿件属旧事重述",
+        "industry": "identity"
+      },
+      {
+        "title": "EU border automated checks: Germany and France see worst queues",
+        "reason": "时效不过：Eurocontrol 数据于 10 月 30 日公布，超出 72 小时；且为暑运评估，非新机制落地",
+        "industry": "identity"
+      },
+      {
+        "title": "Dubai to take tourist visa applications through Visit Dubai from November 2026",
+        "reason": "范围门不过：签证申请渠道搬上旅游门户，标的物不是护照/身份证/mDL 的载体、签发设备或核验终端",
+        "industry": "identity"
+      },
+      {
+        "title": "Pashinyan discussed the implementation of a biometric system in Armenia with IN Groupe representatives",
+        "reason": "动作门不过：公报只写「讨论了」边境管控方案，无金额、台数或时间表，属表态而非授标或部署",
+        "industry": "identity"
+      },
+      {
+        "title": "Biometrics and standards bring cross-border digital ID closer",
+        "reason": "动作门不过：周度综述，汇总多条既有进展，本身不含新事件",
+        "industry": "identity"
+      },
+      {
+        "title": "Digi Yatra trials start at 7 airports for international passengers",
+        "reason": "已由本站 2026-11-02 identity-02 处理（Digi Yatra 国际航班试点），同一事件不重复落草",
+        "industry": "identity"
+      },
+      {
+        "title": "Ghana’s NIA begins nationwide enforcement of biometric Ghana Card checks from Nov 2, 2026",
+        "reason": "已由本站 2026-11-02 identity-04 处理（NIA 11 月 2 日起查复印证件），同一事件不重复落草",
+        "industry": "identity"
+      },
+      {
+        "title": "Brazil mandates SIM registration with face biometrics, Level 2 PAD",
+        "reason": "已由本站 2026-10-30 telecom-04 处理；且事件为 10 月 30 日，超出 72 小时窗口",
+        "industry": "identity"
+      }
+    ],
+    "failedSources": [],
+    "costUsd": 0,
+    "migrated": false
+  },
+  {
     "date": "2026-11-02",
     "startedAt": "2026-11-02T02:35:28+08:00",
     "durationMs": 3926832,

@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-03-telecom-04",
+  "slug": "india-cnap-mandatory-november",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "sim-registration"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-03T04:17:02+08:00",
+  "ingestedAt": "2026-11-03T02:55:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Asia Daily",
+      "url": "https://cn.asiadaily.org/news/17070",
+      "lang": "zh",
+      "publishedAt": "2026-11-01T00:00:00+08:00"
+    },
+    {
+      "name": "Dainik Bhaskar",
+      "url": "https://www.bhaskarenglish.in/amp/tech-science/news/india-telecom-department-caller-name-display-rule-november-139368794.html",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "印度 11 月 1 日起强制显示来电者登记姓名，运营商要建号码—姓名库",
+    "en": "India makes caller name display mandatory, forcing operators to build number-to-name databases",
+    "es": "India obliga a mostrar el nombre del llamante y fuerza bases de datos número-nombre"
+  },
+  "summary": {
+    "zh": "印度电信部要求运营商自 11 月 1 日起在 4G 与 5G 网络默认提供来电姓名显示，姓名取自律照登记信息；各运营商须自建号码与姓名对应的数据库并支持跨网查询。",
+    "en": "India's Department of Telecommunications told operators to switch on calling name presentation by default on 4G and 5G from 1 November, taking the name from SIM registration records; each operator must keep a number-to-name database and answer queries across networks.",
+    "es": "El Departamento de Telecomunicaciones de India ordenó activar por defecto la presentación del nombre del llamante en 4G y 5G desde el 1 de noviembre, tomando el nombre del registro de la SIM; cada operador debe mantener una base número-nombre y responder consultas entre redes."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "登记在谁名下，屏幕上就显示谁",
+        "en": "The screen shows the name on the registration",
+        "es": "La pantalla muestra el nombre del titular"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "印度电信部 10 月 13 日发出指令，要求自 11 月 1 日起在 4G 及更新一代移动网络默认启用来电姓名显示（CNAP），Jio、Airtel、Vodafone Idea 与国有运营商 BSNL 都在适用范围内。用户在通讯录里存过的号码仍显示自己存的名字；没存过的，显示该号码在运营商登记时留下的姓名。国际来话只标「国际呼叫」，开通了主叫身份限制（CLIR）的用户不会显示姓名。",
+        "en": "The department issued the directive on 13 October, requiring calling name presentation (CNAP) by default on 4G and newer networks from 1 November, covering Jio, Airtel, Vodafone Idea and state-run BSNL. Numbers already saved in a contact list keep the saved label; unsaved domestic numbers show the name on the operator's record. Incoming international calls are marked as such, and subscribers who use caller identity restriction are not shown.",
+        "es": "El departamento emitió la orden el 13 de octubre: presentación del nombre por defecto en 4G y redes posteriores desde el 1 de noviembre, con Jio, Airtel, Vodafone Idea y la estatal BSNL en el alcance. Los números guardados en la agenda mantienen su etiqueta; los nacionales no guardados muestran el nombre del registro del operador. Las llamadas internacionales se marcan como tales y quien usa restricción de identidad no aparece."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "机制上，每家运营商都要建立并维护号码与姓名的对应库，来话到达被叫网络时由被叫侧向主叫的运营商查询姓名并在通话建立时显示，通话结束后不留存。这意味着 SIM 实名登记的数据质量第一次直接决定通话能否被正确标注：登记在亲属名下、用旧证件办的号码，会以登记人的姓名出现在对端屏幕上。企业号码可改为显示商标或注册名称，但需要向运营商提交商标注册或 GST 凭证核验。",
+        "en": "In practice each operator must build and maintain a number-to-name database; when a call arrives, the receiving network queries the caller's operator and shows the name as the call is set up, keeping nothing after it ends. That makes the quality of SIM registration data directly visible: a line registered to a relative or under an old document now appears under that person's name. Business lines may show a trademark or registered name, subject to submitting trademark or GST proof for verification.",
+        "es": "En la práctica cada operador debe crear y mantener una base número-nombre; al llegar una llamada, la red receptora consulta al operador del llamante y muestra el nombre durante el establecimiento, sin conservarlo después. La calidad del registro de la SIM pasa a ser visible: una línea a nombre de un familiar o con un documento antiguo aparece con ese nombre. Las líneas de empresa pueden mostrar marca o razón social, previa verificación de marca o GST."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "覆盖范围目前只到 4G 与 5G，2G、3G 与固网是否跟进另行考虑。",
+          "en": "Scope currently stops at 4G and 5G; 2G, 3G and fixed networks are a separate decision.",
+          "es": "El alcance llega a 4G y 5G; 2G, 3G y red fija quedan para una decisión aparte."
+        },
+        {
+          "zh": "TRAI 在 2024 年 2 月提出建议，2025 年 10 月与电信部商定改为默认开启，此前的 4G/5G 试验已完成。",
+          "en": "TRAI recommended it in February 2024 and agreed with the department in October 2025 to make it default rather than on request, after trials on 4G and 5G.",
+          "es": "TRAI lo recomendó en febrero de 2024 y acordó con el departamento en octubre de 2025 hacerlo por defecto en vez de a petición, tras pruebas en 4G y 5G."
+        },
+        {
+          "zh": "对运营商的实际负担在跨网查询与数据库准确性，公告未给出准确率要求或处罚条款。",
+          "en": "The operational load lands on cross-network queries and database accuracy; no accuracy target or penalty was published.",
+          "es": "La carga real está en las consultas entre redes y la exactitud de la base; no se publicaron metas de precisión ni sanciones."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "改变的是 SIM 实名数据的使用位置：它原本留在运营商的登记系统里供监管核查，现在每一通电话建立时都要被查询一次并显示给对端。做实名登记、渠道开卡与号码数据治理的供应商，会面对运营商集中清理错名、旧证件与代登记号码的需求；为代理商批量开卡的模式，会被来电显示直接暴露出来。",
+    "en": "What changes is where SIM registration data is used: it used to sit in the operator's records for regulatory checks and now gets queried and shown on every call setup. Suppliers working on registration, retail activation and number-data quality face operator clean-up of wrong, outdated and proxy-registered lines; bulk activation through agents becomes visible on the screen.",
+    "es": "Cambia dónde se usa el dato del registro: antes quedaba en los sistemas del operador para controles regulatorios y ahora se consulta y se muestra en cada llamada. Los proveedores de registro, alta en canal y calidad de datos de numeración afrontan una limpieza de líneas con nombre erróneo, documento antiguo o registro por tercero; el alta masiva vía agentes queda a la vista."
+  },
+  "confidence": 0.55,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11"
+  }
+}

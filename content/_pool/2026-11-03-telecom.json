@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-03",
+  "industry": "telecom",
+  "startedAt": "2026-11-03T02:55:00+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "FCC gives OK for Amazon Leo's acquisition of Globalstar",
+      "url": "https://www.fierce-network.com/wireless/fcc-gives-ok-amazon-leos-acquisition-globalstar",
+      "reason": "范围门：标的是卫星移动频谱与星座资产的并购审批，不是 SIM/载体/鉴权机制；动作门：并购不等于授标、联合部署或跨国落地。"
+    },
+    {
+      "title": "European telcos consider joint bid for satellite spectrum",
+      "url": "https://www.toutiao.com/w/1880739567983616",
+      "reason": "范围门：争的是 2GHz MSS 频谱评选，属频谱分配，AGENTS 明确不收。"
+    },
+    {
+      "title": "SpaceX in talks to buy Boost Mobile, network assets",
+      "url": "https://www.mobileworldlive.com/starlink/spacex-in-talks-to-buy-boost-mobile-network-assets/",
+      "reason": "范围门：MVNO 与网络资产的收购传闻，改变的是市场入口与频谱归属，不涉及 SIM 载体、RSP 或鉴权方式；且交易未官宣。"
+    },
+    {
+      "title": "Brazil mandates SIM registration with face biometrics, Level 2 PAD",
+      "url": "https://www.biometricupdate.com/202610/brazil-mandates-sim-registration-with-face-biometrics-level-2-pad",
+      "reason": "已由 2026-10-30-telecom-04 处理（巴西与南非同周推刷脸实名），同一事件不重复收录。"
+    },
+    {
+      "title": "11 月 1 日起巴西手机号分阶段强制生物识别（预付费 2027-09-30 等时间表）",
+      "url": "https://m.10jqka.com.cn/20261101/c681325719.shtml",
+      "reason": "与已发 2026-10-30-telecom-04 属同一 Anatel 决定，本条只是补充实施时间表，不构成新事件。"
+    },
+    {
+      "title": "Rogers expands global satellite-to-mobile roaming coverage",
+      "url": "https://www.telecompaper.com/news/rogers-expands-global-satellite-to-mobile-roaming-coverage--1587431",
+      "reason": "已由 2026-10-31-telecom-01 处理（Rogers 把 D2D 漫游扩到澳新日）。"
+    },
+    {
+      "title": "Space42, Viasat and Terrestar sign deal on satellite connectivity",
+      "url": "https://www.mobileeurope.co.uk/space42-viasat-terrestar/",
+      "reason": "已由 2026-11-01-telecom-01 处理。"
+    },
+    {
+      "title": "FCC seeks feedback on carrier warnings about running D2D in 5G bands",
+      "url": "https://www.lightreading.com/satellite/fcc-seeks-feedback-on-carrier-warnings-about-running-d2d-in-5g-bands",
+      "reason": "与已发 2026-10-30-telecom-06（FCC 卫星直连规则提案）同属一轮程序，非新机制。"
+    },
+    {
+      "title": "Albania's AKEP authorises One Albania to test D2D with Starlink for 120 days",
+      "url": "http://sot.com.al/english/kartat-sim-me-vlefshmeri-12-muaj-dhe-rimbursim-te-kreditit-te-paperdorur-akep-miraton-rregullat-e-reja-per-telefonine-celulare-i5191178",
+      "reason": "时效门：AKEP 董事会 10 月 29 日决定，距落盘已超 72 小时；内容本身过两道门，次日如仍无更新则彻底放弃。"
+    },
+    {
+      "title": "KT calls time on 3G sign-ups",
+      "url": "https://www.mobileworldlive.com/operators/kt-calls-time-on-3g-sign-ups/",
+      "reason": "范围门：3G 停止新入网属网络制式退网与核心网侧安排，不改 SIM 载体形态，也不改鉴权机制。"
+    },
+    {
+      "title": "Vietnam fines up to VND 50 million for buying and selling registered SIM cards",
+      "url": "https://news.qq.com/rain/a/20261101A047BU00",
+      "reason": "时效门：所依据的 174/2026/NĐ-CP 法令 7 月 1 日已生效，本条为普法回顾，窗口内没有新的处置或规则动作。"
+    },
+    {
+      "title": "India's small businesses fear higher costs under SIM-binding rule",
+      "url": "https://www.indiatoday.in/amp/business/story/india-sim-binding-rule-small-business-costs-disruption-3028427-2026-10-30",
+      "reason": "时效门：10 月 30 日发布，超出 72 小时；且内容是第三方研究报告，不是规则或部署动作。"
+    },
+    {
+      "title": "BBVA expands its offering in Italy with an eSIM service, powered by Gigs",
+      "url": "https://gigs.com/press/bbva-expands-its-offering-in-italy-with-an-esim-service-powered-by-gigs",
+      "reason": "时效门：新闻稿发布于 10 月 29 日，超出 72 小时；内容上过范围门（银行 App 成为 eSIM 零售入口），可留待后续同类事件复用角度。"
+    },
+    {
+      "title": "AST SpaceMobile targets initial intermittent D2D coverage in five markets by end-2026",
+      "url": "https://www.toutiao.com/w/1880739709474816",
+      "reason": "来源为社交平台二手转述，未见公司公告原文；且内容为覆盖计划表态，未落在具体市场的落地动作上。"
+    },
+    {
+      "title": "China Mobile shows satellite and 6G exhibits at Wuzhen Internet Light expo",
+      "url": "https://politics.gmw.cn/2026-11/02/content_39081969.htm",
+      "reason": "范围门/动作门：展会展示与 6G 表态，AGENTS 明确不收。"
+    },
+    {
+      "title": "HKT pulls out of US under FCC pressure – report",
+      "url": "https://www.lightreading.com/regulatory-politics/hkt-pulls-out-of-us-under-fcc-pressure--report",
+      "reason": "范围门：市场退出与监管压力，不涉及 SIM 载体、RSP 或鉴权方式。"
+    },
+    {
+      "title": "T-Mobile rolls out 5-Gig fiber, with 10-year price lock",
+      "url": "https://www.lightreading.com/broadband/t-mobile-rolls-out-5-gig-fiber-with-10-year-price-lock",
+      "reason": "范围门：固网宽带产品与资费，属资费促销类，明确不收。"
+    },
+    {
+      "title": "Ericsson prepares ISAC platform for mobile operators",
+      "url": "https://www.mobileworldlive.com/ericsson/ericsson-bows-isac-platform-for-mobile-operators/",
+      "reason": "范围门：网络感知（ISAC）能力，落在核心网与无线侧功能，非凭证链路。"
+    },
+    {
+      "title": "Digicel, Vodafone activate shared tower in Papua New Guinea",
+      "url": "https://www.telecomreviewasia.com/news/service-news/30660-digicel-vodafone-activate-first-shared-tower-in-papua-new-guinea/",
+      "reason": "范围门：铁塔共享，属基站基础设施。"
+    },
+    {
+      "title": "Finnair jets to SES, Eutelsat in-flight deal",
+      "url": "https://www.mobileworldlive.com/industry/finnair-jets-to-ses-eutelsat-in-flight-deal/",
+      "reason": "范围门：机上互联带宽采购，不涉及 SIM、profile 或鉴权。"
+    },
+    {
+      "title": "GSMA re-elects Vittal as chair until end-2028",
+      "url": "https://www.mobileworldlive.com/vodafone/gsma-re-elects-vittal-as-chair-until-end-2028/",
+      "reason": "人事变动，两道门均不过。"
+    }
+  ],
+  "stats": {
+    "candidates": 441,
+    "written": 4,
+    "skippedByDedup": 5
+  },
+  "finishedAt": "2026-11-02T18:55:22.884Z"
+}

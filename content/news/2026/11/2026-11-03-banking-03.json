@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-03-banking-03",
+  "slug": "tenpay-global-mastercard-cross-border-qr-mou",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-03T04:17:02+08:00",
+  "ingestedAt": "2026-11-03T02:32:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Fintech News Hong Kong",
+      "url": "https://fintechnews.hk/41710/payments/tenpay-global-mastercard-partnership-mou/",
+      "lang": "en",
+      "publishedAt": "2026-11-02T16:58:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "腾讯 TenPay Global 与 Mastercard 签备忘录，要让境外钱包扫大陆的码",
+    "en": "TenPay Global and Mastercard sign MoU to put overseas wallets on mainland QR codes",
+    "es": "TenPay Global y Mastercard firman un MoU para llevar monederos extranjeros a los QR de China"
+  },
+  "summary": {
+    "zh": "两家公司在香港金融科技周签下备忘录，方向是让境外用户用自己熟悉的钱包与银行 App，在中国大陆支持二维码的商户直接付款，并把代理式支付列入探索范围。",
+    "en": "The two signed a memorandum during Hong Kong Fintech Week to let overseas users pay at QR-enabled merchants in mainland China through their own wallets and banking apps, with agentic payments also on the exploration list.",
+    "es": "Ambas firmaron un memorando en la Hong Kong Fintech Week para que usuarios extranjeros paguen en comercios con QR de China continental con sus propios monederos y apps bancarias, con los pagos agénticos también en la lista de exploración."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "腾讯旗下的跨境支付平台 TenPay Global 与 Mastercard 在香港金融科技周期间签了一份谅解备忘录，要解决的是境外来客在中国大陆扫码付款这一步。按公告的设想，国际用户可以用自己熟悉的数字钱包或发卡行的 App，在支持二维码的大陆商户完成支付；对商户一侧，这意味着能接住更多境外客人。需要说明的是，签的是备忘录，不是上线时间表，公告用词是「可以」「意图探索」。",
+        "en": "TenPay Global, Tencent's cross-border payments arm, and Mastercard signed a memorandum of understanding during Hong Kong Fintech Week aimed at the step where overseas visitors scan to pay in mainland China. As described, international users would pay at QR-enabled mainland merchants through a familiar digital wallet or their issuer's app, which on the merchant side means serving more foreign customers. It is worth being precise: this is a memorandum, not a launch schedule, and the announcement's own wording is that the tie-up could provide these options and intends to explore them.",
+        "es": "TenPay Global, la división de pagos transfronterizos de Tencent, y Mastercard firmaron un memorando de entendimiento durante la Hong Kong Fintech Week centrado en el paso en que el visitante extranjero escanea para pagar en China continental. Según lo descrito, los usuarios internacionales pagarían en comercios con QR mediante un monedero conocido o la app de su emisor, lo que del lado del comercio significa atender a más clientes extranjeros. Conviene precisar: es un memorando, no un calendario de lanzamiento, y el propio anuncio dice que la alianza podría ofrecer estas opciones y se propone explorarlas."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "分工落在哪几段",
+        "en": "Where the work would sit",
+        "es": "Dónde se situaría el trabajo"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "双方称会把支付处理、风险管理、反欺诈与货币兑换的能力合到一起，也就是受理链路上的授权、风控与换汇三段",
+          "en": "The pair say they will combine payment processing, risk management, fraud prevention and currency conversion, which maps to authorisation, risk and FX on the acceptance chain",
+          "es": "Ambas partes dicen que combinarán procesamiento de pagos, gestión de riesgo, prevención de fraude y conversión de divisas, lo que corresponde a autorización, riesgo y FX en la cadena de aceptación"
+        },
+        {
+          "zh": "技术底座是 Mastercard 在中国大陆已有的支付便利化安排，以及把钱包与卡支付打通的 Mastercard Wallet Pay",
+          "en": "The technical base is Mastercard's existing payment facilitation work in the mainland plus Mastercard Wallet Pay, its set of tools for linking wallets and card payments",
+          "es": "La base técnica es la labor de facilitación de pagos que Mastercard ya hace en China continental y Mastercard Wallet Pay, su conjunto de herramientas para enlazar monederos y pagos con tarjeta"
+        },
+        {
+          "zh": "扩面要靠拉人：数字钱包提供商、金融机构与支付服务商都被写进要共同拓展的名单",
+          "en": "Scale depends on recruiting others: wallet providers, financial institutions and payment service providers are all named as parties to bring into cross-border QR acceptance",
+          "es": "La escala depende de sumar terceros: proveedores de monederos, instituciones financieras y proveedores de servicios de pago aparecen como partes a incorporar a la aceptación QR transfronteriza"
+        },
+        {
+          "zh": "另一条在探索范围内的是让更多海外汇款人把钱转进微信生态，这一步走的是汇款而非消费受理",
+          "en": "Also under exploration is giving more overseas senders a way to move money into the Weixin ecosystem, which is remittance rather than consumer acceptance",
+          "es": "También se explora facilitar que más emisores extranjeros envíen dinero al ecosistema Weixin, lo que es remesas y no aceptación de consumo"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公告没有给时间表、试点商户范围、参与的钱包名单，也没有说明境外钱包在扫码时是走卡组织的令牌还是走腾讯侧的账户体系。这三点决定了集成商要改的是收单端的受理标识与对账，还是钱包端的绑卡与身份核验，工作量差别很大。目前能确定的是双方把这件事放到了机构级协议的层面，而不是单点测试。",
+        "en": "The announcement gives no timeline, no pilot merchant scope and no list of participating wallets, nor does it say whether an overseas wallet scanning a code would ride a scheme token or Tencent's own account system. Those three points decide whether integrators are reworking acceptance identifiers and reconciliation on the merchant side, or card binding and identity checks on the wallet side, and the workload differs sharply. What is settled is that both parties have put this at the level of an institutional agreement rather than a one-off test.",
+        "es": "El anuncio no da calendario, alcance de comercios piloto ni lista de monederos participantes, ni aclara si un monedero extranjero que escanea un código usaría un token del esquema o el sistema de cuentas de Tencent. Esos tres puntos deciden si los integradores rehacen identificadores de aceptación y conciliación del lado del comercio, o vinculación de tarjeta y verificación de identidad del lado del monedero, y la carga difiere mucho. Lo que sí está fijado es que ambas partes lo sitúan como acuerdo institucional y no como prueba puntual."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "如果落地，变的是境外钱包在大陆 QR 商户的受理路径——授权、风控与换汇跑在谁的通道上。对做收单受理改造的集成商，这会牵动商户端的受理标识、路由与对账；对做钱包与令牌化的，牵动绑卡与身份核验。现在只是备忘录，最该跟的不是新闻，而是首个试点商户范围与参与钱包名单：没有这两项，改造预算无从估。",
+    "en": "If it lands, what changes is the acceptance path for overseas wallets at mainland QR merchants, and whose rails carry authorisation, risk and FX. For integrators reworking acceptance, that touches merchant identifiers, routing and reconciliation; for wallet and tokenisation work, it touches card binding and identity checks. For now it is only a memorandum, so the thing to track is not the headline but the first pilot merchant scope and the list of participating wallets. Without those two, no integration budget can be sized.",
+    "es": "Si se concreta, cambia la ruta de aceptación de monederos extranjeros en comercios QR de China continental, y por qué rieles corren autorización, riesgo y FX. Para los integradores de aceptación, toca identificadores de comercio, enrutamiento y conciliación; para el trabajo de monederos y tokenización, vinculación de tarjeta y verificación de identidad. Por ahora es solo un memorando: lo que hay que seguir no es el titular sino el primer alcance de comercios piloto y la lista de monederos participantes. Sin esos dos datos no se puede dimensionar ningún presupuesto de integración."
+  },
+  "confidence": 0.66,
+  "ai": {
+    "model": "claude-sonnet-4.5",
+    "promptVersion": "digest-v4-body"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": "2026-11-03-identity-01",
+  "slug": "philippines-offline-ekyc-code-philsys",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "verification",
+    "biometrics"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-03T04:17:02+08:00",
+  "ingestedAt": "2026-11-03T03:10:21+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/philippines-expands-national-id-ecosystem-with-offline-kyc-platform",
+      "lang": "en",
+      "publishedAt": "2026-11-02T12:18:00-05:00"
+    },
+    {
+      "name": "Ateneo de Manila University",
+      "url": "https://www.ateneo.edu/news/2026/10/psa-run-ateneo-built-national-id-verification-local-governments-ngos",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "菲律宾给国证件核验加了一层离线码：先在线认证，断网处凭码受理",
+    "en": "Philippines adds an offline code to national ID checks: authenticate once, accept the code without a network",
+    "es": "Filipinas añade un código sin conexión a la verificación del documento nacional"
+  },
+  "summary": {
+    "zh": "菲律宾统计局将运营一套离线核验平台，公民先在 NIDAS 完成生物特征认证，取得一串加密且带有效期的码，之后可在没有网络的受理点出示。",
+    "en": "The Philippine Statistics Authority will run an offline verification platform: citizens authenticate against NIDAS once, receive an encrypted, time-limited code, and present it later at offices with no connectivity.",
+    "es": "La oficina estadística de Filipinas operará una plataforma de verificación sin conexión: el ciudadano se autentica una vez contra NIDAS, recibe un código cifrado y con vigencia limitada, y lo presenta después en oficinas sin red."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "为断网地区补的一段",
+        "en": "A stopgap for places without a network",
+        "es": "Un puente para donde no hay red"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这套东西叫 eKYC Extension Platform（eKYC 扩展平台），由马尼拉雅典耀大学的 Business Insights Laboratory for Development 与 Technical Resource Lab 开发，交给菲律宾统计局（PSA）托管并运营，服务对象是地方政府与 NGO。",
+        "en": "The eKYC Extension Platform was built by Ateneo de Manila University's Business Insights Laboratory for Development and its Technical Resource Lab. The Philippine Statistics Authority (PSA) will host and operate it for local government units and NGOs.",
+        "es": "La eKYC Extension Platform fue desarrollada por el Business Insights Laboratory for Development y el Technical Resource Lab de la Universidad Ateneo de Manila. La autoridad estadística (PSA) la alojará y operará para gobiernos locales y ONG."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "用法是把核验拆成两段：先在 NIDAS（国家证件认证系统）上完成生物特征比对，认证成功后系统发出一串加密、带有效期的验证码；受理点在没有网络的情况下核对这串码，即确认「此前有过一次针对同一份未改动证件的成功认证」。",
+        "en": "Verification is split in two. First the citizen authenticates against NIDAS, the national ID authentication system, with a biometric check. If that succeeds, the system issues an encrypted, time-limited code. An office with no connection can later check that code and treat it as proof that a successful authentication happened, against the same unaltered ID.",
+        "es": "La verificación se parte en dos. Primero el ciudadano se autentica con biometría contra NIDAS, el sistema nacional de autenticación de identidad. Si sale bien, el sistema emite un código cifrado y con vigencia limitada. Una oficina sin conexión puede luego comprobar ese código y tomarlo como prueba de que hubo una autenticación correcta sobre el mismo documento sin alterar."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "它不替代实体卡",
+        "en": "It is not a replacement card",
+        "es": "No sustituye la tarjeta"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "这串码不等于 PhilID 实体卡，也不等于 eGovPH 里的数字国证件，受理方仍要按原有规则留存记录。",
+          "en": "The code is neither the physical PhilID card nor the digital national ID inside the eGovPH app; offices still keep records under existing rules.",
+          "es": "El código no es la tarjeta física PhilID ni el documento digital de la app eGovPH; las oficinas siguen obligadas a registrar conforme a las reglas vigentes."
+        },
+        {
+          "zh": "由 PSA 集中托管后，小机构不必各自走一遍与国家认证系统直连的审批；雅典耀称直连涉及近一年的审批、安全评估与合同流程。",
+          "en": "Because the PSA hosts the service centrally, small organisations skip the approvals needed for a direct integration; Ateneo says a direct link took nearly a year of approvals, security assessments and contracting.",
+          "es": "Al alojar el servicio de forma central, las organizaciones pequeñas evitan las aprobaciones de una integración directa; Ateneo señala que el enlace directo exigió casi un año de aprobaciones, evaluaciones de seguridad y contratos."
+        },
+        {
+          "zh": "项目由 Co-Develop 出资，属数字公共基础设施支持的一部分。PSA 于今年 1 月提出采用，双方计划年底前把日常运营移交 PSA。",
+          "en": "Co-Develop funds the project as part of its digital public infrastructure support. The PSA proposed adopting the platform in January 2026, and the two sides plan to hand day-to-day management to the agency by the end of the year.",
+          "es": "Co-Develop financia el proyecto dentro de su apoyo a la infraestructura pública digital. La PSA propuso adoptar la plataforma en enero de 2026 y ambas partes prevén transferirle la gestión diaria antes de fin de año."
+        }
+      ]
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "还没说清的部分",
+        "en": "What is still open",
+        "es": "Lo que queda abierto"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "报道没有给出码的有效期天数、撤销机制，也没有说明持证人状态变化后已发出的码如何处理。这些细节决定一线窗口能不能拿它替代现场联网核验。",
+        "en": "Neither account gives the code's validity period or a revocation mechanism, and neither says what happens to issued codes when a holder's status changes. Those details decide whether a frontline counter can use the code instead of a live check.",
+        "es": "Ninguna de las dos fuentes indica cuánto dura el código ni cómo se revoca, ni qué ocurre con los códigos ya emitidos si cambia la situación del titular. Esos detalles deciden si una ventanilla puede usarlo en lugar de una comprobación en línea."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变的是核验环节的接入门槛。以前要接国家证件认证，机构得自己完成直连审批与安全评估，断网地区根本无法做实时比对；现在认证与受理被拆开，前台只要能核对一串码。做受理端软件的集成商，离线校验、有效期管理与撤销同步会变成新的功能项；地方政府则可以用现有窗口先跑起来。要盯的是责任划分——码证明的是「认证曾经成功」，不是此刻的身份确认，哪些业务可以只凭码办理，得由机构自己划线。",
+    "en": "The change lands on who can plug into verification. A direct tie-in to the national ID authentication system used to mean a year of approvals and security assessments, so places without connectivity simply could not check in real time. Splitting authentication from acceptance lowers that to checking a code. For integrators selling acceptance-side software, offline validation, expiry handling and revocation sync become new line items; for local governments, existing counters can go live first. Watch the liability line: a code attests that authentication succeeded earlier, not who is standing there now, and each agency has to decide which services may rely on the code alone.",
+    "es": "El cambio toca quién puede conectarse a la verificación. Un enlace directo con el sistema nacional de autenticación exigía casi un año de aprobaciones y evaluaciones de seguridad, así que donde no hay red no había comprobación en tiempo real. Separar autenticación de aceptación lo reduce a comprobar un código. Para los integradores de software de aceptación, la validación sin conexión, la gestión de vigencia y la sincronización de revocaciones pasan a ser partidas nuevas; para los gobiernos locales, las ventanillas existentes pueden arrancar antes. La línea a vigilar es la de responsabilidad: el código prueba una autenticación previa, no quién está delante ahora."
+  },
+  "confidence": 0.82,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-03-telecom-03",
+  "slug": "china-mobile-supersim-agent-identity-taas",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "sim-registration"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-03T04:17:02+08:00",
+  "ingestedAt": "2026-11-03T02:55:00+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "站长之家",
+      "url": "https://www.chinaz.com/2026/1102/1785661.shtml",
+      "lang": "zh",
+      "publishedAt": "2026-11-02T00:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "中国移动把超级 SIM 当智能体的身份凭证：密钥留在卡里签名",
+    "en": "China Mobile pitches its Super SIM as the credential for AI agents",
+    "es": "China Mobile propone su Super SIM como credencial para agentes de IA"
+  },
+  "summary": {
+    "zh": "中国移动以超级 SIM 卡为硬件载体、手机号实名体系为基础，配套 TaaS 平台做智能体的身份绑定与授权核验，目前在企业协同、可信通信等场景做落地验证。",
+    "en": "China Mobile is pairing its Super SIM with a trust platform called TaaS so AI agents can be bound to a verified subscriber identity, with signing keys kept inside the card. Pilots are under way in enterprise collaboration and trusted communications.",
+    "es": "China Mobile combina su Super SIM con la plataforma TaaS para vincular agentes de IA a una identidad de abonado verificada, con las claves de firma dentro de la tarjeta. Hay pilotos en colaboración empresarial y comunicaciones de confianza."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "问题不是智能体能不能干活，而是谁在替它担保",
+        "en": "The question is who vouches for the agent",
+        "es": "La cuestión es quién responde por el agente"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "中国移动给出的方案，是把智能体的身份挂到手机号的实名体系上。超级 SIM 卡在卡内保存身份认证所需的密钥，签名也在卡内完成，密钥不出卡；上层由 TaaS（Trustworthiness as a Service）平台管理身份申领、绑定、授权与注销，把「哪个智能体、代表谁、能做什么」记录成可核验的关系，再接到访问控制里。",
+        "en": "China Mobile's approach ties an agent's identity to the real-name system behind a mobile number. The Super SIM stores authentication keys inside the card and performs signing there, so keys do not leave it. A platform called TaaS handles enrolment, binding, authorisation and revocation, recording which agent acts for whom and with what scope, then feeds that into access control.",
+        "es": "China Mobile ata la identidad del agente al registro real del número móvil. La Super SIM guarda las claves dentro de la tarjeta y firma allí, sin sacarlas. La plataforma TaaS gestiona alta, vinculación, autorización y revocación, registra qué agente actúa por quién y con qué alcance, y lo conecta al control de accesos."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "按中国移动的说法，这套东西目前在企业协同、可信通信、智能体互联网等场景做落地验证，尚未公布商用时间表、参与企业名单与收费标准。可以确认的是产品定位：SIM 从「证明这台设备能上网」变成「证明这个代理者被谁授权」，与它此前把 eSIM 称作智能体通信身份证的说法是同一条线。",
+        "en": "China Mobile describes the work as validation in enterprise collaboration, trusted communications and agent-to-agent settings, without a commercial timetable, named customers or pricing. What is clear is the positioning: the SIM moves from proving a device may use the network to proving who authorised an acting agent, in line with its earlier description of eSIM as an identity document for agents.",
+        "es": "China Mobile describe la iniciativa como validación en colaboración empresarial, comunicaciones de confianza y entornos entre agentes, sin calendario comercial, clientes nombrados ni precios. Lo claro es el posicionamiento: la SIM pasa de probar que un equipo puede usar la red a probar quién autorizó al agente, en línea con su idea previa de la eSIM como documento de identidad de los agentes."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "改变的是 SIM 在鉴权里承担的角色：过去它向网络证明「这张卡属于某个用户」，现在被用来向业务系统证明「这个智能体代表某个用户、权限到哪里」。做 SIM 卡、卡内小程序与身份平台的供应商，会多出一类客户——不是运营商网络部门，而是企业 IT 与智能体平台方；能否把密钥留在卡内、把授权关系做成可撤销，是这个场景的门槛。",
+    "en": "The SIM's role in authentication is what shifts: it used to tell the network which subscriber a card belongs to, and is now used to tell business systems which user an agent acts for and how far its rights reach. Suppliers of SIM cards, on-card applets and identity platforms gain a customer beyond the operator's network team: enterprise IT and agent platforms. Keeping keys on the card and making authorisation revocable is the bar.",
+    "es": "Cambia el papel de la SIM en la autenticación: antes decía a la red a qué abonado pertenece la tarjeta; ahora dice a los sistemas de negocio qué usuario representa un agente y hasta dónde llegan sus permisos. Los proveedores de tarjetas, applets e identidad ganan un cliente más allá de la red: el IT empresarial y las plataformas de agentes. Retener las claves en la tarjeta y poder revocar la autorización marca la diferencia."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11"
+  }
+}

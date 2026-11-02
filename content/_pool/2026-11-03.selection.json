@@ -1,0 +1,165 @@
+{
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-02T20:16:02.161Z",
+  "selected": [
+    {
+      "industry": "identity",
+      "slug": "armenia-haypass-data-centre-eidas-assessment",
+      "score": 0.8,
+      "reason": "region-floor",
+      "region": "cis",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "industry": "identity",
+      "slug": "turkiye-egovernment-age-token-platforms",
+      "score": 0.6,
+      "reason": "region-floor",
+      "region": "mena",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "industry": "identity",
+      "slug": "moldova-suspends-evo-digital-id-polling-stations",
+      "score": 0.8,
+      "reason": "region-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "industry": "telecom",
+      "slug": "att-smart-meter-global-sim-advanced",
+      "score": 0.82,
+      "reason": "region-floor",
+      "region": "north-america",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "industry": "identity",
+      "slug": "wa-police-live-facial-recognition-trial-ends",
+      "score": 0.86,
+      "reason": "region-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "industry": "banking",
+      "slug": "thunes-unionpay-china-card-payout-limit",
+      "score": 0.82,
+      "reason": "industry-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "industry": "banking",
+      "slug": "dcs-decard-hong-kong-mastercard-corporate-cards",
+      "score": 0.8,
+      "reason": "industry-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "industry": "banking",
+      "slug": "tenpay-global-mastercard-cross-border-qr-mou",
+      "score": 0.66,
+      "reason": "industry-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "industry": "telecom",
+      "slug": "china-unicom-esim-online-application-draw",
+      "score": 0.72,
+      "reason": "industry-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "industry": "telecom",
+      "slug": "china-mobile-supersim-agent-identity-taas",
+      "score": 0.6,
+      "reason": "industry-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "industry": "identity",
+      "slug": "philippines-offline-ekyc-code-philsys",
+      "score": 0.82,
+      "reason": "fill",
+      "region": "apac",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "industry": "telecom",
+      "slug": "india-cnap-mandatory-november",
+      "score": 0.55,
+      "reason": "fill",
+      "region": "apac",
+      "sourceDate": "2026-11-03"
+    }
+  ],
+  "alternates": [
+    {
+      "industry": "identity",
+      "slug": "innovatrics-cen-ts-18099-high-injection-attack",
+      "score": 0.78,
+      "reason": "fill"
+    },
+    {
+      "industry": "identity",
+      "slug": "utah-enforces-age-verification-sb73",
+      "score": 0.75,
+      "reason": "fill"
+    }
+  ],
+  "expired": [],
+  "gaps": [
+    {
+      "region": "latam",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "africa",
+      "note": "池内 0 条"
+    }
+  ],
+  "unaccounted": [
+    {
+      "title": "IDEMIA and JazzCash bring premiumization and personalization to payment cards in Pakistan",
+      "url": "https://www.idemia.com/news/idemia-and-jazzcash-bring-premiumization-and-personalization-payment-cards-pakistan-2026-10-07",
+      "confidence": 0.75
+    },
+    {
+      "title": "Goodix launches integrated fingerprint and security solution to secure on-device identity authentication in IoT and AI devices",
+      "url": "https://iot-now.com/2026/10/20/158944-goodix-integrated-fingerprint-security-on-device-identity-authentication-iot-ai/",
+      "confidence": 0.6
+    },
+    {
+      "title": "SEALSQ unveils VaultIC409, a quantum-ready secure element designed for the next generation of connected devices",
+      "url": "https://iot-now.com/2026/10/13/158784-sealsq-vaultic409-quantum-ready-secure-element-connected-devices/",
+      "confidence": 0.6
+    },
+    {
+      "title": "US CBP Officers Will No Longer Routinely Stamp Passports",
+      "url": "https://platform.keesingtechnologies.com/us-cbp-officers-will-no-longer-routinely-stamp-passports/",
+      "confidence": 0.65
+    },
+    {
+      "title": "Trusted Connectivity Alliance Updates eSIM Specification to Enhance Secure Remote SIM Provisioning For 5G and Constrained IoT Devices",
+      "url": "https://trustedconnectivityalliance.org/trusted-connectivity-alliance-updates-esim-specification-to-enhance-secure-remote-sim-provisioning-for-5g-and-constrained-iot-devices/",
+      "confidence": 0.8
+    },
+    {
+      "title": "Telefonica, Minsait deliver digital euro set-up",
+      "url": "https://www.mobileworldlive.com/industry/telefonica-minsait-deliver-digital-euro-set-up/",
+      "confidence": 0.65
+    },
+    {
+      "title": "Especialistas veem norma de biometria facial da Anatel como positiva, mas alertam para risco de exclusão",
+      "url": "https://www.mobiletime.com.br/noticias/29/10/2026/biometria-facial-norma-d/",
+      "confidence": 0.7
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,111 @@
+{
+  "id": "2026-11-03-identity-02",
+  "slug": "wa-police-live-facial-recognition-trial-ends",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "biometrics",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-03T04:17:02+08:00",
+  "ingestedAt": "2026-11-03T03:10:21+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech Wire",
+      "url": "https://idtechwire.com/wa-police-face-recognition-trial-ends-after-1-38-million-scans-and-122-arrests/",
+      "lang": "en",
+      "publishedAt": "2026-11-02T00:00:00+08:00"
+    },
+    {
+      "name": "Government of Western Australia",
+      "url": "https://www.wa.gov.au/government/announcements/overt-live-facial-recognition-trial-update",
+      "lang": "en"
+    },
+    {
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/02/wa-police-facial-recognition-technology-trial",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "西澳警方人脸识别试点收尾：138 万次比对、122 人被捕，摄像头车先撤下",
+    "en": "Western Australia's live facial recognition trial closes at 1.38 million scans and 122 arrests",
+    "es": "El piloto de reconocimiento facial de Australia Occidental cierra con 1,38 millones de escaneos"
+  },
+  "summary": {
+    "zh": "西澳警方为期五个月的公开场所人脸识别试点于 10 月 31 日结束，共比对 138 万人次、拘捕 122 人，摄像头车暂停上路，等待内部评估结果。",
+    "en": "Western Australia Police ended a five-month live facial recognition trial on 31 October after 1.38 million face comparisons and 122 arrests, and has pulled the camera vans from deployment while it evaluates the results.",
+    "es": "La policía de Australia Occidental cerró el 31 de octubre un piloto de reconocimiento facial en espacios públicos tras 1,38 millones de comparaciones y 122 detenciones, y retiró las furgonetas con cámaras mientras evalúa los resultados."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "规模与产出",
+        "en": "Scale and output",
+        "es": "Escala y resultados"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "试点从 6 月 22 日跑到 10 月 31 日，在 43 个城乡地点做了 100 次部署，摄像头装在标识警车之上或附近，把划定公共区域内的人脸与警方数据库生成的预警名单比对。宣布的数字是 1,380,882 次人脸比对与 122 次拘捕，另有 146 次与登记在册的性犯罪者接触、10 次福利核查。",
+        "en": "Running from 22 June to 31 October, the trial covered 100 deployments in 43 metropolitan and regional locations. Cameras on or near marked police vehicles compared faces in designated public areas against an alert list drawn from police databases. Police report 1,380,882 face comparisons, 122 arrests, 146 engagements with registered sex offenders and 10 welfare checks.",
+        "es": "El piloto se extendió del 22 de junio al 31 de octubre, con 100 despliegues en 43 puntos metropolitanos y regionales. Las cámaras, en vehículos policiales rotulados o cerca de ellos, comparaban rostros en zonas públicas designadas contra una lista de alertas basada en bases policiales. La policía reporta 1.380.882 comparaciones, 122 detenciones, 146 contactos con agresores sexuales registrados y 10 controles de bienestar."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "其中珀斯皇家展的三次行动扫了 223,749 张脸，产生 15 条预警、3 次拘捕与 7 次与登记性犯罪者的接触。这类大型活动场景是单次密度最高的部分。",
+        "en": "Three operations at the Perth Royal Show accounted for 223,749 scanned faces, 15 alerts, three arrests and seven interactions with registered sex offenders, the densest single setting in the trial.",
+        "es": "Tres operativos en la feria Perth Royal Show sumaron 223.749 rostros escaneados, 15 alertas, tres detenciones y siete contactos con agresores sexuales registrados: el entorno más denso del piloto."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "误报怎么算",
+        "en": "How the error rate is counted",
+        "es": "Cómo se cuenta el error"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "警方说 138 万次比对中出现 9 次错误预警，对外表述为 0.00065% 的错误率；警察总长 Col Blanch 称每个被误标的人都由警员当面接触过，「没有人被逮捕，也没有人投诉」，并承认技术「不完美」。民权团体不接受这个算法：Civil Liberties Australia 的 Bill Rowlings 认为真实错误率要等 122 名被捕者的案件判决后才清楚，人权法律中心的 Sarah Schwartz 则指出每一次误配都对应一个可能被拦下、盘问或调查的人。",
+        "en": "Police report nine incorrect alerts across the 1.38 million comparisons, which they state as an error rate of 0.00065 percent. Commissioner Col Blanch said officers spoke to each person wrongly flagged, that no one was arrested and no one complained, and that the technology is \"not perfect\". Civil liberties groups reject the framing: Bill Rowlings of Civil Liberties Australia says the real rate will only be known once the 122 arrests are decided in court, and Sarah Schwartz of the Human Rights Law Centre says every false match is a person who may be stopped, questioned or investigated.",
+        "es": "La policía reporta nueve alertas incorrectas entre 1,38 millones de comparaciones, lo que presenta como una tasa de error de 0,00065%. El comisionado Col Blanch dijo que los agentes hablaron con cada persona mal señalada, que nadie fue detenido ni presentó queja, y que la tecnología \"no es perfecta\". Los grupos civiles rechazan esa lectura: Bill Rowlings, de Civil Liberties Australia, sostiene que la tasa real solo se sabrá cuando se resuelvan los casos de los 122 detenidos, y Sarah Schwartz, del Human Rights Law Centre, señala que cada falsa coincidencia es una persona que puede ser detenida, interrogada o investigada."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "数据处理与下一步",
+        "en": "Data handling and next step",
+        "es": "Datos y siguiente paso"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "警方称不在预警名单上的人，其图像被实时打码并立即删除、不做存储。评估正在看技术表现与社区影响，包括「各项保障措施是否都被满足」。",
+        "en": "Police say images of people not on the alert list were pixelated in real time and deleted immediately without being stored. The internal evaluation is looking at performance and community impact, including whether all safeguards were met.",
+        "es": "La policía afirma que las imágenes de quienes no estaban en la lista se pixelaban en tiempo real y se eliminaban de inmediato sin almacenarse. La evaluación interna revisa el desempeño y el impacto comunitario, incluido si se cumplieron todas las salvaguardas."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这次改变的是核验终端的采购前提。移动布控（装在警车上的摄像头）过去只有零散试验，现在有了一份包含部署次数、比对量、误报数与后续处置的公开账本——这类数字通常直接进下一轮招标的技术要求。做车载人脸比对、预警名单清洗与实时打码的供应商，要按「每百万次比对的误报数」而不是实验室准确率来回应质疑；同时要准备两种口径：警方按比对次数算错误率，民权团体按被拦下的人数算。评估结论若要求人审复核、限定时段与地点，集成方案就得把人工复核席位和审计日志一起打包。",
+    "en": "What changed is the procurement premise for verification terminals. Mobile deployment, with cameras on marked police vehicles, had only scattered trials behind it; it now has a public ledger of deployments, comparison volume, false alerts and follow-up actions, and such numbers tend to become technical requirements in the next tender. Vendors of in-vehicle face matching, alert-list hygiene and real-time pixelation should answer with false alerts per million comparisons rather than lab accuracy, and expect two ways of counting: police divide by comparisons, critics by people stopped. If the evaluation demands human review and limits on time and place, bids need review seats and audit logs.",
+    "es": "Lo que cambió es la premisa de compra de los terminales de verificación. El despliegue móvil con cámaras en vehículos policiales solo tenía pruebas dispersas; ahora hay un registro público de despliegues, comparaciones, alertas falsas y actuaciones posteriores, y cifras así suelen volverse requisitos técnicos de la próxima licitación. Los proveedores deberían responder con alertas falsas por millón de comparaciones, no con precisión de laboratorio, y preparar dos lecturas: la policía divide por comparaciones, los críticos por personas interceptadas. Si la evaluación exige revisión humana y límites de horario y lugar, las propuestas deberán incluir puestos de revisión y auditoría."
+  },
+  "confidence": 0.86,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

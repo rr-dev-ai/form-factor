@@ -1,0 +1,106 @@
+{
+  "id": "2026-11-03-identity-05",
+  "slug": "turkiye-egovernment-age-token-platforms",
+  "industry": "identity",
+  "region": "mena",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "verification",
+    "biometrics"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-03T04:17:02+08:00",
+  "ingestedAt": "2026-11-03T03:10:21+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Serdar Hocam",
+      "url": "https://serdarhocam.com/news/age-verification-era-begins-for-social-media-platforms-in-turkey",
+      "lang": "en",
+      "publishedAt": "2026-11-02T05:34:00+03:00"
+    }
+  ],
+  "title": {
+    "zh": "土耳其把年龄核验搬到 e-Government：平台只拿到一个年龄令牌",
+    "en": "Türkiye moves age checks into e-Government so platforms receive only an age token",
+    "es": "Turquía lleva la verificación de edad al e-Government y las plataformas solo reciben un token de edad"
+  },
+  "summary": {
+    "zh": "自 11 月 1 日起，土耳其的社媒平台须通过 e-Government 完成年龄核验：用户在平台拿到请求码，回到政府门户换取只含年龄状态的令牌，平台拿不到其他身份信息。",
+    "en": "From 1 November, social platforms serving Turkish users must verify age through e-Government: the user takes a request code from the platform to the government gateway and returns with a token that carries only age status.",
+    "es": "Desde el 1 de noviembre, las plataformas sociales que operan en Turquía deben verificar la edad vía e-Government: el usuario lleva un código de solicitud al portal estatal y vuelve con un token que solo indica el estado de edad."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "流程是反向的",
+        "en": "The flow runs backwards",
+        "es": "El flujo va al revés"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "不是把身份证上传给平台，而是平台生成一串一次性请求码，用户把这串码输进 e-Government 门户，政府系统回一个含年龄状态的签名令牌（JWT）。平台据此判断能不能开号，拿不到姓名、证件号或照片。",
+        "en": "Users do not upload an ID to the platform. The platform generates a one-time request code, the user enters it into the e-Government gateway, and the government system returns a signed token (a JWT) carrying age status. That is what the platform acts on; it never sees a name, document number or photo.",
+        "es": "El usuario no sube un documento a la plataforma. La plataforma genera un código de solicitud de un solo uso, el usuario lo introduce en el portal e-Government y el sistema estatal devuelve un token firmado (JWT) con el estado de edad. La plataforma actúa sobre eso y nunca ve nombre, número de documento ni foto."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "谁被挡住，谁有豁免",
+        "en": "Who is blocked, who is exempt",
+        "es": "A quién se bloquea y quién queda exento"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "不满 15 岁的开户请求被拒；15 至 18 岁给受限服务，消息只能来自已关注的账号，关注列表不可见。",
+          "en": "Account requests from under-15s are rejected; the 15 to 18 group gets restricted service, able to receive messages only from accounts they follow, with follower lists hidden.",
+          "es": "Se rechazan las solicitudes de menores de 15; el grupo de 15 a 18 recibe servicio restringido, con mensajes solo de cuentas que sigue y listas de seguidores ocultas."
+        },
+        {
+          "zh": "存量账号须在 2027 年 3 月 31 日前完成核验，逾期永久关闭。",
+          "en": "Existing accounts must complete verification by 31 March 2027 or be permanently closed.",
+          "es": "Las cuentas existentes deben verificar antes del 31 de marzo de 2027 o se cierran de forma permanente."
+        },
+        {
+          "zh": "游客用护照信息申请豁免令牌，也就是说外国旅行证件要进这套流程。",
+          "en": "Tourists obtain an exemption token using passport details, which puts foreign travel documents into the same flow.",
+          "es": "Los turistas obtienen un token de exención con datos de pasaporte, lo que introduce documentos de viaje extranjeros en el mismo flujo."
+        }
+      ]
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "规则出处与空白",
+        "en": "Where the rule comes from",
+        "es": "De dónde viene la regla"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "规定刊于 10 月 10 日官方公报刊登的法规，操作细节见网络安全局（Cyber Security Presidency）的指引，11 月 1 日起对土耳其 IP 访问的社媒生效。目前公开信息只有这一层转述，尚未见到政府发布的技术规范原文，令牌格式与密钥交换方式仍待确认。",
+        "en": "The rule was published in the Official Gazette on 10 October, with operational detail in a Cyber Security Presidency guide, and took effect for social platforms reached from Turkish IP addresses on 1 November. Public detail so far is second-hand; the government's technical specification has not surfaced, so token format and key exchange remain unconfirmed.",
+        "es": "La norma se publicó en el Boletín Oficial el 10 de octubre, con detalle operativo en una guía de la Presidencia de Ciberseguridad, y rige desde el 1 de noviembre para plataformas accesibles desde IP turcas. El detalle público es de segunda mano; no ha aparecido la especificación técnica oficial, así que el formato del token y el intercambio de claves siguen sin confirmar."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变的是核验的信任路径：平台不再自己判断年龄，而是向国家身份系统要一个只含年龄段的最小凭证。对集成商，要接的是令牌接口与请求码流程，不是证件识读加 OCR——原先卖证件核验方案的，在这类项目里要让位给能对接政府身份网关的一方。风险有两处：令牌只回答年龄，平台仍要自己承担内容风控；游客走护照豁免，等于把外国证件也拉进同一条链，口岸与平台的数据边界会被重新划线。",
+    "en": "The change is where the trust sits: platforms stop judging age themselves and ask the state identity system for a minimal credential that carries only an age band. Integrators will be wiring token endpoints and request-code flows, not document capture and OCR, so vendors selling ID-checking stacks give way to whoever can connect to the government identity gateway. Two risks: a token answers only the age question, leaving content risk with the platform, and the tourist exemption pulls foreign passports into the same chain, redrawing the data boundary between border and platform.",
+    "es": "El cambio está en dónde reside la confianza: las plataformas dejan de estimar la edad y piden al sistema estatal una credencial mínima que solo indica un tramo de edad. Los integradores conectarán puntos de token y flujos de código, no captura de documentos ni OCR, así que quien vendía verificación documental cede ante quien puede enlazar con la pasarela estatal. Dos riesgos: el token solo responde la edad y el riesgo de contenido queda en la plataforma, y la exención para turistas arrastra pasaportes extranjeros a la misma cadena, redibujando el límite de datos entre frontera y plataforma."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

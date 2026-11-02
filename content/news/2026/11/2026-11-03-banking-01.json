@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-03-banking-01",
+  "slug": "thunes-unionpay-china-card-payout-limit",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [
+    "africa",
+    "north-america"
+  ],
+  "tags": [
+    "clearing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-03T04:17:02+08:00",
+  "ingestedAt": "2026-11-03T02:32:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Fintech News Singapore",
+      "url": "https://fintechnews.sg/140134/payments/thunes-unionpay/",
+      "lang": "en",
+      "publishedAt": "2026-11-02T12:12:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "Thunes 把到中国银行卡的即时汇款上限提到每日 1 万美元，接通 79 家银行",
+    "en": "Thunes lifts instant payouts to Chinese bank cards to US$10,000 a day across 79 banks",
+    "es": "Thunes eleva a US$10.000 diarios los pagos instantáneos a tarjetas chinas en 79 bancos"
+  },
+  "summary": {
+    "zh": "Thunes 扩大与银联国际合作，单张收款卡每日可即时收到最多 1 万美元，覆盖中国大陆 79 家银行，汇款方不必再把大额拆成几天分批发出。",
+    "en": "Thunes has widened its UnionPay International tie-up so a single receiving card in mainland China can take up to US$10,000 a day, across 79 banks, without the sender splitting a large transfer across several days.",
+    "es": "Thunes amplió su alianza con UnionPay International: una tarjeta receptora en China continental puede recibir hasta US$10.000 al día en 79 bancos, sin que el emisor divida la transferencia en varios días."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "跨境汇款公司 Thunes 把到中国银行卡的即时付款额度提上去了。按其 11 月 2 日的公告，单张收款卡每日最多可收到 1 万美元，资金直接落到中国大陆 79 家主要银行的银联卡上，其中包括工商银行、中国银行与建设银行。此前额度更低，大额汇款要么拆成几天分别发，要么转入人工处理。",
+        "en": "Cross-border payments firm Thunes has raised the ceiling on instant payouts to bank cards in China. Under its 2 November announcement, a single receiving card can take up to US$10,000 a day, with funds landing directly on UnionPay cards at 79 major mainland banks including ICBC, Bank of China and China Construction Bank. The previous ceiling was lower, so larger transfers were either split across several days or pushed into manual handling.",
+        "es": "La firma de pagos transfronterizos Thunes elevó el límite de los pagos instantáneos a tarjetas bancarias en China. Según su anuncio del 2 de noviembre, una tarjeta receptora puede recibir hasta US$10.000 al día, con fondos que llegan directamente a tarjetas UnionPay de 79 bancos principales de China continental, entre ellos ICBC, Bank of China y China Construction Bank. Antes el techo era menor, así que las transferencias grandes se dividían en varios días o pasaban a gestión manual."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "接法是一根 API",
+        "en": "One API is the whole connection",
+        "es": "Una sola API es toda la conexión"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "两家公司在 2026 年 1 月建立了直接技术连接，Thunes 的全球网络与银联的基础设施之间只走一个接口",
+          "en": "The two companies set up a direct technical connection in January 2026, with a single interface between Thunes' global network and UnionPay's infrastructure",
+          "es": "Las dos empresas establecieron una conexión técnica directa en enero de 2026, con una sola interfaz entre la red global de Thunes y la infraestructura de UnionPay"
+        },
+        {
+          "zh": "使用者是金融机构、支付服务商与汇款运营商，它们通过 Thunes 的会员身份把资金发到银联卡，不必自己逐家对接中国银行",
+          "en": "The users are financial institutions, payment service providers and money transfer operators that send funds to UnionPay cards through Thunes membership instead of integrating with Chinese banks one by one",
+          "es": "Los usuarios son instituciones financieras, proveedores de servicios de pago y operadores de remesas que envían fondos a tarjetas UnionPay mediante la membresía de Thunes, sin integrarse banco por banco en China"
+        },
+        {
+          "zh": "公告点名的汇款走廊是印尼、泰国、澳大利亚、新西兰、非洲与美国，也就是这几处的付款方需求最集中",
+          "en": "The corridors named in the announcement are Indonesia, Thailand, Australia, New Zealand, Africa and the United States, where send-side demand is concentrated",
+          "es": "Los corredores citados son Indonesia, Tailandia, Australia, Nueva Zelanda, África y Estados Unidos, donde se concentra la demanda del lado emisor"
+        },
+        {
+          "zh": "费率、到账时限与单笔最低金额均未披露，只给了每日上限这一个数字",
+          "en": "Fees, settlement timing and minimum amounts are not disclosed; the daily ceiling is the only figure given",
+          "es": "No se revelan comisiones, plazos de liquidación ni importes mínimos; el techo diario es la única cifra publicada"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Thunes 副首席执行官 Chloé Mayenobe 的说法是把「高容量、直接到卡」的通道打通，让成员机构不用再为中国的走廊做特殊处理。这话的落点在产品侧：额度提高之后，汇款机构在系统里就不必为大额交易写拆单逻辑，也不用为此排人工审核，前端能给出的到账承诺变得更简单。",
+        "en": "Thunes deputy CEO Chloé Mayenobe frames it as opening a high-capacity, direct-to-card channel so members no longer treat China as a special case. The product consequence is where the weight sits: with a higher ceiling, senders no longer need split-order logic for large transactions or a manual review queue behind them, and the delivery promise they can make at the front end gets simpler.",
+        "es": "La viceconsejera delegada de Thunes, Chloé Mayenobe, lo plantea como abrir un canal de alta capacidad y directo a tarjeta para que los miembros dejen de tratar China como un caso especial. La consecuencia de producto está en dónde se concentra el trabajo: con un techo mayor, los emisores ya no necesitan lógica de fraccionamiento para operaciones grandes ni una cola de revisión manual detrás, y la promesa de entrega que pueden hacer en el frontend se simplifica."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变的是跨境汇款落到中国卡的那一段：单笔上限抬到 1 万美元，等于把「拆单 + 人工复核」这两步从汇款机构的流程里拿掉。对做汇款系统、合规引擎与对账的集成商，这是接口参数与限额规则的重配，短期是改造单，长期是把大额走廊从电汇往卡通道迁。风险在合规侧：额度越高，收款人身份与资金来源的核查压力越集中在这一跳，银行侧的退单与冻结处置规则原文没写。接下来要跟的是费率是否随额度调整，以及其他到卡通道会不会跟。",
+    "en": "What changes is the last leg where a cross-border transfer lands on a Chinese card: a US$10,000 daily ceiling removes the split-order and manual-review steps from the sender's workflow. For integrators building remittance systems, compliance engines and reconciliation, that is a reconfiguration of interface parameters and limit rules — a change ticket now, and over time a shift of large-value corridors from wire to card. The risk is compliance: the higher the ceiling, the more identity and source-of-funds checking concentrates at this hop, and the article says nothing about bank-side reversal or freeze handling. Watch whether pricing moves with the limit.",
+    "es": "Lo que cambia es el último tramo donde una transferencia aterriza en una tarjeta china: un techo de US$10.000 diarios elimina el fraccionamiento y la revisión manual del flujo del emisor. Para los integradores de remesas, motores de cumplimiento y conciliación, es una reconfiguración de parámetros de interfaz y reglas de límite: una orden de cambio ahora y, con el tiempo, un traslado de los corredores de alto valor del wire a la tarjeta. El riesgo está en el cumplimiento: cuanto mayor el techo, más se concentra aquí la verificación de identidad y origen de fondos, y el artículo no menciona reversos ni bloqueos del lado bancario. Hay que seguir si el precio se ajusta con el límite."
+  },
+  "confidence": 0.82,
+  "ai": {
+    "model": "claude-sonnet-4.5",
+    "promptVersion": "digest-v4-body"
+  }
+}
