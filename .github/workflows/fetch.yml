@@ -28,6 +28,8 @@ jobs:
 
       # 只跑 rss 源：39 个 scrape 源的 selector 均未调通（实测 0/39 能取到条目），
       # 全量跑只会固定产生 39 条失败，覆盖不了任何区域。调通后再放开。
+      # 脚本内置 72 小时时效剪枝，raw 只留窗口内的条目；前一天的文件缺失时
+      # 自动放宽到 120 小时兜住一次失败，所以这里不需要传 --window-hours。
       - name: Fetch enabled sources
         run: node scripts/fetch-sources.mjs --rss-only
 
