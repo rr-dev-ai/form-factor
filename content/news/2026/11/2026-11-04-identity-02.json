@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-03-identity-06",
+  "slug": "utah-enforces-age-verification-sb73",
+  "industry": "identity",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "verification",
+    "national-id"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-04T04:18:36+08:00",
+  "ingestedAt": "2026-11-03T03:10:21+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech Wire",
+      "url": "https://idtechwire.com/utah-starts-enforcing-adult-site-age-verification-law-despite-partial-court-block/",
+      "lang": "en",
+      "publishedAt": "2026-11-02T00:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "犹他开始执行年龄核验法：VPN 条款被法院挡住，其余照罚",
+    "en": "Utah starts enforcing its age verification law, with the VPN clause blocked but the rest live",
+    "es": "Utah empieza a aplicar su ley de verificación de edad, con la cláusula de VPN bloqueada y el resto vigente"
+  },
+  "summary": {
+    "zh": "犹他州商务厅 11 月 2 日起执行 SB73，对未能核验用户年龄的网站按次开罚；针对 VPN 绕过的条款仍被法院禁止，州政府称其余部分可以独立执行。",
+    "en": "Utah's Department of Commerce began enforcing SB73 on 2 November, with per-violation fines for sites that fail to verify users' ages; the VPN provision remains blocked, and the state says the rest stands on its own.",
+    "es": "El Departamento de Comercio de Utah empezó a aplicar la SB73 el 2 de noviembre, con multas por infracción a los sitios que no verifiquen la edad; la cláusula sobre VPN sigue bloqueada y el estado dice que el resto se sostiene solo."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "罚则与豁免同时给",
+        "en": "A fine and a safe harbour",
+        "es": "Multa y puerto seguro"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "SB73 把「未成年人有害内容占三分之一以上」的站点纳入范围，授权消费者保护司调查并按每次违规最高 2,500 美元开行政处罚，也可在法院追同样金额的民事罚款；同时对受管企业加征 2% 消费税，收入用于青少年心理健康与年龄核验执法。反过来，采用州定标准核验方式的企业可获免责保护。",
+        "en": "SB73 covers sites where more than one third of material is harmful to minors. It lets the Division of Consumer Protection investigate and impose administrative fines of up to $2,500 per violation, and seek the same amount in court. Covered companies also pay a 2 percent excise tax, with revenue going to youth mental health and enforcement. In return, companies using state-approved verification methods get safe harbour.",
+        "es": "La SB73 cubre sitios en los que más de un tercio del contenido es nocivo para menores. Permite a la División de Protección al Consumidor investigar e imponer multas administrativas de hasta 2.500 dólares por infracción, y reclamar lo mismo ante los tribunales. Las empresas cubiertas pagan además un impuesto del 2%, destinado a salud mental juvenil y a la aplicación de la ley. A cambio, quien use métodos aprobados por el estado obtiene puerto seguro."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "州里怎么查",
+        "en": "How the state checks",
+        "es": "Cómo lo comprueba el estado"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "商务厅称已部署由企业技术伙伴开发的计算与审计设施，但执行主任 Margaret Busse 不愿说明其工作方式，只说「用了些先进技术来做评估」。她强调法律要求核验年龄而非身份，用于核验的信息须立即删除，州政府不收集这些数据。",
+        "en": "The department says it has deployed computing and auditing infrastructure built by enterprise technology partners, though director Margaret Busse declined to describe how it works, saying only that advanced technology is being used to assess compliance. She stressed the law requires verifying age, not identity, and that data used for checks must be deleted immediately; the state does not collect it.",
+        "es": "El departamento afirma haber desplegado infraestructura de cómputo y auditoría de socios tecnológicos, aunque su directora, Margaret Busse, evitó describir su funcionamiento y solo dijo que usan tecnología avanzada para evaluar el cumplimiento. Subrayó que la ley exige verificar la edad, no la identidad, y que los datos usados deben eliminarse de inmediato; el estado no los recoge."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "诉讼留下的缺口",
+        "en": "The gap litigation left",
+        "es": "El hueco que deja el litigio"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "上月法院应 Aylo（Pornhub 等站点母公司）起诉，临时禁止了针对 VPN 等绕过手段的条款，州方在诉讼期间暂缓执行，随后认定其余条款可独立生效。Aylo 表示自 2023 年原法生效起即已合规，并称最佳方案是在用户设备上完成核验。按现行安排，用 VPN 绕过的用户实际上仍难被追究。",
+        "en": "A court temporarily blocked the provision covering VPNs and similar workarounds last month after Aylo, owner of Pornhub and other sites, sued; the state held off during litigation, then concluded the rest of the law can take effect alone. Aylo says it has complied since the original law took effect in 2023 and argues the best fix is verification on the user's device. As things stand, users who route around checks with a VPN remain largely out of reach.",
+        "es": "Un tribunal bloqueó temporalmente la cláusula sobre VPN y rodeos similares el mes pasado tras la demanda de Aylo, propietaria de Pornhub y otros sitios; el estado esperó durante el litigio y luego concluyó que el resto puede regir por sí solo. Aylo afirma cumplir desde que la ley original entró en vigor en 2023 y sostiene que la mejor solución es verificar en el dispositivo del usuario. Tal como está, quien usa una VPN queda en gran medida fuera del alcance."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变的是验收方从平台自查变成州政府抽查，而且给出了可量化的罚则与免责通道：用州里认可的方法就能免责。做年龄核验的供应商，卖点从「准确率」转向「能否进州定标准清单」，因为清单直接决定客户有没有免责保护。另一个现实约束是不得留存数据——这排除了靠历史画像做二次判断的方案，只能做一次性、可删除的判定。VPN 条款被挡住意味着覆盖率有上限，采购方会问这套东西到底能挡住多少。",
+    "en": "What changed is who checks: compliance moves from self-assessment to state audits, with a priced penalty and a safe harbour that only opens for approved methods. For age verification vendors the pitch shifts from accuracy to whether the method lands on the state's list, since the list decides whether the customer is protected. The no-retention rule also rules out scoring users from stored history, leaving one-shot decisions that can be deleted. With the VPN clause blocked, coverage has a ceiling, and buyers will ask how much it actually stops.",
+    "es": "Lo que cambió es quién comprueba: el cumplimiento pasa de la autoevaluación a la auditoría estatal, con multa tasada y un puerto seguro que solo abre para métodos aprobados. Para los proveedores de verificación de edad, el argumento pasa de la precisión a si el método entra en la lista estatal, porque la lista decide si el cliente queda protegido. La regla de no retención descarta puntuar a partir del historial, dejando decisiones de un solo uso y borrables. Con la cláusula de VPN bloqueada, la cobertura tiene techo y el comprador preguntará cuánto frena de verdad."
+  },
+  "confidence": 0.75,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

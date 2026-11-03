@@ -1,0 +1,169 @@
+{
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-03T20:16:08.634Z",
+  "selected": [
+    {
+      "industry": "banking",
+      "slug": "aci-circle-usdc-settlement-colombia-bre-b",
+      "score": 0.55,
+      "reason": "region-floor",
+      "region": "latam",
+      "sourceDate": "2026-11-04"
+    },
+    {
+      "industry": "banking",
+      "slug": "google-pay-nigeria-mastercard-interswitch-tokenization",
+      "score": 0.78,
+      "reason": "region-floor",
+      "region": "africa",
+      "sourceDate": "2026-11-04"
+    },
+    {
+      "industry": "banking",
+      "slug": "sunrate-agentic-card-virtual-card-ai-agents",
+      "score": 0.72,
+      "reason": "region-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-04"
+    },
+    {
+      "industry": "telecom",
+      "slug": "uk-sim-farm-offence-vodafonethree-intelligence",
+      "score": 0.8,
+      "reason": "region-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-04"
+    },
+    {
+      "industry": "telecom",
+      "slug": "att-ast-spacemobile-terrestrial-satellite-handoff",
+      "score": 0.78,
+      "reason": "region-floor",
+      "region": "north-america",
+      "sourceDate": "2026-11-04"
+    },
+    {
+      "industry": "telecom",
+      "slug": "china-telecom-hong-kong-esim-stored-value-cards",
+      "score": 0.62,
+      "reason": "industry-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-04"
+    },
+    {
+      "industry": "identity",
+      "slug": "innovatrics-cen-ts-18099-high-injection-attack",
+      "score": 0.78,
+      "reason": "industry-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "industry": "identity",
+      "slug": "utah-enforces-age-verification-sb73",
+      "score": 0.75,
+      "reason": "industry-floor",
+      "region": "north-america",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "industry": "identity",
+      "slug": "secugen-unity-20-uganda-national-id",
+      "score": 0.82,
+      "reason": "manual",
+      "region": "africa",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "industry": "identity",
+      "slug": "new-zealand-nzbn-business-passport-wallet-trial",
+      "score": 0.8,
+      "reason": "manual",
+      "region": "apac",
+      "sourceDate": "2026-11-03"
+    },
+    {
+      "industry": "identity",
+      "slug": "romania-senate-under-15-ban-age-verification",
+      "score": 0.8,
+      "reason": "manual",
+      "region": "europe",
+      "sourceDate": "2026-11-02"
+    }
+  ],
+  "alternates": [],
+  "expired": [],
+  "gaps": [
+    {
+      "region": "cis",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "mena",
+      "note": "池内 0 条"
+    }
+  ],
+  "unaccounted": [],
+  "conflicts": [
+    {
+      "kind": "undated",
+      "detail": "identity/georgia-state-patrol-digital-license-readers 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "来源页为 2026-10-30 新闻稿，超出 72 小时窗口，不补"
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/romania-senate-under-15-ban-age-verification 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "Agerpres 2026-11-02 18:35（+02:00）在窗内，已补 publishedAt 并以 manual 调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/liberia-biometric-registration-foreign-nationals 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "未确认日期；identity 达 5 条上限，同分下让位给区域更分散的条目"
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/new-zealand-nzbn-business-passport-wallet-trial 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "MBIE 2026-11-03 在窗内，已补 publishedAt 并以 manual 调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/ant-digital-zoloz-kya-ai-agents 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "raw 时间戳 2026-11-03T08:56Z 在窗内，但分数 0.72 低于同行业其他候选，行业上限挤出"
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/secugen-unity-20-uganda-national-id 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "raw 时间戳 2026-11-03T14:45Z 在窗内，已补 publishedAt 并以 manual 调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/k-id-kai-sdk-age-adaptive-permissions 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "未确认日期；identity 达 5 条上限，0.75 分低于已补条目"
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/deel-security-workforce-identity-checks 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "未确认日期；identity 达 5 条上限，0.75 分低于已补条目"
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/ocr-studio-one-shot-kyc-on-device 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "未确认日期；identity 达 5 条上限，0.70 分为本行业最低"
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/kenya-ebirth-registration-rollout 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "未确认日期；identity 达 5 条上限，0.72 分低于已补条目"
+    }
+  ]
+}

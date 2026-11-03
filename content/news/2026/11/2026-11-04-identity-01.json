@@ -1,0 +1,106 @@
+{
+  "id": "2026-11-03-identity-03",
+  "slug": "innovatrics-cen-ts-18099-high-injection-attack",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "liveness",
+    "biometrics",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-04T04:18:36+08:00",
+  "ingestedAt": "2026-11-03T03:10:21+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech Wire",
+      "url": "https://idtechwire.com/innovatrics-earns-high-level-injection-attack-detection-certification-under-cen-ts-18099/",
+      "lang": "en",
+      "publishedAt": "2026-11-02T00:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "摄像头被换掉也能发现：Innovatrics 的注入攻击检测拿到 CEN/TS 18099 最高档",
+    "en": "Injection attack detection gets a top grade: Innovatrics certified at High under CEN/TS 18099",
+    "es": "La detección de ataques de inyección logra el nivel alto: Innovatrics certificado bajo CEN/TS 18099"
+  },
+  "summary": {
+    "zh": "CLR Labs 按欧洲技术规范 CEN/TS 18099 测试，认定 Innovatrics 远程身份核验平台的注入攻击检测达到该规范定义的最高档，代价是 1.3% 的真实用户会被当成攻击拦下。",
+    "en": "CLR Labs tested Innovatrics' remote identity verification platform against CEN/TS 18099 and certified its injection attack detection at High, the top level the specification defines; 1.3 percent of genuine attempts were flagged as attacks.",
+    "es": "CLR Labs evaluó la plataforma de verificación remota de Innovatrics bajo CEN/TS 18099 y certificó su detección de ataques de inyección en nivel Alto, el máximo que define la especificación; el 1,3% de los intentos genuinos se marcó como ataque."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "和假脸不是一回事",
+        "en": "Not the same as a fake face",
+        "es": "No es lo mismo que una cara falsa"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "注入攻击绕开摄像头，而不是在镜头前举一张假脸：攻击者把预录、篡改或 AI 生成的视频直接灌进核验流程，常借虚拟摄像头让设备误以为那是真实硬件。厂商的说法是，屏幕上会被活体检测拦下的深伪，从这条路进来可能一路畅通。",
+        "en": "An injection attack goes around the camera instead of holding a fake in front of it. Pre-recorded, altered or AI-generated video is fed straight into the verification flow, often through a virtual camera the device treats as real hardware. The vendor's point is that a deepfake that liveness detection would catch on a screen can pass untouched when it arrives this way.",
+        "es": "Un ataque de inyección rodea la cámara en lugar de poner una cara falsa delante. Vídeo pregrabado, alterado o generado por IA entra directamente en el flujo de verificación, a menudo mediante una cámara virtual que el equipo trata como hardware real. El argumento del proveedor es que un deepfake que la prueba de vida detectaría en pantalla puede pasar intacto por esa vía."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "高档意味着什么",
+        "en": "What the High level means",
+        "es": "Qué implica el nivel Alto"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "High 是 CEN/TS 18099 定义的最高档，也是 ETSI TS 119 461 对远程身份核验中注入攻击检测提出的档位，对应其扩展级身份核验。",
+          "en": "High is the top level the specification defines, and the level ETSI TS 119 461 sets for injection attack detection in remote identity proofing aimed at its Extended level.",
+          "es": "Alto es el nivel máximo que define la especificación, y el que ETSI TS 119 461 exige para la detección de inyección en la identificación remota orientada a su nivel Extendido."
+        },
+        {
+          "zh": "测试同时量了误拦：1.3% 的真实采集尝试被判为攻击，这个指标叫 BPCER，直接影响正常用户要不要重来一次。",
+          "en": "The lab also measured false flags: 1.3 percent of genuine capture attempts were classified as attacks, the bona fide presentation classification error rate, which decides how often real users have to start over.",
+          "es": "El laboratorio midió también los falsos positivos: el 1,3% de los intentos genuinos se clasificó como ataque (tasa BPCER), lo que decide cuántas veces un usuario real debe repetir el trámite."
+        },
+        {
+          "zh": "认证覆盖人脸；厂商称同一套检测设计可跨采集模态，也能保护证件采集以及掌纹、指纹等其他模态。",
+          "en": "The certification covers face. The vendor says the same approach is designed to work across capture modalities, including identity documents, palm and fingerprints.",
+          "es": "La certificación cubre el rostro. El proveedor afirma que el mismo enfoque sirve para otras modalidades de captura, como documentos de identidad, palma y huellas."
+        }
+      ]
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "为什么现在被单列出来",
+        "en": "Why it is being singled out now",
+        "es": "Por qué se destaca ahora"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "远程开户的验收过去主要看活体检测能不能挡住照片和屏幕翻拍。虚拟摄像头与改包工具让这条路失效，欧洲因此把注入攻击检测单列成一项可分级的能力，并按核验等级规定最低档位。",
+        "en": "Remote onboarding used to be judged on whether liveness detection stopped photos and screen replays. Virtual cameras and tampered apps defeated that, so Europe carved injection attack detection out as a graded capability with a minimum level tied to the identity proofing level.",
+        "es": "La apertura remota se evaluaba por si la prueba de vida frenaba fotos y repeticiones en pantalla. Las cámaras virtuales y las apps manipuladas rompieron eso, y Europa separó la detección de inyección como capacidad graduable con un nivel mínimo ligado al nivel de identificación."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变的是活体检测的验收口径：从「能挡住假脸」变成「能挡住被替换的输入」，而且有了可对照的等级。做远程开户的集成商，招标文件里该写标准号加档位，而不是笼统的「具备活体检测」；写进 CEN/TS 18099 High 之后，供应商要交的是实验室报告，不是自测说明。另一个要提前算的是 1.3% 的误拦——真实用户被要求重来时，客服与放弃率都会跟着涨，这部分成本通常没人写进方案。",
+    "en": "The change is in how liveness is accepted: from stopping a fake face to stopping a substituted input, with a grade that can be written into a requirement. Integrators selling remote onboarding should cite the standard and level rather than a generic liveness claim; once CEN/TS 18099 High is in the document, suppliers owe a lab report, not a self-assessment. Budget for the 1.3 percent false-flag rate too: every genuine user sent back to retry adds support load and drop-off, and that cost rarely appears in the proposal.",
+    "es": "El cambio está en cómo se acepta la prueba de vida: de frenar una cara falsa a frenar una entrada sustituida, con un nivel que puede exigirse por contrato. Los integradores de apertura remota deberían citar norma y nivel en lugar de una afirmación genérica de prueba de vida; con CEN/TS 18099 Alto en el pliego, el proveedor debe un informe de laboratorio, no una autoevaluación. Conviene presupuestar el 1,3% de falsos positivos: cada usuario genuino obligado a repetir suma soporte y abandono, un coste que rara vez aparece en la propuesta."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

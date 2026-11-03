@@ -1,0 +1,109 @@
+{
+  "id": "2026-11-04-identity-02",
+  "slug": "romania-senate-under-15-ban-age-verification",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "verification",
+    "liveness"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-04T04:18:36+08:00",
+  "ingestedAt": "2026-11-04T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/romanian-senate-passes-under-15-social-media-ban-with-mandatory-age-verification/",
+      "lang": "en"
+    },
+    {
+      "name": "Agerpres",
+      "url": "https://agerpres.ro/viata-parlamentara/2026/11/02/senat-minorilor-sub-15-ani-sa-le-fie-interzis-accesul-la-retelele-sociale-online-proiect-adoptat-tac--1609255",
+      "publishedAt": "2026-11-02T18:35:00+02:00"
+    }
+  ],
+  "title": {
+    "zh": "罗马尼亚参议院放行 15 岁以下社媒禁令：只填生日不算核验",
+    "en": "Romania's Senate passes an under-15 social media ban and rules out self-declared ages",
+    "es": "El Senado rumano aprueba prohibir las redes a menores de 15 años y descarta la edad autodeclarada"
+  },
+  "summary": {
+    "zh": "罗马尼亚参议院 11 月 2 日按期限默示通过法案，禁止 15 岁以下使用社交网络，要求平台采用欧盟层面认可的年龄核验方案，纯声明式填写不算数；法案送众议院终审。",
+    "en": "Romania's Senate adopted a bill on 2 November that bans under-15s from social networks and requires platforms to use age verification recognised at EU level, explicitly rejecting self-declared ages. The bill now goes to the Chamber of Deputies.",
+    "es": "El Senado rumano adoptó el 2 de noviembre un proyecto que prohíbe las redes sociales a los menores de 15 años y exige verificación de edad reconocida en la UE, descartando la edad autodeclarada. Ahora pasa a la Cámara de Diputados."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "怎么通过的",
+        "en": "How it passed",
+        "es": "Cómo se aprobó"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "参议院没有举行表决，等宪法规定的辩论与投票期限走完，法案即视为通过。接下来送众议院，众议院有最终决定权。这一步发生在欧盟委员会 10 月决定暂缓与欧盟统一规则重叠的成员国立法之后，罗马尼亚选择先把自己的一套推下去。",
+        "en": "The Senate did not hold a vote: the bill was deemed adopted once the constitutional deadline for debate and voting expired. It now goes to the Chamber of Deputies, which has the final say. The step comes after the European Commission decided in October to postpone national laws that overlap with planned EU-wide rules; Romania is pushing its own framework first.",
+        "es": "El Senado no votó: el proyecto se considera adoptado al vencer el plazo constitucional de debate y votación. Pasa ahora a la Cámara de Diputados, que tiene la última palabra. El paso llega después de que la Comisión Europea decidiera en octubre aplazar las leyes nacionales que se solapen con normas comunes de la UE; Rumanía impulsa primero su propio marco."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "核验要求写得很硬",
+        "en": "The verification requirement is explicit",
+        "es": "El requisito de verificación es explícito"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "法案正文写道，平台须采取一切必要措施阻止 15 岁以下访问和使用服务，并实施尊重隐私与个人数据保护法的有效年龄核验。核验机制必须建立在欧盟层面认可的方案之上，或符合《数字服务法》下的指引。原文加了一句：仅由用户声明年龄，不视为充分。",
+        "en": "The text requires platforms to take all necessary measures to prevent under-15s from accessing their services and to implement effective age verification that respects privacy and data protection law. The mechanisms must rest on solutions recognised at EU level or comply with guidance under the Digital Services Act. The bill adds that a purely declarative statement of age is not sufficient.",
+        "es": "El texto obliga a las plataformas a adoptar todas las medidas necesarias para impedir el acceso de menores de 15 años y a aplicar una verificación de edad eficaz que respete la privacidad y la protección de datos. Los mecanismos deben basarse en soluciones reconocidas en la UE o cumplir las directrices de la Ley de Servicios Digitales. El proyecto añade que la mera declaración de edad no basta."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "罚则与配套",
+        "en": "Penalties and the rest of the package",
+        "es": "Sanciones y resto del paquete"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "未达《数字服务法》超大型平台门槛的提供商，罚款为上一财年全球年营业额的 0.5% 至 2%；停服只能由法院应监管机构 ANCOM 请求、在严重且反复违规时裁定。",
+          "en": "Providers below the DSA's very-large-platform threshold face fines of 0.5 to 2 percent of prior-year global turnover; suspension requires a court order at the request of regulator ANCOM, for serious and repeated breaches.",
+          "es": "Los proveedores por debajo del umbral de gran plataforma de la DSA se enfrentan a multas del 0,5 al 2 por ciento de la facturación global del ejercicio anterior; la suspensión exige orden judicial a petición del regulador ANCOM, por infracciones graves y reiteradas."
+        },
+        {
+          "zh": "15 至 18 岁不禁用，但平台要给渐进式权限：默认关闭基于画像的定向广告、默认私密账号、默认关闭非联系人私信，并提供使用时长提醒。",
+          "en": "Users aged 15 to 18 are not banned, but platforms must give them progressive settings: targeted profiling ads off by default, private accounts by default, direct messages from non-contacts off by default, and time-spent controls.",
+          "es": "Los usuarios de 15 a 18 años no quedan prohibidos, pero las plataformas deben aplicar ajustes progresivos: publicidad basada en perfil desactivada por defecto, cuentas privadas, mensajes de no contactos bloqueados y controles de tiempo de uso."
+        },
+        {
+          "zh": "法案没有点名任何一家核验供应商，也没有给出可接受方案的清单，只说「欧盟层面认可」。",
+          "en": "The bill names no verification vendor and gives no list of accepted methods, referring only to what is recognised at EU level.",
+          "es": "El proyecto no nombra proveedores de verificación ni ofrece una lista de métodos aceptados; se remite a lo reconocido en la UE."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "改变的是受理端的准入条件：平台不能再靠一个生日输入框过关，必须接入能被监管认可的核验，而「认可」的清单在布鲁塞尔手里。对做年龄核验、活体检测与钱包凭证的供应商，罗马尼亚是又一个把需求变成强制采购的市场；但真正的门槛不是算法，是能否出具监管可采信的审计记录，以及在拿不到身份证件时仍能完成核验的降级路径。",
+    "en": "What changed is the condition of entry on the acceptance side: platforms can no longer pass with a date-of-birth field and must plug in verification a regulator will accept, while the list of what counts sits in Brussels. For suppliers of age assurance, liveness and wallet credentials, Romania is another market turning demand into mandatory procurement. The barrier is not the algorithm but the audit trail a regulator will trust, and a fallback path that still verifies when no identity document is available.",
+    "es": "Lo que cambió es la condición de entrada en el lado de la aceptación: las plataformas ya no pasan con un campo de fecha de nacimiento y deben integrar una verificación aceptable para el regulador, mientras la lista de lo válido está en Bruselas. Para proveedores de assurance de edad, prueba de vida y credenciales de cartera, Rumanía es otro mercado que convierte la demanda en compra obligatoria. La barrera no es el algoritmo, sino el rastro de auditoría que el regulador acepte y una ruta alternativa que verifique sin documento de identidad."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

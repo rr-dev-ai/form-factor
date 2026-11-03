@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-04-banking-03",
+  "slug": "aci-circle-usdc-settlement-colombia-bre-b",
+  "industry": "banking",
+  "region": "latam",
+  "regions": [],
+  "tags": [
+    "clearing",
+    "payment-gateway"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-04T04:18:36+08:00",
+  "ingestedAt": "2026-11-04T02:34:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Payments Industry Intelligence",
+      "url": "https://paymentsindustryintelligence.com/aci-worldwide-and-circle-test-usdc-settlement-in-colombia/",
+      "lang": "en",
+      "publishedAt": "2026-11-04T01:04:08+08:00"
+    }
+  ],
+  "title": {
+    "zh": "ACI 把 USDC 结算放进了哥伦比亚 Bre-B 的编排层，先做演示",
+    "en": "ACI puts USDC settlement inside Colombia's Bre-B orchestration layer, as a demo",
+    "es": "ACI integra la liquidación con USDC en la capa de orquestación de Bre-B en Colombia, como demostración"
+  },
+  "summary": {
+    "zh": "ACI Worldwide 与 Circle 演示了把 USDC 结算接进 ACI Connetic 编排层，哥伦比亚是这次测试的市场；两家公司说目标是让稳定币与既有清算轨道并行，而不是另建一套支付架构。",
+    "en": "ACI Worldwide and Circle demonstrated USDC settlement inside ACI Connetic, the payments orchestration layer, with Colombia as the test market; the pair say the aim is to run stablecoin settlement alongside existing rails rather than build a separate payments architecture.",
+    "es": "ACI Worldwide y Circle demostraron la liquidación con USDC dentro de ACI Connetic, la capa de orquestación de pagos, con Colombia como mercado de prueba; según ambos, el objetivo es que la liquidación con stablecoin conviva con los rieles existentes y no que se construya otra arquitectura de pagos."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "ACI Worldwide 与 Circle 做了一次演示：把 USDC 结算接进 ACI Connetic 这个云原生支付编排平台，让它与传统的银行与支付基础设施并行运行。按其说法，哥伦比亚是这次测试的市场。两家公司强调目标不是替换本地清算轨道，而是看稳定币能不能在多轨模型里占一个结算选项。",
+        "en": "ACI Worldwide and Circle ran a demonstration that puts USDC settlement inside ACI Connetic, its cloud-native payments orchestration platform, so that it runs alongside conventional banking and payment infrastructure. Colombia is the test market, they said. Both stress the aim is not to replace local rails but to see whether stablecoin settlement can take a place in a multi-rail model.",
+        "es": "ACI Worldwide y Circle realizaron una demostración que integra la liquidación con USDC en ACI Connetic, su plataforma cloud-native de orquestación de pagos, para que funcione junto a la infraestructura bancaria y de pagos convencional. Colombia es el mercado de prueba, según dijeron. Ambos subrayan que el objetivo no es sustituir los rieles locales sino ver si la liquidación con stablecoin puede ocupar un lugar en un modelo multi-riel."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "为什么落在哥伦比亚",
+        "en": "Why Colombia",
+        "es": "Por qué Colombia"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "Bre-B 是哥伦比亚的互通即时支付系统，其核心基础设施由 ACI 承建，等于在自己的产物上叠加测试",
+          "en": "Bre-B is Colombia's interoperable instant payments system, and ACI built the central infrastructure behind it, so the test runs on top of its own work",
+          "es": "Bre-B es el sistema de pagos instantáneos interoperable de Colombia y ACI construyó su infraestructura central, así que la prueba corre sobre obra propia"
+        },
+        {
+          "zh": "Connetic 同一层里管传统支付、卡交易与数字资产，稳定币不是独立钱包，而是编排层里的一个结算选项",
+          "en": "Connetic already handles traditional payments, card transactions and digital assets in one layer, so the stablecoin is not a separate wallet but a settlement option inside the orchestrator",
+          "es": "Connetic ya gestiona pagos tradicionales, transacciones con tarjeta y activos digitales en una sola capa, así que la stablecoin no es un monedero aparte sino una opción de liquidación dentro del orquestador"
+        },
+        {
+          "zh": "银行要管的还是流动性、对账、治理与结算风险，换的是结算资产的种类，不是这套流程",
+          "en": "Banks still manage liquidity, reconciliation, governance and settlement risk; what changes is the settlement asset, not the process",
+          "es": "Los bancos siguen gestionando liquidez, conciliación, gobernanza y riesgo de liquidación; lo que cambia es el activo de liquidación, no el proceso"
+        },
+        {
+          "zh": "ACI 的说法是让机构在已经熟悉的流程里试数字资产结算，而不是另开一套系统",
+          "en": "ACI's framing is that institutions test digital-asset settlement through processes they already know, rather than standing up another system",
+          "es": "El planteamiento de ACI es que las instituciones prueben la liquidación con activos digitales en procesos que ya conocen, sin levantar otro sistema"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "边界要说清：这是演示，不是投产。原文没有给参与银行名单、测试笔数、时间表，也没说会不会进生产。稳定币由 Circle 发行，本文只谈结算接入这一段；发行、储备与赎回安排不在讨论范围内。ACI 全球账户到账户支付负责人 Craig Ramsey 的说法是市场正从「可能性」走向「实用性」。",
+        "en": "The boundary needs stating: this is a demonstration, not production. The article names no participating banks, gives no transaction counts or timeline, and does not say whether it will go live. Circle issues the stablecoin; this item covers only the settlement hook-up, not issuance, reserves or redemption. Craig Ramsey, ACI's global head of account-to-account payments, framed the market as moving from possibility to practicality.",
+        "es": "Conviene fijar el límite: es una demostración, no producción. El artículo no nombra bancos participantes, no da número de operaciones ni calendario, y no dice si llegará a producción. Circle emite la stablecoin; este texto cubre solo la conexión de liquidación, no la emisión, las reservas ni el reembolso. Craig Ramsey, responsable global de pagos cuenta a cuenta de ACI, describió un mercado que pasa de la posibilidad a la practicidad."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变的是清算与结算的接入位置：稳定币如果走编排层，银行用的还是流动性、对账、治理和结算风险这套老流程，改的是接口而不是制度。对做收单网关与清算对接的集成商，工作可能从「另建一条链」变成「编排层里多一个结算选项」，要动的是结算指令、对账映射和风险限额。现在只是演示，没有参与银行、笔数与投产时间，最该跟的就是这三项，以及赎回与流动性怎么安排。",
+    "en": "What changes is where clearing and settlement plug in: if stablecoins ride the orchestration layer, banks keep their existing liquidity, reconciliation, governance and settlement-risk routines, and the work moves to interfaces rather than rules. For integrators building acquiring gateways and clearing links, the job may shift from standing up another chain to adding a settlement option inside the orchestrator, touching settlement instructions, reconciliation mapping and risk limits. For now it is a demonstration with no named banks, volumes or go-live date, so those three are what to track, along with redemption and liquidity arrangements.",
+    "es": "Lo que cambia es dónde se enchufan compensación y liquidación: si las stablecoins van por la capa de orquestación, los bancos conservan sus rutinas de liquidez, conciliación, gobernanza y riesgo de liquidación, y el trabajo se traslada a las interfaces, no a las reglas. Para los integradores de pasarelas de adquirencia y enlaces de compensación, la tarea puede pasar de levantar otra cadena a añadir una opción de liquidación en el orquestador, tocando instrucciones de liquidación, mapeo de conciliación y límites de riesgo. Por ahora es una demostración sin bancos nombrados, volúmenes ni fecha de salida, así que eso es lo que hay que seguir, junto con el reembolso y la liquidez."
+  },
+  "confidence": 0.55,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

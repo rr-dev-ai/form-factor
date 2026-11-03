@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-04-banking-02",
+  "slug": "sunrate-agentic-card-virtual-card-ai-agents",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "tokenization"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-04T04:18:36+08:00",
+  "ingestedAt": "2026-11-04T02:34:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Fintech News Hong Kong",
+      "url": "https://fintechnews.hk/41842/hong-kong-fintech-week-news/sunrate-agentic-card/",
+      "lang": "en",
+      "publishedAt": "2026-11-03T15:14:02+08:00"
+    }
+  ],
+  "title": {
+    "zh": "Sunrate 把虚拟卡发给 AI 代理：一张卡只对一个任务，用完自动失效",
+    "en": "Sunrate hands AI agents virtual cards that expire with the task",
+    "es": "Sunrate da tarjetas virtuales a los agentes de IA que caducan con la tarea"
+  },
+  "summary": {
+    "zh": "这家跨境支付公司在香港金融科技周推出多币种 Agentic Card：AI 代理可以自己开卡、发起付款、取回结果，企业按商户类别、币种、地点和有效期设限，卡在任务结束后自动失效。",
+    "en": "The cross-border payments company used Hong Kong Fintech Week to launch a multi-currency Agentic Card: AI agents can open cards, initiate payments and retrieve outcomes, with limits set by merchant category, currency, location and validity, and cards expiring when the task ends.",
+    "es": "La empresa de pagos transfronterizos lanzó en la Hong Kong Fintech Week una tarjeta Agentic multicurrency: los agentes de IA pueden abrir tarjetas, iniciar pagos y recuperar resultados, con límites por categoría de comercio, divisa, ubicación y vigencia, y tarjetas que caducan al terminar la tarea."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Sunrate 在香港金融科技周 2026 上发布多币种 Agentic Card。按这家跨境支付公司的说法，AI 代理可以自行创建虚拟卡、发起交易、取回付款结果；企业则为每张卡设定额度，以及按商户类别、币种、地点和有效期设定的限制，所有动作留痕供审计。",
+        "en": "Sunrate launched a multi-currency Agentic Card at Hong Kong Fintech Week 2026. According to the cross-border payments company, AI agents can create virtual cards, initiate transactions and retrieve payment outcomes, while businesses set spending limits plus restrictions by merchant category, currency, location and validity period, with every action logged for audit.",
+        "es": "Sunrate presentó en la Hong Kong Fintech Week 2026 una tarjeta Agentic multicurrency. Según la empresa de pagos transfronterizos, los agentes de IA pueden crear tarjetas virtuales, iniciar transacciones y recuperar los resultados de pago, mientras las empresas fijan límites de gasto y restricciones por categoría de comercio, divisa, ubicación y vigencia, con registro de cada acción para auditoría."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "控制点从额度挪到任务",
+        "en": "Controls move from limits to tasks",
+        "es": "El control pasa del límite a la tarea"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "每张卡对应一个任务，任务结束卡自动失效，不必再靠人工回收",
+          "en": "Each card maps to one task and expires when the task ends, so no manual clawback is needed",
+          "es": "Cada tarjeta corresponde a una tarea y caduca al terminar, sin necesidad de recuperarla a mano"
+        },
+        {
+          "zh": "限制下到商户类别、币种、地点与有效期四层，超出规则的动作可被标记或阻断",
+          "en": "Restrictions reach four levels — merchant category, currency, location and validity — and actions outside the rules can be flagged or blocked",
+          "es": "Las restricciones llegan a cuatro niveles —categoría de comercio, divisa, ubicación y vigencia— y las acciones fuera de regla pueden marcarse o bloquearse"
+        },
+        {
+          "zh": "高风险付款可以转人工审批，代理不独占付款决定权",
+          "en": "Higher-risk payments can be routed to a human approver, so the agent does not hold the payment decision alone",
+          "es": "Los pagos de mayor riesgo pueden derivarse a aprobación humana, de modo que el agente no decide solo"
+        },
+        {
+          "zh": "该卡通过 Mastercard Agent Pay 认证，卡组织网络内对 AI 发起的交易做身份核验与授权",
+          "en": "The card has passed Mastercard Agent Pay certification, which covers identity verification and authorisation for AI-initiated transactions on the network",
+          "es": "La tarjeta superó la certificación Mastercard Agent Pay, que cubre verificación de identidad y autorización de transacciones iniciadas por IA en la red"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "和常见的公司虚拟卡比，差别在开卡的单位：过去按供应商、项目或部门开，现在按一次任务开，卡的寿命跟着任务走。Sunrate 说这套东西会扩到更多企业付款与财资场景，但没给客户名单、定价、支持币种与开通市场，也没说清拒付与责任归属怎么算。认证只说明它过了卡组织的技术与流程检查，不等于已经有交易量。",
+        "en": "Compared with the usual corporate virtual card, the unit of issuance is what differs: cards used to be opened per supplier, project or department; now they are opened per task and live as long as the task. Sunrate says it will extend this to more business payment and treasury work, but gives no customer names, pricing, supported currencies or launch markets, and does not say how chargebacks and liability are allocated. Certification means it passed the scheme's technical and process checks, not that volume exists.",
+        "es": "Frente a la tarjeta virtual corporativa habitual, cambia la unidad de emisión: antes se abría por proveedor, proyecto o departamento; ahora por tarea, y la tarjeta vive lo que vive la tarea. Sunrate dice que lo extenderá a más pagos empresariales y tesorería, pero no da clientes, precios, divisas soportadas ni mercados de lanzamiento, ni aclara cómo se reparten contracargos y responsabilidad. La certificación indica que pasó controles técnicos y de proceso del esquema, no que haya volumen."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变的是发卡环节的控制粒度：从「给这个供应商一张卡、每月多少额度」变成「给这个任务一张卡、只能在这些商户和币种里花、到期自动作废」。做企业卡发卡处理、费用管理与审计的集成商，要改的是开卡接口、授权规则下发和流水归集；代理发起的每笔交易都得能追到任务号。Agent Pay 认证说明卡组织已经给出 AI 发起交易的验身与授权口径，自建白名单之外多了一条可对接的规范。接下来跟支持币种与市场、单卡限额、拒付责任归属。",
+    "en": "The change is the granularity of issuance: from one card per supplier with a monthly limit to one card per task that can only spend in given merchant categories and currencies and dies on expiry. For integrators doing corporate card processing, expense control and audit, the work lands in the issuance API, rule distribution and transaction-to-task mapping, so every payment traces back to a task. Agent Pay certification shows the scheme now has a common identity and authorisation route for AI-initiated payments, giving integrators a published rulebook alongside their own allowlists. Next: supported currencies and markets, per-card caps, and who carries chargeback liability.",
+    "es": "El cambio es la granularidad de la emisión: de una tarjeta por proveedor con un límite mensual a una tarjeta por tarea que solo puede gastar en ciertas categorías y divisas y muere al vencer. Para los integradores de procesamiento de tarjetas corporativas, control de gastos y auditoría, el trabajo está en la API de emisión, la distribución de reglas y el mapeo de cada transacción a su tarea. La certificación Agent Pay indica que el esquema ya tiene una vía común de identidad y autorización para pagos iniciados por IA, lo que da a los integradores un reglamento publicado además de sus listas blancas. Siguiente: divisas y mercados soportados, topes por tarjeta y quién asume los contracargos."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

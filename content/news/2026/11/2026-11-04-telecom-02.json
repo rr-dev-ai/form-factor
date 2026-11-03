@@ -1,0 +1,97 @@
+{
+  "id": "2026-11-04-telecom-01",
+  "slug": "att-ast-spacemobile-terrestrial-satellite-handoff",
+  "industry": "telecom",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "satellite",
+    "roaming"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-04T04:18:36+08:00",
+  "ingestedAt": "2026-11-04T02:58:01+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Mobile World Live",
+      "url": "https://www.mobileworldlive.com/operators/att-ast-handle-d2d-handoff/",
+      "lang": "en",
+      "publishedAt": "2026-11-03T10:57:49Z"
+    }
+  ],
+  "title": {
+    "zh": "AT&T 把一通电话从地面网交给低轨卫星，中间没有断",
+    "en": "AT&T hands a live call from its tower network to a satellite without dropping it",
+    "es": "AT&T pasa una llamada en curso de su red terrestre a un satélite sin cortarla"
+  },
+  "summary": {
+    "zh": "两家公司 11 月 3 日公布，10 月 21 日在华盛顿州把一通电话从 AT&T 的地面网络切到 AST SpaceMobile 的低轨卫星，爱立信与诺基亚分别提供两侧的无线与移动性软件。",
+    "en": "The two companies said on 3 November that a call placed on 21 October in Washington state moved from AT&T's terrestrial network to an AST SpaceMobile low-earth-orbit satellite, with Ericsson and Nokia supplying the radio and mobility software on each side.",
+    "es": "Las dos compañías informaron el 3 de noviembre de que una llamada realizada el 21 de octubre en el estado de Washington pasó de la red terrestre de AT&T a un satélite de órbita baja de AST SpaceMobile, con software de radio y movilidad de Ericsson y Nokia en cada extremo."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "切换发生在两张接入网之间，不是两座基站之间",
+        "en": "The handover crosses two access networks, not two towers",
+        "es": "El traspaso cruza dos redes de acceso, no dos torres"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "AT&T 与 AST SpaceMobile 在 11 月 3 日公布，10 月 21 日在华盛顿州完成一次通话切换：通话先由 AT&T 的地面网络承载，再转到 AST 的低轨卫星上，中间没有掉线。AT&T 称这是地面网与直连终端卫星网之间的首次成功切换；AST 的措辞更谨慎，只说认为如此。两家公司都把重点放在「无缝」两个字上——用户不用换设备，也不用改设置。",
+        "en": "AT&T and AST SpaceMobile said on 3 November that a call was handed over on 21 October in Washington state: it started on AT&T's terrestrial network and continued on an AST SpaceMobile low-earth-orbit satellite without dropping. AT&T called it the first successful handover between a terrestrial network and a direct-to-device satellite network; AST SpaceMobile was more cautious, saying it believes that to be the case. Both stressed seamlessness: no new device, no settings to change.",
+        "es": "AT&T y AST SpaceMobile informaron el 3 de noviembre de un traspaso realizado el 21 de octubre en el estado de Washington: la llamada comenzó en la red terrestre de AT&T y siguió en un satélite de órbita baja de AST SpaceMobile sin cortarse. AT&T lo presentó como el primer traspaso exitoso entre una red terrestre y una red satelital de conexión directa al dispositivo; AST SpaceMobile fue más prudente y dijo que cree que así es. Ambas insistieron en la continuidad: sin cambiar de equipo ni de ajustes."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "两侧的技术分工是清楚的。爱立信为 AT&T 提供无线与核心网设备以及网络自动化，据两家公司说法，这套自动化把切换时间从数秒压缩到毫秒级；诺基亚为 AST 的卫星侧提供无线接入与移动性软件。真正难的不是把信号打上去，而是让同一份签约关系在地面小区和卫星小区之间被同一个核心网认出来，并把通话上下文带过去。",
+        "en": "The split is clear. Ericsson supplied AT&T's radio and core equipment plus network automation, which the companies say cut the handover from seconds to milliseconds; Nokia supplied radio access and mobility software for AST's satellite side. The hard part is not getting a signal into the sky but having the same subscription recognised by the same core network whether the device sits in a terrestrial cell or a satellite cell, and carrying the call context across.",
+        "es": "El reparto es claro. Ericsson aportó la radio y el núcleo de AT&T más automatización de red, que según las empresas redujo el traspaso de segundos a milisegundos; Nokia aportó acceso radio y software de movilidad para el lado satelital de AST. Lo difícil no es llevar la señal al cielo, sino que la misma suscripción sea reconocida por el mismo núcleo tanto en una celda terrestre como en una satelital, y trasladar el contexto de la llamada."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "终端侧要同时支持地面频段与卫星侧的移动性流程，模组和射频前端的 NTN 能力不再只是宣传参数，而是入网测试项。",
+          "en": "Devices must handle both terrestrial bands and satellite-side mobility procedures; NTN support in modules and front ends stops being a marketing line and becomes a test item.",
+          "es": "El terminal debe manejar bandas terrestres y procedimientos de movilidad satelital; el soporte NTN del módulo y del front end deja de ser marketing y pasa a ser prueba obligatoria."
+        },
+        {
+          "zh": "eUICC 与 profile 本身不需要改，但运营商侧要把卫星接入口纳入同一套签约与计费数据，否则切换过去也没有可用业务。",
+          "en": "The eUICC and its profile do not change, but the operator has to bring the satellite access point into the same subscription and charging records, or the handover lands on a network with nothing to bill.",
+          "es": "El eUICC y su perfil no cambian, pero el operador debe integrar el punto de acceso satelital en los mismos registros de suscripción y tarificación, o el traspaso aterriza en una red sin nada que facturar."
+        },
+        {
+          "zh": "演示只覆盖一次通话与一个地点，切换成功率、时延分布和弱覆盖边缘的表现都还没有公开数据。",
+          "en": "The demonstration covers one call at one location; success rate, latency distribution and behaviour at the edge of coverage are not published.",
+          "es": "La demostración cubre una llamada en un lugar; no se publican tasa de éxito, distribución de latencia ni comportamiento en el borde de cobertura."
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "两家公司都说下一步是真实环境下的 beta 服务，之后才谈商用。覆盖哪些市场、支持哪些机型、怎么计价，公告里都没有。AT&T 是 AST 的投资方，这一点在评估「首次」的说法时值得一并考虑。",
+        "en": "Both say the next step is beta service under real-world conditions before any commercial launch. Which markets, which handsets and how it will be priced are not in the announcement. AT&T is an investor in AST SpaceMobile, worth keeping in mind when weighing the first claim.",
+        "es": "Ambas dicen que el siguiente paso es un servicio beta en condiciones reales antes de hablar de lanzamiento comercial. Qué mercados, qué terminales y cómo se tarificará no aparece en el anuncio. AT&T es inversor en AST SpaceMobile, un dato a tener en cuenta al sopesar la afirmación de primicia."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "改变的是鉴权与移动性管理落在哪张网上。过去卫星直连是单独一项业务，用户要另外开通；这次把卫星接进同一套核心网，通话在两套接入之间保持同一条签约记录。做模组、NTN 射频和测试设备的供应商，要能证明终端在卫星小区里也能完成注册与切换；做核心网与策略的集成商，要回答卫星接入怎么计费、怎么限速、紧急呼叫走哪条路径。公告只到演示，商用时间表还没给。",
+    "en": "What changes is where authentication and mobility management sit. Direct-to-device used to be a separate service a user had to enable; here the satellite hangs off the same core network, so a call keeps one subscription record across two access types. Module, NTN radio and test-equipment suppliers must show a device can register and hand over inside a satellite cell; core and policy integrators must answer how satellite access is charged, throttled and routed for emergency calls. The announcement stops at a demonstration, with no commercial timetable.",
+    "es": "Lo que cambia es dónde residen la autenticación y la gestión de movilidad. La conexión directa al dispositivo era un servicio aparte que el usuario debía activar; aquí el satélite cuelga del mismo núcleo, así que la llamada conserva un único registro de suscripción entre dos tipos de acceso. Los proveedores de módulos, radio NTN y equipos de prueba deben demostrar que el terminal se registra y traspasa dentro de una celda satelital; los integradores de núcleo y políticas deben responder cómo se tarifica, se limita y se encamina una llamada de emergencia por satélite. El anuncio se queda en la demostración, sin calendario comercial."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11"
+  }
+}

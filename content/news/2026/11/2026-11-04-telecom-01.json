@@ -1,0 +1,107 @@
+{
+  "id": "2026-11-04-telecom-02",
+  "slug": "uk-sim-farm-offence-vodafonethree-intelligence",
+  "industry": "telecom",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "sim-registration"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-04T04:18:36+08:00",
+  "ingestedAt": "2026-11-04T02:58:01+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Light Reading",
+      "url": "https://www.lightreading.com/security/eurobites-vodafonethree-helps-fight-sim-farm-menace-in-uk",
+      "lang": "en",
+      "publishedAt": "2026-11-03T10:38:37Z"
+    },
+    {
+      "name": "Total Telecom",
+      "url": "https://totaltele.com/vodafonethree-helps-police-crack-down-on-sim-farms/",
+      "lang": "en",
+      "publishedAt": "2026-11-03T00:00:00Z"
+    },
+    {
+      "name": "GOV.UK",
+      "url": "https://www.gov.uk/government/publications/possession-and-supply-of-sim-farms/crime-and-policing-act-2026-guidance-offences-relating-to-the-possession-and-supply-of-sim-farms-and-legitimate-uses-of-multiple-sim-devices-accessi",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "英国把 SIM 农场入刑，运营商交出情报，8 人被捕",
+    "en": "Eight arrests as the UK enforces its new SIM farm offence",
+    "es": "Ocho detenidos al aplicarse la ley británica contra las granjas de SIM"
+  },
+  "summary": {
+    "zh": "VodafoneThree 把疑似 SIM 农场的活动情报交给英国国家打击犯罪局与伦敦金融城警察局，后者据此调查并逮捕 8 人，起获现金与设备，找回逾 100 万条泄露的支付卡信息。",
+    "en": "VodafoneThree handed suspected SIM farm intelligence to the National Crime Agency and City of London Police, who investigated, made eight arrests, seized cash and equipment and recovered more than a million compromised card details.",
+    "es": "VodafoneThree entregó a la Agencia Nacional contra el Crimen y a la policía de la City de Londres información sobre presuntas granjas de SIM; la investigación dejó ocho detenidos, dinero y equipos incautados y más de un millón de datos de tarjetas comprometidos."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "先有罪名，再有这一轮收网",
+        "en": "The offence came first, then the raid",
+        "es": "Primero el delito, después la operación"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 3 日，VodafoneThree 说它把识别到的疑似 SIM 农场活动交给英国国家打击犯罪局和伦敦金融城警察局的诈骗打击小组，由后者下属的银行卡与支付犯罪调查组立案。结果是 8 人被捕，现金与设备被扣押，找回逾 100 万条泄露的支付卡信息。VodafoneThree 把这次合作称作一次情报共享的概念验证。",
+        "en": "On 3 November VodafoneThree said it passed suspected SIM farm activity to the National Crime Agency and the City of London Police's fraud targeting cell, which tasked the Dedicated Card and Payment Crime Unit. Eight people were arrested, cash and equipment seized, and more than a million compromised card details recovered. VodafoneThree described the work as a proof of concept in intelligence sharing.",
+        "es": "El 3 de noviembre VodafoneThree dijo que entregó actividad sospechosa de granjas de SIM a la Agencia Nacional contra el Crimen y a la célula antifraude de la policía de la City de Londres, que encargó el caso a la unidad de delitos con tarjetas y pagos. Hubo ocho detenidos, dinero y equipos incautados y más de un millón de datos de tarjetas comprometidos. VodafoneThree describió el trabajo como una prueba de concepto de intercambio de información."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "时间点不是巧合。英国《2026 年犯罪与警务法》把持有和供应 SIM 农场列为罪名，10 月 29 日生效，过渡期六个月已经走完。法条给的定义很具体：能同时或交替使用 5 张及以上实体 SIM，并用于向按号码规划分配的号码打电话，或收发短信。只有同时满足这两条，设备才算 SIM 农场；只跑数据的多卡设备不在管辖范围内。",
+        "en": "The timing is not incidental. The Crime and Policing Act 2026 made possession and supply of a SIM farm an offence from 29 October, after a six-month transition. The definition is narrow: a device able to use five or more physical SIM cards simultaneously or interchangeably, for making calls to, or sending and receiving messages from, numbers allocated under national or international numbering plans. Both limbs must be met; multi-SIM boxes that only carry data fall outside.",
+        "es": "El momento no es casual. La Ley de Crimen y Policía de 2026 tipificó la posesión y el suministro de granjas de SIM desde el 29 de octubre, tras seis meses de transición. La definición es estricta: un equipo capaz de usar cinco o más tarjetas SIM físicas de forma simultánea o intercambiable, para llamar o enviar y recibir mensajes a números asignados conforme a planes de numeración. Deben cumplirse ambos elementos; los equipos multitarjeta que solo cursan datos quedan fuera."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "供应方要证明有正当理由，并采取合理步骤确认买方会正当使用，还要保存每次供货的记录：日期、设备描述、买方信息、核实用途所做的动作。",
+          "en": "A supplier must show good reason, take reasonable steps to satisfy itself the buyer will use the device lawfully, and keep a record of each supply: date, description, buyer details and the checks made on intended use.",
+          "es": "El suministrador debe acreditar una razón legítima, adoptar medidas razonables para confirmar el uso lícito por el comprador y conservar un registro de cada entrega: fecha, descripción, datos del comprador y comprobaciones del uso previsto."
+        },
+        {
+          "zh": "没有牌照或认证制度，靠的是「正当理由」抗辩。指南把广播转播、交通（车载 Wi-Fi 网关常见 4–8 张 SIM）、以及 Ofcom 通用条件约束下的运营商网络测试列为不属于 SIM 农场的场景，并说明这份清单不是穷尽的。",
+          "en": "There is no licence or accreditation regime; the defence is good reason. The guidance lists broadcasting, transport (train and coach Wi-Fi gateways often carry four to eight SIMs) and network testing by providers under Ofcom's general conditions as scenarios that are not SIM farms, and says the list is not exhaustive.",
+          "es": "No hay licencias ni acreditación; la defensa es la razón legítima. La guía cita radiodifusión, transporte (las pasarelas Wi-Fi de trenes y autocares suelen llevar de cuatro a ocho SIM) y pruebas de red de operadores bajo las condiciones generales de Ofcom como supuestos que no son granjas de SIM, y aclara que la lista no es exhaustiva."
+        },
+        {
+          "zh": "定罪走简易程序，处罚是罚款。设备是否属于 SIM 农场，执法现场看的是「接没接摄像头或音视频设备」这类外观特征，供应方留档比事后解释更管用。",
+          "en": "Conviction is summary-only and punishable by a fine. On the ground, officers judge by signs such as whether the box is attached to cameras or audio-visual gear, which is why a supplier's paperwork beats an explanation afterwards.",
+          "es": "La condena es por procedimiento sumario y se castiga con multa. En el terreno se juzga por indicios como si el equipo está conectado a cámaras o equipos audiovisuales, por eso el expediente del suministrador vale más que una explicación posterior."
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公告没说这次查获了多少张 SIM、靠什么信号判定为农场，也没说 VodafoneThree 用的是哪些网络侧数据。至于「找回规模最大的一批支付数据」，是执法部门给的说法，由 VodafoneThree 转述，没有独立核实。",
+        "en": "The announcement does not say how many SIMs were seized, what signals flagged the farm, or which network-side data VodafoneThree used. The description of the recovered payment data as possibly the largest haul of its kind comes from law enforcement as relayed by the operator, and is not independently verified.",
+        "es": "El anuncio no dice cuántas SIM se incautaron, qué señales delataron la granja ni qué datos de red usó VodafoneThree. La descripción de los datos recuperados como posiblemente el mayor lote de este tipo procede de la policía según la operadora y no está verificada de forma independiente."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "改变的是 SIM 的分发环节。以前多卡设备是普通商品，现在供应方要能说明买方为什么需要它，并留下每一次供货记录，否则可能构成供应罪。做多卡网关、测试仪表、转播编码器的供应商，得在合同、发货单和验收流程里加上用途声明与留档；只按型号卖货、不问用途的渠道，风险落在自己身上。反过来，能提供合规留档与用途核实的渠道，会成为这类设备的默认入口。",
+    "en": "What changes is the distribution step for SIMs. A multi-SIM box used to be ordinary goods; now the supplier has to explain why the buyer needs it and keep a record of each supply, or risk a supply offence. Vendors of multi-SIM gateways, test sets and broadcast encoders need a stated-purpose clause and an audit trail in contracts, shipping documents and acceptance. Channels that sell by part number without asking about use now carry the risk; those that can document and verify use become the default route.",
+    "es": "Lo que cambia es la distribución de la SIM. Un equipo multitarjeta era un bien corriente; ahora el suministrador debe explicar por qué el comprador lo necesita y conservar registro de cada entrega, o incurrir en un delito de suministro. Los vendedores de pasarelas multitarjeta, equipos de prueba y codificadores de radiodifusión necesitan cláusula de uso declarado y rastro documental en contratos, albaranes y aceptación. Los canales que venden por número de referencia sin preguntar asumen el riesgo; los que documentan y verifican el uso se vuelven la vía por defecto."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11"
+  }
+}

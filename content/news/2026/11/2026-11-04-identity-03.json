@@ -1,0 +1,111 @@
+{
+  "id": "2026-11-04-identity-06",
+  "slug": "secugen-unity-20-uganda-national-id",
+  "industry": "identity",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "biometrics",
+    "national-id",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-04T04:18:36+08:00",
+  "ingestedAt": "2026-11-04T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/secugens-mosip-fingerprint-scanner-ready-for-use-with-ugandan-national-id",
+      "lang": "en",
+      "publishedAt": "2026-11-03T14:45:46Z"
+    },
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/secugens-unity-20-mosip-fingerprint-device-goes-live-with-ugandas-national-id-system/",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "SecuGen 指纹仪接上乌干达国家身份库，银行与移动货币代理可以直接买",
+    "en": "SecuGen's fingerprint reader goes live against Uganda's national ID database",
+    "es": "El lector de huellas de SecuGen ya opera contra la base de identidad nacional de Uganda"
+  },
+  "summary": {
+    "zh": "SecuGen 说 Unity 20 MOSIP 指纹认证设备已完成与乌干达国家身份系统的适配并商用发售，银行、移动货币代理、电信运营商与政府机构可经授权经销商购买。",
+    "en": "SecuGen says its Unity 20 MOSIP fingerprint device now works with Uganda's national ID system and is on commercial sale through authorised resellers, aimed at banks, mobile money agents, telcos and government agencies.",
+    "es": "SecuGen afirma que su dispositivo de huellas Unity 20 MOSIP ya funciona con el sistema nacional de identidad de Uganda y se vende comercialmente a través de distribuidores autorizados, para bancos, agentes de dinero móvil, operadores y agencias públicas."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "落地了什么",
+        "en": "What went live",
+        "es": "Qué entró en operación"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "设备现在可以在采集点比对乌干达国家身份数据库，完成日常交易里的身份确认。乌干达国家身份登记局此前把 2800 万条记录迁到基于 MOSIP 的新系统，截至 2 月的注册总量超过 3500 万。SecuGen 完成适配后，这台指纹仪从「兼容 MOSIP」变成「能查这个国家的库」。",
+        "en": "The device can now authenticate individuals against Uganda's national ID database at the point of transaction. The national identification authority previously migrated 28 million records to a MOSIP-based system, with more than 35 million total enrolments as of February. With the integration finished, the reader moves from being MOSIP-compatible to being able to query this country's database.",
+        "es": "El dispositivo ya autentica personas contra la base nacional de Uganda en el punto de transacción. La autoridad de identificación migró antes 28 millones de registros a un sistema basado en MOSIP, con más de 35 millones de inscripciones en febrero. Terminada la integración, el lector pasa de ser compatible con MOSIP a consultar la base de este país."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "技术规格与政策推力",
+        "en": "Specs, and the policy pull",
+        "es": "Especificaciones y el impulso político"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Unity 20 通过 MOSIP L1 认证，符合 SBI 2.0 规范，内置 FIPS 140-3 第三级信任模块，在采集点完成生物特征数据的加密与签名；图像质量按 FBI 的 FAP 20 标准认证。政策端，乌干达刚把国家识别号（NIN）用作个人的税务识别号，需要拿身份库做核验的场景一下子变多。",
+        "en": "The Unity 20 is MOSIP L1-certified and compliant with the SBI 2.0 specification, with a FIPS 140-3 Level 3 trust module that encrypts and signs biometric data at capture. Image quality is FBI-certified to FAP 20. On the policy side, Uganda has just made the national identification number the tax identifier for individuals, multiplying the cases that need a check against the database.",
+        "es": "El Unity 20 está certificado MOSIP L1 y cumple la especificación SBI 2.0, con un módulo de confianza FIPS 140-3 nivel 3 que cifra y firma los datos biométricos en la captura. La calidad de imagen está certificada por el FBI bajo FAP 20. En política, Uganda acaba de usar el número nacional de identificación como identificador fiscal de las personas, multiplicando los casos que exigen consultar la base."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "买家与空白",
+        "en": "Buyers, and what is missing",
+        "es": "Compradores y lo que falta"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "目标客户是银行、移动货币代理、电信运营商与政府机构，走授权经销商渠道，公告未披露单价。",
+          "en": "Target buyers are banks, mobile money agents, telcos and government agencies, sold through authorised resellers; no unit price is disclosed.",
+          "es": "Los compradores objetivo son bancos, agentes de dinero móvil, operadores y agencias públicas, vía distribuidores autorizados; no se divulga el precio unitario."
+        },
+        {
+          "zh": "没有说明与 NIRA 系统对接的接口方式、单次核验是否收费，以及断网时能否本地比对。",
+          "en": "It does not describe the interface to the NIRA system, whether a per-check fee applies, or whether matching works locally when offline.",
+          "es": "No describe la interfaz con el sistema de NIRA, si hay tarifa por consulta ni si la comparación funciona localmente sin conexión."
+        },
+        {
+          "zh": "同一赛道已有其他 MOSIP 认证设备，差异化落在价格、耐用性与现场支持，而非算法精度。",
+          "en": "Other MOSIP-certified devices already compete here; differentiation rests on price, ruggedness and field support rather than algorithm accuracy.",
+          "es": "Ya compiten otros dispositivos certificados por MOSIP; la diferencia está en precio, robustez y soporte en campo, no en precisión del algoritmo."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变的是核验终端：国家身份库有了经认证、可商用的读取设备，银行和代理点能自己做指纹比对，不必把客户送到柜台或等中心系统回话。对设备商，MOSIP 认证正从加分项变成进入各国身份生态的入场券；对集成商，真正要卖的是把设备嵌进开户、SIM 实名、税务登记这些流程的能力，以及设备坏了多久能换。价格战会先到，服务能力决定能不能留住客户。",
+    "en": "What changed is the verification terminal: the national database now has a certified, commercially sold reader, so banks and agents can match fingerprints themselves instead of sending customers to a counter or waiting on a central system. For device makers, MOSIP certification is turning from a bonus into the ticket to national identity ecosystems. For integrators, the sellable work is embedding the reader into account opening, SIM registration and tax onboarding, plus how fast a failed unit gets replaced. Price competition comes first; service decides who stays.",
+    "es": "Lo que cambió es el terminal de verificación: la base nacional ya tiene un lector certificado y comercial, así que bancos y agentes pueden comparar huellas sin enviar al cliente a una ventanilla ni esperar al sistema central. Para los fabricantes, la certificación MOSIP pasa de extra a billete de entrada a los ecosistemas nacionales. Para los integradores, lo vendible es insertar el lector en alta de cuentas, registro de SIM y trámites fiscales, y la rapidez de reposición. La guerra de precios llega primero; el servicio decide quién se queda."
+  },
+  "confidence": 0.82,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

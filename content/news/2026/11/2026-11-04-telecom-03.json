@@ -1,0 +1,97 @@
+{
+  "id": "2026-11-04-telecom-03",
+  "slug": "china-telecom-hong-kong-esim-stored-value-cards",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "esim",
+    "rsp"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-04T04:18:36+08:00",
+  "ingestedAt": "2026-11-04T02:58:01+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-11-03/doc-inixncmw2196081.shtml",
+      "lang": "zh",
+      "publishedAt": "2026-11-03T00:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "中国电信香港把 eSIM 开到储值卡：只能到湾仔柜台办，下载上限 3 次",
+    "en": "China Telecom Hong Kong puts eSIM on stored-value cards, counter service only",
+    "es": "China Telecom Hong Kong lleva la eSIM a las tarjetas prepago, solo en mostrador"
+  },
+  "summary": {
+    "zh": "中国电信香港 11 月 3 日确认，大湾区储值卡、Easy+ 储值卡与各类型上台卡都可转 eSIM，但只受理港澳版机型，且须本人到湾仔服务点办理。",
+    "en": "China Telecom Hong Kong confirmed on 3 November that its Greater Bay Area and Easy+ stored-value cards, plus contract plans, can move to eSIM, but only on Hong Kong and Macao model handsets and only in person at its Wan Chai service point.",
+    "es": "China Telecom Hong Kong confirmó el 3 de noviembre que sus tarjetas prepago de la Gran Bahía y Easy+, y sus planes con contrato, pueden pasar a eSIM, pero solo en modelos de Hong Kong y Macao y en persona en su punto de Wan Chai."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "预付费也能 eSIM，但要人先到柜台",
+        "en": "Prepaid gets eSIM, but the customer has to turn up",
+        "es": "El prepago accede a la eSIM, pero el cliente debe acudir"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 3 日，中国电信香港在其公众号上确认已支持 eSIM 服务。可转的卡包括预付卡——大湾区储值卡、每日扣 2 港元的 Easy+ 储值卡——以及各类型上台卡（合约制月费卡）。年卡和部分漫游卡暂不支持。这条消息由 IT之家 当日转发，随后被多家媒体转载。",
+        "en": "On 3 November China Telecom Hong Kong confirmed on its official WeChat account that it now supports eSIM. Eligible lines are its prepaid stored-value cards, the Greater Bay Area card and the Easy+ card charged HK$2 a day, plus all contract plans. Annual cards and some roaming cards are excluded. IT之家 reported it the same day and other outlets followed.",
+        "es": "El 3 de noviembre China Telecom Hong Kong confirmó en su cuenta oficial de WeChat que ya admite eSIM. Pueden migrar sus tarjetas prepago, la de la Gran Bahía y la Easy+ con cargo diario de 2 dólares de Hong Kong, además de todos los planes con contrato. Quedan fuera las tarjetas anuales y algunas de itinerancia. IT之家 lo publicó ese mismo día y otros medios lo replicaron."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "办理渠道收得很紧：只支持港澳版机型，用户须本人到湾仔告士打道 108 号光大中心 18 楼的电话卡服务点办理，服务点只在周一至周五 9:30–11:30 和 14:30–16:30 开放。没有 App 自助、没有邮寄，也没有代办。",
+        "en": "The channel is tight: only Hong Kong and Macao model handsets qualify, and the customer must appear in person at the SIM service counter on the 18th floor of Kwong Fai Centre, 108 Gloucester Road, Wan Chai. The counter opens only Monday to Friday, 9:30–11:30 and 14:30–16:30. No self-service app, no post, no agent.",
+        "es": "El canal es estrecho: solo valen modelos de Hong Kong y Macao y el cliente debe acudir en persona al mostrador de tarjetas del piso 18 del Kwong Fai Centre, 108 Gloucester Road, Wan Chai. Abre solo de lunes a viernes, de 9:30 a 11:30 y de 14:30 a 16:30. Sin app de autoservicio, sin envío postal y sin gestor."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "费用规则写得比多数运营商细：新上台和预付卡首次申请免费，最多可下载 3 次；每年一次免费换卡，同一年第二次起每次收 30 港元服务费；补卡不论是实体卡还是 eSIM，每次 30 港元。",
+        "en": "The fee schedule is more explicit than most: the first eSIM for a new contract or prepaid line is free with up to three downloads; one free card change per year, then HK$30 each time within the same year; a replacement, physical or eSIM, costs HK$30.",
+        "es": "La tarifa es más explícita que en la mayoría: la primera eSIM de una línea nueva o prepago es gratuita con hasta tres descargas; un cambio de tarjeta gratis al año y 30 dólares de Hong Kong por cada uno adicional en el mismo año; la reposición, física o eSIM, cuesta 30 dólares."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "储值卡用户原本在便利店和零售渠道买卡，转 eSIM 必须回到运营商自营柜台，发行重新收回到自有渠道。",
+          "en": "Stored-value customers used to buy at convenience stores and retail; converting to eSIM sends them back to the operator's own counter, pulling issuance into the owned channel.",
+          "es": "El cliente de tarjeta prepago compraba en tiendas y retail; para pasar a eSIM debe volver al mostrador del operador, lo que devuelve la emisión al canal propio."
+        },
+        {
+          "zh": "下载次数上限把 profile 的生命周期变成可计价的项目，换机、恢复出厂设置都会消耗次数，客服话术要先改。",
+          "en": "A download cap turns profile lifecycle into a billable item: a new handset or a factory reset consumes one, so the support script has to change.",
+          "es": "El límite de descargas convierte el ciclo de vida del perfil en un concepto facturable: un móvil nuevo o un restablecimiento consume una, así que el guion de soporte debe cambiar."
+        },
+        {
+          "zh": "机型白名单限定港澳版，意味着渠道不能把同一套 eSIM 流程套到内地版或其他地区版本上。",
+          "en": "The model whitelist is limited to Hong Kong and Macao versions, so a channel cannot reuse the same eSIM flow for mainland or other regional models.",
+          "es": "La lista de modelos se limita a versiones de Hong Kong y Macao, así que un canal no puede reutilizar el mismo flujo para modelos del continente u otras regiones."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "改变的是预付费用户拿到 eSIM 的路径。储值卡本来在零售渠道流通，现在转 eSIM 必须本人到柜台，等于把发行重新收回自营。做港澳预付费渠道、eSIM 平台和柜台受理设备的供应商，要按「本人到场 + 机型白名单 + 下载次数计费」重做流程；想用纯线上分发切这块市场的方案，眼下没有入口。对做跨境卡的产品方，这还是一道关于激活地的限制。",
+    "en": "What changes is how a prepaid customer gets an eSIM. Stored-value cards circulate through retail; converting one now requires the customer at a counter, which pulls issuance back into the owned channel. Vendors serving Hong Kong and Macao prepaid, eSIM platforms and counter enrolment hardware have to rebuild the flow around in-person checks, a handset whitelist and per-download charging. Purely online distribution has no door into this segment for now, and cross-border card products still face a rule about where activation may happen.",
+    "es": "Lo que cambia es cómo obtiene la eSIM un cliente de prepago. La tarjeta prepago circula por el retail; convertirla exige ahora presencia en el mostrador, lo que devuelve la emisión al canal propio. Los proveedores de prepago de Hong Kong y Macao, las plataformas de eSIM y el hardware de alta en mostrador deben rehacer el flujo con verificación presencial, lista de modelos y cobro por descarga. La distribución solo online no tiene puerta a este segmento por ahora, y los productos de tarjeta transfronteriza siguen sujetos a una regla sobre dónde puede activarse."
+  },
+  "confidence": 0.62,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11"
+  }
+}

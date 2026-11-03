@@ -1,0 +1,110 @@
+{
+  "id": "2026-11-04-identity-04",
+  "slug": "new-zealand-nzbn-business-passport-wallet-trial",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "digital-wallet",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-04T04:18:36+08:00",
+  "ingestedAt": "2026-11-04T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/new-zealand-trials-nzbn-business-passport-as-first-government-issued-digital-credential/",
+      "lang": "en"
+    },
+    {
+      "name": "MBIE",
+      "url": "https://www.mbie.govt.nz/about/news/new-digital-credential-cuts-paperwork-for-kiwi-businesses",
+      "lang": "en",
+      "publishedAt": "2026-11-03T00:00:00+13:00"
+    }
+  ],
+  "title": {
+    "zh": "新西兰把企业身份装进政府钱包：银行先试，凭证只证明「谁有权代表这家公司」",
+    "en": "New Zealand puts business identity in a government wallet, starting with one bank",
+    "es": "Nueva Zelanda lleva la identidad empresarial a una cartera pública, empezando por un banco"
+  },
+  "summary": {
+    "zh": "新西兰商业、创新与就业部开始试点 NZBN Business Passport，选定西太平洋银行的企业客户把凭证存进 Govt.nz 应用的钱包，并与该行已验证的银行账户凭证并用。",
+    "en": "New Zealand's business ministry has begun trialling the NZBN Business Passport, with selected Westpac business customers holding the credential in the Govt.nz app wallet alongside the bank's verified account credential.",
+    "es": "El ministerio de empresa de Nueva Zelanda inició una prueba del NZBN Business Passport: clientes empresariales seleccionados de Westpac guardan la credencial en la cartera de la app Govt.nz, junto a la credencial de cuenta verificada del banco."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "试点怎么跑",
+        "en": "How the trial runs",
+        "es": "Cómo funciona la prueba"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "商业、创新与就业部（MBIE）说，选定的西太平洋银行企业客户会把 NZBN Business Passport 存进 Govt.nz 应用的数字钱包，并连到银行服务。凭证与该行 9 月推出的银行账户凭证并用：一个证明企业身份，一个证明账户归属，两件事在线一次做完。Govt.nz 钱包由 MATTR 建设，今年 4 月上线。",
+        "en": "MBIE says selected Westpac business customers will hold the NZBN Business Passport in the Govt.nz app wallet and connect it to their banking. It is used alongside the bank's account credential launched in September: one proves business identity, the other proves account ownership, both done online in one pass. The Govt.nz wallet is built by MATTR and went live in April.",
+        "es": "MBIE indica que clientes empresariales seleccionados de Westpac guardarán el NZBN Business Passport en la cartera de la app Govt.nz y lo conectarán a sus servicios bancarios. Se usa junto a la credencial de cuenta del banco lanzada en septiembre: una prueba la identidad del negocio y la otra la titularidad de la cuenta, en un solo trámite en línea. La cartera Govt.nz, construida por MATTR, funciona desde abril."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "凭证只回答一个问题",
+        "en": "The credential answers one question",
+        "es": "La credencial responde a una pregunta"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "它要证明的是「这个人有权代表这家企业行事」，而不是把企业注册信息整份复制出去。MBIE 说，企业常被不同机构反复索要同样的材料，凭证让这些信息可以复用。信托框架管理局对凭证做了独立的隐私与安全评估；持有人自己决定在什么时候、向谁出示。",
+        "en": "What it proves is that a person is able to act on behalf of a business, rather than copying out the company register. MBIE says businesses are repeatedly asked for the same information and the credential lets them reuse it. The Trust Framework Authority assessed the credential independently against privacy and security requirements, and holders decide when and to whom to present it.",
+        "es": "Lo que prueba es que una persona puede actuar en nombre de una empresa, no que se copie todo el registro mercantil. MBIE señala que a las empresas se les pide una y otra vez la misma información y la credencial permite reutilizarla. La Autoridad del Marco de Confianza evaluó la credencial de forma independiente en privacidad y seguridad, y el titular decide cuándo y a quién mostrarla."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "范围与说法",
+        "en": "Scope, and one claim to attribute",
+        "es": "Alcance y una afirmación que atribuir"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "目前只与西太平洋银行试点，MBIE 说正在与其他银行和机构接触，但没有给出扩围时间表。",
+          "en": "The trial runs only with Westpac for now; MBIE says it is talking to other banks and organisations but gives no timetable for expansion.",
+          "es": "La prueba es solo con Westpac por ahora; MBIE dice que habla con otros bancos y organizaciones, sin calendario de ampliación."
+        },
+        {
+          "zh": "MBIE 称这是政府发行的第一张数字凭证，也是第二张通过数字身份服务信托框架认证的凭证。这是该部的说法，本刊未能独立核实「第一」的排序。",
+          "en": "MBIE calls it the first government-issued digital credential and the second accredited under the Digital Identity Services Trust Framework. That is the ministry's claim; the ordering could not be independently verified.",
+          "es": "MBIE la presenta como la primera credencial digital emitida por el Gobierno y la segunda acreditada bajo el marco de confianza de servicios de identidad digital. Es la afirmación del ministerio; el orden no pudo verificarse de forma independiente."
+        },
+        {
+          "zh": "公告没有说明凭证采用哪种格式、能否被非新西兰系统验证，也没有披露试点企业数量。",
+          "en": "The announcement does not say which credential format is used, whether non-New Zealand systems can verify it, or how many businesses are in the trial.",
+          "es": "El anuncio no indica el formato de la credencial, si sistemas extranjeros pueden verificarla ni cuántas empresas participan."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变的是签发与受理之间的那一层：政府不只发实体注册文件，而是把「代表权」做成可复用的签名凭证，银行成了第一个受理方。对做钱包、凭证格式与开户流程的供应商，这是把企业开户的资料核对压缩成一次出示的机会；但只有一家银行、一个钱包，能不能规模化取决于其他机构是否愿意接受同一张凭证，以及凭证能否被境外系统验证。",
+    "en": "What changed is the layer between issuance and acceptance: the government is not only issuing a registration document but turning the authority to act into a reusable signed credential, with a bank as the first relying party. For suppliers of wallets, credential formats and onboarding flows, this is a chance to collapse business account opening into one presentation. But with one bank and one wallet, scale depends on other institutions accepting the same credential and on whether systems abroad can verify it.",
+    "es": "Lo que cambió es la capa entre emisión y aceptación: el Gobierno no solo emite un documento registral, sino que convierte la facultad de actuar en una credencial firmada reutilizable, con un banco como primer aceptante. Para proveedores de carteras, formatos de credencial y alta de clientes, es la ocasión de reducir la apertura de cuentas empresariales a una sola presentación. Pero con un banco y una cartera, la escala depende de que otras instituciones acepten la misma credencial y de que sistemas extranjeros puedan verificarla."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}
