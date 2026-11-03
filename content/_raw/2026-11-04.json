@@ -1,0 +1,1814 @@
+{
+  "fetchedAt": "2026-11-03T17:14:24.568Z",
+  "fetchedFor": "2026-11-04",
+  "stats": {
+    "total": 35,
+    "ok": 32,
+    "failed": 3,
+    "fetched": 565,
+    "items": 264,
+    "pruned": 292,
+    "windowHours": 72,
+    "catchUp": false,
+    "prunedBySource": {
+      "idemia": 10,
+      "etsi": 14,
+      "iot-now": 15,
+      "keesing-platform": 10,
+      "nist": 39,
+      "payments-dive": 4,
+      "european-banking-authority": 10,
+      "european-commission-digital-strategy": 8,
+      "trusted-connectivity-alliance": 10,
+      "light-reading": 30,
+      "mobile-europe": 4,
+      "mobile-world-live": 11,
+      "payments-cards-mobile": 7,
+      "telef-nica": 8,
+      "mobiletime": 18,
+      "itweb": 11,
+      "cbr-news": 66,
+      "techmoran": 5,
+      "fintechnews-id": 10,
+      "telecom-review-africa": 2
+    }
+  },
+  "results": [
+    {
+      "id": "idemia",
+      "name": "IDEMIA",
+      "kind": "rss",
+      "industries": [
+        "identity",
+        "payments",
+        "telecom"
+      ],
+      "ok": true,
+      "ms": 1019,
+      "count": 0,
+      "items": []
+    },
+    {
+      "id": "biometric-update",
+      "name": "Biometric Update",
+      "kind": "rss",
+      "industries": [
+        "identity"
+      ],
+      "ok": true,
+      "ms": 1054,
+      "count": 10,
+      "items": [
+        {
+          "title": "Africa’s AI ambitions depend on stronger digital public infrastructure, expert says",
+          "url": "https://www.biometricupdate.com/202611/africas-ai-ambitions-depend-on-stronger-digital-public-infrastructure-expert-says",
+          "publishedAt": "2026-11-03T16:53:43.000Z"
+        },
+        {
+          "title": "digitalCIO Indonesia 2026",
+          "url": "https://www.biometricupdate.com/202611/digitalcio-indonesia-2026",
+          "publishedAt": "2026-11-03T16:26:57.000Z"
+        },
+        {
+          "title": "AML & FinCrime Tech Forum 2026",
+          "url": "https://www.biometricupdate.com/202611/aml-fincrime-tech-forum-2026",
+          "publishedAt": "2026-11-03T16:07:26.000Z"
+        },
+        {
+          "title": "Fourthline, Veridas close merger backed by up to €65M in funding",
+          "url": "https://www.biometricupdate.com/202611/fourthline-veridas-close-merger-backed-by-up-to-e65m-in-funding",
+          "publishedAt": "2026-11-03T15:38:01.000Z"
+        },
+        {
+          "title": "SecuGen’s MOSIP fingerprint scanner ready for use with Ugandan national ID",
+          "url": "https://www.biometricupdate.com/202611/secugens-mosip-fingerprint-scanner-ready-for-use-with-ugandan-national-id",
+          "publishedAt": "2026-11-03T14:45:46.000Z"
+        },
+        {
+          "title": "Armenia rolls out identity infrastructure for biometric passports, ID cards",
+          "url": "https://www.biometricupdate.com/202611/armenia-rolls-out-identity-infrastructure-for-biometric-passports-id-cards",
+          "publishedAt": "2026-11-03T14:30:35.000Z"
+        },
+        {
+          "title": "Future Identity Festival",
+          "url": "https://www.biometricupdate.com/202611/future-identity-festival-6",
+          "publishedAt": "2026-11-03T10:55:40.000Z"
+        },
+        {
+          "title": "More use cases, more verifiers will propel US mobile driver’s license ecosystem",
+          "url": "https://www.biometricupdate.com/202611/more-use-cases-more-verifiers-will-propel-us-mobile-drivers-license-ecosystem",
+          "publishedAt": "2026-11-02T21:43:31.000Z"
+        },
+        {
+          "title": "Innovatrics biometric IAD certified by CLR Labs for High level protection",
+          "url": "https://www.biometricupdate.com/202611/innovatrics-biometric-iad-certified-by-clr-labs-for-high-level-protection",
+          "publishedAt": "2026-11-02T21:10:56.000Z"
+        },
+        {
+          "title": "Somalia puts Hubiye national ID verification platform into operation",
+          "url": "https://www.biometricupdate.com/202611/somalia-puts-hubiye-national-id-verification-platform-into-operation",
+          "publishedAt": "2026-11-02T20:57:53.000Z"
+        }
+      ]
+    },
+    {
+      "id": "etsi",
+      "name": "ETSI",
+      "kind": "rss",
+      "industries": [
+        "identity",
+        "telecom"
+      ],
+      "ok": true,
+      "ms": 1943,
+      "count": 1,
+      "items": [
+        {
+          "title": "ETSI, TTC and TTA Explore New Global Partnership for Standardisation in Artificial Intelligence",
+          "url": "https://www.etsi.org/newsroom/press-releases/etsi-ttc-and-tta-explore-new-global-partnership-for-standardisation-in-artificial-intelligence/",
+          "publishedAt": "2026-11-02T13:34:25.000Z"
+        }
+      ]
+    },
+    {
+      "id": "gsma-newsroom",
+      "name": "GSMA Newsroom",
+      "kind": "rss",
+      "industries": [
+        "telecom"
+      ],
+      "ok": false,
+      "ms": 174,
+      "error": "期望 feed，实际返回 HTML (curl-fallback)"
+    },
+    {
+      "id": "iot-now",
+      "name": "IoT Now",
+      "kind": "rss",
+      "industries": [
+        "telecom"
+      ],
+      "ok": true,
+      "ms": 241,
+      "count": 5,
+      "items": [
+        {
+          "title": "Satellite IoT: No more blind spots in asset tracking",
+          "url": "https://iot-now.com/2026/11/03/158949-satellite-iot-no-more-blind-spots-in-asset-tracking/",
+          "publishedAt": "2026-11-03T11:07:32.000Z"
+        },
+        {
+          "title": "AI-enabled RAN automation and optimisation a US$1.1 billion market, says SNS Telecom & IT",
+          "url": "https://iot-now.com/2026/11/03/159153-ai-enabled-ran-automation-and-optimisation-a-us1-1-billion-market-says-sns-telecom-it/",
+          "publishedAt": "2026-11-03T10:30:27.000Z"
+        },
+        {
+          "title": "Ceva and Mobilint advance Physical AI with REGULUS edge AI SoC",
+          "url": "https://iot-now.com/2026/11/03/159158-ceva-mobilint-physical-ai-regulus-edge-ai-soc/",
+          "publishedAt": "2026-11-03T10:26:38.000Z"
+        },
+        {
+          "title": "Your IoT Devices Are Talking. Do You Know Who To?",
+          "url": "https://iot-now.com/2026/11/03/159167-your-iot-devices-are-talking-do-you-know-who-to/",
+          "publishedAt": "2026-11-03T09:09:38.000Z"
+        },
+        {
+          "title": "AT&T and Smart Meter expand connected healthcare reach with Global SIM Advanced",
+          "url": "https://iot-now.com/2026/11/02/159123-att-smart-meter-connected-healthcare-global-sim-advanced/",
+          "publishedAt": "2026-11-02T10:26:58.000Z"
+        }
+      ]
+    },
+    {
+      "id": "keesing-platform",
+      "name": "Keesing Platform",
+      "kind": "rss",
+      "industries": [
+        "identity"
+      ],
+      "ok": true,
+      "ms": 1055,
+      "count": 0,
+      "items": []
+    },
+    {
+      "id": "nist",
+      "name": "NIST",
+      "kind": "rss",
+      "industries": [
+        "identity"
+      ],
+      "ok": true,
+      "ms": 79,
+      "count": 1,
+      "items": [
+        {
+          "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+          "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+          "publishedAt": "2026-11-02T12:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "payments-dive",
+      "name": "Payments Dive",
+      "kind": "rss",
+      "industries": [
+        "payments"
+      ],
+      "ok": true,
+      "ms": 124,
+      "count": 6,
+      "items": [
+        {
+          "title": "Fiserv talks to potential asset buyers",
+          "url": "https://www.paymentsdive.com/news/fiserv-talks-to-potential-asset-buyers/873604/",
+          "publishedAt": "2026-11-03T15:56:00.000Z"
+        },
+        {
+          "title": "Google makes big plans for wallet",
+          "url": "https://www.paymentsdive.com/news/google-thinks-bigger-about-the-wallet-digital-agentic-retail/873585/",
+          "publishedAt": "2026-11-03T15:26:00.000Z"
+        },
+        {
+          "title": "Bilt tackles sports with $300M deal",
+          "url": "https://www.paymentsdive.com/news/bilt-acquire-lava-sports-technology-rewards-loyalty-300-million-wells-fargo-cards-cfpb/873572/",
+          "publishedAt": "2026-11-03T14:29:16.000Z"
+        },
+        {
+          "title": "Mastercard scales in India",
+          "url": "https://www.paymentsdive.com/news/mastercard-scales-in-india/873405/",
+          "publishedAt": "2026-11-02T16:18:04.000Z"
+        },
+        {
+          "title": "BNPL bolsters holiday budgets: survey",
+          "url": "https://www.paymentsdive.com/news/bnpl-bolsters-holiday-budgets-survey/873390/",
+          "publishedAt": "2026-11-02T11:23:23.000Z"
+        },
+        {
+          "title": "Fraud, capital and owning the infrastructure",
+          "url": "https://www.paymentsdive.com/spons/fraud-capital-and-owning-the-infrastructure/873353/",
+          "publishedAt": "2026-11-02T10:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "reserve-bank-of-australia-payments",
+      "name": "Reserve Bank of Australia — Payments",
+      "kind": "rss",
+      "industries": [
+        "payments"
+      ],
+      "ok": true,
+      "ms": 301,
+      "count": 1,
+      "items": [
+        {
+          "title": "Statement by the Monetary Policy Board: Monetary Policy Decision",
+          "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html",
+          "publishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "european-banking-authority",
+      "name": "European Banking Authority",
+      "kind": "rss",
+      "industries": [
+        "payments"
+      ],
+      "ok": true,
+      "ms": 550,
+      "count": 0,
+      "items": []
+    },
+    {
+      "id": "european-commission-digital-strategy",
+      "name": "European Commission – Digital Strategy",
+      "kind": "rss",
+      "industries": [
+        "identity"
+      ],
+      "ok": true,
+      "ms": 300,
+      "count": 2,
+      "items": [
+        {
+          "title": "Call for proposals: EU AI Media Platform – Modular multilingual public-interest infrastructure for European news and audiovisual media (IA) - Apply AI",
+          "url": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-eu-ai-media-platform-modular-multilingual-public-interest-infrastructure-european",
+          "publishedAt": "2026-11-03T10:49:00.000Z"
+        },
+        {
+          "title": "Web Summit 2026",
+          "url": "https://digital-strategy.ec.europa.eu/en/events/web-summit-2026",
+          "publishedAt": "2026-11-03T10:13:35.000Z"
+        }
+      ]
+    },
+    {
+      "id": "trusted-connectivity-alliance",
+      "name": "Trusted Connectivity Alliance",
+      "kind": "rss",
+      "industries": [
+        "telecom"
+      ],
+      "ok": true,
+      "ms": 329,
+      "count": 0,
+      "items": []
+    },
+    {
+      "id": "fierce-network",
+      "name": "Fierce Network",
+      "kind": "rss",
+      "industries": [
+        "telecom"
+      ],
+      "ok": true,
+      "ms": 80,
+      "count": 25,
+      "items": [
+        {
+          "title": "6.3 billion people now online, yet digital divides persist",
+          "url": "https://www.fierce-network.com/newswire/63-billion-people-now-online-yet-digital-divides-persist",
+          "publishedAt": null
+        },
+        {
+          "title": "Ericsson advances autonomous networks with software approach",
+          "url": "https://www.fierce-network.com/newswire/ericsson-advances-autonomous-networks-software-approach",
+          "publishedAt": null
+        },
+        {
+          "title": "Verizon taps Ericsson for rApps rollout",
+          "url": "https://www.fierce-network.com/wireless/verizon-taps-ericsson-rapps-rollout",
+          "publishedAt": null
+        },
+        {
+          "title": "Brightspeed Acting CEO Michel Combes steps down",
+          "url": "https://www.fierce-network.com/broadband/brightspeed-acting-ceo-michel-combes-steps-down",
+          "publishedAt": null
+        },
+        {
+          "title": "EchoStar gains 3% on report SpaceX eyes Boost Mobile",
+          "url": "https://www.fierce-network.com/wireless/echostar-gains-3-report-spacex-wants-boost-mobile",
+          "publishedAt": null
+        },
+        {
+          "title": "Lumen wants to use the network to help AI workloads chase power",
+          "url": "https://www.fierce-network.com/broadband/lumen-wants-use-network-help-ai-workloads-chase-power",
+          "publishedAt": null
+        },
+        {
+          "title": "Marvell buys Lumentum in $115B AI networking power play",
+          "url": "https://www.fierce-network.com/broadband/marvell-buys-lumentum-115b-ai-networking-power-play",
+          "publishedAt": null
+        },
+        {
+          "title": "Ericsson launches ISAC system for drone detection",
+          "url": "https://www.fierce-network.com/wireless/ericsson-launches-isac-system-drone-detection",
+          "publishedAt": null
+        },
+        {
+          "title": "Fiber operator Brightspeed faces potential bankruptcy",
+          "url": "https://www.fierce-network.com/broadband/fiber-operator-brightspeed-faces-potential-bankruptcy",
+          "publishedAt": null
+        },
+        {
+          "title": "Do SpaceX’s ‘missing pieces’ carry a Dish logo on them?",
+          "url": "https://www.fierce-network.com/wireless/does-spacexs-missing-pieces-have-dish-logo-them",
+          "publishedAt": null
+        },
+        {
+          "title": "United Communications: one fiber operator that doesn’t want to sell",
+          "url": "https://www.fierce-network.com/broadband/united-communications-one-fiber-operator-doesnt-want-sell",
+          "publishedAt": null
+        },
+        {
+          "title": "Ekinops and Orange Business collaborate on decarbonization plan",
+          "url": "https://www.fierce-network.com/newswire/ekinops-and-orange-business-collaborate-decarbonization-plan",
+          "publishedAt": null
+        },
+        {
+          "title": "AWS revenue grew nearly 40% in Q3 – it wasn’t enough for investors",
+          "url": "https://www.fierce-network.com/cloud/aws-revenue-grew-nearly-40-q3-it-wasnt-enough-investors",
+          "publishedAt": null
+        },
+        {
+          "title": "The Five Nine: Can AI fix telecom's customer experience problem?",
+          "url": "https://www.fierce-network.com/wireless/five-nine-can-ai-fix-telecoms-customer-experience-problem",
+          "publishedAt": null
+        },
+        {
+          "title": "FCC doubles down on D2D with spectrum plays",
+          "url": "https://www.fierce-network.com/wireless/fcc-doubles-down-d2d-spectrum-plays",
+          "publishedAt": null
+        },
+        {
+          "title": "Alphabet vs. Microsoft earnings: Why investors see their AI spending differently",
+          "url": "https://www.fierce-network.com/cloud/alphabet-vs-microsoft-earnings-why-investors-see-their-ai-spending-differently",
+          "publishedAt": null
+        },
+        {
+          "title": "Amphenol’s CEO lavishes high praise on the CommScope team",
+          "url": "https://www.fierce-network.com/broadband/amphenols-ceo-lavishes-high-praise-commscope-team",
+          "publishedAt": null
+        },
+        {
+          "title": "Opinion: Tele2 prepares its network for physical AI",
+          "url": "https://www.fierce-network.com/cloud/tele2-prepares-its-network-physical-ai",
+          "publishedAt": null
+        },
+        {
+          "title": "Deutsche Telekom shelves plan to merge with T-Mobile US – report",
+          "url": "https://www.fierce-network.com/wireless/deutsche-telekom-shelves-plan-merge-t-mobile-us-report",
+          "publishedAt": null
+        },
+        {
+          "title": "T-Mobile raises profit, adds 274K accounts in Q3",
+          "url": "https://www.fierce-network.com/wireless/t-mobile-raises-profit-adds-274k-accounts-q3",
+          "publishedAt": null
+        },
+        {
+          "title": "Huawei and NISCO put AI to work in the steelworks",
+          "url": "https://www.fierce-network.com/sponsored/huawei-and-nisco-put-ai-work-steelworks",
+          "publishedAt": null
+        },
+        {
+          "title": "Akamai wants to be the Goldilocks of AI inference",
+          "url": "https://www.fierce-network.com/cloud/akamai-wants-be-goldilocks-ai-inference",
+          "publishedAt": null
+        },
+        {
+          "title": "Opinion: What networks must learn from today’s high-speed rail disaster",
+          "url": "https://www.fierce-network.com/cloud/opinion-what-networks-must-learn-todays-high-speed-rail-disaster",
+          "publishedAt": null
+        },
+        {
+          "title": "SpaceX helps give towers new lease on life",
+          "url": "https://www.fierce-network.com/wireless/spacex-helps-give-towers-new-lease-life",
+          "publishedAt": null
+        },
+        {
+          "title": "Extreme Networks reports 1Q fiscal year 2027 financial results",
+          "url": "https://www.fierce-network.com/newswire/extreme-networks-reports-1q-fiscal-year-2027-financial-results",
+          "publishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "light-reading",
+      "name": "Light Reading",
+      "kind": "rss",
+      "industries": [
+        "telecom"
+      ],
+      "ok": true,
+      "ms": 563,
+      "count": 20,
+      "items": [
+        {
+          "title": "Cable One extends mobile to small businesses",
+          "url": "https://www.lightreading.com/cable-technology/cable-one-extends-mobile-to-small-businesses",
+          "publishedAt": "2026-11-03T15:13:32.000Z"
+        },
+        {
+          "title": "Marvell-Lumentum deal tests whether AI optics go single-vendor",
+          "url": "https://www.lightreading.com/optical-networking/marvell-lumentum-deal-tests-whether-ai-optics-go-single-vendor",
+          "publishedAt": "2026-11-03T14:00:00.000Z"
+        },
+        {
+          "title": "Why Boost Mobile isn't SpaceX's shortcut to an MVNO",
+          "url": "https://www.lightreading.com/satellite/why-boost-mobile-isn-t-spacex-s-shortcut-to-an-mvno",
+          "publishedAt": "2026-11-03T13:00:00.000Z"
+        },
+        {
+          "title": "House Democrats demand bipartisan FCC, Gomez renomination",
+          "url": "https://www.lightreading.com/regulatory-politics/house-democrats-demand-bipartisan-fcc-gomez-renomination",
+          "publishedAt": "2026-11-03T13:00:00.000Z"
+        },
+        {
+          "title": "Chinese telcos take 45% stake in new $4.5B national data company",
+          "url": "https://www.lightreading.com/data-centers/china-telcos-take-45-stake-in-new-4-5b-national-data-company",
+          "publishedAt": "2026-11-03T12:57:54.000Z"
+        },
+        {
+          "title": "VMO2 to axe 30% staff costs, halt fiber build in £800M savings plan",
+          "url": "https://www.lightreading.com/finance/vmo2-to-axe-30-of-staff-costs-halt-fiber-build-in-800m-savings-plan",
+          "publishedAt": "2026-11-03T11:45:49.000Z"
+        },
+        {
+          "title": "Eurobites: VodafoneThree helps fight 'SIM farm' menace in UK",
+          "url": "https://www.lightreading.com/security/eurobites-vodafonethree-helps-fight-sim-farm-menace-in-uk",
+          "publishedAt": "2026-11-03T10:38:37.000Z"
+        },
+        {
+          "title": "Malaysia's OMS Group raises $1.03B loan to expand subsea cable fleet",
+          "url": "https://www.lightreading.com/finance/oms-group-raises-1-03b-loan-to-expand-subsea-cable-fleet",
+          "publishedAt": "2026-11-03T10:37:02.000Z"
+        },
+        {
+          "title": "After stadium wins, MatSing can thrive in massive MIMO 5G blues",
+          "url": "https://www.lightreading.com/5g/after-stadium-wins-matsing-can-thrive-in-massive-mimo-5g-blues",
+          "publishedAt": "2026-11-03T08:30:00.000Z"
+        },
+        {
+          "title": "Brightspeed swaps CEOs as it reportedly nears bankruptcy",
+          "url": "https://www.lightreading.com/broadband/brightspeed-swaps-ceos-as-it-reportedly-nears-bankruptcy",
+          "publishedAt": "2026-11-02T21:50:00.000Z"
+        },
+        {
+          "title": "SpaceX eyes back door to MVNO via Boost Mobile – report",
+          "url": "https://www.lightreading.com/satellite/spacex-eyes-back-door-to-mvno-via-boost-mobile-report",
+          "publishedAt": "2026-11-02T16:32:14.000Z"
+        },
+        {
+          "title": "Marvell strikes $115B deal for Lumentum",
+          "url": "https://www.lightreading.com/ai-machine-learning/marvell-strikes-115b-deal-for-lumentum",
+          "publishedAt": "2026-11-02T15:56:08.000Z"
+        },
+        {
+          "title": "T-Mobile rolls out 5-Gig fiber, with 10-year price lock",
+          "url": "https://www.lightreading.com/broadband/t-mobile-rolls-out-5-gig-fiber-with-10-year-price-lock",
+          "publishedAt": "2026-11-02T15:49:29.000Z"
+        },
+        {
+          "title": "HKT pulls out of US under FCC pressure – report",
+          "url": "https://www.lightreading.com/regulatory-politics/hkt-pulls-out-of-us-under-fcc-pressure--report",
+          "publishedAt": "2026-11-02T15:09:26.000Z"
+        },
+        {
+          "title": "Comcast state-level layoff warnings start to roll in",
+          "url": "https://www.lightreading.com/cable-technology/comcast-state-level-layoff-warnings-start-to-roll-in",
+          "publishedAt": "2026-11-02T15:05:34.000Z"
+        },
+        {
+          "title": "Cable One sets up committee to 'evaluate strategic alternatives'",
+          "url": "https://www.lightreading.com/cable-technology/cable-one-sets-up-committee-to-evaluate-strategic-alternatives-",
+          "publishedAt": "2026-11-02T14:42:46.000Z"
+        },
+        {
+          "title": "Eurobites: VMO2 planning mass layoffs – reports",
+          "url": "https://www.lightreading.com/business-transformation/eurobites-vmo2-planning-mass-layoffs-reports",
+          "publishedAt": "2026-11-02T13:01:39.000Z"
+        },
+        {
+          "title": "LG CNS sets sights on APAC as it scales up AIDC development",
+          "url": "https://www.lightreading.com/data-centers/lg-cns-sets-sights-on-apac-as-it-scales-up-aidc-development",
+          "publishedAt": "2026-11-02T11:06:00.000Z"
+        },
+        {
+          "title": "Greenwatch: Time to declutter Earth's orbit?",
+          "url": "https://www.lightreading.com/sustainability/greenwatch-time-to-declutter-earth-s-orbit-",
+          "publishedAt": "2026-11-02T10:54:12.000Z"
+        },
+        {
+          "title": "Nokia quickie with Marvell at VMO2 shows AI-RAN needs no Nvidia",
+          "url": "https://www.lightreading.com/5g/nokia-quickie-with-marvell-at-vmo2-shows-ai-ran-needs-no-nvidia",
+          "publishedAt": "2026-11-02T08:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "mobile-europe",
+      "name": "Mobile Europe",
+      "kind": "rss",
+      "industries": [
+        "telecom"
+      ],
+      "ok": true,
+      "ms": 1942,
+      "count": 6,
+      "items": [
+        {
+          "title": "VodafoneThree upgrades 5G connectivity at Manchester’s Co-op Live",
+          "url": "https://www.mobileeurope.co.uk/vodafonethree-co-op-live/",
+          "publishedAt": "2026-11-03T08:42:51.000Z"
+        },
+        {
+          "title": "Ericsson,Telia sign 6G partnership agreement",
+          "url": "https://www.mobileeurope.co.uk/ericsson-telia-mou-6g/",
+          "publishedAt": "2026-11-03T08:17:38.000Z"
+        },
+        {
+          "title": "SES secures Finnair deal for multi-orbit in-flight Wi-Fi",
+          "url": "https://www.mobileeurope.co.uk/ses-finnair-leo/",
+          "publishedAt": "2026-11-03T07:56:21.000Z"
+        },
+        {
+          "title": "AI-assisted engineering set to change future OSS, says Telefónica Deutschland",
+          "url": "https://www.mobileeurope.co.uk/ai-assisted-oss-telefonica/",
+          "publishedAt": "2026-11-02T10:23:52.000Z"
+        },
+        {
+          "title": "Report: VMO2 plans thousands of job cuts amid £22bn debt concerns",
+          "url": "https://www.mobileeurope.co.uk/vmo2-job-cuts/",
+          "publishedAt": "2026-11-02T09:47:30.000Z"
+        },
+        {
+          "title": "Ericsson partners with Batelco to upgrade Bahrain’s mobile network",
+          "url": "https://www.mobileeurope.co.uk/ericsson-batelco-beyon-bahrain/",
+          "publishedAt": "2026-11-02T09:18:45.000Z"
+        }
+      ]
+    },
+    {
+      "id": "mobile-world-live",
+      "name": "Mobile World Live",
+      "kind": "rss",
+      "industries": [
+        "telecom"
+      ],
+      "ok": true,
+      "ms": 174,
+      "count": 19,
+      "items": [
+        {
+          "title": "u-blox samples low-power Wi-Fi module",
+          "url": "https://www.mobileworldlive.com/devices/u-blox-samples-low-power-wi-fi-module/",
+          "publishedAt": "2026-11-03T15:45:51.000Z"
+        },
+        {
+          "title": "SoftBank, Sceye strike 5-year HAPS deal",
+          "url": "https://www.mobileworldlive.com/network-tech/softbank-sceye-strike-5-year-haps-deal/",
+          "publishedAt": "2026-11-03T15:37:56.000Z"
+        },
+        {
+          "title": "Orange France streamlines order fulfilment",
+          "url": "https://www.mobileworldlive.com/industry/orange-france-streamlines-order-fulfilment/",
+          "publishedAt": "2026-11-03T15:37:04.000Z"
+        },
+        {
+          "title": "Russia, China likely to ramp up UK cyberattacks",
+          "url": "https://www.mobileworldlive.com/ai-cloud/russia-china-to-ramp-up-uk-cyberattacks-by-2028/",
+          "publishedAt": "2026-11-03T15:20:45.000Z"
+        },
+        {
+          "title": "Apple boss hails prolific period as iPhone drives top-line",
+          "url": "https://www.mobileworldlive.com/apple/apple-boss-hails-prolific-period-as-iphone-drives-top-line/",
+          "publishedAt": "2026-11-03T12:47:56.000Z"
+        },
+        {
+          "title": "Telenor gets nod to proceed with Bahnhof deal",
+          "url": "https://www.mobileworldlive.com/regulation/telenor-gets-nod-to-proceed-with-bahnhof-deal/",
+          "publishedAt": "2026-11-03T11:03:56.000Z"
+        },
+        {
+          "title": "AT&T, AST handle D2D handoff",
+          "url": "https://www.mobileworldlive.com/operators/att-ast-handle-d2d-handoff/",
+          "publishedAt": "2026-11-03T10:57:49.000Z"
+        },
+        {
+          "title": "SpaceX in talks to buy Boost Mobile, network assets",
+          "url": "https://www.mobileworldlive.com/starlink/spacex-in-talks-to-buy-boost-mobile-network-assets/",
+          "publishedAt": "2026-11-02T16:56:53.000Z"
+        },
+        {
+          "title": "Marvell, Lumentum agree blockbuster $115B AI deal",
+          "url": "https://www.mobileworldlive.com/ai-cloud/marvell-lumentum-agree-blockbuster-115b-ai-deal/",
+          "publishedAt": "2026-11-02T16:38:44.000Z"
+        },
+        {
+          "title": "NTT East launches SMB AI marketing plan",
+          "url": "https://www.mobileworldlive.com/industry/ntt-east-launches-smb-ai-marketing-plan/",
+          "publishedAt": "2026-11-02T16:30:41.000Z"
+        },
+        {
+          "title": "Finnair jets to SES, Eutelsat in-flight deal",
+          "url": "https://www.mobileworldlive.com/industry/finnair-jets-to-ses-eutelsat-in-flight-deal/",
+          "publishedAt": "2026-11-02T16:26:06.000Z"
+        },
+        {
+          "title": "Free registration: Unwrapped – The 5G Evolution",
+          "url": "https://www.mobileworldlive.com/old_latest-stories/free-registration-unwrapped-the-5g-evolution/",
+          "publishedAt": "2026-11-02T15:50:37.000Z"
+        },
+        {
+          "title": "KT calls time on 3G sign-ups",
+          "url": "https://www.mobileworldlive.com/operators/kt-calls-time-on-3g-sign-ups/",
+          "publishedAt": "2026-11-02T14:35:18.000Z"
+        },
+        {
+          "title": "GSMA re-elects Vittal as chair until end-2028",
+          "url": "https://www.mobileworldlive.com/vodafone/gsma-re-elects-vittal-as-chair-until-end-2028/",
+          "publishedAt": "2026-11-02T11:59:39.000Z"
+        },
+        {
+          "title": "VMO2 poised to cut thousands of jobs in shake-up",
+          "url": "https://www.mobileworldlive.com/operators/vmo2-poised-to-cuts-thousands-of-jobs-in-shake-up/",
+          "publishedAt": "2026-11-02T11:41:48.000Z"
+        },
+        {
+          "title": "Telenor flags Nordic cybersecurity need",
+          "url": "https://www.mobileworldlive.com/operators/telenor-flags-nordic-cybersecurity-need/",
+          "publishedAt": "2026-11-02T11:39:21.000Z"
+        },
+        {
+          "title": "Telia, Ericsson broaden 6G research",
+          "url": "https://www.mobileworldlive.com/network-tech/telia-ericsson-broaden-6g-research/",
+          "publishedAt": "2026-11-02T11:29:47.000Z"
+        },
+        {
+          "title": "Ericsson prepares ISAC platform for mobile operators",
+          "url": "https://www.mobileworldlive.com/ericsson/ericsson-bows-isac-platform-for-mobile-operators/",
+          "publishedAt": "2026-11-02T10:01:32.000Z"
+        },
+        {
+          "title": "OpenAI tightens teen safeguards, plans safety reports",
+          "url": "https://www.mobileworldlive.com/ai-cloud/openai-tightens-teen-safeguards-plans-safety-reports/",
+          "publishedAt": "2026-11-02T09:36:44.000Z"
+        }
+      ]
+    },
+    {
+      "id": "payments-cards-mobile",
+      "name": "Payments Cards & Mobile",
+      "kind": "rss",
+      "industries": [
+        "payments"
+      ],
+      "ok": true,
+      "ms": 913,
+      "count": 3,
+      "items": [
+        {
+          "title": "ECB Selects Network Providers to Build Digital Euro Connectivity Layer",
+          "url": "https://paymentsindustryintelligence.com/ecb-selects-network-providers-for-digital-euro/",
+          "publishedAt": "2026-11-03T17:05:30.000Z"
+        },
+        {
+          "title": "Apple Pay and Google Pay Launch in Uzbekistan as Fintech Reforms Gather Pace",
+          "url": "https://paymentsindustryintelligence.com/apple-pay-and-google-pay-launch-in-uzbekistan/",
+          "publishedAt": "2026-11-03T17:04:44.000Z"
+        },
+        {
+          "title": "ACI Worldwide and Circle Test USDC Settlement Alongside Latin America’s Payment Rails",
+          "url": "https://paymentsindustryintelligence.com/aci-worldwide-and-circle-test-usdc-settlement-in-colombia/",
+          "publishedAt": "2026-11-03T17:04:08.000Z"
+        }
+      ]
+    },
+    {
+      "id": "pymnts",
+      "name": "PYMNTS",
+      "kind": "rss",
+      "industries": [
+        "payments"
+      ],
+      "ok": true,
+      "ms": 203,
+      "count": 10,
+      "items": [
+        {
+          "title": "Court Ruling Adds Constitutional Wrinkle to Algorithmic Pricing Debate",
+          "url": "https://www.pymnts.com/legal/2026/court-ruling-adds-constitutional-wrinkle-to-algorithmic-pricing-debate/",
+          "publishedAt": "2026-11-03T16:52:31.000Z"
+        },
+        {
+          "title": "OpenAI Turns to Ex-Army Secretary for Cybersecurity Counsel",
+          "url": "https://www.pymnts.com/personnel/2026/openai-turns-to-ex-army-secretary-for-cybersecurity-counsel/",
+          "publishedAt": "2026-11-03T16:39:41.000Z"
+        },
+        {
+          "title": "Payment Networks Earnings: Five Takeaways on Spending and Technology",
+          "url": "https://www.pymnts.com/earnings/2026/payment-networks-earnings-five-takeaways-spending-technology/",
+          "publishedAt": "2026-11-03T16:30:29.000Z"
+        },
+        {
+          "title": "Paymentus Posts Record Revenue as Billers Prioritize Frictionless End-Customer Experience",
+          "url": "https://www.pymnts.com/earnings/2026/paymentus-posts-record-revenue-as-billers-prioritize-frictionless-end-customer-experience/",
+          "publishedAt": "2026-11-03T16:08:42.000Z"
+        },
+        {
+          "title": "Fiserv Wants AI to Fix What Decades of Payments Growth Made Expensive",
+          "url": "https://www.pymnts.com/earnings/2026/fiserv-wants-ai-to-fix-what-decades-of-payments-growth-made-expensive/",
+          "publishedAt": "2026-11-03T15:47:43.000Z"
+        },
+        {
+          "title": "ElevenLabs CEO Eyes 2028 IPO Prep for Voice AI Firm",
+          "url": "https://www.pymnts.com/news/investment-tracker/ipo/2026/elevenlabs-ceo-eyes-2028-ipo-prep-voice-ai-firm/",
+          "publishedAt": "2026-11-03T15:09:38.000Z"
+        },
+        {
+          "title": "Grab Gets AI Assistance as Revenues Rise 27%",
+          "url": "https://www.pymnts.com/earnings/2026/grab-gets-ai-assistance-as-revenues-rise-27percent/",
+          "publishedAt": "2026-11-03T13:55:52.000Z"
+        },
+        {
+          "title": "AI Agents Could Control 5% of Cross-Border Payments. Who Controls Them?",
+          "url": "https://www.pymnts.com/news/payments-innovation/2026/ai-agents-could-control-5percent-of-cross-border-payments-who-controls-them/",
+          "publishedAt": "2026-11-03T09:03:22.000Z"
+        },
+        {
+          "title": "MIT Researchers Say Privacy Rules Will Shape AI Competition",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/mit-researchers-say-privacy-rules-will-shape-ai-competition/",
+          "publishedAt": "2026-11-03T09:01:11.000Z"
+        },
+        {
+          "title": "Economic Optimism Gains 3.8 Percentage Points as Shoppers Stay Selective",
+          "url": "https://www.pymnts.com/consumer-insights/2026/economic-optimism-gains-3-8-percentage-points-as-shoppers-stay-selective/",
+          "publishedAt": "2026-11-03T09:00:54.000Z"
+        }
+      ]
+    },
+    {
+      "id": "rcr-wireless-news",
+      "name": "RCR Wireless News",
+      "kind": "rss",
+      "industries": [
+        "telecom"
+      ],
+      "ok": false,
+      "ms": 515,
+      "error": "期望 feed，实际返回 HTML (curl-fallback)"
+    },
+    {
+      "id": "telef-nica",
+      "name": "Telefónica",
+      "kind": "rss",
+      "industries": [
+        "telecom"
+      ],
+      "ok": true,
+      "ms": 400,
+      "count": 2,
+      "items": [
+        {
+          "title": "O2 celebrates its eighth anniversary with a customer experience based on peace of mind and transparency, and a broader range of offerings",
+          "url": "https://www.telefonica.com/en/communication-room/press-room/o2-celebrates-its-eighth-anniversary-with-a-customer-experience-based-on-peace-of-mind-and-transparency-and-a-broader-range-of-offerings/",
+          "publishedAt": "2026-11-03T12:38:21.000Z"
+        },
+        {
+          "title": "Team leadership: keys to building trust, autonomy and impact",
+          "url": "https://www.telefonica.com/en/communication-room/blog/team-leadership-keys-building-trust-autonomy-impact/",
+          "publishedAt": "2026-11-02T08:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "total-telecom",
+      "name": "Total Telecom",
+      "kind": "rss",
+      "industries": [
+        "telecom"
+      ],
+      "ok": false,
+      "ms": 389,
+      "error": "期望 feed，实际返回 HTML (curl-fallback)"
+    },
+    {
+      "id": "mobiletime",
+      "name": "Mobile Time",
+      "kind": "rss",
+      "industries": [
+        "telecom",
+        "banking"
+      ],
+      "ok": true,
+      "ms": 864,
+      "count": 2,
+      "items": [
+        {
+          "title": "Movecomm debaterá inovação em conectividade veicular",
+          "url": "https://www.mobiletime.com.br/noticias/03/11/2026/movecomm-inovacao/",
+          "publishedAt": "2026-11-03T15:20:07.000Z"
+        },
+        {
+          "title": "Entre a segurança e o bloqueio: os desafios da nova regulamentação das comunicações",
+          "url": "https://www.mobiletime.com.br/colunistas/03/11/2026/bloqueio-de-chamadas/",
+          "publishedAt": "2026-11-03T10:25:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": "dplnews",
+      "name": "DPL News",
+      "kind": "rss",
+      "industries": [
+        "telecom",
+        "banking",
+        "identity"
+      ],
+      "ok": true,
+      "ms": 1172,
+      "count": 10,
+      "items": [
+        {
+          "title": "“España debe anticipar la agenda europea y convertir la digitalización en política transversal”: DigitalEs",
+          "url": "https://dplnews.com/espana-digitalizacion-politica-transversal-digitales/",
+          "publishedAt": "2026-11-03T16:49:26.000Z"
+        },
+        {
+          "title": "IA cumple expectativas de las empresas, pero pocas pueden explicar sus decisiones",
+          "url": "https://dplnews.com/ia-cumple-expectativas-pocas-explican-decisiones-fico/",
+          "publishedAt": "2026-11-03T16:18:46.000Z"
+        },
+        {
+          "title": "Paraguay | “La comunicación se construye cada día, en cada departamento y en cada distrito”: Biedermann",
+          "url": "https://dplnews.com/paraguay-la-comunicacion-se-construye-cada-dia-en-cada-departamento-y-en-cada-distrito-biedermann/",
+          "publishedAt": "2026-11-03T16:01:14.000Z"
+        },
+        {
+          "title": "Perú | Osiptel explica quién debe registrar los celulares en la lista blanca",
+          "url": "https://dplnews.com/peru-osiptel-explica-quien-debe-registrar-celulares-renteseg/",
+          "publishedAt": "2026-11-03T15:55:22.000Z"
+        },
+        {
+          "title": "Oracle Red Bull Racing: datos, Nube e IA detrás de la victoria de Verstappen en México",
+          "url": "https://dplnews.com/oracle-red-bull-racing-datos-nube-e-ia-detras-de-la-victoria-de-verstappen-en-mexico/",
+          "publishedAt": "2026-11-03T15:46:28.000Z"
+        },
+        {
+          "title": "Perú | Proyecto 911 alcanza cerca del 80% de avance en su infraestructura",
+          "url": "https://dplnews.com/peru-proyecto-911-alcanza-80-avance-en-su-infraestructura/",
+          "publishedAt": "2026-11-03T15:46:01.000Z"
+        },
+        {
+          "title": "Perú | Empresas operadoras deben continuar con cortes del servicio móvil y el bloqueo de equipos usados desde centros penitenciarios",
+          "url": "https://dplnews.com/peru-empresas-operadoras-deben-continuar-cortes-servicio-movil-bloqueo-equipos-usados-centros-penitenciarios/",
+          "publishedAt": "2026-11-03T15:38:48.000Z"
+        },
+        {
+          "title": "Como o Brasil venceu o jogo das redes no território das big techs",
+          "url": "https://dplnews.com/como-o-brasil-venceu-o-jogo-das-redes-no-territorio-das-big-techs/",
+          "publishedAt": "2026-11-03T15:14:09.000Z"
+        },
+        {
+          "title": "Argentina | ORBITH impulsa soluciones satelitales móviles como recurso crítico de respuesta",
+          "url": "https://dplnews.com/argentina-orbith-impulsa-soluciones-satelitales-moviles-como-recurso-critico-de-respuesta/",
+          "publishedAt": "2026-11-03T15:09:47.000Z"
+        },
+        {
+          "title": "O2 cumple ocho años con una experiencia de cliente basada en la tranquilidad y la transparencia, y una oferta más amplia",
+          "url": "https://dplnews.com/o2-cumple-ocho-anos-con-una-experiencia-de-cliente-basada-en-la-tranquilidad-y-la-transparencia-y-una-oferta-mas-amplia/",
+          "publishedAt": "2026-11-03T14:48:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": "telesemana",
+      "name": "TeleSemana",
+      "kind": "rss",
+      "industries": [
+        "telecom"
+      ],
+      "ok": true,
+      "ms": 1127,
+      "count": 10,
+      "items": [
+        {
+          "title": "SpaceX y Boost Mobile: una posible operación, muchas interpretaciones y una pregunta sobre el verdadero plan de Musk",
+          "url": "https://www.telesemana.com/blog/2026/11/03/spacex-y-boost-mobile-una-posible-operacion-muchas-interpretaciones-y-una-pregunta-sobre-el-verdadero-plan-de-musk/",
+          "publishedAt": "2026-11-03T17:09:14.000Z"
+        },
+        {
+          "title": "Verizon planea desplegar el controlador EIC de Ericsson en su red nacional durante 2026",
+          "url": "https://www.telesemana.com/blog/2026/11/03/verizon-planea-desplegar-el-controlador-eic-de-ericsson-en-su-red-nacional-durante-2026/",
+          "publishedAt": "2026-11-03T16:33:31.000Z"
+        },
+        {
+          "title": "La GSMA propone cinco principios para reforzar las redes móviles ante daños climáticos",
+          "url": "https://www.telesemana.com/blog/2026/11/03/la-gsma-propone-cinco-principios-para-reforzar-las-redes-moviles-ante-danos-climaticos/",
+          "publishedAt": "2026-11-03T16:27:08.000Z"
+        },
+        {
+          "title": "HPE y Ericsson publican un modelo validado para desplegar el core 5G dual-mode sobre OpenShift",
+          "url": "https://www.telesemana.com/blog/2026/11/03/hpe-y-ericsson-publican-un-modelo-validado-para-desplegar-el-core-5g-dual-mode-sobre-openshift/",
+          "publishedAt": "2026-11-03T16:13:57.000Z"
+        },
+        {
+          "title": "Telia y Ericsson inician pruebas de campo preestándar de 6G en Suecia",
+          "url": "https://www.telesemana.com/blog/2026/11/02/telia-y-ericsson-inician-pruebas-de-campo-preestandar-de-6g-en-suecia/",
+          "publishedAt": "2026-11-02T20:24:50.000Z"
+        },
+        {
+          "title": "ETSI, TTA y TTC firman una carta de intención para explorar una alianza global de estándares de IA",
+          "url": "https://www.telesemana.com/blog/2026/11/02/etsi-tta-y-ttc-firman-una-carta-de-intencion-para-explorar-una-alianza-global-de-estandares-de-ia/",
+          "publishedAt": "2026-11-02T20:21:09.000Z"
+        },
+        {
+          "title": "Ericsson aprovecha el miedo a los drones para demostrar el potencial de 5G como sistema de vigilancia aérea",
+          "url": "https://www.telesemana.com/blog/2026/11/02/ericsson-aprovecha-el-miedo-a-los-drones-para-demostrar-el-potencial-de-5g-como-sistema-de-vigilancia-aerea/",
+          "publishedAt": "2026-11-02T19:44:27.000Z"
+        },
+        {
+          "title": "Nvidia, Schneider Electric y HPE aceleran la IA industrial y abren el juego a las telcos",
+          "url": "https://www.telesemana.com/blog/2026/11/02/nvidia-schneider-electric-y-hpe-aceleran-la-ia-industrial-y-abren-el-juego-a-las-telcos/",
+          "publishedAt": "2026-11-02T18:35:05.000Z"
+        },
+        {
+          "title": "En lo que va del año, Brasil recibió US$5.607 millones de inversión extranjera",
+          "url": "https://www.telesemana.com/blog/2026/11/02/en-lo-que-va-del-ano-brasil-recibio-us5-607-millones-de-inversion-extranjera-para-el-sector/",
+          "publishedAt": "2026-11-02T17:58:12.000Z"
+        },
+        {
+          "title": "Entel completó la totalidad de la cobertura 5G de la red del Metro de Santiago en Chile",
+          "url": "https://www.telesemana.com/blog/2026/11/02/entel-completo-la-totalidad-de-la-cobertura-5g-de-la-red-del-metro-de-santiago-en-chile/",
+          "publishedAt": "2026-11-02T17:38:47.000Z"
+        }
+      ]
+    },
+    {
+      "id": "itweb",
+      "name": "ITWeb",
+      "kind": "rss",
+      "industries": [
+        "telecom",
+        "banking",
+        "identity"
+      ],
+      "ok": true,
+      "ms": 138,
+      "count": 22,
+      "items": [
+        {
+          "title": "ICASA takes aim at dormant telecoms licences",
+          "url": "https://www.itweb.co.za/article/icasa-takes-aim-at-dormant-telecoms-licences/j5alrvQAdwJvpYQk",
+          "publishedAt": "2026-11-03T08:39:01.000Z"
+        },
+        {
+          "title": "Uptick in SA’s new energy vehicle market",
+          "url": "https://www.itweb.co.za/article/uptick-in-sas-new-energy-vehicle-market/raYAyqor6GdMJ38N",
+          "publishedAt": "2026-11-03T13:05:00.000Z"
+        },
+        {
+          "title": "Discovery uses AI to reduce risky driving",
+          "url": "https://www.itweb.co.za/article/discovery-uses-ai-to-reduce-risky-driving/JBwEr7n3EzjM6Db2",
+          "publishedAt": "2026-11-03T11:06:42.000Z"
+        },
+        {
+          "title": "Pick n Pay targets faster online orders with AI",
+          "url": "https://www.itweb.co.za/article/pick-n-pay-targets-faster-online-orders-with-ai/KBpdg7pmwG5MLEew",
+          "publishedAt": "2026-11-03T10:42:41.000Z"
+        },
+        {
+          "title": "Seasoned exec named SITA digital officer",
+          "url": "https://www.itweb.co.za/article/seasoned-exec-named-sita-digital-officer/LPwQ5MlbOo1vNgkj",
+          "publishedAt": "2026-11-03T10:29:00.000Z"
+        },
+        {
+          "title": "Township fibre can reach 70% uptake",
+          "url": "https://www.itweb.co.za/article/township-fibre-can-reach-70-uptake/DZQ58MV8g3NvzXy2",
+          "publishedAt": "2026-11-03T09:59:14.000Z"
+        },
+        {
+          "title": "Building governance capabilities to support SA’s digital economy",
+          "url": "https://www.itweb.co.za/article/building-governance-capabilities-to-support-sas-digital-economy/wbrpOqg2enOMDLZn",
+          "publishedAt": "2026-11-03T09:47:41.000Z"
+        },
+        {
+          "title": "Top ICT tenders: Deeds registry to get infrastructure upgrade",
+          "url": "https://www.itweb.co.za/article/top-ict-tenders-deeds-registry-to-get-infrastructure-upgrade/DZQ58MV8gELvzXy2",
+          "publishedAt": "2026-11-02T12:41:00.000Z"
+        },
+        {
+          "title": "Turning data into measurable business value",
+          "url": "https://www.itweb.co.za/article/turning-data-into-measurable-business-value/LPp6V7rBrO17DKQz",
+          "publishedAt": "2026-11-03T07:37:11.000Z"
+        },
+        {
+          "title": "Hightouch Launches Match Booster in Europe, Raising Match Rates Without Compromising Compliance",
+          "url": "https://www.itweb.co.za/article/hightouch-launches-match-booster-in-europe-raising-match-rates-without-compromising-compliance/8OKdWqDXO22qbznQ",
+          "publishedAt": "2026-11-03T10:35:49.000Z"
+        },
+        {
+          "title": "NetApp Completes Acquisition of PEAK:AIO to Accelerate Zettabyte-scale AI Deployments",
+          "url": "https://www.itweb.co.za/article/netapp-completes-acquisition-of-peakaio-to-accelerate-zettabyte-scale-ai-deployments/DZQ587V8gRLqzXy2",
+          "publishedAt": "2026-11-02T13:00:00.000Z"
+        },
+        {
+          "title": "Uptime Institute and Indonesia Ministry of Communication and Digital Affairs (KOMDIGI) Sign Letter of Intent (LOI) to Support Data Center Policy, Governance, and Industry Development",
+          "url": "https://www.itweb.co.za/article/uptime-institute-and-indonesia-ministry-of-communication-and-digital-affairs-komdigi-sign-letter-of-intent-loi-to-support-data-center-policy-governance-and-industry-development/8OKdWqDXOPjqbznQ",
+          "publishedAt": "2026-11-02T05:04:00.000Z"
+        },
+        {
+          "title": "Uptime Institute Signs Memorandum of Understanding (MOU) with Indonesian Data Center Providers Association (IDPRO) to Advance Indonesia's Data Center Industry",
+          "url": "https://www.itweb.co.za/article/uptime-institute-signs-memorandum-of-understanding-mou-with-indonesian-data-center-providers-association-idpro-to-advance-indonesias-data-center-industry/KPNG878NYerq4mwD",
+          "publishedAt": "2026-11-02T05:02:00.000Z"
+        },
+        {
+          "title": "Unitech showcases its latest solutions to Tactile customers in Jhb, CT",
+          "url": "https://www.itweb.co.za/article/unitech-showcases-its-latest-solutions-to-tactile-customers-in-jhb-ct/VgZey7JlrWxqdjX9",
+          "publishedAt": "2026-11-03T09:04:00.000Z"
+        },
+        {
+          "title": "Datacentrix introduces OT Cybersecurity Baseline Assessment to help industrial organisations strengthen cyber resilience",
+          "url": "https://www.itweb.co.za/article/datacentrix-introduces-ot-cybersecurity-baseline-assessment-to-help-industrial-organisations-strengthen-cyber-resilience/G98Yd7LGABrvX2PD",
+          "publishedAt": "2026-11-03T09:03:00.000Z"
+        },
+        {
+          "title": "SA's cloud scene just got more interesting",
+          "url": "https://www.itweb.co.za/article/sas-cloud-scene-just-got-more-interesting/KzQenMjyGX47Zd2r",
+          "publishedAt": "2026-11-03T09:02:00.000Z"
+        },
+        {
+          "title": "The next voice that robs your bank will sound exactly like someone you trust. An SA company has moved first to stop it",
+          "url": "https://www.itweb.co.za/article/the-next-voice-that-robs-your-bank-will-sound-exactly-like-someone-you-trust-an-sa-company-has-moved-first-to-stop-it/VgZeyqJlrWN7djX9",
+          "publishedAt": "2026-11-03T09:01:00.000Z"
+        },
+        {
+          "title": "Beyond AI-assisted observability: Is Africa ready for autonomous IT operations?",
+          "url": "https://www.itweb.co.za/article/beyond-ai-assisted-observability-is-africa-ready-for-autonomous-it-operations/P3gQ2MGA6ZZvnRD1",
+          "publishedAt": "2026-11-03T06:35:18.000Z"
+        },
+        {
+          "title": "Software engineering quality is about more than finding bugs",
+          "url": "https://www.itweb.co.za/article/software-engineering-quality-is-about-more-than-finding-bugs/raYAyMor69J7J38N",
+          "publishedAt": "2026-11-03T06:34:00.000Z"
+        },
+        {
+          "title": "AI wave creates new ICT skills demand in SA",
+          "url": "https://www.itweb.co.za/article/ai-wave-creates-new-ict-skills-demand-in-sa/o1Jr5MxP3YnMKdWL",
+          "publishedAt": "2026-11-03T06:33:00.000Z"
+        },
+        {
+          "title": "Wipro Intelligence: Proof over promise for SA enterprises",
+          "url": "https://www.itweb.co.za/article/wipro-intelligence-proof-over-promise-for-sa-enterprises/kYbe97XbjXpqAWpG",
+          "publishedAt": "2026-11-03T06:32:00.000Z"
+        },
+        {
+          "title": "IITPSA names ICT leading lights as 2026 President’s Awards winners",
+          "url": "https://www.itweb.co.za/article/iitpsa-names-ict-leading-lights-as-2026-presidents-awards-winners/WnpNgM21VRa7VrGd",
+          "publishedAt": "2026-11-03T06:31:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "comnews",
+      "name": "ComNews",
+      "kind": "rss",
+      "industries": [
+        "telecom"
+      ],
+      "ok": true,
+      "ms": 1343,
+      "count": 12,
+      "items": [
+        {
+          "title": "ВС РФ защитил заемщика от кредитов, оформленных мошенниками",
+          "url": "https://www.comnews.ru/content/248195/2026-11-03/2026-w45/1007/vs-rf-zaschitil-zaemschika-kreditov-oformlennykh-moshennikami",
+          "publishedAt": "2026-11-02T23:30:00.000Z"
+        },
+        {
+          "title": "Т-Банк прирос новым десятком неоактивов",
+          "url": "https://www.comnews.ru/content/248194/2026-11-03/2026-w45/1008/t-bank-priros-novym-desyatkom-neoaktivov",
+          "publishedAt": "2026-11-02T23:30:00.000Z"
+        },
+        {
+          "title": "Сбой у провайдера Beget превратил удобство \"все в одном\" в риск для бизнеса",
+          "url": "https://www.comnews.ru/content/248197/2026-11-03/2026-w45/1008/sboy-u-provaydera-beget-prevratil-udobstvo-vse-odnom-risk-dlya-biznesa",
+          "publishedAt": "2026-11-02T23:30:00.000Z"
+        },
+        {
+          "title": "Путин подписал закон об IT-аутсорсинге на финансовом рынке",
+          "url": "https://www.comnews.ru/content/248202/2026-11-03/2026-w45/1009/putin-podpisal-zakon-ob-it-autsorsinge-finansovom-rynke",
+          "publishedAt": "2026-11-02T23:30:00.000Z"
+        },
+        {
+          "title": "Россия и Китай будут сотрудничать в цифровой трансформации здравоохранения",
+          "url": "https://www.comnews.ru/content/248204/2026-11-03/2026-w45/1009/rossiya-i-kitay-budut-sotrudnichat-cifrovoy-transformacii-zdravookhraneniya",
+          "publishedAt": "2026-11-02T23:30:00.000Z"
+        },
+        {
+          "title": "В России с Telegram принудительно взыскивают более 8,5 млн рублей",
+          "url": "https://www.comnews.ru/content/248213/2026-11-03/2026-w45/1009/rossii-telegram-prinuditelno-vzyskivayut-bolee-85-mln-rubley",
+          "publishedAt": "2026-11-02T23:30:00.000Z"
+        },
+        {
+          "title": "ИИ - не хайп, а инструмент. Как продвигается развитие ИТ-продуктов в лесопромышленной отрасли",
+          "url": "https://www.comnews.ru/content/248167/2026-11-02/2026-w45/1013/ii-ne-khayp-instrument-kak-prodvigaetsya-razvitie-it-produktov-lesopromyshlennoy-otrasli",
+          "publishedAt": "2026-11-02T23:30:00.000Z"
+        },
+        {
+          "title": "\"ВкусВилл\" совершенствует систему управления ИИ-проектами совместно с \"Наукой и Роботами\"",
+          "url": "https://www.comnews.ru/digital-economy/content/248211/2026-11-03/2026-w45/1012/vkusvill-sovershenstvuet-sistemu-upravleniya-ii-proektami-sovmestno-naukoy-i-robotami",
+          "publishedAt": "2026-11-02T23:30:00.000Z"
+        },
+        {
+          "title": "WONE IT автоматизировала финансовое планирование и бюджетирование для \"Конти-Рус\"",
+          "url": "https://www.comnews.ru/digital-economy/content/248207/2026-11-03/2026-w45/1012/wone-it-avtomatizirovala-finansovoe-planirovanie-i-byudzhetirovanie-dlya-konti-rus",
+          "publishedAt": "2026-11-02T23:30:00.000Z"
+        },
+        {
+          "title": "\"РТ-Техприемка\" внедрила корпоративную цифровую систему премирования",
+          "url": "https://www.comnews.ru/digital-economy/content/248205/2026-11-03/2026-w45/1012/rt-tekhpriemka-vnedrila-korporativnuyu-cifrovuyu-sistemu-premirovaniya",
+          "publishedAt": "2026-11-02T23:30:00.000Z"
+        },
+        {
+          "title": "Сертификаты Минцифры на мобильных устройствах: разбор по пунктам",
+          "url": "https://www.comnews.ru/digital-economy/content/248173/2026-11-02/2026-w45/1016/sertifikaty-mincifry-mobilnykh-ustroystvakh-razbor-punktam",
+          "publishedAt": "2026-11-02T23:30:00.000Z"
+        },
+        {
+          "title": "Интеллектуальная охрана периметра: как видеоаналитика снижает нагрузку на службы безопасности распределенных объектов",
+          "url": "https://www.comnews.ru/digital-economy/content/248174/2026-11-02/2026-w45/1016/intellektualnaya-okhrana-perimetra-kak-videoanalitika-snizhaet-nagruzku-sluzhby-bezopasnosti-raspredelennykh-obektov",
+          "publishedAt": "2026-11-02T23:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "cbr-news",
+      "name": "Bank of Russia",
+      "kind": "rss",
+      "industries": [
+        "banking"
+      ],
+      "ok": true,
+      "ms": 990,
+      "count": 25,
+      "items": [
+        {
+          "title": "Информация о ценных бумагах, принимаемых в обеспечение по кредитам Банка России на 05.11.2026",
+          "url": "https://www.cbr.ru/hd_base/BankPapers/",
+          "publishedAt": "2026-11-03T16:49:52.000Z"
+        },
+        {
+          "title": "Аналитические показатели недельного новостного индекса",
+          "url": "https://www.cbr.ru/ec_research/mb/#a_131254",
+          "publishedAt": "2026-11-03T16:24:08.000Z"
+        },
+        {
+          "title": "Новостной индекс деловой активности в октябре 2026 года",
+          "url": "https://www.cbr.ru/ec_research/mb/#a_62316",
+          "publishedAt": "2026-11-03T14:31:48.000Z"
+        },
+        {
+          "title": "Решения Банка России в отношении участников финансового рынка",
+          "url": "https://www.cbr.ru/rbr/rbr_fr/",
+          "publishedAt": "2026-11-03T14:02:08.000Z"
+        },
+        {
+          "title": "О ключевых итогах пленарного заседания Группы разработки финансовых мер борьбы с отмыванием денег (ФАТФ) 28 – 30 октября 2026 года",
+          "url": "https://www.cbr.ru/counteraction_m_ter/international/fatf/info_fatf/#a_199145page",
+          "publishedAt": "2026-11-03T13:45:47.000Z"
+        },
+        {
+          "title": "Вмененная ставка валютного свопа овернайт в юанях",
+          "url": "https://www.cbr.ru/hd_base/impliedratecny/",
+          "publishedAt": "2026-11-03T12:32:55.000Z"
+        },
+        {
+          "title": "Ставки группы MIACR",
+          "url": "https://www.cbr.ru/hd_base/mkr/mkr_base/",
+          "publishedAt": "2026-11-03T12:04:08.000Z"
+        },
+        {
+          "title": "Индекс и срочная версия RUONIA",
+          "url": "https://www.cbr.ru/hd_base/ruonia/sv_ruonia/",
+          "publishedAt": "2026-11-03T12:01:29.000Z"
+        },
+        {
+          "title": "Ставка RUONIA",
+          "url": "https://www.cbr.ru/hd_base/ruonia/",
+          "publishedAt": "2026-11-03T11:22:31.000Z"
+        },
+        {
+          "title": "Информация об операциях РЕПО (13:52)",
+          "url": "https://www.cbr.ru/hd_base/repo/",
+          "publishedAt": "2026-11-03T10:52:57.000Z"
+        },
+        {
+          "title": "Статистические данные по работе с обращениями за январь-сентябрь 2026 года",
+          "url": "https://www.cbr.ru/statistics/protection/#a_11955",
+          "publishedAt": "2026-11-03T10:24:00.000Z"
+        },
+        {
+          "title": "Инсайдерская информация Банка России",
+          "url": "https://www.cbr.ru/analytics/insideinfo/",
+          "publishedAt": "2026-11-03T10:12:40.000Z"
+        },
+        {
+          "title": "Указание Банка России от 29.09.2026 № 7461-У",
+          "url": "https://www.cbr.ru/Queries/UniDbQuery/File/90134/8617",
+          "publishedAt": "2026-11-03T09:47:00.000Z"
+        },
+        {
+          "title": "Указание Банка России от 29.09.2026 № 7460-У",
+          "url": "https://www.cbr.ru/Queries/UniDbQuery/File/90134/8616",
+          "publishedAt": "2026-11-03T09:42:00.000Z"
+        },
+        {
+          "title": "Указание Банка России от 22.09.2026 № 7451-У",
+          "url": "https://www.cbr.ru/Queries/UniDbQuery/File/90134/8615",
+          "publishedAt": "2026-11-03T09:37:00.000Z"
+        },
+        {
+          "title": "Указание Банка России от 21.09.2026 № 7450-У",
+          "url": "https://www.cbr.ru/Queries/UniDbQuery/File/90134/8614",
+          "publishedAt": "2026-11-03T09:35:00.000Z"
+        },
+        {
+          "title": "Прогноз факторов формирования ликвидности банковского сектора для определения лимита по рыночным операциям Банка России на срок 1 неделя",
+          "url": "https://www.cbr.ru/statistics/pffl/",
+          "publishedAt": "2026-11-03T07:46:56.000Z"
+        },
+        {
+          "title": "Параметры аукционов РЕПО в рублях",
+          "url": "https://www.cbr.ru/hd_base/dirrepoauctionparam/",
+          "publishedAt": "2026-11-03T07:41:20.000Z"
+        },
+        {
+          "title": "Условия заключения сделок «валютный своп» по продаже иностранной валюты за рубли",
+          "url": "https://www.cbr.ru/hd_base/swap_info/sell/",
+          "publishedAt": "2026-11-03T06:27:46.000Z"
+        },
+        {
+          "title": "Депозиты банков в Банке России",
+          "url": "https://www.cbr.ru/hd_base/ostat_depo_new/",
+          "publishedAt": "2026-11-03T06:25:57.000Z"
+        },
+        {
+          "title": "Обеспечение по операциям РЕПО c Банком России в валюте Российской Федерации",
+          "url": "https://www.cbr.ru/hd_base/infodirectreporub/",
+          "publishedAt": "2026-11-03T06:17:34.000Z"
+        },
+        {
+          "title": "Условия предоставления кредитов постоянного действия",
+          "url": "https://www.cbr.ru/DKP/creditco/",
+          "publishedAt": "2026-11-03T03:21:15.000Z"
+        },
+        {
+          "title": "Условия проведения Банком России депозитных операций постоянного действия",
+          "url": "https://www.cbr.ru/DKP/depfNew/",
+          "publishedAt": "2026-11-02T22:01:08.000Z"
+        },
+        {
+          "title": "Основные производные показатели динамики обменного курса рубля",
+          "url": "https://www.cbr.ru/statistics/macro_itm/external_sector/er/#a_172664",
+          "publishedAt": "2026-11-02T15:52:15.000Z"
+        },
+        {
+          "title": "Динамика максимальной процентной ставки (по вкладам в российских рублях) десяти кредитных организаций, привлекающих наибольший объём депозитов физических лиц",
+          "url": "https://www.cbr.ru/statistics/avgprocstav/",
+          "publishedAt": "2026-11-02T15:09:53.000Z"
+        }
+      ]
+    },
+    {
+      "id": "tahawultech",
+      "name": "TahawulTech",
+      "kind": "rss",
+      "industries": [
+        "telecom",
+        "identity",
+        "banking"
+      ],
+      "ok": true,
+      "ms": 293,
+      "count": 14,
+      "items": [
+        {
+          "title": "Safirum: Swiss franc stablecoin CHF‑S goes live",
+          "url": "https://www.tahawultech.com/home-slide/safirum-swiss-franc-stablecoin-chf-s-goes-live/",
+          "publishedAt": "2026-11-03T15:34:02.000Z"
+        },
+        {
+          "title": "ADIPEC 2026 Day 2 focuses on energy infrastructure and rising demand",
+          "url": "https://www.tahawultech.com/home-slide/adipec-2026-day-2-focuses-on-energy-infrastructure-and-rising-demand/",
+          "publishedAt": "2026-11-03T14:44:13.000Z"
+        },
+        {
+          "title": "EGAMES launches global schools esports competition with Dubai finals in 2027",
+          "url": "https://www.tahawultech.com/home-slide/egames-launches-global-schools-esports-competition-with-dubai-finals-in-2027/",
+          "publishedAt": "2026-11-03T13:20:51.000Z"
+        },
+        {
+          "title": "inDrive taps AI to power fairer rides, smarter services and safer journeys, says new CPO",
+          "url": "https://www.tahawultech.com/home-slide/indrive-taps-ai-to-power-fairer-rides-smarter-services-and-safer-journeys-says-new-cpo/",
+          "publishedAt": "2026-11-03T11:58:54.000Z"
+        },
+        {
+          "title": "Mantle8 launches natural hydrogen exploration programme in Ras Al Khaimah",
+          "url": "https://www.tahawultech.com/home-slide/mantle8-launches-natural-hydrogen-exploration-programme-in-ras-al-khaimah/",
+          "publishedAt": "2026-11-03T11:50:54.000Z"
+        },
+        {
+          "title": "Lenovo expands AI Library with validated enterprise AI use cases",
+          "url": "https://www.tahawultech.com/industry/technology/lenovo-expands-ai-library-with-validated-enterprise-ai-use-cases/",
+          "publishedAt": "2026-11-03T11:02:29.000Z"
+        },
+        {
+          "title": "ServiceNow expands EmployeeWorks with no-code AI agents and developer tools",
+          "url": "https://www.tahawultech.com/industry/technology/servicenow-expands-employeeworks-with-no-code-ai-agents-and-developer-tools/",
+          "publishedAt": "2026-11-03T10:00:45.000Z"
+        },
+        {
+          "title": "NVIDIA and Cisco introduce new pluggable optics form factor to scale AI factories",
+          "url": "https://www.tahawultech.com/channel/nvidia-and-cisco-introduce-new-pluggable-optics-form-factor-to-scale-ai-factories/",
+          "publishedAt": "2026-11-03T09:58:45.000Z"
+        },
+        {
+          "title": "OpenAI implements stricter safety measures for ChatGPT",
+          "url": "https://www.tahawultech.com/news/openai-implements-stricter-safety-measures-for-chatgpt/",
+          "publishedAt": "2026-11-03T09:28:54.000Z"
+        },
+        {
+          "title": "Ericsson and Telia commence 6G field trials",
+          "url": "https://www.tahawultech.com/channel/ericsson-and-telia-commence-6g-field-trials/",
+          "publishedAt": "2026-11-03T09:10:03.000Z"
+        },
+        {
+          "title": "Beyond bigger budgets- How UAE e-commerce brands can make AI deliver",
+          "url": "https://www.tahawultech.com/features/beyond-bigger-budgets-how-uae-e-commerce-brands-can-make-ai-deliver/",
+          "publishedAt": "2026-11-03T07:45:26.000Z"
+        },
+        {
+          "title": "When the treat becomes the trick: Where financial companies use AI and where they draw the line",
+          "url": "https://www.tahawultech.com/insight/when-the-treat-becomes-the-trick-where-financial-companies-use-ai-and-where-they-draw-the-line/",
+          "publishedAt": "2026-11-03T07:08:38.000Z"
+        },
+        {
+          "title": "Dr Sultan Al Jaber, Sam Altman highlight energy, AI and investment priorities at ADIPEC 2026 opening",
+          "url": "https://www.tahawultech.com/news/dr-sultan-al-jaber-sam-altman-highlight-energy-ai-and-investment-priorities-at-adipec-2026/",
+          "publishedAt": "2026-11-02T20:36:12.000Z"
+        },
+        {
+          "title": "UiPath urges Gulf enterprises to prioritise measurable AI outcomes",
+          "url": "https://www.tahawultech.com/news/uipath-urges-gulf-enterprises-to-prioritise-measurable-ai-outcomes/",
+          "publishedAt": "2026-11-02T12:03:24.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ghanabusinessnews",
+      "name": "Ghana Business News",
+      "kind": "rss",
+      "industries": [
+        "telecom",
+        "banking"
+      ],
+      "ok": true,
+      "ms": 176,
+      "count": 10,
+      "items": [
+        {
+          "title": "Dutch authorities offer €2m bounty for information on most wanted drug lord Leijdekkers",
+          "url": "https://www.ghanabusinessnews.com/2026/11/03/dutch-authorities-offer-e2m-bounty-for-information-on-most-wanted-drug-lord-leijdekkers/",
+          "publishedAt": "2026-11-03T15:51:07.000Z"
+        },
+        {
+          "title": "Ghana recovers over GH¢18b from audit recommendations within four years – Auditor-General",
+          "url": "https://www.ghanabusinessnews.com/2026/11/03/ghana-recovers-over-gh%c2%a218b-from-audit-recommendations-within-four-years-auditor-general/",
+          "publishedAt": "2026-11-03T14:21:20.000Z"
+        },
+        {
+          "title": "No new Ghana Cards required under biometric verification law – NIA",
+          "url": "https://www.ghanabusinessnews.com/2026/11/03/no-new-ghana-cards-required-under-biometric-verification-law-nia/",
+          "publishedAt": "2026-11-03T13:22:18.000Z"
+        },
+        {
+          "title": "Ghana Minority Leader calls for stronger enforcement of audit findings across Africa",
+          "url": "https://www.ghanabusinessnews.com/2026/11/03/ghana-minority-leader-calls-for-stronger-enforcement-of-audit-findings-across-africa/",
+          "publishedAt": "2026-11-03T13:10:01.000Z"
+        },
+        {
+          "title": "GES calls for changing rooms in schools to support menstrual hygiene",
+          "url": "https://www.ghanabusinessnews.com/2026/11/03/ges-calls-for-changing-rooms-in-schools-to-support-menstrual-hygiene/",
+          "publishedAt": "2026-11-03T07:42:01.000Z"
+        },
+        {
+          "title": "Ghana Publishing targets regional market, seeks more government printing contracts",
+          "url": "https://www.ghanabusinessnews.com/2026/11/03/ghana-publishing-targets-regional-market-seeks-more-government-printing-contracts/",
+          "publishedAt": "2026-11-03T07:38:03.000Z"
+        },
+        {
+          "title": "NIA begins enforcement of biometric verification regulations",
+          "url": "https://www.ghanabusinessnews.com/2026/11/03/nia-begins-enforcement-of-biometric-verification-regulations/",
+          "publishedAt": "2026-11-03T07:13:32.000Z"
+        },
+        {
+          "title": "Amansie Community Bank records over 100% pre-tax profit in 2025",
+          "url": "https://www.ghanabusinessnews.com/2026/11/03/amansie-community-bank-records-over-100-pre-tax-profit-in-2025/",
+          "publishedAt": "2026-11-03T07:09:59.000Z"
+        },
+        {
+          "title": "Germany Chancellor Merz says AI must be ‘guided by human values’",
+          "url": "https://www.ghanabusinessnews.com/2026/11/03/germany-chancellor-merz-says-ai-must-be-guided-by-human-values/",
+          "publishedAt": "2026-11-03T07:00:32.000Z"
+        },
+        {
+          "title": "Ghana requires over 1,000 additional physical planners for effective development planning – Prof Mensah",
+          "url": "https://www.ghanabusinessnews.com/2026/11/02/ghana-requires-over-1000-additional-physical-planners-for-effective-development-planning-prof-mensah/",
+          "publishedAt": "2026-11-02T15:49:27.000Z"
+        }
+      ]
+    },
+    {
+      "id": "techmoran",
+      "name": "TechMoran",
+      "kind": "rss",
+      "industries": [
+        "telecom",
+        "banking"
+      ],
+      "ok": true,
+      "ms": 436,
+      "count": 10,
+      "items": [
+        {
+          "title": "Samsung Retains No. 5 Spot in Interbrand’s Best Global Brands 2026 Ranking",
+          "url": "https://techmoran.com/2026/11/03/samsung-retains-no-5-spot-in-interbrands-best-global-brands-2026-ranking/",
+          "publishedAt": "2026-11-03T14:40:08.000Z"
+        },
+        {
+          "title": "Gaming Platform Rise of Fearless Secures $1M for Expansion",
+          "url": "https://techmoran.com/2026/11/03/gaming-platform-rise-of-fearless-secures-1m-to-scale-beyond-africa/",
+          "publishedAt": "2026-11-03T13:59:31.000Z"
+        },
+        {
+          "title": "Mastercard, Interswitch Bring Google Pay to Nigeria",
+          "url": "https://techmoran.com/2026/11/03/mastercard-interswitch-bring-google-pay-to-nigeria/",
+          "publishedAt": "2026-11-02T23:16:52.000Z"
+        },
+        {
+          "title": "Google Targets 3 Million African Learners With Offline AI Skills Hub",
+          "url": "https://techmoran.com/2026/11/03/google-targets-3-million-african-learners-with-offline-ai-skills-hub/",
+          "publishedAt": "2026-11-02T23:02:55.000Z"
+        },
+        {
+          "title": "Samsung Looks to AI and Advanced Chips as It Marks 57 Years",
+          "url": "https://techmoran.com/2026/11/03/samsung-looks-to-ai-and-advanced-chips-as-it-marks-57-years/",
+          "publishedAt": "2026-11-02T22:13:40.000Z"
+        },
+        {
+          "title": "Safaricom Extends Family Share to Home Fibre Customers in Kisumu",
+          "url": "https://techmoran.com/2026/11/03/safaricom-extends-family-share-to-home-fibre-customers-in-kisumu/",
+          "publishedAt": "2026-11-02T21:54:06.000Z"
+        },
+        {
+          "title": "Safaricom Bets on M-Pesa to Become Kenya’s Digital Economy Operating System",
+          "url": "https://techmoran.com/2026/11/02/safaricom-bets-on-m-pesa-to-become-kenyas-digital-economy-operating-system/",
+          "publishedAt": "2026-11-02T13:07:48.000Z"
+        },
+        {
+          "title": "CEO Weekends: Erick Mkingule on Building Atlas Digital Systems into Africa’s SME Technology Powerhouse",
+          "url": "https://techmoran.com/2026/10/31/ceo-weekends-erick-mkingule-on-building-atlas-digital-systems-into-africas-sme-technology-powerhouse/",
+          "publishedAt": "2026-10-31T20:24:42.000Z"
+        },
+        {
+          "title": "OPay Scraps $304 Million US IPO Following Regulatory Probe",
+          "url": "https://techmoran.com/2026/10/31/opay-scraps-304-million-us-ipo-following-regulatory-probe/",
+          "publishedAt": "2026-10-31T19:23:58.000Z"
+        },
+        {
+          "title": "Binance Says 90% of Assets Affected by Security Incident Have Been Replenished, Targets Sunday Withdrawal Resumption",
+          "url": "https://techmoran.com/2026/10/31/binance-says-90-of-assets-affected-by-security-incident-have-been-replenished-targets-sunday-withdrawal-resumption/",
+          "publishedAt": "2026-10-31T19:13:23.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fintechnews-sg",
+      "name": "Fintech News Singapore",
+      "kind": "rss",
+      "industries": [
+        "banking"
+      ],
+      "ok": true,
+      "ms": 688,
+      "count": 10,
+      "items": [
+        {
+          "title": "Thailand’s CLICX Taps Thought Machine for Core Banking",
+          "url": "https://fintechnews.sg/140283/thailand/clicx-thought-machine/",
+          "publishedAt": "2026-11-03T08:25:48.000Z"
+        },
+        {
+          "title": "MAS Offers S$30M to Help Insurers Invest in Infrastructure",
+          "url": "https://fintechnews.sg/140266/insurtech/mas-insurer-infrastructure/",
+          "publishedAt": "2026-11-03T05:17:56.000Z"
+        },
+        {
+          "title": "Stablecoins Evolve Beyond Cross-Border Transfers",
+          "url": "https://fintechnews.sg/140115/digitalassets/stablecoins-evolve-beyond-cross-border-transfers/",
+          "publishedAt": "2026-11-03T05:05:42.000Z"
+        },
+        {
+          "title": "Binance’s US$6.3 Billion Breach Is Four Times the Previous Crypto Hack Record",
+          "url": "https://fintechnews.sg/108259/crypto/biggest-crypto-hacks-digital-security/",
+          "publishedAt": "2026-11-03T03:50:50.000Z"
+        },
+        {
+          "title": "HugoHub Goes Live at Its First Regulated Bank, Pakistan’s HugoBank",
+          "url": "https://fintechnews.sg/140174/pakistan/hugohub-hugobank-pakistan-digital-bank-pilot/",
+          "publishedAt": "2026-11-02T09:22:58.000Z"
+        },
+        {
+          "title": "GXS Bank Names Harikrishnan Raguraman as Chief Technology Officer",
+          "url": "https://fintechnews.sg/140160/digital-banking-news-singapore/harikrishnan-raguraman-gxs-bank-cto/",
+          "publishedAt": "2026-11-02T06:49:58.000Z"
+        },
+        {
+          "title": "Wealthy Families Delay Succession Plans as Founders Refuse to Let Go",
+          "url": "https://fintechnews.sg/140152/wealthtech/family-wealth-succession-dbs/",
+          "publishedAt": "2026-11-02T05:16:21.000Z"
+        },
+        {
+          "title": "Singapore Police Will Now Call You From 6000 0999",
+          "url": "https://fintechnews.sg/140137/security/singapore-police-6000-0999/",
+          "publishedAt": "2026-11-02T04:37:35.000Z"
+        },
+        {
+          "title": "Thunes and UnionPay Raise Daily Payout Limit to US$10,000 in China",
+          "url": "https://fintechnews.sg/140134/payments/thunes-unionpay/",
+          "publishedAt": "2026-11-02T04:12:00.000Z"
+        },
+        {
+          "title": "DCS DeCard Launches Corporate Cards for Businesses in Hong Kong",
+          "url": "https://fintechnews.sg/140129/hong-kong/dcs-decard-mastercard-issuer-hong-kong/",
+          "publishedAt": "2026-11-02T04:06:29.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fintechnews-hk",
+      "name": "Fintech News Hong Kong",
+      "kind": "rss",
+      "industries": [
+        "banking"
+      ],
+      "ok": true,
+      "ms": 564,
+      "count": 10,
+      "items": [
+        {
+          "title": "HKMA PQC Toolkit Targets the Gap Behind Banks’ 2.3 Quantum Readiness Score",
+          "url": "https://fintechnews.hk/41865/hong-kong-fintech-week-news/hkma-pqc-toolkit-quantum-readiness-banks/",
+          "publishedAt": "2026-11-03T09:52:40.000Z"
+        },
+        {
+          "title": "Payment Asia and G+D China Sign MoU to Explore AI Agent Payments",
+          "url": "https://fintechnews.hk/41872/hong-kong-fintech-week-news/payment-asia-stablecoin-agentic-payments-gd-china/",
+          "publishedAt": "2026-11-03T09:43:58.000Z"
+        },
+        {
+          "title": "RedotPay Expands Hong Kong Office, Opens New R&D Centre",
+          "url": "https://fintechnews.hk/41862/hong-kong-fintech-week-news/redotpay-hong-kong/",
+          "publishedAt": "2026-11-03T09:38:13.000Z"
+        },
+        {
+          "title": "Ant International Completes Hong Kong Interbank Transfers in 5 Minutes",
+          "url": "https://fintechnews.hk/41875/hong-kong-fintech-week-news/ant-international-ensembletx-tokenised-deposits/",
+          "publishedAt": "2026-11-03T09:29:21.000Z"
+        },
+        {
+          "title": "Ant Digital Debuts ZOLOZ KYA for AI Identity Verification",
+          "url": "https://fintechnews.hk/41854/hong-kong-fintech-week-news/zoloz-know-your-agent-ant-digital-ai-agents/",
+          "publishedAt": "2026-11-03T08:56:52.000Z"
+        },
+        {
+          "title": "CoverGo Raises US$6 Million to Expand AI Insurance Platform",
+          "url": "https://fintechnews.hk/41851/funding/covergo-series-b1-funding-betatron/",
+          "publishedAt": "2026-11-03T08:20:09.000Z"
+        },
+        {
+          "title": "Crypto.com Pulls Its Retail App from Hong Kong as Exchange Licence Stays Pending",
+          "url": "https://fintechnews.hk/41852/blockchain/crypto-com-hong-kong-shut-down-consumer-app/",
+          "publishedAt": "2026-11-03T08:19:53.000Z"
+        },
+        {
+          "title": "Tencent Cloud Partners OmniOps to Support Enterprise AI in Saudi Arabia",
+          "url": "https://fintechnews.hk/41835/ai/tencent-cloud-omniops-saudi-enterprise-ai-deal/",
+          "publishedAt": "2026-11-03T07:16:25.000Z"
+        },
+        {
+          "title": "Sunrate Lets AI Agents Make Business Payments With New Virtual Card",
+          "url": "https://fintechnews.hk/41842/hong-kong-fintech-week-news/sunrate-agentic-card/",
+          "publishedAt": "2026-11-03T07:14:02.000Z"
+        },
+        {
+          "title": "Hang Seng Indexes, Cyberport Use GenAI to Speed Up Index Design",
+          "url": "https://fintechnews.hk/41841/hong-kong-fintech-week-news/cyberport-hang-seng-ai-thematic-indexes/",
+          "publishedAt": "2026-11-03T07:10:05.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fintechnews-id",
+      "name": "Fintech News Indonesia",
+      "kind": "rss",
+      "industries": [
+        "banking"
+      ],
+      "ok": true,
+      "ms": 2701,
+      "count": 0,
+      "items": []
+    },
+    {
+      "id": "telecom-review-asia",
+      "name": "Telecom Review Asia",
+      "kind": "rss",
+      "industries": [
+        "telecom"
+      ],
+      "ok": true,
+      "ms": 615,
+      "count": 10,
+      "items": [
+        {
+          "title": "The Subsea Cable Investment Boom Behind the AI Economy",
+          "url": "https://www.telecomreviewasia.com/news/featured-articles/30710-the-subsea-cable-investment-boom-behind-the-ai-economy/",
+          "publishedAt": "2026-11-03T09:21:28.000Z"
+        },
+        {
+          "title": "UK Proposes Tougher Laws to Protect Subsea Cable Systems",
+          "url": "https://www.telecomreviewasia.com/news/policy-news/30705-uk-proposes-tougher-laws-to-protect-subsea-cable-systems/",
+          "publishedAt": "2026-11-03T07:44:54.000Z"
+        },
+        {
+          "title": "Diamond-Based Quantum Sensor Could Enable Contactless Heart Monitoring",
+          "url": "https://www.telecomreviewasia.com/news/technology-pick/30693-diamond-based-quantum-sensor-could-enable-contactless-heart-monitoring/",
+          "publishedAt": "2026-11-02T12:51:38.000Z"
+        },
+        {
+          "title": "Underwater Robot Research Center Drives Progress in Marine Technology",
+          "url": "https://www.telecomreviewasia.com/news/technology-pick/30688-underwater-robot-research-center-drives-progress-in-marine-technology/",
+          "publishedAt": "2026-11-02T12:49:38.000Z"
+        },
+        {
+          "title": "Thailand Launches Platform to Advance Tourism Technology Innovation",
+          "url": "https://www.telecomreviewasia.com/news/technology-pick/30683-thailand-launches-platform-to-advance-tourism-technology-innovation/",
+          "publishedAt": "2026-11-02T12:47:20.000Z"
+        },
+        {
+          "title": "Researchers Develop AI System to Digitally Transmit and Recreate Scents",
+          "url": "https://www.telecomreviewasia.com/news/technology-pick/30678-researchers-develop-ai-system-to-digitally-transmit-and-recreate-scents/",
+          "publishedAt": "2026-11-02T12:44:23.000Z"
+        },
+        {
+          "title": "World Winery Map Uses Geospatial Data to Digitize Global Viticulture",
+          "url": "https://www.telecomreviewasia.com/news/technology-pick/30674-world-winery-map-uses-geospatial-data-to-digitize-global-viticulture/",
+          "publishedAt": "2026-11-02T12:42:37.000Z"
+        },
+        {
+          "title": "Researchers Explore New Semiconductor Techniques to Improve EV Batteries",
+          "url": "https://www.telecomreviewasia.com/news/technology-pick/30671-researchers-explore-new-semiconductor-techniques-to-improve-ev-batteries/",
+          "publishedAt": "2026-11-02T12:37:26.000Z"
+        },
+        {
+          "title": "Explore What’s Next for the Connected World at PTC’27",
+          "url": "https://www.telecomreviewasia.com/news/industry-news/30663-explore-whats-next-for-the-connected-world-at-ptc27/",
+          "publishedAt": "2026-11-02T12:21:50.000Z"
+        },
+        {
+          "title": "Digicel, Vodafone Activate First Shared Tower in Papua New Guinea",
+          "url": "https://www.telecomreviewasia.com/news/service-news/30660-digicel-vodafone-activate-first-shared-tower-in-papua-new-guinea/",
+          "publishedAt": "2026-11-02T09:44:58.000Z"
+        }
+      ]
+    },
+    {
+      "id": "telecom-review-africa",
+      "name": "Telecom Review Africa",
+      "kind": "rss",
+      "industries": [
+        "telecom"
+      ],
+      "ok": true,
+      "ms": 650,
+      "count": 8,
+      "items": [
+        {
+          "title": "MTN Nigeria Posts NGN 1.2 Trillion Nine-Month Profit, Reflecting Strong Q3 Rebound",
+          "url": "https://www.telecomreviewafrica.com/articles/telecom-operators/29436-mtn-nigeria-posts-ngn-1-2-trillion-nine-month-profit-reflecting-strong-q3-rebound/",
+          "publishedAt": "2026-11-03T07:25:53.000Z"
+        },
+        {
+          "title": "Telecom Egypt Appoints Ashraf Abdeen as Executive Vice President, Chief International and Wholesale Officer",
+          "url": "https://www.telecomreviewafrica.com/articles/wholesale-and-capacity/29433-telecom-egypt-appoints-ashraf-abdeen-as-executive-vice-president-chief-international-and-wholesale-officer/",
+          "publishedAt": "2026-11-03T07:02:30.000Z"
+        },
+        {
+          "title": "Diamond-Based Quantum Sensor Could Enable Contactless Heart Monitoring",
+          "url": "https://www.telecomreviewafrica.com/articles/technology-pick/29413-diamond-based-quantum-sensor-could-enable-contactless-heart-monitoring/",
+          "publishedAt": "2026-11-02T13:10:49.000Z"
+        },
+        {
+          "title": "Underwater Robot Research Center Drives Progress in Marine Technology",
+          "url": "https://www.telecomreviewafrica.com/articles/technology-pick/29411-underwater-robot-research-center-drives-progress-in-marine-technology/",
+          "publishedAt": "2026-11-02T13:10:03.000Z"
+        },
+        {
+          "title": "Thailand Launches Platform to Advance Tourism Technology Innovation",
+          "url": "https://www.telecomreviewafrica.com/articles/technology-pick/29410-thailand-launches-platform-to-advance-tourism-technology-innovation/",
+          "publishedAt": "2026-11-02T13:09:10.000Z"
+        },
+        {
+          "title": "Researchers Develop AI System to Digitally Transmit and Recreate Scents",
+          "url": "https://www.telecomreviewafrica.com/articles/technology-pick/29409-researchers-develop-ai-system-to-digitally-transmit-and-recreate-scents/",
+          "publishedAt": "2026-11-02T13:08:19.000Z"
+        },
+        {
+          "title": "World Winery Map Uses Geospatial Data to Digitize Global Viticulture",
+          "url": "https://www.telecomreviewafrica.com/articles/technology-pick/29408-world-winery-map-uses-geospatial-data-to-digitize-global-viticulture/",
+          "publishedAt": "2026-11-02T13:05:50.000Z"
+        },
+        {
+          "title": "Researchers Explore New Semiconductor Techniques to Improve EV Batteries",
+          "url": "https://www.telecomreviewafrica.com/articles/technology-pick/29412-researchers-explore-new-semiconductor-techniques-to-improve-ev-batteries/",
+          "publishedAt": "2026-11-02T13:04:42.000Z"
+        }
+      ]
+    }
+  ]
+}
