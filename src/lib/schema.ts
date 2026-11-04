@@ -69,7 +69,11 @@ export const newsItemSchema = z.object({
   summary: localized(600),
   /** 正文：2–8 个块，把事件讲清楚，可含小标题与要点列表 */
   body: z.array(bodyBlock).min(2).max(8),
-  whyItMatters: localizedByLang({ zh: 400, en: 700, es: 720 }),
+  /**
+   * 中文按字、英西按字符，不用同一把尺：一个汉字对应的是一个词，不是一个字母。
+   * 实测 1 汉字 ≈ 2.9 个拉丁字符，故按 1:3 设上限。
+   */
+  whyItMatters: localizedByLang({ zh: 400, en: 1200, es: 1200 }),
   confidence: z.number().min(0).max(1),
   ai: z.object({
     model: z.string().min(1),

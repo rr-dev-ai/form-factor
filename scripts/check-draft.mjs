@@ -16,6 +16,41 @@ const KNOWN_TAGS = new Set(tags.map((t) => t.slug));
 /** 草稿不许写的三个字段：它们在发布时由提升脚本统一填写。 */
 const FORBIDDEN = ['status', 'publishedAt', 'ingestedAt'];
 
+/**
+ * 中文标题上限，按「失控线」设定，不是目标线。
+ *
+ * 2026-11 的 40 条里有 25 条超过 34 字，多数并非越界：加纳那条把罚款额放在冒号后、
+ * 尼日利亚那条放的是部署重点，都是事件核心。34 字会误伤正常写法。
+ * 40 字只挡明显失控的——三四件事塞进一个标题。目标仍是 30 字上下。
+ * 真正要防的是标题与 summary 重复，那一条靠判据约束，不靠字数。
+ */
+const TITLE_ZH_MAX = 40;
+
+/**
+ * whyItMatters 中文下限，防回归用，不是纠错工具。
+ * 10 月有 22 条只写了一层就收尾；11 月的 40 条全部超过 120 字，已经自己修好。
+ * 这条线只防止退回那种写法。
+ */
+const WHY_ZH_MIN = 120;
+
+/**
+ * 自称媒体机构。这个站没有编辑部，出现即是从原文口吻串味。
+ * 只ban自称，不ban「记者」——引述他人身份是正常写法。
+ */
+const SELF_REFERENCE = ['本刊', '本报', '本台', '本社'];
+
+/** 取出草稿里所有中文正文与判断，供禁止词扫描。 */
+function readableZhTexts(raw) {
+  const blocks = Array.isArray(raw.body) ? raw.body : [];
+  const fromBody = blocks.flatMap((block) =>
+    block?.kind === 'ul' && Array.isArray(block.items)
+      ? block.items.map((item) => (typeof item?.zh === 'string' ? item.zh : ''))
+      : [typeof block?.text?.zh === 'string' ? block.text.zh : '']
+  );
+  const fromWhy = typeof raw.whyItMatters?.zh === 'string' ? [raw.whyItMatters.zh] : [];
+  return [...fromBody, ...fromWhy].filter(Boolean);
+}
+
 /** 三语长度，只用于打印，判定交给 schema。 */
 function lens(value) {
   const at = (k) => (typeof value?.[k] === 'string' ? value[k].length : 0);
@@ -41,6 +76,28 @@ export function inspectDraft(raw) {
   const draftTags = Array.isArray(raw.tags) ? raw.tags : [];
   for (const tag of draftTags) {
     if (!KNOWN_TAGS.has(tag)) messages.push(`未在 taxonomy 中定义的标签：${tag}`);
+  }
+
+  const titleZh = raw.title?.zh;
+  if (typeof titleZh === 'string' && titleZh.length > TITLE_ZH_MAX) {
+    messages.push(
+      `title.zh 长 ${titleZh.length} 字，超出 ${TITLE_ZH_MAX} 字上限：先看 summary 是不是在复述标题，删掉重复的那半句`
+    );
+  }
+
+  const whyZh = raw.whyItMatters?.zh;
+  if (typeof whyZh === 'string' && whyZh.length < WHY_ZH_MIN) {
+    messages.push(
+      `whyItMatters.zh 只有 ${whyZh.length} 字，低于 ${WHY_ZH_MIN} 字下限：选 1–3 个分析维度写透，落到具体受影响方`
+    );
+  }
+
+  for (const text of readableZhTexts(raw)) {
+    const hit = SELF_REFERENCE.find((word) => text.includes(word));
+    if (hit) {
+      messages.push(`正文出现「${hit}」：本站不是媒体机构，不要用编辑部口吻，改为「公告未说明」这类写法`);
+      break;
+    }
   }
 
   const regions = Array.isArray(raw.regions) ? raw.regions : [];
