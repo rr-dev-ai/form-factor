@@ -1,0 +1,97 @@
+{
+  "id": "2026-11-05-telecom-03",
+  "slug": "nuvolinq-nuvoautolinq-sim-sets-apn",
+  "industry": "telecom",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "esim",
+    "rsp"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-05T04:18:03+08:00",
+  "ingestedAt": "2026-11-05T02:50:24+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/nuvolinq-launches-nuvoautolinq-linq1zero-devices-now-configure-their-own-connectivity-in-the-field-302925963.html",
+      "lang": "en",
+      "publishedAt": "2026-11-02T21:51:00-05:00"
+    }
+  ],
+  "title": {
+    "zh": "eSIM 自己写 APN：模组不认运营商设置也能联网",
+    "en": "The SIM starts setting the APN when the modem will not",
+    "es": "La SIM empieza a fijar el APN cuando el módem no lo acepta"
+  },
+  "summary": {
+    "zh": "11 月 2 日，NuvoLinQ 发布 NuvoAutoLinQ：LinQ1Zero eSIM 在激活或换 profile 时，由卡内 applet 认出并写入该 profile 需要的 APN；模组不遵循 3GPP 设置机制时，改由受卡信任的 Android 应用在系统层写入。",
+    "en": "On 2 November NuvoLinQ launched NuvoAutoLinQ: when a LinQ1Zero eSIM activates or switches profile, an applet inside the card works out the APN that profile needs and sets it, falling back to an eUICC-trusted Android app that writes it at OS level when the modem ignores 3GPP provisioning.",
+    "es": "El 2 de noviembre NuvoLinQ lanzó NuvoAutoLinQ: cuando una eSIM LinQ1Zero se activa o cambia de perfil, un applet dentro de la tarjeta deduce el APN necesario y lo fija; si el módem ignora el aprovisionamiento 3GPP, una app Android de confianza de la eUICC lo escribe en el sistema."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "信号满格却上不了网，问题在 APN",
+        "en": "Full bars, no data: the APN is the gap",
+        "es": "Cobertura llena y sin datos: el APN es el hueco"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 2 日，多伦多的物联网连接商 NuvoLinQ 发布 NuvoAutoLinQ。要解决的问题很具体：APN 决定设备从哪个网关出网，写错了设备显示满格信号却传不出数据。3GPP 本来就允许运营商把这类设置推给模组，但支付终端这类专用硬件的模组常常不完整实现，结果只能靠产线预置或现场人工输入字符串。",
+        "en": "On 2 November Toronto-based connectivity provider NuvoLinQ launched NuvoAutoLinQ. The problem is specific: the APN decides which gateway a device uses, and a wrong one leaves full signal with no data. 3GPP already lets operators push these settings to a modem, but purpose-built hardware such as payment terminals often implements that path incompletely, so the string is set at the factory or typed in on site.",
+        "es": "El 2 de noviembre el proveedor de conectividad NuvoLinQ, con sede en Toronto, lanzó NuvoAutoLinQ. El problema es concreto: el APN decide por qué pasarela sale el equipo y uno erróneo deja señal llena sin datos. 3GPP ya permite al operador enviar esos ajustes al módem, pero hardware específico como los terminales de pago suele implementarlo a medias, así que la cadena se carga en fábrica o se teclea en campo."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "做法是把配置权从模组移到卡上，分两个版本。eUICC 版是跑在 LinQ1Zero eSIM 里的 applet，用的是运营商权限（carrier privileges），不依赖设备操作系统，凡是遵循 3GPP 设置机制的模组都能写；Android 版针对不遵循的那批，由一个被 eUICC 认可的应用在系统层写 APN，支持 Android 7 及以上。",
+        "en": "The approach moves configuration authority from the modem to the card, in two editions. The eUICC edition is an applet running inside the LinQ1Zero eSIM under carrier privileges, independent of the device OS, and works on any modem that follows 3GPP provisioning. The Android edition covers the ones that do not: an application vouched for by the eUICC writes the APN at OS level on Android 7 and later.",
+        "es": "El enfoque traslada la autoridad de configuración del módem a la tarjeta, en dos ediciones. La edición eUICC es un applet dentro de la eSIM LinQ1Zero con privilegios de operador, independiente del sistema del equipo, y funciona en módems que siguen el aprovisionamiento 3GPP. La edición Android cubre a los que no: una aplicación avalada por la eUICC escribe el APN en el sistema en Android 7 o superior."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "配套机制有两处值得注意。一是配置由卡强制执行，换 profile 也不会漂移，本地改不回来；二是卡本身在检测「数据不通」而不只是「没信号」，一旦判定不通就切到覆盖 350 多家运营商网络的备份 profile，并把新 profile 对应的 APN 一并写上，不需要服务器指令、现场上门或固件升级。",
+        "en": "Two mechanics stand out. Configuration is enforced from the card, so it survives profile switches and cannot drift locally. And the card detects that data has stopped flowing rather than merely that signal dropped; when it judges the link dead it moves to a backup profile with access to more than 350 operator networks and applies that profile's APN, with no server command, site visit or firmware change.",
+        "es": "Dos mecanismos destacan. La configuración se impone desde la tarjeta, sobrevive a los cambios de perfil y no se altera localmente. Y la tarjeta detecta que los datos dejaron de fluir, no solo que cayó la señal; si lo considera caído pasa a un perfil de respaldo con acceso a más de 350 redes de operador y aplica su APN, sin comando de servidor, visita técnica ni actualización de firmware."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "公司口径：LinQ1Zero 系列已在 60 多个国家连接逾 70 万台支付设备，另有 175 个国家和地区可用，与 16 家一级运营商有直签协议。",
+          "en": "Company figures: LinQ1Zero connects more than 700,000 payment devices in over 60 countries, with 175 countries and territories available, under direct agreements with sixteen Tier-1 carriers.",
+          "es": "Cifras de la empresa: LinQ1Zero conecta más de 700.000 terminales de pago en más de 60 países, con 175 países y territorios disponibles y acuerdos directos con dieciséis operadores Tier-1."
+        },
+        {
+          "zh": "商用状态：即日起对使用 LinQ1Zero SIM 的客户开放，NuvoLinQ 称正与设备厂谈产线预装，让设备出厂就带这套能力。",
+          "en": "Commercial status: available now to customers using a LinQ1Zero SIM; NuvoLinQ says it is working with device makers to install it on the line so units ship with the capability.",
+          "es": "Estado comercial: disponible ya para clientes con SIM LinQ1Zero; NuvoLinQ dice trabajar con fabricantes para instalarlo en línea y que los equipos salgan con la capacidad."
+        },
+        {
+          "zh": "缺口：没有点名客户，没有单价，也没有第三方验证；这是厂商自有实现，不是 GSMA 规范里的新机制。",
+          "en": "Gaps: no named customers, no unit price, no third-party validation; this is a proprietary implementation, not a new mechanism in a GSMA specification.",
+          "es": "Huecos: sin clientes identificados, sin precio unitario ni validación independiente; es una implementación propietaria, no un mecanismo nuevo de una especificación GSMA."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "改变的是 SIM 在设备里的角色：从只提供身份与密钥，扩到替设备决定网络配置。对做 POS、自助终端、车载与工业网关的厂商，产线上少一道人工写 APN 的工序，换网时也少一类「信号满格但传不出数据」的现场返修，部署节奏由卡决定而不是由模组决定。对运营商，profile 切换后的 APN 由卡保证，跨网切换的失败率与客服成本会下降。风险同样明确：配置权集中到 SIM 供应商与其自研 applet，终端厂对设置的可控性下降；这套机制是私有的，换卡商意味着重做一遍。真正值得盯的是它会不会被写进 GSMA 的规范，或者被模组厂抄成标配——那才会把「SIM 管配置」变成行业默认。",
+    "en": "What changes is the SIM's role: from supplying identity and keys to deciding the device's network configuration. For makers of POS terminals, kiosks, vehicles and industrial gateways, one manual APN step disappears from the line, and a class of full-signal-no-data field returns goes away when profiles change, so the card rather than the modem sets the deployment rhythm. For operators, the APN after a profile switch is guaranteed by the card, which should cut failed cross-network switches and support cost. The risk is equally clear: configuration authority concentrates with the SIM vendor and its own applet, device makers lose control over settings, and the mechanism is proprietary, so changing card supplier means rebuilding it. What to watch is whether it enters a GSMA specification or gets copied as a module default, which is when SIM-managed configuration becomes the industry norm.",
+    "es": "Lo que cambia es el papel de la SIM: de dar identidad y claves a decidir la configuración de red del equipo. Para fabricantes de terminales de pago, kioscos, vehículos y pasarelas industriales desaparece un paso manual de APN en línea y se evita una clase de retorno de campo con señal llena y sin datos al cambiar de perfil, de modo que el ritmo de despliegue lo marca la tarjeta y no el módem. Para el operador, el APN tras un cambio de perfil queda garantizado por la tarjeta, lo que debería reducir fallos de cambio entre redes y coste de soporte. El riesgo es igual de claro: la autoridad de configuración se concentra en el proveedor de SIM y su applet, el fabricante pierde control sobre los ajustes y el mecanismo es propietario, así que cambiar de tarjetero obliga a rehacerlo. Habrá que ver si entra en una especificación GSMA o si los fabricantes de módulos lo copian como opción por defecto: entonces la configuración gestionada por SIM será la norma."
+  },
+  "confidence": 0.58,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-05-identity-01",
+  "slug": "liberia-migrant-biometric-registration-16-sites",
+  "industry": "identity",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "biometrics",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-05T04:18:03+08:00",
+  "ingestedAt": "2026-11-05T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Knews",
+      "url": "https://knewsonline.com/liberia-to-biometrically-register-undocumented-migrants-in-four-counties-sets-december-31-deadline",
+      "lang": "en",
+      "publishedAt": "2026-11-03T00:00:00+00:00"
+    },
+    {
+      "name": "AllAfrica",
+      "url": "https://allafrica.com/stories/202611030365.html",
+      "lang": "en",
+      "publishedAt": "2026-11-03T00:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "利比里亚开 16 个站点登记外国人，年底截止",
+    "en": "Liberia opens 16 sites to biometrically register 140,000 migrants",
+    "es": "Liberia abre 16 sedes para registrar biométricamente a 140.000 migrantes"
+  },
+  "summary": {
+    "zh": "利比里亚 11 月 4 日在东部大吉德州兹韦德鲁启动外国人生物登记，11 月 5 日至 12 月 31 日在四个州 16 个站点采集，目标约 14 万人，多为在东南部务农的布基纳法索籍。国家身份登记局提供系统与采集能力，移民局做边检核，遣返安置委员会统筹。",
+    "en": "Liberia launched a biometric registration drive for foreign nationals in Zwedru on November 4, with capture running from November 5 to December 31 at 16 sites across four counties. The target is about 140,000 people, mostly Burkinabè working in the southeast. The National Identification Registry supplies the system and biometric expertise, the Immigration Service handles border checks and the refugee commission coordinates.",
+    "es": "Liberia lanzó el 4 de noviembre en Zwedru un operativo de registro biométrico de extranjeros, con captura del 5 de noviembre al 31 de diciembre en 16 sedes de cuatro condados. El objetivo ronda las 140.000 personas, en su mayoría burkineses que trabajan en el sureste. El Registro Nacional de Identificación aporta el sistema y la capacidad biométrica, Inmigración el control fronterizo y la comisión de refugiados coordina."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "利比里亚遣返安置委员会执行主任 Jerror Cole Bangalu 在蒙罗维亚的联合发布会上说明，这次登记由总统 Joseph Nyuma Boakai 直接指示，三个机构各管一段：身份登记局（NIR）出技术底座与生物识别采集，移民局（LIS）出边检与身份判定的业务口径，委员会负责摸底与建档。11 月 4 日在兹韦德鲁办启动仪式，次日起正式采集，到 12 月 31 日结束，官方称截止日不作延长。",
+        "en": "LRRRC executive director Jerror Cole Bangalu said at a joint briefing in Monrovia that President Joseph Nyuma Boakai ordered the exercise and that three agencies split the work: the National Identification Registry provides the technical platform and biometric capture, the Liberia Immigration Service supplies border and status expertise, and the refugee commission runs profiling and documentation. A launch event was held in Zwedru on November 4, capture begins the next day and runs to December 31, a deadline officials said would not move.",
+        "es": "El director ejecutivo de la LRRRC, Jerror Cole Bangalu, explicó en una comparecencia conjunta en Monrovia que el presidente Joseph Nyuma Boakai ordenó el operativo y que tres organismos se reparten el trabajo: el Registro Nacional de Identificación aporta la plataforma técnica y la captura biométrica, el Servicio de Inmigración el criterio fronterizo y de estatus, y la comisión de refugiados el perfilamiento y la documentación. El acto de lanzamiento fue en Zwedru el 4 de noviembre; la captura empieza al día siguiente y termina el 31 de diciembre, plazo que las autoridades dijeron que no se prorrogará."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "站点怎么分布",
+        "en": "Where the sites sit",
+        "es": "Cómo se reparten las sedes"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "宁巴州 4 个、大吉德州 8 个、里弗吉州 3 个、马里兰州 1 个（普莱博），合计 16 个采集点。",
+          "en": "Nimba county gets four sites, Grand Gedeh eight, River Gee three and Maryland one, in Pleebo, for 16 in total.",
+          "es": "El condado de Nimba tendrá cuatro sedes, Grand Gedeh ocho, River Gee tres y Maryland una, en Pleebo: 16 en total."
+        },
+        {
+          "zh": "采集完成后每人获得一个唯一身份，录入国家生物识别系统，而不仅是发一张纸质证明。",
+          "en": "Each person captured receives a unique identity and is enrolled in the National Biometric Identification System, not just handed a paper record.",
+          "es": "Cada persona captada recibe una identidad única y queda inscrita en el Sistema Nacional de Identificación Biométrica, no solo con un comprobante en papel."
+        },
+        {
+          "zh": "官方口径是摸底：这批人的数量、身份与人口特征此前没有可信底账。",
+          "en": "The stated purpose is a baseline: the number, identities and demographic profile of this population had no reliable record.",
+          "es": "El objetivo declarado es una línea base: el número, las identidades y el perfil demográfico de esta población carecían de registro fiable."
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "触发点是今年 6 月 4 日的一份内部汇报：Bangalu 向总统报告约 14 万布基纳法索籍人士居住在两个东部州，随后引出土地占用、非法采矿与边境监控的讨论。利比里亚此前的外国人身份记录分散在移民局与地方政府手里，没有与国民身份库打通。",
+        "en": "The trigger was a June 4 briefing in which Bangalu told the president that roughly 140,000 Burkinabè were living in two eastern counties, setting off debate over land use, unauthorised mining and border monitoring. Foreign-national records had been split between the immigration service and local government and were not connected to the national identity database.",
+        "es": "El detonante fue un informe interno del 4 de junio: Bangalu dijo al presidente que unos 140.000 burkineses vivían en dos condados del este, lo que abrió el debate sobre uso de la tierra, minería no autorizada y vigilancia fronteriza. Los registros de extranjeros estaban repartidos entre inmigración y gobiernos locales, sin conexión con la base de identidad nacional."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这类项目真正难的不是采集，是把采集结果接进日常受理。三个机构各有自己的库，登记完能不能让银行、土地登记处、边境口岸在同一个接口上查到「这个人是谁、以什么身份留下」，决定了这 16 个站点是产出可用身份还是又一批孤岛数据。对做采集终端、指纹与证件读取设备的供应商，利比里亚给出的信号是：需求集中在便携采集与外设兼容，而不是大规模制卡；这一轮不承诺发卡，只承诺入库。邻国几内亚、科特迪瓦都在补外国人底账，做法相近，先登记后发证，可复制的正是这套多机构联合采集的流程。",
+    "en": "The hard part of a project like this is not capture but connecting the result to daily acceptance. Three agencies keep three databases; whether banks, land registries and border posts can query the same interface for who this person is and under what status they were enrolled decides whether 16 sites produce usable identities or another set of silos. For vendors of enrolment kits, fingerprint sensors and document readers, the signal is that demand lands on portable capture and peripheral compatibility rather than mass card production: this round promises enrolment, not cards. Guinea and Côte d'Ivoire are filling the same gap with similar sequencing, register first and issue later, so the replicable asset is the joint-agency capture workflow.",
+    "es": "Lo difícil de un proyecto así no es capturar, sino conectar el resultado con la aceptación diaria. Tres organismos mantienen tres bases; que los bancos, los registros de tierra y los puestos fronterizos puedan consultar en una misma interfaz quién es esta persona y con qué estatus fue inscrita decide si las 16 sedes producen identidades utilizables o otro conjunto de silos. Para los proveedores de kits de enrolamiento, sensores de huella y lectores de documentos, la señal es que la demanda recae en captura portátil y compatibilidad de periféricos, no en producción masiva de tarjetas: esta ronda promete registro, no emisión. Guinea y Costa de Marfil cubren el mismo vacío con una secuencia parecida, registrar primero y emitir después, así que el activo replicable es el flujo conjunto de captura."
+  },
+  "confidence": 0.82,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

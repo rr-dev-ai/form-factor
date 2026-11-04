@@ -1,0 +1,85 @@
+{
+  "id": "2026-11-05-telecom-02",
+  "slug": "eseye-anynet-select-sgp32-profile-catalogue",
+  "industry": "telecom",
+  "region": "global",
+  "regions": [],
+  "tags": [
+    "esim",
+    "rsp"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-05T04:18:03+08:00",
+  "ingestedAt": "2026-11-05T02:50:24+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Eseye",
+      "url": "https://www.eseye.com/resources/news/eseye-launches-anynet-select-sgp32-iot-deployments",
+      "lang": "en",
+      "publishedAt": "2026-11-02T00:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "Eseye 把 SGP.32 的 profile 目录做成自助货架",
+    "en": "Eseye turns SGP.32 profiles into a self-service catalogue",
+    "es": "Eseye convierte los perfiles SGP.32 en un catálogo de autoservicio"
+  },
+  "summary": {
+    "zh": "11 月 2 日，Eseye 发布 AnyNet Select，把本地、区域与多 IMSI 的 SGP.32 profile 汇成一个目录，企业可通过 Infinity 平台或 API 自选，首批覆盖巴西、美国、非洲与欧洲，配套多个代管 eIM 与 bootstrap 回退连接。",
+    "en": "On 2 November Eseye launched AnyNet Select, a catalogue of local, regional and multi-IMSI SGP.32 profiles that enterprises pick through its Infinity platform or an API. The first markets are Brazil, the US, Africa and Europe, with several managed eIMs and bootstrap fallback connectivity behind it.",
+    "es": "El 2 de noviembre Eseye lanzó AnyNet Select, un catálogo de perfiles SGP.32 locales, regionales y multi-IMSI que las empresas eligen desde su plataforma Infinity o por API. Los primeros mercados son Brasil, EE. UU., África y Europa, con varios eIM gestionados y conectividad de respaldo bootstrap."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "profile 从随卡配好，变成按市场自选",
+        "en": "From bundled profiles to a per-market choice",
+        "es": "Del perfil incluido a la elección por mercado"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 2 日，英国物联网连接服务商 Eseye 发布 AnyNet Select，定位是给 SGP.32 部署用的 profile 目录：企业、运营商与虚拟运营商可以从一个池子里挑本地、区域或多 IMSI 的 profile，而不必为每个市场单独备卡。首批覆盖巴西、美国、非洲与欧洲，公告的说法是「在市场、监管或技术要求需要本地化时」提供本地化。",
+        "en": "On 2 November UK connectivity provider Eseye launched AnyNet Select as a profile catalogue for SGP.32 deployments: enterprises, operators and MVNOs draw local, regional or multi-IMSI profiles from one pool instead of stocking a separate SIM per market. The first coverage is Brazil, the US, Africa and Europe, positioned for localisation where market, regulatory or technical requirements demand it.",
+        "es": "El 2 de noviembre el proveedor británico de conectividad Eseye lanzó AnyNet Select como catálogo de perfiles para despliegues SGP.32: empresas, operadores y OMV toman perfiles locales, regionales o multi-IMSI de un solo fondo en lugar de almacenar una SIM por mercado. La cobertura inicial es Brasil, EE. UU., África y Europa, planteada para localizar cuando lo exijan requisitos de mercado, regulatorios o técnicos."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "机制上分两层。第一层是目录：企业走全托管的 AnyNet 服务，由 Eseye 代选、代编排、代计费；也可以自助，在 Infinity 平台或通过 API 直接挑 profile。第二层是编排：Infinity 同时管多个 eIM（SGP.32 里的物联网远程管理器），包括客户自建或第三方运营的 eIM，因此同一套管理面能下载并切换兼容的第三方 profile。",
+        "en": "There are two layers. The catalogue: enterprises can take a fully managed AnyNet service where Eseye selects, orchestrates, provisions and bills, or self-serve by picking profiles in Infinity or through an API. The orchestration: Infinity manages several eIMs at once, the IoT remote managers defined in SGP.32, including customer-run or third-party ones, so one management plane can download and switch compatible third-party profiles.",
+        "es": "Hay dos capas. El catálogo: la empresa puede contratar el servicio AnyNet totalmente gestionado, con Eseye eligiendo, orquestando, aprovisionando y facturando, o autoservirse escogiendo perfiles en Infinity o por API. La orquestación: Infinity gestiona varios eIM a la vez, los gestores remotos IoT definidos en SGP.32, incluidos los del cliente o de terceros, de modo que un solo plano descarga y cambia perfiles compatibles de terceros."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这套组合解决的是 SGP.32 落地时最常见的一段路：设备出厂只带一张 bootstrap profile，落地到限制永久漫游的市场后再下载本地运营商的 profile。Eseye 把「目录广度」和「多 eIM 编排」捆在一起卖，另外保留 bootstrap 与回退连接，避免切换失败后设备失联。",
+        "en": "The combination addresses the awkward middle of an SGP.32 rollout: a device ships with a bootstrap profile, then downloads a local operator profile once it lands in a market that restricts permanent roaming. Eseye sells catalogue breadth together with multi-eIM orchestration, and keeps bootstrap and fallback connectivity so a failed switch does not leave the device unreachable.",
+        "es": "La combinación ataca el tramo incómodo de un despliegue SGP.32: el equipo sale con un perfil bootstrap y descarga el del operador local al llegar a un mercado que limita la itinerancia permanente. Eseye vende amplitud de catálogo junto con orquestación multi-eIM y mantiene bootstrap y respaldo para que un cambio fallido no deje el equipo inalcanzable."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公告没给的东西同样重要：没有点名任何客户，没有说目录里有多少张 profile、覆盖哪些运营商，也没有资费和交付时间。区域只到「非洲」「欧洲」这个粒度，具体国家名单缺失。这意味着采购方现在还无法据此判断自己目标市场是否在首批范围内。",
+        "en": "What the announcement omits matters as much: no named customers, no count of profiles in the catalogue, no operator names, no pricing and no delivery dates. Regions stop at the granularity of Africa and Europe, with no country list, so a buyer cannot yet tell whether a target market is in the first wave.",
+        "es": "Lo que el anuncio omite importa igual: sin clientes identificados, sin número de perfiles en el catálogo, sin nombres de operadores, sin precios ni fechas de entrega. Las regiones quedan en África y Europa, sin lista de países, así que un comprador aún no puede saber si su mercado objetivo está en la primera tanda."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "改变的是物联网连接的分发方式：从「按市场备不同 SIM、靠多 IMSI 卡硬扛」变成「一张卡加一个可换的 profile 目录」。对企业客户，采购对象从卡变成目录与编排服务，切换市场时不再需要换硬件或派人到现场；对做 eIM、SM-DP+ 对接、本地 profile 批发的供应商，能不能进这类目录、能不能被第三方 eIM 调用，直接决定还有没有位置。压力落在只做单一运营商批发转售的中间商：目录一旦足够宽，价差会被压薄。局限也要看清——首批只到四个区域，运营商名单与资费都没公开，真正能不能替掉本地卡，要等具体国家的 profile 落地才知道。",
+    "en": "What changes is how IoT connectivity is distributed: from stocking a different SIM per market and leaning on multi-IMSI cards to one SIM plus a swappable profile catalogue. For enterprise buyers the purchase shifts from cards to a catalogue and orchestration service, and moving into a new market no longer means new hardware or a site visit. For eIM vendors, SM-DP+ integrators and local profile wholesalers, being listed in such a catalogue and callable by third-party eIMs decides whether they keep a place. The pressure lands on resellers of a single operator's wholesale deal, whose margin thins as catalogues widen. The limits are real: four regions only, no operator list, no pricing, so whether this replaces local SIMs depends on country-level profiles that are not yet named.",
+    "es": "Lo que cambia es la distribución de la conectividad IoT: de almacenar una SIM distinta por mercado y apoyarse en tarjetas multi-IMSI a una SIM con un catálogo de perfiles intercambiables. Para el comprador empresarial la adquisición pasa de tarjetas a un catálogo y un servicio de orquestación, y entrar en un mercado ya no exige hardware nuevo ni visita técnica. Para proveedores de eIM, integradores de SM-DP+ y mayoristas de perfiles locales, figurar en ese catálogo y ser invocables por eIM de terceros decide si conservan sitio. La presión recae en los revendedores de un solo operador, cuyo margen se estrecha con catálogos amplios. Los límites son reales: solo cuatro regiones, sin lista de operadores ni precios, así que sustituir la SIM local depende de perfiles por país que aún no se nombran."
+  },
+  "confidence": 0.62,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11"
+  }
+}

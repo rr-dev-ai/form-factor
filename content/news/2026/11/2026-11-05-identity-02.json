@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-05-identity-02",
+  "slug": "swiss-biometric-id-card-chip-from-november-2",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "biometrics",
+    "secure-chip"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-05T04:18:03+08:00",
+  "ingestedAt": "2026-11-05T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Times of Switzerland",
+      "url": "https://timesofswitzerland.ch/articles/biometric-id-cards-open-monday.html",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "瑞士 11 月 2 日起发带芯片身份证，无芯片版仍卖",
+    "en": "Switzerland starts issuing chip ID cards while keeping the chip-free version",
+    "es": "Suiza emite desde el 2 de noviembre un DNI con chip y mantiene la versión sin chip"
+  },
+  "summary": {
+    "zh": "瑞士自 11 月 2 日起受理带芯片身份证，芯片存人脸与两枚指纹，成人费用维持 65 瑞郎。只有各州护照局与驻外使领馆能采指纹和拍照，市镇窗口仍只能办无芯片版。联邦委员会 8 月 26 日修订的证件条例 11 月 1 日生效，芯片的用途是通行欧盟与防伪，不是国内电子身份。",
+    "en": "Switzerland began accepting applications for a chip identity card on November 2. The chip holds a facial image and two fingerprints and the adult fee stays at CHF 65. Only cantonal passport offices and Swiss missions abroad can capture biometrics, so commune counters keep issuing the chip-free version. The Federal Council revised the identity document ordinance on August 26, effective November 1; the chip is for EU travel and forgery resistance, not a domestic e-ID.",
+    "es": "Suiza empezó a aceptar solicitudes del DNI con chip el 2 de noviembre. El chip guarda la imagen facial y dos huellas y la tasa para adultos se mantiene en 65 francos. Solo las oficinas cantonales de pasaportes y las misiones en el exterior pueden capturar biometría, por lo que las ventanillas comunales siguen expidiendo la versión sin chip. El Consejo Federal revisó la ordenanza el 26 de agosto, con efecto el 1 de noviembre; el chip sirve para viajar a la UE y resistir falsificaciones, no es un e-ID doméstico."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "新卡在 11 月 2 日开放申请，前一天生效的是联邦委员会 8 月 26 日修订的《瑞士国民证件条例》。芯片里的数据与瑞士生物识别护照一致：一张人脸图像加两枚指纹。采集只能在各州护照签发机构和瑞士驻外代表机构完成，因为市镇窗口没有指纹与照片采集设备。成人费用不变，仍是 65 瑞郎。",
+        "en": "Applications opened on November 2, one day after the amended ordinance on identity documents for Swiss nationals took effect. The ordinance was revised by the Federal Council on August 26. The chip carries the same data as the biometric passport: a facial image and two fingerprints. Capture happens only at cantonal passport authorities and Swiss representations abroad, because commune counters have no fingerprint or photo equipment. The adult fee is unchanged at CHF 65.",
+        "es": "Las solicitudes se abrieron el 2 de noviembre, un día después de que entrara en vigor la ordenanza revisada sobre documentos de identidad de nacionales suizos, aprobada por el Consejo Federal el 26 de agosto. El chip lleva los mismos datos que el pasaporte biométrico: imagen facial y dos huellas. La captura solo se hace en las autoridades cantonales de pasaportes y en las representaciones en el exterior, porque las ventanillas comunales no tienen equipos de huella ni de fotografía. La tasa para adultos sigue en 65 francos."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "为什么还要留一条无芯片的路",
+        "en": "Why the chip-free card survives",
+        "es": "Por qué sobrevive la tarjeta sin chip"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "瑞士不是欧盟成员，但属申根区。自 2021 年起欧盟成员国只发带芯片的身份证，联邦警察的判断是：不带芯片的瑞士身份证会削弱瑞士公民在欧盟境内免检通行的便利。于是芯片的定位被写成旅行与防伪，而不是国内身份基础设施——真正的国内电子身份（e-ID）是另一个项目，这次没有动。对只在银行、市镇、邮局证明身份的居民，无芯片版仍然够用；已签发的旧卡在有效期内继续可用于赴欧旅行，成人最长十年。",
+        "en": "Switzerland is not an EU member but sits inside Schengen. Since 2021 EU states issue only chip identity cards, and the federal police position is that a chip-free Swiss card would erode visa-free travel inside the EU. The chip is therefore framed as a travel and anti-forgery feature, not domestic identity infrastructure: the actual domestic e-ID is a separate project and was not touched here. Residents who only prove identity at a bank, a commune office or a post office can still use the chip-free card, and cards already issued stay valid for EU travel until expiry, up to ten years for adults.",
+        "es": "Suiza no es miembro de la UE pero está en Schengen. Desde 2021 los Estados miembros emiten solo DNI con chip, y la policía federal sostiene que una tarjeta suiza sin chip erosionaría la circulación sin controles dentro de la UE. El chip se plantea así como función de viaje y antifalsificación, no como infraestructura de identidad doméstica: el e-ID nacional es otro proyecto y aquí no se tocó. Quien solo acredita identidad en un banco, una oficina comunal o una oficina de correos puede seguir usando la versión sin chip, y las tarjetas ya emitidas valen para viajar a la UE hasta su caducidad, hasta diez años en adultos."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "选择的主动权留在申请人手里：表格上第一次同时出现两个选项，费用相同。差别落在办理地点上——要芯片就得去州护照局或使领馆，要方便就留在市镇。",
+        "en": "The choice stays with the applicant: the form now offers both options at the same price. The difference lands on where you go, since a chip requires a cantonal passport office or a mission, while convenience keeps people at the commune.",
+        "es": "La elección queda en manos del solicitante: el formulario ofrece ambas opciones al mismo precio. La diferencia está en dónde se tramita, porque el chip exige una oficina cantonal o una misión, mientras la comodidad mantiene al solicitante en la comuna."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这条把欧盟 2021 年的证件规则外溢到申根非成员国的方式讲清楚了：不靠布鲁塞尔下指令，靠边检实践倒逼。对证件产业链的直接后果是采集点收缩——16 个州级机构和驻外馆承担全部生物识别采集，市镇网络被排除在芯片卡之外，等于在现有制证产能之上加了一层采集能力的瓶颈。供应商的机会不在发卡量，而在把指纹与照片采集做成可移动、可临时布点的设备，以及让无芯片与有芯片两条产线共用个性化流程。中长期看，瑞士把 e-ID 与实体证件分开推进，说明欧洲这轮升级是「先让证件合规、再谈钱包」，钱包类产品的落地节奏仍取决于各国自己的立法，而不是申根通行要求。",
+    "en": "This shows how the EU's 2021 document rules reach a non-member inside Schengen: not through a Brussels directive but through border practice. The direct consequence for the document supply chain is a narrower capture network, since cantonal authorities and missions absorb all biometric capture while commune counters are excluded from the chip card, adding a capture bottleneck on top of existing personalisation capacity. Vendor opportunity sits in mobile and temporarily deployable fingerprint and photo capture, and in letting chip and chip-free lines share one personalisation flow, rather than in card volumes. Over the medium term, Switzerland keeps the e-ID and the physical document on separate tracks, which suggests this European round is about making documents compliant first and wallets second; wallet rollouts still depend on national legislation, not on Schengen travel rules.",
+    "es": "Esto muestra cómo las reglas europeas de 2021 llegan a un país no miembro pero dentro de Schengen: no por directiva de Bruselas sino por la práctica fronteriza. La consecuencia directa para la cadena de documentos es una red de captura más estrecha: las autoridades cantonales y las misiones absorben toda la captura biométrica y las ventanillas comunales quedan fuera del DNI con chip, lo que añade un cuello de botella de captura sobre la capacidad de personalización existente. La oportunidad para proveedores está en captura de huella y foto móvil o desplegable y en que las líneas con y sin chip compartan un mismo flujo de personalización, no en volúmenes de tarjetas. A medio plazo, Suiza mantiene el e-ID y el documento físico en carriles separados, lo que sugiere que esta ronda europea va primero de cumplir con el documento y después del monedero; el despliegue de monederos sigue dependiendo de la legislación nacional, no de las reglas de viaje de Schengen."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

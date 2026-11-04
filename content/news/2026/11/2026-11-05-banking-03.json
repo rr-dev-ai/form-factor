@@ -1,0 +1,89 @@
+{
+  "id": "2026-11-05-banking-01",
+  "slug": "hkma-fps-unionpay-qr-cross-border",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "clearing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-05T04:18:03+08:00",
+  "ingestedAt": "2026-11-05T02:35:00+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "紫荆网",
+      "url": "https://zijing.com.cn/web/article/1567113747785515008/web/content_1567113747785515008.html",
+      "lang": "zh",
+      "publishedAt": "2026-11-03T00:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "转数快年底接通银联二维码，覆盖 40 多个市场逾一亿商户",
+    "en": "Hong Kong's FPS to accept UnionPay QR codes across 40+ markets by year-end",
+    "es": "El FPS de Hong Kong aceptará códigos QR de UnionPay en más de 40 mercados"
+  },
+  "summary": {
+    "zh": "香港金管局 11 月 2 日在金融科技周宣布，快速支付系统转数快将在 2026 年底前与银联国际完成技术互联，用户扫银联二维码即从香港银行账户扣款，覆盖 40 多个市场逾一亿商户；先期市场较可能含香港、内地、澳门、马来西亚与韩国。",
+    "en": "Hong Kong's HKMA said on 2 November that the Faster Payment System will be technically connected to UnionPay International by the end of 2026, letting users pay at UnionPay QR merchants in more than 40 markets by debiting their Hong Kong bank accounts; Hong Kong, the mainland, Macao, Malaysia and Korea are likely to come first.",
+    "es": "La HKMA anunció el 2 de noviembre que su sistema de pagos inmediatos FPS quedará conectado técnicamente a UnionPay International antes de fin de 2026, de modo que el usuario pague en comercios con QR de UnionPay en más de 40 mercados con cargo a su cuenta bancaria de Hong Kong; Hong Kong, China continental, Macao, Malasia y Corea llegarían primero."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "扫码扣的是账户，不是卡",
+        "en": "The QR debits an account, not a card",
+        "es": "El QR debita una cuenta, no una tarjeta"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 2 日，香港金管局在金融科技周公布，快速支付系统转数快（FPS）将在 2026 年底前与银联国际完成技术互联。互联后，用户在香港及境外扫描银联二维码，直接从其香港银行账户扣款，不必先兑外币。金管局副总裁李达志说，先期开通的市场较可能包括香港、内地、澳门、马来西亚与韩国，其后分批推进。",
+        "en": "At Hong Kong Fintech Week on 2 November the HKMA said its Faster Payment System will be technically connected to UnionPay International before the end of 2026. Users would scan a UnionPay QR code in Hong Kong or abroad and have the amount debited from their Hong Kong bank account, with no prior currency exchange. A deputy chief executive of the HKMA said Hong Kong, the mainland, Macao, Malaysia and Korea are likely in the first group, with other markets phased in.",
+        "es": "En la Hong Kong Fintech Week del 2 de noviembre, la HKMA dijo que su sistema de pagos inmediatos FPS quedará conectado técnicamente a UnionPay International antes de fin de 2026. El usuario escanearía un QR de UnionPay en Hong Kong o en el exterior y el importe se debitaría de su cuenta bancaria de Hong Kong, sin cambiar divisa antes. Un viceconsejero ejecutivo de la HKMA señaló que Hong Kong, China continental, Macao, Malasia y Corea estarían con probabilidad en el primer grupo, con otros mercados por fases."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "覆盖口径是银联及其合作网络的 40 多个市场、逾一亿个商户。金管局首席金融科技总监周惠强说，技术接驳正在进行，希望年底前完成互联并在部分市场推出，具体顺序、交易限额与汇率安排仍在与银联商定。FPS 现有逾 2200 万注册用户，去年港元支付日均 162 亿港元。",
+        "en": "The stated reach is more than 100 million merchants across over 40 markets in UnionPay's network and its partners. The HKMA's chief fintech officer said the technical work is under way and the aim is to complete the connection and launch in some markets by year-end, with sequencing, transaction limits and exchange-rate arrangements still to be agreed with UnionPay. FPS has over 22 million registered users and averaged HK$16.2 billion a day in Hong Kong dollar payments last year.",
+        "es": "El alcance declarado es de más de 100 millones de comercios en más de 40 mercados de la red de UnionPay y sus socios. El director de fintech de la HKMA dijo que el trabajo técnico está en curso y que la meta es completar la conexión y lanzar en algunos mercados antes de fin de año, mientras siguen negociándose el orden, los límites y el tipo de cambio. El FPS tiene más de 22 millones de usuarios registrados y promedió 16.200 millones de dólares de Hong Kong diarios en pagos en 2025."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "受理端多了一种不进卡组织授权链路的付款方式：扣的是账户余额，商户侧仍通过银联网络结算。",
+          "en": "Merchants gain a payment route that bypasses the card authorisation chain: the customer's account is debited, while settlement still runs over UnionPay's network.",
+          "es": "El comercio gana una vía que no pasa por la autorización de una tarjeta: se debita la cuenta del cliente y la liquidación sigue por la red de UnionPay."
+        },
+        {
+          "zh": "收单机构要加的是银联二维码的商户标识与跨境对账口径，而不是再铺一批终端。",
+          "en": "Acquirers need to add UnionPay QR merchant identifiers and cross-border reconciliation, not another terminal fleet.",
+          "es": "El adquirente debe añadir identificadores de comercio del QR de UnionPay y conciliación transfronteriza, no otro parque de terminales."
+        },
+        {
+          "zh": "限额与汇率未定，跨境小额高频能不能成立，取决于落地后的定价。",
+          "en": "Limits and exchange rates are unsettled, so whether small frequent cross-border payments work depends on the pricing that follows.",
+          "es": "Los límites y el tipo de cambio están sin fijar, así que la viabilidad del pago transfronterizo pequeño depende del precio final."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变的是受理端的凭证类型。香港用户在外地扫码，过去多走支付宝或微信的境外钱包方案；FPS 接入银联二维码后，付款凭证从某家钱包的余额变成香港银行账户，商户不必新增终端，收单机构要改的是二维码路由与对账。对银联，这是把境外账户体系接进自己的受理网络；对香港的银行，这是把 FPS 从本地转账工具变成跨境支付入口，钱包与实体卡在旅游小额场景的位置被削弱。变量在定价：跨境扣账的汇率与手续费若接近卡组织水平，卡会被替代；若不占优，它只是一个备用通道。金管局未公布限额、汇率与分润安排。",
+    "en": "What changes is the credential at the point of acceptance. Hong Kong users paying abroad have mostly gone through Alipay or WeChat overseas wallet schemes; with FPS on UnionPay QR, the credential becomes a Hong Kong bank account. Merchants need no new terminal, but acquirers must rework QR routing and reconciliation. For UnionPay this plugs an offshore account system into its acceptance network; for Hong Kong banks it turns FPS from a domestic transfer utility into a cross-border payment entry point, weakening wallets and plastic in small travel purchases. Pricing decides: if the exchange rate and fee land near card-scheme levels, cards lose ground; if not, this is a backup rail. The HKMA has not published limits, rates or revenue sharing.",
+    "es": "Lo que cambia es la credencial en el punto de aceptación. Quien paga desde Hong Kong en el exterior suele pasar por los monederos internacionales de Alipay o WeChat; con el FPS sobre QR de UnionPay, la credencial pasa a ser una cuenta bancaria de Hong Kong. El comercio no necesita terminal nueva, pero el adquirente debe rehacer el enrutado de QR y la conciliación. Para UnionPay supone enchufar un sistema de cuentas extraterritorial a su red de aceptación; para los bancos de Hong Kong, convertir el FPS de utilidad de transferencia local en puerta de pago transfronterizo, restando peso a monederos y plástico en compras pequeñas de viaje. El precio decide: si el tipo de cambio y la comisión se acercan a los del esquema de tarjetas, la tarjeta pierde terreno; si no, es una vía de respaldo. La HKMA no ha publicado límites, tipos ni reparto de ingresos."
+  },
+  "confidence": 0.75,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

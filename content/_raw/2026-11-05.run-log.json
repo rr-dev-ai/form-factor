@@ -1,0 +1,141 @@
+{
+  "task": "gap-supplement",
+  "date": "2026-11-05",
+  "startedAt": "2026-11-05T01:50:38+08:00",
+  "finishedAt": "2026-11-05T01:54:00+08:00",
+  "measureNote": "全程实测时钟读数共 5 个（01:50:38 起、01:50:46 矩阵、01:51:33 R3 收、01:52:31 R4/R5 收、01:53:41 落盘前）。R1/R2 之间未单独取时刻，只能给出区间，不做估算补写。",
+  "indexCheck": {
+    "file": "content/_raw/2026-11-05.index.json",
+    "fetchedFor": "2026-11-05",
+    "items": 300,
+    "verdict": "一次通过，未等待"
+  },
+  "matrix": {
+    "counted": 7,
+    "dropped": { "published": 6, "expired": 0, "undated": 26, "lowConfidence": 261 },
+    "gap": ["mena", "europe", "north-america", "latam", "africa"],
+    "cellGap": ["apac/telecom", "cis/telecom", "cis/identity"],
+    "industryGap": [
+      { "industry": "telecom", "emptyRegions": 7 },
+      { "industry": "identity", "emptyRegions": 6 },
+      { "industry": "banking", "emptyRegions": 5 }
+    ]
+  },
+  "phases": [
+    { "at": "2026-11-05T01:50:38+08:00", "step": "index 校验通过，取站点日期 2026-11-05" },
+    { "at": "2026-11-05T01:50:46+08:00", "step": "build-matrix 重算完成" },
+    { "at": "2026-11-05T01:51:33+08:00", "step": "R3 结束（含 index 与近四天已发布标题去重比对）" },
+    { "at": "2026-11-05T01:52:31+08:00", "step": "R4/R5 结束，转原文核对" },
+    { "at": "2026-11-05T01:53:41+08:00", "step": "七条候选 WebFetch 核对完毕，开始写盘" }
+  ],
+  "rounds": [
+    {
+      "round": "R1",
+      "count": 8,
+      "completedBetween": ["2026-11-05T01:50:46+08:00", "2026-11-05T01:51:33+08:00"],
+      "basis": "缺口驱动：每个 gap 区与 cellGap 格子各一条，用「区域＋链路产品词」",
+      "queries": [
+        "MENA bank card personalization bureau smart card issuance 2026",
+        "Europe digital identity wallet mDL issuance pilot November 2026",
+        "US EMV chip card personalization issuance contract 2026",
+        "LatAm eSIM RSP operator provisioning launch 2026",
+        "Africa biometric national ID card issuance contract 2026",
+        "Asia Pacific eSIM SM-DP+ provisioning operator 2026",
+        "Russia eSIM iSIM operator launch 2026",
+        "biometric passport issuance CIS country 2026 tender"
+      ],
+      "outcome": "仅两条可用线索：Eseye AnyNet Select（11-02）、利比里亚 OeSD 特许经营（11-02）；其余为旅游 eSIM 售卖页与聚合站"
+    },
+    {
+      "round": "R2",
+      "count": 6,
+      "completedBetween": ["2026-11-05T01:51:33+08:00", "2026-11-05T01:52:31+08:00"],
+      "basis": "机构驱动：把区域换成该市场的具体主体（证件局、制卡与身份厂商、运营商）",
+      "queries": [
+        "Bundesdruckerei ID card passport contract award 2026",
+        "IDEMIA Thales contract card personalization digital identity November 2026",
+        "MTN Vodacom eSIM launch Africa 2026",
+        "Claro Vivo TIM eSIM Brasil lançamento 2026",
+        "stc Mobily Zain eSIM Saudi Arabia launch 2026",
+        "eSIM orchestration platform entel Movistar Colombia Peru 2026"
+      ],
+      "outcome": "命中 IDEMIA PQC 卡 EMVCo 认证（11-02）；运营商侧全为旅游 eSIM 目录页，无运营商公告"
+    },
+    {
+      "round": "R3",
+      "count": 6,
+      "basis": "官方一手源：当地语言采购术语，标的物按 R1 的 gap 区清单排序",
+      "queries": [
+        { "q": "licitación tarjetas inteligentes personalización cédula identidad 2026", "basedOn": "R1 的 latam gap，换西语采购词" },
+        { "q": "edital cartão inteligente emissão identificação 2026", "basedOn": "R1 的 africa/latam 身份线，换葡语采购词" },
+        { "q": "مناقصة بطاقات الهوية الذكية إصدار 2026", "basedOn": "R1 的 mena gap，换阿语采购词" },
+        { "q": "appel d'offres carte d'identité biométrique personnalisation 2026", "basedOn": "R1 的 europe/africa 身份线，换法语采购词" },
+        { "q": "Tenders Electronic Daily smart card identity document personalisation 2026", "basedOn": "R2 的 Bundesdruckerei 线索，转 TED 官方公报" },
+        { "q": "Ausschreibung Chipkarte Personalisierung elektronischer Identitätsnachweis 2026", "basedOn": "R2 的 Bundesdruckerei 线索，换德语招标词" }
+      ],
+      "outcome": "命中瑞士生物识别身份证 11-02 启用、加纳 LI 2523 强制执行、南非 Nedbank 智能身份证渠道；招标库本身无 72 小时内合格标的"
+    },
+    {
+      "round": "R4",
+      "count": 4,
+      "basis": "行业垂媒：只取其独家或深度稿，避开前三轮已见的聚合站事件",
+      "queries": [
+        { "q": "biometricupdate mobile driving licence issuance November 2026", "basedOn": "R1 的 north-america identity 口子" },
+        { "q": "paymentscardsandmobile card personalisation issuance bureau November 2026", "basedOn": "R2 的制卡与个性化线索" },
+        { "q": "mobileworldlive eSIM SGP.32 operator November 2026", "basedOn": "R1 命中 Eseye 后转 SGP.32 运营侧" },
+        { "q": "dplnews eSIM México operador noviembre 2026", "basedOn": "R1 的 latam gap，指定拉美垂媒" }
+      ],
+      "outcome": "命中 US mDL 生态稿（11-02）；dplnews 与 mobileworldlive 当日无三条链路标的"
+    },
+    {
+      "round": "R5",
+      "count": 4,
+      "basis": "新兴术语：用尚未成为通用词的表述找产品化节点",
+      "queries": [
+        { "q": "SGP.32 eIM interoperability certification launch 2026", "basedOn": "R4 的 SGP.32 线索，转向认证与 eIM" },
+        { "q": "mDL issuance state pilot driving licence wallet 2026", "basedOn": "R4 命中的 US mDL 稿，追州级签发" },
+        { "q": "softPOS certification EMVCo new approval 2026", "basedOn": "R3 的受理端线索，转向 SoftPOS 认证" },
+        { "q": "iSIM integrated SIM commercial launch module 2026", "basedOn": "R1 的 CIS telecom 与 iSIM 词，转向商用发布" }
+      ],
+      "outcome": "命中 Kigen 车规 eSIM eSA 认证（11-03）、littlefish×Halo Dot（11-03）、NuvoLinQ（11-02）"
+    },
+    {
+      "round": "R6",
+      "count": 14,
+      "basis": "区域补充：前五轮零结果的 mena / latam / cis / apac-telecom，换本地语言与本地媒体，不原样重发",
+      "queries": [
+        { "q": "مصر إصدار بطاقات الدفع الإلكترونية شركة 2026", "basedOn": "R3 阿语招标无果后转埃及本地语新闻" },
+        { "q": "mada Saudi Payments بطاقات مدى إصدار 2026", "basedOn": "R2 stc/Mobily 无果，转沙特本国支付网络 mada" },
+        { "q": "México producción tarjetas bancarias personalización noviembre 2026", "basedOn": "R1 latam gap，换墨西哥本地语制卡词" },
+        { "q": "Казахстан eSIM оператор запуск ноябрь 2026", "basedOn": "R1 cis/telecom，换俄语与国别" },
+        { "q": "Узбекистан биометрический паспорт выдача 2026", "basedOn": "R1 cis/identity，换俄语与国别" },
+        { "q": "América Latina tarjeta SIM fábrica producción noviembre 2026", "basedOn": "R1 latam 无果，转上游制造词" },
+        { "q": "UAE Saudi digital ID wallet launch November 2026 identity verification", "basedOn": "R3 阿语无果，转海湾英文侧" },
+        { "q": "Valid Soluções cartão com chip produção novembro 2026", "basedOn": "R1 latam 制卡厂线索，点名巴西厂商" },
+        { "q": "Colombia cédula digital lanzamiento noviembre 2026 Registraduría", "basedOn": "R3 西语招标无果，转哥伦比亚登记局" },
+        { "q": "Saudi Arabia smart card manufacturing identity documents contract November 2026", "basedOn": "R3 阿语招标无果，转英文采购侧" },
+        { "q": "Philippines Globe Smart eSIM launch November 2026", "basedOn": "R1 apac/telecom 格，点名校验运营商" },
+        { "q": "Egypt national ID card issuance upgrade contract 2026 Misr", "basedOn": "R2 机构驱动的埃及补测" },
+        { "q": "\"eSIM\" السعودية stc موبايلي زين تفعيل الشريحة 2026", "basedOn": "R2 stc 无果，加引号与激活词重试" },
+        { "q": "Argentina lanzamiento tarjeta nueva emisión noviembre 2026 banco fintech", "basedOn": "R1 latam banking，换阿根廷本地语" }
+      ],
+      "outcome": "mena 与 latam 仍未取得 72 小时内、过范围门的候选；另做两条（Chile/Perú、Maroc/Algérie）同样为空"
+    }
+  ],
+  "verified": [
+    { "url": "https://hn.china.com/gundong/2026-11/03/content_11202613681.html", "checked": "发布日期 2026-11-03 10:55，Media OutReach 原文，SGP.32 v1.3 / 英飞凌 SLI22 / 三产品线" },
+    { "url": "https://www.morningstar.com/news/pr-newswire/20261102ph86016/nuvolinq-launches-nuvoautolinq-linq1zero-devices-now-configure-their-own-connectivity-in-the-field", "checked": "PR Newswire 2026-11-02 21:51，多伦多，两个版本 / Android 7+ / 350 家网络 / 70 万台" },
+    { "url": "https://www.biometricupdate.com/202611/more-use-cases-more-verifiers-will-propel-us-mobile-drivers-license-ecosystem", "checked": "2026-11-02 16:43 EST，佐治亚三支执法队伍、康州 11-18、俄州双钱包、2027-07-01 期限" },
+    { "url": "https://timesofswitzerland.ch/articles/biometric-id-cards-open-monday.html", "checked": "2026-11-02，65 瑞郎、芯片含人脸与两指纹、无芯片版并行、Notpass 更名" },
+    { "url": "https://mobile.classfmonline.com/news/No-more-scan-or-photocopying-of-Ghana-Card-NIA-begins-law-enforcement-tomorrow-79981", "checked": "2026-11-02，LI 2523、11-03 起执行、Match-on-Card、接入须 DPC 认证与 NIA 直签" },
+    { "url": "https://techcentral.co.za/no-terminal-needed-littlefish-halo-dot-merchants/287994", "checked": "2026-11-03，标注 Promoted，PCI MPoC，Araxi 集团，非洲市场已部署" },
+    { "url": "https://thequantuminsider.com/2026/11/02/idemia-payment-cards-post-quantum-transition/", "checked": "2026-11-02，EMVCo 认证 Java Card 平台、Sphere PQC 库、无算法清单" }
+  ],
+  "result": {
+    "items": 7,
+    "filled": ["europe/telecom", "europe/identity", "europe/banking", "north-america/telecom", "north-america/identity", "africa/identity", "africa/banking"],
+    "stillEmpty": ["mena(3/3)", "latam(3/3)", "apac/telecom", "cis/telecom", "cis/identity", "africa/telecom", "north-america/banking"],
+    "sites": ["hn.china.com（Media OutReach 转载）", "morningstar.com（PR Newswire）", "biometricupdate.com", "timesofswitzerland.ch", "mobile.classfmonline.com", "techcentral.co.za", "thequantuminsider.com"]
+  },
+  "notes": "build-matrix 计入仅 7 条，剔除低置信 261 条，与 11-04 同型：欧洲与北美的运营商动态（6G、裁员、光纤）占了低置信的大头，标的物不在三条链路上。mena 与 latam 连续两日无合格候选，问题在可达信源而非筛选阈值：海湾与拉美的支付/身份新闻多以通稿与榜单形式出现，缺带金额与承接方的动作。"
+}

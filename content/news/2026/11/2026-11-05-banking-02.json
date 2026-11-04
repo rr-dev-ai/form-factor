@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-05-banking-07",
+  "slug": "trust-payments-weavr-virtual-cards-travel",
+  "industry": "banking",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "acquiring"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-05T04:18:03+08:00",
+  "ingestedAt": "2026-11-05T02:35:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Travel PR News",
+      "url": "https://travelprnews.com/article/trust-payments-links-travel-bookings-to-supplier-spending-with-weavr-powered-virtual-cards",
+      "lang": "en",
+      "publishedAt": "2026-11-03T00:00:00+00:00"
+    },
+    {
+      "name": "Merchant's Eye",
+      "url": "https://www.merchantseye.com/news/trust-payments-and-weavr-partner-to-provide-virtual-cards-for-trave-019d8044",
+      "lang": "en",
+      "publishedAt": "2026-11-03T00:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "Trust Payments 借 Weavr 发单次虚拟卡：一张卡对一个旅游订单",
+    "en": "Trust Payments issues single-use virtual cards tied to one travel booking",
+    "es": "Trust Payments emite tarjetas virtuales de un solo uso ligadas a una reserva"
+  },
+  "summary": {
+    "zh": "11 月 3 日，Trust Payments 与 Weavr 在英国与欧洲经济区推出面向旅游企业的单次虚拟卡，卡种为 Visa Commercial Choice Travel，卡与单个订单绑定、以英镑和欧元结算，用于向酒店与航司等供应商付款，并可凭订单数据支持拒付举证。",
+    "en": "On 3 November Trust Payments and Weavr launched single-use virtual cards for travel firms in the UK and EEA: Visa Commercial Choice Travel cards, each tied to one booking, denominated in sterling and euros, used to pay hotels, airlines and other suppliers, with booking data to support chargeback claims.",
+    "es": "El 3 de noviembre Trust Payments y Weavr lanzaron tarjetas virtuales de un solo uso para empresas de viajes en el Reino Unido y el EEE: tarjetas Visa Commercial Choice Travel, cada una ligada a una reserva, en libras y euros, para pagar a hoteles, aerolíneas y otros proveedores, con datos de la reserva para apoyar contracargos."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "收单机构开始做付款侧",
+        "en": "An acquirer moves into pay-out",
+        "es": "El adquirente entra en el pago saliente"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 3 日，Trust Payments 与嵌入式金融供应商 Weavr 推出面向旅游企业的单次虚拟卡。卡种为 Visa Commercial Choice Travel，每张卡绑定一个订单，付款时带上订单数据，用于向酒店、航司等供应商付款，币种为英镑与欧元，面向英国与欧洲经济区的合资格企业。",
+        "en": "Trust Payments and embedded finance provider Weavr launched single-use virtual cards for travel businesses on 3 November. The card type is Visa Commercial Choice Travel, each card is tied to one booking, payments carry booking data, and they are used to pay hotels, airlines and other suppliers in sterling and euros for eligible UK and EEA businesses.",
+        "es": "Trust Payments y el proveedor de finanzas embebidas Weavr lanzaron el 3 de noviembre tarjetas virtuales de un solo uso para empresas de viajes. El tipo es Visa Commercial Choice Travel, cada tarjeta se ata a una reserva, los pagos llevan datos de la reserva y sirven para pagar a hoteles, aerolíneas y otros proveedores en libras y euros para empresas elegibles del Reino Unido y el EEE."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "企业以银行转账充值账户，从余额支出；单卡可设限额与有效期，卡号不可复用，交易实时监控。Trust Payments 称，绑定订单的数据在供应商违约时可支持拒付举证，但是否成立仍受卡组织规则约束，且不保证追回。",
+        "en": "Businesses fund the account by bank transfer and spend from the balance; each card can carry a limit and expiry, card numbers cannot be reused and payments are monitored in real time. Trust Payments says the booking data can support chargeback claims when a supplier fails, subject to scheme rules and with no guarantee of recovery.",
+        "es": "La empresa carga la cuenta por transferencia y gasta desde el saldo; cada tarjeta admite límite y caducidad, los números no se reutilizan y los pagos se vigilan en tiempo real. Trust Payments dice que los datos de la reserva pueden apoyar un contracargo si el proveedor falla, sujeto a las reglas del esquema y sin garantía de recuperación."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "发卡主体分两块：欧洲经济区由 Weavr (Europe) Ltd 发卡，持马耳他金融服务局电子货币牌照；英国由 Payment Card Solutions (UK) Ltd（B4B Payments）发卡，受 FCA 监管。两家均说明电子货币资金不在存款保险范围内。",
+        "en": "Issuance is split: in the EEA by Weavr (Europe) Ltd, authorised by the Malta Financial Services Authority as an electronic money institution; in the UK by Payment Card Solutions (UK) Ltd, trading as B4B Payments, authorised by the FCA. Both state that e-money funds fall outside deposit compensation schemes.",
+        "es": "La emisión se divide: en el EEE por Weavr (Europe) Ltd, autorizada por la autoridad maltesa como entidad de dinero electrónico; en el Reino Unido por Payment Card Solutions (UK) Ltd, que opera como B4B Payments, autorizada por la FCA. Ambos indican que los fondos de dinero electrónico quedan fuera de los fondos de garantía de depósitos."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变的是收单机构的角色：原本只管把钱收进来，现在用同一套商户关系把钱付出去，发卡能力由 Weavr 以嵌入式方式提供，不必自建 BIN 与处理链路。对旅游企业，价值在核对——一张卡对一个订单，财务不必在流水里猜哪笔对应哪个团；对发卡处理器与商务卡供应商，这是新的竞争者，且带着现成的商户名单。监管边界值得盯：电子货币机构发卡不受存款保险保护，企业把大额供应商付款放在这类账户上，等于用信用风险换对账效率。",
+    "en": "What changes is the acquirer's role: it used to only take money in, and now pays out over the same merchant relationship, with issuing supplied as embedded infrastructure by Weavr rather than a BIN and processing stack of its own. For travel firms the value is reconciliation: one card per booking means finance no longer guesses which payment belongs to which trip. For issuer processors and commercial card providers this is a new competitor arriving with a ready merchant list. Watch the regulatory line: e-money issuance sits outside deposit protection, so parking large supplier balances there trades credit risk for reconciliation efficiency.",
+    "es": "Lo que cambia es el papel del adquirente: antes solo cobraba y ahora paga usando la misma relación con el comercio, con la emisión provista como infraestructura embebida por Weavr en lugar de un BIN y un stack de procesamiento propios. Para las agencias de viajes el valor está en la conciliación: una tarjeta por reserva evita adivinar qué pago corresponde a cada viaje. Para procesadores de emisión y emisores de tarjetas comerciales es un competidor nuevo que llega con lista de comercios. Conviene vigilar la frontera regulatoria: el dinero electrónico no está cubierto por seguros de depósito, así que dejar saldos grandes ahí cambia riesgo de crédito por eficiencia."
+  },
+  "confidence": 0.7,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

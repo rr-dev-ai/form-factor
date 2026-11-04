@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-05",
+  "industry": "telecom",
+  "startedAt": "2026-11-05T02:50:24+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "AST SpaceMobile obtiene concesión para dar conectividad móvil satelital en Chile",
+      "url": "https://www.dplnews.com/ast-spacemobile-obtiene-concesion-para-dar-conectividad-movil-satelital-en-chile/",
+      "reason": "范围门：Subtel 授出的是 30 年 S 波段特许（上行 1980–2010 MHz、下行 2170–2200 MHz），标的是频谱与卫星运营许可，不是 SIM 载体、RSP 或鉴权机制；与 FCC D2D 频谱、欧洲卫星频谱同属一类，在范围门就被拦掉。"
+    },
+    {
+      "title": "SpaceX taps Qualcomm to power Starlink Mobile in US",
+      "url": "https://www.mobileworldlive.com/starlink/spacex-taps-qualcomm-to-power-starlink-mobile-in-us/",
+      "reason": "范围门：Qualcomm 供的是地面 5G 基站设备（Dragonwing QRU100/QDU100、64T64R Massive MIMO，数万站点、2027 年起部署），属核心网与基站，不收。"
+    },
+    {
+      "title": "Wishing upon a Star(link) in North Wales with O2 Satellite",
+      "url": "https://totaltele.com/wishing-upon-a-starlink-in-north-wales-with-o2-satellite/",
+      "reason": "时效门：VMO2 的 O2 Satellite 2026 年 2 月已商用（每月 3 英镑），这篇是 11 月 3 日的实地测试报道，窗口内没有新动作；内容上也只是既有 D2D 服务的体验记录。"
+    },
+    {
+      "title": "Kigen 车用 eSIM 通过 GSMA eSA 认证，为首个符合 SGP.32 v1.3 的车规 eSIM",
+      "url": "https://hn.china.com/gundong/2026-11/03/content_11202613681.html",
+      "reason": "时效门：原稿首发于 kigen.com 2026-09-23，11 月 3 日的中文稿是 Media OutReach 同一稿的分发，事件本身已超 72 小时；且标题的「首个」是厂商自称，不可直接引用。"
+    },
+    {
+      "title": "ING and Gigs launch travel eSIM across nine markets",
+      "url": "https://fortune.com/press-releases/ing-gigs-travel-esim-global-connectivity-2026-11-02/",
+      "reason": "范围门：银行 App 内嵌旅行 eSIM 套餐，属销售渠道合作，AGENTS.md 明确归资费促销不收；即便有九国名单与 11 月 2 日首发市场，也不改载体或鉴权机制。"
+    },
+    {
+      "title": "BBVA launches Gigs-powered eSIM service in Italy",
+      "url": "https://thepaypers.com/fintech/news/bbva-partners-with-gigs-to-launch-in-app-esim-service-in-italy",
+      "reason": "范围门与时效门双重不过：银行 App 卖旅行 eSIM 属渠道合作；且新闻稿发布于 10 月 29 日，已超 72 小时。"
+    },
+    {
+      "title": "Telenor eSIM Pakistan launched for prepaid and postpaid",
+      "url": "https://urdupro.info/telenor-esim-pakistan-launch-prepaid-postpaid",
+      "reason": "无法核：只有第三方博客，未见 Telenor Pakistan 或 PTA 公告，页面无发布日期，无法判定是否落在 72 小时窗口内；按「先核原文再收」放弃。"
+    },
+    {
+      "title": "华大电子牵头编制《基于晶圆级封装 eUICC 个人化安全白皮书》",
+      "url": "https://www.21ic.com/a/1015713.html",
+      "reason": "时效门与动作门均不过：白皮书 10 月 22 日在 CEIC 2026 发布，已超窗口；且属方法论白皮书，AGENTS.md 明确不收无参数无客户的纯方法论。"
+    },
+    {
+      "title": "华大电子亮相 2026 世界互联网大会，展示 eSIM 与端侧抗量子方案",
+      "url": "https://www.21ic.com/a/1015743.html",
+      "reason": "动作门：展会展示，公布的是 400KB–2.5MB 存储配置、MEP 支持 10 个以上 profile 等既有能力，没有首次或变化，属展会表态。"
+    },
+    {
+      "title": "意法、泰雷兹、华大电子 10 月底密集通过 GSMA eSA 认证（行业综述）",
+      "url": "https://www.toutiao.com/a7703752408479957539",
+      "reason": "时效门：认证事件发生在 10 月底，距落盘已超 72 小时；来源还是行业动态的二手汇编，未见各家发证方原稿与证书编号，无法补齐「版本号 + 发证方」中的版本项。"
+    },
+    {
+      "title": "中国移动乌镇展示 6G「进度条」：已开通手机直连天通+北斗双星通信",
+      "url": "https://zj.people.com.cn/n2/2026/1104/c186327-41741512.html",
+      "reason": "动作门：展会现场的 6G 与星地融合表态，未给终端型号、资费、开通范围或鉴权方式等可核物；6G 表态本身也在不收之列。"
+    },
+    {
+      "title": "千帆星座 18 颗组网卫星发射成功",
+      "url": "https://www.miit.gov.cn/jgsj/wgj/gzdt/art/2026/art_03f6f039fafd41578642d34991fa2588.html",
+      "reason": "范围门：星座组网与频率协调属卫星基础设施，与 SIM 载体、RSP、鉴权链无关。"
+    },
+    {
+      "title": "Telcos push for 20-SIM cap and accuse Icasa of overreach",
+      "url": "https://techcentral.co.za/telcos-20-sim-cap-icasa-overreach-act/288035",
+      "reason": "已由 2026-11-02-telecom-02 处理：同一份 ICASA 编号规划修正草案与 ACT 的反对立场，本条只补了 20 张上限与竞争委员会监督，不构成新事件。"
+    },
+    {
+      "title": "ANATEL approves biometric verification requirement for mobile phone users",
+      "url": "https://cesconbarrieu.com.br/en/anatel-approves-biometric-verification-requirement-for-mobile-phone-users",
+      "reason": "已由 2026-10-30-telecom-04 处理：Anatel 10 月 28 日第 GT-SEG.2026.11 号技术标准，本页只是律所对同一决定的实施时间表解读。"
+    },
+    {
+      "title": "T-Mobile 称 SIM 交换攻击降超 99%",
+      "url": "https://news.qq.com/rain/a/20261103A09G9200",
+      "reason": "动作门：安全报告的成效复盘，身份核验、生物识别、SIM 保护等功能均为既有能力，窗口内没有新的机制或产品变化。"
+    },
+    {
+      "title": "TRAI tightens complaint redressal rules, telcos face Rs 20 lakh fine",
+      "url": "https://www.voicendata.com/telecom/trai-tightens-complaint-redressal-rules-telcos-face-rs-20-lakh-fine-12778092",
+      "reason": "范围门：消费者投诉处理与罚则，属服务质量监管，不落在载体、签发、分发、受理任一环节。"
+    },
+    {
+      "title": "TRAI releases new telecom interconnection rules, effective January 1, 2027",
+      "url": "https://www.ibtimes.co.in/trai-releases-new-telecom-interconnection-rules-take-effect-january-1-2027-sets-three-year-908072",
+      "reason": "范围门：互联互通（LSA 级 POI、IP 化迁移）属核心网与网间结算，非凭证链路。"
+    },
+    {
+      "title": "GSMA says climate damage to mobile networks could cost $3 billion annually by 2050",
+      "url": "https://techmoran.com/2026/11/04/gsma-says-climate-damage-to-mobile-networks-could-cost-3-billion-annually-by-2050/",
+      "reason": "范围门：网络韧性与气候政策倡议，不涉及 SIM、profile 或鉴权。"
+    },
+    {
+      "title": "Ericsson launches ISAC system for drone detection",
+      "url": "https://www.fierce-network.com/wireless/ericsson-launches-isac-system-drone-detection",
+      "reason": "范围门：网络感知能力落在无线与核心网侧，不是凭证链路。"
+    },
+    {
+      "title": "SoftBank, Sceye strike 5-year HAPS deal",
+      "url": "https://www.mobileworldlive.com/network-tech/softbank-sceye-strike-5-year-haps-deal/",
+      "reason": "范围门：高空平台接入能力采购，未涉及 SIM、profile 或鉴权方式。"
+    },
+    {
+      "title": "SES secures Finnair deal for multi-orbit in-flight Wi-Fi",
+      "url": "https://www.mobileeurope.co.uk/ses-finnair-leo/",
+      "reason": "范围门：机上互联带宽采购，与凭证链无关。"
+    },
+    {
+      "title": "FCC doubles down on D2D with spectrum plays",
+      "url": "https://www.fierce-network.com/wireless/fcc-doubles-down-d2d-spectrum-plays",
+      "reason": "范围门：卫星直连的频谱分配，AGENTS.md 明确不收；且与 2026-10-30-telecom-06 属同一轮程序。"
+    },
+    {
+      "title": "SpaceX in talks to buy Boost Mobile, network assets",
+      "url": "https://www.mobileworldlive.com/starlink/spacex-in-talks-to-buy-boost-mobile-network-assets/",
+      "reason": "范围门与动作门：MVNO 与网络资产收购传闻，改变的是市场入口，未落在载体、签发、分发或受理环节，且交易未落地。"
+    },
+    {
+      "title": "eSIM 商用试验满一年：联通适配机型近 30 款，下半年出货预计破 2000 万台",
+      "url": "https://www.mscbsc.com/info/Nw530kl/202611-liantong",
+      "reason": "动作门：高管访谈与出货预测，无形态或机制变化；联通线上办理与终端适配已由 2026-11-03-telecom-02、2026-10-30-telecom-03 处理。"
+    },
+    {
+      "title": "VodafoneThree helps police crack down on SIM farms",
+      "url": "https://www.lightreading.com/security/eurobites-vodafonethree-helps-fight-sim-farm-menace-in-uk",
+      "reason": "已由 2026-11-04-telecom-02 处理：同一批逮捕与同一条《2026 年犯罪与警务法》生效，本篇、Total Telecom 与 eSIM Report 三篇为同事件。"
+    },
+    {
+      "title": "AT&T, AST handle D2D handoff",
+      "url": "https://www.mobileworldlive.com/operators/att-ast-handle-d2d-handoff/",
+      "reason": "已由 2026-11-04-telecom-01 处理：同一通从地面网交到低轨卫星的电话；Light Reading 的 AT&T/Rakuten 稿与 MWL 法语版均为同事件。"
+    },
+    {
+      "title": "AT&T and Smart Meter expand connected healthcare reach with Global SIM Advanced",
+      "url": "https://iot-now.com/2026/11/02/159123-att-smart-meter-connected-healthcare-global-sim-advanced/",
+      "reason": "已由 2026-11-03-telecom-01 处理：同一款多 profile eSIM 进入远程监护设备。"
+    },
+    {
+      "title": "中国电信香港已支持港澳版手机使用 eSIM 服务",
+      "url": "https://news.qq.com/rain/a/20261103A0BA9V00",
+      "reason": "已由 2026-11-04-telecom-03 处理：同一则公众号公告，储值卡、柜台办理与 30 港元补卡费均已写入条目。"
+    },
+    {
+      "title": "How to Use an eIM to Switch Local Profiles for IoT Compliance",
+      "url": "https://www.simplexwireless.com/2026/11/02/how-to-use-an-eim-to-switch-local-profiles-for-iot-compliance-go-local-without-the-truck-roll",
+      "reason": "动作门：技术指南，讲 eIM 切换流程与踩坑清单，没有事件、主体动作或可核的具体物。"
+    },
+    {
+      "title": "Zetexa brings pre-departure student connectivity to ICEF Berlin 2026",
+      "url": "https://www.finanzwire.com/press-release/zetexa-etr-zetexa-brings-pre-departure-student-connectivity-to-icef-berlin-2026-dMQ1iZTTLmV",
+      "reason": "范围门：面向留学中介的旅行 eSIM 分销（API、白标页、返佣），属渠道与资费促销。"
+    },
+    {
+      "title": "华芯兆业贴片 eSIM / 物联网卡供应商推广页",
+      "url": "https://m.912688.com/info/2171262.html",
+      "reason": "动作门：厂商招商与产品目录页，无事件时间、无客户名、无认证发证方，属设备商广告。"
+    },
+    {
+      "title": "国内三大运营商 eSIM 办理对比（手机 / 手表 / 平板）",
+      "url": "https://t.cj.sina.cn/articles/view/2650591473/9dfcd0f100102pwnu",
+      "reason": "动作门：SEO 式横向测评与办理指南，罗列既有资费与渠道，无新事件。"
+    },
+    {
+      "title": "Starship Flight 15: why a rocket catch attempt matters for direct-to-cell capacity",
+      "url": "https://5gworldpro.com/blog/2026/11/03/starship-flight-15-direct-to-cell",
+      "reason": "范围门：运载与星座部署节奏分析，属卫星基础设施与推测性报道，与凭证链无关。"
+    },
+    {
+      "title": "ICASA takes aim at dormant telecoms licences",
+      "url": "https://www.itweb.co.za/article/icasa-takes-aim-at-dormant-telecoms-licences/j5alrvQAdwJvpYQk",
+      "reason": "范围门：牌照清理，与 SIM 载体、RSP、鉴权无关。"
+    },
+    {
+      "title": "HKT pulls out of US under FCC pressure – report",
+      "url": "https://www.lightreading.com/regulatory-politics/hkt-pulls-out-of-us-under-fcc-pressure--report",
+      "reason": "范围门：市场退出与监管压力，不涉及 SIM 载体、RSP 或鉴权方式。"
+    }
+  ],
+  "stats": {
+    "candidates": 307,
+    "written": 3,
+    "skippedByDedup": 7
+  },
+  "finishedAt": "2026-11-04T18:56:12.906Z"
+}

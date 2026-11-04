@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-05-banking-05",
+  "slug": "brim-financial-manulife-bank-card-platform",
+  "industry": "banking",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "issuing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-05T04:18:03+08:00",
+  "ingestedAt": "2026-11-05T02:35:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Finovate",
+      "url": "https://finovate.com/brim-financial-partners-with-manulife-bank/",
+      "lang": "en",
+      "publishedAt": "2026-11-02T00:00:00-05:00"
+    }
+  ],
+  "title": {
+    "zh": "Manulife Bank 把信用卡组合迁到 Brim：发卡、处理、服务并成一套",
+    "en": "Manulife Bank moves its card portfolio onto Brim's single stack",
+    "es": "Manulife Bank migra su cartera de tarjetas a la pila única de Brim"
+  },
+  "summary": {
+    "zh": "11 月 2 日，Brim Financial 宣布与 Manulife Bank 合作，把后者信用卡组合从多套遗留系统迁到 Brim 的可配置平台，发卡、处理、账户服务、忠诚度与客户互动合并；组合规模、迁移时间表与商业条款均未披露。",
+    "en": "Brim Financial said on 2 November that Manulife Bank will move its credit card portfolio off fragmented legacy systems onto Brim's configurable platform, combining issuing, processing, servicing, loyalty and engagement; portfolio size, timeline and commercial terms were not disclosed.",
+    "es": "Brim Financial anunció el 2 de noviembre que Manulife Bank migrará su cartera de tarjetas de sistemas heredados fragmentados a la plataforma configurable de Brim, uniendo emisión, procesamiento, servicio, fidelidad y relación con el cliente; no se revelaron tamaño, calendario ni condiciones comerciales."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "把四套系统并成一套",
+        "en": "Four systems folded into one",
+        "es": "Cuatro sistemas en uno"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 2 日，Brim Financial 宣布与 Manulife Bank 合作，把后者的信用卡组合迁到 Brim 的可配置平台上。Brim 的模型把发卡、处理、账户服务、忠诚度活动与客户互动放在同一套系统里，银行按产品配置上线，而不是按项目排期。",
+        "en": "Brim Financial said on 2 November that it will move Manulife Bank's credit card portfolio onto its configurable platform. Brim's model puts issuing, processing, account servicing, loyalty campaigns and customer engagement in one system, so a bank launches products by configuration rather than by project schedule.",
+        "es": "Brim Financial anunció el 2 de noviembre que migrará la cartera de tarjetas de Manulife Bank a su plataforma configurable. El modelo de Brim reúne emisión, procesamiento, servicio de cuentas, campañas de fidelidad y relación con el cliente en un sistema, de modo que el banco lanza productos por configuración y no por calendario de proyectos."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Manulife Bank 是加拿大联邦监管银行，截至 2026 年二季度总资产 348 亿加元，服务全部省份与地区。该行总裁 Katy Boshart 称，合作是为了把信用卡与支付嵌进其数字渠道；Brim 创始人 Rasha Katabi 称，多家供应商拼装会拖慢产品创新。",
+        "en": "Manulife Bank is a federally regulated Canadian bank with C$34.8 billion in assets at the end of the second quarter of 2026, serving every province and territory. Its president, Katy Boshart, said the partnership embeds credit and payments in its digital channels; Brim founder Rasha Katabi said stitching several vendors together slows product innovation.",
+        "es": "Manulife Bank es un banco canadiense de regulación federal con 34.800 millones de dólares canadienses en activos al cierre del segundo trimestre de 2026 y presencia en todas las provincias y territorios. Su presidenta, Katy Boshart, dijo que la alianza integra crédito y pagos en sus canales digitales; la fundadora de Brim, Rasha Katabi, señaló que combinar varios proveedores frena la innovación."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "双方未披露组合规模、迁移时间表与商业条款，也没说明现有处理商是谁、切换分几步、授权与账务如何避免中断。",
+        "en": "Neither side disclosed portfolio size, migration timeline or commercial terms, nor named the incumbent processor, the number of cutover steps, or how authorisation and ledger continuity will be protected.",
+        "es": "Ninguna de las partes reveló tamaño de cartera, calendario ni condiciones comerciales, ni identificó al procesador saliente, el número de etapas de migración o cómo se protegerá la continuidad de autorizaciones y contabilidad."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变的是银行的发卡栈形态：从「处理器＋服务商＋忠诚度平台」三份合同，变成一份可配置的平台合同，产品上线从项目制变成参数调整。对加拿大的中型银行，这条路径的吸引力在于不必自建，但迁移期间授权与账务不能断，切换风险集中在一个窗口。对现有处理器与忠诚度供应商，这是客户被整包拿走的信号；对 Brim 这类挑战者，拿下受监管银行是进入主流发卡链的通行证。要看的是迁移分几步、旧系统何时下线，以及这套模型能否承受加拿大本地的合规审查。",
+    "en": "What changes is the shape of the issuing stack: three contracts for processor, servicer and loyalty platform become one configurable platform contract, and product launches move from projects to parameter changes. For mid-sized Canadian banks the appeal is not building it themselves, but authorisation and ledger continuity cannot break during migration, so cutover risk concentrates in one window. For incumbent processors and loyalty vendors this is a signal that a client can be taken as a bundle; for challengers such as Brim, landing a regulated bank is the entry ticket to mainstream issuing. Watch the number of cutover steps, when the old systems go dark, and whether the model survives Canadian compliance review.",
+    "es": "Lo que cambia es la forma de la pila de emisión: tres contratos —procesador, servicio y fidelidad— pasan a uno de plataforma configurable, y el lanzamiento de productos deja de ser un proyecto para ser un cambio de parámetros. Para los bancos medianos canadienses el atractivo es no construirlo, pero la autorización y la contabilidad no pueden cortarse en la migración, así que el riesgo se concentra en una ventana. Para los procesadores y proveedores de fidelidad instalados, es la señal de que un cliente puede perderse en bloque; para retadores como Brim, fichar un banco regulado es el pasaporte a la emisión convencional. Habrá que ver cuántas etapas tiene la migración, cuándo se apagan los sistemas antiguos y si el modelo resiste la revisión de cumplimiento canadiense."
+  },
+  "confidence": 0.65,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

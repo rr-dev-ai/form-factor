@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-05-telecom-01",
+  "slug": "orange-ifpp-single-sku-quantum-safe-esim",
+  "industry": "telecom",
+  "region": "global",
+  "regions": [],
+  "tags": [
+    "esim",
+    "rsp"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-05T04:18:03+08:00",
+  "ingestedAt": "2026-11-05T02:50:24+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "IDEMIA",
+      "url": "https://www.idemia.com/press-release/acceleronix-idemia-secure-transactions-and-orange-announce-flexible-single-sku-manufacturing-quantum-safe-ifpp-2026-11-04",
+      "lang": "en",
+      "publishedAt": "2026-11-04T13:59:20Z"
+    }
+  ],
+  "title": {
+    "zh": "Orange 把 profile 写入产线：一款硬件卖多个市场",
+    "en": "Orange joins in-factory profile provisioning for single-SKU eSIMs",
+    "es": "Orange se suma al aprovisionamiento en fábrica para eSIM de SKU único"
+  },
+  "summary": {
+    "zh": "11 月 4 日，IDEMIA Secure Transactions 与 Acceleronix 宣布 Orange 加入其量子安全 IFPP 计划：运营商 profile 在整机厂产线末端写入 eSIM，同一款硬件可发往不同市场。方案按 GSMA SGP.41 搭建，跑在 SGP.32 的物联网基础设施上，试用套件已向 OEM 开放。",
+    "en": "On 4 November IDEMIA Secure Transactions and Acceleronix said Orange has joined their quantum-safe IFPP programme, which writes the operator profile to the eSIM at the end of the device maker's own line so one hardware build can ship to several markets. The scheme follows GSMA SGP.41, runs on SGP.32 IoT infrastructure and offers trial kits to OEMs.",
+    "es": "El 4 de noviembre IDEMIA Secure Transactions y Acceleronix anunciaron la incorporación de Orange a su programa IFPP con seguridad cuántica, que escribe el perfil del operador en la eSIM al final de la línea del fabricante para que un mismo hardware sirva a varios mercados. El esquema sigue GSMA SGP.41, funciona sobre infraestructura SGP.32 y ofrece kits de prueba a los OEM."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "选哪家网，改成产线上的一个工序",
+        "en": "Choosing a network becomes a line step",
+        "es": "Elegir red pasa a ser una etapa de línea"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 4 日，IDEMIA Secure Transactions 与 Acceleronix 宣布 Orange 加入两家在 2026 年 2 月巴塞罗那世界移动通信大会上共同发起的 IFPP（In-Factory Profile Provisioning，产线内 profile 写入）计划。三方将在 11 月 10 日至 13 日慕尼黑 electronica 展 C2 馆 601 展位做现场演示，并向整机厂开放试用套件。",
+        "en": "On 4 November IDEMIA Secure Transactions and Acceleronix said Orange has joined the in-factory profile provisioning (IFPP) programme the two launched at MWC Barcelona in February 2026. The three will demonstrate it at electronica in Munich from 10 to 13 November, Hall C2, Stand 601, and offer trial kits to device makers.",
+        "es": "El 4 de noviembre IDEMIA Secure Transactions y Acceleronix informaron de la entrada de Orange en el programa de aprovisionamiento de perfiles en fábrica (IFPP) que ambos lanzaron en el MWC de Barcelona en febrero de 2026. Los tres lo demostrarán en electronica, en Múnich, del 10 al 13 de noviembre, pabellón C2, stand 601, y ofrecerán kits de prueba a los fabricantes."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "做法是把「这台设备连哪家网」从设计阶段挪到生产末端。整机厂只做一款硬件，在自家产线最后一道工序按订单把运营商 profile 写进 eSIM，车间断网也能写，写完的设备出厂即可联网。方案不限定封装形态，MFF2、MFF4 一类贴片 eSIM 都在范围内。写入过程用后量子算法对运营商凭证做绑定保护，公告称「已经是量子安全的」，但没有列出所用算法。",
+        "en": "The change is where connectivity gets decided. A manufacturer builds one hardware platform and, at the last step of its own line, writes the operator profile into the eSIM per order, including in air-gapped plants, so the device leaves the factory provisioned. It is not tied to one package: MFF2 and MFF4 embedded eSIMs are both in scope. A post-quantum binding protects the operator credentials during production; the announcement calls the result quantum-safe but does not name the algorithms.",
+        "es": "El cambio consiste en mover la decisión de conectividad al final de la producción. El fabricante construye una sola plataforma y, en la última etapa de su línea, escribe el perfil del operador en la eSIM según el pedido, incluso en plantas sin red, de modo que el equipo sale aprovisionado. No se limita a un formato: sirven eSIM embebidas MFF2 y MFF4. Un vínculo poscuántico protege las credenciales del operador durante la producción; el anuncio lo califica de seguro frente a la computación cuántica, pero no detalla los algoritmos."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "标准底座写得很具体：架构与要求依照 GSMA SGP.41，运行在现有的 SGP.32 物联网基础设施上，等 SGP.42 的详细技术规范发布后再升级。分工是 IDEMIA 出可写入的 eSIM 与凭证绑定，Acceleronix 出 IFPP Loader 与产线编排工具（按台留痕），Orange 出 profile 与自有网络加漫游伙伴的物联网连接。",
+        "en": "The standards base is explicit: architecture and requirements follow GSMA SGP.41, it runs on existing SGP.32 IoT infrastructure, and upgrades to SGP.42 once that detailed specification is published. IDEMIA supplies the writable eSIM and credential binding, Acceleronix the IFPP Loader and line orchestration with per-device traceability, and Orange the profiles plus IoT connectivity over its own network and roaming partners.",
+        "es": "La base normativa es explícita: arquitectura y requisitos según GSMA SGP.41, sobre la infraestructura SGP.32 existente, con migración a SGP.42 cuando se publique su especificación detallada. IDEMIA aporta la eSIM grabable y el vínculo de credenciales, Acceleronix el IFPP Loader y la orquestación de línea con trazabilidad por equipo, y Orange los perfiles y la conectividad IoT por su red y sus socios de itinerancia."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "为什么现在盯上贴片 eSIM：公告说 MFF4 只有 2×2 毫米，比常用的 MFF2 小约 87%，追踪器、传感器、可穿戴这类设备电池和空间都紧，靠出厂后在空中下载 profile 并不总是可行。把写入放到产线，等于用「产线一次写清」换掉「现场首次下载」。",
+        "en": "Why embedded packages matter now: the announcement puts MFF4 at 2 by 2 millimetres, roughly 87% smaller than the widely used MFF2, and says trackers, sensors and wearables have too little power and space for in-field profile downloads in some cases. Writing on the line replaces a first download in the field with one clean step at production.",
+        "es": "Por qué importan ahora los formatos embebidos: el anuncio sitúa el MFF4 en 2 por 2 milímetros, cerca de un 87% menos que el MFF2 habitual, y señala que rastreadores, sensores y portátiles tienen poco espacio y batería para descargar perfiles en campo. Escribir en línea sustituye esa primera descarga por un paso en producción."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "边界也要说清：目前是试用套件阶段，没有点名任何整机厂客户，没有出货量、单价与量产时间表，profile 只来自 Orange 一家。所谓「一款 SKU 覆盖所有市场」，成立的前提是目标市场的运营商都愿意把 profile 提前交到产线上。",
+        "en": "The limits: this is still a trial-kit stage, with no named device maker, no volumes, no unit pricing and no production timeline, and the profiles come from Orange alone. The single-SKU claim holds only if operators in each target market agree to hand their profiles to a production line in advance.",
+        "es": "Los límites: sigue en fase de kits de prueba, sin fabricante identificado, sin volúmenes, sin precio unitario ni calendario de producción, y los perfiles proceden solo de Orange. La promesa de un SKU único se sostiene solo si los operadores de cada mercado aceptan entregar sus perfiles a una línea de producción por adelantado."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "改变的是 profile 的写入位置，也就是 eSIM 的分发环节。过去选网在设计阶段定死，靠多个 SIM SKU 和分区库存兜住不同市场；现在这个决定落在产线末端，按订单写入。做 eSIM 封装、产线写入设备、SM-DP+ 对接的供应商，交付物从「能下 profile」变成「能在断网车间安全写入、按台留痕、可审计」，验证项和产线节拍都要重做。对整机厂，备货从多 SKU 变单一 SKU，资金占用下降，但要把运营商谈判提前到量产之前。短期只影响 Orange 的物联网客户与试用 OEM；若 SGP.42 落地、更多运营商愿意交 profile，运营商的分发入口会前移到工厂，卡商与模组厂的产线服务能力成为竞争点。",
+    "en": "What changes is where the profile is written, which is the distribution step for eSIMs. Connectivity used to be fixed at design time and covered by multiple SIM SKUs and regional stock; now the decision sits at the end of the line and is made per order. For eSIM packaging, line-writing equipment and SM-DP+ integration suppliers, the deliverable shifts from downloading a profile to writing it safely in an offline plant, with per-device records that can be audited, so validation and line takt both change. Device makers trade multi-SKU inventory for one build, freeing working capital, but operator negotiations must finish before mass production. Near term this touches Orange IoT customers and trial OEMs; if SGP.42 lands and more operators hand over profiles, the distribution gateway moves into the factory and line services become the differentiator for card and module vendors.",
+    "es": "Lo que cambia es dónde se escribe el perfil, es decir, la distribución de la eSIM. Antes la conectividad se fijaba en diseño y se cubría con varios SKU de SIM y stock regional; ahora la decisión está al final de la línea y se toma por pedido. Para los proveedores de encapsulado eSIM, equipos de escritura en línea e integración con SM-DP+, el entregable pasa de descargar un perfil a escribirlo de forma segura en una planta sin red, con registro por equipo auditable, lo que obliga a rehacer validaciones y ritmo de línea. El fabricante cambia inventario multi-SKU por una sola referencia y libera capital, pero debe cerrar la negociación con los operadores antes de producir en serie. A corto plazo afecta a clientes IoT de Orange y OEM en prueba; si llega SGP.42 y más operadores entregan perfiles, la puerta de distribución se traslada a la fábrica y el servicio de línea se vuelve el diferenciador para tarjeteros y fabricantes de módulos."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11"
+  }
+}

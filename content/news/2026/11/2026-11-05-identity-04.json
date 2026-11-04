@@ -1,0 +1,110 @@
+{
+  "id": "2026-11-04-identity-05",
+  "slug": "ant-digital-zoloz-kya-ai-agents",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "verification",
+    "liveness"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-05T04:18:03+08:00",
+  "ingestedAt": "2026-11-04T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Fintech News Hong Kong",
+      "url": "https://fintechnews.hk/41854/hong-kong-fintech-week-news/zoloz-know-your-agent-ant-digital-ai-agents/",
+      "lang": "en",
+      "publishedAt": "2026-11-03T00:00:00+08:00"
+    },
+    {
+      "name": "Hong Kong Commercial Daily",
+      "url": "https://www.hkcd.com.hk/hkcdweb/content/2026/11/03/content_8783324.html",
+      "publishedAt": "2026-11-03T00:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "蚂蚁数科把 KYC 套到 AI 智能体上：先认它是谁，再划它能做什么",
+    "en": "Ant Digital extends KYC to AI agents: identify the agent, then bound what it may do",
+    "es": "Ant Digital extiende el KYC a los agentes de IA: identificarlos y acotar lo que pueden hacer"
+  },
+  "summary": {
+    "zh": "蚂蚁数科在香港金融科技周发布 ZOLOZ Know Your Agent，把现有的个人与企业核验延伸到 AI 智能体的全生命周期；同场还推出用于构建智能体的 Agentar 工具集。",
+    "en": "Ant Digital launched ZOLOZ Know Your Agent at Hong Kong FinTech Week, extending its existing individual and business checks across the life cycle of AI agents, alongside an Agentar toolset for building them.",
+    "es": "Ant Digital presentó ZOLOZ Know Your Agent en Hong Kong FinTech Week, extendiendo sus controles de personas y empresas al ciclo de vida de los agentes de IA, junto a un conjunto de herramientas Agentar para construirlos."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "发布了什么",
+        "en": "What was launched",
+        "es": "Qué se lanzó"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "ZOLOZ 原本做个人身份核验（KYC）与企业核验（KYB），现在把这套检查扩到智能体：从创建、绑定到使用与注销，每一步都要能回答「它是谁、代表谁、被允许做什么」。同场发布的 Agentar 负责把智能体搭起来，ZOLOZ 负责验它。",
+        "en": "ZOLOZ already ran individual KYC and business KYB checks; it now applies them to agents, so that creation, binding, use and retirement each answer who the agent is, whom it represents and what it may do. Agentar, launched at the same event, builds the agents while ZOLOZ verifies them.",
+        "es": "ZOLOZ ya realizaba verificaciones KYC de personas y KYB de empresas; ahora las aplica a agentes, de modo que creación, vinculación, uso y baja respondan quién es el agente, a quién representa y qué puede hacer. Agentar, presentado en el mismo evento, construye los agentes y ZOLOZ los verifica."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "为什么现在做",
+        "en": "Why now",
+        "es": "Por qué ahora"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "蚂蚁数科国际业务总裁李时伟与区块链业务总裁边卓群给出的理由是：智能体一旦替用户办事，身份就成了前置问题；企业还需要明确每个智能体可以做什么，行为要能追溯，出了事要找到负责的人。CEO 赵闻飙说，企业可能从几个智能体长到几十上百个，规模化之后，管理与追责本身变成新问题。",
+        "en": "Ant Digital's international business president Li Shiwei and blockchain president Bian Zhuoqun argue that once agents act for users, identity becomes the prior question. Firms also need explicit limits on what each agent may do, traceable actions and someone accountable when things go wrong. CEO Zhao Wenbiao says companies may grow from a few agents to dozens or hundreds, at which point managing them at scale becomes its own problem.",
+        "es": "El presidente de negocio internacional de Ant Digital, Li Shiwei, y el de blockchain, Bian Zhuoqun, sostienen que, cuando el agente actúa por el usuario, la identidad es la cuestión previa. Las empresas necesitan límites claros por agente, acciones trazables y un responsable cuando algo falla. El CEO Zhao Wenbiao señala que se pasará de unos pocos agentes a decenas o cientos, y gestionarlos a escala se vuelve un problema en sí."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "发布会没讲的",
+        "en": "What the launch did not cover",
+        "es": "Lo que el lanzamiento no cubrió"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "没有披露智能体身份用什么凭证承载、由谁签发、如何绑定到具体自然人或企业。",
+          "en": "No detail on what credential carries an agent's identity, who issues it, or how it is bound to a person or company.",
+          "es": "No se detalla qué credencial porta la identidad del agente, quién la emite ni cómo se vincula a una persona o empresa."
+        },
+        {
+          "zh": "没有客户案例、定价或上线地区；报道只说在香港金融科技周亮相。",
+          "en": "No customers, pricing or launch markets; the report only places the announcement at Hong Kong FinTech Week.",
+          "es": "Sin clientes, precios ni mercados de lanzamiento; la nota solo sitúa el anuncio en Hong Kong FinTech Week."
+        },
+        {
+          "zh": "监管侧尚未对「智能体身份」给出统一认定，这套核验目前属于厂商自定的框架。",
+          "en": "Regulators have not settled a common definition of agent identity, so the checks remain a vendor-defined framework for now.",
+          "es": "Los reguladores aún no han fijado una definición común de identidad de agente, así que los controles son un marco definido por el proveedor."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变的是核验对象：从人扩到替人办事的软件，核验时点也从开户一次变成运行中持续。对做 KYC、访问控制与钱包的供应商，这是把现有 SDK 往智能体侧延伸的入口，尤其是「委托关系」和「权限撤销」这两段，现有产品大多没有。但凭证格式与签发方还没定，谁先把自己的方案变成事实标准，谁就占到下一轮接入位；在此之前，集成商最好把智能体身份设计成可替换的一层。",
+    "en": "What changed is the object of verification: from people to software acting for them, and the moment from once at onboarding to continuously at runtime. For suppliers of KYC, access control and wallets, this is a route to extend existing SDKs toward agents, especially delegation and revocation, which most products lack. But credential format and issuer are unsettled, so whoever turns their scheme into a de facto standard takes the next integration slot; until then, integrators should keep agent identity a replaceable layer.",
+    "es": "Lo que cambió es el objeto de verificación: de personas a software que actúa por ellas, y el momento: de una vez en el alta a de forma continua en ejecución. Para proveedores de KYC, control de acceso y carteras, es una vía para extender sus SDK hacia agentes, sobre todo delegación y revocación, que casi ningún producto cubre. Pero el formato y el emisor siguen abiertos: quien convierta su esquema en estándar de facto tomará la siguiente integración; mientras tanto, conviene diseñar la identidad del agente como una capa sustituible."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "digest-v4-body"
+  }
+}

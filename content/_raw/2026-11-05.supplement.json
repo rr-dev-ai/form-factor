@@ -1,0 +1,86 @@
+{
+  "fetchedAt": "2026-11-05T01:53:41+08:00",
+  "fetchedFor": "2026-11-05",
+  "gap": ["mena", "europe", "north-america", "latam", "africa"],
+  "cellGap": ["apac/telecom", "cis/telecom", "cis/identity"],
+  "industryGap": ["telecom", "identity", "banking"],
+  "items": [
+    {
+      "title": "Kigen 车用 eSIM 通过 GSMA eSA 认证，为首个符合 SGP.32 v1.3 的车规 eSIM",
+      "url": "https://hn.china.com/gundong/2026-11/03/content_11202613681.html",
+      "publishedAt": "2026-11-03T10:55:31+08:00",
+      "industry": "telecom",
+      "region": "europe",
+      "actionType": "标准与认证",
+      "gateNote": "按「标准与认证」记：版本号（SGP.32 v1.3）、发证方（GSMA eSA）、配套芯片（英飞凌 TEGRION SLI22）三要素齐。缺的是落地侧证据——没有任何车企或运营商的采用公告，样品 2026 年 10 月才以 ETSI MFF2 封装供 OEM，量产客户为零。终审若认「认证等级新增」可过；若要求看到商用，则应降为「产品化节点」。PQC 混合密钥封装不在 GSMA 规范内，不能算标准动作。",
+      "discoveredBy": "SGP.32 eIM interoperability certification launch 2026",
+      "note": "落在电信链的载体与签发环节。eUICC 操作系统与英飞凌车规控制器绑定后取得 GSMA eSA 认证，基线是 2026-05 的 SGP.32 v1.3；此前 eSA 只覆盖消费级 SGP.22 与工业 IoT，车厂要证明十年以上服役期的凭证安全无对应证书，现在有了带版本号的第一张，且支持直接与间接 profile 下载。原文未说客户与量产时间表，PQC 只是 SDK 测试能力，未进规范。"
+    },
+    {
+      "title": "NuvoLinQ 推出 NuvoAutoLinQ，让 eUICC 自行写入 APN 完成首次联网",
+      "url": "https://www.morningstar.com/news/pr-newswire/20261102ph86016/nuvolinq-launches-nuvoautolinq-linq1zero-devices-now-configure-their-own-connectivity-in-the-field",
+      "publishedAt": "2026-11-02T21:51:00-05:00",
+      "industry": "telecom",
+      "region": "north-america",
+      "actionType": "产品化节点",
+      "gateNote": "按「产品化节点」记：有产品名、两个版本、350 家备份网络与 70 万台在网终端的存量口径。缺客户名与首发市场名单，是厂商 PR 而非部署公告；「SIM 自配 APN」也不是新规范，只是既有 3GPP 运营商设置下发机制在模组不兼容时的补丁。终审可据此收紧为「能力发布」。",
+      "discoveredBy": "iSIM integrated SIM commercial launch module 2026",
+      "note": "落在电信链的分发环节——SIM 不只承载 profile，还负责把 APN 写对。过去靠运营商 OTA 下发或产线手工录入，POS 终端这类硬件的模组常不完整遵循 3GPP 设置机制，结果「信号满格、数据不通」；NuvoAutoLinQ 把配置权收进 eUICC 小程序，modem 不配合时由 SIM 为设备上的 App 背书，在系统层写 APN。原文未给客户名、首发市场与单价。"
+    },
+    {
+      "title": "佐治亚州 mDL 进入执法受理，康涅狄格州 Mobile ID 定 11 月 18 日上线",
+      "url": "https://www.biometricupdate.com/202611/more-use-cases-more-verifiers-will-propel-us-mobile-drivers-license-ecosystem",
+      "publishedAt": "2026-11-02T16:43:00-05:00",
+      "industry": "identity",
+      "region": "north-america",
+      "actionType": "产品化节点",
+      "gateNote": "按「产品化节点」记。三个州三件事并列，没有单一主体、金额或采购：佐治亚是执法受理范围扩大（部门通告），康州是 11 月 18 日的上线预告而非已上线，俄州只是钱包上架。任何一件单拎都过不了「授标／联合部署」的量化要求，靠的是「mDL 从规范走进受理端」这一机制判断。",
+      "discoveredBy": "biometricupdate mobile driving licence issuance November 2026",
+      "note": "落在身份链的受理环节。佐治亚州 mDL 可用于州警、商用车执法与议会警察的路检，出示时持证人用面部识别授权、不必交出手机，执法人员须在 2027-07-01 前配齐扫码设备；康州 Mobile ID 定 11-18 上线，先用于 TSA 身份与年龄核验，暂不能用于执法与投票；俄州进入 Apple 与 Google 钱包。机制是核验从「看实体卡」变成「读签名凭证＋选择性披露」。原文未给佐治亚采纳量。"
+    },
+    {
+      "title": "瑞士 11 月 2 日起签发带芯片身份证，无芯片版继续并行",
+      "url": "https://timesofswitzerland.ch/articles/biometric-id-cards-open-monday.html",
+      "publishedAt": "2026-11-02T00:00:00+01:00",
+      "industry": "identity",
+      "region": "europe",
+      "actionType": "产品化节点",
+      "gateNote": "按「产品化节点」记。有生效日、费用、签发渠道，但无供应商、无产能、无首批签发量；且无芯片版继续并行发售，形态改变的强制性被削弱。它更像欧盟 2021 年规则的成员国补齐，不是新机制，终审可能判为「既有能力的落地」。原文只标日期，未给时刻。",
+      "discoveredBy": "appel d'offres carte d'identité biométrique personnalisation 2026",
+      "note": "落在身份链的载体与签发环节。11-02 起各州护照局与驻外使团可受理带芯片身份证，芯片存人脸与两枚指纹，成人 65 瑞郎、与无芯片版同价；无芯片版仍发售，旧卡可用至有效期。机制是把申根对证件的要求落进本国制式：欧盟 2021 年起只发生物识别身份证，瑞士非成员国，靠这张卡维持公民在欧盟内通行。原文未给芯片供应商、产能与首批签发量。"
+    },
+    {
+      "title": "加纳 11 月 3 日起强制执行 LI 2523：Ghana Card 禁止复印与目视核验",
+      "url": "https://mobile.classfmonline.com/news/No-more-scan-or-photocopying-of-Ghana-Card-NIA-begins-law-enforcement-tomorrow-79981",
+      "publishedAt": "2026-11-02T00:00:00+00:00",
+      "industry": "identity",
+      "region": "africa",
+      "actionType": "标准与认证",
+      "gateNote": "按「标准与认证」记：LI 2523 有法规编号与生效日，NIA 为执行方。但这是执法生效，不是规范首次发布；无采购标的、无供应商、无金额。若终审只认「规范版本发布／认证体系首次落地」，这条会被刷掉；它的价值在受理端核验方式的强制切换。原文只标日期，未给时刻。",
+      "discoveredBy": "edital cartão inteligente emissão identificação 2026",
+      "note": "落在身份链的受理环节，改的是核验方式而非卡片制式。LI 2523 自 11-03 强制执行：复印、扫描、仅目视比对 Ghana Card 属违法；电信侧须用 Match-on-Card，插卡读芯片、现场指纹比对；已接入 NIA 平台的银行用卡号加核准设备核验。机构须本国注册、取得数据保护委员会认证并与 NIA 直签，禁经第三方转售接入。原文未给执法首日结果与罚则细则。"
+    },
+    {
+      "title": "littlefish 与 Halo Dot 合并 SoftPOS 与商户系统，首批部署落在非洲",
+      "url": "https://techcentral.co.za/no-terminal-needed-littlefish-halo-dot-merchants/287994",
+      "publishedAt": "2026-11-03T00:00:00+02:00",
+      "industry": "banking",
+      "region": "africa",
+      "actionType": "联合部署",
+      "gateNote": "按「联合部署」记，但缺 AGENTS.md 要求的「写明落地市场」——只说非洲市场，未点名国家；双方也都不是收单机构或运营方。加上 TechCentral 对该稿标注 Promoted（付费内容），有被判为供应商通稿的风险。保留的理由是 PCI MPoC 认证与「已在部署」的表述具体，且 africa/banking 当日为空。",
+      "discoveredBy": "softPOS certification EMVCo new approval 2026",
+      "note": "落在支付链的受理环节。Halo Dot 的 SoftPOS（PCI MPoC 认证，手机 NFC 变受理终端）嵌进 littlefish 的商户操作系统，银行与收单机构可一次交付「收款＋门店管理」，不必为每个点位再配硬件。机制是受理终端从专用 POS 变成既有 Android 设备上的软件，硬件成本与铺设周期一并下沉。原文只说「已在非洲市场开始部署」，未点名国家、银行或商户数量。"
+    },
+    {
+      "title": "IDEMIA Secure Transactions 的 PQC 支付卡平台获 EMVCo 认证",
+      "url": "https://thequantuminsider.com/2026/11/02/idemia-payment-cards-post-quantum-transition/",
+      "publishedAt": "2026-11-02T00:00:00-05:00",
+      "industry": "banking",
+      "region": "europe",
+      "actionType": "标准与认证",
+      "gateNote": "按「标准与认证」记：EMVCo 为发证方，标的是 Java Card 平台，属认证能力新增。缺算法清单、缺银行客户，EMV 支付规范尚未纳入 PQC，认证只证明平台「可用于未来算法」，不等于可用。终审若要求「认证等级新增须有等级名」，这条偏弱。原文只标日期，未给时刻。",
+      "discoveredBy": "IDEMIA Thales contract card personalization digital identity November 2026",
+      "note": "落在支付链的载体与签发环节。EMVCo 认证的是 IST 的 Java Card 平台：自研安全芯片内置后量子加速器，应用可调用 Sphere PQC 库，同时保留现有支付应用；同一平台还能承载 FIDO、数字身份凭证与忠诚度应用。机制是「加密敏捷性」进入卡片认证范围——发卡行换算法不必换卡。原文未说支持哪些 PQC 算法、无银行客户，EMV 规范尚未要求 PQC。"
+    }
+  ]
+}

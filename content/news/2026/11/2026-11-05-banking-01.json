@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-05-banking-04",
+  "slug": "bareedpay-mastercard-uwallet-jordan-post",
+  "industry": "banking",
+  "region": "mena",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-05T04:18:03+08:00",
+  "ingestedAt": "2026-11-05T02:35:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "EcoPulse24",
+      "url": "https://ecopulse24.com/news/mastercard-and-jordan-post-introduce-bareedpay",
+      "lang": "en",
+      "publishedAt": "2026-11-03T08:21:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "Mastercard 与约旦邮政推出 BareedPay 联名卡",
+    "en": "Mastercard, Jordan Post and uwallet launch BareedPay via 400 post offices",
+    "es": "Mastercard, Correos de Jordania y uwallet lanzan BareedPay en 400 oficinas"
+  },
+  "summary": {
+    "zh": "11 月 3 日，三方在约旦推出 BareedPay 联名卡计划：uwallet 为发卡方，约旦邮政 400 多个网点承担分发与受理，产品含预付、多币种、政府缴费与跨境汇款，目标是未充分获得银行服务的人群与外籍居民。",
+    "en": "The three launched the BareedPay co-branded card programme in Jordan on 3 November: uwallet is the issuer, Jordan Post's 400-plus branches carry distribution and service, and the scope covers prepaid, multi-currency, government bill payments and cross-border transfers aimed at underbanked residents and expatriates.",
+    "es": "Las tres partes lanzaron el 3 de noviembre el programa de tarjetas BareedPay en Jordania: uwallet es el emisor, las más de 400 oficinas de Correos de Jordania aportan distribución y atención, y el alcance cubre prepago, multidivisa, pago de facturas públicas y transferencias transfronterizas para población subbancarizada y expatriados."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "邮局成了发卡与受理的前台",
+        "en": "The post office becomes the card front end",
+        "es": "La oficina de correos como frontal de la tarjeta"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 3 日，Mastercard、uwallet 与约旦邮政公司（Jordan Post）在约旦推出 BareedPay 联名卡计划。uwallet 是发卡方，约旦邮政 400 多个网点承担分发与受理，卡片覆盖网购、政府缴费与账单缴纳。",
+        "en": "Mastercard, uwallet and Jordan Post Company launched the BareedPay co-branded card programme in Jordan on 3 November. uwallet is the issuing partner; Jordan Post's more than 400 branches handle distribution and servicing; the card covers online purchases, government dues and bill payments.",
+        "es": "Mastercard, uwallet y Jordan Post Company lanzaron el 3 de noviembre el programa BareedPay en Jordania. uwallet es el socio emisor; las más de 400 oficinas de Correos de Jordania gestionan distribución y atención; la tarjeta cubre compras online, tasas públicas y facturas."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "计划范围还包括预付产品、多币种账户、P2P 转账与跨境汇款。Mastercard 方面由负责沙特、巴林、约旦等黎凡特市场的国家经理 Saud Swar 出面，称这是其在该国金融科技布局的一个节点；uwallet 首席执行官 Ala'a Ensheiwat 称目标是可扩展的支付服务。",
+        "en": "The stated scope also includes prepaid products, multi-currency accounts, person-to-person transfers and cross-border remittances. Mastercard's country manager for Saudi Arabia, Bahrain, Jordan and other Levant markets, Saud Swar, framed it as a milestone in its fintech work in the country; uwallet chief executive Ala'a Ensheiwat said the aim is secure and scalable payment services.",
+        "es": "El alcance incluye además productos prepago, cuentas multidivisa, transferencias entre personas y remesas transfronterizas. Saud Swar, gerente de país de Mastercard para Arabia Saudí, Baréin, Jordania y otros mercados del Levante, lo presentó como un hito de su trabajo fintech en el país; el consejero delegado de uwallet, Ala'a Ensheiwat, dijo que el objetivo son servicios de pago seguros y escalables."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公告未给出卡量、费率、支持币种与各服务的上线时间，也没有说明预付资金的保障安排；政府缴费与跨境汇款部分只写了「计划涵盖」。",
+        "en": "No card volume, fee schedule, supported currencies or service-by-service timing was disclosed, and nothing on how prepaid funds are safeguarded; government payments and remittances are described only as within the planned scope.",
+        "es": "No se dieron volumen de tarjetas, tarifas, divisas soportadas ni calendario por servicio, ni detalles sobre la protección de los fondos prepago; pagos públicos y remesas aparecen solo como parte del alcance previsto."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变的是分发渠道：约旦的邮政网点原本只做汇款与账单，现在同时是发卡前台与受理点，等于把没有银行网点覆盖的乡镇直接接进卡组织网络。对 Mastercard，这是用国营网络换新增卡量；对 uwallet，这是借 400 个网点解决获客成本；对本地银行，竞争点从利率变成「谁离用户更近」。真正要看的是预付多币种产品的资金保障与费率——这两项决定它是不是汇款走廊的替代品。公告只有范围，没有参数与时间表，落地速度取决于监管对预付资金托管的批复。",
+    "en": "What changes is distribution: Jordan's post offices, previously remittances and bills, now issue and service cards, which plugs towns without bank branches straight into the card network. For Mastercard it trades a state network for new cards; for uwallet it buys customer acquisition through 400 counters; for local banks the contest shifts from rates to proximity. The real test is safeguarding and pricing on a multi-currency prepaid product, which decides whether it displaces remittance corridors. The announcement carries scope but no parameters or timetable, so speed depends on regulatory approval of how prepaid funds are held.",
+    "es": "Lo que cambia es la distribución: las oficinas de correos, antes remesas y facturas, ahora emiten y atienden tarjetas, lo que conecta pueblos sin sucursal directamente a la red de tarjetas. Para Mastercard es cambiar una red estatal por tarjetas nuevas; para uwallet, captar clientes con 400 mostradores; para los bancos locales, la competencia pasa del tipo de interés a la cercanía. La prueba real es la protección de fondos y el precio de un prepago multidivisa, que decide si sustituye corredores de remesas. El anuncio trae alcance pero no parámetros ni calendario: el ritmo depende de la aprobación regulatoria sobre la custodia de los fondos."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

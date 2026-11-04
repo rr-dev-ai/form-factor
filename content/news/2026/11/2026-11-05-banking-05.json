@@ -1,0 +1,89 @@
+{
+  "id": "2026-11-05-banking-02",
+  "slug": "pine-labs-stripe-singapore-unified-commerce",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "payment-gateway"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-05T04:18:03+08:00",
+  "ingestedAt": "2026-11-05T02:35:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Fintech News Singapore",
+      "url": "https://fintechnews.sg/140521/payments/pine-labs-stripe-singapore-unified-commerce/",
+      "lang": "en",
+      "publishedAt": "2026-11-04T16:46:44+08:00"
+    }
+  ],
+  "title": {
+    "zh": "Pine Labs 与 Stripe 在新加坡打通线上线下收款",
+    "en": "Pine Labs and Stripe merge online and in-store acceptance in Singapore",
+    "es": "Pine Labs y Stripe unen la aceptación online y en tienda en Singapur"
+  },
+  "summary": {
+    "zh": "两家 11 月 4 日宣布，2026 年 11 月起新加坡合资格商户可用 Stripe 收线上支付、用 Pine Labs 终端收门店刷卡与二维码，交易汇总到同一视图；分期、积分抵扣与商户营销一并接入，2027 年扩至其他东南亚市场。",
+    "en": "The two said on 4 November that from November 2026 eligible Singapore merchants can take online payments through Stripe and in-store card, QR and contactless payments on Pine Labs terminals, with both channels in one view; instalments, points redemption and merchant campaigns come with it, and other Southeast Asian markets follow in 2027.",
+    "es": "Ambas firmas dijeron el 4 de noviembre que desde noviembre de 2026 los comercios elegibles de Singapur podrán cobrar online con Stripe y en tienda con tarjeta, QR y contacto en terminales de Pine Labs, con ambos canales en una sola vista; incluye cuotas, canje de puntos y campañas del comercio, y otros mercados del Sudeste Asiático llegarán en 2027."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "一个商户号，两个渠道",
+        "en": "One merchant account, two channels",
+        "es": "Una cuenta de comercio, dos canales"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 4 日，Pine Labs 与 Stripe 宣布在新加坡推出统一收单方案：2026 年 11 月起，合资格商户用 Stripe 收线上支付，用 Pine Labs 的终端收门店刷卡、二维码与非接触支付，线上线下交易汇总到同一视图。新加坡是先期市场，两家计划 2027 年扩到其他东南亚市场。",
+        "en": "Pine Labs and Stripe announced a unified acceptance offer in Singapore on 4 November. From November 2026 eligible merchants take online payments through Stripe and in-store card, QR and contactless payments on Pine Labs terminals, with both channels in one consolidated view. Singapore is the launch market; other Southeast Asian countries follow in 2027.",
+        "es": "Pine Labs y Stripe anunciaron el 4 de noviembre una oferta de aceptación unificada en Singapur. Desde noviembre de 2026 los comercios elegibles cobran online con Stripe y en tienda con tarjeta, QR y contacto en terminales de Pine Labs, con ambos canales en una vista consolidada. Singapur es el mercado de lanzamiento; otros países del Sudeste Asiático llegarán en 2027."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "随终端一并接入的是 Pine Labs 的商户工具：多发行方分期、积分抵扣、商户出资的促销与跨境营销活动。两家称，大型零售客户常见做法是网站、门店、分期与数据分析各用一家供应商，对账与报表因此滞后、成本上升。",
+        "en": "The terminals come with Pine Labs' merchant tools: multi-issuer instalment plans, pay-by-points, merchant-funded promotions and cross-border campaigns. The companies argue that large retailers typically use one vendor for the website, another for stores and further providers for instalments and analytics, which delays reporting and raises cost.",
+        "es": "Los terminales llegan con las herramientas de comercio de Pine Labs: cuotas de múltiples emisores, pago con puntos, promociones financiadas por el comercio y campañas transfronterizas. Las empresas sostienen que el gran retail suele usar un proveedor para la web, otro para tienda y otros para cuotas y analítica, lo que retrasa los informes y encarece la operación."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "Stripe 由此拿到门店受理，Pine Labs 拿到线上网关入口，两家的边界从「渠道」变成「商户」。",
+          "en": "Stripe gains in-store acceptance and Pine Labs gains a gateway entry, so the boundary between them shifts from channel to merchant.",
+          "es": "Stripe gana aceptación en tienda y Pine Labs una puerta de pasarela: la frontera entre ambos pasa del canal al comercio."
+        },
+        {
+          "zh": "对区域内的银行收单与独立销售组织，竞争点从费率转向「一个后台管两个渠道」的集成度。",
+          "en": "For local bank acquirers and independent sales organisations the contest moves from pricing to how well one back office covers both channels.",
+          "es": "Para los adquirentes bancarios locales y las organizaciones de venta independientes, la competencia pasa del precio a la integración de ambos canales en un back office."
+        },
+        {
+          "zh": "公告未给商户数、费率与 2027 年扩张的国家名单，落地节奏取决于 Stripe 在新加坡的收单资质与 Pine Labs 的终端存量。",
+          "en": "No merchant count, pricing or 2027 country list was disclosed; the pace depends on Stripe's acquiring position in Singapore and Pine Labs' installed terminal base.",
+          "es": "No se dieron número de comercios, precios ni lista de países para 2027; el ritmo depende de la posición de Stripe como adquirente en Singapur y del parque de terminales de Pine Labs."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变的是收单的打包方式。商户过去要在网关、终端、分期与会员系统之间做四份集成，现在可以只签一套，技术上是把授权、清算与营销数据挂到同一个商户主档上。对 Stripe，这是用别人的终端补线下；对 Pine Labs，这是从卖终端转向收交易费，估值逻辑跟着变。受挤压的是区域银行收单与独立销售组织——它们的优势原本在本地服务与终端维护，一旦集成度成为决策依据，这两项不再够。要看的是 2027 年扩张是否带国家名单、Pine Labs 终端能否被 Stripe 的商户体系直接调用，以及分期的手续费由谁承担。",
+    "en": "What changes is how acceptance is packaged. Merchants used to run four integrations across gateway, terminal, instalments and loyalty; now they can sign one, with authorisation, settlement and campaign data hanging off a single merchant record. For Stripe this buys offline reach without terminals; for Pine Labs it shifts revenue from hardware to transaction fees, which changes how the business is valued. The squeeze falls on regional bank acquirers and independent sales organisations, whose edge was local service and terminal maintenance; once integration depth decides the deal, those two no longer suffice. Watch whether the 2027 expansion comes with a country list, whether Stripe's merchant base can drive Pine Labs terminals directly, and who pays for instalment funding.",
+    "es": "Lo que cambia es el empaquetado de la aceptación. El comercio solía mantener cuatro integraciones —pasarela, terminal, cuotas y fidelidad—; ahora firma una, con autorización, liquidación y datos de campaña colgando de una única ficha de comercio. Para Stripe es alcanzar el mundo físico sin terminales; para Pine Labs, pasar de vender hardware a cobrar por transacción, lo que altera su valoración. La presión recae en adquirentes bancarios regionales y organizaciones de venta independientes, cuya ventaja era el servicio local y el mantenimiento de terminales; cuando la profundidad de integración decide la venta, eso ya no basta. Habrá que ver si la expansión de 2027 llega con lista de países, si la base de comercios de Stripe puede mover terminales de Pine Labs y quién financia las cuotas."
+  },
+  "confidence": 0.7,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}
