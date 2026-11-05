@@ -1,6 +1,8 @@
 node_modules/
 dist/
 .astro/
+# 本地 TTS 产物镜像，由 rclone 同步到 R2，不进仓库
+/audio-staging/
 .DS_Store
 Thumbs.db
 *.log
