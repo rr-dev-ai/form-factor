@@ -1,0 +1,85 @@
+{
+  "id": "2026-11-06-telecom-01",
+  "slug": "eastcompeace-rus-moscow-sim-plant-capacity",
+  "industry": "telecom",
+  "region": "cis",
+  "regions": [],
+  "tags": [
+    "esim",
+    "secure-chip"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-06T04:18:38+08:00",
+  "ingestedAt": "2026-11-06T02:56:21+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Mediasat",
+      "url": "https://mediasat.info/en/2026/11/05/chinese-firm-to-help-russia-make-its-own-sim-cards",
+      "lang": "en",
+      "publishedAt": "2026-11-05T00:00:00+03:00"
+    }
+  ],
+  "title": {
+    "zh": "莫斯科 SIM 厂日产 15 万张，eSIM profile 要改在俄本土写",
+    "en": "Moscow SIM plant reaches 150,000 cards a day, with eSIM profiles next",
+    "es": "La planta de SIM de Moscú llega a 150.000 tarjetas diarias y apunta a los perfiles eSIM"
+  },
+  "summary": {
+    "zh": "11 月 5 日，莫斯科经济特区 Technopolis 披露，中资东信和平的俄子公司 Eastcompeace Rus 在当地厂区日产 15 万张 SIM、年产 5000 万张，分标准卡与 MFF2 两条产线，近期再购设备拟提产 60%。下一步是把 eSIM profile 的生产完全搬到俄罗斯，并改用俄算法。",
+    "en": "On 5 November the Technopolis Moscow special economic zone said Eastcompeace Rus, the Russian arm of China's Eastcompeace, runs a 2,000-square-metre plant producing up to 150,000 SIM cards a day and 50 million a year, split between standard cards and MFF2 chips. New equipment should add 60% capacity; moving eSIM profile production into Russia with Russian algorithms is the stated next step.",
+    "es": "El 5 de noviembre la zona económica especial Technopolis Moscú informó de que Eastcompeace Rus, filial rusa de la china Eastcompeace, opera una planta de 2.000 metros cuadrados con hasta 150.000 tarjetas SIM al día y 50 millones al año, repartidas entre tarjetas estándar y chips MFF2. Nuevo equipo sumará un 60% de capacidad; llevar la producción de perfiles eSIM a Rusia con algoritmos rusos es el paso siguiente."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "两条产线：可插拔的卡，与焊进设备的 MFF2",
+        "en": "Two lines: plug-in cards and soldered MFF2",
+        "es": "Dos líneas: tarjetas insertables y MFF2 soldados"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 5 日，莫斯科经济特区 Technopolis 发布消息，称园区内的 Eastcompeace Rus 厂区面积超过 2000 平方米，分两个区块：一块做标准 SIM 卡，一块做 MFF2 芯片。日产能 15 万张，年产能 5000 万张，产品已供应俄罗斯移动运营商，也出口到其他前苏联国家。公司计划近期再购设备，把产能再提 60%。",
+        "en": "On 5 November Technopolis Moscow said the Eastcompeace Rus site inside the zone covers more than 2,000 square metres in two sections, one for standard SIM cards and one for MFF2 chips. Output reaches 150,000 units a day and 50 million a year, already supplying Russian mobile operators and customers in other former Soviet states. The company plans to buy more equipment shortly to lift capacity by a further 60%.",
+        "es": "El 5 de noviembre Technopolis Moscú informó de que la planta de Eastcompeace Rus en la zona ocupa más de 2.000 metros cuadrados en dos secciones, una de tarjetas SIM estándar y otra de chips MFF2. La producción alcanza 150.000 unidades diarias y 50 millones anuales, ya abastece a operadores rusos y a clientes de otras antiguas repúblicas soviéticas. La empresa prevé comprar más equipo para elevar la capacidad otro 60%."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "MFF2 与可插拔卡不是同一种生意。MFF2 是焊在电路板上的芯片形态，设备组装时贴装，用户永远看不到也换不了卡；做法是产线写号或者在出厂前预置 profile。所以这条线的产能直接压到下游：水表、气表、车载终端、追踪器的模组厂要按它排产，卡厂的交期和一致性比卡面印刷重要得多。",
+        "en": "MFF2 is a different business from a plug-in card. It is a chip soldered onto the board during assembly, so the user never sees or swaps it; the number is written on the line or a profile is pre-loaded before shipping. Capacity on that line therefore pushes straight downstream: module makers for meters, vehicle units and trackers schedule against it, and lead time and consistency matter far more than what is printed on a card.",
+        "es": "El MFF2 es otro negocio. Es un chip soldado a la placa durante el montaje, de modo que el usuario nunca lo ve ni lo cambia; el número se escribe en la línea o se precarga un perfil antes del envío. La capacidad de esa línea presiona directamente aguas abajo: los fabricantes de módulos para contadores, unidades vehiculares y rastreadores planifican contra ella, y el plazo y la consistencia importan mucho más que la impresión de la tarjeta."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Eastcompeace Rus 还是俄罗斯「SIM 卡」项目的成员，该项目做了一套自带加密核的操作系统；公司同时是带 GLONASS profile 的 SIM 芯片主供方，这类芯片装进俄产汽车的导航单元。公告把 eSIM profile 本土化列为下一步：把 profile 的生产完全放到俄罗斯，并使用俄算法。",
+        "en": "Eastcompeace Rus is also part of Russia's SIM Card project, which has produced a dedicated operating system with an embedded crypto core, and is the main supplier of SIM chips carrying a GLONASS profile for navigation units in Russian-built cars. The announcement lists eSIM profile localisation as the next step: moving profile production entirely into Russia and using Russian cryptographic algorithms.",
+        "es": "Eastcompeace Rus participa además en el proyecto ruso SIM Card, que ha producido un sistema operativo propio con núcleo criptográfico embebido, y es el principal proveedor de chips SIM con perfil GLONASS para unidades de navegación de coches rusos. El anuncio sitúa como paso siguiente localizar los perfiles eSIM: llevar toda su producción a Rusia y usar algoritmos criptográficos rusos."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "缺口同样明确：eSIM profile 本土化只有方向，没有投产时间、良率与运营商客户名单；提产 60% 也只有一个百分比，没有设备厂商与到位时间。俄罗斯监管层 6 月已提出对 eSIM 与 M2M SIM 的限制草案，规则未定，产线能供什么形态还要看那份草案最后怎么写。",
+        "en": "The gaps are just as clear: eSIM localisation has a direction but no start date, yield figure or named operator customer, and the 60% expansion is a percentage without an equipment vendor or a delivery date. Russian regulators proposed restrictions on eSIM and M2M SIMs in June, and what the line may supply depends on how that draft is finally written.",
+        "es": "Las lagunas son igual de claras: la localización de perfiles eSIM tiene dirección pero no fecha de inicio, rendimiento ni operador cliente identificado, y la ampliación del 60% es un porcentaje sin proveedor de equipo ni plazo. Los reguladores rusos propusieron en junio restricciones a la eSIM y a las SIM M2M, y lo que la línea pueda suministrar depende de cómo quede ese borrador."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这是一条上游制造的变化，影响的是采购与排产，不是终端用户看到的功能。对俄境内的运营商和模组厂，卡源从进口转为本土产线，交期与外汇风险下降，但可选的芯片型号变少，认证路径被压到一条线上。对向俄出货的国内模组与表计厂商，MFF2 在本地有产能意味着可以在俄完成贴装与写号，整机进口的口子比整卡进口更容易过。真正值得盯的是 eSIM profile 那一步：如果 profile 生产与俄算法绑定，俄境内设备的 profile 就只能在本地生成，境外 SM-DP+ 进不去，这会把「远程写卡」变成「本地写卡加境内分发」，SGP.22 那套跨境下载流程在俄市场要重做。公告没给时间表，判断窗口应放在俄监管草案定稿之后，而不是这条产能新闻本身。",
+    "en": "This is an upstream manufacturing change that moves procurement and scheduling, not a feature end users see. For Russian operators and module makers, card supply shifts from imports to a domestic line, cutting lead times and currency exposure, but the range of available chip types narrows and the certification path funnels through one source. For Chinese module and meter makers shipping into Russia, local MFF2 capacity means assembly and number writing can happen inside the country, and complete devices clear customs more easily than finished cards. The step worth watching is the eSIM profile: if profile production is tied to Russian algorithms, profiles for devices in Russia can only be generated locally, foreign SM-DP+ platforms cannot reach them, and remote provisioning collapses into local writing plus domestic distribution. The announcement gives no timetable, so the judgement belongs after the Russian draft rules are final, not to this capacity figure.",
+    "es": "Es un cambio en la fabricación aguas arriba: mueve compras y planificación, no una función que vea el usuario. Para operadores y fabricantes de módulos rusos, el suministro pasa de importaciones a una línea local, con plazos y riesgo cambiario menores, pero se estrecha la variedad de chips disponibles y la certificación se canaliza por una sola fuente. Para los fabricantes chinos de módulos y contadores que exportan a Rusia, la capacidad local de MFF2 permite montar y escribir números dentro del país, y los equipos completos pasan aduana mejor que las tarjetas acabadas. El paso a vigilar es el perfil eSIM: si su producción se ata a algoritmos rusos, los perfiles de los equipos en Rusia solo podrán generarse localmente, las plataformas SM-DP+ extranjeras no llegarán y el aprovisionamiento remoto se convertirá en escritura local más distribución interna. El anuncio no da calendario, así que el juicio corresponde a las reglas rusas definitivas, no a esta cifra de capacidad."
+  },
+  "confidence": 0.66,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11"
+  }
+}

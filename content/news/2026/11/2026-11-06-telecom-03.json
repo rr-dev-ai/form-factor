@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-06-telecom-04",
+  "slug": "orange-branded-call-france-man-attestation",
+  "industry": "telecom",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "sim-registration"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-06T04:18:38+08:00",
+  "ingestedAt": "2026-11-06T02:56:21+08:00",
+  "originalLang": "es",
+  "sources": [
+    {
+      "name": "Mobile Time",
+      "url": "https://www.mobiletime.com.br/noticias/04/11/2026/orange-branded-call-fr/",
+      "publishedAt": "2026-11-04T19:49:00-03:00"
+    }
+  ],
+  "title": {
+    "zh": "Orange 在法国卖「带证来电」：号码先由运营商签名",
+    "en": "Orange sells attested branded calls in France, on top of carrier-signed numbers",
+    "es": "Orange vende llamadas de marca atestadas en Francia sobre números firmados"
+  },
+  "summary": {
+    "zh": "11 月 4 日，Orange 在法国上线 Branded Call：企业呼叫 Orange 用户时，屏幕直接显示企业名称与号码，无需存入通讯录。底层是法国 2024 年起部署的号码认证机制 MAN（基于 STIR/SHAKEN、由 ARCEP 监管），主叫运营商用 BCO 证书为号码签名，被叫侧验签。已由 11 家企业试用，累计超过 200 万通。",
+    "en": "On 4 November Orange launched Branded Call in France: when a business calls an Orange subscriber, the company name and number appear on screen without being saved in contacts. It rides on MAN, the number-authentication scheme French operators have run since 2024 under ARCEP, built on STIR/SHAKEN, where the calling operator signs the number with a certificate from the BCO and the receiving side verifies it. Eleven companies tested it across more than two million calls.",
+    "es": "El 4 de noviembre Orange lanzó en Francia Branded Call: cuando una empresa llama a un cliente de Orange, su nombre y número aparecen en pantalla sin estar en la agenda. Se apoya en el MAN, el mecanismo de autenticación de números que los operadores franceses operan desde 2024 bajo la ARCEP, basado en STIR/SHAKEN, donde el operador llamante firma el número con un certificado de la BCO y el receptor lo verifica. Once empresas lo probaron con más de dos millones de llamadas."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "号码先证明没被伪造，企业名才挂得上去",
+        "en": "Prove the number is real, then add the brand",
+        "es": "Primero se prueba el número, luego se añade la marca"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 4 日，Orange 在法国上线 Branded Call。呼叫方是已注册的企业时，Orange 用户的手机屏幕会显示企业名称与号码，不必事先存号。对 Orange 用户免费，任何手机都能显示，不需要装 App 或订服务；企业侧要付费才能使用。商业化由 Orange Business、Odigo 与 Manifone 三家做。",
+        "en": "On 4 November Orange launched Branded Call in France. When the caller is a registered business, the Orange subscriber's screen shows the company name and number without prior saving. It is free for Orange customers, works on any handset and needs no app or subscription; businesses pay to use it. Orange Business, Odigo and Manifone sell it.",
+        "es": "El 4 de noviembre Orange lanzó Branded Call en Francia. Cuando llama una empresa registrada, la pantalla del cliente de Orange muestra su nombre y número sin haberlo guardado. Es gratis para el cliente, funciona en cualquier móvil y no requiere app ni suscripción; las empresas pagan por usarlo. Lo comercializan Orange Business, Odigo y Manifone."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "机制分两层。底层是 MAN：主叫运营商先核对自己客户是否有权使用该号码，再用运营商证书库（BCO）里的证书对呼叫做数字签名；被叫运营商收到后验签，判断这通电话的号码是否真实。上层才是 Branded Call：Orange 在这层之上再核企业身份与声誉，把名称和号码一起推到屏幕上。换句话说，品牌显示是附加价值，防伪造靠的是运营商之间的签名。",
+        "en": "There are two layers. The base is MAN: the calling operator checks whether its customer is entitled to that number, then signs the call with a certificate from the carrier certificate base, the BCO; the receiving operator verifies the signature and decides whether the number is genuine. Branded Call sits on top: Orange adds checks of corporate identity and reputation, then pushes name and number to the screen. Brand display is the added value; anti-spoofing comes from operator-to-operator signing.",
+        "es": "Hay dos capas. La base es el MAN: el operador llamante comprueba si su cliente tiene derecho a ese número y firma la llamada con un certificado de la base de certificados de operadores, la BCO; el operador receptor verifica la firma y decide si el número es genuino. Branded Call va encima: Orange añade comprobaciones de identidad corporativa y reputación y envía nombre y número a la pantalla. La marca es el valor añadido; la lucha contra la suplantación viene de la firma entre operadores."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "试用数据来自 Orange 支付、消息与身份业务负责人 Amelia Newsom-Davis 的公开帖：11 家企业参与，包括 Ipsos、Mediametrie、Roole、Cocoon 与 April，场景是调研、技术支持和招聘，累计超过 200 万通，答复率最高提升一倍。这个「提升一倍」是公司自己的说法，没有第三方测量口径。",
+        "en": "The trial figures come from a public post by Amelia Newsom-Davis, Orange's director of payments, messaging and identity: eleven companies including Ipsos, Mediametrie, Roole, Cocoon and April, across research, technical support and recruitment, more than two million calls, and answer rates up to double. The doubling is the company's own claim, with no third-party measurement.",
+        "es": "Los datos de la prueba provienen de una publicación de Amelia Newsom-Davis, directora de pagos, mensajería e identidad de Orange: once empresas, entre ellas Ipsos, Mediametrie, Roole, Cocoon y April, en investigación, soporte técnico y selección, más de dos millones de llamadas y tasas de respuesta hasta el doble. Ese doble es afirmación de la empresa, sin medición independiente."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公告没说的同样关键：企业接入要多少钱、审核身份与声誉要多久、被叫用户能不能拒收这类显示、跨网呼叫（从非法国运营商呼入）还能不能带上品牌，都没有答案。这些决定它是法国境内的一个增值功能，还是一套可出口的号码身份体系。",
+        "en": "What is missing matters as much: the price for businesses, how long identity and reputation vetting takes, whether recipients can opt out of the display, and whether cross-border calls from non-French operators can carry a brand. Those answers decide whether this stays a domestic value-added feature or becomes an exportable number-identity scheme.",
+        "es": "Lo que falta importa igual: cuánto cuesta a la empresa, cuánto tarda la verificación de identidad y reputación, si el receptor puede rechazar la visualización y si las llamadas desde operadores no franceses pueden llevar marca. Esas respuestas deciden si queda en función doméstica o se vuelve un esquema exportable de identidad de número."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "电话来电显示长期是「号码属于谁」的问题，MAN 把它变成可签名的凭证：运营商为主叫号码背书，被叫侧验签。Branded Call 在此之上把企业名称做成了可售位置，等于给运营商开了一条新收入线，也让 STIR/SHAKEN 这类原本纯合规投入的机制开始产生毛利。受影响最直接的是呼叫中心、催收、市场调研这类高外呼行业，以及 CPaaS 与来电显示服务商——如果运营商自己把「认证号码 + 品牌展示」打包卖，第三方叠加的服务空间会被压窄。技术上的门槛在证书体系：企业身份要进运营商的名址与证书链，跨运营商、跨境互认没有打通之前，这套东西只能在本国网内生效。欧盟范围内已有多个国家在推类似的号码认证，法国这一步的意义是把认证层接到了商业产品上，值得看的是别国运营商跟进的节奏。",
+    "en": "Caller display has long been a question of who owns the number; MAN turns it into a signature: the operator vouches for the calling number and the receiving side verifies. Branded Call then sells the name slot on top, opening a new revenue line for operators and letting STIR/SHAKEN-style schemes, previously pure compliance cost, earn margin. The direct casualties are outbound-heavy sectors such as contact centres, collections and market research, plus CPaaS and caller-ID vendors: if operators bundle attested numbers with brand display, the room for third-party overlays narrows. The technical ceiling is the certificate system: corporate identity has to enter the operators' addressing and certificate chain, and until cross-operator and cross-border recognition work, this only functions inside the home network. Several EU countries are pushing similar number authentication; France's step matters because it attaches the authentication layer to a commercial product, and the thing to watch is how fast operators elsewhere follow.",
+    "es": "La identificación de llamadas fue siempre una cuestión de a quién pertenece el número; el MAN la convierte en firma: el operador avala el número llamante y el receptor verifica. Branded Call vende encima el espacio del nombre, abre una línea de ingresos y hace que esquemas tipo STIR/SHAKEN, antes puro coste de cumplimiento, generen margen. Los más afectados son los sectores de alto volumen saliente —centros de contacto, cobros, investigación de mercado— y los proveedores de CPaaS e identificación de llamadas: si el operador empaqueta número atestado y marca, el espacio para capas de terceros se estrecha. El techo técnico es el sistema de certificados: la identidad corporativa debe entrar en el direccionamiento y la cadena de certificados de los operadores y, mientras no haya reconocimiento entre operadores y países, solo funciona en la red nacional. Varios países de la UE impulsan autenticación similar; el paso francés importa porque une la capa de autenticación a un producto comercial, y cabe observar la velocidad con que siguen otros operadores."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11"
+  }
+}

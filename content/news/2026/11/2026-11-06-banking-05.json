@@ -1,0 +1,79 @@
+{
+  "id": "2026-11-06-banking-03",
+  "slug": "upi-dubai-duty-free-network-international",
+  "industry": "banking",
+  "region": "mena",
+  "regions": [
+    "apac"
+  ],
+  "tags": [
+    "acquiring",
+    "payment-gateway"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-06T04:18:38+08:00",
+  "ingestedAt": "2026-11-06T02:35:08+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "CNBC TV18",
+      "url": "https://www.cnbctv18.com/personal-finance/upi-payments-dubai-duty-free-what-indian-travellers-need-to-know-20027855.htm",
+      "lang": "en",
+      "publishedAt": "2026-11-06T00:33:00+05:30"
+    }
+  ],
+  "title": {
+    "zh": "迪拜免税店收 UPI，Network International 做收单",
+    "en": "Dubai Duty Free starts taking UPI with Network International acquiring",
+    "es": "Dubai Duty Free acepta UPI con Network International como adquirente"
+  },
+  "summary": {
+    "zh": "11 月 5 日，NPCI 国际业务部门 NIPL 宣布，印度旅客可在迪拜免税店用 UPI 付款：Network International 作为收单方，在门店支付终端上开通 UPI 受理，覆盖迪拜国际机场与阿勒马克图姆国际机场。通过 UPI 支付的合资格消费可享 10% 折扣，上限 100 迪拉姆。",
+    "en": "NIPL, the international arm of NPCI, said on 5 November that Indian travellers can pay with UPI at Dubai Duty Free, with Network International acting as acquirer to enable UPI on payment terminals at Dubai International and Al Maktoum International airports. Eligible UPI purchases carry a 10% discount capped at AED 100.",
+    "es": "NIPL, el brazo internacional de NPCI, anunció el 5 de noviembre que los viajeros indios pueden pagar con UPI en Dubai Duty Free, con Network International como adquirente para habilitar UPI en los terminales de los aeropuertos de Dubái y Al Maktoum. Las compras elegibles con UPI tienen un 10% de descuento con tope de 100 dinares."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "UPI 走的是账户，不是卡",
+        "en": "UPI rides accounts, not cards",
+        "es": "UPI va por cuentas, no por tarjetas"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 5 日，NPCI 的国际业务部门 NIPL 宣布这项安排。印度旅客需要先在支持 UPI 的应用里为合资格银行账户开通 UPI International 或 UPI Global，之后才能在受理 UPI 的商户付款。迪拜免税店在迪拜国际机场与阿勒马克图姆国际机场运营。",
+        "en": "NIPL, NPCI's international arm, announced the arrangement on 5 November. Indian travellers must first enable UPI International or UPI Global for an eligible bank account in a UPI-enabled app, after which they can pay at merchants that accept UPI. Dubai Duty Free operates at Dubai International and Al Maktoum International airports.",
+        "es": "NIPL, el brazo internacional de NPCI, anunció el acuerdo el 5 de noviembre. El viajero indio debe activar antes UPI International o UPI Global para una cuenta bancaria elegible en una app compatible, y luego puede pagar en comercios que acepten UPI. Dubai Duty Free opera en los aeropuertos de Dubái y Al Maktoum."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "收单侧由 Network International 承担：把 UPI 受理接进门店的支付终端，而不是另起一套扫码设备。对商户，这意味着同一个终端同时处理卡与 UPI；对 UPI，这是把受理点放到境外零售场景，而不是只服务入境旅客在中国的消费。",
+        "en": "Network International handles acquiring, wiring UPI acceptance into the stores' payment terminals rather than adding a separate QR device. For the merchant that means one terminal handling both cards and UPI; for UPI it puts acceptance inside an overseas retail format instead of only serving inbound travellers spending in China.",
+        "es": "Network International asume la adquirencia y lleva la aceptación de UPI a los terminales de las tiendas, sin un dispositivo QR aparte. Para el comercio, un mismo terminal atiende tarjetas y UPI; para UPI, la aceptación entra en un formato minorista extranjero en vez de limitarse al gasto de visitantes en China."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "促销是这次宣布的一部分：通过 UPI 支付的合资格消费享 10% 折扣，单笔上限 100 迪拉姆。公告未说明受理终端数量、日均交易目标、汇率与手续费如何计算，也未说明是否覆盖免税店以外的商户。",
+        "en": "A promotion is part of the announcement: eligible UPI purchases get 10% off, capped at AED 100 per transaction. The announcement gives no terminal count, daily transaction target, or how FX and fees are calculated, and does not say whether merchants beyond the duty-free operator are covered.",
+        "es": "La promoción forma parte del anuncio: las compras elegibles con UPI tienen 10% de descuento, con tope de 100 dinares por operación. No se indican número de terminales, objetivo diario de transacciones ni cómo se calculan tipo de cambio y comisiones, ni si cubre comercios más allá del operador."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对收单机构，这是一次把国家即时支付系统接进存量终端的样板：不换硬件、不改商户收银流程，只加一个支付方式，就能接住每年往返中东的印度客流。真正的门槛不在技术，而在三件事——跨境定价（汇率加点与手续费由谁承担）、争议处理（UPI 没有卡组织那套拒付流程）、以及终端软件的认证。对做终端与收单网关的供应商，海湾的机场、免税与酒店是最先愿意为「接住特定客源」付钱的场景，这类项目会先于全面铺开出现。需要注意的是，公告只覆盖一个零售商与两个机场，规模有限，别当成 UPI 在海湾全面落地的信号。",
+    "en": "For acquirers this is a template for plugging a national instant payment system into existing terminals: no new hardware, no change to the merchant's checkout flow, one added payment method to capture Indian traffic through the Gulf. The real barriers are not technical but commercial and operational: cross-border pricing, who bears FX and fees; disputes, since UPI has no scheme chargeback process; and terminal software certification. For terminal and gateway vendors, Gulf airports, duty-free and hotels are the first venues willing to pay to capture a specific source market, and such projects tend to appear before any broad rollout. Note the scope: one retailer and two airports, not evidence of UPI landing across the Gulf.",
+    "es": "Para los adquirentes es una plantilla para conectar un sistema nacional de pagos instantáneos a terminales existentes: sin hardware nuevo ni cambios en el cobro, un método más para captar el flujo indio por el Golfo. Las barreras no son técnicas sino comerciales y operativas: el precio transfronterizo, es decir quién asume tipo de cambio y comisiones; las disputas, porque UPI no tiene el contracargo de un esquema de tarjetas; y la certificación del software del terminal. Para proveedores de terminales y pasarelas, aeropuertos, duty-free y hoteles del Golfo son los primeros dispuestos a pagar por captar un mercado emisor concreto, y esos proyectos suelen preceder a un despliegue amplio. Ojo al alcance: un operador y dos aeropuertos no equivalen a una llegada de UPI a todo el Golfo."
+  },
+  "confidence": 0.66,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

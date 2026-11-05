@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-06-banking-04",
+  "slug": "juspay-niubiz-peru-tapp",
+  "industry": "banking",
+  "region": "latam",
+  "regions": [],
+  "tags": [
+    "payment-gateway",
+    "clearing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-06T04:18:38+08:00",
+  "ingestedAt": "2026-11-06T02:35:08+08:00",
+  "originalLang": "es",
+  "sources": [
+    {
+      "name": "Mobile Time",
+      "url": "https://www.mobiletime.com.br/noticias/04/11/2026/juspay-anuncia-parceria/",
+      "lang": "es",
+      "publishedAt": "2026-11-04T18:13:00-03:00"
+    }
+  ],
+  "title": {
+    "zh": "Juspay 进秘鲁，与 Niubiz 接 TAPP 即时支付",
+    "en": "Juspay enters Peru with Niubiz to connect institutions to TAPP",
+    "es": "Juspay entra en Perú con Niubiz para conectar entidades al TAPP"
+  },
+  "summary": {
+    "zh": "11 月 4 日，印度支付技术公司 Juspay 宣布进入秘鲁，与本地处理商 Niubiz 合作，为银行、信用社、金融公司与 fintech 接入秘鲁央行的即时支付系统 TAPP 提供对接层。Niubiz 已在 TAPP 试点中，目标是不替换金融机构的存量系统即可接入；新参与方预计在 2027 年内陆续上线。",
+    "en": "Indian payments technology firm Juspay said on 4 November that it is entering Peru with local processor Niubiz, providing a connection layer for banks, credit cooperatives, finance companies and fintechs to join TAPP, the central bank's instant payment system. Niubiz is already in the TAPP pilot, and the aim is to connect institutions without replacing legacy systems; new participants are expected through 2027.",
+    "es": "La firma india de tecnología de pagos Juspay anunció el 4 de noviembre su entrada en Perú junto al procesador local Niubiz, con una capa de conexión para que bancos, cooperativas de ahorro y crédito, financieras y fintechs se integren al TAPP, el sistema de pagos instantáneos del banco central. Niubiz ya está en el piloto del TAPP y el objetivo es conectar entidades sin sustituir sus sistemas heredados; se esperan nuevos participantes a lo largo de 2027."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "把即时支付接到存量核心上",
+        "en": "Wiring instant payments onto legacy cores",
+        "es": "Conectar pagos instantáneos a núcleos heredados"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 4 日，Juspay 宣布进入秘鲁市场，合作方是本地支付处理商 Niubiz。两家要做的是「接入层」：让银行、储蓄与信用社、金融公司和 fintech 能以较小的改造接入 TAPP——由秘鲁央行（BCRP）建设的即时支付系统，功能上类似巴西的 Pix。",
+        "en": "Juspay announced its entry into Peru on 4 November, working with local processor Niubiz. The two are building a connection layer so that banks, savings and credit cooperatives, finance companies and fintechs can join TAPP, the instant payment system built by Peru's central bank, with limited changes to their own systems. TAPP plays a role comparable to Brazil's Pix.",
+        "es": "Juspay anunció su entrada en Perú el 4 de noviembre de la mano del procesador local Niubiz. Ambos construyen una capa de conexión para que bancos, cooperativas de ahorro y crédito, financieras y fintechs se integren al TAPP, el sistema de pagos instantáneos del banco central peruano, con cambios acotados en sus propios sistemas. El TAPP cumple un papel comparable al Pix brasileño."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "分工是清楚的：Niubiz 提供本地的清算连接、收单关系与监管接口，Juspay 提供编排与 API 层。Niubiz 已在 TAPP 的试点名单里，其 CEO Gustavo Leaño 表示，新参与方会在 2027 年内逐步接入。对一家秘鲁的信用社，这意味着不必自建 TAPP 连接就能收即时转账。",
+        "en": "The split is clear: Niubiz brings local clearing connectivity, acquirer relationships and regulatory interfaces, while Juspay supplies the orchestration and API layer. Niubiz is already in the TAPP pilot, and its CEO Gustavo Leaño said new participants will join gradually during 2027. For a Peruvian credit cooperative, that means taking instant transfers without building its own TAPP connection.",
+        "es": "El reparto es claro: Niubiz aporta conectividad local de compensación, relación de adquirencia e interfaces regulatorias, y Juspay la capa de orquestación y API. Niubiz ya está en el piloto del TAPP y su CEO, Gustavo Leaño, dijo que los nuevos participantes se sumarán gradualmente durante 2027. Para una cooperativa peruana, eso significa recibir transferencias instantáneas sin construir su propia conexión."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Juspay 给出的规模数字是全球口径：服务 500 多家企业客户、日均 3 亿笔交易、年交易额 1 万亿美元；在巴西已与 Visa、Mastercard 建立合作，在印度做了十年 UPI 的基础设施。这些数字说明它做过高并发，但不能当成秘鲁本地的落地规模。公告未披露首批接入机构名单、定价与上线时间。",
+        "en": "Juspay's scale figures are global: more than 500 enterprise clients, 300 million transactions a day and US$1 trillion in annual volume, plus partnerships with Visa and Mastercard in Brazil and ten years of building UPI infrastructure in India. They show experience with high concurrency, not local traction in Peru. The announcement gives no first wave of institutions, no pricing and no go-live dates.",
+        "es": "Las cifras de Juspay son globales: más de 500 clientes empresariales, 300 millones de transacciones diarias y US$1 billón de volumen anual, además de alianzas con Visa y Mastercard en Brasil y diez años construyendo infraestructura UPI en India. Muestran experiencia en alta concurrencia, no tracción local en Perú. El anuncio no da la primera ola de entidades, precios ni fechas de salida."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "秘鲁的即时支付一直卡在「谁去接」：大行有能力自建，信用社与金融公司没有。Juspay 与 Niubiz 卖的就是这层中间件，商业模式是按连接数或交易量收费，而不是自己发卡或收单。对做核心系统与渠道整合的供应商，这类项目会挤压自建连接的市场，但也会带来一批「先接 TAPP、再接卡」的中小机构需求。真正的不确定性在监管：TAPP 的参与规则、结算最终性与争议处理由 BCRP 定，接入层只能在规则之内做效率。若 2027 年的接入名单里以信用社和 fintech 为主，说明这条路径成立；若仍是大行，则只是把既有能力换了个供应商。",
+    "en": "Peru's instant payment push has been stuck on who does the connecting: large banks can build it, cooperatives and finance companies cannot. Juspay and Niubiz are selling that middleware, earning per connection or per volume rather than issuing or acquiring themselves. For core banking and channel integration vendors, such projects squeeze the build-your-own-connection market while creating demand from smaller institutions that will later add cards. The uncertainty is regulatory: TAPP participation rules, settlement finality and disputes are set by the central bank, and a connection layer can only add efficiency inside those rules. If the 2027 intake is mostly cooperatives and fintechs, the model works; if it is still large banks, it is the same capability with a new supplier.",
+    "es": "El impulso del pago instantáneo en Perú estaba trabado en quién conecta: los grandes bancos pueden construirlo, las cooperativas y financieras no. Juspay y Niubiz venden ese middleware y cobran por conexión o volumen, sin emitir ni adquirir por cuenta propia. Para los proveedores de core y de integración de canales, estos proyectos presionan el mercado de conexiones propias y crean demanda en entidades pequeñas que luego sumarán tarjetas. La incertidumbre es regulatoria: las reglas de participación en el TAPP, la firmeza de la liquidación y las disputas las fija el banco central, y una capa de conexión solo aporta eficiencia dentro de esas reglas. Si la lista de 2027 es sobre todo de cooperativas y fintechs, el modelo funciona; si sigue siendo de grandes bancos, es la misma capacidad con otro proveedor."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

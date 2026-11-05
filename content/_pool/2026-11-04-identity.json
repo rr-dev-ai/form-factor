@@ -19,7 +19,8 @@
         {
           "name": "Georgia Department of Public Safety",
           "url": "https://dps.georgia.gov/press-releases/2026-10-30/ga-dps-now-accepts-digital-license-id",
-          "lang": "en"
+          "lang": "en",
+          "publishedAt": "2026-10-30T00:00:00-04:00"
         },
         {
           "name": "ID Tech",
@@ -111,113 +112,6 @@
       }
     },
     {
-      "id": "2026-11-04-identity-03",
-      "slug": "liberia-biometric-registration-foreign-nationals",
-      "industry": "identity",
-      "region": "africa",
-      "regions": [],
-      "tags": [
-        "national-id",
-        "biometrics",
-        "verification"
-      ],
-      "originalLang": "en",
-      "sources": [
-        {
-          "name": "ID Tech",
-          "url": "https://idtechwire.com/liberia-launches-biometric-registration-of-about-140000-foreign-nationals/",
-          "lang": "en"
-        },
-        {
-          "name": "The New Dawn",
-          "url": "https://www.thenewdawnliberia.com/liberia-to-register-140000-migrants-in-biometric-exercise/",
-          "lang": "en"
-        }
-      ],
-      "title": {
-        "zh": "利比里亚明日起登记约 14 万外国人，三个机构共用一套生物识别采集",
-        "en": "Liberia starts biometric registration of about 140,000 foreign nationals on 4 November",
-        "es": "Liberia inicia el 4 de noviembre el registro biométrico de unos 140.000 extranjeros"
-      },
-      "summary": {
-        "zh": "利比里亚难民遣返与安置委员会、移民局与国家身份登记局联合宣布，11 月 4 日在 Grand Gedeh 州启动外国人生物识别登记，11 月 5 日至 12 月 31 日在四个州设点，对象约 14 万人，多数来自布基纳法索。",
-        "en": "Liberia's refugee commission, immigration service and national identification registry will launch biometric registration of about 140,000 foreign nationals in Grand Gedeh on 4 November, with enrolment centres open in four counties from 5 November to 31 December.",
-        "es": "La comisión de refugiados, el servicio de inmigración y el registro nacional de identificación de Liberia lanzarán el 4 de noviembre el registro biométrico de unos 140.000 extranjeros en Grand Gedeh, con centros en cuatro condados del 5 de noviembre al 31 de diciembre."
-      },
-      "body": [
-        {
-          "kind": "h",
-          "text": {
-            "zh": "谁在做，依据是什么",
-            "en": "Who runs it, on what authority",
-            "es": "Quién lo ejecuta y con qué base"
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "行动由难民遣返与安置委员会（LRRRC）、利比里亚移民局与国家身份登记局（NIR）三家联合执行。LRRRC 执行主任 Jeror Cole Bangalu 11 月 2 日在蒙罗维亚的委员会总部宣读联合声明，说这是总统 Joseph Nyuma Boakai 的指令，要求三机构合力处理无证移民，建立一套可核的身份与证件记录。",
-            "en": "The exercise is run jointly by the Liberia Refugee Repatriation and Resettlement Commission, the Liberia Immigration Service and the National Identification Registry. LRRRC executive director Jeror Cole Bangalu read a joint statement at the commission's Monrovia headquarters on 2 November, saying it follows a directive from President Joseph Nyuma Boakai for the three agencies to tackle undocumented migrants and build a verifiable identification record.",
-            "es": "La operación la ejecutan conjuntamente la comisión de refugiados (LRRRC), el servicio de inmigración y el registro nacional de identificación (NIR). Su director ejecutivo, Jeror Cole Bangalu, leyó un comunicado conjunto el 2 de noviembre en Monrovia: responde a una directiva del presidente Joseph Nyuma Boakai para que las tres agencias atiendan a los migrantes indocumentados y creen un registro verificable."
-          }
-        },
-        {
-          "kind": "h",
-          "text": {
-            "zh": "采什么，覆盖到哪里",
-            "en": "What is collected, and where",
-            "es": "Qué se recoge y dónde"
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "登记要确定外国人的身份、所在地与居留状态，让当局分清哪些人证件齐全、哪些人的入境或居留需要补程序。采集从 11 月 5 日持续到 12 月 31 日，设在 Grand Gedeh、Nimba、River Gee、Maryland 四个州的指定中心。目标人群以布基纳法索籍为主，多集中在东南部从事可可种植与采矿。",
-            "en": "Registration is meant to establish identity, location and immigration status, so authorities can separate people with valid documents from those whose entry or stay needs administrative follow-up. Enrolment runs from 5 November to 31 December at designated centres in Grand Gedeh, Nimba, River Gee and Maryland. Most of the target group are Burkinabè nationals working in cocoa farming and mining in the southeast.",
-            "es": "El registro busca establecer identidad, ubicación y situación migratoria, para que las autoridades distingan a quienes tienen documentos válidos de quienes necesitan regularizar su entrada o estancia. La inscripción va del 5 de noviembre al 31 de diciembre en centros designados de Grand Gedeh, Nimba, River Gee y Maryland. La mayoría son nacionales de Burkina Faso que trabajan en cacao y minería en el sureste."
-          }
-        },
-        {
-          "kind": "h",
-          "text": {
-            "zh": "公告没交代的部分",
-            "en": "What the statement does not say",
-            "es": "Lo que el comunicado no dice"
-          }
-        },
-        {
-          "kind": "ul",
-          "items": [
-            {
-              "zh": "没有公布设备由谁提供、预算多少，也没说采集终端是否支持离线登记——四个州的服务点多在偏远地区，网络是现实约束。",
-              "en": "It does not name the equipment supplier, the budget, or whether enrolment terminals work offline, though the four counties are remote and connectivity is a practical constraint.",
-              "es": "No indica el proveedor de equipos, el presupuesto ni si los terminales funcionan sin conexión, aunque los cuatro condados son remotos y la conectividad es una limitación real."
-            },
-            {
-              "zh": "没有说明新采的数据如何与国家身份登记局现有的生物识别库合并、去重规则是什么。",
-              "en": "It does not explain how the new data will be merged with the registry's existing biometric database, or what deduplication rules apply.",
-              "es": "No explica cómo se fusionarán los nuevos datos con la base biométrica existente del registro ni qué reglas de deduplicación se aplican."
-            },
-            {
-              "zh": "登记与居留许可、边境系统的联动方式未披露；声明只说是为了加强移民管理与边境安全。",
-              "en": "The link to residence permits and border systems is not disclosed; the statement only says the aim is stronger immigration management and border security.",
-              "es": "No se detalla la conexión con permisos de residencia y sistemas fronterizos; el comunicado solo menciona una mejor gestión migratoria y seguridad fronteriza."
-            }
-          ]
-        }
-      ],
-      "whyItMatters": {
-        "zh": "变的是签发之前的采集环节：一批原先不在任何国家数据库里的人，被纳入统一的生物识别记录，之后才谈得上发证与核验。对做移动采集站、离线登记与指纹设备的供应商，这是一个有明确时限、明确地点、明确人群的落地项目，而不是政策表态。要跟的是四县设点的节奏和登记局的数据接口——如果采集端不能离线跑、不能与既有库去重，这 14 万条记录最后还得重做一遍。",
-        "en": "What changed is the capture step before issuance: people who were in no national database are being pulled into one biometric record, which is the precondition for issuing and later verifying anything. For suppliers of mobile enrolment kits, offline registration and fingerprint devices, this is a scoped deployment with dates, places and a defined population, not a policy statement. What to track is the county rollout and the registry's data interface: if terminals cannot work offline and deduplicate against the existing database, the 140,000 records get done twice.",
-        "es": "Lo que cambió es la captura previa a la emisión: personas que no estaban en ninguna base nacional pasan a un registro biométrico único, condición previa para emitir y luego verificar. Para proveedores de kits móviles, registro sin conexión y equipos de huella, es un despliegue acotado con fechas, lugares y población definida, no una declaración política. Hay que seguir el despliegue por condados y la interfaz del registro: si los terminales no funcionan sin red ni deduplican contra la base existente, los 140.000 registros se harán dos veces."
-      },
-      "confidence": 0.8,
-      "ai": {
-        "model": "deepseek-v4.1-flash",
-        "promptVersion": "digest-v4-body"
-      }
-    },
-    {
       "id": "2026-11-04-identity-08",
       "slug": "deel-security-workforce-identity-checks",
       "industry": "identity",
@@ -233,7 +127,8 @@
         {
           "name": "ID Tech",
           "url": "https://idtechwire.com/deel-launches-deel-security-to-check-worker-identities-from-application-through-employment/",
-          "lang": "en"
+          "lang": "en",
+          "publishedAt": "2026-11-02T00:00:00-05:00"
         },
         {
           "name": "Deel",
@@ -340,7 +235,8 @@
         {
           "name": "ID Tech",
           "url": "https://idtechwire.com/ocr-studio-launches-one-shot-kyc-for-identity-verification-from-a-single-selfie-with-an-id/",
-          "lang": "en"
+          "lang": "en",
+          "publishedAt": "2026-11-03T00:00:00-05:00"
         },
         {
           "name": "OCR Studio",
@@ -425,107 +321,6 @@
         "es": "Lo que cambió es dónde ocurren captura y comparación: en el dispositivo del usuario, no en un servidor, con lectura de documento y cotejo facial en una toma. Para integradores de alta de clientes, elimina un paso de abandono y una explicación de transferencia transfronteriza. El precio es que el veredicto se genera en el cliente y el equipo de riesgo debe aceptar una puntuación que no puede recalcular. La prueba de vida es la línea divisoria: si un esquema de una sola imagen no frena la reproducción, el paso ahorrado se paga en fraude."
       },
       "confidence": 0.7,
-      "ai": {
-        "model": "deepseek-v4.1-flash",
-        "promptVersion": "digest-v4-body"
-      }
-    },
-    {
-      "id": "2026-11-04-identity-10",
-      "slug": "kenya-ebirth-registration-rollout",
-      "industry": "identity",
-      "region": "africa",
-      "regions": [],
-      "tags": [
-        "national-id",
-        "verification"
-      ],
-      "originalLang": "en",
-      "sources": [
-        {
-          "name": "Identity Week",
-          "url": "https://identityweek.net/birth-registration-e-service-reduces-admin-from-months-to-days/",
-          "lang": "en"
-        }
-      ],
-      "title": {
-        "zh": "肯尼亚出生登记搬到线上：医院直接推数据，两个月登记 57 万例",
-        "en": "Kenya moves birth registration online, with hospitals pushing records straight into the registry",
-        "es": "Kenia digitaliza el registro de nacimientos, con los hospitales enviando datos al registro"
-      },
-      "summary": {
-        "zh": "肯尼亚的线上出生登记服务在全国推开，医院可直接把新生儿记录推送到人口登记库；9 月登记 27 万例、10 月近 30 万例，此前每年约五分之一新生儿未登记。",
-        "en": "Kenya's online birth registration is opening nationwide, letting hospitals push newborn records into the population registry; 270,000 births were registered in September and nearly 300,000 in October, against one in five births previously going unrecorded each year.",
-        "es": "El registro de nacimientos en línea de Kenia se extiende al país, con hospitales que envían los datos al registro poblacional; 270.000 nacimientos en septiembre y casi 300.000 en octubre, frente a uno de cada cinco sin registrar cada año."
-      },
-      "body": [
-        {
-          "kind": "h",
-          "text": {
-            "zh": "改的是入口",
-            "en": "The entry point changed",
-            "es": "Cambió el punto de entrada"
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "过去办出生证明要跑登记点、填纸质表，偏远地区的人可能要走几百公里。现在登记可以从医院发起：院方把新生儿信息以电子通知的方式直接送进民事登记系统，接着进入人口登记库。肯尼亚人口约 5800 万，此前每年约五分之一的新生儿没有登记。",
-            "en": "Registering a birth used to mean travelling to an office and filling paper forms, sometimes hundreds of kilometres. Registration can now start in hospital: staff send an electronic notification into the civil registration system, which feeds the population register. Kenya has about 58 million people, and roughly one in five births went unregistered each year.",
-            "es": "Antes, inscribir un nacimiento implicaba viajar a una oficina y rellenar papeles, a veces cientos de kilómetros. Ahora puede iniciarse en el hospital: el centro envía un aviso electrónico al sistema de registro civil, que alimenta el registro poblacional. Kenia tiene unos 58 millones de habitantes y cerca de uno de cada cinco nacimientos quedaba sin registrar."
-          }
-        },
-        {
-          "kind": "h",
-          "text": {
-            "zh": "两个月的量",
-            "en": "Two months of volume",
-            "es": "Dos meses de volumen"
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "9 月通过系统登记 27 万例，10 月接近 30 万例。移民与公民服务部首席秘书 Belio Kipsang 说，正在把民事登记系统与全国医院管理系统对接，让所有医院都能发电子通知；同一套系统以后可以用于死亡登记。项目由 ESTDEV 出资，属于欧盟以人为本数字化计划的一部分。",
-            "en": "The system registered 270,000 births in September and nearly 300,000 in October. Belio Kipsang, principal secretary for immigration and citizen services, says the civil registration system is being integrated with hospital management systems so that every hospital can send electronic notifications, and the same rail can later carry death registrations. ESTDEV funded the build under an EU human-centric digitalisation programme.",
-            "es": "El sistema registró 270.000 nacimientos en septiembre y casi 300.000 en octubre. Belio Kipsang, secretario principal de inmigración y servicios al ciudadano, dice que el registro civil se integra con los sistemas hospitalarios para que todos puedan enviar avisos electrónicos, y esa misma vía servirá luego para defunciones. ESTDEV financió el desarrollo dentro de un programa europeo de digitalización centrada en las personas."
-          }
-        },
-        {
-          "kind": "h",
-          "text": {
-            "zh": "没讲的部分",
-            "en": "What is not addressed",
-            "es": "Lo que no se aborda"
-          }
-        },
-        {
-          "kind": "ul",
-          "items": [
-            {
-              "zh": "公告没有说明没有在医院出生的孩子怎么登记，这部分人往往正是最难覆盖的。",
-              "en": "It does not say how births outside hospitals are registered, and those are usually the hardest to reach.",
-              "es": "No explica cómo se inscriben los nacimientos fuera de hospitales, que suelen ser los más difíciles de alcanzar."
-            },
-            {
-              "zh": "医院与登记系统之间的接口标准、身份校验方式未披露；如果医院端录入出错，纠错流程也没有讲。",
-              "en": "The interface standard between hospitals and the registry, and how identity is validated, are not disclosed; nor is the correction process when hospital data is wrong.",
-              "es": "No se detallan el estándar de interfaz entre hospitales y registro ni la validación de identidad, tampoco el proceso de corrección de errores."
-            },
-            {
-              "zh": "出生登记是后续领国家身份证与护照的前置条件，但两套系统如何衔接没有说明。",
-              "en": "Birth registration is a precondition for later national ID and passport issuance, but how the systems connect is not described.",
-              "es": "El registro de nacimiento es requisito para el documento nacional y el pasaporte, pero no se describe cómo se conectan los sistemas."
-            }
-          ]
-        }
-      ],
-      "whyItMatters": {
-        "zh": "变的是签发的起点：身份记录不再从公民上门申请开始，而是从医院的一次电子通知开始，等于把登记动作前移到出生现场。对做民事登记系统、医院接口与离线采集的供应商，这类项目的特点是先改流程再买设备，标书里最硬的要求通常是与既有医院系统的对接能力。缺口也很实在：不在医院出生的人仍要靠移动登记补，谁能在弱网和边远地区把这一端做稳，谁才有第二轮机会。",
-        "en": "What changed is where issuance begins: the identity record no longer starts with a citizen appearing at an office but with an electronic notification from a hospital, moving registration to the point of birth. For suppliers of civil registration systems, hospital interfaces and offline capture, these projects change process before buying hardware, and the hardest requirement in the tender is usually integration with existing hospital systems. The gap is real: births outside hospitals still need mobile registration, and whoever makes that end work on weak networks and in remote districts gets the second round.",
-        "es": "Lo que cambió es dónde empieza la emisión: el registro de identidad ya no arranca con el ciudadano en una oficina, sino con un aviso electrónico del hospital, trasladando el alta al momento del nacimiento. Para proveedores de registro civil, interfaces hospitalarias y captura sin conexión, estos proyectos cambian procesos antes de comprar equipos, y el requisito más duro suele ser integrarse con los sistemas hospitalarios existentes. El hueco es real: los nacimientos fuera de hospitales aún requieren registro móvil, y quien lo haga funcionar con mala red y en distritos remotos tendrá la segunda ronda."
-      },
-      "confidence": 0.72,
       "ai": {
         "model": "deepseek-v4.1-flash",
         "promptVersion": "digest-v4-body"
@@ -637,6 +432,16 @@
       "title": "电子行驶证新规！即将实施",
       "url": "https://api.app.anhuinews.com/content/9709794.html",
       "reason": "报道只写「近日」发布，无法核实标准发布的准确日期，时效判不了；且属车辆证照，与三条凭证链路中的人身份核验只是部分重叠，本轮不收。"
+    },
+    {
+      "title": "Liberia starts biometric registration of about 140,000 foreign nationals on 4 November",
+      "url": "https://idtechwire.com/liberia-launches-biometric-registration-of-about-140000-foreign-nationals/",
+      "reason": "与已发布 2026-11-05-identity-01（利比里亚 16 站点登记外国人，slug liberia-migrant-biometric-registration-16-sites）同一事件，本条为另一版草稿，判重复。"
+    },
+    {
+      "title": "Kenya moves birth registration online, with hospitals pushing records straight into the registry",
+      "url": "https://identityweek.net/birth-registration-e-service-reduces-admin-from-months-to-days/",
+      "reason": "民事出生登记上网，属人口登记服务，不落在证件载体、签发与核验终端任一环节，范围门不过；且事件时间为 9—10 月累计数据，无窗口内新动作。"
     }
   ],
   "stats": {

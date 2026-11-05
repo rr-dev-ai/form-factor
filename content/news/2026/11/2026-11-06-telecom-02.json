@@ -1,0 +1,86 @@
+{
+  "id": "2026-11-06-telecom-02",
+  "slug": "st-st87m01-softsim-sgp32-factory-provisioning",
+  "industry": "telecom",
+  "region": "global",
+  "regions": [],
+  "tags": [
+    "esim",
+    "isim",
+    "rsp"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-06T04:18:38+08:00",
+  "ingestedAt": "2026-11-06T02:56:21+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "STMicroelectronics",
+      "url": "https://newsroom.st.com/media-center/press-item.html/stmicroelectronics-simplifies-iot-deployment-with-softsim-sgp-32-in-factory-provisioning-and-zephyr-support-for-st87m01.html",
+      "lang": "en",
+      "publishedAt": "2026-11-05T13:59:11+00:00"
+    }
+  ],
+  "title": {
+    "zh": "ST 把 SoftSIM 与 SGP.32 产线写卡塞进 NB-IoT 模组",
+    "en": "ST puts SoftSIM and SGP.32 factory provisioning inside its NB-IoT module",
+    "es": "ST integra SoftSIM y aprovisionamiento SGP.32 en fábrica en su módulo NB-IoT"
+  },
+  "summary": {
+    "zh": "11 月 5 日，意法半导体为 ST87M01 NB-IoT 工业模组增加三项能力：跑在模组处理子系统上的 Onomondo SoftSIM，可让设备不再需要物理 SIM 器件；按 SGP.32 在产线直接写入运营商 profile；以及 Zephyr 驱动。模组为 12.8×10.6 毫米 LGA 封装，11 月 10–12 日在维也纳 Enlit 现场演示写卡。",
+    "en": "On 5 November STMicroelectronics added three options to its ST87M01 NB-IoT industrial module: Onomondo SoftSIM running on the module's processing subsystem so no physical SIM part is needed, SGP.32-compliant profile provisioning performed on the production line, and a Zephyr driver. The module is a 12.8 by 10.6 millimetre LGA, with the provisioning demo at Enlit in Vienna on 10-12 November.",
+    "es": "El 5 de noviembre STMicroelectronics añadió tres opciones a su módulo industrial NB-IoT ST87M01: SoftSIM de Onomondo ejecutado en el subsistema de proceso del módulo, sin necesidad de una SIM física; aprovisionamiento de perfiles conforme a SGP.32 en la propia línea de producción; y un controlador para Zephyr. El módulo es un LGA de 12,8 por 10,6 milímetros, con demostración en Enlit, Viena, del 10 al 12 de noviembre."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "SIM 从一颗器件，变成模组里的一段代码",
+        "en": "From a part on the board to code inside the module",
+        "es": "De una pieza en la placa a código dentro del módulo"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 5 日，意法半导体公告为 ST87M01 NB-IoT 工业模组增加三项可选能力。一是接入 Onomondo 的 SoftSIM：这是一套跑在模组处理子系统上的软件方案，公告的说法是「不再需要使用物理 SIM 器件」。二是支持按 SGP.32 在产线直接写入运营商 profile。三是提供 Zephyr 驱动，已在该项目 GitHub 上发布。",
+        "en": "On 5 November STMicroelectronics said the ST87M01 NB-IoT industrial module gains three options. First, Onomondo SoftSIM, a software implementation running on the module's processing subsystem that, in the company's wording, makes a physical SIM device unnecessary. Second, support for writing mobile operator profiles on the production line in line with SGP.32. Third, a Zephyr driver, published in that project's GitHub.",
+        "es": "El 5 de noviembre STMicroelectronics anunció tres opciones para el módulo industrial NB-IoT ST87M01. Primera, SoftSIM de Onomondo, una solución software que se ejecuta en el subsistema de proceso del módulo y que, según la empresa, hace innecesario un dispositivo SIM físico. Segunda, soporte para escribir perfiles de operador en la línea de producción conforme a SGP.32. Tercera, un controlador para Zephyr, publicado en el GitHub del proyecto."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "两件事指向同一个结果：SIM 的身份数据不再必须落在一颗独立的卡或 eUICC 芯片上，可以落在模组主控里；而写入时机从「用户激活时远程下载」前移到「产线出厂前」。后者的直接收益是库存——同一批硬件不用按运营商分别备卡，产线按订单分配 profile，出厂即通。公告把这套做法与「现场远程管理 profile」并列，强调两者共用 SGP.32 这一套框架。",
+        "en": "Both point the same way: the SIM's identity data no longer has to sit on a separate card or eUICC chip and can live in the module's own processor, and the moment of writing moves from remote download at user activation to the production line. The immediate gain is inventory: one hardware batch does not need operator-specific cards, and profiles are assigned to an order on the line, connected from first power-on. The announcement sets this beside in-field remote profile management and stresses that both use the same SGP.32 framework.",
+        "es": "Ambas cosas apuntan a lo mismo: los datos de identidad de la SIM ya no tienen que residir en una tarjeta o chip eUICC aparte y pueden vivir en el procesador del módulo, y el momento de escritura pasa de la descarga remota en la activación a la línea de producción. La ganancia inmediata es de inventario: un mismo lote de hardware no requiere tarjetas por operador, y los perfiles se asignan al pedido en la línea, con conexión desde el primer encendido. El anuncio sitúa esto junto a la gestión remota de perfiles en campo y subraya que ambos usan el mismo marco SGP.32."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "模组本身的参数写得清楚：12.8×10.6 毫米 LGA 封装，LTE Cat NB2 Release 15，支持 UDP、TCP、HTTP、MQTT、CoAP 与 GNSS、Wi-Fi 定位；按公告通过 GCF、欧盟 RED 与 RED-DA、FCC/ISED、PTCRB、Anatel、Icasa 认证。演示安排在两场展会上：11 月 10–12 日维也纳 Enlit Europe，11 月 10–13 日慕尼黑 electronica。",
+        "en": "The module's own figures are specific: a 12.8 by 10.6 millimetre LGA, LTE Cat NB2 Release 15, support for UDP, TCP, HTTP, MQTT and CoAP plus GNSS and Wi-Fi positioning, and, per the announcement, certification under GCF, EU RED and RED-DA, FCC/ISED, PTCRB, Anatel and Icasa. Demonstrations are scheduled at two shows: Enlit Europe in Vienna on 10-12 November and electronica in Munich on 10-13 November.",
+        "es": "Las cifras del módulo son concretas: LGA de 12,8 por 10,6 milímetros, LTE Cat NB2 Release 15, soporte de UDP, TCP, HTTP, MQTT y CoAP además de GNSS y posicionamiento Wi-Fi y, según el anuncio, certificación GCF, RED y RED-DA de la UE, FCC/ISED, PTCRB, Anatel e Icasa. Las demostraciones se reparten entre dos ferias: Enlit Europe en Viena del 10 al 12 de noviembre y electronica en Múnich del 10 al 13."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "没有交代的部分决定了这套方案现在能用到哪一步：没有客户名单，没有产线写卡的节拍与良率，没有说明哪些运营商的 profile 可以在产线写入，也没说 SoftSIM 模式下谁承担实名登记与 profile 生命周期管理。对做表计、追踪器这类长生命周期设备的厂商，这三项缺一项都没法排产。",
+        "en": "What is left out decides how far this can be used today: no customer names, no line takt time or yield for profile writing, no list of which operators' profiles can be written in the factory, and no statement of who carries real-name registration and profile lifecycle management in the SoftSIM case. For makers of meters and trackers with long device lives, missing any one of the three blocks scheduling.",
+        "es": "Lo que falta decide hasta dónde llega hoy: sin clientes identificados, sin tiempo de ciclo ni rendimiento de la escritura en línea, sin lista de qué perfiles de operador pueden escribirse en fábrica y sin decir quién asume el registro de identidad y el ciclo de vida del perfil en el caso SoftSIM. Para fabricantes de contadores y rastreadores de vida larga, la falta de cualquiera de los tres impide planificar."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "技术上这是一次「去掉器件」：SIM 从可插拔卡到焊死的 eUICC，再到模组主控里的一段软件，每退一步，供应链上就少一个环节，认证对象也从芯片变成整机。商业上，产线写卡直接换掉按运营商备卡的库存逻辑，受益的是做多市场出货的模组厂和终端厂；被挤压的是只做卡供应与预置 profile 的中间环节——当 profile 可以在产线写进模组主控，物联网侧对独立 eUICC 芯片的需求会被压缩。监管问题是这套方案真正的天花板：SoftSIM 没有可拆的硬件载体，实名登记、机卡绑定、eID 唯一标识这些现有抓手都落在「卡」上，模组厂商要不要承担登记义务，目前没有答案。短期内它更适合对成本敏感的封闭场景（表计、追踪），而不是需要严格实名与可追溯的市场。",
+    "en": "Technically this removes a part: the SIM goes from a plug-in card to a soldered eUICC to software inside the module's processor, and each step takes one link out of the supply chain while shifting certification from a chip to a finished device. Commercially, factory provisioning replaces per-operator card inventory, which favours module and device makers shipping to several markets and squeezes the intermediaries that only supply cards and pre-loaded profiles; once a profile can be written into the module's processor on the line, demand for standalone eUICC silicon in IoT narrows. Regulation is the real ceiling: SoftSIM has no removable hardware carrier, and real-name registration, card-to-device binding and the unique eID all hang on a card, so whether module vendors inherit registration duties has no answer yet. Near term it fits cost-sensitive closed deployments such as meters and trackers better than markets that demand strict identity checks and traceability.",
+    "es": "Técnicamente elimina una pieza: la SIM pasa de tarjeta insertable a eUICC soldado y de ahí a software en el procesador del módulo, y cada paso quita un eslabón de la cadena mientras la certificación pasa del chip al equipo acabado. Comercialmente, la escritura en fábrica sustituye el inventario de tarjetas por operador: favorece a fabricantes de módulos y equipos que venden en varios mercados y presiona a los intermediarios que solo suministran tarjetas y perfiles precargados; cuando el perfil puede escribirse en el procesador del módulo, la demanda de silicio eUICC independiente en IoT se estrecha. La regulación es el techo real: la SoftSIM no tiene soporte físico extraíble, y el registro de identidad, la vinculación tarjeta-equipo y el eID único cuelgan de una tarjeta, así que no hay respuesta sobre si el fabricante de módulos hereda esas obligaciones. A corto plazo encaja mejor en despliegues cerrados sensibles al coste, como contadores y rastreadores, que en mercados con verificación estricta y trazabilidad."
+  },
+  "confidence": 0.63,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11"
+  }
+}

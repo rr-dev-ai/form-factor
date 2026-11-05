@@ -1,0 +1,220 @@
+{
+  "date": "2026-11-06",
+  "industry": "identity",
+  "startedAt": "2026-11-06T03:10:00+08:00",
+  "drafts": [
+    {
+      "id": "2026-11-06-identity-06",
+      "slug": "bahrain-private-digital-id-bill",
+      "industry": "identity",
+      "region": "mena",
+      "regions": [],
+      "tags": [
+        "national-id",
+        "verification",
+        "pki"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "Biometric Update",
+          "url": "https://www.biometricupdate.com/202611/bahrain-weighs-private-role-in-digital-id-as-beyon-connect-expands-across-gcc",
+          "lang": "en",
+          "publishedAt": "2026-11-04T11:16:00-05:00"
+        },
+        {
+          "name": "News of Bahrain",
+          "url": "https://www.newsofbahrain.com/en/article/private-role-in-digital-id-services-approved-by-mps",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "巴林众议院放行私营机构运营电子身份服务",
+        "en": "Bahrain's MPs approve private operators for digital ID services",
+        "es": "El parlamento de Baréin aprueba operadores privados para los servicios de identidad digital"
+      },
+      "summary": {
+        "zh": "巴林众议院通过政府提交的法案，允许主管部长把电子身份服务的管理委托给其他政府机构或私营企业，国家保留电子身份系统的运行责任，费用与豁免改为部长在内阁批准后确定。法案同时取消公共机构受理电子交易、电子消息与电子签名前须另取部长命令的要求，改为遵守统一的技术与安全规则。巴林 95% 的政府服务已在线办理，经由 MyGov Bahrain，目标 2027 年底全部上线。",
+        "en": "Bahrain's House of Representatives has passed a government bill letting the responsible minister delegate management of electronic identity services to another public body or a private company, with the state keeping responsibility for the eID system and fees set by the minister after cabinet approval. The bill also drops the requirement for a separate ministerial order before public bodies accept electronic transactions, messages and signatures. Ninety-five percent of services are online via MyGov Bahrain, with full digitisation targeted for end-2027.",
+        "es": "La Cámara de Representantes de Baréin aprobó un proyecto que permite al ministro competente delegar la gestión de los servicios de identidad electrónica en otro organismo público o en una empresa privada, manteniendo el Estado la responsabilidad del sistema de eID y las tasas fijadas por el ministro tras aprobación del gabinete. El texto también elimina la orden ministerial adicional para que los organismos acepten transacciones, mensajes y firmas electrónicas. El 95 por ciento de los servicios ya están en línea vía MyGov Bahrain, con digitalización total prevista para finales de 2027."
+      },
+      "body": [
+        {
+          "kind": "p",
+          "text": {
+            "zh": "法案给的是委托权，不是私有化：主管电子身份的部长可以把部分或全部服务的管理交给另一个政府机构，也可以交给私营企业；系统本身的运行责任仍归国家。费用与豁免的确定方式一并调整，改由部长在内阁批准后设定，不再逐项走原有程序。",
+            "en": "What the bill grants is delegation, not privatisation. The minister overseeing identity may hand management of some or all services to another government body or to a private company, while responsibility for operating the system stays with the state. Fee-setting changes too: the minister sets charges and exemptions after cabinet approval instead of working through the existing route item by item.",
+            "es": "El proyecto concede delegación, no privatización. El ministro responsable de identidad puede entregar la gestión de parte o de todos los servicios a otro organismo público o a una empresa privada, mientras la responsabilidad de operar el sistema sigue en el Estado. También cambia la fijación de tasas: el ministro establece importes y exenciones tras aprobación del gabinete, en lugar de recorrer la vía existente punto por punto."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "顺手拆掉受理端的一道手续",
+            "en": "A procedural gate on acceptance comes down too",
+            "es": "También cae un trámite en el lado que acepta"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "过去公共机构要受理电子交易、电子消息或电子签名，得先拿到本部门部长或首长的单独命令。法案取消这道前置，改为所有机构遵守同一套技术与安全规则；按信息与电子政务局（iGA）在议会上的说明，符合规则即视为接受。这条改动比委托条款更直接：它把「能不能电子办」从各部的自由裁量变成默认状态。",
+            "en": "Public bodies previously needed a separate order from their own minister or head before accepting electronic transactions, messages or signatures. The bill removes that gate and puts every body under one set of technical and security rules; per the Information and eGovernment Authority's testimony to MPs, compliance with the rules now counts as acceptance. That change bites harder than the delegation clause: it turns electronic handling from ministerial discretion into a default.",
+            "es": "Antes, un organismo público necesitaba una orden de su propio ministro o titular para aceptar transacciones, mensajes o firmas electrónicas. El proyecto elimina esa puerta y somete a todos a un mismo conjunto de reglas técnicas y de seguridad; según el testimonio de la Autoridad de Información y Gobierno Electrónico ante los diputados, cumplir las reglas equivale a aceptar. Ese cambio muerde más que la cláusula de delegación: convierte la tramitación electrónica de discrecionalidad ministerial en situación por defecto."
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "巴林的基础条件摆在那里：95% 的政府服务已可在线办理，全部通过生物识别国家身份系统 MyGov Bahrain 访问，目标是 2027 年底前全部上线。随法案提交的经济研究认为，线上化能减少纸质、档案与办公支出，私营机构承接更多身份服务也会给本地技术公司带来订单。法案在众议院通过后还需后续审议程序，公告未给出生效时间。",
+            "en": "The baseline is already high: 95 percent of government services are online and all are reached through MyGov Bahrain, the biometric national identity system, with full coverage targeted for end-2027. An economic study filed with the bill argues that moving work online cuts spending on paper, filing and office space, and that private providers taking a larger share of identity services would bring business to local technology firms. Having cleared the House, the bill still faces further stages; no commencement date was given.",
+            "es": "La base ya es alta: el 95 por ciento de los servicios públicos está en línea y todos se acceden mediante MyGov Bahrain, el sistema biométrico de identidad nacional, con cobertura total prevista para finales de 2027. Un estudio económico presentado con el proyecto sostiene que trasladar trabajo a línea reduce gasto en papel, archivo y oficinas, y que una mayor participación privada en servicios de identidad generaría negocio para empresas tecnológicas locales. Tras pasar la Cámara, el texto afronta más trámites; no se indicó fecha de entrada en vigor."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "把国家身份服务的运营权部分让给私营机构，在海湾不是新话题，但巴林这次走的是立法而不是试点，且把费用设定权一并交到部长手上。对本地集成商与身份服务商，这意味着采购口从「政府自建」变成「政府委托」，投标结构、数据托管责任与服务水平条款都要重写。真正的风险在数据一侧：委托运营不等于转移数据控制权，法案保留国家的系统运行责任，但没有在文本里写明生物识别数据的存放地与密钥归属，这类细节通常落在委托合同与数据保护法里，而巴林的数据保护法框架仍在补齐。受理端的改动更值得盯——取消部长命令前置之后，跨部门电子签名互认的阻力会明显下降，这会直接抬高电子身份凭证的使用频次。",
+        "en": "Handing part of national identity operations to private firms is not new in the Gulf, but Bahrain is doing it by statute rather than pilot, and it moves fee-setting to the minister as well. For local integrators and identity providers, procurement shifts from government build to government delegation, and bid structures, data custody terms and service levels all have to be rewritten. The risk sits on the data side. Delegated operation is not a transfer of data control: the bill keeps system responsibility with the state but does not spell out where biometric data is stored or who holds the keys. Those details usually land in the delegation contract and in data protection law, and Bahrain's framework there is still filling in. The acceptance change deserves more attention: removing the ministerial order makes cross-agency recognition of e-signatures far easier, which raises how often digital identity credentials are actually used.",
+        "es": "Ceder parte de la operación de la identidad nacional a empresas privadas no es nuevo en el Golfo, pero Baréin lo hace por ley y no por piloto, y además traslada la fijación de tasas al ministro. Para integradores y proveedores locales, la compra pasa de construcción estatal a delegación estatal, y hay que reescribir estructuras de oferta, custodia de datos y niveles de servicio. El riesgo está en los datos. Operación delegada no es transferencia del control: el texto mantiene la responsabilidad del Estado pero no precisa dónde se almacenan los datos biométricos ni quién custodia las claves. Esos detalles suelen quedar en el contrato de delegación y en la ley de protección de datos, y el marco de Baréin aún se está completando. El cambio en la aceptación merece más atención: suprimir la orden ministerial facilita el reconocimiento transversal de firmas electrónicas, lo que eleva el uso real de las credenciales de identidad digital."
+      },
+      "confidence": 0.66,
+      "ai": {
+        "model": "deepseek-v4.1-flash",
+        "promptVersion": "identity-editor-2026-11"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Revenue-sharing, data sovereignty concerns arise from Liberia ID card concession",
+      "url": "https://www.biometricupdate.com/202611/revenue-sharing-data-sovereignty-concerns-arise-from-liberia-id-card-concession",
+      "reason": "动作门：众议院审查与议员公开质疑，没有授标、落地、认证或产品化动作；OeSD 特许权签署与预算申请发生在 10 月，已超 72 小时。"
+    },
+    {
+      "title": "Nigeria seeks digital ID project extension to roll out MOSIP-based infrastructure",
+      "url": "https://www.biometricupdate.com/202611/nigeria-seeks-digital-id-project-extension-to-roll-out-mosip-based-infrastructure",
+      "reason": "时效门：事件是世行 10 月 22 日的重组文件与尼方 5 月 8 日的延期申请，报道在 11 月 5 日，事件时间超 72 小时。"
+    },
+    {
+      "title": "Jordan secures $4.2M World Bank grant for Sanad digital ID, government AI",
+      "url": "https://www.biometricupdate.com/202611/jordan-secures-4-2m-world-bank-grant-for-sanad-digital-id-government-ai",
+      "reason": "时效门：赠款协议 10 月 31 日签署，超出 72 小时窗口；且属政府接受赠款，不是向供应商授标。"
+    },
+    {
+      "title": "Ghana: biometric verification law enforcement begins, photocopying Ghana Card banned",
+      "url": "https://chale.news/ghana-card-photocopies-now-illegal-as-biometric-law-quietly-takes-effect",
+      "reason": "已由 11-02 identity（加纳 NIA 执法）处理，同一事件线的执行阶段，重复。"
+    },
+    {
+      "title": "Digi Yatra expands international biometric trials to 7 Indian airports",
+      "url": "https://www.biometricupdate.com/202611/digi-yatra-expands-international-biometric-trials-to-7-indian-airports",
+      "reason": "已由 11-02 identity（印度 Digi Yatra 国际试点）处理，本条是同一试点的机场数量扩张，重复。"
+    },
+    {
+      "title": "Germany to launch digital driver's license in the i-Kfz app in late November",
+      "url": "https://basic-tutorials.com/news/digital-drivers-license-to-launch-in-late-november-on-the-i-kfz-app/",
+      "reason": "时效门：联邦交通部向 FAZ 确认的时间是 11 月 1 日刊出，11 月 4 日为二手转述，事件时间超 72 小时。"
+    },
+    {
+      "title": "UK unveils plan for police facial recognition guardrails and oversight",
+      "url": "https://www.biometricupdate.com/202611/uk-unveils-plan-for-police-facial-recognition-guardrails-and-oversight",
+      "reason": "范围门：执法人脸监控的政策框架，不在护照/身份证/mDL 的载体、签发、分发、受理环节；动作门亦无具体凭证机制。"
+    },
+    {
+      "title": "Fourthline and Veridas complete merger to create a European digital identity group",
+      "url": "https://identityweek.net/fourthline-and-veridas-complete-merger-to-create-a-european-leader-in-bank-grade-digital-identity/",
+      "reason": "动作门：并购不在六类动作内；公告只给合并后叙事，无具体产品参数或客户。"
+    },
+    {
+      "title": "IDEMIA Secure Transactions receives EMVCo certification for PQC payment cards",
+      "url": "https://identityweek.net/idemia-secure-transactions-enables-banks-to-prepare-cards-for-the-quantum-era-with-industry-first-certification/",
+      "reason": "跨行业重复：属支付卡认证，已由 11-06 banking 池处理（EMVCo 后量子证书）。"
+    },
+    {
+      "title": "Saudi Arabia launches new public security digital services on Absher",
+      "url": "https://www.saudi-expatriates.com/2026/11/new-absher-services-launched-saudi-arabia.html",
+      "reason": "范围门/动作门：驾证打印、车牌拍卖、车辆登记等服务上线，不改变凭证载体、签发或核验机制。"
+    },
+    {
+      "title": "Biometric passport in Armenia will cost 28,650 drams",
+      "url": "https://ixbt.am/en/news/2026/11/04/biometriceskii-pasport-v-armenii-oboidetsia-v-28-650-dramov-mvd-obieiasnilo-stoimost.amp.html",
+      "reason": "动作门：费率公布与解释，没有签发系统上线、认证或产品化节点可核；同国 HayPass 相关机制已由 11-02、11-03 两条覆盖。"
+    },
+    {
+      "title": "Trust Stamp signs three-year identity agreement with Nigeria's BLIP",
+      "url": "https://disrupts.disruptsmedia.com/cybersecurity/trust-stamp-wins-nigeria-identity-deal-digital-sovereignty-push",
+      "reason": "无法核到一手源：公司新闻室与 IR 页面均未检索到该公告，仅有聚合站转述，金额也未披露；按不可核对处理。"
+    },
+    {
+      "title": "Beyon Connect and PhazeRo sign MoU on digital identity across the GCC",
+      "url": "https://intlbm.com/2026/11/02/beyon-partners-with-phazero-to-boost-digital-trust-solutions-across-the-gcc/",
+      "reason": "动作门：MoU 仅约定探索，无落地市场、规模或客户，不构成联合部署。"
+    },
+    {
+      "title": "Western Australia live facial recognition trial results: 1.4M faces, 122 arrests",
+      "url": "https://www.biometricupdate.com/202611/western-australia-live-facial-recognition-trial-results1-4m-faces-122-arrests",
+      "reason": "范围门：执法监控试点结果，不落在凭证载体、签发、分发、受理；且 11-05 已按同一口径拦过。"
+    },
+    {
+      "title": "Kantara finds human identity risk models fall short for AI agents",
+      "url": "https://www.biometricupdate.com/202611/kantara-finds-human-identity-risk-models-fall-short-for-ai-agents",
+      "reason": "动作门：研究报告与倡议，无可核的具体物（版本、参数、发证方、金额）。"
+    },
+    {
+      "title": "UNICC reuses biometric identity technology to expand its DPI footprint",
+      "url": "https://www.biometricupdate.com/202611/unicc-reuses-biometric-identity-technology-to-expand-its-dpi-footprint",
+      "reason": "动作门：机构综述与访谈，无新项目、客户或参数。"
+    },
+    {
+      "title": "Côte d'Ivoire picks Vet'Tronic for RFID livestock tagging",
+      "url": "https://www.rfidnews.co.uk/2026/11/04/cote-divoire-picks-french-firm-vettronic-for-rfid-livestock-tagging-as-pilot-of-20000-animals-starts-in-december",
+      "reason": "范围门：动物标识体系，标的物不是人的凭证载体。"
+    },
+    {
+      "title": "Identis at Trustech 2026: enrolment, issuance and verification demo",
+      "url": "https://identisgroup.com/newsroom/2026/11/identis-at-trustech-2026-paris",
+      "reason": "动作门：展会现场演示与产品目录，无客户、无落地项目、无认证结果。"
+    },
+    {
+      "title": "Nedbank gears up for smart ID rollout",
+      "url": "https://www.itweb.co.za/article/nedbank-gears-up-for-smart-id-rollout/lLn147mQN8l7J6Aa",
+      "reason": "动作门：银行网点承接证件受理属分发渠道变化，未说明签发侧或核验侧机制改变；banking 池同条亦已拦。"
+    },
+    {
+      "title": "Entrust partners Banqi Hong Kong on onboarding compliance",
+      "url": "https://fintechnews.hk/41906/payments/entrust-banqi-hong-kong-onboarding-compliance",
+      "reason": "动作门：KYC 能力接入合作，属集成与销售渠道，未披露产品参数或核验机制变化。"
+    },
+    {
+      "title": "DDoS attack on DigiD exposes fragility of Dutch government login backbone",
+      "url": "https://www.biometricupdate.com/202611/ddos-attack-on-digid-exposes-fragility-of-dutch-government-login-backbone",
+      "reason": "范围门：可用性事件，非凭证机制变化；AGENTS.md 明确安全事件类不属本行业收录范围。"
+    },
+    {
+      "title": "Ethereum Foundation launches DPI initiative focused on digital sovereignty",
+      "url": "https://www.biometricupdate.com/202611/ethereum-foundation-launches-dpi-initiative-focused-on-digital-sovereignty",
+      "reason": "动作门：倡议与资助计划，无凭证产品、客户或参数。"
+    },
+    {
+      "title": "Namibia e-ID launch put back again on 3 November pending regulations",
+      "url": "https://corpus.data-landscapers.io/reports/NAM/NAM-status.html",
+      "reason": "动作门：延期本身不构成六类动作，且无新版本、参数或供应商变化；来源为二手国别汇编，未找到纳方一手公告。"
+    },
+    {
+      "title": "Kenya turns to chiefs to trace 557,930 uncollected national ID cards",
+      "url": "https://www.kenyans.co.ke/news/129172-ministry-turns-chiefs-trace-kenyans-yet-collect-their-national-id-cards",
+      "reason": "动作门：行政催领与积压清理，不改变证件载体、签发或核验机制；无产品、版本或认证可核。"
+    },
+    {
+      "title": "India launches Nationwide Digital Life Certificate Campaign 5 with face authentication",
+      "url": "https://www.thenewshour.org/news-plus/pib-news-and-releases/dr-jitendra-singh-to-formally-launch-nationwide-digital-life-certificate-campaign-5",
+      "reason": "动作门：既有 Jeevan Pramaan 人脸核验的年度推广活动，规模数字是覆盖城市数，不是新能力或新机制。"
+    }
+  ],
+  "stats": {
+    "candidates": 58,
+    "written": 6,
+    "skippedByDedup": 5
+  },
+  "finishedAt": "2026-11-05T19:16:26.367Z"
+}

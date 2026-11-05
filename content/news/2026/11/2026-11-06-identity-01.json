@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-06-identity-04",
+  "slug": "hashid-wallet-zero-knowledge-age-proof",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "mobile-id",
+    "pki",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-06T04:18:38+08:00",
+  "ingestedAt": "2026-11-06T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/hashid-launches-digital-wallet-with-privacy-first-age-checks-and-encrypted-messaging",
+      "lang": "en",
+      "publishedAt": "2026-11-05T11:18:00-05:00"
+    }
+  ],
+  "title": {
+    "zh": "hashID 用零知识证明做年龄核验，钱包按 OpenID 规范收凭证",
+    "en": "hashID ships a wallet that proves age with zero knowledge",
+    "es": "hashID lanza un monedero que prueba la edad con conocimiento cero"
+  },
+  "summary": {
+    "zh": "西班牙 hashID 上线 Apple 端应用：用 NFC 读一次身份证或护照完成注册，之后以零知识证明回答「是否满 18 岁」，不披露出生日期。钱包支持 OpenID4VCI、OpenID4VP、SD-JWT VC 与 ISO/IEC 18013-5（mDL），已通过 OpenID Foundation 一致性测试，正在申请钱包角色认证。公司称 EUDI Unfold 演示中在 Apple Watch 上完成核验耗时 2.4 秒，目标单价低于 1 欧分。",
+    "en": "Spain's hashID has launched an Apple-only app that onboards with one NFC read of an ID card or passport, then answers over-18 queries with zero-knowledge proofs that reveal no date of birth. The wallet supports OpenID4VCI, OpenID4VP, SD-JWT VC and ISO/IEC 18013-5 for mDLs, has passed OpenID Foundation conformance testing and is applying for certification in the wallet role. hashID says a demo at EUDI Unfold completed an age check on an Apple Watch in 2.4 seconds and targets under one euro cent per check.",
+    "es": "La española hashID lanzó una app solo para Apple que se registra con una lectura NFC del documento o pasaporte y luego responde a la pregunta de si el usuario es mayor de 18 con pruebas de conocimiento cero que no revelan la fecha de nacimiento. El monedero admite OpenID4VCI, OpenID4VP, SD-JWT VC e ISO/IEC 18013-5 para mDL, superó las pruebas de conformidad de la OpenID Foundation y solicita certificación en el rol de monedero. hashID afirma que en una demo en EUDI Unfold la comprobación en un Apple Watch tardó 2,4 segundos y que apunta a menos de un céntimo de euro por consulta."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "注册只做一次：把身份证或护照贴在手机背面，NFC 读出芯片数据，之后的应用内交互用设备 PIN 或本机生物识别解锁。年龄核验走零知识证明，验证方拿到的是「已满 18」的是或否，不是出生日期。凭证格式覆盖 OpenID4VCI 与 OpenID4VP 的签发、出示，SD-JWT VC 与 ISO/IEC 18013-5 的 mDL。",
+        "en": "Enrolment happens once: hold an ID card or passport to the back of the phone, read the chip over NFC, and later unlock in-app actions with the device PIN or local biometrics. Age checks run as zero-knowledge proofs, so a verifier receives a yes or no on being over 18, not a date of birth. Credential formats cover issuance and presentation over OpenID4VCI and OpenID4VP, plus SD-JWT VC and ISO/IEC 18013-5 for mDLs.",
+        "es": "El alta ocurre una vez: se acerca el documento o el pasaporte al dorso del teléfono, se lee el chip por NFC y luego las acciones en la app se desbloquean con el PIN del dispositivo o la biometría local. La comprobación de edad usa pruebas de conocimiento cero, así que el verificador recibe un sí o un no sobre la mayoría de edad, no la fecha de nacimiento. Los formatos cubren emisión y presentación con OpenID4VCI y OpenID4VP, además de SD-JWT VC e ISO/IEC 18013-5 para mDL."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "一致性测试过了，认证方案还没定稿",
+        "en": "Conformance passed, certification still unwritten",
+        "es": "La conformidad está, la certificación no"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "hashID 的说法值得记下来：欧盟钱包的认证方案尚未定稿，今天没有钱包能按它取证；ISO 类证书证明不了协议实现是否正确，那要靠专门的一致性测试。公司已通过 OpenID Foundation 的一致性测试，正在申请钱包（存储）角色认证，验证方与签发方角色随后再申请。这句话点出了 2026 年欧盟钱包市场的真实状态——规范先行，合格评定落后。",
+        "en": "hashID's own framing is worth recording: the EU-wide certification scheme for wallets is not final, so no wallet can be certified against it today, and ISO certificates do not show whether a wallet speaks the protocols correctly. That is what conformance testing is for. The company has passed OpenID Foundation conformance and is applying for the wallet, or storage, role, with verifier and issuer roles to follow. That captures the state of the EU wallet market in 2026: specifications first, conformity assessment behind.",
+        "es": "El propio planteamiento de hashID merece registrarse: el esquema europeo de certificación de monederos no está cerrado, así que hoy ningún monedero puede certificarse contra él, y los certificados ISO no demuestran si un monedero habla bien los protocolos. Para eso están las pruebas de conformidad. La empresa superó la conformidad de la OpenID Foundation y solicita el rol de monedero o almacenamiento, con los roles de verificador y emisor después. Eso retrata el mercado europeo en 2026: primero las especificaciones, la evaluación de conformidad detrás."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "落地的麻烦在属性本身。「是否满 18 岁」在 EU PID rulebook 里是可选属性，mDoc 与 SD-JWT 里叫法不同，至少一个成员国把它放在本国命名空间而不是欧盟公共命名空间，欧盟委员会自己的年龄核验应用又用另一套证明类型。结果是验证方要逐国适配。公司预计多数成员国在 12 月 24 日前拿不出可用钱包，第一年的主题会是信任列表、注册与互操作，而不是使用量。",
+        "en": "The practical trouble is the attribute itself. Over-18 is optional under the EU PID rulebook, it is named differently in mDoc and in SD-JWT, at least one large member state keeps it in a national namespace rather than the common EU one, and the Commission's own age-verification app uses a separate attestation type. A verifier therefore adapts country by country. hashID expects most member states to miss the December 24 deadline for a working wallet, and predicts the first year will be about trust lists, registration and interoperability rather than usage.",
+        "es": "El problema práctico es el atributo. Ser mayor de 18 es opcional en el reglamento PID de la UE, se nombra distinto en mDoc y en SD-JWT, al menos un Estado miembro grande lo mantiene en un espacio de nombres nacional y no en el común europeo, y la app de verificación de edad de la Comisión usa otro tipo de atestación. El verificador acaba adaptándose país por país. hashID prevé que la mayoría de los Estados miembros no llegue el 24 de diciembre con un monedero operativo y que el primer año trate de listas de confianza, registro e interoperabilidad más que de uso."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "年龄核验正在从「上传证件照加人脸」变成「出示一个布尔值」，这个转变对做受理端的人影响最直接：接入方不再保存出生日期，也就少了一大块数据责任，但要多做一件事——按每个成员国的命名空间与证明类型分别适配。对凭证发行方，零知识证明把「证明什么」与「证明给谁」解耦，同一张身份证可以只回答年龄、不回答姓名，这会改变依赖方对最小必要数据的实现方式。商业上的看点在于价格：公司把目标定在低于 1 欧分一次，意味着判定性核验接近零边际成本，靠卖单项核验收费的空间会被压缩，价值向钱包托管、信任列表接入与合规审计转移。前提是钱包真能用起来，而 12 月 24 日这个节点大概率会有一批成员国交不出货。",
+    "en": "Age checks are shifting from uploading a document and a selfie to presenting a boolean, and that lands hardest on the accepting side. A relying party stops storing dates of birth, shedding a chunk of data liability, but takes on per-country adaptation of namespaces and attestation types. For issuers, zero-knowledge proofs decouple what is proven from whom it is proven to: the same ID card can answer an age question without giving a name, which changes how relying parties implement data minimisation. The commercial signal is price. hashID targets under one euro cent per check, which puts deterministic checks close to zero marginal cost and squeezes anyone charging per age check. Value moves to wallet custody, trust-list onboarding and compliance audit. All of it depends on wallets actually working, and the December 24 date will likely be missed by a batch of member states.",
+    "es": "La verificación de edad pasa de subir un documento y una selfi a presentar un valor booleano, y eso golpea sobre todo al lado que acepta. Quien verifica deja de almacenar fechas de nacimiento, con lo que reduce su responsabilidad sobre datos, pero asume adaptar espacios de nombres y tipos de atestación país por país. Para los emisores, las pruebas de conocimiento cero separan qué se prueba de a quién se prueba: el mismo documento puede responder a la edad sin dar el nombre, lo que cambia cómo los verificadores aplican la minimización de datos. La señal comercial es el precio. hashID apunta a menos de un céntimo de euro por consulta, lo que acerca a cero el coste marginal de la comprobación determinista y presiona a quien cobra por comprobar edad. El valor se desplaza a la custodia del monedero, el alta en listas de confianza y la auditoría de cumplimiento. Todo depende de que los monederos funcionen, y el 24 de diciembre se lo perderá más de un Estado miembro."
+  },
+  "confidence": 0.7,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

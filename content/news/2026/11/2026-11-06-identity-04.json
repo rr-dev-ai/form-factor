@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-06-identity-03",
+  "slug": "veriff-presence-verification-coercion-detection",
+  "industry": "identity",
+  "region": "global",
+  "regions": [],
+  "tags": [
+    "liveness",
+    "biometrics",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-06T04:18:38+08:00",
+  "ingestedAt": "2026-11-06T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/veriff-adds-contextual-fraud-detection-to-biometric-verification",
+      "lang": "en",
+      "publishedAt": "2026-11-05T11:19:00-05:00"
+    },
+    {
+      "name": "Veriff",
+      "url": "https://www.veriff.com/product/presence-verification",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "Veriff 上线不比对证件的核验：看镜头前有没有人指挥",
+    "en": "Veriff launches verification without a document, watching for coaching",
+    "es": "Veriff lanza una verificación sin documento que detecta si alguien dirige al usuario"
+  },
+  "summary": {
+    "zh": "Veriff 推出 Presence Verification：用户录一段自拍视频，不提交证件，也不与已登记照片比对。系统判断活体、注入视频、深度伪造、屏幕重放与 3D 面具，并结合设备与网络信号识别模拟器与自动化，决策引擎称使用逾 1000 个风险信号。可选的反胁迫档位分析音视频，支持 98 种语言；公司称识别胁迫准确率超过 98%，社会工程欺诈检出提升 84%，但未披露测试方法。",
+    "en": "Veriff has launched Presence Verification: a user records a short selfie video, submits no document and is not matched against an enrolled photo. The system checks liveness and hunts injected video, deepfakes, screen replays and 3D masks, while device and network signals flag emulators; the decision engine is said to use over 1,000 risk signals. An optional coercion tier analyses audio and video in 98 languages. Veriff claims above 98 percent accuracy on coercion and an 84 percent gain in social-engineering detection, without publishing the method.",
+    "es": "Veriff lanzó Presence Verification: el usuario graba un vídeo selfi breve, sin documento y sin comparación con una foto enrolada. El sistema comprueba la prueba de vida y busca vídeo inyectado, deepfakes, repeticiones de pantalla y máscaras 3D, mientras las señales de dispositivo y red detectan emuladores; el motor de decisión usaría más de 1.000 señales. Un nivel opcional de coacción analiza audio y vídeo en 98 idiomas. Veriff afirma más del 98 por ciento de precisión en coacción y una mejora del 84 por ciento en ingeniería social, sin publicar el método."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "流程被砍到只剩一段视频：用户对着镜头录几秒，不拍证件，也不和库里的照片做一比一。系统判断的是三件事——镜头前是不是活人、画面有没有被注入或合成、这个人是不是在被别人指挥。前两项靠被动活体加视频分析，第三项靠可选的音视频分析，公司称支持 98 种语言。集成方式仍是 iOS 与 Android SDK，会话通过 REST API 发起，结果走 webhook 回传。",
+        "en": "The flow is cut down to one video: a few seconds facing the camera, no document capture, no one-to-one match against an enrolled photo. Three questions are being answered: is there a live person, has the video been injected or synthesised, and is someone else directing the person on camera. The first two come from passive liveness plus video analysis; the third from an optional audio-video tier that Veriff says supports 98 languages. Integration stays conventional: iOS and Android SDKs, sessions opened over REST, decisions returned by webhook.",
+        "es": "El flujo se reduce a un vídeo: unos segundos ante la cámara, sin capturar documento y sin comparación uno a uno contra una foto enrolada. Se responden tres preguntas: si hay una persona viva, si el vídeo fue inyectado o sintetizado y si alguien dirige a quien está en cámara. Las dos primeras salen de prueba de vida pasiva más análisis de vídeo; la tercera, de un nivel opcional de audio y vídeo que Veriff dice cubrir 98 idiomas. La integración es convencional: SDK para iOS y Android, sesiones por REST y decisiones por webhook."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "没有证件锚点，结论只能回答一半",
+        "en": "Without a document anchor, the answer is only half",
+        "es": "Sin documento de anclaje, la respuesta es solo la mitad"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "少了证件与既有照片，核验结论不再声明「这个人是登记过的那个人」，只声明「此刻镜头前是真人且未被胁迫」。这让它适合放在注册、改密、改收款账户这类动作之前做二次判断，而不适合替代首次开户的身份证明。Veriff 给的落点是金融机构识别被诈骗分子引导的贷款申请、市场与交友平台在敏感操作前的复核，以及 AI 代理参与的交易里确认背后有人。",
+        "en": "Without a document and an enrolled photo, the result no longer asserts that this is the person on record. It asserts that a live human is present, uncoerced, now. That makes it useful as a second check before registration, password reset or a change of payout account, and unsuitable as a replacement for identity proofing at first onboarding. Veriff points at banks spotting scam-driven loan applications, marketplaces and dating apps re-checking before sensitive actions, and agentic commerce where a human behind the transaction has to be confirmed.",
+        "es": "Sin documento ni foto enrolada, el resultado ya no afirma que esta sea la persona registrada. Afirma que hay una persona viva, no coaccionada, ahora. Eso lo hace útil como segunda comprobación antes de un registro, un cambio de contraseña o un cambio de cuenta de abono, e inadecuado como sustituto de la prueba de identidad en el alta inicial. Veriff apunta a bancos que detectan solicitudes de crédito dirigidas por estafadores, marketplaces y apps de citas que reverifican antes de acciones sensibles, y comercio con agentes donde hay que confirmar que hay alguien detrás."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "两个数字要打折看：98% 的胁迫识别准确率与 84% 的社会工程检出提升，公司没有公布测试集、样本构成与判定阈值。可核的是机制与接口——风险信号数量、语言覆盖、SDK 与 webhook 的接入方式，以及这条产品与该公司既有证件核验线并行而非合并。",
+        "en": "Two figures need a discount: the 98 percent coercion accuracy and the 84 percent improvement in social-engineering detection come without the test set, sample composition or decision threshold. What can be checked is the mechanism and the interface: signal count, language coverage, SDK and webhook integration, and the fact that this runs alongside Veriff's document-based line rather than replacing it.",
+        "es": "Dos cifras merecen descuento: el 98 por ciento de precisión en coacción y la mejora del 84 por ciento en detección de ingeniería social llegan sin conjunto de prueba, composición de muestra ni umbral de decisión. Lo verificable es el mecanismo y la interfaz: número de señales, cobertura de idiomas, integración por SDK y webhook, y el hecho de que esta línea convive con la de verificación documental en lugar de sustituirla."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "身份证件这条链路过去假定「申请人独自面对设备」。诈骗园区与代过人脸把这条假定的成本推高，Veriff 的做法是把证件从流程里拿掉，只保留现场性与自主性判断。对集成商，这意味着核验流程可以拆成两段：证件段负责「你是谁」，现场段负责「此刻是不是你本人在操作」。拆开之后，风控策略可以按动作风险配置，不必每次开户都跑全量。风险也在同一处：没有证件锚点的结论无法用于满足 KYC 的记录要求，金融机构不能拿它当开户依据，只能当欺诈信号。这类产品的真正门槛不是算法，而是能否把「胁迫检测」的解释写进可审计的决策记录——监管问起来，98% 这个数字需要方法论支撑，否则只是营销。",
+    "en": "Identity chains have long assumed the applicant faces the device alone. Fraud compounds and paid face-passing have raised the cost of that assumption, and Veriff's answer is to remove the document and keep only presence and autonomy. For integrators this splits verification into two stages: a document stage answering who you are, and a presence stage answering whether you are the one acting now. Split that way, risk policy can be tuned per action instead of running the full flow at every onboarding. The risk sits in the same place: a result with no document anchor cannot satisfy KYC record-keeping, so a bank can use it as a fraud signal but not as the basis for opening an account. The real barrier for this class of product is not the model but whether coercion detection can be written into an auditable decision record. When a supervisor asks, 98 percent needs a method behind it or it is marketing.",
+    "es": "Las cadenas de identidad asumieron durante años que el solicitante está solo frente al dispositivo. El fraude organizado y el paso de rostro pagado encarecieron ese supuesto, y la respuesta de Veriff es quitar el documento y conservar solo presencia y autonomía. Para los integradores esto parte la verificación en dos etapas: una documental que responde quién eres y otra de presencia que responde si eres tú quien actúa ahora. Así la política de riesgo se ajusta por acción en lugar de ejecutar el flujo completo en cada alta. El riesgo está en el mismo punto: un resultado sin anclaje documental no satisface las obligaciones de registro KYC, de modo que un banco puede usarlo como señal de fraude pero no como base para abrir una cuenta. La barrera real de esta familia de productos no es el modelo, sino si la detección de coacción puede plasmarse en un registro de decisión auditable. Cuando un supervisor pregunte, el 98 por ciento necesita un método detrás o es marketing."
+  },
+  "confidence": 0.75,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

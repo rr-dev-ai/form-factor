@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-06-banking-07",
+  "slug": "google-pay-nigeria-mastercard-interswitch",
+  "industry": "banking",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "tokenization",
+    "digital-wallet",
+    "acquiring"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-06T04:18:38+08:00",
+  "ingestedAt": "2026-11-06T02:35:08+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "TechMoran",
+      "url": "https://techmoran.com/2026/11/03/mastercard-interswitch-bring-google-pay-to-nigeria/",
+      "lang": "en",
+      "publishedAt": "2026-11-03T02:16:52+03:00"
+    }
+  ],
+  "title": {
+    "zh": "Google Pay 落地尼日利亚，Interswitch 承接发卡行接入",
+    "en": "Google Pay goes live in Nigeria, with Interswitch wiring the issuers",
+    "es": "Google Pay llega a Nigeria con Interswitch conectando a los emisores"
+  },
+  "summary": {
+    "zh": "11 月 3 日，Mastercard 与 Interswitch 宣布尼日利亚持卡人可在 Android 手机上用 Google Pay 非接触付款，卡号由 MDES 令牌替换。Interswitch 负责把多家发卡行接入令牌与处理系统。双方未公布银行名单，Verve 与 Visa 卡暂不支持。",
+    "en": "Mastercard and Interswitch said on 3 November that cardholders in Nigeria can now add Mastercard cards to Google Pay and tap an Android phone at contactless terminals, with tokens replacing the card number. Interswitch built the issuer connectivity into the tokenisation and processing systems. No banks were named, and Verve and Visa cards are not covered.",
+    "es": "Mastercard e Interswitch anunciaron el 3 de noviembre que los titulares en Nigeria ya pueden añadir tarjetas Mastercard a Google Pay y pagar acercando un móvil Android a terminales sin contacto, con tokens en lugar del número de tarjeta. Interswitch construyó la conectividad de emisores hacia los sistemas de tokenización y procesamiento. No se nombraron bancos y las tarjetas Verve y Visa quedan fuera."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "本地转接网负责接线",
+        "en": "A domestic switch does the wiring",
+        "es": "Un conmutador local hace el cableado"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 3 日，Mastercard 与 Interswitch 表示，尼日利亚符合条件的 Mastercard 卡持卡人可以把卡加入 Google Pay，在支持非接触支付的终端上用 Android 手机付款。凭证由 Mastercard 的令牌化技术处理，卡号不进入设备。Interswitch 支付、转接与处理业务总经理 Akeem Lawal 说，他们搭的是把发卡行连到令牌与处理系统所需的那层接入。",
+        "en": "Mastercard and Interswitch said on 3 November that eligible Mastercard cardholders in Nigeria can add their cards to Google Pay and pay with an Android phone at terminals that accept contactless payments. Credentials run through Mastercard's tokenisation, so the card number does not sit on the device. Akeem Lawal, Interswitch's managing director for payment, switching and processing, said the company built the issuer connectivity into the tokenisation and processing systems the wallet needs.",
+        "es": "Mastercard e Interswitch dijeron el 3 de noviembre que los titulares elegibles en Nigeria pueden añadir sus tarjetas a Google Pay y pagar con un móvil Android en terminales que acepten pago sin contacto. Las credenciales pasan por la tokenización de Mastercard, de modo que el número de tarjeta no reside en el dispositivo. Akeem Lawal, director gerente de pagos, conmutación y procesamiento de Interswitch, dijo que la empresa construyó la conectividad de emisores hacia los sistemas de tokenización y procesamiento que la cartera requiere."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "覆盖范围有明显边界。这次只支持 Mastercard 卡，Verve 与 Visa 卡不在其中；iPhone 用户要用苹果自己的钱包，公告没有涉及。非接触受理是前提，双方没有说明这样的终端铺了多少。Google 西非区负责人 Olumide Balagon 在发言里把产品称作 Google Wallet，公告其余部分写作 Google Pay。",
+        "en": "The coverage has clear edges. Only Mastercard cards are supported; Verve and Visa cards are not, and iPhone users would need Apple's own wallet, which the announcement does not address. Contactless acceptance is a prerequisite, and neither company said how widely those terminals are deployed. Google's West Africa country director, Olumide Balagon, called the product Google Wallet in his remarks, while the rest of the announcement says Google Pay.",
+        "es": "La cobertura tiene bordes claros. Solo se admiten tarjetas Mastercard; las Verve y Visa quedan fuera, y los usuarios de iPhone necesitarían la cartera de Apple, algo que el anuncio no aborda. La aceptación sin contacto es un requisito previo y ninguna de las dos empresas dijo cuán extendidos están esos terminales. Olumide Balagon, director de Google para África Occidental, llamó al producto Google Wallet en sus declaraciones, mientras el resto del anuncio dice Google Pay."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "Verve 称在尼日利亚发卡超过 7000 万张，15 个月新增 2000 万张，口径是累计发卡量，不是活跃卡",
+          "en": "Verve says it has issued more than 70 million cards in Nigeria, 20 million of them in 15 months; the figure counts cards issued, not cards in active use",
+          "es": "Verve afirma haber emitido más de 70 millones de tarjetas en Nigeria, 20 millones en 15 meses; la cifra cuenta tarjetas emitidas, no tarjetas activas"
+        },
+        {
+          "zh": "尼日利亚媒体引用的 Statista 数据显示，Verve 约占 54% 持卡人，Mastercard 约 30%，Visa 约 18%；份额有重叠，因为不少人持有多张卡",
+          "en": "Statista data cited by Nigerian press puts Verve at about 54% of cardholders, Mastercard at about 30% and Visa at about 18%; the shares overlap because many people hold more than one card",
+          "es": "Datos de Statista citados por la prensa nigeriana sitúan a Verve en cerca del 54% de los titulares, Mastercard en torno al 30% y Visa alrededor del 18%; los porcentajes se solapan porque mucha gente tiene más de una tarjeta"
+        },
+        {
+          "zh": "两家公司引用的尼日利亚银行间结算系统数据显示，2026 年数字支付达 112 亿笔，总额超过 1070 万亿奈拉",
+          "en": "Nigeria Inter-Bank Settlement System data cited by the two companies shows 11.2 billion digital payment transactions in 2026, worth more than 1.07 quadrillion naira",
+          "es": "Datos del sistema interbancario NIBSS citados por las dos empresas muestran 11.200 millones de transacciones de pago digital en 2026, por más de 1,07 cuatrillones de nairas"
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对非洲最大的支付市场之一，这条的关键不是「多了一个钱包」，而是「谁来接发卡行」。Interswitch 同时运营 Verve 品牌与转接处理业务，这次它替 Mastercard 把发卡行接进令牌与处理层，本地转接网成了国际卡组织落地的施工方。这也解释了首发为何只覆盖 Mastercard 卡：Verve 自己的七千多万张卡要走另一条路径。对做收单与终端的人，短期没有新接口，非接触终端本来就受理；真正的变量是非接触受理的密度，以及监管与卡组织会不会给出按卡种拆分的更新数据。对发卡行，接入是低成本补齐安卓侧，代价是把令牌生命周期交给卡组织，iPhone 侧仍然空着。",
+    "en": "For one of Africa's largest payments markets, the question is not that another wallet arrived but who wires the issuers into it. Interswitch runs both the Verve brand and switching and processing, and here it connected issuers to Mastercard's tokenisation and processing layer, making a domestic switch the contractor for an international scheme's launch. That also explains why only Mastercard cards are covered: Verve's own 70 million-plus cards take a different path. For acquirers and terminal vendors there is no new interface, since contactless terminals already accept these payments; the real variables are how dense contactless acceptance actually is, and whether regulators and schemes publish a fresher breakdown by card type. For issuers, joining is a cheap way to cover the Android side, at the cost of handing token lifecycle to the scheme, with the iPhone side still empty.",
+    "es": "Para uno de los mayores mercados de pago de África, la cuestión no es que haya llegado otra cartera, sino quién conecta a los emisores. Interswitch opera la marca Verve y también la conmutación y el procesamiento, y aquí conectó a los emisores con la capa de tokenización y procesamiento de Mastercard, de modo que un conmutador local ejecuta el lanzamiento de un esquema internacional. Eso explica también que solo se cubran tarjetas Mastercard: los más de 70 millones de tarjetas Verve van por otro camino. Para adquirentes y proveedores de terminales no hay interfaz nueva, porque los terminales sin contacto ya aceptan estos pagos; las variables reales son la densidad real de aceptación sin contacto y si reguladores y esquemas publican un desglose más reciente por tipo de tarjeta. Para los emisores, sumarse es una forma barata de cubrir el lado Android, a cambio de ceder al esquema el ciclo de vida del token, con el lado iPhone todavía vacío."
+  },
+  "confidence": 0.7,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

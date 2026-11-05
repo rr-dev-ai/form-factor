@@ -1,0 +1,84 @@
+{
+  "id": "2026-11-06-identity-01",
+  "slug": "paravision-state-department-photo-identity-suite",
+  "industry": "identity",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "passport",
+    "biometrics",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-06T04:18:38+08:00",
+  "ingestedAt": "2026-11-06T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Paravision",
+      "url": "https://www.paravision.ai/news/paravision-awarded-u-s-department-of-state-contract-to-support-photo-and-identity-suite",
+      "lang": "en",
+      "publishedAt": "2026-11-04T00:00:00-08:00"
+    },
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/paravision-confirms-passport-photo-deepfake-detection-role-in-state-department-contract",
+      "lang": "en",
+      "publishedAt": "2026-11-05T11:35:00-05:00"
+    }
+  ],
+  "title": {
+    "zh": "美国国务院把护照照片核验交给 Paravision",
+    "en": "US State Department hands passport photo checks to Paravision",
+    "es": "El Departamento de Estado asigna a Paravision la verificación de fotos"
+  },
+  "summary": {
+    "zh": "国务院外交技术局把 Photo and Identity Suite 的生物特征采集与分析交给 Paravision，用于护照与签证申请。任务有两项：确认照片符合国际标准，以及识别被篡改的图像，公告点名了 AI 生成图。合同于 11 月 4 日公布，金额、期限与覆盖的使领馆数量均未披露。",
+    "en": "The State Department's Bureau of Diplomatic Technology has awarded Paravision a contract to supply biometric capture and analysis for its Photo and Identity Suite, used in passport and visa applications. The work has two parts: confirming photos meet international standards, and detecting manipulated images, with AI-generated pictures named explicitly. The award was announced on November 4; value, term and the number of posts covered were not disclosed.",
+    "es": "La Oficina de Tecnología Diplomática del Departamento de Estado adjudicó a Paravision el suministro de captura y análisis biométrico para su Photo and Identity Suite, usada en solicitudes de pasaporte y visado. El trabajo tiene dos partes: confirmar que las fotos cumplen estándares internacionales y detectar imágenes manipuladas, con mención expresa a las generadas por IA. El contrato se anunció el 4 de noviembre; no se divulgaron importe, plazo ni número de oficinas cubiertas."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "国务院外交技术局的 Photo and Identity Suite 服务于护照与签证申请，负责评估申请人提交的照片与身份信息。Paravision 承担其中的生物特征采集与分析，判定照片能否作为签发依据。公告只说这是「合同」，没有给金额、合同期限，也没有说覆盖多少使领馆、是否替换现有承包商、接入哪套后台系统。",
+        "en": "The Photo and Identity Suite sits inside the Bureau of Diplomatic Technology and assesses the photographs and identity information applicants submit for passports and visas. Paravision supplies the biometric capture and analysis that decides whether a photograph can support issuance. The announcement calls it a contract and stops there: no value, no term, no count of posts covered, no word on whether it replaces an incumbent or which back-end it feeds.",
+        "es": "La Photo and Identity Suite depende de la Oficina de Tecnología Diplomática y evalúa las fotografías y los datos de identidad que los solicitantes presentan para pasaporte o visado. Paravision aporta la captura y el análisis biométrico que decide si una fotografía puede sustentar la emisión. El anuncio lo llama contrato y no añade nada más: ni importe, ni plazo, ni número de oficinas, ni si sustituye a un proveedor previo o a qué sistema alimenta."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "判的是照片，不是持照人",
+        "en": "The photo is the subject, not the holder",
+        "es": "El objeto es la foto, no el titular"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这套能力不碰现场比对，也不接边境闸机。它回答的是另一个问题：这张脸能不能被检测、图像有没有被合成或局部替换。Paravision 列出的选型依据是三处第三方评测——国土安全部的远程身份验证项目 RIVR、NIST 的人脸识别评测 FRTE，以及 iBeta 与 Ingenium 的活体攻击检测认证。对证件签发方来说，照片环节过去靠人工目检和格式规则，现在多了一道模型判定。",
+        "en": "This is not a live matching capability, and it does not touch border gates. It answers a different question: can a face be detected at all, and has the image been synthesised or partly replaced. Paravision cites three third-party evaluations as the basis for selection: Homeland Security's Remote Identity Validation Rally, NIST's face recognition vendor tests, and presentation-attack testing with iBeta and Ingenium. For an issuing authority, the photo step used to mean manual inspection plus format rules; it now includes a model decision.",
+        "es": "No es una capacidad de comparación en vivo ni toca los controles fronterizos. Responde a otra pregunta: si un rostro puede detectarse y si la imagen fue sintetizada o sustituida en parte. Paravision cita tres evaluaciones independientes como base de la adjudicación: el Remote Identity Validation Rally del Departamento de Seguridad Nacional, las pruebas FRTE del NIST y las pruebas de ataque de presentación con iBeta e Ingenium. Para una autoridad emisora, el paso de la fotografía solía resolverse con inspección manual y reglas de formato; ahora incluye una decisión de modelo."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "同一周发布的另一条公告提供了语境：Biometric Update 的报道确认这份合同包含照片核验与「被操纵图像」检测两项职责。也就是说，承包商不是单纯提供算法许可证，而是承接了签发前置环节的一段判断权。",
+        "en": "A second report the next day adds context: Biometric Update confirms the contract covers both photo verification and detection of manipulated images. The contractor is therefore not just licensing an algorithm; it holds a slice of judgement that sits in front of issuance.",
+        "es": "Un segundo reporte al día siguiente añade contexto: Biometric Update confirma que el contrato cubre tanto la verificación de la fotografía como la detección de imágenes manipuladas. El contratista no licencia solo un algoritmo: asume una parte del juicio previo a la emisión."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对证件签发设备的供应商，这条合同把竞争点从硬件挪到了判定逻辑。过去护照照片环节的采购对象是采集设备与格式校验软件，现在多了一层「这张图是不是生成的」模型能力，而且由国务院这样的标杆签发方先落地。做证照拍摄终端、自助受理机的集成商要面对一个新接口：照片在提交前就可能被模型拒收，拒收理由需要可解释，否则柜台无法向申请人说明。另一端是责任分配——模型判错导致合法申请被拒，责任在承包商还是签发机关，合同没有公开，这类条款通常决定后续项目的报价结构。技术上还要看它与 ICAO Doc 9303 的照片规范如何对齐：规范管的是尺寸、光照、姿态，管不了合成图，两套规则需要并置而不是替代。",
+    "en": "For suppliers of issuance equipment, this contract moves the competitive question from hardware to decision logic. Passport photo procurement used to buy capture devices and format-checking software; it now also buys a model that judges whether an image was generated, and a benchmark issuer has adopted it first. Integrators building capture terminals and self-service counters face a new interface: a photo can be rejected before submission, and the reason has to be explainable or the counter cannot tell an applicant why. The other half is liability. If a model wrongly rejects a legitimate application, the cost falls on the contractor or the issuing authority, and those clauses, unpublished here, usually shape the pricing of follow-on projects. Technically the open question is how this sits alongside ICAO Doc 9303 photo rules, which govern size, lighting and pose but say nothing about synthetic images. The two regimes have to run side by side, not replace each other.",
+    "es": "Para los proveedores de equipos de emisión, este contrato desplaza la competencia del hardware a la lógica de decisión. La compra de fotografías para pasaporte solía incluir captura y software de validación de formato; ahora incorpora un modelo que juzga si la imagen fue generada, y una autoridad emisora de referencia lo adopta primero. Los integradores de terminales de captura y mostradores de autoservicio se enfrentan a una interfaz nueva: una foto puede rechazarse antes de enviarse y el motivo debe ser explicable, o el mostrador no podrá justificarlo ante el solicitante. La otra mitad es la responsabilidad: si el modelo rechaza un caso legítimo, el coste recae en el contratista o en la autoridad, y esas cláusulas, no publicadas aquí, suelen determinar el precio de los proyectos siguientes. En lo técnico queda abierto cómo convive esto con las reglas fotográficas del Doc 9303 de la OACI, que regulan tamaño, iluminación y pose pero nada dicen de imágenes sintéticas. Ambos regímenes deben convivir, no sustituirse."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-06-banking-09",
+  "slug": "uzbekistan-apple-pay-google-pay-data-law",
+  "industry": "banking",
+  "region": "cis",
+  "regions": [],
+  "tags": [
+    "digital-wallet",
+    "tokenization",
+    "issuing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-06T04:18:38+08:00",
+  "ingestedAt": "2026-11-06T02:35:08+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Payments Industry Intelligence",
+      "url": "https://paymentsindustryintelligence.com/apple-pay-and-google-pay-launch-in-uzbekistan/",
+      "lang": "en",
+      "publishedAt": "2026-11-03T17:04:44Z"
+    }
+  ],
+  "title": {
+    "zh": "Apple Pay 与 Google Pay 进乌兹别克斯坦，数据法先松绑",
+    "en": "Apple Pay and Google Pay reach Uzbekistan after a data law rewrite",
+    "es": "Apple Pay y Google Pay llegan a Uzbekistán tras reformar la ley de datos"
+  },
+  "summary": {
+    "zh": "11 月 3 日消息，Apple Pay 与 Google Pay 在乌兹别克斯坦上线，本地发行的 Visa 与 Mastercard 卡可加入。Apple Pay 首批支持国家银行、Kapitalbank、TBC Bank、Ipak Yuli Bank 等本地银行。央行正推进让 Uzcard 与 HUMO 两个本地网络的卡也能加入，未给时间表。",
+    "en": "Apple Pay and Google Pay went live in Uzbekistan, according to reports on 3 November, with locally issued Visa and Mastercard cards eligible. Apple Pay's first group includes the National Bank of Uzbekistan, Kapitalbank, TBC Bank and Ipak Yuli Bank. The central bank is working to extend support to cards on the domestic Uzcard and HUMO networks, without a timetable.",
+    "es": "Apple Pay y Google Pay se lanzaron en Uzbekistán, según informaciones del 3 de noviembre, con tarjetas Visa y Mastercard emitidas localmente. El primer grupo de Apple Pay incluye al Banco Nacional de Uzbekistán, Kapitalbank, TBC Bank e Ipak Yuli Bank. El banco central trabaja para extender el soporte a las tarjetas de las redes locales Uzcard y HUMO, sin calendario."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "先改数据法，再开钱包",
+        "en": "Rewrite the data law, then open the wallet",
+        "es": "Primero la ley de datos, después la cartera"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 3 日消息，Apple Pay 与 Google Pay 已在乌兹别克斯坦上线。符合条件的本地发行卡可以加入两个钱包，在受理非接触支付的商户用手机或手表付款。Apple Pay 首批支持的本地机构包括乌兹别克斯坦国家银行、Kapitalbank、TBC Bank 与 Ipak Yuli Bank，卡种为 Visa 与 Mastercard；Google Pay 亦有多家本地银行支持。",
+        "en": "Apple Pay and Google Pay are now live in Uzbekistan, according to reports on 3 November. Eligible locally issued cards can be loaded into either wallet and used to pay at merchants that accept contactless payments. Apple Pay's first group of local institutions includes the National Bank of Uzbekistan, Kapitalbank, TBC Bank and Ipak Yuli Bank, covering Visa and Mastercard cards; Google Pay launched with support from multiple domestic banks as well.",
+        "es": "Apple Pay y Google Pay ya operan en Uzbekistán, según informaciones del 3 de noviembre. Las tarjetas emitidas localmente que cumplan los requisitos pueden cargarse en cualquiera de las dos carteras y usarse en comercios con pago sin contacto. El primer grupo de entidades de Apple Pay incluye al Banco Nacional de Uzbekistán, Kapitalbank, TBC Bank e Ipak Yuli Bank, con tarjetas Visa y Mastercard; Google Pay se lanzó con el apoyo de varios bancos locales."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "触发条件是监管，不是终端。今年 3 月生效的个人数据法修订，放宽了把部分类别的个人信息处理与存储放在境外的限制，此前这类要求让需要跨境处理数据的国际平台很难落地。总统办公厅负责人 Saida Mirziyoyeva 称，监管变化正在为国际支付系统的使用创造更大空间。这一步接在 9 月批准的 2026–2030 年国家金融科技战略之后，该战略包含开放银行与跨境支付。",
+        "en": "The trigger was regulation, not terminals. Amendments to the personal data law that took effect in March relaxed restrictions on processing and storing certain categories of personal data outside the country, requirements that had made it hard for international platforms needing cross-border processing to operate. Saida Mirziyoyeva, head of the presidential administration, said the regulatory changes were creating broader room for international payment systems. The step follows the 2026-2030 national fintech strategy approved in September, which covers open banking and cross-border payments.",
+        "es": "El detonante fue la regulación, no los terminales. Las enmiendas a la ley de datos personales vigentes desde marzo relajaron las restricciones para procesar y almacenar ciertas categorías de datos fuera del país, requisitos que dificultaban la operación de plataformas internacionales con procesamiento transfronterizo. Saida Mirziyoyeva, responsable de la administración presidencial, dijo que los cambios regulatorios abren más espacio al uso de sistemas de pago internacionales. El paso sigue a la estrategia nacional de fintech 2026-2030 aprobada en septiembre, que incluye banca abierta y pagos transfronterizos."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "本地并不缺移动支付。HUMO Pay 与 UZCARD PAY 已在提供数字支付功能，二维码支付也在用。两个国际钱包进来是增加选择，不是从零建受理。真正的门槛在本地两个卡网络：央行现在要谈的是让 Uzcard 与 HUMO 的卡也能加进这两个钱包，这部分覆盖的才是大多数本地持卡人，但没有给出时间表。",
+        "en": "Uzbekistan is not short of mobile payments. HUMO Pay and UZCARD PAY already provide digital payment functions, alongside QR-based options. The two international wallets add choice rather than building acceptance from scratch. The real threshold sits with the two domestic card networks: the central bank is now working to let Uzcard and HUMO cards join the wallets, which is the part that would cover most local cardholders, but no timetable has been given.",
+        "es": "Uzbekistán no carece de pagos móviles. HUMO Pay y UZCARD PAY ya ofrecen funciones de pago digital, junto con opciones de código QR. Las dos carteras internacionales añaden opciones en lugar de construir la aceptación desde cero. El umbral real está en las dos redes locales: el banco central trabaja ahora para que las tarjetas Uzcard y HUMO puedan sumarse a las carteras, que es la parte que cubriría a la mayoría de los titulares locales, pero no se ha dado calendario."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这条对做发卡与钱包集成的人有直接参考价值：决定国际钱包能不能进一个市场，往往不是终端多少，而是数据出境规则。乌兹别克斯坦在 3 月修法之后才具备条件，随后两个钱包同期落地，首批名单是四家本地银行加 Visa、Mastercard 两个卡组织。下一个观察点是 Uzcard 与 HUMO 何时接进来，那才是覆盖大多数本地持卡人的部分。对收单与终端，存量非接触受理密度决定了这两个钱包今天能用在哪儿；对发卡行，接入意味着把令牌生命周期接到卡组织侧，同时还得继续养本国钱包。",
+    "en": "For people doing issuing and wallet integration, this is a direct reference case: whether an international wallet can enter a market is often decided by data-export rules rather than by terminal counts. Uzbekistan became eligible only after the March amendments, and both wallets landed in the same window, with a first list of four local banks plus Visa and Mastercard. The next thing to watch is when Uzcard and HUMO cards are admitted, since that is the part covering most local cardholders. For acquirers and terminals, existing contactless density decides where the two wallets work today; for issuers, joining means attaching token lifecycle to the scheme while still funding the domestic wallet.",
+    "es": "Para quien trabaja en emisión e integración de carteras, este es un caso de referencia directo: que una cartera internacional entre en un mercado suele decidirse por las reglas de salida de datos, no por el número de terminales. Uzbekistán cumplió la condición solo tras las enmiendas de marzo, y ambas carteras llegaron en la misma ventana, con una primera lista de cuatro bancos locales más Visa y Mastercard. Lo siguiente a observar es cuándo se admiten las tarjetas Uzcard y HUMO, porque esa es la parte que cubre a la mayoría de los titulares locales. Para adquirentes y terminales, la densidad de aceptación sin contacto existente decide dónde funcionan hoy las carteras; para los emisores, sumarse implica ligar el ciclo de vida del token al esquema sin dejar de sostener la cartera nacional."
+  },
+  "confidence": 0.68,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

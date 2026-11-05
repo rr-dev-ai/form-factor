@@ -1,0 +1,702 @@
+{
+  "date": "2026-11-06",
+  "industry": "banking",
+  "startedAt": "2026-11-06T02:35:08+08:00",
+  "drafts": [
+    {
+      "id": "2026-11-06-banking-02",
+      "slug": "mastercard-samsung-pay-morocco-mdes",
+      "industry": "banking",
+      "region": "mena",
+      "regions": [],
+      "tags": [
+        "tokenization",
+        "digital-wallet"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "Business Wire",
+          "url": "https://www.businesswire.com/news/home/20261104551424/en/",
+          "lang": "en",
+          "publishedAt": "2026-11-04T20:17:00-05:00"
+        }
+      ],
+      "title": {
+        "zh": "Mastercard 把摩洛哥的卡装进三星钱包，靠 MDES 令牌",
+        "en": "Mastercard puts Moroccan cards into Samsung Pay via MDES tokens",
+        "es": "Mastercard lleva las tarjetas marroquíes a Samsung Pay con tokens MDES"
+      },
+      "summary": {
+        "zh": "11 月 4 日，Mastercard 宣布支持 Samsung Pay 在摩洛哥上线：参与银行的 Mastercard 卡持卡人可把卡装进三星手机与手表，在受理非接触支付的商户付款，卡号由 MDES 令牌替换。公告未给出参与发卡行名单、发卡量目标与确切上线日，只说明双方将在摩洛哥做联合推广。",
+        "en": "Mastercard said on 4 November that it is supporting the launch of Samsung Pay in Morocco: cardholders at participating banks can load Mastercard cards onto Samsung phones and watches and pay at contactless merchants, with MDES tokens replacing the card number. No issuer list, volume target or exact launch date was disclosed; the two firms will run a joint campaign in Morocco.",
+        "es": "Mastercard anunció el 4 de noviembre su apoyo al lanzamiento de Samsung Pay en Marruecos: los titulares de tarjetas Mastercard de bancos participantes pueden cargarlas en móviles y relojes Samsung y pagar en comercios sin contacto, con tokens MDES en lugar del número de tarjeta. No se dieron emisores, objetivo de volumen ni fecha exacta; ambas firmas harán una campaña conjunta."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "令牌先落地，银行名单后补",
+            "en": "Tokens first, issuer list later",
+            "es": "Primero los tokens, después los emisores"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "11 月 4 日，Mastercard 宣布支持 Samsung Pay 在摩洛哥上线。符合条件的 Mastercard 卡持卡人，在参与银行的支持下，可以把卡装进兼容的三星设备，在受理非接触支付的商户完成付款。令牌化由 Mastercard 的 MDES 完成，卡号不进入设备。",
+            "en": "Mastercard said on 4 November that it is supporting Samsung Pay's launch in Morocco. Eligible Mastercard cardholders at participating banks can load their cards onto compatible Samsung devices and pay at merchants that accept contactless payments. Tokenisation runs through MDES, Mastercard's digital enablement service, so the card number does not sit on the device.",
+            "es": "Mastercard anunció el 4 de noviembre su apoyo al lanzamiento de Samsung Pay en Marruecos. Los titulares elegibles de bancos participantes pueden cargar sus tarjetas en dispositivos Samsung compatibles y pagar en comercios con pago sin contacto. La tokenización corre por MDES, el servicio de habilitación digital de Mastercard, de modo que el número de tarjeta no reside en el dispositivo."
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "机制上，这是把卡号换成一枚设备令牌：交易时用令牌代替卡号，真正的凭证留在令牌库里，配合设备端的认证与基于风险的安全检查。对收单侧，受理方式没有变化——仍是非接触 EMV 交易，终端只要支持非接触即可，不需要为这个上线单独改造。",
+            "en": "Mechanically this swaps the card number for a device token: transactions carry the token instead of the PAN, the real credential stays in the token vault, and device authentication plus risk-based checks sit alongside. On the acquiring side nothing changes in how the payment is taken, since it remains a contactless EMV transaction; terminals only need contactless support and no separate integration for this launch.",
+            "es": "En lo mecánico, el número de tarjeta se sustituye por un token de dispositivo: la operación lleva el token en lugar del PAN, la credencial real queda en la bóveda de tokens y se suman autenticación del dispositivo y controles por riesgo. En la adquirencia no cambia la forma de aceptar el pago, que sigue siendo una transacción EMV sin contacto; basta con que el terminal soporte contacto y no hace falta integración adicional."
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "公告没有给出参与发卡行名单、首年发卡量或受理覆盖率，也没有说明是否支持在线商户。Mastercard 同时重申其到 2030 年把线上交易全部令牌化的目标；摩洛哥这一步属于该方向上的市场扩张，而非新机制。",
+            "en": "The announcement names no issuing banks, gives no first-year volume or acceptance coverage, and does not say whether online merchants are included. Mastercard restated its goal of tokenising 100% of online transactions by 2030; the Morocco step is market expansion along that line rather than a new mechanism.",
+            "es": "El anuncio no nombra emisores, no da volumen del primer año ni cobertura de aceptación, y no aclara si incluye comercio online. Mastercard reiteró su meta de tokenizar el 100% de las transacciones online en 2030; el paso marroquí es expansión de mercado en esa línea, no un mecanismo nuevo."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "对摩洛哥的发卡行，这是一次低成本补齐移动支付：不用自建钱包，接 MDES 就能把卡放进三星设备，代价是把令牌生命周期交给卡组织。对收单与终端供应商，短期没有增量——非接触终端本来就受理，真正受益的是能把「手机能刷」讲进商户方案的集成商。中期看两件事：一是参与银行会不会从一两家扩到多数发卡行，二是令牌化之后线上交易的身份验证与拒付规则怎么落。公告缺发卡量、缺银行名单、缺时间表，说明这仍是一个刚起步的市场动作，不宜按「摩洛哥全面上线」来读。",
+        "en": "For Moroccan issuers this is a cheap way to catch up on mobile payments: no wallet to build, just an MDES connection to put cards on Samsung devices, at the cost of handing token lifecycle to the scheme. For acquirers and terminal vendors there is no short-term increment, since contactless terminals already accept these payments; the gain sits with integrators who can sell \"phone-ready\" into merchant proposals. Two things to watch over the medium term: whether participating banks widen from one or two to most issuers, and how authentication and dispute rules for online transactions land once credentials are tokenised. Missing volumes, missing issuer names and a missing timetable make this an early market move, not a national rollout.",
+        "es": "Para los emisores marroquíes es una forma barata de alcanzar el pago móvil: sin construir cartera, basta una conexión MDES para poner tarjetas en dispositivos Samsung, a cambio de ceder al esquema el ciclo de vida del token. Para adquirentes y proveedores de terminales no hay incremento a corto plazo, porque los terminales sin contacto ya aceptan estos pagos; la ganancia está en integradores que puedan vender \"listo para móvil\" a los comercios. Dos cosas a vigilar: si los bancos participantes pasan de uno o dos a la mayoría, y cómo quedan la autenticación y las disputas online una vez tokenizadas las credenciales. Sin volúmenes, sin emisores y sin calendario, es un movimiento temprano, no un despliegue nacional."
+      },
+      "confidence": 0.62,
+      "ai": {
+        "model": "deepseek-v4.1-flash",
+        "promptVersion": "banking-pool-v1"
+      }
+    },
+    {
+      "id": "2026-11-06-banking-05",
+      "slug": "bank-of-punjab-mastercard-world-elite",
+      "industry": "banking",
+      "region": "apac",
+      "regions": [],
+      "tags": [
+        "issuing",
+        "scheme-rules"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "The Friday Times",
+          "url": "https://www.thefridaytimes.com/04-Nov-2026/bank-punjab-launches-pakistan-s-first-mastercard-world-elite-credit-debit-cards",
+          "lang": "en",
+          "publishedAt": "2026-11-04T00:00:00+05:00"
+        }
+      ],
+      "title": {
+        "zh": "旁遮普银行发 World Elite 借贷记卡，先做高端客群",
+        "en": "Bank of Punjab issues Mastercard World Elite credit and debit cards",
+        "es": "Bank of Punjab emite tarjetas World Elite de crédito y débito"
+      },
+      "summary": {
+        "zh": "11 月 4 日，巴基斯坦旁遮普银行（BOP）与 Mastercard 推出 World Elite 信用卡与借记卡，按双方公告这是该国首套 World Elite 产品。BOP 称自己已是巴基斯坦发卡量最大的信用卡机构，新卡补的是高端与跨境消费这一段；公告未披露发卡量目标、年费与权益成本。",
+        "en": "The Bank of Punjab and Mastercard launched World Elite credit and debit cards on 4 November, which the two describe as Pakistan's first World Elite products. BOP says it is already the country's largest credit card issuer by volume, and the new cards target the premium and cross-border spending segment. No volume target, annual fee or benefits cost was disclosed.",
+        "es": "El Bank of Punjab y Mastercard lanzaron el 4 de noviembre tarjetas World Elite de crédito y débito, que ambas partes presentan como las primeras de ese nivel en Pakistán. BOP afirma ser ya el mayor emisor de tarjetas de crédito del país y las nuevas tarjetas apuntan al segmento premium y al gasto transfronterizo. No se dieron objetivo de emisión, cuota anual ni coste de beneficios."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "从「有卡」到「有高端卡」",
+            "en": "From having cards to having a premium tier",
+            "es": "De tener tarjetas a tener un nivel premium"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "11 月 4 日，旁遮普银行（BOP）与 Mastercard 在拉合尔发布 World Elite 信用卡与借记卡，同时发借贷记两种形态。按双方公告，这是巴基斯坦首套 World Elite 产品——该说法出自银行与卡组织的新闻稿，未给出第三方核实的口径。",
+            "en": "The Bank of Punjab and Mastercard launched World Elite credit and debit cards in Lahore on 4 November, issuing both forms at once. According to the two parties, these are Pakistan's first World Elite products, a claim made in the bank and scheme press release without third-party confirmation.",
+            "es": "El Bank of Punjab y Mastercard lanzaron en Lahore el 4 de noviembre tarjetas World Elite de crédito y débito, en ambas formas a la vez. Según las partes, son los primeros productos World Elite de Pakistán, una afirmación del comunicado del banco y del esquema, sin verificación independiente."
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "World Elite 是 Mastercard 面向个人客户的最高一档产品，卖点是全球受理、旅行与餐饮权益。BOP 把信用卡与借记卡同时挂上这一档，等于用同一个品牌覆盖两类客群：愿意付年费的高端客户，以及希望借记卡也带权益的富裕客户。对发卡行，这一档的收益来自跨境消费与年费，成本则在权益与客服。",
+            "en": "World Elite is Mastercard's top consumer tier, sold on global acceptance plus travel and dining benefits. By putting both credit and debit on that tier at once, BOP covers two segments under one brand: affluent customers willing to pay an annual fee, and wealthy clients who want benefits on a debit card. For an issuer the revenue comes from cross-border spend and fees, while the cost sits in benefits and servicing.",
+            "es": "World Elite es el nivel más alto de Mastercard para consumo, con aceptación global y beneficios de viaje y restauración. Al colocar crédito y débito en ese nivel a la vez, BOP cubre dos segmentos con una marca: clientes acomodados dispuestos a pagar cuota y clientes patrimoniales que quieren beneficios en débito. Para el emisor los ingresos vienen del gasto transfronterizo y las cuotas, y el coste de los beneficios y el servicio."
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "BOP 在公告中称，自己虽晚于既有玩家进入信用卡市场，但已成为巴基斯坦发卡量最大的信用卡机构；这一排序同样出自银行自述。公告没有给出新卡的发卡量目标、年费档位、权益供应商，也没有说明是否配套非接触与令牌化——这三项决定了它卖出的是真高端产品，还是一次品牌授权。",
+            "en": "BOP states in the release that although it entered cards later than established players it has become Pakistan's largest credit card issuer by volume, again its own ranking. The release gives no issuance target, fee levels or benefits suppliers, and does not say whether contactless and tokenisation are included, three points that decide whether this is a genuine premium product or a brand licence.",
+            "es": "BOP afirma en el comunicado que, pese a entrar después que los jugadores establecidos, ya es el mayor emisor de tarjetas de crédito de Pakistán por volumen, de nuevo un dato propio. No se dan objetivo de emisión, niveles de cuota ni proveedores de beneficios, ni si incluye sin contacto y tokenización, tres puntos que deciden si es un producto premium real o una licencia de marca."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "对发卡系统与个性化供应商，巴基斯坦的增量不在卡量，而在产品层级的上移：高端卡意味着金属卡基、双界面芯片、个性化工艺与更严的权益对账，单卡价值比普通白金卡高出一截。对 Mastercard，这是在本地发卡行里锁定最高一档的位置，代价是要给出权益与联合营销资源。风险在需求侧：巴基斯坦的高端客群规模有限，且跨境消费受外汇管制影响，若权益成本按国际标准给、客群又不够，这一档很容易变成只发不用的「钱包装饰」。公告缺发卡量、缺年费、缺权益供应商，短期更像品牌占位而非规模动作。",
+        "en": "For issuing platforms and personalisation suppliers, the increment in Pakistan is not card volume but tier migration: premium cards mean metal or heavier substrates, dual-interface chips, tighter personalisation and stricter benefits reconciliation, at a higher value per card than standard platinum. For Mastercard it locks the top tier with a local issuer, at the cost of funding benefits and co-marketing. The demand side is the risk: Pakistan's affluent segment is small and cross-border spending is exposed to FX controls, so if benefits are priced to international standards against a thin base, the tier becomes a wallet ornament. Missing volumes, fees and benefits suppliers make this a brand position for now, not a volume move.",
+        "es": "Para plataformas de emisión y proveedores de personalización, el incremento en Pakistán no está en el volumen sino en subir de nivel: una tarjeta premium implica sustratos metálicos o más pesados, chip de doble interfaz, personalización más exigente y conciliación estricta de beneficios, con más valor por tarjeta que un platinum estándar. Para Mastercard supone asegurar el nivel superior con un emisor local, a cambio de financiar beneficios y marketing conjunto. El riesgo está en la demanda: el segmento acomodado paquistaní es pequeño y el gasto transfronterizo depende de controles de cambio; si los beneficios se fijan a estándar internacional sobre una base estrecha, el nivel queda como adorno de cartera. Sin volúmenes, cuotas ni proveedores, es una posición de marca, no un movimiento de escala."
+      },
+      "confidence": 0.58,
+      "ai": {
+        "model": "deepseek-v4.1-flash",
+        "promptVersion": "banking-pool-v1"
+      }
+    },
+    {
+      "id": "2026-11-06-banking-06",
+      "slug": "tbc-georgia-palm-payments",
+      "industry": "banking",
+      "region": "europe",
+      "regions": [],
+      "tags": [
+        "acquiring",
+        "biometrics"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "IBS Intelligence",
+          "url": "https://ibsintelligence.com/ibsi-news/tbc-georgia-launches-palm-based-biometric-payments/",
+          "lang": "en"
+        },
+        {
+          "name": "FinTech Global",
+          "url": "https://fintech.global/2026/11/05/tbc-takes-card-free-payments-to-georgian-retailers/",
+          "lang": "en",
+          "publishedAt": "2026-11-05T00:00:00Z"
+        }
+      ],
+      "title": {
+        "zh": "TBC 银行在格鲁吉亚上线掌纹支付，先铺采集点",
+        "en": "TBC Georgia launches palm payments with in-branch enrolment",
+        "es": "TBC Georgia lanza pagos con la palma y enrolamiento en sucursal"
+      },
+      "summary": {
+        "zh": "TBC 银行在格鲁吉亚上线掌纹支付：客户先在配备掌纹扫描仪的网点做一次注册，用手机银行扫二维码绑定要扣款的账户，之后在参与商户刷手掌即可付款，不需要卡或手机。TBC 称自己是格鲁吉亚首家提供该服务的银行；公告未披露技术供应商、商户数量与上线日期。",
+        "en": "TBC Bank in Georgia has launched palm-based payments: customers enrol once at a branch equipped with a palm scanner, link the account to be debited by scanning a QR code in the mobile app, and then pay at participating merchants by scanning a palm, with no card or phone needed. TBC calls itself the first bank in Georgia to offer this; no technology supplier, merchant count or launch date was disclosed.",
+        "es": "TBC Bank en Georgia lanzó pagos con la palma: el cliente se enrola una vez en una sucursal con escáner de palma, vincula la cuenta de cargo escaneando un código QR en la app y luego paga en comercios participantes con la palma, sin tarjeta ni móvil. TBC se presenta como el primer banco de Georgia en ofrecerlo; no se dieron proveedor tecnológico, número de comercios ni fecha de lanzamiento."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "把生物特征当成一张卡",
+            "en": "Treating a biometric as the card",
+            "es": "Tratar la biometría como tarjeta"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "TBC 银行（隶属伦敦上市的 TBC Bank Group）在格鲁吉亚推出掌纹支付。注册是一次性的：客户到配备专用掌纹扫描仪的网点采集，再用 TBC 手机银行扫二维码，选定要绑定的银行账户。完成后，在参与商户刷手掌即可完成扣款。",
+            "en": "TBC Bank, part of the London-listed TBC Bank Group, has launched palm payments in Georgia. Enrolment is one-time: the customer visits a branch with a dedicated palm scanner, then scans a QR code in the TBC mobile app and picks the bank account to link. After that, scanning a palm at a participating merchant completes the payment.",
+            "es": "TBC Bank, del grupo londinense TBC Bank Group, lanzó pagos con la palma en Georgia. El enrolamiento es único: el cliente acude a una sucursal con escáner de palma dedicado, escanea un código QR en la app de TBC y elige la cuenta a vincular. Después, pasar la palma en un comercio participante completa el pago."
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "机制上，掌纹替代的是「出示凭证」这一步：卡号与账户仍在后端，前端只做身份比对与扣款指令。这带来两个直接后果——受理端需要能读掌纹的设备或模组，而不是普通 POS；注册端需要物理采集点，线上无法完成。TBC 的路径是把采集放在网点，把支付放在商户，两端都靠自己铺。",
+            "en": "Mechanically the palm replaces the present-the-credential step: the card number and account stay in the back end, while the front end only matches a biometric and issues a debit instruction. Two consequences follow: acceptance needs a device or module that can read palms rather than a standard POS terminal, and enrolment needs a physical capture point that cannot be done online. TBC's route puts capture in branches and payment at merchants, with both ends built by the bank.",
+            "es": "En lo mecánico, la palma sustituye el paso de presentar la credencial: el número de tarjeta y la cuenta quedan en el back office, y el front solo compara la biometría y emite la instrucción de cargo. Dos consecuencias: la aceptación requiere un dispositivo o módulo capaz de leer la palma, no un TPV estándar, y el enrolamiento exige un punto físico de captura que no se resuelve online. TBC sitúa la captura en sucursales y el pago en comercios, y construye ambos extremos."
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "报道没有给出技术供应商、已接入商户数量、单笔限额与上线日期，也没有说明掌纹模板存在哪里、是否可撤销。TBC 称这是格鲁吉亚首个此类服务，该说法出自银行。同一篇报道提到，TBC 近期还与 American Express 签约扩大受理——两件事都指向同一个方向：用受理场景的差异化抢客户。",
+            "en": "The report gives no technology supplier, no merchant count, no per-transaction limit and no launch date, and does not say where palm templates are stored or whether they can be revoked. TBC describes the service as Georgia's first of its kind, a claim from the bank. The same report notes TBC recently signed with American Express to widen acceptance, both moves pointing the same way: differentiating on acceptance to win customers.",
+            "es": "El reporte no da proveedor tecnológico, número de comercios, límite por operación ni fecha de lanzamiento, y no aclara dónde se guardan las plantillas de palma ni si son revocables. TBC presenta el servicio como el primero de su tipo en Georgia, una afirmación del banco. El mismo reporte señala que TBC firmó recientemente con American Express para ampliar aceptación: ambos movimientos apuntan a diferenciarse en aceptación para captar clientes."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "生物特征支付真正的门槛不在识别率，而在两端基础设施：采集点要有人、有设备、有流程，受理端要有能读掌纹的模组或外设。这决定了它先出现在网点密集、客群稳定的市场，而不是电商发达的市场。对做终端与外设的供应商，这是一条新硬件线；对发卡与收单机构，它把「凭证」从卡片和手机里拿出来，交给一个不可补发的生物模板——挂失、换绑、跨行迁移的规则都要重写。风险也在这里：模板一旦泄露无法更换， enrolment 又必须线下完成，扩张速度会被网点数量锁死。公告缺供应商、缺商户数、缺限额，说明这仍是单市场试点。",
+        "en": "The real barrier in biometric payments is not recognition accuracy but infrastructure at both ends: enrolment needs staff, devices and process, and acceptance needs a module or peripheral that reads palms. That pushes such schemes into markets with dense branch networks and stable customers rather than e-commerce-heavy ones. For terminal and peripheral vendors it is a new hardware line; for issuers and acquirers it pulls the credential out of the card and the phone and hands it to a biometric template that cannot be reissued, so rules for blocking, re-linking and portability must be rewritten. The risk sits there too: a leaked template cannot be replaced, and enrolment stays offline, capping expansion at branch capacity. No supplier, merchant count or limit means this is still a single-market pilot.",
+        "es": "La barrera real del pago biométrico no es la precisión sino la infraestructura en ambos extremos: el enrolamiento requiere personal, dispositivos y proceso, y la aceptación un módulo o periférico que lea la palma. Eso empuja estos esquemas a mercados con red de sucursales densa y clientela estable, no a los de fuerte comercio electrónico. Para proveedores de terminales y periféricos es una nueva línea de hardware; para emisores y adquirentes, saca la credencial de la tarjeta y del móvil y la entrega a una plantilla biométrica que no se puede reemitir, obligando a reescribir reglas de bloqueo, revinculación y portabilidad. El riesgo está ahí: una plantilla filtrada no se reemplaza y el enrolamiento sigue siendo presencial, con el crecimiento limitado por la capacidad de sucursales. Sin proveedor, comercios ni límites, sigue siendo un piloto de un solo mercado."
+      },
+      "confidence": 0.55,
+      "ai": {
+        "model": "deepseek-v4.1-flash",
+        "promptVersion": "banking-pool-v1"
+      }
+    },
+    {
+      "id": "2026-11-06-banking-08",
+      "slug": "vtb-resident-card-750k-mir-multi-application",
+      "industry": "banking",
+      "region": "cis",
+      "regions": [],
+      "tags": [
+        "issuing",
+        "scheme-rules"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "AK&M",
+          "url": "https://www.akm.ru/eng/news/vtb-has-issued-more-than-750-thousand-resident-cards-in-the-regions/",
+          "lang": "en",
+          "publishedAt": "2026-11-05T21:39:00+03:00"
+        }
+      ],
+      "title": {
+        "zh": "VTB 居民卡发到 75 万张，把政务与交通装进 Mir 卡",
+        "en": "VTB's Resident Card passes 750,000, packing services onto a Mir debit card",
+        "es": "La Tarjeta del Residente de VTB supera 750.000 y suma servicios a una tarjeta Mir"
+      },
+      "summary": {
+        "zh": "11 月 5 日，VTB 公布居民卡累计发卡超过 75 万张，可在 12 个地区办理。卡基于 Mir 借记卡，带 NFC 非接触，可当交通票在闸机上贴卡扣「电子钱包」票价，还能叠加医保保单、工作或学习通行证。发行量最大的是萨马拉，约 20 万张。",
+        "en": "VTB said on 5 November that it has issued more than 750,000 Resident Cards, available in 12 regions. The card is a Mir debit card with NFC contactless, doubles as a transit ticket by tapping the validator against an e-wallet fare, and can carry an insurance policy, work or student pass. Samara accounts for the largest share, at about 200,000.",
+        "es": "VTB informó el 5 de noviembre de que ha emitido más de 750.000 Tarjetas del Residente, disponibles en 12 regiones. La tarjeta es una tarjeta de débito Mir con NFC sin contacto, sirve como billete de transporte al acercarla al validador con tarifa de monedero electrónico y puede llevar póliza de seguro, pase laboral o de estudiante. Samara concentra la mayor parte, unos 200.000."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "一张卡，几重身份",
+            "en": "One card, several identities",
+            "es": "Una tarjeta, varias identidades"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "11 月 5 日，VTB 公布居民卡自项目启动以来累计发卡超过 75 万张，可在俄罗斯 12 个地区办理。产品把地区与联邦层面的公共服务并进银行卡功能，由各地方政府与发卡行共同推进。",
+            "en": "VTB said on 5 November that it has issued more than 750,000 Resident Cards since the project began, with availability in 12 Russian regions. The product folds regional and federal public services into a bank card, run jointly by regional governments and issuing banks.",
+            "es": "VTB informó el 5 de noviembre de que ha emitido más de 750.000 Tarjetas del Residente desde el inicio del proyecto, con disponibilidad en 12 regiones rusas. El producto integra servicios públicos regionales y federales en una tarjeta bancaria, gestionada conjuntamente por gobiernos regionales y bancos emisores."
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "卡本身是 VTB 的 Mir 借记卡，带 NFC 非接触。交通侧它取代实体票：在终端或闸机上贴卡即可扣「电子钱包」票价。卡功能还能继续叠加社会与商业服务，例如医保保单、工作或学生通行证。换句话说，卡片被当成多应用载体用，而不是单纯的支付工具。",
+            "en": "The card itself is a VTB debit card on the Mir national payment system with NFC contactless. On transit it replaces a physical ticket: tapping the card on a validator charges the e-wallet fare. Its functions can be extended with social and commercial services such as a medical insurance policy or a work or student pass. In effect the card is used as a multi-application carrier rather than a pure payment instrument.",
+            "es": "La tarjeta es una tarjeta de débito de VTB del sistema nacional de pagos Mir con NFC sin contacto. En transporte sustituye al billete físico: al acercarla al validador se cobra la tarifa del monedero electrónico. Sus funciones pueden ampliarse con servicios sociales y comerciales, como una póliza de seguro médico o un pase laboral o de estudiante. En la práctica se usa como soporte multi aplicación, no como mero instrumento de pago."
+          }
+        },
+        {
+          "kind": "ul",
+          "items": [
+            {
+              "zh": "发行量分布：萨马拉约 20 万张，圣彼得堡约 13 万张，斯维尔德洛夫斯克州 10 万张，莫尔多瓦超过 8 万张",
+              "en": "Where the volume sits: about 200,000 cards in Samara, about 130,000 in St Petersburg, 100,000 in Sverdlovsk region and more than 80,000 in Mordovia",
+              "es": "Dónde está el volumen: unos 200.000 en Samara, unos 130.000 en San Petersburgo, 100.000 en la región de Sverdlovsk y más de 80.000 en Mordovia"
+            },
+            {
+              "zh": "其余可办理地区为奥伦堡、沃洛格达、摩尔曼斯克、梁赞、萨哈林四州，以及滨海边疆区、下诺夫哥罗德州与鄂木斯克州",
+              "en": "The remaining regions are Orenburg, Vologda, Murmansk, Ryazan and Sakhalin, plus Primorsky Krai, Nizhny Novgorod and Omsk",
+              "es": "Las demás regiones son Oremburgo, Vólogda, Múrmansk, Riazán y Sajalín, además de Primorie, Nizhni Nóvgorod y Omsk"
+            }
+          ]
+        }
+      ],
+      "whyItMatters": {
+        "zh": "对做发卡与卡片应用的人，这条的价值不在 75 万这个数字，而在卡片被当成多应用载体：交通、医保、门禁三类凭证压到一张 Mir 借记卡上。做法是地方政府加发卡行联合推，卡组织提供底座，地方服务按地区逐个接。要复制这套，卡点不在芯片容量，而在各发证方的数据接口和受理终端的应用选择逻辑——闸机要能在同一张卡上找到交通应用，医院和学校要能读同一张卡上的另一块。这也解释了它为什么按地区推进，而不是全国一次上线。对终端与卡片管理服务供应商，这是一个边界清晰的多应用集成市场。",
+        "en": "For people working on issuing and card applications, the value here is not the 750,000 figure but the card being used as a multi-application carrier: transit, medical insurance and access credentials collapsed onto one Mir debit card. The method is regional governments plus issuing banks, with the scheme providing the base and local services connected region by region. Copying it is limited less by chip capacity than by each issuing authority's data interface and by how acceptance terminals select an application: a gate has to find the transit applet on the same card whose other half a hospital or school must read. That is also why it rolls out region by region rather than nationwide at once. For terminal vendors and card management service providers, it is a clearly bounded multi-application integration market.",
+        "es": "Para quien trabaja en emisión y aplicaciones de tarjeta, el valor no está en la cifra de 750.000 sino en que la tarjeta se usa como soporte multi aplicación: credenciales de transporte, seguro médico y control de acceso sobre una sola tarjeta de débito Mir. El método es gobiernos regionales más bancos emisores, con el esquema como base y los servicios locales conectados región por región. Replicarlo depende menos de la capacidad del chip que de la interfaz de datos de cada autoridad emisora y de cómo los terminales eligen la aplicación: un torno debe encontrar el applet de transporte en la misma tarjeta cuya otra mitad debe leer un hospital o una escuela. Por eso avanza región por región y no en un lanzamiento nacional. Para proveedores de terminales y de servicios de gestión de tarjetas es un mercado de integración multi aplicación con límites claros."
+      },
+      "confidence": 0.64,
+      "ai": {
+        "model": "deepseek-v4.1-flash",
+        "promptVersion": "banking-pool-v1"
+      }
+    },
+    {
+      "id": "2026-11-06-banking-10",
+      "slug": "truist-merchant-services-clover-paze",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "tags": [
+        "acquiring",
+        "digital-wallet"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "Payments Dive",
+          "url": "https://www.paymentsdive.com/news/truist-expands-merchant-tools-chris-ward/873617/",
+          "lang": "en",
+          "publishedAt": "2026-11-03T17:37:00Z"
+        }
+      ],
+      "title": {
+        "zh": "Truist 扩商户收单，接入 Clover 终端与 Paze 钱包",
+        "en": "Truist rebuilds merchant services around Clover terminals and Paze",
+        "es": "Truist rehace su adquirencia con terminales Clover y la cartera Paze"
+      },
+      "summary": {
+        "zh": "11 月 3 日，Truist 说商户服务完成一轮扩容：开户流程加快、新增管理功能与付款活动视图，并接入 Fiserv 的 Clover 收单终端与 Early Warning Services 的 Paze 钱包作为线上结账选项。功能上季度试点，现已全部上线。该行未披露商户数量与商户业务规模。",
+        "en": "Truist said on 3 November that it expanded its merchant services: faster onboarding, new management capabilities and a fuller view of payment activity, plus Fiserv's Clover point-of-sale terminals and Early Warning Services' Paze wallet as an online checkout option. The features were piloted last quarter and are now all live. The bank did not disclose merchant counts or the size of the business.",
+        "es": "Truist dijo el 3 de noviembre que amplió sus servicios a comercios: alta más rápida, nuevas funciones de gestión y una visión más completa de la actividad de pagos, además de los terminales Clover de Fiserv y la cartera Paze de Early Warning Services como opción de pago online. Las funciones se pilotaron el trimestre anterior y ya están todas activas. El banco no reveló número de comercios ni el tamaño del negocio."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "银行留客户关系，平台出设备",
+            "en": "The bank keeps the relationship, the platform supplies the kit",
+            "es": "El banco retiene la relación, la plataforma pone el equipo"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "11 月 3 日，Truist 公布商户服务的一轮扩容：商户开户流程加快，新增管理功能，并给出更完整的付款活动视图。终端与门店侧接入 Fiserv 的 Clover 收单系统，线上结账则把 Early Warning Services 的 Paze 钱包列为选项。该行说这些功能上个季度做过试点，现在全部上线，后续还有调整但未透露内容。",
+            "en": "Truist set out an expansion of its merchant services on 3 November: faster merchant onboarding, new management capabilities and a fuller view of payment activity. On the terminal and in-store side it uses Fiserv's Clover point-of-sale system, while online checkout lists Early Warning Services' Paze wallet as an option. The bank said the features were piloted last quarter and are now all live, with more changes in the works that it declined to detail.",
+            "es": "Truist presentó el 3 de noviembre una ampliación de sus servicios a comercios: alta más rápida, nuevas funciones de gestión y una visión más completa de la actividad de pagos. En terminales y tienda física usa el sistema Clover de Fiserv, mientras que el pago online incluye la cartera Paze de Early Warning Services como opción. El banco dijo que las funciones se pilotaron el trimestre anterior y ya están activas, con más cambios en marcha que no quiso detallar."
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "分工值得注意。Clover 提供 POS 软件与终端侧能力，Paze 提供线上结账的钱包入口，Truist 自己保留商户关系、开户、结算与后续的存款、财资与信贷交叉销售。这与「银行自建全套收单技术栈」是两条路。需要说清的是，报道没有说明 Clover 设备以什么品牌交付，也没有说明 Paze 是替换还是并列于既有卡组织钱包。",
+            "en": "The division of labour is the point. Clover supplies POS software and terminal-side capability, Paze supplies a wallet entry point at online checkout, and Truist keeps the merchant relationship, onboarding, settlement and the cross-sell into deposits, treasury and lending. That is a different path from a bank building its whole acquiring stack in-house. What the reporting does not say is how the Clover equipment is branded for Truist merchants, or whether Paze replaces or sits alongside the existing scheme wallets.",
+            "es": "La división del trabajo es lo relevante. Clover aporta software de POS y capacidad de terminal, Paze aporta la entrada de cartera en el pago online, y Truist conserva la relación con el comercio, el alta, la liquidación y la venta cruzada hacia depósitos, tesorería y crédito. Es un camino distinto al de un banco que construye toda su pila de adquirencia. Lo que la información no aclara es con qué marca se entregan los equipos Clover a los comercios de Truist, ni si Paze sustituye o convive con las carteras de los esquemas."
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "这是与 Clover 长期合作的扩展，不是新签合作。Truist 不单独披露商户业务规模；该行三季度卡与财资管理费同比增 2% 至 3.47 亿美元，但这一口径混了卡与财资两块，看不出商户收单的具体体量。被问到后续功能时，负责企业支付的 Chris Ward 拒绝透露细节。",
+            "en": "This extends a long-standing Clover relationship rather than starting a new one. Truist does not break out the size of its merchant business; card and treasury management fees rose 2% year over year to $347 million in the third quarter, a line that mixes cards and treasury, so the acquiring volume is not visible. Asked about further features, Chris Ward, who heads enterprise payments, declined to give details.",
+            "es": "Se trata de una ampliación de la relación de larga data con Clover, no de un acuerdo nuevo. Truist no desglosa el tamaño de su negocio de comercios; las comisiones de tarjetas y tesorería subieron un 2% interanual hasta 347 millones de dólares en el tercer trimestre, una línea que mezcla tarjetas y tesorería, por lo que el volumen de adquirencia no se ve. Preguntado por nuevas funciones, Chris Ward, responsable de pagos corporativos, declinó dar detalles."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "对做终端与收单集成的供应商，这条说明美国中型银行的商户收单正在变成一种分工：银行保留商户关系与结算，设备与软件由平台提供。Truist 把门店侧交给 Fiserv 的 Clover，把线上钱包入口交给银行联合体背景的 Paze，自己留下开户、结算与客户经营。含义是进入这类银行不再靠单点设备报价，而要看能否同时供终端、POS 软件与钱包受理。对 Paze 这类由多家银行共有的钱包，拿到一家超级区域银行的商户侧入口，比多一家发卡行更有分量。要克制的是披露很薄：没有商户数、没有交易量、没有设备形态，只能按方向读。",
+        "en": "For terminal and acquiring-integration vendors, this shows US mid-size bank acquiring settling into a split: the bank keeps the merchant relationship and settlement, while a platform supplies devices and software. Truist gives the in-store side to Fiserv's Clover and the online wallet entry to Paze, which is backed by a bank consortium, keeping onboarding, settlement and client management for itself. The implication is that selling into such a bank no longer turns on a single device quote but on whether a vendor can supply terminals, POS software and wallet acceptance together. For a consortium-owned wallet like Paze, a merchant-side entry at a super-regional bank carries more weight than one more issuer. Restraint is warranted: no merchant counts, no volume and no device form factor, so read it for direction only.",
+        "es": "Para proveedores de terminales e integración de adquirencia, esto muestra que la adquirencia de los bancos medianos de EE. UU. se ordena en dos partes: el banco conserva la relación con el comercio y la liquidación, y una plataforma pone equipos y software. Truist cede la parte de tienda al Clover de Fiserv y la entrada de cartera online a Paze, respaldada por un consorcio bancario, y retiene el alta, la liquidación y la gestión de clientes. La implicación es que vender a un banco así ya no depende de una cotización de equipo, sino de si el proveedor puede entregar terminales, software de POS y aceptación de carteras a la vez. Para una cartera de consorcio como Paze, una entrada en el lado comercio de un banco superregional pesa más que un emisor adicional. Conviene contención: sin número de comercios, sin volumen y sin formato de equipo, se lee por dirección."
+      },
+      "confidence": 0.58,
+      "ai": {
+        "model": "deepseek-v4.1-flash",
+        "promptVersion": "banking-pool-v1"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Mexico publishes Digital Economy Law for digital and electronic payments",
+      "url": "https://www.santamarinasteta.mx/en/publicaciones-y-eventos/updates/se-publica-la-ley-de-economia-digital-para-pagos-digitales-y-electronicos",
+      "reason": "范围门过（POS 须受理 QR、数字 CURP 可开金融账户），但动作门六类都不贴：这是立法生效，不是授标、部署、落地、认证、产品化或产能；SHCP 的强制行业名单与 Banxico/CNBV 的 QR 规则都还没发布，无可核具体物"
+    },
+    {
+      "title": "CPI pushes tokenization to Bankjoy's 85+ community banks",
+      "url": "https://www.marketbeat.com/instant-alerts/transcript-what-cpi-card-group-pmts-said-on-its-q3-earnings-call-2026-11-04",
+      "reason": "只在 Q3 财报电话会披露，无独立公告、无金额、无上线时间；AGENTS.md 明列财报不收"
+    },
+    {
+      "title": "Moscow SIM plant targets 150,000 cards a day with Russian-algorithm eSIM profiles",
+      "url": "https://mediasat.info/en/2026/11/05/chinese-firm-to-help-russia-make-its-own-sim-cards",
+      "reason": "标的是 SIM 与 MFF2 芯片，按上游制造判据归 telecom，不属 banking"
+    },
+    {
+      "title": "Paravision awarded US Department of State photo and identity contract",
+      "url": "https://www.paravision.ai/news/paravision-awarded-u-s-department-of-state-contract-to-support-photo-and-identity-suite",
+      "reason": "证件照片核验，归 identity"
+    },
+    {
+      "title": "Visa sets up six Singapore hubs for AI and next-gen payments",
+      "url": "https://fintechnews.sg/140556/payments/visa-singapore-hubs/",
+      "reason": "企业研发布局：1500 名员工的场地与研究方向，没有产品名、版本号、客户或受理机制变化，动作门无一类可贴"
+    },
+    {
+      "title": "Block reaches $964M DOJ pact",
+      "url": "https://www.paymentsdive.com/news/block-reaches-964m-doj-pact/873729/",
+      "reason": "反洗钱执法和解，不改变发卡或收单机制，属诉讼与合规，范围门不过"
+    },
+    {
+      "title": "Payments firm settles FTC fees case",
+      "url": "https://www.paymentsdive.com/news/payment-processor-settle-ftc-alleged-deceptive-fees/873669/",
+      "reason": "执法和解，无产品、无机制变化"
+    },
+    {
+      "title": "FIS, Toast CFOs exit",
+      "url": "https://www.paymentsdive.com/news/fis-toast-cfos-exit/873750/",
+      "reason": "人事变动，不在范围内"
+    },
+    {
+      "title": "Cards draw customers, Marqeta CEO says",
+      "url": "https://www.paymentsdive.com/news/cards-draw-customers-marqeta-ceo-says/873864/",
+      "reason": "访谈观点，无可核动作"
+    },
+    {
+      "title": "Klarna targets scam calls with new verification tool",
+      "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/klarna-targets-scam-calls-with-new-verification-tool/",
+      "reason": "来电核验，落在通信侧，不在发卡与收单栈内"
+    },
+    {
+      "title": "Firmly lands $15M for merchant-side agentic commerce",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/firmly-lands-15-million-dollars-investors-back-merchant-side-agentic-commerce/",
+      "reason": "融资，且无发卡或受理产品"
+    },
+    {
+      "title": "Fiserv talks to potential asset buyers",
+      "url": "https://www.paymentsdive.com/news/fiserv-talks-to-potential-asset-buyers/873604/",
+      "reason": "并购传闻，属财报与资本动作"
+    },
+    {
+      "title": "Bilt tackles sports with $300M deal",
+      "url": "https://www.paymentsdive.com/news/bilt-acquire-lava-sports-technology-rewards-loyalty-300-million-wells-fargo-cards-cfpb/873572/",
+      "reason": "联名积分与赞助交易，标的是权益而非凭证链路"
+    },
+    {
+      "title": "Google makes big plans for wallet",
+      "url": "https://www.paymentsdive.com/news/google-thinks-bigger-about-the-wallet-digital-agentic-retail/873585/",
+      "reason": "路线图式访谈，无产品名、版本与上线时间"
+    },
+    {
+      "title": "ECB selects network providers to build digital euro connectivity layer",
+      "url": "https://paymentsindustryintelligence.com/ecb-selects-network-providers-for-digital-euro/",
+      "reason": "数字欧元连接层，前两期同一判据已拦：不落发卡与收单栈"
+    },
+    {
+      "title": "Binance heist triggers alarm among banking regulators",
+      "url": "https://www.pymnts.com/legal/bank-regulation/2026/binance-heist-triggers-alarm-among-banking-regulators/",
+      "reason": "交易所失窃与监管反应，不涉及卡与受理"
+    },
+    {
+      "title": "Pyvio secures MAS Major Payment Institution licence",
+      "url": "https://fintechnews.sg/140548/payments/pyvio-mas-major-payment-institution-license/",
+      "reason": "牌照发放，不在发卡与收单机制内"
+    },
+    {
+      "title": "Finmo launches multi-currency business account",
+      "url": "https://fintechnews.sg/140547/payments/finmo-business-account/",
+      "reason": "账户产品，非卡或受理终端"
+    },
+    {
+      "title": "Primova Pay reports 26 million transport recharges",
+      "url": "https://www.mobiletime.com.br/noticias/05/11/2026/primova-pay-recargas-26/",
+      "reason": "存量规模披露，不是变化"
+    },
+    {
+      "title": "Bhutan's Gelephu to have its own central bank",
+      "url": "https://fintechnews.sg/140589/regtech/bhutan-gelephu-central-bank/",
+      "reason": "央行设立，范围门不过"
+    },
+    {
+      "title": "Indonesia rules out new VAT on bank transfers and e-wallets",
+      "url": "https://fintechnews.id/110998/payments/indonesia-vat-bank-transfers/",
+      "reason": "税制表态，不改变凭证或受理机制"
+    },
+    {
+      "title": "Hong Kong life insurance levy cap could rise tenfold",
+      "url": "https://fintechnews.hk/41952/insurtech/hong-kong-insurance-levy-ia-consultation-annual-fees/",
+      "reason": "保险监管收费，不在范围内"
+    },
+    {
+      "title": "A3A PayTech joins HKMA's AI agent panel",
+      "url": "https://fintechnews.hk/41944/hong-kong-fintech-week-news/a3a-paytech-hkma-agentic-finance-expert-group/",
+      "reason": "专家组成员资格，无动作"
+    },
+    {
+      "title": "Mastercard survey on Brazilian SMEs' digital security",
+      "url": "https://www.mobiletime.com.br/noticias/04/11/2026/mastercard-pmes-segur/",
+      "reason": "调研数据，不是事件"
+    },
+    {
+      "title": "Nedbank gears up for smart ID rollout",
+      "url": "https://www.itweb.co.za/article/nedbank-gears-up-for-smart-id-rollout/lLn147mQN8l7J6Aa",
+      "reason": "证件签发与银行网点采集，归 identity"
+    },
+    {
+      "title": "Entrust partners Banqi Hong Kong on onboarding compliance",
+      "url": "https://fintechnews.hk/41906/payments/entrust-banqi-hong-kong-onboarding-compliance/",
+      "reason": "开户核验，落在身份侧，不改变发卡与受理"
+    },
+    {
+      "title": "hashID launches digital wallet with age checks",
+      "url": "https://www.biometricupdate.com/202611/hashid-launches-digital-wallet-with-privacy-first-age-checks-and-encrypted-messaging",
+      "reason": "年龄核验钱包，归 identity"
+    },
+    {
+      "title": "Safirum's Swiss franc stablecoin CHF-S goes live",
+      "url": "https://www.tahawultech.com/news/safirum-swiss-franc-stablecoin-chf-s-goes-live/",
+      "reason": "稳定币发行，AGENTS.md 明确不收"
+    },
+    {
+      "title": "Revolut confirms US$115 billion valuation",
+      "url": "https://fintechnews.sg/140531/funding/revolut-115-billion-valuation/",
+      "reason": "融资估值，属财报与资本动作"
+    },
+    {
+      "title": "Indonesian fintech Flip cuts up to 80 jobs",
+      "url": "https://fintechnews.id/111004/payments/flip-layoffs-indonesia-restructuring/",
+      "reason": "裁员重组，不在范围内"
+    },
+    {
+      "title": "DBS names Anthony Lim as chairman",
+      "url": "https://fintechnews.sg/140541/fintech/dbs-chairman/",
+      "reason": "人事变动"
+    },
+    {
+      "title": "HKEX lines up 12 new stock futures",
+      "url": "https://fintechnews.hk/41914/wealthtech/hkex-stock-futures-12-new-contracts-2027/",
+      "reason": "衍生品挂牌，不在凭证链路"
+    },
+    {
+      "title": "Russian banks get right to hand data to IT contractors",
+      "url": "https://www.comnews.ru/content/248216/2026-11-05/2026-w45/1007/peredat-nelzya-ostavit-banki-poluchili-pravo-otdavat-dannye-it-podryadchikam",
+      "reason": "数据外包合规，不改变发卡或受理机制"
+    },
+    {
+      "title": "Bank of Russia securities collateral list for 06.11.2026",
+      "url": "https://www.cbr.ru/hd_base/BankPapers/",
+      "reason": "央行日常数据页，非新闻事件"
+    },
+    {
+      "title": "Bank of Russia board decision on credit rating levels",
+      "url": "https://www.cbr.ru/rbr/dir_decisions/rsd_2026-10-28_55_01/",
+      "reason": "监管参数调整，不落凭证链路"
+    },
+    {
+      "title": "EBA e-mail alert, 5 November 2026",
+      "url": "https://www.eba.europa.eu/node/20162",
+      "reason": "邮件提醒索引页，无具体事件"
+    },
+    {
+      "title": "Sends partners UnionPay International on issuing and acquiring",
+      "url": "https://ua.news/en/money/sends-rozshiriuie-finansovi-mozhlivosti-biznesu-mizh-evropoiu-ta-aziieiu-zavdiaki-partnerstvu-z-unionpay",
+      "reason": "事件发生在 10 月，报道为后续回顾，超出 72 小时"
+    },
+    {
+      "title": "Marqeta and Coinbase enable stablecoin-backed card payments",
+      "url": "https://investors.marqeta.com/news-releases/news-release-details/marqeta-and-coinbase-collaborate-enable-stablecoin-backed-card",
+      "reason": "公司公告为 10 月 16 日，11 月 4 日的博客是重述，超窗且属既有能力重复宣传"
+    },
+    {
+      "title": "Cardstream relaunches PayFac-as-a-Service as Flowes",
+      "url": "https://thepaypers.com/payments/news/cardstream-group-relaunches-payfac-as-a-service-under-flowes-brand",
+      "reason": "同一能力（2023 年 4 月发布）换品牌重发，不是首次或变化；本质是分销方式调整"
+    },
+    {
+      "title": "KTC achieves PCI DSS 4.0.1 compliance for acquiring",
+      "url": "https://www.ktc.co.th/en/news/corporate/payment-card-industry-data-security-standard",
+      "reason": "常规合规评估通过，不是规范版本发布、认证体系首次落地或认证等级新增"
+    },
+    {
+      "title": "littlefish and Halo Dot partner on integrated SoftPOS",
+      "url": "https://www.merchantseye.com/news/littlefish-and-halo-dot-partner-to-help-financial-institutions-bac-462f2480",
+      "reason": "只有「非洲市场已开始部署」的说法，无客户名、无市场名、无规模数字，可核具体物不足"
+    },
+    {
+      "title": "Newland and Aevi partner on Android SmartPOS family certification",
+      "url": "https://www.merchantseye.com/news/newland-and-aevi-partner-to-cut-android-smartpos-rollout-complexity-541feb09",
+      "reason": "公告为 11 月 2 日，超出 72 小时窗口"
+    },
+    {
+      "title": "IDEMIA Secure Transactions receives EMVCo certification for PQC payment cards",
+      "url": "https://thequantuminsider.com/2026/11/02/idemia-payment-cards-post-quantum-transition/",
+      "reason": "事件为 10 月 29 日，11 月 2 日为再报道，超窗"
+    },
+    {
+      "title": "GoTyme sets valuation goal and plans credit card for 2027",
+      "url": "https://theafricanstime.com/news/gotyme-sets-15-billion-valuation-goal-for-planned-ipo-115743",
+      "reason": "上市与产品路线图，无已发生的产品动作"
+    },
+    {
+      "title": "Nedbank completes acquisition of 66% of NCBA",
+      "url": "https://www.businessday.co.za/companies/company-strategy/2026-11-05-nedbank-completes-acquisition-of-66-of-kenyas-ncba",
+      "reason": "银行并购，范围门不过"
+    },
+    {
+      "title": "Safaricom results: M-PESA QR, Tap to Pay and 100,000 merchant QR codes",
+      "url": "https://khusoko.com/2026/11/05/safaricom-one-app-replaces-mpesa-app",
+      "reason": "业绩说明会披露，属财报；且移动货币受理不在卡收单栈内"
+    },
+    {
+      "title": "Brazil meal voucher reform stalled by fee disputes",
+      "url": "https://valorinternational.globo.com/business/news/2026/11/03/meal-voucher-reform-stalled-by-fee-disputes-technical-hurdles.ghtml",
+      "reason": "封闭式福利支付互通停滞，无新动作；标的是餐补钱包，不是卡组织或收单机制"
+    },
+    {
+      "title": "EPC tightens Verification of Payee matching rules",
+      "url": "https://paymentsindustryintelligence.com/epc-tightens-verification-of-payee-matching-rules-across-sepa/",
+      "reason": "SEPA 转账收款人核验规则，属账户间支付，不在卡发卡与收单栈"
+    },
+    {
+      "title": "EU and Canada move to link real-time payment systems",
+      "url": "https://paymentsindustryintelligence.com/eu-and-canada-move-to-link-real-time-payment-systems/",
+      "reason": "即时支付互联意向，无版本、无时间表、无落地市场"
+    },
+    {
+      "title": "Global Payments buyout talks",
+      "url": "https://paymentsindustryintelligence.com/global-payments-buyout-talks-expose-pressure-on-legacy-processors/",
+      "reason": "并购传闻，属资本动作"
+    },
+    {
+      "title": "NPCI tells Supreme Court merchants cannot pass on UPI MDR",
+      "url": "https://www.rediff.com/news/report/merchants-barred-from-passing-on-upi-charges-to-customers-ncpi-tells-sc/20261105.htm",
+      "reason": "诉讼答辩，重申 9 月已定的 MDR 框架，本身不是新规则"
+    },
+    {
+      "title": "Bitget Wallet Card goes live in Nigeria",
+      "url": "https://web3.bgw.plus/en/blog/articles/bitget-wallet-card-nigeria",
+      "reason": "钱包方自营卡上线，未披露发卡行与 BIN 安排，除促销外的可核参数不足"
+    },
+    {
+      "title": "State Duma adopts law on universal QR code and digital ruble",
+      "url": "https://www.akm.ru/eng/news/the-state-duma-adopted-a-law-on-qr-codes-and-digital-rubles/",
+      "reason": "立法通过时间早于本期窗口（数字卢布自 9 月 1 日起分阶段强制），非本周事件"
+    },
+    {
+      "title": "Marqeta Q3 2026 earnings call: Square credit card on Amex, Google Wallet for kids",
+      "url": "https://www.tradingkey.com/news/transcripts/262272544-",
+      "reason": "内容来自财报电话会披露，AGENTS.md 明确财报不收；与 CPI×Bankjoy 同口径拦。"
+    },
+    {
+      "title": "ACI Worldwide and Circle Test USDC Settlement Alongside Latin America's Payment Rails",
+      "url": "https://paymentsindustryintelligence.com/aci-worldwide-and-circle-test-usdc-settlement-in-colombia/",
+      "reason": "稳定币结算试点，标的是 USDC 而非卡；且未披露客户名与规模。"
+    },
+    {
+      "title": "Lesaka is banking on Bank Zero",
+      "url": "https://www.itweb.co.za/article/lesaka-is-banking-on-bank-zero/G98Yd7LGAnVvX2PD",
+      "reason": "对数字银行的股权交易，涉及银行牌照，明确不在范围。"
+    },
+    {
+      "title": "SurePay obtains PTSP technical certificate for e-commerce payments",
+      "url": "https://muachrat.com/en/news/sure-global-tech-company-announces-that-its-subsidiary-surepay-has-obtained-the-a3248415-c2d0-43b5-98b9-26f07b12de99",
+      "reason": "沙特央行体系下的支付技术服务商资质发放，不在 EMVCo 与 PCI SSC 的规范与认证口径内，且无版本号或技术要求可核。"
+    },
+    {
+      "title": "Rubean AG successfully completes capital increase",
+      "url": "https://www.sharewise.com/us/news_articles/EQSNews_Rubean_AG_Successfully_Completes_Capital_Increase_Rubean_eqsen_20261104_0859",
+      "reason": "增资公告属融资；文中「已与 20 家以上金融机构合作」是既有能力，不是变化。"
+    },
+    {
+      "title": "The plumbing behind the apps: Why Africa's next fintech leap belongs to national switches",
+      "url": "https://techcabal.com/2026/11/04/switch-al-maghrib-on-future-of-payments/",
+      "reason": "对 Switch Al-Maghrib 负责人的访谈，无具体动作与可核物。"
+    },
+    {
+      "title": "Flutterwave spent a decade moving money. Now it wants to keep more of it.",
+      "url": "https://techcabal.com/2026/11/05/flutterwave-financial-infrastructure/",
+      "reason": "公司历程复盘访谈，无新产品、客户或规模变化。"
+    },
+    {
+      "title": "Merchant Acquiring in Africa: Opportunities in Low-Card, High-Mobile Markets",
+      "url": "https://m2pfintech.com/blog/merchant-acquiring-in-africa-opportunities-in-low-card-high-mobile-markets",
+      "reason": "厂商观点文章，非事件；无客户名、无上线时间。"
+    }
+  ],
+  "stats": {
+    "candidates": 132,
+    "written": 10,
+    "skippedByDedup": 6
+  },
+  "finishedAt": "2026-11-05T20:18:07.894Z"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "2026-11-06-banking-01",
+  "slug": "dubai-nol-jaywan-combined-card-pilot",
+  "industry": "banking",
+  "region": "mena",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "scheme-rules"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-06T04:18:38+08:00",
+  "ingestedAt": "2026-11-06T02:35:08+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Emirates 24|7",
+      "url": "https://www.emirates247.com/uae/dubais-new-noljaywan-card-to-combine-transport-and-everyday-payments-pilot-starts-this-month/7435",
+      "lang": "en",
+      "publishedAt": "2026-11-04T14:58:00+04:00"
+    }
+  ],
+  "title": {
+    "zh": "迪拜把公交卡与 Jaywan 合成一张，11 月开试点",
+    "en": "Dubai merges its nol transit card with the Jaywan national scheme",
+    "es": "Dubái fusiona la tarjeta de transporte nol con el esquema nacional Jaywan"
+  },
+  "summary": {
+    "zh": "11 月 4 日，迪拜道路与交通管理局与阿联酋央行下属的 Al Etihad Payments 签署协议，推出下一代 nol–Jaywan 卡：交通扣费走 nol，其他消费走国家卡组织 Jaywan。试点 11 月启动，覆盖公共交通、出租车与公共停车，具体日期、发卡行名单与换卡安排均未公布。",
+    "en": "Dubai's Roads and Transport Authority and Al Etihad Payments, a Central Bank of the UAE subsidiary, signed an agreement on 4 November for next-generation nol-Jaywan cards: transport fares stay on nol while other spending runs on Jaywan, the national card scheme. A pilot starts in November across public transport, taxis and public parking, with no exact date, issuer list or replacement plan disclosed.",
+    "es": "La Autoridad de Carreteras y Transporte de Dubái y Al Etihad Payments, filial del banco central emiratí, firmaron el 4 de noviembre un acuerdo para las tarjetas nol-Jaywan de nueva generación: el transporte sigue en nol y el resto del gasto corre por Jaywan, el esquema nacional de tarjetas. El piloto arranca en noviembre en transporte público, taxis y aparcamiento, sin fecha exacta, lista de emisores ni plan de sustitución."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "一张卡，两套账户体系",
+        "en": "One card, two account systems",
+        "es": "Una tarjeta, dos sistemas de cuenta"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 4 日，迪拜道路与交通管理局（RTA）与阿联酋央行下属的 Al Etihad Payments 签署协议，推出下一代 nol–Jaywan 卡。按双方公告，试点在 11 月启动，覆盖 RTA 的公共交通、出租车与公共停车；公告未给出具体上线日、发卡行名单与换卡安排。",
+        "en": "Dubai's Roads and Transport Authority and Al Etihad Payments, a subsidiary of the Central Bank of the UAE, signed an agreement on 4 November to launch next-generation nol-Jaywan cards. According to the announcement, a pilot begins in November covering RTA public transport, taxis and public parking; no exact start date, issuer list or replacement plan for existing cards was given.",
+        "es": "La Autoridad de Carreteras y Transporte de Dubái (RTA) y Al Etihad Payments, filial del banco central emiratí, firmaron el 4 de noviembre un acuerdo para lanzar las tarjetas nol-Jaywan de nueva generación. Según el anuncio, el piloto comienza en noviembre en transporte público, taxis y aparcamiento; no se dieron fecha exacta, lista de emisores ni plan de sustitución."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "新卡把两套体系放在同一张卡上：交通扣费仍走 nol，其他消费走 Jaywan——后者是阿联酋的国家卡组织。卡片支持在 Android 与 iOS 上做数字化激活，可在公共交通与线上预订平台使用，并附带 120 多项商户优惠。",
+        "en": "The card carries both systems: transport fares stay on nol, while other spending runs on Jaywan, the UAE's national card scheme. It supports digital activation on Android and iOS, works across public transport and online booking platforms, and comes with more than 120 merchant offers.",
+        "es": "La tarjeta reúne ambos sistemas: el transporte sigue en nol y el resto del gasto corre por Jaywan, el esquema nacional emiratí. Admite activación digital en Android e iOS, funciona en transporte público y plataformas de reserva online, y suma más de 120 ofertas de comercios."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "真正的变化在票务侧。RTA 正把 nol 升级为账户制票务（account-based ticketing，ABT）：余额与行程记在账户上，而不是只存在卡片芯片里。这一步决定后续形态——卡只是账户的一个入口，手机与虚拟卡可以共用同一套余额与权限。",
+        "en": "The substantive change sits on the ticketing side. RTA is upgrading nol to account-based ticketing, where balances and journeys live on an account rather than only on the card chip. That decides the form factor: the card becomes one entry point to the account, and phones or virtual cards can share the same balance and permissions.",
+        "es": "El cambio de fondo está en la billetística. La RTA migra nol a ticketing basado en cuenta, con saldos y viajes en una cuenta y no solo en el chip. Eso define el formato: la tarjeta pasa a ser una entrada a la cuenta, y móviles o tarjetas virtuales comparten saldo y permisos."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公告未说明试点发卡量、参与银行、费率，以及存量 nol 卡是否必须更换。对做交通受理与终端改造的供应商，这些缺口比协议本身更值得盯。",
+        "en": "The announcement gives no pilot volume, participating banks, fee schedule or whether existing nol cards must be replaced. For suppliers working on transit acceptance and terminal upgrades, those gaps matter more than the agreement itself.",
+        "es": "El anuncio no da volumen del piloto, bancos participantes, tarifas ni si las tarjetas nol actuales deberán sustituirse. Para los proveedores de aceptación en transporte y renovación de terminales, esos huecos importan más que el acuerdo."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对做交通与零售受理的集成商，这张卡把两个原本分开的受理面并到一个账户上：公交闸机、停车场道闸与商户 POS 从此共享同一套账户与限额，改造重心从读卡器转向账户与清算接口。对 Jaywan，交通是高频、小额、带强制性的场景，能把它从「工资卡上的第二个标志」变成日常入口；海合会国家的本土卡组织大多走同一条路——先吃下政府与交通场景，再向零售扩散。风险在节奏：没有发卡量、没有参与银行、没有换卡时间表，ABT 改造也刚开始，短期内更可能是双轨运行而非替换。要观察的是首批参与银行名单，以及存量卡是否免费换发。",
+    "en": "For integrators working on transit and retail acceptance, the card merges two separate acceptance surfaces onto one account: gates, parking barriers and merchant POS terminals share the same balance and limits, shifting upgrade work from readers to account and clearing interfaces. For Jaywan, transit is high-frequency, low-value and effectively mandatory, which can turn it from a second logo on a salary card into a daily entry point; Gulf national schemes have mostly taken that route, starting with government and transport before retail. The risk is pace: no volume, no named issuers, no replacement timetable, and the account-based ticketing rebuild has only started, so dual running is more likely than substitution. Watch the first issuer list and whether existing cards are swapped for free.",
+    "es": "Para los integradores de aceptación en transporte y comercio, la tarjeta une dos superficies en una sola cuenta: tornos, barreras de aparcamiento y TPV comparten saldo y límites, y el esfuerzo pasa del lector a las interfaces de cuenta y compensación. Para Jaywan, el transporte es frecuente, de bajo importe y casi obligatorio, lo que puede convertirla de segundo logo en la nómina a puerta de entrada diaria; los esquemas nacionales del Golfo han seguido esa ruta, empezando por gobierno y transporte antes que por comercio. El riesgo es el ritmo: sin volumen, sin emisores nombrados y sin calendario de sustitución, y con la migración a ticketing por cuenta recién iniciada, es más probable la convivencia que el reemplazo. Habrá que vigilar la primera lista de emisores y si las tarjetas actuales se cambian gratis."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

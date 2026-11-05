@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-06-identity-05",
+  "slug": "nagaland-aadhaar-app-verifiable-credentials",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "verification",
+    "mobile-id"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-06T04:18:38+08:00",
+  "ingestedAt": "2026-11-06T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Mint",
+      "url": "https://www.livemint.com/news/india/nagaland-govt-says-credentials-shared-via-aadhaar-app-to-be-a-valid-proof-of-identity-all-you-need-to-know-11793784662861.html",
+      "lang": "en",
+      "publishedAt": "2026-11-04T00:00:00+05:30"
+    }
+  ],
+  "title": {
+    "zh": "那加兰邦承认 Aadhaar App 里的可验证凭证为身份证明",
+    "en": "Nagaland accepts Aadhaar App credentials as proof of identity",
+    "es": "Nagaland acepta las credenciales de la app Aadhaar como prueba de identidad"
+  },
+  "summary": {
+    "zh": "印度那加兰邦内政部 11 月 3 日通知全邦各部门、县级机构与执行机构，把 Aadhaar App 中展示、分享或验证的可验证凭证视同有效身份证明，依据是 UIDAI 身份使用处 4 月 30 日的通函。凭证可只披露姓名、地址、出生日期、照片与号码后四位，向离线验证方出示时不传递完整 12 位号码。邦政府将其列为与 Aadhaar 信件、e-Aadhaar、PVC 卡并列的另一种形式。",
+    "en": "Nagaland's Home Department told state departments, district administrations and implementing agencies on November 3 to treat Aadhaar Verifiable Credentials shown, shared or verified through the Aadhaar App as valid proof of identity, acting on an April 30 circular from UIDAI's Aadhaar Usage Division. The credential can disclose only name, address, date of birth, photograph and the last four digits, and does not pass the full 12-digit number to an offline verification seeker. The state lists it alongside the Aadhaar letter, e-Aadhaar and the PVC card.",
+    "es": "El Departamento del Interior de Nagaland pidió el 3 de noviembre a los departamentos estatales y agencias ejecutoras aceptar las credenciales verificables de Aadhaar mostradas o verificadas con la app Aadhaar como prueba válida de identidad, según una circular del 30 de abril del UIDAI. La credencial puede mostrar solo nombre, dirección, fecha de nacimiento, foto y los cuatro últimos dígitos, sin entregar el número completo de 12 dígitos. El estado la sitúa junto a la carta de Aadhaar, el e-Aadhaar y la tarjeta PVC."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "通知的落点是受理端：邦政府各部门、县级行政机构与项目实施机构，凡需要确认身份的地方，都要接受通过 Aadhaar App 出示的可验证凭证。依据链条写得很清楚——UIDAI 身份使用处于 2026 年 4 月 30 日发出第 HQ-30011/3/2025-AU-HO 号通函，那加兰邦内政部据此下发到全邦。",
+        "en": "The directive lands on the accepting side: state departments, district administrations and programme agencies must accept verifiable credentials presented through the Aadhaar App wherever identity has to be confirmed. The chain of authority is explicit. UIDAI's Aadhaar Usage Division issued circular HQ-30011/3/2025-AU-HO on April 30, 2026, and the state Home Department passed it down.",
+        "es": "La instrucción recae en el lado que acepta: los departamentos estatales, las administraciones de distrito y las agencias de programas deben aceptar credenciales verificables presentadas con la app Aadhaar allí donde haya que confirmar identidad. La cadena de autoridad es explícita. La División de Uso de Aadhaar del UIDAI emitió la circular HQ-30011/3/2025-AU-HO el 30 de abril de 2026 y el Departamento del Interior estatal la trasladó."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "替代的是复印件，不是号码",
+        "en": "What replaces the photocopy is not the number",
+        "es": "Lo que sustituye a la fotocopia no es el número"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "凭证可以按需披露：只给姓名、地址、出生日期、照片与后四位，完整 12 位号码不交给离线验证请求方（OVSE）。法律效力挂在《信息技术法》对电子记录的承认上，UIDAI 的说法是它与 Aadhaar 信件、e-Aadhaar、遮蔽版 e-Aadhaar、PVC 卡、m-Aadhaar 同等。邦政府把它定位为「额外」接受的证件形式，不是替换实体卡。",
+        "en": "Disclosure is selective: name, address, date of birth, photograph and the last four digits, with the full 12-digit number withheld from the offline verification seeking entity. Legal force rests on the IT Act's recognition of electronic records, and UIDAI holds the credential equivalent to the Aadhaar letter, e-Aadhaar, masked e-Aadhaar, the PVC card and m-Aadhaar. The state frames it as an additional accepted form, not a replacement for the physical card.",
+        "es": "La divulgación es selectiva: nombre, dirección, fecha de nacimiento, fotografía y los cuatro últimos dígitos, sin entregar el número completo de 12 dígitos a la entidad que verifica sin conexión. La fuerza legal se apoya en el reconocimiento de registros electrónicos de la Ley de Tecnología de la Información, y el UIDAI considera la credencial equivalente a la carta de Aadhaar, el e-Aadhaar, el e-Aadhaar enmascarado, la tarjeta PVC y el m-Aadhaar. El estado la presenta como una forma adicional, no como sustituto de la tarjeta física."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "同一条报道里还有另一条线索：联邦院议员层面已放话，部分福利计划的受益人将改用生物识别与选民证（EPIC）核身。两条方向相反——一条把凭证搬到手机上、减少号码流转，另一条把核身从号码挪到生物识别与另一套证件。对邦级执行机构，这意味着柜台要同时支持两种流程，而公告没有给出过渡安排。",
+        "en": "The same report carries a second thread: a union minister has said beneficiaries of several welfare schemes will move to biometrics plus voter ID (EPIC) instead of Aadhaar for identification. The two directions pull apart. One moves the credential onto a phone and reduces number sharing; the other moves verification away from the number toward biometrics and a second document. For state-level agencies that means counters must run both flows, and no transition plan has been published.",
+        "es": "El mismo reporte trae un segundo hilo: un ministro de la Unión dijo que los beneficiarios de varios programas pasarán a biometría más credencial de votante (EPIC) en lugar de Aadhaar para identificarse. Las dos direcciones se separan. Una lleva la credencial al teléfono y reduce la circulación del número; la otra desplaza la verificación del número hacia la biometría y un segundo documento. Para las agencias estatales, el mostrador debe operar ambos flujos, y no se publicó plan de transición."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "印度这套体系的重心正在从「号码」转向「凭证」。号码是标识符，谁拿到都能拿去关联；可验证凭证是一次性的出示，验证方拿到的是签名与最小字段集，事后无法反查。对做受理终端的厂商，这是接口变化：柜台要能读二维码或近场出示，而不是录 12 位数字再调接口；对系统集成商，离线验证（OVSE）模式意味着断网场景也能核身，这会打开基层服务点、工地与农村网点这些过去靠复印件的场景。真正的阻力在机构侧：邦政府通知能管住政府柜台，管不住银行、电信与医院的内部流程，而福利发放场景里后者才是高频受理方。凭证格式本身也有代价，选择性披露要求验证方按字段设计校验规则，老系统通常只会比对全字段。",
+    "en": "The centre of gravity in India's system is moving from the number to the credential. A number is an identifier anyone can correlate; a verifiable credential is a one-time presentation where the verifier receives a signature and a minimal field set and cannot look it up afterwards. For terminal makers that changes the interface: counters read a QR code or a proximity presentation instead of keying 12 digits and calling an API. For integrators, offline verification means identity checks work without connectivity, which opens基层 service points, construction sites and rural branches that ran on photocopies. Resistance sits with institutions. A state directive binds government counters, not the internal processes of banks, telcos and hospitals, and those are the high-volume accepting parties in welfare delivery. The format carries its own cost: selective disclosure forces verifiers to write per-field validation rules, and legacy systems usually compare whole records.",
+    "es": "El centro de gravedad del sistema indio pasa del número a la credencial. Un número es un identificador que cualquiera puede correlacionar; una credencial verificable es una presentación de un solo uso en la que el verificador recibe una firma y un conjunto mínimo de campos y no puede consultarla después. Para los fabricantes de terminales cambia la interfaz: el mostrador lee un código QR o una presentación por proximidad en lugar de teclear 12 dígitos y llamar a una API. Para los integradores, la verificación sin conexión permite comprobar identidad sin red, lo que abre puntos de servicio de base, obras y sucursales rurales que funcionaban con fotocopias. La resistencia está en las instituciones. Una directiva estatal obliga a los mostradores públicos, no a los procesos internos de bancos, telecos y hospitales, y esos son los aceptadores de alto volumen en la entrega de prestaciones. El formato tiene su coste: la divulgación selectiva obliga al verificador a escribir reglas de validación por campo, y los sistemas heredados suelen comparar el registro completo."
+  },
+  "confidence": 0.68,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-06-telecom-03",
+  "slug": "philippines-ntc-100-sim-threshold-reverification",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "sim-registration"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-06T04:18:38+08:00",
+  "ingestedAt": "2026-11-06T02:56:21+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Technobaboy",
+      "url": "https://www.technobaboy.com/2026/11/04/ntc-wants-extra-verification-for-sim-owners-with-more-than-100-registrations/",
+      "lang": "en",
+      "publishedAt": "2026-11-04T00:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "菲律宾给 SIM 登记加核验阈值：名下超 100 张要自证在用",
+    "en": "Philippines sets a 100-SIM threshold that triggers extra ownership checks",
+    "es": "Filipinas fija en 100 SIM el umbral que activa verificaciones adicionales"
+  },
+  "summary": {
+    "zh": "11 月 4 日消息，菲律宾国家电信委员会（NTC）要求运营商对名下登记超过 100 张 SIM 的用户加做核验，用户须证明这些卡归其所有、用于合法用途，核不出来可被永久停用；NTC 同时说明并未设定登记上限，改走阈值触发复核。转售、转登记与未重新登记的卡也在排查范围内。",
+    "en": "The Philippine National Telecommunications Commission has told operators to run extra checks on subscribers holding more than 100 registered SIMs, who may have to prove they own the cards and use them legitimately, with permanent deactivation as the penalty and no cap on registrations imposed. SIMs transferred, resold or distributed without re-registration are also in scope.",
+    "es": "La Comisión Nacional de Telecomunicaciones de Filipinas ha pedido a los operadores verificar más a los abonados con más de 100 SIM registradas, que pueden tener que probar que son suyas y que las usan legítimamente, con desactivación permanente como sanción y sin límite de registros. También se revisan SIM transferidas, revendidas o distribuidas sin nuevo registro."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "不封上限，改用 100 张这条线触发复核",
+        "en": "No cap, a 100-card line that triggers review",
+        "es": "Sin tope: la línea de 100 tarjetas activa la revisión"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 4 日，菲律宾媒体报道 NTC 已要求电信运营商收紧 SIM 登记核验：名下登记超过 100 张的用户，会被要求证明这些卡确由本人持有并用于合法用途。核不出所有权的号码，面临永久停用。NTC 明确没有设定每人的登记上限，而是用 100 张这个阈值触发复核，把筛查成本压给运营商。",
+        "en": "On 4 November Philippine media reported that the NTC has ordered carriers to tighten SIM registration checks: subscribers with more than 100 cards in their name must show the cards are theirs and used for legitimate purposes, and numbers whose ownership cannot be established face permanent deactivation. The NTC said explicitly that no per-person cap exists; the 100-card threshold triggers review and pushes the screening cost onto operators.",
+        "es": "El 4 de noviembre medios filipinos informaron de que la NTC ordenó a los operadores endurecer la verificación del registro de SIM: quien tenga más de 100 tarjetas a su nombre deberá probar que son suyas y que las usa legítimamente, y los números cuya titularidad no se acredite pueden desactivarse de forma permanente. La NTC precisó que no hay tope por persona: el umbral de 100 tarjetas activa la revisión y traslada el coste del cribado a los operadores."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这条线与前一轮执法接得上。10 月底菲律宾刚要求运营商在 15 天内清理超量注册的 SIM；更早的讨论方向是直接给每人可登记数量设上限，最后落到的却是阈值复核——上限会误伤靠多卡经营的小商户，阈值则把判断权交给运营商，也让监管保留随时收紧的空间。",
+        "en": "This connects to the previous enforcement round: in late October the Philippines ordered carriers to purge excess registered SIMs within 15 days, and the earlier debate was about capping how many cards one person may register. What emerged instead is threshold-based review, because a cap would hit small businesses that legitimately run many cards, while a threshold hands judgement to operators and keeps room for the regulator to tighten later.",
+        "es": "Esto enlaza con la ronda anterior: a finales de octubre Filipinas ordenó depurar en 15 días las SIM registradas en exceso, y el debate previo era poner un tope al número de tarjetas por persona. Lo que salió es una revisión por umbral: un tope dañaría a pequeños comercios que operan muchas tarjetas con legitimidad, mientras el umbral deja el juicio en manos del operador y margen al regulador para endurecer después."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "尚未交代的部分不少：公开报道未见 NTC 的备忘录编号与生效日期，也没有说明复核要提交哪些材料、给多长时间、由谁承担核验成本。运营商侧的落地细则同样没公开，因此现在无法判断这次要求是一次性清查，还是会变成常态化的定期复核。",
+        "en": "A good deal is still open: public reports show no NTC memorandum number or effective date, and no statement of which documents the review requires, how long subscribers get, or who pays for the check. Operator-level rules are equally unpublished, so it is not yet possible to tell whether this is a one-off sweep or becomes routine periodic re-verification.",
+        "es": "Queda mucho abierto: los reportes públicos no muestran número de memorando ni fecha de vigencia de la NTC, ni qué documentos exige la revisión, cuánto plazo hay o quién paga la comprobación. Las reglas a nivel de operador tampoco se han publicado, así que no puede saberse si es una depuración puntual o una reverificación periódica permanente."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "实名登记在东南亚已经走过「收齐资料」的阶段，进入「持续证明卡是你的」阶段。对运营商，合规义务从登记环节前移到存量库，需要能按人聚合统计、批量发起复核、并在核不出时执行停用，这三件事都要改登记系统的数据模型与工单流程；靠人工客服处理上万张卡不现实，最终会落到自动化核验与身份数据接口上。对在菲律宾做渠道分销、多卡经营的小商户与电商卖家，100 张这条线是一条硬边界，越过就要准备材料自证，运营成本上升。对供应商，这是登记与核验系统的替换窗口，谁能让运营商低成本跑批量复核，谁就有单。需要注意的是这条消息目前只有媒体转述、没有原始文件，判据落在「阈值 + 永久停用」这两个可核事实上，执行强度还要看运营商公告。",
+    "en": "Registration in South-East Asia has moved from collecting documents to continuously proving the cards are yours. For operators the compliance duty shifts from the sign-up step into the existing base: they need per-person aggregation, bulk review campaigns and deactivation when ownership cannot be shown, which means changing both the registration data model and the workflow; handling tens of thousands of cards with human agents is not viable, so it lands on automated checks and identity-data interfaces. For distributors, small merchants and marketplace sellers in the Philippines who legitimately run many cards, 100 is a hard line that forces paperwork and raises operating cost. For vendors this is a replacement window for registration and verification systems: whoever lets an operator run bulk re-verification cheaply gets the order. The caveat is sourcing: this rests on media reporting without the underlying order, so the citable facts are the threshold and permanent deactivation, and the enforcement bite depends on operator notices.",
+    "es": "El registro en el sudeste asiático pasó de reunir documentos a probar de forma continua que las tarjetas son tuyas. Para los operadores, la obligación se desplaza del alta a la base existente: necesitan agregación por persona, campañas masivas de revisión y desactivación cuando no se acredite titularidad, lo que obliga a cambiar el modelo de datos y el flujo de trabajo; gestionar decenas de miles de tarjetas con agentes humanos no es viable, así que recae en verificaciones automatizadas e interfaces de datos de identidad. Para distribuidores, pequeños comercios y vendedores que operan muchas tarjetas con legitimidad, 100 es una línea dura que exige papeleo y eleva el coste. Para proveedores es una ventana de reemplazo de sistemas de registro y verificación: quien permita al operador revisar en masa a bajo coste se lleva el pedido. La advertencia es la fuente: se basa en reportes sin la orden original, así que los hechos citables son el umbral y la desactivación permanente, y la intensidad depende de los avisos de los operadores."
+  },
+  "confidence": 0.5,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11"
+  }
+}

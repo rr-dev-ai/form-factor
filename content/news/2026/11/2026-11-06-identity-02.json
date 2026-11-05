@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-06-identity-02",
+  "slug": "dermalog-nist-fastcap-contactless-tenprint",
+  "industry": "identity",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "biometrics",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-06T04:18:38+08:00",
+  "ingestedAt": "2026-11-06T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/dermalog-joins-nist-fastcap-list-for-contactless-fingerprint-biometrics",
+      "lang": "en",
+      "publishedAt": "2026-11-05T11:20:00-05:00"
+    },
+    {
+      "name": "NIST",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.500-339.pdf",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "NIST 无接触十指采集名单扩到 14 家，Dermalog 入选",
+    "en": "Dermalog joins NIST's contactless tenprint list, now 14 vendors",
+    "es": "Dermalog entra en la lista de huella sin contacto del NIST, ya con 14 proveedores"
+  },
+  "summary": {
+    "zh": "德国 Dermalog 通过 NIST 的 Fast Capture 项目资格审核，进入无接触十指采集的合格名单。该项目按 SP 500-339 评估无接触图像能否与常规指纹系统互操作。8 月首批公布 12 家，现为 14 家，同列的有 Thales、IDEMIA 与 Tech5。资格只表示可进入下一阶段测试，不等于认证通过。",
+    "en": "Germany's Dermalog has qualified for NIST's Fast Capture programme and joined the list of vendors cleared for contactless ten-print capture. The programme, run under SP 500-339, tests whether contactless images can interoperate with conventional fingerprint systems. NIST named 12 vendors in August; the list now stands at 14, including Thales, IDEMIA and Tech5. Qualification admits a vendor to the next testing phase, not to certification.",
+    "es": "La alemana Dermalog superó la calificación del programa Fast Capture del NIST y entró en la lista de proveedores habilitados para la captura sin contacto de las diez huellas. El programa, regido por la SP 500-339, evalúa si las imágenes sin contacto pueden interoperar con los sistemas dactilares convencionales. El NIST nombró 12 proveedores en agosto; ahora son 14, entre ellos Thales, IDEMIA y Tech5. La calificación da acceso a la siguiente fase de pruebas, no a una certificación."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "NIST 的 Fast Capture 项目评估无接触条件下的十指采集，判据写在 SP 500-339 里。它要回答的问题很具体：用手机或专用设备拍出来的指纹，能不能与传统滚动、平面采集的指纹库对上。Dermalog 通过审核后进入名单，同列的还有 Thales、IDEMIA 与 Tech5；名单在 8 月是 12 家，现在 14 家。",
+        "en": "NIST's Fast Capture programme evaluates ten-print capture without contact, with criteria set out in SP 500-339. The question is narrow: can prints taken with a phone or a dedicated device be matched against databases built from conventional rolled and plain impressions. Dermalog cleared the bar and joined a list that includes Thales, IDEMIA and Tech5. It had 12 names in August and 14 now.",
+        "es": "El programa Fast Capture del NIST evalúa la captura de las diez huellas sin contacto, con criterios fijados en la SP 500-339. La pregunta es concreta: si las huellas tomadas con un teléfono o un equipo dedicado pueden cotejarse con bases construidas a partir de impresiones rodadas y planas convencionales. Dermalog superó el umbral y entró en una lista que incluye a Thales, IDEMIA y Tech5. En agosto tenía 12 nombres; ahora tiene 14."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "难的不是拍清楚，是尺度对不上",
+        "en": "The hard part is scale, not sharpness",
+        "es": "Lo difícil es la escala, no la nitidez"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "无接触拍摄的指纹在形状与比例上与按压采集不同，同一枚手指换个角度、换段距离，脊线间距就会变。直接拿这类图像去比对既有库，误配率高。项目的第一阶段只做质量与可用性判定，第二阶段才测互操作。Dermalog 的另一面是它同时做传统采集设备：TF60 十指扫描仪有 FBI Appendix F 认证，在 Fime 的 Level 2 活体攻击检测里没有一次成功伪造。",
+        "en": "Contactless prints differ in shape and scale from pressed ones: change the angle or the distance and ridge spacing shifts. Matching such images against legacy databases produces high error rates. Phase one of the programme judges quality and usability; interoperability testing comes in phase two. Dermalog also builds conventional kit, and that matters: its TF60 ten-print scanner carries FBI Appendix F certification and recorded no successful spoof in Fime's Level 2 presentation-attack testing.",
+        "es": "Las huellas sin contacto difieren en forma y escala de las presionadas: cambia el ángulo o la distancia y la distancia entre crestas se altera. Cotejar esas imágenes contra bases heredadas produce alta tasa de error. La primera fase del programa juzga calidad y usabilidad; la interoperabilidad llega en la segunda. Dermalog también fabrica equipos convencionales, y eso pesa: su escáner TF60 tiene certificación FBI Appendix F y no registró ninguna falsificación exitosa en las pruebas de ataque de presentación de nivel 2 de Fime."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "潜在场景写得很直白：移动登记、野外查验、民事登记——都是没有条件摆一台十指扫描仪的地方。对采购方来说，名单的意义是筛掉了「拍得清但对不上库」的方案；对供应商来说，进入名单只是拿到参赛资格，真正的订单还取决于第二阶段互操作结果与本地认证要求。",
+        "en": "The stated use cases are blunt: mobile enrolment, field identification, civil registration, all places where a ten-print scanner cannot be set up. For buyers, the list filters out systems that capture well but match badly. For vendors, entry buys a place in the next round, not an order: that still depends on phase-two interoperability results and on local certification rules.",
+        "es": "Los casos de uso declarados son directos: enrolamiento móvil, identificación en campo y registro civil, allí donde no cabe instalar un escáner de diez huellas. Para el comprador, la lista descarta sistemas que capturan bien pero cotejan mal. Para el proveedor, entrar compra un lugar en la siguiente ronda, no un pedido: eso aún depende de los resultados de interoperabilidad de la fase dos y de las reglas locales de certificación."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "无接触采集是把登记点从固定柜台搬到村镇、学校和野外的必要条件，卡点一直是「拍出来的指纹进不了既有库」。NIST 用一份公开判据把这层不确定性切成两段：先证明图像质量够用，再证明能互操作。对做移动登记终端的厂商，第一阶段名单是可以写进投标文件的资质；对签发机构，它意味着扩点不必先换整套比对系统。需要注意名单的边界：14 家里德国、法国、美国、中国厂商混在一起，资格由美国机构发，但通过资格并不自动满足各国对生物识别数据本地化与算法备案的要求，落地时仍要逐国过一遍。第二阶段测试结果出来之前，把名单当采购白名单是误读。",
+    "en": "Contactless capture is what lets enrolment move from fixed counters to villages, schools and field sites, and the blocker has always been that the resulting prints do not match legacy databases. NIST splits that uncertainty in two with a public criterion: first prove image quality is sufficient, then prove interoperability. For makers of mobile enrolment terminals, phase-one listing is a credential that can go into a bid. For issuing agencies, it means new sites do not require replacing the matching stack first. The list's limits matter too. Fourteen vendors from Germany, France, the US and China sit on it, qualified by a US agency, and qualification does not satisfy national rules on biometric data localisation or algorithm registration. Every market still has its own gate. Until phase-two results land, treating the list as a procurement whitelist misreads it.",
+    "es": "La captura sin contacto es lo que permite llevar el enrolamiento de mostradores fijos a pueblos, escuelas y operativos de campo, y el obstáculo siempre fue que las huellas resultantes no cotejan con las bases heredadas. El NIST divide esa incertidumbre en dos con un criterio público: primero demostrar calidad de imagen suficiente, después interoperabilidad. Para los fabricantes de terminales móviles de enrolamiento, figurar en la fase uno es un mérito que puede entrar en una licitación. Para las agencias emisoras, significa que abrir nuevos puntos no exige cambiar antes todo el sistema de cotejo. También importan los límites: catorce proveedores de Alemania, Francia, Estados Unidos y China, calificados por una agencia estadounidense, y la calificación no satisface las normas nacionales de localización de datos biométricos ni de registro de algoritmos. Cada mercado conserva su propia puerta. Hasta que lleguen los resultados de la fase dos, tratar la lista como un catálogo de compra autorizada es una mala lectura."
+  },
+  "confidence": 0.74,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

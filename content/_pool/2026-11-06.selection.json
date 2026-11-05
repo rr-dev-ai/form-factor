@@ -1,0 +1,205 @@
+{
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-05T20:18:25.540Z",
+  "selected": [
+    {
+      "industry": "banking",
+      "slug": "juspay-niubiz-peru-tapp",
+      "score": 0.6,
+      "reason": "region-floor",
+      "region": "latam",
+      "sourceDate": "2026-11-06"
+    },
+    {
+      "industry": "banking",
+      "slug": "google-pay-nigeria-mastercard-interswitch",
+      "score": 0.7,
+      "reason": "region-floor",
+      "region": "africa",
+      "sourceDate": "2026-11-06"
+    },
+    {
+      "industry": "banking",
+      "slug": "uzbekistan-apple-pay-google-pay-data-law",
+      "score": 0.68,
+      "reason": "region-floor",
+      "region": "cis",
+      "sourceDate": "2026-11-06"
+    },
+    {
+      "industry": "identity",
+      "slug": "hashid-wallet-zero-knowledge-age-proof",
+      "score": 0.7,
+      "reason": "region-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-06"
+    },
+    {
+      "industry": "identity",
+      "slug": "dermalog-nist-fastcap-contactless-tenprint",
+      "score": 0.74,
+      "reason": "region-floor",
+      "region": "north-america",
+      "sourceDate": "2026-11-06"
+    },
+    {
+      "industry": "identity",
+      "slug": "nagaland-aadhaar-app-verifiable-credentials",
+      "score": 0.68,
+      "reason": "region-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-06"
+    },
+    {
+      "industry": "banking",
+      "slug": "dubai-nol-jaywan-combined-card-pilot",
+      "score": 0.72,
+      "reason": "region-floor",
+      "region": "mena",
+      "sourceDate": "2026-11-06"
+    },
+    {
+      "industry": "telecom",
+      "slug": "eastcompeace-rus-moscow-sim-plant-capacity",
+      "score": 0.66,
+      "reason": "industry-floor",
+      "region": "cis",
+      "sourceDate": "2026-11-06"
+    },
+    {
+      "industry": "telecom",
+      "slug": "st-st87m01-softsim-sgp32-factory-provisioning",
+      "score": 0.63,
+      "reason": "industry-floor",
+      "region": "global",
+      "sourceDate": "2026-11-06"
+    },
+    {
+      "industry": "telecom",
+      "slug": "orange-branded-call-france-man-attestation",
+      "score": 0.6,
+      "reason": "industry-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-06"
+    },
+    {
+      "industry": "identity",
+      "slug": "veriff-presence-verification-coercion-detection",
+      "score": 0.75,
+      "reason": "fill",
+      "region": "global",
+      "sourceDate": "2026-11-06"
+    },
+    {
+      "industry": "identity",
+      "slug": "paravision-state-department-photo-identity-suite",
+      "score": 0.72,
+      "reason": "fill",
+      "region": "north-america",
+      "sourceDate": "2026-11-06"
+    },
+    {
+      "industry": "banking",
+      "slug": "upi-dubai-duty-free-network-international",
+      "score": 0.66,
+      "reason": "fill",
+      "region": "mena",
+      "sourceDate": "2026-11-06"
+    },
+    {
+      "industry": "telecom",
+      "slug": "philippines-ntc-100-sim-threshold-reverification",
+      "score": 0.5,
+      "reason": "fill",
+      "region": "apac",
+      "sourceDate": "2026-11-06"
+    }
+  ],
+  "alternates": [
+    {
+      "industry": "identity",
+      "slug": "ocr-studio-one-shot-kyc-on-device",
+      "score": 0.7,
+      "reason": "fill"
+    },
+    {
+      "industry": "identity",
+      "slug": "bahrain-private-digital-id-bill",
+      "score": 0.66,
+      "reason": "fill"
+    },
+    {
+      "industry": "banking",
+      "slug": "vtb-resident-card-750k-mir-multi-application",
+      "score": 0.64,
+      "reason": "fill"
+    },
+    {
+      "industry": "banking",
+      "slug": "mastercard-samsung-pay-morocco-mdes",
+      "score": 0.62,
+      "reason": "fill"
+    },
+    {
+      "industry": "banking",
+      "slug": "mtb-gpay-takapay-prepaid-card-bangladesh",
+      "score": 0.62,
+      "reason": "fill"
+    },
+    {
+      "industry": "banking",
+      "slug": "truist-merchant-engage-clover-paze-onboarding",
+      "score": 0.6,
+      "reason": "fill"
+    },
+    {
+      "industry": "banking",
+      "slug": "bank-of-punjab-mastercard-world-elite",
+      "score": 0.58,
+      "reason": "fill"
+    },
+    {
+      "industry": "banking",
+      "slug": "tbc-georgia-palm-payments",
+      "score": 0.55,
+      "reason": "fill"
+    }
+  ],
+  "expired": [
+    {
+      "slug": "georgia-state-patrol-digital-license-readers",
+      "eventAt": "2026-10-30T04:00:00.000Z",
+      "hours": 160
+    },
+    {
+      "slug": "deel-security-workforce-identity-checks",
+      "eventAt": "2026-11-02T05:00:00.000Z",
+      "hours": 87
+    }
+  ],
+  "gaps": [],
+  "unaccounted": [
+    {
+      "title": "Acceleronix, IDEMIA Secure Transactions and Orange announce flexible, single-SKU manufacturing with quantum-safe IFPP",
+      "url": "https://www.idemia.com/press-release/acceleronix-idemia-secure-transactions-and-orange-announce-flexible-single-sku-manufacturing-quantum-safe-ifpp-2026-11-04",
+      "confidence": 0.85
+    },
+    {
+      "title": "Acceleronix, IDEMIA Secure Transactions and Orange announce flexible, single-SKU manufacturing with quantum-safe IFPP",
+      "url": "https://iot-now.com/2026/11/05/159230-acceleronix-idemia-orange-single-sku-quantum-safe-ifpp/",
+      "confidence": 0.85
+    },
+    {
+      "title": "Pine Labs, Stripe to Unify Online and In-Store Payments in Singapore",
+      "url": "https://fintechnews.sg/140521/payments/pine-labs-stripe-singapore-unified-commerce/",
+      "confidence": 0.6
+    }
+  ],
+  "conflicts": [
+    {
+      "kind": "cross-industry-duplicate",
+      "detail": "banking/truist-merchant-services-clover-paze 与 banking/truist-merchant-engage-clover-paze-onboarding 报道同一事件 ｜ 裁决：两条同为 banking、同属 north-america，属同一事件的两版写法。保留双来源、分数更高的 0.60 版（truist-merchant-engage-clover-paze-onboarding，现列候补）；0.58 版不进候选。banking 已满 5 条，入选最低分为 upi-dubai 0.66，0.60 不满足换入条件，故本次两条都不入发布名单。",
+      "resolved": true
+    }
+  ]
+}
