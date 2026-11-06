@@ -28,8 +28,18 @@ credentials*.json
 /research/
 # 给 agent 的项目契约，本地运行时可读，无需公开
 /AGENTS.md
-# 一次性构建工具（源池合并）
-/scripts/build-source-list.mjs
+
+# 测试与只在本机跑的脚本：远端只放建站和远端工作流需要的文件。
+# 这些文件仍留在本地磁盘（定时任务和 npm test 要用），版本控制交给
+# 同级的 IndustryNews-dev 仓库（改完跑那里的 sync.ps1）。
+/tests/
+/scripts/*
+# 例外：GitHub Actions 的抓取工作流要执行这三个
+!/scripts/fetch-sources.mjs
+!/scripts/lib/
+/scripts/lib/*
+!/scripts/lib/targets.mjs
+!/scripts/lib/prune.mjs
 
 # 编辑任务的中间产物，聚合后即删除
 content/_meta/runs.partial-*.json
