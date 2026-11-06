@@ -2,8 +2,11 @@ name: Fetch sources
 
 on:
   schedule:
-    # UTC 16:20 = 北京时间次日 00:20
-    - cron: '20 16 * * *'
+    # UTC 15:40 = 北京时间 23:40。
+    # 不能只按"计划几点"排：实测 schedule 的排队延迟是 33–66 分钟（01:20 起跑的
+    # 那几天实际落在 00:52–01:26），原定 00:20 常常拖到 01:26 才落盘，留给 01:30
+    # 候选标注的余量只剩三分钟。提前 40 分钟，最坏延迟也还留着一小时。
+    - cron: '40 15 * * *'
   workflow_dispatch:
 
 permissions:
@@ -26,13 +29,27 @@ jobs:
 
       - run: npm ci
 
+      # 归属日期不能由脚本按"现在几点"推：23:40 起跑时北京还停在前一天。
+      # 这里按小时分档，而不是无脑 +1 天——延迟两小时的情况下任务会在次日
+      # 01:40 启动，那时 +1 天会写成后天，分档能扛住 20 小时的延迟。
+      - name: Resolve site date
+        run: |
+          H=$(TZ=Asia/Shanghai date +%H)
+          if [ "$H" -ge 20 ]; then
+            FOR_DATE=$(TZ=Asia/Shanghai date -d '+1 day' +%F)
+          else
+            FOR_DATE=$(TZ=Asia/Shanghai date +%F)
+          fi
+          echo "FOR_DATE=$FOR_DATE" >> "$GITHUB_ENV"
+          echo "归属日期 $FOR_DATE"
+
       # 只跑 rss 源：39 个 scrape 源的 selector 均未调通（实测 0/39 能取到条目），
       # 全量跑只会固定产生 39 条失败，覆盖不了任何区域。调通后再放开。
       # 脚本内置 72 小时时效剪枝，raw 只留窗口内的条目；前一天的文件缺失时
       # 自动放宽到 120 小时兜住一次失败，所以这里不需要传 --window-hours。
       # 另按前三天 raw / 池 / 已发布内容的 URL 过滤已处理过的条目，items 只留新候选。
       - name: Fetch enabled sources
-        run: node scripts/fetch-sources.mjs --rss-only
+        run: node scripts/fetch-sources.mjs --rss-only --for-date "$FOR_DATE"
 
       - name: Commit raw output
         run: |
@@ -42,7 +59,8 @@ jobs:
           if git diff --staged --quiet; then
             echo "no changes"
           else
-            git commit -m "chore: fetch sources $(TZ=Asia/Shanghai date +%F)"
+            # 用归属日期而不是 date +%F：23:40 跑的时候 date +%F 还是前一天
+            git commit -m "chore: fetch sources $FOR_DATE"
             git push
           fi
 

@@ -41,6 +41,7 @@ credentials*.json
 !/scripts/lib/targets.mjs
 !/scripts/lib/prune.mjs
 !/scripts/lib/seen.mjs
+!/scripts/lib/site-date.mjs
 
 # 编辑任务的中间产物，聚合后即删除
 content/_meta/runs.partial-*.json

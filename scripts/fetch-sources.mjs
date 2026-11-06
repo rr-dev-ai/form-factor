@@ -1,7 +1,8 @@
 /**
  * 抓取 sources.json 中启用的源，输出原始条目到 content/_raw/YYYY-MM-DD.json。
- * 文件名里的日期是**站点时区**（Asia/Shanghai）的日期，不是 UTC 日期：
- * 定时任务在北京时间 00:20 跑，UTC 还停在前一天，用 UTC 命名会和归档页差一天。
+ * 文件名里的日期是**站点时区**（Asia/Shanghai）的日期，不是 UTC 日期，也不是
+ * 脚本启动时刻的日期：定时任务在北京时间 23:40 跨日跑，这一跑服务的是次日，
+ * 所以 workflow 显式传 `--for-date`。不传时退回站点日期，用于手工补跑。
  *
  * 每个源只有两种取链接的方式：
  *   rss    — 解析 feed（RSS 2.0 / Atom）
@@ -25,6 +26,7 @@
  *   node scripts/fetch-sources.mjs --window-hours 120 # 手动放宽时效窗
  *   node scripts/fetch-sources.mjs --no-prune       # 关闭剪枝，取全量（排查源用）
  *   node scripts/fetch-sources.mjs --no-seen        # 不过滤见过的，取全量（排查用）
+ *   node scripts/fetch-sources.mjs --for-date 2026-11-06  # 指定归属日期（23:40 跨日跑必须带）
  *
  * 单源验证请一律带 `--no-write`：本脚本按站点日期写 `content/_raw/YYYY-MM-DD.json`，
  * 单源跑会用这一条源的结果覆盖当天的全量抓取。
@@ -36,23 +38,11 @@ import { load } from 'cheerio';
 import { pickTargets } from './lib/targets.mjs';
 import { pruneByWindow, resolveWindowHours } from './lib/prune.mjs';
 import { collectSeen } from './lib/seen.mjs';
+import { shiftDate, resolveForDate } from './lib/site-date.mjs';
 
 const ROOT = process.cwd();
 const CFG_PATH = path.join(ROOT, 'config', 'sources.json');
 const OUT_DIR = path.join(ROOT, 'content', '_raw');
-
-/** 站点时区。与 src/config/site.ts 的 site.timeZone 保持一致。 */
-const SITE_TZ = 'Asia/Shanghai';
-
-/** 按站点时区取日期（YYYY-MM-DD），不依赖运行机器的本地时区 */
-function siteDate(d) {
-  return new Intl.DateTimeFormat('en-CA', {
-    timeZone: SITE_TZ,
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
-  }).format(d);
-}
 
 const UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
@@ -81,16 +71,20 @@ const noPrune = args.includes('--no-prune');
 const noSeen = args.includes('--no-seen');
 
 /** 带值的参数，它的值不能当成源 id */
-const VALUE_FLAGS = new Set(['--window-hours']);
+const VALUE_FLAGS = new Set(['--window-hours', '--for-date']);
 const onlyIds = [];
 let windowArg;
+let forDateArg;
 for (let i = 0; i < args.length; i += 1) {
-  if (VALUE_FLAGS.has(args[i])) {
-    windowArg = args[i + 1];
+  const flag = args[i];
+  if (VALUE_FLAGS.has(flag)) {
+    const value = args[i + 1];
+    if (flag === '--window-hours') windowArg = value;
+    else forDateArg = value;
     i += 1;
     continue;
   }
-  if (!args[i].startsWith('--')) onlyIds.push(args[i]);
+  if (!flag.startsWith('--')) onlyIds.push(flag);
 }
 
 const cfg = JSON.parse(fs.readFileSync(CFG_PATH, 'utf8'));
@@ -269,13 +263,22 @@ async function pool(list, limit = 5, options = {}) {
   return results;
 }
 
-// 同一个时刻同时决定 fetchedAt、fetchedFor、剪枝基准与文件名，避免跨越时区零点时四者不一致
+// 同一个时刻同时决定 fetchedAt、剪枝基准与文件内容；
+// 归属日期 fetchedFor 单独解析——cron 已提前到北京 23:40，启动时站点时区还停在
+// 前一天，靠 now 推会写错文件名。
 const now = new Date();
-const fetchedFor = siteDate(now);
+let fetchedFor;
+try {
+  ({ date: fetchedFor } = resolveForDate({ now, arg: forDateArg }));
+} catch (err) {
+  console.error(err.message);
+  process.exit(2);
+}
 
 // 前一天的文件不在，说明上次抓取没成功——放宽窗口把那天的稿子捞回来，
 // 否则一次失败会让 D-3 的内容在恢复当天全部过期。
-const yesterday = siteDate(new Date(now.getTime() - 86400000));
+// anchor 必须跟着 fetchedFor 走，不能跟着 now：跨日跑时两者差一天。
+const yesterday = shiftDate(fetchedFor, -1);
 const yesterdayExists = fs.existsSync(path.join(OUT_DIR, `${yesterday}.json`));
 
 let windowHours;
