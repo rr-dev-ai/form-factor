@@ -7,12 +7,15 @@
  *   rss    — 解析 feed（RSS 2.0 / Atom）
  *   scrape — 抓列表页，按 css 选择器或 urlPattern 提取
  *
- * 只做一件判断：按 72 小时时效窗剪枝（AGENTS.md 的规则）。feed 一次给最近
- * 25 条，其中过半是往期稿子；不剪的话标注任务每天要把它们重标一遍。
- * 没有 publishedAt 的条目一律保留——判不了时效，砍了会误伤整源。
- * 前一天的文件缺失说明上次抓取失败，此时自动放宽窗口把那天捞回来。
+ * 只做两件判断：
+ *   1. 按 72 小时时效窗剪枝（AGENTS.md 的规则）。feed 一次给最近 25 条，
+ *      其中过半是往期稿子；不剪的话标注任务每天要把它们重标一遍。
+ *      没有 publishedAt 的条目一律保留——判不了时效，砍了会误伤整源。
+ *      前一天的文件缺失说明上次抓取失败，此时自动放宽窗口把那天捞回来。
+ *   2. 按「近三天见过」过滤。72 小时窗口意味着同一篇会被连抓三次，
+ *      见得过了就不再交给标注，只在 results[].seen 里留证。
  *
- * 去重、行业判断、摘要都不在这里做，本脚本只负责"把窗口内的候选搬回来"。
+ * 行业判断与摘要不在这里做，本脚本只负责"把没见过的候选搬回来"。
  *
  * 用法：
  *   node scripts/fetch-sources.mjs            # 全部启用源
@@ -21,6 +24,7 @@
  *   node scripts/fetch-sources.mjs --no-write <id>  # 只看结果，不落盘
  *   node scripts/fetch-sources.mjs --window-hours 120 # 手动放宽时效窗
  *   node scripts/fetch-sources.mjs --no-prune       # 关闭剪枝，取全量（排查源用）
+ *   node scripts/fetch-sources.mjs --no-seen        # 不过滤见过的，取全量（排查用）
  *
  * 单源验证请一律带 `--no-write`：本脚本按站点日期写 `content/_raw/YYYY-MM-DD.json`，
  * 单源跑会用这一条源的结果覆盖当天的全量抓取。
@@ -31,6 +35,7 @@ import { execFile } from 'node:child_process';
 import { load } from 'cheerio';
 import { pickTargets } from './lib/targets.mjs';
 import { pruneByWindow, resolveWindowHours } from './lib/prune.mjs';
+import { collectSeen } from './lib/seen.mjs';
 
 const ROOT = process.cwd();
 const CFG_PATH = path.join(ROOT, 'config', 'sources.json');
@@ -62,10 +67,18 @@ const BASE_HEADERS = {
 const MAX_ITEMS_PER_SOURCE = 25;
 const TIMEOUT_MS = 20000;
 
+/**
+ * 「见过」的回看天数。与 72 小时时效窗对齐：窗口内最多被抓三次，
+ * 取三天就够；放大到 7 天会把仍在窗口内、但昨天因行业满额没被采用的
+ * 候选也挡掉，那是排期问题不是重复问题。
+ */
+const SEEN_DAYS = 3;
+
 const args = process.argv.slice(2);
 const rssOnly = args.includes('--rss-only');
 const noWrite = args.includes('--no-write');
 const noPrune = args.includes('--no-prune');
+const noSeen = args.includes('--no-seen');
 
 /** 带值的参数，它的值不能当成源 id */
 const VALUE_FLAGS = new Set(['--window-hours']);
@@ -274,7 +287,29 @@ try {
   process.exit(2);
 }
 
-const results = await pool(targets, 5, { now, windowHours });
+const fetched = await pool(targets, 5, { now, windowHours });
+
+// 见过的不再交给标注：72 小时窗会把同一篇连抓三天，只对比前一天不够——
+// D+1 被剔掉后它就不在 D+1 的 raw 里，D+2 会复活。所以取前 SEEN_DAYS 天并集。
+// 只过滤 items，被剔的进 seen：prunedBySource 的健康度信号与 artifact 排查都还要用。
+const seen = noSeen ? new Map() : collectSeen({ root: ROOT, date: fetchedFor, days: SEEN_DAYS });
+let seenTotal = 0;
+const seenBySource = {};
+
+const results = fetched.map((result) => {
+  if (!result.ok || !result.items?.length) return { ...result, seen: [] };
+  const fresh = [];
+  const dropped = [];
+  for (const item of result.items) {
+    const at = seen.get(item.url);
+    if (at) dropped.push({ ...item, seenBefore: at });
+    else fresh.push(item);
+  }
+  if (dropped.length === 0) return { ...result, seen: [] };
+  seenTotal += dropped.length;
+  seenBySource[result.source.id] = dropped.length;
+  return { ...result, items: fresh, seen: dropped };
+});
 
 const fetchedTotal = results.reduce((sum, r) => sum + (r.parsedCount ?? 0), 0);
 const keptTotal = results.reduce((sum, r) => sum + (r.items?.length ?? 0), 0);
@@ -300,6 +335,11 @@ const payload = {
     catchUp,
     /** 按源记录剪掉的条数：某源长期被砍空说明它更新慢，是健康度信号 */
     prunedBySource,
+    /** 因近 SEEN_DAYS 天已处理过（抓过 / 进池 / 已发布）而不再交给标注的条数 */
+    seen: seenTotal,
+    /** 按源记录剔掉的条数：某源长期只给旧闻，同样值得看 */
+    seenBySource,
+    seenDays: SEEN_DAYS,
   },
   results: results.map((r) => ({
     id: r.source.id,
@@ -308,14 +348,26 @@ const payload = {
     industries: r.source.industries,
     ok: r.ok,
     ms: r.ms,
-    ...(r.ok ? { count: r.items.length, items: r.items } : { error: r.error }),
+    ...(r.ok
+      ? {
+          count: r.items.length,
+          items: r.items,
+          // seen 只留证，不参与标注；保留 count/items 的语义不变
+          ...(r.seen?.length ? { seenCount: r.seen.length, seen: r.seen } : {}),
+        }
+      : { error: r.error }),
   })),
 };
 
 console.log(JSON.stringify(payload.stats, null, 2));
 console.log(
   `\n时效窗 ${windowHours}h${catchUp ? '（前一天抓取缺失，已自动放宽）' : ''}：` +
-    `解析 ${fetchedTotal} 条，保留 ${keptTotal}，剪掉 ${prunedTotal}`
+    `解析 ${fetchedTotal} 条，保留 ${keptTotal} 条新条目，剪掉 ${prunedTotal}`
+);
+console.log(
+  noSeen
+    ? '--no-seen：未过滤近三天已处理过的条目'
+    : `近 ${SEEN_DAYS} 天已处理过 ${seenTotal} 条，未交给标注（--no-seen 可关闭）`
 );
 if (noPrune) console.log('--no-prune：未做时效剪枝');
 console.log('\nfailed:');

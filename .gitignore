@@ -34,12 +34,13 @@ credentials*.json
 # 同级的 IndustryNews-dev 仓库（改完跑那里的 sync.ps1）。
 /tests/
 /scripts/*
-# 例外：GitHub Actions 的抓取工作流要执行这三个
+# 例外：GitHub Actions 的抓取工作流要执行这四个
 !/scripts/fetch-sources.mjs
 !/scripts/lib/
 /scripts/lib/*
 !/scripts/lib/targets.mjs
 !/scripts/lib/prune.mjs
+!/scripts/lib/seen.mjs
 
 # 编辑任务的中间产物，聚合后即删除
 content/_meta/runs.partial-*.json

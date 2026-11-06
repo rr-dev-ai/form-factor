@@ -30,6 +30,7 @@ jobs:
       # 全量跑只会固定产生 39 条失败，覆盖不了任何区域。调通后再放开。
       # 脚本内置 72 小时时效剪枝，raw 只留窗口内的条目；前一天的文件缺失时
       # 自动放宽到 120 小时兜住一次失败，所以这里不需要传 --window-hours。
+      # 另按前三天 raw / 池 / 已发布内容的 URL 过滤已处理过的条目，items 只留新候选。
       - name: Fetch enabled sources
         run: node scripts/fetch-sources.mjs --rss-only
 
