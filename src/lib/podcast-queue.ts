@@ -62,6 +62,22 @@ export function calendarCells(monthKey: string): Array<{ date: string; inMonth: 
   });
 }
 
+/**
+ * 乱序 fetch：只有最后一次请求的日期可以落到 DOM 上。
+ * 快速连点 A→B 时，A 的响应晚到也不能覆盖 B 的列表与日期栏。
+ */
+export function isCurrentView(requested: string, currentViewDate: string): boolean {
+  return requested === currentViewDate;
+}
+
+/**
+ * 换条目必然复位播放控制。一次瞬时 error 不应让后续所有条目永久禁用
+ * 播放/暂停按钮；错误态只属于当前这一条音频。
+ */
+export function onTrackStart(_hadError: boolean): { disabled: boolean; audioError: boolean } {
+  return { disabled: false, audioError: false };
+}
+
 export type DayState = 'selected' | 'available' | 'future' | 'disabled';
 
 export function dayState(

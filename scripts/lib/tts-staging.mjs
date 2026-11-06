@@ -91,6 +91,38 @@ export function manifestsFromStaging(stagingDir, { withWarnings = false } = {}) 
 }
 
 /**
+ * 删除 staging 里属于窗外日期的 mp3 与旁挂 json。
+ * 只按旁挂里的 date 判断，不猜文件名；解析不出的旁挂一律跳过（宁可留着也不误删）。
+ * 由 publisher 在 sync 成功之后调用——上传失败时不改动本地唯一副本。
+ */
+export function pruneStaging(stagingDir, staleDates) {
+  const stale = new Set(staleDates);
+  const removed = [];
+  if (stale.size === 0) return removed;
+
+  for (const locale of LOCALES) {
+    const dir = path.join(stagingDir, 'audio', locale);
+    if (!fs.existsSync(dir)) continue;
+    for (const name of fs.readdirSync(dir)) {
+      if (!name.endsWith('.mp3.json')) continue;
+      const metaPath = path.join(dir, name);
+      let meta;
+      try {
+        meta = JSON.parse(fs.readFileSync(metaPath, 'utf8'));
+      } catch {
+        continue;
+      }
+      if (!stale.has(meta.date)) continue;
+      const mp3Path = path.join(dir, name.slice(0, -5));
+      if (fs.existsSync(mp3Path)) fs.unlinkSync(mp3Path);
+      fs.unlinkSync(metaPath);
+      removed.push(`audio/${locale}/${name.slice(0, -5)}`);
+    }
+  }
+  return removed;
+}
+
+/**
  * rclone sync 参数。缓存头必须显式设置——r2.dev 实测不带 Cache-Control。
  *
  * 旁挂 json 与 .part 临时文件必须排除：--header-upload 会把它们也标成

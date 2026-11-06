@@ -19,7 +19,8 @@ const dict = t(locale);
   data-label-pause={dict.pause}
   data-duration={audio.duration}
 >
-  <audio preload="none" src={audio.src} crossorigin="anonymous" data-audio></audio>
+  <!-- 普通播放走 no-cors，不给 R2 引入未配置的 ACAO 前置条件 -->
+  <audio preload="none" src={audio.src} data-audio></audio>
   <div class="audio-bar">
     <button type="button" class="audio-btn" data-play aria-label={dict.play} title={dict.play}>
       <svg class="audio-icon-play" viewBox="0 0 20 20" aria-hidden="true">

@@ -5,6 +5,8 @@ import {
   shiftMonth,
   calendarCells,
   dayState,
+  isCurrentView,
+  onTrackStart,
   type Queue,
 } from '../lib/podcast-queue.ts';
 
@@ -70,6 +72,7 @@ function init(root: HTMLElement) {
   let queueItemsDate = '';
   let calMonth = (viewDate || todayKey).slice(0, 7);
   let total = 0;
+  let hadError = false;
 
   const shortDate = (key: string) => `${Number(key.slice(5, 7))}/${Number(key.slice(8, 10))}`;
   const clock = (seconds: number) => {
@@ -123,7 +126,7 @@ function init(root: HTMLElement) {
     });
   }
 
-  function renderList(items: Item[]) {
+  function renderList(items: Item[], dateOfRender: string) {
     list.replaceChildren();
     items.forEach((item, index) => {
       const li = document.createElement('li');
@@ -139,7 +142,7 @@ function init(root: HTMLElement) {
       icon.setAttribute('aria-hidden', 'true');
       icon.textContent = '▶';
       button.append(icon);
-      button.addEventListener('click', () => void startQueue(viewDate, index, items));
+      button.addEventListener('click', () => void startQueue(dateOfRender, index, items));
 
       const title = document.createElement('span');
       title.className = 'podcast-item-title';
@@ -163,6 +166,12 @@ function init(root: HTMLElement) {
   function playAt(index: number, items: Item[]) {
     const item = items[index];
     if (!item) return;
+    // 换条目就复位：一次瞬时 error 不能锁死后续所有条目的播放控制
+    const state = onTrackStart(hadError);
+    barToggle.disabled = state.disabled;
+    if (state.audioError) root.dataset.audioError = 'true';
+    else delete root.dataset.audioError;
+    hadError = false;
     bar.hidden = false;
     barTitle.textContent = item.title;
     barTitle.title = item.title;
@@ -173,6 +182,7 @@ function init(root: HTMLElement) {
     updateBadge();
     updatePlayingMark();
     audio.play().catch(() => {
+      hadError = true;
       root.dataset.audioError = 'true';
       barToggle.disabled = true;
     });
@@ -215,10 +225,14 @@ function init(root: HTMLElement) {
   }
 
   async function setView(date: string) {
+    const requested = date;
     viewDate = date;
     // 队列不动：切日期只换视图，播放不中断
-    viewItems = await sliceFor(date);
-    renderList(viewItems);
+    const items = await sliceFor(date);
+    // 快速连点 A→B 时，A 的响应晚到也不能覆盖 B 的列表/日期栏
+    if (!isCurrentView(requested, viewDate)) return;
+    viewItems = items;
+    renderList(viewItems, requested);
     updateDateBar();
     updateBadge();
     calMonth = date.slice(0, 7);
@@ -305,7 +319,7 @@ function init(root: HTMLElement) {
   });
 
   barToggle.addEventListener('click', () => {
-    if (audio.paused) audio.play().catch(() => { barToggle.disabled = true; });
+    if (audio.paused) audio.play().catch(() => { hadError = true; barToggle.disabled = true; });
     else audio.pause();
   });
   barSeek.addEventListener('input', () => {
@@ -328,11 +342,12 @@ function init(root: HTMLElement) {
   });
   audio.addEventListener('ended', () => void advance());
   audio.addEventListener('error', () => {
+    hadError = true;
     root.dataset.audioError = 'true';
     barToggle.disabled = true;
   });
 
   updateDateBar();
-  renderList(initial);
+  renderList(initial, viewDate);
   updateBadge();
 }

@@ -4,7 +4,7 @@ import { execFileSync } from 'node:child_process';
 import { pathToFileURL } from 'node:url';
 import { RENDER_VERSION, WINDOW_DAYS } from '../src/config/audio.ts';
 import { toDateKey } from '../src/lib/content.ts';
-import { manifestsFromStaging, syncArgs } from './lib/tts-staging.mjs';
+import { manifestsFromStaging, syncArgs, pruneStaging } from './lib/tts-staging.mjs';
 import { writeManifest, pruneDates } from './lib/tts-manifest.mjs';
 
 export const R2_REMOTE_DEFAULT = 'r2:form-factor-audio';
@@ -41,14 +41,23 @@ export async function publish({
   const { sections, warnings } = manifestsFromStaging(stagingDir, { withWarnings: true });
   for (const warning of warnings) console.warn(`  warn ${warning}`);
 
+  const prior = existingManifestDates(manifestDir);
+  // 窗口判断必须覆盖「已有 manifest 日期 ∪ staging 新日期」：
+  // 只裁 prior 会让 staging 里新出现的窗外日期被写进日期索引。
+  const allDates = [...new Set([...prior, ...sections.keys()])];
+  const staleDates = pruneDates(allDates, todayKey, WINDOW_DAYS);
+  const stale = new Set(staleDates);
+
   const args = syncArgs(stagingDir, remote);
   const sync = runSync ?? ((syncArguments) => execFileSync(rcloneBin, syncArguments, { stdio: 'inherit' }));
   // 抛错即中止：下面所有写盘都发生在 sync 成功之后。
   await sync(args);
 
+  // sync 成功后才清理本地镜像；远端对应对象由下一次 sync 的镜像删除语义清除。
+  const removedStaging = pruneStaging(stagingDir, staleDates);
+  for (const date of staleDates) sections.delete(date);
+
   const generatedAt = new Date().toISOString();
-  const prior = existingManifestDates(manifestDir);
-  const stale = new Set(pruneDates(prior, todayKey, WINDOW_DAYS));
   const dates = new Set([...prior, ...sections.keys()]);
   const written = [];
   const removed = [];
@@ -69,7 +78,7 @@ export async function publish({
     written.push(date);
   }
 
-  return { dates: written, removed, warnings, remote, args };
+  return { dates: written, removed, removedStaging, warnings, remote, args, renderer: RENDER_VERSION };
 }
 
 export function parseArgs(argv) {
@@ -106,7 +115,7 @@ export async function main(argv = process.argv.slice(2)) {
 
   try {
     const result = await publish(opts);
-    console.log(`发布完成：写入 manifest ${result.dates.length} 天（${result.dates.join(', ') || '无'}），清理 ${result.removed.length} 天`);
+    console.log(`发布完成：写入 manifest ${result.dates.length} 天（${result.dates.join(', ') || '无'}），清理 manifest ${result.removed.length} 天、staging 文件 ${result.removedStaging.length} 个`);
   } catch (err) {
     console.error(`发布失败，manifest 未改动：${err.message}`);
     process.exitCode = 1;
