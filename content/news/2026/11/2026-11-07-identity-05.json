@@ -1,0 +1,100 @@
+{
+  "id": "2026-11-07-identity-01",
+  "slug": "kosovo-eid-wallet-esignature-launch",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "mobile-id",
+    "pki",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-07T04:17:41+08:00",
+  "ingestedAt": "2026-11-07T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/kosovo-launches-national-digital-id-wallet-e-signatures-ahead-of-eudi-alignment",
+      "lang": "en",
+      "publishedAt": "2026-11-05T14:41:00-05:00"
+    },
+    {
+      "name": "Office of the Prime Minister of Kosovo",
+      "url": "https://kryeministri.rks-gov.net/en/news/lansohet-platforma-nacionale-e-identitetit-elektronik-dhe-kuleta-digjitale/",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "科索沃上线国家电子身份与数字钱包，11 月 9 日起登记",
+    "en": "Kosovo launches national eID, digital wallet and e-signature service",
+    "es": "Kosovo lanza su identidad electrónica, cartera digital y firma electrónica"
+  },
+  "summary": {
+    "zh": "科索沃 11 月 3 日发布国家电子身份、数字钱包与电子签名三项服务：钱包支持 Android 与 iOS，存放身份与相关证件；电子签名可在手机或电脑上签署文件；电子身份取代 eKosova 等平台的口令登录。登记从 11 月 9 日在民事登记局七个区域中心启动，欧盟 IPA 出资 320 万欧元。",
+    "en": "Kosovo presented a national electronic identity, a digital wallet and an e-signature service in Pristina on 3 November. The wallet runs on Android and iOS and stores the identity plus related documents; eSign lets users sign from a phone or computer, and organisations can seal documents electronically. The eID also replaces password logins on platforms such as eKosova. Enrolment starts 9 November at seven regional centres of the Civil Registration Agency, on a project funded with EUR 3.2 million from the EU IPA.",
+    "es": "Kosovo presentó el 3 de noviembre en Pristina una identidad electrónica nacional, una cartera digital y un servicio de firma electrónica. La cartera funciona en Android e iOS y guarda la identidad y documentos asociados; la firma permite firmar desde el teléfono o el ordenador, y las organizaciones pueden sellar documentos electrónicamente. El eID sustituye además la contraseña en plataformas como eKosova. El registro empieza el 9 de noviembre en siete centros regionales del Registro Civil, con 3,2 millones de euros del IPA."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "三件东西一起发",
+        "en": "Three services released together",
+        "es": "Tres servicios lanzados a la vez"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "电子身份解决的是「在线上证明我是谁」，数字钱包负责存放身份与证件，电子签名负责签署。三者串起来，eKosova 上已有的 330 多项服务才能从头到尾在线办完，不必再去窗口交纸。首批接入电子签名的是企业注册，其后是仍需纸质材料的其他流程。",
+        "en": "The eID answers who someone is online, the wallet holds that identity and related documents, and the e-signature closes the transaction. Chained together, the 330-plus services already on eKosova can be completed end to end without a counter visit or paper. Business registration is the first process to take e-signatures, followed by other procedures that still require paper.",
+        "es": "El eID responde quién es alguien en línea, la cartera guarda esa identidad y sus documentos, y la firma electrónica cierra la operación. Encadenados, los más de 330 servicios ya disponibles en eKosova pueden completarse de principio a fin sin acudir a una ventanilla ni presentar papel. El registro de empresas es el primer proceso con firma electrónica, seguido de otros trámites que aún exigen papel."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "钱与时间表",
+        "en": "Funding and timetable",
+        "es": "Financiación y calendario"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "项目由欧盟入盟前援助工具出资 320 万欧元，世界银行与日本支持其背后的制度改革。登记先在国内七个区域中心做，之后扩到其他市镇；无法自行使用数字渠道的人，可在普里什蒂纳起步的综合服务中心由工作人员协助办理。政府提到海外侨民将来能免于回国办手续，但没有说明他们如何取得凭证——这是发布里唯一没有答案的环节。",
+        "en": "The EU's Instrument for Pre-Accession Assistance put in EUR 3.2 million, with the World Bank and Japan backing the institutional reforms behind it. Enrolment starts at seven centres inside Kosovo and expands to other municipalities; people who cannot use digital channels alone can be helped by staff at Integrated Service Centres, beginning in Pristina. The government said Kosovars abroad will eventually handle procedures without travelling home but did not say how they obtain credentials, the one gap left open at the launch.",
+        "es": "El Instrumento de Ayuda Preadhesión de la UE aportó 3,2 millones de euros, con el Banco Mundial y Japón respaldando las reformas institucionales. El registro empieza en siete centros dentro de Kosovo y se ampliará a otros municipios; quienes no puedan usar canales digitales contarán con personal en los Centros de Servicio Integrado, empezando por Pristina. El gobierno dijo que los kosovares en el exterior podrán evitar el viaje, pero no explicó cómo obtendrán las credenciales, la única pregunta sin respuesta del lanzamiento."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "离 EUDI 还有多远",
+        "en": "How far from EUDI",
+        "es": "Qué distancia queda hasta la EUDI"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "科索沃的目标是对齐欧盟数字身份框架，跨境承认取决于世界银行诊断里点出的互操作、治理与监管缺口：本国平台已经建成，法律与信任框架还没补齐。这与欧盟成员国 12 月 24 日的钱包义务是两回事——科索沃不是成员国，它的凭证目前只在境内被承认。",
+        "en": "Kosovo's stated goal is alignment with the EU digital identity framework, and cross-border recognition depends on the interoperability, governance and regulatory gaps the World Bank diagnostic identified: the national platform now exists, the legal and trust framework does not yet. That is a different track from the 24 December wallet obligation for member states. Kosovo is not one, and its credentials are currently recognised inside the country only.",
+        "es": "El objetivo declarado de Kosovo es alinearse con el marco europeo de identidad digital, y el reconocimiento transfronterizo depende de las brechas de interoperabilidad, gobernanza y regulación que señaló el diagnóstico del Banco Mundial: la plataforma nacional ya existe, el marco legal y de confianza todavía no. Es una vía distinta de la obligación de cartera del 24 de diciembre para los Estados miembros. Kosovo no lo es, y hoy sus credenciales solo se reconocen dentro del país."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对一个只有一百多万人口的市场，一次把电子身份、钱包与签名同时发出来，说明采购口不是单点硬件，而是 PKI、注册设备、钱包 SDK 与受理端集成的一整套。已经在 eKosova 上的 330 多项服务是现成需求，集成商要做的是把身份接进去，而不是等新业务出现。真正的门槛在信任框架：没有认证体系与数据保护法配套，钱包只能装本国认可的东西，跨境场景要等 eIDAS 对齐。供应商的排序应该是先做境内受理，再谈欧盟互认；反过来做，会卡在认证与法律两层。海外侨民的取证路径未定，也意味着第一批用户集中在境内，规模不会一夜起来。",
+    "en": "For a market of just over a million people, releasing eID, wallet and signature together says the procurement is not a hardware order but a stack: PKI, enrolment equipment, wallet SDK and acceptance integration. The 330-plus services already on eKosova are existing demand, so integrators plug identity into flows that already run rather than waiting for new business. The real gate is the trust framework. Without a certification scheme and settled data protection law, the wallet can only hold what the country itself recognises, and cross-border use waits on eIDAS alignment. Vendors should sequence domestic acceptance first and EU mutual recognition second; the reverse order stalls on certification and law. With the diaspora enrolment path undefined, the first cohort is domestic, so volume will not arrive overnight.",
+    "es": "Para un mercado de poco más de un millón de personas, lanzar eID, cartera y firma a la vez indica que la compra no es un pedido de hardware sino un stack: PKI, equipos de registro, SDK de cartera e integración de aceptación. Los más de 330 servicios ya activos en eKosova son demanda existente, así que los integradores conectan la identidad a flujos que ya funcionan en lugar de esperar negocio nuevo. La barrera real es el marco de confianza. Sin esquema de certificación ni ley de protección de datos resuelta, la cartera solo puede guardar lo que el propio país reconoce, y el uso transfronterizo espera la alineación con eIDAS. Los proveedores deberían priorizar la aceptación interna y después el reconocimiento mutuo; el orden inverso se atasca en certificación y ley. Con la vía de registro para la diáspora sin definir, el primer grupo es interno y el volumen no llegará de un día para otro."
+  },
+  "confidence": 0.82,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

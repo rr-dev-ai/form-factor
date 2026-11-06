@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-07-banking-03",
+  "slug": "tbc-georgia-palm-payment",
+  "industry": "banking",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "biometrics"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-07T04:17:41+08:00",
+  "ingestedAt": "2026-11-07T02:30:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Merchant's Eye",
+      "url": "https://www.merchantseye.com/news/tbc-bank-launches-georgias-first-biometric-palm-payment-technology",
+      "lang": "en",
+      "publishedAt": "2026-11-05T00:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "TBC 在格鲁吉亚上线掌纹支付，刷卡变成刷手",
+    "en": "TBC launches palm payment in Georgia, replacing the card at the till",
+    "es": "TBC lanza el pago con palma en Georgia y sustituye la tarjeta en caja"
+  },
+  "summary": {
+    "zh": "11 月 5 日，TBC 银行在格鲁吉亚推出掌纹支付。客户在有掌纹扫描仪的地点一次性注册，用手机银行扫二维码把掌纹与指定账户绑定，之后在参与商户扫描手掌即可付款，不需要卡、手机或现金。TBC 称自己是格鲁吉亚首家上线该技术的银行。",
+    "en": "On 5 November TBC Georgia launched palm payment. Customers register once at a site equipped with a palm scanner, use the mobile banking app to scan a QR code and link a chosen account, then pay at participating merchants by scanning a palm, with no card, phone or cash. TBC says it is the first bank in Georgia to offer the technology.",
+    "es": "El 5 de noviembre TBC Georgia lanzó el pago con palma. El cliente se registra una vez en un punto con escáner de palma, usa la app de banca móvil para escanear un código QR y vincular una cuenta, y luego paga en comercios participantes con la palma, sin tarjeta, móvil ni efectivo. TBC afirma ser el primer banco de Georgia en ofrecer la tecnología."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "认证点从消费者口袋挪到商户柜台",
+        "en": "Authentication moves from pocket to counter",
+        "es": "La autenticación pasa del bolsillo al mostrador"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "TBC 格鲁吉亚于 11 月 5 日宣布上线掌纹支付。客户在配备掌纹扫描仪的地点做一次性注册：用手机银行扫二维码，选择要绑定的账户，掌纹与账户的对应关系就此建立。此后在参与商户付款，只需把手掌放到扫描仪上，不需要出示卡、手机或现金。",
+        "en": "TBC Georgia announced palm payment on 5 November. Customers complete one-time enrolment at a location fitted with a palm scanner: they scan a QR code with the mobile banking app and pick the account to link, establishing the mapping between palm and account. After that, paying at a participating merchant means placing a hand over the scanner, with no card, phone or cash shown.",
+        "es": "TBC Georgia anunció el pago con palma el 5 de noviembre. El cliente completa un registro único en un punto con escáner de palma: escanea un código QR con la app de banca móvil y elige la cuenta a vincular, creando la correspondencia entre palma y cuenta. Después, pagar en un comercio participante es poner la mano sobre el escáner, sin tarjeta, móvil ni efectivo."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这在受理侧是一次实质性变化。卡和手机钱包都把凭证放在消费者身上，终端只负责读取；掌纹支付把生物特征模板与账户的对应关系放到银行侧和商户的扫描仪上，商户端因此多了一类需要部署、维护并纳入支付安全范围的设备。公告没有说明扫描仪的供应商，也没有说明这类终端如何做安全认证。",
+        "en": "On the acceptance side this is a substantive change. Cards and phone wallets keep the credential with the consumer and the terminal only reads it; palm payment puts the mapping between biometric template and account on the bank side and the merchant's scanner, so merchants gain a device class that must be deployed, maintained and brought into payment-security scope. The release names no scanner supplier and does not say how these terminals are security-certified.",
+        "es": "En la aceptación es un cambio sustantivo. Tarjetas y monederos móviles mantienen la credencial en el consumidor y el terminal solo la lee; el pago con palma pone la correspondencia entre plantilla biométrica y cuenta en el banco y en el escáner del comercio, de modo que el comerciante suma un tipo de dispositivo que hay que desplegar, mantener e incluir en el alcance de seguridad de pagos. La nota no nombra proveedor de escáneres ni explica cómo se certifican esos terminales."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "规模信息几乎没有：参与商户数量、注册点数量、覆盖城市均未公布。可对照的前史只有两件——TBC 近期与美国运通签订受理合作协议，扩大格鲁吉亚境内线上线下的 Amex 受理；以及该行自 2001 年做网银以来的数字化路线。掌纹支付是这条线上的延伸，不是对卡片受理的替代。",
+        "en": "Scale information is close to absent: no merchant count, no number of enrolment points, no cities. The relevant background is two items: TBC recently signed an acceptance agreement with American Express to widen Amex acceptance in Georgia, online and in store, and the bank has pushed digital banking since its 2001 internet banking launch. Palm payment extends that line rather than replacing card acceptance.",
+        "es": "La información de escala casi no existe: sin número de comercios, de puntos de registro ni de ciudades. El antecedente relevante son dos datos: TBC firmó hace poco un acuerdo de aceptación con American Express para ampliar la aceptación de Amex en Georgia, online y en tienda, y el banco impulsa la banca digital desde su internet banking de 2001. El pago con palma extiende esa línea, no sustituye la aceptación de tarjetas."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对收单机构与终端供应商，这条打开的是一个新设备类别：掌纹扫描仪既是受理终端，又是生物特征采集点，采购、布放、运维和支付安全认证都要重算，和铺 POS 机不是一回事。对发卡行，含义更尖锐——如果店内付款可以不带卡、不带手机，卡片在零售场景里的不可替代性就被削掉一层，剩下的价值在线上、跨境和信用额度。阻力不在技术，在隐私：集中式生物特征库一旦泄露无法更换，这决定了它只能先在监管容忍度高、客群集中的市场试。格鲁吉亚市场小，示范意义大于规模，真正值得看的是这套模式会不会被周边市场或更大的银行复制。",
+    "en": "For acquirers and terminal vendors this opens a new device class: a palm scanner is both an acceptance terminal and a biometric capture point, so procurement, placement, maintenance and payment-security certification all have to be recalculated, which is not the same exercise as rolling out POS terminals. For issuers the implication is sharper: if in-store payment can happen without a card or a phone, the card's irreplaceability at retail thins out, leaving online, cross-border and credit lines as its remaining value. The obstacle is not technology but privacy, since a centralised biometric store cannot be reissued after a breach, which is why this starts in markets with high tolerance and concentrated customer bases. Georgia is small, so the demonstration value exceeds the scale; what matters is whether the model is copied by neighbouring markets or larger banks.",
+    "es": "Para adquirentes y proveedores de terminales esto abre una clase de dispositivo nueva: un escáner de palma es a la vez terminal de aceptación y punto de captura biométrica, así que compra, despliegue, mantenimiento y certificación de seguridad de pagos deben recalcularse, y no es lo mismo que instalar POS. Para los emisores la implicación es más filosa: si en tienda se puede pagar sin tarjeta ni móvil, la insustituibilidad de la tarjeta en el comercio se adelgaza y quedan el online, lo transfronterizo y la línea de crédito. El obstáculo no es técnico sino de privacidad: una base biométrica centralizada no se puede reemitir tras una brecha, y por eso arranca en mercados tolerantes y con clientela concentrada. Georgia es pequeño, así que el valor demostrativo supera la escala; lo relevante es si el modelo lo copian mercados vecinos o bancos mayores."
+  },
+  "confidence": 0.63,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

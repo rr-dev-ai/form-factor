@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-07",
+  "industry": "telecom",
+  "startedAt": "2026-11-07T02:50:00+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "Atomic Mobile unveils multi-carrier IoT service connecting devices across the globe",
+      "url": "https://www.prnewswire.com/news-releases/atomic-mobile-unveils-multi-carrier-iot-service-connecting-devices-across-the-globe-302928539.html",
+      "reason": "补位池标为产品化节点，但缺「首次或变化」：多运营商 eSIM 自动切换在 IoT MVNO 中已是既有能力，公告无客户名、无价格、无认证等级；且发布日 11-03 已超出 72 小时窗口。"
+    },
+    {
+      "title": "Brazil approves new measures to combat A2P SMS fraud",
+      "url": "https://www.telecompaper.com/news/brazil-approves-new-measures-to-combat-a2p-sms-fraud--1587937",
+      "reason": "范围门不过：标的物是 A2P 短信短码治理与流量监测，属消息路由与反诈合规，不落在 SIM/eSIM 载体、RSP、鉴权方式或上游制造任一环节。"
+    },
+    {
+      "title": "Unico offers facial biometrics for Brazil's mandatory SIM registration",
+      "url": "https://www.biometricupdate.com/202611/unico-offers-facial-biometrics-for-brazils-mandatory-sim-registration",
+      "reason": "动作门不过：主体是身份核验厂商推销既有 IDCloud 与活体检测能力，配合的是 10-26 发布的 Anatel GT-SEG.2026.11（已超 72 小时），本条本身没有新的规范版本、认证等级或落地客户。"
+    },
+    {
+      "title": "FCC Approves Amazon Leo's Acquisition of Globalstar for Direct-to-Device Satellite Link",
+      "url": "https://technewsreel.com/big-tech-and-startups/fcc-approves-amazon-leo-s-acquisition-of-globalstar-for-direct-to-device",
+      "reason": "动作门无对应类别：这是并购与 MSS 频谱转移获批，标的物落在频谱而非凭证载体形态；AGENTS 明确频谱事项不在范围内。"
+    },
+    {
+      "title": "AST SpaceMobile to Build Own 20-Ton Rocket to Deploy BlueBird Satellites",
+      "url": "https://finance.yahoo.com/technology/articles/ast-spacemobile-build-own-20-123000335.html",
+      "reason": "范围门不过：运载火箭与发射能力，与 SIM/eSIM 载体、签发、分发、受理四条链路均无关。"
+    },
+    {
+      "title": "Starlink Mobile selects Qualcomm for terrestrial 5G radio units",
+      "url": "https://elonosphere.com/Articles/3160/down-from-orbit-starlink-mobile-s-qualcomm-deal-and-the-ground-network-it-now-has-to-build",
+      "reason": "范围门不过：基站射频与分布式单元采购，AGENTS 明确核心网与基站不收；D2D 部分的素材与 11-04 AT&T×AST 条目同源，已是旧事件。"
+    },
+    {
+      "title": "Sotel opens number reservations in Nigeria ahead of eSIM launch",
+      "url": "https://techcabal.com/2026/11/05/sotel-opens-phone-number-reservations-nigeria/",
+      "reason": "动作门不过：只是商用前的号码预留，eSIM 全国上线与实体卡铺货都还没有发生，属渠道与资费准备，无产品名、无参数、无上线日期。"
+    },
+    {
+      "title": "O2 Satellite adds UK coverage from 89% to 95% for £3 a month",
+      "url": "https://www.esim.report/news/o2-satellite-adds-uk-coverage-from-89-to-95-for-3-a-month",
+      "reason": "范围门不过：卫星补充覆盖的资费包，属资费促销；且发布日 11-03 已超 72 小时窗口。"
+    },
+    {
+      "title": "6G could add $1.24 trillion to global economy by 2040 but spectrum shortages risk losing $520 billion",
+      "url": "https://www.gsma.com/newsroom/press-release/6g-could-add-1-24-trillion-to-global-economy-by-2040-but-spectrum-shortages-risk-losing-520-billion-of-benefits-gsma-finds/",
+      "reason": "范围门不过：6G 经济预测与频谱短缺表态，AGENTS 明确 6G 表态与频谱事项不收。"
+    },
+    {
+      "title": "Philippine Mobile Industry Steps Up Action Against Scams to Strengthen Digital Trust",
+      "url": "https://www.gsma.com/newsroom/press-release/philippine-mobile-industry-steps-up-action-against-scams-to-strengthen-digital-trust/",
+      "reason": "范围门不过：行业联合反诈行动，没有改变 SIM 载体、签发或受理机制；与 11-06 已发的菲律宾 NTC 100 张阈值属不同事件，但本条自身不过范围门。"
+    },
+    {
+      "title": "Anatel estabelece roaming obrigatório em rodovias e pequenos municípios",
+      "url": "https://www.mobiletime.com.br/noticias/05/11/2026/anatel-estabelece-roaming-obrigatorio-em-rodovias-e-pequenos-municipios/",
+      "reason": "与 2026-11-07-telecom-02 同一事件（Anatel 强制漫游），本条为葡萄牙语报道，不另立草稿。"
+    },
+    {
+      "title": "Roaming nas estradas traz ganho tremendo para o país, diz head da Deutsche Telekom",
+      "url": "https://www.mobiletime.com.br/noticias/06/11/2026/roaming-estradas-pais/",
+      "reason": "同一事件的业界评论，主体仍是 Anatel 强制漫游规则，不构成新事件。"
+    },
+    {
+      "title": "ICASA Proposes Direct Licensing Route To Open South Africa's Electronic Communications Network Market",
+      "url": "https://news.broadcastmediaafrica.com/2026/11/05/icasa-proposes-direct-licensing-route-to-open-south-africas-electronic-communications-network-market/",
+      "reason": "范围门不过：网络服务牌照发放路径咨询，与凭证载体、签发、分发、受理无关；且属咨询文件，未改变任何机制。"
+    },
+    {
+      "title": "Mozambican telecom fraud drops 64% in 2025",
+      "url": "https://www.telecompaper.com/news/mozambican-telecom-fraud-drops-64-in-2025--1587926",
+      "reason": "范围门不过：监管成效统计，没有新的规范、产品或部署动作。"
+    },
+    {
+      "title": "Vodafone Ireland plans 70% 5G SA network coverage by 2028",
+      "url": "https://www.telecompaper.com/news/vodafone-ireland-plans-70-5g-sa-network-coverage-by-2028--1588009",
+      "reason": "范围门不过：5G 独立组网覆盖目标，属核心网与无线接入建设，AGENTS 明确不收。"
+    },
+    {
+      "title": "eSIM Market Outlook & Opportunities in IoT: 2026",
+      "url": "https://iot-now.com/2026/11/06/159256-esim-market-outlook-opportunities-in-iot-2026/",
+      "reason": "不是事件：行业展望类内容，无具体物、无动作。"
+    },
+    {
+      "title": "The advent of 3GPP Non-Terrestrial Networks",
+      "url": "https://iot-now.com/2026/11/06/159252-the-advent-of-3gpp-non-terrestrial-networks/",
+      "reason": "不是事件：技术综述，无版本发布、无认证、无产品落地。"
+    },
+    {
+      "title": "Orange Joins Acceleronix And IDEMIA's Quantum-Safe eSIM Provisioning Program",
+      "url": "https://eucloudservers.com/security-encryption/orange-joins-acceleronix-and-idemia-s-quantum-safe-esim-provisioning-program",
+      "reason": "已由 2026-11-05-telecom-01 处理（IDEMIA×Acceleronix×Orange IFPP），本条为同一公告的第三方转写。"
+    },
+    {
+      "title": "STMicroelectronics simplifies IoT deployment with SoftSIM, SGP.32 in-factory provisioning",
+      "url": "https://newsroom.st.com/media-center/press-item.html/stmicroelectronics-simplifies-iot-deployment-with-softsim-sgp-32-in-factory-provisioning-and-zephyr-support-for-st87m01.html",
+      "reason": "已由 2026-11-06-telecom-02 处理（ST87M01 SoftSIM + SGP.32 产线写卡），同一公告。"
+    },
+    {
+      "title": "Eseye launches AnyNet Select for global SGP.32 IoT deployments",
+      "url": "https://iotbusinessnews.com/2026/11/03/eseye-launches-anynet-select-to-unlock-greater-profile-choice-for-global-sgp-32-iot-deployments/",
+      "reason": "已由 2026-11-05-telecom-02 处理（Eseye AnyNet Select），同一产品发布。"
+    },
+    {
+      "title": "Kigen Brings SGP.32 v1.3 to eSA-Certified Automotive eSIMs",
+      "url": "https://iotbusinessnews.com/2026/09/24/kigen-brings-sgp-32-v1-3-to-esa-certified-automotive-esims/",
+      "reason": "时效门不过：原稿 2026-09-24，超 72 小时窗口逾一个月。"
+    }
+  ],
+  "stats": {
+    "candidates": 42,
+    "written": 3,
+    "skippedByDedup": 5
+  },
+  "finishedAt": "2026-11-06T18:55:10.416Z"
+}

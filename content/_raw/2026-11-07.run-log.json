@@ -1,0 +1,186 @@
+{
+  "task": "gap-supplement",
+  "date": "2026-11-07",
+  "startedAt": "2026-11-07T01:50:14+08:00",
+  "finishedAt": "2026-11-07T01:54:01+08:00",
+  "measureNote": "全程实测时钟读数 6 个（01:50:14 起、01:50:55 R1 收、01:51:06 R2 收、01:51:19 R3 收、01:51:31 R4/R5 收、01:54:01 落盘后复核）。R6 与补轮之间未单独取时刻，只给区间，不做估算补写。",
+  "indexCheck": {
+    "file": "content/_raw/2026-11-07.index.json",
+    "fetchedFor": "2026-11-07",
+    "items": 153,
+    "verdict": "一次通过，未等待"
+  },
+  "matrix": {
+    "counted": 1,
+    "dropped": {
+      "published": 0,
+      "expired": 0,
+      "undated": 5,
+      "lowConfidence": 147
+    },
+    "gap": ["apac", "cis", "mena", "north-america", "latam", "africa"],
+    "cellGap": ["europe/banking", "europe/telecom"],
+    "industryGap": [
+      { "industry": "banking", "emptyRegions": 7 },
+      { "industry": "telecom", "emptyRegions": 7 },
+      { "industry": "identity", "emptyRegions": 6 }
+    ],
+    "note": "今天只有 europe/identity 一格非空。三层缺口全部触发，是本月最空的一天。"
+  },
+  "phases": [
+    { "at": "2026-11-07T01:50:14+08:00", "step": "站点日期 2026-11-07，index 校验通过（153 条）" },
+    { "at": "2026-11-07T01:50:20+08:00", "step": "build-matrix 重算完成，三层缺口同时触发" },
+    { "at": "2026-11-07T01:50:55+08:00", "step": "R1 结束（8 条），转 R2 机构驱动" },
+    { "at": "2026-11-07T01:51:06+08:00", "step": "R2 结束（5 条），转 R3 采购术语" },
+    { "at": "2026-11-07T01:51:19+08:00", "step": "R3 结束（6 条），转 R4/R5" },
+    { "at": "2026-11-07T01:51:31+08:00", "step": "R4（3 条，全部零结果）与 R5（3 条）结束，转 R6 区域补搜" },
+    { "at": "2026-11-07T01:52:00+08:00", "step": "R6 与补轮开始，同时打开巴西/Clara/新西兰原文" },
+    { "at": "2026-11-07T01:53:47+08:00", "step": "六条候选核对完毕，supplement 首次落盘" },
+    { "at": "2026-11-07T01:54:01+08:00", "step": "note 字数收口（199–200 字），JSON 复核通过" }
+  ],
+  "rounds": [
+    {
+      "round": "R1",
+      "count": 8,
+      "completedBetween": ["2026-11-07T01:50:20+08:00", "2026-11-07T01:50:55+08:00"],
+      "basis": "缺口驱动：6 个全零区域各发一条（apac/cis/mena/north-america/latam/africa），2 个格子缺口各发一条（europe/banking、europe/telecom）。telecom 侧四条全部被旅游 eSIM 售卖页占满，零有效结果；banking 侧两条产出巴西 CIN 与 Clara 两条线索。",
+      "queries": [
+        "India telecom operator eSIM profile issuance platform launch November 2026 → 旅游 eSIM 站全占，零结果",
+        "Россия eSIM профиль оператор запуск ноябрь 2026 → simpackers/esims.io 全占，零结果",
+        "Saudi Arabia eSIM smart card issuance operator launch November 2026 → esimspotter/etravelsim 全占，零结果",
+        "US carrier eSIM iSIM provisioning platform launch November 2026 → 命中 Atomic Mobile Atomic Orbit",
+        "Brazil emissão de cartão personalização credenciamento novembro 2026 → 命中巴西 CIN 手机申请、Clara MWP",
+        "Nigeria POS terminal certification acquirer payment switch November 2026 → 只有 CBN 2026 年政策回顾，事件超窗",
+        "EMVCo certification payment card personalisation bureau Europe November 2026 → 命中 IDEMIA PQC 认证，与 11-05 已发重复，弃",
+        "GSMA eSA certification eUICC security accreditation November 2026 → 命中 Kigen 车用 eSIM，与 11-05 已发重复，弃"
+      ]
+    },
+    {
+      "round": "R2",
+      "count": 5,
+      "completedBetween": ["2026-11-07T01:50:55+08:00", "2026-11-07T01:51:06+08:00"],
+      "basis": "机构驱动：把 R1 的区域词换成该市场的具体主体——巴西造币厂与身份局、沙特央行、尼日利亚 NIMC、印度 UIDAI、泰国央行。",
+      "queries": [
+        "Casa da Moeda do Brasil CIN cartão de identidade chip produção 2026 → 只回 CIN 手机申请同一事件",
+        "SAMA mada Saudi Payments certification POS acquirer November 2026 → 命中 SurePay PTSP 电商认证，源站质量存疑，未采用",
+        "NIMC Nigeria national identity card issuance enrolment November 2026 → 世行 ID4D 重组文件，事件 10-22 超窗",
+        "UIDAI Aadhaar offline eKYC app update November 2026 → 300 家 OVSE 里程碑（11-05），属存量累计，未收",
+        "Bank of Thailand PromptPay QR payment standard certification 2026 → 命中 PromptPay×Alipay+，但原文无发布日、无 go-live，弃"
+      ]
+    },
+    {
+      "round": "R3",
+      "count": 6,
+      "completedBetween": ["2026-11-07T01:51:06+08:00", "2026-11-07T01:51:19+08:00"],
+      "basis": "官方一手源：按 R1/R2 已暴露的缺口区域配当地采购术语。西语与葡语两条基于 R1 的 latam 缺口推得，阿语与法语两条基于 R1 的 mena/africa 缺口，德语与 TED 两条基于 cellGap 的 europe。",
+      "basedOn": {
+        "licitación tarjetas de identificación chip credencialización 2026": "R1 latam/identity 缺口（巴西 CIN 为流程新闻，缺授标类一手源）",
+        "edital credenciamento emissão cartão bancário chip 2026": "R1 latam/banking 缺口（Clara 为商业发卡，缺招标侧）",
+        "مناقصة بطاقات الهوية الوطنية الذكية 2026 ترسية": "R1 mena 三行业全零，换阿语授标术语",
+        "appel d'offres cartes d'identité biométriques puce 2026 adjudication": "R1 africa 全零，换法语区采购术语",
+        "Tenders Electronic Daily chip card personalisation identity document 2026": "R1 cellGap europe/banking 与 europe/telecom",
+        "Ausschreibung Chipkarte Personalausweis Produktion 2026 Vergabe": "R3 TED 只出厂商广告，换德语再试一次"
+      },
+      "queries": [
+        "licitación tarjetas de identificación chip credencialización 2026 → 只回瑞士身份证与冈比亚旧闻",
+        "edital credenciamento emissão cartão bancário chip 2026 → 命中埃及 IDB×ElTarek 联名卡（Mastercard 新闻室）",
+        "مناقصة بطاقات الهوية الوطنية الذكية 2026 ترسية → 只回印尼存储招标、巴基斯坦 NADRA 小额服务标",
+        "appel d'offres cartes d'identité biométriques puce 2026 adjudication → 全为瑞士身份证复述",
+        "Tenders Electronic Daily chip card personalisation identity document 2026 → 只回制卡设备商软文与百科页",
+        "Ausschreibung Chipkarte Personalausweis Produktion 2026 Vergabe → 全为瑞士身份证复述，二次确认 R3 对证件小额标无效"
+      ]
+    },
+    {
+      "round": "R4",
+      "count": 3,
+      "completedBetween": ["2026-11-07T01:51:19+08:00", "2026-11-07T01:51:31+08:00"],
+      "basis": "行业垂直媒体：用域名限定，要求独家或深度，不重复前三轮已在聚合站看到的事件。",
+      "basedOn": {
+        "biometricupdate mDL": "R1 apac/identity 缺口（UIDAI 里程碑不合格，需换载体类进展）",
+        "paymentscardsandmobile 发卡与个性化": "R1 cellGap europe/banking",
+        "mobileworldlive eSIM SGP.32": "R1 telecom 全线零结果"
+      },
+      "queries": [
+        "biometricupdate.com: mDL mobile driving licence issuance state rollout → 零结果",
+        "paymentscardsandmobile.com: card issuing personalisation bureau certification → 零结果",
+        "mobileworldlive.com: eSIM SGP.32 iSIM operator launch → 零结果"
+      ],
+      "note": "域名限定写法在本机 WebSearch 上全部返回空，R4 三条无产出。后续改用站点归档页直读更有效（未在本轮实现）。"
+    },
+    {
+      "round": "R5",
+      "count": 3,
+      "completedBetween": ["2026-11-07T01:51:19+08:00", "2026-11-07T01:51:31+08:00"],
+      "basis": "新兴术语：用还没成为通用词的表述找，避开已被旅游站污染的「区域 + eSIM」。",
+      "basedOn": {
+        "SGP.32 eIM eSIM orchestration platform launch": "R4 mobileworldlive 零结果，换术语直搜",
+        "verifiable credential pilot digital identity wallet issuance": "R1 apac/identity 缺口",
+        "age assurance certification scheme launch regulator": "R1 europe 两格全空，年龄核验是欧洲当前唯一高频动作"
+      },
+      "queries": [
+        "SGP.32 eIM eSIM orchestration platform launch → 命中 Eseye AnyNet Select，与 11-05 已发重复；Soracom 为 7 月旧闻",
+        "verifiable credential pilot digital identity wallet issuance November 2026 → 命中新西兰 NZBN 商业护照；Digi Yatra 与 11-02 已发重复",
+        "age assurance certification scheme launch regulator 2026 → 只有 EU KIDS Act 提案（9-17）与英国禁令我条文，无新认证落地"
+      ]
+    },
+    {
+      "round": "R6",
+      "count": 3,
+      "completedBetween": ["2026-11-07T01:51:31+08:00", "2026-11-07T01:52:00+08:00"],
+      "basis": "区域补充：前五轮没出结果的区换本地语言，不原样重发。cis 换俄语、mena 换阿语、latam telecom 换西语。",
+      "basedOn": {
+        "биометрический паспорт выдача чип ноябрь 2026": "R1/R2 cis 三行业全零，且俄语 eSIM 查询已被旅游站占满，改证件词",
+        "إصدار بطاقة دفع ذكية بنك نوفمبر 2026": "R3 阿语采购术语零结果，改发卡词",
+        "Argentina operador SIM chip tarjeta lanzamiento noviembre 2026": "R1 latam/telecom 零结果"
+      },
+      "queries": [
+        "биометрический паспорт выдача чип ноябрь 2026 → 全为瑞士身份证，cis 零结果",
+        "إصدار بطاقة دفع ذكية بنك نوفمبر 2026 → 全为香港信用卡推广页，mena 零结果",
+        "Argentina operador SIM chip tarjeta lanzamiento noviembre 2026 → 旅游 eSIM 站全占，零结果"
+      ]
+    },
+    {
+      "round": "补轮",
+      "count": 11,
+      "completedBetween": ["2026-11-07T01:52:00+08:00", "2026-11-07T01:53:47+08:00"],
+      "basis": "六轮跑完后 cis、mena/telecom、mena/identity、europe 两格仍空，按已知有效信源与厂商新闻室定向补搜，不复用前六轮 query。",
+      "basedOn": {
+        "Armenia biometric passport ID card issuance November 2026": "R6 俄语证件词失败，改用亚美尼亚英语侧（历史最高产）",
+        "Uzbekistan eSIM operator launch SIM card registration November 2026": "R1/R6 cis/telecom 无产出",
+        "UAE Saudi bank card issuance personalisation contract awarded November 2026": "R3 阿语授标失败，改英语海湾发卡词 → 命中 FAB World Legend",
+        "European bank card bureau contract migration virtual card issuance November 2026": "R1 cellGap europe/banking 未补上",
+        "Казахстан оператор eSIM запуск ноябрь 2026": "R6 俄语证件词只回瑞士，换哈萨克斯坦",
+        "Saudi Arabia Absher national ID digital identity verification service launch November 2026": "mena/identity 仍空",
+        "НСПК карта МИР выпуск банк ноябрь 2026": "cis/banking 仍空",
+        "Vodafone Deutsche Telekom eSIM RSP platform certification November 2026": "cellGap europe/telecom 仍空",
+        "MTN Airtel Safaricom eSIM launch Africa November 2026": "africa/telecom 仍空",
+        "Thales IDEMIA G+D contract government card personalisation November 2026": "europe/banking 换厂商侧再试",
+        "eSIM iSIM launch operator Middle East North Africa November 2026": "mena/telecom 仍空"
+      },
+      "result": "11 条全部无合格产出：eSIM 侧继续被旅游售卖页占满；证件侧只回瑞士/亚美尼亚（均已发过或同事件线）；采购侧只回招标聚合站。FAB 一条来自第 3 条 query 的海湾发卡词。"
+    }
+  ],
+  "dedupe": {
+    "readFrom": [
+      "content/_raw/2026-11-07.index.json（153 条 url）",
+      "content/news/2026/11/ 下 11-01 至 11-06 全部标题"
+    ],
+    "dropped": [
+      "Kigen 车用 eSIM 获 GSMA eSA（同 11-05-telecom-01）",
+      "IDEMIA PQC Java Card 获 EMVCo 认证（同 11-05-banking 欧洲线）",
+      "Eseye AnyNet Select（同 11-05-telecom-02）",
+      "Digi Yatra 国际航班试点（同 11-02-identity-02）",
+      "瑞士生物识别身份证（同 11-05-identity-02）",
+      "Trust Payments × Weavr 虚拟卡（同 11-05-banking-02）",
+      "亚美尼亚 HayPass（11-01/11-02/11-03 已连发三条，同事件线不再取）",
+      "迪拜 nol–Jaywan 合卡（同 11-06-banking-04）"
+    ]
+  },
+  "output": {
+    "file": "content/_raw/2026-11-07.supplement.json",
+    "items": 6,
+    "byRegion": { "latam": 2, "apac": 1, "africa": 1, "mena": 1, "north-america": 1 },
+    "byIndustry": { "banking": 3, "identity": 2, "telecom": 1 },
+    "unfilled": ["cis（三行业全空）", "europe/banking", "europe/telecom", "apac/telecom", "africa/telecom", "latam/telecom", "mena/telecom", "mena/identity", "north-america/banking", "north-america/identity"]
+  }
+}

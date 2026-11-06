@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-07-telecom-01",
+  "slug": "softbank-sceye-haps-japan",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "satellite"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-07T04:17:41+08:00",
+  "ingestedAt": "2026-11-07T02:50:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "IoT Business News",
+      "url": "https://iotbusinessnews.com/2026/11/04/softbank-and-sceye-plan-nationwide-stratospheric-connectivity-network-in-japan/",
+      "lang": "en",
+      "publishedAt": "2026-11-04T00:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "软银与 Sceye 签五年协议，把基站的活交给平流层",
+    "en": "SoftBank signs five-year deal to run mobile coverage from the stratosphere",
+    "es": "SoftBank firma cinco años para dar cobertura móvil desde la estratosfera"
+  },
+  "summary": {
+    "zh": "11 月 4 日，软银与 Sceye 签署五年主服务协议，由后者制造、发射并运营高空平台机队，目标是在日本全境向普通手机提供移动宽带，其中少数平台承担平流层内的光通信链路。协议未披露平台数量、部署节点与合同金额；此前 8 月的 30 天试飞曾在日本上空作业约一周。",
+    "en": "SoftBank and Sceye signed a five-year master services agreement on 4 November covering manufacture, launch and operation of a high-altitude platform fleet meant to deliver mobile broadband to ordinary phones across Japan, with a smaller number of platforms carrying optical links inside the stratosphere. Platform count, deployment milestones and contract value were not disclosed; an August test flight spent about a week operating over Japan.",
+    "es": "SoftBank y Sceye firmaron el 4 de noviembre un acuerdo marco de servicios a cinco años para fabricar, lanzar y operar una flota de plataformas de gran altitud destinada a dar banda ancha móvil a teléfonos convencionales en todo Japón, con un número menor de plataformas dedicadas a enlaces ópticos dentro de la estratosfera. No se revelaron número de plataformas, hitos ni importe; un vuelo de prueba de agosto operó cerca de una semana sobre Japón."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "一份采购合同，而不是又一场演示",
+        "en": "A procurement contract, not another demo",
+        "es": "Un contrato de compra, no otra demostración"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "协议覆盖制造、发射与运营三段，期限五年，把双方从 2025 年软银投资 Sceye、2026 年联合试飞的关系推到采购层面。按公告描述，机队中的多数平台用于在日本提供移动宽带，少数平台组成自由空间光通信网络，在平流层内部搭链路。这套安排与软银的「泛在网络」构想一致：地面网、空中平台、卫星三层叠起来用。",
+        "en": "The agreement spans manufacturing, launch and operations over five years, moving the pair from SoftBank's 2025 investment in Sceye and this year's joint flight tests to a procurement relationship. As described, most of the fleet serves mobile broadband in Japan while a smaller set forms a free-space optical network linking platforms inside the stratosphere. That fits SoftBank's ubiquitous-network framing: terrestrial, aerial and satellite layers used together.",
+        "es": "El acuerdo abarca fabricación, lanzamiento y operación durante cinco años, y lleva la relación desde la inversión de SoftBank en Sceye en 2025 y los vuelos conjuntos de este año hasta una compra formal. Según el anuncio, la mayor parte de la flota presta banda ancha móvil en Japón y un grupo menor forma una red óptica de espacio libre que enlaza plataformas dentro de la estratosfera. Encaja con la idea de red ubicua de SoftBank: capas terrestre, aérea y satelital usadas en conjunto."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "技术上的关键在载荷和高度。Sceye 的平台携带 SceyeCell，设计为直接向标准手机发送信号，不需要专用卫星终端；平流层高度让它比低轨卫星离用户更近，链路预算宽松，时延也低。8 月 9 日从新墨西哥放飞的 Service Test 1 飞了 30 天，其中约一周在日本上空，演示了短信、语音、上网与视频，还测了室内通信、应急连接和平台上的边缘计算。这些测试走的是现网集成路径，不是自有终端方案。",
+        "en": "The technical hinge is payload and altitude. Sceye's platforms carry SceyeCell, designed to reach standard handsets without a dedicated satellite terminal; stratospheric altitude puts it closer to users than LEO satellites, loosening the link budget and cutting latency. Service Test 1, launched from New Mexico on 9 August, flew for 30 days and spent about a week over Japan, demonstrating messaging, voice, internet access and video, plus indoor coverage, emergency connectivity and edge computing aboard the platform. The trials integrated with existing mobile infrastructure rather than proprietary devices.",
+        "es": "La clave técnica está en la carga útil y la altitud. Las plataformas de Sceye llevan SceyeCell, diseñado para llegar a teléfonos estándar sin terminal satelital dedicado; la altitud estratosférica queda más cerca del usuario que un satélite LEO, lo que holga el presupuesto de enlace y reduce la latencia. Service Test 1, lanzado desde Nuevo México el 9 de agosto, voló 30 días y pasó cerca de una semana sobre Japón, con pruebas de mensajería, voz, internet y vídeo, además de cobertura interior, conectividad de emergencia y cómputo en el borde a bordo. Las pruebas se integraron con infraestructura móvil existente, no con dispositivos propios."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公告留下的空白同样明显：平台数量、部署时间表、合同金额都没有。全国覆盖目前是目标，不是运行状态。持续可用还取决于机队轮换、空域许可与频率使用——这些公告均未说明。",
+        "en": "The gaps are as plain: no platform count, no deployment timetable, no contract value. Nationwide coverage is an objective, not an operating state. Continuous availability also depends on fleet rotation, airspace permissions and spectrum use, none of which the announcement addresses.",
+        "es": "Los huecos son igual de claros: sin número de plataformas, sin calendario de despliegue y sin importe. La cobertura nacional es un objetivo, no un estado operativo. La disponibilidad continua depende además de rotación de flota, permisos de espacio aéreo y uso de espectro, nada de lo cual se detalla."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对做物联网模组与终端认证的厂商，这条的意义是第三种接入层开始有采购合同撑腰。卫星直连的链路预算逼着终端做妥协，平流层平台离地面近一个数量级，同样的手机射频前端就能连上，意味着不必为「卫星版」另开一个硬件 SKU。对运营商，它提供了一个在山区、离岛和灾害场景补覆盖的选项，且不必等卫星星座排满。真正要盯的是两件事：频率与空域许可怎么落地，以及单平台能承载多少话务——公告只给了覆盖叙事，没有容量数字。若五年内机队规模起不来，这套架构仍会停在「补盲」而非「一张网」。",
+    "en": "For module makers and device certification teams, the weight is that a third access layer now has a procurement contract behind it. Satellite direct-to-device forces link-budget compromises into the handset; a stratospheric platform sits an order of magnitude closer, so the same radio front end can close the link, which means no separate hardware SKU for a satellite variant. For operators it offers a way to fill mountain, island and disaster coverage without waiting for a constellation to fill out. Two things to watch: how spectrum and airspace permissions are actually granted, and how much traffic one platform can carry, since the announcement gives coverage narrative and no capacity figures. If the fleet does not scale within five years, this stays gap-filling rather than a network layer of its own.",
+    "es": "Para fabricantes de módulos y equipos de certificación, el peso es que una tercera capa de acceso ya tiene un contrato de compra detrás. El satélite directo al dispositivo obliga a compromisos de enlace en el terminal; una plataforma estratosférica está un orden de magnitud más cerca, así que el mismo front-end de radio cierra el enlace y no hace falta otra variante de hardware. Para el operador es una forma de cubrir montaña, islas y emergencias sin esperar a que la constelación se complete. Dos cosas a seguir: cómo se conceden espectro y espacio aéreo, y cuánto tráfico soporta una plataforma, porque el anuncio da relato de cobertura y ninguna cifra de capacidad. Si la flota no escala en cinco años, esto queda como relleno de huecos y no como capa de red."
+  },
+  "confidence": 0.7,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-pool-v1"
+  }
+}

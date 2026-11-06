@@ -2,88 +2,7 @@
   "date": "2026-11-06",
   "industry": "identity",
   "startedAt": "2026-11-06T03:10:00+08:00",
-  "drafts": [
-    {
-      "id": "2026-11-06-identity-06",
-      "slug": "bahrain-private-digital-id-bill",
-      "industry": "identity",
-      "region": "mena",
-      "regions": [],
-      "tags": [
-        "national-id",
-        "verification",
-        "pki"
-      ],
-      "originalLang": "en",
-      "sources": [
-        {
-          "name": "Biometric Update",
-          "url": "https://www.biometricupdate.com/202611/bahrain-weighs-private-role-in-digital-id-as-beyon-connect-expands-across-gcc",
-          "lang": "en",
-          "publishedAt": "2026-11-04T11:16:00-05:00"
-        },
-        {
-          "name": "News of Bahrain",
-          "url": "https://www.newsofbahrain.com/en/article/private-role-in-digital-id-services-approved-by-mps",
-          "lang": "en"
-        }
-      ],
-      "title": {
-        "zh": "巴林众议院放行私营机构运营电子身份服务",
-        "en": "Bahrain's MPs approve private operators for digital ID services",
-        "es": "El parlamento de Baréin aprueba operadores privados para los servicios de identidad digital"
-      },
-      "summary": {
-        "zh": "巴林众议院通过政府提交的法案，允许主管部长把电子身份服务的管理委托给其他政府机构或私营企业，国家保留电子身份系统的运行责任，费用与豁免改为部长在内阁批准后确定。法案同时取消公共机构受理电子交易、电子消息与电子签名前须另取部长命令的要求，改为遵守统一的技术与安全规则。巴林 95% 的政府服务已在线办理，经由 MyGov Bahrain，目标 2027 年底全部上线。",
-        "en": "Bahrain's House of Representatives has passed a government bill letting the responsible minister delegate management of electronic identity services to another public body or a private company, with the state keeping responsibility for the eID system and fees set by the minister after cabinet approval. The bill also drops the requirement for a separate ministerial order before public bodies accept electronic transactions, messages and signatures. Ninety-five percent of services are online via MyGov Bahrain, with full digitisation targeted for end-2027.",
-        "es": "La Cámara de Representantes de Baréin aprobó un proyecto que permite al ministro competente delegar la gestión de los servicios de identidad electrónica en otro organismo público o en una empresa privada, manteniendo el Estado la responsabilidad del sistema de eID y las tasas fijadas por el ministro tras aprobación del gabinete. El texto también elimina la orden ministerial adicional para que los organismos acepten transacciones, mensajes y firmas electrónicas. El 95 por ciento de los servicios ya están en línea vía MyGov Bahrain, con digitalización total prevista para finales de 2027."
-      },
-      "body": [
-        {
-          "kind": "p",
-          "text": {
-            "zh": "法案给的是委托权，不是私有化：主管电子身份的部长可以把部分或全部服务的管理交给另一个政府机构，也可以交给私营企业；系统本身的运行责任仍归国家。费用与豁免的确定方式一并调整，改由部长在内阁批准后设定，不再逐项走原有程序。",
-            "en": "What the bill grants is delegation, not privatisation. The minister overseeing identity may hand management of some or all services to another government body or to a private company, while responsibility for operating the system stays with the state. Fee-setting changes too: the minister sets charges and exemptions after cabinet approval instead of working through the existing route item by item.",
-            "es": "El proyecto concede delegación, no privatización. El ministro responsable de identidad puede entregar la gestión de parte o de todos los servicios a otro organismo público o a una empresa privada, mientras la responsabilidad de operar el sistema sigue en el Estado. También cambia la fijación de tasas: el ministro establece importes y exenciones tras aprobación del gabinete, en lugar de recorrer la vía existente punto por punto."
-          }
-        },
-        {
-          "kind": "h",
-          "text": {
-            "zh": "顺手拆掉受理端的一道手续",
-            "en": "A procedural gate on acceptance comes down too",
-            "es": "También cae un trámite en el lado que acepta"
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "过去公共机构要受理电子交易、电子消息或电子签名，得先拿到本部门部长或首长的单独命令。法案取消这道前置，改为所有机构遵守同一套技术与安全规则；按信息与电子政务局（iGA）在议会上的说明，符合规则即视为接受。这条改动比委托条款更直接：它把「能不能电子办」从各部的自由裁量变成默认状态。",
-            "en": "Public bodies previously needed a separate order from their own minister or head before accepting electronic transactions, messages or signatures. The bill removes that gate and puts every body under one set of technical and security rules; per the Information and eGovernment Authority's testimony to MPs, compliance with the rules now counts as acceptance. That change bites harder than the delegation clause: it turns electronic handling from ministerial discretion into a default.",
-            "es": "Antes, un organismo público necesitaba una orden de su propio ministro o titular para aceptar transacciones, mensajes o firmas electrónicas. El proyecto elimina esa puerta y somete a todos a un mismo conjunto de reglas técnicas y de seguridad; según el testimonio de la Autoridad de Información y Gobierno Electrónico ante los diputados, cumplir las reglas equivale a aceptar. Ese cambio muerde más que la cláusula de delegación: convierte la tramitación electrónica de discrecionalidad ministerial en situación por defecto."
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "巴林的基础条件摆在那里：95% 的政府服务已可在线办理，全部通过生物识别国家身份系统 MyGov Bahrain 访问，目标是 2027 年底前全部上线。随法案提交的经济研究认为，线上化能减少纸质、档案与办公支出，私营机构承接更多身份服务也会给本地技术公司带来订单。法案在众议院通过后还需后续审议程序，公告未给出生效时间。",
-            "en": "The baseline is already high: 95 percent of government services are online and all are reached through MyGov Bahrain, the biometric national identity system, with full coverage targeted for end-2027. An economic study filed with the bill argues that moving work online cuts spending on paper, filing and office space, and that private providers taking a larger share of identity services would bring business to local technology firms. Having cleared the House, the bill still faces further stages; no commencement date was given.",
-            "es": "La base ya es alta: el 95 por ciento de los servicios públicos está en línea y todos se acceden mediante MyGov Bahrain, el sistema biométrico de identidad nacional, con cobertura total prevista para finales de 2027. Un estudio económico presentado con el proyecto sostiene que trasladar trabajo a línea reduce gasto en papel, archivo y oficinas, y que una mayor participación privada en servicios de identidad generaría negocio para empresas tecnológicas locales. Tras pasar la Cámara, el texto afronta más trámites; no se indicó fecha de entrada en vigor."
-          }
-        }
-      ],
-      "whyItMatters": {
-        "zh": "把国家身份服务的运营权部分让给私营机构，在海湾不是新话题，但巴林这次走的是立法而不是试点，且把费用设定权一并交到部长手上。对本地集成商与身份服务商，这意味着采购口从「政府自建」变成「政府委托」，投标结构、数据托管责任与服务水平条款都要重写。真正的风险在数据一侧：委托运营不等于转移数据控制权，法案保留国家的系统运行责任，但没有在文本里写明生物识别数据的存放地与密钥归属，这类细节通常落在委托合同与数据保护法里，而巴林的数据保护法框架仍在补齐。受理端的改动更值得盯——取消部长命令前置之后，跨部门电子签名互认的阻力会明显下降，这会直接抬高电子身份凭证的使用频次。",
-        "en": "Handing part of national identity operations to private firms is not new in the Gulf, but Bahrain is doing it by statute rather than pilot, and it moves fee-setting to the minister as well. For local integrators and identity providers, procurement shifts from government build to government delegation, and bid structures, data custody terms and service levels all have to be rewritten. The risk sits on the data side. Delegated operation is not a transfer of data control: the bill keeps system responsibility with the state but does not spell out where biometric data is stored or who holds the keys. Those details usually land in the delegation contract and in data protection law, and Bahrain's framework there is still filling in. The acceptance change deserves more attention: removing the ministerial order makes cross-agency recognition of e-signatures far easier, which raises how often digital identity credentials are actually used.",
-        "es": "Ceder parte de la operación de la identidad nacional a empresas privadas no es nuevo en el Golfo, pero Baréin lo hace por ley y no por piloto, y además traslada la fijación de tasas al ministro. Para integradores y proveedores locales, la compra pasa de construcción estatal a delegación estatal, y hay que reescribir estructuras de oferta, custodia de datos y niveles de servicio. El riesgo está en los datos. Operación delegada no es transferencia del control: el texto mantiene la responsabilidad del Estado pero no precisa dónde se almacenan los datos biométricos ni quién custodia las claves. Esos detalles suelen quedar en el contrato de delegación y en la ley de protección de datos, y el marco de Baréin aún se está completando. El cambio en la aceptación merece más atención: suprimir la orden ministerial facilita el reconocimiento transversal de firmas electrónicas, lo que eleva el uso real de las credenciales de identidad digital."
-      },
-      "confidence": 0.66,
-      "ai": {
-        "model": "deepseek-v4.1-flash",
-        "promptVersion": "identity-editor-2026-11"
-      }
-    }
-  ],
+  "drafts": [],
   "rejected": [
     {
       "title": "Revenue-sharing, data sovereignty concerns arise from Liberia ID card concession",
@@ -216,5 +135,5 @@
     "written": 6,
     "skippedByDedup": 5
   },
-  "finishedAt": "2026-11-05T19:16:26.367Z"
+  "finishedAt": "2026-11-05T20:18:38.109Z"
 }

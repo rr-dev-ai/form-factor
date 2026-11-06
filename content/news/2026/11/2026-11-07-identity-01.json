@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-07-identity-03",
+  "slug": "canada-budget-traveller-biometrics-eta-facial-image",
+  "industry": "identity",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "biometrics",
+    "verification",
+    "passport"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-07T04:17:41+08:00",
+  "ingestedAt": "2026-11-07T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/canadas-budget-funds-traveller-biometrics-strategy-and-facial-images-for-eta-applicants/",
+      "lang": "en",
+      "publishedAt": "2026-11-06T00:00:00-05:00"
+    },
+    {
+      "name": "Department of Finance Canada",
+      "url": "https://budget.canada.ca/2026/report-rapport/chap1-en.html",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "加拿大预算押注旅客生物识别：eTA 申请人要交人脸",
+    "en": "Canada's budget funds traveller biometrics and facial images for eTA applicants",
+    "es": "El presupuesto canadiense financia biometría de viajeros y exige rostro en la eTA"
+  },
+  "summary": {
+    "zh": "加拿大 2026 年联邦预算提出四年 430 万加元给交通部制定旅客生物识别战略，另拨 9000 万加元给移民部自 2027-28 年度起扩大指纹与人脸筛查，并以 2200 万加元预计收入冲抵。免签旅客申请电子旅行授权（eTA）时须远程提交人脸图像。边境服务局另获四年 1.925 亿加元、之后每年 4250 万加元，政府同时设旅客生物识别特别顾问。",
+    "en": "Canada's 2026 federal budget proposes C$4.3 million over four years for Transport Canada to write a Traveller Biometrics Strategy, plus C$90 million for Immigration, Refugees and Citizenship Canada to expand fingerprint and facial-image screening from 2027-28, offset by C$22 million in projected revenue. Visa-exempt travellers applying for an electronic travel authorisation would have to submit a facial image remotely. The border agency gets C$192.5 million over four years and C$42.5 million a year after that, and a special advisor on traveller biometrics is to be appointed.",
+    "es": "El presupuesto federal canadiense de 2026 propone 4,3 millones de dólares canadienses en cuatro años para que Transport Canada redacte una estrategia de biometría de viajeros, más 90 millones para que Inmigración amplíe el cribado de huellas y rostros desde 2027-28, compensados con 22 millones de ingresos previstos. Los viajeros exentos de visado que soliciten una autorización electrónica de viaje deberán enviar una imagen facial a distancia. La agencia fronteriza recibe 192,5 millones en cuatro años y 42,5 millones anuales después, y se nombrará un asesor especial en biometría de viajeros."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "三笔钱，三个承接方",
+        "en": "Three allocations, three owners",
+        "es": "Tres partidas, tres responsables"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "430 万加元给交通部，用来把机场、航司、安检与边境部门拉到同一套旅客生物识别战略里，预算文本提到可能用数字凭证让旅客更快通过机场与其他口岸；9000 万加元给移民部，扩大入境人员的指纹与人脸筛查，自 2027-28 年度起四年执行，同时预计带来 2200 万加元收入；1.925 亿加元加每年 4250 万加元给边境服务局，用于边境技术基础设施的现代化与稳定。三者都由一位旅客生物识别特别顾问协调。",
+        "en": "The C$4.3 million goes to Transport Canada to pull airports, airlines, security screening and border services into a single traveller biometrics strategy, with the budget text raising the potential use of digital credentials to move travellers through airports and other points of entry faster. The C$90 million goes to IRCC over four years from 2027-28 to expand fingerprint and facial screening of people coming to the country, against C$22 million in projected revenue. The C$192.5 million plus C$42.5 million a year goes to the border agency to modernise and stabilise critical border technology. A special advisor coordinates all three.",
+        "es": "Los 4,3 millones van a Transport Canada para reunir aeropuertos, aerolíneas, control de seguridad y servicios fronterizos en una sola estrategia de biometría de viajeros, y el texto presupuestario plantea usar credenciales digitales para agilizar el paso por aeropuertos y otros puntos de entrada. Los 90 millones van a Inmigración en cuatro años desde 2027-28 para ampliar el cribado de huellas y rostros de quienes llegan al país, frente a 22 millones de ingresos previstos. Los 192,5 millones más 42,5 anuales van a la agencia fronteriza para modernizar su infraestructura tecnológica. Un asesor especial coordina las tres partidas."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "eTA 多了一道采集",
+        "en": "A new capture step for the eTA",
+        "es": "Un paso nuevo de captura en la eTA"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "电子旅行授权是免签旅客登机前必须拿到的在线许可，目前不采生物特征。预算要把人脸图像加进申请环节，由申请人远程提交，用于核验身份、压低冒用。这一步把筛查从抵达时的口岸前移到出发前的申请，也意味着 eTA 的受理链条上多了一个需要活体检测与证件比对的环节。",
+        "en": "The electronic travel authorisation is the online permission visa-exempt travellers must hold before boarding, and it collects no biometrics today. The budget would add a remotely submitted facial image to the application, used to verify identity and cut misuse. That moves screening from the port of arrival to the application made before departure, and adds a step to the eTA chain that needs liveness detection and document comparison.",
+        "es": "La autorización electrónica de viaje es el permiso en línea que los viajeros exentos de visado deben tener antes de embarcar, y hoy no recoge biometría. El presupuesto añadiría una imagen facial enviada a distancia en la solicitud, para verificar identidad y reducir suplantaciones. Eso traslada el cribado del punto de llegada a la solicitud previa a la salida, y añade un paso que exige prueba de vida y cotejo documental."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "行业已经在等",
+        "en": "The industry is already waiting",
+        "es": "El sector ya espera"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "加拿大机场理事会表示机场与合作方一直在推动并做过成功试点，准备快速推进；多伦多皮尔逊机场正在与加拿大航空测试四台人脸核验电子闸机。预算同时提出给四大机场长期运营特许权，并拨款准备遴选私人运营方的竞争程序——旅客流程的数字化与机场运营权改革被打包在同一份文件里。",
+        "en": "The Canadian Airports Council said airports and partners have advocated for this, run successful pilots and are ready to move quickly; Toronto Pearson has been testing four facial verification e-gates with Air Canada. The budget also proposes long-term operating concessions for the four largest airports and funding to prepare a competitive process to select private operators, bundling passenger-flow digitisation with airport governance reform in one document.",
+        "es": "El Consejo de Aeropuertos de Canadá dijo que los aeropuertos y sus socios han impulsado esta agenda, han hecho pilotos con éxito y están listos para avanzar; Toronto Pearson prueba cuatro puertas electrónicas de verificación facial con Air Canada. El presupuesto también propone concesiones de operación a largo plazo para los cuatro mayores aeropuertos y fondos para preparar un proceso competitivo de operadores privados, empaquetando digitalización del pasajero y reforma de gobernanza aeroportuaria."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对生物识别供应商，这是北美未来两年最清楚的采购窗口：金额、年度与承接方都写在预算里，eTA 的人脸采集是新增量而不是替换存量，卡的是活体检测与证件比对两条能力。对航司与机场，官方口径第一次把「数字凭证过安检与入境」写进战略，登机口与入境闸机的读证能力要提前准备，否则战略落地时没有受理端。风险有两处：预算是提案，须议会通过；2200 万加元的预计收入说明这部分要按收费设计，收费标准决定航司与旅客是否买账。金融服务数字凭证试点另开一条线，若跑通，银行开户会成为政府凭证的第二个受理场景。",
+    "en": "For biometrics vendors this is the clearest procurement window in North America for the next two years: amounts, years and owners are all in the budget, and the eTA facial image is new volume rather than replacement, gated on liveness detection and document comparison. For airlines and airports, the strategy puts digital credentials for screening and entry into official language for the first time, so boarding gates and arrival e-gates need reader capability ready or the strategy lands without an acceptance layer. Two risks: the budget is a proposal and needs parliamentary approval, and the C$22 million in projected revenue means this has to be designed as a fee, whose level decides whether carriers and travellers accept it. The financial-services digital credential pilot opens a second line: if it works, bank account opening becomes the next acceptance point for government credentials.",
+    "es": "Para los proveedores de biometría es la ventana de compra más clara de Norteamérica en dos años: importes, anualidades y responsables están en el presupuesto, y la imagen facial de la eTA es volumen nuevo y no sustitución, condicionado a prueba de vida y cotejo documental. Para aerolíneas y aeropuertos, la estrategia incorpora por primera vez al lenguaje oficial las credenciales digitales para control y entrada, así que las puertas de embarque y las e-gates de llegada necesitan capacidad de lectura o la estrategia aterrizará sin capa de aceptación. Dos riesgos: el presupuesto es una propuesta y requiere aprobación parlamentaria, y los 22 millones de ingresos previstos obligan a diseñarlo como tasa, cuyo nivel decidirá si aerolíneas y viajeros lo aceptan. El piloto de credenciales digitales en servicios financieros abre una segunda vía: si funciona, la apertura de cuentas será el siguiente punto de aceptación."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "2026-11-07-identity-02",
+  "slug": "spain-midni-qr-verifier-polling-stations",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "mobile-id",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-07T04:17:41+08:00",
+  "ingestedAt": "2026-11-07T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/spains-electoral-board-clears-midni-digital-id-for-nov-29-vote-after-interior-promises-qr-readers/",
+      "lang": "en",
+      "publishedAt": "2026-11-06T00:00:00-05:00"
+    },
+    {
+      "name": "Junta Electoral Central",
+      "url": "https://www.juntaelectoralcentral.es/cs/jec/doctrina/acuerdos?anyosesion=2026&idacuerdoinstruccion=155594&idsesion=1120&template=Doctrina%2FJEC_Detalle",
+      "lang": "es"
+    },
+    {
+      "name": "Boletín Oficial del Estado",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22610",
+      "lang": "es"
+    }
+  ],
+  "title": {
+    "zh": "西班牙选举委员会放行 MiDNI：11 月 29 日投票可出示手机证件",
+    "en": "Spain's electoral board clears MiDNI app for the 29 November vote",
+    "es": "La junta electoral española autoriza MiDNI para las elecciones del 29 de noviembre"
+  },
+  "summary": {
+    "zh": "西班牙中央选举委员会 11 月 5 日解除对 MiDNI 数字身份证的暂停，选民可在 11 月 29 日大选用手机应用证明身份。条件是每个投票站配一台带摄像头、能开浏览器的设备，运行 MiDNI 官网的二维码校验页，码内数据由国家警察签名。内政部 10 月 29 日部长令要求 Correos 随选举材料送取读码设备，每站上限约 28 欧元；驾照应用 MiDGT 仍被禁。",
+    "en": "Spain's Central Electoral Board lifted its suspension of the MiDNI digital ID on 5 November, letting voters prove identity with the phone app at the 29 November election. Each polling station must have a device with a camera and a browser running the QR verifier from the MiDNI website; the code carries data signed by the National Police. A 29 October ministerial order has Correos deliver and collect readers with election materials at up to about EUR 28 per station. The MiDGT driving-licence app stays barred.",
+    "es": "La Junta Electoral Central levantó el 5 de noviembre la suspensión de MiDNI, el DNI digital, para que los votantes acrediten su identidad con la aplicación el 29 de noviembre. Cada mesa debe tener un dispositivo con cámara y navegador que ejecute el verificador QR del sitio de MiDNI; el código lleva datos firmados por la Policía Nacional. Una orden del 29 de octubre encarga a Correos entregar y recoger lectores con el material electoral, con un máximo de unos 28 euros por mesa. La aplicación de permisos MiDGT sigue prohibida."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "解除的是 3 月 26 日对两款应用同时下的暂停。委员会当初认可它们，是因为屏幕上显示照片且证件本身有效，内政部也主张「出示屏幕即可」；人民党反对，认为必须生成二维码并校验，委员会随后裁定在「足够安全」的校验办法落实前不得使用。这一轮内政部拿出的就是这个校验办法：不是专用读码器，而是任何一台能开浏览器的带摄像头设备，打开 MiDNI 官网的校验页扫选民手机上的码。",
+        "en": "What was lifted is a suspension imposed on both apps on 26 March. The board had accepted them because they showed the holder's photo and carried official validity, and the Interior Ministry argued that showing the screen was enough. The People's Party disagreed, arguing a QR code had to be generated and checked, and the board then ruled the digital ID could not be used until a sufficiently secure check was guaranteed. The mechanism the ministry produced is not a dedicated reader but any device with a camera and a browser, pointed at the code on the voter's phone through the verifier page on the MiDNI site.",
+        "es": "Lo que se levanta es una suspensión impuesta a ambas aplicaciones el 26 de marzo. La junta las había aceptado porque mostraban la foto del titular y tenían validez oficial, y el Ministerio del Interior sostenía que bastaba enseñar la pantalla. El Partido Popular defendió que debía generarse y verificarse un código QR, y la junta dictaminó que el DNI digital no podía usarse hasta garantizar una comprobación suficientemente segura. El mecanismo que aporta Interior no es un lector dedicado, sino cualquier dispositivo con cámara y navegador apuntado al código del teléfono mediante la página de verificación del sitio de MiDNI."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "物流这一侧才是成本",
+        "en": "The logistics are where the cost sits",
+        "es": "La logística concentra el coste"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "10 月 29 日的部长令把送设备这件事交给邮政：Correos 随选举材料把读码设备送到投票站，投票后再收回，送取合计上限约 28 欧元一站。这解释了为什么方案是「通用设备 + 网页校验」，而不是给六万多个站点采购专用终端——后者在两周内既买不齐也发不完。代价是流程变慢，委员会自己也承认核对比实体证件耗时更长。",
+        "en": "The 29 October order hands distribution to the postal operator: Correos delivers readers with election materials and collects them afterwards, at a combined cap of about EUR 28 per station. That explains the choice of a generic device plus a web verifier over procuring dedicated terminals for more than 60,000 stations, which could be neither bought nor shipped inside two weeks. The price is speed: the board itself concedes the check takes longer than looking at a physical card.",
+        "es": "La orden del 29 de octubre encarga la distribución al operador postal: Correos entrega los lectores con el material electoral y los recoge después, con un tope conjunto de unos 28 euros por mesa. Eso explica la elección de un dispositivo genérico con verificador web frente a comprar terminales dedicados para más de 60.000 mesas, algo imposible de adquirir y distribuir en dos semanas. El precio es la velocidad: la propia junta admite que la comprobación tarda más que mirar un documento físico."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "仍在最高法院争",
+        "en": "Still contested at the Supreme Court",
+        "es": "Todavía en disputa ante el Supremo"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "参选的 Iustitia Europa 已请求最高法院紧急中止这项授权，问的是断电、手机没电、读码器故障、校验做不完时怎么办，以及由谁决定处置。委员会的回答重复了原决定，没有回应内政部的技术与操作预案。这一层没有被解决：制度上允许用手机证件投票，操作上出问题时的规则仍是空白。",
+        "en": "The party Iustitia Europa has asked the Supreme Court to suspend the authorisation as an urgent precaution, asking what happens if the connection fails, a phone battery dies, a reader breaks or a check cannot be completed, and who decides. The board's reply restates its decision without addressing the ministry's technical and operational protocol. That layer is unresolved: the rules now allow voting with a phone credential, while the rules for what happens when it fails are still unwritten.",
+        "es": "El partido Iustitia Europa ha pedido al Tribunal Supremo la suspensión urgente de la autorización, preguntando qué ocurre si falla la conexión, se agota la batería, se rompe un lector o no puede completarse la comprobación, y quién decide. La respuesta de la junta repite su decisión sin abordar el protocolo técnico y operativo del ministerio. Esa capa sigue sin resolver: la norma ya permite votar con una credencial móvil, pero las reglas para cuando falla están por escribir."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "需要分清的是，MiDNI 不是欧盟数字身份钱包，也不在欧委会已通报的电子识别系统名单里——那份名单上西班牙只有实体 DNIe 卡。它 2025 年 9 月获批，已在埃斯特雷马杜拉、阿拉贡与卡斯蒂利亚-莱昂的地方选举中用过；内政部长当年介绍时明确说它不能当旅行证件，也不能在境外证明身份。",
+        "en": "MiDNI is not the EU digital identity wallet, and it is not on the Commission's list of notified identification systems, where Spain appears only with the physical DNIe card. Authorised in September 2025, it has already been used in regional elections in Extremadura, Aragon and Castilla y Leon, and the interior minister said when presenting it that it could not serve as a travel document or prove identity abroad.",
+        "es": "MiDNI no es la cartera europea de identidad digital y tampoco figura en la lista de sistemas de identificación notificados de la Comisión, donde España aparece solo con el DNIe físico. Autorizado en septiembre de 2025, ya se usó en elecciones autonómicas de Extremadura, Aragón y Castilla y León, y el ministro del Interior advirtió al presentarlo que no sirve como documento de viaje ni para acreditar identidad en el exterior."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "全国选举第一次把手机证件写进受理流程，但落点是「一台通用设备打开网页扫码」，不是读卡器、也不是 mDL 的近距离协议。对设备商这不是硬件订单，Correos 按每站约 28 欧元的送取费已经把采购空间压死；真正被验证的是把浏览器当核验器这条路。11 月 29 日如果跑通，酒店、银行柜台、政务窗口这类没有专用终端的场景会照抄，因为它们同样不愿意为受理手机证件单独买设备。对钱包供应商，教训是凭证能出示不等于能被受理：MiDNI 2025 年就上线，卡住的是核验环节有没有可审计的校验。欧盟成员国 12 月 24 日的钱包义务走的是另一套认证与通报体系，西班牙这条地方路径不会自动接上去。",
+    "en": "A national election has put a phone credential into the acceptance flow for the first time, but the landing point is a generic device opening a web page, not a reader and not the mDL proximity protocol. For hardware vendors this is not an order: Correos at roughly EUR 28 per station has already closed the procurement window. What is being tested is the browser-as-verifier path. If it holds on 29 November, hotels, bank counters and government windows that own no dedicated terminal will copy it, because they are equally unwilling to buy hardware just to accept a phone credential. For wallet providers the lesson is that presentable is not acceptable: MiDNI went live in 2025 and stalled on whether the check could be audited. The 24 December wallet obligation for member states runs on a separate certification and notification track, and this national route will not connect to it automatically.",
+    "es": "Una elección general ha llevado por primera vez una credencial móvil al flujo de aceptación, pero el punto de aterrizaje es un dispositivo genérico que abre una página web, no un lector ni el protocolo de proximidad mDL. Para los fabricantes no es un pedido: Correos, a unos 28 euros por mesa, ya cerró el margen de compra. Lo que se prueba es la vía del navegador como verificador. Si funciona el 29 de noviembre, hoteles, ventanillas bancarias y oficinas públicas sin terminal dedicado la copiarán, porque tampoco quieren comprar hardware solo para aceptar una credencial móvil. Para los proveedores de cartera la lección es que poder presentar no es poder aceptar: MiDNI salió en 2025 y se atascó en si la comprobación era auditable. La obligación de cartera del 24 de diciembre para los Estados miembros sigue otra vía de certificación y notificación, y esta ruta nacional no se conectará sola."
+  },
+  "confidence": 0.84,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

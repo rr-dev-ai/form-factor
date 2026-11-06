@@ -231,87 +231,6 @@
       }
     },
     {
-      "id": "2026-11-06-banking-08",
-      "slug": "vtb-resident-card-750k-mir-multi-application",
-      "industry": "banking",
-      "region": "cis",
-      "regions": [],
-      "tags": [
-        "issuing",
-        "scheme-rules"
-      ],
-      "originalLang": "en",
-      "sources": [
-        {
-          "name": "AK&M",
-          "url": "https://www.akm.ru/eng/news/vtb-has-issued-more-than-750-thousand-resident-cards-in-the-regions/",
-          "lang": "en",
-          "publishedAt": "2026-11-05T21:39:00+03:00"
-        }
-      ],
-      "title": {
-        "zh": "VTB 居民卡发到 75 万张，把政务与交通装进 Mir 卡",
-        "en": "VTB's Resident Card passes 750,000, packing services onto a Mir debit card",
-        "es": "La Tarjeta del Residente de VTB supera 750.000 y suma servicios a una tarjeta Mir"
-      },
-      "summary": {
-        "zh": "11 月 5 日，VTB 公布居民卡累计发卡超过 75 万张，可在 12 个地区办理。卡基于 Mir 借记卡，带 NFC 非接触，可当交通票在闸机上贴卡扣「电子钱包」票价，还能叠加医保保单、工作或学习通行证。发行量最大的是萨马拉，约 20 万张。",
-        "en": "VTB said on 5 November that it has issued more than 750,000 Resident Cards, available in 12 regions. The card is a Mir debit card with NFC contactless, doubles as a transit ticket by tapping the validator against an e-wallet fare, and can carry an insurance policy, work or student pass. Samara accounts for the largest share, at about 200,000.",
-        "es": "VTB informó el 5 de noviembre de que ha emitido más de 750.000 Tarjetas del Residente, disponibles en 12 regiones. La tarjeta es una tarjeta de débito Mir con NFC sin contacto, sirve como billete de transporte al acercarla al validador con tarifa de monedero electrónico y puede llevar póliza de seguro, pase laboral o de estudiante. Samara concentra la mayor parte, unos 200.000."
-      },
-      "body": [
-        {
-          "kind": "h",
-          "text": {
-            "zh": "一张卡，几重身份",
-            "en": "One card, several identities",
-            "es": "Una tarjeta, varias identidades"
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "11 月 5 日，VTB 公布居民卡自项目启动以来累计发卡超过 75 万张，可在俄罗斯 12 个地区办理。产品把地区与联邦层面的公共服务并进银行卡功能，由各地方政府与发卡行共同推进。",
-            "en": "VTB said on 5 November that it has issued more than 750,000 Resident Cards since the project began, with availability in 12 Russian regions. The product folds regional and federal public services into a bank card, run jointly by regional governments and issuing banks.",
-            "es": "VTB informó el 5 de noviembre de que ha emitido más de 750.000 Tarjetas del Residente desde el inicio del proyecto, con disponibilidad en 12 regiones rusas. El producto integra servicios públicos regionales y federales en una tarjeta bancaria, gestionada conjuntamente por gobiernos regionales y bancos emisores."
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "卡本身是 VTB 的 Mir 借记卡，带 NFC 非接触。交通侧它取代实体票：在终端或闸机上贴卡即可扣「电子钱包」票价。卡功能还能继续叠加社会与商业服务，例如医保保单、工作或学生通行证。换句话说，卡片被当成多应用载体用，而不是单纯的支付工具。",
-            "en": "The card itself is a VTB debit card on the Mir national payment system with NFC contactless. On transit it replaces a physical ticket: tapping the card on a validator charges the e-wallet fare. Its functions can be extended with social and commercial services such as a medical insurance policy or a work or student pass. In effect the card is used as a multi-application carrier rather than a pure payment instrument.",
-            "es": "La tarjeta es una tarjeta de débito de VTB del sistema nacional de pagos Mir con NFC sin contacto. En transporte sustituye al billete físico: al acercarla al validador se cobra la tarifa del monedero electrónico. Sus funciones pueden ampliarse con servicios sociales y comerciales, como una póliza de seguro médico o un pase laboral o de estudiante. En la práctica se usa como soporte multi aplicación, no como mero instrumento de pago."
-          }
-        },
-        {
-          "kind": "ul",
-          "items": [
-            {
-              "zh": "发行量分布：萨马拉约 20 万张，圣彼得堡约 13 万张，斯维尔德洛夫斯克州 10 万张，莫尔多瓦超过 8 万张",
-              "en": "Where the volume sits: about 200,000 cards in Samara, about 130,000 in St Petersburg, 100,000 in Sverdlovsk region and more than 80,000 in Mordovia",
-              "es": "Dónde está el volumen: unos 200.000 en Samara, unos 130.000 en San Petersburgo, 100.000 en la región de Sverdlovsk y más de 80.000 en Mordovia"
-            },
-            {
-              "zh": "其余可办理地区为奥伦堡、沃洛格达、摩尔曼斯克、梁赞、萨哈林四州，以及滨海边疆区、下诺夫哥罗德州与鄂木斯克州",
-              "en": "The remaining regions are Orenburg, Vologda, Murmansk, Ryazan and Sakhalin, plus Primorsky Krai, Nizhny Novgorod and Omsk",
-              "es": "Las demás regiones son Oremburgo, Vólogda, Múrmansk, Riazán y Sajalín, además de Primorie, Nizhni Nóvgorod y Omsk"
-            }
-          ]
-        }
-      ],
-      "whyItMatters": {
-        "zh": "对做发卡与卡片应用的人，这条的价值不在 75 万这个数字，而在卡片被当成多应用载体：交通、医保、门禁三类凭证压到一张 Mir 借记卡上。做法是地方政府加发卡行联合推，卡组织提供底座，地方服务按地区逐个接。要复制这套，卡点不在芯片容量，而在各发证方的数据接口和受理终端的应用选择逻辑——闸机要能在同一张卡上找到交通应用，医院和学校要能读同一张卡上的另一块。这也解释了它为什么按地区推进，而不是全国一次上线。对终端与卡片管理服务供应商，这是一个边界清晰的多应用集成市场。",
-        "en": "For people working on issuing and card applications, the value here is not the 750,000 figure but the card being used as a multi-application carrier: transit, medical insurance and access credentials collapsed onto one Mir debit card. The method is regional governments plus issuing banks, with the scheme providing the base and local services connected region by region. Copying it is limited less by chip capacity than by each issuing authority's data interface and by how acceptance terminals select an application: a gate has to find the transit applet on the same card whose other half a hospital or school must read. That is also why it rolls out region by region rather than nationwide at once. For terminal vendors and card management service providers, it is a clearly bounded multi-application integration market.",
-        "es": "Para quien trabaja en emisión y aplicaciones de tarjeta, el valor no está en la cifra de 750.000 sino en que la tarjeta se usa como soporte multi aplicación: credenciales de transporte, seguro médico y control de acceso sobre una sola tarjeta de débito Mir. El método es gobiernos regionales más bancos emisores, con el esquema como base y los servicios locales conectados región por región. Replicarlo depende menos de la capacidad del chip que de la interfaz de datos de cada autoridad emisora y de cómo los terminales eligen la aplicación: un torno debe encontrar el applet de transporte en la misma tarjeta cuya otra mitad debe leer un hospital o una escuela. Por eso avanza región por región y no en un lanzamiento nacional. Para proveedores de terminales y de servicios de gestión de tarjetas es un mercado de integración multi aplicación con límites claros."
-      },
-      "confidence": 0.64,
-      "ai": {
-        "model": "deepseek-v4.1-flash",
-        "promptVersion": "banking-pool-v1"
-      }
-    },
-    {
       "id": "2026-11-06-banking-10",
       "slug": "truist-merchant-services-clover-paze",
       "industry": "banking",
@@ -691,6 +610,11 @@
       "title": "Merchant Acquiring in Africa: Opportunities in Low-Card, High-Mobile Markets",
       "url": "https://m2pfintech.com/blog/merchant-acquiring-in-africa-opportunities-in-low-card-high-mobile-markets",
       "reason": "厂商观点文章，非事件；无客户名、无上线时间。"
+    },
+    {
+      "slug": "vtb-resident-card-750k-mir-multi-application",
+      "title": "VTB 居民卡发到 75 万张，把政务与交通装进 Mir 卡",
+      "reason": "跨池重复：同一稿已并入 2026-11-07 池，由 11-07 终审处理"
     }
   ],
   "stats": {

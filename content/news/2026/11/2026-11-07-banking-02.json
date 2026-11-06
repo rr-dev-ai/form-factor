@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-07-banking-06",
+  "slug": "paystashio-paymentology-south-africa",
+  "industry": "banking",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "issuing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-07T04:17:41+08:00",
+  "ingestedAt": "2026-11-07T02:30:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Merchant's Eye",
+      "url": "https://www.merchantseye.com/news/paymentology-powers-paystashio-to-simplify-corporate-spending-for--e45af27a",
+      "lang": "en",
+      "publishedAt": "2026-11-04T00:00:00+02:00"
+    }
+  ],
+  "title": {
+    "zh": "南非 Paystashio 上线，发卡与记账并成一套",
+    "en": "South Africa's Paystashio bundles card issuing with expense books",
+    "es": "Paystashio llega a Sudáfrica con emisión de tarjetas y contabilidad juntas"
+  },
+  "summary": {
+    "zh": "11 月 4 日，发卡处理商 Paymentology 与南非 Byte Orbit 在约翰内斯堡推出 Paystashio：中小企业可给员工发实体卡与虚拟卡，在消费当下套用限额，交易实时授权并自动进入对账，已接 Xero 与 Sage。首发南非，境外扩张未定时间。",
+    "en": "On 4 November issuer processor Paymentology and South Africa's Byte Orbit launched Paystashio in Johannesburg: SMEs can issue physical and virtual employee cards, apply spending limits at the point of purchase, and see transactions authorised in real time and posted to reconciliation, with Xero and Sage connected. South Africa first; no date for expansion abroad.",
+    "es": "El 4 de noviembre el procesador emisor Paymentology y la sudafricana Byte Orbit lanzaron Paystashio en Johannesburgo: las pymes pueden emitir tarjetas físicas y virtuales para empleados, aplicar límites en el momento de la compra y ver las operaciones autorizadas en tiempo real y volcadas a conciliación, con Xero y Sage conectados. Primero Sudáfrica, sin fecha de expansión."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "发卡处理沉到后台，前台是记账",
+        "en": "Issuer processing goes to the back, the ledger to the front",
+        "es": "El procesamiento queda detrás, el libro contable delante"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 4 日，Paymentology 与 Byte Orbit 在约翰内斯堡发布 Paystashio，一套面向中小企业的支出管理平台。企业可给员工发实体卡与虚拟卡，设定个人限额，实时监控交易并自动完成费用对账。",
+        "en": "On 4 November Paymentology and Byte Orbit launched Paystashio in Johannesburg, a spend management platform for small and medium businesses. Companies can issue physical and virtual cards to employees, set individual limits, watch transactions in real time and reconcile expenses automatically.",
+        "es": "El 4 de noviembre Paymentology y Byte Orbit lanzaron Paystashio en Johannesburgo, una plataforma de gestión de gasto para pymes. Las empresas pueden emitir tarjetas físicas y virtuales a empleados, fijar límites individuales, seguir las operaciones en tiempo real y conciliar gastos de forma automática."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "机制的分工在两侧。Paymentology 提供实时授权与在消费点套用限额的发卡处理，决定一笔交易能不能过；Byte Orbit 做上层：数字收据采集、AI 交易分类，以及与 Xero、Sage 的对接，QuickBooks 在计划中。这套组合的意思是，卡不再单独卖，而是挂在记账流程里。",
+        "en": "The split runs on both sides. Paymentology supplies real-time authorisation and issuer processing that applies limits at the point of purchase, deciding whether a transaction clears; Byte Orbit builds the layer above: digital receipt capture, AI transaction categorisation and connectors to Xero and Sage, with QuickBooks planned. The combination means the card is no longer sold on its own but attached to the bookkeeping flow.",
+        "es": "El reparto corre por ambos lados. Paymentology aporta autorización en tiempo real y procesamiento emisor que aplica límites en el punto de compra, decidiendo si la operación pasa; Byte Orbit construye la capa superior: captura digital de recibos, categorización de operaciones con IA y conectores a Xero y Sage, con QuickBooks previsto. La combinación implica que la tarjeta ya no se vende sola sino pegada al flujo contable."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "缺口有三处：没有发卡量或交易额目标，没有点名发卡行与卡组织，也没有公布定价。Byte Orbit 只表示先做南非，后续视客户需求扩到更多金融能力，境外扩张没有时间表。",
+        "en": "Three gaps: no card volume or transaction target, no named issuing bank or card scheme, and no pricing. Byte Orbit said only that it starts in South Africa and will add financial capabilities as customer needs evolve, with no timetable for going abroad.",
+        "es": "Tres huecos: sin objetivo de emisión ni de volumen transaccional, sin banco emisor ni esquema de tarjeta nombrados, y sin precios. Byte Orbit solo dijo que empieza en Sudáfrica y sumará capacidades financieras según evolucione la demanda, sin calendario internacional."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对南非的中小企业金融市场，这条的分量在于发卡处理被当成基础设施租用：一家本地软件公司不必拿发卡资质，也能把卡做进自己的产品，跟银行的企业卡正面抢客户。传统上这块由银行的商务卡加网银完成，界面僵硬、对账靠人工，正是本地软件商能切进去的缝。对发卡处理商，这是一条可复制的渠道——把处理能力卖给本地平台，比自己进市场便宜。要判断成败，缺三个数：发卡量、单卡月均消费、以及企业续用率。公告一个都没给，所以现在只能算产品上线，不能算市场验证。",
+    "en": "For South Africa's SME finance market the weight lies in issuer processing being rented as infrastructure: a local software firm can put cards into its own product without holding an issuing licence, competing head-on with banks' corporate cards. That segment has traditionally been served by a bank commercial card plus online banking, with rigid interfaces and manual reconciliation, which is exactly the gap a local software vendor can enter. For the processor it is a repeatable channel: selling processing to a local platform is cheaper than entering the market itself. Judging success needs three numbers that are missing: cards issued, monthly spend per card, and business retention. With none disclosed, this is a product launch, not market validation.",
+    "es": "Para el mercado de pymes sudafricano el peso está en que el procesamiento emisor se alquila como infraestructura: una firma local de software puede meter tarjetas en su producto sin licencia de emisión y competir de frente con las tarjetas corporativas de los bancos. Ese segmento se servía con tarjeta corporativa bancaria más banca online, con interfaces rígidas y conciliación manual, justo la grieta por la que entra un proveedor local. Para el procesador es un canal repetible: vender procesamiento a una plataforma local cuesta menos que entrar solo al mercado. Para juzgar el resultado faltan tres cifras: tarjetas emitidas, gasto mensual por tarjeta y retención de empresas. Sin ninguna publicada, es un lanzamiento de producto, no una validación de mercado."
+  },
+  "confidence": 0.66,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-07-telecom-02",
+  "slug": "anatel-mandatory-roaming-highways",
+  "industry": "telecom",
+  "region": "latam",
+  "regions": [],
+  "tags": [
+    "roaming"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-07T04:17:41+08:00",
+  "ingestedAt": "2026-11-07T02:50:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Telecompaper",
+      "url": "https://www.telecompaper.com/news/brazil-mandates-automatic-roaming-on-highways-and-small-towns--1587952",
+      "lang": "en",
+      "publishedAt": "2026-11-05T00:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "巴西把公路漫游变成义务，运营商 90 天内要开通",
+    "en": "Brazil makes roaming on highways an obligation, with 90 days to switch it on",
+    "es": "Brasil convierte la itinerancia en carretera en obligación con 90 días de plazo"
+  },
+  "summary": {
+    "zh": "巴西监管机构 Anatel 通过新规，要求移动运营商在联邦与州级公路、居民少于 3 万的市镇以及非市政地区，为其他运营商的用户提供自动漫游，用户按原套餐资费使用、不额外收费。义务只落在为履行监管承诺或使用联邦公共资金建设的移动基础设施上，运营商有 90 天时间开通。",
+    "en": "Brazilian regulator Anatel approved rules requiring mobile operators to offer automatic roaming to rivals' subscribers on federal and state highways, in municipalities with fewer than 30,000 residents and in non-municipal areas, with users served at their normal plan rates and no surcharge. The duty applies only to infrastructure built for regulatory commitments or funded by federal public money, and operators have 90 days to implement it.",
+    "es": "El regulador brasileño Anatel aprobó reglas que obligan a los operadores móviles a ofrecer itinerancia automática a los clientes de sus rivales en carreteras federales y estatales, en municipios de menos de 30.000 habitantes y en zonas no municipales, con tarifas del plan habitual y sin recargo. La obligación recae solo en infraestructura construida por compromisos regulatorios o con fondos públicos federales, y los operadores tienen 90 días para implementarla."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "把商业协议换成监管义务",
+        "en": "Turning a commercial deal into a regulatory duty",
+        "es": "Convertir un acuerdo comercial en obligación regulatoria"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "巴西此前的国内漫游靠运营商之间的商业协议，覆盖与否取决于两家的谈判。新规把它改成义务：在指定地理范围内，用户离开自家网络后应自动接入他网，使用体验与资费不变。范围限定在公路、人口稀少市镇与非市政地区，指向的是那些靠市场逻辑建不成站点的地方。",
+        "en": "Domestic roaming in Brazil has rested on commercial agreements between operators, with coverage depending on what two parties negotiated. The new rules make it a duty: inside defined areas, a subscriber who leaves their own network should attach to another one automatically, with no change in experience or price. The scope is highways, sparsely populated municipalities and non-municipal areas, which is precisely where site economics do not close on their own.",
+        "es": "La itinerancia nacional en Brasil dependía de acuerdos comerciales entre operadores, con cobertura sujeta a lo que negociaran las partes. Las nuevas reglas la convierten en obligación: dentro de zonas definidas, el cliente que sale de su red debe conectarse automáticamente a otra, sin cambio de experiencia ni de precio. El ámbito son carreteras, municipios poco poblados y zonas no municipales, justo donde la economía de sitio no cierra por sí sola."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "值得注意的限定是资金来源。义务只覆盖为履行监管承诺或由联邦公共资金建设的移动基础设施，纯商业投资的站点不在其列。这条划线决定了执行时的争议点：一张网里哪些站点算「承诺覆盖」，需要逐站比对。90 天的实施期对网络侧不算宽裕，漫游开通涉及网间互联、信令与计费规则联调。",
+        "en": "The binding qualifier is funding. The duty covers only mobile infrastructure built to meet regulatory commitments or paid for with federal public money; purely commercial sites fall outside. That line decides where enforcement disputes will land, since which sites count as commitment coverage has to be checked site by site. Ninety days is not generous on the network side: turning roaming on means inter-operator interconnection, signalling and charging rules tested end to end.",
+        "es": "El matiz vinculante es el financiamiento. La obligación cubre solo infraestructura móvil construida para cumplir compromisos regulatorios o pagada con fondos públicos federales; los sitios puramente comerciales quedan fuera. Esa línea decidirá dónde caen las disputas de aplicación, porque qué sitios cuentan como cobertura comprometida hay que verificarlo uno por uno. Noventa días no es holgado en red: activar itinerancia implica interconexión, señalización y reglas de tarificación probadas de extremo a extremo."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对巴西的小型运营商和 MVNO，这条改变的是竞争前提：过去在公路与边远市镇没有站点就只能看着用户流失，现在可以借大网的接入权把服务半径撑开，代价是要对等开放自家为承诺建设的站点。对设备与 SIM 侧，直接影响有限——漫游沿用既有鉴权链，用户仍是同一张 SIM、同一套凭证，网络只是换成拜访地核心网去查归属网。真正变化在运营侧：计费与结算规则要重做，跨网信令量上升，网络选择策略也要改，否则手机会在弱信号区反复驻留失败。中期看两点：Anatel 如何认定「承诺覆盖」站点，以及 90 天后是否真能跑通全网。",
+    "en": "For Brazil's smaller operators and MVNOs this changes the terms of competition: where they once lost users on highways and remote municipalities for lack of sites, they can now borrow the large networks' access and stretch their service radius, at the price of opening their own commitment-built sites in return. On the device and SIM side the direct effect is small, since roaming rides the existing authentication chain: same SIM, same credentials, with the visited core network querying the home network. The real change is operational: charging and settlement rules must be redone, cross-network signalling rises, and network selection policy needs work or handsets will keep failing to attach in weak coverage. Two things to watch: how Anatel defines a commitment site, and whether the network actually works end to end after 90 days.",
+    "es": "Para los operadores pequeños y los OMV brasileños cambia la premisa de competencia: donde antes perdían clientes en carreteras y municipios remotos por falta de sitios, ahora pueden apoyarse en el acceso de las redes grandes y ampliar su radio de servicio, a cambio de abrir sus propios sitios comprometidos. En el lado de dispositivo y SIM el efecto directo es menor, porque la itinerancia usa la cadena de autenticación existente: mismo SIM, mismas credenciales, con el núcleo visitado consultando la red origen. El cambio real es operativo: hay que rehacer reglas de tarificación y liquidación, sube la señalización entre redes y la política de selección de red necesita ajustes, o el terminal fallará al registrarse en zonas débiles. Dos cosas a seguir: cómo define Anatel un sitio comprometido y si la red funciona de extremo a extremo tras los 90 días."
+  },
+  "confidence": 0.66,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-pool-v1"
+  }
+}

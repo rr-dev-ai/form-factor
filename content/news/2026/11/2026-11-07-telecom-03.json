@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-07-telecom-03",
+  "slug": "veon-starlink-d2d-13-million-subscribers",
+  "industry": "telecom",
+  "region": "global",
+  "regions": [],
+  "tags": [
+    "satellite"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-07T04:17:41+08:00",
+  "ingestedAt": "2026-11-07T02:50:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Channel NewsAsia",
+      "url": "https://www.channelnewsasia.com/business/veon-says-fuel-shortages-pose-biggest-threat-it-leans-on-satellite-data-growth-6530461",
+      "lang": "en",
+      "publishedAt": "2026-11-06T00:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "Veon 的卫星直连到 1320 万用户，iPhone 还要等苹果更新",
+    "en": "Veon's satellite direct-to-device reaches 13.2 million, iPhone waits on Apple",
+    "es": "El satélite directo de Veon llega a 13,2 millones y el iPhone espera a Apple"
+  },
+  "summary": {
+    "zh": "11 月 6 日，Veon 首席执行官 Kaan Terzioglu 在季度业绩会上称，跑在 Veon 频谱与网络上的星链卫星直连服务已覆盖其市场内 1320 万订户，含乌克兰的 Kyivstar 用户；Android 机型可用，iPhone 支持约一个月内到位，取决于苹果的软件更新。巴基斯坦与乌兹别克斯坦尚未开通，两国监管机构对主权问题仍有顾虑。",
+    "en": "On 6 November Veon chief executive Kaan Terzioglu said the Starlink direct-to-device service running on Veon's spectrum and networks reaches 13.2 million subscribers across its markets, including Kyivstar users in Ukraine. Android handsets work; iPhone support is expected within about a month, pending an Apple software update. Pakistan and Uzbekistan are not yet live, with regulators there still raising sovereignty concerns.",
+    "es": "El 6 de noviembre el consejero delegado de Veon, Kaan Terzioglu, dijo que el servicio directo a dispositivo de Starlink sobre el espectro y las redes de Veon alcanza 13,2 millones de clientes en sus mercados, incluidos los de Kyivstar en Ucrania. Los Android funcionan; el soporte para iPhone llegaría en cerca de un mes, a la espera de una actualización de software de Apple. Pakistán y Uzbekistán aún no están activos por reparos regulatorios sobre soberanía."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "用户数跨过千万，终端还差一半",
+        "en": "Past ten million users, still short one handset family",
+        "es": "Más de diez millones de usuarios, falta una familia de terminales"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这组数字出自三季度业绩会，不是新产品发布。按 Terzioglu 的说法，服务在乌克兰、哈萨克斯坦与孟加拉国落地，累计 1320 万独立用户至少连接过一次，运行方式是把星链的卫星链路接到 Veon 自有频谱与核心网上，手机不需要换卡或装专用终端。",
+        "en": "The figures come from the third-quarter earnings call, not a product launch. Per Terzioglu, the service is live in Ukraine, Kazakhstan and Bangladesh, with 13.2 million unique users having connected at least once, delivered by attaching Starlink's satellite link to Veon's own spectrum and core network. Handsets need no new SIM and no dedicated terminal.",
+        "es": "Las cifras vienen de la llamada de resultados del tercer trimestre, no de un lanzamiento. Según Terzioglu, el servicio opera en Ucrania, Kazajistán y Bangladés, con 13,2 millones de usuarios únicos que se conectaron al menos una vez, mediante el enlace satelital de Starlink sobre el espectro y el núcleo propios de Veon. El teléfono no necesita SIM nueva ni terminal dedicado."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "终端兼容是这个模式的关键变量。Android 已可用，iPhone 要等苹果推送软件更新，时间点由苹果决定而不由运营商决定。对一条靠存量手机铺开的服务，这意味着可触达用户数在更新落地前被人为切掉一半。",
+        "en": "Handset compatibility is the mode's key variable. Android works today; iPhone waits for Apple to ship a software update, a date Apple controls rather than the operator. For a service that spreads through phones people already own, that cuts the addressable base roughly in half until the update lands.",
+        "es": "La compatibilidad de terminales es la variable clave. Android funciona hoy; el iPhone espera una actualización que Apple decide, no el operador. Para un servicio que se difunde por teléfonos ya en manos de los usuarios, eso recorta casi a la mitad la base alcanzable hasta que llegue la actualización."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "未开通的两个市场说明了另一重约束。巴基斯坦与乌兹别克斯坦的监管机构对主权与监管控制有顾虑，Veon 仍在争取批准。同一套技术，落到不同辖区就要重新过一遍准入。",
+        "en": "The two markets not yet live show the other constraint. Regulators in Pakistan and Uzbekistan have raised sovereignty and control concerns, and Veon is still seeking approval. The same technology has to clear admission again in each jurisdiction.",
+        "es": "Los dos mercados aún inactivos muestran la otra restricción. Los reguladores de Pakistán y Uzbekistán plantearon reparos de soberanía y control, y Veon sigue buscando aprobación. La misma tecnología debe pasar de nuevo el filtro de admisión en cada jurisdicción."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对做 eSIM 与终端适配的厂商，这条给出的信息是卫星直连的商业化瓶颈已经从卫星转到手机：链路通了，用户数取决于有多少存量机型在软件层打开这项能力。苹果一次更新能放进几千万台设备，也能把它按住，运营商在这件事上没有议价权。对 Veon 这类在多个新兴市场经营的集团，卫星直连是把覆盖缺口变成可计费用户的手段，1320 万这个量级已经能进财报叙事。但两个待批市场提醒：这套模式在频谱与主权敏感的地方会反复卡关。中期要盯的是 iPhone 更新后的用户曲线，以及乌兹别克斯坦、巴基斯坦是否放行。",
+    "en": "For eSIM and device-integration vendors, the message is that the commercial bottleneck in satellite direct-to-device has moved from orbit to the handset: the link works, and user numbers now depend on how many existing models have the capability switched on in software. One Apple update can enable tens of millions of devices or hold them back, and operators have no leverage over that. For a group like Veon operating across several emerging markets, satellite direct-to-device converts coverage gaps into billable users, and 13.2 million is already a figure that belongs in an earnings narrative. The two pending markets are the reminder: where spectrum and sovereignty are sensitive, the model keeps getting stuck at admission. Watch the subscriber curve after the iPhone update, and whether Uzbekistan and Pakistan clear it.",
+    "es": "Para proveedores de eSIM e integración de terminales, el mensaje es que el cuello de botella comercial del satélite directo al dispositivo se movió de la órbita al teléfono: el enlace funciona y el número de usuarios depende de cuántos modelos existentes tengan la capacidad activada por software. Una actualización de Apple puede habilitar decenas de millones de equipos o frenarlos, y el operador no tiene influencia ahí. Para un grupo como Veon, presente en varios mercados emergentes, el satélite directo convierte huecos de cobertura en usuarios facturables, y 13,2 millones ya es una cifra que cabe en el relato de resultados. Los dos mercados pendientes son el recordatorio: donde el espectro y la soberanía son sensibles, el modelo se atasca en la admisión. Conviene seguir la curva de clientes tras la actualización del iPhone y si Uzbekistán y Pakistán lo autorizan."
+  },
+  "confidence": 0.62,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-pool-v1"
+  }
+}

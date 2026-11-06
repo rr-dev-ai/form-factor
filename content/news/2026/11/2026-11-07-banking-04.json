@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-07-banking-02",
+  "slug": "shenzhen-customs-foreign-card-duty-terminal",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "clearing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-07T04:17:41+08:00",
+  "ingestedAt": "2026-11-07T02:30:00+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "Xinhua",
+      "url": "https://news.qq.com/rain/a/20261106A05NMV00",
+      "lang": "zh",
+      "publishedAt": "2026-11-06T00:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "深圳海关上线缴税终端，境外卡直刷直达国库",
+    "en": "Shenzhen customs terminal takes foreign cards straight to the treasury",
+    "es": "La aduana de Shenzhen cobra con tarjetas extranjeras directo al Tesoro"
+  },
+  "summary": {
+    "zh": "11 月 5 日，深圳海关与交通银行深圳分行研发的智能缴税终端上线，皇岗口岸完成首笔进境物品税外卡直缴入库。终端支持银联、Visa、万事达、JCB、美国运通与大来，首批铺到皇岗、深圳机场、蛇口、深圳湾、西九龙站 5 个口岸。",
+    "en": "On 5 November Shenzhen Customs and Bank of Communications' Shenzhen branch put an intelligent duty-payment terminal into service, with the first foreign-card payment of an inbound-item duty cleared into the treasury at Huanggang port. The terminal accepts UnionPay, Visa, Mastercard, JCB, American Express and Diners, and is deployed at five ports.",
+    "es": "El 5 de noviembre la aduana de Shenzhen y la sucursal de Shenzhen del Banco de Comunicaciones pusieron en servicio un terminal inteligente de pago de tributos, con el primer pago con tarjeta extranjera ingresado al Tesoro en el puerto de Huanggang. Acepta UnionPay, Visa, Mastercard, JCB, American Express y Diners, y se instaló en cinco puertos."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "一笔税款的四段链路压进一台终端",
+        "en": "Four links of one duty payment, squeezed into a terminal",
+        "es": "Cuatro eslabones de un tributo, en un solo terminal"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 5 日，深圳海关联合交通银行深圳分行研发的智能缴税终端上线，皇岗口岸完成首笔进境物品税外卡直缴入库。现场流程是：关员扫描缴纳证上的二维码，系统自动匹配缴税单号，旅客直接刷卡完成缴纳。首批部署在皇岗、深圳机场、蛇口、深圳湾、西九龙站 5 个口岸。",
+        "en": "On 5 November the terminal developed by Shenzhen Customs and Bank of Communications' Shenzhen branch went live, and Huanggang port completed the first foreign-card payment of an inbound-item duty into the treasury. The counter workflow is: an officer scans the QR code on the assessment notice, the system matches the duty slip number, and the traveller pays by card. Five ports are in the first wave: Huanggang, Shenzhen airport, Shekou, Shenzhen Bay and West Kowloon.",
+        "es": "El 5 de noviembre entró en servicio el terminal desarrollado por la aduana de Shenzhen y la sucursal de Shenzhen del Banco de Comunicaciones, y el puerto de Huanggang completó el primer pago con tarjeta extranjera de un tributo de importación al Tesoro. El flujo en ventanilla es: el funcionario escanea el código QR del aviso, el sistema empareja el número de la liquidación y el viajero paga con tarjeta. La primera tanda cubre cinco puertos: Huanggang, aeropuerto de Shenzhen, Shekou, Shenzhen Bay y West Kowloon."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "机制的关键是把四段并成一条链：海关的征税指令、国际卡组织清算、银行账务处理、国库入库，全部接进财关库银横向联网系统，税款资金自动缴库、逐笔可追溯。支持银联以及 Visa、万事达、JCB、美国运通、大来等全球主要卡组织。",
+        "en": "The mechanism is joining four stages into one chain: the customs duty instruction, international card scheme clearing, bank bookkeeping and treasury deposit, all connected through the finance-customs-treasury-bank horizontal network, so funds are credited to the treasury automatically and each payment is traceable. UnionPay plus Visa, Mastercard, JCB, American Express and Diners are supported.",
+        "es": "El mecanismo une cuatro etapas en una cadena: la instrucción de la aduana, la compensación de los esquemas internacionales, la contabilidad del banco y el ingreso al Tesoro, todo conectado por la red horizontal finanzas-aduana-tesoro-banco, de modo que los fondos se acreditan automáticamente y cada pago es trazable. Se aceptan UnionPay, Visa, Mastercard, JCB, American Express y Diners."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公告未给出单笔限额、日均笔数、手续费由谁承担，也未说明后续推广到其余口岸的时间表。可参照的只有一个背景数字：今年以来经深圳口岸进出境的外国人已超过 500 万人次。这个数字说明场景规模，不等于外卡缴税的笔数。",
+        "en": "No per-transaction limit, daily volume, fee bearer or timetable for the remaining ports was disclosed. The only reference figure is contextual: more than 5 million foreign nationals have entered or exited through Shenzhen ports this year. That indicates the size of the setting, not the number of foreign-card duty payments.",
+        "es": "No se dieron límite por operación, volumen diario, quién asume la comisión ni calendario para el resto de puertos. La única cifra disponible es de contexto: más de 5 millones de extranjeros han entrado o salido por puertos de Shenzhen este año. Eso indica el tamaño del escenario, no el número de pagos de tributos con tarjeta extranjera."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对做收单与终端的人，这是一个边界清楚的复制模板：政务收费窗口接外卡，难点从来不在刷卡本身，而在把征税指令、卡组织清算与国库入库串成一条可对账的链。这套东西一旦在深圳 5 个口岸跑顺，其他口岸和别的政务收费场景都能照搬，终端厂商拿到的是可复制 SKU，不是一次性项目。对卡组织，这是跨境受理在地面网络上的增量，客群是入境旅客而不是本地持卡人，获客逻辑与商户收单不同。要判断实际体量，得等海关公布笔数或金额，现在只有一个 500 万人次的背景数。",
+    "en": "For acquirers and terminal makers this is a replication template with clear edges: putting foreign cards into a government fee window is never about the swipe, it is about wiring the duty instruction, scheme clearing and treasury deposit into one reconcilable chain. Once it runs at five Shenzhen ports, other ports and other government fee counters can copy it, which gives terminal vendors a repeatable SKU rather than a one-off project. For the schemes it is cross-border acceptance growth on the ground network, aimed at inbound travellers rather than local cardholders, which is a different acquisition logic from merchant acquiring. Judging real volume needs the customs figures for count or value; for now there is only the 5 million traveller context number.",
+    "es": "Para adquirentes y fabricantes de terminales es una plantilla replicable con bordes claros: llevar tarjetas extranjeras a una ventanilla pública nunca se trata del deslizamiento, sino de encadenar la instrucción del tributo, la compensación del esquema y el ingreso al Tesoro en una cadena conciliable. Cuando funciona en cinco puertos de Shenzhen, otros puertos y otras ventanillas públicas pueden copiarlo, lo que da a los proveedores un SKU repetible y no un proyecto único. Para los esquemas es crecimiento de aceptación transfronteriza en la red física, dirigido a viajeros entrantes y no a titulares locales, con una lógica de captación distinta a la adquirencia comercial. Para medir volumen real faltan las cifras de operaciones o importes; hoy solo hay el dato de contexto de 5 millones de viajeros."
+  },
+  "confidence": 0.66,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

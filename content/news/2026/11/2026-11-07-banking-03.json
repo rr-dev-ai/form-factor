@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-07-banking-01",
+  "slug": "interac-payfacto-konek-canada",
+  "industry": "banking",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-07T04:17:41+08:00",
+  "ingestedAt": "2026-11-07T02:30:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Merchant's Eye",
+      "url": "https://www.merchantseye.com/news/payfacto-merchants-nationwide-gain-access-to-konek-df7acdda",
+      "lang": "en",
+      "publishedAt": "2026-11-07T00:00:00-05:00"
+    }
+  ],
+  "title": {
+    "zh": "Interac 把账户直付接进 PayFacto 的收单平台",
+    "en": "Interac plugs account-to-account payment into PayFacto's merchant platform",
+    "es": "Interac conecta el pago cuenta a cuenta en la plataforma de PayFacto"
+  },
+  "summary": {
+    "zh": "11 月 7 日，Interac 宣布蒙特利尔的 PayFacto 把 Konek 接进其加拿大商户与渠道网络：消费者可从支票或储蓄账户直接付款，与卡支付并列受理，符合条件的欺诈损失由开户银行承担。公告未给费率、商户数量与上线时间表。",
+    "en": "Interac said on 7 November that Montreal-based PayFacto is integrating Konek across its Canadian merchant and partner networks, letting shoppers pay straight from a chequing or savings account alongside cards, with eligible fraud losses shifted to the issuing bank. No pricing, merchant count or timetable was disclosed.",
+    "es": "Interac anunció el 7 de noviembre que PayFacto, con sede en Montreal, integra Konek en su red de comercios y socios en Canadá, para que los clientes paguen directamente desde una cuenta corriente o de ahorro junto a las tarjetas, con las pérdidas por fraude elegibles a cargo del banco emisor. No se dieron precios, número de comercios ni calendario."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "多一条轨，也多一次责任转移",
+        "en": "One more rail, and a shift of liability",
+        "es": "Un carril más y un traslado de responsabilidad"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Interac 于 11 月 7 日宣布，PayFacto 将在其商户、技术与渠道网络中接入 Konek。Konek 是 Interac 运营的数字钱包，消费者在参与的线上商户结账时直接从支票或储蓄账户扣款，走 Interac Direct 这条境内通道，不经过卡组织。",
+        "en": "Interac said on 7 November that PayFacto will integrate Konek across its merchant, technology and channel networks. Konek is a digital wallet run by Interac: shoppers at participating online merchants are debited directly from a chequing or savings account over Interac Direct, bypassing the card schemes.",
+        "es": "Interac informó el 7 de noviembre de que PayFacto integrará Konek en su red de comercios, tecnología y canales. Konek es un monedero digital operado por Interac: el cliente paga en comercios online participantes con cargo directo a su cuenta corriente o de ahorro por Interac Direct, sin pasar por los esquemas de tarjeta."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "机制上有两点值得记。一是责任分配：Konek 把符合条件的欺诈损失从商户转给开户银行，这在此类账户直付产品里不是默认设置，也是它能和信用卡并列摆上收银台的前提。二是成本：公告只说受理成本低于多数传统卡，没有给出费率，换算不出商户实际省多少。",
+        "en": "Two mechanics matter. First, liability: Konek moves eligible fraud losses from the merchant to the account-holding bank, which is not the default for account-to-account products and is the precondition for sitting next to credit cards at checkout. Second, cost: the release only says acceptance costs less than most traditional cards, with no rate, so the saving cannot be quantified.",
+        "es": "Dos mecanismos importan. Primero, la responsabilidad: Konek traslada las pérdidas por fraude elegibles del comercio al banco titular de la cuenta, algo que no es lo habitual en productos cuenta a cuenta y que es la condición para convivir con las tarjetas de crédito en el checkout. Segundo, el coste: la nota solo dice que aceptar cuesta menos que la mayoría de tarjetas, sin tarifa, así que el ahorro no se puede calcular."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "缺口同样清楚。PayFacto 未公布接入商户数量、起量时间，也未说明门店终端如何支持这笔交易——Konek 目前面向线上商户，线下场景的实现方式公告未说明。PayFacto 的主力客群是餐饮与酒店，这部分场景能否迁移，公告没有回答。",
+        "en": "The gaps are as clear. PayFacto disclosed no merchant count, no ramp-up date, and no explanation of how in-store terminals would handle the payment: Konek currently targets online merchants, and the release does not describe an offline implementation. PayFacto's core base is hospitality and restaurants, and whether that moves is unanswered.",
+        "es": "Los huecos son igual de claros. PayFacto no dio número de comercios, ni fecha de despliegue, ni explicó cómo lo soportarían los terminales en tienda: Konek apunta hoy a comercios online y la nota no describe una implementación presencial. El grueso de PayFacto es hostelería y restauración, y no se responde si eso migra."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对加拿大的收单机构与 POS 供应商，这条的分量不在「多一种付款方式」，而在定价基准：Konek 走境内账户通道，绕开卡组织交换费，一旦商户把它摆到收银台第一屏，卡收单的费率谈判空间会被压缩。对 PayFacto 这类把支付与门店软件捆着卖的集成商，账户直付是能直接嵌进现有商户关系的能力，不必另建收单资质。真正的变量是责任转移——欺诈损失从商户回到开户行，开户行愿意接，取决于它对自家账户持有人的风控把握。中期看两件事：Konek 能不能从线上走到门店终端，以及有多少家金融机构愿意为它兜这笔责任。",
+    "en": "For Canadian acquirers and POS vendors the weight here is not \"one more way to pay\" but the price benchmark: Konek runs over the domestic account rail and skips card interchange, so once merchants put it on the first checkout screen the room to negotiate card rates shrinks. For an integrator like PayFacto, which sells payments bundled with store software, account-to-account is a capability it can drop into existing merchant relationships without building acquirer status. The real variable is the liability shift: fraud losses move from merchant to account-holding bank, and whether banks accept that depends on their confidence in their own account-holder risk controls. Two things to watch: whether Konek moves from online to in-store terminals, and how many institutions will underwrite that liability.",
+    "es": "Para adquirentes y proveedores de POS canadienses el peso no está en \"una forma más de pagar\" sino en la referencia de precio: Konek corre por el carril doméstico de cuentas y evita la tasa de intercambio, así que cuando el comercio lo pone en la primera pantalla del checkout, el margen para negociar tarifas de tarjeta se estrecha. Para un integrador como PayFacto, que vende pagos junto al software de tienda, el pago cuenta a cuenta encaja en relaciones comerciales existentes sin necesidad de licencia de adquirencia. La variable real es el traslado de responsabilidad: las pérdidas por fraude pasan del comercio al banco titular, y que los bancos lo acepten depende de su confianza en el control de riesgo de sus propios clientes. Dos cosas a seguir: si Konek pasa del online al terminal en tienda y cuántas entidades asumirán esa responsabilidad."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

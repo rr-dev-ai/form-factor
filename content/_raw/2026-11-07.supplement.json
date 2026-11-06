@@ -1,0 +1,81 @@
+{
+  "fetchedAt": "2026-11-07T01:52:00+08:00",
+  "fetchedFor": "2026-11-07",
+  "gap": ["apac", "cis", "mena", "north-america", "latam", "africa"],
+  "cellGap": ["europe/banking", "europe/telecom"],
+  "industryGap": ["banking", "telecom", "identity"],
+  "items": [
+    {
+      "title": "Brazil moves national ID applications to mobile, keeps biometrics at the counter",
+      "url": "https://br.ibtimes.com/new-brazilian-id-by-cellphone-105862",
+      "publishedAt": "2026-11-02T19:19:00-03:00",
+      "industry": "identity",
+      "region": "latam",
+      "regions": [],
+      "actionType": "无",
+      "gateNote": "落在证件签发环节，但六类动作都不贴：不是授标、不是跨国落地、不是规范发布、也不是新产品。它改的是受理流程——申请前置到 gov.br，采集仍在柜台。差的是「可核的具体物」，只有 60 万这个存量数字和 11-02 这个起始日，没有新卡种或新芯片。终审若按「流程上云不算形态变化」收紧，会刷掉。",
+      "discoveredBy": "Brazil emissão de cartão personalização credenciamento novembro 2026",
+      "note": "签发环节：巴西 11 月 2 日起允许公民在 gov.br/identidade 与各州预约系统上发起 CIN 申请，照片与十指指纹仍须本人到场采集，首张实体卡全国免费。机制变化是 CPF 成为全国唯一识别号，取代各州各自发号的 RG；卡片带二维码供真伪核验，数字版在 GOV.BR App 内与实体同等效力。原文没说的是：没有芯片与卡片供应商信息，未提制卡厂与个性化产线，也没给各州上线进度差异。"
+    },
+    {
+      "title": "Clara becomes a Mastercard Wholesale Program issuer with single-use virtual credentials",
+      "url": "https://thepaypers.com/payments/news/clara-becomes-a-mastercard-wholesale-program-issuer-in-brazil-and-mexico",
+      "publishedAt": "2026-11-02T00:00:00+01:00",
+      "industry": "banking",
+      "region": "latam",
+      "regions": ["north-america"],
+      "actionType": "联合部署",
+      "gateNote": "勉强算联合部署：Mastercard 出批发虚拟卡项目、Clara 做发卡方，落地区域写明巴西与墨西哥。离动作门差的是「受理侧」——没有收单机构或运营方参与，也没有一张已发卡的规模数字，只有 400,000 家供应商的受理网络与 800 家旅行社的存量客户。若终审按「渠道合作」处理，会被归到不发。",
+      "discoveredBy": "Brazil emissão de cartão personalização credenciamento novembro 2026",
+      "note": "发卡环节：Clara 成为 Mastercard Wholesale Program 的发卡方，把项目接进自家 TravelPay。机制变化在凭证形态——旅行社对每家酒店、航司按供应商维度发一次性虚拟卡号，把对账从汇总账单拆成逐笔凭证；集成含认证约六个月，客户自 11 月起迁移，后续计划推哥伦比亚。原文没说的是：没披露 BIN 段、没有制卡与个性化环节、也没说清一次性凭证是否走 MDES 令牌化。"
+    },
+    {
+      "title": "New Zealand issues its first government digital credential under the trust framework",
+      "url": "https://www.biometricupdate.com/202611/new-zealand-trials-first-government-issued-digital-credential-with-nzbn-business-passport",
+      "publishedAt": "2026-11-03T13:55:00-05:00",
+      "industry": "identity",
+      "region": "apac",
+      "regions": [],
+      "actionType": "产品化节点",
+      "gateNote": "够得上产品化节点：有产品名（NZBN Business Passport）、有适用终端（Govt.nz 钱包）、有认证归属（数字身份服务信任框架下第二个获认证凭证）。离动作门差的是规模——试点只覆盖 Westpac 选定企业客户，没有参与企业数、没有全国上线日期，兑现程度要看 MBIE 后续是否放开。",
+      "discoveredBy": "verifiable credential pilot digital identity wallet issuance November 2026",
+      "note": "签发与受理两端同时动：MBIE 发的 NZBN 商业护照是新西兰首个政府签发的可验证凭证，也是信任框架第二个获认证凭证；企业可向对方证明「谁有权代表这家公司」。机制变化在钱包内组合——政府凭证与 Westpac 用 Mattr 技术发的银行账户凭证并列存在 Govt.nz 钱包，一次授权同时给出主体资格与账户归属。原文没说的是：没有参与企业数量与收费模式，也没说凭证格式是否用 OpenID4VC。"
+    },
+    {
+      "title": "IDB and ElTarek sign co-branded Mastercard credit card protocol in Egypt",
+      "url": "https://newsroom.mastercard.com/news/eemea/en/newsroom/press-releases/en/2026/november/industrial-development-bank-idb-signs-cooperation-protocol-with-eltarek-for-automotive-to-launch-the-first-co-branded-mastercard-credit-cards/",
+      "publishedAt": "2026-11-05T00:00:00+02:00",
+      "industry": "banking",
+      "region": "africa",
+      "regions": [],
+      "actionType": "联合部署",
+      "gateNote": "按联合部署记：发卡行 IDB、场景方 ElTarek、卡组织 Mastercard 三方署名，市场写死埃及。离动作门差两处——受理侧的合作方是汽车经销商而不是收单机构，且只签了合作协议，没有一张已发出的卡、没有发卡量目标，属协议签署而非落地。终审很可能按「联合品牌营销」刷掉。",
+      "discoveredBy": "edital credenciamento emissão cartão bancário chip 2026",
+      "note": "发卡环节：埃及工业发展银行与汽车经销集团 ElTarek 签合作协议，发 Titanium、Platinum、World Elite 三档联名万事达信用卡，申请入口放在 IDB 网点与 ElTarek 展厅。机制上把车主生命周期（购车、维修、保养）的支付收进一张信用凭证，权益由银行、经销商、卡组织三方分摊。原文没说的是：没有发卡量、没有制卡与个性化方、没有首批发卡时间，也没提是否带非接与令牌化。"
+    },
+    {
+      "title": "FAB and Mastercard open a new premium card tier above World Elite in the UAE",
+      "url": "https://www.bankfab.com/en-ae/about-fab/group/in-the-media/fab-and-mastercard-launch-fab-world-legend-credit-card",
+      "publishedAt": "2026-11-05T00:00:00+04:00",
+      "industry": "banking",
+      "region": "mena",
+      "regions": [],
+      "actionType": "产品化节点",
+      "gateNote": "按产品化节点记：有产品名（FAB World Legend）、有卡组织档位（坐在 World Elite 之上）、有落地市场（阿联酋，首发）。离动作门差在「机制」——卡本身仍是 EMV 信用凭证，新增的只是权益包与邀请制分层，没有新芯片、新令牌化路径或新受理规则；也没有发卡量与个性化承接方。终审若判为权益营销，会刷掉。",
+      "discoveredBy": "UAE Saudi bank card issuance personalisation contract awarded November 2026",
+      "note": "发卡环节：FAB 与 Mastercard 在阿联酋推出 World Legend 档，位置在 World Elite 之上；9 月已先发邀请制的 Royale World Legend Exclusive，两者共同构成新的高端分层。机制变化在分层方式——把超高端从单一档拆成申请制与邀请制两层，权益由银行与卡组织按层级分发。原文没说的是：没有发卡量目标、没有制卡与个性化承接方、没有年费与资产门槛。"
+    },
+    {
+      "title": "Atomic Mobile launches multi-carrier eSIM service for US IoT fleets",
+      "url": "https://www.prnewswire.com/news-releases/atomic-mobile-unveils-multi-carrier-iot-service-connecting-devices-across-the-globe-302928539.html",
+      "publishedAt": "2026-11-03T00:00:00-05:00",
+      "industry": "telecom",
+      "region": "north-america",
+      "regions": [],
+      "actionType": "产品化节点",
+      "gateNote": "记产品化节点：有产品名（Atomic Orbit）、有可核参数（美国 3 家全国性 + 18 家区域性运营商，共 21 家）、有平台与 API。离动作门差的是「首次或变化」——多运营商 eSIM 自动切换在 IoT MVNO 里已属常见能力，这条只是又一家入场；且无客户名、无价格、无任何认证等级。",
+      "discoveredBy": "US carrier eSIM iSIM provisioning platform launch November 2026",
+      "note": "载体与分发环节：Atomic Orbit 把一张 eSIM 挂在 21 家美国运营商上，信号弱时自动换网，管理面提供批量开卡 API 与 SIM 状态审计日志，同时支持实体 SIM 与 eSIM。机制变化在于把「选网」从采购决策下移到设备侧策略，减少换运营商时的硬件更换。原文没说的是：没有具名客户、没有资费、无覆盖实测数据，也没说是否走 SGP.32 的 eIM 架构还是自建 SM-SR 类通道。"
+    }
+  ]
+}

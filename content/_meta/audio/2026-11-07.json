@@ -1,0 +1,345 @@
+{
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-06T20:24:07.678Z",
+  "renderer": 1,
+  "items": {
+    "anatel-mandatory-roaming-highways": {
+      "zh": {
+        "file": "audio/zh/anatel-mandatory-roaming-highways.d6ef891a.mp3",
+        "hash": "d6ef891a",
+        "bytes": 1621197,
+        "duration": 135.005,
+        "voice": "zf_003",
+        "speed": 1.024
+      },
+      "en": {
+        "file": "audio/en/anatel-mandatory-roaming-highways.12d97943.mp3",
+        "hash": "12d97943",
+        "bytes": 1378413,
+        "duration": 114.784,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/anatel-mandatory-roaming-highways.6f416c8a.mp3",
+        "hash": "6f416c8a",
+        "bytes": 1484685,
+        "duration": 123.645,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "bahrain-private-digital-id-bill": {
+      "zh": {
+        "file": "audio/zh/bahrain-private-digital-id-bill.ff04a3b8.mp3",
+        "hash": "ff04a3b8",
+        "bytes": 1773549,
+        "duration": 147.71,
+        "voice": "zf_001",
+        "speed": 1.16
+      },
+      "en": {
+        "file": "audio/en/bahrain-private-digital-id-bill.b43561be.mp3",
+        "hash": "b43561be",
+        "bytes": 1810701,
+        "duration": 150.794,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/bahrain-private-digital-id-bill.cea91cfd.mp3",
+        "hash": "cea91cfd",
+        "bytes": 1867149,
+        "duration": 155.51,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "canada-budget-traveller-biometrics-eta-facial-image": {
+      "zh": {
+        "file": "audio/zh/canada-budget-traveller-biometrics-eta-facial-image.589242a1.mp3",
+        "hash": "589242a1",
+        "bytes": 1897101,
+        "duration": 158,
+        "voice": "zm_010",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/canada-budget-traveller-biometrics-eta-facial-image.761094b8.mp3",
+        "hash": "761094b8",
+        "bytes": 2008845,
+        "duration": 167.31,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/canada-budget-traveller-biometrics-eta-facial-image.34dd2a66.mp3",
+        "hash": "34dd2a66",
+        "bytes": 1982925,
+        "duration": 165.15,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "interac-payfacto-konek-canada": {
+      "zh": {
+        "file": "audio/zh/interac-payfacto-konek-canada.302b45e8.mp3",
+        "hash": "302b45e8",
+        "bytes": 1466829,
+        "duration": 122.155,
+        "voice": "zm_011",
+        "speed": 1.157
+      },
+      "en": {
+        "file": "audio/en/interac-payfacto-konek-canada.c92bfc03.mp3",
+        "hash": "c92bfc03",
+        "bytes": 1398285,
+        "duration": 116.43,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/interac-payfacto-konek-canada.ad394905.mp3",
+        "hash": "ad394905",
+        "bytes": 1491597,
+        "duration": 124.205,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "kosovo-eid-wallet-esignature-launch": {
+      "zh": {
+        "file": "audio/zh/kosovo-eid-wallet-esignature-launch.a70dc2e5.mp3",
+        "hash": "a70dc2e5",
+        "bytes": 1764045,
+        "duration": 146.925,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/kosovo-eid-wallet-esignature-launch.1c043856.mp3",
+        "hash": "1c043856",
+        "bytes": 1814445,
+        "duration": 151.12,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/kosovo-eid-wallet-esignature-launch.5db6dd20.mp3",
+        "hash": "5db6dd20",
+        "bytes": 1905741,
+        "duration": 158.73,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "paystashio-paymentology-south-africa": {
+      "zh": {
+        "file": "audio/zh/paystashio-paymentology-south-africa.a271ef4a.mp3",
+        "hash": "a271ef4a",
+        "bytes": 1626669,
+        "duration": 135.48,
+        "voice": "zf_003",
+        "speed": 1.024
+      },
+      "en": {
+        "file": "audio/en/paystashio-paymentology-south-africa.4a8d5902.mp3",
+        "hash": "4a8d5902",
+        "bytes": 1374093,
+        "duration": 114.413,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/paystashio-paymentology-south-africa.3589b9d2.mp3",
+        "hash": "3589b9d2",
+        "bytes": 1379853,
+        "duration": 114.905,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "shenzhen-customs-foreign-card-duty-terminal": {
+      "zh": {
+        "file": "audio/zh/shenzhen-customs-foreign-card-duty-terminal.bfa733b0.mp3",
+        "hash": "bfa733b0",
+        "bytes": 1719405,
+        "duration": 143.205,
+        "voice": "zf_005",
+        "speed": 1.048
+      },
+      "en": {
+        "file": "audio/en/shenzhen-customs-foreign-card-duty-terminal.08335115.mp3",
+        "hash": "08335115",
+        "bytes": 1429965,
+        "duration": 119.067,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/shenzhen-customs-foreign-card-duty-terminal.54aa7856.mp3",
+        "hash": "54aa7856",
+        "bytes": 1592109,
+        "duration": 132.59,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "softbank-sceye-haps-japan": {
+      "zh": {
+        "file": "audio/zh/softbank-sceye-haps-japan.971b67e0.mp3",
+        "hash": "971b67e0",
+        "bytes": 1668717,
+        "duration": 138.98,
+        "voice": "zf_001",
+        "speed": 1.16
+      },
+      "en": {
+        "file": "audio/en/softbank-sceye-haps-japan.862ba7e9.mp3",
+        "hash": "862ba7e9",
+        "bytes": 1702413,
+        "duration": 141.782,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/softbank-sceye-haps-japan.27c37937.mp3",
+        "hash": "27c37937",
+        "bytes": 1733517,
+        "duration": 144.375,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "spain-midni-qr-verifier-polling-stations": {
+      "zh": {
+        "file": "audio/zh/spain-midni-qr-verifier-polling-stations.0842fc02.mp3",
+        "hash": "0842fc02",
+        "bytes": 2723949,
+        "duration": 226.92,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/spain-midni-qr-verifier-polling-stations.7a99b2a2.mp3",
+        "hash": "7a99b2a2",
+        "bytes": 2092941,
+        "duration": 174.318,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/spain-midni-qr-verifier-polling-stations.b6d4467c.mp3",
+        "hash": "b6d4467c",
+        "bytes": 2282733,
+        "duration": 190.14,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "tbc-georgia-palm-payment": {
+      "zh": {
+        "file": "audio/zh/tbc-georgia-palm-payment.7ad1141f.mp3",
+        "hash": "7ad1141f",
+        "bytes": 1983501,
+        "duration": 165.205,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/tbc-georgia-palm-payment.63f52bd2.mp3",
+        "hash": "63f52bd2",
+        "bytes": 1621773,
+        "duration": 135.06,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/tbc-georgia-palm-payment.b1e257ba.mp3",
+        "hash": "b1e257ba",
+        "bytes": 1666989,
+        "duration": 138.84,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "uidai-offline-verification-300-organisations": {
+      "zh": {
+        "file": "audio/zh/uidai-offline-verification-300-organisations.bad3a82c.mp3",
+        "hash": "bad3a82c",
+        "bytes": 1712781,
+        "duration": 142.645,
+        "voice": "zm_015",
+        "speed": 1.094
+      },
+      "en": {
+        "file": "audio/en/uidai-offline-verification-300-organisations.c6789f5e.mp3",
+        "hash": "c6789f5e",
+        "bytes": 1547757,
+        "duration": 128.892,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/uidai-offline-verification-300-organisations.82bfcf08.mp3",
+        "hash": "82bfcf08",
+        "bytes": 1596717,
+        "duration": 132.97,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "veon-starlink-d2d-13-million-subscribers": {
+      "zh": {
+        "file": "audio/zh/veon-starlink-d2d-13-million-subscribers.b80db8ec.mp3",
+        "hash": "b80db8ec",
+        "bytes": 1442061,
+        "duration": 120.08,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/veon-starlink-d2d-13-million-subscribers.958a8023.mp3",
+        "hash": "958a8023",
+        "bytes": 1364589,
+        "duration": 113.619,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/veon-starlink-d2d-13-million-subscribers.1dd8852c.mp3",
+        "hash": "1dd8852c",
+        "bytes": 1425069,
+        "duration": 118.68,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "vtb-resident-card-750k-mir-multi-application": {
+      "zh": {
+        "file": "audio/zh/vtb-resident-card-750k-mir-multi-application.66db7e31.mp3",
+        "hash": "66db7e31",
+        "bytes": 1680525,
+        "duration": 139.945,
+        "voice": "zf_005",
+        "speed": 1.048
+      },
+      "en": {
+        "file": "audio/en/vtb-resident-card-750k-mir-multi-application.faeddfaf.mp3",
+        "hash": "faeddfaf",
+        "bytes": 1408365,
+        "duration": 117.269,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/vtb-resident-card-750k-mir-multi-application.984e35bf.mp3",
+        "hash": "984e35bf",
+        "bytes": 1572237,
+        "duration": 130.94,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    }
+  }
+}

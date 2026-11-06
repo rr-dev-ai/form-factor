@@ -1,0 +1,91 @@
+{
+  "id": "2026-11-07-identity-04",
+  "slug": "uidai-offline-verification-300-organisations",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "verification",
+    "mobile-id"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-07T04:17:41+08:00",
+  "ingestedAt": "2026-11-07T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "The Times of India",
+      "url": "http://m.timesofindia.com/india/aadhaar-verification-goes-paperless-as-uidai-brings-300-entities-on-board/articleshow/135575854.cms",
+      "lang": "en"
+    },
+    {
+      "name": "The Economic Times",
+      "url": "https://m.economictimes.com/news/new-updates/aadhaar-app-300-organisations-adopt-offline-verification-system-users-can-verify-identity-without-photocopies/amp_articleshow/135600251.cms",
+      "lang": "en",
+      "publishedAt": "2026-11-06T14:05:00+05:30"
+    }
+  ],
+  "title": {
+    "zh": "Aadhaar 离线核验接入 300 家机构，核验不再收复印件",
+    "en": "UIDAI brings 300 organisations into Aadhaar offline verification",
+    "es": "UIDAI suma 300 organizaciones a la verificación offline de Aadhaar"
+  },
+  "summary": {
+    "zh": "印度唯一身份识别管理局把 Aadhaar 离线核验的接入机构从 4 月的 100 家扩到 300 家，覆盖酒店、医疗、教育、活动、零工与消费服务。核验走 Aadhaar App：居民同意后由应用出示信息，12 位号码不传给受理方，受理方也无需连 UIDAI 中心库。UIDAI 同时给出应用数据：下载约 7500 万次，生物识别锁定与解锁交易 4600 万笔。",
+    "en": "India's Unique Identification Authority has expanded Aadhaar offline verification from 100 organisations in April to 300, spanning hospitality, healthcare, education, events, the gig economy and consumer services. Checks run through the Aadhaar App: after the resident consents, the app presents the details, the 12-digit number is not passed to the verifier and no connection to UIDAI's central database is needed. UIDAI also reported about 75 million app downloads and 46 million biometric lock and unlock transactions.",
+    "es": "La autoridad de identificación única de India amplió la verificación offline de Aadhaar de 100 organizaciones en abril a 300, en hotelería, sanidad, educación, eventos, economía de plataformas y servicios al consumidor. La comprobación se hace con la app de Aadhaar: tras el consentimiento del titular, la app presenta los datos, el número de 12 dígitos no llega al verificador y no hace falta conexión con la base central de UIDAI. UIDAI informó además de unos 75 millones de descargas y 46 millones de operaciones de bloqueo y desbloqueo biométrico."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这套机制叫 OVSE，即「离线核验查询实体」：机构在 UIDAI 注册后，居民用 Aadhaar App 出示经过签名的一小组属性，机构当场校验，不接触号码本身，也不查中心库。与指纹、虹膜认证相比，它的成本更低——不需要采集设备，只需要一台能读码的手机或终端。",
+        "en": "The mechanism is the Offline Verification Seeking Entity, or OVSE: an organisation registers with UIDAI, the resident presents a signed set of attributes from the Aadhaar App, and the verifier checks them on the spot without touching the number itself or querying the central database. Compared with fingerprint or iris authentication it is cheaper to deploy, because no capture device is needed, only a phone or terminal that can read the code.",
+        "es": "El mecanismo se llama OVSE, entidad que busca verificación offline: la organización se registra en UIDAI, el titular presenta un conjunto firmado de atributos desde la app y el verificador los comprueba en el momento sin acceder al número ni consultar la base central. Frente a la autenticación por huella o iris es más barato de desplegar, porque no requiere equipo de captura, solo un teléfono o terminal que lea el código."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "从 100 到 300 的节奏",
+        "en": "From 100 to 300",
+        "es": "De 100 a 300"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "UIDAI 今年 1 月启动这套体系，4 月公布首批 100 家，11 月增至 300 家。行业分布说明目标场景不是政务窗口，而是日常交易：住酒店、进医院、入学报名、参加活动、雇佣零工。这一层恰恰是复印件流通最密集、也最难追溯的地方。",
+        "en": "UIDAI opened the system in January, named the first 100 entities in April and reached 300 by November. The sector mix shows the target is not government counters but everyday transactions: checking into a hotel, entering a hospital, school admission, events, hiring gig workers. That is exactly where photocopies circulate most and are hardest to trace.",
+        "es": "UIDAI abrió el sistema en enero, publicó las primeras 100 entidades en abril y llegó a 300 en noviembre. La mezcla sectorial muestra que el objetivo no son las ventanillas públicas sino las transacciones cotidianas: hotel, hospital, matrícula escolar, eventos, contratación de plataformas. Ahí es donde más circulan las fotocopias y donde menos se pueden rastrear."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "应用侧的三个数字",
+        "en": "Three numbers from the app",
+        "es": "Tres cifras de la aplicación"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Aadhaar App 下载约 7500 万次；860 万人用应用改了注册手机号，220 万条地址与 402 万条邮箱更新也通过应用完成；生物识别锁定与解锁交易 4.6 千万笔，Aadhaar 锁定与解锁 36.1 万笔。UIDAI 把这套扩张与《数字个人数据保护法》的同意与最小化原则挂钩。",
+        "en": "The app has about 75 million downloads; 8.6 million people changed their registered mobile number through it, alongside 2.2 million address and 4.02 million email updates; biometric lock and unlock transactions reached 46 million, with 361,000 Aadhaar lock and unlock operations. UIDAI ties the expansion to the consent and data-minimisation principles of the Digital Personal Data Protection Act.",
+        "es": "La app suma unos 75 millones de descargas; 8,6 millones de personas cambiaron su móvil registrado con ella, junto a 2,2 millones de direcciones y 4,02 millones de correos; las operaciones de bloqueo y desbloqueo biométrico llegan a 46 millones, con 361.000 bloqueos del propio Aadhaar. UIDAI vincula la expansión a los principios de consentimiento y minimización de la ley de protección de datos personales."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对做受理端集成的厂商，名单从 100 变 300 意味着酒店、医院、学校这类长期靠复印件的场景开始有合规的数字化入口，落地形态是应用集成与读码，而不是采购生物识别终端——这会把单点部署成本压到几百美元的设备级别。对 UIDAI 体系之外的核验服务商，压力在价格：离线核验没有中心库调用成本，按次计费的空间被压得很薄，能卖的是流程集成与合规审计。真正的约束是覆盖率与前台意愿：7500 万次下载对应 14 亿人口，且每家用 OVSE 的机构都要培训前台、改登记表，扩张速度取决于连锁品牌的采购决定，而不是名单长度。",
+    "en": "For integrators, moving from 100 to 300 means hotels, hospitals and schools that lived on photocopies now have a compliant digital entry point, and the deployment shape is app integration plus code reading rather than biometric terminals, which pushes per-site cost down to the price of a few-hundred-dollar device. For verification vendors outside the UIDAI stack the pressure is on price: offline verification carries no central database call, so per-check pricing is squeezed thin, and what remains sellable is workflow integration and compliance auditing. The real constraint is coverage and front-desk willingness: 75 million downloads against 1.4 billion people, and every OVSE has to train staff and change forms, so the pace depends on chain operators' procurement, not on the length of the list.",
+    "es": "Para los integradores, pasar de 100 a 300 significa que hoteles, hospitales y escuelas que vivían de fotocopias tienen ahora una vía digital conforme, y la forma de despliegue es integración de aplicación y lectura de código, no terminales biométricos, lo que baja el coste por sede al precio de un dispositivo de unos cientos de dólares. Para los proveedores ajenos al stack de UIDAI la presión está en el precio: la verificación offline no implica llamada a la base central, así que el cobro por comprobación se estrecha y lo vendible queda en integración de flujos y auditoría de cumplimiento. El límite real es cobertura y voluntad en mostrador: 75 millones de descargas frente a 1.400 millones de habitantes, y cada OVSE debe formar personal y cambiar formularios, de modo que el ritmo depende de las cadenas, no de la lista."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}
