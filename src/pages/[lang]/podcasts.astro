@@ -1,0 +1,118 @@
+---
+import Base from '../../layouts/Base.astro';
+import { locales, type Locale } from '../../config/site';
+import { t, formatDateKey, localeTag } from '../../lib/i18n';
+import { audioDates } from '../../lib/audio';
+import { buildPodcastSlice } from '../../lib/podcast';
+import { initialDate } from '../../lib/podcast-queue';
+import { toDateKey } from '../../lib/content';
+import { href } from '../../lib/url';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang } }));
+}
+
+const locale = Astro.params.lang as Locale;
+const dict = t(locale);
+const todayKey = toDateKey(new Date().toISOString());
+const dates = audioDates(locale)
+  .slice(0, 90)
+  .map((d) => ({ ...d, label: formatDateKey(d.date, locale) }));
+const selected = initialDate(dates, todayKey);
+const items = selected ? buildPodcastSlice(locale, selected) : [];
+const sliceBase = href(`/${locale}/podcast-data/`);
+const json = (value: unknown) => JSON.stringify(value).replace(/</g, '\\u003c');
+const labels = {
+  empty: dict.podcastEmpty,
+  prevMonth: dict.podcastPrevMonth,
+  nextMonth: dict.podcastNextMonth,
+  prevDay: dict.podcastPrevDay,
+  nextDay: dict.podcastNextDay,
+  chooseDate: dict.podcastChooseDate,
+  queueFrom: dict.podcastQueueFrom,
+  playing: dict.podcastPlaying,
+  play: dict.play,
+  pause: dict.pause,
+  stop: dict.stop,
+  seek: dict.seek,
+};
+---
+
+<Base locale={locale} path="/podcasts" title={dict.podcasts}>
+  <div
+    class="podcast"
+    data-podcast
+    data-slice-base={sliceBase}
+    data-today={todayKey}
+    data-selected={selected ?? ''}
+    data-locale-tag={localeTag[locale]}
+    data-labels={json(labels)}
+  >
+    <h1 class="podcast-title">{dict.podcasts}</h1>
+
+    <div class="podcast-options">
+      <label class="podcast-switch">
+        <input type="checkbox" data-auto checked />
+        <span>{dict.podcastAuto}</span>
+      </label>
+      <label class="podcast-switch" data-chain-label>
+        <input type="checkbox" data-chain />
+        <span>{dict.podcastChain}</span>
+      </label>
+    </div>
+
+    <div class="podcast-datebar">
+      <button type="button" class="podcast-arrow" data-prev-day aria-label={dict.podcastPrevDay}>‹</button>
+      <button type="button" class="podcast-date-current" data-date-toggle aria-expanded="false">
+        <span data-date-text>{selected ? dates.find((d) => d.date === selected)?.label : dict.podcastEmpty}</span>
+        <span class="podcast-date-count" data-date-count>{items.length}</span>
+        <span aria-hidden="true">⌄</span>
+      </button>
+      <button type="button" class="podcast-arrow" data-next-day aria-label={dict.podcastNextDay}>›</button>
+
+      <div class="podcast-calendar" data-calendar hidden>
+        <div class="podcast-cal-head">
+          <button type="button" data-prev-month aria-label={dict.podcastPrevMonth}>‹</button>
+          <span data-month-label></span>
+          <button type="button" data-next-month aria-label={dict.podcastNextMonth}>›</button>
+        </div>
+        <div class="podcast-cal-grid" data-cal-grid></div>
+      </div>
+    </div>
+
+    <ul class="podcast-list" data-list>
+      {
+        items.map((item, index) => (
+          <li class="podcast-item" data-index={index} data-url={item.url} data-title={item.title} data-voice={item.voice} data-duration={item.duration}>
+            <button type="button" class="podcast-item-play" data-item-play aria-label={dict.play}>
+              <span class="podcast-item-icon" aria-hidden="true">▶</span>
+            </button>
+            <span class="podcast-item-title">{item.title}</span>
+            <span class="podcast-item-voice">{item.voice}</span>
+          </li>
+        ))
+      }
+    </ul>
+    <p class="podcast-empty" data-empty hidden>{dict.podcastEmpty}</p>
+
+    <div class="podcast-bar" data-bar hidden>
+      <button type="button" class="podcast-bar-toggle" data-bar-toggle aria-label={dict.play}>▶</button>
+      <div class="podcast-bar-main">
+        <div class="podcast-bar-line">
+          <span class="podcast-bar-title" data-bar-title></span>
+          <span class="podcast-bar-badge" data-bar-badge hidden></span>
+          <span class="podcast-bar-voice" data-bar-voice></span>
+        </div>
+        <input type="range" class="podcast-bar-seek" data-bar-seek min="0" max="1000" value="0" aria-label={dict.seek} />
+      </div>
+      <span class="podcast-bar-time" data-bar-time>0:00</span>
+      <audio data-bar-audio preload="none" crossorigin="anonymous"></audio>
+    </div>
+  </div>
+
+  <script type="application/json" data-dates set:html={json(dates)}></script>
+  <script type="application/json" data-initial set:html={json(items)}></script>
+  <script>
+    import '../../scripts/podcast';
+  </script>
+</Base>

@@ -78,6 +78,17 @@ type Dict = {
   pause: string;
   stop: string;
   seek: string;
+  podcasts: string;
+  podcastAuto: string;
+  podcastChain: string;
+  podcastEmpty: string;
+  podcastPrevMonth: string;
+  podcastNextMonth: string;
+  podcastPrevDay: string;
+  podcastNextDay: string;
+  podcastChooseDate: string;
+  podcastQueueFrom: string;
+  podcastPlaying: string;
 };
 
 export const ui: Record<Locale, Dict> = {
@@ -146,6 +157,17 @@ export const ui: Record<Locale, Dict> = {
     pause: '暂停',
     stop: '停止',
     seek: '播放进度',
+    podcasts: '播客',
+    podcastAuto: '自动连播',
+    podcastChain: '连至前一天',
+    podcastEmpty: '当日无音频',
+    podcastPrevMonth: '上个月',
+    podcastNextMonth: '下个月',
+    podcastPrevDay: '前一天',
+    podcastNextDay: '后一天',
+    podcastChooseDate: '选择日期',
+    podcastQueueFrom: '队列来自 {date}',
+    podcastPlaying: '正在播放',
   },
   en: {
     home: 'Home',
@@ -212,6 +234,17 @@ export const ui: Record<Locale, Dict> = {
     pause: 'Pause',
     stop: 'Stop',
     seek: 'Playback position',
+    podcasts: 'Podcasts',
+    podcastAuto: 'Autoplay next',
+    podcastChain: 'Continue to previous day',
+    podcastEmpty: 'No audio for this day',
+    podcastPrevMonth: 'Previous month',
+    podcastNextMonth: 'Next month',
+    podcastPrevDay: 'Previous day',
+    podcastNextDay: 'Next day',
+    podcastChooseDate: 'Choose a date',
+    podcastQueueFrom: 'Queue from {date}',
+    podcastPlaying: 'Now playing',
   },
   es: {
     home: 'Inicio',
@@ -278,6 +311,17 @@ export const ui: Record<Locale, Dict> = {
     pause: 'Pausar',
     stop: 'Detener',
     seek: 'Posición de reproducción',
+    podcasts: 'Pódcasts',
+    podcastAuto: 'Reproducción automática',
+    podcastChain: 'Continuar al día anterior',
+    podcastEmpty: 'Sin audio para este día',
+    podcastPrevMonth: 'Mes anterior',
+    podcastNextMonth: 'Mes siguiente',
+    podcastPrevDay: 'Día anterior',
+    podcastNextDay: 'Día siguiente',
+    podcastChooseDate: 'Elegir fecha',
+    podcastQueueFrom: 'Cola del {date}',
+    podcastPlaying: 'En reproducción',
   },
 };
 
