@@ -1,0 +1,132 @@
+---
+import type { Locale } from '../config/site.ts';
+import type { PlayerProps } from '../lib/audio-player.ts';
+import { t } from '../lib/i18n.ts';
+
+interface Props {
+  audio: PlayerProps;
+  locale: Locale;
+}
+
+const { audio, locale } = Astro.props;
+const dict = t(locale);
+---
+
+<div
+  class="audio-player"
+  data-audio-player
+  data-label-play={dict.play}
+  data-label-pause={dict.pause}
+  data-duration={audio.duration}
+>
+  <audio preload="none" src={audio.src} crossorigin="anonymous" data-audio></audio>
+  <div class="audio-bar">
+    <button type="button" class="audio-btn" data-play aria-label={dict.play} title={dict.play}>
+      <svg class="audio-icon-play" viewBox="0 0 20 20" aria-hidden="true">
+        <path d="M6 3.8 16 10 6 16.2z" fill="currentColor" />
+      </svg>
+      <svg class="audio-icon-pause" viewBox="0 0 20 20" aria-hidden="true">
+        <path d="M5.5 4h3.2v12H5.5zM11.3 4h3.2v12h-3.2z" fill="currentColor" />
+      </svg>
+    </button>
+    <button type="button" class="audio-btn" data-stop aria-label={dict.stop} title={dict.stop} disabled>
+      <svg viewBox="0 0 20 20" aria-hidden="true">
+        <path d="M5 5h10v10H5z" fill="currentColor" />
+      </svg>
+    </button>
+    <input
+      class="audio-seek"
+      type="range"
+      min="0"
+      max="1000"
+      step="1"
+      value="0"
+      data-seek
+      aria-label={dict.seek}
+      disabled
+    />
+    <span class="audio-time" data-time>0:00 / 0:00</span>
+    <span class="audio-voice">{audio.voice}</span>
+  </div>
+</div>
+
+<script>
+  function clock(seconds: number): string {
+    const safe = Number.isFinite(seconds) && seconds > 0 ? Math.floor(seconds) : 0;
+    return `${Math.floor(safe / 60)}:${String(safe % 60).padStart(2, '0')}`;
+  }
+
+  document.querySelectorAll<HTMLElement>('[data-audio-player]').forEach((root) => {
+    const audio = root.querySelector<HTMLAudioElement>('[data-audio]');
+    const playBtn = root.querySelector<HTMLButtonElement>('[data-play]');
+    const stopBtn = root.querySelector<HTMLButtonElement>('[data-stop]');
+    const seek = root.querySelector<HTMLInputElement>('[data-seek]');
+    const time = root.querySelector<HTMLElement>('[data-time]');
+    if (!audio || !playBtn || !stopBtn || !seek || !time) return;
+
+    const playLabel = root.dataset.labelPlay ?? '';
+    const pauseLabel = root.dataset.labelPause ?? '';
+    let total = Number(root.dataset.duration) || 0;
+
+    function render(current: number, playing: boolean) {
+      seek!.value = total > 0 ? String(Math.round((current / total) * 1000)) : '0';
+      time!.textContent = `${clock(current)} / ${clock(total)}`;
+      playBtn!.setAttribute('aria-label', playing ? pauseLabel : playLabel);
+      playBtn!.title = playing ? pauseLabel : playLabel;
+      root.dataset.playing = playing ? 'true' : 'false';
+    }
+
+    function unlock() {
+      stopBtn!.disabled = false;
+      seek!.disabled = false;
+    }
+
+    function fail() {
+      playBtn!.disabled = true;
+      stopBtn!.disabled = true;
+      seek!.disabled = true;
+      root.dataset.error = 'true';
+      time!.textContent = '—';
+    }
+
+    playBtn.addEventListener('click', () => {
+      if (audio!.paused) {
+        audio!.play().catch(fail);
+      } else {
+        audio!.pause();
+      }
+    });
+
+    stopBtn.addEventListener('click', () => {
+      audio!.pause();
+      audio!.currentTime = 0;
+      render(0, false);
+    });
+
+    seek.addEventListener('input', () => {
+      if (total > 0) {
+        audio!.currentTime = (Number(seek!.value) / 1000) * total;
+        render(audio!.currentTime, !audio!.paused);
+      }
+    });
+
+    audio.addEventListener('loadedmetadata', () => {
+      if (Number.isFinite(audio!.duration) && audio!.duration > 0) total = audio!.duration;
+      unlock();
+      render(audio!.currentTime, !audio!.paused);
+    });
+    audio.addEventListener('play', () => {
+      unlock();
+      render(audio!.currentTime, true);
+    });
+    audio.addEventListener('pause', () => render(audio!.currentTime, false));
+    audio.addEventListener('timeupdate', () => render(audio!.currentTime, !audio!.paused));
+    audio.addEventListener('ended', () => {
+      audio!.currentTime = 0;
+      render(0, false);
+    });
+    audio.addEventListener('error', fail);
+
+    render(0, false);
+  });
+</script>

@@ -74,6 +74,10 @@ type Dict = {
   dedup: string;
   gate: string;
   candidates: string;
+  play: string;
+  pause: string;
+  stop: string;
+  seek: string;
 };
 
 export const ui: Record<Locale, Dict> = {
@@ -138,6 +142,10 @@ export const ui: Record<Locale, Dict> = {
     dedup: '去重',
     gate: '过审',
     candidates: '候选',
+    play: '播放',
+    pause: '暂停',
+    stop: '停止',
+    seek: '播放进度',
   },
   en: {
     home: 'Home',
@@ -200,6 +208,10 @@ export const ui: Record<Locale, Dict> = {
     dedup: 'dedup',
     gate: 'gate',
     candidates: 'Drafted',
+    play: 'Play',
+    pause: 'Pause',
+    stop: 'Stop',
+    seek: 'Playback position',
   },
   es: {
     home: 'Inicio',
@@ -262,6 +274,10 @@ export const ui: Record<Locale, Dict> = {
     dedup: 'depurado',
     gate: 'control',
     candidates: 'Borradores',
+    play: 'Reproducir',
+    pause: 'Pausar',
+    stop: 'Detener',
+    seek: 'Posición de reproducción',
   },
 };
 

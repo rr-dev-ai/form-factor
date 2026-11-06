@@ -1,6 +1,8 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import NewsCard from '../../../components/NewsCard.astro';
+import AudioPlayer from '../../../components/AudioPlayer.astro';
+import { playerProps } from '../../../lib/audio-player';
 import { locales, type Locale } from '../../../config/site';
 import { industryName, tagName } from '../../../config/taxonomy';
 import { regionName } from '../../../config/regions';
@@ -25,6 +27,7 @@ if (!item) throw new Error(`未找到内容：${slug}`);
 const related = all.filter((n) => n.industry === item.industry && n.slug !== item.slug).slice(0, 3);
 const firstSource = item.sources[0];
 const sourceDate = firstSource?.publishedAt ?? item.publishedAt;
+const player = playerProps(item.slug, locale);
 ---
 
 <Base
@@ -47,6 +50,8 @@ const sourceDate = firstSource?.publishedAt ?? item.publishedAt;
         <span>{dict.originalLang} {localeLabel[item.originalLang]}</span>
       </div>
     </header>
+
+    {player && <AudioPlayer audio={player} locale={locale} />}
 
     <div class="article-body">
       <p class="article-lede">{item.summary[locale]}</p>
