@@ -10,8 +10,8 @@
 
 export type Locale = 'zh' | 'en' | 'es';
 
-/** 音频域名占位。实名认证通过并绑定自定义域名后替换（Task 12）。 */
-export const audioBaseUrl: string = 'https://audio.example.top';
+/** 已实名并绑定的音频专用域名；r2.dev 公开入口已关闭。改域名不影响音频字节，无需递增 RENDER_VERSION。 */
+export const audioBaseUrl: string = 'https://audio.formfactor.top';
 
 /** 只保留窗口内的音频文件与 manifest。 */
 export const WINDOW_DAYS: number = 90;

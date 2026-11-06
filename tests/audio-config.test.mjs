@@ -39,3 +39,8 @@ test('停顿基准与句间 gap 取值正确', () => {
 test('音频域名为 https 绝对地址且无尾斜杠', () => {
   assert.match(audioBaseUrl, /^https:\/\/[^/]+$/);
 });
+
+test('音频域名已切到正式自定义域名，占位地址不得上线', () => {
+  assert.equal(audioBaseUrl, 'https://audio.formfactor.top');
+  assert.ok(!audioBaseUrl.includes('example.'));
+});

@@ -59,6 +59,14 @@ test('audioSrc 用配置里的域名，不硬编码，且无重复斜杠', () =>
   assert.ok(audioSrc(entry('alpha', 'zh')).startsWith(`${audioBaseUrl}/`));
 });
 
+test('正式域名拼出的 URL 与线上已发布的对象路径一致', () => {
+  const meta = entry('liberia-migrant-biometric-registration-16-sites', 'en', '6206c1af');
+  assert.equal(
+    audioSrc(meta),
+    'https://audio.formfactor.top/audio/en/liberia-migrant-biometric-registration-16-sites.6206c1af.mp3'
+  );
+});
+
 test('默认索引在没有该条音频时返回 null', () => {
   assert.equal(playerProps('definitely-no-audio', 'zh'), null);
 });
