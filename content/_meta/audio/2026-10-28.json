@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-28",
+  "generatedAt": "2026-11-06T04:03:52.285Z",
+  "renderer": 1,
+  "items": {
+    "ipad-mini-8-esim-unicom-only-acceptance": {
+      "zh": {
+        "file": "audio/zh/ipad-mini-8-esim-unicom-only-acceptance.e3a34661.mp3",
+        "hash": "e3a34661",
+        "bytes": 1291725,
+        "duration": 107.555,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/ipad-mini-8-esim-unicom-only-acceptance.98618acf.mp3",
+        "hash": "98618acf",
+        "bytes": 1204173,
+        "duration": 100.26,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/ipad-mini-8-esim-unicom-only-acceptance.83c470b8.mp3",
+        "hash": "83c470b8",
+        "bytes": 1174221,
+        "duration": 97.76,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "mukuru-account-card-south-africa": {
+      "zh": {
+        "file": "audio/zh/mukuru-account-card-south-africa.1c6548b6.mp3",
+        "hash": "1c6548b6",
+        "bytes": 1489581,
+        "duration": 124.055,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/mukuru-account-card-south-africa.a93b9349.mp3",
+        "hash": "a93b9349",
+        "bytes": 1149165,
+        "duration": 95.676,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/mukuru-account-card-south-africa.ccb537fb.mp3",
+        "hash": "ccb537fb",
+        "bytes": 1125837,
+        "duration": 93.73,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    }
+  }
+}

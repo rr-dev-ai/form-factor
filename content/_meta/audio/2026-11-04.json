@@ -1,0 +1,293 @@
+{
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-06T04:03:52.285Z",
+  "renderer": 1,
+  "items": {
+    "aci-circle-usdc-settlement-colombia-bre-b": {
+      "zh": {
+        "file": "audio/zh/aci-circle-usdc-settlement-colombia-bre-b.0528fd68.mp3",
+        "hash": "0528fd68",
+        "bytes": 1874061,
+        "duration": 156.08,
+        "voice": "zf_005",
+        "speed": 1.048
+      },
+      "en": {
+        "file": "audio/en/aci-circle-usdc-settlement-colombia-bre-b.0cc67520.mp3",
+        "hash": "0cc67520",
+        "bytes": 1512621,
+        "duration": 125.953,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/aci-circle-usdc-settlement-colombia-bre-b.3ff5b8e7.mp3",
+        "hash": "3ff5b8e7",
+        "bytes": 1679661,
+        "duration": 139.89,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "att-ast-spacemobile-terrestrial-satellite-handoff": {
+      "zh": {
+        "file": "audio/zh/att-ast-spacemobile-terrestrial-satellite-handoff.ee456aeb.mp3",
+        "hash": "ee456aeb",
+        "bytes": 2376621,
+        "duration": 197.96,
+        "voice": "zf_003",
+        "speed": 1.024
+      },
+      "en": {
+        "file": "audio/en/att-ast-spacemobile-terrestrial-satellite-handoff.dbc3aa95.mp3",
+        "hash": "dbc3aa95",
+        "bytes": 1806093,
+        "duration": 150.413,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/att-ast-spacemobile-terrestrial-satellite-handoff.54f0db8c.mp3",
+        "hash": "54f0db8c",
+        "bytes": 1883853,
+        "duration": 156.905,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "china-telecom-hong-kong-esim-stored-value-cards": {
+      "zh": {
+        "file": "audio/zh/china-telecom-hong-kong-esim-stored-value-cards.99c2c500.mp3",
+        "hash": "99c2c500",
+        "bytes": 2040237,
+        "duration": 169.935,
+        "voice": "zf_003",
+        "speed": 1.024
+      },
+      "en": {
+        "file": "audio/en/china-telecom-hong-kong-esim-stored-value-cards.b85bd189.mp3",
+        "hash": "b85bd189",
+        "bytes": 1634733,
+        "duration": 136.141,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/china-telecom-hong-kong-esim-stored-value-cards.9ee15e34.mp3",
+        "hash": "9ee15e34",
+        "bytes": 1679661,
+        "duration": 139.88,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "google-pay-nigeria-mastercard-interswitch-tokenization": {
+      "zh": {
+        "file": "audio/zh/google-pay-nigeria-mastercard-interswitch-tokenization.3e8523d5.mp3",
+        "hash": "3e8523d5",
+        "bytes": 1992429,
+        "duration": 165.955,
+        "voice": "zm_015",
+        "speed": 1.094
+      },
+      "en": {
+        "file": "audio/en/google-pay-nigeria-mastercard-interswitch-tokenization.e9a52fa4.mp3",
+        "hash": "e9a52fa4",
+        "bytes": 1688877,
+        "duration": 140.647,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/google-pay-nigeria-mastercard-interswitch-tokenization.2a2f671e.mp3",
+        "hash": "2a2f671e",
+        "bytes": 1910637,
+        "duration": 159.125,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "innovatrics-cen-ts-18099-high-injection-attack": {
+      "zh": {
+        "file": "audio/zh/innovatrics-cen-ts-18099-high-injection-attack.89255860.mp3",
+        "hash": "89255860",
+        "bytes": 1541133,
+        "duration": 128.33,
+        "voice": "zf_001",
+        "speed": 1.16
+      },
+      "en": {
+        "file": "audio/en/innovatrics-cen-ts-18099-high-injection-attack.8c8b8227.mp3",
+        "hash": "8c8b8227",
+        "bytes": 1496493,
+        "duration": 124.624,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/innovatrics-cen-ts-18099-high-injection-attack.62d935fd.mp3",
+        "hash": "62d935fd",
+        "bytes": 1536813,
+        "duration": 127.985,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "new-zealand-nzbn-business-passport-wallet-trial": {
+      "zh": {
+        "file": "audio/zh/new-zealand-nzbn-business-passport-wallet-trial.f9686b46.mp3",
+        "hash": "f9686b46",
+        "bytes": 1573677,
+        "duration": 131.055,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/new-zealand-nzbn-business-passport-wallet-trial.bcdae534.mp3",
+        "hash": "bcdae534",
+        "bytes": 1476621,
+        "duration": 122.971,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/new-zealand-nzbn-business-passport-wallet-trial.2a547998.mp3",
+        "hash": "2a547998",
+        "bytes": 1526733,
+        "duration": 127.15,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "romania-senate-under-15-ban-age-verification": {
+      "zh": {
+        "file": "audio/zh/romania-senate-under-15-ban-age-verification.0107c770.mp3",
+        "hash": "0107c770",
+        "bytes": 1556109,
+        "duration": 129.58,
+        "voice": "zm_010",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/romania-senate-under-15-ban-age-verification.d152e265.mp3",
+        "hash": "d152e265",
+        "bytes": 1529037,
+        "duration": 127.341,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/romania-senate-under-15-ban-age-verification.b75dcd42.mp3",
+        "hash": "b75dcd42",
+        "bytes": 1576557,
+        "duration": 131.285,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "secugen-unity-20-uganda-national-id": {
+      "zh": {
+        "file": "audio/zh/secugen-unity-20-uganda-national-id.cc1ffb66.mp3",
+        "hash": "cc1ffb66",
+        "bytes": 1832877,
+        "duration": 152.655,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/secugen-unity-20-uganda-national-id.0a99130c.mp3",
+        "hash": "0a99130c",
+        "bytes": 1429677,
+        "duration": 119.062,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/secugen-unity-20-uganda-national-id.5af3234c.mp3",
+        "hash": "5af3234c",
+        "bytes": 1464237,
+        "duration": 121.93,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "sunrate-agentic-card-virtual-card-ai-agents": {
+      "zh": {
+        "file": "audio/zh/sunrate-agentic-card-virtual-card-ai-agents.3a374f1c.mp3",
+        "hash": "3a374f1c",
+        "bytes": 1582317,
+        "duration": 131.78,
+        "voice": "zf_001",
+        "speed": 1.16
+      },
+      "en": {
+        "file": "audio/en/sunrate-agentic-card-virtual-card-ai-agents.fbad32c1.mp3",
+        "hash": "fbad32c1",
+        "bytes": 1582893,
+        "duration": 131.82,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/sunrate-agentic-card-virtual-card-ai-agents.709a149f.mp3",
+        "hash": "709a149f",
+        "bytes": 1597581,
+        "duration": 133.035,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "uk-sim-farm-offence-vodafonethree-intelligence": {
+      "zh": {
+        "file": "audio/zh/uk-sim-farm-offence-vodafonethree-intelligence.ed19ff79.mp3",
+        "hash": "ed19ff79",
+        "bytes": 2008557,
+        "duration": 167.285,
+        "voice": "zm_011",
+        "speed": 1.157
+      },
+      "en": {
+        "file": "audio/en/uk-sim-farm-offence-vodafonethree-intelligence.6b1469ba.mp3",
+        "hash": "6b1469ba",
+        "bytes": 1871181,
+        "duration": 155.848,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/uk-sim-farm-offence-vodafonethree-intelligence.29e4dc55.mp3",
+        "hash": "29e4dc55",
+        "bytes": 2057517,
+        "duration": 171.365,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "utah-enforces-age-verification-sb73": {
+      "zh": {
+        "file": "audio/zh/utah-enforces-age-verification-sb73.07a33e58.mp3",
+        "hash": "07a33e58",
+        "bytes": 1802349,
+        "duration": 150.1,
+        "voice": "zf_005",
+        "speed": 1.048
+      },
+      "en": {
+        "file": "audio/en/utah-enforces-age-verification-sb73.1abcf9e0.mp3",
+        "hash": "1abcf9e0",
+        "bytes": 1402317,
+        "duration": 116.777,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/utah-enforces-age-verification-sb73.6ef3b31b.mp3",
+        "hash": "6ef3b31b",
+        "bytes": 1580013,
+        "duration": 131.575,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    }
+  }
+}

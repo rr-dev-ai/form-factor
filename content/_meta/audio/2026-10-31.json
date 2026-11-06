@@ -1,0 +1,267 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-11-06T04:03:52.285Z",
+  "renderer": 1,
+  "items": {
+    "etsi-ts-104-275-deepfake-prevention-standard": {
+      "zh": {
+        "file": "audio/zh/etsi-ts-104-275-deepfake-prevention-standard.3d4672d6.mp3",
+        "hash": "3d4672d6",
+        "bytes": 2199501,
+        "duration": 183.21,
+        "voice": "zm_010",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/etsi-ts-104-275-deepfake-prevention-standard.c7d36e23.mp3",
+        "hash": "c7d36e23",
+        "bytes": 2156301,
+        "duration": 179.616,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/etsi-ts-104-275-deepfake-prevention-standard.cc485aa0.mp3",
+        "hash": "cc485aa0",
+        "bytes": 2321037,
+        "duration": 193.325,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "hmrc-mandatory-epos-software-standards": {
+      "zh": {
+        "file": "audio/zh/hmrc-mandatory-epos-software-standards.e0467525.mp3",
+        "hash": "e0467525",
+        "bytes": 1851885,
+        "duration": 154.235,
+        "voice": "zf_001",
+        "speed": 1.16
+      },
+      "en": {
+        "file": "audio/en/hmrc-mandatory-epos-software-standards.57fbc450.mp3",
+        "hash": "57fbc450",
+        "bytes": 1928493,
+        "duration": 160.628,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/hmrc-mandatory-epos-software-standards.129de142.mp3",
+        "hash": "129de142",
+        "bytes": 1963053,
+        "duration": 163.495,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "idemia-emvco-pqc-payment-card-platform": {
+      "zh": {
+        "file": "audio/zh/idemia-emvco-pqc-payment-card-platform.e29474d7.mp3",
+        "hash": "e29474d7",
+        "bytes": 1829421,
+        "duration": 152.36,
+        "voice": "zf_001",
+        "speed": 1.16
+      },
+      "en": {
+        "file": "audio/en/idemia-emvco-pqc-payment-card-platform.c6401122.mp3",
+        "hash": "c6401122",
+        "bytes": 1918701,
+        "duration": 159.793,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/idemia-emvco-pqc-payment-card-platform.adca234f.mp3",
+        "hash": "adca234f",
+        "bytes": 1887885,
+        "duration": 157.235,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "nistir-8547-pqc-transition-timetable": {
+      "zh": {
+        "file": "audio/zh/nistir-8547-pqc-transition-timetable.42a40f49.mp3",
+        "hash": "42a40f49",
+        "bytes": 2043981,
+        "duration": 170.235,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/nistir-8547-pqc-transition-timetable.b5636572.mp3",
+        "hash": "b5636572",
+        "bytes": 2072205,
+        "duration": 172.601,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/nistir-8547-pqc-transition-timetable.eaa916d5.mp3",
+        "hash": "eaa916d5",
+        "bytes": 2199789,
+        "duration": 183.235,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "rogers-satellite-d2d-roaming-pacific": {
+      "zh": {
+        "file": "audio/zh/rogers-satellite-d2d-roaming-pacific.2764d614.mp3",
+        "hash": "2764d614",
+        "bytes": 2257677,
+        "duration": 188.045,
+        "voice": "zf_003",
+        "speed": 1.024
+      },
+      "en": {
+        "file": "audio/en/rogers-satellite-d2d-roaming-pacific.74231a2f.mp3",
+        "hash": "74231a2f",
+        "bytes": 1725453,
+        "duration": 143.691,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/rogers-satellite-d2d-roaming-pacific.6c50f281.mp3",
+        "hash": "6c50f281",
+        "bytes": 1793709,
+        "duration": 149.39,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "treasury-idme-mandatory-treasurydirect-login-gov": {
+      "zh": {
+        "file": "audio/zh/treasury-idme-mandatory-treasurydirect-login-gov.3695eab6.mp3",
+        "hash": "3695eab6",
+        "bytes": 2930733,
+        "duration": 244.135,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/treasury-idme-mandatory-treasurydirect-login-gov.1fe23016.mp3",
+        "hash": "1fe23016",
+        "bytes": 2279565,
+        "duration": 189.886,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/treasury-idme-mandatory-treasurydirect-login-gov.0b604ada.mp3",
+        "hash": "0b604ada",
+        "bytes": 2397357,
+        "duration": 199.69,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "turkiye-digital-id-wallet-2027-pilot-age-tokens": {
+      "zh": {
+        "file": "audio/zh/turkiye-digital-id-wallet-2027-pilot-age-tokens.cfa85afa.mp3",
+        "hash": "cfa85afa",
+        "bytes": 2134413,
+        "duration": 177.77,
+        "voice": "zm_011",
+        "speed": 1.157
+      },
+      "en": {
+        "file": "audio/en/turkiye-digital-id-wallet-2027-pilot-age-tokens.aa5907f8.mp3",
+        "hash": "aa5907f8",
+        "bytes": 2151405,
+        "duration": 179.187,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/turkiye-digital-id-wallet-2027-pilot-age-tokens.5567ef86.mp3",
+        "hash": "5567ef86",
+        "bytes": 2180781,
+        "duration": 181.635,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "uk-police-facial-recognition-oversight-gap": {
+      "zh": {
+        "file": "audio/zh/uk-police-facial-recognition-oversight-gap.518d4471.mp3",
+        "hash": "518d4471",
+        "bytes": 2654829,
+        "duration": 221.16,
+        "voice": "zm_015",
+        "speed": 1.094
+      },
+      "en": {
+        "file": "audio/en/uk-police-facial-recognition-oversight-gap.a9f65e0c.mp3",
+        "hash": "a9f65e0c",
+        "bytes": 2387277,
+        "duration": 198.856,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/uk-police-facial-recognition-oversight-gap.02d2e906.mp3",
+        "hash": "02d2e906",
+        "bytes": 2513709,
+        "duration": 209.39,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "visa-commercial-fraud-solutions-virtual-cards": {
+      "zh": {
+        "file": "audio/zh/visa-commercial-fraud-solutions-virtual-cards.026dbbb5.mp3",
+        "hash": "026dbbb5",
+        "bytes": 2278125,
+        "duration": 189.745,
+        "voice": "zf_005",
+        "speed": 1.048
+      },
+      "en": {
+        "file": "audio/en/visa-commercial-fraud-solutions-virtual-cards.c12a50ea.mp3",
+        "hash": "c12a50ea",
+        "bytes": 1833453,
+        "duration": 152.699,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/visa-commercial-fraud-solutions-virtual-cards.b8376cdf.mp3",
+        "hash": "b8376cdf",
+        "bytes": 1970253,
+        "duration": 164.09,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "visa-mastercard-honor-all-cards-settlement": {
+      "zh": {
+        "file": "audio/zh/visa-mastercard-honor-all-cards-settlement.8af40bd9.mp3",
+        "hash": "8af40bd9",
+        "bytes": 2129805,
+        "duration": 177.395,
+        "voice": "zf_003",
+        "speed": 1.024
+      },
+      "en": {
+        "file": "audio/en/visa-mastercard-honor-all-cards-settlement.7897bb46.mp3",
+        "hash": "7897bb46",
+        "bytes": 1598157,
+        "duration": 133.081,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/visa-mastercard-honor-all-cards-settlement.68bfe498.mp3",
+        "hash": "68bfe498",
+        "bytes": 1559565,
+        "duration": 129.865,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    }
+  }
+}

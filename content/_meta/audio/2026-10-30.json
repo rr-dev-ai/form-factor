@@ -1,0 +1,241 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026-11-06T04:03:52.285Z",
+  "renderer": 1,
+  "items": {
+    "botim-jaywan-prepaid-issuer": {
+      "zh": {
+        "file": "audio/zh/botim-jaywan-prepaid-issuer.64a9aba7.mp3",
+        "hash": "64a9aba7",
+        "bytes": 1216845,
+        "duration": 101.32,
+        "voice": "zm_010",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/botim-jaywan-prepaid-issuer.cebb6742.mp3",
+        "hash": "cebb6742",
+        "bytes": 1163565,
+        "duration": 96.887,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/botim-jaywan-prepaid-issuer.c91c7eed.mp3",
+        "hash": "c91c7eed",
+        "bytes": 1177677,
+        "duration": 98.045,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "brazil-south-africa-biometric-sim-verification": {
+      "zh": {
+        "file": "audio/zh/brazil-south-africa-biometric-sim-verification.d2b53421.mp3",
+        "hash": "d2b53421",
+        "bytes": 1914957,
+        "duration": 159.495,
+        "voice": "zm_015",
+        "speed": 1.094
+      },
+      "en": {
+        "file": "audio/en/brazil-south-africa-biometric-sim-verification.cb5debc1.mp3",
+        "hash": "cb5debc1",
+        "bytes": 1580589,
+        "duration": 131.637,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/brazil-south-africa-biometric-sim-verification.3f5d5c7c.mp3",
+        "hash": "3f5d5c7c",
+        "bytes": 1577421,
+        "duration": 131.36,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "checkout-com-visa-payment-passkey": {
+      "zh": {
+        "file": "audio/zh/checkout-com-visa-payment-passkey.caba3b94.mp3",
+        "hash": "caba3b94",
+        "bytes": 1252845,
+        "duration": 104.31,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/checkout-com-visa-payment-passkey.a57ff731.mp3",
+        "hash": "a57ff731",
+        "bytes": 1123533,
+        "duration": 93.549,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/checkout-com-visa-payment-passkey.1c1590f1.mp3",
+        "hash": "1c1590f1",
+        "bytes": 1117773,
+        "duration": 93.07,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "china-unicom-full-esim-device-support": {
+      "zh": {
+        "file": "audio/zh/china-unicom-full-esim-device-support.50e04bb9.mp3",
+        "hash": "50e04bb9",
+        "bytes": 824589,
+        "duration": 68.63,
+        "voice": "zf_001",
+        "speed": 1.16
+      },
+      "en": {
+        "file": "audio/en/china-unicom-full-esim-device-support.c3fa77e4.mp3",
+        "hash": "c3fa77e4",
+        "bytes": 812493,
+        "duration": 67.618,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/china-unicom-full-esim-device-support.bec1ccea.mp3",
+        "hash": "bec1ccea",
+        "bytes": 763821,
+        "duration": 63.565,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "fcc-d2d-rules-modernization-nprm": {
+      "zh": {
+        "file": "audio/zh/fcc-d2d-rules-modernization-nprm.2f6dc6b6.mp3",
+        "hash": "2f6dc6b6",
+        "bytes": 1820493,
+        "duration": 151.61,
+        "voice": "zf_001",
+        "speed": 1.16
+      },
+      "en": {
+        "file": "audio/en/fcc-d2d-rules-modernization-nprm.f633d328.mp3",
+        "hash": "f633d328",
+        "bytes": 1715085,
+        "duration": 142.831,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/fcc-d2d-rules-modernization-nprm.b94ad4aa.mp3",
+        "hash": "b94ad4aa",
+        "bytes": 1668429,
+        "duration": 138.95,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "gsma-sgp22-v27-sgp32-v13-lite4-interop": {
+      "zh": {
+        "file": "audio/zh/gsma-sgp22-v27-sgp32-v13-lite4-interop.b7e85fb6.mp3",
+        "hash": "b7e85fb6",
+        "bytes": 1160685,
+        "duration": 96.63,
+        "voice": "zf_003",
+        "speed": 1.024
+      },
+      "en": {
+        "file": "audio/en/gsma-sgp22-v27-sgp32-v13-lite4-interop.050a6a99.mp3",
+        "hash": "050a6a99",
+        "bytes": 848781,
+        "duration": 70.643,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/gsma-sgp22-v27-sgp32-v13-lite4-interop.1eecefb5.mp3",
+        "hash": "1eecefb5",
+        "bytes": 835245,
+        "duration": 69.505,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "malaysia-mcmc-travel-esim-consultation": {
+      "zh": {
+        "file": "audio/zh/malaysia-mcmc-travel-esim-consultation.286ad6f0.mp3",
+        "hash": "286ad6f0",
+        "bytes": 1681101,
+        "duration": 139.995,
+        "voice": "zf_005",
+        "speed": 1.048
+      },
+      "en": {
+        "file": "audio/en/malaysia-mcmc-travel-esim-consultation.6dbf27b8.mp3",
+        "hash": "6dbf27b8",
+        "bytes": 1270989,
+        "duration": 105.822,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/malaysia-mcmc-travel-esim-consultation.921fa9fe.mp3",
+        "hash": "921fa9fe",
+        "bytes": 1398861,
+        "duration": 116.495,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "philippines-ntc-sim-registration-purge": {
+      "zh": {
+        "file": "audio/zh/philippines-ntc-sim-registration-purge.c2999976.mp3",
+        "hash": "c2999976",
+        "bytes": 1060749,
+        "duration": 88.305,
+        "voice": "zm_011",
+        "speed": 1.157
+      },
+      "en": {
+        "file": "audio/en/philippines-ntc-sim-registration-purge.518bc421.mp3",
+        "hash": "518bc421",
+        "bytes": 964845,
+        "duration": 80.325,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/philippines-ntc-sim-registration-purge.a34c8199.mp3",
+        "hash": "a34c8199",
+        "bytes": 989613,
+        "duration": 82.37,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "visa-credentials-5-2-billion-tokenised": {
+      "zh": {
+        "file": "audio/zh/visa-credentials-5-2-billion-tokenised.a8acdd84.mp3",
+        "hash": "a8acdd84",
+        "bytes": 1384461,
+        "duration": 115.28,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/visa-credentials-5-2-billion-tokenised.f91fea5b.mp3",
+        "hash": "f91fea5b",
+        "bytes": 974061,
+        "duration": 81.079,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/visa-credentials-5-2-billion-tokenised.229504b9.mp3",
+        "hash": "229504b9",
+        "bytes": 1048077,
+        "duration": 87.255,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    }
+  }
+}

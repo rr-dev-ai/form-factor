@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-27",
+  "generatedAt": "2026-11-06T04:03:52.285Z",
+  "renderer": 1,
+  "items": {
+    "idemia-kt-pqc-sim-hardware-trust-root": {
+      "zh": {
+        "file": "audio/zh/idemia-kt-pqc-sim-hardware-trust-root.6e526b3c.mp3",
+        "hash": "6e526b3c",
+        "bytes": 1386189,
+        "duration": 115.43,
+        "voice": "zm_010",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/idemia-kt-pqc-sim-hardware-trust-root.df1384b5.mp3",
+        "hash": "df1384b5",
+        "bytes": 1291725,
+        "duration": 107.553,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/idemia-kt-pqc-sim-hardware-trust-root.53aa566a.mp3",
+        "hash": "53aa566a",
+        "bytes": 1280205,
+        "duration": 106.6,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "us-debit-interchange-cap-vacated": {
+      "zh": {
+        "file": "audio/zh/us-debit-interchange-cap-vacated.f3e30a26.mp3",
+        "hash": "f3e30a26",
+        "bytes": 1227789,
+        "duration": 102.22,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/us-debit-interchange-cap-vacated.cfd53602.mp3",
+        "hash": "cfd53602",
+        "bytes": 1092141,
+        "duration": 90.917,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/us-debit-interchange-cap-vacated.a031264d.mp3",
+        "hash": "a031264d",
+        "bytes": 1227501,
+        "duration": 102.205,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "wero-netherlands-ecommerce-live": {
+      "zh": {
+        "file": "audio/zh/wero-netherlands-ecommerce-live.90f35656.mp3",
+        "hash": "90f35656",
+        "bytes": 1828269,
+        "duration": 152.28,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/wero-netherlands-ecommerce-live.21272b63.mp3",
+        "hash": "21272b63",
+        "bytes": 1294029,
+        "duration": 107.743,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/wero-netherlands-ecommerce-live.cd015231.mp3",
+        "hash": "cd015231",
+        "bytes": 1351917,
+        "duration": 112.58,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    }
+  }
+}

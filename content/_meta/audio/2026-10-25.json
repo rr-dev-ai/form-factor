@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-25",
+  "generatedAt": "2026-11-06T04:03:52.285Z",
+  "renderer": 1,
+  "items": {
+    "lebanon-touch-inapp-prepaid-esim": {
+      "zh": {
+        "file": "audio/zh/lebanon-touch-inapp-prepaid-esim.58d9084a.mp3",
+        "hash": "58d9084a",
+        "bytes": 1730349,
+        "duration": 144.105,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/lebanon-touch-inapp-prepaid-esim.a043d59c.mp3",
+        "hash": "a043d59c",
+        "bytes": 1288845,
+        "duration": 107.325,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/lebanon-touch-inapp-prepaid-esim.59086ffb.mp3",
+        "hash": "59086ffb",
+        "bytes": 1291725,
+        "duration": 107.55,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    }
+  }
+}

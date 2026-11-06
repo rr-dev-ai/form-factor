@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-06T04:03:52.285Z",
+  "renderer": 1,
+  "items": {
+    "adyen-visa-payment-passkey-uk-checkout": {
+      "zh": {
+        "file": "audio/zh/adyen-visa-payment-passkey-uk-checkout.fdd9e495.mp3",
+        "hash": "fdd9e495",
+        "bytes": 2101869,
+        "duration": 175.08,
+        "voice": "zm_011",
+        "speed": 1.157
+      },
+      "en": {
+        "file": "audio/en/adyen-visa-payment-passkey-uk-checkout.a0c74d1c.mp3",
+        "hash": "a0c74d1c",
+        "bytes": 2168973,
+        "duration": 180.667,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/adyen-visa-payment-passkey-uk-checkout.f5b7ee95.mp3",
+        "hash": "f5b7ee95",
+        "bytes": 2256237,
+        "duration": 187.935,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "armenia-haypass-biometric-documents-go-live": {
+      "zh": {
+        "file": "audio/zh/armenia-haypass-biometric-documents-go-live.fe366b58.mp3",
+        "hash": "fe366b58",
+        "bytes": 2163501,
+        "duration": 180.21,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/armenia-haypass-biometric-documents-go-live.8045bd77.mp3",
+        "hash": "8045bd77",
+        "bytes": 2195181,
+        "duration": 182.833,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/armenia-haypass-biometric-documents-go-live.913828b4.mp3",
+        "hash": "913828b4",
+        "bytes": 2272941,
+        "duration": 189.335,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "china-esim-only-handset-in-store-activation-limits": {
+      "zh": {
+        "file": "audio/zh/china-esim-only-handset-in-store-activation-limits.7fcc062f.mp3",
+        "hash": "7fcc062f",
+        "bytes": 1912077,
+        "duration": 159.245,
+        "voice": "zf_001",
+        "speed": 1.16
+      },
+      "en": {
+        "file": "audio/en/china-esim-only-handset-in-store-activation-limits.89d2c232.mp3",
+        "hash": "89d2c232",
+        "bytes": 2000493,
+        "duration": 166.625,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/china-esim-only-handset-in-store-activation-limits.1e45f332.mp3",
+        "hash": "1e45f332",
+        "bytes": 1877229,
+        "duration": 156.34,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "ghana-nia-verification-taskforce-photocopy-ban": {
+      "zh": {
+        "file": "audio/zh/ghana-nia-verification-taskforce-photocopy-ban.b8430514.mp3",
+        "hash": "b8430514",
+        "bytes": 1835469,
+        "duration": 152.86,
+        "voice": "zm_010",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/ghana-nia-verification-taskforce-photocopy-ban.0ddad8f8.mp3",
+        "hash": "0ddad8f8",
+        "bytes": 1766061,
+        "duration": 147.081,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/ghana-nia-verification-taskforce-photocopy-ban.c28a558f.mp3",
+        "hash": "c28a558f",
+        "bytes": 1762893,
+        "duration": 146.82,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "india-digi-yatra-international-epassport-trials": {
+      "zh": {
+        "file": "audio/zh/india-digi-yatra-international-epassport-trials.29ace10c.mp3",
+        "hash": "29ace10c",
+        "bytes": 2316141,
+        "duration": 192.935,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/india-digi-yatra-international-epassport-trials.c3d8ea05.mp3",
+        "hash": "c3d8ea05",
+        "bytes": 1823085,
+        "duration": 151.844,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/india-digi-yatra-international-epassport-trials.98c8620b.mp3",
+        "hash": "98c8620b",
+        "bytes": 1952397,
+        "duration": 162.61,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "moneygram-aiprise-verification-platform": {
+      "zh": {
+        "file": "audio/zh/moneygram-aiprise-verification-platform.26d88d6e.mp3",
+        "hash": "26d88d6e",
+        "bytes": 2405997,
+        "duration": 200.41,
+        "voice": "zf_003",
+        "speed": 1.024
+      },
+      "en": {
+        "file": "audio/en/moneygram-aiprise-verification-platform.afccb5f7.mp3",
+        "hash": "afccb5f7",
+        "bytes": 2020365,
+        "duration": 168.266,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/moneygram-aiprise-verification-platform.a9cc5612.mp3",
+        "hash": "a9cc5612",
+        "bytes": 2080845,
+        "duration": 173.31,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "south-africa-act-rejects-icasa-biometric-sim-rules": {
+      "zh": {
+        "file": "audio/zh/south-africa-act-rejects-icasa-biometric-sim-rules.37f93637.mp3",
+        "hash": "37f93637",
+        "bytes": 2240685,
+        "duration": 186.645,
+        "voice": "zm_015",
+        "speed": 1.094
+      },
+      "en": {
+        "file": "audio/en/south-africa-act-rejects-icasa-biometric-sim-rules.7c6098ce.mp3",
+        "hash": "7c6098ce",
+        "bytes": 1936845,
+        "duration": 161.317,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/south-africa-act-rejects-icasa-biometric-sim-rules.5145ed78.mp3",
+        "hash": "5145ed78",
+        "bytes": 1773837,
+        "duration": 147.725,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    }
+  }
+}

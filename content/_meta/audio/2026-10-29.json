@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-29",
+  "generatedAt": "2026-11-06T04:03:52.285Z",
+  "renderer": 1,
+  "items": {
+    "blik-recurring-payments-netflix": {
+      "zh": {
+        "file": "audio/zh/blik-recurring-payments-netflix.d2d38c8d.mp3",
+        "hash": "d2d38c8d",
+        "bytes": 1247661,
+        "duration": 103.88,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/blik-recurring-payments-netflix.06c4cc8a.mp3",
+        "hash": "06c4cc8a",
+        "bytes": 1143981,
+        "duration": 95.241,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/blik-recurring-payments-netflix.dabc15f1.mp3",
+        "hash": "dabc15f1",
+        "bytes": 1213389,
+        "duration": 101.035,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "huawei-mate90-four-numbers-three-standby": {
+      "zh": {
+        "file": "audio/zh/huawei-mate90-four-numbers-three-standby.8b23e849.mp3",
+        "hash": "8b23e849",
+        "bytes": 1405197,
+        "duration": 117.02,
+        "voice": "zm_010",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/huawei-mate90-four-numbers-three-standby.db5070af.mp3",
+        "hash": "db5070af",
+        "bytes": 1283373,
+        "duration": 106.868,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/huawei-mate90-four-numbers-three-standby.203a0e5d.mp3",
+        "hash": "203a0e5d",
+        "bytes": 1239885,
+        "duration": 103.245,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "snap-ebt-chip-nfc-mandate": {
+      "zh": {
+        "file": "audio/zh/snap-ebt-chip-nfc-mandate.c613afed.mp3",
+        "hash": "c613afed",
+        "bytes": 1805805,
+        "duration": 150.385,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/snap-ebt-chip-nfc-mandate.570b01fa.mp3",
+        "hash": "570b01fa",
+        "bytes": 1307277,
+        "duration": 108.86,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/snap-ebt-chip-nfc-mandate.04abf53a.mp3",
+        "hash": "04abf53a",
+        "bytes": 1418733,
+        "duration": 118.145,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "tongxin-esim-chip-unicom-procurement": {
+      "zh": {
+        "file": "audio/zh/tongxin-esim-chip-unicom-procurement.1b751b20.mp3",
+        "hash": "1b751b20",
+        "bytes": 1230381,
+        "duration": 102.455,
+        "voice": "zm_011",
+        "speed": 1.157
+      },
+      "en": {
+        "file": "audio/en/tongxin-esim-chip-unicom-procurement.fa78bd10.mp3",
+        "hash": "fa78bd10",
+        "bytes": 1145709,
+        "duration": 95.385,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/tongxin-esim-chip-unicom-procurement.723d3f30.mp3",
+        "hash": "723d3f30",
+        "bytes": 1128429,
+        "duration": 93.95,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    }
+  }
+}

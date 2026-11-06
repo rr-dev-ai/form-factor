@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-26",
+  "generatedAt": "2026-11-06T04:03:52.285Z",
+  "renderer": 1,
+  "items": {
+    "karnataka-high-court-sim-inventory-reconciliation": {
+      "zh": {
+        "file": "audio/zh/karnataka-high-court-sim-inventory-reconciliation.d388c2b4.mp3",
+        "hash": "d388c2b4",
+        "bytes": 1562157,
+        "duration": 130.095,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/karnataka-high-court-sim-inventory-reconciliation.16777e05.mp3",
+        "hash": "16777e05",
+        "bytes": 1522701,
+        "duration": 126.801,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/karnataka-high-court-sim-inventory-reconciliation.f9c85a87.mp3",
+        "hash": "f9c85a87",
+        "bytes": 1431405,
+        "duration": 119.2,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "vietnam-napas-card-day-renamed-digital-payment": {
+      "zh": {
+        "file": "audio/zh/vietnam-napas-card-day-renamed-digital-payment.799147bb.mp3",
+        "hash": "799147bb",
+        "bytes": 1702701,
+        "duration": 141.795,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/vietnam-napas-card-day-renamed-digital-payment.a9422c1e.mp3",
+        "hash": "a9422c1e",
+        "bytes": 1238733,
+        "duration": 103.151,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/vietnam-napas-card-day-renamed-digital-payment.a85b59cd.mp3",
+        "hash": "a85b59cd",
+        "bytes": 1293453,
+        "duration": 107.7,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    }
+  }
+}

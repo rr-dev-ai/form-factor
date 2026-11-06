@@ -1,8 +1,164 @@
 {
   "date": "2026-11-05",
-  "generatedAt": "2026-11-06T01:33:09.700Z",
+  "generatedAt": "2026-11-06T04:03:52.285Z",
   "renderer": 1,
   "items": {
+    "ant-digital-zoloz-kya-ai-agents": {
+      "zh": {
+        "file": "audio/zh/ant-digital-zoloz-kya-ai-agents.eca54eda.mp3",
+        "hash": "eca54eda",
+        "bytes": 1588077,
+        "duration": 132.255,
+        "voice": "zm_015",
+        "speed": 1.094
+      },
+      "en": {
+        "file": "audio/en/ant-digital-zoloz-kya-ai-agents.a7ce1ac3.mp3",
+        "hash": "a7ce1ac3",
+        "bytes": 1273293,
+        "duration": 106.015,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/ant-digital-zoloz-kya-ai-agents.0e4eb992.mp3",
+        "hash": "0e4eb992",
+        "bytes": 1318797,
+        "duration": 109.82,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "bareedpay-mastercard-uwallet-jordan-post": {
+      "zh": {
+        "file": "audio/zh/bareedpay-mastercard-uwallet-jordan-post.707d7d91.mp3",
+        "hash": "707d7d91",
+        "bytes": 1494477,
+        "duration": 124.455,
+        "voice": "zf_005",
+        "speed": 1.048
+      },
+      "en": {
+        "file": "audio/en/bareedpay-mastercard-uwallet-jordan-post.1200abf2.mp3",
+        "hash": "1200abf2",
+        "bytes": 1160685,
+        "duration": 96.627,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/bareedpay-mastercard-uwallet-jordan-post.ea02601c.mp3",
+        "hash": "ea02601c",
+        "bytes": 1237869,
+        "duration": 103.065,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "brim-financial-manulife-bank-card-platform": {
+      "zh": {
+        "file": "audio/zh/brim-financial-manulife-bank-card-platform.8945e12e.mp3",
+        "hash": "8945e12e",
+        "bytes": 1276173,
+        "duration": 106.255,
+        "voice": "zf_001",
+        "speed": 1.16
+      },
+      "en": {
+        "file": "audio/en/brim-financial-manulife-bank-card-platform.1052411e.mp3",
+        "hash": "1052411e",
+        "bytes": 1297773,
+        "duration": 108.052,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/brim-financial-manulife-bank-card-platform.2feccde9.mp3",
+        "hash": "2feccde9",
+        "bytes": 1341837,
+        "duration": 111.725,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "eseye-anynet-select-sgp32-profile-catalogue": {
+      "zh": {
+        "file": "audio/zh/eseye-anynet-select-sgp32-profile-catalogue.0c33816e.mp3",
+        "hash": "0c33816e",
+        "bytes": 2336301,
+        "duration": 194.605,
+        "voice": "zf_003",
+        "speed": 1.024
+      },
+      "en": {
+        "file": "audio/en/eseye-anynet-select-sgp32-profile-catalogue.964f4791.mp3",
+        "hash": "964f4791",
+        "bytes": 1819053,
+        "duration": 151.509,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/eseye-anynet-select-sgp32-profile-catalogue.43d78536.mp3",
+        "hash": "43d78536",
+        "bytes": 1865709,
+        "duration": 155.38,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "hkma-fps-unionpay-qr-cross-border": {
+      "zh": {
+        "file": "audio/zh/hkma-fps-unionpay-qr-cross-border.f88f9962.mp3",
+        "hash": "f88f9962",
+        "bytes": 1698381,
+        "duration": 141.435,
+        "voice": "zm_010",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/hkma-fps-unionpay-qr-cross-border.ddecddb7.mp3",
+        "hash": "ddecddb7",
+        "bytes": 1686861,
+        "duration": 140.488,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/hkma-fps-unionpay-qr-cross-border.c0f7e37f.mp3",
+        "hash": "c0f7e37f",
+        "bytes": 1767501,
+        "duration": 147.205,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "k-id-kai-sdk-age-adaptive-permissions": {
+      "zh": {
+        "file": "audio/zh/k-id-kai-sdk-age-adaptive-permissions.ed24e140.mp3",
+        "hash": "ed24e140",
+        "bytes": 1552653,
+        "duration": 129.305,
+        "voice": "zm_011",
+        "speed": 1.157
+      },
+      "en": {
+        "file": "audio/en/k-id-kai-sdk-age-adaptive-permissions.a6c27997.mp3",
+        "hash": "a6c27997",
+        "bytes": 1387341,
+        "duration": 115.521,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/k-id-kai-sdk-age-adaptive-permissions.1dff794d.mp3",
+        "hash": "1dff794d",
+        "bytes": 1518381,
+        "duration": 126.455,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
     "liberia-migrant-biometric-registration-16-sites": {
       "zh": {
         "file": "audio/zh/liberia-migrant-biometric-registration-16-sites.4b8240ae.mp3",
@@ -25,6 +181,136 @@
         "hash": "67d0a543",
         "bytes": 1706445,
         "duration": 142.11,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "nuvolinq-nuvoautolinq-sim-sets-apn": {
+      "zh": {
+        "file": "audio/zh/nuvolinq-nuvoautolinq-sim-sets-apn.52924f56.mp3",
+        "hash": "52924f56",
+        "bytes": 2547981,
+        "duration": 212.235,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/nuvolinq-nuvoautolinq-sim-sets-apn.813a9b2f.mp3",
+        "hash": "813a9b2f",
+        "bytes": 2125197,
+        "duration": 177.009,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/nuvolinq-nuvoautolinq-sim-sets-apn.f473c13f.mp3",
+        "hash": "f473c13f",
+        "bytes": 2153133,
+        "duration": 179.33,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "orange-ifpp-single-sku-quantum-safe-esim": {
+      "zh": {
+        "file": "audio/zh/orange-ifpp-single-sku-quantum-safe-esim.3b402afb.mp3",
+        "hash": "3b402afb",
+        "bytes": 2313549,
+        "duration": 192.705,
+        "voice": "zf_001",
+        "speed": 1.16
+      },
+      "en": {
+        "file": "audio/en/orange-ifpp-single-sku-quantum-safe-esim.c8deba0f.mp3",
+        "hash": "c8deba0f",
+        "bytes": 2276685,
+        "duration": 189.627,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/orange-ifpp-single-sku-quantum-safe-esim.dfc526af.mp3",
+        "hash": "dfc526af",
+        "bytes": 2371149,
+        "duration": 197.515,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "pine-labs-stripe-singapore-unified-commerce": {
+      "zh": {
+        "file": "audio/zh/pine-labs-stripe-singapore-unified-commerce.741f14c1.mp3",
+        "hash": "741f14c1",
+        "bytes": 1785357,
+        "duration": 148.685,
+        "voice": "zf_005",
+        "speed": 1.048
+      },
+      "en": {
+        "file": "audio/en/pine-labs-stripe-singapore-unified-commerce.3fadea8e.mp3",
+        "hash": "3fadea8e",
+        "bytes": 1415853,
+        "duration": 117.911,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/pine-labs-stripe-singapore-unified-commerce.20f74c63.mp3",
+        "hash": "20f74c63",
+        "bytes": 1588941,
+        "duration": 132.32,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "swiss-biometric-id-card-chip-from-november-2": {
+      "zh": {
+        "file": "audio/zh/swiss-biometric-id-card-chip-from-november-2.7d922b3d.mp3",
+        "hash": "7d922b3d",
+        "bytes": 1756845,
+        "duration": 146.31,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/swiss-biometric-id-card-chip-from-november-2.b654e08f.mp3",
+        "hash": "b654e08f",
+        "bytes": 1723725,
+        "duration": 143.552,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/swiss-biometric-id-card-chip-from-november-2.027926a7.mp3",
+        "hash": "027926a7",
+        "bytes": 1834317,
+        "duration": 152.78,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "trust-payments-weavr-virtual-cards-travel": {
+      "zh": {
+        "file": "audio/zh/trust-payments-weavr-virtual-cards-travel.2178fba8.mp3",
+        "hash": "2178fba8",
+        "bytes": 1634733,
+        "duration": 136.13,
+        "voice": "zf_003",
+        "speed": 1.024
+      },
+      "en": {
+        "file": "audio/en/trust-payments-weavr-virtual-cards-travel.a805311e.mp3",
+        "hash": "a805311e",
+        "bytes": 1313613,
+        "duration": 109.374,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/trust-payments-weavr-virtual-cards-travel.9da7dc81.mp3",
+        "hash": "9da7dc81",
+        "bytes": 1344141,
+        "duration": 111.92,
         "voice": "ef_dora",
         "speed": 1.15
       }

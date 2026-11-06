@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-24",
+  "generatedAt": "2026-11-06T04:03:52.285Z",
+  "renderer": 1,
+  "items": {
+    "china-esim-acceptance-online-selfservice": {
+      "zh": {
+        "file": "audio/zh/china-esim-acceptance-online-selfservice.d213b15b.mp3",
+        "hash": "d213b15b",
+        "bytes": 1969101,
+        "duration": 163.995,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/china-esim-acceptance-online-selfservice.fb36e69c.mp3",
+        "hash": "fb36e69c",
+        "bytes": 1473453,
+        "duration": 122.702,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/china-esim-acceptance-online-selfservice.adecbf56.mp3",
+        "hash": "adecbf56",
+        "bytes": 1505709,
+        "duration": 125.385,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    }
+  }
+}
