@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import http from 'node:http';
-import { execFileSync } from 'node:child_process';
+import { execFileSync, spawnSync } from 'node:child_process';
 import {
   planJobs,
   ensureEngine,
@@ -14,7 +14,9 @@ import {
   readSidecar,
   limitByItem,
   alreadyStaged,
+  loadStagedVoices,
 } from '../scripts/tts-build.mjs';
+import { AUDIO_VOICES } from '../src/config/audio.ts';
 import { loadManifests, writeManifest } from '../scripts/lib/tts-manifest.mjs';
 import { buildWav, silence } from '../scripts/lib/tts-audio.mjs';
 import { RENDER_VERSION, LEAD_IN, LEAD_OUT } from '../src/config/audio.ts';
@@ -311,4 +313,172 @@ test('--dry-run 不探测引擎、不发请求，打印待生成条数与预计�
   const out = dryRun();
   assert.match(out, /待生成/);
   assert.match(out, /预计耗时/);
+});
+
+function walk(dir) {
+  if (!fs.existsSync(dir)) return [];
+  const out = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) out.push(...walk(full).map((f) => path.join(entry.name, f)));
+    else out.push(entry.name);
+  }
+  return out.sort();
+}
+
+async function withWavServer(fn) {
+  return withServer(async (req, res) => {
+    let body = '';
+    for await (const chunk of req) body += chunk;
+    const wav = buildWav(silence(0.05));
+    res.writeHead(200, { 'Content-Type': 'audio/wav', 'Content-Length': wav.length });
+    res.end(wav);
+  }, fn);
+}
+
+test('generateJob 编码抛错时不留下任何 mp3 / 旁挂 / WAV 半成品', async () => {
+  await withWavServer(async (base) => {
+    const dir = tmpdir();
+    try {
+      const job = plan([itemAt(TODAY)]).jobs[0];
+      await assert.rejects(
+        () => generateJob(job, {
+          baseUrl: base,
+          stagingDir: dir,
+          encode: () => { throw new Error('ffmpeg boom'); },
+        }),
+        /ffmpeg boom/
+      );
+      assert.deepEqual(walk(dir), []);
+    } finally {
+      fs.rmSync(dir, { recursive: true, force: true });
+    }
+  });
+});
+
+test('generateJob 编码器产出 0 字节时抛错且不留文件', async () => {
+  await withWavServer(async (base) => {
+    const dir = tmpdir();
+    try {
+      const job = plan([itemAt(TODAY)]).jobs[0];
+      await assert.rejects(
+        () => generateJob(job, {
+          baseUrl: base,
+          stagingDir: dir,
+          encode: (_wav, mp3) => fs.writeFileSync(mp3, ''),
+        }),
+        /0 字节/
+      );
+      assert.deepEqual(walk(dir), []);
+    } finally {
+      fs.rmSync(dir, { recursive: true, force: true });
+    }
+  });
+});
+
+test('generateJob 写出截断文件后才失败，也不留孤儿', async () => {
+  await withWavServer(async (base) => {
+    const dir = tmpdir();
+    try {
+      const job = plan([itemAt(TODAY)]).jobs[0];
+      await assert.rejects(
+        () => generateJob(job, {
+          baseUrl: base,
+          stagingDir: dir,
+          encode: (_wav, mp3) => {
+            fs.writeFileSync(mp3, 'partial');
+            throw new Error('disk full');
+          },
+        }),
+        /disk full/
+      );
+      assert.deepEqual(walk(dir), []);
+    } finally {
+      fs.rmSync(dir, { recursive: true, force: true });
+    }
+  });
+});
+
+test('generateJob 合成失败时不产生任何文件', async () => {
+  await withServer((_req, res) => {
+    res.writeHead(503, { 'Content-Type': 'application/json' });
+    res.end('{"error":"engine down"}');
+  }, async (base) => {
+    const dir = tmpdir();
+    try {
+      const job = plan([itemAt(TODAY)]).jobs[0];
+      await assert.rejects(() => generateJob(job, { baseUrl: base, stagingDir: dir }), /TTS 合成失败/);
+      assert.deepEqual(walk(dir), []);
+    } finally {
+      fs.rmSync(dir, { recursive: true, force: true });
+    }
+  });
+});
+
+test('非 dry-run 且引擎不可达时，CLI 打印启动命令、非零退出、不产生文件', () => {
+  const dir = tmpdir();
+  try {
+    const result = spawnSync(
+      process.execPath,
+      [
+        'scripts/tts-build.mjs',
+        '--date', TODAY,
+        '--limit', '1',
+        '--engine', 'http://127.0.0.1:1',
+        '--staging', dir,
+      ],
+      { cwd: process.cwd(), encoding: 'utf8' }
+    );
+    assert.notEqual(result.status, 0);
+    assert.match(result.stderr, /server\.py/);
+    assert.deepEqual(walk(dir), []);
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+});
+
+function stageSidecar(dir, { date, slug, locale, voice, hash = 'deadbeef', mp3 = true }) {
+  const folder = path.join(dir, 'audio', locale);
+  fs.mkdirSync(folder, { recursive: true });
+  const file = path.join(folder, `${slug}.${hash}.mp3`);
+  if (mp3) fs.writeFileSync(file, 'fake');
+  fs.writeFileSync(`${file}.json`, JSON.stringify({ date, slug, locale, voice, hash }));
+}
+
+test('loadStagedVoices 从旁挂 json 还原冻结音色，跳过缺 mp3 与坏 json', () => {
+  const dir = tmpdir();
+  try {
+    stageSidecar(dir, { date: TODAY, slug: 'alpha-a', locale: 'zh', voice: 'zf_001' });
+    stageSidecar(dir, { date: TODAY, slug: 'beta-b', locale: 'en', voice: 'af_heart', mp3: false });
+    const folder = path.join(dir, 'audio', 'es');
+    fs.mkdirSync(folder, { recursive: true });
+    const broken = path.join(folder, 'gamma.es.mp3');
+    fs.writeFileSync(broken, 'fake');
+    fs.writeFileSync(`${broken}.json`, '{ not json');
+
+    const out = loadStagedVoices(dir);
+    assert.equal(out.size, 1);
+    assert.equal(out.get(`${TODAY}|alpha-a|zh`), 'zf_001');
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+});
+
+test('生成后新增同日文章，已生成条目的音色仍被 staging 冻结', () => {
+  const a = makeItem(`${TODAY}T09:00:00+08:00`, { slug: 'alpha-a' });
+  const b = makeItem(`${TODAY}T10:00:00+08:00`, { slug: 'beta-b' });
+  const first = plan([a]);
+  const natural = first.jobs.find((j) => j.locale === 'zh').voice;
+  const frozenVoice = AUDIO_VOICES.zh.find((v) => v !== natural);
+
+  const dir = tmpdir();
+  try {
+    stageSidecar(dir, { date: TODAY, slug: a.slug, locale: 'zh', voice: frozenVoice });
+    const second = plan([b, a], { stagingDir: dir });
+    const stillA = second.jobs.find((j) => j.item.slug === a.slug && j.locale === 'zh');
+    assert.equal(stillA.voice, frozenVoice, '已生成的音色必须沿用，不能被新条目挤走');
+    assert.equal(stillA.voice, plan([a], { stagingDir: dir }).jobs.find((j) => j.locale === 'zh').voice);
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
 });

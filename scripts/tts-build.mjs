@@ -49,6 +49,33 @@ function manifestVoiceMap(manifests) {
 }
 
 /**
+ * 「已生成但尚未发布」也要冻结音色。发布前 manifest 是空的，若只看 manifest，
+ * 新增同日文章会让 assignVoices 重排旧条目的首选音色 → hash 变 → 重复合成 +
+ * 旧 hash 文件成为孤儿（会被 Task 8 的 rclone sync 一并上传）。
+ */
+export function loadStagedVoices(stagingDir) {
+  const out = new Map();
+  for (const locale of LOCALES) {
+    const dir = path.join(stagingDir, 'audio', locale);
+    if (!fs.existsSync(dir)) continue;
+    for (const name of fs.readdirSync(dir)) {
+      if (!name.endsWith('.mp3.json')) continue;
+      const mp3Path = path.join(dir, name.slice(0, -5));
+      if (!fs.existsSync(mp3Path) || fs.statSync(mp3Path).size === 0) continue;
+      try {
+        const meta = JSON.parse(fs.readFileSync(path.join(dir, name), 'utf8'));
+        if (meta?.date && meta?.slug && meta?.locale && meta?.voice) {
+          out.set(`${meta.date}|${meta.slug}|${meta.locale}`, meta.voice);
+        }
+      } catch {
+        // 坏旁挂不阻断整批；该文件也没有合法 mp3 可复用。
+      }
+    }
+  }
+  return out;
+}
+
+/**
  * 生成计划：窗口过滤 → 已冻结音色沿用 → 逐条逐语种算 hash → 命中 manifest 则跳过。
  * 纯函数，不发请求、不读磁盘（内容库与 manifest 由调用方传入）。
  */
@@ -60,6 +87,7 @@ export function planJobs({
   windowDays = WINDOW_DAYS,
   all = false,
   dateFilter = null,
+  stagingDir = null,
 }) {
   if (!todayKey) throw new Error('planJobs 需要 todayKey');
   const inside = new Set(all ? [] : windowDates(todayKey, windowDays));
@@ -82,7 +110,13 @@ export function planJobs({
     }
   }
 
-  const voices = assignVoices(candidates, manifestVoiceMap(manifests), AUDIO_VOICES);
+  const frozen = manifestVoiceMap(manifests);
+  if (stagingDir) {
+    for (const [key, voice] of loadStagedVoices(stagingDir)) {
+      if (!frozen.has(key)) frozen.set(key, voice);
+    }
+  }
+  const voices = assignVoices(candidates, frozen, AUDIO_VOICES);
   const jobs = [];
   let skipped = 0;
 
@@ -178,7 +212,10 @@ export function readSidecar(mp3Path) {
  * 生成一个 mp3 + 旁挂 json。旁挂文件是 Task 8 还原 manifest 的唯一依据：
  * 只包含已真实落盘的文件，不重新读内容库、不重算 hash。
  */
-export async function generateJob(job, { baseUrl = ENGINE_URL, stagingDir = STAGING_DIR }) {
+export async function generateJob(
+  job,
+  { baseUrl = ENGINE_URL, stagingDir = STAGING_DIR, encode = encodeMp3 }
+) {
   const chunks = [];
   for (const segment of job.segments) {
     const { pcm } = await synthSegment(baseUrl, {
@@ -194,28 +231,49 @@ export async function generateJob(job, { baseUrl = ENGINE_URL, stagingDir = STAG
   const { pcm, duration } = joinSegments(chunks, job.locale);
   const file = `audio/${job.locale}/${job.item.slug}.${job.hash}.mp3`;
   const mp3Path = path.join(stagingDir, file);
+  const metaPath = sidecarPath(mp3Path);
   fs.mkdirSync(path.dirname(mp3Path), { recursive: true });
 
-  const wavPath = `${mp3Path}.source.wav`;
-  fs.writeFileSync(wavPath, buildWav(pcm));
+  // mp3 与旁挂 json 必须原子提交。两者先写 .part，全部成功后再改名到位；
+  // 任何一步失败都清干净，避免 rclone sync 把 0 字节 / 截断的孤儿传上 R2。
+  const wavTemp = `${mp3Path}.source.wav`;
+  // 保留 .mp3 后缀：ffmpeg 按扩展名推断封装格式，.part 会被拒。
+  const mp3Temp = `${mp3Path}.part.mp3`;
+  const metaTemp = `${mp3Path}.part.json`;
+  let meta;
+  let mp3Committed = false;
   try {
-    encodeMp3(wavPath, mp3Path);
-  } finally {
-    if (fs.existsSync(wavPath)) fs.unlinkSync(wavPath);
-  }
-  if (fs.statSync(mp3Path).size === 0) throw new Error(`生成了 0 字节文件：${file}`);
+    fs.writeFileSync(wavTemp, buildWav(pcm));
+    encode(wavTemp, mp3Temp);
+    const bytes = fs.existsSync(mp3Temp) ? fs.statSync(mp3Temp).size : 0;
+    if (bytes === 0) throw new Error(`生成了 0 字节文件：${file}`);
 
-  const meta = {
-    date: job.date,
-    slug: job.item.slug,
-    locale: job.locale,
-    hash: job.hash,
-    bytes: fs.statSync(mp3Path).size,
-    duration: Number(duration.toFixed(3)),
-    voice: job.voice,
-    speed: job.speed,
-  };
-  writeSidecar(mp3Path, meta);
+    meta = {
+      date: job.date,
+      slug: job.item.slug,
+      locale: job.locale,
+      hash: job.hash,
+      bytes,
+      duration: Number(duration.toFixed(3)),
+      voice: job.voice,
+      speed: job.speed,
+    };
+    fs.writeFileSync(metaTemp, `${JSON.stringify(meta, null, 2)}\n`, 'utf8');
+
+    fs.rmSync(mp3Path, { force: true });
+    fs.rmSync(metaPath, { force: true });
+    fs.renameSync(mp3Temp, mp3Path);
+    mp3Committed = true;
+    fs.renameSync(metaTemp, metaPath);
+  } catch (err) {
+    if (mp3Committed) fs.rmSync(mp3Path, { force: true });
+    throw err;
+  } finally {
+    for (const temp of [wavTemp, mp3Temp, metaTemp]) {
+      if (fs.existsSync(temp)) fs.unlinkSync(temp);
+    }
+  }
+
   return { file, ...meta };
 }
 
@@ -304,6 +362,7 @@ export async function main(argv = process.argv.slice(2)) {
     today: new Date().toISOString(),
     all: opts.all,
     dateFilter: opts.date,
+    stagingDir: opts.staging,
   });
   const selected = limitByItem(jobs, opts.limit);
   const pending = selected.filter((job) => !alreadyStaged(opts.staging, job));
