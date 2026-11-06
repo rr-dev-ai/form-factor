@@ -1,0 +1,371 @@
+{
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T12:44:15.069Z",
+  "renderer": 1,
+  "items": {
+    "dermalog-nist-fastcap-contactless-tenprint": {
+      "zh": {
+        "file": "audio/zh/dermalog-nist-fastcap-contactless-tenprint.485f4dac.mp3",
+        "hash": "485f4dac",
+        "bytes": 1780749,
+        "duration": 148.31,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/dermalog-nist-fastcap-contactless-tenprint.8400bd51.mp3",
+        "hash": "8400bd51",
+        "bytes": 1751949,
+        "duration": 145.906,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/dermalog-nist-fastcap-contactless-tenprint.8539eabd.mp3",
+        "hash": "8539eabd",
+        "bytes": 1921869,
+        "duration": 160.08,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "dubai-nol-jaywan-combined-card-pilot": {
+      "zh": {
+        "file": "audio/zh/dubai-nol-jaywan-combined-card-pilot.b900cc16.mp3",
+        "hash": "b900cc16",
+        "bytes": 1629837,
+        "duration": 135.73,
+        "voice": "zm_010",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/dubai-nol-jaywan-combined-card-pilot.61985818.mp3",
+        "hash": "61985818",
+        "bytes": 1563885,
+        "duration": 130.246,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/dubai-nol-jaywan-combined-card-pilot.1f6b568a.mp3",
+        "hash": "1f6b568a",
+        "bytes": 1520685,
+        "duration": 126.625,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "eastcompeace-rus-moscow-sim-plant-capacity": {
+      "zh": {
+        "file": "audio/zh/eastcompeace-rus-moscow-sim-plant-capacity.79603df7.mp3",
+        "hash": "79603df7",
+        "bytes": 2550285,
+        "duration": 212.43,
+        "voice": "zf_003",
+        "speed": 1.024
+      },
+      "en": {
+        "file": "audio/en/eastcompeace-rus-moscow-sim-plant-capacity.81c4103b.mp3",
+        "hash": "81c4103b",
+        "bytes": 2049741,
+        "duration": 170.731,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/eastcompeace-rus-moscow-sim-plant-capacity.2cf9fe62.mp3",
+        "hash": "2cf9fe62",
+        "bytes": 2187117,
+        "duration": 182.18,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "google-pay-nigeria-mastercard-interswitch": {
+      "zh": {
+        "file": "audio/zh/google-pay-nigeria-mastercard-interswitch.d4d25668.mp3",
+        "hash": "d4d25668",
+        "bytes": 1947501,
+        "duration": 162.21,
+        "voice": "zm_015",
+        "speed": 1.094
+      },
+      "en": {
+        "file": "audio/en/google-pay-nigeria-mastercard-interswitch.b183e812.mp3",
+        "hash": "b183e812",
+        "bytes": 1696365,
+        "duration": 141.275,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/google-pay-nigeria-mastercard-interswitch.44cf4992.mp3",
+        "hash": "44cf4992",
+        "bytes": 1937997,
+        "duration": 161.42,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "hashid-wallet-zero-knowledge-age-proof": {
+      "zh": {
+        "file": "audio/zh/hashid-wallet-zero-knowledge-age-proof.db402ec9.mp3",
+        "hash": "db402ec9",
+        "bytes": 1920429,
+        "duration": 159.96,
+        "voice": "zf_001",
+        "speed": 1.16
+      },
+      "en": {
+        "file": "audio/en/hashid-wallet-zero-knowledge-age-proof.7e3e9df7.mp3",
+        "hash": "7e3e9df7",
+        "bytes": 1936269,
+        "duration": 161.271,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/hashid-wallet-zero-knowledge-age-proof.54b5ba1b.mp3",
+        "hash": "54b5ba1b",
+        "bytes": 2060397,
+        "duration": 171.615,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "juspay-niubiz-peru-tapp": {
+      "zh": {
+        "file": "audio/zh/juspay-niubiz-peru-tapp.81bef6ef.mp3",
+        "hash": "81bef6ef",
+        "bytes": 1903725,
+        "duration": 158.555,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/juspay-niubiz-peru-tapp.6e5ec843.mp3",
+        "hash": "6e5ec843",
+        "bytes": 1590381,
+        "duration": 132.452,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/juspay-niubiz-peru-tapp.12a86bd8.mp3",
+        "hash": "12a86bd8",
+        "bytes": 1615149,
+        "duration": 134.51,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "nagaland-aadhaar-app-verifiable-credentials": {
+      "zh": {
+        "file": "audio/zh/nagaland-aadhaar-app-verifiable-credentials.95bfaa43.mp3",
+        "hash": "95bfaa43",
+        "bytes": 2103885,
+        "duration": 175.235,
+        "voice": "zf_005",
+        "speed": 1.048
+      },
+      "en": {
+        "file": "audio/en/nagaland-aadhaar-app-verifiable-credentials.495db855.mp3",
+        "hash": "495db855",
+        "bytes": 1757997,
+        "duration": 146.416,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/nagaland-aadhaar-app-verifiable-credentials.42ee8641.mp3",
+        "hash": "42ee8641",
+        "bytes": 2013453,
+        "duration": 167.71,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "orange-branded-call-france-man-attestation": {
+      "zh": {
+        "file": "audio/zh/orange-branded-call-france-man-attestation.d267673f.mp3",
+        "hash": "d267673f",
+        "bytes": 2142189,
+        "duration": 178.43,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/orange-branded-call-france-man-attestation.e32e13ca.mp3",
+        "hash": "e32e13ca",
+        "bytes": 1956429,
+        "duration": 162.953,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/orange-branded-call-france-man-attestation.97b8e29a.mp3",
+        "hash": "97b8e29a",
+        "bytes": 1960749,
+        "duration": 163.315,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "paravision-state-department-photo-identity-suite": {
+      "zh": {
+        "file": "audio/zh/paravision-state-department-photo-identity-suite.2da7601c.mp3",
+        "hash": "2da7601c",
+        "bytes": 1747053,
+        "duration": 145.51,
+        "voice": "zm_011",
+        "speed": 1.157
+      },
+      "en": {
+        "file": "audio/en/paravision-state-department-photo-identity-suite.6ef430a9.mp3",
+        "hash": "6ef430a9",
+        "bytes": 1730925,
+        "duration": 144.145,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/paravision-state-department-photo-identity-suite.d531f48b.mp3",
+        "hash": "d531f48b",
+        "bytes": 1814733,
+        "duration": 151.14,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "philippines-ntc-100-sim-threshold-reverification": {
+      "zh": {
+        "file": "audio/zh/philippines-ntc-100-sim-threshold-reverification.0c1eb6dc.mp3",
+        "hash": "0c1eb6dc",
+        "bytes": 1739853,
+        "duration": 144.905,
+        "voice": "zm_010",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/philippines-ntc-100-sim-threshold-reverification.006c97d8.mp3",
+        "hash": "006c97d8",
+        "bytes": 1671597,
+        "duration": 139.216,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/philippines-ntc-100-sim-threshold-reverification.c134df18.mp3",
+        "hash": "c134df18",
+        "bytes": 1774701,
+        "duration": 147.81,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "st-st87m01-softsim-sgp32-factory-provisioning": {
+      "zh": {
+        "file": "audio/zh/st-st87m01-softsim-sgp32-factory-provisioning.fb9b4394.mp3",
+        "hash": "fb9b4394",
+        "bytes": 2580525,
+        "duration": 214.955,
+        "voice": "zf_005",
+        "speed": 1.048
+      },
+      "en": {
+        "file": "audio/en/st-st87m01-softsim-sgp32-factory-provisioning.f1c89bcb.mp3",
+        "hash": "f1c89bcb",
+        "bytes": 2136429,
+        "duration": 177.96,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/st-st87m01-softsim-sgp32-factory-provisioning.ce71979e.mp3",
+        "hash": "ce71979e",
+        "bytes": 2243853,
+        "duration": 186.9,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "upi-dubai-duty-free-network-international": {
+      "zh": {
+        "file": "audio/zh/upi-dubai-duty-free-network-international.a1b67c79.mp3",
+        "hash": "a1b67c79",
+        "bytes": 1424781,
+        "duration": 118.655,
+        "voice": "zf_001",
+        "speed": 1.16
+      },
+      "en": {
+        "file": "audio/en/upi-dubai-duty-free-network-international.8e9a44a5.mp3",
+        "hash": "8e9a44a5",
+        "bytes": 1371501,
+        "duration": 114.2,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/upi-dubai-duty-free-network-international.dd2fd2ea.mp3",
+        "hash": "dd2fd2ea",
+        "bytes": 1330605,
+        "duration": 110.805,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "uzbekistan-apple-pay-google-pay-data-law": {
+      "zh": {
+        "file": "audio/zh/uzbekistan-apple-pay-google-pay-data-law.c7ad59e7.mp3",
+        "hash": "c7ad59e7",
+        "bytes": 2146509,
+        "duration": 178.78,
+        "voice": "zf_003",
+        "speed": 1.024
+      },
+      "en": {
+        "file": "audio/en/uzbekistan-apple-pay-google-pay-data-law.bdd9361b.mp3",
+        "hash": "bdd9361b",
+        "bytes": 1711917,
+        "duration": 142.574,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/uzbekistan-apple-pay-google-pay-data-law.166e490d.mp3",
+        "hash": "166e490d",
+        "bytes": 1782189,
+        "duration": 148.43,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "veriff-presence-verification-coercion-detection": {
+      "zh": {
+        "file": "audio/zh/veriff-presence-verification-coercion-detection.29919eb7.mp3",
+        "hash": "29919eb7",
+        "bytes": 2232045,
+        "duration": 185.91,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/veriff-presence-verification-coercion-detection.22f8d9bb.mp3",
+        "hash": "22f8d9bb",
+        "bytes": 1723149,
+        "duration": 143.52,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/veriff-presence-verification-coercion-detection.af1602d1.mp3",
+        "hash": "af1602d1",
+        "bytes": 1924461,
+        "duration": 160.275,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    }
+  }
+}
