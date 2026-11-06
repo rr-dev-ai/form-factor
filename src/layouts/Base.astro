@@ -6,6 +6,11 @@ import { byIndustry, byRegion } from '../lib/content';
 import { site, locales, type Locale } from '../config/site';
 import { t, localeTag } from '../lib/i18n';
 import { href } from '../lib/url';
+import { navLinks } from '../lib/nav';
+import { ensureAudioManifestsValid } from '../lib/audio';
+
+// npm run build 是唯一门禁：manifest 不合规直接失败，不静默降级成"没有音频"
+ensureAudioManifestsValid();
 
 interface Props {
   locale: Locale;
@@ -39,13 +44,12 @@ const regionMenu: MenuItem[] = regions.map((region) => ({
   count: byRegion(region.slug).length,
 }));
 
-const nav: { label: string; path: string | null; menu?: MenuItem[] }[] = [
-  { label: dict.home, path: '/' },
-  { label: dict.industries, path: null, menu: industryMenu },
-  { label: dict.regions, path: null, menu: regionMenu },
-  { label: dict.archive, path: '/archive' },
-  { label: dict.status, path: '/status' },
-];
+const nav: { label: string; path: string | null; menu?: MenuItem[] }[] = navLinks(locale).map((link) => ({
+  label: link.label,
+  path: link.path,
+  ...(link.key === 'industries' ? { menu: industryMenu } : {}),
+  ...(link.key === 'regions' ? { menu: regionMenu } : {}),
+}));
 
 const isCurrent = (target: string | null) =>
   !target ? false : target === '/' ? path === '/' : path === target || path.startsWith(`${target}/`);
@@ -57,7 +61,7 @@ const menuCurrent = (menu?: MenuItem[]) => !!menu && menu.some((item) => isCurre
 <html lang={localeTag[locale]} data-theme="dark">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <script is:inline>
       (function () {
         try {

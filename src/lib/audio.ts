@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { z } from 'zod';
 import type { Locale } from '../config/audio.ts';
+import { loadNews } from './content.ts';
 
 /**
  * 站点侧音频索引。manifest 是唯一真相源：页面不推断某条是否在窗口内，
@@ -137,6 +138,24 @@ export function createAudioIndex(dir: string): AudioIndex {
   }
 
   return { audioFor, audioDates, audioByDate, manifests };
+}
+
+/**
+ * 构建期门禁：manifest 的 schema 与 slug 必须在 npm run build 里校验，
+ * 不能只靠生成脚本自觉。Base.astro 在每次静态渲染时调用下面的缓存版本。
+ */
+let audioGateChecked = false;
+
+export function validateAudioManifests(dir: string = AUDIO_DIR, slugs?: Set<string>): void {
+  const manifests = readManifestFiles(dir);
+  const known = slugs ?? new Set(loadNews().map((n) => n.slug));
+  validateManifestSlugs(manifests, known);
+}
+
+export function ensureAudioManifestsValid(): void {
+  if (audioGateChecked) return;
+  validateAudioManifests();
+  audioGateChecked = true;
 }
 
 let defaultIndex: AudioIndex | null = null;
