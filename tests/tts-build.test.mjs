@@ -482,3 +482,37 @@ test('生成后新增同日文章，已生成条目的音色仍被 staging 冻�
     fs.rmSync(dir, { recursive: true, force: true });
   }
 });
+
+test('批量生成复用单个 WAV 暂存文件，60 连跑成功路径零删除', async () => {
+  await withWavServer(async (base) => {
+    const dir = tmpdir();
+    const scratch = fs.mkdtempSync(path.join(os.tmpdir(), 'ff-scratch-'));
+    try {
+      const jobs = plan([itemAt(TODAY)]).jobs;
+      for (let i = 0; i < 60; i += 1) {
+        const job = {
+          ...jobs[i % jobs.length],
+          item: { ...jobs[0].item, slug: `batch-${i}` },
+          hash: `0000000${i % 10}`,
+        };
+        await generateJob(job, {
+          baseUrl: base,
+          stagingDir: dir,
+          scratchDir: scratch,
+          encode: (_wav, mp3) => fs.writeFileSync(mp3, 'fake-mp3'),
+        });
+      }
+      const staged = walk(dir);
+      assert.equal(staged.filter((f) => f.includes('.part.') || f.endsWith('.wav')).length, 0, 'staging 不留中间文件');
+      assert.equal(staged.length, 120, '60 个 mp3 + 60 个旁挂 json');
+      assert.equal(
+        fs.readdirSync(scratch).filter((n) => n.endsWith('.wav')).length,
+        1,
+        'WAV 暂存文件全程只复用一个，不需要逐条删除'
+      );
+    } finally {
+      fs.rmSync(dir, { recursive: true, force: true });
+      fs.rmSync(scratch, { recursive: true, force: true });
+    }
+  });
+});

@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import os from 'node:os';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import {
@@ -24,6 +25,28 @@ import { parseWav, buildWav, silence, concatPcm, encodeMp3 } from './lib/tts-aud
 
 const MANIFEST_DIR = path.join(process.cwd(), 'content', '_meta', 'audio');
 const STAGING_DIR = path.join(process.cwd(), 'audio-staging');
+
+/**
+ * ffmpeg 的输入 WAV 放在系统临时目录，并且整批复用同一个路径。
+ *
+ * 一次回填 250+ 条，若每条都「写临时 WAV → 删临时 WAV」，本机文件保护的
+ * 单轮删除阈值（50 次）会把第 50 条之后的清理全部拦截：mp3 与旁挂其实
+ * 已经提交，却被记成生成失败，还留下几百 MB 的 .source.wav 垃圾。
+ * 复用 + 进程退出时删一次，成功路径零删除。
+ */
+const SCRATCH_FILES = new Set();
+export function scratchWavPath(scratchDir = os.tmpdir()) {
+  return path.join(scratchDir, `form-factor-tts-${process.pid}.source.wav`);
+}
+process.once('exit', () => {
+  for (const file of SCRATCH_FILES) {
+    try {
+      fs.unlinkSync(file);
+    } catch {
+      // 系统临时文件，清理失败不影响产物
+    }
+  }
+});
 const START_COMMAND =
   'cd C:/Users/RR/WorkBuddy/2026-11-05-11-07-43/kokoro-local && ' +
   '.venv/Scripts/python.exe server.py --port 8880 --warm';
@@ -214,7 +237,7 @@ export function readSidecar(mp3Path) {
  */
 export async function generateJob(
   job,
-  { baseUrl = ENGINE_URL, stagingDir = STAGING_DIR, encode = encodeMp3 }
+  { baseUrl = ENGINE_URL, stagingDir = STAGING_DIR, encode = encodeMp3, scratchDir = os.tmpdir() }
 ) {
   const chunks = [];
   for (const segment of job.segments) {
@@ -236,7 +259,10 @@ export async function generateJob(
 
   // mp3 与旁挂 json 必须原子提交。两者先写 .part，全部成功后再改名到位；
   // 任何一步失败都清干净，避免 rclone sync 把 0 字节 / 截断的孤儿传上 R2。
-  const wavTemp = `${mp3Path}.source.wav`;
+  // WAV 是系统临时目录里的复用文件，只覆盖不删除，成功路径不产生删除操作。
+  const wavTemp = scratchWavPath(scratchDir);
+  SCRATCH_FILES.add(wavTemp);
+  fs.mkdirSync(scratchDir, { recursive: true });
   // 保留 .mp3 后缀：ffmpeg 按扩展名推断封装格式，.part 会被拒。
   const mp3Temp = `${mp3Path}.part.mp3`;
   const metaTemp = `${mp3Path}.part.json`;
@@ -260,8 +286,7 @@ export async function generateJob(
     };
     fs.writeFileSync(metaTemp, `${JSON.stringify(meta, null, 2)}\n`, 'utf8');
 
-    fs.rmSync(mp3Path, { force: true });
-    fs.rmSync(metaPath, { force: true });
+    // Node 在 Windows 上的 rename 会覆盖已存在的目标，无需先删旧文件。
     fs.renameSync(mp3Temp, mp3Path);
     mp3Committed = true;
     fs.renameSync(metaTemp, metaPath);
@@ -269,7 +294,8 @@ export async function generateJob(
     if (mp3Committed) fs.rmSync(mp3Path, { force: true });
     throw err;
   } finally {
-    for (const temp of [wavTemp, mp3Temp, metaTemp]) {
+    // 只有失败路径才会留下 .part 文件；成功时二者都已被 rename 掉。
+    for (const temp of [mp3Temp, metaTemp]) {
       if (fs.existsSync(temp)) fs.unlinkSync(temp);
     }
   }
