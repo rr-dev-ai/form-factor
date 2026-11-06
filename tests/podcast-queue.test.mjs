@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
 import {
   initialDate,
   badgeDate,
@@ -8,6 +9,7 @@ import {
   shiftMonth,
   calendarCells,
   dayState,
+  rowAction,
 } from '../src/lib/podcast-queue.ts';
 import { ui } from '../src/lib/i18n.ts';
 
@@ -109,4 +111,26 @@ test('播客页三语文案齐全，英西语无中文残留', () => {
       assert.ok(!/[\u4e00-\u9fff]/u.test(ui[locale][key]), `${locale}.${key} 含中文`);
     }
   }
+});
+
+test('列表按钮语义：点在正在播的那一条上是暂停/续播，其余才换曲', () => {
+  const queue = { date: '2026-11-05', index: 1 };
+  assert.equal(rowAction(queue, '2026-11-05', 1), 'toggle', '同一条必须切换而不是重播');
+  assert.equal(rowAction(queue, '2026-11-05', 0), 'start', '其他条目要换曲');
+  assert.equal(rowAction(queue, '2026-11-05', 2), 'start');
+  // 切到别的日期后列表是另一批条目，index 相同也不是同一条
+  assert.equal(rowAction(queue, '2026-11-04', 1), 'start', '跨日期同 index 不能当成同一条');
+  assert.equal(rowAction(null, '2026-11-05', 1), 'start', '还没播过时只能开播');
+});
+
+test('列表按钮接上判定函数，播放入口统一走 togglePlayback', () => {
+  const script = fs.readFileSync('src/scripts/podcast.ts', 'utf8');
+  assert.match(script, /rowAction\(queue, dateOfRender, index\)/, '点击未按当前队列判定');
+  assert.match(script, /function togglePlayback\(/, '缺少统一的播放/暂停切换');
+  assert.match(script, /barToggle\.addEventListener\('click', togglePlayback\)/, '播放条未复用切换逻辑');
+  assert.doesNotMatch(
+    script,
+    /addEventListener\('click', \(\) => void startQueue\(/,
+    '列表按钮仍在无条件重启播放'
+  );
 });

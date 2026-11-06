@@ -7,6 +7,12 @@ import { buildPodcastSlice } from '../../lib/podcast';
 import { initialDate } from '../../lib/podcast-queue';
 import { toDateKey } from '../../lib/content';
 import { href } from '../../lib/url';
+import {
+  ICON_CHEVRON_LEFT,
+  ICON_CHEVRON_RIGHT,
+  ICON_CHEVRON_DOWN,
+  PLAY_PAUSE,
+} from '../../lib/podcast-icons';
 
 export function getStaticPaths() {
   return locales.map((lang) => ({ params: { lang } }));
@@ -62,19 +68,29 @@ const labels = {
     </div>
 
     <div class="podcast-datebar">
-      <button type="button" class="podcast-arrow" data-prev-day aria-label={dict.podcastPrevDay}>‹</button>
-      <button type="button" class="podcast-date-current" data-date-toggle aria-expanded="false">
-        <span data-date-text>{selected ? dates.find((d) => d.date === selected)?.label : dict.podcastEmpty}</span>
-        <span class="podcast-date-count" data-date-count>{items.length}</span>
-        <span aria-hidden="true">⌄</span>
+      <button type="button" class="podcast-arrow" data-prev-day aria-label={dict.podcastPrevDay}>
+        <Fragment set:html={ICON_CHEVRON_LEFT} />
       </button>
-      <button type="button" class="podcast-arrow" data-next-day aria-label={dict.podcastNextDay}>›</button>
+      <button type="button" class="podcast-date-current" data-date-toggle aria-expanded="false">
+        <span class="podcast-date-text" data-date-text>{selected ? dates.find((d) => d.date === selected)?.label : dict.podcastEmpty}</span>
+        <span class="podcast-date-meta">
+          <span class="podcast-date-count" data-date-count>{items.length}</span>
+          <span class="podcast-date-chevron" aria-hidden="true"><Fragment set:html={ICON_CHEVRON_DOWN} /></span>
+        </span>
+      </button>
+      <button type="button" class="podcast-arrow" data-next-day aria-label={dict.podcastNextDay}>
+        <Fragment set:html={ICON_CHEVRON_RIGHT} />
+      </button>
 
       <div class="podcast-calendar" data-calendar hidden>
         <div class="podcast-cal-head">
-          <button type="button" data-prev-month aria-label={dict.podcastPrevMonth}>‹</button>
+          <button type="button" data-prev-month aria-label={dict.podcastPrevMonth}>
+            <Fragment set:html={ICON_CHEVRON_LEFT} />
+          </button>
           <span data-month-label></span>
-          <button type="button" data-next-month aria-label={dict.podcastNextMonth}>›</button>
+          <button type="button" data-next-month aria-label={dict.podcastNextMonth}>
+            <Fragment set:html={ICON_CHEVRON_RIGHT} />
+          </button>
         </div>
         <div class="podcast-cal-grid" data-cal-grid></div>
       </div>
@@ -84,8 +100,8 @@ const labels = {
       {
         items.map((item, index) => (
           <li class="podcast-item" data-index={index} data-url={item.url} data-title={item.title} data-voice={item.voice} data-duration={item.duration}>
-            <button type="button" class="podcast-item-play" data-item-play aria-label={dict.play}>
-              <span class="podcast-item-icon" aria-hidden="true">▶</span>
+            <button type="button" class="podcast-item-play" data-item-play data-playing="false" aria-label={dict.play}>
+              <Fragment set:html={PLAY_PAUSE} />
             </button>
             <span class="podcast-item-title">{item.title}</span>
             <span class="podcast-item-voice">{item.voice}</span>
@@ -96,7 +112,9 @@ const labels = {
     <p class="podcast-empty" data-empty hidden>{dict.podcastEmpty}</p>
 
     <div class="podcast-bar" data-bar hidden>
-      <button type="button" class="podcast-bar-toggle" data-bar-toggle aria-label={dict.play}>▶</button>
+      <button type="button" class="podcast-bar-toggle" data-bar-toggle data-playing="false" aria-label={dict.play}>
+        <Fragment set:html={PLAY_PAUSE} />
+      </button>
       <div class="podcast-bar-main">
         <div class="podcast-bar-line">
           <span class="podcast-bar-title" data-bar-title></span>

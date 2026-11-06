@@ -78,6 +78,16 @@ export function onTrackStart(_hadError: boolean): { disabled: boolean; audioErro
   return { disabled: false, audioError: false };
 }
 
+/**
+ * 列表行的点击语义：点在"正在播的那一条"上是暂停/续播，点别的条目才换曲。
+ *
+ * 必须同时比对队列日期：切到别的日期后列表是另一批条目，index 相同也
+ * 不是同一条，否则会暂停到别的日期的音频上。
+ */
+export function rowAction(queue: Queue | null, date: string, index: number): 'toggle' | 'start' {
+  return queue && queue.date === date && queue.index === index ? 'toggle' : 'start';
+}
+
 export type DayState = 'selected' | 'available' | 'future' | 'disabled';
 
 export function dayState(

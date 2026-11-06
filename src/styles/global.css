@@ -1236,9 +1236,11 @@ a.tag:hover {
   cursor: default;
 }
 
+/* 三列等宽布局：左右箭头各 30px，日期列自身的中心即整行的几何中心 */
 .podcast-datebar {
   position: relative;
-  display: flex;
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr) 30px;
   align-items: center;
   gap: 8px;
   margin: 18px 0 0;
@@ -1248,6 +1250,7 @@ a.tag:hover {
 
 .podcast-arrow,
 .podcast-cal-head button {
+  flex: none;
   width: 30px;
   height: 30px;
   display: grid;
@@ -1255,8 +1258,19 @@ a.tag:hover {
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   color: var(--text-2);
-  font-size: 18px;
-  line-height: 1;
+}
+
+/* SVG 图标：viewBox 内包围盒已精确居中，容器只需固定尺寸即可几何居中 */
+.podcast-ico {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.podcast-arrow .podcast-ico,
+.podcast-cal-head button .podcast-ico {
+  width: 15px;
+  height: 15px;
 }
 
 .podcast-arrow:hover:not(:disabled),
@@ -1271,20 +1285,50 @@ a.tag:hover {
   cursor: default;
 }
 
+/*
+ * 1fr / auto / 1fr：日期文字独占中列，几何中心恒等于整行中心；
+ * 数字与展开箭头放右列紧跟其后，不参与居中计算。空出的左列做配重。
+ */
 .podcast-date-current {
-  flex: 1;
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: baseline;
   gap: 8px;
+  min-width: 0;
   padding: 4px 10px;
   border-radius: var(--radius-sm);
   color: var(--text);
   font-size: 14px;
-  text-align: left;
+  line-height: 1;
+}
+
+.podcast-date-text {
+  grid-column: 2;
+  justify-self: center;
+  white-space: nowrap;
+}
+
+.podcast-date-meta {
+  grid-column: 3;
+  justify-self: start;
 }
 
 .podcast-date-current:hover {
   background: var(--surface-2);
+}
+
+/* align-items: baseline 让数字与日期共用同一基线，消除 12px / 14px 的字高差 */
+.podcast-date-text,
+.podcast-date-count {
+  line-height: 1;
+}
+
+.podcast-date-meta {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 5px;
+  flex: none;
+  white-space: nowrap;
 }
 
 .podcast-date-count {
@@ -1293,11 +1337,41 @@ a.tag:hover {
   font-variant-numeric: tabular-nums;
 }
 
+.podcast-date-chevron {
+  display: inline-grid;
+  place-items: center;
+  width: 14px;
+  height: 14px;
+  align-self: center;
+  color: var(--text-3);
+  transition: transform 160ms ease;
+}
+
+.podcast-date-chevron .podcast-ico {
+  width: 14px;
+  height: 14px;
+}
+
+.podcast-date-current:hover .podcast-date-chevron,
+.podcast-date-current[aria-expanded='true'] .podcast-date-chevron {
+  color: var(--accent);
+}
+
+.podcast-date-current[aria-expanded='true'] .podcast-date-chevron {
+  transform: rotate(180deg);
+}
+
+/*
+ * 日历浮层以日期栏中线为锚点居中：宽屏下日期栏铺满内容宽度，left:0 会让
+ * 340px 的浮层贴到最左边，视觉上和中间的日期完全脱开。translateX(-50%)
+ * 回退自身一半宽度；窄屏 width:100% 时回退量与 left:50% 正好抵消，位置不变。
+ */
 .podcast-calendar {
   position: absolute;
   z-index: 15;
   top: calc(100% + 6px);
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: min(100%, 340px);
   padding: 12px;
   border: 1px solid var(--border-strong);
@@ -1403,7 +1477,28 @@ a.tag:hover {
   border: 1px solid var(--border-strong);
   border-radius: 50%;
   color: var(--text-2);
-  font-size: 11px;
+}
+
+.podcast-item-play .podcast-ico {
+  width: 12px;
+  height: 12px;
+  grid-area: 1 / 1;
+}
+
+/* 播放/暂停两枚 SVG 叠在同一网格单元，按 data-playing 切换，不再换 textContent。
+   作用域限定在播客按钮，避免与文章播放器的 data-playing 相互干扰。 */
+.podcast-ico-pause {
+  display: none;
+}
+
+.podcast-item-play[data-playing='true'] .podcast-ico-play,
+.podcast-bar-toggle[data-playing='true'] .podcast-ico-play {
+  display: none;
+}
+
+.podcast-item-play[data-playing='true'] .podcast-ico-pause,
+.podcast-bar-toggle[data-playing='true'] .podcast-ico-pause {
+  display: block;
 }
 
 .podcast-item-play:hover {
@@ -1460,7 +1555,12 @@ a.tag:hover {
   border: 1px solid var(--border-strong);
   border-radius: 50%;
   color: var(--accent);
-  font-size: 12px;
+}
+
+.podcast-bar-toggle .podcast-ico {
+  width: 14px;
+  height: 14px;
+  grid-area: 1 / 1;
 }
 
 .podcast-bar-toggle:disabled {

@@ -7,8 +7,10 @@ import {
   dayState,
   isCurrentView,
   onTrackStart,
+  rowAction,
   type Queue,
 } from '../lib/podcast-queue.ts';
+import { PLAY_PAUSE } from '../lib/podcast-icons.ts';
 
 interface Item {
   slug: string;
@@ -120,9 +122,11 @@ function init(root: HTMLElement) {
       const active = !!queue && queue.date === viewDate && Number(li.dataset.index) === queue.index;
       const playing = active && !audio.paused;
       li.classList.toggle('is-playing', active);
-      const icon = li.querySelector<HTMLElement>('.podcast-item-icon');
-      if (icon) icon.textContent = playing ? '⏸' : '▶';
-      li.querySelector('button')?.setAttribute('aria-label', playing ? labels.pause : labels.play);
+      const button = li.querySelector<HTMLElement>('.podcast-item-play');
+      if (button) {
+        button.dataset.playing = String(playing);
+        button.setAttribute('aria-label', playing ? labels.pause : labels.play);
+      }
     });
   }
 
@@ -136,13 +140,17 @@ function init(root: HTMLElement) {
       const button = document.createElement('button');
       button.type = 'button';
       button.className = 'podcast-item-play';
+      button.dataset.playing = 'false';
       button.setAttribute('aria-label', labels.play || '');
-      const icon = document.createElement('span');
-      icon.className = 'podcast-item-icon';
-      icon.setAttribute('aria-hidden', 'true');
-      icon.textContent = '▶';
-      button.append(icon);
-      button.addEventListener('click', () => void startQueue(dateOfRender, index, items));
+      button.innerHTML = PLAY_PAUSE;
+      button.addEventListener('click', () => {
+        // 正在播的那一条：只切换播放状态，不重新加载音频（否则会从头播）
+        if (rowAction(queue, dateOfRender, index) === 'toggle') {
+          togglePlayback();
+          return;
+        }
+        void startQueue(dateOfRender, index, items);
+      });
 
       const title = document.createElement('span');
       title.className = 'podcast-item-title';
@@ -161,6 +169,19 @@ function init(root: HTMLElement) {
   function renderProgress() {
     barSeek.value = total > 0 ? String(Math.round((audio.currentTime / total) * 1000)) : '0';
     barTime.textContent = `${clock(audio.currentTime)} / ${clock(total)}`;
+  }
+
+  /** 播放/暂停的唯一入口：列表按钮与播放条共用，只切状态，不碰 src。 */
+  function togglePlayback() {
+    if (audio.paused) {
+      audio.play().catch(() => {
+        hadError = true;
+        root.dataset.audioError = 'true';
+        barToggle.disabled = true;
+      });
+    } else {
+      audio.pause();
+    }
   }
 
   function playAt(index: number, items: Item[]) {
@@ -203,7 +224,8 @@ function init(root: HTMLElement) {
       previousDate: previousAvailableDate(dateKeys, queue.date),
     });
     if (!next) {
-      barToggle.textContent = '▶';
+      barToggle.dataset.playing = 'false';
+      barToggle.setAttribute('aria-label', labels.play || '');
       updatePlayingMark();
       return;
     }
@@ -318,10 +340,7 @@ function init(root: HTMLElement) {
     chainLabel.classList.toggle('is-disabled', !auto.checked);
   });
 
-  barToggle.addEventListener('click', () => {
-    if (audio.paused) audio.play().catch(() => { hadError = true; barToggle.disabled = true; });
-    else audio.pause();
-  });
+  barToggle.addEventListener('click', togglePlayback);
   barSeek.addEventListener('input', () => {
     if (total > 0) audio.currentTime = (Number(barSeek.value) / 1000) * total;
   });
@@ -331,12 +350,12 @@ function init(root: HTMLElement) {
   });
   audio.addEventListener('timeupdate', renderProgress);
   audio.addEventListener('play', () => {
-    barToggle.textContent = '⏸';
+    barToggle.dataset.playing = 'true';
     barToggle.setAttribute('aria-label', labels.pause || '');
     updatePlayingMark();
   });
   audio.addEventListener('pause', () => {
-    barToggle.textContent = '▶';
+    barToggle.dataset.playing = 'false';
     barToggle.setAttribute('aria-label', labels.play || '');
     updatePlayingMark();
   });
