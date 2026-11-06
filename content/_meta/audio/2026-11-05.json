@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-06T01:33:09.700Z",
+  "renderer": 1,
+  "items": {
+    "liberia-migrant-biometric-registration-16-sites": {
+      "zh": {
+        "file": "audio/zh/liberia-migrant-biometric-registration-16-sites.4b8240ae.mp3",
+        "hash": "4b8240ae",
+        "bytes": 1901997,
+        "duration": 158.415,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/liberia-migrant-biometric-registration-16-sites.6206c1af.mp3",
+        "hash": "6206c1af",
+        "bytes": 1510605,
+        "duration": 125.788,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/liberia-migrant-biometric-registration-16-sites.67d0a543.mp3",
+        "hash": "67d0a543",
+        "bytes": 1706445,
+        "duration": 142.11,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    }
+  }
+}
