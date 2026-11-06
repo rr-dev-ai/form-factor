@@ -282,6 +282,7 @@ test('alreadyStaged 命中同 hash 的 mp3 + 旁挂 json 才复用', () => {
 
 function dryRun(args = []) {
   const emptyStaging = tmpdir();
+  const emptyManifest = tmpdir();
   try {
     return execFileSync(
       process.execPath,
@@ -296,12 +297,17 @@ function dryRun(args = []) {
         'http://127.0.0.1:1',
         '--staging',
         emptyStaging,
+        // CLI 默认读仓库真实 manifest：回填完成后所有条目都会命中跳过，
+        // 测试必须与仓库内容状态解耦。
+        '--manifest-dir',
+        emptyManifest,
         ...args,
       ],
       { cwd: process.cwd(), encoding: 'utf8' }
     );
   } finally {
     fs.rmSync(emptyStaging, { recursive: true, force: true });
+    fs.rmSync(emptyManifest, { recursive: true, force: true });
   }
 }
 
@@ -417,6 +423,7 @@ test('generateJob 合成失败时不产生任何文件', async () => {
 
 test('非 dry-run 且引擎不可达时，CLI 打印启动命令、非零退出、不产生文件', () => {
   const dir = tmpdir();
+  const emptyManifest = tmpdir();
   try {
     const result = spawnSync(
       process.execPath,
@@ -426,6 +433,8 @@ test('非 dry-run 且引擎不可达时，CLI 打印启动命令、非零退出�
         '--limit', '1',
         '--engine', 'http://127.0.0.1:1',
         '--staging', dir,
+        // 同 dryRun：不读仓库真实 manifest，否则回填后无待生成条目，走不到引擎探测
+        '--manifest-dir', emptyManifest,
       ],
       { cwd: process.cwd(), encoding: 'utf8' }
     );
@@ -434,6 +443,7 @@ test('非 dry-run 且引擎不可达时，CLI 打印启动命令、非零退出�
     assert.deepEqual(walk(dir), []);
   } finally {
     fs.rmSync(dir, { recursive: true, force: true });
+    fs.rmSync(emptyManifest, { recursive: true, force: true });
   }
 });
 
