@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-08-telecom-03",
+  "slug": "hisilicon-china-mobile-esim-activation-sdk",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "esim"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-08T04:18:33+08:00",
+  "ingestedAt": "2026-11-08T02:50:00+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "网易新闻",
+      "url": "https://www.163.com/news/article/LB2B668M00019UD6.html",
+      "lang": "zh",
+      "publishedAt": "2026-11-06T13:47:45+08:00"
+    }
+  ],
+  "title": {
+    "zh": "海思与中移动把 eSIM 开卡做成公版套件，手表厂不必绑定手机品牌",
+    "en": "HiSilicon and China Mobile package eSIM activation for watch makers, cutting the phone-brand tie",
+    "es": "HiSilicon y China Mobile empaquetan la activación eSIM para relojes y rompen el vínculo con la marca del móvil"
+  },
+  "summary": {
+    "zh": "11 月 6 日，上海海思在 2026 移动网络大会展示与中国移动繁星智算共研的 eSIM 一号双和独立号安全开卡公版方案，以谛听表芯套片或模组加通用开卡 SDK 交付，支持业务开通、查询、退订，目标是让不同品牌手机都能给手表开卡。公告未披露签约表厂、资费与运营商侧对接时间表。",
+    "en": "HiSilicon showed a jointly developed eSIM activation kit with China Mobile's Fanxing Zhisuan at the 2026 Mobile Network Conference on 6 November. The package pairs its Diting watch chipset or module with a generic activation SDK covering service activation, queries and cancellation, aiming to let phones of any brand activate an eSIM for a smartwatch. No signed watch makers, pricing or operator integration timetable were disclosed.",
+    "es": "HiSilicon presentó el 6 de noviembre en la conferencia Mobile Network 2026 un kit de activación eSIM desarrollado con Fanxing Zhisuan de China Mobile. El paquete combina su chipset o módulo Diting para relojes con un SDK genérico de activación que cubre alta, consulta y baja del servicio, con el objetivo de que móviles de cualquier marca puedan activar un eSIM para un reloj. No se revelaron fabricantes firmantes, precios ni calendario de integración con el operador."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "把开卡能力从手机厂手里拿出来",
+        "en": "Taking activation out of the phone maker's hands",
+        "es": "Sacar la activación de las manos del fabricante de móviles"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "国内一号双终端此前只对部分手机厂商开放，手表要开蜂窝，通常得用同品牌手机配对，办理入口分散在各家 App，流程与资格各不相同；手表厂自己做，还要独立搭一套符合运营商要求的安全认证体系。海思与繁星智算的公版方案把这段拆成两层：手表侧用谛听表芯套片或模组，手机侧用通用 SDK 完成业务开通、查询与退订，中间走端到端加密验签，不依赖手机品牌与操作系统。",
+        "en": "In China, one-number-two-devices service had been opened only to selected phone makers, and a watch usually needed a handset of the same brand to activate cellular service, with separate apps and different eligibility rules. A watch maker building it alone also had to stand up a security certification scheme that satisfied the operator. The HiSilicon and Fanxing Zhisuan package splits the work in two: the watch side uses a Diting chipset or module, the phone side uses a generic SDK for activation, queries and cancellation, with end-to-end encrypted signature checks that do not depend on phone brand or operating system.",
+        "es": "En China, el servicio de un número para dos dispositivos solo estaba abierto a algunos fabricantes de móviles, y un reloj solía necesitar un teléfono de la misma marca para activar la conexión celular, con apps separadas y requisitos distintos. Un fabricante de relojes que lo abordaba solo también debía montar un esquema de certificación de seguridad aceptado por el operador. El paquete de HiSilicon y Fanxing Zhisuan divide el trabajo: el reloj usa un chipset o módulo Diting y el móvil un SDK genérico para alta, consulta y baja, con verificación de firma cifrada de extremo a extremo que no depende de la marca ni del sistema operativo."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "交付形态是「主芯片套片或模组 + eSIM 安全开卡 SDK」的软硬套件，目标客户是智能手表厂商。海思提供表芯与端侧安全能力，中国移动繁星智算负责运营商侧的开卡通道；手机端组件仍由手表厂自己的 App 承载，中国移动 App 的统一入口被描述为后续计划。同一场大会上，中国移动披露 eSIM 终端多应用验证与物联网侧 15 亿连接，手表开卡是这套多终端叙事的入口环节。",
+        "en": "The deliverable is a hardware-software kit: a main chipset or module plus an eSIM activation SDK, aimed at smartwatch makers. HiSilicon supplies the watch silicon and device-side security, while China Mobile's Fanxing Zhisuan handles the operator-side activation channel. The phone-side component still sits in the watch maker's own app; a unified entry in the China Mobile app is described as a future step. At the same conference, China Mobile also discussed multi-application eSIM validation and 1.5 billion IoT connections, with watch activation as the entry point to that multi-device story.",
+        "es": "El producto es un kit hardware-software: un chipset o módulo principal más un SDK de activación eSIM, dirigido a fabricantes de relojes inteligentes. HiSilicon aporta el silicio del reloj y la seguridad del dispositivo, mientras Fanxing Zhisuan de China Mobile gestiona el canal de activación del operador. El componente del móvil sigue alojado en la app del propio fabricante del reloj; una entrada unificada en la app de China Mobile se describe como plan futuro. En la misma conferencia, China Mobile también presentó la validación multi-aplicación en eSIM y 1.500 millones de conexiones IoT, con la activación del reloj como puerta de entrada a esa historia multidispositivo."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "缺口写在公告之外：没有签约表厂名单，没有开卡资费或补贴，没有说明 SDK 与哪一代中国移动 eSIM 平台对接、何时开放给非合作品牌，也未提是否通过 GSMA 的 eSA 或 SGP.22/SGP.32 相关认证。当前状态是展会展示，距离可规模交付还差客户与时间表两项。",
+        "en": "What the announcement omits matters: no signed watch makers, no activation price or subsidy, no statement on which generation of China Mobile's eSIM platform the SDK connects to or when non-partner brands can use it, and no mention of GSMA eSA or SGP.22/SGP.32 certification. It is an exhibition showcase for now, still short of scale delivery on two counts: customers and a timetable.",
+        "es": "Lo que falta también importa: no hay fabricantes de relojes firmantes, ni precio o subvención de activación, ni indicación de con qué generación de la plataforma eSIM de China Mobile se conecta el SDK o cuándo podrán usarlo marcas no asociadas, ni mención de certificación GSMA eSA o SGP.22/SGP.32. Por ahora es una demostración de feria, y le faltan dos piezas para el suministro a escala: clientes y calendario."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "把开卡做成公版 SDK，改变的是手表厂接入运营商的门槛：过去一号双终端只对少数手机厂开放且要求同品牌配对，手表的蜂窝能力实际上被手机品牌绑架；现在海思出套片、移动出开卡通道，跨品牌与跨 OS 的端到端验签成了卖点，中小表厂第一次有机会直接进运营商的 eSIM 业务。对芯片与模组厂，这是把 eSIM 安全开卡能力打包进穿戴套片的尝试，价值不在单颗芯片，而在 SDK 与运营商接口的适配成本。缺口同样明显：没有签约表厂、没有资费、没有对接时间表，方案能否从展台走到量产，要看中国移动是否把它纳入统一入口。",
+    "en": "Packaging activation as a generic SDK changes the barrier for watch makers. One-number-two-devices had been limited to a handful of phone brands and required same-brand pairing, so a watch's cellular capability was effectively tied to the phone brand. With HiSilicon supplying the chipset and China Mobile the activation channel, cross-brand and cross-OS encrypted verification becomes the selling point, and smaller watch makers get a first route into the operator's eSIM business. For chip and module vendors, this is an attempt to bundle secure eSIM activation into wearable silicon, where the value lies less in the chip than in the cost of adapting the SDK to operator interfaces. The gaps are equally clear: no signed watch makers, no pricing and no integration timetable, so whether it moves from booth to volume depends on China Mobile folding it into a unified entry point.",
+    "es": "Empaquetar la activación como SDK genérico cambia la barrera para los fabricantes de relojes. El servicio de un número para dos dispositivos estaba limitado a unos pocos fabricantes de móviles y exigía emparejar la misma marca, de modo que la capacidad celular del reloj quedaba atada a la marca del teléfono. Con HiSilicon aportando el chipset y China Mobile el canal de activación, la verificación cifrada entre marcas y sistemas operativos pasa a ser el argumento de venta, y los fabricantes pequeños obtienen una primera vía hacia el negocio eSIM del operador. Para los proveedores de chips y módulos, es un intento de integrar la activación segura en el silicio del wearable, donde el valor está menos en el chip que en el costo de adaptar el SDK a las interfaces del operador. Las carencias son igual de claras: sin fabricantes firmantes, precios ni calendario, el paso del stand al volumen depende de que China Mobile lo integre en una entrada unificada."
+  },
+  "confidence": 0.55,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-pool-v1"
+  }
+}

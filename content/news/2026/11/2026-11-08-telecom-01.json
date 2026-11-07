@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-08-telecom-01",
+  "slug": "india-satellite-network-authorisation-d2d",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "satellite"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-08T04:18:33+08:00",
+  "ingestedAt": "2026-11-08T02:50:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Voice&Data",
+      "url": "https://www.voicendata.com/space/trai-recommends-new-satellite-network-licence-and-spectrum-rules-12788011",
+      "lang": "en",
+      "publishedAt": "2026-11-06T10:41:00+05:30"
+    },
+    {
+      "name": "ET Telecom",
+      "url": "https://telecom.economictimes.indiatimes.com/amp/news/portal-in-portal/satcom/trai-proposes-new-satcom-authorisation-spectrum-framework/135590329",
+      "lang": "en",
+      "publishedAt": "2026-11-06T10:00:00+05:30"
+    }
+  ],
+  "title": {
+    "zh": "印度给卫星网络单开一类牌照，手机直连可借运营商频谱",
+    "en": "India proposes a separate satellite-network licence, with D2D riding operator spectrum",
+    "es": "India propone una licencia propia para redes satelitales y D2D con espectro de operadores"
+  },
+  "summary": {
+    "zh": "印度电信管理局 11 月 5 日建议新设卫星通信网络提供者授权：全国有效、最长 20 年，按调整后营收的 8% 收费，持牌方只能向持牌电信或卫星服务商批发容量。手机直连可用 MSS 的 L、S 频段，也可用运营商的 IMT 频谱，但须就全部 22 个服务区达成协议。",
+    "en": "India's telecom regulator on 5 November recommended a new Satellite Communication Network Provider Authorisation: nationwide, valid up to 20 years, charged at 8% of adjusted gross revenue, and limited to wholesaling capacity to licensed telecom or satellite service providers. Direct-to-device service could use MSS L- and S-band spectrum or an operator's IMT spectrum, under agreements covering all 22 licensed service areas.",
+    "es": "El regulador indio propuso el 5 de noviembre una nueva autorización para proveedores de redes de comunicación satelital: cobertura nacional, hasta 20 años, una tasa del 8% de los ingresos brutos ajustados y prohibición de vender al usuario final, solo capacidad mayorista a operadores licenciados. El servicio directo a dispositivo podría usar las bandas L y S del MSS o el espectro IMT de un operador, con acuerdos en las 22 áreas de servicio."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "一类只批发、不零售的牌照",
+        "en": "A wholesale licence with no retail right",
+        "es": "Una licencia mayorista sin derecho minorista"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "TRAI 的建议把卫星网络从电信服务里拆出来，单设「卫星通信网络提供者授权」，法律依据是《2023 年电信法》第 3(1)(b) 条中「建设、运营、维护或扩展电信网络」这一项。持牌方只能以 SCNaaS（卫星通信网络即服务）形式向有资格提供卫星通信或电信服务的实体批发容量，不能直接面向消费者；现有统一服务、接入服务、互联网服务、长途、VSAT 封闭用户群、GMPCS 与卫星网关等牌照持有者，满足条件也可开展 SCNaaS。授权全国有效，期限最长 20 年，可再续 20 年，按调整后营收的 8% 收费且不设最低授权费。",
+        "en": "TRAI's proposal separates the satellite network from telecom service delivery and creates a Satellite Communication Network Provider Authorisation under Section 3(1)(b) of the Telecommunications Act 2023, which covers building, operating, maintaining or expanding a telecom network. Holders could only wholesale capacity as Satellite Communication Network as a Service to entities eligible to provide satellite-based communication or telecom services; they could not serve consumers directly. Existing unified service, access service, internet service, national and international long-distance, commercial VSAT closed user group, GMPCS and satellite gateway licensees could also offer SCNaaS if they meet the conditions. The authorisation would be nationwide, valid for up to 20 years and renewable for another 20, charged at 8% of adjusted gross revenue with no minimum authorisation fee.",
+        "es": "La propuesta de TRAI separa la red satelital de la prestación del servicio y crea una autorización para proveedores de redes de comunicación satelital al amparo del artículo 3(1)(b) de la Ley de Telecomunicaciones de 2023, que cubre construir, operar, mantener o ampliar una red. El titular solo podría vender capacidad mayorista como servicio de red satelital a entidades aptas para prestar servicios satelitales o de telecomunicaciones, sin atender directamente al consumidor. Los actuales titulares de licencias de servicio unificado, acceso, internet, larga distancia, VSAT de grupo cerrado, GMPCS y pasarelas satelitales también podrían ofrecerlo si cumplen las condiciones. La autorización sería nacional, de hasta 20 años prorrogables por otros 20, con una tasa del 8% de los ingresos brutos ajustados y sin mínimo."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "手机直连的两条频段路径",
+        "en": "Two spectrum routes for direct-to-device",
+        "es": "Dos rutas de espectro para el D2D"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "D2D 被允许走两条路。第一条用移动卫星业务的 L、S 频段，手机需要支持对应频段的射频与天线；第二条用运营商已持有的 IMT 频谱，TRAI 点名 600、700、800、900、1800 与 2100 MHz，卫星网络提供者依据与运营商的协议使用，频谱权利仍留在运营商手里，协议须覆盖相关信道在全部 22 个许可服务区的使用。馈电链路用固定卫星业务的 C、Ku、Ka、Q/V 频段，用户链路可用 FSS 的 C、Ku、Ka、Q/V（同步轨道）或 Ku、Ka、Q/V（非同步轨道）以及 MSS 的 L、S 频段。频谱由行政指配，期限 5 年、可延 2 年，FSS/MSS 年度最低频谱费为每 MHz 3500 卢比。",
+        "en": "D2D could take two routes. The first uses Mobile Satellite Service L- and S-band spectrum, which requires handsets with radios and antennas for those bands. The second uses IMT spectrum already held by an operator; TRAI names 600, 700, 800, 900, 1800 and 2100 MHz, with the satellite network provider using it under an agreement while spectrum rights stay with the operator, and the agreement must cover the relevant channel across all 22 licensed service areas. Feeder links would use Fixed Satellite Service C, Ku, Ka and Q/V bands; user links could use FSS C, Ku, Ka and Q/V for geostationary satellites or Ku, Ka and Q/V for non-geostationary ones, plus MSS L and S bands. Spectrum would be assigned administratively for five years, extendable by two, with a minimum annual FSS/MSS charge of INR 3,500 per MHz.",
+        "es": "El D2D tendría dos rutas. La primera usa las bandas L y S del servicio móvil por satélite, lo que exige radios y antenas compatibles en el teléfono. La segunda usa espectro IMT que ya posee un operador; TRAI menciona 600, 700, 800, 900, 1800 y 2100 MHz, con el proveedor satelital usándolo bajo acuerdo mientras el derecho de espectro permanece en el operador, y el acuerdo debe cubrir el canal correspondiente en las 22 áreas de servicio. Los enlaces de alimentación usarían bandas C, Ku, Ka y Q/V del servicio fijo por satélite; los enlaces de usuario podrían usar C, Ku, Ka y Q/V para satélites geoestacionarios o Ku, Ka y Q/V para no geoestacionarios, además de L y S del MSS. La asignación sería administrativa por cinco años, prorrogable dos más, con una tasa mínima anual de 3.500 rupias por MHz."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这套建议走了近一年半的程序：印度电信部 2025 年 7 月要求 TRAI 制定卫星网络授权的条款与频谱指配规则，TRAI 2026 年 4 月发布咨询文件，收到 31 份意见与 12 份反驳意见，7 月开公开讨论会。建议本身不生效，最终由电信部与政府决定是否采纳；公告没有给出商用时间表、终端价格，也没有规定手机厂必须在何时加入 MSS 频段。",
+        "en": "The recommendations follow an 18-month process: the Department of Telecommunications asked TRAI in July 2025 to set terms for a satellite network authorisation and spectrum assignment, TRAI issued a consultation paper in April 2026, received comments from 31 stakeholders and counter-comments from 12, and held an open house in July. The recommendations do not take effect on their own; the DoT and the government will decide whether to adopt them. No commercial timetable, consumer price or deadline for handset makers to add MSS band support was announced.",
+        "es": "Las recomendaciones cierran un proceso de casi 18 meses: el Departamento de Telecomunicaciones pidió a TRAI en julio de 2025 fijar las condiciones de la autorización y la asignación de espectro, TRAI publicó un documento de consulta en abril de 2026, recibió 31 comentarios y 12 contrapartidas, y celebró una audiencia en julio. Las recomendaciones no entran en vigor por sí solas; el Departamento y el Gobierno decidirán si las adoptan. No se anunciaron calendario comercial, precio al consumidor ni plazo para que los fabricantes añadan las bandas del MSS."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对卫星运营商，这条路径把进入印度市场的门槛从「拿全业务牌照」改成「拿网络授权再批发」，20 年期限与 8% 营收费率构成可算的成本基线；对印度运营商，D2D 仍由自己面向用户、掌握 SIM/eSIM 与计费关系，卫星只是新增的一张接入网，鉴权与用户身份仍落在运营商核心网。真正的约束在终端：TRAI 只建议政府「鼓励」手机厂加入 MSS 频段支持，没有强制，L/S 频段射频与天线是否进机型，决定 D2D 在印度是覆盖补盲还是纸面能力。每 MHz 3500 卢比的年度最低频谱费，也会成为后来者比较各国 D2D 成本的参照。",
+    "en": "For satellite operators, the route lowers the entry barrier from a full service licence to a network authorisation plus wholesale deals, with a 20-year term and an 8% revenue fee as a calculable cost baseline. For Indian telcos, D2D remains their customer relationship: they keep the SIM or eSIM, the billing tie and the authentication anchor in their core, while satellite becomes one more access network. The binding constraint sits in the handset. TRAI only asks the government to encourage manufacturers to add MSS band support, with no mandate, so whether L- and S-band radios and antennas reach Indian models will decide if D2D fills coverage gaps or stays a paper capability. The INR 3,500 per MHz minimum annual spectrum charge also gives later entrants a benchmark for comparing D2D costs across markets.",
+    "es": "Para los operadores satelitales, la ruta baja la barrera de entrada desde una licencia de servicio completa hasta una autorización de red más acuerdos mayoristas, con 20 años de plazo y una tasa del 8% como base de costo calculable. Para las telecos indias, el D2D sigue siendo su relación con el cliente: conservan la SIM o eSIM, el vínculo de facturación y el anclaje de autenticación en su núcleo, mientras el satélite se suma como una red de acceso más. El límite real está en el terminal. TRAI solo pide al Gobierno que anime a los fabricantes a añadir las bandas del MSS, sin obligación, así que la presencia de radios y antenas en L y S en los modelos indios decidirá si el D2D cubre huecos o queda como capacidad sobre el papel. La tasa mínima de 3.500 rupias por MHz también sirve de referencia para comparar costos de D2D entre mercados."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-pool-v1"
+  }
+}

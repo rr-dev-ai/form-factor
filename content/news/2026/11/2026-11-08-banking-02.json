@@ -1,0 +1,84 @@
+{
+  "id": "2026-11-08-banking-02",
+  "slug": "forter-marqeta-preauthorization-risk-issuing",
+  "industry": "banking",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "fraud"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-08T04:18:33+08:00",
+  "ingestedAt": "2026-11-08T02:31:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Merchant's Eye",
+      "url": "https://www.merchantseye.com/news/forter-and-marqeta-collaborate-to-bring-trust-intelligence-and-better-payments-o-83525d1e",
+      "lang": "en",
+      "publishedAt": "2026-11-06T12:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "Forter 把预授权风控接进 Marqeta 的发卡决策层",
+    "en": "Forter feeds pre-authorization risk data into Marqeta's issuing decision layer",
+    "es": "Forter integra datos de riesgo previos a la autorización en la decisión de emisión de Marqeta"
+  },
+  "summary": {
+    "zh": "11 月 6 日，Forter 与 Marqeta 宣布把 Forter 的预授权风险数据接进 Marqeta 的实时决策与风险评分，平台上的发卡方在授权请求到达时能看到商户侧对这笔交易的判断，据此放宽对可信客户的拒单。Forter 称发卡行欺诈拒单中逾四成是正常客户；其既有网络中一家商户三个月误拒降 53%，该数字不来自本次接入。",
+    "en": "Forter and Marqeta said on 6 November that Forter's pre-authorization risk data now feeds Marqeta's Real-Time Decisioning and risk score, so issuers on the platform see merchant-side judgement on a transaction as the authorization arrives and can relax decline logic for trusted customers. Forter says more than 40% of issuer fraud declines are legitimate customers; a 53% false-decline cut at one merchant came from Forter's existing network, not this integration.",
+    "es": "Forter y Marqeta anunciaron el 6 de noviembre que los datos de riesgo previos a la autorización de Forter alimentan ahora el Real-Time Decisioning y la puntuación de riesgo de Marqeta, de modo que los emisores de la plataforma ven el juicio del lado del comercio al llegar la autorización y pueden relajar la lógica de rechazo para clientes fiables. Forter afirma que más del 40% de los rechazos por fraude de los emisores son clientes legítimos; la caída del 53% en un comercio proviene de su red existente, no de esta integración."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "授权那一刻多了一条数据",
+        "en": "One more data point at authorization",
+        "es": "Un dato más en la autorización"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 6 日，Forter 与 Marqeta 宣布合作：Forter 的预授权风险数据接进 Marqeta 的 Real-Time Decisioning 与风险评分。Forter 的 Payment Optimization 通过 API 把欺诈判定、风险信号与交易数据推给发卡行，Marqeta 平台上的发卡项目方在授权请求到达时即可调用，用于调整对可信客户的拒单逻辑。改动发生在授权决策层，不是商户侧的事后拦截。",
+        "en": "On 6 November Forter and Marqeta announced that Forter's pre-authorization risk data feeds Marqeta's Real-Time Decisioning and risk score. Forter's Payment Optimization pushes fraud decisions, risk signals and transaction data to issuers over an API; card programmes on Marqeta can call it as the authorization request arrives and use it to adjust decline logic for trusted customers. The change sits in the authorization decision layer, not in post-hoc merchant-side blocking.",
+        "es": "El 6 de noviembre Forter y Marqeta anunciaron que los datos de riesgo previos a la autorización de Forter alimentan el Real-Time Decisioning y la puntuación de riesgo de Marqeta. Payment Optimization de Forter envía por API decisiones de fraude, señales de riesgo y datos de transacción a los emisores; los programas de tarjeta en Marqeta pueden consultarlo al llegar la autorización y ajustar la lógica de rechazo para clientes fiables. El cambio está en la capa de decisión de autorización, no en el bloqueo posterior del lado del comercio."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "数字要分清来源。Forter 称发卡行的欺诈拒单中超过四成其实是正常客户；在其既有的发卡行网络中，一家商户最近三个月误拒下降 53%、授权率上升 7%。这三个数字来自 Forter 现存的合作，不是本次接入的实测结果，公告也没有给 Marqeta 侧的客户名单、交易量或接入何时全面开放。",
+        "en": "The numbers need a source label. Forter says more than 40% of issuer fraud declines are in fact legitimate customers; within its existing issuer network one merchant saw false declines fall 53% and authorization rates rise 7% over the last three months. Those figures come from Forter's existing relationships, not from this integration, and the announcement gives no Marqeta customer names, volumes or a date for general availability.",
+        "es": "Las cifras necesitan etiqueta de origen. Forter afirma que más del 40% de los rechazos por fraude de los emisores son en realidad clientes legítimos; en su red existente de emisores, un comercio vio caer los rechazos erróneos un 53% y subir la tasa de autorización un 7% en los últimos tres meses. Esos datos provienen de relaciones ya existentes de Forter, no de esta integración, y el anuncio no da nombres de clientes de Marqeta, volúmenes ni fecha de disponibilidad general."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "受影响的一方：Marqeta 平台上的发卡项目方与 program manager，需要评估是否改动拒单阈值",
+          "en": "Who is affected: card programmes and program managers on Marqeta, which must decide whether to move decline thresholds",
+          "es": "A quién afecta: programas de tarjeta y program managers en Marqeta, que deben decidir si mueven los umbrales de rechazo"
+        },
+        {
+          "zh": "公告未说明：是否额外计费、数据保留与跨境传输安排、与既有反欺诈供应商如何并存",
+          "en": "Not stated: whether it is separately priced, data retention and cross-border transfer terms, and how it coexists with existing fraud vendors",
+          "es": "No se indica: si tiene precio aparte, condiciones de retención y transferencia transfronteriza, y cómo convive con los proveedores de fraude actuales"
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "技术上，这次改动把授权决策的信息边界往外推了一格：发卡方过去只能看自己的历史与卡组织返回的信号，现在能拿到商户侧对同一笔交易的判断。矛盾点也在这里——误拒的成因常常是发卡方缺数据，而数据一旦来自商户侧，就意味着发卡方要把部分判断权让给一个不在自己合规边界内的第三方，模型可解释性与责任划分必须提前谈清楚。商业上，受影响的是三类人：Marqeta 上的发卡项目方要在授权率与欺诈损失之间重新定阈值；做风控产品的供应商面临「接口位置」的竞争，谁能嵌进决策层谁就有议价权；收单与支付服务商则多了一个可以向发卡行主张提额的证据链。中长期看，这类合作会推动授权数据从单边走向双边，但前提是争议时的责任归属有明确规则，而公告没有触及这一层。",
+    "en": "Technically the change pushes the information boundary of authorization one step outward: an issuer used to see only its own history and scheme signals, and now gets merchant-side judgement on the same transaction. That is also where the tension sits. False declines usually stem from missing issuer data, but data arriving from the merchant side means the issuer hands part of its judgement to a third party outside its own compliance perimeter, so model explainability and liability allocation have to be settled first. Commercially three groups are affected: card programmes on Marqeta must re-set thresholds between approval rates and fraud losses; fraud vendors now compete on where in the stack they sit, since whoever sits inside the decision layer holds pricing power; and acquirers and PSPs gain an evidence trail to argue for higher limits with issuers. Over the medium term this pushes authorization data from one-sided to two-sided, but only if liability in disputes is defined, and the announcement does not go there.",
+    "es": "En lo técnico, el cambio empuja un paso hacia fuera el límite de información de la autorización: el emisor antes solo veía su propio historial y las señales del esquema, y ahora recibe el juicio del lado del comercio sobre la misma transacción. Ahí está también la tensión. Los rechazos erróneos suelen nacer de falta de datos del emisor, pero si los datos vienen del lado del comercio, el emisor cede parte de su juicio a un tercero fuera de su perímetro de cumplimiento, así que la explicabilidad del modelo y el reparto de responsabilidad deben acordarse antes. En lo comercial hay tres grupos afectados: los programas de tarjeta en Marqeta deben redefinir umbrales entre tasa de aprobación y pérdidas por fraude; los proveedores de fraude compiten ahora por su posición en la pila, porque quien se sienta dentro de la capa de decisión tiene poder de precio; y adquirentes y PSP ganan una cadena de evidencia para negociar límites más altos con los emisores. A medio plazo esto lleva los datos de autorización de un modelo unilateral a uno bilateral, pero solo si se define la responsabilidad en las disputas, y el anuncio no entra ahí."
+  },
+  "confidence": 0.62,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

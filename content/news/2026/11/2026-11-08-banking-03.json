@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-07-banking-07",
+  "slug": "remote-expense-cards-eor",
+  "industry": "banking",
+  "region": "global",
+  "regions": [],
+  "tags": [
+    "issuing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-08T04:18:33+08:00",
+  "ingestedAt": "2026-11-07T02:30:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/remote-launches-expense-cards-built-into-eor-bringing-spend-into-the-same-system-as-pay-302930036.html",
+      "lang": "en",
+      "publishedAt": "2026-11-05T00:00:00-05:00"
+    }
+  ],
+  "title": {
+    "zh": "Remote 把虚拟卡塞进 EOR，报销改成先控后花",
+    "en": "Remote puts virtual cards inside EOR, moving from reimbursing to controlling",
+    "es": "Remote mete tarjetas virtuales en el EOR y pasa del reembolso al control"
+  },
+  "summary": {
+    "zh": "11 月 5 日，Remote 推出 Remote Expense Cards：通过其 EOR 服务雇佣的合格员工可领一张虚拟卡，多数情况下一个工作日内可用，消费当下套用限额与品类限制，交易自动记进报销模块。平台费与单卡费为零，卡片只作为 EOR 模块提供，不单独售卖。",
+    "en": "On 5 November Remote launched Remote Expense Cards: eligible employees hired through its employer-of-record service get a virtual card, typically usable within one business day, with limits and category rules applied at purchase and transactions posted automatically to its expense module. There is no platform or per-card fee, and cards are offered only as an EOR module, not standalone.",
+    "es": "El 5 de noviembre Remote lanzó Remote Expense Cards: los empleados elegibles contratados vía su servicio de empleador de registro reciben una tarjeta virtual, normalmente usable en un día hábil, con límites y reglas de categoría aplicados en la compra y las operaciones volcadas al módulo de gastos. Sin cuota de plataforma ni por tarjeta, y solo como módulo del EOR, no como producto suelto."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "卡挂在雇佣关系上，不挂在财务系统上",
+        "en": "The card hangs off the employment record, not the finance system",
+        "es": "La tarjeta cuelga del registro laboral, no del sistema financiero"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 5 日，Remote 发布 Remote Expense Cards。通过其 EOR 服务雇佣的合格员工可以拿到一张公司虚拟卡，多数情况下一个工作日内可用，用于差旅等工作支出，不必先垫付再报销。卡片是 Remote EOR 的一个模块，不单独售卖。",
+        "en": "On 5 November Remote released Remote Expense Cards. Eligible employees hired through its employer-of-record service receive a company virtual card, typically usable within one business day, for travel and other work expenses, without fronting the money and waiting to be reimbursed. The card is a module of Remote EOR and is not sold standalone.",
+        "es": "El 5 de noviembre Remote presentó Remote Expense Cards. Los empleados elegibles contratados por su servicio de empleador de registro reciben una tarjeta virtual de empresa, normalmente usable en un día hábil, para viajes y otros gastos de trabajo, sin adelantar dinero ni esperar reembolso. La tarjeta es un módulo de Remote EOR y no se vende por separado."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "机制上，它的差异在数据来源。开卡用的是 Remote 已经掌握的雇佣数据——法人主体、岗位、所在地、税务身份——所以每一笔卡交易都能直接记到具体的人和主体上，不需要再建一套对账。限额与品类规则在消费当时生效，不是事后审核；交易自动进入报销模块，员工在应用里补一张收据即可归档。",
+        "en": "Mechanically the difference is where the data comes from. Card issuance uses employment data Remote already holds, such as legal entity, role, location and tax status, so each card transaction posts against a specific person and entity without building a second reconciliation layer. Limits and category rules apply at the moment of purchase rather than in a later review, and transactions land in the expense module, where an employee attaches a receipt to close them out.",
+        "es": "En lo mecánico la diferencia es el origen del dato. La emisión usa datos laborales que Remote ya tiene, como entidad legal, puesto, ubicación y situación fiscal, de modo que cada operación se imputa a una persona y entidad concretas sin construir una segunda capa de conciliación. Los límites y reglas de categoría aplican en el momento de la compra y no en una revisión posterior, y las operaciones caen en el módulo de gastos, donde el empleado adjunta el recibo."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公告没有点名发卡机构与卡组织，没有给出可用国家名单，也没有说明单卡额度上限。Remote 只表示卡片面向「支持国家」的合格 EOR 客户，业务覆盖 150 多个国家的雇佣与发薪。对不适用卡支付的支出，原有报销流程保留。",
+        "en": "The release names no issuer or card scheme, gives no list of eligible countries and states no per-card ceiling. Remote said only that cards go to eligible EOR customers in supported countries, within a business that spans hiring and payroll in more than 150 countries. The existing reimbursement route stays for spend better handled after the fact.",
+        "es": "La nota no nombra emisor ni esquema, no da lista de países elegibles ni techo por tarjeta. Remote solo dijo que las tarjetas van a clientes EOR elegibles en países soportados, dentro de un negocio que cubre contratación y nómina en más de 150 países. La vía de reembolso se mantiene para gasto que conviene tratar después."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对发卡处理商与卡组织，这是一个正在长出来的渠道：EOR 与薪酬平台手里有雇佣关系、工资流水和员工所在国，比任何费用管理软件都更靠近「谁在为谁花钱」这件事，把虚拟卡接上去是顺理成章的下一步。对做企业支出管理的独立厂商，压力在于它们的护城河是流程，而 EOR 平台的护城河是雇佣数据，后者更难被复制。真正的约束在合规：卡在哪个辖区发行、由谁承担信用与欺诈风险、跨境员工用卡触不触发当地劳动与税务规则，公告都没讲。缺发卡方、缺国家名单、缺额度上限，说明这是一次渠道扩张，不是新的发卡模式。",
+    "en": "For issuer processors and schemes this is a channel that is still forming: EOR and payroll platforms hold the employment relationship, the salary flow and the employee's country of residence, which puts them closer to \"who is spending for whom\" than any expense software, so attaching a virtual card is the obvious next step. For standalone spend management vendors the pressure is that their moat is process while the EOR platform's moat is employment data, and the latter is harder to copy. The real constraint is compliance: which jurisdiction issues the card, who carries credit and fraud risk, and whether cross-border employee spending triggers local labour or tax rules are all unaddressed. No issuer, no country list, no ceiling: this is channel expansion, not a new issuing model.",
+    "es": "Para procesadores emisores y esquemas es un canal en formación: las plataformas de EOR y nómina tienen la relación laboral, el flujo salarial y el país del empleado, lo que las acerca más a \"quién gasta por quién\" que cualquier software de gastos, así que añadir una tarjeta virtual es el paso obvio. Para los proveedores independientes de gestión de gasto la presión es que su foso es el proceso y el de la plataforma EOR son los datos laborales, más difíciles de copiar. El límite real es el cumplimiento: en qué jurisdicción se emite la tarjeta, quién asume riesgo de crédito y fraude, y si el gasto de empleados transfronterizos activa reglas laborales o fiscales locales, nada de lo cual se aborda. Sin emisor, sin lista de países y sin techo: es expansión de canal, no un modelo de emisión nuevo."
+  },
+  "confidence": 0.58,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-06-banking-06",
+  "slug": "tbc-georgia-palm-payments",
+  "industry": "banking",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "biometrics"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-08T04:18:33+08:00",
+  "ingestedAt": "2026-11-06T02:35:08+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "IBS Intelligence",
+      "url": "https://ibsintelligence.com/ibsi-news/tbc-georgia-launches-palm-based-biometric-payments/",
+      "lang": "en"
+    },
+    {
+      "name": "FinTech Global",
+      "url": "https://fintech.global/2026/11/05/tbc-takes-card-free-payments-to-georgian-retailers/",
+      "lang": "en",
+      "publishedAt": "2026-11-05T00:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "TBC 银行在格鲁吉亚上线掌纹支付，先铺采集点",
+    "en": "TBC Georgia launches palm payments with in-branch enrolment",
+    "es": "TBC Georgia lanza pagos con la palma y enrolamiento en sucursal"
+  },
+  "summary": {
+    "zh": "TBC 银行在格鲁吉亚上线掌纹支付：客户先在配备掌纹扫描仪的网点做一次注册，用手机银行扫二维码绑定要扣款的账户，之后在参与商户刷手掌即可付款，不需要卡或手机。TBC 称自己是格鲁吉亚首家提供该服务的银行；公告未披露技术供应商、商户数量与上线日期。",
+    "en": "TBC Bank in Georgia has launched palm-based payments: customers enrol once at a branch equipped with a palm scanner, link the account to be debited by scanning a QR code in the mobile app, and then pay at participating merchants by scanning a palm, with no card or phone needed. TBC calls itself the first bank in Georgia to offer this; no technology supplier, merchant count or launch date was disclosed.",
+    "es": "TBC Bank en Georgia lanzó pagos con la palma: el cliente se enrola una vez en una sucursal con escáner de palma, vincula la cuenta de cargo escaneando un código QR en la app y luego paga en comercios participantes con la palma, sin tarjeta ni móvil. TBC se presenta como el primer banco de Georgia en ofrecerlo; no se dieron proveedor tecnológico, número de comercios ni fecha de lanzamiento."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "把生物特征当成一张卡",
+        "en": "Treating a biometric as the card",
+        "es": "Tratar la biometría como tarjeta"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "TBC 银行（隶属伦敦上市的 TBC Bank Group）在格鲁吉亚推出掌纹支付。注册是一次性的：客户到配备专用掌纹扫描仪的网点采集，再用 TBC 手机银行扫二维码，选定要绑定的银行账户。完成后，在参与商户刷手掌即可完成扣款。",
+        "en": "TBC Bank, part of the London-listed TBC Bank Group, has launched palm payments in Georgia. Enrolment is one-time: the customer visits a branch with a dedicated palm scanner, then scans a QR code in the TBC mobile app and picks the bank account to link. After that, scanning a palm at a participating merchant completes the payment.",
+        "es": "TBC Bank, del grupo londinense TBC Bank Group, lanzó pagos con la palma en Georgia. El enrolamiento es único: el cliente acude a una sucursal con escáner de palma dedicado, escanea un código QR en la app de TBC y elige la cuenta a vincular. Después, pasar la palma en un comercio participante completa el pago."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "机制上，掌纹替代的是「出示凭证」这一步：卡号与账户仍在后端，前端只做身份比对与扣款指令。这带来两个直接后果——受理端需要能读掌纹的设备或模组，而不是普通 POS；注册端需要物理采集点，线上无法完成。TBC 的路径是把采集放在网点，把支付放在商户，两端都靠自己铺。",
+        "en": "Mechanically the palm replaces the present-the-credential step: the card number and account stay in the back end, while the front end only matches a biometric and issues a debit instruction. Two consequences follow: acceptance needs a device or module that can read palms rather than a standard POS terminal, and enrolment needs a physical capture point that cannot be done online. TBC's route puts capture in branches and payment at merchants, with both ends built by the bank.",
+        "es": "En lo mecánico, la palma sustituye el paso de presentar la credencial: el número de tarjeta y la cuenta quedan en el back office, y el front solo compara la biometría y emite la instrucción de cargo. Dos consecuencias: la aceptación requiere un dispositivo o módulo capaz de leer la palma, no un TPV estándar, y el enrolamiento exige un punto físico de captura que no se resuelve online. TBC sitúa la captura en sucursales y el pago en comercios, y construye ambos extremos."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "报道没有给出技术供应商、已接入商户数量、单笔限额与上线日期，也没有说明掌纹模板存在哪里、是否可撤销。TBC 称这是格鲁吉亚首个此类服务，该说法出自银行。同一篇报道提到，TBC 近期还与 American Express 签约扩大受理——两件事都指向同一个方向：用受理场景的差异化抢客户。",
+        "en": "The report gives no technology supplier, no merchant count, no per-transaction limit and no launch date, and does not say where palm templates are stored or whether they can be revoked. TBC describes the service as Georgia's first of its kind, a claim from the bank. The same report notes TBC recently signed with American Express to widen acceptance, both moves pointing the same way: differentiating on acceptance to win customers.",
+        "es": "El reporte no da proveedor tecnológico, número de comercios, límite por operación ni fecha de lanzamiento, y no aclara dónde se guardan las plantillas de palma ni si son revocables. TBC presenta el servicio como el primero de su tipo en Georgia, una afirmación del banco. El mismo reporte señala que TBC firmó recientemente con American Express para ampliar aceptación: ambos movimientos apuntan a diferenciarse en aceptación para captar clientes."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "生物特征支付真正的门槛不在识别率，而在两端基础设施：采集点要有人、有设备、有流程，受理端要有能读掌纹的模组或外设。这决定了它先出现在网点密集、客群稳定的市场，而不是电商发达的市场。对做终端与外设的供应商，这是一条新硬件线；对发卡与收单机构，它把「凭证」从卡片和手机里拿出来，交给一个不可补发的生物模板——挂失、换绑、跨行迁移的规则都要重写。风险也在这里：模板一旦泄露无法更换， enrolment 又必须线下完成，扩张速度会被网点数量锁死。公告缺供应商、缺商户数、缺限额，说明这仍是单市场试点。",
+    "en": "The real barrier in biometric payments is not recognition accuracy but infrastructure at both ends: enrolment needs staff, devices and process, and acceptance needs a module or peripheral that reads palms. That pushes such schemes into markets with dense branch networks and stable customers rather than e-commerce-heavy ones. For terminal and peripheral vendors it is a new hardware line; for issuers and acquirers it pulls the credential out of the card and the phone and hands it to a biometric template that cannot be reissued, so rules for blocking, re-linking and portability must be rewritten. The risk sits there too: a leaked template cannot be replaced, and enrolment stays offline, capping expansion at branch capacity. No supplier, merchant count or limit means this is still a single-market pilot.",
+    "es": "La barrera real del pago biométrico no es la precisión sino la infraestructura en ambos extremos: el enrolamiento requiere personal, dispositivos y proceso, y la aceptación un módulo o periférico que lea la palma. Eso empuja estos esquemas a mercados con red de sucursales densa y clientela estable, no a los de fuerte comercio electrónico. Para proveedores de terminales y periféricos es una nueva línea de hardware; para emisores y adquirentes, saca la credencial de la tarjeta y del móvil y la entrega a una plantilla biométrica que no se puede reemitir, obligando a reescribir reglas de bloqueo, revinculación y portabilidad. El riesgo está ahí: una plantilla filtrada no se reemplaza y el enrolamiento sigue siendo presencial, con el crecimiento limitado por la capacidad de sucursales. Sin proveedor, comercios ni límites, sigue siendo un piloto de un solo mercado."
+  },
+  "confidence": 0.55,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

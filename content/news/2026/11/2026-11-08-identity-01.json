@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-08-identity-01",
+  "slug": "sweden-sverigeid-police-eid-app-dec-1",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "mobile-id",
+    "national-id",
+    "pki",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-08T04:18:33+08:00",
+  "ingestedAt": "2026-11-08T03:10:18+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Mobile ID World",
+      "url": "https://mobileidworld.com/people-in-sweden-can-apply-for-a-state-alternative-to-bankid-from-dec-1-then-use-it-on-their-phones/",
+      "lang": "en",
+      "publishedAt": "2026-11-06T12:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "瑞典警方 12 月 1 日起受理 SverigeID，电子身份绑定实体卡",
+    "en": "Swedish Police opens SverigeID applications on Dec. 1, with the e-ID bound to the physical card",
+    "es": "La Policía sueca abre el 1 de diciembre las solicitudes de SverigeID, un eID ligado a la tarjeta física"
+  },
+  "summary": {
+    "zh": "瑞典警察署宣布 12 月 1 日起受理 SverigeID：公民在申请新国民身份证时一并提出，电子身份与该张实体卡绑定，此前签发的旧卡不能用于开通。首发只在警方自己的 Mina sidor 可用，2027 年再扩到其他机构；应用要求 Android 12 或 iOS 16 以上，最低年龄为满 9 岁那一年。",
+    "en": "Swedish Police will take applications for SverigeID from Dec. 1. Citizens request it while applying for a new national ID card, and the e-ID is bound to that specific card, so cards issued earlier cannot activate it. At launch it works only on the police's own Mina sidor portal, with other agencies following during 2027. The app requires Android 12 or iOS 16, and the minimum age is the year a person turns nine.",
+    "es": "La Policía sueca aceptará solicitudes de SverigeID desde el 1 de diciembre. El ciudadano lo pide al tramitar un nuevo documento nacional de identidad y el eID queda ligado a esa tarjeta concreta, por lo que los documentos emitidos antes no sirven para activarlo. En el lanzamiento solo funciona en el portal policial Mina sidor, y otras agencias se sumarán durante 2027. La aplicación exige Android 12 o iOS 16 y la edad mínima es el año en que la persona cumple nueve."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "瑞典的电子身份长期由银行主导。BankID 由银行联合体运营，Freja+ 由私营机构运营，两者承担了绝大多数登录与签名场景，公共部门反而是接入方。SverigeID 是第一种由国家直接签发的电子身份，发证方是瑞典警察署，与国民身份证同源。",
+        "en": "Sweden's electronic identities have long been bank-led. BankID is run by a consortium of banks and Freja+ by a private company, and between them they carry most login and signing traffic, with public bodies as relying parties rather than issuers. SverigeID is the first e-ID issued directly by the state, with the police as issuer and the same root as the national ID card.",
+        "es": "Las identidades electrónicas suecas han estado en manos de los bancos. BankID lo opera un consorcio bancario y Freja+ una empresa privada, y entre ambos cubren la mayor parte de los inicios de sesión y firmas, con el sector público como parte receptora. SverigeID es el primer eID emitido directamente por el Estado, con la policía como emisor y la misma raíz que el documento nacional de identidad."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "开通路径依赖实体卡：公民在警察局申请新国民身份证时提出开通，并在现场接受使用条款；12 月 1 日之前签发的身份证不能作为开通凭据。没有自己手机的人可以借用他人设备，输入身份证上的 CAN 码把卡与那台手机绑定。非瑞典公民但在瑞典登记的居民也能申请，拿到的是不能用于旅行的身份证，他们从 11 月 1 日起可以预约，但只能拨打 114 14，且目前仅 33 个警察局受理。",
+        "en": "Activation runs through the physical card. Citizens ask for SverigeID when applying for a new national ID card at a police station and accept the terms there; cards issued before Dec. 1 cannot be used as the basis. Someone without a phone can borrow another person's device and enter the CAN code printed on the card to bind card and phone. Residents registered in Sweden without citizenship can also apply and receive a card that is not valid for travel; they could book appointments from Nov. 1, but only by calling 114 14, and just 33 police stations currently handle them.",
+        "es": "La activación pasa por la tarjeta física. El ciudadano solicita SverigeID al tramitar un nuevo documento en una comisaría y acepta allí las condiciones; los documentos emitidos antes del 1 de diciembre no sirven como base. Quien no tiene teléfono propio puede usar el de otra persona e introducir el código CAN impreso en la tarjeta para vincular ambos. Los residentes registrados sin nacionalidad sueca también pueden solicitarlo y reciben una tarjeta no válida para viajar; podían pedir cita desde el 1 de noviembre, pero solo llamando al 114 14, y por ahora únicamente 33 comisarías los atienden."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "首发功能刻意收窄。上线当天只在 Mina sidor 可用，能办的是护照与身份证预约、部分报案与武器许可的状态查询，以及为子女护照或身份证出具同意。其他机构在 2027 年内陆续接入。第一版只支持瑞典电子身份框架中的最高保证等级，也就是不含较低等级的使用场景。",
+        "en": "The first release is deliberately narrow. On launch day it works only on Mina sidor, covering passport and ID card appointments, status checks for some police reports and weapons permit applications, and consent for a child's passport or ID card. Other agencies follow during 2027. The first version supports only the highest assurance level in Sweden's e-ID framework, so use cases that need a lower level are not covered yet.",
+        "es": "El primer lanzamiento es deliberadamente estrecho. El día de salida solo funciona en Mina sidor: citas de pasaporte y documento, consulta del estado de algunas denuncias y licencias de armas, y consentimiento para el pasaporte o documento de un hijo. Otras agencias se irán sumando durante 2027. La primera versión solo admite el nivel de garantía más alto del marco sueco de eID, de modo que los casos que requieren un nivel inferior quedan fuera."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "警方把这件事定位为履行欧盟对成员国提供最高保证等级电子身份的要求，并称 SverigeID 将在欧盟范围内可用，欧洲认证申请已在推进，之后还要并入国家数字身份钱包。同期另一项变化来自数字政府署 Digg：BankID 将接入 Sweden Connect 这一国家级电子身份基础设施，市政、地区与中央机构可以通过一条技术连接同时提供 BankID、Freja+ 与 SverigeID。Digg 与 BankID 尚未给出时间表。",
+        "en": "The police frame this as meeting the EU requirement for member states to offer an e-ID at the highest assurance level, say SverigeID will be usable across the EU, and note that a European certification application is under way; the e-ID is also due to join the state digital identity wallet later. A separate change came from the digital government agency Digg this week: BankID will connect to Sweden Connect, the national e-ID infrastructure, letting municipalities, regions and agencies offer BankID, Freja+ and SverigeID over a single technical connection. Digg and BankID have not set a date.",
+        "es": "La policía lo presenta como cumplimiento del requisito europeo de ofrecer un eID con el nivel de garantía más alto, afirma que SverigeID podrá usarse en toda la UE y señala que la solicitud de certificación europea está en marcha; el eID también deberá incorporarse más adelante a la cartera estatal. En paralelo, la agencia de gobierno digital Digg anunció esta semana que BankID se conectará a Sweden Connect, la infraestructura nacional de eID, de modo que municipios, regiones y agencias puedan ofrecer BankID, Freja+ y SverigeID mediante una sola conexión técnica. Digg y BankID no han fijado fecha."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "受理起点：12 月 1 日，仅限申请新国民身份证时提出",
+          "en": "Application window opens Dec. 1, only when applying for a new national ID card",
+          "es": "Las solicitudes abren el 1 de diciembre, solo al tramitar un nuevo documento nacional"
+        },
+        {
+          "zh": "终端要求：Android 12 或 iOS 16 以上，警方称该手机是唯一获准设备",
+          "en": "Device requirement: Android 12 or iOS 16 and above; the police call the phone the only approved device",
+          "es": "Requisito de dispositivo: Android 12 o iOS 16 o superior; la policía considera el teléfono el único dispositivo aprobado"
+        },
+        {
+          "zh": "首发范围：仅 Mina sidor，其余机构 2027 年接入",
+          "en": "Launch scope: Mina sidor only; other agencies join in 2027",
+          "es": "Alcance inicial: solo Mina sidor; otras agencias se suman en 2027"
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对做证件与电子身份的一方，这意味着瑞典把签发权从银行联合体手里收回了一部分。过去要在瑞典落地一个需要强身份的服务，接入 BankID 几乎是唯一路径，议价权在银行侧；SverigeID 上线后，公共机构有了国家签发的替代项，Digg 那条 Sweden Connect 连接如果落地，受理方还能用一套接口同时接三家。真正值得盯的是两个缺口：一是开通必须绑定一张新签发的实体卡，等于把电子身份的发行节奏锁在证件制作与警察局受理能力上；二是首发只覆盖最高保证等级，中低等级场景在 2027 年前仍要回到 BankID。做受理端集成的厂商应当按「多发行方、单一连接」来设计，而不是继续假设一家独大。",
+    "en": "For anyone building credentials or e-identities, this means Sweden has taken part of issuance back from the bank consortium. Landing a service that needs strong identity in Sweden has meant integrating BankID, with pricing power on the bank side; with SverigeID there is a state-issued alternative for public bodies, and if Digg's Sweden Connect link lands, relying parties can reach three providers through one interface. Two gaps matter. Activation requires a newly issued physical card, which ties e-ID rollout to card production and police appointment capacity. And the first version covers only the highest assurance level, so mid- and low-level use cases fall back to BankID until 2027. Integrators should design for multiple issuers behind a single connection rather than assuming one dominant provider.",
+    "es": "Para quien construye credenciales o e-identidades, Suecia ha recuperado parte de la emisión que estaba en manos del consorcio bancario. Poner en marcha un servicio que exige identidad fuerte en Suecia obligaba a integrar BankID, con el poder de negociación del lado bancario; con SverigeID el sector público tiene una alternativa estatal, y si cuaja la conexión de Digg con Sweden Connect, las partes receptoras podrán llegar a tres proveedores con una sola interfaz. Hay dos huecos. La activación exige un documento físico recién emitido, lo que ata el despliegue del eID a la producción de tarjetas y a la capacidad de cita en comisaría. Y la primera versión solo cubre el nivel de garantía más alto, así que los casos intermedios y bajos vuelven a BankID hasta 2027. Los integradores deberían diseñar para varios emisores tras una conexión única en lugar de asumir un proveedor dominante."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11-08"
+  }
+}

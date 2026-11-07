@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-07-banking-04",
+  "slug": "mastercard-samsung-pay-morocco-mdes",
+  "industry": "banking",
+  "region": "mena",
+  "regions": [],
+  "tags": [
+    "tokenization",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-08T04:18:33+08:00",
+  "ingestedAt": "2026-11-07T02:30:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Merchant's Eye",
+      "url": "https://www.merchantseye.com/news/mastercard-expands-mobile-payment-choice-in-morocco-with-samsung-pay-e36ca243",
+      "lang": "en",
+      "publishedAt": "2026-11-04T20:17:00-05:00"
+    }
+  ],
+  "title": {
+    "zh": "Mastercard 把摩洛哥的卡装进三星钱包，靠 MDES 令牌",
+    "en": "Mastercard puts Moroccan cards into Samsung Pay via MDES tokens",
+    "es": "Mastercard lleva las tarjetas marroquíes a Samsung Pay con tokens MDES"
+  },
+  "summary": {
+    "zh": "11 月 4 日，Mastercard 宣布支持 Samsung Pay 在摩洛哥上线：参与银行的 Mastercard 卡持卡人可把卡装进三星手机与手表，在受理非接触支付的商户付款，卡号由 MDES 令牌替换。公告未给出参与发卡行名单、发卡量目标与确切上线日，只说明双方将在摩洛哥做联合推广。",
+    "en": "Mastercard said on 4 November that it is supporting the launch of Samsung Pay in Morocco: cardholders at participating banks can load Mastercard cards onto Samsung phones and watches and pay at contactless merchants, with MDES tokens replacing the card number. No issuer list, volume target or exact launch date was disclosed; the two firms will run a joint campaign in Morocco.",
+    "es": "Mastercard anunció el 4 de noviembre su apoyo al lanzamiento de Samsung Pay en Marruecos: los titulares de tarjetas Mastercard de bancos participantes pueden cargarlas en móviles y relojes Samsung y pagar en comercios sin contacto, con tokens MDES en lugar del número de tarjeta. No se dieron emisores, objetivo de volumen ni fecha exacta; ambas firmas harán una campaña conjunta."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "令牌先落地，银行名单后补",
+        "en": "Tokens first, issuer list later",
+        "es": "Primero los tokens, después los emisores"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 4 日，Mastercard 宣布支持 Samsung Pay 在摩洛哥上线。符合条件的 Mastercard 卡持卡人，在参与银行的支持下，可以把卡装进兼容的三星设备，在受理非接触支付的商户完成付款。令牌化由 Mastercard 的 MDES 完成，卡号不进入设备。",
+        "en": "Mastercard said on 4 November that it is supporting Samsung Pay's launch in Morocco. Eligible Mastercard cardholders at participating banks can load their cards onto compatible Samsung devices and pay at merchants that accept contactless payments. Tokenisation runs through MDES, Mastercard's digital enablement service, so the card number does not sit on the device.",
+        "es": "Mastercard anunció el 4 de noviembre su apoyo al lanzamiento de Samsung Pay en Marruecos. Los titulares elegibles de bancos participantes pueden cargar sus tarjetas en dispositivos Samsung compatibles y pagar en comercios con pago sin contacto. La tokenización corre por MDES, el servicio de habilitación digital de Mastercard, de modo que el número de tarjeta no reside en el dispositivo."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "机制上，这是把卡号换成一枚设备令牌：交易时用令牌代替卡号，真正的凭证留在令牌库里，配合设备端的认证与基于风险的安全检查。对收单侧，受理方式没有变化——仍是非接触 EMV 交易，终端只要支持非接触即可，不需要为这个上线单独改造。",
+        "en": "Mechanically this swaps the card number for a device token: transactions carry the token instead of the PAN, the real credential stays in the token vault, and device authentication plus risk-based checks sit alongside. On the acquiring side nothing changes in how the payment is taken, since it remains a contactless EMV transaction; terminals only need contactless support and no separate integration for this launch.",
+        "es": "En lo mecánico, el número de tarjeta se sustituye por un token de dispositivo: la operación lleva el token en lugar del PAN, la credencial real queda en la bóveda de tokens y se suman autenticación del dispositivo y controles por riesgo. En la adquirencia no cambia la forma de aceptar el pago, que sigue siendo una transacción EMV sin contacto; basta con que el terminal soporte contacto y no hace falta integración adicional."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公告没有给出参与发卡行名单、首年发卡量或受理覆盖率，也没有说明是否支持在线商户。Mastercard 同时重申其到 2030 年把线上交易全部令牌化的目标；摩洛哥这一步属于该方向上的市场扩张，而非新机制。",
+        "en": "The announcement names no issuing banks, gives no first-year volume or acceptance coverage, and does not say whether online merchants are included. Mastercard restated its goal of tokenising 100% of online transactions by 2030; the Morocco step is market expansion along that line rather than a new mechanism.",
+        "es": "El anuncio no nombra emisores, no da volumen del primer año ni cobertura de aceptación, y no aclara si incluye comercio online. Mastercard reiteró su meta de tokenizar el 100% de las transacciones online en 2030; el paso marroquí es expansión de mercado en esa línea, no un mecanismo nuevo."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对摩洛哥的发卡行，这是一次低成本补齐移动支付：不用自建钱包，接 MDES 就能把卡放进三星设备，代价是把令牌生命周期交给卡组织。对收单与终端供应商，短期没有增量——非接触终端本来就受理，真正受益的是能把「手机能刷」讲进商户方案的集成商。中期看两件事：一是参与银行会不会从一两家扩到多数发卡行，二是令牌化之后线上交易的身份验证与拒付规则怎么落。公告缺发卡量、缺银行名单、缺时间表，说明这仍是一个刚起步的市场动作，不宜按「摩洛哥全面上线」来读。",
+    "en": "For Moroccan issuers this is a cheap way to catch up on mobile payments: no wallet to build, just an MDES connection to put cards on Samsung devices, at the cost of handing token lifecycle to the scheme. For acquirers and terminal vendors there is no short-term increment, since contactless terminals already accept these payments; the gain sits with integrators who can sell \"phone-ready\" into merchant proposals. Two things to watch over the medium term: whether participating banks widen from one or two to most issuers, and how authentication and dispute rules for online transactions land once credentials are tokenised. Missing volumes, missing issuer names and a missing timetable make this an early market move, not a national rollout.",
+    "es": "Para los emisores marroquíes es una forma barata de alcanzar el pago móvil: sin construir cartera, basta una conexión MDES para poner tarjetas en dispositivos Samsung, a cambio de ceder al esquema el ciclo de vida del token. Para adquirentes y proveedores de terminales no hay incremento a corto plazo, porque los terminales sin contacto ya aceptan estos pagos; la ganancia está en integradores que puedan vender \"listo para móvil\" a los comercios. Dos cosas a vigilar: si los bancos participantes pasan de uno o dos a la mayoría, y cómo quedan la autenticación y las disputas online una vez tokenizadas las credenciales. Sin volúmenes, sin emisores y sin calendario, es un movimiento temprano, no un despliegue nacional."
+  },
+  "confidence": 0.62,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

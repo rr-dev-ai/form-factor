@@ -1,0 +1,364 @@
+{
+  "date": "2026-11-08",
+  "industry": "banking",
+  "startedAt": "2026-11-08T02:31:00+08:00",
+  "drafts": [
+    {
+      "id": "2026-11-08-banking-01",
+      "slug": "visa-acceptance-platform-jaywan-uae-online",
+      "industry": "banking",
+      "region": "mena",
+      "regions": [],
+      "tags": [
+        "acquiring",
+        "tokenization",
+        "scheme-rules"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "Merchant's Eye",
+          "url": "https://www.merchantseye.com/news/visa-acceptance-platform-enables-jaywan-for-online-payments-in-the-uae-a9fe86e7",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "Visa 把阿联酋本土卡 Jaywan 接进线上受理，带令牌化与卡存档",
+        "en": "Visa opens its acceptance platform to UAE domestic card Jaywan for online payments",
+        "es": "Visa abre su plataforma de aceptación a Jaywan, el esquema nacional de EAU"
+      },
+      "summary": {
+        "zh": "11 月 6 日，Visa 宣布阿联酋本土卡品牌 Jaywan 能在 Visa Acceptance Platform 上受理线上交易，覆盖借记、贷记与预付卡，并通过 Token Management Service 支持卡存档与订阅扣款。Jaywan 由 Al Etihad Payments 运营；双方 2025 年 3 月的合作只做到发卡侧的双标卡。",
+        "en": "Visa said on 6 November that Jaywan, the UAE's domestic card scheme, can now be accepted for online transactions through the Visa Acceptance Platform, covering debit, credit and prepaid cards, with card-on-file tokenisation through Token Management Service. Jaywan is run by Al Etihad Payments; the pair's March 2025 agreement covered co-badged issuing only.",
+        "es": "Visa anunció el 6 de noviembre que Jaywan, el esquema nacional de tarjetas de EAU, ya se acepta en línea a través de la Visa Acceptance Platform, con tarjetas de débito, crédito y prepago y tokenización de tarjeta en archivo mediante Token Management Service. Jaywan lo opera Al Etihad Payments; el acuerdo de marzo de 2025 cubría solo la emisión con doble marca."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "受理侧的那半块补上了",
+            "en": "Filling in the acceptance half",
+            "es": "Se completa la mitad de la aceptación"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "Visa 在 11 月 6 日的公告中说，Visa Acceptance Platform 现在支持阿联酋境内的 Jaywan 借记卡、贷记卡与预付卡做线上交易。平台把受理、认证与令牌化放在同一个接口下，Jaywan 的卡存档走 Visa 的 Token Management Service，订阅与重复扣款因此能落在这张本土卡上。收单机构、支付服务商与商户从平台侧接入，不必各自与 Al Etihad Payments 单接。",
+            "en": "In its 6 November announcement, Visa said the Visa Acceptance Platform now supports Jaywan debit, credit and prepaid cards for online transactions in the UAE. The platform bundles acceptance, authentication and tokenisation behind one interface, with Jaywan card-on-file records held through Visa's Token Management Service, so subscriptions and recurring charges can run on the domestic card. Acquirers, payment service providers and merchants connect through the platform rather than integrating separately with Al Etihad Payments.",
+            "es": "En su anuncio del 6 de noviembre, Visa indicó que la Visa Acceptance Platform ya admite tarjetas Jaywan de débito, crédito y prepago para transacciones en línea en EAU. La plataforma agrupa aceptación, autenticación y tokenización tras una sola interfaz, y el archivo de tarjeta Jaywan se gestiona con Token Management Service, de modo que las suscripciones y los cargos recurrentes pueden operar con la tarjeta nacional. Adquirentes, proveedores de servicios de pago y comercios se conectan por la plataforma en lugar de integrarse por separado con Al Etihad Payments."
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "两家在 2025 年 3 月先做的是发卡侧：把 Jaywan 与 Visa 做成双标卡，让阿联酋居民拿着本土卡在境外刷。这次的落点在受理侧，境内线上商户第一次能把 Jaywan 当成一种本地支付方式挂进结账页。公告没有给首批接入的收单机构名单与费率，也没有说明 Jaywan 交易的争议与拒付按哪一家的规则处理。",
+            "en": "The two started on the issuing side in March 2025, co-badging Jaywan with Visa so UAE residents could use a domestic card abroad. This step lands on acceptance: domestic online merchants can now list Jaywan as a local payment option at checkout. The announcement gives no list of participating acquirers, no pricing, and does not say whose dispute and chargeback rules apply to Jaywan transactions.",
+            "es": "Ambos empezaron por la emisión en marzo de 2025, con la doble marca Jaywan-Visa para que los residentes usaran su tarjeta nacional en el exterior. Este paso llega por la aceptación: los comercios en línea del país ya pueden ofrecer Jaywan como método local en el checkout. El anuncio no incluye lista de adquirentes participantes, ni precios, ni qué reglas de disputa y contracargo rigen las transacciones Jaywan."
+          }
+        },
+        {
+          "kind": "ul",
+          "items": [
+            {
+              "zh": "覆盖卡种：Jaywan 借记卡、贷记卡与预付卡",
+              "en": "Card types covered: Jaywan debit, credit and prepaid",
+              "es": "Tipos cubiertos: débito, crédito y prepago Jaywan"
+            },
+            {
+              "zh": "新增能力：卡存档令牌化、订阅与重复扣款、数字钱包场景",
+              "en": "What is new: card-on-file tokenisation, subscriptions and recurring payments, digital wallet use cases",
+              "es": "Novedad: tokenización de tarjeta en archivo, suscripciones y pagos recurrentes, casos de monedero digital"
+            },
+            {
+              "zh": "要改实现的一方：收单机构与支付服务商需接入 Jaywan 卡号段与令牌映射；商户侧结账流程不变",
+              "en": "Who must change code: acquirers and PSPs need Jaywan BIN ranges and token mapping; merchant checkout flows stay as they are",
+              "es": "Quién debe cambiar código: adquirentes y PSP necesitan los rangos BIN de Jaywan y el mapeo de tokens; el checkout del comercio no cambia"
+            }
+          ]
+        }
+      ],
+      "whyItMatters": {
+        "zh": "技术上，这是本土卡第一次被接进网络级令牌体系。此前 Jaywan 只在发卡侧与国际网络互通，线上受理缺的正是卡存档与重复扣款——订阅、会员、分期这些高频场景只能挂国际卡，商户为此承担跨境受理成本。接进 TMS 之后，同一张本土卡能在本地完成令牌替换与续扣，受理方不必自建令牌库。商业上，受影响最直接的是两类角色：做收单网关与支付服务商的集成商，要补 Jaywan 卡号段识别、令牌映射与争议流程；以及订阅型商户，它们第一次能用本地卡做续费，定价与拒付率的算法都会变。战略上，这是主权卡组织与国际网络从竞争转向分工的又一例：网络出基础设施，本土机构出品牌与规则。做受理侧产品的人该盯的不是这次上线，而是 Jaywan 会不会要求本地收单优先路由——那一步才真正改变路由与费率。",
+        "en": "Technically this is the first time a domestic scheme has been plugged into a network-level token system here. Jaywan previously interoperated only on the issuing side; what online acceptance lacked was card-on-file and recurring billing, so subscriptions, memberships and instalments had to sit on international cards, with merchants paying cross-border acceptance costs. With TMS, the same domestic card can be tokenised and re-charged locally, and acquirers do not have to build their own token vault. Commercially, two roles feel it first: gateway and PSP integrators that must add Jaywan BIN handling, token mapping and dispute flows, and subscription merchants that can finally renew on a local card, which changes both pricing and decline maths. Strategically it is another case of a sovereign scheme and a global network moving from rivalry to division of labour: the network supplies infrastructure, the local operator supplies brand and rules. The thing to watch is not this launch but whether Jaywan later demands local acquiring with preferential routing, which is the step that would really move routing and fees.",
+        "es": "En lo técnico, es la primera vez que un esquema nacional se conecta aquí a un sistema de tokens de nivel de red. Jaywan solo interoperaba por el lado de la emisión; lo que faltaba en la aceptación en línea era el archivo de tarjeta y el cobro recurrente, así que suscripciones, membresías y cuotas dependían de tarjetas internacionales, con costes de aceptación transfronteriza para el comercio. Con TMS, la misma tarjeta nacional se tokeniza y se vuelve a cobrar localmente, y el adquirente no necesita construir su propio almacén de tokens. En lo comercial lo sienten primero dos roles: los integradores de pasarela y PSP, que deben añadir rangos BIN de Jaywan, mapeo de tokens y flujos de disputa, y los comercios con suscripciones, que por fin pueden renovar con tarjeta local, lo que cambia precios y tasas de rechazo. En lo estratégico es otro caso de esquema soberano y red global pasando de la rivalidad a la división del trabajo: la red pone infraestructura, el operador local pone marca y reglas. Lo que hay que vigilar no es este lanzamiento sino si Jaywan exigirá después adquirencia local con enrutamiento preferente, el paso que de verdad movería rutas y comisiones."
+      },
+      "confidence": 0.72,
+      "ai": {
+        "model": "deepseek-v4.1-flash",
+        "promptVersion": "banking-pool-v1"
+      }
+    },
+    {
+      "id": "2026-11-08-banking-03",
+      "slug": "rbi-2026-cyber-resilience-nonbank-psos",
+      "industry": "banking",
+      "region": "apac",
+      "regions": [],
+      "tags": [
+        "acquiring",
+        "fraud",
+        "clearing"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "TaxGuru",
+          "url": "https://taxguru.in/rbi/rbi-issues-2026-cyber-resilience-digital-payment-security-directions-non-bank-psos.html",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "印度央行收紧非银行支付机构安全规则，事故 6 小时内上报",
+        "en": "RBI tightens security rules for non-bank payment operators, with six-hour incident reporting",
+        "es": "El RBI endurece las reglas de seguridad para entidades de pago no bancarias"
+      },
+      "summary": {
+        "zh": "11 月 5 日，印度央行发布 RBI/DPSS/2026-27/475 号主指示，合并 2024 年旧规并新增第三方 ATM 交换中心与系统审计要求。大中型非银行支付机构发布即生效，小型机构 2028 年 4 月 1 日起执行。事故须在发现后 6 小时内报央行，用户改注册手机号或邮箱后至少 12 小时才能恢复线上支付。",
+        "en": "On 5 November the Reserve Bank of India issued Master Directions RBI/DPSS/2026-27/475, consolidating the 2024 rules and adding requirements for third-party ATM switch providers and system audits. Large and medium non-bank payment operators are covered on publication; small ones from 1 April 2028. Incidents must be reported within six hours of detection, and online payments stay blocked for at least 12 hours after a customer changes a registered mobile number or email.",
+        "es": "El 5 de noviembre el Banco de Reserva de la India publicó las Master Directions RBI/DPSS/2026-27/475, que consolidan la norma de 2024 y añaden requisitos para proveedores de switch de cajeros y auditorías de sistemas. Las entidades de pago no bancarias grandes y medianas quedan cubiertas al publicarse; las pequeñas desde el 1 de abril de 2028. Los incidentes deben reportarse en seis horas desde su detección, y los pagos en línea siguen bloqueados al menos 12 horas tras cambiar el móvil o el correo registrados."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "一份合并的规则，几处新增的硬时限",
+            "en": "A consolidated rulebook with new hard clocks",
+            "es": "Un reglamento consolidado con plazos nuevos"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "印度央行 11 月 5 日发布《2026 年非银行支付系统运营商网络韧性与数字支付安全控制主指示》，文号 RBI/DPSS/2026-27/475，依据《2007 年支付与结算系统法》制定。文件把 2024 年 7 月 30 日的主指示、2019 年关于第三方 ATM 交换中心应用服务商的控制要求、2020 年关于系统审计范围的审查合并成一份，并新增条款。",
+            "en": "The RBI published its Cyber Resilience and Digital Payment Security Controls for non-bank Payment System Operators Master Directions, 2026 on 5 November under reference RBI/DPSS/2026-27/475, framed under the Payment and Settlement Systems Act, 2007. It merges the master directions of 30 July 2024, the 2019 controls for third-party ATM switch application service providers and the 2020 review of system audit scope into one document, and adds new provisions.",
+            "es": "El RBI publicó el 5 de noviembre sus Master Directions 2026 sobre resiliencia cibernética y controles de seguridad de pagos digitales para operadores no bancarios de sistemas de pago, con referencia RBI/DPSS/2026-27/475, al amparo de la Ley de Sistemas de Pago y Liquidación de 2007. El texto fusiona las master directions del 30 de julio de 2024, los controles de 2019 para proveedores de aplicaciones de switch de cajeros y la revisión de 2020 del alcance de auditoría, y añade disposiciones nuevas."
+          }
+        },
+        {
+          "kind": "ul",
+          "items": [
+            {
+              "zh": "事故报告：网络攻击、关键系统中断、内部欺诈、结算延迟等异常事件，须在发现后 6 小时内按指定格式报央行；网络安全事件同时报 CERT-In",
+              "en": "Incident reporting: cyber attacks, critical outages, internal fraud and settlement delays must go to the RBI within six hours of detection in a prescribed format; cyber incidents also go to CERT-In",
+              "es": "Reporte de incidentes: ciberataques, caídas críticas, fraude interno y retrasos de liquidación deben llegar al RBI en seis horas desde la detección en formato prescrito; los incidentes cibernéticos también a CERT-In"
+            },
+            {
+              "zh": "联系方式变更冷静期：用户改注册手机号或邮箱后，至少 12 小时内不得放行线上支付交易",
+              "en": "Cooling period: at least 12 hours must pass after a change of registered mobile number or email before online payment transactions are allowed",
+              "es": "Periodo de enfriamiento: deben pasar al menos 12 horas desde el cambio de móvil o correo registrado antes de permitir pagos en línea"
+            },
+            {
+              "zh": "日志与备份：审计日志至少留存 5 年，备份恢复测试至少每半年一次，灾备演练同样每半年，且灾备中心不得与主数据中心同一地震带",
+              "en": "Logs and backups: audit logs kept at least five years, restore tests at least half-yearly, DR drills half-yearly, with the DR site in a different seismic zone from the primary",
+              "es": "Registros y respaldos: registros de auditoría al menos cinco años, pruebas de restauración semestrales, simulacros de recuperación semestrales y centro de respaldo en zona sísmica distinta a la principal"
+            },
+            {
+              "zh": "系统审计：须由 CERT-In 注册审计师、ISACA 注册的 CISA 或 ICAI 的 DISA 执行，财年结束后两个月内提交；未整改事项最长 3 个月内闭环并报央行",
+              "en": "System audit: performed by a CERT-In empanelled auditor, an ISACA-registered CISA or an ICAI DISA, filed within two months of financial year close; open findings closed within three months and reported",
+              "es": "Auditoría de sistemas: por auditor empanelado en CERT-In, CISA registrado en ISACA o DISA del ICAI, presentada en dos meses tras el cierre del ejercicio; hallazgos abiertos se cierran en tres meses y se reportan"
+            }
+          ]
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "文件按规模分三档，大型一档里点名了卡支付网络、非银行 ATM 网络、大型预付工具发行商与支付聚合商；中型是跨境汇入汇款运营商与中型预付发行商，小型是小型预付发行商与即时汇款运营商。审计机构及其关联方在审计前两个财年内不得为该机构提供过任何服务。董事会层面须有人对信息安全负责，可授权给小组委员会，至少每季度开一次会。",
+            "en": "The directions sort operators into three tiers. The large tier names card payment networks, non-bank ATM networks, large prepaid instrument issuers and payment aggregators; the medium tier covers inbound cross-border remittance operators and mid-sized prepaid issuers; the small tier covers small prepaid issuers and instant remittance operators. An audit firm and its affiliates may not have provided any service to the entity in the two financial years before the audit. Board-level accountability is required, delegable to a sub-committee that must meet at least quarterly.",
+            "es": "Las directrices ordenan a los operadores en tres niveles. El nivel grande nombra redes de pago con tarjeta, redes de cajeros no bancarias, grandes emisores de instrumentos prepago y agregadores de pago; el medio cubre operadores de remesas entrantes y emisores prepago medianos; el pequeño, emisores prepago pequeños y operadores de remesas instantáneas. La firma auditora y sus afiliadas no pueden haber prestado servicio a la entidad en los dos ejercicios previos. Se exige responsabilidad a nivel de consejo, delegable en un subcomité que debe reunirse al menos trimestralmente."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "监管维度最直接：这份文件把「出事后多久报」和「改完联系方式多久才能再付」都写成了硬数字，6 小时与 12 小时是运营流程要改的地方，不是安全部门一家的事。对支付聚合商与收单机构，最贵的不是新系统，而是把事故分级、取证与上报压进 6 小时——多数团队现在的链路是先内部确认再对外报。技术上，12 小时冷静期会直接改掉换号后的支付成功率，客服与风控的指标要一起调。商业上，两类供应商受益：做日志留存、灾备与审计服务的，以及能给小型机构做托管合规的。战略上要注意分档：大型机构发布即生效，小型机构有到 2028 年 4 月的缓冲，这意味着同一个市场里合规成本差异会被拉大，小型预付与汇款机构可能被推向并购或外包。",
+        "en": "The regulatory dimension is the direct one: the document turns two operational questions into hard numbers — how fast an incident must be reported and how long a customer must wait after changing contact details. Six and twelve hours change operations, not just the security team. For payment aggregators and acquirers the expensive part is not a new system but compressing triage, forensics and notification into six hours, when most teams today confirm internally before telling anyone. Technically, the 12-hour cooling period moves post-change payment success rates, so support and risk targets have to move together. Commercially two supplier groups gain: those selling log retention, disaster recovery and audit services, and those offering managed compliance to smaller operators. Strategically, watch the tiering: large operators are covered on publication while small ones have until April 2028, which widens the compliance cost gap inside one market and pushes small prepaid and remittance firms toward consolidation or outsourcing.",
+        "es": "La dimensión regulatoria es la directa: el documento convierte dos preguntas operativas en cifras duras, en cuánto tiempo se reporta un incidente y cuánto debe esperar un cliente tras cambiar sus datos de contacto. Seis y doce horas cambian la operación, no solo al equipo de seguridad. Para agregadores de pago y adquirentes lo caro no es un sistema nuevo sino comprimir triaje, análisis forense y notificación en seis horas, cuando hoy la mayoría confirma internamente antes de avisar. En lo técnico, el periodo de 12 horas mueve la tasa de éxito de pago tras un cambio de datos, así que las metas de atención y riesgo deben moverse juntas. En lo comercial ganan dos grupos de proveedores: los de retención de registros, recuperación y auditoría, y los que ofrecen cumplimiento gestionado a operadores pequeños. En lo estratégico, atención a los niveles: los grandes quedan cubiertos al publicarse y los pequeños tienen hasta abril de 2028, lo que amplía la brecha de coste de cumplimiento dentro de un mismo mercado y empuja a los pequeños de prepago y remesas hacia la consolidación o la externalización."
+      },
+      "confidence": 0.66,
+      "ai": {
+        "model": "deepseek-v4.1-flash",
+        "promptVersion": "banking-pool-v1"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Pine Labs, Stripe Partner to Unify Online, In-Store Payments for Singapore Retailers",
+      "url": "https://www.crowdfundinsider.com/2026/11/321833-pine-labs-stripe-partner-to-unify-online-in-store-payments-for-singapore-retailers/",
+      "reason": "duplicate-of-2026-11-05-banking-02：同一合作已于 11-05 发布，补位池这条只是换信源的二次报道。"
+    },
+    {
+      "title": "Truist Overhauls Merchant Services with 80% Faster Onboarding and Clover Integration",
+      "url": "https://www.merchantseye.com/news/truist-significantly-expands-merchant-services-capabilities-to-help-businesses-s-261e8ac3",
+      "reason": "事件发生在 11-03，超出 72 小时窗口；11-05 与 11-06 两期已按同一判据拦过。"
+    },
+    {
+      "title": "Five Nigerian Banks Join Interswitch to Expand Tap-to-Pay Cards",
+      "url": "https://www.afrikaninsights.com/five-nigerian-banks-join-interswitch-to-expand-tap-to-pay-cards/",
+      "reason": "公告发生在 10 月下旬的拉各斯令牌化活动，超出 72 小时；且与 11-01、11-04 已发布的 Interswitch 令牌化与 Google Pay 条目同一事件线。"
+    },
+    {
+      "title": "Mexico's Digital Economy Law for Digital and Electronic Payments published and in force",
+      "url": "https://basham.com.mx/en/digital-economy-law-for-digital-and-electronic-payments-published",
+      "reason": "立法生效属监管事实，但六类动作无一可落（最接近标准与认证，却无版本号与发证方）；11-07 池已写过一版未被终审采用，不重复提交。"
+    },
+    {
+      "title": "littlefish and Halo Dot Partner to Help Financial Institutions Back Their Merchants Beyond the Payment",
+      "url": "https://www.miningweekly.com/article/littlefish-and-halo-dot-partner-to-help-financial-institutions-back-their-merchants-beyond-the-payment-2026-11-05",
+      "reason": "联合部署要求至少一方是运营方或受理方并写明落地市场；两方均为技术供应商，只写「非洲市场 2026 年已在部署」，无国家、无客户、无终端数。SoftPOS 也只说 globally certified，未给认证名称与等级。"
+    },
+    {
+      "title": "BankPro elige a Thredd para impulsar sus programas de tarjetas",
+      "url": "https://www.renascence.io/news/161324/bankpro-elige-a-thredd-para-impulsar-sus-programas-de-tarjetas",
+      "reason": "只有标的与承接方两项可核，无金额、无发卡规模、无上线时间；原文自述公告未给实施时间表与量级，动作门第二项凑不齐。"
+    },
+    {
+      "title": "Industrial Development Bank (IDB) signs cooperation protocol with ElTarek to launch co-branded Mastercard credit cards",
+      "url": "https://newsroom.mastercard.com/news/eemea/en/newsroom/press-releases/en/2026/november/industrial-development-bank-idb-signs-cooperation-protocol-with-eltarek-for-automotive-to-launch-the-first-co-branded-mastercard-credit-cards/",
+      "reason": "Titanium/Platinum/World Elite 均为既有档位，内容是权益包与获客渠道，与 11-07 对 World Legend 的判据一致，动作门不过。"
+    },
+    {
+      "title": "FAB and Mastercard Launch FAB World Legend",
+      "url": "https://www.bankfab.com/en-ae/about-fab/group/in-the-media/fab-and-mastercard-launch-fab-world-legend-credit-card",
+      "reason": "World Legend 档位 2025 年 7 月已设，本次是同一档位下的权益包与客群细分，非新档位也非机制变化。"
+    },
+    {
+      "title": "Safwa Islamic Bank and Mastercard Launch Shiffa Card",
+      "url": "https://www.merchantseye.com/news/mastercard-and-safwa-islamic-bank-launch-first-of-its-kind-shiffa-card-2e8a859a",
+      "reason": "联名卡权益包，发卡机制与受理方式均无变化。"
+    },
+    {
+      "title": "2026Q3 全球 POS 终端市场：大盘小幅承压，台式高增",
+      "url": "https://news.qq.com/rain/a/20261105A064E600",
+      "reason": "市场统计而非动作：有出货量与品牌排名，但没有投产、扩产、工艺节点或良率变化，产能与工艺一类落不下去。"
+    },
+    {
+      "title": "Visa Sets Up Six Singapore Hubs for AI, Next-Gen Payments",
+      "url": "https://fintechnews.sg/140556/payments/visa-singapore-hubs",
+      "reason": "机构与人员布局，六类动作均不贴，且无投资额与时间表。"
+    },
+    {
+      "title": "Pyvio Secures MAS Major Payment Institution License",
+      "url": "https://fintechnews.sg/140548/payments/pyvio-mas-major-payment-institution-license/",
+      "reason": "支付机构牌照属许可事项，范围门已排除；无产品与受理机制变化。"
+    },
+    {
+      "title": "UnionPay International and Tencent's TenPay Global Sign MOU on Cross-Border Remittances",
+      "url": "https://thesun.my/business/corporate-news/unionpay-international-and-tencents-tenpay-global-sign-memorandum-of-understanding-to-collaborate-on-cross-border-remittances/",
+      "reason": "汇款通道合作，标的不在卡栈；且 MOU 无金额、无落地市场与时间表。"
+    },
+    {
+      "title": "Visa Payment Passkey 要求写入卡组织规则（Visa Core Rules 7.10.2.2）",
+      "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_6636aee873c14752",
+      "reason": "规则生效日为 2026-04-18 与 2026-10-24，均超出 72 小时；11-02 已发布 Adyen 落地 VPP 的条目，属同一事件线。"
+    },
+    {
+      "title": "Mastercard and OpenAI agree Agent Pay partnership (Q3 earnings call)",
+      "url": "https://www.mpaypass.com.cn/news/202611/05175749.html",
+      "reason": "内容出自第三季度财报电话会，属财报口径；与 11-06 拦 Marqeta Q3 电话会的判据保持一致。"
+    },
+    {
+      "title": "HKMA SAGE project on agentic payments",
+      "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2416aedd22492852",
+      "reason": "11 月 2 日公布，超出 72 小时；且是治理文件征求意见，无产品与认证落地。"
+    },
+    {
+      "title": "Stripe Link Balance gives AI agents funded balances",
+      "url": "https://www.fathom4sight.ai/newsletters/fathom4sight-newsletter-week-of-november-2-2026",
+      "reason": "事件在 11-04，超出 72 小时（11-08 02:30 已逾 90 小时）。"
+    },
+    {
+      "title": "Segpay Expands Pay by Bank Service to Eight European Markets via TrueLayer",
+      "url": "https://www.merchantseye.com/news/segpay-expands-pay-by-bank-to-eight-european-markets-3b4f697a",
+      "reason": "账户直付，绕开卡组织，标的不在卡栈；与 11-03 tConnect、11-05 同类判据一致。"
+    },
+    {
+      "title": "Tabs and Adyen Partner to Bring Embedded Payments Into the Revenue Lifecycle",
+      "url": "https://fortune.com/press-releases/tabs-adyen-embedded-payments-revenue-lifecycle-2026-11-05/",
+      "reason": "把 Adyen 的受理能力嵌进开票平台，属销售渠道变化，按分销不收。"
+    },
+    {
+      "title": "Raya Information Technology and Diebold Nixdorf Expand Partnership into Retail Solutions",
+      "url": "https://www.technotime.net/18281",
+      "reason": "在 Cairo ICT 展会发布的分销范围扩充，行业会议不在范围，且无终端投放量与客户。"
+    },
+    {
+      "title": "TBC Georgia to accept American Express cards in stores and online",
+      "url": "https://thepaypers.com/payments/news/tbc-georgia-to-accept-american-express-cards-in-stores-and-online",
+      "reason": "报道未给公告日期，无法核 72 小时；同日 TBC 掌纹支付已于 11-07-banking-03 发布，同一合作方不宜连发。"
+    },
+    {
+      "title": "PCI 3DS SDK 与 CPoC 标准日落（2026-10-31）",
+      "url": "https://www.pcisecuritystandards.org/standards",
+      "reason": "日落日为 2026-10-31，超出 72 小时窗口；新提交转 PCI 安全软件标准 v2.0 与 MPoC 属既有安排。"
+    },
+    {
+      "title": "Expensify signs Visa referral deal and expands corporate card to 13 European markets",
+      "url": "https://fintechnews.sg/140476/payments/expensify-visa-referral-agreement-corporate-cards/",
+      "reason": "内容出自业绩披露（11-04），财报口径；跨国落地缺市场名单与时间表。"
+    },
+    {
+      "title": "CBN's 2026 POS policy overhaul",
+      "url": "https://technext24.com/policy-and-tech/cbn-2026-pos-overhaul-financial-inclusion",
+      "reason": "规则在 2026 年内已生效，本窗口无新节点；文章是对既有规则的解读与影响分析。"
+    },
+    {
+      "title": "California takes CoinFlip to task",
+      "url": "https://www.paymentsdive.com/news/california-coinflip-crypto-atm-enforcement-fraud/874002/",
+      "reason": "加密 ATM 执法，标的不在卡栈。"
+    },
+    {
+      "title": "BMO Turns to Agentic AI to Resolve Card Issues",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/bmo-turns-to-agentic-ai-to-resolve-card-issues/",
+      "reason": "发卡后的客服运营，未改变凭证形态、受理方式或卡组织规则。"
+    },
+    {
+      "title": "Study Finds Most Stablecoins Fail GENIUS Act Requirements",
+      "url": "https://www.pymnts.com/news/2026/study-finds-most-stablecoins-fail-genius-act-requirements/",
+      "reason": "稳定币发行，范围门排除。"
+    },
+    {
+      "title": "Samsung's 82-Million-Device Bet Shows Stablecoin Wars Moving Beyond Crypto",
+      "url": "https://www.pymnts.com/blockchain/2026/samsungs-82-million-device-bet-shows-stablecoin-wars-moving-beyond-crypto/",
+      "reason": "稳定币路线，范围门排除。"
+    },
+    {
+      "title": "Nubank and Mercado Pago Pause Crypto Operations",
+      "url": "https://www.pymnts.com/cryptocurrency/2026/nubank-and-mercado-pago-pause-crypto-operations-following-provider-issues/",
+      "reason": "加密业务暂停，与卡栈无关。"
+    },
+    {
+      "title": "Synctera Raises $24.5 Million to Support New BaaS Demand",
+      "url": "https://www.pymnts.com/startups/2026/synctera-raises-25-million-dollars-support-new-baas-demand/",
+      "reason": "融资，无产品、参数或客户变化。"
+    },
+    {
+      "title": "Revolving Debt Jumps as Spending Strains Credit Cards",
+      "url": "https://www.pymnts.com/economy/2026/revolving-debt-jumps-as-spending-strains-credit-cards/",
+      "reason": "宏观消费数据，非事件。"
+    },
+    {
+      "title": "Um terço dos novos clientes do Mercantil abre conta pelo WhatsApp",
+      "url": "https://www.mobiletime.com.br/noticias/06/11/2026/conta-mercantil-whatsapp/",
+      "reason": "开户渠道，发卡与受理机制未变。"
+    },
+    {
+      "title": "Yellow Card Acquires Brazil's GoMoney",
+      "url": "https://techmoran.com/2026/11/04/yellow-card-acquires-brazils-gomoney-expanding-stablecoin-payments-operations-into-latin-america/",
+      "reason": "稳定币支付并购，范围门排除。"
+    },
+    {
+      "title": "Remote 给 EOR 雇员发虚拟费用卡，报销改成先控后花",
+      "url": "https://fintechnews.sg/140715/payments/remote-expense-cards/",
+      "industry": "banking",
+      "slug": "remote-expense-cards-virtual-corporate",
+      "reason": "duplicate-of-2026-11-07-banking remote-expense-cards-eor：同一 Remote EOR 虚拟费用卡发布，PR Newswire 原稿已入选，本条为二手改写"
+    }
+  ],
+  "stats": {
+    "candidates": 37,
+    "written": 4,
+    "skippedByDedup": 1
+  },
+  "finishedAt": "2026-11-07T20:17:55.592Z"
+}

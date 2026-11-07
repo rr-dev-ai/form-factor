@@ -1,0 +1,622 @@
+{
+  "fetchedFor": "2026-11-08",
+  "items": [
+    {
+      "url": "https://www.biometricupdate.com/202611/america-is-building-an-online-id-system-by-lawsuit",
+      "title": "America is building an online ID system by lawsuit",
+      "industry": "identity",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "litigation",
+      "confidence": 0.25
+    },
+    {
+      "url": "https://www.biometricupdate.com/202611/listen-c-maxine-most-puts-25-years-of-biometrics-predictions-to-the-test",
+      "title": "Listen: C. Maxine Most puts 25 years of biometrics predictions to the test",
+      "industry": "identity",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.biometricupdate.com/202611/google-proposes-using-digital-credentials-for-secure-account-recovery",
+      "title": "Google proposes using digital credentials for secure account recovery",
+      "industry": "identity",
+      "region": "global",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.5
+    },
+    {
+      "url": "https://www.biometricupdate.com/202611/45-attorneys-general-back-kosa-as-age-verification-question-remains-open",
+      "title": "45 attorneys general back KOSA as age verification question remains open",
+      "industry": "identity",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.35
+    },
+    {
+      "url": "https://www.biometricupdate.com/202611/australias-high-court-weighs-free-speech-challenge-to-social-media-age-law",
+      "title": "Australia’s High Court weighs free speech challenge to social media age law",
+      "industry": "identity",
+      "region": "apac",
+      "regions": [],
+      "mechanism": "litigation",
+      "confidence": 0.35
+    },
+    {
+      "url": "https://www.biometricupdate.com/202611/police-scotland-demonstrates-live-facial-recognition-as-calls-for-legislation-grow",
+      "title": "Police Scotland demonstrates live facial recognition as calls for legislation grow",
+      "industry": "identity",
+      "region": "europe",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.4
+    },
+    {
+      "url": "https://www.biometricupdate.com/202611/vietnam-defends-privacy-safeguards-in-draft-mandatory-digital-id-law",
+      "title": "Vietnam defends privacy safeguards in draft mandatory digital ID law",
+      "industry": "identity",
+      "region": "apac",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.4
+    },
+    {
+      "url": "https://www.biometricupdate.com/202611/audit-calls-for-upgrades-to-pngs-civil-registration-and-id-infrastructure",
+      "title": "Audit calls for upgrades to PNG’s civil registration and ID infrastructure",
+      "industry": "identity",
+      "region": "apac",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.3
+    },
+    {
+      "url": "https://www.biometricupdate.com/202611/we-build-plans-next-year-of-digital-identity-business-wallet-pilots",
+      "title": "WE BUILD plans next year of digital identity, business wallet pilots",
+      "industry": "identity",
+      "region": "europe",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.45
+    },
+    {
+      "url": "https://www.biometricupdate.com/202611/herta-joins-e14m-spanish-police-forensic-ai-projects",
+      "title": "Herta joins €14M Spanish police forensic AI projects",
+      "industry": "identity",
+      "region": "europe",
+      "regions": [],
+      "mechanism": "partnership",
+      "confidence": 0.2
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/california-coinflip-crypto-atm-enforcement-fraud/874002/",
+      "title": "California takes CoinFlip to task",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "litigation",
+      "confidence": 0.15
+    },
+    {
+      "url": "https://www.fierce-network.com/broadband/charter-transform-company-bottom-2b-cost-cuts",
+      "title": "Charter to transform company from ‘bottom up’ with $2B in cost cuts",
+      "industry": "telecom",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.fierce-network.com/cloud/nokia-wants-ais-optical-gold-rush-and-it-already-has-lasers",
+      "title": "Nokia wants in on AI's optical gold rush, and it already has the lasers",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.fierce-network.com/wireless/t-mobile-picks-crazy-week-launch-t-mix",
+      "title": "T-Mobile picks crazy week to launch T-Mix",
+      "industry": "telecom",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.15
+    },
+    {
+      "url": "https://www.fierce-network.com/sponsored/openan-takes-aim-next-frontier-autonomous-networks-getting-ai-agents-work-together",
+      "title": "OpenAN Takes Aim at the Next Frontier of Autonomous Networks: Getting AI Agents to Work Together",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.fierce-network.com/cloud/hyperscalers-neoclouds-face-reckoning-after-ballot-blowout",
+      "title": "Hyperscalers, neoclouds face reckoning after ballot blowout",
+      "industry": "telecom",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.fierce-network.com/wireless/five-nine-fiber-without-fiber",
+      "title": "The Five Nine: Fiber without the fiber?",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.lightreading.com/cable-technology/spectrum-overhauls-operating-model-in-bid-to-reignite-growth",
+      "title": "Spectrum overhauls operating model in bid to reignite growth",
+      "industry": "telecom",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.lightreading.com/cable-technology/cable-one-warns-of-chapter-11-possibility-if-financing-falters",
+      "title": "Cable One warns of Chapter 11 possibility if financing falters",
+      "industry": "telecom",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.pymnts.com/news/retail/2026/black-friday-escapes-calendar-moves-toward-your-wallet/",
+      "title": "Black Friday Escapes the Calendar and Heads for Your Wallet",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.pymnts.com/economy/2026/revolving-debt-jumps-as-spending-strains-credit-cards/",
+      "title": "Revolving Debt Jumps as Spending Strains Credit Cards",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/bmo-turns-to-agentic-ai-to-resolve-card-issues/",
+      "title": "BMO Turns to Agentic AI to Resolve Card Issues",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.3
+    },
+    {
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/sysco-counts-ai-routing-bidding-500-million-dollars-savings/",
+      "title": "Sysco Counts on AI Routing and Bidding for $500 Million in Savings",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.02
+    },
+    {
+      "url": "https://www.pymnts.com/news/2026/study-finds-most-stablecoins-fail-genius-act-requirements/",
+      "title": "Study Finds Most Stablecoins Fail GENIUS Act Requirements",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.pymnts.com/blockchain/2026/samsungs-82-million-device-bet-shows-stablecoin-wars-moving-beyond-crypto/",
+      "title": "Samsung’s 82-Million-Device Bet Shows Stablecoin Wars Moving Beyond Crypto",
+      "industry": "banking",
+      "region": "apac",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.2
+    },
+    {
+      "url": "https://www.pymnts.com/cryptocurrency/2026/nubank-mercado-pago-pause-crypto-operations-following-provider-issues/",
+      "title": "Nubank and Mercado Pago Pause Crypto Operations Following Provider Issues",
+      "industry": "banking",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.pymnts.com/consumer-finance/2026/rising-home-repair-costs-place-more-pressure-on-us-households/",
+      "title": "Rising Home Repair Costs Place More Pressure on US Households",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.02
+    },
+    {
+      "url": "https://www.pymnts.com/startups/2026/synctera-raises-25-million-dollars-support-new-baas-demand/",
+      "title": "Synctera Raises $24.5 Million to Support New BaaS Demand",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.2
+    },
+    {
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/tech-giants-ration-premium-ai-as-company-budgets-hold/",
+      "title": "Tech Giants Ration Premium AI as Company Budgets Hold",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.02
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/07/11/2026/red-bull-dados-agente-ia/",
+      "title": "Red Bull usa dados, nuvem e agentes de IA para se manter forte na F1",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.02
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/06/11/2026/anatel-aprova-novo-rue/",
+      "title": "Anatel aprova novo Regulamento de Uso do Espectro",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/06/11/2026/receita-iot-qualcomm/",
+      "title": "Receita de IoT da Qualcomm na America Latina dobra ano a ano, revela Tonisi",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobiletime.com.br/museu-movel/06/11/2026/ctn7000-celular-cor/",
+      "title": "Cleartone CTN7000: o celular colorido da era analógica",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/06/11/2026/quintoandar-ia-software/",
+      "title": "IA gera ganhos em atividades de alto valor no QuintoAndar",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.02
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/06/11/2026/conta-mercantil-whatsapp/",
+      "title": "Um terço dos novos clientes do Mercantil abre conta pelo WhatsApp",
+      "industry": "banking",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.2
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/06/11/2026/tim-videomonitora-5g-rio/",
+      "title": "TIM e Smart Luz ampliam videomonitoramento urbano no Rio com 5G",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/06/11/2026/bws-iot-modulo-satelite/",
+      "title": "BWS IoT planeja módulo com conectividade satelital para 2027",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.25
+    },
+    {
+      "url": "https://dplnews.com/ia-la-quinta-revolucion-industrial/",
+      "title": "IA, la quinta revolución industrial",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.02
+    },
+    {
+      "url": "https://dplnews.com/alphabet-participacion-qualcomm/",
+      "title": "Alphabet declara participación de 548 mdd en Qualcomm",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://dplnews.com/industria-tic-de-argentina-pide-revisar-los-nuevos-requisitos-de-ciberseguridad-para-telecomunicaciones/",
+      "title": "Industria TIC de Argentina pide revisar los nuevos requisitos de ciberseguridad para telecomunicaciones",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.2
+    },
+    {
+      "url": "https://dplnews.com/costa-rica-contraloria-rechaza-apelacion-contra-adjudicacion-de-partidas-para-red-5g-del-ice/",
+      "title": "Costa Rica | Contraloría rechaza apelación contra adjudicación de partidas para red 5G del ICE",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "procurement",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://dplnews.com/medios-publicos-y-culturales-2027-presupuesto-para-sobrevivir/",
+      "title": "Medios públicos y culturales 2027: presupuesto para sobrevivir",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.02
+    },
+    {
+      "url": "https://dplnews.com/telmex-eleva-16-su-ebitda-con-impulso-de-internet-pero-sigue-en-perdidas/",
+      "title": "Telmex eleva 16% su EBITDA con impulso de Internet, pero sigue en pérdidas",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.03
+    },
+    {
+      "url": "https://dplnews.com/incode-lanza-trustgraph-en-mexico-para-combatir-el-fraude-digital/",
+      "title": "Incode lanza TrustGraph en México para combatir el fraude digital",
+      "industry": "identity",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.55
+    },
+    {
+      "url": "https://dplnews.com/la-compra-de-att-por-televisa-pone-en-vilo-el-negocio-movil-con-megacable/",
+      "title": "La compra de AT&T por Televisa pone en vilo el negocio móvil con Megacable",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://dplnews.com/brasil-claro-conclui-mudanca-no-conselho-da-desktop/",
+      "title": "Brasil | Claro conclui mudança no conselho da Desktop",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "personnel",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://dplnews.com/fcc-controles-telecomunicaciones-mexico/",
+      "title": "FCC endurece controles sobre telecomunicaciones entre Estados Unidos, México y Canadá",
+      "industry": "telecom",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.15
+    },
+    {
+      "url": "https://www.telesemana.com/blog/2026/11/07/la-6g-promete-124-billones-de-dolares-a-la-economia-pero-deja-pendiente-la-gran-pregunta-de-las-telcos/",
+      "title": "La 6G promete 1,24 billones de dólares a la economía, pero deja pendiente la gran pregunta de las telcos",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.telesemana.com/blog/2026/11/06/millicom-elevo-608-su-facturacion-en-el-tercer-trimestre-y-cerro-con-558-millones-de-clientes-moviles/",
+      "title": "Millicom elevó 60,8% su facturación en el tercer trimestre y cerró con 55,8 millones de clientes móviles",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.03
+    },
+    {
+      "url": "https://www.telesemana.com/blog/2026/11/06/estados-unidos-estrecha-el-cerco-sobre-el-equipamiento-chino-para-las-redes-ahora-en-argentina/",
+      "title": "Estados Unidos estrecha el cerco sobre el equipamiento chino para las redes, ahora en Argentina",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/07/grnma-raises-concerns-over-nurse-brain-drain-staffing-shortages-poor-working-conditions/",
+      "title": "GRNMA raises concerns over nurse brain drain, staffing shortages, poor working conditions",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.02
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/07/majority-leader-assures-parliament-of-thorough-probe-into-passport-sale-allegations/",
+      "title": "Majority Leader assures Parliament of thorough probe into passport sale allegations",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "litigation",
+      "confidence": 0.3
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/07/president-mahama-pays-tribute-to-late-grace-nortey/",
+      "title": "President Mahama pays tribute to Late Grace Nortey",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "personnel",
+      "confidence": 0
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/06/the-ssnit-real-estate-gamble-series-adinkra-heights-enclave-on-paper-twin-towers-in-reality/",
+      "title": "The SSNIT Real Estate Gamble Series: Adinkra Heights — “Enclave” on paper, Twin Towers in reality",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0
+    },
+    {
+      "url": "https://techmoran.com/2026/11/07/zipline-raises-1-5-billion-at-21-5-billion-valuation-to-expand-u-s-drone-delivery-network/",
+      "title": "Zipline Raises $1.5 Billion at $21.5 Billion Valuation to Expand U.S. Drone Delivery Network",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.02
+    },
+    {
+      "url": "https://techmoran.com/2026/11/07/fuliza-deepfake-scams-stop-think-act-verify-to-keep-your-money-safe/",
+      "title": "How to Avoid Fuliza Deepfake Scams",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://techmoran.com/2026/11/04/yellow-card-acquires-brazils-gomoney-expanding-stablecoin-payments-operations-into-latin-america/",
+      "title": "Yellow Card Acquires Brazil’s GoMoney, Expanding Stablecoin Payments Operations into Latin America",
+      "industry": "banking",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.15
+    }
+  ],
+  "matrix": {
+    "apac": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "cis": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "mena": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "europe": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "north-america": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "latam": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "africa": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "global": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    }
+  },
+  "gaps": [
+    "apac",
+    "cis",
+    "mena",
+    "europe",
+    "north-america",
+    "latam",
+    "africa"
+  ],
+  "cellGaps": [],
+  "industryGaps": [
+    {
+      "industry": "banking",
+      "emptyRegions": [
+        "apac",
+        "cis",
+        "mena",
+        "europe",
+        "north-america",
+        "latam",
+        "africa"
+      ]
+    },
+    {
+      "industry": "telecom",
+      "emptyRegions": [
+        "apac",
+        "cis",
+        "mena",
+        "europe",
+        "north-america",
+        "latam",
+        "africa"
+      ]
+    },
+    {
+      "industry": "identity",
+      "emptyRegions": [
+        "apac",
+        "cis",
+        "mena",
+        "europe",
+        "north-america",
+        "latam",
+        "africa"
+      ]
+    }
+  ],
+  "matrixBasis": {
+    "computedAt": "2026-11-07T17:50:22.671Z",
+    "confidenceFloor": 0.6,
+    "windowHours": 72,
+    "industryGapFloor": 4,
+    "counted": 0,
+    "dropped": {
+      "published": 0,
+      "expired": 0,
+      "undated": 6,
+      "lowConfidence": 51,
+      "invalid": 0
+    }
+  }
+}

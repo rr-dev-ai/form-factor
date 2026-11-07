@@ -1,0 +1,57 @@
+{
+  "fetchedAt": "2026-11-08T01:56:29+08:00",
+  "fetchedFor": "2026-11-08",
+  "gap": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"],
+  "cellGap": [],
+  "industryGap": ["banking", "telecom", "identity"],
+  "items": [
+    {
+      "title": "AI+eSIM：拥抱轻智能，上海海思携手中国移动共创智能经济新形态",
+      "url": "https://www.163.com/news/article/LB2B668M00019UD6.html",
+      "publishedAt": "2026-11-06T13:47:45+08:00",
+      "industry": "telecom",
+      "region": "apac",
+      "regions": [],
+      "actionType": "产品化节点",
+      "gateNote": "够得上产品化节点：有方案名（eSIM 一号双和独立号安全开卡公版方案）、有可交付形态（谛听表芯套片/模组 + 通用 eSIM 安全开卡 SDK）、有目标客户（智能手表厂商）。离动作门差三处：只在 2026 移动网络大会上展示，没有签约厂商、没有商用资费、没有运营商侧对接时间表；手机端组件仍植入手表厂 APP，中国移动 APP 统一入口只是「未来计划」；稿源署「大京新闻网」，属厂商通稿转载，无第三方核实。终审若按「展会展示、未落地」处理会刷掉。",
+      "discoveredBy": "量子安全 SIM 卡 PQC 紫光同芯 超级SIM 双芯合封",
+      "note": "落在 eSIM 的分发与载体两端：海思出表芯模组，与中国移动繁星智算共研开卡 SDK——手机端组件由移动做，手表端由海思做，负责设备身份认证、近距离验证与配置下载。机制变化是把「同品牌手机配手表才能开卡」改成不依赖品牌与 OS 的端到端加密验签通道，门槛从手机厂下放到任一手表厂。原文没说的是：无签约厂商名单、无资费与放号量，未提是否过 GSMA 认证，也没说与移动 eSIM 平台如何对接。"
+    },
+    {
+      "title": "State turns to chiefs to trace owners of 557,930 uncollected IDs ahead of 2027 polls",
+      "url": "https://www.the-star.co.ke/news/2026-11-07-state-grapples-with-557930-uncollected-ids-ahead-of-2027-polls",
+      "publishedAt": "2026-11-07T04:55:00+03:00",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "actionType": "无",
+      "gateNote": "六类都不贴：不是授标（本轮无采购）、不是产能扩张（日产 2 万张是既有印刷能力的陈述，没有新产线新厂）、不是标准、不是新产品、也不是跨国落地。它改的是发放与通知流程——免除 Sh300 新办费与 Sh1,000 补办费，让村长协助找卡主，短信通知系统在 e-Citizen 上收尾。离动作门差「可核的新增物」：无新卡种、无新芯片、无供应商变更。终审若判为行政整顿，会刷掉。",
+      "discoveredBy": "Kenya Nigeria digital ID card launch Huduma NIMC November 2026",
+      "note": "落在证件的分发与受理环节：557,930 张已制卡未领取，其中近 40 万张滞留超十年，直接关系 2027 年 1 月选民登记资格。机制变化是费用归零（新办 Sh300、补办 Sh1,000 全免）加三级触达——国家行政官员按辖区拿未领取名单、村长与助理村长找卡主，并考虑允许登记官在核验后把卡交给父母或监护人。原文没说的是：卡片由哪家厂制、芯片与个性化承接方是谁、补印预算从哪来。"
+    },
+    {
+      "title": "Pine Labs, Stripe Partner to Unify Online, In-Store Payments For Singapore Retailers",
+      "url": "https://www.crowdfundinsider.com/2026/11/321833-pine-labs-stripe-partner-to-unify-online-in-store-payments-for-singapore-retailers/",
+      "publishedAt": "2026-11-07T09:44:00-05:00",
+      "industry": "banking",
+      "region": "apac",
+      "regions": [],
+      "actionType": "联合部署",
+      "gateNote": "按联合部署记：Stripe 出线上收单、Pine Labs 出终端与商户服务，新加坡先行、2027 扩东南亚，起讫写明（2026 年 11 月起）。离动作门差两处：一是原文只写「合资格零售商」，没有商户数、终端投放量、定价；二是受理侧没有本地收单行或卡组织署名，属两家收单服务商的渠道整合。若终审按「渠道合作」处理，会被归到不发。",
+      "discoveredBy": "payment terminal deployment acquirer bank rollout November 7 2026",
+      "note": "落在受理环节：把线上收单（Stripe）与线下终端（Pine Labs）并到同一后台，商户在一个视图里看跨渠道交易与对账。机制变化在受理的合并——同一商户下支持信用卡、QR 与非接，并把分期（跨多家发卡行）、积分抵扣、商户出资立减挂到同一笔交易，等于把收单、分期与营销从三家供应商收成一家。原文没说的是：没给商户数、终端型号与台数、费率，也没说清算与结算走哪条通道。"
+    },
+    {
+      "title": "Face Authentication Adoption Surges to 80% as DLC Campaign 5 Generates Nearly 40 Lakh Certificates in First Five Days: Dr. Jitendra Singh",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2333632",
+      "publishedAt": "2026-11-06T16:47:00+05:30",
+      "industry": "identity",
+      "region": "apac",
+      "regions": [],
+      "actionType": "无",
+      "gateNote": "六类都不贴：既非授标也非新产品，DLC 用的仍是人脸核验（AadhaarFaceRD 与 Jeevan Pramaan Face App），本轮变的只是活动届次与覆盖点数（近 3,000 个点）。属运营放大而非形态变化，没有新芯片、新卡种、新认证等级。终审几乎一定会按「政府活动通报」刷掉；留在这里是因为它是今天 apac/identity 唯一带硬数字的一手源，可作背景与对比基数。",
+      "discoveredBy": "biometric identity contract signed government ministry 6 November 2026",
+      "note": "落在凭证的签发与受理之间：养老金领取人每年要「活着证明」一次，过去靠柜台指纹，现在用手机人脸核验生成数字生命证明（DLC），由银行与养老金发放机构受理。机制变化在核验通道的替换——去年 1.92 亿份 DLC 中 1.17 亿走人脸，本轮前五日人脸占比从 61% 升到近 80%，人脸已从补充手段变成主通道。原文没说的是：没有失败率与人工兜底量，没说覆盖不了多少老人，也没给各邦差异。"
+    }
+  ]
+}

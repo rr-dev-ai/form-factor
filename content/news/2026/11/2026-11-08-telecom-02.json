@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-08-telecom-02",
+  "slug": "china-mobile-esim-applet-migration",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "esim"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-08T04:18:33+08:00",
+  "ingestedAt": "2026-11-08T02:50:00+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "中国日报网",
+      "url": "https://cn.chinadaily.com.cn/a/202611/05/WS6aec1a65e4b0e14252fc9537.html",
+      "lang": "zh",
+      "publishedAt": "2026-11-05T13:55:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "中国移动把超级 SIM 的卡内应用搬进 eSIM，换机不必重开",
+    "en": "China Mobile moves Super SIM applets into eSIM so they survive a device swap",
+    "es": "China Mobile traslada las aplicaciones de la Super SIM al eSIM para que sobrevivan al cambio de móvil"
+  },
+  "summary": {
+    "zh": "11 月 5 日，中移动金融科技在 2026 移动网络大会上称完成 eSIM 终端多应用全生命周期验证，超级 SIM 内的门禁、交通、支付应用可随号码迁移到 eSIM 终端。其超级 SIM 已覆盖 330 余座城市及港澳的公共交通，9 月在湛江落地数字人民币 SIM 硬钱包校园方案。",
+    "en": "China Mobile Financial Technology said at the 2026 Mobile Network Conference on 5 November that it had completed a full-lifecycle validation of multiple applications on an eSIM device, allowing access-control, transit and payment applets on its Super SIM to migrate with the number to an eSIM handset. Super SIM already covers public transport in more than 330 Chinese cities plus Hong Kong and Macao, and in September the company deployed a digital-yuan SIM wallet on a campus in Zhanjiang.",
+    "es": "China Mobile Financial Technology afirmó el 5 de noviembre en la conferencia Mobile Network 2026 que completó una validación de ciclo de vida completo de varias aplicaciones en un terminal eSIM, permitiendo que las aplicaciones de control de acceso, transporte y pago de su Super SIM migren con el número a un móvil eSIM. La Super SIM ya cubre el transporte público en más de 330 ciudades chinas, además de Hong Kong y Macao, y en septiembre desplegó una cartera digital en yuanes sobre SIM en un campus de Zhanjiang."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "验的是应用搬家，不是写卡",
+        "en": "The test is applet migration, not profile download",
+        "es": "La prueba es la migración de aplicaciones, no la descarga de perfiles"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "普通 eSIM 换机，运营商把 profile 重新下发到新终端，号码与资费跟着走，但卡内由第三方签发的应用不会自动跟过去。中移动金融科技这次验证的，是超级 SIM 里的多应用在 eSIM 终端上完成从开通、使用到迁移的全生命周期：门禁、交通、支付这些原本烧在实体卡安全域里的应用，可以随号码搬到 eUICC 上继续用。公司方称之为「全球首例」，公告未给出参与厂商、迁移耗时与失败率。",
+        "en": "With an ordinary eSIM device swap, the operator reissues the profile to the new handset and the number and plan follow, but applets issued by third parties do not move automatically. China Mobile Financial Technology says it validated the full lifecycle of multiple Super SIM applets on an eSIM device, from activation and use to migration: access-control, transit and payment applets originally loaded into the physical card's security domain can move with the number to the eUICC and keep working. The company calls it an industry first; the announcement gives no participating vendors, migration time or failure rate.",
+        "es": "En un cambio de terminal eSIM habitual, el operador reemite el perfil al nuevo móvil y el número y la tarifa le siguen, pero las aplicaciones emitidas por terceros no se trasladan solas. China Mobile Financial Technology dice haber validado el ciclo completo de varias aplicaciones de la Super SIM en un terminal eSIM, desde el alta y el uso hasta la migración: aplicaciones de acceso, transporte y pago cargadas en el dominio seguro de la tarjeta física pueden pasar con el número al eUICC y seguir funcionando. La empresa lo presenta como el primer caso del sector; el anuncio no detalla proveedores, tiempo de migración ni tasa de fallos."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这套能力建立在既有规模上。按同一场大会披露的口径，超级 SIM 的交通应用已落地全国 330 余座城市及港澳，接入充电桩超过 220 万个、加油站 7 万余座；今年 9 月，全国首个数字人民币 SIM 硬钱包校园方案在湛江落地，把通信、校园身份认证与数字人民币支付放进同一张卡；中移动金融科技还与银联合作，用超级 SIM 做手机 POS 收单。应用跟号码走，意味着换机、换卡时这些场景不必重新申领。",
+        "en": "The capability builds on an existing base. According to figures presented at the same conference, Super SIM transit applications are live in more than 330 cities plus Hong Kong and Macao, connected to over 2.2 million charging points and more than 70,000 petrol stations. In September, the first campus deployment of a digital-yuan SIM hardware wallet went live in Zhanjiang, putting communications, campus identity checks and digital-yuan payments on one card. China Mobile Financial Technology also works with UnionPay on using Super SIM for phone-based POS acquiring. If applets travel with the number, those use cases no longer need re-issuance when a user changes device or card.",
+        "es": "La capacidad se apoya en una base existente. Según las cifras presentadas en la misma conferencia, las aplicaciones de transporte de la Super SIM operan en más de 330 ciudades, además de Hong Kong y Macao, con más de 2,2 millones de puntos de carga y 70.000 gasolineras conectadas. En septiembre se puso en marcha en Zhanjiang el primer despliegue universitario de una cartera digital en yuanes sobre SIM, que reúne comunicaciones, verificación de identidad del campus y pagos en yuanes digitales en una sola tarjeta. China Mobile Financial Technology también colabora con UnionPay para usar la Super SIM como terminal POS. Si las aplicaciones viajan con el número, esos casos de uso dejan de requerir una nueva emisión al cambiar de dispositivo o de tarjeta."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公告没有回答三个关键问题：迁移由哪一层完成（eUICC 内的安全域、TSM 平台还是运营商 App）、哪些终端与芯片已经支持、什么时候从验证走到规模商用。也没有第三方对该验证的复现或审计。对一条要承载支付与门禁凭据的链路，这些信息的缺失比「首例」这个说法更值得注意。",
+        "en": "The announcement leaves three questions open: which layer performs the migration (a security domain inside the eUICC, a TSM platform or the operator app), which devices and chipsets already support it, and when it moves from validation to commercial scale. No third party has reproduced or audited the test. For a chain meant to carry payment and access credentials, those gaps matter more than the first-of-its-kind claim.",
+        "es": "El anuncio deja tres preguntas abiertas: qué capa realiza la migración (un dominio seguro dentro del eUICC, una plataforma TSM o la app del operador), qué terminales y chips la soportan ya, y cuándo pasará de la validación a la escala comercial. Ningún tercero ha reproducido ni auditado la prueba. Para una cadena destinada a credenciales de pago y acceso, esas ausencias importan más que la etiqueta de primer caso."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "卡内应用能跟着号码走，意味着 eUICC 不再只是运营商 profile 的容器，还要承担交通卡、门禁、支付这类由第三方签发、按应用生命周期管理的凭据。对智能穿戴与终端厂，换机不再需要重新申领实体卡应用，产品设计可以少一个卡座和一套发卡流程；对卡商与 TSM，价值从「发卡」转向「应用移植与安全域管理」，谁能在 eUICC 上把多应用隔离和远程管理做稳，谁拿到下一轮穿戴订单。中国 eSIM 手机商用试验正在把多终端协同变成运营商的竞争点，这条迁移链路跑通，手表、平板与手机共用号码的门槛才会真正下降。",
+    "en": "If applets travel with the number, the eUICC stops being just a container for operator profiles and becomes the host for third-party credentials, including transit, access and payment applets managed over their own lifecycles. For wearable and device makers, a device swap no longer forces a fresh application for card-based services, which removes a card slot and an issuance process from product design. For card vendors and TSM providers, value shifts from issuing to applet migration and security-domain management: whoever can run multi-application isolation and remote management reliably on an eUICC wins the next round of wearable orders. China's commercial eSIM handset trial is turning multi-device coordination into a competitive point for operators; only when this migration path works does sharing one number across phone, watch and tablet become practical.",
+    "es": "Si las aplicaciones viajan con el número, el eUICC deja de ser solo un contenedor de perfiles del operador y pasa a alojar credenciales de terceros, incluidas aplicaciones de transporte, acceso y pago con su propio ciclo de vida. Para fabricantes de wearables y dispositivos, cambiar de equipo ya no obliga a solicitar de nuevo servicios basados en tarjeta, lo que elimina una ranura y un proceso de emisión del diseño. Para proveedores de tarjetas y plataformas TSM, el valor se desplaza de la emisión a la migración de aplicaciones y la gestión de dominios seguros: quien logre aislamiento multi-aplicación y gestión remota fiables en el eUICC se llevará la siguiente ronda de pedidos de wearables. El ensayo comercial de eSIM en móviles en China convierte la coordinación entre dispositivos en un punto competitivo; solo cuando esta ruta funcione será práctico compartir un número entre móvil, reloj y tableta."
+  },
+  "confidence": 0.62,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-pool-v1"
+  }
+}

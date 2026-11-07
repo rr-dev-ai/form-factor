@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-08",
+  "industry": "identity",
+  "startedAt": "2026-11-08T03:10:18+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "24 EU countries join two-year project to put driving licences in digital ID wallets",
+      "url": "https://mobileidworld.com/24-eu-countries-join-two-year-project-to-put-driving-licences-in-digital-id-wallets/",
+      "reason": "时效门：mDL4EU 联盟公告发布于 10-23，项目虽写 11 月起跑，但无 11-05 之后的启动节点可核，超出 72 小时。"
+    },
+    {
+      "title": "Germany sets January launch for d-you digital identity wallet",
+      "url": "https://mobileidworld.com/germany-sets-january-launch-for-d-you-digital-identity-wallet/",
+      "reason": "时效门：联邦数字化部公告在 9 月 11 日，2027-01-02 上线是未来计划，本窗口无新变化。"
+    },
+    {
+      "title": "Virginia becomes the 15th state to put a driver's license in Apple Wallet",
+      "url": "https://mobileidworld.com/virginia-becomes-the-15th-state-to-put-a-drivers-license-in-apple-wallet/",
+      "reason": "时效门：上线在 8 月 26 日，远超 72 小时。"
+    },
+    {
+      "title": "COOP Jednota verifies 57,000 shoppers with Innovatrics for unstaffed 24/7 stores",
+      "url": "https://idtechwire.com/coop-jednota-verifies-57000-shoppers-with-innovatrics-for-unstaffed-24-7-stores/",
+      "reason": "时效门：案例研究发布于 10-21，第 40 家无人店 9 月开业，超出 72 小时。"
+    },
+    {
+      "title": "Fime expands eID efforts beyond Europe, including U.S. mDL pilots",
+      "url": "https://idtechwire.com/fime-expands-eid-efforts-beyond-europe-including-us-mdl-pilots/",
+      "reason": "无法核对：首页链接指向的详情页返回 404，拿不到发布日期、实验室清单与认证范围，不能凭标题写。"
+    },
+    {
+      "title": "hashID launches digital wallet with privacy-first age checks and encrypted messaging",
+      "url": "https://www.biometricupdate.com/202611/hashid-launches-digital-wallet-with-privacy-first-age-checks-and-encrypted-messaging",
+      "reason": "duplicate-of-2026-11-06-identity-04：同一发布、同一产品，11-06 已发，本条只是换信源重读。"
+    },
+    {
+      "title": "Dermalog joins NIST FastCAP list for contactless fingerprint biometrics",
+      "url": "https://www.biometricupdate.com/202611/dermalog-joins-nist-fastcap-list-for-contactless-fingerprint-biometrics",
+      "reason": "duplicate-of-2026-11-06-identity-02：NIST 名单扩到 14 家与 Dermalog 入选是同一事件，11-06 已发。"
+    },
+    {
+      "title": "UIDAI onboards 300 offline verification seeking entities (OVSEs)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2333632",
+      "reason": "duplicate-of-2026-11-07-identity-04：Aadhaar 离线核验接入 300 家机构已于 11-07 发布；补位池此条为同一 PIB 稿的另一入口。"
+    },
+    {
+      "title": "Innovatrics earns high-level injection attack detection certification under CEN/TS 18099",
+      "url": "https://idtechwire.com/innovatrics-earns-high-level-injection-attack-detection-certification-under-cen-ts-18099/",
+      "reason": "duplicate-of-2026-11-03-identity-03：同一项 CEN/TS 18099 最高档认证，11-03 已发。"
+    },
+    {
+      "title": "Spain's Electoral Board clears MiDNI digital ID for Nov. 29 vote after Interior promises QR readers",
+      "url": "https://idtechwire.com/spains-electoral-board-clears-midni-digital-id-for-nov-29-vote-after-interior-promises-qr-readers/",
+      "reason": "duplicate-of-2026-11-07-identity-02：MiDNI 获准用于 11-29 投票已于 11-07 发布。"
+    },
+    {
+      "title": "Kosovo launches national digital ID wallet, e-signatures ahead of EUDI alignment",
+      "url": "https://www.biometricupdate.com/202611/kosovo-launches-national-digital-id-wallet-e-signatures-ahead-of-eudi-alignment",
+      "reason": "duplicate-of-2026-11-07-identity-01：科索沃电子身份与数字钱包已于 11-07 发布。"
+    },
+    {
+      "title": "Paravision confirms passport photo, deepfake detection role in State Department contract",
+      "url": "https://www.biometricupdate.com/202611/paravision-confirms-passport-photo-deepfake-detection-role-in-state-department-contract",
+      "reason": "duplicate-of-2026-11-06-identity-01：同一份国务院合同，11-06 已按授标发布；本条只是补充用途说明。"
+    },
+    {
+      "title": "Incode lanza TrustGraph en México para combatir el fraude digital",
+      "url": "https://dplnews.com/incode-lanza-trustgraph-en-mexico-para-combatir-el-fraude-digital/",
+      "reason": "范围门：跨机构反欺诈信号网络，标的物不是证件载体、签发设备或核验终端。"
+    },
+    {
+      "title": "Google proposes using digital credentials for secure account recovery",
+      "url": "https://www.biometricupdate.com/202611/google-proposes-using-digital-credentials-for-secure-account-recovery",
+      "reason": "动作门：提案与设想，没有版本号、发证方或可商用产品，六类动作无一落地。"
+    },
+    {
+      "title": "Vietnam defends privacy safeguards in draft mandatory digital ID law",
+      "url": "https://www.biometricupdate.com/202611/vietnam-defends-privacy-safeguards-in-draft-mandatory-digital-id-law",
+      "reason": "动作门：仍是征求意见中的法律草案，无生效时间与实施机制。"
+    },
+    {
+      "title": "Audit calls for upgrades to PNG's civil registration and ID infrastructure",
+      "url": "https://www.biometricupdate.com/202611/audit-calls-for-upgrades-to-pngs-civil-registration-and-id-infrastructure",
+      "reason": "动作门：审计建议，无采购、无金额、无承接方。"
+    },
+    {
+      "title": "WE BUILD plans next year of digital identity, business wallet pilots",
+      "url": "https://www.biometricupdate.com/202611/we-build-plans-next-year-of-digital-identity-business-wallet-pilots",
+      "reason": "动作门：来年试点计划，无产品名、无参数、无落地市场。"
+    },
+    {
+      "title": "America is building an online ID system by lawsuit",
+      "url": "https://www.biometricupdate.com/202611/america-is-building-an-online-id-system-by-lawsuit",
+      "reason": "动作门：评述性稿件，梳理诉讼脉络，本身不是事件。"
+    },
+    {
+      "title": "Police Scotland demonstrates live facial recognition as calls for legislation grow",
+      "url": "https://www.biometricupdate.com/202611/police-scotland-demonstrates-live-facial-recognition-as-calls-for-legislation-grow",
+      "reason": "范围门：执法实时人脸识别演示，标的物不是证件或核验终端产品。"
+    },
+    {
+      "title": "Herta joins €14M Spanish police forensic AI projects",
+      "url": "https://www.biometricupdate.com/202611/herta-joins-e14m-spanish-police-forensic-ai-projects",
+      "reason": "范围门：警务取证 AI 项目，落在执法侧而非凭证链路。"
+    },
+    {
+      "title": "45 attorneys general back KOSA as age verification question remains open",
+      "url": "https://www.biometricupdate.com/202611/45-attorneys-general-back-kosa-as-age-verification-question-remains-open",
+      "reason": "范围门：平台年龄治理立法博弈，不涉及证件载体或签发机制。"
+    },
+    {
+      "title": "Australia's High Court weighs free speech challenge to social media age law",
+      "url": "https://www.biometricupdate.com/202611/australias-high-court-weighs-free-speech-challenge-to-social-media-age-law",
+      "reason": "范围门：平台年龄限制的宪法诉讼，属平台规则。"
+    },
+    {
+      "title": "Tunisia's Khidmat app offers more than 40 administrative services via digital identity",
+      "url": "https://www.mosaiquefm.net/fr/tunisie-societe/1389245/services-administratifs-identite-numerique",
+      "reason": "动作门：服务目录扩充，无新凭证形态、无认证等级变化。"
+    },
+    {
+      "title": "State turns to chiefs to trace owners of 557,930 uncollected IDs ahead of 2027 polls",
+      "url": "https://www.the-star.co.ke/news/2026-11-07-state-grapples-with-557930-uncollected-ids-ahead-of-2027-polls",
+      "reason": "动作门：免收费与催领属行政清欠，无新卡种、无新芯片、无供应商变更；与补位池 gateNote 判断一致。"
+    },
+    {
+      "title": "Face authentication adoption surges to 80% as DLC Campaign 5 generates nearly 40 lakh certificates",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2333632",
+      "reason": "动作门：政府活动届次与覆盖点数通报，用的仍是既有 AadhaarFaceRD 与人脸 App，属运营放大。"
+    },
+    {
+      "title": "NADRA directs institutions to accept digital ID cards",
+      "url": "https://meragharmeraashiana.com.pk/?p=3023",
+      "reason": "时效门：原文标注 2026-03-13，属旧闻聚合站转载，超出窗口。"
+    },
+    {
+      "title": "Sweden's Digg says BankID will connect to Sweden Connect",
+      "url": "https://mobileidworld.com/people-in-sweden-can-apply-for-a-state-alternative-to-bankid-from-dec-1-then-use-it-on-their-phones/",
+      "reason": "并入 2026-11-08-identity-01 的正文：同一篇报道里的配套变化，Digg 与 BankID 未定时间表，单列会缺可核节点。"
+    }
+  ],
+  "stats": {
+    "candidates": 70,
+    "written": 1,
+    "skippedByDedup": 7
+  },
+  "finishedAt": "2026-11-07T20:17:55.593Z"
+}

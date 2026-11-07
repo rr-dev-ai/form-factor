@@ -4,80 +4,6 @@
   "startedAt": "2026-11-06T02:35:08+08:00",
   "drafts": [
     {
-      "id": "2026-11-06-banking-02",
-      "slug": "mastercard-samsung-pay-morocco-mdes",
-      "industry": "banking",
-      "region": "mena",
-      "regions": [],
-      "tags": [
-        "tokenization",
-        "digital-wallet"
-      ],
-      "originalLang": "en",
-      "sources": [
-        {
-          "name": "Business Wire",
-          "url": "https://www.businesswire.com/news/home/20261104551424/en/",
-          "lang": "en",
-          "publishedAt": "2026-11-04T20:17:00-05:00"
-        }
-      ],
-      "title": {
-        "zh": "Mastercard 把摩洛哥的卡装进三星钱包，靠 MDES 令牌",
-        "en": "Mastercard puts Moroccan cards into Samsung Pay via MDES tokens",
-        "es": "Mastercard lleva las tarjetas marroquíes a Samsung Pay con tokens MDES"
-      },
-      "summary": {
-        "zh": "11 月 4 日，Mastercard 宣布支持 Samsung Pay 在摩洛哥上线：参与银行的 Mastercard 卡持卡人可把卡装进三星手机与手表，在受理非接触支付的商户付款，卡号由 MDES 令牌替换。公告未给出参与发卡行名单、发卡量目标与确切上线日，只说明双方将在摩洛哥做联合推广。",
-        "en": "Mastercard said on 4 November that it is supporting the launch of Samsung Pay in Morocco: cardholders at participating banks can load Mastercard cards onto Samsung phones and watches and pay at contactless merchants, with MDES tokens replacing the card number. No issuer list, volume target or exact launch date was disclosed; the two firms will run a joint campaign in Morocco.",
-        "es": "Mastercard anunció el 4 de noviembre su apoyo al lanzamiento de Samsung Pay en Marruecos: los titulares de tarjetas Mastercard de bancos participantes pueden cargarlas en móviles y relojes Samsung y pagar en comercios sin contacto, con tokens MDES en lugar del número de tarjeta. No se dieron emisores, objetivo de volumen ni fecha exacta; ambas firmas harán una campaña conjunta."
-      },
-      "body": [
-        {
-          "kind": "h",
-          "text": {
-            "zh": "令牌先落地，银行名单后补",
-            "en": "Tokens first, issuer list later",
-            "es": "Primero los tokens, después los emisores"
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "11 月 4 日，Mastercard 宣布支持 Samsung Pay 在摩洛哥上线。符合条件的 Mastercard 卡持卡人，在参与银行的支持下，可以把卡装进兼容的三星设备，在受理非接触支付的商户完成付款。令牌化由 Mastercard 的 MDES 完成，卡号不进入设备。",
-            "en": "Mastercard said on 4 November that it is supporting Samsung Pay's launch in Morocco. Eligible Mastercard cardholders at participating banks can load their cards onto compatible Samsung devices and pay at merchants that accept contactless payments. Tokenisation runs through MDES, Mastercard's digital enablement service, so the card number does not sit on the device.",
-            "es": "Mastercard anunció el 4 de noviembre su apoyo al lanzamiento de Samsung Pay en Marruecos. Los titulares elegibles de bancos participantes pueden cargar sus tarjetas en dispositivos Samsung compatibles y pagar en comercios con pago sin contacto. La tokenización corre por MDES, el servicio de habilitación digital de Mastercard, de modo que el número de tarjeta no reside en el dispositivo."
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "机制上，这是把卡号换成一枚设备令牌：交易时用令牌代替卡号，真正的凭证留在令牌库里，配合设备端的认证与基于风险的安全检查。对收单侧，受理方式没有变化——仍是非接触 EMV 交易，终端只要支持非接触即可，不需要为这个上线单独改造。",
-            "en": "Mechanically this swaps the card number for a device token: transactions carry the token instead of the PAN, the real credential stays in the token vault, and device authentication plus risk-based checks sit alongside. On the acquiring side nothing changes in how the payment is taken, since it remains a contactless EMV transaction; terminals only need contactless support and no separate integration for this launch.",
-            "es": "En lo mecánico, el número de tarjeta se sustituye por un token de dispositivo: la operación lleva el token en lugar del PAN, la credencial real queda en la bóveda de tokens y se suman autenticación del dispositivo y controles por riesgo. En la adquirencia no cambia la forma de aceptar el pago, que sigue siendo una transacción EMV sin contacto; basta con que el terminal soporte contacto y no hace falta integración adicional."
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "公告没有给出参与发卡行名单、首年发卡量或受理覆盖率，也没有说明是否支持在线商户。Mastercard 同时重申其到 2030 年把线上交易全部令牌化的目标；摩洛哥这一步属于该方向上的市场扩张，而非新机制。",
-            "en": "The announcement names no issuing banks, gives no first-year volume or acceptance coverage, and does not say whether online merchants are included. Mastercard restated its goal of tokenising 100% of online transactions by 2030; the Morocco step is market expansion along that line rather than a new mechanism.",
-            "es": "El anuncio no nombra emisores, no da volumen del primer año ni cobertura de aceptación, y no aclara si incluye comercio online. Mastercard reiteró su meta de tokenizar el 100% de las transacciones online en 2030; el paso marroquí es expansión de mercado en esa línea, no un mecanismo nuevo."
-          }
-        }
-      ],
-      "whyItMatters": {
-        "zh": "对摩洛哥的发卡行，这是一次低成本补齐移动支付：不用自建钱包，接 MDES 就能把卡放进三星设备，代价是把令牌生命周期交给卡组织。对收单与终端供应商，短期没有增量——非接触终端本来就受理，真正受益的是能把「手机能刷」讲进商户方案的集成商。中期看两件事：一是参与银行会不会从一两家扩到多数发卡行，二是令牌化之后线上交易的身份验证与拒付规则怎么落。公告缺发卡量、缺银行名单、缺时间表，说明这仍是一个刚起步的市场动作，不宜按「摩洛哥全面上线」来读。",
-        "en": "For Moroccan issuers this is a cheap way to catch up on mobile payments: no wallet to build, just an MDES connection to put cards on Samsung devices, at the cost of handing token lifecycle to the scheme. For acquirers and terminal vendors there is no short-term increment, since contactless terminals already accept these payments; the gain sits with integrators who can sell \"phone-ready\" into merchant proposals. Two things to watch over the medium term: whether participating banks widen from one or two to most issuers, and how authentication and dispute rules for online transactions land once credentials are tokenised. Missing volumes, missing issuer names and a missing timetable make this an early market move, not a national rollout.",
-        "es": "Para los emisores marroquíes es una forma barata de alcanzar el pago móvil: sin construir cartera, basta una conexión MDES para poner tarjetas en dispositivos Samsung, a cambio de ceder al esquema el ciclo de vida del token. Para adquirentes y proveedores de terminales no hay incremento a corto plazo, porque los terminales sin contacto ya aceptan estos pagos; la ganancia está en integradores que puedan vender \"listo para móvil\" a los comercios. Dos cosas a vigilar: si los bancos participantes pasan de uno o dos a la mayoría, y cómo quedan la autenticación y las disputas online una vez tokenizadas las credenciales. Sin volúmenes, sin emisores y sin calendario, es un movimiento temprano, no un despliegue nacional."
-      },
-      "confidence": 0.62,
-      "ai": {
-        "model": "deepseek-v4.1-flash",
-        "promptVersion": "banking-pool-v1"
-      }
-    },
-    {
       "id": "2026-11-06-banking-05",
       "slug": "bank-of-punjab-mastercard-world-elite",
       "industry": "banking",
@@ -146,85 +72,6 @@
         "es": "Para plataformas de emisión y proveedores de personalización, el incremento en Pakistán no está en el volumen sino en subir de nivel: una tarjeta premium implica sustratos metálicos o más pesados, chip de doble interfaz, personalización más exigente y conciliación estricta de beneficios, con más valor por tarjeta que un platinum estándar. Para Mastercard supone asegurar el nivel superior con un emisor local, a cambio de financiar beneficios y marketing conjunto. El riesgo está en la demanda: el segmento acomodado paquistaní es pequeño y el gasto transfronterizo depende de controles de cambio; si los beneficios se fijan a estándar internacional sobre una base estrecha, el nivel queda como adorno de cartera. Sin volúmenes, cuotas ni proveedores, es una posición de marca, no un movimiento de escala."
       },
       "confidence": 0.58,
-      "ai": {
-        "model": "deepseek-v4.1-flash",
-        "promptVersion": "banking-pool-v1"
-      }
-    },
-    {
-      "id": "2026-11-06-banking-06",
-      "slug": "tbc-georgia-palm-payments",
-      "industry": "banking",
-      "region": "europe",
-      "regions": [],
-      "tags": [
-        "acquiring",
-        "biometrics"
-      ],
-      "originalLang": "en",
-      "sources": [
-        {
-          "name": "IBS Intelligence",
-          "url": "https://ibsintelligence.com/ibsi-news/tbc-georgia-launches-palm-based-biometric-payments/",
-          "lang": "en"
-        },
-        {
-          "name": "FinTech Global",
-          "url": "https://fintech.global/2026/11/05/tbc-takes-card-free-payments-to-georgian-retailers/",
-          "lang": "en",
-          "publishedAt": "2026-11-05T00:00:00Z"
-        }
-      ],
-      "title": {
-        "zh": "TBC 银行在格鲁吉亚上线掌纹支付，先铺采集点",
-        "en": "TBC Georgia launches palm payments with in-branch enrolment",
-        "es": "TBC Georgia lanza pagos con la palma y enrolamiento en sucursal"
-      },
-      "summary": {
-        "zh": "TBC 银行在格鲁吉亚上线掌纹支付：客户先在配备掌纹扫描仪的网点做一次注册，用手机银行扫二维码绑定要扣款的账户，之后在参与商户刷手掌即可付款，不需要卡或手机。TBC 称自己是格鲁吉亚首家提供该服务的银行；公告未披露技术供应商、商户数量与上线日期。",
-        "en": "TBC Bank in Georgia has launched palm-based payments: customers enrol once at a branch equipped with a palm scanner, link the account to be debited by scanning a QR code in the mobile app, and then pay at participating merchants by scanning a palm, with no card or phone needed. TBC calls itself the first bank in Georgia to offer this; no technology supplier, merchant count or launch date was disclosed.",
-        "es": "TBC Bank en Georgia lanzó pagos con la palma: el cliente se enrola una vez en una sucursal con escáner de palma, vincula la cuenta de cargo escaneando un código QR en la app y luego paga en comercios participantes con la palma, sin tarjeta ni móvil. TBC se presenta como el primer banco de Georgia en ofrecerlo; no se dieron proveedor tecnológico, número de comercios ni fecha de lanzamiento."
-      },
-      "body": [
-        {
-          "kind": "h",
-          "text": {
-            "zh": "把生物特征当成一张卡",
-            "en": "Treating a biometric as the card",
-            "es": "Tratar la biometría como tarjeta"
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "TBC 银行（隶属伦敦上市的 TBC Bank Group）在格鲁吉亚推出掌纹支付。注册是一次性的：客户到配备专用掌纹扫描仪的网点采集，再用 TBC 手机银行扫二维码，选定要绑定的银行账户。完成后，在参与商户刷手掌即可完成扣款。",
-            "en": "TBC Bank, part of the London-listed TBC Bank Group, has launched palm payments in Georgia. Enrolment is one-time: the customer visits a branch with a dedicated palm scanner, then scans a QR code in the TBC mobile app and picks the bank account to link. After that, scanning a palm at a participating merchant completes the payment.",
-            "es": "TBC Bank, del grupo londinense TBC Bank Group, lanzó pagos con la palma en Georgia. El enrolamiento es único: el cliente acude a una sucursal con escáner de palma dedicado, escanea un código QR en la app de TBC y elige la cuenta a vincular. Después, pasar la palma en un comercio participante completa el pago."
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "机制上，掌纹替代的是「出示凭证」这一步：卡号与账户仍在后端，前端只做身份比对与扣款指令。这带来两个直接后果——受理端需要能读掌纹的设备或模组，而不是普通 POS；注册端需要物理采集点，线上无法完成。TBC 的路径是把采集放在网点，把支付放在商户，两端都靠自己铺。",
-            "en": "Mechanically the palm replaces the present-the-credential step: the card number and account stay in the back end, while the front end only matches a biometric and issues a debit instruction. Two consequences follow: acceptance needs a device or module that can read palms rather than a standard POS terminal, and enrolment needs a physical capture point that cannot be done online. TBC's route puts capture in branches and payment at merchants, with both ends built by the bank.",
-            "es": "En lo mecánico, la palma sustituye el paso de presentar la credencial: el número de tarjeta y la cuenta quedan en el back office, y el front solo compara la biometría y emite la instrucción de cargo. Dos consecuencias: la aceptación requiere un dispositivo o módulo capaz de leer la palma, no un TPV estándar, y el enrolamiento exige un punto físico de captura que no se resuelve online. TBC sitúa la captura en sucursales y el pago en comercios, y construye ambos extremos."
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "报道没有给出技术供应商、已接入商户数量、单笔限额与上线日期，也没有说明掌纹模板存在哪里、是否可撤销。TBC 称这是格鲁吉亚首个此类服务，该说法出自银行。同一篇报道提到，TBC 近期还与 American Express 签约扩大受理——两件事都指向同一个方向：用受理场景的差异化抢客户。",
-            "en": "The report gives no technology supplier, no merchant count, no per-transaction limit and no launch date, and does not say where palm templates are stored or whether they can be revoked. TBC describes the service as Georgia's first of its kind, a claim from the bank. The same report notes TBC recently signed with American Express to widen acceptance, both moves pointing the same way: differentiating on acceptance to win customers.",
-            "es": "El reporte no da proveedor tecnológico, número de comercios, límite por operación ni fecha de lanzamiento, y no aclara dónde se guardan las plantillas de palma ni si son revocables. TBC presenta el servicio como el primero de su tipo en Georgia, una afirmación del banco. El mismo reporte señala que TBC firmó recientemente con American Express para ampliar aceptación: ambos movimientos apuntan a diferenciarse en aceptación para captar clientes."
-          }
-        }
-      ],
-      "whyItMatters": {
-        "zh": "生物特征支付真正的门槛不在识别率，而在两端基础设施：采集点要有人、有设备、有流程，受理端要有能读掌纹的模组或外设。这决定了它先出现在网点密集、客群稳定的市场，而不是电商发达的市场。对做终端与外设的供应商，这是一条新硬件线；对发卡与收单机构，它把「凭证」从卡片和手机里拿出来，交给一个不可补发的生物模板——挂失、换绑、跨行迁移的规则都要重写。风险也在这里：模板一旦泄露无法更换， enrolment 又必须线下完成，扩张速度会被网点数量锁死。公告缺供应商、缺商户数、缺限额，说明这仍是单市场试点。",
-        "en": "The real barrier in biometric payments is not recognition accuracy but infrastructure at both ends: enrolment needs staff, devices and process, and acceptance needs a module or peripheral that reads palms. That pushes such schemes into markets with dense branch networks and stable customers rather than e-commerce-heavy ones. For terminal and peripheral vendors it is a new hardware line; for issuers and acquirers it pulls the credential out of the card and the phone and hands it to a biometric template that cannot be reissued, so rules for blocking, re-linking and portability must be rewritten. The risk sits there too: a leaked template cannot be replaced, and enrolment stays offline, capping expansion at branch capacity. No supplier, merchant count or limit means this is still a single-market pilot.",
-        "es": "La barrera real del pago biométrico no es la precisión sino la infraestructura en ambos extremos: el enrolamiento requiere personal, dispositivos y proceso, y la aceptación un módulo o periférico que lea la palma. Eso empuja estos esquemas a mercados con red de sucursales densa y clientela estable, no a los de fuerte comercio electrónico. Para proveedores de terminales y periféricos es una nueva línea de hardware; para emisores y adquirentes, saca la credencial de la tarjeta y del móvil y la entrega a una plantilla biométrica que no se puede reemitir, obligando a reescribir reglas de bloqueo, revinculación y portabilidad. El riesgo está ahí: una plantilla filtrada no se reemplaza y el enrolamiento sigue siendo presencial, con el crecimiento limitado por la capacidad de sucursales. Sin proveedor, comercios ni límites, sigue siendo un piloto de un solo mercado."
-      },
-      "confidence": 0.55,
       "ai": {
         "model": "deepseek-v4.1-flash",
         "promptVersion": "banking-pool-v1"
@@ -615,6 +462,13 @@
       "slug": "vtb-resident-card-750k-mir-multi-application",
       "title": "VTB 居民卡发到 75 万张，把政务与交通装进 Mir 卡",
       "reason": "跨池重复：同一稿已并入 2026-11-07 池，由 11-07 终审处理"
+    },
+    {
+      "title": "Mastercard 把摩洛哥的卡装进三星钱包，靠 MDES 令牌",
+      "url": "https://www.businesswire.com/news/home/20261104551424/en/",
+      "industry": "banking",
+      "slug": "mastercard-samsung-pay-morocco-mdes",
+      "reason": "duplicate-of-2026-11-07-banking mastercard-samsung-pay-morocco-mdes：同一 MDES×Samsung Pay 摩洛哥发布，11-07 池已是 Merchant's Eye 版本，本条保留会与入选稿重复"
     }
   ],
   "stats": {
@@ -622,5 +476,5 @@
     "written": 10,
     "skippedByDedup": 6
   },
-  "finishedAt": "2026-11-05T20:18:07.894Z"
+  "finishedAt": "2026-11-07T20:17:55.590Z"
 }
