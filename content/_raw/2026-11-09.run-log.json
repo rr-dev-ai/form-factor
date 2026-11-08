@@ -1,0 +1,229 @@
+{
+  "task": "gap-supplement",
+  "date": "2026-11-09",
+  "startedAt": "2026-11-09T01:50:43+08:00",
+  "finishedAt": "2026-11-09T01:54:53+08:00",
+  "measureNote": "全程实测时钟读数 6 个（01:50:43 起、01:51:23 R1 收、01:51:50 R2+R3 收、01:52:37 R4+R5 收、01:53:53 原文核验与写盘前、01:54:53 落盘后）。R6 未单独取时刻，落在 01:52:37–01:53:53 区间内，不做估算补写。",
+  "indexCheck": {
+    "file": "content/_raw/2026-11-09.index.json",
+    "fetchedFor": "2026-11-09",
+    "items": 16,
+    "verdict": "一次通过，未等待。fetchedFor 等于当日、items 非空，符合放行条件。16 条是本月最少，且 fetchedAt 字段缺失。"
+  },
+  "matrix": {
+    "counted": 0,
+    "dropped": {
+      "published": 0,
+      "expired": 0,
+      "undated": 0,
+      "lowConfidence": 16
+    },
+    "gap": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"],
+    "cellGap": [],
+    "industryGap": [
+      { "industry": "banking", "emptyRegions": 7 },
+      { "industry": "telecom", "emptyRegions": 7 },
+      { "industry": "identity", "emptyRegions": 7 }
+    ],
+    "note": "七区三行业全空，计入 0 条。cellGap 为空不是有稿，而是区域全空的已被 gaps 吸收。根因在源侧：16 条里 11 条来自加纳商业新闻（预算、卫生信息系统、AfCFTA、银行流动性）与 techmoran（肯尼亚数字银行牌照、ChamaBox、三星品牌榜），另 4 条 dplnews 为 AI 与周刊，1 条 biometricupdate 为观点稿，最高置信 0.2。不是阈值设错。"
+  },
+  "phases": [
+    { "at": "2026-11-09T01:50:43+08:00", "step": "站点日期 2026-11-09，index 校验通过（16 条，一次通过）" },
+    { "at": "2026-11-09T01:51:05+08:00", "step": "build-matrix 重算完成，计入 0 条，七区三行业全空" },
+    { "at": "2026-11-09T01:51:23+08:00", "step": "R1 结束（6 条），六条全废，转 R2 机构驱动" },
+    { "at": "2026-11-09T01:51:50+08:00", "step": "R2（6 条）、R3（6 条 + 1 次归档页直读）结束，R3 命中山西身份证原材料采购" },
+    { "at": "2026-11-09T01:52:37+08:00", "step": "R4（3 次归档页直读，0 条 query）、R5（3 条）结束，均无窗口内合格产出" },
+    { "at": "2026-11-09T01:53:30+08:00", "step": "R6（3 条）结束，三条全是旅游 eSIM 与资费包噪声" },
+    { "at": "2026-11-09T01:53:53+08:00", "step": "补轮 9 条结束，四篇原文核验完毕，supplement 落盘" },
+    { "at": "2026-11-09T01:54:53+08:00", "step": "run-log 落盘，JSON 复核通过" }
+  ],
+  "rounds": [
+    {
+      "round": "R1",
+      "count": 6,
+      "completedBetween": ["2026-11-09T01:50:50+08:00", "2026-11-09T01:51:23+08:00"],
+      "basis": "缺口驱动：七区三行业全空，按「区域 + 链路环节的产品词」发 6 条，identity 配证件与生物识别，banking 配发卡与 EMVCo，telecom 配 SGP.32 与 SoftPOS，上游制造配芯片产能。",
+      "queries": [
+        "India Aadhaar biometric authentication new rule November 2026",
+        "Saudi Arabia national ID digital identity wallet launch November 2026",
+        "card issuance platform certification November 2026 EMVCo",
+        "eSIM SGP.32 eIM operator launch November 2026",
+        "softPOS certification acquirer launch 6 November 2026",
+        "smart card chip production capacity expansion November 2026"
+      ],
+      "result": "六条零合格产出，且全部败在时效而非范围门。印度回 Aadhaar App 强制核验（马哈拉施特拉 11-04 起，超 72h）；沙特回 STC Pay 教程站与 startwithidentity 参考页，Absher 那条无发布日；EMVCo 回 IDEMIA ST 的 PQC Java Card 认证（11-02，11-05 已发）；SGP.32 回 Eseye AnyNet Select（11-03 发布，超窗）；SoftPOS 回 littlefish×Halo Dot（11-03，11-05 已发）；芯片产能回 Eastcompeace Rus 莫斯科厂（11-05，11-06 已发）与越南 VGC v1.0 安全芯片（11-03 发布，超窗）。"
+    },
+    {
+      "round": "R2",
+      "count": 6,
+      "completedBetween": ["2026-11-09T01:51:24+08:00", "2026-11-09T01:51:45+08:00"],
+      "basis": "机构驱动：把区域词换成该市场的具体主体——尼日利亚 NIMC、印尼央行、欧盟 EUDI、巴西 Febraban、沙特 SAMA、越南 Viettel。",
+      "basedOn": {
+        "NIMC Nigeria national identity card enrolment 7 November 2026": "R1 africa 三行业全空，改身份管理机构",
+        "Bank Indonesia QRIS payment system rule 6 November 2026": "R1 apac/banking 未出结果，改央行支付系统",
+        "European Digital Identity Wallet EUDI pilot launch 8 November 2026": "R1 europe 三行业全空，改钱包框架",
+        "Febraban Banco Central Brasil cartão de pagamento 6 de novembro de 2026": "R1 latam 三行业全空，换葡语发卡侧",
+        "SAMA mada payments Saudi Arabia new regulation November 2026": "R1 mena/banking 未出结果，改本地卡品牌",
+        "Viettel Vietnam chip eSIM SIM card 7 November 2026": "R1 telecom 全线零结果，改国有运营商"
+      },
+      "queries": [
+        "NIMC Nigeria national identity card enrolment 7 November 2026",
+        "Bank Indonesia QRIS payment system rule 6 November 2026",
+        "European Digital Identity Wallet EUDI pilot launch 8 November 2026",
+        "Febraban Banco Central Brasil cartão de pagamento 6 de novembro de 2026",
+        "SAMA mada payments Saudi Arabia new regulation November 2026",
+        "Viettel Vietnam chip eSIM SIM card 7 November 2026"
+      ],
+      "result": "六条零合格产出。尼日利亚回世行 ID4D 重组文件（10-22 成文，事件超窗）；印尼回 QRIS 参考站、税务博客与 payments.gi 监管概览页；EUDI 回 LSEG 分析稿与欧盟立法说明页，无当日事件；巴西回 BCB 第 520 号决议第 91 条（11-06 生效，但标的是虚拟资产服务商授权状态，不在三条链路）；沙特回 payments.gi 概览与 kanewire 付费稿；越南整条被 trvlsim、simfuse、etravelsim 旅游站占满。"
+    },
+    {
+      "round": "R3",
+      "count": 6,
+      "completedBetween": ["2026-11-09T01:51:26+08:00", "2026-11-09T01:51:50+08:00"],
+      "basis": "官方一手源：按缺口区域配当地语言采购术语，西、葡、阿、法、俄各一条，英语 TED 一条兜底，合计五条非英语。另加 1 次 biometricupdate 当月归档页直读作为交叉验证。",
+      "basedOn": {
+        "licitación tarjetas de identificación biometría noviembre 2026": "R2 六个机构全部无产出，转采购侧一手源",
+        "edital cartão de identificação nacional novembro 2026": "R2 巴西线只捞到虚拟资产决议，换葡语证件采购",
+        "مناقصة بطاقة الهوية الذكية نوفمبر 2026": "R2 沙特只回概览页，换阿语授标术语",
+        "appel d'offres carte d'identité biométrique novembre 2026": "R2 非洲零产出，按法语区证件采购推得",
+        "тендер смарт-карты персонализация ноябрь 2026": "R1/R2 cis 三行业全空，换俄语制卡采购",
+        "Tenders Electronic Daily identity card personalisation secure document 2026": "前五条只有一条命中，补 TED 英文标讯补齐下限"
+      },
+      "queries": [
+        "licitación tarjetas de identificación biometría noviembre 2026",
+        "edital cartão de identificação nacional novembro 2026",
+        "مناقصة بطاقة الهوية الذكية نوفمبر 2026",
+        "appel d'offres carte d'identité biométrique novembre 2026",
+        "тендер смарт-карты персонализация ноябрь 2026",
+        "Tenders Electronic Daily identity card personalisation secure document 2026"
+      ],
+      "result": "一条合格：licitación 那条命中中国政府采购网的山西省公安厅居民身份证原材料单一来源公示（11-06 19:30，53,621,888 元）。其余五条：edital 回菲律宾 PSA Palawan 岛屿登记（11-06，属常规服务下沉、无机制变化）与加纳 LI 2523 执法（11-03 超窗）；مناقصة 回 DHS OBIM 两份 5000 万级合同预告（11-04 成文，招标 12-01 才发）；appel d'offres 回加纳 NIA 移动核验 App（11-02 发布会）；тендер 回迪拜 nol–Jaywan 合卡（11-04，11-06 已发）；TED 回 Evolis 企业证卡博客、安哥拉 DPI 国别档案（数字身份平台招标为 8 月 13 日总统令）与 Identis 展会稿。"
+    },
+    {
+      "round": "R4",
+      "count": 0,
+      "completedBetween": ["2026-11-09T01:51:52+08:00", "2026-11-09T01:52:30+08:00"],
+      "basis": "行业垂直媒体：历史记录已确认域名字段限定写法在本机返回空，本轮改站点归档页直读。实际发 0 条 keyword query、做 5 次归档页抓取，低于「3 条 query」下限，在此如实记账。",
+      "fetched": [
+        "https://www.biometricupdate.com/202611 → 当月归档，拿到 11-06 至 11-07 全部 10 条标题与精确到分的 EST 时间，其中 3 条进入候选",
+        "https://www.paymentscardsandmobile.com/ → 实际返回 paymentsindustryintelligence 首页，最新到 11-08，命中冰岛 A2A",
+        "https://thepaypers.com/payments/news → 抓取内容被 Cookiebot 弹窗占满，无可读列表",
+        "https://idtechwire.com/id-tech-digest-november-7-2026 → 404，该站每日摘要非固定路径",
+        "https://www.mobileworldlive.com/latest-news/ → 404",
+        "https://www.telecomreviewafrica.com/ → 可读，但最新条目只到 11-05，11-06 至 11-08 无内容"
+      ],
+      "result": "两次有效：biometricupdate 归档与 paymentsindustryintelligence 首页。四个站点（thepaypers、idtechwire、mobileworldlive、telecomreviewafrica）在本轮不可用，其中两个 404、一个被弹窗阻塞、一个索引滞后。"
+    },
+    {
+      "round": "R5",
+      "count": 3,
+      "completedBetween": ["2026-11-09T01:51:52+08:00", "2026-11-09T01:52:30+08:00"],
+      "basis": "新兴术语：用还没成为通用词的表述找，避开已被旅游站污染的「区域 + eSIM」写法，也避开 R1 用过的 SGP.32 与 SoftPOS。",
+      "basedOn": {
+        "mobile driving licence mDL launch state November 2026": "R1 EUDI 与 R2 钱包框架均只回分析稿，改 mDL 直搜",
+        "verifiable credential pilot government issuance November 2026": "R1 印度 Aadhaar 超窗，改可验证凭证术语",
+        "iSIM integrated SIM eUICC launch November 2026": "R1 SGP.32 只回超窗的 Eseye，换 iSIM 硬件术语"
+      },
+      "queries": [
+        "mobile driving licence mDL launch state November 2026",
+        "verifiable credential pilot government issuance November 2026",
+        "iSIM integrated SIM eUICC launch November 2026"
+      ],
+      "result": "一条进入候选：verifiable credential 那条命中 Google 以数字身份凭证做账号恢复（biometricupdate，11-06 16:06 EST）。mDL 回 EU 2026/2266 实施条例（11-03 生效，超窗）与 Apple Wallet 16 州名单（11-03，超窗）；iSIM 回 Kigen 车用 eSIM 认证（11-03，11-05 已发）、华大电子乌镇展会（11-02）与深圳 eUICC 裸片电商页。"
+    },
+    {
+      "round": "R6",
+      "count": 3,
+      "completedBetween": ["2026-11-09T01:52:40+08:00", "2026-11-09T01:53:30+08:00"],
+      "basis": "区域补充：R1–R5 中 telecom 七个区全空、cis 与 latam 三行业全空，换本地语言与本地运营商重试，不原样重发 R1/R2 的 query。",
+      "basedOn": {
+        "Airtel Jio eSIM activation rule change 7 November 2026": "R1 印度 Aadhaar 只回身份线，换印度运营商 eSIM 侧",
+        "MTN Vodacom Telkom eSIM launch 6 November 2026": "R2 尼日利亚只回世行文件，换南非运营商",
+        "МТС Мегафон eSIM запуск ноябрь 2026": "R3 俄语采购术语只回旧闻，换俄语运营商"
+      },
+      "queries": [
+        "Airtel Jio eSIM activation rule change 7 November 2026",
+        "MTN Vodacom Telkom eSIM launch 6 November 2026",
+        "МТС Мегафон eSIM запуск ноябрь 2026"
+      ],
+      "result": "三条零合格产出，且失败形态与前几日完全一致：印度回 Airtel 恢复 299 卢比套餐与 Jio 三年 10000 卢比套餐（均属资费，范围门直接拦）；南非整条被 slashtel、ubigi、safarifind 旅游站占满；俄语回 esimguide、esimplanet 对比站与 Alertify 的俄罗斯 5G 市场概览。"
+    },
+    {
+      "round": "补轮",
+      "count": 9,
+      "completedBetween": ["2026-11-09T01:52:40+08:00", "2026-11-09T01:53:53+08:00"],
+      "basis": "六轮跑完后 cis、latam、north-america、africa 四区与 telecom 全行业仍空，按机构名、卡品牌名与本地语言定向补搜，不复用前六轮 query。",
+      "basedOn": {
+        "Brasil emissor cartão bandeira lançamento 7 de novembro 2026": "R2 巴西只回虚拟资产决议，换发卡行与卡品牌词",
+        "UAE Jaywan card acceptance bank launch November 2026": "R1 沙特 SoftPOS 失败，换阿联酋本地卡品牌 → 命中 Jaywan 上线 Visa 受理平台",
+        "Nigeria card scheme issuer switch November 2026": "R2 尼日利亚只回世行文件，换卡组织与转接清算侧",
+        "Mexico tarjeta de crédito nuevo producto lanzamiento 6 noviembre 2026": "R1/R2 墨西哥两轮全空，换西语信用卡产品词",
+        "credit card issuing platform launch United States November 6 2026": "R1 north-america 三行业全空，换发卡平台侧 → 顺带命中冰岛 A2A 所在垂媒",
+        "Africa national ID card contract awarded November 6 2026": "R3 阿语与法语采购词均无产出，换英语非洲证件授标",
+        "Peru Chile Colombia banco tarjeta débito emisión 6 noviembre 2026": "R2 巴西与 R1 墨西哥均失败，换安第斯三国发卡词",
+        "SIM card registration deadline enforcement telecom regulator November 2026": "R6 三条运营商 eSIM 全废，改实名登记这一机制侧",
+        "card personalisation bureau contract secure document printer November 2026": "R3 采购术语只命中一条，换制卡外包与设备侧"
+      },
+      "queries": [
+        "Brasil emissor cartão bandeira lançamento 7 de novembro 2026",
+        "UAE Jaywan card acceptance bank launch November 2026",
+        "Nigeria card scheme issuer switch November 2026",
+        "Mexico tarjeta de crédito nuevo producto lanzamiento 6 noviembre 2026",
+        "credit card issuing platform launch United States November 6 2026",
+        "Africa national ID card contract awarded November 6 2026",
+        "Peru Chile Colombia banco tarjeta débito emisión 6 noviembre 2026",
+        "SIM card registration deadline enforcement telecom regulator November 2026",
+        "card personalisation bureau contract secure document printer November 2026"
+      ],
+      "result": "一条进入候选：Jaywan 接入 Visa Acceptance Platform（11-06 宣布）。其余八条：巴西回汇率站与 Gazeta 体育版；尼日利亚回 Interswitch 联合五家银行推拍付（10-26 宣布、11-03 报道，超窗）与 CBN POS 新规评论；墨西哥回 DiDi 应用商店页与《数字支付经济法》（11-05 生效，11-06 已发线）；美国回 Pismo 更新日志与 Synchrony CareCredit Pay Later（分期贷款，非卡凭证，范围门拦）；非洲回利比里亚 OeSD 特许经营（11-05 12:21 EST，按 72h 差 34 分钟出窗）与肯尼亚身份证积压（11-07 已发）；安第斯回 ATM 取现指南与拉丁金融评奖页；SIM 实名回香港 OFCA 旧规、泉州电信静默号清理公告与墨西哥 CURP 绑定（11-02 数据）；制卡外包回中国证卡打印机电商页与法高安博会稿。"
+    }
+  ],
+  "dedupe": {
+    "readFrom": [
+      "content/_raw/2026-11-09.index.json（16 条 url）",
+      "content/news/2026/11/ 全量标题，按 Jaywan／身份证／Acceptance Platform／A2A／account recovery／冰岛／山西 关键词比对"
+    ],
+    "dropped": [
+      "迪拜 nol–Jaywan 合卡（11-04 事件，同 11-06-banking-04，与本次 Jaywan 线上受理为不同事件，已在 gateNote 标明区隔）",
+      "IDEMIA ST 的 PQC Java Card 获 EMVCo 认证（11-02，同 11-05-banking 线）",
+      "Kigen 车用 eSIM 通过 GSMA eSA（11-03，同 11-05-telecom 线）",
+      "littlefish × Halo Dot 的 SoftPOS 整合（11-03，同 11-05-banking 线）",
+      "Eastcompeace Rus 莫斯科 SIM 厂（11-05，同 11-06-telecom 线）",
+      "新西兰 NZBN Business Passport（11-03，同 11-07-identity 线）",
+      "印度 Aadhaar App 强制核验用于房产登记（11-04 起，超 72h）",
+      "EU 2026/2266 手机驾照实施条例（11-03 生效，超 72h）",
+      "Apple Wallet 新增弗吉尼亚与俄克拉何马驾照（11-03，超 72h）",
+      "越南 VGC v1.0 安全芯片（11-03 发布，超 72h）",
+      "巴西 BCB 第 520 号决议第 91 条（11-06 生效，但标的是虚拟资产服务商授权状态，不在三条链路）",
+      "墨西哥《数字支付经济法》（11-05 生效，同 11-06 已发线）",
+      "Synchrony CareCredit Pay Later（11-06，分期贷款非卡凭证，范围门拦）",
+      "Interswitch 联合五家银行推令牌化拍付（10-26 宣布，超 72h）"
+    ],
+    "verifiedButDropped": [
+      "利比里亚 OeSD International 生物识别身份证特许经营（biometricupdate，11-05 12:21 EST）——原文核验通过，52–54.7 百万美元、65/35 分成、10 年、1000 万条生物记录容量、议会审议中，标的物完全落在签发与载体；但按站点时区换算为 11-06 01:21，距本次开跑 72 小时 34 分钟，差半小时出窗，按规则弃用",
+      "菲律宾 PSA Palawan 岛屿国民 ID 登记（11-06 发布）——每日落点与时间表齐全，但属既有服务下沉，无形态或机制变化，动作门虽不设卡、gateNote 也写不出「改变了什么机制」，故弃",
+      "孟加拉国选举委员会拟将 NID 登记降至 6 岁（11-07 报道）——仅委员会内部提议、待研讨会评估，无文号无时间表，gateNote 只能写「尚在提议」，弃"
+    ]
+  },
+  "output": {
+    "file": "content/_raw/2026-11-09.supplement.json",
+    "items": 4,
+    "byRegion": { "apac": 1, "mena": 1, "europe": 1, "global": 1 },
+    "byIndustry": { "identity": 2, "banking": 2 },
+    "actionType": { "授标": 1, "联合部署": 1, "无": 2 },
+    "unfilled": [
+      "cis（三行业全空）",
+      "latam（三行业全空）",
+      "north-america（三行业全空）",
+      "africa（三行业全空）",
+      "telecom（七区全空，一条未得）",
+      "apac/banking",
+      "apac/telecom",
+      "mena/telecom",
+      "mena/identity",
+      "europe/telecom",
+      "europe/identity"
+    ],
+    "note": "7 个区域共 21 格，落 3 格（apac、mena、europe），global 不計区域门槛，另 1 条落 identity 的 global 线。telecom 全行业零产出，是本月连续第三天。"
+  }
+}

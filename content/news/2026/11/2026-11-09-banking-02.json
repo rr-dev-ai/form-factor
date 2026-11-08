@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-09-banking-01",
+  "slug": "visa-acceptance-platform-jaywan-uae-online",
+  "industry": "banking",
+  "region": "mena",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "tokenization",
+    "scheme-rules"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-09T04:17:37+08:00",
+  "ingestedAt": "2026-11-09T02:30:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Merchant's Eye",
+      "url": "https://www.merchantseye.com/news/visa-acceptance-platform-enables-jaywan-for-online-payments-in-the-uae-a9fe86e7",
+      "lang": "en",
+      "publishedAt": "2026-11-06T10:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "Visa 把阿联酋本土卡 Jaywan 接进线上受理，补上卡存档与续扣",
+    "en": "Visa opens its acceptance platform to UAE domestic card Jaywan online",
+    "es": "Visa abre su plataforma de aceptación en línea a Jaywan, el esquema nacional de EAU"
+  },
+  "summary": {
+    "zh": "11 月 6 日，Visa 宣布阿联酋本土卡品牌 Jaywan 的借记、贷记与预付卡可在 Visa Acceptance Platform 上受理线上交易，卡存档走 Token Management Service 做网络令牌化，订阅与重复扣款因此能落在这张本土卡上。Jaywan 由央行下属的 Al Etihad Payments 运营；双方 2025 年 3 月的协议只覆盖双标卡发卡。",
+    "en": "Visa said on 6 November that Jaywan debit, credit and prepaid cards can now be accepted for online transactions through the Visa Acceptance Platform, with card-on-file records tokenised through Token Management Service so subscriptions and recurring charges can run on the domestic card. Jaywan is operated by Al Etihad Payments, a central bank subsidiary; the pair's March 2025 agreement covered co-badged issuing only.",
+    "es": "Visa anunció el 6 de noviembre que las tarjetas Jaywan de débito, crédito y prepago ya se aceptan en línea mediante la Visa Acceptance Platform, con el archivo de tarjeta tokenizado en Token Management Service para que suscripciones y cobros recurrentes operen con la tarjeta nacional. Jaywan lo opera Al Etihad Payments, filial del banco central; el acuerdo de marzo de 2025 cubría solo la emisión con doble marca."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "补上的是受理侧那一半",
+        "en": "The acceptance half is what got filled in",
+        "es": "Se completa la mitad de la aceptación"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "按 Visa 11 月 6 日的公告，Visa Acceptance Platform 现在支持阿联酋境内符合条件的 Jaywan 借记卡、贷记卡与预付卡做线上交易。平台把受理、认证与令牌化放在一个接口下，Jaywan 的卡存档通过 Visa 的 Token Management Service 做网络令牌化，卡号被替换成令牌后仍能续扣。收单机构、支付服务商与商户从平台侧接入，不必各自与 Al Etihad Payments 单接一套。",
+        "en": "Per Visa's 6 November announcement, the Visa Acceptance Platform now supports eligible Jaywan debit, credit and prepaid cards for online transactions in the UAE. The platform puts acceptance, authentication and tokenisation behind one interface, and Jaywan card-on-file records are tokenised through Visa's Token Management Service, so a stored card can still be charged on a recurring basis after the number is replaced by a token. Acquirers, payment service providers and merchants connect through the platform instead of integrating separately with Al Etihad Payments.",
+        "es": "Según el anuncio de Visa del 6 de noviembre, la Visa Acceptance Platform ya admite tarjetas Jaywan de débito, crédito y prepago elegibles para transacciones en línea en EAU. La plataforma agrupa aceptación, autenticación y tokenización tras una sola interfaz, y el archivo de tarjeta Jaywan se tokeniza con Token Management Service, de modo que una tarjeta guardada puede seguir cobrándose de forma recurrente tras sustituir el número por un token. Adquirentes, proveedores de servicios de pago y comercios se conectan por la plataforma en lugar de integrarse por separado con Al Etihad Payments."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "两家在 2025 年 3 月先做发卡侧：把 Jaywan 与 Visa 做成双标卡，让阿联酋居民拿本土卡在境外刷。这次的落点在受理侧，境内线上商户可以把 Jaywan 作为一种本地支付方式挂进结账页。公告没有给首批接入的收单机构名单、费率，也没有说明 Jaywan 交易的争议与拒付按哪一家的规则处理。",
+        "en": "The two started on issuing in March 2025, co-badging Jaywan with Visa so UAE residents could use a domestic card abroad. This step lands on acceptance: domestic online merchants can list Jaywan as a local payment option at checkout. The announcement gives no list of participating acquirers, no pricing, and does not say whose dispute and chargeback rules govern Jaywan transactions.",
+        "es": "Ambos empezaron por la emisión en marzo de 2025, con la doble marca Jaywan-Visa para que los residentes usaran su tarjeta nacional en el exterior. Este paso llega por la aceptación: los comercios en línea del país pueden ofrecer Jaywan como método local en el checkout. El anuncio no incluye lista de adquirentes participantes, ni precios, ni qué reglas de disputa y contracargo rigen las transacciones Jaywan."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "覆盖卡种：Jaywan 借记卡、贷记卡与预付卡",
+          "en": "Card types covered: Jaywan debit, credit and prepaid",
+          "es": "Tipos cubiertos: débito, crédito y prepago Jaywan"
+        },
+        {
+          "zh": "新增能力：卡存档网络令牌化、订阅与重复扣款、数字钱包场景",
+          "en": "What is new: card-on-file network tokenisation, subscriptions and recurring payments, digital wallet use cases",
+          "es": "Novedad: tokenización de red del archivo de tarjeta, suscripciones y pagos recurrentes, casos de monedero digital"
+        },
+        {
+          "zh": "要改实现的一方：收单机构与支付服务商需处理 Jaywan 卡号段与令牌映射；商户结账流程不变",
+          "en": "Who must change code: acquirers and PSPs need Jaywan BIN ranges and token mapping; merchant checkout flows stay as they are",
+          "es": "Quién debe cambiar código: adquirentes y PSP necesitan los rangos BIN de Jaywan y el mapeo de tokens; el checkout del comercio no cambia"
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "技术上，变化在令牌层：此前 Jaywan 与国际网络的互通只发生在发卡侧，线上受理缺的正是卡存档与续扣，订阅、会员、分期这些高频场景只能挂国际卡，商户为此承担跨境受理成本。接进令牌服务后，同一张本土卡能在本地完成令牌替换与续扣，受理方不必自建令牌库。商业上受影响最直接的是两类角色：做收单网关与支付服务商的集成商，要补 Jaywan 卡号段识别、令牌映射与争议流程；以及订阅型商户，它们第一次能用本地卡做续费，定价与拒付率的算法都要重算。战略上，这是主权卡组织与国际网络从竞争转向分工的又一例：网络出基础设施，本土机构出品牌与规则。做受理侧产品的人该盯的不是这次上线，而是 Jaywan 会不会要求本地收单优先路由，那一步才真正改变路由与费率。",
+    "en": "Technically the change sits at the token layer. Jaywan's interoperability with an international network had been on the issuing side only, and what online acceptance lacked was card-on-file and recurring billing, so subscriptions, memberships and instalments had to sit on international cards, with merchants absorbing cross-border acceptance costs. With tokenisation in place, the same domestic card can be tokenised and re-charged locally, and acquirers do not have to build their own token vault. Commercially, two roles feel it first: gateway and PSP integrators that must add Jaywan BIN handling, token mapping and dispute flows, and subscription merchants that can finally renew on a local card, which changes both pricing and decline maths. Strategically it is another case of a sovereign scheme and a global network moving from rivalry to division of labour: the network supplies infrastructure, the local operator supplies brand and rules. The thing to watch is not this launch but whether Jaywan later demands local acquiring with preferential routing, which is the step that would really move routing and fees.",
+    "es": "En lo técnico el cambio está en la capa de tokens. La interoperabilidad de Jaywan con una red internacional se había dado solo por la emisión, y a la aceptación en línea le faltaba el archivo de tarjeta y el cobro recurrente, así que suscripciones, membresías y cuotas dependían de tarjetas internacionales, con costes de aceptación transfronteriza para el comercio. Con la tokenización, la misma tarjeta nacional se tokeniza y se vuelve a cobrar localmente, y el adquirente no necesita construir su propio almacén de tokens. En lo comercial lo sienten primero dos roles: los integradores de pasarela y PSP, que deben añadir rangos BIN de Jaywan, mapeo de tokens y flujos de disputa, y los comercios con suscripciones, que por fin pueden renovar con tarjeta local, lo que cambia precios y tasas de rechazo. En lo estratégico es otro caso de esquema soberano y red global pasando de la rivalidad a la división del trabajo: la red pone infraestructura, el operador local pone marca y reglas. Lo que hay que vigilar no es este lanzamiento sino si Jaywan exigirá después adquirencia local con enrutamiento preferente, el paso que de verdad movería rutas y comisiones."
+  },
+  "confidence": 0.66,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

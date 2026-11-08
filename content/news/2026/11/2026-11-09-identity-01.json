@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-09-identity-02",
+  "slug": "shanghai-travel-permit-consumables-aisino",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "passport"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-09T04:17:37+08:00",
+  "ingestedAt": "2026-11-09T03:10:00+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "中国政府采购网",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202611/t20261107_27641398.htm",
+      "lang": "zh",
+      "publishedAt": "2026-11-07T16:57:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "上海出入境证件耗材 306 万元落给航天信息，公开招标仅一家应标",
+    "en": "Shanghai awards travel-permit consumables to Aisino after single-bid tender",
+    "es": "Shanghái adjudica a Aisino los consumibles de permisos de viaje tras una licitación con un solo postor"
+  },
+  "summary": {
+    "zh": "上海市公安局出入境管理总队 11 月 7 日公告，电子港澳台胞证及大陆证耗材项目以单一来源成交，金额 306 万元，供应商为航天信息。该项目 7 月 3 日曾公开招标，标书期内仅一家获取文件，投标截止仅一家递交，遂转单一来源。",
+    "en": "Shanghai's exit-entry administration published an award on 7 November for consumables used to produce electronic travel permits to Hong Kong, Macao and Taiwan, worth 3.06 million yuan, to Aisino as a sole source. The project had been put out to open tender on 3 July, but only one bidder collected the documents and only one submitted by the 28 July deadline.",
+    "es": "La administración de entrada y salida de Shanghái publicó el 7 de noviembre la adjudicación de los consumibles para producir permisos electrónicos de viaje a Hong Kong, Macao y Taiwán, por 3,06 millones de yuanes, a Aisino como fuente única. El proyecto se había licitado el 3 de julio, pero solo un interesado retiró los pliegos y solo uno presentó oferta antes del 28 de julio."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "标的是 2026 年度制证耗材，服务对象是卡式证件：电子往来港澳通行证、电子往来台湾通行证、台湾居民来往大陆通行证，三类由同一套「三合一」设备制作。公告只写耗材费与墨盒质量异议的十日退换条款，未列具体耗材清单与数量。",
+        "en": "The contract covers 2026 production consumables for card-format documents: electronic permits to Hong Kong and Macao, electronic permits to Taiwan, and Taiwan residents' permits to the mainland, all produced on the same three-in-one equipment. The notice gives only the consumables fee and a ten-day replacement clause for defective ink cartridges; it lists neither item quantities nor a bill of materials.",
+        "es": "El contrato cubre los consumibles de producción de 2026 para documentos en formato de tarjeta: permisos electrónicos a Hong Kong y Macao, permisos electrónicos a Taiwán y permisos de residentes de Taiwán al continente, todos producidos con el mismo equipo tres en uno. El aviso solo indica el importe de consumibles y una cláusula de sustitución en diez días por cartuchos defectuosos; no detalla cantidades ni lista de materiales."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "单一来源的理由不是排他条款，而是设备与耗材同源。公告援引 2013 年公境证 3384 号：公安部出入境管理局公开招标确定航天信息为电子港澳证制证设备供应商，招标时一并采购了打印耗材与维保；2016 年公境传 435 号把设备升级为可制三种卡式证件的三合一机型，耗材规格不变，各地仍向设备供应商采购。",
+        "en": "The sole-source reasoning is not an exclusivity clause but the coupling of equipment and consumables. The notice cites a 2013 exit-entry bureau circular that named Aisino as supplier of electronic Hong Kong and Macao permit production equipment through open tender, with print consumables and maintenance bought in the same procurement; a 2016 circular upgraded the equipment to a three-in-one model covering all three card formats, with consumable specifications unchanged, and local bureaus kept buying from the equipment supplier.",
+        "es": "La razón de fuente única no es una cláusula de exclusividad sino el vínculo entre equipo y consumibles. El aviso cita una circular de 2013 de la oficina de entrada y salida que designó a Aisino como proveedor del equipo de producción de permisos electrónicos para Hong Kong y Macao mediante licitación abierta, con consumibles de impresión y mantenimiento comprados en la misma operación; una circular de 2016 actualizó el equipo a un modelo tres en uno para los tres formatos, sin cambiar las especificaciones de consumibles, y las oficinas locales siguieron comprando al proveedor del equipo."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "程序链完整：7 月 3 日发布公开招标公告，标书发售期内仅一家获取文件；7 月 28 日 9 时 30 分投标截止，仅一家递交；招标期间无质疑，遂转单一来源。代理服务费 2.64 万元，按计价格 2002 年 1980 号文标准下浮 30% 计取。",
+        "en": "The procedural chain is complete: an open tender was published on 3 July and only one bidder collected the documents during the sale period; by the 28 July 09:30 deadline only one bid had been submitted, and with no challenge during the tender it converted to sole source. The agency fee was 26,362 yuan, calculated at 30 percent below the 2002 fee schedule.",
+        "es": "La cadena procedimental está completa: la licitación se publicó el 3 de julio y solo un interesado retiró los pliegos; al cierre del 28 de julio a las 09:30 solo se había presentado una oferta y, sin impugnaciones, se convirtió en fuente única. La comisión de la agencia fue de 26.362 yuanes, un 30 por ciento por debajo de la tarifa de 2002."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这份公告把设备与耗材的绑定写得很直白：2013 年设备招标时一并买耗材，2016 年换三合一机型后耗材规格不变，于是每一轮耗材采购都只能回到原厂。对第三方耗材与色带厂商，卡式证件这一块基本没有入口；对设备商，制证设备是入场券，耗材与维保才是长期现金流。对出入境管理部门，单一来源意味着议价空间有限，公开招标流标后的程序成本也要自己承担。这套结构在各省重复出现，上海只是其中一例，可据此估算同类项目的年度耗材盘子。",
+    "en": "This award states the equipment-consumables coupling plainly: consumables were bought alongside the equipment tender in 2013, the 2016 move to a three-in-one model left specifications unchanged, and every consumables round therefore returns to the original vendor. Third-party consumable and ribbon makers have essentially no route into card-format documents; for equipment vendors the production machine is the entry ticket and consumables plus maintenance are the recurring revenue. For exit-entry agencies, sole source means limited room to negotiate and the procedural cost of a failed open tender sits with them. The same structure repeats across provinces, so Shanghai is one data point for sizing the annual consumables pool in comparable projects.",
+    "es": "Esta adjudicación expone con claridad el vínculo equipo-consumibles: los consumibles se compraron junto al equipo en 2013, el paso al modelo tres en uno en 2016 no cambió las especificaciones y cada ronda vuelve al proveedor original. Los fabricantes independientes de consumibles y cintas no tienen vía de entrada en los documentos en formato de tarjeta; para los fabricantes de equipos, la máquina de producción es la puerta y los consumibles con el mantenimiento son los ingresos recurrentes. Para las oficinas de entrada y salida, la fuente única limita el margen de negociación y el coste procedimental de una licitación desierta recae en ellas. La estructura se repite por provincias, así que Shanghái es un punto de referencia para dimensionar el gasto anual de consumibles en proyectos comparables."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

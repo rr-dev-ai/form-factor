@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-11-09T01:54:10+08:00",
+  "fetchedFor": "2026-11-09",
+  "gap": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"],
+  "cellGap": [],
+  "industryGap": ["banking", "telecom", "identity"],
+  "items": [
+    {
+      "title": "山西省公安厅单一来源采购 2027 年居民身份证原材料，卡体 411.92 万卡、个人化膜 432 万卡",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg//dylygg/202611/t20261106_27639500.htm",
+      "publishedAt": "2026-11-06T19:30:00+08:00",
+      "industry": "identity",
+      "region": "apac",
+      "actionType": "授标",
+      "gateNote": "落在签发/个性化环节的耗材与卡体供给，有金额、有数量、有承接方，动作门基本成立。差的是：仍属单一来源公示期（11-06 至 11-13），未签合同；且只覆盖卡体与个人化膜，不含芯片、制证设备与交付节奏，终审若要核「产能与工艺」会缺参数。",
+      "discoveredBy": "licitación tarjetas de identificación biometría noviembre 2026",
+      "note": "落在证件签发与个性化环节：证照制作所按 2027 年制证需求备料。机制上无技术变化，变化在采购口径——预算 53,621,888 元、身份证卡体 411.92 万卡、个人化膜 432 万卡（膜多于卡体，说明按损耗备膜），拟定供应商公安部第一研究所，理由援引公安部关于二代证工本费通知第三条「制证材料统一供货」，故走单一来源。原文未披露芯片型号、卡基材料、制证设备与分批交付节奏。"
+    },
+    {
+      "title": "Jaywan 接入 Visa Acceptance Platform，阿联酋本土借记、信用与预付卡开通线上受理",
+      "url": "https://www.decypha.com/en/news/details/Jaywan-goes-live-for-online-payments-in-UAE-via-Visa-Acceptance-Platform/21585505",
+      "publishedAt": "2026-11-08T09:05:00+00:00",
+      "industry": "banking",
+      "region": "mena",
+      "actionType": "联合部署",
+      "gateNote": "受理侧能力开放，一方是本国卡组织运营方（Al Etihad Payments，央行子公司）、一方是国际受理平台，落地市场写明为阿联酋，联合部署成立。缺的是规模证据：没有商户数、交易量、发卡量，也没说线下 NFC 受理是否同步开放，终审可能按「既有能力的区域扩展」收紧。",
+      "discoveredBy": "UAE Jaywan card acceptance bank launch November 2026",
+      "note": "落在受理与令牌化环节。此前 Jaywan 走线下与 ATM，线上靠联名卡绕行；这次让纯 Jaywan 卡直接进 Visa Acceptance Platform，收单与 PSP 无需二次集成即可受理。机制变化在令牌化：Card-on-File 走 Visa Token Management Service，订阅与循环扣款可用，PAN 不落商户侧。原文未给商户覆盖数与交易量。"
+    },
+    {
+      "title": "冰岛央行筹备境内 A2A 支付基础设施招标，为即时信用转账定共享标准与接口",
+      "url": "https://paymentsindustryintelligence.com/iceland-plans-domestic-a2a-payments-infrastructure-details/",
+      "publishedAt": "2026-11-08T18:37:00+00:00",
+      "industry": "banking",
+      "region": "europe",
+      "actionType": "无",
+      "gateNote": "六类动作都不贴：招标尚未发出，无中标方、无金额、无时间表，只有央行副行长在会议上的表态，连「联合部署」的一方都还没有。它改变的是受理侧可选路径的结构，属机制层变化，需等标书或参与方名单出来才够动作门。",
+      "discoveredBy": "credit card issuing platform launch United States November 6 2026（同轮垂媒归档页直读获得）",
+      "note": "落在受理环节，是针对卡组织依赖的反向动作。冰岛商品与服务支付几乎全走 Visa/Mastercard，现金极少，A2A 未像其他北欧市场那样长起来，央行因此把支付路线单一列为韧性风险。做法是央行只建共享技术标准、接口与规则，商户与线上的账户直付由银行在上一层竞争；配套目标是 2028 下半年接入 TIPS。原文未给招标金额、发布时间、参与机构，也未说 POS 改造由谁承担。"
+    },
+    {
+      "title": "Google 提出以数字身份凭证做账号恢复，把它作为 passkey 丢失后的兜底",
+      "url": "https://www.biometricupdate.com/202611/google-proposes-using-digital-credentials-for-secure-account-recovery",
+      "publishedAt": "2026-11-06T16:06:00-05:00",
+      "industry": "identity",
+      "region": "global",
+      "actionType": "无",
+      "gateNote": "是会上提出的方案，不是产品化节点：没有发布时间、没有试点市场、没有合作签发方，官方自述「尚未准备好大规模部署」。它动的是凭证用途（身份凭证兼作恢复凭据），六类动作均不成立，需等落地试点才能进产品化节点。",
+      "discoveredBy": "verifiable credential pilot government issuance November 2026",
+      "note": "落在身份凭证的受理侧，但把用途从证明你是谁扩到取回账号。机制是：用户预登记一张由签发机构签名的数字身份凭证，凭证派生 stable hash 绑到账号；换机后向原签发机构重新核验取得新凭证，凭证管理器比对 hash 一致即放行，一次恢复 passkey、账号与数据。Google 给的路径是 2030 年普及、2035 年占恢复方式一半。原文未说试点时间与合作发行方。"
+    }
+  ]
+}

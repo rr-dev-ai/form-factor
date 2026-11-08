@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-09-identity-01",
+  "slug": "shanxi-2027-id-card-raw-materials-sole-source",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "national-id"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-09T04:17:37+08:00",
+  "ingestedAt": "2026-11-09T03:10:00+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "中国政府采购网",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg//dylygg/202611/t20261106_27639500.htm",
+      "lang": "zh",
+      "publishedAt": "2026-11-06T19:30:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "山西公安厅单一来源采购 2027 年身份证原材料，预算 5362 万元",
+    "en": "Shanxi sole-sources 2027 ID card materials from police research institute",
+    "es": "Shanxi compra por fuente única las materias primas del DNI de 2027"
+  },
+  "summary": {
+    "zh": "山西省公安厅 11 月 6 日公示，2027 年居民身份证原材料按单一来源向公安部第一研究所采购，预算 5362.19 万元，含卡体 411.92 万卡、个人化膜 432 万卡。公示期至 11 月 13 日，合同尚未签。",
+    "en": "Shanxi's public security department opened a sole-source notice on 6 November for 2027 ID card raw materials from the First Research Institute of the Ministry of Public Security, budgeted at 53.62 million yuan: 4.12 million card bodies and 4.32 million personalisation films. The notice runs to 13 November and no contract has been signed.",
+    "es": "El departamento de seguridad pública de Shanxi abrió el 6 de noviembre un aviso de fuente única para las materias primas del DNI de 2027, con un presupuesto de 53,62 millones de yuanes: 4,12 millones de cuerpos de tarjeta y 4,32 millones de láminas de personalización, a cargo del Primer Instituto de Investigación del Ministerio de Seguridad Pública. El aviso corre hasta el 13 de noviembre y aún no hay contrato."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "采购人是山西省公安厅本级，实际使用方为公安厅证照制作所，用途写明是 2027 年制证生产。两笔数量分开列：身份证卡体 411.92 万卡，个人化膜 432 万卡。膜比卡体多出约 20 万卡，公告没有解释差额，也没说明是否含备损耗。",
+        "en": "The buyer is the Shanxi public security department, and the user is its credential production workshop, with 2027 card production given as the purpose. The two quantities are listed separately: 4.1192 million ID card bodies and 4.32 million personalisation films. The film figure exceeds the card body figure by about 200,000, and the notice does not explain the gap or say whether it covers spoilage.",
+        "es": "El comprador es el departamento de seguridad pública de Shanxi y el usuario es su taller de producción de credenciales, con la producción de tarjetas de 2027 como destino. Las dos cifras figuran por separado: 4,1192 millones de cuerpos de tarjeta y 4,32 millones de láminas de personalización. La lámina supera al cuerpo en unas 200.000 unidades y el aviso no explica la diferencia ni si cubre mermas."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "单一来源的依据写在公示里：按公安部关于第二代居民身份证工本费有关问题的通知第三条，制证材料由公安部第一研究所统一供货，因此不组织公开招标。拟定供应商地址为北京市海淀区首都体育馆南路一号。",
+        "en": "The sole-source justification is stated in the notice: under article 3 of the ministry's notice on second-generation ID card cost fees, card production materials are supplied centrally by the First Research Institute, so no open tender is held. The proposed supplier is listed at 1 Shouti South Road, Haidian District, Beijing.",
+        "es": "La justificación de fuente única figura en el aviso: conforme al artículo 3 de la circular del ministerio sobre tasas del DNI de segunda generación, los materiales de producción los suministra centralizadamente el Primer Instituto de Investigación, por lo que no se convoca licitación. El proveedor propuesto figura en el número 1 de Shouti South Road, distrito de Haidian, Pekín."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "程序状态要说清：这是公示，不是授标。公示期为 11 月 6 日至 11 月 13 日，异议渠道是山西省财政厅采购处。公示期内无异议才进入合同环节，届时金额与交付节奏才可能公开。",
+        "en": "The procedural status matters: this is a notice, not an award. The comment period runs from 6 to 13 November, with objections handled by the Shanxi provincial finance department's procurement office. Only if no objection is raised does it move to contract, at which point the amount and delivery schedule may be published.",
+        "es": "El estado procesal importa: es un aviso, no una adjudicación. El período de observaciones va del 6 al 13 de noviembre y las objeciones las atiende la oficina de contratación del departamento de finanzas de Shanxi. Solo sin objeciones pasa a contrato, momento en que podrían publicarse el importe y el calendario de entregas."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "身份证原材料按省、按年下单，卡体与个人化膜分开计量，说明个人化环节的耗材仍按卡数配比采购。对卡体厂与膜厂，省级订单只有一条入口——公安部第一研究所统一供货的规定没有松动，体系外供应商在制证耗材这一层拿不到份额。对制证与个人化设备商，耗材与卡体同源，设备进场后后续年份的耗材预算随之锁定。值得盯的是两点：公示期内是否出现异议，以及 2027 年卡体数量相对上一轮的变化，那才是换证周期与人口结构变化的信号，比金额更能说明产线负荷。",
+    "en": "ID card materials are ordered province by province and year by year, with card bodies and personalisation film counted separately, which shows the personalisation step is still bought in proportion to card volume. For card body and film makers there is only one route into a provincial order: the central-supply rule held by the First Research Institute has not loosened, so suppliers outside that system cannot win a share of production materials. For production and personalisation equipment vendors, materials and card bodies come from the same source, so once equipment is installed the consumables budget for later years is effectively locked. Two things are worth watching: whether an objection is filed during the comment period, and how the 2027 card body volume compares with the previous round, which says more about renewal cycles and line loading than the headline amount.",
+    "es": "Los materiales del DNI se compran por provincia y por año, con cuerpos de tarjeta y lámina de personalización medidos por separado, lo que muestra que la personalización se sigue adquiriendo en proporción al volumen de tarjetas. Para los fabricantes de cuerpos y de lámina hay una sola vía de entrada al pedido provincial: la regla de suministro centralizado del Primer Instituto de Investigación no se ha relajado, de modo que los proveedores fuera de ese sistema no pueden obtener cuota. Para los fabricantes de equipos de producción y personalización, materiales y cuerpos vienen del mismo origen, así que una vez instalado el equipo el presupuesto de consumibles de los años siguientes queda ligado. Conviene vigilar dos cosas: si se presenta alguna objeción durante el período de observaciones y cómo se compara el volumen de cuerpos de 2027 con la ronda anterior, lo que dice más sobre los ciclos de renovación y la carga de la línea que el importe."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

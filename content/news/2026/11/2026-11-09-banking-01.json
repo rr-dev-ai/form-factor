@@ -1,0 +1,89 @@
+{
+  "id": "2026-11-09-banking-02",
+  "slug": "russia-universal-qr-nspk-digital-ruble-law",
+  "industry": "banking",
+  "region": "cis",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "scheme-rules"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-09T04:17:37+08:00",
+  "ingestedAt": "2026-11-09T02:30:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "AK&M",
+      "url": "https://www.akm.ru/eng/news/the-state-duma-adopted-a-law-on-qr-codes-and-digital-rubles/",
+      "lang": "en",
+      "publishedAt": "2026-11-08T21:36:00+03:00"
+    }
+  ],
+  "title": {
+    "zh": "俄杜马三读通过法案：统一 QR 码交 NSPK 运营，商户按营收接入数字卢布",
+    "en": "Russia's Duma passes law making NSPK operator of a universal payment QR code",
+    "es": "La Duma rusa aprueba que NSPK opere un código QR de pago universal"
+  },
+  "summary": {
+    "zh": "11 月 8 日，俄罗斯国家杜马三读通过一项法案，设统一支付二维码，由国家支付卡系统（NSPK）担任运营方，银行接入免费；同一法案把商户接入数字卢布按年营收分三档，起点分别为 2026、2027、2028 年的 9 月 1 日，年营收低于 500 万卢布的卖家可不接入。",
+    "en": "Russia's State Duma adopted a law in its third and final reading on 8 November creating a universal payment QR code operated by the National Payment Card System (NSPK), with free access for banks. The same law tiers merchant access to the digital ruble by annual revenue, with start dates of 1 September in 2026, 2027 and 2028; sellers below RUB 5 million may stay off the platform.",
+    "es": "La Duma Estatal rusa aprobó el 8 de noviembre en tercera y última lectura una ley que crea un código QR de pago universal operado por el Sistema Nacional de Tarjetas de Pago (NSPK), con acceso gratuito para los bancos. La misma ley escalona por ingresos anuales la conexión de los comercios al rublo digital, con fechas de inicio el 1 de septiembre de 2026, 2027 y 2028; los vendedores con menos de 5 millones de rublos pueden no conectarse."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "一个码，一个运营方，一套按营收排的接入表",
+        "en": "One code, one operator, one revenue-based timetable",
+        "es": "Un código, un operador y un calendario por ingresos"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "据 AK&M 11 月 8 日引述国家杜马金融市场委员会主席 Aksakov 新闻处的说法，法案在三读即最终读通过，内容包括引入统一支付二维码，以及把银行与零售商户接入数字卢布平台。统一码的运营方定为 NSPK，也就是 Mir 卡系统的运营机构；银行接入该技术不收费。报道没有给出法案编号、总统签署时间与生效日，也没有写统一码对商户与收单机构是否同样免费。",
+        "en": "According to AK&M on 8 November, citing the press service of Anatoly Aksakov, chair of the State Duma's financial market committee, the bill passed in its third and final reading. It introduces a universal payment QR code and connects banks and retailers to the digital ruble platform. The National Payment Card System, which also runs the Mir card scheme, becomes the operator of the universal code, and bank access to the technology is free. The report gives no bill number, no signing date and no entry-into-force date, and does not say whether the code is free for merchants and acquirers as well.",
+        "es": "Según AK&M del 8 de noviembre, citando la oficina de prensa de Anatoly Aksakov, presidente del comité de mercados financieros de la Duma, el proyecto se aprobó en tercera y última lectura. Introduce un código QR de pago universal y conecta a bancos y comercios con la plataforma del rublo digital. El Sistema Nacional de Tarjetas de Pago, que también opera el esquema Mir, pasa a ser el operador del código universal, y el acceso de los bancos es gratuito. La nota no da número de ley, fecha de firma ni de entrada en vigor, ni aclara si el código es gratuito también para comercios y adquirentes."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "2026 年 9 月 1 日起：系统重要性信贷机构，以及其客户中年营收超过 1.2 亿卢布的商户接入数字卢布；该起点早于本法案通过时间",
+          "en": "From 1 September 2026: systemically important credit institutions, plus their clients with annual revenue above RUB 120 million, join the digital ruble; that start date precedes the law’s adoption",
+          "es": "Desde el 1 de septiembre de 2026: entidades de crédito sistémicas y sus clientes con ingresos anuales superiores a 120 millones de rublos se suman al rublo digital; esa fecha es anterior a la aprobación de la ley"
+        },
+        {
+          "zh": "2027 年 9 月 1 日起：持综合牌照的银行，以及年营收超过 3000 万卢布的商户必须支持数字卢布支付",
+          "en": "From 1 September 2027: banks with a universal licence, and merchants with revenue above RUB 30 million, must support digital ruble payments",
+          "es": "Desde el 1 de septiembre de 2027: bancos con licencia universal y comercios con ingresos superiores a 30 millones de rublos deben aceptar pagos en rublo digital"
+        },
+        {
+          "zh": "2028 年 9 月 1 日起：其余银行与年营收 3000 万卢布以下的商户接入；年营收低于 500 万卢布的卖家可不接入",
+          "en": "From 1 September 2028: remaining banks and merchants below RUB 30 million connect; sellers under RUB 5 million may opt out",
+          "es": "Desde el 1 de septiembre de 2028: el resto de bancos y comercios por debajo de 30 millones de rublos se conectan; los vendedores con menos de 5 millones pueden no hacerlo"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "值得单列的是统一码这一半：运营方定为 NSPK，意味着受理入口由卡系统运营方一家承担，收单机构与终端厂商要对接的是这一个码，而不是各家的方案。报道没有说明既有二维码方案是否并入统一码、统一码与现有 QR 规范是什么关系、上线时限如何，也没提是否要求终端固件升级。这些要等正式文本公布才能判断。",
+        "en": "The QR half deserves separate attention. With NSPK named as operator, the acceptance entry point sits with the card system operator, and acquirers and terminal vendors integrate with that one code. The report does not say whether existing QR schemes fold into the universal code, how the code relates to existing QR specifications, what the rollout deadline is, or whether terminal firmware upgrades are required. That needs the published text.",
+        "es": "La mitad del QR merece atención aparte. Con NSPK como operador, el punto de entrada de la aceptación queda en el operador del sistema de tarjetas, y adquirentes y fabricantes de terminales integran ese único código. La nota no dice si los esquemas QR existentes se integran en el código universal, qué relación tiene con las especificaciones QR vigentes, cuál es el plazo de despliegue ni si exige actualizar el firmware de los terminales. Eso requiere el texto publicado."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "监管维度最直接：这是把受理入口写进法律的动作。对收单机构与终端厂商，麻烦不在技术难度，而在排期——统一码一旦强推，现有对接各家银行二维码的工作要重做一遍，POS 固件、收单网关与对账口径都得跟着改，而法案给没给过渡期目前不明。商业上，数字卢布那三档按营收划线，等于把合规成本按商户规模分摊：年营收 3000 万卢布以上的商户 2027 年 9 月前必须支持，低于 500 万的可不接，中间层最难受，他们要接又摊不薄成本。战略上要注意运营方身份：NSPK 同时是 Mir 卡的运营机构，统一码交给它，意味着卡组织运营方把二维码受理也收进自己的基础设施，收单侧的话语权进一步向这家央行全资机构集中。对做俄罗斯市场的集成商，接下来该盯的是正式文本里的过渡期与终端认证要求，而不是法案通过这件事本身。",
+    "en": "The regulatory dimension is the direct one: this writes the acceptance entry point into law. For acquirers and terminal vendors the difficulty is scheduling, not engineering. If the universal code is pushed hard, work already done to integrate each bank’s QR scheme has to be redone, and POS firmware, acquiring gateways and reconciliation move with it, while the report does not show whether a transition period exists. Commercially, the three digital ruble tiers draw the line by revenue, spreading compliance cost by merchant size: those above RUB 30 million must support it by September 2027, those under RUB 5 million may stay out, and the middle is worst placed because it must connect without enough volume to absorb the cost. Strategically, watch who operates it. NSPK also runs Mir, so handing it the universal code pulls QR acceptance into the card scheme operator’s own infrastructure and concentrates acquiring-side influence in a wholly central-bank-owned institution. For integrators serving the Russian market, the thing to track is the transition period and terminal certification requirements in the published text, not the vote itself.",
+    "es": "La dimensión regulatoria es la directa: esto inscribe el punto de entrada de la aceptación en una ley. Para adquirentes y fabricantes de terminales la dificultad es de calendario, no de ingeniería: si el código universal se impone, el trabajo hecho para integrar el QR de cada banco debe rehacerse, con firmware del POS, pasarela y conciliación, y la nota no muestra si hay periodo de transición. En lo comercial, los tres tramos del rublo digital reparten el coste por tamaño de comercio: por encima de 30 millones de rublos deben soportarlo antes de septiembre de 2027, por debajo de 5 millones pueden quedar fuera, y la franja intermedia es la peor situada porque debe conectarse sin volumen para diluirlo. En lo estratégico, atención a quién lo opera: NSPK también gestiona Mir, así que el código universal lleva la aceptación por QR a la infraestructura del operador del esquema y concentra la influencia adquirente en una entidad del banco central. Para los integradores del mercado ruso, lo que hay que seguir es el periodo de transición y los requisitos de certificación del texto publicado, no la votación."
+  },
+  "confidence": 0.52,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

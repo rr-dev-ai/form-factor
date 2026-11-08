@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-09-telecom-01",
+  "slug": "pakistan-pta-meta-recycled-sim-whatsapp-block",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "sim-registration",
+    "fraud"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-09T04:17:37+08:00",
+  "ingestedAt": "2026-11-09T02:50:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "PhoneWorld",
+      "url": "https://www.phoneworld.com.pk/pta-meta-block-176000-whatsapp-accounts-linked-to-recycled-sims/",
+      "lang": "en",
+      "publishedAt": "2026-11-06T12:00:00+05:00"
+    }
+  ],
+  "title": {
+    "zh": "巴基斯坦把 1000 万个回收号码交给 Meta，先封 17.6 万账号",
+    "en": "Pakistan hands Meta 10 million recycled numbers to block 176,000 WhatsApp accounts",
+    "es": "Pakistán entrega a Meta 10 millones de números reciclados y bloquea 176.000 cuentas"
+  },
+  "summary": {
+    "zh": "巴基斯坦电信管理局 11 月 6 日披露，已按回收号码清单请 Meta 封停 17.6 万个 WhatsApp 账号，并向 Meta 提供约 1000 万个回收号码用于比对；双方约定此后每月再交 5000 个。运营商手上另有约 1600 万个已回收号码，原机主销号后账号仍可存活。",
+    "en": "Pakistan's telecom regulator said on 6 November it had 176,000 WhatsApp accounts blocked after asking Meta to check numbers that carriers had recycled, and has handed over roughly 10 million recycled numbers for comparison. The two sides agreed to share 5,000 more numbers every month; carriers hold about 16 million recycled numbers in total.",
+    "es": "El regulador de telecomunicaciones de Pakistán informó el 6 de noviembre de que logró el bloqueo de 176.000 cuentas de WhatsApp tras pedir a Meta que verificara números reciclados por los operadores, y de que entregó unos 10 millones de números reciclados para cotejo. Ambas partes acordaron compartir 5.000 números más cada mes; los operadores acumulan unos 16 millones."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "号码被回收，账号没跟着走",
+        "en": "The number gets recycled, the account does not",
+        "es": "El número se recicla, la cuenta no"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "运营商把停用、欠费注销的号码回收后重新放号，号码上原有的 WhatsApp 账号却仍挂在原用户名下。新持卡人拿到这张卡，就能用短信验证码接管那个账号。巴基斯坦电信管理局（PTA）的做法是把回收号码整理成清单，交 Meta 逐批比对，命中即封停；这不是运营商自己能在网内完成的动作，需要平台配合。",
+        "en": "When a carrier reclaims a suspended or cancelled number and reissues it, the WhatsApp account registered on that number can stay attached to the previous holder. Whoever takes the new SIM can then take over the account with an SMS code. The Pakistan Telecommunication Authority's approach is to compile recycled numbers into lists and hand them to Meta for batch comparison, with matches blocked. That step cannot be completed inside the operator's own network.",
+        "es": "Cuando un operador recupera un número suspendido o cancelado y lo reasigna, la cuenta de WhatsApp registrada en ese número puede seguir ligada al titular anterior, y quien recibe la nueva SIM puede tomar el control con un código SMS. El enfoque de la Autoridad de Telecomunicaciones de Pakistán es compilar los números reciclados y entregarlos a Meta para un cotejo por lotes, bloqueando las coincidencias: un paso que el operador no puede completar dentro de su propia red."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "PTA 官员给出的规模是：已向 Meta 提供约 1000 万个回收号码，据此封停 17.6 万个账号；双方已谈成常态化机制，每月再交 5000 个。运营商手上的回收号码存量约 1600 万个。PTA 同时提到，Meta 对上一年度转去的投诉处理率为 82%。",
+        "en": "PTA officials put the scale at about 10 million recycled numbers shared with Meta, leading to 176,000 blocked accounts, plus a standing arrangement to send 5,000 numbers a month. Carriers hold roughly 16 million recycled numbers. The authority also said Meta resolved 82 percent of the complaints it forwarded last year.",
+        "es": "Los funcionarios de la PTA cifran el alcance en unos 10 millones de números reciclados entregados a Meta, lo que derivó en 176.000 cuentas bloqueadas, más un acuerdo permanente para enviar 5.000 números al mes. Los operadores acumulan cerca de 16 millones de números reciclados. La autoridad añadió que Meta resolvió el 82 por ciento de las quejas remitidas el año pasado."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "巴基斯坦的 SIM 早已与国民身份证号（CNIC）绑定，按上限管到个人名下能持几张卡；这次补的是销号之后那一段。多数辖区只要求运营商在重新放号前清空卡上的绑定关系，把平台拉进清理流程的并不常见。",
+        "en": "Pakistani SIMs are already tied to the national identity number (CNIC), with caps on how many a person may hold; this step covers what happens after a line is cancelled. Most jurisdictions only require carriers to clear bindings before reissuing a number, and rarely bring the platform into the cleanup itself.",
+        "es": "Las SIM paquistaníes ya están vinculadas al número de identidad nacional (CNIC), con límites por persona; este paso cubre lo que ocurre tras la cancelación de la línea. La mayoría de las jurisdicciones solo exige al operador borrar los vínculos antes de reasignar el número, y rara vez incorpora a la plataforma a esa limpieza."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对运营商，号码回收从资源周转变成一项对外对账义务：BSS 要能按批次导出已注销号码，留存回收与放号时间，否则平台侧无法判断哪个账号该封。对依赖手机号做账号恢复、登录与风控的服务商，MSISDN 不再是可以长期当作主键的标识，接这类回收清单会成为标配。监管层面，这是把实名制往号码生命周期后半段延伸：登记管的是谁开卡，回收清单管的是卡换了人之后旧账号还算不算数。会上这条链的不只是巴基斯坦——凡是号码周转快、实名执行严的市场，都会被拿来对照。",
+    "en": "For carriers, recycling stops being purely a resource-rotation task and becomes an external reconciliation duty: BSS has to export cancelled numbers in batches and retain reclaim and reissue dates, or the platform cannot tell which account to block. For services that use a phone number for account recovery, login and risk scoring, the MSISDN can no longer be treated as a durable primary key, and consuming such lists will become standard practice. On the regulatory side, this extends registration into the second half of the number's life: registration governs who activated a line, the recycled list governs whether the old account still counts after the line changes hands. Pakistan will not be the only market measured against this.",
+    "es": "Para los operadores, reciclar deja de ser solo rotación de recursos y pasa a ser un deber de conciliación externa: el BSS debe exportar números cancelados por lotes y conservar las fechas de recuperación y reasignación, o la plataforma no puede saber qué cuenta bloquear. Para los servicios que usan el número para recuperar cuentas, iniciar sesión y puntuar riesgo, el MSISDN ya no sirve como clave primaria duradera, y consumir estas listas será práctica habitual. En lo regulatorio, el registro se extiende a la segunda mitad de la vida del número: el alta dice quién activó la línea, la lista de reciclados dice si la cuenta antigua sigue valiendo tras el cambio de manos."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-pool-v1"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "date": "2026-11-09",
+  "industry": "banking",
+  "startedAt": "2026-11-09T02:30:00+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "Pine Labs、Stripe 在新加坡打通线上线下收款",
+      "url": "https://www.crowdfundinsider.com/2026/11/321833/pine-labs-stripe-partner-to-unify-online-in-store-payments-for-singapore-retailers/",
+      "reason": "duplicate-of-2026-11-05-banking-02：同一合作已于 11-05 发布，这条只是换信源的二次报道。"
+    },
+    {
+      "title": "深圳海关上线进境物品税外卡直缴终端",
+      "url": "https://news.qq.com/rain/a/20261107A0C9YA00",
+      "reason": "duplicate-of-2026-11-07-banking-02：同一批智能缴税终端，11-07 已发布。"
+    },
+    {
+      "title": "迪拜 nol-Jaywan 卡 11 月起试点，交通与支付合一",
+      "url": "https://indubai.city/news/nol-jaywan-card-dubai-pilot",
+      "reason": "duplicate-of-2026-11-06-banking-01：RTA 与 Al Etihad Payments 11-04 的同一公告，本条是后续解读。"
+    },
+    {
+      "title": "Remote 为全球雇员发虚拟费用卡",
+      "url": "https://fintechnews.sg/140715/payments/remote-expense-cards/",
+      "reason": "duplicate-of-2026-11-07-banking-07：同一 Remote EOR 费用卡发布，11-07 已发。"
+    },
+    {
+      "title": "Pri-Num 为乌兹别克国家银行上线 Apple Pay",
+      "url": "https://pri-num.com/news/pri-num-launches-apple-pay-for-the-national-bank-of-uzbekistan",
+      "reason": "duplicate-of-2026-11-06-banking-09：乌兹别克 Apple Pay / Google Pay 上线已由 11-06 条目覆盖。"
+    },
+    {
+      "title": "Interac 的 Konek 通过 PayFacto 进入加拿大商户网络",
+      "url": "https://www.renascence.io/news/165159/interac-konek-wallet-to-reach-canadian-merchants-via-payfacto",
+      "reason": "duplicate-of-2026-11-07-banking-01：同一 Interac×PayFacto 合作，11-07 已发布。"
+    },
+    {
+      "title": "印度央行发布非银行支付机构网络韧性主指示",
+      "url": "https://taxguru.in/rbi/rbi-issues-2026-cyber-resilience-digital-payment-security-directions-non-bank-psos.html",
+      "reason": "事件 2026-11-05，到本期已逾 72 小时；11-08 池提交过一版未被采用，不重复提交。个别二手站写成 11-07，但通知号 RBI/DPSS/2026-27/475 的签发日为 11-05。"
+    },
+    {
+      "title": "冰岛央行筹备境内 A2A 支付基础设施招标",
+      "url": "https://paymentsindustryintelligence.com/iceland-plans-domestic-a2a-payments-infrastructure-details/",
+      "reason": "范围门不过：标的是绕开卡组织的账户直付基础设施，不在卡栈；动作门也缺项，仅「准备招标」，无授标、无金额、无承接方。"
+    },
+    {
+      "title": "欧洲支付理事会更新 SEPA 收款人核验建议",
+      "url": "https://paymentsindustryintelligence.com/epc-tightens-verification-of-payee-matching-rules-across-sepa/",
+      "reason": "账户直付的收款人名址核验，标的不在卡栈；事件 11-05，亦已超出 72 小时。"
+    },
+    {
+      "title": "欧盟与加拿大拟互联即时支付系统",
+      "url": "https://paymentsindustryintelligence.com/eu-and-canada-move-to-link-real-time-payment-systems/",
+      "reason": "账户直付系统互联，与卡组织规则无关；事件 11-05，超出 72 小时。"
+    },
+    {
+      "title": "Global Payments 被传遭私募洽购",
+      "url": "https://paymentsindustryintelligence.com/global-payments-buyout-talks-expose-pressure-on-legacy-processors/",
+      "reason": "并购与估值传闻，不改变凭证形态或受理机制；六类动作无一可落。"
+    },
+    {
+      "title": "美国 FTC 与八州起诉 Toast 收费",
+      "url": "https://www.paymentsdive.com/news/ftc-states-sue-toast-over-fees-restaurant-dining-online-food/873225/",
+      "reason": "费用披露诉讼，标的是定价争议而非终端或规则变化，六类动作落不下去。"
+    },
+    {
+      "title": "Elavon 谈 Paze 与代理式 commerce 的试点打算",
+      "url": "https://www.paymentsdive.com/news/elavon-ceo-trust-not-speed-will-rule-agentic-commerce/873185/",
+      "reason": "高管访谈与试点意向，无产品名、无参数、无时间表；按「访谈路线图」判据拦。"
+    },
+    {
+      "title": "Natural 推出 Direct，让 AI 代理直连清算网络",
+      "url": "https://www.merchantseye.com/news/natural-launches-direct-bringing-ach-wire-and-realtime-payments-to-ai-agents-932a7b95",
+      "reason": "接口对象是 ACH、电汇与实时转账，不在卡栈；范围门先拦。"
+    },
+    {
+      "title": "Mukuru 与 Flash 在南非 17 万家 spaza 店做现金收付点",
+      "url": "https://www.merchantseye.com/news/mukuru-partners-with-flash-to-add-170-000-cash-pay-in-points-across-south-africa-628b5e48",
+      "reason": "汇款现金收付代理网络，非卡受理，也不涉及载体或令牌化。"
+    },
+    {
+      "title": "Yuno 与 Ecommpay 互挂支付通道，扩至亚太与欧洲",
+      "url": "https://fintechnews.sg/140636/payments/yuno-ecommpay/",
+      "reason": "把一家网关的既有通道挂进另一家，属分销范围变化，按渠道合作不收。"
+    },
+    {
+      "title": "NPCI 设立 NPCI Tech Solutions，做 AI 与区块链",
+      "url": "https://fintechnews.sg/140645/fintech-india/npci-tech-solutions-ai-blockchain/",
+      "reason": "组织架构与业务范围调整，无产品、规则或认证节点。"
+    },
+    {
+      "title": "腾讯在港金融科技周谈跨境支付，与 Mastercard、银联签备忘录",
+      "url": "https://www.theasianbanker.com/mediafeed-news/details?rkey=20261105AE90082&filter=23792&pd=05+Nov+2026",
+      "reason": "备忘录无金额、无落地市场与时间表；且 TenPay Global×Mastercard 已于 11-03 发布，不重复。"
+    },
+    {
+      "title": "OPay 递交招股书，拟登陆纽交所",
+      "url": "https://news.qq.com/rain/a/20261107A09EAY00",
+      "reason": "IPO 与财务披露，属财报口径；发卡与受理机制无变化。"
+    },
+    {
+      "title": "越南发布 VGC v1.0 国密芯片，28nm、3 亿晶体管",
+      "url": "https://news.qq.com/rain/a/20261107A063FT00",
+      "reason": "政务与国防密码芯片，首要应用场景不是支付卡，上游制造门的第一条不满足；事件 11-03，亦已超窗。"
+    },
+    {
+      "title": "巴西央行公布 120 家加密资产牌照申请名单",
+      "url": "https://brznews.com/article/tech-coinbase-and-binance-seek-brazil-licenses-to-avoid-banking-cut-off",
+      "reason": "加密资产许可与银行通道限制，范围门排除。"
+    },
+    {
+      "title": "尼日利亚央行设定稳定币发行人 150 亿奈拉资本门槛",
+      "url": "https://elroinews.com/cbn-updates-guidelines-for-stablecoins-operation/",
+      "reason": "稳定币发行监管，范围门排除。"
+    },
+    {
+      "title": "KCB 坦桑尼亚把 PayPal 接进手机银行",
+      "url": "https://www.zawya.com/en/press-release/africa-press-releases/kcb-bank-tanzania-becomes-the-first-bank-to-integrate-paypal-services-into-its-mobile-app-connecting-tanzanians-to-global-payments-2074651",
+      "reason": "把外部汇款入口嵌进银行 App，属渠道与入口合作，卡受理机制未变。"
+    },
+    {
+      "title": "Adyen 数据：加拿大中小企业现金流承压",
+      "url": "https://www.merchantseye.com/news/new-adyen-data-reveals-canadian-small-businesses-risk-layoffs-and-closures-as-fu-55029298",
+      "reason": "数据报告，不是事件；无产品、规则或部署变化。"
+    },
+    {
+      "title": "Bottomline 的 Paymode 网络年处理额过 5700 亿美元",
+      "url": "https://www.merchantseye.com/news/bottomline-s-paymode-business-payments-network-surpasses-570-billion-in-annual-p-74cba372",
+      "reason": "规模里程碑，无参数、客户或规则变化，不构成动作。"
+    },
+    {
+      "title": "IFX Payments 成为 Norwich City 足球俱乐部外汇合作方",
+      "url": "https://www.merchantseye.com/news/ifx-payments-joins-norwich-city-as-official-deliverable-foreign-exchange-service-40b60d97",
+      "reason": "赞助合作，与凭证链无关。"
+    },
+    {
+      "title": "Paybis 下调加密兑换费率 70%",
+      "url": "https://www.merchantseye.com/news/paybis-launches-fee-slasher-after-research-shows-a-third-of-people-don-t-know-wh-b899e248",
+      "reason": "加密资产兑换定价，范围门排除。"
+    },
+    {
+      "title": "Visa 用 22 个模型测试 AI 购物决策，近半失败",
+      "url": "https://fintechnews.sg/140652/ai/visa-ai-shopping-agents-fail-tests/",
+      "reason": "研究方法与榜单，无规范版本、无认证方；不构成标准或产品化节点。"
+    },
+    {
+      "title": "Tazapay 2026 财年营收增 71%、亏损扩大",
+      "url": "https://fintechnews.sg/140649/payments/tazapay-fy2026-revenue-net-loss-circle/",
+      "reason": "财报口径，范围门排除。"
+    },
+    {
+      "title": "Fiserv 裁员至 3000 人，节约目标翻倍",
+      "url": "https://fintechnews.sg/140414/fintechjobs/fiserv-job-cuts-3000-project-elevate/",
+      "reason": "人事与成本，范围门排除。"
+    },
+    {
+      "title": "Monzo 洽谈新一轮融资，估值 75 亿英镑",
+      "url": "https://www.finextra.com/newsarticle/48715/monzo-eyes-fresh-funding-at-75bn-valuation---ft",
+      "reason": "融资，无产品与机制变化。"
+    },
+    {
+      "title": "摩根大通与 OpenAI 签网络安全与编码合作协议",
+      "url": "https://www.finextra.com/newsarticle/48718/jpmorgan-chase-signs-cybersecurity-and-coding-deal-with-openai",
+      "reason": "AI 工具采购，不在卡栈。"
+    },
+    {
+      "title": "Block 就反洗钱问题与美国司法部达成 7.65 亿美元和解",
+      "url": "https://www.finextra.com/newsarticle/48709/block-faces-765m-doj-settlement",
+      "reason": "反洗钱执法与和解金额，不改变受理或发卡机制。"
+    },
+    {
+      "title": "Yellow Card 收购巴西 GoMoney，押注稳定币支付",
+      "url": "https://www.finextra.com/newsarticle/48710/stablecoin-firm-yellow-card-target-brazil-through-gomoney-acquisition",
+      "reason": "稳定币支付并购，范围门排除。"
+    },
+    {
+      "title": "Samsung Wallet 的 USDC 账户由 Stripe Crypto Onramp 做入金通道",
+      "url": "https://tech-quire.com/articles/stripe-crypto-onramp-samsung-wallet-usdc",
+      "reason": "稳定币账户与入金通道，标的不在卡栈；文中「未来可能支持门店拍付」无日期，属路线图。"
+    },
+    {
+      "title": "WayaWaya 与 Choice Bank 在肯尼亚推数字银行",
+      "url": "https://techmoran.com/2026/11/07/wayawayachoice-bank-to-launch-digital-banking-services-in-kenya/",
+      "reason": "银行牌照与开户服务，范围门排除。"
+    },
+    {
+      "title": "加纳银行业被要求加大生物多样性投资",
+      "url": "https://www.ghanabusinessnews.com/2026/11/08/banks-in-ghana-urged-to-increase-investment-in-biodiversity-protection/",
+      "reason": "与凭证链无关的行业倡议。"
+    },
+    {
+      "title": "IMF 称加纳央行流动性管理改革取得进展",
+      "url": "https://www.ghanabusinessnews.com/2026/11/08/bank-of-ghana-progresses-with-liquidity-management-reforms-imf/",
+      "reason": "宏观货币政策，与发卡、收单、令牌化无关。"
+    },
+    {
+      "title": "印度 UPI 综合通函 v1.0（含受益人名显示规则）",
+      "url": "https://paymentssignal.com/learn/asia-pacific/interlinking-instant-payment-systems",
+      "reason": "通函签发日 2026-09-18，超出 72 小时；且是对既有操作通函的汇编，非新版本发布。"
+    },
+    {
+      "title": "交通银行在进博会首发全国文旅信用卡",
+      "url": "https://news.qq.com/rain/a/20261108A07U4B00",
+      "reason": "联名卡权益包与发行渠道整合，卡种与受理机制未变；与 11-07 对 premium 卡档位的判据一致。"
+    },
+    {
+      "title": "IDB 与 ElTarek、Mastercard 在埃及发汽车行业联名卡",
+      "url": "https://dailynewsegypt.com/2026/11/07/idb-eltarek-partner-to-launch-first-co-branded-mastercard-credit-cards/",
+      "reason": "Titanium/Platinum/World Elite 均为既有档位，内容是权益与获客渠道；11-08 已按同一判据拦过。"
+    },
+    {
+      "title": "深圳建行组多语种志愿者服务外籍来宾",
+      "url": "https://www.sznews.com/news/content/2026-11/07/content_32210107.htm",
+      "reason": "会议服务保障，非支付机制事件。"
+    },
+    {
+      "title": "农行嘉兴分行为乌镇峰会做外卡受理保障",
+      "url": "https://www.zj.chinanews.com/jzkzj/2026-11-08/detail-ihfmttrw8665527.shtml",
+      "reason": "会议期间受理保障与营销，未给出终端投放量、商户数或时间表。"
+    },
+    {
+      "title": "浦发银行进博会期间扩大外卡受理覆盖",
+      "url": "https://www.jfdaily.com/staticsg/res/html/journal/detail.html?date=2026-11-07&id=544005&page=04",
+      "reason": "展会期间受理范围扩张，无规模数字与时间表，属营销保障。"
+    },
+    {
+      "title": "工行北京分行在冰雪消费季布放上万台外卡终端",
+      "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_3736aee88ee16152",
+      "reason": "促销活动配套的终端投放，无型号、无认证、无部署节奏，产品化与产能两条都落不下去。"
+    },
+    {
+      "title": "巴基斯坦总理要求制定 100% 数字支付路线图，11 月 15 日起政府支票停用",
+      "url": "https://probespakistan.com/article/pm-seeks-roadmap-for-100pc-digital-payments-system",
+      "reason": "范围门不过：标的是 Raast 账户直付与政府收付电子化，绕开卡组织，不在卡栈；路线图本身也没有规范版本、终端要求或承接方。"
+    },
+    {
+      "title": "巴拉圭 Ueno 银行资本不足被接管，总统随后被参议院罢免",
+      "url": "https://substrate.dougbelshaw.com/news-canary-8-november-2026",
+      "reason": "银行偿付能力与政治后果，范围门排除；与发卡、收单、令牌化无关。"
+    },
+    {
+      "title": "肯尼亚 ChamaBox 想把 chama 互助会搬到线上",
+      "url": "https://techmoran.com/2026/11/07/ceo-weekends-chamabox-wants-to-digitise-kenyas-chama-economy/",
+      "reason": "公司叙事型访谈，无产品参数、无客户、无上线时间；动作门落不下去。"
+    }
+  ],
+  "stats": {
+    "candidates": 50,
+    "written": 2,
+    "skippedByDedup": 6
+  },
+  "finishedAt": "2026-11-08T20:16:52.613Z"
+}
