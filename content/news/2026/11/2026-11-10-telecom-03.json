@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-10-telecom-02",
+  "slug": "vodafone-iot-skylo-satellite-commercial-hybrid-sim",
+  "industry": "telecom",
+  "region": "global",
+  "regions": [],
+  "tags": [
+    "satellite"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-10T04:18:16+08:00",
+  "ingestedAt": "2026-11-10T02:50:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Mobile World Live",
+      "url": "https://www.mobileworldlive.com/industry/skylo-boosts-vodafone-iot-coverage-options/",
+      "lang": "en",
+      "publishedAt": "2026-11-09T00:00:00+00:00"
+    },
+    {
+      "name": "Telecoms.com",
+      "url": "https://www.telecoms.com/satellite/vodafone-and-skylo-satellite-service-now-commercially-available",
+      "lang": "en",
+      "publishedAt": "2026-11-09T00:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "Vodafone 把卫星接入并进 IoT 平台，一张标准 SIM 通吃两种网",
+    "en": "Vodafone puts Skylo into its IoT platform so one standard SIM spans both networks",
+    "es": "Vodafone integra Skylo en su plataforma IoT para que una SIM estándar cubra ambas redes"
+  },
+  "summary": {
+    "zh": "Vodafone IoT 11 月 9 日把 Skylo 的卫星接入并入其连接平台，客户用现有标准 SIM 即可在地面网与卫星网之间切换，不必另建一套网络。平台现管理 2.4 亿台设备，两家核心网已互联。双方此前在英国、西班牙、意大利和加拿大做储罐监测与共享单车试点，现转入商用。",
+    "en": "Vodafone IoT added Skylo's satellite access to its connectivity platform on 9 November, so customers keep one standard SIM and move between terrestrial and satellite coverage without running a second network. The platform manages 240 million devices, and the two core networks are linked. The partners had trialled the setup on storage tanks and shared bicycles in the UK, Spain, Italy and Canada, and have now moved to commercial service.",
+    "es": "Vodafone IoT incorporó el acceso satelital de Skylo a su plataforma de conectividad el 9 de noviembre, de modo que el cliente conserva una SIM estándar y pasa de cobertura terrestre a satelital sin operar una segunda red. La plataforma gestiona 240 millones de dispositivos y los dos núcleos de red están interconectados. Los socios habían probado el esquema en depósitos remotos y bicicletas compartidas en Reino Unido, España, Italia y Canadá, y ahora pasan al servicio comercial."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "卫星当作一条接入，SIM 和核心网都不动",
+        "en": "Satellite becomes one more access, with SIM and core untouched",
+        "es": "El satélite es un acceso más, sin tocar SIM ni núcleo"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "做法不是给客户发第二张卡，而是把 Skylo 的卫星网接到 Vodafone 的核心网上，由后者的连接管理平台统一放号、计费与停机。终端侧仍是一张标准 SIM，按 3GPP 标准完成接入；客户不需要为卫星单独建一套运维、合同和计费体系。Vodafone IoT 首席执行官 Erik Brenneis 的说法是客户「没有另一张网要管」。",
+        "en": "The approach is not a second SIM but a link between Skylo's satellite network and Vodafone's core, with the operator's connectivity management platform handling provisioning, billing and suspension. The device side keeps one standard SIM and attaches under 3GPP specifications, so customers do not stand up a separate operations, contract and billing stack for satellite. Vodafone IoT chief executive Erik Brenneis framed it as customers having no separate network to manage.",
+        "es": "El planteamiento no es una segunda SIM sino un enlace entre la red satelital de Skylo y el núcleo de Vodafone, con la plataforma de gestión de conectividad del operador a cargo del alta, la facturación y la suspensión. El dispositivo conserva una SIM estándar y se conecta según especificaciones 3GPP, de modo que el cliente no monta una operación, un contrato y una facturación aparte para el satélite. El consejero delegado de Vodafone IoT, Erik Brenneis, lo resumió en que el cliente no tiene otra red que gestionar."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "规模口径来自平台本身：Vodafone 称该平台目前集中管理超过 2.4 亿台设备。商用后瞄准的行业是资产追踪、物流、海运与农业，共同点是设备分布在基站覆盖边缘或之外，换卡成本高于通信费。试点阶段验证的场景是偏远储罐液位监测与共享单车的定位回传。",
+        "en": "The scale figure comes from the platform itself: Vodafone says it centrally manages more than 240 million devices. The commercial push targets asset tracking, logistics, maritime and agriculture, sectors where devices sit at or beyond the cell edge and the cost of swapping a SIM exceeds the connectivity fee. The trials covered tank-level monitoring at remote sites and position reporting from shared bicycles.",
+        "es": "La cifra de escala proviene de la propia plataforma: Vodafone afirma gestionar de forma centralizada más de 240 millones de dispositivos. El empuje comercial apunta a seguimiento de activos, logística, marítimo y agricultura, sectores donde los equipos están en el borde de celda o fuera de él y cambiar una SIM cuesta más que la cuota de conectividad. Las pruebas cubrieron nivel de depósitos remotos y reporte de posición de bicicletas compartidas."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这条走的是物联网的窄带卫星接入，不是手机直连。两条路线的差别在终端：手机直连要改基带与射频，物联网模组只要支持相应的非地面网络制式即可。公告没有给出资费、已签约客户名单，也没有说明卫星接入在监管上算本地接入还是漫游——这决定了它能否绕开各国的永久漫游限制。",
+        "en": "This is narrowband satellite access for IoT, not direct-to-handset. The difference sits in the device: handsets need new baseband and radio work, while IoT modules only need to support the relevant non-terrestrial specification. The announcement gave no pricing, no named customers, and did not say whether regulators will treat the satellite link as local access or as roaming, which decides whether it can sidestep permanent roaming limits.",
+        "es": "Se trata de acceso satelital de banda estrecha para IoT, no de conexión directa al móvil. La diferencia está en el dispositivo: los teléfonos requieren nuevo módem y radio, mientras que los módulos IoT solo necesitan soportar la especificación de red no terrestre correspondiente. El anuncio no dio precios ni clientes identificados, y no aclaró si el regulador tratará el enlace satelital como acceso local o como itinerancia, lo que determina si esquiva los límites de itinerancia permanente."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "技术上的关键选择是把卫星当成一条无线接入，而不是一个独立的网络。这样一来鉴权、策略和计费都在原有核心网里，终端侧不需要第二张卡、第二套 profile，也不需要改卡内应用；代价是卫星链路必须与地面网做到同一套会话管理，对核心网与策略网元的改造要求更高。商业上，它把物联网可服务范围从「有基站的地方」推到全域，海运、农业、偏远资产追踪这些原本要靠卫星专用终端的场景，可以用同一张 SIM 和同一份账单覆盖，采购与运维成本都降一层。对做 SIM、eUICC 与连接管理的供应商，含义是竞争点从「能不能换网」转到「换网时业务不中断、账单不分裂」，纯做 profile 切换的价值被压薄。",
+    "en": "The key technical choice is treating satellite as one radio access rather than a separate network. Authentication, policy and charging stay in the existing core, and the device needs neither a second SIM nor a second profile, nor any change to the card applet. The cost is that the satellite link must share session management with the terrestrial network, which puts more demands on the core and policy elements. Commercially, it extends the addressable IoT footprint from wherever there is a base station to everywhere, so maritime, agriculture and remote asset tracking can run on one SIM and one bill instead of dedicated satellite terminals, cutting procurement and operations costs. For suppliers of SIMs, eUICCs and connectivity management, the competitive edge shifts from whether a device can switch networks to whether service and billing stay intact while it does, which thins the value of profile switching alone.",
+    "es": "La decisión técnica clave es tratar el satélite como un acceso radio más y no como una red separada. La autenticación, las políticas y la facturación permanecen en el núcleo existente, y el dispositivo no necesita una segunda SIM ni un segundo perfil, ni cambios en el applet de la tarjeta; el precio es que el enlace satelital debe compartir la gestión de sesiones con la red terrestre, lo que exige más del núcleo y de los elementos de política. En lo comercial, amplía la huella IoT desde donde hay estación base hasta todas partes, de modo que el marítimo, la agricultura y el seguimiento remoto pueden operar con una SIM y una factura en lugar de terminales satelitales dedicados, recortando compras y operación. Para los proveedores de SIM, eUICC y gestión de conectividad, la ventaja competitiva se desplaza de si el equipo puede cambiar de red a si el servicio y la facturación siguen intactos al hacerlo, lo que adelgaza el valor del mero cambio de perfil."
+  },
+  "confidence": 0.66,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-pool-v1"
+  }
+}

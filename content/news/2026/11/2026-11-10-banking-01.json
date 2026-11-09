@@ -1,0 +1,95 @@
+{
+  "id": "2026-11-10-banking-03",
+  "slug": "brazil-pat-voucher-interoperability-deadline",
+  "industry": "banking",
+  "region": "latam",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "scheme-rules",
+    "clearing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-10T04:18:16+08:00",
+  "ingestedAt": "2026-11-10T02:30:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Vinetur",
+      "url": "https://www.vinetur.com/en/20261107110592/brazil-enforced-meal-voucher-interoperability-rules-despite-industry-delays.html",
+      "lang": "en",
+      "publishedAt": "2026-11-07T16:08:17+00:00"
+    }
+  ],
+  "title": {
+    "zh": "巴西餐补卡互操作 11 月 7 日生效，清算规则仍未定",
+    "en": "Brazil's meal-voucher interoperability takes effect with clearing rules unresolved",
+    "es": "La interoperabilidad de vales de comida en Brasil entra en vigor sin reglas de liquidación"
+  },
+  "summary": {
+    "zh": "巴西劳工食品计划（PAT）的卡互操作义务于 11 月 7 日到期生效：餐厅与超市的收款终端须受理任何一家运营商的餐补卡。该义务来自 2025 年 11 月的联邦法令，给了 360 天过渡期。行业协会称网络间连接标准、交易清算与各方责任仍未确定，不合规罚款最高 5 万雷亚尔。",
+    "en": "Brazil's card interoperability obligation under the Worker Food Programme, PAT, took effect on 7 November: card terminals at restaurants and grocery stores must accept benefit cards from any operator. The duty comes from a federal decree of November 2025 that allowed 360 days to comply. Industry bodies say connection standards between networks, transaction settlement and each participant's liability are still undefined, with fines of up to BRL 50,000.",
+    "es": "La obligación de interoperabilidad de tarjetas del Programa de Alimentación del Trabajador (PAT) entró en vigor el 7 de noviembre: los terminales de restaurantes y supermercados deben aceptar tarjetas de cualquier operador. La obligación proviene de un decreto federal de noviembre de 2025 que dio 360 días para cumplir. Los gremios dicen que siguen sin definir los estándares de conexión entre redes, la liquidación y la responsabilidad de cada parte, con multas de hasta 50.000 reales."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "强制的是受理面，缺的是网络之间怎么说话",
+        "en": "Acceptance is mandated; what is missing is how networks talk",
+        "es": "Se obliga la aceptación; falta cómo se hablan las redes"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "按 Vinetur 11 月 7 日的报道（引述 InfoMoney 11 月 6 日的稿件），11 月 7 日是 2025 年 11 月法令设定的 360 天合规期终点，也是 PAT 改革分阶段的最后一步。此前 5 月已到期的一档要求服务 50 万以上劳动者的运营商转向开放式安排：发卡方与商户签约方分离，交易跑在 Elo、Visa、Mastercard 这类既有卡组织网络上。留在封闭体系的运营商仍自行签约商户，不受这条约束。",
+        "en": "Vinetur reported on 7 November, citing an InfoMoney story of 6 November, that 7 November marks the end of the 360-day compliance window set by the November 2025 decree and the last stage of the PAT overhaul. An earlier deadline in May required operators serving more than 500,000 workers to move to an open arrangement, with the issuer separate from the party signing merchants and transactions running on established networks such as Elo, Visa and Mastercard. Operators that stayed in closed systems still contract merchants themselves and fall outside that clause.",
+        "es": "Vinetur informó el 7 de noviembre, citando una nota de InfoMoney del 6 de noviembre, de que el 7 de noviembre cierra la ventana de 360 días fijada por el decreto de noviembre de 2025 y es la última etapa de la reforma del PAT. Un plazo anterior, en mayo, obligó a los operadores con más de 500.000 trabajadores a pasar a un esquema abierto, con el emisor separado de quien afilia comercios y las transacciones por redes establecidas como Elo, Visa y Mastercard. Los operadores que siguieron en circuitos cerrados afilian comercios por su cuenta y quedan fuera de esa cláusula."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "受影响方：Alelo、Pluxee、Ticket Serviços、VR Benefícios 这类全链条传统运营商，以及 Flash、iFood Benefícios、Caju、Swile 这类已在开放网络上的福利金融科技",
+          "en": "Who is affected: full-chain incumbents such as Alelo, Pluxee, Ticket Serviços and VR Benefícios, plus benefits fintechs already on open networks such as Flash, iFood Benefícios, Caju and Swile",
+          "es": "A quién afecta: operadores tradicionales de cadena completa como Alelo, Pluxee, Ticket Serviços y VR Benefícios, y fintechs de beneficios ya en redes abiertas como Flash, iFood Benefícios, Caju y Swile"
+        },
+        {
+          "zh": "未决议题：巴西福利企业协会（ABBT）称网络间连接标准、交易清算、以及便利方、收单机构、支付安排与商户各自的责任仍未确定",
+          "en": "Open issues: the Brazilian association of benefit companies says connection standards, transaction settlement and the liability of facilitators, acquirers, payment arrangements and merchants remain unresolved",
+          "es": "Pendientes: la asociación brasileña de empresas de beneficios dice que siguen sin resolver los estándares de conexión, la liquidación y la responsabilidad de facilitadores, adquirentes, esquemas y comercios"
+        },
+        {
+          "zh": "费率这一档更早到期却没落地：2026 年 2 月设 3.6% 上限并要求 15 天内结算；全国餐饮协会委托的调查显示 6–7 月均值 6.18%，高于 2025 年的 5.19%",
+          "en": "The fee tier expired earlier without taking hold: a February 2026 rule capped discount rates at 3.6% with 15-day settlement, yet a survey for the national restaurant association put the June–July average at 6.18%, up from 5.19% in 2025",
+          "es": "El tramo de comisiones venció antes sin aplicarse: una norma de febrero de 2026 fijó un tope del 3,6% y liquidación en 15 días, pero una encuesta para la asociación nacional de restaurantes situó la media de junio-julio en 6,18%, frente al 5,19% de 2025"
+        },
+        {
+          "zh": "执法：劳工与就业部称自己的角色是监管与监督、不是运营，技术调整由企业负责；不合规罚款最高 5 万雷亚尔",
+          "en": "Enforcement: the Labour Ministry says its role is regulatory and supervisory rather than operational, leaving technical work to companies; fines for noncompliance reach BRL 50,000",
+          "es": "Ejecución: el Ministerio de Trabajo dice que su papel es regulatorio y de supervisión, no operativo, y deja el ajuste técnico a las empresas; las multas llegan a 50.000 reales"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "行业给出的失败模式很具体：一家大型运营商的管理层匿名对 InfoMoney 说，公司为赶这个期限做的技术准备进展很小；若持卡人投诉某店刷不了，最省事的处置是把那家店签进自己的网络，而不是真去做互操作。iFood Benefícios 首席执行官 Arthur Freitas 的判断是，剩下的问题主要在服务不足 50 万劳动者的中小区域运营商，它们此前不必转开放模式，现在只能靠网络共享。",
+        "en": "The failure mode described is specific. An executive at a large operator told InfoMoney anonymously that his firm had made little progress on the technology needed to meet the deadline, and that if a cardholder complains a shop cannot take the card, the easiest fix is to sign that shop into the operator's own network rather than build real interoperability. Arthur Freitas, chief executive of iFood Benefícios, says the remaining problem sits mainly with smaller regional operators below 500,000 workers, which were not required to move to the open model and now depend on network sharing.",
+        "es": "El modo de fallo descrito es concreto. Un directivo de un gran operador dijo a InfoMoney, sin dar su nombre, que su empresa avanzó poco en la tecnología necesaria para cumplir el plazo y que, si un usuario se queja de que un comercio no acepta la tarjeta, la solución más fácil es afiliar ese comercio a la red propia en lugar de construir interoperabilidad real. Arthur Freitas, consejero delegado de iFood Benefícios, sitúa el problema restante sobre todo en operadores regionales pequeños con menos de 500.000 trabajadores, que no estaban obligados al modelo abierto y ahora dependen de compartir red."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "监管维度最硬：这是一条把受理义务写进联邦法令、并给出明确到期日的规则，不是指导意见。对餐厅与超市，义务落在终端上——注册了几家运营商就要能受理几家的卡，而终端侧改造取决于运营商是否给出连接标准。ABBT 说清算与责任划分没定，等于让商户在规则不全的情况下承担合规风险，罚款最高 5 万雷亚尔，对小店不是小数。商业上真正的看点是那 3.6% 的费率上限：它比互操作更早到期，一年下来均值反而从 5.19% 涨到 6.18%，说明只发法令不改受理结构，费率降不下来；互操作若真落地，商户议价能力才会变。战略上，巴西这套做法给其他国家提供了一个样本：用「任何终端受理任何卡」的方式打破封闭的福利卡体系，而不是直接限价。对做收单与终端软件的供应商，这是明确的需求窗口——网络间连接、交易路由与分账清算都要在终端和网关两侧补齐，且必须支持多方结算。",
+    "en": "The regulatory angle is the hardest: this is an acceptance duty written into a federal decree with an explicit expiry date, not guidance. For restaurants and grocery stores the duty lands on the terminal — accept as many operators' cards as you are registered with — and whether the terminal can be changed depends on operators publishing connection standards. The association says settlement and liability are undefined, leaving merchants with compliance risk on incomplete rules and fines up to BRL 50,000, no small sum for a small shop. Commercially the real signal is the 3.6% cap: it expired earlier than interoperability did, and the average still rose from 5.19% to 6.18%, which says that mandating a number without changing the acceptance structure does not move fees. Strategically Brazil offers other markets a template: break a closed benefit-card system by requiring every terminal to take every card rather than by capping prices. For acquiring and terminal-software vendors this is a clear demand window, because inter-network connection, routing and split settlement must be built on both the terminal and gateway sides, with multi-party settlement.",
+    "es": "El ángulo regulatorio es el más duro: es un deber de aceptación en un decreto federal con fecha de vencimiento, no una guía. Para restaurantes y supermercados el deber recae en el terminal — aceptar las tarjetas de tantos operadores como tenga registrados — y si puede cambiarse depende de que los operadores publiquen estándares de conexión. El gremio dice que liquidación y responsabilidad no están definidas, lo que deja al comercio con riesgo sobre reglas incompletas y multas de hasta 50.000 reales, cifra nada menor para una tienda pequeña. En lo comercial la señal real es el tope del 3,6%: venció antes que la interoperabilidad y la media subió de 5,19% a 6,18%, lo que indica que fijar un número sin cambiar la estructura de aceptación no mueve las comisiones. En lo estratégico, Brasil ofrece a otros mercados una plantilla: romper un sistema cerrado obligando a que todo terminal acepte toda tarjeta, en lugar de fijar precios. Para proveedores de adquirencia y software de terminal es una ventana de demanda clara: la conexión entre redes, el enrutamiento y la liquidación dividida deben construirse en el terminal y en la pasarela."
+  },
+  "confidence": 0.66,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

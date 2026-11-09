@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-10-banking-02",
+  "slug": "ifss-malaysia-smart-card-personalisation-centre",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "secure-chip"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-10T04:18:16+08:00",
+  "ingestedAt": "2026-11-10T02:30:00+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "MyTruthMedia",
+      "url": "https://mytruthmedia.com/2026/11/07/ifss-smart-card-develop",
+      "lang": "zh",
+      "publishedAt": "2026-11-07T15:11:15+08:00"
+    }
+  ],
+  "title": {
+    "zh": "IFSS 在雪兰莪投产制卡中心：10 条产线，单班年产 4000 万张",
+    "en": "IFSS opens Malaysian card plant with 10 lines and 40 million cards a year",
+    "es": "IFSS abre en Selangor una planta de tarjetas con 10 líneas y 40 millones al año"
+  },
+  "summary": {
+    "zh": "马来西亚 IF Security Solution（IFSS Malaysia）在雪兰莪八打灵再也启用区域个性化服务中心，配 10 条产线。单班年产约 4000 万张银行卡与 SIM 卡，双班可到 8000 万张；每条银行卡产线每小时个性化 1600 张，SIM 线每小时 5000 张。公司称客户网络覆盖 40 多个地区的 110 家银行。",
+    "en": "IF Security Solution's Malaysian arm has opened a regional personalisation services centre in Petaling Jaya, Selangor, with 10 production lines. Single-shift capacity is about 40 million bank cards and SIM cards a year, doubling to 80 million on two shifts; each bank-card line personalises up to 1,600 cards an hour and each SIM line 5,000. The company says its client network covers 110 banks across more than 40 territories.",
+    "es": "La filial malasia de IF Security Solution abrió un centro regional de personalización en Petaling Jaya (Selangor) con 10 líneas de producción. La capacidad a un turno es de unos 40 millones de tarjetas bancarias y SIM al año, y de 80 millones a dos turnos; cada línea de tarjetas personaliza hasta 1.600 unidades por hora y cada línea de SIM, 5.000. La empresa afirma que su red de clientes cubre 110 bancos en más de 40 territorios."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "个性化是制卡链上最贵的一段，这次扩的是这一段",
+        "en": "Personalisation is the costly step, and that is what was expanded",
+        "es": "La personalización es el paso caro, y es lo que se amplió"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "据 MyTruthMedia 11 月 7 日报道，该中心名为区域个性化服务中心（RPS Centre），由 IFSS Malaysia 与总部在新加坡的 IF Security Solution Pte. Ltd. 合作开发。业务覆盖智能卡生产、个性化处理与履约交付，卡种包括信用卡、借记卡、预付卡与政府卡，形态覆盖磁条、接触式芯片与非接触芯片，同时处理 4G/5G 实体 SIM 与 eSIM。能力清单里写明 EMV 数据准备、芯片与磁条及图像个性化、加密与密钥管理、安全邮寄，每张卡要过 OCR、条码、重量与封口验证。",
+        "en": "MyTruthMedia reported on 7 November that the site, called the Regional Personalisation Services Centre, was developed by IFSS Malaysia with Singapore-headquartered IF Security Solution Pte. Ltd. It covers smart card production, personalisation and fulfilment across credit, debit, prepaid and government cards, in magnetic stripe, contact chip and contactless chip form, plus 4G and 5G physical SIMs and eSIMs. The stated capabilities include EMV data preparation, chip, stripe and image personalisation, encryption and key management, and secure mailing, with every card passing OCR, barcode, weight and seal checks.",
+        "es": "MyTruthMedia informó el 7 de noviembre de que el centro, denominado Regional Personalisation Services Centre, fue desarrollado por IFSS Malaysia con IF Security Solution Pte. Ltd., con sede en Singapur. Cubre producción, personalización y logística de tarjetas de crédito, débito, prepago y gubernamentales, en banda magnética, chip de contacto y chip sin contacto, además de SIM físicas 4G y 5G y eSIM. Las capacidades declaradas incluyen preparación de datos EMV, personalización de chip, banda e imagen, cifrado y gestión de claves, y envío seguro, con verificación por OCR, código de barras, peso y precinto en cada tarjeta."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "产能：单班约 4000 万张/年，双班约 8000 万张/年；共 10 条产线",
+          "en": "Capacity: about 40 million units a year on one shift, 80 million on two, across 10 lines",
+          "es": "Capacidad: unos 40 millones de unidades al año a un turno y 80 millones a dos, en 10 líneas"
+        },
+        {
+          "zh": "节拍：银行卡产线 1600 张/小时，SIM 产线 5000 张/小时，邮寄封装线 1500–2000 份/小时",
+          "en": "Throughput: 1,600 bank cards an hour per card line, 5,000 SIMs an hour per SIM line, and 1,500–2,000 mailers an hour",
+          "es": "Ritmo: 1.600 tarjetas por hora y línea, 5.000 SIM por hora y línea, y 1.500–2.000 envíos por hora"
+        },
+        {
+          "zh": "客户面：110 家银行、40 多个地区；设备与项目伙伴来自香港与澳门",
+          "en": "Customer base: 110 banks in more than 40 territories, with equipment and project partners from Hong Kong and Macao",
+          "es": "Clientes: 110 bancos en más de 40 territorios, con socios de equipos y proyectos de Hong Kong y Macao"
+        },
+        {
+          "zh": "发卡方可通过 Mavis CardTailor 平台直接管理发卡计划与各分行卡片库存",
+          "en": "Issuers can manage card programmes and branch-level card inventory directly through the Mavis CardTailor platform",
+          "es": "Los emisores pueden gestionar programas e inventario de tarjetas por sucursal con la plataforma Mavis CardTailor"
+        },
+        {
+          "zh": "高端卡线：金属卡、陶瓷卡、LED 卡、金箔爆裂纹理卡，以及再生 PVC、降解 PLA、PET-G 环保卡",
+          "en": "Premium lines: metal, ceramic, LED and gold-blast cards, plus eco cards in recycled PVC, degradable PLA and PET-G",
+          "es": "Líneas premium: metal, cerámica, LED y acabado gold blast, además de tarjetas eco en PVC reciclado, PLA degradable y PET-G"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "总经理李伟忠给出的财务口径是：按单班 80% 利用率测算，目标年营收约 2560 万美元（约 1.045 亿林吉特），并称这将使公司进入本地同业前五。这个数字是公司自述的目标，不是已实现营收。报道未披露投资额、投产客户名单与已签合约量。",
+        "en": "General manager Li Weizhong put the financial case at about US$25.6 million, or roughly MYR 104.5 million, of annual revenue at 80% single-shift utilisation, and said that would place the company among Malaysia's top five. That is a stated target, not booked revenue. The report does not disclose the investment, the launch customers or contracted volumes.",
+        "es": "El director general Li Weizhong situó el caso financiero en unos 25,6 millones de dólares, o unos 104,5 millones de ringgit, de ingresos anuales con el 80% de utilización a un turno, y dijo que eso situaría a la empresa entre las cinco mayores de Malasia. Es un objetivo declarado, no ingresos ya facturados. La nota no revela la inversión, los clientes de lanzamiento ni volúmenes contratados."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "商业维度先看产能落在哪里：8000 万张的双班上限接近一个中型区域市场的年发卡量，马来西亚本身消化不了，所以这 10 条线真正服务的是出口订单，客户名单已写明 40 多个地区、110 家银行。对东南亚与中东的发卡行，这意味着多了一个不必去欧洲排队的个性化选项，交期与议价空间都会松一点。技术上要注意它把 eSIM 与实体卡放在同一座厂：SIM 线 5000 张/小时、卡线 1600 张/小时，节拍差三倍，说明设备按形态分线，切换成本仍在。战略上卡体本身没变，变的是供应链位置——个性化过去集中在欧洲与中国的专业厂，现在东南亚出现了能做金属卡、陶瓷卡、LED 卡的高端线工厂，高端卡的交期与起订量可能跟着下来。对做发卡系统的集成商，值得跟的是 Mavis CardTailor 这类平台会不会随产能打包卖，那会压缩第三方发卡软件的入口。",
+    "en": "Start with where the capacity lands. An 80-million ceiling on two shifts is close to a mid-sized regional market's annual card volume, and Malaysia alone cannot absorb it, so these 10 lines are built for export orders — the customer list already names 110 banks across more than 40 territories. For issuers in Southeast Asia and the Middle East that means another personalisation option without queuing in Europe, which loosens lead times and pricing. Technically, note that eSIM and physical cards share one site: 5,000 SIMs an hour against 1,600 cards an hour is a threefold cadence gap, so equipment is split by form factor and changeover cost remains. Strategically the card body has not changed; the supply chain position has. Personalisation used to concentrate in European and Chinese specialist plants, and now a Southeast Asian site claims premium lines for metal, ceramic and LED cards, which could pull lead times and minimum order quantities down. For issuing-system integrators, watch whether a platform like Mavis CardTailor gets bundled with capacity, because that would squeeze the entry point for third-party issuing software.",
+    "es": "Empiece por dónde cae la capacidad. Un techo de 80 millones a dos turnos se acerca al volumen anual de un mercado regional medio, y Malasia sola no lo absorbe, así que estas 10 líneas están hechas para exportación: la lista de clientes ya cita 110 bancos en más de 40 territorios. Para emisores del sudeste asiático y Oriente Medio supone otra opción de personalización sin hacer cola en Europa, lo que relaja plazos y precios. En lo técnico, eSIM y tarjeta física comparten planta: 5.000 SIM por hora frente a 1.600 tarjetas por hora es una diferencia de cadencia de tres veces, señal de que el equipo se separa por formato y el coste de cambio sigue ahí. En lo estratégico, el cuerpo de la tarjeta no cambia; cambia la posición en la cadena. La personalización se concentraba en plantas especializadas europeas y chinas, y ahora un sitio del sudeste asiático reclama líneas premium para metal, cerámica y LED, lo que podría bajar plazos y pedidos mínimos. Para los integradores de sistemas de emisión, hay que ver si una plataforma como Mavis CardTailor se empaqueta con la capacidad, porque eso presionaría la entrada del software de emisión de terceros."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "task": "gap-supplement",
+  "date": "2026-11-10",
+  "startedAt": "2026-11-10T01:50:28+08:00",
+  "finishedAt": "2026-11-10T01:54:13+08:00",
+  "measureNote": "全程实测时钟读数 10 个（01:50:28 起、01:50:40 build-matrix 前、01:51:06 R1 批一、01:51:30 R1 收、01:51:50 R2 收、01:52:14 R3 收、01:52:44 R4 归档读收、01:52:56 R5 收、01:53:25 R6 收、01:54:13 写盘）。时刻在每批 query 发出前取，故记的是批次边界，不是单条 query 的耗时。",
+  "indexCheck": {
+    "file": "content/_raw/2026-11-10.index.json",
+    "fetchedFor": "2026-11-10",
+    "items": 157,
+    "verdict": "一次通过，未等待。fetchedFor 等于当日、items 非空（157 条），符合放行条件。index 内无 fetchedAt 字段，与 11-08/11-09 同型。"
+  },
+  "matrix": {
+    "counted": 1,
+    "dropped": {
+      "published": 0,
+      "expired": 0,
+      "undated": 15,
+      "lowConfidence": 141
+    },
+    "gap": ["cis", "mena", "europe", "north-america", "latam", "africa"],
+    "cellGap": ["apac/telecom", "apac/identity"],
+    "industryGap": [
+      { "industry": "telecom", "emptyRegions": 7 },
+      { "industry": "identity", "emptyRegions": 7 },
+      { "industry": "banking", "emptyRegions": 6 }
+    ],
+    "note": "21 格里只有 apac/banking 一格非空（Visa×Octopus 香港 QR，0.65）。三行业同时接近满格空缺，telecom 与 identity 七区全空。根因在源侧不是阈值：157 条里 cbr.ru 23 条（俄央行模板公告）、itweb 16 条（南非人事与治安）、fierce-network 15 条（电信财报与裁员）、pymnts 10 条（AI 购物基准）、comnews 10 条、ghanabusinessnews 10 条（预算与流动性），最高置信 0.65。"
+  },
+  "phases": [
+    { "at": "2026-11-10T01:50:28+08:00", "step": "会话起，取站点日期 2026-11-10" },
+    { "at": "2026-11-10T01:50:40+08:00", "step": "index 校验通过（157 条，一次通过）；build-matrix 重算：计入 1 条，六区全空 + apac 两格" },
+    { "at": "2026-11-10T01:51:06+08:00", "step": "R1 批一（4 条）发出" },
+    { "at": "2026-11-10T01:51:30+08:00", "step": "R1 收（共 8 条），8 条里 6 条被旅游 eSIM 销售页与使用指南占满，仅突尼斯/罗马尼亚/菲律宾三条边缘线索" },
+    { "at": "2026-11-10T01:51:50+08:00", "step": "R2 收（共 8 条），机构名驱动同样被市场概览页与说明页吞掉，无窗口内合格候选" },
+    { "at": "2026-11-10T01:52:14+08:00", "step": "R3 收（6 条采购术语）＋三次归档页直读（biometricupdate /202611、paymentsindustryintelligence、idtechwire）" },
+    { "at": "2026-11-10T01:52:44+08:00", "step": "R4 归档直读结论：biometricupdate 11-07/08 全为观点与政策稿；PII 11-08 三条已在 index；idtechwire 最新只到 11-06。转 R5" },
+    { "at": "2026-11-10T01:52:56+08:00", "step": "R5 收（3 条新兴术语），命中 Semtech SGP.32 官方稿" },
+    { "at": "2026-11-10T01:53:25+08:00", "step": "R6 收（3 条本地语言重试），命中科索沃 11-09 受理开放" },
+    { "at": "2026-11-10T01:54:13+08:00", "step": "原文核验（Kosovo、IFSS 两篇 WebFetch 逐项核对）完成，supplement 落盘" }
+  ],
+  "rounds": [
+    {
+      "round": "R1",
+      "count": 8,
+      "completedBetween": ["2026-11-10T01:51:06+08:00", "2026-11-10T01:51:30+08:00"],
+      "basis": "缺口驱动：六区全空 + apac 两格，按「区域 + 链路环节的产品词」配对（mena/africa 配 eSIM 与发卡个性化，latam 配 CURP 与 CIN，europe 配 eSA/SGP.32，apac 配 DigiLocker 与 mDL）。",
+      "queries": [
+        "Saudi Arabia Morocco eSIM operator launch November 2026",
+        "digital ID card issuance national rollout 6 November 2026",
+        "Nigeria payment card issuance personalisation bureau 7 November 2026",
+        "Kazakhstan Uzbekistan eSIM iSIM operator launch November 2026",
+        "Mexico biometric national ID card CURP issuance November 2026",
+        "GSMA eSA certification eUICC SGP.32 November 2026",
+        "Canada bank card issuance chip personalisation contract November 2026",
+        "DigiLocker Aadhaar mDL issuance app launch November 2026 India"
+      ],
+      "result": "6/8 条首屏全是旅游 eSIM 销售页（trvlsim、bloomyesim、simswift、simpackers、esimkite、mobimatter、etravelsim、esims.io）或使用指南（DigiLocker、MyDigital ID 说明页）。仅三条边缘线索：突尼斯 11-06 宣布年底前远程受理身份证与护照申请（表态，无具体物）、罗马尼亚 CNAS 11-06 起 eID 可替代医保卡受理（事件 11-06，超窗）、菲律宾 PSA 巴拉望岛屿登记（签发渠道下沉，无动作）。"
+    },
+    {
+      "round": "R2",
+      "count": 8,
+      "completedBetween": ["2026-11-10T01:51:30+08:00", "2026-11-10T01:51:50+08:00"],
+      "basis": "机构驱动：换成该市场的具体主体——SAMA/mada、NIMC、IPZS、Banxico、BKM/Troy、哈萨克运营商、巴西州制证机构、埃及 Meeza。目的是绕开旅游站，直接撞新闻室与官方公告。",
+      "queries": [
+        "mada Saudi Payments new card specification certification November 2026",
+        "NIMC Nigeria National Identification Number card issuance November 2026",
+        "Carta di Identità Elettronica IPZS novembre 2026 rilascio",
+        "Banxico DiMo CoDi pagos QR noviembre 2026 lanzamiento",
+        "Troy kart şeması yeni spesifikasyon sertifikasyon Kasım 2026",
+        "Казахстан eSIM оператор запуск ноябрь 2026",
+        "Brasil nova Carteira de Identidade Nacional novembro 2026 emissão",
+        "Meeza card Egypt issuance bank November 2026"
+      ],
+      "result": "0 条可用。世行尼日利亚 ID4D 重排文件（10-22）、墨西哥数字支付法（11-04 公布 / 11-05 生效，11-06 已发稿）、巴西 CIN 手机申请（11-03 传闻稿，11-07 已发稿）全部超窗或重复；Troy、Meeza、IPZS 只回支付监测站与市场概览页。"
+    },
+    {
+      "round": "R3",
+      "count": 6,
+      "completedBetween": ["2026-11-10T01:51:50+08:00", "2026-11-10T01:52:14+08:00"],
+      "basis": "官方一手源：六条全用当地语言采购术语（licitación / edital / appel d'offres / مناقصة / тендер / TED），目标是把制卡与制证招标从搜索噪声里捞出来。",
+      "queries": [
+        {
+          "q": "licitación suministro tarjetas bancarias chip personalización noviembre 2026",
+          "basedOn": "R2 #1 只拿到 SAMA 首页与 G+D 访谈，改走西语采购词补 mena/latam 的制卡标"
+        },
+        {
+          "q": "edital licitação cartão de identificação smart card novembro 2026",
+          "basedOn": "R3 #1 无标可捞（只回设备商行业稿），改葡语并把标的从银行卡放宽到证件卡"
+        },
+        {
+          "q": "appel d'offres marché personnalisation cartes d'identité novembre 2026",
+          "basedOn": "R3 #2 顺带撞出马来西亚 IFSS 个性化中心，说明产能在东南亚，改法语查欧洲制证标补 europe"
+        },
+        {
+          "q": "مناقصة توريد بطاقات الهوية الذكية نوفمبر 2026",
+          "basedOn": "R3 #3 只回中国公安报与瑞典/芬兰政策稿，补阿语直接覆盖 mena 的证件标"
+        },
+        {
+          "q": "тендер изготовление электронных удостоверений личности ноябрь 2026",
+          "basedOn": "cis 连续第五天空缺且前两轮全废，用俄语采购词直接打，不再经英文转译"
+        },
+        {
+          "q": "Tenders Electronic Daily secure identity document personalisation contract November 2026",
+          "basedOn": "R3 #3 的欧洲证件线未出结果，改用 TED 官方索引名做锚点"
+        }
+      ],
+      "result": "6 条里 5 条只回招标聚合站、中国政采、UNGM 与市政府办事页。唯一有效产出是 R3 #2 顺带撞到的 IFSS 马来西亚个性化中心稿（11-07）。TED 那条只回索引说明页。"
+    },
+    {
+      "round": "R4",
+      "count": 3,
+      "completedBetween": ["2026-11-10T01:52:14+08:00", "2026-11-10T01:53:25+08:00"],
+      "basis": "行业垂直媒体：先用归档页直读取代关键词（biometricupdate /202611、paymentsindustryintelligence 首页、idtechwire 首页），再用 3 条垂媒站名 query 补 telecom 与发卡线。",
+      "directReads": [
+        "https://www.biometricupdate.com/202611 — 11-07/08 共 10 条，全为观点稿、诉讼与政策（深伪诈骗、Treasury 招标、乌克兰市场观察、Cloudflare AI 代理身份），无一条过范围门",
+        "https://www.paymentsindustryintelligence.com/ — 最新 11-08 三条（Visa AI 购物基准、冰岛 A2A、Revolut 新西兰牌照）均已在 index",
+        "https://idtechwire.com/ — 首页最新只到 11-06，11-07 之后未更新"
+      ],
+      "queries": [
+        {
+          "q": "mobileworldlive iSIM eSIM operator enterprise November 2026",
+          "basedOn": "R1 #6 的 Semtech 线索需要一手源，改垂媒站名反查运营商侧反应"
+        },
+        {
+          "q": "telecomreviewasia eSIM SIM manufacturing November 2026",
+          "basedOn": "R3 #2 的 IFSS 说明东南亚有卡产能新闻，用亚洲垂媒补同一区域 telecom"
+        },
+        {
+          "q": "fintechnews.sg card issuance tokenisation bank November 2026",
+          "basedOn": "R2 全部无果后，用新加坡垂媒补 apac/banking 的发卡与令牌化独家"
+        }
+      ],
+      "result": "3 条 query 里 1 条命中 Semtech 官方稿（与 R5 互证）；另两条撞出 IFPP/Orange 量子安全厂内写卡（11-04）与 GL1 Org 五家银行（11-04），均超窗。归档直读三次全部零产出，是本月第二次出现「垂媒首页滞后到 11-06」。"
+    },
+    {
+      "round": "R5",
+      "count": 3,
+      "completedBetween": ["2026-11-10T01:52:44+08:00", "2026-11-10T01:52:56+08:00"],
+      "basis": "新兴术语：用还没成为通用词的表述（SGP.32 eIM、eSIM orchestration、quantum-safe 卡、mDL issuance）去打，避开已被 SEO 占满的「区域 + eSIM」。",
+      "queries": [
+        {
+          "q": "SGP.32 eIM eSIM orchestration platform launch 9 November 2026",
+          "basedOn": "R1 #6 与 R4 #1 两次都指到 Semtech，用 eIM 编排这个更窄的词并加日期锚定去取一手稿"
+        },
+        {
+          "q": "quantum-safe payment card migration certification November 2026",
+          "basedOn": "GSMA eSA 一线的延伸；11-05 已发 IDEMIA PQC Java Card，用同一术语找 72 小时内的新认证或新迁移节点"
+        },
+        {
+          "q": "mobile driving licence mDL launch state November 2026 acceptance",
+          "basedOn": "R2 #3 顺带出现的西班牙 MiDNI 与德国 i-Kfz，改 mDL 术语查受理侧（谁开始认手机驾照）"
+        }
+      ],
+      "result": "R5 #1 命中 Semtech 官方新闻室（11-09，Camarillo），是今天唯一通过的 telecom 条目。R5 #2 只回 IDEMIA 已发稿与 MAS 咨询文件。R5 #3 回德国 i-Kfz（法定基础 10 月生效、11 月底上线）与美国 16 州综述，均无窗口内事件。"
+    },
+    {
+      "round": "R6",
+      "count": 3,
+      "completedBetween": ["2026-11-10T01:52:56+08:00", "2026-11-10T01:53:25+08:00"],
+      "basis": "区域补充：前五轮无结果的三区（europe/latam/mena）换本地语言与日期锚定重试，不原样重发。",
+      "queries": [
+        {
+          "q": "biometric national ID card launched \"9 November 2026\"",
+          "basedOn": "11-08 验证过的日期锚定手法；europe 只剩 identity 有机会，用英文＋引号日期直接切当天事件"
+        },
+        {
+          "q": "cédula de identidad digital emisión noviembre 2026 Latinoamérica",
+          "basedOn": "R2 #7 巴西 CIN 已发稿，改用西语「cédula」覆盖西语区（秘鲁、哥伦比亚、厄瓜多尔）"
+        },
+        {
+          "q": "بطاقة الهوية الذكية إصدار نوفمبر 2026",
+          "basedOn": "R3 #4 的阿语采购词只回中国政采，去掉采购词改民用表述，试 mena 的证件签发侧"
+        }
+      ],
+      "result": "R6 #1 命中科索沃国家 eID 与数字钱包（11-09 起七个登记中心受理）。R6 #2 撞出秘鲁 IDB 8000 万美元（11-05 授权，超窗）。R6 #3 只回巴基斯坦 NADRA、南非 DHA、加纳 L.I. 2523 的指南与旧闻。"
+    }
+  ],
+  "totals": {
+    "queries": 31,
+    "directArchiveReads": 3,
+    "verifiedWithWebFetch": 2,
+    "floorCheck": "R1 8/6、R2 8/5、R3 6/6、R4 3/3（另加 3 次归档直读）、R5 3/3、R6 3/3，合计 31 条 ≥ 24 条下限，六轮均达标。",
+    "itemsWritten": 3
+  },
+  "verifiedButDropped": [
+    "西班牙 JEC 11-05 解除 MiDNI 投票禁令（附 61,603 台终端、700 万欧元紧急合同）——事件 11-05，距开跑超 72 小时。",
+    "秘鲁 11-05 第 246-2026-EF 号最高法令授权 IDB 8000 万美元身份现代化贷款（DNIe 覆盖率 13.9%→75%、出证 9.3 天→2 天）——事件 11-05，超窗。",
+    "芬兰外交部 11-05 提交议会修法（护照与身份证指纹可互用、未成年人可在境外申请身份证）——事件 11-05，超窗。",
+    "瑞典 Proposition 2026/27:10 拟将 Skatteverket 证件业务移交警察、12-01 全国上线 SverigeID——议案提交日未能从一手源确认，且二手源为咨询公司博客，判据不足。",
+    "Acceleronix × IDEMIA × Orange 量子安全厂内写卡 IFPP（MFF4 2×2mm、SGP.41 框架）——新闻稿 11-04，超窗；11-10 慕尼黑 electronica 仅为演示。",
+    "尼日利亚 ID4D 第三次延期（1.21 亿 NIN 对 1.8 亿目标、1.96 亿美元未拨付）——世行文件 10-22，报道 11-05，超窗。",
+    "中国移动「AI-eSIM 多生态智能服务体系」与「先行者一号」机器人可信网联身份板（11-05~07 广州移动网络大会）——与 11-08 已发稿的海思×繁星智算同属一个事件线，按「同一事件线最多 1 条」弃用。"
+  ],
+  "sourceSitesUsed": [
+    "semtech.com（官方新闻室，一手）",
+    "mytruthmedia.com（IFSS 新闻稿中文全文转述，含产能与营收口径）",
+    "biometricupdate.com（科索沃，EST 精确到分）",
+    "mas.gov.sg 相关报道（仅作背景，未成稿）"
+  ]
+}

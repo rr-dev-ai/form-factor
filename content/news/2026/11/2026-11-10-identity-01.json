@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-10-identity-01",
+  "slug": "smart-id-eidas-assurance-high-remote-biometric-onboarding",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "mobile-id",
+    "biometrics",
+    "liveness",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-10T04:18:16+08:00",
+  "ingestedAt": "2026-11-10T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/smart-id-gains-eu-recognition-for-high-assurance-remote-biometric-onboarding",
+      "lang": "en",
+      "publishedAt": "2026-11-09T13:59:00-05:00"
+    }
+  ],
+  "title": {
+    "zh": "Smart-ID 获 eIDAS 最高保证等级，远程人脸开户被承认",
+    "en": "Smart-ID wins eIDAS assurance level High for remote biometric onboarding",
+    "es": "Smart-ID logra el nivel High de eIDAS con alta biométrica remota"
+  },
+  "summary": {
+    "zh": "拉脱维亚在 eIDAS 框架下完成同行评审，把 SK ID Solutions 的 Smart-ID 通知为保证等级 High，其全远程人脸开户被一并纳入。开户流程用 iProov 的活体检测配合 Signicat 的 NFC 证件读取；通知生效后，其他成员国的公共服务须承认这套凭证。",
+    "en": "Latvia has notified SK ID Solutions' Smart-ID scheme at eIDAS assurance level High after peer review, including its fully remote biometric onboarding. The enrolment flow pairs iProov liveness detection with Signicat's NFC document reading. With the notification, other member states must accept the scheme for qualifying public services.",
+    "es": "Letonia ha notificado el esquema Smart-ID de SK ID Solutions en el nivel de garantía High de eIDAS tras la revisión por pares, incluido su alta biométrica totalmente remota. El proceso combina la detección de vida de iProov con la lectura NFC de documentos de Signicat. Con la notificación, los demás Estados miembros deben aceptar el esquema en sus servicios públicos."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "等级由谁给，给到哪一档",
+        "en": "Who grants the level, and which level it is",
+        "es": "Quién otorga el nivel y de qué nivel se trata"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "eIDAS 把电子身份的保证等级分三档，High 是最高的一档，对应冒用身份会造成显著损失的场景。等级不能自评：要由成员国向欧盟通报，再经同行评审，其他成员国才必须承认这套凭证用于本国公共服务。这次的通知方是拉脱维亚，Smart-ID 由此进入可在全欧公共服务互认的名单。",
+        "en": "eIDAS splits electronic identity assurance into three levels, with High at the top, meant for cases where impersonation causes significant harm. A scheme cannot self-certify: a member state has to notify it at EU level and it has to pass peer review before other member states must accept the credential for their own public services. Latvia was the notifying state here, which puts Smart-ID on the list recognised across the EU.",
+        "es": "eIDAS divide la garantía de la identidad electrónica en tres niveles, con High en la cima, pensado para casos en que la suplantación causa un daño significativo. Un esquema no puede autocertificarse: un Estado miembro debe notificarlo ante la UE y superar la revisión por pares para que los demás deban aceptar la credencial en sus servicios públicos. La notificación la hizo Letonia, lo que sitúa a Smart-ID en la lista reconocida en toda la UE."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "远程开户两步：先读芯片，再证明镜头前是活人",
+        "en": "Two steps for remote enrolment: read the chip, then prove a live person",
+        "es": "Dos pasos en el alta remota: leer el chip y probar que hay una persona"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "开户时先用手机 NFC 读证件芯片，由 Signicat 的 ReadID 判断证件真伪；再拍人脸做活体比对，由 iProov 的 Dynamic Liveness 完成。争议一直卡在第二步：监管机构过去不接受自动化远程核验等同于临柜面签，理由是注入攻击与翻拍难以分辨。iProov 的这套检测此前由 Ingenium Biometric Laboratories 按 CEN/TS 18099 测到 Level High，构成这次通知的技术依据之一。",
+        "en": "Enrolment starts with an NFC read of the document chip, which Signicat's ReadID uses to check the document is genuine, followed by a face capture and liveness match handled by iProov's Dynamic Liveness. The argument has always centred on that second step: supervisors did not accept automated remote checks as equal to an in-person interview, because injection attacks and replayed faces are hard to tell apart. iProov's detection had previously been evaluated to CEN/TS 18099 Level High by Ingenium Biometric Laboratories, which underpins the notification.",
+        "es": "El alta empieza con una lectura NFC del chip del documento, que ReadID de Signicat usa para comprobar que es auténtico, y sigue con la captura del rostro y la comparación de vida que realiza Dynamic Liveness de iProov. La discusión siempre se ha centrado en ese segundo paso: los supervisores no aceptaban la verificación remota automatizada como equivalente a una entrevista presencial, porque los ataques de inyección y los rostros reproducidos son difíciles de distinguir. La detección de iProov había sido evaluada en el nivel High de CEN/TS 18099 por Ingenium Biometric Laboratories, lo que sostiene la notificación."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "SK ID Solutions 称这是第一套全远程生物识别开户拿到该等级的方案。这一判断出自公司公告，通知文件本身没有列出同类方案的横向比较；公告也未给出发行量、接入的公共服务数量或生效日期。",
+        "en": "SK ID Solutions describes it as the first fully remote biometric onboarding method to reach the designation. That claim comes from the company's announcement; the notification itself does not set out a comparison with rival schemes, and the announcement gives no issuance figures, no count of connected public services and no effective date.",
+        "es": "SK ID Solutions lo presenta como el primer método de alta biométrica totalmente remota en alcanzar esa designación. La afirmación procede del anuncio de la empresa; la notificación no incluye una comparación con esquemas rivales y el anuncio no aporta cifras de emisión, número de servicios públicos conectados ni fecha de entrada en vigor."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "对受理端，变化是硬的：需要按 High 等级受理凭证的公共部门，不能再以「远程核验不可信」为由拒绝这一类开户结果；跨境办事时，服务方也不必再要求申请人跑一次柜台。",
+        "en": "For relying parties the change is concrete: a public body that has to accept credentials at High can no longer turn down this kind of remote enrolment on the grounds that remote checks are untrustworthy, and cross-border services no longer need to send the applicant to a counter.",
+        "es": "Para quien acepta la credencial el cambio es concreto: un organismo público obligado a admitir credenciales de nivel High ya no puede rechazar este tipo de alta remota alegando que la verificación a distancia no es fiable, y los servicios transfronterizos dejan de necesitar que el solicitante acuda a una ventanilla."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "技术上看，这次通知把「NFC 读证件芯片 + 远程活体」的组合正式放进 High 档，等于给无网点开户背书。银行远程开户、运营商实名补登记、政府电子身份申领都能照此设计，不必再为单独的人脸核验保留临柜流程；真正被卡住的是活体算法——能否通过 CEN/TS 18099 这类注入攻击检测，开始成为选型门槛，而不只是比对准确率。监管上看，同行评审的结果有互认效力，一国的通知会外溢到其他成员国的受理端，做跨境身份业务的集成商要按最高档备料，不能按本国最低要求交付。市场上，iProov 与 Signicat 拿到一个可引用的合规范例，其余活体厂商将面对「有没有同等级测评」这一条新的比价依据。",
+    "en": "Technically, the notification moves the pairing of NFC chip reading with remote liveness into the High tier, which amounts to an endorsement of branchless enrolment. Banks can build remote account opening on it, telcos can use it for re-registration, and governments can issue electronic identities without keeping a counter in the loop. The binding constraint shifts to the liveness algorithm: passing an injection-attack test such as CEN/TS 18099 becomes a procurement threshold rather than a differentiator built on match accuracy. On the regulatory side, peer-reviewed notification carries mutual recognition, so one country's decision reaches acceptance desks in the other member states, and integrators selling cross-border identity services have to prepare at the top level rather than at their home market's minimum. Commercially, iProov and Signicat gain a referenceable compliance case, while competing liveness vendors face a new comparison criterion: whether they hold an equivalent evaluation.",
+    "es": "En lo técnico, la notificación sitúa la combinación de lectura NFC del chip con detección de vida remota en el nivel High, lo que equivale a respaldar el alta sin sucursal. Los bancos pueden diseñar sobre ella la apertura remota de cuentas, las operadoras usarla para el reregistro y los gobiernos emitir identidades electrónicas sin mantener una ventanilla en el circuito. La restricción vinculante se desplaza al algoritmo de vida: superar una prueba de ataques de inyección como CEN/TS 18099 pasa a ser un umbral de compra y no un diferenciador por precisión de comparación. En lo regulatorio, la notificación revisada por pares conlleva reconocimiento mutuo, de modo que la decisión de un país llega a las ventanillas de los demás y los integradores que venden identidad transfronteriza deben prepararse en el nivel superior, no en el mínimo de su mercado. En lo comercial, iProov y Signicat obtienen un caso de cumplimiento citable, mientras sus competidores de detección de vida se enfrentan a un nuevo criterio de comparación: disponer o no de una evaluación equivalente."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-pool-v1"
+  }
+}

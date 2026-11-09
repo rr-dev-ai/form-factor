@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-10-banking-01",
+  "slug": "visa-scan-to-pay-octopus-qr-hong-kong",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-10T04:18:16+08:00",
+  "ingestedAt": "2026-11-10T02:30:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Fintech News Hong Kong",
+      "url": "https://fintechnews.hk/42011/payments/visa-octopus-qr-payments-hong-kong-tourists/",
+      "lang": "en",
+      "publishedAt": "2026-11-09T07:00:08+00:00"
+    }
+  ],
+  "title": {
+    "zh": "Visa 把 Scan to Pay 接进八达通 QR 商户，游客用本国钱包扫码",
+    "en": "Visa extends Scan to Pay to Octopus QR merchants in Hong Kong",
+    "es": "Visa lleva Scan to Pay a los comercios QR de Octopus en Hong Kong"
+  },
+  "summary": {
+    "zh": "Visa 与八达通卡有限公司合作，把 Visa Scan to Pay 接入香港八达通 QR 商户网络。商户沿用现有八达通收款设置，不装新硬件即可受理境外钱包扫码；首批可用的是现代卡、友利卡、三星卡与 VNPT Money，LINE Pay 与新韩卡随后加入。双方称 2027 年再推八达通钱包用户的出境扫码。",
+    "en": "Visa and Octopus Cards Limited have extended Visa Scan to Pay acceptance to Octopus QR merchants across Hong Kong. Merchants keep their existing Octopus setup and need no extra hardware to take QR payments from overseas wallets. Hyundai Card, Woori Card, Samsung Card and VNPT Money are live at launch, with LINE Pay and Shinhan Card to follow. The two firms say a 2027 phase will let Octopus wallet users scan abroad.",
+    "es": "Visa y Octopus Cards Limited han extendido la aceptación de Visa Scan to Pay a los comercios QR de Octopus en Hong Kong. El comercio mantiene su instalación actual de Octopus y no necesita hardware adicional para aceptar pagos QR de carteras extranjeras. En el lanzamiento operan Hyundai Card, Woori Card, Samsung Card y VNPT Money, con LINE Pay y Shinhan Card por llegar. Las partes prevén para 2027 una fase para que los usuarios de la cartera Octopus paguen con QR en el exterior."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "受理侧的活，落在商户已有的那台设备上",
+        "en": "An acquiring change that runs on hardware merchants already have",
+        "es": "Un cambio en la adquirencia sobre el hardware que el comercio ya tiene"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "按 Fintech News Hong Kong 11 月 9 日的报道，这项合作把 Visa Scan to Pay 接到八达通的 QR 商户网络上：入境游客用自己国家的手机钱包扫码付款，餐厅、小店这类已用八达通商业版 App 收款的商户不需要另装终端或改系统。Visa 称 Scan to Pay 是 Visa Pay 之下的一层，交易仍走 Visa 的全球网络清算。该产品 2025 年 11 月起在亚太铺开。",
+        "en": "Fintech News Hong Kong reported on 9 November that the deal connects Visa Scan to Pay to the Octopus QR merchant network: inbound visitors scan and pay with a wallet from their home market, while restaurants and small shops already using the Octopus App for Business take the payment without a new terminal or a system change. Visa describes Scan to Pay as a layer inside Visa Pay, with transactions still cleared over Visa's global network. The product has been rolling out across Asia-Pacific since November 2025.",
+        "es": "Fintech News Hong Kong informó el 9 de noviembre de que el acuerdo conecta Visa Scan to Pay a la red de comercios QR de Octopus: el visitante escanea y paga con una cartera de su mercado, y el restaurante o la tienda que ya usa la app Octopus for Business cobra sin terminal nueva ni cambio de sistema. Visa describe Scan to Pay como una capa dentro de Visa Pay, con liquidación por su red global. El producto se despliega en Asia-Pacífico desde noviembre de 2025."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "首发可用的四款境外钱包：现代卡、友利卡、三星卡（均为韩国发卡机构）与越南 VNPT Money",
+          "en": "Four overseas wallets at launch: Hyundai Card, Woori Card and Samsung Card from Korea, plus Vietnam's VNPT Money",
+          "es": "Cuatro carteras extranjeras en el lanzamiento: Hyundai Card, Woori Card y Samsung Card de Corea, más VNPT Money de Vietnam"
+        },
+        {
+          "zh": "LINE Pay 与新韩卡标注为「即将支持」，Visa 称后续继续接入更多数字钱包",
+          "en": "LINE Pay and Shinhan Card are listed as coming soon, with Visa saying more wallets will be onboarded",
+          "es": "LINE Pay y Shinhan Card figuran como próximos, y Visa dice que sumará más carteras"
+        },
+        {
+          "zh": "八达通持储值支付工具牌照，受香港金管局监管；本次只改受理侧，不改八达通卡本身",
+          "en": "Octopus holds a stored value facility licence supervised by the HKMA; the change is on the acceptance side, not the Octopus card itself",
+          "es": "Octopus opera con licencia de depósito de valor supervisada por la HKMA; el cambio es de aceptación, no de la tarjeta Octopus"
+        },
+        {
+          "zh": "二期计划在 2027 年让八达通钱包用户出境时反向扫 Visa QR 网络",
+          "en": "Phase two, planned for 2027, would let Octopus wallet users scan on the Visa QR network when travelling",
+          "es": "La segunda fase, prevista para 2027, permitiría a los usuarios de la cartera Octopus escanear en la red QR de Visa al viajar"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "口径上要分清两件事：这不是给八达通发新卡，也不是把八达通接进某个境内钱包，而是在既有 QR 商户池上叠加一层境外钱包的受理能力。报道没有给出商户覆盖数量、单笔限额、费率，也没有说明参与商户是否需要在八达通侧做额外配置。对收单与网关一方，真正要评估的是这条通道的清算路径与对账口径是否与现有 Visa 受理一致。",
+        "en": "Two things should be kept apart: this is not a new Octopus card, nor Octopus being plugged into a mainland wallet, but an extra acceptance layer for overseas wallets on top of an existing QR merchant base. The report gives no merchant count, transaction cap or pricing, and does not say whether merchants need any extra configuration on the Octopus side. For acquirers and gateways, the question that matters is whether clearing and reconciliation on this rail match existing Visa acceptance.",
+        "es": "Conviene separar dos cosas: no es una tarjeta Octopus nueva ni Octopus integrado en una cartera continental, sino una capa adicional de aceptación de carteras extranjeras sobre una base de comercios QR existente. La nota no da número de comercios, límite por operación ni precios, ni aclara si el comercio requiere configuración extra en Octopus. Para adquirentes y pasarelas, la pregunta relevante es si la liquidación y la conciliación de este carril coinciden con la aceptación Visa actual."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "市场维度最直接：香港的 QR 受理长期是本地钱包的封闭池，八达通、PayMe、AlipayHK 各扫各的。Visa 不新建商户，而是把境外钱包塞进八达通已有的商户池，等于用别人的收单网络做入境游客生意。对收单机构，这意味着争的不再是「谁装终端」，而是「谁的 QR 商户池被国际卡组织接入」——商户池本身成了可分发的资产。技术上没有新硬件，也没有新规范，难点在清算路径与对账口径：一笔游客扫码，受理标识是八达通的，清算走 Visa，退款与拒付按谁家的规则，报道没说。商业上，先手是那四家韩国与越南钱包的发卡方，它们拿到了香港中小商户的受理面，而香港本地收单商在游客消费里多了一层过路费。战略上值得盯 2027 年的反向那一半：八达通钱包出境扫码若落地，香港的储值工具就第一次走出本地受理网，这才是形态变化。",
+    "en": "The market angle is the direct one. QR acceptance in Hong Kong has long been a set of closed pools — Octopus, PayMe, AlipayHK each scan only their own. Visa is not building merchants; it is putting foreign wallets into Octopus's existing merchant base, doing inbound-tourist business over someone else's acquiring network. For acquirers that shifts the contest from whose terminal is installed to whose QR merchant pool gets connected by an international scheme, which turns the pool itself into a distributable asset. Technically there is no new hardware and no new specification; the hard part is clearing and reconciliation, because a tourist's scan carries an Octopus acceptance identity while clearing runs on Visa, and the report does not say whose rules govern refunds and chargebacks. Commercially the first movers are the four Korean and Vietnamese wallet issuers, which gain reach into small Hong Kong merchants, while local acquirers take an extra toll on visitor spend. Strategically, watch the reverse half in 2027: if Octopus wallet users can scan abroad, a Hong Kong stored-value tool leaves its home acceptance network for the first time, and that is the form-factor change.",
+    "es": "El ángulo de mercado es el directo. La aceptación QR en Hong Kong ha sido un conjunto de circuitos cerrados por cartera. Visa no construye comercios: mete carteras extranjeras en la base de Octopus y hace negocio de turismo entrante sobre la red de adquirencia de otro. Para los adquirentes, la disputa deja de ser qué terminal está instalado y pasa a ser qué parque de comercios QR conecta un esquema internacional, lo que convierte ese parque en un activo distribuible. En lo técnico no hay hardware ni especificación nuevos; lo difícil es la liquidación y la conciliación, porque el escaneo del turista lleva identidad de aceptación de Octopus mientras la liquidación va por Visa, y la nota no dice qué reglas rigen reembolsos y contracargos. En lo comercial, los primeros en moverse son los cuatro emisores coreanos y vietnamitas, que ganan alcance en el pequeño comercio local. En lo estratégico, hay que mirar la mitad inversa de 2027: si la cartera Octopus puede escanear en el exterior, un instrumento de valor almacenado de Hong Kong sale por primera vez de su red local, y ese es el cambio de forma."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-pool-v1"
+  }
+}

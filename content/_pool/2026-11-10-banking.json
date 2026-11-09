@@ -1,0 +1,174 @@
+{
+  "date": "2026-11-10",
+  "industry": "banking",
+  "startedAt": "2026-11-10T02:30:00+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "Bred Bank Fiji shifts card issuing to BPC SmartVista",
+      "url": "https://www.finmagicnews.com/news/read/bred-bank-fiji-shifts-card-issuing-to-bpc-smartvista",
+      "reason": "原文只经二手转载（finmagicnews、renascence 均标注转引 Finextra），打不开一手稿，事件日无法确定；且 FF News 记录显示该行此前已有两轮 BPC SmartVista 迁移公告，本次属同一合作关系的重复宣传，无卡量、无时间表，动作门与时效门均过不了"
+    },
+    {
+      "title": "MONEI launches Tap to Pay on iPhone for Spanish merchants",
+      "url": "https://mihaipay.cn/index.php?a=show&c=index&catid=9&id=425&m=content",
+      "reason": "事件日 11-06，72 小时窗口起点为 11-06 18:30 UTC，西班牙当日发布已出窗；且仅见于第三方周报转述，未找到 MONEI 一手公告"
+    },
+    {
+      "title": "Newland and Aevi simplify Android smart POS deployment",
+      "url": "https://mihaipay.cn/index.php?a=show&c=index&catid=9&id=422&m=content",
+      "reason": "事件日 11-03，超出 72 小时窗口（约 7 天半）"
+    },
+    {
+      "title": "littlefish and Halo Dot partner on SoftPOS and merchant tools",
+      "url": "https://thepaypers.com/payments/news/littlefish-and-halo-dot-partner-on-softpos-and-merchant-tools",
+      "reason": "11-04 宣布，已出窗；且 11-08 期已按同一口径拦过：原文只有「非洲市场已在部署」，无国家、无客户名、无终端数，联合部署门过不了"
+    },
+    {
+      "title": "CIMB OCTO extends DuitNow QR payments to five more markets",
+      "url": "https://technode.global/2026/11/05/malaysias-cimb-octo-extends-duitnow-qr-payments-to-five-more-markets/",
+      "reason": "11-05 发布，超出 72 小时窗口；底层 PayNet×Alipay+ 出境扫码通道 10-28 已上线，更早出窗"
+    },
+    {
+      "title": "NPCI standardises UPI dispute management rules in URCS",
+      "url": "https://teamleaseregtech.com/updates/article/61096/npci-standardisation-of-upi-dispute-management-rules-in-urcs/",
+      "reason": "11-04 发布已出窗；标的是 UPI 账户到账户的争议规则，不在卡受理与卡组织清算范围内"
+    },
+    {
+      "title": "Canada launches real-time rail for 24/7 payments",
+      "url": "https://www.bnnbloomberg.ca/business/economics/2026/11/09/payments-canada-launches-real-time-rail-payment-system",
+      "reason": "范围门：实时支付轨道属账户到账户基础设施，不是发卡、收单或卡组织清算，不进卡栈"
+    },
+    {
+      "title": "Iceland plans domestic A2A payments infrastructure",
+      "url": "https://paymentsindustryintelligence.com/iceland-plans-domestic-a2a-payments-infrastructure-details/",
+      "reason": "范围门：A2A 支付基础设施，不在卡栈；11-08 期同一判据已拦"
+    },
+    {
+      "title": "Visa benchmark exposes reliability gap in AI shopping",
+      "url": "https://paymentsindustryintelligence.com/visa-benchmark-exposes-reliability-gap-in-ai-shopping/",
+      "reason": "动作门：发布的是评测基准与方法论，没有改变受理或发卡机制，六类动作都不贴"
+    },
+    {
+      "title": "Revolut secures New Zealand banking licence",
+      "url": "https://paymentsindustryintelligence.com/revolut-secures-new-zealand-banking-licence/",
+      "reason": "范围门：银行牌照，AGENTS.md 明确不收"
+    },
+    {
+      "title": "Coinbase gets OCC blessing to launch trust bank",
+      "url": "https://www.pymnts.com/news/banking/2026/coinbase-gets-occs-blessing-to-launch-trust-bank/",
+      "reason": "范围门：银行牌照与信托 charter，不落凭证链路"
+    },
+    {
+      "title": "Ant Group and HSBC deepen ties on global payments and treasury",
+      "url": "https://fintechnews.hk/41990/hong-kong-fintech-week-news/ant-group-hsbc/",
+      "reason": "范围门：企业与资金管理（treasury）协作，不涉及发卡、收单终端或清算规则"
+    },
+    {
+      "title": "Yuno expands payment options in APAC and Europe with Ecommpay",
+      "url": "https://fintechnews.sg/140636/payments/yuno-ecommpay/",
+      "reason": "动作门：网关互连即把一家收单通道挂进编排层，属渠道扩展；原文无落地市场、无产品名与参数"
+    },
+    {
+      "title": "Expensify taps Visa referrals to reach corporate cardholders",
+      "url": "https://fintechnews.sg/140476/payments/expensify-visa-referral-agreement-corporate-cards/",
+      "reason": "动作门：推荐协议属分销，未改变产品机制"
+    },
+    {
+      "title": "Amex and Fanatics launch sports credit card",
+      "url": "https://www.el-fondo.com/en/news/american-express-and-fanatics-launch-sports-credit-card",
+      "reason": "动作门：联名卡首发（First Electronic Bank 发卡、Imprint 运营），属既有档位加权益包，与 11-07 World Legend 同一口径拦；卡面设计数量不是机制变化"
+    },
+    {
+      "title": "Shinhan Card partners with Adidas and Mastercard on co-branded card",
+      "url": "https://marketech-apac.com/shinhan-card-partners-with-adidas-mastercard-to-launch-first-global-co-branded-credit-card/",
+      "reason": "动作门：三方备忘录加联名卡，年内上线，无卡量、无参数，属联名权益而非机制变化"
+    },
+    {
+      "title": "Digital Garage and Daiichi Life launch invoice card payment service",
+      "url": "https://www.garage.co.jp/en/pr/release/20261109_daiichilife",
+      "reason": "动作门：把既有 B2B 发票卡支付产品接入保险集团的客户渠道，属分销，不是受理或发卡机制变化"
+    },
+    {
+      "title": "Banco BHD and BPC mark 13 years of payments modernisation",
+      "url": "https://www.merchantseye.com/news/announcement-how-banco-bhd-and-bpc-rebuilt-its-atm-and-card-network-over-13-year-089bce20",
+      "reason": "动作门：13 年合作里程碑回顾，无新事件、无新增产品；且属既有能力的重复宣传"
+    },
+    {
+      "title": "Shift4 acquires Paramount Commerce to enter Canadian pay by bank",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/shift4-payments-four-acquires-paramount-081757518.html",
+      "reason": "标的是 pay by bank（账户到账户）业务，不在卡栈；且报道主体为财报与并购分析"
+    },
+    {
+      "title": "Pliant raises $80M Series C",
+      "url": "https://www.startupbooted.com/pliant-raises-80m-series-c-to-open-b2b-payments-to-ai-agents",
+      "reason": "范围门：融资事件，无产品与机制变化"
+    },
+    {
+      "title": "OKX Card opens to eligible US customers on Mastercard",
+      "url": "https://theindustryspread.com/okx-card-eligible-us-customers-mastercard",
+      "reason": "11-02 上线，超出窗口；且标的是稳定币抵押的加密卡，非卡栈机制变化"
+    },
+    {
+      "title": "Capra Bank and Zact launch SpendLink",
+      "url": "https://shapefin.com/capra-bank-and-zact-launch-spendlink-for-commercial-banking-customers/",
+      "reason": "11-04 发布，超出 72 小时窗口"
+    },
+    {
+      "title": "Nigeria CBN 2026 POS policy overhaul strains financial inclusion",
+      "url": "https://technext24.com/policy-and-tech/cbn-2026-pos-overhaul-financial-inclusion",
+      "reason": "规则本体为 2025-10 至 2026-08 分步生效，全部出窗；本文是复盘稿，不是新事件"
+    },
+    {
+      "title": "EU and Canada move to link real-time payment systems",
+      "url": "https://paymentsindustryintelligence.com/eu-and-canada-move-to-link-real-time-payment-systems/",
+      "reason": "11-05 发布已出窗；标的是即时支付系统互联，属 A2A"
+    },
+    {
+      "title": "EPC tightens verification of payee matching rules across SEPA",
+      "url": "https://paymentsindustryintelligence.com/epc-tightens-verification-of-payee-matching-rules-across-sepa/",
+      "reason": "11-05 已出窗；VoP 是 SEPA 账户到账户的收款人核验规则，不落卡受理"
+    },
+    {
+      "title": "ECB selects network providers for the digital euro",
+      "url": "https://paymentsindustryintelligence.com/ecb-selects-network-providers-for-digital-euro/",
+      "reason": "范围门：数字欧元连接层，历期同一判据拦（11-04、11-09）；不落卡栈"
+    },
+    {
+      "title": "Visa sets up six Singapore hubs for AI and next-gen payments",
+      "url": "https://fintechnews.sg/140556/payments/visa-singapore-hubs/",
+      "reason": "动作门：机构布局与研发中心，无产品名、版本或参数，六类动作都不贴"
+    },
+    {
+      "title": "NPCI expands beyond payments with AI and blockchain arm",
+      "url": "https://fintechnews.sg/140645/fintech-india/npci-tech-solutions-ai-blockchain/",
+      "reason": "动作门：设立子公司，属机构动态；无规范版本、无认证、无产品参数"
+    },
+    {
+      "title": "Global Payments buyout talks expose pressure on legacy processors",
+      "url": "https://paymentsindustryintelligence.com/global-payments-buyout-talks-expose-pressure-on-legacy-processors/",
+      "reason": "范围门：并购传闻与估值压力，属资本事件"
+    },
+    {
+      "title": "Razorpay launches GIFT City payments platform after IFSCA approval",
+      "url": "https://fintechnews.sg/140423/fintech-india/razorpay-gift-city-ifsca-psp-license/",
+      "reason": "范围门：牌照与跨境收单主体设立，属机构布局；无受理机制变化"
+    },
+    {
+      "title": "Pyvio secures MAS major payment institution licence",
+      "url": "https://fintechnews.sg/140548/payments/pyvio-mas-major-payment-institution-license/",
+      "reason": "范围门：支付机构牌照，不在凭证链路"
+    },
+    {
+      "title": "Bank of Thailand suspends new money changer licences for 2027",
+      "url": "https://fintechnews.sg/payments/",
+      "reason": "范围门：货币兑换牌照，不落卡栈；仅见列表页摘要，未取到独立原文"
+    }
+  ],
+  "stats": {
+    "candidates": 68,
+    "written": 4,
+    "skippedByDedup": 6
+  },
+  "finishedAt": "2026-11-09T20:16:53.067Z"
+}

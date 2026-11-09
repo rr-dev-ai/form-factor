@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-10-telecom-01",
+  "slug": "rakuten-ast-japan-jleo-d2d-joint-venture",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "satellite",
+    "5g"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-10T04:18:16+08:00",
+  "ingestedAt": "2026-11-10T02:50:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Rakuten Group",
+      "url": "https://global.rakuten.com/corp/news/press/2026/1109_01.html",
+      "lang": "en",
+      "publishedAt": "2026-11-09T00:00:00+09:00"
+    },
+    {
+      "name": "Telecoms.com",
+      "url": "https://www.telecoms.com/satellite/rakuten-ast-formed-for-2-billion-japan-leo-project",
+      "lang": "en",
+      "publishedAt": "2026-11-09T00:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "乐天与 AST 设合资公司，日本政府出 10 亿美元建直连卫星网",
+    "en": "Rakuten and AST set up Rakuten AST to build Japan's state-backed D2D network",
+    "es": "Rakuten y AST crean Rakuten AST para la red D2D con respaldo estatal de Japón"
+  },
+  "summary": {
+    "zh": "乐天与 AST SpaceMobile 11 月 6 日成立合资公司 Rakuten AST，乐天持股 51%，承接日本总务省 J-LEO 项目。项目最高获 1480 亿日元（约 10 亿美元）补助，中标方须等额配套，总值约 20 亿美元。合资公司计划 2029 年 3 月底前用 AST 低轨卫星和 700MHz 频段开始国内运营。",
+    "en": "Rakuten and AST SpaceMobile set up Rakuten AST on 6 November, with Rakuten holding 51 percent, to run Japan's J-LEO project for the internal affairs ministry. The venture is due up to JPY 148 billion, about USD 1 billion, in subsidies that the winner must match, putting the project near USD 2 billion. Domestic service is targeted before the end of March 2029, using AST satellites and 700 MHz spectrum.",
+    "es": "Rakuten y AST SpaceMobile constituyeron Rakuten AST el 6 de noviembre, con Rakuten al 51 por ciento, para ejecutar el proyecto J-LEO del ministerio del interior japonés. El proyecto recibirá hasta 148.000 millones de yenes, unos 1.000 millones de dólares, en subvenciones que el adjudicatario debe igualar, lo que eleva el valor a cerca de 2.000 millones. El servicio nacional debe arrancar antes de finales de marzo de 2029, con satélites de AST y espectro de 700 MHz."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "政府出钱，运营商出频段",
+        "en": "The state pays, the operator brings spectrum",
+        "es": "El Estado paga, el operador aporta espectro"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "J-LEO 是日本总务省公开征集的项目，补助经日本通信与信息网络协会（CIAJ）拨付，乐天方面与乐天移动的联合提案中标。Rakuten AST 的股权是乐天集团 51%、AST 的日本控股实体 49%，资本金 1 亿日元。分工上，AST 供卫星与相控阵天线，乐天出 700MHz 频段和运营体系；基站设备放在地面，日本运营商可以自己管这张网，不必把核心网交给卫星公司。",
+        "en": "J-LEO was solicited by the Ministry of Internal Affairs and Communications, with the subsidy paid through the Communications and Information Network Association of Japan; the joint proposal from Rakuten's preparatory company and Rakuten Mobile won. Rakuten AST is owned 51 percent by Rakuten Group and 49 percent by AST's Japanese holding entity, with JPY 100 million in capital. AST supplies the satellites and phased arrays, Rakuten brings 700 MHz spectrum and operations, and the base station equipment sits on the ground so Japanese operators keep control of the network rather than handing the core to a satellite company.",
+        "es": "J-LEO fue licitado por el Ministerio de Asuntos Internos y Comunicaciones, con la subvención canalizada por la asociación japonesa de comunicaciones (CIAJ); la propuesta conjunta de la sociedad preparatoria de Rakuten y Rakuten Mobile resultó adjudicataria. Rakuten AST pertenece en un 51 por ciento a Rakuten Group y un 49 por ciento a la entidad japonesa de AST, con 100 millones de yenes de capital. AST aporta satélites y antenas de fase, Rakuten el espectro de 700 MHz y la operación, y el equipamiento de estación base queda en tierra, de modo que los operadores japoneses conservan el control de la red."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "按公告，补助上限 1480 亿日元、分约三年到账；总务省要求中标方按政府出资额等额投入，因此项目整体规模约 20 亿美元。时间表是 2029 年 3 月底前开始国内商用，面向市售普通智能手机，不需要外接天线。项目还写明要建跨运营商应急漫游框架，灾害时把卫星容量分给其他运营商。",
+        "en": "The subsidy is capped at JPY 148 billion over roughly three years, and the ministry requires the winner to match the government's contribution, which puts the whole project near USD 2 billion. Domestic commercial service is due by the end of March 2029 on ordinary handsets with no add-on antenna. The announcement also commits to an inter-carrier emergency roaming framework so satellite capacity can be shared with other operators during disasters.",
+        "es": "La subvención se limita a 148.000 millones de yenes en unos tres años, y el ministerio exige al adjudicatario igualar la aportación pública, lo que sitúa el proyecto cerca de 2.000 millones de dólares. El servicio comercial nacional debe empezar antes de finales de marzo de 2029 en teléfonos corrientes sin antena adicional. El anuncio también compromete un marco de itinerancia de emergencia entre operadores para compartir capacidad satelital en desastres."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "卫星侧仍是短板。AST 目前在轨 13 颗，其中 1 颗试验星、5 颗一代 BlueBird，后者实测峰值下行 98.9 Mbps；下一代卫星的相控阵约 223 平方米，标称吞吐接近翻倍。公司称已与约 60 家运营商签约，覆盖 30 亿用户。日本国内对手已经先行：KDDI 联合 Starlink 投过同一标的，三大运营商也已用 Starlink 提供手机直连。",
+        "en": "The satellite side remains the weak link. AST has 13 craft in orbit, one test satellite and five first-generation BlueBirds that reached a peak downlink of 98.9 Mbps in tests; the next generation carries a phased array of about 223 square metres and is claimed to roughly double throughput. The company says it has agreements with about 60 operators covering 3 billion subscribers. Domestic rivals moved first: KDDI bid for the same project with Starlink, and the three large carriers already offer D2D via Starlink.",
+        "es": "El flanco satelital sigue siendo el punto débil. AST tiene 13 aparatos en órbita, uno de prueba y cinco BlueBird de primera generación que alcanzaron 98,9 Mbps de bajada en pruebas; la siguiente generación lleva una antena de fase de unos 223 metros cuadrados y promete casi duplicar el caudal. La empresa afirma acuerdos con unos 60 operadores que cubren 3.000 millones de abonados. Los rivales locales se adelantaron: KDDI pujó por el mismo proyecto con Starlink, y los tres grandes operadores ya ofrecen D2D vía Starlink."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "技术路线上，这张网把基站留在地面、只让卫星做转发，鉴权与计费仍归运营商核心网；与卫星公司自建核心网、直接卖连接的做法不同，运营商不必交出用户。700MHz 是低频，穿透与覆盖好、容量窄，适合语音与应急消息，不适合视频。商业上，政府补一半资本开支把 D2D 从「运营商买容量」变成「国家建基础设施」，设备商与卫星供应链拿到的是多年期确定订单，而不是逐国谈判的容量采购。战略上，日本这条与印度 TRAI 的卫星网络牌照、欧盟的主权星座讨论指向同一件事：频谱与星座正在被当作基础设施来建，能拿到本国低频段的一方在谈判里占先。对供应商的现实含义是，D2D 的接口标准与地面核心网的耦合深度，比卫星数量更能决定谁能进场。",
+    "en": "On the technical side, the network keeps base stations on the ground and uses satellites as relays, so authentication and charging stay in the operator's core; that differs from satellite operators that run their own core and sell connectivity directly, and it means the carrier does not hand over its subscribers. 700 MHz is low band, good for penetration and coverage but narrow in capacity, suited to voice and emergency messaging rather than video. Commercially, a state covering half the capex turns D2D from capacity purchasing into national infrastructure, and gives equipment and satellite suppliers multi-year orders instead of per-country capacity deals. Strategically, Japan's model points the same way as India's TRAI satellite licensing and European sovereign-constellation talk: spectrum and constellations are being built as infrastructure, and whoever holds the national low band negotiates from strength. For suppliers, the practical signal is that interface standards and the depth of integration with the terrestrial core will decide access more than satellite counts.",
+    "es": "En lo técnico, la red mantiene las estaciones base en tierra y usa los satélites como repetidores, de modo que la autenticación y la facturación siguen en el núcleo del operador; es distinto de los operadores satelitales que montan su propio núcleo y venden conectividad directa, y evita que el operador entregue a sus abonados. Los 700 MHz son banda baja: buena penetración y cobertura, poca capacidad, apta para voz y mensajes de emergencia más que para vídeo. En lo comercial, que el Estado cubra la mitad del capex convierte el D2D de compra de capacidad en infraestructura nacional, y da a proveedores de equipo y satélite pedidos plurianuales en lugar de acuerdos país por país. En lo estratégico, el modelo japonés apunta en la misma dirección que las licencias satelitales de la TRAI india y el debate europeo sobre constelaciones soberanas: el espectro y las constelaciones se construyen como infraestructura, y quien controla la banda baja nacional negocia con ventaja. Para los proveedores, la señal práctica es que los estándares de interfaz y la integración con el núcleo terrestre decidirán el acceso más que el número de satélites."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-pool-v1"
+  }
+}

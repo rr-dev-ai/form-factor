@@ -1,0 +1,42 @@
+{
+  "fetchedAt": "2026-11-10T01:54:13+08:00",
+  "fetchedFor": "2026-11-10",
+  "gap": ["cis", "mena", "europe", "north-america", "latam", "africa"],
+  "cellGap": ["apac/telecom", "apac/identity"],
+  "industryGap": ["telecom", "identity", "banking"],
+  "items": [
+    {
+      "title": "Semtech 将 Smart Connectivity Premium 升到 SGP.32，单个 SKU 可叠加本地运营商 profile",
+      "url": "https://www.semtech.com/company/press/semtech-launches-sgp-32-multi-profile-esim-for-global-iot-deployments",
+      "publishedAt": "2026-11-09T08:00:00-05:00",
+      "industry": "telecom",
+      "region": "global",
+      "actionType": "产品化节点",
+      "gateNote": "有产品名（Smart Connectivity Premium）、有规范版本（SGP.32，底层用 Kigen 的 eSA 认证件、支持 v1.3）、有编排平台（AirVantage），属六类里的产品化节点。差的是落地证据：无客户名、无出货量、无签约运营商名单，11-10 起的 electronica 只是展台演示。终审若按「厂商通稿 + 无第三方核实」收紧，这条会被刷掉。",
+      "discoveredBy": "SGP.32 eIM eSIM orchestration platform launch 9 November 2026",
+      "note": "落在 SIM 载体的 profile 分发环节：eUICC 硬件不动，改的是「谁在什么时候把运营商 profile 写进去」。机制变化是把选网从设计期推到部署期——同一 SKU 先带 multi-IMSI 基础 profile，再按订单叠本地运营商 profile，绕开永久漫游限制，并给 NTN 备份留了接口。原文没说的：一个客户名都没有，12% 的 IoT eSIM 渗透率是 Berg Insight 供厂商引用的口径、未经独立核实，也没有任何报价或交付时间。"
+    },
+    {
+      "title": "IFSS 在雪兰莪投产智能卡个性化中心，单班年产 4000 万张银行卡与 SIM",
+      "url": "https://mytruthmedia.com/2026/11/07/ifss-smart-card-develop",
+      "publishedAt": "2026-11-07T00:00:00+08:00",
+      "industry": "banking",
+      "region": "apac",
+      "actionType": "产能与工艺",
+      "gateNote": "产能数字齐全（单班 4000 万、双班 8000 万、10 条线、每条 1600 张银行卡/小时、SIM 线 5000 张/小时、封套 1500–2000 份/小时），也有客户结构（110 家银行客户、40 多个地区）。差的是订单侧：没有公布已签约的银行或政府项目、没有投产验收和单位成本。若终审按「设备商的产线广告」处理，这条站不住。",
+      "discoveredBy": "edital licitação cartão de identificação smart card novembro 2026（顺带撞到的新闻室稿，非采购标本身）",
+      "note": "落在支付卡的个性化与履约环节：卡体进、写好密钥与持卡人数据、验完再装封套寄出。机制变化是马来西亚出现能承接区域订单的本地个性化产能，EMV 数据准备、芯片/磁条/图像个性化、密钥管理、OCR 与条码与重量与封口四道校验在同一园区，并同时保留 MFF2 与 eSIM 产线。原文没说的：已签约银行一个没点名，eSIM 与实体卡产能怎么分配没说，「跻身本地前五」是公司自述目标，2560 万美元营收也是按 80% 利用率倒推的假设。"
+    },
+    {
+      "title": "科索沃启用国家电子身份平台与数字钱包，11-09 起七个登记中心受理",
+      "url": "https://www.biometricupdate.com/202611/kosovo-launches-national-digital-id-wallet-e-signatures-ahead-of-eudi-alignment",
+      "publishedAt": "2026-11-05T14:41:00-05:00",
+      "industry": "identity",
+      "region": "europe",
+      "actionType": "产品化节点",
+      "gateNote": "平台已上线、受理点与开放日（11-09，七个民事登记中心）、出资方与金额（EU IPA 320 万欧元）都具体，属产品化节点。差的是规模与互认：没有签发量，EUDI 跨境互操作还是目标而非现状，原文自己点出海外公民取证路径未定。终审可能按「上线仪式」收紧。",
+      "discoveredBy": "biometric national ID card launched \"9 November 2026\"",
+      "note": "落在证件签发与受理两端：eID 做线上身份、钱包存身份与文档、eSign 做签章，三者并成一个国家平台，eID 直接顶掉 eKosova 的用户名密码。机制变化是「身份—凭证—签章」从三套分散系统收成一套信任底座，业务注册是第一个接 eSign 的流程。原文没说的：不发卡量、不给七个中心之外的铺开时间表、不说海外公民如何取证。注意本篇发布于 11-05，受理开放发生在 11-09。"
+    }
+  ]
+}

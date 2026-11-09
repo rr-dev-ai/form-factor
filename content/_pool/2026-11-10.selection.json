@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-09T20:15:52.293Z",
+  "selected": [
+    {
+      "industry": "identity",
+      "slug": "smart-id-eidas-assurance-high-remote-biometric-onboarding",
+      "score": 0.78,
+      "reason": "region-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-10"
+    },
+    {
+      "industry": "banking",
+      "slug": "brazil-pat-voucher-interoperability-deadline",
+      "score": 0.66,
+      "reason": "region-floor",
+      "region": "latam",
+      "sourceDate": "2026-11-10"
+    },
+    {
+      "industry": "telecom",
+      "slug": "rakuten-ast-japan-jleo-d2d-joint-venture",
+      "score": 0.78,
+      "reason": "region-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-10"
+    },
+    {
+      "industry": "banking",
+      "slug": "visa-scan-to-pay-octopus-qr-hong-kong",
+      "score": 0.78,
+      "reason": "industry-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-10"
+    },
+    {
+      "industry": "banking",
+      "slug": "ifss-malaysia-smart-card-personalisation-centre",
+      "score": 0.72,
+      "reason": "industry-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-10"
+    },
+    {
+      "industry": "telecom",
+      "slug": "airalo-single-install-esim-own-core-network",
+      "score": 0.74,
+      "reason": "industry-floor",
+      "region": "global",
+      "sourceDate": "2026-11-10"
+    },
+    {
+      "industry": "telecom",
+      "slug": "vodafone-iot-skylo-satellite-commercial-hybrid-sim",
+      "score": 0.66,
+      "reason": "industry-floor",
+      "region": "global",
+      "sourceDate": "2026-11-10"
+    },
+    {
+      "industry": "telecom",
+      "slug": "semtech-smart-connectivity-premium-sgp32-multi-profile",
+      "score": 0.6,
+      "reason": "fill",
+      "region": "global",
+      "sourceDate": "2026-11-10"
+    },
+    {
+      "industry": "banking",
+      "slug": "shoprite-investec-alliance-banking-debit-card",
+      "score": 0.6,
+      "reason": "manual",
+      "region": "africa",
+      "sourceDate": "2026-11-09"
+    }
+  ],
+  "alternates": [],
+  "expired": [],
+  "gaps": [
+    {
+      "region": "cis",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "mena",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "north-america",
+      "note": "池内 0 条"
+    }
+  ],
+  "unaccounted": [],
+  "conflicts": [
+    {
+      "kind": "undated",
+      "detail": "banking/shoprite-investec-alliance-banking-debit-card 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "shoprite：原文 2026-11-09 发布（Shoprite Holdings newsroom），补 sources.publishedAt，manual 调入 africa，补上非洲缺口"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/visa-acceptance-platform-jaywan-uae-online 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "jaywan：已于 2026-11-09-banking-02 发布，属同日重复投稿，不重复收录，冲突消解但不调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/rbi-2026-cyber-resilience-nonbank-psos 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "rbi：11-08 池陈旧记录，事件 11-05 已出窗，11-09 池已按超窗拒绝，不调入"
+    }
+  ]
+}

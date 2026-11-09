@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-10",
+  "industry": "identity",
+  "startedAt": "2026-11-10T03:10:00+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "Canada plans national travel biometrics strategy, expanded biometric screening",
+      "url": "https://www.biometricupdate.com/202611/canada-plans-national-travel-biometrics-strategy-expanded-biometric-screening",
+      "reason": "duplicate-of-2026-11-07-identity-03：同一份 2026 联邦预算、同一组数字（C$4.3M 旅客生物识别战略 + C$90M eTA 远程人脸），11-07 已按预算条目发布，本条只是换了角度重写。"
+    },
+    {
+      "title": "Kosovo launches national digital ID wallet, e-signatures ahead of EUDI alignment",
+      "url": "https://www.biometricupdate.com/202611/kosovo-launches-national-digital-id-wallet-e-signatures-ahead-of-eudi-alignment",
+      "reason": "duplicate-of-2026-11-07-identity-01：科索沃电子身份与数字钱包、11-09 起七个登记中心、EU IPA 320 万欧元，11-07 已发。补位池把它标为产品化节点，不构成新事件。"
+    },
+    {
+      "title": "Peru clears $80M IDB loan for national identity modernization",
+      "url": "https://www.biometricupdate.com/202611/peru-clears-80m-idb-loan-for-national-identity-modernization",
+      "reason": "时效门：授权令（第 246-2026-EF 号最高法令）签发于 11-05，已超 72 小时；动作门亦不成立——贷款授权属融资安排，无承接方、无采购标的，2030 年的 DNIe 覆盖率目标不是本窗口的变化。"
+    },
+    {
+      "title": "EU takes EES contractors to court as new consortium takes over border system",
+      "url": "https://www.biometricupdate.com/202611/eu-takes-ees-contractors-to-court-as-new-consortium-takes-over-border-system",
+      "reason": "时效门：诉讼在 2025-12-22 提起，Sword 牵头的四年 9300 万欧元框架合同在 2026-06 已公布，本条是 FT 报道后的综述，本窗口无新节点。"
+    },
+    {
+      "title": "Philadelphia Becomes First Airport to Replace Global Entry Kiosks With CBP Facial Comparison",
+      "url": "https://idtechwire.com/philadelphia-becomes-first-airport-to-replace-global-entry-kiosks-with-cbp-facial-comparison/",
+      "reason": "时效门：CBP 在 10-13 就已在该机场上线新流程，报道在 11-09，事件本身已逾三周；扩到 30 个机场、38 个航站楼仍是无时间表的计划。"
+    },
+    {
+      "title": "Israel's Draft Digital ID Strategy Would Open the Government Login to Banks and Add a National Wallet",
+      "url": "https://idtechwire.com/israels-draft-digital-id-strategy-would-open-the-government-login-to-banks-and-add-a-national-wallet/",
+      "reason": "动作门：国家网络局 11-08 公布的是征求意见稿，要过公众评议再报政府批准，附带的五年实施计划没有预算、没有产品名、没有落地市场，六类动作无一成立。"
+    },
+    {
+      "title": "Australia expands biometric requirements for visa applicants in India",
+      "url": "https://identityweek.net/australia-expands-biometric-requirements-for-visa-applicants-in-india/",
+      "reason": "时效门：新要求对 10-26 之后提交的申请生效，报道在 11-09，事件已逾两周；范围门亦弱——签证不是护照、身份证或 mDL 三类载体。"
+    },
+    {
+      "title": "Treasury seeks identity security contractor as Login.gov mandate takes hold",
+      "url": "https://www.biometricupdate.com/202611/treasury-seeks-identity-security-contractor-as-login-gov-mandate-takes-hold",
+      "reason": "动作门：11-05 发的是 sources sought 市场调研，目标是确认 8(a) 小企业能否竞争，招标文件尚未发布、无中标方、无金额，不构成授标；时效亦已过 72 小时。"
+    },
+    {
+      "title": "SIA puts vendor-neutral birth registration to the test at Trustech",
+      "url": "https://www.biometricupdate.com/202611/sia-puts-vendor-neutral-birth-registration-to-the-test-at-trustech",
+      "reason": "范围门：标的是出生登记流程与厂商中立性测试，出生证不在护照、身份证、mDL 三类载体之内（11-09 已按同一理由拦过泰国的出生证电子报送）；且现场是展会演示。"
+    },
+    {
+      "title": "Aratek eyes Uganda government biometrics projects amid digital ID expansion",
+      "url": "https://www.biometricupdate.com/202611/aratek-eyes-uganda-government-biometrics-projects-amid-digital-id-expansion",
+      "reason": "动作门：部长与厂商开了一次会，双方均未公布项目、协议、金额或规模，Aratek 拒绝置评；属意向接触，不是授标或联合部署。"
+    },
+    {
+      "title": "AEPD clarification of GDPR's 'necessity' clause widens door for biometrics",
+      "url": "https://www.biometricupdate.com/202611/aepd-clarification-of-gdprs-necessity-clause-widens-door-for-biometrics",
+      "reason": "动作门：西班牙数据保护局的解释性文件，改的是合法性判断口径，没有规范版本、认证等级或产品落地，六类动作中没有对应项。"
+    },
+    {
+      "title": "Brazil's Gov.br faces record DDoS attacks as Serpro insists defenses held",
+      "url": "https://www.biometricupdate.com/202611/brazils-gov-br-faces-record-ddos-attacks-as-serpro-insists-defenses-held",
+      "reason": "范围门：网络攻击事件，标的是政府门户的可用性，不涉及证件载体、签发设备或核验终端；AGENTS.md 明确数据泄露与攻击事件不在本行业范围。"
+    },
+    {
+      "title": "Ukraine's biometrics market grows unevenly as digital identity adoption expands",
+      "url": "https://www.biometricupdate.com/202611/ukraines-biometrics-market-grows-unevenly-as-digital-identity-adoption-expands",
+      "reason": "动作门：市场综述，无单一事件、无产品、无版本、无客户，六类动作无一成立。"
+    },
+    {
+      "title": "Deepfake CEOs, stolen lawyer identities fuel alleged $129M fraud",
+      "url": "https://www.biometricupdate.com/202611/deepfake-ceos-stolen-lawyer-identities-fuel-alleged-129m-fraud",
+      "reason": "范围门：诈骗案件报道，标的是犯罪手法与损失金额，不是凭证形态或核验机制的变化。"
+    },
+    {
+      "title": "12 Seconds to Decide: How Partnerships Secure a SaferTomorrow",
+      "url": "https://platform.keesingtechnologies.com/12-seconds-to-decide-how-partnerships-secure-a-safertomorrow/",
+      "reason": "范围门与动作门：厂商营销博客，讲合作生态与方法论，无产品参数、无客户、无可核事件。"
+    },
+    {
+      "title": "Top ICT tenders: DHA targets PMO for digital transformation",
+      "url": "https://www.itweb.co.za/article/top-ict-tenders-dha-targets-pmo-for-digital-transformation/xnklOqz1XNeM4Ymz",
+      "reason": "动作门：招标信息汇总，南非内政部招的是数字化转型项目管理办公室服务，无中标方、无金额、不涉及证件载体或签发设备。"
+    },
+    {
+      "title": "Foreign Affairs Ministry interdicts two officials over alleged illegal sale of Service Passports",
+      "url": "https://www.ghanabusinessnews.com/2026/11/09/foreign-affairs-ministry-interdicts-two-officials-over-alleged-illegal-sale-of-service-passports/",
+      "reason": "动作门：内部纪律处分与刑事调查，标的虽是护照，但变的是人事处置而非签发机制或载体形态，六类动作无一成立。"
+    },
+    {
+      "title": "AI must not replace human judgement in SA courts",
+      "url": "https://www.itweb.co.za/article/ai-must-not-replace-human-judgement-in-sa-courts/kYbe97XbBlgqAWpG",
+      "reason": "范围门：司法领域 AI 治理讨论，与证件载体、签发、核验终端无关。"
+    },
+    {
+      "title": "Tech streamlined 2026 voting process, says IEC",
+      "url": "https://www.itweb.co.za/article/tech-streamlined-2026-voting-process-says-iec/4r1ly7R9xX8vpmda",
+      "reason": "范围门：选举技术复盘，属投票流程，不在凭证链路；且为选举委员会自述的成效总结。"
+    },
+    {
+      "title": "TikTok Removed Over 750,000 Videos in Kenya for Platform Violations",
+      "url": "https://techmoran.com/2026/11/09/tiktok-removed-over-750000-videos-in-kenya-for-platform-violations/",
+      "reason": "范围门：平台内容治理，与身份凭证无关。"
+    },
+    {
+      "title": "CLEAR1 Goes Live in Epic for Provider Portal Onboarding and Controlled-Substance Prescribing",
+      "url": "https://idtechwire.com/clear1-goes-live-in-epic-for-provider-portal-onboarding-and-controlled-substance-prescribing/",
+      "reason": "范围门：医疗门户的账号入职与处方权限核验，落在企业身份与访问管理，不是证件载体、签发设备或核验终端产品。"
+    },
+    {
+      "title": "UIDAI Expands Citizen Services with New Aadhaar Seva Kendras in Tenkasi and Tiruppur",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2334313",
+      "reason": "动作门：泰米尔纳德邦新增两个 Aadhaar 服务中心（11-04、11-06 启用），属受理点增设，没有新卡种、新设备型号或供应商变更，与 11-09 拦天津大厅搬迁同理。"
+    },
+    {
+      "title": "\"Макс\" получит информацию из ГИС КСИМ",
+      "url": "https://www.comnews.ru/content/248260/2026-11-09/2026-w46/1008/maks-poluchit-informaciyu-gis-ksim",
+      "reason": "行业归属与动作门：调的是即时通讯服务向运营商 SIM 登记系统查号，归 telecom 的号码实名链路，不是证件载体；且 11-06 时仍是法规草案，拟 2027-03-01 生效。"
+    },
+    {
+      "title": "Sheikh Hasina's passport application being verified: Home Minister",
+      "url": "https://en.prothomalo.com/bangladesh/politics/9pwhpc27jt",
+      "reason": "范围门与动作门：个案护照与身份证申请的政治争议，既未改变签发规则，也没有可核的机制或设备变化。"
+    },
+    {
+      "title": "Thailand Launches Digital Driver's Licence App",
+      "url": "https://thaitimes.com/thailand-launches-digital-driver-s-licence-app",
+      "reason": "无法核对：页面无发布日期，无法判定 QR Licence 上线是否在 72 小时窗口内，不能凭标题写。"
+    }
+  ],
+  "stats": {
+    "candidates": 58,
+    "written": 1,
+    "skippedByDedup": 2
+  },
+  "finishedAt": "2026-11-09T19:16:51.651Z"
+}

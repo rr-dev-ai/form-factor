@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-10-telecom-04",
+  "slug": "semtech-smart-connectivity-premium-sgp32-multi-profile",
+  "industry": "telecom",
+  "region": "global",
+  "regions": [],
+  "tags": [
+    "esim",
+    "rsp"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-10T04:18:16+08:00",
+  "ingestedAt": "2026-11-10T02:50:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Semtech",
+      "url": "https://www.semtech.com/company/press/semtech-launches-sgp-32-multi-profile-esim-for-global-iot-deployments",
+      "lang": "en",
+      "publishedAt": "2026-11-09T08:00:00-05:00"
+    }
+  ],
+  "title": {
+    "zh": "Semtech 把多 profile 的 eSIM 迁到 SGP.32",
+    "en": "Semtech moves multi-profile eSIM onto SGP.32 so one SKU serves many markets",
+    "es": "Semtech lleva la eSIM multipérfil a SGP.32 para que un SKU sirva varios mercados"
+  },
+  "summary": {
+    "zh": "Semtech 11 月 9 日发布 Smart Connectivity Premium 的 SGP.32 版本：同一个 SKU 先带多 IMSI 基础 profile，再叠加本地运营商 profile，由 AirVantage 平台统一编排。底层用 Kigen 的 GSMA 认证 eSIM 与 eIM，支持 SGP.32 v1.3。此前多 profile 能力建在 SGP.02 上，公告未点名客户。",
+    "en": "Semtech released the SGP.32 edition of Smart Connectivity Premium on 9 November: one SKU carries a multi-IMSI base profile and then adds local operator profiles, all orchestrated through AirVantage. It runs on Kigen's GSMA-certified eSIM and eIM technology with SGP.32 v1.3 support. The earlier multi-profile capability sat on SGP.02, and no customer was named.",
+    "es": "Semtech publicó el 9 de noviembre la edición SGP.32 de Smart Connectivity Premium: un mismo SKU lleva un perfil base multi-IMSI y luego añade perfiles de operadores locales, orquestados desde AirVantage. Se apoya en la tecnología eSIM y eIM certificada por la GSMA de Kigen, con soporte de SGP.32 v1.3. La capacidad multipérfil anterior estaba sobre SGP.02 y no se identificó ningún cliente."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "换的不是固件，是谁在管 profile",
+        "en": "What changes is who manages the profile, not the firmware",
+        "es": "Lo que cambia es quién gestiona el perfil, no el firmware"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "SGP.02 是 M2M 时代的 eUICC 规范，profile 的下载与切换要经过订阅管理服务器中转；SGP.32 把这一层换成 eIM，由它直接对接 eUICC 与运营商系统，设备不必长期在线等待指令。Semtech 的两种配置都建在这个结构上：面向电池受限设备的 PowerSave eSIM 预载双 profile，靠优化入网时间来省电；完整的 Premium 则在多 IMSI 基础 profile 之上，按订单叠加本地运营商 profile。",
+        "en": "SGP.02 is the M2M-era eUICC specification, where profile download and switching pass through a subscription management server; SGP.32 replaces that layer with an eIM that talks to the eUICC and operator systems directly, so devices need not stay online waiting for commands. Both Semtech configurations sit on that structure: the PowerSave eSIM for battery-limited devices preloads two profiles and saves power by optimising attach time, while full Premium layers local operator profiles on top of a multi-IMSI base profile as orders come in.",
+        "es": "SGP.02 es la especificación eUICC de la era M2M, en la que la descarga y el cambio de perfil pasan por un servidor de gestión de suscripciones; SGP.32 sustituye esa capa por un eIM que habla directamente con la eUICC y los sistemas del operador, de modo que el dispositivo no necesita estar en línea esperando órdenes. Las dos configuraciones de Semtech se apoyan en esa estructura: la PowerSave eSIM para equipos con batería limitada precarga dos perfiles y ahorra energía optimizando el tiempo de adhesión, mientras la Premium completa superpone perfiles de operadores locales sobre un perfil base multi-IMSI."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "目标场景分两类。固定设备是智能电表与视频监控，一个 SKU 带全球 profile 进场，到了当地再叠本地 profile，用来对付永久漫游限制和网络退网后的换卡；移动资产靠多运营商冗余覆盖跨区域，并预留了接入非地面网络的口子。切换由 Semtech 的卡内应用自动完成，客户不必逐台下指令。",
+        "en": "The targets split in two. Fixed devices are smart meters and video surveillance, shipped as one SKU with a global profile and localised on arrival to deal with permanent roaming limits and SIM swaps after network sunsets; mobile assets rely on multi-operator redundancy across regions and keep a path open for non-terrestrial access. Switching is handled automatically by Semtech's card applet, without per-device commands.",
+        "es": "Los objetivos se dividen en dos. Los equipos fijos son contadores inteligentes y videovigilancia, que salen como un SKU con perfil global y se localizan al llegar para afrontar los límites de itinerancia permanente y el cambio de SIM tras el apagado de redes; los activos móviles dependen de la redundancia multioperador entre regiones y dejan abierta la vía al acceso no terrestre. El cambio lo hace automáticamente el applet de Semtech, sin órdenes por equipo."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公告的可核部分止于产品与认证：SGP.32 v1.3、Kigen 的 eSA 认证件、AirVantage 编排、两种配置、即日可用。没有客户名、没有签约运营商名单、没有报价与出货量；文中引用的「2025 年底约 12% 蜂窝物联网设备使用 eSIM」是 Berg Insight 的口径，由厂商引用。",
+        "en": "The verifiable part of the announcement stops at product and certification: SGP.32 v1.3, Kigen's eSA-certified components, AirVantage orchestration, two configurations and immediate availability. There were no customer names, no signed operator list, no pricing and no shipment figures; the 12 percent eSIM penetration among cellular IoT devices at end-2025 is a Berg Insight figure cited by the vendor.",
+        "es": "La parte verificable del anuncio se limita al producto y la certificación: SGP.32 v1.3, componentes con certificación eSA de Kigen, orquestación AirVantage, dos configuraciones y disponibilidad inmediata. No hubo nombres de clientes, lista de operadores firmados, precios ni cifras de envío; el 12 por ciento de penetración eSIM en IoT celular a finales de 2025 es un dato de Berg Insight citado por el fabricante."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对做物联网模组与 eUICC 的厂商，SGP.32 的实质变化是 profile 管理不再依赖一台常连的订阅管理服务器。设备可以长期离线，只在需要时被 eIM 唤醒下载，这对电表、井盖、追踪器这类靠电池撑十年的设备是硬约束的解除；反过来说，卡内应用要能在没有实时信令的情况下判断该切哪张 profile，固件复杂度往终端侧移了一截。商业上，一个 SKU 覆盖多国意味着库存、认证与产线切换的成本同时下降，连接批发商靠「本地 profile 目录」收的溢价被压薄；真正留下的是编排平台与运营商关系，而不是 profile 本身。监管上，永久漫游限制是这套方案的需求来源，各国执行尺度不同，这也是 SGP.32 落地速度在不同市场快慢不一的原因。",
+    "en": "For IoT module and eUICC makers, the substance of SGP.32 is that profile management no longer depends on an always-connected subscription management server. Devices can stay offline and be woken by the eIM only when a download is needed, which removes a hard constraint for meters, manholes and trackers expected to run a decade on a battery; conversely, the card applet must decide which profile to use without real-time signalling, pushing firmware complexity toward the device. Commercially, one SKU covering many countries cuts inventory, certification and line-change costs at once, and thins the premium connectivity wholesalers earn from a catalogue of local profiles; what remains valuable is the orchestration platform and operator relationships, not the profile itself. On regulation, permanent roaming limits are the demand driver, and enforcement varies by market, which is why SGP.32 adoption is moving at different speeds.",
+    "es": "Para los fabricantes de módulos IoT y eUICC, el fondo de SGP.32 es que la gestión de perfiles ya no depende de un servidor de suscripciones siempre conectado. El equipo puede estar fuera de línea y ser despertado por el eIM solo cuando hace falta una descarga, lo que elimina una restricción dura para contadores, tapas de registro y rastreadores que deben durar una década con batería; a cambio, el applet debe decidir qué perfil usar sin señalización en tiempo real, lo que desplaza complejidad de firmware al dispositivo. En lo comercial, un SKU para muchos países recorta a la vez inventario, certificación y cambios de línea, y adelgaza la prima que los mayoristas de conectividad cobran por un catálogo de perfiles locales; lo que conserva valor es la plataforma de orquestación y la relación con operadores, no el perfil. En lo regulatorio, los límites de itinerancia permanente son el motor de la demanda, y su aplicación varía por mercado, lo que explica velocidades distintas de adopción."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-pool-v1"
+  }
+}

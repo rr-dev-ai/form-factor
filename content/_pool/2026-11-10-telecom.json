@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-10",
+  "industry": "telecom",
+  "startedAt": "2026-11-10T02:50:00+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "South Africa Weighs Cross-Border Power Trading and Biometric SIM Rules",
+      "url": "https://cioafrica.co/south-africa-weighs-cross-border-power-trading-and-biometric-sim-rules/",
+      "reason": "duplicate-of-2026-11-02-telecom-02：ICASA 10 月 28 日那份生物识别实名草案，本条只是把 12 月 9 日意见截止日与罚款区间重新讲一遍，主体、文件、阈值全部重合。"
+    },
+    {
+      "title": "Orange launches Branded Call service in France",
+      "url": "https://www.telecompaper.com/news/orange-launches-branded-call-service-in-france--1588147",
+      "reason": "duplicate-of-2026-11-06-telecom-04：法国 Branded Call 已按 MAN 签名写过，本条是同一发布的英文简讯。"
+    },
+    {
+      "title": "Roaming nas estradas traz ganho tremendo para o país, diz head da Deutsche Telekom",
+      "url": "https://www.mobiletime.com.br/noticias/06/11/2026/roaming-estradas-pais/",
+      "reason": "duplicate-of-2026-11-07-telecom-02：Anatel 强制公路漫游规则的业界表态稿，规则本体已发。"
+    },
+    {
+      "title": "STMicroelectronics simplifies IoT deployment with SoftSIM, SGP.32 in-factory provisioning",
+      "url": "https://newsroom.st.com/media-center/press-item.html/stmicroelectronics-simplifies-iot-deployment-with-softsim-sgp-32-in-factory-provisioning-and-zephyr-support-for-st87m01.html",
+      "reason": "duplicate-of-2026-11-06-telecom-02：ST87M01 的 SoftSIM 与产线写卡已发，同一公告。"
+    },
+    {
+      "title": "Eseye launches AnyNet Select for global SGP.32 IoT deployments",
+      "url": "https://www.eseye.com/resources/news/eseye-launches-anynet-select-sgp32-iot-deployments",
+      "reason": "duplicate-of-2026-11-05-telecom-02：Eseye AnyNet Select 同一产品发布。"
+    },
+    {
+      "title": "Acceleronix, IDEMIA Secure Transactions and Orange announce flexible, single-SKU manufacturing with quantum-safe IFPP",
+      "url": "https://www.idemia.com/press-release/acceleronix-idemia-secure-transactions-and-orange-announce-flexible-single-sku-manufacturing-quantum-safe-ifpp-2026-11-04",
+      "reason": "duplicate-of-2026-11-05-telecom-01：同一 IFPP 计划、同一批参与方。"
+    },
+    {
+      "title": "Globalstar approved to deploy next-gen direct-to-device constellation",
+      "url": "https://spacenews.com/globalstar-gets-approval-to-deploy-next-gen-direct-to-device-constellation/",
+      "reason": "范围门：法国批准 54 颗下一代 D2D 卫星的星座与频率使用，标的是轨道与频谱，不是 SIM 载体或鉴权方式；与 11-07 拦下 FCC 批 Amazon Leo 收 Globalstar 同一判据。"
+    },
+    {
+      "title": "SpaceX picks Qualcomm to squeeze maximum performance from minimal spectrum",
+      "url": "https://www.telecoms.com/satellite/spacex-picks-qualcomm-to-squeeze-maximum-performance-from-minimal-spectrum",
+      "reason": "范围门：标的物是地面 5G 射频与频谱效率，AGENTS 明确核心网与基站不收；11-05 已按同一判据拦过同类稿件。"
+    },
+    {
+      "title": "Verizon CTO assesses 7GHz band for 6G after first call in the field",
+      "url": "https://www.lightreading.com/6g/verizon-cto-assesses-7ghz-band-for-6g-after-first-call-in-the-field",
+      "reason": "范围门：6G 表态与频段评估，明确排除项。"
+    },
+    {
+      "title": "SK Telecom targets December launch for 5G SA as mobile business recovers",
+      "url": "https://rcrwireless.com/20261109/5g/sk-telecom-5g-sa",
+      "reason": "范围门：5G 独立组网的核心网商用时间表，不在载体、签发、分发、受理任一环节。"
+    },
+    {
+      "title": "American Tower says satellites still need terrestrial infrastructure",
+      "url": "https://rcrwireless.com/20261109/network-infrastructure/towers/american-tower-satellites",
+      "reason": "动作门：铁塔公司高管对卫星与地面关系的表态，无产品、无金额、无部署，六类动作无一成立。"
+    },
+    {
+      "title": "GSMA, ITU chiefs urge action on inclusion barriers",
+      "url": "https://www.mobileworldlive.com/gsma/gsma-itu-chiefs-urge-action-on-inclusion-barriers/",
+      "reason": "动作门：两位行业组织负责人的倡议表态，没有规范版本、认证或落地项目。"
+    },
+    {
+      "title": "GSMA MWC26 Doha opens with call to align on global industry standards and close MENA's connectivity gap",
+      "url": "https://www.tahawultech.com/channel/gsma-mwc26-doha-opens-with-call-to-align-on-global-industry-standards-and-close-menas-connectivity-gap/",
+      "reason": "范围门与动作门：展会开幕与呼吁，无具体规范、产品、金额或承接方。"
+    },
+    {
+      "title": "Toshiba partners with BT and Colt on UK quantum networking project",
+      "url": "https://www.mobileeurope.co.uk/toshiba-colt-bt-quantum/",
+      "reason": "范围门：量子密钥分发网络，标的不在 SIM/eSIM 载体、RSP 或网络鉴权方式上。"
+    },
+    {
+      "title": "Globalstar announces winners of RM200M Satellite IoT Development Kit giveaway",
+      "url": "https://iot-now.com/2026/11/09/159187-globalstar-announces-winners-of-rm200m-satellite-iot-development-kit-giveaway/",
+      "reason": "动作门：开发者套件抽奖结果公布，属市场活动，没有产品参数、规范版本或产能变化。"
+    },
+    {
+      "title": "Cavli Wireless to unveil P16QS LTE Cat 1bis module and Cortex AI coding assistant at electronica 2026",
+      "url": "https://iot-now.com/2026/11/09/159270-cavli-wireless-p16qs-lte-cat-1bis-cortex-ai-electronica-2026/",
+      "reason": "范围门：标的是 LTE Cat 1bis 通信模组与编码工具，不是 SIM/eUICC 载体或安全元件；上游制造门要的是芯片与封装工艺参数，模组不在其中。"
+    },
+    {
+      "title": "Uganda plans to create telco database for SIMs used by children",
+      "url": "https://www.developingtelecoms.com/telecom-business/telecom-regulation/21092-uganda-plans-to-create-telco-database-for-sims-used-by-children.html",
+      "reason": "动作门：UCC 执行主任在黑客松活动上说的「打算立规」，没有草案文本、生效时间、义务条款与执法主体，属表态而非规范节点。"
+    },
+    {
+      "title": "Sotel opens phone number reservations ahead of Nigeria launch",
+      "url": "https://techcabal.com/2026/11/05/sotel-opens-phone-number-reservations-nigeria/",
+      "reason": "动作门：商用前的选号预约，eSIM 只写成「上线后全国提供」，无产品名、无上线日期、无资费；11-07 已按同一理由拦过。"
+    },
+    {
+      "title": "BWS IoT planeja modulo com conectividade satelital para 2027",
+      "url": "https://www.mobiletime.com.br/noticias/06/11/2026/bws-iot-modulo-satelite/",
+      "reason": "动作门：2027 年的产品计划，无型号、无参数、无客户，具体物不足。"
+    },
+    {
+      "title": "Kigen Brings SGP.32 v1.3 to eSA-Certified Automotive eSIMs",
+      "url": "https://iotbusinessnews.com/2026/09/24/kigen-brings-sgp-32-v1-3-to-esa-certified-automotive-esims/",
+      "reason": "时效门：厂商原稿 2026-09-23，超出 72 小时窗口一个多月；连续第四日按同一理由拦。"
+    },
+    {
+      "title": "Anatel aprova novo Regulamento de Uso do Espectro",
+      "url": "https://www.mobiletime.com.br/noticias/06/11/2026/anatel-aprova-novo-rue/",
+      "reason": "范围门：频谱使用规则（二次频谱交易），动作合规但标的物不合规，明确排除项。"
+    },
+    {
+      "title": "2026年eSIM办理选哪家运营商?中国移动、联通、电信怎么选?",
+      "url": "https://hub.ifeng.com/c/8xuKA2Qc0zl",
+      "reason": "动作门与时效门：导购型稿件，无发布日期、无单一事件、无规范或产品变化，属既有业务的办理指引。"
+    },
+    {
+      "title": "GSMA: 6G could add USD 1.24 trillion to global economy by 2040",
+      "url": "https://www.gsma.com/newsroom/press-release/6g-could-add-1-24-trillion-to-global-economy-by-2040-but-spectrum-shortages-risk-losing-520-billion-of-benefits-gsma-finds/",
+      "reason": "范围门：6G 经济测算与频谱短缺表态，11-07 与 11-08 两期已按同一判据拦过。"
+    },
+    {
+      "title": "Philippine Mobile Industry Steps Up Action Against Scams",
+      "url": "https://www.gsma.com/newsroom/press-release/philippine-mobile-industry-steps-up-action-against-scams-to-strengthen-digital-trust/",
+      "reason": "动作门：行业联合反诈承诺，无规范版本、无产品名、无执法机制；与 11-06 的 NTC 100 张阈值不是同一事件，但本条本身不构成动作。"
+    },
+    {
+      "title": "Eurobites: Vodafone IoT finds space for Skylo",
+      "url": "https://www.lightreading.com/iot/eurobites-vodafone-iot-finds-space-for-skylo",
+      "reason": "与 2026-11-10-telecom-02 同一事件：本条是 Eurobites 简讯版，已用 Mobile World Live 与 Telecoms.com 的完整报道入池。"
+    },
+    {
+      "title": "Rakuten and AST form D2D joint venture in Japan",
+      "url": "https://www.lightreading.com/satellite/rakuten-and-ast-form-d2d-joint-venture-in-japan",
+      "reason": "与 2026-11-10-telecom-01 同一事件：本条补充了在轨卫星数与竞标背景，事实已并入草稿信源，不另立条目。"
+    },
+    {
+      "title": "Rakuten, AST unveil Japan satellite JV",
+      "url": "https://www.mobileworldlive.com/network-tech/rakuten-ast-unveil-japan-satellite-jv/",
+      "reason": "与 2026-11-10-telecom-01 同一事件：同一公告的第三篇报道。"
+    }
+  ],
+  "stats": {
+    "candidates": 176,
+    "written": 4,
+    "skippedByDedup": 6
+  },
+  "finishedAt": "2026-11-09T18:57:44.797Z"
+}

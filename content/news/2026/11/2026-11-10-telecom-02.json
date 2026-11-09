@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-10-telecom-03",
+  "slug": "airalo-single-install-esim-own-core-network",
+  "industry": "telecom",
+  "region": "global",
+  "regions": [],
+  "tags": [
+    "esim",
+    "rsp"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-10T04:18:16+08:00",
+  "ingestedAt": "2026-11-10T02:50:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Airalo",
+      "url": "https://www.businesswire.com/news/home/20261109079390/en/",
+      "lang": "en",
+      "publishedAt": "2026-11-09T00:00:00+00:00"
+    },
+    {
+      "name": "Android Police",
+      "url": "https://www.androidpolice.com/airalo-single-install-esim-experience/",
+      "lang": "en",
+      "publishedAt": "2026-11-09T00:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "Airalo 让 eSIM 只装一次，之后靠自有核心网换套餐",
+    "en": "Airalo moves to install-once eSIM backed by its own core network",
+    "es": "Airalo pasa a la eSIM de instalación única con núcleo de red propio"
+  },
+  "summary": {
+    "zh": "Airalo 11 月 9 日起向 3000 万用户分批推送单次安装体验：一张 eSIM 装一次，之后跨国只需买套餐，不再重装或切换。支撑它的是自建核心网，用户在无 Wi-Fi、原套餐已过期时也能下单。全球套餐首次可选语音与短信，迁移计划在 12 个月内完成。",
+    "en": "Airalo began rolling out a single-install eSIM to its 30 million customers on 9 November: one eSIM is installed once, and later trips only require buying a package, with no reinstall or switching. It runs on Airalo's own core network, and users can order even without Wi-Fi or with an expired package. Global plans now offer voice and SMS for the first time, and the migration is due to finish within twelve months.",
+    "es": "Airalo empezó el 9 de noviembre a desplegar una eSIM de instalación única entre sus 30 millones de clientes: la eSIM se instala una vez y los viajes posteriores solo requieren comprar un paquete, sin reinstalar ni cambiar. Funciona sobre el núcleo de red propio de Airalo, y el usuario puede contratar sin wifi o con el paquete caducado. Los planes globales incluyen por primera vez voz y SMS, y la migración debe completarse en doce meses."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "把「换国家换 profile」改成「一个 profile 加一层路由」",
+        "en": "From one profile per country to one profile plus routing",
+        "es": "De un perfil por país a un perfil más encaminamiento"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "旅行 eSIM 的常规做法是每个目的地一张 profile，用户装一堆、用哪张切哪张，卡里的 profile 槽位和下载次数都是稀缺资源。Airalo 改成在终端只留一张 eSIM，目的地变化由自建核心网侧的套餐与路由来承接。用户在应用里买的是「套餐」，不再是「一张新卡」；同一张 eSIM 在 200 多个目的地通用。",
+        "en": "The usual travel eSIM model is one profile per destination, leaving users to install several and switch between them, with profile slots and download counts as scarce resources. Airalo keeps a single eSIM on the device and lets packages and routing on its own core network absorb the change of destination. What the user buys in the app is a package rather than a new card, and the same eSIM works across more than 200 destinations.",
+        "es": "El modelo habitual de eSIM de viaje es un perfil por destino, lo que obliga a instalar varios y alternar entre ellos, con las ranuras de perfil y los contadores de descarga como recursos escasos. Airalo deja una sola eSIM en el dispositivo y traslada el cambio de destino a los paquetes y al encaminamiento de su propio núcleo. Lo que el usuario compra en la aplicación es un paquete y no una tarjeta nueva, y la misma eSIM sirve en más de 200 destinos."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公告列出的几项能力都指向同一个前提——连接由自己控制：用户在没有 Wi-Fi、也没有其他可用 SIM 的情况下仍能下单或充值；出发前可以先测一次连通性；套餐结构改成 1 至 30 天不限量、固定 30 天、固定 365 天全球三档。全球套餐首次带语音与短信，此前 Airalo 的套餐以纯数据为主。",
+        "en": "The capabilities listed all rest on the same premise, that Airalo controls the connection: a user can order or top up with no Wi-Fi and no other usable SIM, can test connectivity before departure, and chooses among 1-30 day unlimited, fixed 30-day and fixed 365-day global packages. The global plan carries voice and SMS for the first time; Airalo's plans had been largely data-only.",
+        "es": "Las capacidades anunciadas descansan en la misma premisa, que Airalo controla la conexión: el usuario puede contratar o recargar sin wifi y sin otra SIM utilizable, probar la conectividad antes de salir y elegir entre paquetes ilimitados de 1 a 30 días, de 30 días fijos y globales de 365 días. El plan global incluye voz y SMS por primera vez; los planes de Airalo eran en su mayoría solo datos."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "迁移自 11 月 9 日开始分批进行，公司给出的完成期限是 12 个月；未迁移的用户继续按原方式使用。Airalo 成立于 2019 年，自称覆盖 200 多个目的地、用户超过 3000 万。公告没有披露自建核心网的技术供应商、覆盖依赖哪些本地运营商，也没有说单张 eSIM 在不同国家之间如何完成号码与资费切换。",
+        "en": "The migration started on 9 November in phases and is due to finish within twelve months, with unmigrated users continuing on the old flow. Airalo was founded in 2019 and says it covers more than 200 destinations with over 30 million users. The announcement did not disclose the core network vendor, which local operators the coverage depends on, or how a single eSIM handles number and tariff changes between countries.",
+        "es": "La migración comenzó el 9 de noviembre por fases y debe terminar en doce meses, mientras los usuarios no migrados siguen con el flujo anterior. Airalo se fundó en 2019 y afirma cubrir más de 200 destinos con más de 30 millones de usuarios. El anuncio no reveló el proveedor del núcleo, de qué operadores locales depende la cobertura ni cómo una sola eSIM gestiona el cambio de número y tarifa entre países."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "技术含义是 profile 的数量与生命周期管理从终端侧移到网络侧。过去旅行 eSIM 的瓶颈在卡里能装几张、下载几次、删了能不能恢复；现在这些约束被一张固定 profile 加核心网路由绕开，eUICC 侧的压力转向「如何长期安全地承载一个不换的 profile」，而 RSP 的价值从「多 profile 编排」转向「单 profile 下的多网络接入与计费」。商业上，Airalo 从批发本地 profile 的转售商变成握有核心网的运营方，毛利结构与对本地运营商的议价位置都变了；本地运营商失去的不只是一个批发客户，而是一个能自己决定路由与定价的对手。对做旅行 eSIM 的平台，这条把竞争点从覆盖国家数和单价，推到安装摩擦与到达即用，跟进者要么自建核心网，要么在体验上落后一档。",
+    "en": "The technical meaning is that profile count and lifecycle management move from the device to the network. The old constraint on travel eSIM was how many profiles fit, how many downloads are allowed and whether a deleted one can be restored; a fixed profile plus core routing sidesteps all three, shifting pressure on the eUICC to carrying one permanent profile safely over time, and shifting RSP value from multi-profile orchestration to multi-network access and charging under a single profile. Commercially, Airalo stops being a reseller of local profiles and becomes an operator with a core network, which changes both its margin structure and its bargaining position with local carriers; those carriers lose not just a wholesale customer but a counterparty that sets its own routing and pricing. For other travel eSIM platforms, the ground of competition moves from country count and unit price to install friction and arriving online, leaving followers to build a core or trail on experience.",
+    "es": "El significado técnico es que el número de perfiles y su ciclo de vida pasan del dispositivo a la red. La limitación clásica de la eSIM de viaje era cuántos perfiles caben, cuántas descargas se permiten y si uno borrado puede recuperarse; un perfil fijo más encaminamiento en el núcleo esquiva las tres, traslada la presión sobre la eUICC a portar un perfil permanente de forma segura y desplaza el valor del RSP de la orquestación multipérfil al acceso multirred y la facturación con un solo perfil. En lo comercial, Airalo deja de revender perfiles locales y pasa a ser un operador con núcleo propio, lo que cambia su margen y su posición negociadora frente a los operadores locales; estos pierden no solo un cliente mayorista sino una contraparte que fija su propio encaminamiento y precios. Para otras plataformas de eSIM de viaje, el terreno competitivo se mueve del número de países y el precio unitario a la fricción de instalación y a llegar ya conectado."
+  },
+  "confidence": 0.74,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-pool-v1"
+  }
+}
