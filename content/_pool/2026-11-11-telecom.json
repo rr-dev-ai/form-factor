@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-11",
+  "industry": "telecom",
+  "startedAt": "2026-11-11T02:50:00+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "Vodafone IoT and Skylo launch commercial satellite connectivity service",
+      "url": "https://iot-now.com/2026/11/10/159299-vodafone-iot-skylo-launch-commercial-satellite-connectivity-service/",
+      "reason": "duplicate-of-2026-11-10-telecom-02：Vodafone IoT 与 Skylo 商用卫星服务已发，本条为同一发布的另一家媒体版本（同事件还有 mobileeurope、telesemana 两篇）。"
+    },
+    {
+      "title": "Rakuten y AST SpaceMobile crearán una red satelital D2D en Japón",
+      "url": "https://www.telesemana.com/blog/2026/11/09/rakuten-y-ast-spacemobile-crearan-una-red-satelital-d2d-en-japon/",
+      "reason": "duplicate-of-2026-11-10-telecom-01：乐天与 AST 的日本 J-LEO 合资已发，本条为西语版二次报道。"
+    },
+    {
+      "title": "TIM negocia conectividade D2D com SpaceX e AST ainda para 2026",
+      "url": "https://www.mobiletime.com.br/noticias/10/11/2026/tim-d2d-spacex-e-ast/",
+      "reason": "动作门不过：CEO 在记者会上说正在与 SpaceX 和 AST 两边谈、年底前给方案，无签约方、无金额、无产品参数、无上线日期，属表态而非六类动作。"
+    },
+    {
+      "title": "GSMA: SMS OTP Revenue to Fall to $9.6 Billion by 2029 as Network Authentication APIs Target $14 Billion Market",
+      "url": "https://www.telecomlead.com/telecom-equipment/gsma-sms-otp-revenue-to-fall-to-9-6-billion-by-2029-as-network-authentication-apis-target-14-billion-market",
+      "reason": "动作门不过：GSMA 的市场规模预测，没有规范版本、没有运营商上线、没有 API 产品名，六类动作无一成立；原文页被反爬拦截，二次核对不成立。"
+    },
+    {
+      "title": "Safaricom introduces 18 new security checks customers must face during SIM Swap",
+      "url": "https://www.people.co.ke/people-daily/safaricom-introduces-18-new-security-checks-customers-must-face-during-sim-swap",
+      "reason": "动作门不过：换卡环节增加核验项属运营商内部风控流程调整，既非规范版本发布也非产品化节点，没有可核的发证方或参数；且与 2026-11-02-telecom-02 的东非 SIM 实名议题相近但不构成同一事件。"
+    },
+    {
+      "title": "Former Vodacom executive proposed big SIM card changes for South Africa and ICASA listened",
+      "url": "https://mybroadband.co.za/news/cellular/former-vodacom-executive-proposed-big-sim-card-changes-for-south-africa-and-icasa-listened.html",
+      "reason": "duplicate-of-2026-11-02-telecom-02：仍是 ICASA 10 月 28 日那份生物识别实名草案，本条为草案来由的侧写。"
+    },
+    {
+      "title": "TCS | Nomvuyiso Batyi on the battle over Sim registration",
+      "url": "https://www.techcentral.co.za/tcs-nomvuyiso-batyi-on-the-battle-over-sim-registration/",
+      "reason": "动作门不过：行业人士访谈，无新规则文本、无生效日、无执法动作。"
+    },
+    {
+      "title": "Podcast: SGP.32 and bootstrap connectivity: Preparing IoT for scale",
+      "url": "https://iot-now.com/2026/11/10/159139-podcast-sgp-32-and-bootstrap-connectivity-preparing-iot-for-scale/",
+      "reason": "不是事件：播客节目，无发布主体动作、无版本号、无产品。"
+    },
+    {
+      "title": "BT reluctant to launch Starlink D2D amid Ukraine noise",
+      "url": "https://www.mobileworldlive.com/bt/bt-reluctant-to-launch-starlink-d2d-amid-ukraine-noise/",
+      "reason": "动作门不过：运营商对是否引入 Starlink 直连的表态与传闻，无签约、无时间表、无技术参数。"
+    },
+    {
+      "title": "Eurobites: BT holds off on Starlink collab, cites 'Ukraine thing' – report",
+      "url": "https://www.lightreading.com/satellite/eurobites-bt-holds-off-on-starlink-collab-cites-ukraine-thing-report",
+      "reason": "动作门不过：与上条同一表态的简讯版，来源是「report」，无可核公告。"
+    },
+    {
+      "title": "GSMA, Africa Union tackle continental connectivity",
+      "url": "https://www.mobileworldlive.com/gsma/gsma-africa-union-tackle-continental-connectivity/",
+      "reason": "范围门与动作门均不过：行业组织与区域组织的普遍连接议程合作，未见涉及 SIM/eSIM 载体、RSP 或网络鉴权方式的具体物，也无金额、版本号或落地项目。"
+    },
+    {
+      "title": "GSMA lanza dos concursos de inteligencia artificial para estándares y redes de acceso radio",
+      "url": "https://www.telesemana.com/blog/2026/11/10/gsma-lanza-dos-concursos-de-inteligencia-artificial-para-estandares-redes-de-acceso-radio/",
+      "reason": "动作门不过：AI 竞赛征集，不是规范版本发布，也没有认证体系落地；标的物是无线接入网的 AI 应用，不在凭证链路。"
+    },
+    {
+      "title": "Argentina estabelece novas exigências de segurança para redes de telecomunicações",
+      "url": "https://www.mobiletime.com.br/noticias/09/11/2026/argentina-redes-telecom/",
+      "reason": "范围门不过：面向电信网络设备与供应链的安全要求，标的是核心网与接入网设备，不在 SIM/eSIM 载体、RSP 或鉴权方式上。"
+    },
+    {
+      "title": "NTT, Mitsubishi Electric y tres socios estudiarán una megaconstelación satelital",
+      "url": "https://www.telesemana.com/blog/2026/11/10/ntt-mitsubishi-electric-y-tres-socios-estudiaran-una-megaconstelacion-satelital/",
+      "reason": "范围门不过：星座可行性研究，标的是轨道与星间链路；与 11-07 拦 FCC 批 Amazon Leo、11-10 拦 Globalstar 星座同一口径。"
+    },
+    {
+      "title": "IFSS Malaysia targets RM104.5 million annual revenue from new smart card production facility",
+      "url": "https://thesun.my/business/ifss-malaysia-targets-rm104-5-million-annual-revenue-from-new-smart-card-production-facility/",
+      "reason": "时效门不过：11 月 6 日发布，距落盘超过 72 小时；内容本身（卡厂产能与营收目标）可作后续产能类候选的参照。"
+    },
+    {
+      "title": "SGP.32: Promoting Interoperable and Consistent IoT eSIM Deployments",
+      "url": "https://trustedconnectivityalliance.org/2026/11/05/sgp-32-promoting-interoperable-and-consistent-iot-esim-deployments/",
+      "reason": "时效门不过：TCA 11 月 5 日的技术文章，距落盘超过 72 小时；且属解释性文章，无新版本号或认证批次。"
+    },
+    {
+      "title": "stc Bahrain Relaunches rova Travel eSIM App With Expanded Features",
+      "url": "https://www.indexbox.io/blog/stc-bahrain-relaunches-rova-travel-esim-app-with-expanded-features/",
+      "reason": "范围门不过：旅行 eSIM 应用改版与套餐目录，属资费与销售渠道，AGENTS 明确渠道合作归资费促销，不收。"
+    },
+    {
+      "title": "Билайн запускает eSIM для путешествий в 164 страны",
+      "url": "https://daily.karelia.ru/news/2026/11/10/bilayn-zapuskaet-esim-dlya-puteshestviy-v-164-strany/",
+      "reason": "范围门不过：运营商旅行 eSIM 产品上线，只有目的地数量与资费，属资费促销与渠道，不是载体形态或 RSP 机制变化。"
+    },
+    {
+      "title": "ANA X Launches ANA Global eSIM Service",
+      "url": "https://www.traicy.com/posts/2026111022666/",
+      "reason": "范围门不过：航空公司在其应用内销售旅行 eSIM，属渠道合作与资费，AGENTS 明确不收。"
+    },
+    {
+      "title": "Revolut Mobile launches in Ireland at €9.99",
+      "url": "https://www.goosed.ie/tech-news/revolut-mobile-ireland-launch/",
+      "reason": "范围门不过：MVNO 以低价套餐进入爱尔兰市场，标的是资费，不是 SIM 载体或鉴权机制；11-10 已按同一理由拦过。"
+    },
+    {
+      "title": "Quectel Launches EG216Q-GL and BG950Q-GL to Give IoT Device Makers a More Cost-efficient, Lower-power Upgrade Path",
+      "url": "https://www.itweb.co.za/article/quectel-launches-eg216q-gl-and-bg950q-gl-to-give-iot-device-makers-a-more-cost-efficient-lower-power-upgrade-path/LPp6VMrBl43MDKQz",
+      "reason": "范围门不过：LTE Cat 1bis 通信模组，不是 SIM/eUICC 载体或安全元件；上游制造门要的是芯片与封装工艺参数，模组不在其中，与 11-10 拦 Cavli P16QS 同一口径。"
+    },
+    {
+      "title": "Robustel and Netmore form strategic technology partnership to accelerate global LoRaWAN deployments",
+      "url": "https://iot-now.com/2026/11/10/159293-robustel-netmore-strategic-partnership-global-lorawan-deployments/",
+      "reason": "范围门不过：LoRaWAN 网关与网络服务器的合作，不涉及 SIM/eSIM 载体、RSP 或蜂窝鉴权。"
+    },
+    {
+      "title": "VodafoneThree mulls UK–Norway subsea cable",
+      "url": "https://totaltele.com/vodafonethree-mulls-uk-norway-subsea-cable/",
+      "reason": "范围门不过：海缆规划属传输基础设施，不在凭证链路；动作门也只有「mulls」，无金额与承建方。"
+    },
+    {
+      "title": "Verizon completes Thames Freeport private 5G deployment",
+      "url": "https://rcrwireless.com/20261110/private-5g/verizon-completes-thames-freeport-private-5g-deployment-as-ece-moves-back-in-focus",
+      "reason": "范围门不过：私有 5G 专网部署，标的是基站与核心网设备，AGENTS 明确核心网与基站不收。"
+    }
+  ],
+  "stats": {
+    "candidates": 174,
+    "written": 1,
+    "skippedByDedup": 3
+  },
+  "finishedAt": "2026-11-10T18:56:17.406Z"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-11-identity-02",
+  "slug": "australia-agdis-opens-private-sector-december",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "mobile-id",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-11T04:18:03+08:00",
+  "ingestedAt": "2026-11-11T03:10:51+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/australia-opens-myid-to-business-brings-private-providers-into-govt-system",
+      "lang": "en",
+      "publishedAt": "2026-11-10T10:01:00-05:00"
+    },
+    {
+      "name": "Australian Government Digital ID System",
+      "url": "https://www.digitalidsystem.gov.au/news/policy-settings-for-charging-and-user-choice-in-the-australian-government-digital-id-system",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "澳洲 12 月 1 日开放 myID：企业可接入，私营身份商可收费",
+    "en": "Australia opens myID to business and private identity providers on 1 December",
+    "es": "Australia abre myID a empresas y proveedores privados de identidad el 1 de diciembre"
+  },
+  "summary": {
+    "zh": "12 月 1 日起，企业可申请作为依赖方，通过澳大利亚政府数字身份系统（AGDIS）核验客户；经认证的私营身份、属性与交换提供商可向监管机构 ACCC 申请加入，并向选用它们的政府机构收费。个人用 myID 仍免费，企业用 myID 核验客户最迟 2027 年 1 月 1 日开始按笔付费，费率须先经 28 天公开征询。",
+    "en": "From 1 December businesses can apply to verify customers through the Australian Government Digital ID System, while accredited private identity, attribute and exchange providers can seek approval from the ACCC to join and charge agencies that choose them. myID stays free for individuals, and businesses using it for customer checks start paying per transaction no later than 1 January 2027, after a 28-day public consultation on the price.",
+    "es": "Desde el 1 de diciembre las empresas podrán solicitar verificar clientes mediante el sistema gubernamental de identidad digital, y los proveedores privados acreditados de identidad, atributos e intercambio podrán pedir aprobación a la autoridad de competencia para sumarse y cobrar a los organismos que los elijan. myID sigue gratis para las personas, y las empresas empezarán a pagar por transacción a más tardar el 1 de enero de 2027, tras una consulta pública de 28 días."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "开的是两扇门，不是一扇",
+        "en": "Two doors open, not one",
+        "es": "Se abren dos puertas, no una"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "第三阶段让企业作为依赖方接入；第四阶段让经认证的私营身份、属性与交换提供商申请参与。两阶段同在 12 月 1 日开始，这是 2024 年《数字身份法》设定分阶段路径的最后两步。认证不等于获准参与：提供商要另向 ACCC（兼任数字身份监管机构）取得批准，才能在政府系统里提供服务。",
+        "en": "The third phase admits businesses as relying parties; the fourth admits accredited private identity, attribute and exchange providers. Both start on 1 December and complete the phased path set by the Digital ID Act 2024. Accreditation alone does not confer participation: providers need separate approval from the ACCC, which doubles as the digital ID regulator, before serving through the government system.",
+        "es": "La tercera fase admite empresas como dependientes; la cuarta admite proveedores privados acreditados de identidad, atributos e intercambio. Ambas arrancan el 1 de diciembre y completan la ruta por fases fijada por la Ley de Identidad Digital de 2024. La acreditación no otorga participación: hace falta una aprobación separada de la autoridad de competencia, que actúa también como regulador, antes de operar en el sistema público."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "收费怎么定，谁不用付",
+        "en": "How charging works, and who pays nothing",
+        "es": "Cómo se cobra y quién no paga"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "个人创建与使用 myID 继续免费，政府机构使用政府提供的数字身份服务也免费；企业按笔付费、事后开票，具体费率须经 28 天强制公开征询，首年结束后再评估。ATO 的关系授权管理器与 Services Australia 的数字身份交换现阶段对企业免费，但政府保留日后收费的可能。定价逻辑写的是「竞争中性」：不让政府背书的核验在价格上压过私营提供商。",
+        "en": "Individuals keep creating and using myID free of charge, and agencies keep free access to government-provided digital identity services. Businesses pay per transaction, invoiced in arrears, with the rate subject to a mandatory 28-day public consultation and a review after the first year. The ATO's Relationship Authorisation Manager and Services Australia's Digital ID Exchange stay free to business for now, though the government may introduce charges later. The stated rationale is competitive neutrality: the government-backed check should not undercut private providers on price.",
+        "es": "Las personas siguen creando y usando myID gratis, y los organismos mantienen acceso gratuito a los servicios públicos de identidad digital. Las empresas pagan por transacción, facturada a mes vencido, con tarifa sujeta a consulta pública obligatoria de 28 días y revisión tras el primer año. El gestor de autorizaciones y el intercambio de identidad siguen gratis para empresas por ahora, aunque el gobierno podría cobrarlos después. El criterio declarado es neutralidad competitiva: la verificación pública no debe hundir el precio de los proveedores privados."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "限制写在同一份文件里",
+        "en": "The limits sit in the same document",
+        "es": "Los límites están en el mismo documento"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "机构不必向用户提供身份提供商的选择；身份欺诈会显著影响个人财务状况的服务，只接受政府数字身份提供商，受影响服务清单待公布。政府此前估计首批可有 5 至 10 家私营提供商。系统目前接入 264 项政府服务（155 项联邦、109 项州与领地），2025 年 5 月至 2026 年 4 月处理逾 1.13 亿笔认证交易，同比增约 210%。2026–27 财年预算为此安排约 6.543 亿澳元、四年期。",
+        "en": "Agencies are not required to offer users a choice of identity provider, and services where identity fraud could seriously affect someone's finances will accept only government providers, with the list still to be published. The government has estimated five to ten private providers could join initially. The system currently fronts 264 government services (155 Commonwealth, 109 state and territory) and processed more than 113 million authentication transactions between May 2025 and April 2026, up about 210 percent year on year. The 2026-27 budget sets aside about A$654.3 million over four years.",
+        "es": "Los organismos no están obligados a ofrecer al usuario una elección de proveedor, y los servicios donde el fraude de identidad afectaría gravemente las finanzas personales solo aceptarán proveedores públicos, con lista pendiente de publicación. El gobierno estimó que podrían sumarse de cinco a diez proveedores privados. El sistema atiende hoy 264 servicios públicos (155 federales, 109 estatales) y procesó más de 113 millones de autenticaciones entre mayo de 2025 y abril de 2026, un 210 por ciento más. El presupuesto 2026-27 reserva unos 654,3 millones a cuatro años."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "市场格局上，这是政府身份系统第一次把「谁来核验」外包给竞争：myID 拿到全国覆盖，私营提供商拿到政府客户，两边在同一套规则下比价。对银行、电信这类全国性依赖方，选择变成一道算术题——用 myID 付按笔费用换覆盖率，还是接州发行的 mDL 与可验证凭证换单价；前者省开户摩擦，后者省每次核验的钱。监管上，ACCC 同时是认证方与准入方，认证与准入分离意味着合规成本要付两次；高风险服务只认政府提供商这一条，会把私营厂商挤到跨境证件核验、证件真伪鉴别这类细分能力上。商业上，责任分摊未定是最大的不确定项：法定合同给了提供商一层保护，但提供商与依赖方之间怎么分责、要不要设责任上限，政府只说继续磋商，这直接决定集成商投保与报价。",
+    "en": "On market structure, this is the first time a government identity system outsources the question of who performs verification to competition: myID brings national reach, private providers bring government customers, and both price under the same rules. For national relying parties such as banks and telcos the choice becomes arithmetic: pay per transaction on myID for coverage, or accept state-issued mDLs and verifiable credentials for a lower unit price. On regulation, the ACCC is both accreditor and admission authority, so compliance is paid for twice, and the rule that high-fraud-risk services accept only government providers pushes private vendors toward narrower capabilities such as foreign-document verification and document authentication. Commercially, the open question is liability: the statutory contract shields providers, but how risk is split between provider and relying party, and whether caps apply, is still under consultation, and that decides integrator pricing and insurance.",
+    "es": "En la estructura de mercado, es la primera vez que un sistema público de identidad somete a competencia la pregunta de quién verifica: myID aporta alcance nacional, los proveedores privados aportan clientes públicos y ambos compiten bajo las mismas reglas. Para dependientes nacionales como bancos y operadoras la decisión es aritmética: pagar por transacción en myID por cobertura, o aceptar licencias móviles y credenciales verificables estatales por un precio unitario menor. En lo regulatorio, la autoridad de competencia acredita y admite a la vez, de modo que el cumplimiento se paga dos veces, y la regla de que los servicios de alto riesgo financiero solo acepten proveedores públicos empuja a los privados hacia capacidades concretas como la verificación de documentos extranjeros. En lo comercial, la incógnita es la responsabilidad: el contrato estatutario protege al proveedor, pero el reparto entre proveedor y dependiente y la posible limitación de responsabilidad siguen en consulta, y eso fija precios y seguros de los integradores."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-pool-v1"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "fetchedAt": "2026-11-11T01:53:26+08:00",
+  "fetchedFor": "2026-11-11",
+  "gap": ["cis", "mena", "north-america", "latam", "africa"],
+  "cellGap": ["apac/banking", "apac/telecom", "europe/banking", "europe/telecom"],
+  "industryGap": ["banking", "telecom", "identity"],
+  "items": [
+    {
+      "title": "HSBC UK 联手 Stripe 上线 Tap to Pay，小微商户用手机收非接",
+      "url": "https://paymentsindustryintelligence.com/hsbc-and-stripe-bring-tap-to-pay-to-uk-small-businesses/",
+      "publishedAt": "2026-11-10T18:13:00+00:00",
+      "industry": "banking",
+      "region": "europe",
+      "actionType": "联合部署",
+      "gateNote": "按「联合部署」记：银行做分发、Stripe 做基础设施，落地市场明确为英国。但缺开通商户数、费率与认证路径，若终审要求可核规模，只剩「已上线」一条。",
+      "discoveredBy": "European issuer processor card issuing platform launch November 2026（R1 cellGap europe/banking）→ 改由 paymentsindustryintelligence 首页归档直读命中",
+      "note": "落在受理环节：把合规手机变成非接终端，替掉专用 POS 硬件，商户从 HSBC 企业银行 App 进入、在 Stripe 完成入网。机制变化在于收单入口从硬件采购前移到开户流程内。原文只给了 594 家小微的调研数据（33% 因无法受理某支付方式丢单），未披露费率、已开通商户数，也未说明走 Apple Tap to Pay 还是 Android 的 MPoC 方案。"
+    },
+    {
+      "title": "加拿大实时清算轨道 RTR 上线，首批 8 家机构接入",
+      "url": "https://paymentsindustryintelligence.com/canada-launches-long-delayed-real-time-rail-payments-system/",
+      "publishedAt": "2026-11-10T18:15:00+00:00",
+      "industry": "banking",
+      "region": "north-america",
+      "actionType": "无",
+      "gateNote": "六类都不贴：这是清算轨道投产，不是授标、不是规范版本发布，也没有可商用的凭证产品。离「产品化节点」差的正是凭证本身——轨道有了，卡与钱包侧还没接。",
+      "discoveredBy": "US bank debit card issuance program launch November 2026（R2）无果后，改由 paymentsindustryintelligence 首页归档直读命中",
+      "note": "落在清算环节：全国即时清算与结算轨道投产，24×7 运行，替代批处理 EFT 的时延。机制上以 ISO 20022 报文承载，并把 Confirmation of Payee、交易安全评分、欺诈指标库内建进轨道而非留给参与机构自建。原文未给单笔限额、收费模式与首批 8 家（含 KOHO、Wealthsimple、Peoples Trust）的具体上线时点，也未说明卡组织凭证是否接入该轨道。"
+    },
+    {
+      "title": "加拿大 2026 预算拨 C$9000 万扩生物识别筛查，另设旅客生物识别战略",
+      "url": "https://www.biometricupdate.com/202611/canada-plans-national-travel-biometrics-strategy-expanded-biometric-screening",
+      "publishedAt": "2026-11-09T13:22:00-05:00",
+      "industry": "identity",
+      "region": "north-america",
+      "actionType": "无",
+      "gateNote": "只到预算提案：C$9000 万分四年给 IRCC、C$430 万给旅客生物识别战略，但没有承接方、没有招标公告、没有规范版本号。若终审按「无具体物」收紧，这条只保得住金额与用途。",
+      "discoveredBy": "appel d'offres cartes nationales d'identité personnalisation novembre 2026（R3）无果 → biometricupdate /202611 归档直读命中",
+      "note": "落在签发与受理两端：免签国旅客申请 eTA 将可远程提交人脸，替代部分线下采集点；同时新设旅客生物识别战略，统筹机场、航司、安检与边检的数字凭证使用。机制变化是把生物采集从使领馆前台推到线上，并把边境凭证的受理面扩到航司侧。原文未给招标安排与供应商，也未说明数字凭证采用 18013-5 还是别的标准，只提到将任命一名旅客生物识别特别顾问。"
+    },
+    {
+      "title": "以色列发布国家数字身份战略草案，以身份证为根建国家钱包",
+      "url": "https://www.biometricupdate.com/202611/israel-unveils-plan-to-unite-identity-assets-around-national-digital-id-wallet",
+      "publishedAt": "2026-11-09T15:10:00-05:00",
+      "industry": "identity",
+      "region": "mena",
+      "actionType": "无",
+      "gateNote": "草案公示阶段：无预算、无承建方、无上线时间表，且以色列正在组阁，政策优先级存疑。离「标准与认证」差正式发布版本与认证体系，现在只有一份 PDF。",
+      "discoveredBy": "مناقصة بطاقة هوية شخصية نوفمبر 2026（R3 阿语采购轮）无果 → biometricupdate /202611 归档直读命中",
+      "note": "落在签发与受理：以国民身份证为根，发行一份与实体卡法律等效的数字证件，存进国家钱包，并把身份证推成所有公共服务的默认核验方式。机制变化在依赖方接口——向私营机构与个人 AI 代理开放核验，同时把后量子迁移写进规划。原文未给预算、承建方与时间表，只说明由国家网络局会同人口与移民局、财政部预算司、央行起草，公示至 11 月底；也未说明数字证件与现有生物数据库的调用边界如何解决。"
+    },
+    {
+      "title": "加纳国家身份局暂停 Ghana Card 出生日期更正，11 月 9 日起停止受理",
+      "url": "https://www.graphic.com.gh/news/general-news/national-identification-authority-suspends-date-of-birth-amendments-on-ghana-card.html",
+      "publishedAt": "2026-11-10T11:25:00+00:00",
+      "industry": "identity",
+      "region": "africa",
+      "actionType": "无",
+      "gateNote": "属流程整顿，六类都不贴。可核的只有「11 月 9 日起停止受理」这一个时点与发布文号缺失的新闻稿，没有新增凭证、没有产能、没有授标。",
+      "discoveredBy": "edital cartão de identificação personalização novembro 2026（R3 葡语轮）命中",
+      "note": "落在签发环节：冻结 Ghana Card 出生日期更正这个入口，全国 NIA 网点不再受理新申请，在办件也不批。机制变化是把数据校验责任外移——先与西非考试委员会、出生死亡登记处对齐证据链，再恢复受理，等于把身份数据的唯一真源从卡片系统往民事登记回推。原文未给恢复时间表，未说明积压申请数量，也未提及是否影响已发卡的效力。"
+    }
+  ]
+}

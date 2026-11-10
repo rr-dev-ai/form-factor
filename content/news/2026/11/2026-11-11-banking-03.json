@@ -1,0 +1,84 @@
+{
+  "id": "2026-11-11-banking-05",
+  "slug": "thredd-elephants-mastercard-debit",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "issuing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-11T04:18:03+08:00",
+  "ingestedAt": "2026-11-11T02:31:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Thredd",
+      "url": "https://www.thredd.ai/company/press-releases/elephants-selects-thredd-to-power-mastercard-business-card-program",
+      "lang": "en",
+      "publishedAt": "2026-11-10T00:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "Thredd 承接 Elephants 新加坡万事达商务借记卡发卡处理",
+    "en": "Thredd to process Elephants' Mastercard business debit card in Singapore",
+    "es": "Thredd procesará la tarjeta de débito Mastercard de Elephants en Singapur"
+  },
+  "summary": {
+    "zh": "新加坡企业支出平台 Elephants 选择 Thredd 作为发卡处理方，支撑其即将推出的 Elephants Reserve 万事达借记卡。Thredd 提供实时交易处理、卡控、欺诈与风险管理以及 3D Secure，受理走万事达网络。该卡目前开放等候名单，尚未正式发卡。",
+    "en": "Singapore-based spend platform Elephants has selected Thredd to process its upcoming Elephants Reserve Mastercard debit card. Thredd supplies real-time transaction processing, card controls, fraud and risk management and 3D Secure, with acceptance on the Mastercard network. The card is open for waitlist registration and is not yet live.",
+    "es": "La plataforma de gasto corporativo Elephants, con sede en Singapur, ha elegido a Thredd para procesar su próxima tarjeta de débito Mastercard Elephants Reserve. Thredd aporta procesamiento en tiempo real, controles de tarjeta, gestión de fraude y riesgo y 3D Secure, con aceptación en la red Mastercard. La tarjeta está en lista de espera y aún no opera."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "处理器做发卡，卡组织做受理",
+        "en": "A processor issues, the scheme provides acceptance",
+        "es": "Un procesador emite, el esquema aporta aceptación"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "按 11 月 10 日在新加坡发布的公告，Elephants 选择 Thredd 作为发卡处理平台，支撑 Elephants Reserve 万事达借记卡。Thredd 提供实时交易处理、卡控、欺诈与风险管理、3D Secure；受理走万事达网络，面向需要在多个市场管理企业支出的公司。",
+        "en": "In the 10 November announcement from Singapore, Elephants selected Thredd as issuer processor for the Elephants Reserve Mastercard debit card. Thredd provides real-time transaction processing, card controls, fraud and risk management and 3D Secure, with acceptance on the Mastercard network for companies managing spend across markets.",
+        "es": "En el anuncio del 10 de noviembre desde Singapur, Elephants eligió a Thredd como procesador emisor de la tarjeta de débito Mastercard Elephants Reserve. Thredd aporta procesamiento en tiempo real, controles de tarjeta, gestión de fraude y riesgo y 3D Secure, con aceptación en la red Mastercard para empresas que gestionan gasto en varios mercados."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "先排队，后发卡",
+        "en": "Waitlist first, cards later",
+        "es": "Primero lista de espera, luego tarjetas"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Elephants 的平台把多币种账户、公司卡、跨境付款、换汇与 AI 财务洞察放在一处，Reserve 是其首张以「商务借记」定位的卡产品。目前只开放等候名单，尚未正式发卡，公告未给发卡量目标、费率与目标市场名单。",
+        "en": "Elephants bundles multi-currency accounts, corporate cards, cross-border payments, FX and AI-driven financial insight. Reserve is positioned as its business debit product, currently open only for waitlist registration. The announcement gave no volume targets, pricing or target market list.",
+        "es": "Elephants reúne cuentas multidivisa, tarjetas corporativas, pagos transfronterizos, divisas e información financiera con IA. Reserve se posiciona como su producto de débito empresarial y solo admite registro en lista de espera. El anuncio no dio objetivos de volumen, tarifas ni lista de mercados objetivo."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Thredd 在公告中自述平台支持 3.25 亿张卡、年处理 25 亿笔交易、覆盖 50 多个国家。这是公司口径的累计规模，不是本次项目的数字，两者不要混用。",
+        "en": "Thredd describes its platform as supporting 325 million cards, processing 2.5 billion transactions a year across more than 50 countries. Those are company-wide cumulative figures, not numbers for this programme, and should not be conflated.",
+        "es": "Thredd describe su plataforma como soporte de 325 millones de tarjetas, 2.500 millones de operaciones anuales en más de 50 países. Son cifras acumuladas de la compañía, no de este programa, y no deben confundirse."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "亚太的商务卡发行正在从银行自建转向「处理器 + 卡组织」的组合，门槛下降的直接后果是区域型支出平台也能发卡，而不必先拿银行牌照。对处理器，争夺点不在费率，而在 BIN 赞助、本地合规与多币种结算能力，这三项决定一个项目能不能在多个市场同时上线。对想进东南亚的企业支出平台，这套组合意味着产品可以先以借记卡形态落地，把信用功能留到有本地牌照或合作银行之后再叠加。需要克制的是预期：等候名单阶段没有发卡量，也没有费率，判断这条合作成不成，要等它真正上线后的商户与用户数据。",
+    "en": "Business card issuance in Asia-Pacific is shifting from bank-built stacks to a processor plus scheme combination, and the lower barrier means regional spend platforms can issue without first holding a banking licence. For processors the contest is not pricing but BIN sponsorship, local compliance and multi-currency settlement, which decide whether a programme can go live in several markets at once. For platforms entering Southeast Asia, the combination allows a debit-first launch and leaves credit features for after a local licence or partner bank is in place. Expectations should stay measured: at waitlist stage there is no card volume and no pricing, so whether the partnership works will only show in merchant and user data after launch.",
+    "es": "La emisión de tarjetas corporativas en Asia-Pacífico pasa de stacks construidos por bancos a la combinación procesador más esquema, y la menor barrera permite que plataformas regionales de gasto emitan sin licencia bancaria previa. Para los procesadores la disputa no es el precio sino el patrocinio de BIN, el cumplimiento local y la liquidación multidivisa, que deciden si un programa puede operar en varios mercados a la vez. Para las plataformas que entran en el sudeste asiático, la combinación permite un lanzamiento primero en débito y deja las funciones de crédito para cuando exista licencia local o banco socio. Conviene moderar expectativas: en fase de lista de espera no hay volumen ni tarifas, así que el éxito solo se verá en los datos de comercios y usuarios tras el lanzamiento."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-banking-2026-11"
+  }
+}

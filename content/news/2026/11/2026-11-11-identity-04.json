@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-11-identity-01",
+  "slug": "accenture-ato-digital-id-contract-36m",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "verification",
+    "biometrics"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-11T04:18:03+08:00",
+  "ingestedAt": "2026-11-11T03:10:51+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/accenture-wins-another-a36m-australian-digital-id-contract",
+      "lang": "en",
+      "publishedAt": "2026-11-10T09:59:00-05:00"
+    },
+    {
+      "name": "Tender Tracker",
+      "url": "https://tendertracker.com.au/contracts/CN4284027",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "Accenture 再拿 ATO 数字身份合同：一年 3620 万澳元",
+    "en": "Accenture wins another A$36.2M digital ID contract at Australia's tax office",
+    "es": "Accenture suma otro contrato de identidad digital de 36,2 millones en la agencia tributaria australiana"
+  },
+  "summary": {
+    "zh": "澳大利亚税务局把 myID 与关系授权管理器的数字身份服务合同再交给 Accenture，一年 3620 万澳元（约 2510 万美元），按工作日折算逾 14 万澳元。ATO 称这是新签合同而非原合同延期，另附四个延长期选项；Accenture 在该局的数字身份合同累计已超过 2.24 亿澳元。",
+    "en": "Australia's Taxation Office has handed Accenture a further A$36.2 million (US$25.1 million) one-year contract to run digital identity services behind the myID app and the Relationship Authorisation Manager. The ATO says it is a new agreement rather than an extension, and it carries four extension options; Accenture's cumulative ATO digital identity work now exceeds A$224 million.",
+    "es": "La Oficina Tributaria de Australia ha adjudicado a Accenture otro contrato de 36,2 millones de dólares australianos (25,1 millones de dólares) por un año para operar los servicios de identidad digital de la app myID y del gestor de autorizaciones empresariales. La agencia afirma que es un acuerdo nuevo y no una prórroga, con cuatro opciones de extensión; el acumulado de Accenture en ese organismo supera los 224 millones."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "这笔钱买的是什么",
+        "en": "What the money actually buys",
+        "es": "Qué compra exactamente el contrato"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "合同覆盖 myID 应用与关系授权管理器（RAM）的运维：身份与属性管理、凭证签发与吊销、认证、账户开通与注销、访问权限复核，以及身份系统的安全框架。myID 是澳大利亚数字身份体系里的核心凭证，RAM 让个人以企业名义办事。ATO 同时管着这套系统的用户核验流程与访问控制。",
+        "en": "The contract covers operation of the myID app and the Relationship Authorisation Manager: identity and attribute management, credential issuance and revocation, authentication, account provisioning and deprovisioning, access recertification, and the security framework around the identity system. myID is the core credential in Australia's digital identity scheme, while RAM lets an individual act on behalf of a business. The ATO also runs user verification and access control for the system.",
+        "es": "El contrato cubre la operación de la app myID y del gestor de autorizaciones empresariales: gestión de identidad y atributos, emisión y revocación de credenciales, autenticación, alta y baja de cuentas, recertificación de accesos y el marco de seguridad del sistema. myID es la credencial central del esquema australiano, y el gestor permite actuar en nombre de una empresa. La agencia también administra la verificación de usuarios y el control de accesos."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "为什么这个金额看着眼熟",
+        "en": "Why the number looks familiar",
+        "es": "Por qué la cifra resulta conocida"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "2023 年首份合同是 2960 万澳元，经六次修订（延期与范围变更）涨到逾 1 亿澳元。加上这一笔，Accenture 在 ATO 的数字身份合同累计超过 2.24 亿澳元。2026 年 5 月预算又给 myID 与 RAM 追加 3.574 亿澳元，用于维持运行并加固安全。新合同与 12 月到期的旧合同有一段重叠期。",
+        "en": "The first contract, signed in 2023, was worth A$29.6 million and grew past A$100 million through six amendments covering extensions and scope changes. With this award, Accenture's ATO digital identity total passes A$224 million. The May 2026 budget added A$357.4 million to keep myID and RAM running and to harden security. The new agreement overlaps with the earlier contract due to expire in December.",
+        "es": "El primer contrato, firmado en 2023, valía 29,6 millones y superó los 100 millones tras seis modificaciones por prórrogas y cambios de alcance. Con esta adjudicación, el total de Accenture en la agencia supera los 224 millones. El presupuesto de mayo de 2026 añadió 357,4 millones para mantener myID y el gestor y reforzar la seguridad. El nuevo acuerdo se solapa con el anterior, que expira en diciembre."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "时间点压在开放之前",
+        "en": "Timed just before the market opens",
+        "es": "Firmado justo antes de abrir el mercado"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "合同落地的时间，正好在 AGDIS 于 12 月 1 日向私营部门开放之前。ATO 报出的在用量是 1670 万活跃 myID 用户、230 万个澳大利亚商业号码挂在 RAM 上。运营层仍由同一家承包商承担，而依赖方一侧即将引入竞争。",
+        "en": "The award lands just before the Australian Government Digital ID System opens to the private sector on 1 December. The ATO reports 16.7 million active myID users and more than 2.3 million Australian Business Numbers linked to RAM. The operations layer stays with the same contractor even as competition is introduced on the relying-party side.",
+        "es": "La adjudicación llega justo antes de que el sistema gubernamental de identidad digital se abra al sector privado el 1 de diciembre. La agencia declara 16,7 millones de usuarios activos de myID y más de 2,3 millones de números de empresa vinculados al gestor. La capa operativa sigue en el mismo contratista mientras se introduce competencia en el lado de quien acepta la credencial."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "商业上，这是一份典型的 incumbent 续约：金额逐年抬升靠修订而非重新招标，四个延长期选项意味着未来四年仍难撬动。对做政府身份系统集成的厂商，ATO 这条线短期没有入口，真正的新增预算在 12 月开放的私营提供商一侧。技术上看，合同把凭证签发、吊销与访问复核打包给一家，系统的可替换性取决于接口是否按《数字身份法》的法定合同标准化；ATO 已在征询活体检测技术，说明生物识别这一层还要换。市场层面，政府运营成本被明确要由企业按笔分摊，承包商与依赖方将同时面对「谁为每次核验付钱」的重新定价。",
+    "en": "Commercially this is a textbook incumbent renewal: the value climbs through amendments rather than fresh competition, and four extension options make the account hard to dislodge for the rest of the decade. For systems integrators selling into government identity, the ATO line offers no near-term entry; the new money sits on the private-provider side that opens in December. Technically, bundling issuance, revocation and access recertification into one contractor makes replaceability depend on whether interfaces are standardised under the statutory contract created by the Digital ID Act, and the ATO is already canvassing liveness detection, which signals another layer still to be replaced. On the market side, the government has decided that its operating cost will be recovered per transaction from businesses, so both the contractor and relying parties face a repricing of who pays for each verification.",
+    "es": "En lo comercial es una renovación clásica del incumbente: el importe sube por modificaciones y no por licitación, y cuatro opciones de extensión dificultan el relevo durante el resto de la década. Para los integradores que venden identidad al sector público, la línea de la agencia tributaria no ofrece entrada a corto plazo; el dinero nuevo está del lado de los proveedores privados que se abre en diciembre. En lo técnico, concentrar emisión, revocación y recertificación en un contratista hace que la sustituibilidad dependa de si las interfaces se estandarizan bajo el contrato estatutario de la Ley de Identidad Digital, y la agencia ya sondea la detección de vida, señal de otra capa por reemplazar. En el mercado, el gobierno ha decidido recuperar su coste operativo por transacción, de modo que contratista y dependientes afrontan un nuevo reparto de quién paga cada verificación."
+  },
+  "confidence": 0.82,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-pool-v1"
+  }
+}

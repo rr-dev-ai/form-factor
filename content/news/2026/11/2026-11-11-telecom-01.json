@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-11-telecom-01",
+  "slug": "brazil-regional-carriers-d2d-two-gateways",
+  "industry": "telecom",
+  "region": "latam",
+  "regions": [],
+  "tags": [
+    "satellite"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-11T04:18:03+08:00",
+  "ingestedAt": "2026-11-11T02:50:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Mobile Time",
+      "url": "https://www.mobiletime.com.br/noticias/09/11/2026/d2d-regionais-teleportos/",
+      "publishedAt": "2026-11-09T19:33:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "巴西三家区域运营商共建 D2D，先落地两个地面网关",
+    "en": "Brazil's regional carriers to start AST direct-to-device with two gateways",
+    "es": "Tres operadoras regionales de Brasil arrancan la D2D de AST con dos gateways"
+  },
+  "summary": {
+    "zh": "Brisanet、iez! telecom 与 Unifique 联合 AST SpaceMobile 的卫星直连项目，起步阶段只建两个地面网关：一个放在南部或东南部，一个放在北部或东北部，之后视需要再加一到两个。设施三家共用，网关承担基带处理，卫星充当射频并以三家的 700MHz 覆盖全国。服务预计 2027 年上线，资费与商业模式尚未公布。",
+    "en": "The direct-to-device project uniting Brisanet, iez! telecom and Unifique with AST SpaceMobile will start with just two terrestrial gateways, one in the South or Southeast and one in the North or Northeast, with one or two more to follow. The three operators share the infrastructure; the gateways handle baseband while the satellites act as the radio and use their combined 700MHz holdings to cover Brazil. The service is expected in 2027, with pricing and the commercial model still undefined.",
+    "es": "El proyecto de conexión directa por satélite de Brisanet, iez! telecom y Unifique con AST SpaceMobile arrancará con solo dos gateways terrestres, uno en el Sur o Sudeste y otro en el Norte o Nordeste, a los que se sumarán uno o dos más. Las tres operadoras comparten la infraestructura; el gateway hace de BBU y los satélites actúan como radio, usando los 700MHz combinados de las tres para cubrir Brasil. El servicio se espera para 2027, sin precios ni modelo de negocio definidos."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "把卫星当射频，把网关当基带",
+        "en": "Satellites as the radio, gateways as the baseband",
+        "es": "Satélites como radio, gateways como banda base"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这套架构按基站拆：每座地面网关承担 BBU 的活，AST 的在轨卫星充当射频单元，用三家运营商合计的 700MHz 频段向手机发射。卫星的覆盖波束由各家核心网决定落点，用来补自己地面网的空隙，而不是另建一张网。三家的地面设施共享，意味着网关数量和选址直接决定这套服务能覆盖多少人。",
+        "en": "The architecture is split the way a base station is: each gateway does the BBU work, and AST's satellites in orbit act as the radio unit, transmitting to handsets on the three operators' combined 700MHz holdings. Each operator's core network decides where the satellite beams land, filling gaps in its own terrestrial coverage rather than building a separate network. Shared terrestrial infrastructure means the number and placement of gateways directly set how many people the service can reach.",
+        "es": "La arquitectura se divide como una estación base: cada gateway hace el trabajo de la BBU y los satélites de AST actúan como unidad de radio, transmitiendo a los móviles con los 700MHz combinados de las tres operadoras. El núcleo de cada operadora decide dónde caen los haces, para tapar huecos de su propia red terrestre y no para construir otra red. Al compartir la infraestructura, el número y la ubicación de los gateways determinan a cuánta gente llega el servicio."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "两个网关起步，2027 年见服务",
+        "en": "Two gateways to start, service expected in 2027",
+        "es": "Dos gateways para empezar y servicio en 2027"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "首发两座网关分处南部或东南部与北部或东北部，是巴西人口与区域运营商网络分布的两端；补齐覆盖要再加一到两座。服务预计 2027 年上线，运营商与 AST 之间的商业模式、终端用户的价格与开通条件都还没有公布。三家区域运营商此前在 10 月宣布与 AST 合作，本次是两个多月里第一次给出地面段的具体安排。",
+        "en": "The first two gateways sit in the South or Southeast and in the North or Northeast — the two ends of Brazil's population and regional-network distribution — with one or two more needed to fill in coverage. The service is expected in 2027; the commercial model between the operators and AST, and end-user pricing and activation terms, have not been published. The three regional operators announced the AST partnership in October, and this is the first concrete detail on the ground segment.",
+        "es": "Los dos primeros gateways se ubican en el Sur o Sudeste y en el Norte o Nordeste, los dos extremos de la población y de la red de las regionales, y harán falta uno o dos más para completar cobertura. El servicio se espera en 2027; el modelo comercial entre las operadoras y AST, y los precios y condiciones de activación para el usuario, no se han publicado. Las tres regionales anunciaron la alianza con AST en octubre y esta es la primera precisión sobre el segmento terrestre."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对想进巴西 D2D 的设备商与集成商，这条把门槛从「有没有卫星」换成了「有没有地面网关」。网关是标准蜂窝设备加卫星地面站，选址、回传和与三家核心网的对接才是落地工作量所在；AST 的卫星波束由运营商核心网调度，意味着核心网侧的配置能力成为集成商的活。商业上，三家区域运营商合建共享设施，是把单家摊不起的 CAPEX 拆成三份，这套「区域运营商联合体 + 一家卫星商」的结构对拉美其他中小市场可复制。时间上 2027 年才上线，且商业模式未定，短期不构成采购信号；但网关选址与核心网对接的招标一旦启动，会先落在传输与集成环节。",
+    "en": "For equipment vendors and integrators eyeing Brazil's D2D market, the barrier just moved from having a satellite to having a terrestrial gateway. A gateway is standard cellular gear plus a satellite earth station, so siting, backhaul and interconnection with three core networks are where the deployment work sits; because the operators' core networks schedule the satellite beams, core-side configuration becomes integrator work. Commercially, three regional operators sharing infrastructure splits CAPEX no single one could carry, and this regional-consortium-plus-one-satellite-operator structure is replicable in other small Latin American markets. The 2027 date and undefined business model mean no near-term purchasing signal, but once gateway siting and core interconnection are tendered, the money lands first in transport and integration.",
+    "es": "Para los fabricantes e integradores que miran la D2D brasileña, la barrera acaba de pasar de tener un satélite a tener un gateway terrestre. Un gateway es equipo celular estándar más una estación terrena, así que la ubicación, el backhaul y la interconexión con tres núcleos son el trabajo real; como el núcleo de cada operadora programa los haces, la configuración del lado de red pasa a ser tarea del integrador. En lo comercial, que tres regionales compartan infraestructura reparte un CAPEX que ninguna podría asumir sola, y ese esquema de consorcio regional con un operador satelital es replicable en otros mercados pequeños de América Latina. La fecha de 2027 y la ausencia de modelo de negocio descartan una señal de compra a corto plazo, pero cuando se liciten los gateways y la interconexión, el gasto llegará primero al transporte y la integración."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11"
+  }
+}

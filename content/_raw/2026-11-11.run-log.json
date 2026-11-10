@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-11",
+  "startedAt": "2026-11-11T01:50:45+08:00",
+  "finishedAt": "2026-11-11T01:53:26+08:00",
+  "indexCheck": {
+    "file": "content/_raw/2026-11-11.index.json",
+    "exists": true,
+    "fetchedFor": "2026-11-11",
+    "items": 169,
+    "attempts": 1,
+    "note": "一次通过，未等待。169 条中 157 条无 publishedAt 或置信度 < 0.6，矩阵计入仅 4 条。"
+  },
+  "matrix": {
+    "counted": 4,
+    "dropped": { "published": 0, "expired": 0, "undated": 12, "lowConfidence": 153, "invalid": 0 },
+    "gaps": ["cis", "mena", "north-america", "latam", "africa"],
+    "cellGaps": [
+      { "region": "apac", "industry": "banking" },
+      { "region": "apac", "industry": "telecom" },
+      { "region": "europe", "industry": "banking" },
+      { "region": "europe", "industry": "telecom" }
+    ],
+    "industryGaps": [
+      { "industry": "banking", "emptyRegions": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"] },
+      { "industry": "telecom", "emptyRegions": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"] },
+      { "industry": "identity", "emptyRegions": ["cis", "mena", "north-america", "latam", "africa"] }
+    ]
+  },
+  "phases": [
+    { "phase": "R1", "at": "2026-11-11T01:51:22+08:00", "queries": 9, "hits": 0 },
+    { "phase": "R2", "at": null, "queries": 6, "hits": 0 },
+    { "phase": "R3", "at": null, "queries": 6, "hits": 2 },
+    { "phase": "R4", "at": null, "queries": 3, "archiveReads": 3, "hits": 3 },
+    { "phase": "R5", "at": null, "queries": 3, "hits": 0 },
+    { "phase": "R6", "at": null, "queries": 4, "hits": 0 },
+    { "phase": "write", "at": "2026-11-11T01:53:26+08:00", "items": 5 }
+  ],
+  "phaseTimeNote": "只采到开跑与收尾两个实测时点，六轮中间的 date -Iseconds 未逐轮执行，故 at 记 null，不以估算值填充。",
+  "rounds": [
+    {
+      "round": "R1",
+      "mode": "缺口驱动：区域 + 链路环节产品词",
+      "queries": [
+        { "q": "Казахстан выпуск банковских карт персонализация ноябрь 2026", "target": "gap/cis", "result": "0 条。回哈萨克货币指南、FCHAIN 法规月报、ranking.kz 转载的跨境刷卡统计，均非事件稿。" },
+        { "q": "Saudi Arabia national ID card issuance biometric November 2026", "target": "gap/mena", "result": "0 条。回 startwithidentity 的证件百科页与 Absher 服务扩面（11-04，超窗且非凭证机制）。" },
+        { "q": "US EMV chip card personalization bureau contract November 2026", "target": "gap/north-america", "result": "0 条。回 EVERTEC 公司简介、moneywiki 词条、中文财经聚合页。" },
+        { "q": "Brasil emissão cartão com chip personalização novembro 2026", "target": "gap/latam", "result": "0 条。回 BBVA 卡面定制页、simpackers 巴西 SIM 售卖页、dLocal 文档。" },
+        { "q": "Nigeria POS terminal certification acquiring bank November 2026", "target": "gap/africa", "result": "0 条。回 PTSP 词条与 CBN 2026 POS 政策解读，事件时间为 5 月与 6 月，超窗。" },
+        { "q": "India co-branded credit card launch issuer November 2026", "target": "cellGap/apac/banking", "result": "0 条。全部为 BankBazaar 比价页与联名卡条款页。" },
+        { "q": "Japan mobile operator eSIM profile provisioning November 2026", "target": "cellGap/apac/telecom", "result": "0 条。esim-now / trvlsim / gohub / helloroam 四家旅游站占满。" },
+        { "q": "European issuer processor card issuing platform launch November 2026", "target": "cellGap/europe/banking", "result": "0 条。回 Wirex 评测、Thredd 产品页、Pliant 融资分析（11-04，超窗）。" },
+        { "q": "eUICC GSMA eSA certification November 2026", "target": "cellGap/europe/telecom", "result": "0 条。命中的是 Kigen（11-03）与 Semtech（11-09）两条已发稿的重复转载。" }
+      ],
+      "hitCount": 0
+    },
+    {
+      "round": "R2",
+      "mode": "机构驱动：该市场的具体主体",
+      "queries": [
+        { "q": "Армения биометрические паспорта выдача ноябрь 2026", "target": "gap/cis", "result": "1 条弱命中：armenpress 报道欧盟专员称亚美尼亚生物护照助其免签进程；但护照系统 11-01 已启动，事件超窗，且属表态非机制变化，弃用。" },
+        { "q": "Saudi Payments mada card scheme launch November 2026", "target": "gap/mena", "result": "1 条待核：Saudi Gazette 载 SAMA 经 mada 上线 Samsung Pay；原文无日期，页面混入 ZATCA 内容，判为旧闻重排，弃用。" },
+        { "q": "US bank debit card issuance program launch November 2026", "target": "gap/north-america", "result": "0 条。回信用社数字发卡宣传页、CNBC 学生账户榜单、Social Security Direct Express 换发卡（程序性）。" },
+        { "q": "Mercado Pago tarjeta lanzamiento noviembre 2026", "target": "gap/latam", "result": "0 条。回 Google Play 应用页与 Mercado Libre Q3 财报解读（11-04，超窗且属财报）。" },
+        { "q": "Safaricom M-PESA card payment November 2026", "target": "gap/africa", "result": "1 条弱命中：M-PESA Jumbe 分账通知功能，属通知路由而非凭证机制，不过范围门，弃用。" },
+        { "q": "SBI Card new credit card launch November 2026", "target": "gap/apac-banking", "result": "0 条。全为 BankBazaar 联名卡页与评测。" }
+      ],
+      "hitCount": 0
+    },
+    {
+      "round": "R3",
+      "mode": "官方一手源：当地语言采购术语",
+      "termsUsed": ["licitación", "edital", "مناقصة", "appel d'offres", "тендер"],
+      "queries": [
+        { "q": "licitación tarjetas identificación personalización noviembre 2026", "target": "gap/latam", "result": "0 条。回 Identis TRUSTECH 参展稿（11-05）、中国政采网转载、PSA Palawan 登记活动。" },
+        { "q": "edital cartão de identificação personalização novembro 2026", "target": "gap/latam", "result": "2 条：①加纳 NIA 暂停出生日期更正（graphic.com.gh，命中 africa/identity）；②罗马尼亚 CNAS 电子身份证可用于医保核验（11-06，超窗）。另回 Rinas 制卡设备稿。" },
+        { "q": "مناقصة بطاقة هوية شخصية نوفمبر 2026", "target": "gap/mena", "result": "0 条。回山西身份证原材料公示（已发稿）、南宁海关采集设备采购、孟加拉 Hasina 护照申请。" },
+        { "q": "appel d'offres cartes nationales d'identité personnalisation novembre 2026", "target": "gap/latam-menabank", "result": "1 条弱命中：南非 Nedbank 与内政部合作 smart ID（11-05 宣布，超窗）；另回菲律宾 PSA 登记、NADRA 指南页。" },
+        { "q": "тендер персонализация банковских карт ноябрь 2026", "target": "gap/cis", "result": "0 条。回美国信用卡比价页与中文信用卡营销稿。" },
+        { "q": "SIM registration deadline extension regulator November 2026", "target": "industryGap/telecom", "result": "0 条。回墨西哥 CURP-号码绑定指南（11-02 数据，超窗）、香港 OFCA 实名登记旧页、菲律宾 RA 11934 指南。" }
+      ],
+      "hitCount": 2,
+      "basedOn": "R1 与 R2 在 gap 区域全空，说明关键词搜索已被聚合站与旅游站污染，故 R3 改用各国采购术语直取官方公告；实际产出不来自采购标本身，而是这些 query 顺带撞上的新闻室稿与政府公告（加纳 NIA），与 11-07、11-09 的观察一致。"
+    },
+    {
+      "round": "R4",
+      "mode": "行业垂直媒体归档直读（不重复前三轮已见事件）",
+      "queries": [
+        { "q": "biometricupdate.com/202611 归档页直读", "target": "industryGap/identity", "result": "3 条：以色列国家数字身份战略草案（11-09）、加拿大旅客生物识别战略 + IRCC C$9000 万（11-09）、秘鲁 8000 万美元 IDB 贷款（11-09，事件 11-05 超窗，弃用）。" },
+        { "q": "paymentsindustryintelligence.com 首页直读", "target": "industryGap/banking", "result": "2 条：加拿大 RTR 上线（11-10）、HSBC×Stripe 英国 Tap to Pay（11-10）。另见 Visa 新加坡 AI 枢纽（不在链路）、冰岛 A2A（11-08 已发稿）。" },
+        { "q": "mobileworldlive / telecomreview* 归档（telecom 线）", "target": "industryGap/telecom", "result": "0 条。当日条目为运营商财报、裁员、6G 表态与频谱，无凭证链路标的。" }
+      ],
+      "hitCount": 5,
+      "basedOn": "R1–R3 中支付与身份线的有效信号全部来自垂媒，故 R4 放弃关键词、直接读归档页。经验值：biometricupdate 与 paymentsindustryintelligence 的首页带精确到分钟的时间戳，是唯一能一次拿全当日条目的入口。"
+    },
+    {
+      "round": "R5",
+      "mode": "新兴术语",
+      "queries": [
+        { "q": "\"SGP.32\" eIM eUICC orchestration launch November 2026", "target": "cellGap/europe/telecom", "result": "0 条新。全部为 Semtech 11-09 稿的多站转载，已于 11-10 发过。" },
+        { "q": "mDL issuance verifiable credential pilot launch November 2026", "target": "industryGap/identity", "result": "0 条。回 Apple Wallet 州别清单、ISO 18013-5 标准说明页、保险公司的 mDL 科普页。" },
+        { "q": "softPOS EMVCo certification approval November 2026", "target": "cellGap/europe/banking", "result": "0 条。命中的 littlefish×Halo Dot 为 11-05，已于 11-05 发过；其余为 lidX 产品页与 SoftPOS 架构长文。" }
+      ],
+      "hitCount": 0,
+      "basedOn": "R4 拿到两条 11-10 的支付稿后，R5 转而用标准版本号与产品化术语找同一天的同类事件，但 SGP.32 与 softPOS 两个词位已被本周已发稿占满。"
+    },
+    {
+      "round": "R6",
+      "mode": "区域补充：换本地语言与本地媒体重试",
+      "queries": [
+        { "q": "SIM card manufacturing plant production line opened November 2026", "target": "industryGap/telecom / gap/cis", "result": "1 条但重复：mediasat 的 Eastcompeace Rus 莫斯科 SIM 厂，11-05，已于 11-06 发过。其余为中国智能卡厂商 B2B 页。" },
+        { "q": "fábrica de cartões SIM chip produção novembro 2026", "target": "gap/latam / industryGap/telecom", "result": "0 条。全部为 b2b168 与义乌、玩慈利等站的 eUICC 贴片广告页。" },
+        { "q": "nueva tarjeta de crédito lanzamiento México noviembre 2026 banco", "target": "gap/latam/banking", "result": "0 条。回墨西哥嵌入式金融分析长文、myfin/cardhub/bankrate 比价页。" },
+        { "q": "SIM registration deadline extension regulator November 2026", "target": "gap/latam/telecom", "result": "0 条（同 R3 复用，已在 R3 记录；此处为拉丁美洲方向重试，结果仍为指南页）。" }
+      ],
+      "hitCount": 0,
+      "basedOn": "R1–R5 在 cis 与 telecom 两条线上全空，R6 按本地语言（西/葡）与「制造端」而非「产品端」换角度重试；结论是这两条线当日源侧无供给，不是 query 写法问题。"
+    }
+  ],
+  "totals": {
+    "queries": 31,
+    "archiveReads": 3,
+    "itemsWritten": 5,
+    "coverage": ["europe/banking", "north-america/banking", "north-america/identity", "mena/identity", "africa/identity"]
+  },
+  "verifiedButDropped": [
+    { "title": "Peru clears $80M IDB loan for national identity modernization", "url": "https://www.biometricupdate.com/202611/peru-clears-80m-idb-loan-for-national-identity-modernization", "reason": "授权日为 11-05（Supreme Decree 246-2026-EF），距开跑 5.7 天，超 72 小时窗。金额、期限、2030 指标齐全，本是最优的 latam 候选。" },
+    { "title": "Nedbank Smart ID rollout with Home Affairs", "url": "https://briefly.co.za/south-africa/258122-good-news-nedbank-customers-smart-rolllout", "reason": "11-05 宣布，超窗。九家网点试点、试点期免服务费，细节完整，若 11-12 有进展可复用。" },
+    { "title": "CNAS: Electronic ID not mandatory for medical services", "url": "https://rotimes.ro/en/article/2026-11-06-cnas-electronic-id-not-mandatory-for-medical-services", "reason": "11-06，超窗。罗马尼亚电子身份证 11 月起可用于医保核验，属受理面扩围。" },
+    { "title": "Samoa launches national digital ID policy", "url": "https://www.biometricupdate.com/202611/samoa-launches-national-digital-id-policy-sets-roadmap-for-biometric-identity-system", "reason": "11-09 在窗内，但落 apac/identity，该格已有 2 条、非缺口；且 169 条 index 已收录同名条目。" },
+    { "title": "Armenia biometric passport / EU visa liberalisation statement", "url": "https://armenpress.am/en/article/1264910", "reason": "护照系统 11-01 启动，事件超窗；专员表态无具体物，不过动作门。" },
+    { "title": "SAMA launches Samsung Pay through mada", "url": "https://saudigazette.com.sa/article/647716/SAUDI-ARABIA/SAMA-launches-Samsung-Pay-through-mada-to-enhance-digital-payments?format=simple", "reason": "原文无发布日期，页面混编 ZATCA 内容，无法核实事件时间，按不可核弃用。" },
+    { "title": "M-PESA Jumbe / Split Notifications", "url": "https://peopledaily.digital/business/safaricom-introduces-a-feature-ending-the-need-to-show-m-pesa-messages-after-shopping", "reason": "商户侧通知路由功能，不落在载体 / 签发 / 分发 / 受理任一环节。" }
+  ],
+  "notes": {
+    "whySoEmpty": "169 条 index 里 153 条置信度低于 0.6，主要是欧洲与北美运营商财报、裁员、6G 表态，以及加纳商业新闻（预算、汇率、罢工）与俄央行统计模板。这不是阈值设置问题，是当日源侧没有可计入的事件稿。",
+    "telecomZero": "telecom 连续第四天七区全空。R1/R2 的 5 条 telecom 类 query 全被旅游 eSIM 站（esim-now、trvlsim、gohub、helloroam、simpackers）与中文智能卡 B2B 广告页占据；R5 的标准术语位被本周已发稿（Kigen 11-03、Semtech 11-09）占满。结论：该行业在现源结构下无法靠搜索补位。",
+    "cisZero": "cis 连续第六天三行业全空。哈萨克与乌兹别克的搜索只回法规月报与跨境刷卡统计；俄语侧唯一在窗内的相关稿是 Eastcompeace Rus 莫斯科 SIM 厂，但已于 11-06 发过。"
+  }
+}

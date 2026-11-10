@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-10T20:15:50.723Z",
+  "selected": [
+    {
+      "industry": "identity",
+      "slug": "veridas-cen-ts-18099-injection-attack-high",
+      "score": 0.8,
+      "reason": "region-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-11"
+    },
+    {
+      "industry": "identity",
+      "slug": "hirevue-id-document-liveness-hiring-checks",
+      "score": 0.68,
+      "reason": "region-floor",
+      "region": "north-america",
+      "sourceDate": "2026-11-11"
+    },
+    {
+      "industry": "telecom",
+      "slug": "brazil-regional-carriers-d2d-two-gateways",
+      "score": 0.6,
+      "reason": "region-floor",
+      "region": "latam",
+      "sourceDate": "2026-11-11"
+    },
+    {
+      "industry": "identity",
+      "slug": "kenya-high-court-age-verification-online-alcohol",
+      "score": 0.66,
+      "reason": "region-floor",
+      "region": "africa",
+      "sourceDate": "2026-11-11"
+    },
+    {
+      "industry": "identity",
+      "slug": "accenture-ato-digital-id-contract-36m",
+      "score": 0.82,
+      "reason": "region-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-11"
+    },
+    {
+      "industry": "identity",
+      "slug": "australia-agdis-opens-private-sector-december",
+      "score": 0.8,
+      "reason": "fill",
+      "region": "apac",
+      "sourceDate": "2026-11-11"
+    },
+    {
+      "industry": "banking",
+      "slug": "hsbc-stripe-tap-to-pay-uk",
+      "score": 0.7,
+      "reason": "manual",
+      "region": "europe",
+      "sourceDate": "2026-11-11"
+    },
+    {
+      "industry": "banking",
+      "slug": "global-payments-visa-idx-authentication",
+      "score": 0.6,
+      "reason": "manual",
+      "region": "north-america",
+      "sourceDate": "2026-11-11"
+    },
+    {
+      "industry": "banking",
+      "slug": "thredd-elephants-mastercard-debit",
+      "score": 0.6,
+      "reason": "manual",
+      "region": "apac",
+      "sourceDate": "2026-11-11"
+    }
+  ],
+  "alternates": [],
+  "expired": [],
+  "gaps": [
+    {
+      "region": "cis",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "mena",
+      "note": "池内 0 条"
+    }
+  ],
+  "unaccounted": [],
+  "conflicts": [
+    {
+      "kind": "undated",
+      "detail": "banking/hsbc-stripe-tap-to-pay-uk 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "已核原文／抓取源发布时间，在 72h 内，补 publishedAt 后 manual 调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/ecommpay-getnet-bizum-spain 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false,
+      "note": "Finextra 页面未回传时间，列表页与 RSS 均不可用；未获日期，留池待 05:20"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/buckeye-state-bank-corserv-issuing 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false,
+      "note": "Finextra 页面未回传时间，列表页与 RSS 均不可用；未获日期，留池待 05:20"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/global-payments-visa-idx-authentication 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "已核原文／抓取源发布时间，在 72h 内，补 publishedAt 后 manual 调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/thredd-elephants-mastercard-debit 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "已核原文／抓取源发布时间，在 72h 内，补 publishedAt 后 manual 调入"
+    }
+  ]
+}

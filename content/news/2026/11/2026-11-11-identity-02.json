@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-11-identity-04",
+  "slug": "hirevue-id-document-liveness-hiring-checks",
+  "industry": "identity",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "verification",
+    "liveness",
+    "biometrics"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-11T04:18:03+08:00",
+  "ingestedAt": "2026-11-11T03:10:51+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/hirevue-adds-id-document-and-liveness-checks-to-hiring-platform/",
+      "lang": "en",
+      "publishedAt": "2026-11-10T12:00:00-05:00"
+    },
+    {
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/hirevue-launches-advanced-fraud-detection-to-help-employers-validate-candidate-identity-and-skills-302933903.html",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "HireVue 把证件核验与活体检测塞进面试流程",
+    "en": "HireVue adds document checks and liveness to the interview workflow",
+    "es": "HireVue añade verificación documental y prueba de vida al proceso de entrevista"
+  },
+  "summary": {
+    "zh": "HireVue 在招聘平台里加了四项反欺诈能力：证件比对加人脸活体、基于 IP 与 VPN 的位置核查、面试官逐项核验清单、以及汇总标记证据的统一报告。命中后转人工复核，不单独认定欺诈或决定录用。公司称财富 100 强中逾四成在用，累计处理 8000 万场视频面试。",
+    "en": "HireVue has added four anti-fraud capabilities to its hiring platform: document checks paired with face liveness, location checks built on IP and VPN signals, an interviewer checklist, and unified reporting that gathers flagged evidence for human review. A flag does not by itself establish fraud or decide an outcome. The company says more than 40 percent of the Fortune 100 use it and that it has run over 80 million video interviews.",
+    "es": "HireVue ha añadido cuatro capacidades antifraude a su plataforma de selección: verificación de documentos con prueba de vida facial, comprobación de ubicación a partir de IP y VPN, una lista de verificación para el entrevistador y un informe unificado que reúne las evidencias para revisión humana. Una alerta no determina por sí sola fraude ni decide la contratación. La empresa afirma que más del 40 por ciento de las Fortune 100 la usa y que ha procesado más de 80 millones de entrevistas en vídeo."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "四项能力各自管一段",
+        "en": "Four capabilities, four stages",
+        "es": "Cuatro capacidades, cuatro etapas"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "身份核验用证件检查加活体检测，确认参加面试或测评的人与证件一致；位置核查看 IP、VPN 与代理痕迹，只在需要复核时触发；面试核验清单把人工确认步骤写进流程；统一报告把各类标记信号与支撑材料收在一处，形成可审计记录。这四项建在原有的作弊检测之上——那套工具看的是切换浏览器、粘贴大模型生成文本、面试中调用大模型作答。",
+        "en": "Identity verification uses document checks plus liveness detection to confirm the person sitting the interview or assessment matches the document. Location checks draw on IP, VPN and proxy signals and fire only when a location needs review. An interview validation checklist writes the human confirmation steps into the workflow. Unified reporting gathers flagged signals and supporting evidence into one auditable record. All four sit on top of existing cheating detection, which watches for browser switching, pasted model-generated text and live use of a large language model during an interview.",
+        "es": "La verificación de identidad combina revisión documental y prueba de vida para confirmar que quien realiza la entrevista o la prueba coincide con el documento. La comprobación de ubicación usa señales de IP, VPN y proxy y se activa solo cuando hace falta revisar. La lista de verificación incorpora al flujo los pasos de confirmación humana. El informe unificado reúne alertas y evidencias en un registro auditable. Las cuatro se apoyan en la detección de trampas existente, que vigila cambios de navegador, texto pegado generado por modelos y uso de un modelo durante la entrevista."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "定位是标记，不是判决",
+        "en": "A flag, not a verdict",
+        "es": "Una alerta, no un veredicto"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "HireVue 说被标记的结果会转人工复核，本身不构成欺诈认定，也不决定录用与否；雇主可以按岗位风险选择开启哪几项、每项占多大权重，并在流程开始前告知候选人会做哪些检查。这个设计对应的是招聘场景的证据链要求：结论要能追溯到具体信号，而不是一个分数。",
+        "en": "HireVue says a flagged result prompts human review, does not by itself establish fraud and does not decide hiring. Employers can choose which checks to run by role risk, how much weight each carries, and must tell candidates what to expect before the process begins. The design answers the evidentiary requirement of hiring decisions: a conclusion has to trace back to a specific signal rather than to a score.",
+        "es": "HireVue señala que un resultado marcado pasa a revisión humana, no constituye por sí solo fraude y no decide la contratación. El empleador puede elegir qué comprobaciones activar según el riesgo del puesto y con qué peso, y debe informar al candidato antes de empezar. El diseño responde a la exigencia probatoria de la selección: la conclusión debe remontarse a una señal concreta y no a una puntuación."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "这条赛道今年挤了三次",
+        "en": "The third entrant this year",
+        "es": "El tercer movimiento del año"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "10 月，背景调查公司 Checkr 上线带深度伪造检测与自拍比对证件的反欺诈套件；Employ 把 ID.me 的核验嵌进 JazzHR、Lever 与 Jobvite 三套招聘系统。HireVue 自己此前被三名求职者以违反伊利诺伊《生物识别信息隐私法》起诉，案件在今年 1 月被原告撤回，没有实体裁决。",
+        "en": "In October, background-check firm Checkr launched a fraud suite with deepfake detection and selfie-to-ID matching, and Employ embedded ID.me verification into JazzHR, Lever and Jobvite. HireVue itself was sued by three applicants under Illinois' Biometric Information Privacy Act; the case was dropped by the plaintiffs in January without a ruling on the merits.",
+        "es": "En octubre, la firma de verificación de antecedentes Checkr lanzó una suite antifraude con detección de deepfakes y cotejo de selfi con documento, y Employ integró la verificación de ID.me en JazzHR, Lever y Jobvite. HireVue fue demandada por tres candidatos bajo la ley de privacidad biométrica de Illinois; los demandantes retiraron el caso en enero sin fallo de fondo."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "商业上，招聘平台正在把身份核验内置成默认件，这会挤压独立 KYC 供应商在 HR 场景的入口：雇主不再单独采购一套核验服务，而是在既有招聘系统里勾选。对做证件鉴别与活体算法的厂商，渠道从直销变成被平台集成，议价能力随之下移。技术上，招聘场景的核验难度被低估过：候选人在自己设备上、在自己家里完成，设备指纹与网络环境都不可控，位置信号与活体检测要一起用才勉强够。监管上，美国州级生物识别隐私法仍是主要风险源，伊利诺伊那起案子虽被撤回，但没有形成判例，任何一次采集范围扩大都可能重新触发集体诉讼；把「标记转人工」写进产品，本身就是为这类诉讼准备的抗辩结构。",
+    "en": "Commercially, hiring platforms are turning identity verification into a default component, which squeezes the entry point for standalone KYC vendors in HR: employers tick a box in the recruiting system instead of buying a separate verification service. For vendors selling document authentication and liveness algorithms, the channel shifts from direct sales to platform integration, and pricing power moves down the chain. Technically, hiring is a harder verification setting than it looks: the candidate sits at home on their own device, with no control over device fingerprint or network, so location signals and liveness have to be combined to get close to sufficient. On regulation, US state biometric privacy laws remain the main risk; the Illinois case was dropped without creating precedent, so any widening of collection can trigger a fresh class action, and building flag-then-human-review into the product is itself a defensive structure for that kind of suit.",
+    "es": "En lo comercial, las plataformas de selección convierten la verificación de identidad en componente por defecto, lo que estrecha la entrada de proveedores independientes de KYC en recursos humanos: la empresa marca una casilla en su sistema en lugar de contratar un servicio aparte. Para quien vende autenticación documental y algoritmos de prueba de vida, el canal pasa de venta directa a integración en plataforma y el poder de negociación baja. En lo técnico, la selección es un entorno más difícil de lo que parece: el candidato está en su casa y en su dispositivo, sin control sobre huella de equipo ni red, así que ubicación y prueba de vida deben combinarse para acercarse a lo suficiente. En lo regulatorio, las leyes estatales de privacidad biométrica de EE. UU. siguen siendo el riesgo principal; el caso de Illinois se retiró sin crear precedente, de modo que cualquier ampliación de la captura puede reabrir una acción colectiva, y el diseño de alerta con revisión humana es en sí una estructura defensiva."
+  },
+  "confidence": 0.68,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-pool-v1"
+  }
+}

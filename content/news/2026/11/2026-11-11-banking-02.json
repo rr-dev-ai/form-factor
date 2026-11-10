@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-11-banking-04",
+  "slug": "global-payments-visa-idx-authentication",
+  "industry": "banking",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "fraud"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-11T04:18:03+08:00",
+  "ingestedAt": "2026-11-11T02:31:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Finextra",
+      "url": "https://www.finextra.com/pressarticle/111636/global-payments-expands-adaptive-authentication-platform-with-visa",
+      "lang": "en"
+    },
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/authentication/2026/global-payments-expands-authentication-platform-with-visa-data-sharing-tool/",
+      "lang": "en",
+      "publishedAt": "2026-11-10T00:26:01+00:00"
+    }
+  ],
+  "title": {
+    "zh": "Global Payments 接入 Visa IDX，授权数据直送发卡行",
+    "en": "Global Payments adds Visa IDX to send richer data to issuers at authorisation",
+    "es": "Global Payments añade Visa IDX para enviar más datos al emisor en la autorización"
+  },
+  "summary": {
+    "zh": "Global Payments 把 Visa 的 Intelligent Data Exchange API 接入自家 Adaptive Authentication 平台：授权请求中向发卡行传更丰富的交易数据，帮助发卡行减少误拒。平台按笔在 3D Secure、Data Only 认证、SCA 豁免与 IDX 之间选择验证策略，Visa IDX 初期只适用于美加境内合格交易。",
+    "en": "Global Payments has added Visa's Intelligent Data Exchange API to its Adaptive Authentication platform, sending richer transaction data to issuers during authorisation to cut false declines. The platform chooses per transaction among 3D Secure, Data Only authentication, SCA exemptions and IDX. Visa IDX initially covers eligible US and Canadian transactions.",
+    "es": "Global Payments ha añadido la API Intelligent Data Exchange de Visa a su plataforma Adaptive Authentication, enviando más datos de la transacción al emisor durante la autorización para reducir rechazos erróneos. La plataforma elige por operación entre 3D Secure, autenticación Data Only, exenciones SCA e IDX. Visa IDX cubre de momento operaciones aptas en EE. UU. y Canadá."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "把数据补在授权那一步",
+        "en": "Adding data at the authorisation step",
+        "es": "Añadir datos en el paso de autorización"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "按 11 月 10 日的公告，Visa IDX 在授权请求中把更丰富的交易数据交给发卡行，让发卡行在批不批的那一刻就能判断交易是否可信，而不是先拒掉、再让持卡人重试。Global Payments 的 Adaptive Authentication 平台负责在 3D Secure、Data Only 认证、SCA 豁免与 IDX 之间为每笔交易选策略，并叠加 Ravelin 的反欺诈与风险能力。",
+        "en": "Under the 10 November announcement, Visa IDX passes richer transaction data to issuers inside the authorisation request so they can judge trustworthiness at the moment of approval rather than declining and making the cardholder retry. Global Payments' Adaptive Authentication platform picks a strategy per transaction among 3D Secure, Data Only authentication, SCA exemptions and IDX, with Ravelin's fraud and risk capabilities layered in.",
+        "es": "Según el anuncio del 10 de noviembre, Visa IDX entrega más datos de la transacción al emisor dentro de la solicitud de autorización para que decida en el momento de aprobar, en lugar de rechazar y obligar al titular a reintentar. La plataforma Adaptive Authentication de Global Payments elige estrategia por operación entre 3D Secure, autenticación Data Only, exenciones SCA e IDX, con las capacidades antifraude de Ravelin añadidas."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "可核的效果数字与覆盖范围",
+        "en": "The verifiable number and the coverage",
+        "es": "La cifra verificable y la cobertura"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Global Payments 称，在部署 Data Only 认证与模型优化后，商户审批率通常提升 4%–6%。Adaptive Authentication 本身对全球客户可用，新加入的 Visa IDX 初期只适用于符合条件的美国与加拿大境内交易，属于分阶段开放。公告未给接入客户数、定价与全面开放时间。",
+        "en": "Global Payments says merchant approval rates typically improve by 4% to 6% after deploying Data Only authentication and model optimisation. Adaptive Authentication itself is available to clients globally, while the new Visa IDX coverage starts with eligible US and Canadian transactions, a phased rollout. The announcement gave no client counts, pricing or date for full availability.",
+        "es": "Global Payments afirma que las tasas de aprobación mejoran habitualmente entre un 4% y un 6% tras desplegar autenticación Data Only y optimización de modelos. Adaptive Authentication está disponible para clientes de todo el mundo, mientras que la nueva cobertura de Visa IDX arranca con operaciones aptas en EE. UU. y Canadá, en despliegue por fases. El anuncio no dio número de clientes, precios ni fecha de disponibilidad completa."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对收单方，审批率每提升一个百分点直接换成成交额，4%–6% 的区间如果成立，价值高于多数风控产品的卖点。对发卡行，数据更全意味着更少的误杀，但也意味着授权决策开始依赖商户侧传来的数据质量，接口与字段规范会变成新的对接成本。路线上的含义更值得注意：认证不再只有 3D Secure 一条路，SCA 豁免与数据共享成为并行的合规路径，这会把竞争从「谁的挑战页更顺」推向「谁的数据更全」。限制在美加境内，说明监管对数据共享的接受度仍是逐市场谈判的结果，其他市场短期难以照搬。",
+    "en": "For acquirers, each point of approval rate converts straight into revenue, and a 4% to 6% range would be worth more than most risk products on the market. For issuers, richer data means fewer good customers declined, but it also makes authorisation depend on data quality supplied by the merchant side, turning interface and field specifications into new integration cost. The more interesting signal is the route: authentication is no longer only 3D Secure, with SCA exemptions and data sharing running as parallel compliance paths, which moves competition from whose challenge page is smoother to whose data is more complete. The US and Canada limit shows regulators still accept data sharing market by market, so other regions cannot copy it quickly.",
+    "es": "Para los adquirentes, cada punto de tasa de aprobación se convierte directamente en ingresos, y un rango del 4% al 6% valdría más que la mayoría de productos de riesgo del mercado. Para los emisores, más datos significa menos buenos clientes rechazados, pero también que la autorización dependa de la calidad de datos que aporta el comercio, convirtiendo interfaces y especificaciones de campos en nuevo coste de integración. La señal más interesante es la ruta: la autenticación ya no es solo 3D Secure, con exenciones SCA y compartición de datos como vías de cumplimiento paralelas, lo que traslada la competencia de quién tiene la página de desafío más fluida a quién tiene los datos más completos. El límite a EE. UU. y Canadá muestra que los reguladores aceptan la compartición mercado a mercado, así que otras regiones no pueden copiarlo rápido."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-banking-2026-11"
+  }
+}

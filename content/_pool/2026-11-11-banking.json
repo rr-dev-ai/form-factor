@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-11",
+  "industry": "banking",
+  "startedAt": "2026-11-11T02:31:00+08:00",
+  "drafts": [
+    {
+      "id": "2026-11-11-banking-02",
+      "slug": "ecommpay-getnet-bizum-spain",
+      "industry": "banking",
+      "region": "europe",
+      "regions": [],
+      "tags": [
+        "acquiring",
+        "payment-gateway"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "Finextra",
+          "url": "https://www.finextra.com/pressarticle/111633/ecommpay-partners-with-getnet-for-spanish-acquiring-rails",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "Ecommpay 经 Getnet 直连 Bizum，西班牙收单少一层转接",
+        "en": "Ecommpay connects directly to Bizum through Getnet for Spanish acquiring",
+        "es": "Ecommpay se conecta directamente a Bizum mediante Getnet en España"
+      },
+      "summary": {
+        "zh": "支付平台 Ecommpay 与桑坦德旗下收单品牌 Getnet 合作，把自己的平台与西班牙的 Bizum 直连，商户一次集成即可受理 Bizum，不必再维护多个银行关系或第二套 PSP 配置。Ecommpay 此前已接入意大利 Bancomat Pay 与葡萄牙 MB Way。",
+        "en": "Ecommpay has partnered with Getnet, Banco Santander's merchant acquiring brand, to connect its platform directly to Spain's Bizum. Merchants get Bizum acceptance through a single integration, without extra banking relationships or a second PSP setup. Ecommpay already connects to Italy's Bancomat Pay and Portugal's MB Way.",
+        "es": "Ecommpay se ha asociado con Getnet, la marca de adquirencia de Banco Santander, para conectar su plataforma directamente con Bizum en España. Los comercios aceptan Bizum con una sola integración, sin relaciones bancarias adicionales ni una segunda configuración de PSP. Ecommpay ya conecta con Bancomat Pay en Italia y MB Way en Portugal."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "直连的意义是拆掉中间层",
+            "en": "Direct connection removes the intermediary layer",
+            "es": "La conexión directa elimina intermediarios"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "按两家 11 月 10 日的公告，Getnet 作为 Bizum 的直接成员，为 Ecommpay 提供直连接入，Ecommpay 再把这条连接包装成面向商户的受理能力。变化在链路：此前要受理 Bizum，商户或 PSP 往往要通过中间机构转接，现在一次集成即可，减少了转接环节带来的时延与额外成本。",
+            "en": "In the 10 November announcement, Getnet, a direct Bizum member, provides the direct connection and Ecommpay packages it as merchant acceptance. The change is in the chain: accepting Bizum previously meant routing through intermediaries, whereas one integration now removes a hop along with its latency and cost.",
+            "es": "En el anuncio del 10 de noviembre, Getnet, miembro directo de Bizum, aporta la conexión y Ecommpay la empaqueta como aceptación para comercios. El cambio está en la cadena: antes aceptar Bizum implicaba pasar por intermediarios, y ahora una sola integración elimina un salto con su latencia y su coste."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "南欧本地支付方式补齐一块",
+            "en": "Filling in Southern Europe's local methods",
+            "es": "Completar los métodos locales del sur de Europa"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "Bizum 在西班牙有超过 3000 万活跃用户，日均处理 340 万笔以上交易；Getnet 覆盖 120 万商户，2025 年处理 105 亿笔交易。Ecommpay 此前已接入意大利的 Bancomat Pay 与葡萄牙的 MB Way，Bizum 补上西班牙，三家合计构成南欧本地方案的连续覆盖。",
+            "en": "Bizum has more than 30 million active users in Spain and handles over 3.4 million transactions a day; Getnet serves 1.2 million merchants and processed 10.5 billion transactions in 2025. Ecommpay already connected to Italy's Bancomat Pay and Portugal's MB Way, and Bizum adds Spain, giving continuous coverage of Southern Europe's local methods.",
+            "es": "Bizum supera los 30 millones de usuarios activos en España y procesa más de 3,4 millones de operaciones diarias; Getnet atiende a 1,2 millones de comercios y procesó 10.500 millones de operaciones en 2025. Ecommpay ya conectaba con Bancomat Pay en Italia y MB Way en Portugal, y Bizum añade España, dando cobertura continua de los métodos locales del sur de Europa."
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "公告未给上线时间表、商户费率与可用商户类型，也未说明是否支持 Bizum 的分期付款与请求付款场景，只说明西班牙是这条合作的第一站。",
+            "en": "The announcement gave no go-live timetable, merchant pricing or eligible merchant types, and did not say whether Bizum instalments or request-to-pay are supported. It described Spain only as the first market of the partnership.",
+            "es": "El anuncio no incluyó calendario de lanzamiento, tarifas para comercios ni tipos de comercio admisibles, y no precisó si se admiten aplazamientos de Bizum o solicitudes de pago. Solo indicó que España es el primer mercado de la alianza."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "对收单与网关这一层，本地支付方式的直连深度正在变成差异化，而不是「支持多少个市场」的清单长度。直连减少一次转接，商户侧表现为集成数量、对账链路与失败率的下降；对 PSP，则是能否把本地钱包与账户支付当作与卡并列的受理品类卖出去。需要留意的是标的物本身：Bizum 是账户到账户方案，不是卡，这条落在收单网关对本地受理方式的接入能力上，不改变卡组织的清算规则。对想进西班牙的跨境商户，价值在省掉本地实体与多套 PSP 配置；对本地收单行，压力在于网关侧把直连做成标准配置后，单纯持有本地牌照不再构成壁垒。",
+        "en": "For the acquiring and gateway layer, depth of direct connection to local methods is becoming the differentiator, not the length of a market list. Removing a hop shows up for merchants as fewer integrations, a shorter reconciliation chain and lower failure rates; for PSPs it decides whether local wallets and account payments can be sold as an acceptance category alongside cards. Note what the object is: Bizum is account-to-account, not a card, so this sits in the gateway's ability to reach a local acceptance scheme and does not change card scheme clearing rules. For cross-border merchants entering Spain the value is skipping a local entity and multiple PSP setups; for local acquirers the pressure is that once gateways make direct connection standard, holding a domestic licence stops being the moat.",
+        "es": "En la capa de adquirencia y pasarela, la profundidad de la conexión directa con métodos locales se está volviendo el diferenciador, no la longitud de la lista de mercados. Eliminar un salto se traduce para el comercio en menos integraciones, una cadena de conciliación más corta y menos fallos; para los PSP decide si carteras y pagos con cuenta pueden venderse como categoría de aceptación junto a las tarjetas. Conviene notar el objeto: Bizum es cuenta a cuenta, no tarjeta, así que esto se sitúa en la capacidad de la pasarela para alcanzar un esquema local y no altera las reglas de compensación de las marcas. Para el comercio transfronterizo que entra en España el valor es evitar una entidad local y varias configuraciones de PSP; para los adquirentes locales, la presión es que, cuando la conexión directa se estandariza, tener licencia doméstica deja de ser la barrera."
+      },
+      "confidence": 0.55,
+      "ai": {
+        "model": "deepseek-v4.1-flash",
+        "promptVersion": "editor-banking-2026-11"
+      }
+    },
+    {
+      "id": "2026-11-11-banking-03",
+      "slug": "buckeye-state-bank-corserv-issuing",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "tags": [
+        "issuing"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "Finextra",
+          "url": "https://www.finextra.com/pressarticle/111627/ohio-based-buckeye-state-bank-launches-new-credit-card-issuing-program-with-corserv",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "俄亥俄社区银行改用 CorServ 自营发卡，产品线铺到车队卡",
+        "en": "Ohio community bank switches to CorServ for in-house credit card issuing",
+        "es": "Un banco comunitario de Ohio pasa a CorServ para emitir tarjetas propias"
+      },
+      "summary": {
+        "zh": "总部在俄亥俄州 Powell 的 Buckeye State Bank 与发卡方案商 CorServ 合作，用其交钥匙的 Account Issuer 方案重建信用卡项目：银行自己参与授信决策、保留承销与数据主导权，收益从代理推荐的转介费改为直接利差。产品覆盖商用、商务与消费三类。",
+        "en": "Buckeye State Bank, headquartered in Powell, Ohio, has rebuilt its credit card programme with CorServ's turnkey Account Issuer model. The bank now takes part in credit decisioning, keeps control of underwriting and data, and earns direct margin instead of agent referral fees. Products span commercial, business and consumer cards.",
+        "es": "Buckeye State Bank, con sede en Powell (Ohio), ha reconstruido su programa de tarjetas de crédito con el modelo llave en mano Account Issuer de CorServ. El banco participa ahora en la decisión de crédito, mantiene el control de la suscripción y los datos, y obtiene margen directo en lugar de comisiones de referido. Los productos cubren tarjetas comerciales, de empresa y de consumo."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "从代理推荐改为自营发卡",
+            "en": "From agent referral to issuing on its own book",
+            "es": "Del referido a emitir en su propio balance"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "按 11 月 10 日的公告，Buckeye State Bank 过去在信用卡上更多依赖代理推荐结构，收益是转介费；改用 CorServ 的 Account Issuer 方案后，银行自己参与授信决策，保留对承销、数据与客户体验的主导权，收益结构变为直接利差。这条变化对区域银行的意义大于产品清单本身。",
+            "en": "Under the 10 November announcement, Buckeye State Bank had relied on agent referral structures for credit cards and collected referral fees. With CorServ's Account Issuer model the bank participates in credit decisioning, keeps control of underwriting, data and customer experience, and earns direct margin. For a regional bank that structural change matters more than the product list.",
+            "es": "Según el anuncio del 10 de noviembre, Buckeye State Bank dependía de estructuras de referido para tarjetas y cobraba comisiones por ello. Con el modelo Account Issuer de CorServ participa en la decisión de crédito, conserva el control de la suscripción, los datos y la experiencia del cliente, y obtiene margen directo. Para un banco regional ese cambio estructural importa más que la lista de productos."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "一次铺到商用与消费两条线",
+            "en": "Commercial and consumer lines at once",
+            "es": "Líneas comercial y de consumo a la vez"
+          }
+        },
+        {
+          "kind": "ul",
+          "items": [
+            {
+              "zh": "商用：Corporate、Corporate Rewards、Purchasing、Secured Purchasing、Fleet",
+              "en": "Commercial: Corporate, Corporate Rewards, Purchasing, Secured Purchasing, Fleet",
+              "es": "Comercial: Corporate, Corporate Rewards, Purchasing, Secured Purchasing, Fleet"
+            },
+            {
+              "zh": "消费与商务：Low Rate、Platinum、Rewards、World/Signature、Premium/World Elite、Secured",
+              "en": "Consumer and business: Low Rate, Platinum, Rewards, World/Signature, Premium/World Elite, Secured",
+              "es": "Consumo y empresa: Low Rate, Platinum, Rewards, World/Signature, Premium/World Elite, Secured"
+            },
+            {
+              "zh": "该行成立 140 余年，总部在俄亥俄州 Powell，客群以本地零售与商业客户为主",
+              "en": "The bank has operated for more than 140 years from Powell, Ohio, serving local retail and commercial customers",
+              "es": "El banco lleva más de 140 años en Powell (Ohio) y atiende a clientes minoristas y comerciales locales"
+            }
+          ]
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "公告未给发卡量目标、产品上线时间，也未说明存量卡是否迁移到新平台。CorServ 的方案包含授信决策支持，但信用损失仍由银行自己承担。",
+            "en": "The announcement gave no card volume targets, no launch dates and no indication of whether the existing portfolio migrates to the new platform. CorServ's model includes credit decisioning support, but credit losses stay on the bank's own book.",
+            "es": "El anuncio no incluyó objetivos de volumen, fechas de lanzamiento ni si la cartera existente migrará a la nueva plataforma. El modelo de CorServ incluye apoyo a la decisión de crédito, pero las pérdidas siguen en el balance del banco."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "社区银行愿意自营发卡，说明发卡处理的价格与合规门槛已经降到区域银行算得过账的水平。商业上，这把存款客户转成生息资产，也让银行拿回 interchange 与年费，而不是只收一笔转介费；代价是信用风险回到自己账上，承销能力必须跟上。市场上，受挤压的是靠代理模式吃饭的发卡代理与 sponsor bank 组合，处理器争的是从代理结构迁移过来的中小行。对做 CMS 与个性化设备的供应商，这类项目通常伴随卡片设计、制卡与履约的重新招标；公告没有说明这一层是否已定，值得在其上线前后盯一次采购动作。",
+        "en": "A community bank choosing to issue on its own book suggests issuing processing and compliance costs have fallen to where regional banks can make the maths work. Commercially it turns depositors into interest-earning assets and returns interchange and annual fees to the bank instead of a referral fee, at the cost of carrying credit risk and needing underwriting capability. In the market, the pressure lands on agent-model issuing partners and sponsor bank arrangements, while processors compete for mid-sized banks moving off referral structures. For CMS and personalisation vendors, projects like this usually reopen card design, manufacturing and fulfilment sourcing, and the announcement did not say whether that layer is settled, which makes procurement worth watching around launch.",
+        "es": "Que un banco comunitario elija emitir en su propio balance sugiere que los costes de procesamiento y cumplimiento han bajado hasta hacer viable la operación para un banco regional. Comercialmente convierte depositantes en activos que generan intereses y devuelve al banco el interchange y las cuotas anuales en lugar de una comisión de referido, a cambio de asumir riesgo de crédito y necesitar capacidad de suscripción. En el mercado, la presión recae sobre los socios de modelo de agente y los acuerdos de sponsor bank, mientras los procesadores compiten por bancos medianos que abandonan el referido. Para proveedores de CMS y personalización, estos proyectos suelen reabrir la contratación de diseño, fabricación y fulfillment de tarjetas, y el anuncio no aclaró si esa capa está resuelta, lo que hace conveniente seguir las compras alrededor del lanzamiento."
+      },
+      "confidence": 0.6,
+      "ai": {
+        "model": "deepseek-v4.1-flash",
+        "promptVersion": "editor-banking-2026-11"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Sunrate Agentic Card 支持 AI 代理自主发卡付款",
+      "url": "https://signalnewsmiami.com/press-releases/240326/sunrate-launches-agentic-card-to-enable-ai-driven-business-payments/",
+      "reason": "duplicate-of-2026-11-04-banking-02：同一场发布（香港金融科技周期间的 Sunrate Agentic Card），只是换了通讯社转发页，不构成新事件。"
+    },
+    {
+      "title": "Visa and Octopus Extend QR Payment Acceptance Across Hong Kong",
+      "url": "https://fintechnews.hk/42011/payments/visa-octopus-qr-payments-hong-kong-tourists/",
+      "reason": "duplicate-of-2026-11-10-banking-01：同一笔 Visa×八达通二维码受理扩展，今日只是该站在信息流里再次出现。"
+    },
+    {
+      "title": "俄罗斯央行 10 月金融市场风险综述及银行部门统计口径系列发布",
+      "url": "https://www.cbr.ru/analytics/finstab/orfr/#a_50194",
+      "reason": "范围门不过：统计与风险综述，无凭证、受理或规则变化；同一批 19 条央行页面均为利率、REPO、基金统计，整组按统计类排除。"
+    },
+    {
+      "title": "墨西哥《数字支付法》11 月生效，授权联邦部门强制数字受理",
+      "url": "https://mexicobusiness.news/finance/news/digital-payments-law-monetary-shifts-redefine-mexicos-finances",
+      "reason": "同一监管事件第三次出现（11-07 已提交未采用、11-08 明确拦下）：只授权不命令，缺法规版本号与发证方，且细则由 SHCP 与行业监管在 15 个工作日内另发，现在没有可核义务。"
+    },
+    {
+      "title": "Visa Builds Global AI and Payments Hubs in Singapore",
+      "url": "https://paymentsindustryintelligence.com/visa-builds-global-ai-and-payments-hubs-in-singapore/",
+      "reason": "范围门不过：能力中心与研究机构布点，属组织与投资安排，不落在凭证载体、签发、分发或受理任一环节；事件日为 11 月 5 日，也已出 72 小时窗口。"
+    },
+    {
+      "title": "Visa 与 Mastercard 通知商户可拒收高端信用卡（380 亿美元和解）",
+      "url": "https://infohandle.net/2026/11/10/visa-mastercard-merchant-premium-card-settlement",
+      "reason": "同一份和解协议 2026 年 6 月已获初步批准、11 月 16 日才开最终批准听证，本周只是向商户重发通知，不是新规则也不是新事件；且唯一来源为 AI 生成的聚合稿，无可核一手文件。"
+    },
+    {
+      "title": "Clink adds Mastercard Agent Pay support for AI agent payments",
+      "url": "https://thepaypers.com/payments/news/clink-adds-mastercard-agent-pay-support-for-ai-agent-payments",
+      "reason": "动作门不过：只说明接入两个卡组织的代理支付框架，无落地市场、无客户、无开通规模，开发者接入仍是接洽制，属能力表述而非部署。"
+    },
+    {
+      "title": "Chase partners with PayPoint for cash deposits at 30,000 UK sites",
+      "url": "https://thepaypers.com/payments/news/chase-partners-with-paypoint-for-cash-deposits-at-30000-uk-sites",
+      "reason": "范围门不过：现金存取网点合作，标的物是现金流通而非卡凭证、受理终端或清算规则。"
+    },
+    {
+      "title": "Starling Bank to launch business credit card with cashback",
+      "url": "https://thepaypers.com/fintech/news/starling-bank-to-launch-business-credit-card-with-cashback",
+      "reason": "动作门不过：只有「将推出」与现金返还权益，无产品参数、无发卡规模、无上线日期，属既有档位加权益包。"
+    },
+    {
+      "title": "Bluefin adopts ZeroRisk platform to simplify PCI compliance",
+      "url": "https://thepaypers.com/fraud-and-fincrime/news/bluefin-adopts-zerorisk-platform-to-simplify-pci-compliance",
+      "reason": "动作门不过：采用合规工具做 PCI 范围管理，既非规范版本发布，也非认证体系落地；PCI SSC 本期无新版本。"
+    },
+    {
+      "title": "Canada's real-time payments system launches",
+      "url": "https://www.finextra.com/newsarticle/48725/canadas-real-time-payments-system-launches",
+      "reason": "范围门不过：全国即时清算轨道属账户到账户基础设施，与 11-10 已按同一判据拦下的加拿大 RTR 为同一事件，不在发卡与收单栈内。"
+    },
+    {
+      "title": "PNC launches stablecoin payments for corporate clients",
+      "url": "https://www.finextra.com/newsarticle/48728/pnc-launches-stablecoin-payments-for-corporate-clients",
+      "reason": "范围门不过：稳定币收付，标的不在卡栈。"
+    },
+    {
+      "title": "Nexi to sell Ratepay to Affirm",
+      "url": "https://www.finextra.com/newsarticle/48736/nexi-to-sell-ratepay-to-affirm",
+      "reason": "范围门不过：并购交易，且标的为 BNPL 服务商，不是发卡、收单终端或卡组织规则。"
+    },
+    {
+      "title": "Bottomline brings USDC stablecoin payments into platform",
+      "url": "https://www.finextra.com/pressarticle/111632/bottomline-brings-usdc-stablecoin-payments-into-platform",
+      "reason": "范围门不过：稳定币跨境结算，标的不在卡栈。"
+    },
+    {
+      "title": "Paytech Orchestr rebrands as Upprove",
+      "url": "https://www.finextra.com/pressarticle/111631/paytech-orchestr-rebrands-as-upprove",
+      "reason": "动作门不过：品牌更名，无产品、无参数、无机制变化。"
+    },
+    {
+      "title": "Mojaloop Foundation's open-source technology powers NimbaPay, Guinea's national instant payment system",
+      "url": "https://www.itweb.co.za/article/mojaloop-foundations-open-source-technology-powers-launch-of-nimbapay-guineas-national-instant-payment-system/O2rQGqAE1pyqd1ea",
+      "reason": "范围门不过：国民即时支付系统投产，属账户到账户轨道，与加拿大 RTR 同判据；不含卡凭证或受理终端。"
+    },
+    {
+      "title": "Sage Launches Small Business Partnerships With Mastercard and Adyen",
+      "url": "https://www.pymnts.com/partnerships/2026/sage-launches-smb-partnerships-with-mastercard-adyen/",
+      "reason": "动作门不过：会计软件内嵌支付入口，属销售渠道变化，未改变凭证形态或受理机制。"
+    },
+    {
+      "title": "Global Payments faces industry pricing pressure",
+      "url": "https://www.paymentsdive.com/news/global-payments-faces-industry-pricing-pressure/874128/",
+      "reason": "范围门不过：财报与估值讨论，不含产品、规范或部署动作。"
+    },
+    {
+      "title": "Block to provide data to FTC",
+      "url": "https://www.paymentsdive.com/news/block-to-provide-data-to-ftc/874156/",
+      "reason": "范围门不过：监管调查程序，不涉及凭证载体或受理机制变化。"
+    },
+    {
+      "title": "BNPL for rent seeks a market",
+      "url": "https://www.paymentsdive.com/news/bnpl-for-rent-seeks-a-market/874061/",
+      "reason": "范围门不过：BNPL 品类观察稿，无具体产品与部署。"
+    },
+    {
+      "title": "Designation of Prosegur Australia under the Cash Distribution Framework Act 2026",
+      "url": "https://www.rba.gov.au/media-releases/2026/mr-26-31.html",
+      "reason": "范围门不过：现金配送框架下的机构指定，标的物是现金流通而非卡凭证链。"
+    },
+    {
+      "title": "How Banks Can Spot Scams That Pass Authentication",
+      "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/how-banks-can-spot-scams-that-pass-authentication/",
+      "reason": "动作门不过：方法论述评，无产品发布、无版本号、无客户。"
+    },
+    {
+      "title": "The Growth Fix for Embedded Payments Starts Before Launch",
+      "url": "https://www.pymnts.com/news/payments-innovation/2026/growth-fix-embedded-payments-starts-before-launch/",
+      "reason": "动作门不过：观点稿，无具体动作。"
+    },
+    {
+      "title": "Agentes de IA falham em quase metade das tentativas de compras, aponta Visa",
+      "url": "https://www.mobiletime.com.br/noticias/09/11/2026/agentes-de-ia-visa/",
+      "reason": "动作门不过：Visa 的基准测试结论，属研究数据，不是产品、规范或部署。"
+    },
+    {
+      "title": "Deutsche Bank, Ant Digital Explore AI Agents for Wholesale Payments",
+      "url": "https://fintechnews.hk/42037/ai/deutsche-bank-ant-digital-agentic-payments/",
+      "reason": "动作门不过：探索性合作，无产品名、无落地市场、无时间表。"
+    },
+    {
+      "title": "Elo and Microsoft announce AI agent solution to automate corporate payments within Excel",
+      "url": "https://theworldofai.org/ai-news/acc1722b",
+      "reason": "动作门不过：仍处测试阶段，无产品名、无参数、无上线日期；效率叙事不能替代具体物。"
+    },
+    {
+      "title": "LeCard passa a oferecer tag da ConectCar a seus clientes",
+      "url": "https://www.mobiletime.com.br/noticias/09/11/2026/lecard-tag-conectcar/",
+      "reason": "动作门不过：福利卡运营方给出通行标签的免月费优惠，属渠道与权益，未改变凭证形态。"
+    },
+    {
+      "title": "VaideBus disponibiliza recarga de cartões de transporte via Pix com validação por biometria",
+      "url": "https://www.mobiletime.com.br/noticias/09/11/2026/vaidebus-disponibiliza-r/",
+      "reason": "动作门不过：交通卡充值渠道增加 Pix 与生物识别校验，属充值入口变化，未涉及发卡或受理终端机制。"
+    },
+    {
+      "title": "Keep your tills trading this Black Friday（Arch Retail Safe Mode）",
+      "url": "https://www.itweb.co.za/article/keep-your-tills-trading-this-black-friday/RgeVDvPR28dMKJN3",
+      "reason": "动作门不过：厂商署名的软文，介绍既有 POS 离线模式，无发布、无客户、无参数。"
+    },
+    {
+      "title": "Singapore Fintech Festival 2026 to Explore 5 Forces Reshaping Global Finance",
+      "url": "https://fintechnews.sg/140868/fintech/singapore-fintech-festival-2026-five-forces-global-finance/",
+      "reason": "范围门不过：行业会议预告。"
+    },
+    {
+      "title": "Hong Kong Fintech Week 2026: Agentic AI, Tokenization, Quantum Technologies Under the Spotlight",
+      "url": "https://fintechnews.hk/42024/hong-kong-fintech-week-news/hong-kong-fintech-week-2026-agentic-ai-tokenization-quantum-technologies-under-the-spotlight/",
+      "reason": "范围门不过：会议综述，无单一可核动作。"
+    },
+    {
+      "title": "Avaloq enters US wealth management market with launch of Mosaic platform",
+      "url": "https://www.tahawultech.com/business/avaloq-enters-us-wealth-management-market-with-launch-of-mosaic-platform/",
+      "reason": "范围门不过：财富管理核心系统，不在发卡与收单栈。"
+    },
+    {
+      "title": "OJK Puts Banks on Alert Amid Surge in Cyberattack Attempts",
+      "url": "https://fintechnews.id/111016/digital-banking-news-indonesia/indonesian-banks-cyberattacks-ojk/",
+      "reason": "范围门不过：监管风险提示，无凭证或受理机制变化。"
+    },
+    {
+      "title": "Revolut Secures New Zealand Banking Licence",
+      "url": "https://paymentsindustryintelligence.com/revolut-secures-new-zealand-banking-licence/",
+      "reason": "范围门不过：银行牌照，按 AGENTS.md 明确排除。"
+    },
+    {
+      "title": "EPC Tightens Verification of Payee Matching Rules Across SEPA",
+      "url": "https://paymentsindustryintelligence.com/epc-tightens-verification-of-payee-matching-rules-across-sepa/",
+      "reason": "超窗：事件为 11 月 5 日，早于 72 小时窗口（11-08 02:30 起算）；且标的为 SEPA 转账的收款人核验，不在卡栈。"
+    },
+    {
+      "title": "UK Moves to Mandate POS Software Standards in Crackdown on Till Fraud",
+      "url": "https://paymentsindustryintelligence.com/uk-moves-to-mandate-pos-software-standards-effectively/",
+      "reason": "超窗：10 月 29 日事件，出 72 小时窗口；如后续有正式立法文本可再收。"
+    }
+  ],
+  "stats": {
+    "candidates": 205,
+    "written": 5,
+    "skippedByDedup": 2
+  },
+  "finishedAt": "2026-11-10T20:17:11.564Z"
+}

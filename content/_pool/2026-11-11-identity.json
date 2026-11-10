@@ -1,0 +1,179 @@
+{
+  "date": "2026-11-11",
+  "industry": "identity",
+  "startedAt": "2026-11-11T03:10:51+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "Aadhaar offline verification expands as biometric security use grows",
+      "url": "https://www.biometricupdate.com/202611/aadhaar-offline-verification-expands-as-biometric-security-use-grows",
+      "reason": "duplicate-of-2026-11-07-identity-04：同一批 300 家 OVSE，只是把 200→300 与 App 下载量再盘点一遍，无新变化"
+    },
+    {
+      "title": "Spain reinstates MiDNI digital ID for voting in November election",
+      "url": "https://www.biometricupdate.com/202611/spain-reinstates-midni-digital-id-for-voting-in-november-election",
+      "reason": "duplicate-of-2026-11-07-identity-02：同一份选举委员会放行与 11-29 投票安排"
+    },
+    {
+      "title": "España | El DNI digital será válido como medio de identificación en las Elecciones Generales del 29 de noviembre",
+      "url": "https://dplnews.com/espana-el-dni-digital-sera-valido-como-medio-de-identificacion-en-las-elecciones-generales-del-29-de-noviembre/",
+      "reason": "duplicate-of-2026-11-07-identity-02：西语信源重写同一事件，换信源不算新事件"
+    },
+    {
+      "title": "Canada plans national travel biometrics strategy, expanded biometric screening",
+      "url": "https://www.biometricupdate.com/202611/canada-plans-national-travel-biometrics-strategy-expanded-biometric-screening",
+      "reason": "duplicate-of-2026-11-07-identity-03：同一份预算里的 C$9000 万与 C$430 万两笔拨款"
+    },
+    {
+      "title": "DHS readies $100M identity access contract as Icepick leak exposes security stakes",
+      "url": "https://www.biometricupdate.com/202611/dhs-readies-100m-identity-access-contract-as-icepick-leak-exposes-security-stakes",
+      "reason": "动作门：采购预告，11-20 才发标、单一来源 BPA 给 Dignari，不是授标"
+    },
+    {
+      "title": "TSA moves toward FBI national security checks as audit exposes identity failures",
+      "url": "https://www.biometricupdate.com/202611/tsa-moves-toward-fbi-national-security-checks-as-audit-exposes-identity-failures",
+      "reason": "动作门：审计建议加「拟转向」，无合同、无版本、无生效日期"
+    },
+    {
+      "title": "Hong Kong to activate AI facial recognition across expanding SmartView network",
+      "url": "https://www.biometricupdate.com/202611/hong-kong-to-activate-ai-facial-recognition-across-expanding-smartview-network",
+      "reason": "范围门：警务监控摄像头网络，不在载体/签发/分发/受理任一环节"
+    },
+    {
+      "title": "Samoa launches national digital ID policy, sets roadmap for biometric identity system",
+      "url": "https://www.biometricupdate.com/202611/samoa-launches-national-digital-id-policy-sets-roadmap-for-biometric-identity-system",
+      "reason": "动作门：政策文件，原文明确不产生 2024 年法案之外的新义务，RFP 已于 10 月发出、2027 年才登记"
+    },
+    {
+      "title": "Israel unveils plan to unite identity assets around national digital ID wallet",
+      "url": "https://www.biometricupdate.com/202611/israel-unveils-plan-to-unite-identity-assets-around-national-digital-id-wallet",
+      "reason": "动作门：战略草案公示，无预算、无承建方、无上线时间表（与 11-10 同一判断）"
+    },
+    {
+      "title": "EU age assurance study finds privacy risks manageable, costs relatively low",
+      "url": "https://www.biometricupdate.com/202611/eu-age-assurance-study-finds-privacy-risks-manageable-costs-relatively-low",
+      "reason": "范围门：成本与隐私影响研究，无凭证、无终端、无认证"
+    },
+    {
+      "title": "Meta expands its own AI age checks while shifting responsibility to app stores",
+      "url": "https://www.biometricupdate.com/202611/meta-expands-its-own-ai-age-checks-while-shifting-responsibility-to-app-stores",
+      "reason": "范围门：平台内容治理与责任分配，不是凭证或核验终端的形态变化"
+    },
+    {
+      "title": "Suspected AI-generated photos, duplicate records trigger Nigeria biometric election cleanup",
+      "url": "https://www.biometricupdate.com/202611/suspected-ai-generated-photos-duplicate-records-trigger-nigeria-biometric-election-cleanup",
+      "reason": "范围门：选民册去重与清理，标的是选民登记而非身份证件或其签发"
+    },
+    {
+      "title": "Home Affairs takes asylum applications online",
+      "url": "https://www.itweb.co.za/article/home-affairs-takes-asylum-applications-online/VgZey7JlDVOqdjX9",
+      "reason": "范围门：只登记申请意向，回执不构成身份凭证；与 idtechwire 的 Digital Asylum System 为同一事件"
+    },
+    {
+      "title": "South Africa Launches Biometric Asylum Registration Portal",
+      "url": "https://idtechwire.com/south-africa-launches-biometric-asylum-registration-portal/",
+      "reason": "范围门：首期只收意向书与上传人脸，不发凭证、不做比对，后续阶段才有核验"
+    },
+    {
+      "title": "Tactile Technologies EU, FEITIAN to exhibit at TRUSTECH 2026 in Paris",
+      "url": "https://www.itweb.co.za/article/tactile-technologies-eu-feitian-to-exhibit-at-trustech-2026-in-paris/WnxpEv4Ywaa7V8XL",
+      "reason": "动作门：展会预告，无产品参数、无客户、无认证"
+    },
+    {
+      "title": "ODPC Immaculate Kassait Exits After Six Years as Kenya’s Data Commissioner",
+      "url": "https://techmoran.com/2026/11/10/immaculate-kassait-exits-after-six-years-as-kenyas-data-commissioner/",
+      "reason": "范围门：人事变动，明确不收"
+    },
+    {
+      "title": "AWS Commits $100 Million to Expand AI Use in Healthcare, Targeting Underserved Markets",
+      "url": "https://techmoran.com/2026/11/10/aws-commits-100-million-to-expand-ai-use-in-healthcare-targeting-underserved-markets/",
+      "reason": "范围门：医疗 AI 投资，与三条凭证链路无关"
+    },
+    {
+      "title": "FrankieOne Partners Trulioo to Expand Global KYC and KYB Coverage",
+      "url": "https://fintechnews.sg/140855/regtech/frankieone-trulioo-kyb-partnership/",
+      "reason": "动作门：两家供应商互通数据，无运营方、无落地市场，不构成联合部署"
+    },
+    {
+      "title": "ECOWAS States Commit to Accept Biometric ID Cards at Borders From 2027",
+      "url": "https://idtechwire.com/ecowas-states-commit-to-accept-biometric-id-cards-at-borders-from-2027/",
+      "reason": "时效：Freetown 宣言在 11 月 3–4 日通过，已过 72 小时；且是移民局长们的承诺，不是已生效的落地"
+    },
+    {
+      "title": "24 EU Countries Join Two-Year Project to Put Driving Licences in Digital ID Wallets",
+      "url": "https://mobileidworld.com/24-eu-countries-join-two-year-project-to-put-driving-licences-in-digital-id-wallets/",
+      "reason": "时效：报道在 10-23，项目起点只写「2026 年 11 月」，没有可核的启动日"
+    },
+    {
+      "title": "Northern Territory Drivers Will Be Able to Carry Their Licence on Their Phones",
+      "url": "https://mobileidworld.com/northern-territory-drivers-will-be-able-to-carry-their-licence-on-their-phones/",
+      "reason": "时效：法案 10-15 通过、10-19 报道，服务只写「2026 年底」上线"
+    },
+    {
+      "title": "Germany Sets January Launch for d-you Digital Identity Wallet",
+      "url": "https://mobileidworld.com/germany-sets-january-launch-for-d-you-digital-identity-wallet/",
+      "reason": "时效：9-11 的旧稿，首页列表位置会误导新旧"
+    },
+    {
+      "title": "Digital Veteran Card reaches 23K in first year as rare, modest UK ID success",
+      "url": "https://www.biometricupdate.com/202611/digital-veteran-card-reaches-23k-in-first-year-as-rare-modest-uk-id-success",
+      "reason": "动作门：一年 2.3 万张的累计盘点，凭证本身 2025 年 10 月已上线，无新变化"
+    },
+    {
+      "title": "Twyn opens multi-biometric identity platform to developers with 10K free checks",
+      "url": "https://www.biometricupdate.com/202611/twyn-opens-multi-biometric-identity-platform-to-developers-with-10k-free-checks",
+      "reason": "时效：11-03 发布，已过 72 小时"
+    },
+    {
+      "title": "Papua New Guinea’s voluntary digital ID is becoming harder to avoid",
+      "url": "https://www.biometricupdate.com/202611/papua-new-guineas-voluntary-digital-id-is-becoming-harder-to-avoid",
+      "reason": "时效与动作门：11-03 的分析稿，把 4 月采购要求、9 月公务员登记等旧事件综述，无单一新动作"
+    },
+    {
+      "title": "Trust Stamp launches automated biometric-based authorization for transactions initiated by Agentic-AI",
+      "url": "https://www.nasdaq.com/press-release/trust-stamp-launches-automated-biometric-based-authorization-transactions-initiated",
+      "reason": "范围门：AI 智能体授权与「知情同意」，不是凭证签发或核验终端"
+    },
+    {
+      "title": "EU Border Systems Agency Is Suing IBM, Atos and Leonardo Over EES Delays",
+      "url": "https://www.biometricupdate.com/202611/eu-takes-ees-contractors-to-court-as-new-consortium-takes-over-border-system",
+      "reason": "动作门：诉讼与承包商更换，不改变凭证形态；11-10 已按同一事件处理"
+    },
+    {
+      "title": "Ethiopia: Fayda digital ID passes 52 million registrations as FaydaVerse starts charging banks",
+      "url": "https://brics24.news/ethiopia-fayda-digital-id-52-million-faydaverse",
+      "reason": "动作门与时效：累计注册量盘点，核心访谈在 11-01，收费自 8 月起"
+    },
+    {
+      "title": "Australia expands biometric requirements for visa applicants in India",
+      "url": "https://identityweek.net/australia-expands-biometric-requirements-for-visa-applicants-in-india/",
+      "reason": "时效：10-26 生效，11-10 已按同一理由拦过一次"
+    },
+    {
+      "title": "Japan: just how safe is the My Number system?",
+      "url": "https://www.japantimes.co.jp/news/2026/11/10/japan/my-number-security",
+      "reason": "范围门与动作门：安全评估稿，84.6% 持卡率属背景数据，无新事件"
+    },
+    {
+      "title": "INTERPOL report finds AI linked to more than half of cybercrime in Africa",
+      "url": "https://identityweek.net/interpol-report-finds-ai-linked-to-more-than-half-of-cybercrime-in-africa/",
+      "reason": "范围门：犯罪态势报告，与凭证链路无关"
+    },
+    {
+      "title": "浙江省公安厅居民身份证制作中心 UPS 蓄电池组购置项目中标结果",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202611/t20261109_27649047.htm",
+      "reason": "动作门：机房蓄电池 13.45 万元，与制证工艺、卡体或芯片无关"
+    },
+    {
+      "title": "Ghana NIA suspends date-of-birth amendments on Ghana Card",
+      "url": "https://www.graphic.com.gh/news/general-news/national-identification-authority-suspends-date-of-birth-amendments-on-ghana-card.html",
+      "reason": "动作门：受理流程整顿，六类皆不贴，只有 11-09 停止受理这一个时点"
+    }
+  ],
+  "stats": {
+    "candidates": 36,
+    "written": 5,
+    "skippedByDedup": 4
+  },
+  "finishedAt": "2026-11-10T19:17:53.306Z"
+}

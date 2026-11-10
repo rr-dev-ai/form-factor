@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-11-identity-03",
+  "slug": "veridas-cen-ts-18099-injection-attack-high",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "liveness",
+    "biometrics",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-11T04:18:03+08:00",
+  "ingestedAt": "2026-11-11T03:10:51+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/iad-vendors-turn-to-standards-testing-as-biometric-injection-attacks-grow",
+      "lang": "en",
+      "publishedAt": "2026-11-10T13:37:00-05:00"
+    },
+    {
+      "name": "Veridas",
+      "url": "https://veridas.com/en/cen-ts-18099-certification/",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "Veridas 的注入攻击检测拿到 CEN/TS 18099 高档",
+    "en": "Veridas reaches CEN/TS 18099 High for injection attack detection",
+    "es": "Veridas obtiene el nivel High de CEN/TS 18099 en detección de ataques de inyección"
+  },
+  "summary": {
+    "zh": "法国实验室 CLR Labs 按 CEN/TS 18099 测试 Veridas 的注入攻击检测，给出 High 等级，测试覆盖深度伪造与合成视频注入。该规范经 ETSI TS 119 461 v2.1.1 成为远程身份核验的强制技术要求；2027 年 7 月 10 日起，欧盟金融机构须具备符合新反洗钱框架的工作流。",
+    "en": "France's CLR Labs has tested Veridas' injection attack detection against CEN/TS 18099 and awarded it High, covering injections built from deepfakes and synthetic video. The specification is a mandatory technical requirement for remote identity proofing through ETSI TS 119 461 v2.1.1, and from 10 July 2027 EU financial institutions must run workflows compliant with the new anti-money-laundering framework.",
+    "es": "El laboratorio francés CLR Labs ha evaluado la detección de ataques de inyección de Veridas conforme a CEN/TS 18099 y le ha otorgado el nivel High, con pruebas sobre inyecciones de deepfakes y vídeo sintético. La especificación es requisito técnico obligatorio para la verificación remota de identidad vía ETSI TS 119 461 v2.1.1, y desde el 10 de julio de 2027 las entidades financieras europeas deben operar flujos conformes al nuevo marco antiblanqueo."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "测的不是镜头前那张脸",
+        "en": "It does not test the face in front of the camera",
+        "es": "No evalúa la cara frente a la cámara"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "活体检测（PAD）对付的是有人举着屏幕或面具骗摄像头。注入攻击走另一条路：攻击者绕过摄像头，把合成视频直接灌进采集数据流，篡改的是管道与设备。CEN/TS 18099 是欧洲标准化委员会发布的技术规范，专测后一类。CLR Labs 用深度伪造与人工生成视频做了全类型注入测试，Veridas 拿到 High。",
+        "en": "Presentation attack detection deals with someone holding up a screen or a mask in front of a camera. Injection attacks take another route: the attacker bypasses the camera and feeds synthetic video straight into the capture stream, tampering with the channel or the device. CEN/TS 18099, published by the European Committee for Standardization, tests that second class. CLR Labs ran the full set of injection types, including deepfakes and artificially generated video, and Veridas came out at High.",
+        "es": "La detección de ataques de presentación se ocupa de quien muestra una pantalla o una máscara ante la cámara. Los ataques de inyección van por otra vía: se salta la cámara y se introduce vídeo sintético directamente en el flujo de captura, manipulando el canal o el dispositivo. CEN/TS 18099, publicada por el comité europeo de normalización, evalúa esa segunda clase. CLR Labs ejecutó el conjunto completo de tipos de inyección, incluidos deepfakes y vídeo generado, y Veridas alcanzó el nivel High."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "为什么现在成了硬门槛",
+        "en": "Why it just became a procurement gate",
+        "es": "Por qué se ha vuelto un umbral de compra"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "ETSI TS 119 461 v2.1.1 把 CEN/TS 18099 写成远程身份核验的强制技术要求，这套标准服务于 eIDAS 与欧盟反洗钱条例。2027 年 7 月 10 日起，金融机构必须有一套符合新反洗钱框架的工作流。Veridas 的判断是测评周期长，能赶在截止日前拿到结果的厂商不会多——这句话出自公司公告，没有第三方名单佐证。",
+        "en": "ETSI TS 119 461 v2.1.1 makes CEN/TS 18099 a mandatory technical requirement for remote identity proofing, in a stack that serves eIDAS and the EU anti-money-laundering regulation. From 10 July 2027 financial institutions must have an operational workflow compliant with the new AML framework. Veridas argues that testing takes long enough that few vendors will make the deadline; that claim comes from the company and is not backed by a third-party list.",
+        "es": "ETSI TS 119 461 v2.1.1 convierte CEN/TS 18099 en requisito técnico obligatorio para la verificación remota de identidad, dentro de un conjunto que sirve a eIDAS y al reglamento antiblanqueo europeo. Desde el 10 de julio de 2027 las entidades financieras deben disponer de un flujo conforme al nuevo marco. Veridas sostiene que las pruebas tardan lo suficiente como para que pocos proveedores lleguen al plazo; la afirmación es de la empresa y no la respalda una lista independiente."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "这一档已经排了一队",
+        "en": "A queue has already formed at this level",
+        "es": "Ya hay cola en este nivel"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "本月 Innovatrics 由 CLR Labs 测到 High；9 月 ShareID 拿到 PAD 与 IAD 双高档；10 月 HyperVerge 由澳大利亚 BixeLab 测到 Level 2，Idemia Public Security 与 Advance.AI 也在 BixeLab 做过同类测评。Paravision 则向 Kantara 提议设立注入攻击讨论组，处理 CEN/TS 18099 与其他标准之间的定义缺口。Veridas 刚与 Fourthline 完成合并，融资上限 6500 万欧元。",
+        "en": "Innovatrics was certified at High by CLR Labs this month; ShareID took high-level marks across both PAD and IAD in September; HyperVerge was evaluated at Level 2 by Australia's BixeLab in October, which also tested Idemia Public Security and Advance.AI. Paravision has asked the Kantara Initiative to set up an injection attack discussion group to close definition gaps between CEN/TS 18099 and other standards. Veridas has just closed its merger with Fourthline, backed by up to EUR 65 million.",
+        "es": "Innovatrics fue certificada en High por CLR Labs este mes; ShareID obtuvo nivel alto en presentación e inyección en septiembre; HyperVerge fue evaluada en Level 2 por BixeLab en octubre, que también probó a Idemia Public Security y Advance.AI. Paravision ha propuesto a Kantara un grupo de discusión sobre ataques de inyección para cerrar huecos de definición entre CEN/TS 18099 y otras normas. Veridas acaba de cerrar su fusión con Fourthline, con hasta 65 millones de euros."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "技术上，把 IAD 与 PAD 分开考核，等于承认「活体过了」不代表「数据没被换过」。远程开户的薄弱点从算法比对转移到采集链路，安卓模拟器、虚拟摄像头、注入框架成了新的攻击面，厂商要证明的是整条链路而非单点模型。监管上，认证一旦被写进 ETSI 与 AMLR 的执行路径，采购文件就会照抄等级要求，没有测评报告的供应商会在投标阶段被直接筛掉，而不是在价格上被压。市场上，CLR Labs 与 BixeLab 两家实验室事实上掌握了准入节奏，排期本身成为竞争变量；对正在合并整合的 Veridas 与 Fourthline，这张证书是合并后统一产品线最直接的对外凭据。",
+    "en": "Technically, assessing injection and presentation attacks separately amounts to admitting that passing liveness does not mean the data was never swapped. The weak point in remote onboarding moves from the matching algorithm to the capture path, where emulators, virtual cameras and injection frameworks become the attack surface, and vendors must prove the whole chain rather than a single model. On regulation, once certification is written into the ETSI and AML execution path, procurement documents will copy the level requirement, and vendors without a test report get filtered at bid stage rather than squeezed on price. Commercially, two labs, CLR Labs and BixeLab, effectively set the pace of admission, which makes scheduling a competitive variable, and for Veridas and Fourthline, now merging, the certificate is the most direct external evidence of a unified product line.",
+    "es": "En lo técnico, evaluar por separado inyección y presentación equivale a admitir que superar la prueba de vida no significa que los datos no se hayan sustituido. El punto débil del alta remota pasa del algoritmo de comparación a la cadena de captura, donde emuladores, cámaras virtuales y marcos de inyección se vuelven la superficie de ataque, y el proveedor debe probar la cadena completa y no un modelo aislado. En lo regulatorio, cuando la certificación entra en la ruta de ejecución de ETSI y del marco antiblanqueo, los pliegos copian el nivel exigido y el proveedor sin informe se cae en la fase de oferta, no en el precio. En lo comercial, dos laboratorios, CLR Labs y BixeLab, marcan de hecho el ritmo de admisión, lo que convierte la agenda en variable competitiva, y para Veridas y Fourthline, en plena fusión, el certificado es la evidencia externa más directa de una línea de producto unificada."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-pool-v1"
+  }
+}
