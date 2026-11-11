@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-12-banking-05",
+  "slug": "boost-100xb-mta-cross-border-commercial-card",
+  "industry": "banking",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "clearing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-12T04:20:47+08:00",
+  "ingestedAt": "2026-11-12T02:32:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/boost-100xb-removes-the-cost-barrier-to-cross-border-card-acceptance--medical-tourism-association-cuts-provider-fees-to-us-interchange-302933865.html",
+      "lang": "en",
+      "publishedAt": "2026-11-10T00:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "Boost 让美国商业卡直付 180 国供应商，收款方免开商户号",
+    "en": "Boost lets US commercial cards pay suppliers in 180+ countries without merchant accounts",
+    "es": "Boost permite pagar con tarjeta comercial de EE. UU. en 180+ países sin cuenta de comercio"
+  },
+  "summary": {
+    "zh": "Boost Payment Solutions 11 月 10 日推出 100XB：企业用现有的美国发行商业信用卡，直接付给 180 多个国家的供应商，不需要对方开立本地商户号，也不产生跨境卡附加费。首个客户是医疗旅游协会 MTA，其全球服务商通过一页表单入网，款项进本地银行账户。",
+    "en": "Boost Payment Solutions launched 100XB on 10 November: enterprises pay suppliers in more than 180 countries with the US-issued commercial credit cards they already hold, without the supplier opening a local merchant account and without the cross-border card assessment fee. The first customer is the Medical Tourism Association, whose global providers enrol through a single-page form and are paid into local bank accounts.",
+    "es": "Boost Payment Solutions lanzó 100XB el 10 de noviembre: las empresas pagan a proveedores en más de 180 países con las tarjetas de crédito comerciales ya emitidas en EE. UU., sin que el proveedor abra una cuenta de comercio local y sin el recargo transfronterizo de tarjeta. El primer cliente es la Medical Tourism Association, cuyos proveedores globales se registran con un formulario de una página y cobran en cuentas bancarias locales."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "把「供应商不是商户」这件事绕过去",
+        "en": "Working around suppliers that are not merchants",
+        "es": "Sortear que el proveedor no es un comercio"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "跨境 B2B 卡支付的老问题是收款方要变成受理商户：要么开本地商户号、接本地收单，要么拒收。100XB 的做法是让供应商用一页表单入网，不收商户号，款项直接进本地银行账户；买方继续用自己手上的美国商业信用卡付款，不要求换发 foreign BIN 的卡。原文称这样可以避免通常让供应商不愿收卡的跨境评估费。",
+        "en": "The old obstacle in cross-border B2B card payments is that the payee must become an accepting merchant: open a local merchant account, connect to local acquiring, or refuse the card. 100XB has suppliers enrol through a single-page form with no merchant account, and pays them into local bank accounts, while the buyer keeps using the US commercial card already in hand with no foreign-BIN reissue. The release says this avoids the cross-border assessment fee that usually makes suppliers reluctant to accept cards.",
+        "es": "El obstáculo clásico del pago B2B transfronterizo con tarjeta es que el cobrador debe convertirse en comercio aceptante: abrir una cuenta de comercio local, conectarse a la adquirencia local o rechazar la tarjeta. 100XB registra al proveedor con un formulario de una página sin cuenta de comercio y le paga en una cuenta bancaria local, mientras el comprador sigue usando la tarjeta comercial estadounidense que ya tiene, sin reemitir con BIN extranjero. El comunicado afirma que así se evita el recargo transfronterizo que suele hacer que el proveedor rechace tarjetas."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "首单落在医疗旅游",
+        "en": "First deployment in medical tourism",
+        "es": "Primer despliegue en turismo médico"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "MTA 的 Better by MTA 平台连接患者与境外医疗机构，此前跨境付款是摩擦点。合作后，认证机构通过表单入网即可收款，MTA 与 Boost 之间的跨境与本地付款独家走 Mastercard 网络。原文引用墨西哥一家牙科机构作为收款方示例，未给出交易量、费率或覆盖机构数量。",
+        "en": "MTA's Better by MTA marketplace connects patients with providers abroad, where cross-border payment was a friction point. Under the deal, accredited providers enrol through a form and get paid, and cross-border and domestic payments between MTA and Boost run exclusively on the Mastercard network. The release cites a dental practice in Mexico as an example payee, and gives no transaction volumes, pricing or number of providers.",
+        "es": "El marketplace Better by MTA conecta pacientes con proveedores en el exterior, donde el pago transfronterizo era un punto de fricción. Con el acuerdo, los proveedores acreditados se registran con un formulario y cobran, y los pagos transfronterizos y locales entre MTA y Boost van en exclusiva por la red Mastercard. El comunicado cita una clínica dental en México como ejemplo de cobrador y no da volúmenes, precios ni número de proveedores."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这条真正动的是受理侧的准入：传统上供应商要收卡就得成为商户，承担入网、合规与终端成本，跨境时还要多一层本地实体。把入网压到一页表单、资金落本地账户，等于把「收卡」的门槛降到接近收一笔转账。对商业卡发卡行与项目管理者，这意味着卡的使用场景从差旅与采购扩到供应商付款，但回扣与数据能否留住取决于资金流是否仍走卡网络；原文只说走 Mastercard，没说清清算细节。风险在合规与责任：供应商没有商户号，争议、退款与拒付怎么处理，公告没有交代。这条能不能复制，要看它在 MTA 之外拿到多少行业的供应商名单。",
+    "en": "What this changes is acceptance-side onboarding: normally a supplier that wants to take cards must become a merchant, absorbing onboarding, compliance and terminal costs, plus a local entity when cross-border. Compressing enrolment to a single form and paying into a local account lowers taking a card to roughly taking a transfer. For commercial card issuers and programme managers that widens card use from travel and procurement to supplier payments, though rebates and data depend on funds still moving over the card network; the release says Mastercard but not the clearing detail. The risk is compliance and liability: with no merchant account, how disputes, refunds and chargebacks are handled is unaddressed. Whether it repeats depends on how many supplier lists it wins beyond MTA.",
+    "es": "Lo que cambia es el alta en el lado de la aceptación: normalmente un proveedor que quiere cobrar con tarjeta debe ser comercio, asumiendo alta, cumplimiento y costes de terminal, más una entidad local si es transfronterizo. Reducir el alta a un formulario y pagar en una cuenta local acerca cobrar con tarjeta a cobrar una transferencia. Para emisores de tarjeta comercial y gestores de programa amplía el uso de la tarjeta de viajes y compras a pagos a proveedores, aunque los reembolsos y los datos dependen de que los fondos sigan pasando por la red; el comunicado dice Mastercard pero no detalla la compensación. El riesgo es cumplimiento y responsabilidad: sin cuenta de comercio, no se explica cómo se tratan disputas, devoluciones y contracargos. Su replicabilidad depende de cuántas listas de proveedores gane fuera de MTA."
+  },
+  "confidence": 0.56,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-banking-2026-11"
+  }
+}

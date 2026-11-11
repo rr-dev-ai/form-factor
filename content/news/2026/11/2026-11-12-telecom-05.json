@@ -1,0 +1,104 @@
+{
+  "id": "2026-11-12-telecom-04",
+  "slug": "smart-psa-nidas-sim-registration",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "sim-registration"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-12T04:20:47+08:00",
+  "ingestedAt": "2026-11-12T02:50:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Telecompaper",
+      "url": "https://www.telecompaper.com/news/smart-integrates-national-id-authentication-into-sim-registration-process--1588576",
+      "lang": "en",
+      "publishedAt": "2026-11-11T13:27:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "菲律宾 Smart 把统计署的身份核验接进 SIM 登记",
+    "en": "Smart wires the Philippines' national ID check into SIM registration",
+    "es": "Smart integra la verificación del documento nacional en el registro de SIM"
+  },
+  "summary": {
+    "zh": "菲律宾 Smart Communications 把菲律宾统计署（PSA）的 National ID Authentication Services 接入自家 SIM 登记流程，通过 PSA 的 eVerify 平台比对全国身份证登记库，适用于 Smart Prepaid 与 TNT 用户。公告未给上线日期、覆盖用户数，也未说明是否取代上传证件照的旧流程。",
+    "en": "Smart Communications has integrated the Philippine Statistics Authority's National ID Authentication Services into its SIM registration process, checking subscriber details against the national ID registry through the PSA's eVerify platform. It applies to Smart Prepaid and TNT subscribers. No launch date, subscriber volume or confirmation that it replaces document uploads was given.",
+    "es": "Smart Communications integró los Servicios de Autenticación del Documento Nacional de la autoridad estadística filipina (PSA) en su proceso de registro de SIM, verificando los datos del suscriptor contra el registro nacional mediante la plataforma eVerify. Aplica a usuarios de Smart Prepaid y TNT. No se indicó fecha de lanzamiento, volumen de usuarios ni si sustituye la carga de documentos."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "接的是登记环节的哪一段",
+        "en": "Which step of registration changes",
+        "es": "Qué paso del registro cambia"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "菲律宾 2022 年的《SIM 登记法》（RA 11934）要求每张 SIM 绑定已核验的订阅人身份，运营商此前主要靠上传证件照加自拍，再做人工核对或光学字符识别。这一步把比对对象换成了国家身份证库：登记时向 PSA 的 eVerify 平台发起查询，拿回该证件号在库中的姓名与出生日期，与用户填写的资料对齐。",
+        "en": "The Philippines' SIM Registration Act of 2022 requires every SIM to be tied to a verified subscriber identity, and operators previously relied on uploading an ID photo plus a selfie, followed by manual checks or optical character recognition. This step changes what the data is checked against: a query goes to the PSA eVerify platform, which returns the name and date of birth held for that document number, and those are matched to what the subscriber entered.",
+        "es": "La Ley de Registro de SIM de Filipinas de 2022 exige vincular cada SIM a una identidad verificada, y los operadores se apoyaban en la carga de una foto del documento más una selfie, con revisión manual u OCR. Este paso cambia contra qué se compara: se consulta la plataforma eVerify de la PSA, que devuelve el nombre y la fecha de nacimiento asociados a ese número de documento, y se cotejan con los datos introducidos por el suscriptor."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "和 NTC 的数量核验不是一回事",
+        "en": "Not the same as the NTC's volume check",
+        "es": "No es lo mismo que el control de cantidad del NTC"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月初菲律宾国家电信委员会（NTC）才提出，名下登记超过 100 张 SIM 的用户要额外自证在用。PSA 这条管的是单张卡的身份真实性，NTC 那条管的是持卡数量，两者叠加后登记环节要同时回答两个问题：人是不是本人，卡是不是过量。对运营商来说，前者是新增的外部依赖，后者是既有的内部核查。",
+        "en": "Earlier in November the National Telecommunications Commission proposed extra proof of use for subscribers holding more than 100 SIMs. The PSA link governs whether a single card's identity is genuine; the NTC rule governs how many cards a person may hold. Together, registration has to answer two questions at once: is this the right person, and is this too many cards. For the operator, the first is a new external dependency and the second an internal check it already runs.",
+        "es": "A comienzos de noviembre la Comisión Nacional de Telecomunicaciones propuso prueba adicional de uso para quien tenga más de 100 SIM. El enlace con la PSA determina si la identidad de una tarjeta es genuina; la regla del NTC determina cuántas tarjetas puede tener una persona. Juntas, el registro debe responder dos preguntas a la vez: si es la persona correcta y si son demasiadas tarjetas. Para el operador, la primera es una dependencia externa nueva y la segunda un control interno que ya aplica."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "没有交代的部分",
+        "en": "What was left out",
+        "es": "Lo que quedó sin precisar"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "上线时间，以及是否全量替换原有的证件上传流程",
+          "en": "When it went live, and whether it fully replaces the upload flow",
+          "es": "Cuándo entró en operación y si sustituye del todo la carga de documentos"
+        },
+        {
+          "zh": "eSIM 的远程开通是否走同一入口、同一套核验",
+          "en": "Whether remote eSIM activation uses the same entry point and the same check",
+          "es": "Si la activación remota de eSIM usa el mismo canal y la misma verificación"
+        },
+        {
+          "zh": "核验失败后的补救通道，以及 PSA 平台不可用时的降级方案",
+          "en": "The fallback when verification fails, and what happens when the PSA platform is unavailable",
+          "es": "El canal de remedio si la verificación falla y el plan de contingencia si la plataforma de la PSA no está disponible"
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "监管上，把国家身份证库变成登记的前置校验，等于把一部分 KYC 责任外移到政府平台：运营商省掉人工比对，但要承担 eVerify 可用性与数据准确性的连带风险。商业上，菲律宾的 eKYC 与 OCR 供应商份额会被压缩，能接政府接口做集成的厂商反而受益；对 Smart 这类体量的运营商，登记成本从人力转向接口调用，边际成本结构变了。战略上，东南亚的实名制正从「留存证件影像」走向「实时联查」，同一套接口往后可以复用到 eSIM 远程开通与补换卡，谁先把流程跑顺，谁在下一轮监管收紧时少改一次系统。",
+    "en": "Regulatorily, making the national ID registry a precondition for registration shifts part of the KYC burden onto a government platform: the operator saves on manual comparison but inherits the availability and accuracy risk of eVerify. Commercially, the share held by eKYC and OCR vendors in the Philippines shrinks, while integrators able to connect to the government API gain; for an operator of Smart's size, registration cost moves from labour to API calls, changing the marginal cost structure. Strategically, real-name regimes in Southeast Asia are moving from storing document images to querying registries in real time, and the same interface can later be reused for remote eSIM activation and SIM replacement, so whoever gets the flow right avoids another system rebuild when the next rule tightens.",
+    "es": "En lo regulatorio, convertir el registro nacional de identidad en condición previa del registro traslada parte de la carga KYC a una plataforma pública: el operador ahorra la comparación manual pero hereda el riesgo de disponibilidad y exactitud de eVerify. En lo comercial, la cuota de los proveedores de eKYC y OCR en Filipinas se reduce, mientras ganan los integradores capaces de conectarse a la API pública; para un operador del tamaño de Smart, el coste de registro pasa de mano de obra a llamadas de API, lo que cambia la estructura de coste marginal. En lo estratégico, los regímenes de nombre real del Sudeste Asiático pasan de guardar imágenes de documentos a consultar registros en tiempo real, y la misma interfaz podrá reutilizarse para la activación remota de eSIM y el reemplazo de tarjeta, así que quien ordene el flujo evitará otra reconstrucción cuando la próxima norma apriete."
+  },
+  "confidence": 0.5,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11-12"
+  }
+}

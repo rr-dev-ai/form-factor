@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-12-banking-04",
+  "slug": "rain-agent-vaults-scoped-cards",
+  "industry": "banking",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "tokenization"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-12T04:20:47+08:00",
+  "ingestedAt": "2026-11-12T02:32:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/rain-agent-vaults-bring-embedded-payments-to-ai-agents-302935044.html",
+      "lang": "en",
+      "publishedAt": "2026-11-10T00:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "Rain 给 AI 代理开「保险库」：每笔付款单发一张限额卡",
+    "en": "Rain opens funded agent vaults that issue a scoped card per purchase",
+    "es": "Rain abre bóvedas para agentes que emiten una tarjeta por compra"
+  },
+  "summary": {
+    "zh": "Rain 11 月 10 日推出 Agent Vaults：企业或消费者先把钱充进一个保险库，AI 代理只能在库内余额与预设规则内花钱，每笔交易单独生成一张限定用途的卡，用完即废。Rain 是 Visa 与 Mastercard 主会员，同时支持两家的代理支付框架，卡可在 200 个国家和地区受理。",
+    "en": "Rain launched Agent Vaults on 10 November: a business or consumer funds a vault first, and an AI agent can spend only within that balance and the rules set, with a scoped card generated per purchase and retired afterwards. Rain is a Visa and Mastercard principal member and supports both agentic payment frameworks; it says the cards work at merchants in 200 countries and territories.",
+    "es": "Rain lanzó Agent Vaults el 10 de noviembre: una empresa o un consumidor fondea primero una bóveda y el agente de IA solo puede gastar dentro de ese saldo y de las reglas fijadas, con una tarjeta acotada por compra que se anula después. Rain es miembro principal de Visa y Mastercard y soporta los marcos de pago agéntico de ambas; según la empresa, las tarjetas se aceptan en comercios de 200 países y territorios."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "先有钱，才有卡",
+        "en": "Money first, card second",
+        "es": "Primero el dinero, luego la tarjeta"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "保险库可以用银行转账、卡或稳定币充值，钱必须先到账，卡才会被创建。每次购买生成一张限定额度的卡，交易完成后卡信息作废，避免拿一个卡号当长期授权。规则由账户所有者设定，例如只允许付给供应商、超过某一金额要先确认；原文给的例子是面包店主充 5000 美元、设 1500 美元以上需批准，代理在周末自行采购原料。",
+        "en": "A vault is funded by bank transfer, card or stablecoins, and money must arrive before any card is created. Each purchase gets a card with a set limit, and the card details are retired after the transaction, avoiding a single card number acting as standing permission. The owner sets the rules, such as paying suppliers only or requiring approval above a threshold; the example given is a bakery owner funding US$5,000 with a US$1,500 approval threshold while an agent buys supplies over the weekend.",
+        "es": "La bóveda se fondea por transferencia bancaria, tarjeta o stablecoins, y el dinero debe llegar antes de que se cree cualquier tarjeta. Cada compra recibe una tarjeta con límite fijo y los datos se anulan tras la operación, evitando que un número de tarjeta funcione como permiso permanente. El titular fija las reglas, por ejemplo pagar solo a proveedores o exigir aprobación por encima de un umbral; el ejemplo del comunicado es una panadera que fondea 5.000 dólares con umbral de 1.500 y un agente que compra insumos el fin de semana."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "两家卡组织的代理框架同时接",
+        "en": "Both networks' agent frameworks in one integration",
+        "es": "Los marcos de agente de ambas redes en una integración"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Rain 以主会员身份走 Visa Intelligent Commerce 与 Mastercard Agent Pay，用它们来传递用户意图与授权；对开发者，接入一次即可让代理收钱、花钱与向外付款，收款方可覆盖 200 个国家和地区的商户，出款可到 80 多个国家的本地账户。底层仍沿用公司原有的 scoped card 与 Agent Control Layer，不是新造一套清算。",
+        "en": "Rain uses its principal membership to run Visa Intelligent Commerce and Mastercard Agent Pay, using them to carry user intent and consent. For developers, one integration lets an agent receive, spend and pay out, with acceptance at merchants in 200 countries and territories and payouts to local accounts in more than 80 countries. The base is the company's existing scoped cards and Agent Control Layer rather than a new clearing scheme.",
+        "es": "Rain usa su condición de miembro principal para operar Visa Intelligent Commerce y Mastercard Agent Pay, que transportan la intención y el consentimiento del usuario. Para el desarrollador, una sola integración permite al agente cobrar, gastar y pagar, con aceptación en comercios de 200 países y territorios y pagos a cuentas locales en más de 80 países. La base son las tarjetas acotadas y la capa de control de agentes que la empresa ya tenía, no un nuevo esquema de compensación."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "发卡侧真正的难点不是让代理拿到卡号，而是让授权额度跟着单笔意图走。单笔一卡、用完作废，把「代理能花多少」从账户级限额降到交易级，这符合卡组织在代理支付里争的那层——谁定义代理的权限。对做费用管理的平台，这类结构可以直接替掉虚拟卡批量预生成的做法，减少闲置卡与超额扣款；对发卡行与处理商，它带来的是授权请求量上升与对账粒度变细，系统要能承受每笔一张卡的记录量。需要盯的是责任划分：当被授权的代理付错款，谁承担，这套方案只解决了额度控制，没有解决拒付与争议归属。",
+    "en": "The hard part of agentic issuing is not handing an agent a card number but making the authorisation limit follow a single intent. One card per purchase, retired afterwards, pushes 'how much an agent may spend' from an account-level cap to the transaction level, which is exactly the layer card networks are competing to own in agent payments. For spend management platforms this can replace pre-generating virtual cards in batches, cutting idle cards and overcharges. For issuers and processors it means more authorisation requests and finer reconciliation granularity, and systems must carry one card record per purchase. Watch the liability question: when an authorised agent pays the wrong supplier, who bears it. This product controls limits, not chargeback or dispute ownership.",
+    "es": "Lo difícil en la emisión para agentes no es dar un número de tarjeta, sino hacer que el límite de autorización siga una intención concreta. Una tarjeta por compra, anulada después, lleva el «cuánto puede gastar un agente» de un tope a nivel de cuenta al nivel de operación, que es justo la capa que las redes disputan en los pagos con agentes. Para plataformas de gestión de gasto esto puede sustituir la generación masiva de tarjetas virtuales, reduciendo tarjetas ociosas y cargos excesivos. Para emisores y procesadores implica más solicitudes de autorización y una conciliación más fina, y los sistemas deben soportar un registro de tarjeta por compra. Falta ver la responsabilidad: si un agente autorizado paga al proveedor equivocado, quién lo asume. El producto controla límites, no la titularidad de contracargos y disputas."
+  },
+  "confidence": 0.58,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-banking-2026-11"
+  }
+}

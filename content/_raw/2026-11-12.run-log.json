@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-12",
+  "startedAt": "2026-11-12T01:50:51+08:00",
+  "finishedAt": "2026-11-12T01:54:26+08:00",
+  "indexCheck": {
+    "file": "content/_raw/2026-11-12.index.json",
+    "exists": true,
+    "fetchedFor": "2026-11-12",
+    "items": 166,
+    "attempts": 1,
+    "note": "一次通过，未等待。01:32 落盘。166 条中 161 条无 publishedAt 或置信度 < 0.6。"
+  },
+  "matrix": {
+    "counted": 5,
+    "dropped": {
+      "published": 0,
+      "expired": 0,
+      "undated": 10,
+      "lowConfidence": 151,
+      "invalid": 0
+    },
+    "gaps": ["cis", "mena", "latam"],
+    "cellGaps": [
+      { "region": "apac", "industry": "telecom" },
+      { "region": "apac", "industry": "identity" },
+      { "region": "europe", "industry": "banking" },
+      { "region": "europe", "industry": "telecom" },
+      { "region": "north-america", "industry": "telecom" },
+      { "region": "north-america", "industry": "identity" },
+      { "region": "africa", "industry": "banking" },
+      { "region": "africa", "industry": "telecom" }
+    ],
+    "industryGaps": [
+      {
+        "industry": "telecom",
+        "emptyRegions": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"]
+      },
+      {
+        "industry": "banking",
+        "emptyRegions": ["cis", "mena", "europe", "latam", "africa"]
+      },
+      {
+        "industry": "identity",
+        "emptyRegions": ["cis", "mena", "north-america", "latam"]
+      }
+    ]
+  },
+  "phases": [
+    { "phase": "R1", "at": "2026-11-12T01:51:00+08:00", "queries": 11, "hits": 0 },
+    { "phase": "R2", "at": "2026-11-12T01:51:45+08:00", "queries": 6, "hits": 0 },
+    { "phase": "R3", "at": null, "queries": 6, "hits": 1 },
+    { "phase": "R4", "at": null, "queries": 3, "archiveReads": 2, "hits": 0 },
+    { "phase": "R5", "at": null, "queries": 3, "hits": 1 },
+    { "phase": "R6", "at": "2026-11-12T01:53:00+08:00", "queries": 10, "archiveReads": 1, "hits": 2 },
+    { "phase": "write", "at": "2026-11-12T01:54:26+08:00", "items": 4 }
+  ],
+  "phaseTimeNote": "只采到开跑、R2 收尾、R6 收尾与落盘四个实测时点，R3–R5 中间未逐轮执行 date -Iseconds，故 at 记 null，不以估算值填充。",
+  "rounds": [
+    {
+      "round": "R1",
+      "mode": "缺口驱动：区域 + 链路环节产品词",
+      "queries": [
+        { "q": "Russia eSIM eUICC profile launch operator 11 November 2026", "target": "gap/cis", "result": "0 条。mobimatter / ovosim / simpackers / etravelsim 占满，另有一条乌兹别克语 MegaFon 5G 旧闻。" },
+        { "q": "Saudi Arabia UAE national digital ID wallet launch November 2026", "target": "gap/mena", "result": "0 条。回 UAE Pass 使用指南、Emirates ID 费用页、analyticsinsight 服务清单（11-06），唯一事件稿是 nol–Jaywan（11-04，已于 11-06 发过）。" },
+        { "q": "Brazil Mexico biometric ID card issuance new document November 2026", "target": "gap/latam", "result": "1 条线索后弃：墨西哥 Credencial del Servicio Universal de Salud，属 3 月起持续登记的延续阶段，非首变。" },
+        { "q": "smart card factory SIM production line opening Asia November 2026", "target": "cellGap/apac/telecom", "result": "0 条。只有已发过的 IFSS 雪兰莪制卡中心（11-07）与两个 1688 类 B2B 广告页。" },
+        { "q": "China public security ID card raw material procurement single source November 2026", "target": "cellGap/apac/identity", "result": "0 条。进博会采购单、聚碳酸酯卡白名单页；山西制证服务结果公告（11-06）超窗且与 11-09 已发条目同线。" },
+        { "q": "SoftPOS certification Europe acquiring launch 10 November 2026", "target": "cellGap/europe/banking", "result": "0 条。Fime 旧博客、利楚商服出海稿（11-10，非欧洲落地）、Nille SoftPOS 案例（无日期）。" },
+        { "q": "eUICC GSMA eSA certificate SGP.32 module certification announced November 2026", "target": "cellGap/europe/telecom", "result": "0 条。只有 Kigen（11-03，已发）与 Semtech（11-09，已发）。" },
+        { "q": "eSIM MVNO launch United States new brand 11 November 2026", "target": "cellGap/north-america/telecom", "result": "0 条。esimspotter / esimguide / simpackers 全占，Google Fi MEP 无日期。" },
+        { "q": "mobile driver's license mDL state rollout wallet acceptance November 2026", "target": "cellGap/north-america/identity", "result": "0 条。walt.id、Mercury、answerdesk 三篇综述页，无事件。" },
+        { "q": "Nigeria Kenya card issuance processor bank partnership November 2026", "target": "cellGap/africa/banking", "result": "0 条。2025 年 KCB×UnionPay、Redtech 走廊（无日期）、Wirex/Peanut 卡评测。" },
+        { "q": "Africa SIM card registration eSIM network launch 10 November 2026", "target": "cellGap/africa/telecom", "result": "0 条。triposim / mobimatter / viasimo / etravelsim 四家旅游站。" }
+      ]
+    },
+    {
+      "round": "R2",
+      "mode": "机构驱动：监管机构、国有运营商、卡厂、证件局",
+      "queries": [
+        { "q": "RENAPO CURP biométrica módulo registro noviembre 2026", "target": "gap/latam", "result": "0 条。西语词被菲律宾移民局、马来西亚药监局等无关结果挤掉。" },
+        { "q": "НСПК карта Мир биометрия ноябрь 2026", "target": "gap/cis", "result": "0 条。回巨潮 PDF、俄乌谈判、俄语专八资料。" },
+        { "q": "Etimad Absher digital identity tender Saudi Arabia November 2026", "target": "gap/mena", "result": "0 条。Etimad 只有大坝/道路标；Absher 11-04 新服务是驾照打印与车牌拍卖，不在三条链路。" },
+        { "q": "MTN Airtel Africa eSIM platform commercial launch November 2026", "target": "cellGap/africa/telecom", "result": "0 条。MTN 官网首页仅 Q3 财报（11-09），余为旅游站。" },
+        { "q": "Vodafone Deutsche Telekom eSIM SGP.32 iSIM announcement November 2026", "target": "cellGap/europe/telecom", "result": "0 条。全是 Semtech 稿的转载与分析长文。" },
+        { "q": "Banxico SPEI CoDi nueva regla pagos noviembre 2026", "target": "gap/latam", "result": "0 条新料。墨西哥数字支付经济法 11-04 已发；SPEI 维护稿（11-08）非机制变化。" }
+      ]
+    },
+    {
+      "round": "R3",
+      "mode": "官方一手源：当地语言采购术语",
+      "queries": [
+        { "q": "licitación credencial identidad documento nacional noviembre 2026", "basedOn": "R2 的 RENAPO 轮只回西语百科页，改走采购词", "result": "0 条新料。撞到西班牙 MiDNI（11-05，已发且超窗）与菲律宾 PSA 岛屿登记。" },
+        { "q": "edital cartão identificação nacional emissão novembro 2026", "basedOn": "R2 RENAPO 轮无效，换葡语", "result": "0 条。多米尼加 JCE 换卡（11 月提醒，非新事件）、加纳 L.I. 2523（11-03，已发）、哈萨克 IIN（此处首现，未展开）。" },
+        { "q": "مناقصة بطاقة الهوية الوطنية إصدار نوفمبر 2026", "basedOn": "R1 的 mena 轮只回指南页，改阿语采购词", "result": "1 条命中：哈萨克 QazETA 外国人 IIN 在线办理（qazinform，11-10 18:45）。同轮另有孟加拉护照争议（非机制）。" },
+        { "q": "Ausschreibung elektronischer Identitätsnachweis Chipkarte November 2026", "basedOn": "R1 的 eUICC 轮已把 Kigen/Semtech 用尽，换德语找新标的", "result": "0 条。罗马尼亚 CNAS 电子身份证医疗认证（11-06，超窗）、日本 My Number IC 读取、EUDI 法规页。" },
+        { "q": "tender awarded national ID card biometric enrolment contract November 2026", "basedOn": "R3 前三条仅 1 命中，补一条英语采购词", "result": "0 条。新加坡 ICA 流程页、中国招标聚合站、加纳 NIA 文具标。" },
+        { "q": "licitación RENIEC DNI electrónico Perú noviembre 2026", "basedOn": "R2 的 Banxico 轮证明拉美线仍有料，改秘鲁证件采购", "result": "0 条新料。秘鲁 8000 万美元 IDB 贷款授权日 11-05，距开跑 7 天，超窗弃用。" }
+      ]
+    },
+    {
+      "round": "R4",
+      "mode": "行业垂直媒体归档页直读",
+      "queries": [
+        { "q": "biometricupdate.com/202611 归档页直读", "basedOn": "11-05 起验证过的最稳身份线入口", "result": "10 条全为 11-10/11-11 观点稿与研究稿（Auror 零售犯罪、Digidentity 调查、Meta 年龄核验、EU 年龄保证研究），无一有具体物。" },
+        { "q": "paymentsindustryintelligence.com 首页直读", "basedOn": "11-11 验证过的最稳支付线入口", "result": "最新到 11-10 18:15，两条（加拿大 RTR、HSBC×Stripe）均已发；11-08 的冰岛 A2A 也已发。" },
+        { "q": "\"SGP.32\" eIM eUICC certification commercial deployment November 2026", "basedOn": "R1 的 eSA 轮只剩 Kigen/Semtech，换 eIM 侧找新主体", "result": "0 条。仍是 Semtech 与 Kigen 的不同转载。" },
+        { "q": "verifiable credential pilot government issuance November 2026 age assurance wallet", "basedOn": "R4 归档页出现 Meta 年龄核验与 EU 年龄保证研究，反向查一手", "result": "0 条。回 World Bank 钱包政策说明（观点稿）与澳洲 myID 扩面（11-10，已发）。" },
+        { "q": "\"November 11, 2026\" digital ID card launch issuance", "basedOn": "11-08 验证日期锚定写法有效", "result": "0 条。回菲律宾 PSA、赞比亚数字 NRC（11-06 内阁表态，无时间表）、突尼斯远程办证（11-06 表态）。" }
+      ]
+    },
+    {
+      "round": "R5",
+      "mode": "新兴术语",
+      "queries": [
+        { "q": "iSIM commercial launch module certification operator November 2026", "basedOn": "R1 的 eSIM 全线被旅游站占满，换 iSIM 术语", "result": "0 条。Quectel 两款模组（11-10，非 SIM 载体形态变化）与 Kigen 旧稿。" },
+        { "q": "quantum-safe smart card post-quantum payment card certification November 2026", "basedOn": "R1 的 Kigen 稿提到 PQC 就绪，顺此查卡端 PQC 落地", "result": "1 条命中：中移互联网第二代 QRNG 量子超级 SIM（光明网 11-10 16:30）。另见 IDEMIA PQC 卡 EMVCo 认证（11-02，已发）。" },
+        { "q": "SGP.32 eIM iSIM 综合复查（与 R4 合并执行）", "basedOn": "R4 归档页无 telecom 线供给", "result": "0 条，重复 R4 结果。" }
+      ]
+    },
+    {
+      "round": "R6",
+      "mode": "区域补充：本地语言与本地媒体，前五轮无出果的区逐一重试",
+      "queries": [
+        { "q": "Egypt national ID card issuance biometric registration November 2026", "basedOn": "mena 全空，R1/R2 未覆盖埃及", "result": "0 条命中。Cairo ICT 2026（11-07–10）只有平台数据；GAFI 投资自助终端（11-07）超窗。" },
+        { "q": "mada Saudi Payments tokenization card scheme launch November 2026", "basedOn": "R2 的 Absher 轮只回驾照服务，换卡组织侧", "result": "0 条。SAMA 官网最新只到 10-13；余为分析稿与 expat 指南。" },
+        { "q": "Brasil operadora eSIM lançamento novembro 2026 chip virtual", "basedOn": "latam 全空，R1 的西语轮只回指南，换葡语电信词", "result": "1 条线索：ground.news 摘要指向 TIM×BYD，转下一轮核验。" },
+        { "q": "Safaricom Airtel Kenya eSIM activation launch November 2026", "basedOn": "africa/telecom 空，R1 的非洲轮全是旅游站", "result": "0 条。slashtel / triposim / epicesim 三家占满。" },
+        { "q": "UAE Central Bank Jaywan card scheme new issuer launch November 2026", "basedOn": "R1 的 mena 轮出现 nol–Jaywan，顺此查新发卡方", "result": "0 条新料。RTA nol–Jaywan 仍是 11-04 那一条（已发）。" },
+        { "q": "Egypt Meeza card fintech issuance partnership 10 November 2026", "basedOn": "R6 埃及轮出现 Connect Money 生态，顺查 Meeza 侧", "result": "0 条。Connect Money 为 2026 年度回顾，埃及统一服务卡（Ahram）无发布日期，判不了时效。" },
+        { "q": "stc eSIM launch Kuwait Bahrain Oman November 2026 digital SIM", "basedOn": "R6 的 mada 轮无果，换运营商侧", "result": "0 条。全为 eSIM 比价与兼容列表页。" },
+        { "q": "HIMYAN mada Qatar Saudi national card acceptance launch November 2026", "basedOn": "SAMA 首页出现 mada/HIMYAN 互认条目，追其日期", "result": "0 条。SAMA 首页条目无日期且排在 10-13 之后，判为新近度不足，弃。" },
+        { "q": "Maroc carte nationale identité électronique CNIE déploiement novembre 2026", "basedOn": "R6 前八条 mena 全无果，换法语本地词", "result": "0 条。摩洛哥无犯罪记录在线申请（11-09）属警务文书，非凭证载体；多哥 ANID 是隐私政策页。" },
+        { "q": "Jordan digital ID card mobile wallet launch November 2026", "basedOn": "R6 摩洛哥轮的聚合简报里交叉引用约旦 Sanad，顺此追一手", "result": "1 条命中：约旦 Sanad 出入境章入 app（jordannews，11-10 更新，340 万激活）。" },
+        { "q": "gulfnews.com/business 首页直读", "basedOn": "Gulf News 是 mena 线唯一稳定源（11-06 的 nol–Jaywan 出自此站）", "result": "0 条。全为油价、美股、AI 与地产，无卡/证/SIM 标的。" }
+      ]
+    }
+  ],
+  "totals": {
+    "queries": 39,
+    "archiveReads": 3,
+    "itemsWritten": 4,
+    "gapsFilled": ["cis/identity", "mena/identity", "latam/telecom", "apac/telecom"],
+    "gapsRemaining": [
+      "cis/banking", "cis/telecom",
+      "mena/banking", "mena/telecom",
+      "latam/banking", "latam/identity",
+      "apac/identity",
+      "europe/banking", "europe/telecom",
+      "north-america/telecom", "north-america/identity",
+      "africa/banking", "africa/telecom"
+    ]
+  },
+  "verifiedButDropped": [
+    { "item": "Mexico Credencial del Servicio Universal de Salud 登记阶段（camscanner 指南 11-09）", "reason": "属 3 月起持续登记项目的延续阶段，11-14 只是本阶段截止，非首次或变化，动作门不过。" },
+    { "item": "Egypt GAFI 投资者自助终端试点（dailynewsegypt 11-07）", "reason": "事件 11-07，距开跑 5 天，超 72h 窗口。" },
+    { "item": "Egypt 统一服务卡（Ahram Online explainer）", "reason": "页面无发布日期，文中「recently launched」无法定位事件时间，判不了时效。" },
+    { "item": "Airalo 单次安装 eSIM（BusinessWire 11-09）", "reason": "11-10 已发同题（Airalo 让 eSIM 只装一次，靠自有核心网换套餐），重复。" },
+    { "item": "西班牙 MiDNI 恢复用于 11-29 大选（biometricupdate 11-09 前后）", "reason": "事件 11-05 JEC 决定，超 72h；且 11-07 已发 MiDNI 相关稿。" },
+    { "item": "秘鲁 8000 万美元 IDB 贷款（biometricupdate）", "reason": "授权日 11-05，距开跑 7 天，超窗。" },
+    { "item": "赞比亚数字 NRC  rollout（seezambia 11-11 核查）", "reason": "11-06 内阁办公室表态，无上线日、无产品形态、无承接方，纯政策方向，动作门不过。" },
+    { "item": "突尼斯年底前上线远程办身份证/护照（tunisiaonlinenews 11-06）", "reason": "只有部长表态与年底时间窗，无具体交付物，且超窗。" },
+    { "item": "罗马尼亚 CEI 11 月起可用于医疗认证（rotimes 11-06）", "reason": "超窗；且 europe/identity 已有一条，不重复补格。" },
+    { "item": "阿曼劳工部禁止转交 Civil ID（manoramaonline 11-06）", "reason": "仅有马拉雅拉姆语摘要，未打开原文核验，且超窗。" },
+    { "item": "摩洛哥无犯罪记录在线申请（hespress 11-09）", "reason": "属警务文书办理，不在三条凭证链路的载体/签发/分发/受理任一环节。" }
+  ],
+  "notes": "今日矩阵 21 格只有 5 格非空，telecom 七区全零（连续第 5 天）。R1 的 11 条 query 里 9 条被旅游 eSIM 站与 SEO 农场吃掉，说明「区域 + eSIM/运营商」这条路已经彻底失效，唯一例外是换成「区域 + 卡/证件采购」才撞到东西。R3 首次出现阿语采购词直接命中（哈萨克 QazETA），与 11-11 葡语 edital 撞到加纳同型——采购术语轮的价值仍不在标本身，而在顺带撞新闻室稿。R4 两个归档页今天都没有 11-11 之后的条目，是源侧断供而非阈值问题。R5 的 quantum-safe 一条是今天唯一由术语驱动得到的 telecom 稿。R6 十轮里九轮空手，只有葡语电信词（转 ground.news 再到 Valor）与约旦交叉引用两处出果。站点层面：Gulf News business 首页已无卡证类标的；SAMA 官网新闻停在 10-13；Egypt 系媒体在 Cairo ICT 后的一周只有平台口径数据。"
+}

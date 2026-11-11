@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-12-banking-01",
+  "slug": "omise-direct-acquirer-visa-mastercard-thailand",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "payment-gateway"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-12T04:20:47+08:00",
+  "ingestedAt": "2026-11-12T02:32:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Fintech News Singapore",
+      "url": "https://fintechnews.sg/140955/thailand/omise-visa-mastercard-direct-acquirer-thailand/",
+      "lang": "en",
+      "publishedAt": "2026-11-11T05:25:20+00:00"
+    }
+  ],
+  "title": {
+    "zh": "Omise 在泰国拿下 Visa 与 Mastercard 直连收单资质",
+    "en": "Omise becomes a direct Visa and Mastercard acquirer in Thailand",
+    "es": "Omise se convierte en adquirente directo de Visa y Mastercard en Tailandia"
+  },
+  "summary": {
+    "zh": "Omise 11 月 11 日宣布成为泰国 Visa 与 Mastercard 的直连收单方，卡收单与清算改由自有基础设施处理，不再经中间收单行转接。公司称这是后续收单即服务、PayFac 与支付编排产品的基础，未披露商户数、费率与清算时效。",
+    "en": "Omise said on 11 November that it has become a direct acquirer for Visa and Mastercard in Thailand, so card acquiring and settlement run on its own infrastructure rather than through an intermediary acquirer. The company frames it as the base for acquiring-as-a-service, PayFac and orchestration products. Merchant counts, pricing and settlement times were not disclosed.",
+    "es": "Omise anunció el 11 de noviembre que ya es adquirente directo de Visa y Mastercard en Tailandia, de modo que la adquirencia y la liquidación de tarjetas corren por su propia infraestructura y no a través de un adquirente intermediario. La empresa lo presenta como base para adquirencia como servicio, PayFac y orquestación. No reveló número de comercios, tarifas ni plazos de liquidación."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "直连改的是清算关系，不是多一张牌照",
+        "en": "Direct status changes the settlement relationship",
+        "es": "El estatus directo cambia la relación de liquidación"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "直连收单方代表商户处理卡交易的授权与清算，此前 Omise 在泰国要把交易交给持牌收单行转接。改为直连后，交易从受理到清算走同一套自有系统，公司称可减少对中间环节的依赖，并在授权、对账、报表与风控上获得更大控制权。原文未给出切换的具体时间表，也未说明是否仍保留备用收单通道。",
+        "en": "A direct acquirer processes authorisation and settlement for merchants itself; previously Omise routed Thai transactions through a licensed acquiring bank. With direct status the transaction runs from acceptance to settlement inside its own stack, which the company says reduces reliance on intermediaries and gives it more control over authorisation, reconciliation, reporting and fraud management. The announcement gave no cutover timetable and did not say whether a backup acquiring route remains.",
+        "es": "Un adquirente directo procesa por cuenta propia la autorización y la liquidación; antes Omise encaminaba las operaciones tailandesas a través de un banco adquiriente licenciado. Con el estatus directo la operación va de la aceptación a la liquidación dentro de su propia infraestructura, lo que según la empresa reduce la dependencia de intermediarios y da más control sobre autorización, conciliación, informes y gestión de fraude. El anuncio no fijó calendario de migración ni aclaró si mantiene una ruta alternativa de adquirencia."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "三个还没上线的产品方向",
+        "en": "Three products still to come",
+        "es": "Tres productos aún por lanzar"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公司点名三个后续方向：收单即服务，把收单能力卖给平台与金融机构；PayFac，由 Omise 以自己的收单关系为更小的商户做入网与处理；支付编排，用一个接入层协调多家收单方与支付方式。三者都还没有产品名与上线日期，目标客户被描述为平台、市场、金融机构与大型企业。",
+        "en": "The company named three follow-on directions: acquiring-as-a-service, selling acquiring capability to platforms and financial institutions; PayFac, where Omise onboards and processes smaller merchants under its own acquiring relationship; and orchestration, coordinating multiple acquirers and payment methods through one integration layer. None has a product name or launch date, and the stated target customers are platforms, marketplaces, financial institutions and large enterprises.",
+        "es": "La empresa citó tres líneas posteriores: adquirencia como servicio, para vender capacidad de adquirencia a plataformas e instituciones financieras; PayFac, donde Omise da de alta y procesa a comercios más pequeños bajo su propia relación de adquirencia; y orquestación, para coordinar varios adquirentes y métodos de pago en una sola integración. Ninguna tiene nombre de producto ni fecha de lanzamiento, y los clientes objetivo declarados son plataformas, marketplaces, entidades financieras y grandes empresas."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对泰国的收单转接商与聚合支付商，这条改变的是议价位置：Omise 从「把交易转给收单行」变成「自己就是收单行」，毛利结构从转接费差变成自有定价，也意味着它要自己承担商户信用与拒付风险。技术上，直连后授权、对账与风控都在同一套系统内，做 PayFac 与编排才有基础；反过来说，没有直连的聚合商要卖同类产品，只能继续叠在别人的收单关系上。需要盯的是两件事：Omise 何时公布商户迁移规模与费率，以及它是否会把 PayFac 能力开放给第三方平台——那一步才会真正挤压本地收单行的中小商户盘子。",
+    "en": "For Thai acquirers and payment aggregators this shifts bargaining position: Omise stops forwarding transactions to an acquiring bank and becomes the acquirer, so its margin moves from routing spread to its own pricing, and it takes on merchant credit and chargeback risk itself. Technically, direct status puts authorisation, reconciliation and fraud control in one system, which is the precondition for PayFac and orchestration. Aggregators without direct status selling similar products keep stacking on someone else's acquiring relationship. Two things to watch: when Omise publishes migrated merchant volume and pricing, and whether it opens PayFac capability to third-party platforms, which is the step that would actually take small-merchant share from local acquirers.",
+    "es": "Para los adquirentes y agregadores tailandeses esto cambia la posición negociadora: Omise deja de reenviar operaciones a un banco adquiriente y pasa a ser el adquirente, con lo que su margen pasa del diferencial de encaminamiento a su propio precio y asume el riesgo de crédito y de contracargos del comercio. En lo técnico, el estatus directo concentra autorización, conciliación y control de fraude en un solo sistema, que es la condición previa para PayFac y orquestación. Los agregadores sin estatus directo que vendan productos similares seguirán apoyados en la relación de adquirencia de un tercero. Hay que vigilar dos cosas: cuándo publica Omise el volumen migrado y sus tarifas, y si abre la capacidad PayFac a plataformas de terceros, que es el paso que realmente quitaría cuota de comercios pequeños a los adquirentes locales."
+  },
+  "confidence": 0.62,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-banking-2026-11"
+  }
+}

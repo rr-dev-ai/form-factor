@@ -1,0 +1,110 @@
+{
+  "id": "2026-11-12-telecom-03",
+  "slug": "tim-byd-esim-fleet-brazil",
+  "industry": "telecom",
+  "region": "latam",
+  "regions": [],
+  "tags": [
+    "esim",
+    "5g"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-12T04:20:47+08:00",
+  "ingestedAt": "2026-11-12T02:50:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Valor International",
+      "url": "https://valorinternational.globo.com/business/news/2026/11/09/tim-to-connect-byd-factory-and-vehicles.ghtml",
+      "lang": "en",
+      "publishedAt": "2026-11-09T19:22:00-03:00"
+    },
+    {
+      "name": "Latam Mobility",
+      "url": "https://latamobility.com/en/byd-and-tim-seal-alliance-to-connect-camacari-factory-and-nearly-400000-vehicles-in-brazil-with-4g-and-5g",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "TIM 给比亚迪巴西车队装 eSIM，近 40 万辆由车厂买单",
+    "en": "TIM puts eSIM in BYD's Brazilian fleet, with the carmaker paying the bill",
+    "es": "TIM conecta con eSIM la flota de BYD en Brasil y la automotriz paga la conexión"
+  },
+  "summary": {
+    "zh": "TIM 巴西与比亚迪 11 月 9 日签约：为比亚迪在巴西的全部轻型车提供 eSIM 连接，比亚迪自估在路车辆近 40 万辆，车主不付流量费、由车厂按 B2B2C 结算；同时为卡马萨里 460 万平方米园区建私有 4G/5G，含 7 个室外覆盖点与 63 台设备。投资额未披露。",
+    "en": "TIM Brasil and BYD signed an agreement on 9 November to connect the carmaker's entire light-vehicle fleet in Brazil over eSIM, with BYD estimating nearly 400,000 vehicles on the road and paying for connectivity itself under a B2B2C model rather than charging drivers. The deal also covers a private 4G/5G network at the 4.6 million square metre Camaçari complex, with seven outdoor coverage points and 63 pieces of equipment. No investment figure was disclosed.",
+    "es": "TIM Brasil y BYD firmaron el 9 de noviembre un acuerdo para conectar con eSIM toda la flota de vehículos ligeros de la automotriz en Brasil, con cerca de 400.000 unidades en circulación según BYD, que paga la conectividad bajo un modelo B2B2C en lugar de cobrar al conductor. Incluye además una red privada 4G/5G en el complejo de Camaçari, de 4,6 millones de metros cuadrados, con siete puntos exteriores y 63 equipos. No se divulgó la inversión."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "连接怎么进车",
+        "en": "How connectivity reaches the car",
+        "es": "Cómo llega la conexión al vehículo"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "方案用的是 eSIM：profile 远程开通与管理，不需要实体卡。车主通过手机 App 使用远程空调、车门解锁、座椅加热和车辆定位等功能，覆盖面随 TIM 的网络扩大。车主不单独付连接费，费用由比亚迪按 B2B2C 结算给 TIM——连接从「车主月费」变成「整车成本的一部分」。原文没有说明 eSIM 管理平台或 SM-DP+ 由谁提供，也没有给出已激活车辆的比例。",
+        "en": "The solution is eSIM: profiles are provisioned and managed remotely, with no physical card. Owners use a phone app for remote climate control, door locking, seat heating and vehicle location, over a wider footprint as TIM's network reaches further. Drivers pay nothing for connectivity; BYD settles with TIM under a B2B2C model, which turns connectivity from a monthly subscriber fee into part of the vehicle's cost. The report does not say who supplies the eSIM management platform or SM-DP+, nor what share of the fleet is already activated.",
+        "es": "La solución es eSIM: los perfiles se aprovisionan y gestionan en remoto, sin tarjeta física. El propietario usa una app para climatización remota, cierre de puertas, calefacción de asientos y localización del vehículo, con mayor cobertura a medida que crece la red de TIM. El conductor no paga conectividad; BYD liquida con TIM bajo un modelo B2B2C, lo que convierte la conexión de cuota mensual en parte del coste del vehículo. El texto no indica quién aporta la plataforma de gestión eSIM ni el SM-DP+, ni qué proporción de la flota está activada."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "工厂侧是另一件事",
+        "en": "The factory side is separate",
+        "es": "La parte de la fábrica es otra cosa"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "为比亚迪建私有 4G/5G 专用网，覆盖生产线与园区，7 个室外覆盖点、63 台设备",
+          "en": "A dedicated private 4G/5G network covering production lines and the site, with seven outdoor coverage points and 63 pieces of equipment",
+          "es": "Una red privada 4G/5G dedicada que cubre líneas de producción y el recinto, con siete puntos exteriores y 63 equipos"
+        },
+        {
+          "zh": "园区 460 万平方米、建筑面积 220 万平方米，24 小时内进出 1.4 万至 1.5 万人",
+          "en": "A 4.6 million square metre site with 2.2 million square metres built, and 14,000 to 15,000 people moving through it in 24 hours",
+          "es": "Un recinto de 4,6 millones de metros cuadrados con 2,2 millones construidos, por el que pasan de 14.000 a 15.000 personas en 24 horas"
+        },
+        {
+          "zh": "整车年产能 15 万辆，二期目标 30 万辆",
+          "en": "Current capacity is 150,000 vehicles a year, with a second phase targeted at 300,000",
+          "es": "La capacidad actual es de 150.000 vehículos al año, con una segunda fase orientada a 300.000"
+        }
+      ]
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "TIM 手里已经有的盘子",
+        "en": "The base TIM already has",
+        "es": "La base que TIM ya tiene"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这不是 TIM 第一次做车联网批发。2020 年它与 FCA（后并入 Stellantis）签约，目前联网车辆逾 63 万辆，按其说法占巴西新车连接量的 60%。10 月 22 日 TIM 还拿到 Anatel 的监管沙盒授权，可在巴西做 D2D 的测试与商用，有效期到 2029 年 4 月 22 日；CEO 称正在谈卫星伙伴，用来补公路与偏远地区的覆盖。",
+        "en": "This is not TIM's first wholesale connected-car deal. It signed with FCA, later part of Stellantis, in 2020 and now has more than 630,000 connected vehicles, which it says amounts to 60% of connectivity in new cars sold in Brazil. On 22 October TIM also received an Anatel regulatory sandbox authorisation for D2D testing and commercial use, valid until 22 April 2029; its CEO says a satellite partnership is under negotiation to cover highways and remote areas.",
+        "es": "No es el primer acuerdo mayorista de vehículo conectado de TIM. Firmó con FCA, luego parte de Stellantis, en 2020 y hoy supera los 630.000 vehículos conectados, lo que según la operadora equivale al 60% de la conectividad de los autos nuevos vendidos en Brasil. El 22 de octubre TIM obtuvo además una autorización de sandbox regulatorio de Anatel para pruebas y uso comercial de D2D, válida hasta el 22 de abril de 2029; su CEO dice que negocia un socio satelital para cubrir carreteras y zonas remotas."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "商业上，车厂买单把连接费从车主月费变成整车成本，运营商拿到的是单车批发价，规模越大议价权越往车厂一侧移；对只做零售套餐的运营商，这块收入结构完全不同。技术上，几十万辆 eSIM 的 profile 生命周期没有公开方案：车辆过户、二手出口、跨境行驶时 profile 归谁、怎么换，原文都没交代，而这正是车规 eSIM 与传统 SIM 最大的运维差别。市场上，TIM 已有 Stellantis 的 63 万辆，再加比亚迪近 40 万辆，巴西车联网的批发层正在向两家运营商集中，做模组与 eUICC 的一方要跟着车厂的平台选型走。",
+    "en": "Commercially, having the carmaker pay turns connectivity from a subscriber fee into part of the vehicle's bill of materials, and the operator earns a per-vehicle wholesale price where bargaining power shifts towards the carmaker as volumes grow; for an operator built around retail plans, the revenue structure is entirely different. Technically, the profile lifecycle across hundreds of thousands of eSIMs has no published answer here: who owns the profile when a car is resold, exported second-hand or driven across borders, and how it is transferred, are all unaddressed, and that is precisely where automotive eSIM diverges from a conventional SIM in operations. In the market, TIM already carries 630,000 Stellantis vehicles and now adds close to 400,000 BYD units, concentrating the wholesale layer of Brazilian connected cars in two operators; module and eUICC suppliers will have to follow whichever platform the carmakers pick.",
+    "es": "En lo comercial, que pague la automotriz convierte la conectividad de cuota del suscriptor en parte del coste del vehículo, y el operador obtiene un precio mayorista por unidad donde el poder de negociación se desplaza hacia la automotriz al crecer el volumen; para un operador construido sobre planes minoristas, la estructura de ingresos es por completo distinta. En lo técnico, el ciclo de vida de cientos de miles de perfiles eSIM no tiene respuesta publicada: quién es dueño del perfil cuando el auto se revende, se exporta de segunda mano o cruza fronteras, y cómo se transfiere, quedan sin tratar, y ahí es exactamente donde la eSIM automotriz se separa de la SIM convencional en operación. En el mercado, TIM ya lleva 630.000 vehículos de Stellantis y suma cerca de 400.000 de BYD, concentrando la capa mayorista del auto conectado brasileño en dos operadores; los proveedores de módulos y eUICC tendrán que seguir la plataforma que elijan las automotrices."
+  },
+  "confidence": 0.65,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11-12"
+  }
+}

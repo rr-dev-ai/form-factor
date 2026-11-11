@@ -1,0 +1,109 @@
+{
+  "id": "2026-11-12-telecom-05",
+  "slug": "vodacom-satellite-to-phone-south-africa-2027",
+  "industry": "telecom",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "satellite"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-12T04:20:47+08:00",
+  "ingestedAt": "2026-11-12T02:50:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "TechCentral",
+      "url": "https://techcentral.co.za/vodacom-satellite-to-phone-service-south-africa/288234/",
+      "lang": "en",
+      "publishedAt": "2026-11-10T12:00:00+02:00"
+    },
+    {
+      "name": "SA Tech News",
+      "url": "https://www.satechnews.co.za/article/radar-vodacom-satellite-to-phone-south-africa-end-2027-2026",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "Vodacom 把南非手机直连卫星排到 2027 年底",
+    "en": "Vodacom sets end-2027 target for satellite-to-phone in South Africa",
+    "es": "Vodacom fija para finales de 2027 el satélite a móvil en Sudáfrica"
+  },
+  "summary": {
+    "zh": "Vodacom 集团 CEO Shameel Joosub 11 月 10 日表示，目标 2027 年底在南非商用手机直连卫星，伙伴「大概率」是 AST SpaceMobile，并将从自有频谱中划出一部分给卫星链路。频谱指配、终端清单、资费与监管批准均未落定；ICASA 尚未就相关频谱作出决定。",
+    "en": "Vodacom group CEO Shameel Joosub said on 10 November that the operator targets a commercial satellite-to-phone service in South Africa by the end of 2027, with AST SpaceMobile the \"more than likely\" partner, and that it will set aside part of its own spectrum for satellite links. Spectrum assignment, device list, pricing and regulatory approval remain open, and ICASA has made no award.",
+    "es": "El consejero delegado de Vodacom, Shameel Joosub, dijo el 10 de noviembre que la operadora apunta a un servicio comercial de satélite a móvil en Sudáfrica para finales de 2027, con AST SpaceMobile como socio \"muy probable\", y que reservará parte de su espectro para enlaces satelitales. Quedan abiertos la asignación de espectro, la lista de terminales, el precio y la aprobación regulatoria; ICASA no ha adjudicado nada."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "已经确定的三件事",
+        "en": "Three things that are settled",
+        "es": "Tres cosas ya definidas"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "时间表：2027 年底，仅指南非市场",
+          "en": "The timeline: end-2027, for South Africa specifically",
+          "es": "El calendario: finales de 2027, referido a Sudáfrica"
+        },
+        {
+          "zh": "伙伴：AST SpaceMobile，措辞是「大概率」；Joosub 5 月投资者会上曾说双方已就发射签约，但要先做更细的测试",
+          "en": "The partner: AST SpaceMobile, described as \"more than likely\"; Joosub said in a May investor call that the two had an agreement to launch, subject to more detailed testing",
+          "es": "El socio: AST SpaceMobile, descrito como \"muy probable\"; Joosub dijo en una llamada de inversores en mayo que había un acuerdo para lanzar, sujeto a pruebas más detalladas"
+        },
+        {
+          "zh": "频谱：从自有频谱里划一部分给卫星链路，具体频段未公布",
+          "en": "Spectrum: part of Vodacom's own holdings will be set aside for satellite links, with no band named",
+          "es": "Espectro: parte de sus propias bandas se reservará para enlaces satelitales, sin especificar cuáles"
+        }
+      ]
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "卡在哪几处",
+        "en": "Where it can stall",
+        "es": "Dónde puede atascarse"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "频谱是第一个关口。Vodacom 的 CTO 一直主张 ICASA 把原划给已放弃的批发开放接入网（WOAN）的频谱放出来给卫星直连，并按低于常规移动用途的价格定价；ICASA 至今没有作出指配。第二个关口是卫星在轨数量：AST 在第三季度财报中披露 12 颗商用 BlueBird 加 1 颗测试星，计划到 2027 年中增至 45 颗，而南非不在其 2026 年优先市场名单里。资费与可用机型，双方都没有公布。",
+        "en": "Spectrum is the first gate. Vodacom's CTO has argued that ICASA should release the spectrum once reserved for the abandoned wholesale open-access network for satellite direct-to-device use, priced below conventional mobile rates; ICASA has made no award. The second gate is satellites in orbit: AST reported 12 commercial BlueBird craft plus one test satellite in its third-quarter results and plans 45 by mid-2027, while South Africa is not on its list of priority markets for 2026. Neither side has published pricing or the list of supported handsets.",
+        "es": "El espectro es la primera puerta. El CTO de Vodacom sostiene que ICASA debería liberar el espectro antes reservado a la red mayorista de acceso abierto, abandonada, para satélite a dispositivo, con precio inferior al móvil convencional; ICASA no ha adjudicado nada. La segunda puerta son los satélites en órbita: AST reportó 12 BlueBird comerciales y uno de prueba en sus resultados del tercer trimestre y prevé 45 para mediados de 2027, mientras Sudáfrica no está en su lista de mercados prioritarios para 2026. Ninguna de las partes ha publicado precios ni la lista de terminales compatibles."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "为什么要等 2G/3G 退网",
+        "en": "Why the 2G/3G shutdown gates it",
+        "es": "Por qué depende del apagado de 2G/3G"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "直连卫星不支持 2G 与 3G 终端，退网成了前置条件。南非原定 2027 年 12 月 31 日的退网期限已在 2025 年 7 月撤销，目前没有政府期限；Joosub 的方案是先停 2G/3G 设备入网与进口，再给两年过渡期。同区域里，MTN 2025 年 3 月与 Lynk Global 做过直连测试通话但未给商用日期，Airtel Africa 2026 年 8 月在刚果（金）开了 Starlink Mobile 商用，只有短信与轻数据、不含语音。",
+        "en": "Direct-to-device does not work on 2G or 3G handsets, which makes the shutdown a precondition. South Africa's 31 December 2027 deadline was withdrawn in July 2025 and no replacement exists; Joosub's proposal is to stop new 2G/3G connections and imports first, then allow a two-year run-off. Regionally, MTN made a direct-to-mobile test call with Lynk Global in March 2025 but has announced no commercial date, and Airtel Africa switched on a commercial Starlink Mobile service in the DRC in August 2026 carrying texts and light data but no voice.",
+        "es": "El satélite a dispositivo no funciona en terminales 2G ni 3G, lo que convierte el apagado en condición previa. El plazo sudafricano del 31 de diciembre de 2027 se retiró en julio de 2025 y no hay reemplazo; la propuesta de Joosub es frenar primero las nuevas conexiones e importaciones 2G/3G y dar luego dos años de transición. En la región, MTN hizo una llamada de prueba directa a móvil con Lynk Global en marzo de 2025 sin fecha comercial, y Airtel Africa activó en agosto de 2026 un servicio comercial de Starlink Mobile en la RDC con textos y datos ligeros, sin voz."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "市场上，南非是非洲最成熟的预付费市场之一，Vodacom 给出日期会把 MTN 拖进同一张时间表；一旦 2027 年底成了行业默认节点，频谱申请与终端认证都要按这个节奏排。技术上看，直连卫星要求终端支持 NTN 鉴权，而现网还有大量 2G/3G 机在跑，退网推不动，2027 的目标就只能顺延，运营商对 3G 关停的态度会因此更强硬。监管上，频谱按什么价格、以什么方式指配，直接决定卫星链路的单位成本；若按常规移动用途定价，卫星补盲在经济上很难成立，这也是 Vodacom 反复要求折价的真实原因。",
+    "en": "In the market, South Africa is one of Africa's most mature prepaid markets, and a date from Vodacom drags MTN onto the same timetable; once end-2027 becomes the industry's default milestone, spectrum applications and device certification will be sequenced around it. Technically, direct-to-device requires handsets that support NTN authentication, while a large installed base still runs 2G and 3G, so if the shutdown stalls the 2027 target slips with it, which is why operators will push harder on 3G switch-off. Regulatorily, the price and method of spectrum assignment set the unit cost of a satellite link; priced at conventional mobile rates, satellite fill-in struggles to make economic sense, which is the real reason Vodacom keeps asking for a discount.",
+    "es": "En el mercado, Sudáfrica es uno de los mercados prepago más maduros de África, y una fecha de Vodacom arrastra a MTN al mismo calendario; cuando finales de 2027 se vuelva el hito por defecto del sector, las solicitudes de espectro y la certificación de equipos se ordenarán en torno a él. En lo técnico, el satélite a dispositivo exige terminales con autenticación NTN, mientras una base instalada amplia sigue en 2G y 3G, así que si el apagado se atasca el objetivo de 2027 se corre con él, y por eso los operadores presionarán más el cierre de 3G. En lo regulatorio, el precio y la forma de asignación del espectro fijan el coste unitario del enlace satelital; con precios de móvil convencional, cubrir huecos por satélite difícilmente se sostiene, y esa es la razón real por la que Vodacom insiste en un descuento."
+  },
+  "confidence": 0.5,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11-12"
+  }
+}

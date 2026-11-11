@@ -1,0 +1,110 @@
+{
+  "id": "2026-11-12-telecom-02",
+  "slug": "hong-kong-prepaid-sim-cap-10-to-3",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "sim-registration"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-12T04:20:47+08:00",
+  "ingestedAt": "2026-11-12T02:50:00+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "香港特区政府",
+      "url": "https://www.info.gov.hk/gia/general/202611/11/P2026111100435.htm",
+      "lang": "zh",
+      "publishedAt": "2026-11-11T15:00:00+08:00"
+    },
+    {
+      "name": "OpenGov Asia",
+      "url": "https://opengovasia.com/hong-kong-plans-tighter-sim-registration-rules-to-tackle-telecom-fraud/",
+      "lang": "en",
+      "publishedAt": "2026-11-11T18:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "香港拟把储值卡上限从 10 张压到 3 张，买卖已登记卡入刑",
+    "en": "Hong Kong moves to cut prepaid SIM cap from 10 to 3 and criminalise card trading",
+    "es": "Hong Kong propone bajar de 10 a 3 las SIM prepago y penalizar su compraventa"
+  },
+  "summary": {
+    "zh": "中国香港商务及经济发展局 11 月 11 日在立法会答复：建议把个人向每家运营商登记储值卡的上限由 10 张降到 3 张，并把代他人提供资料登记、买卖租借已登记卡列为刑事罪行。官方称约 98% 用户登记不超过 3 张；修例细节将在未来数月咨询，尚无生效日。",
+    "en": "Hong Kong's Commerce and Economic Development Bureau told the Legislative Council on 11 November that it proposes cutting the per-operator cap on prepaid SIM registration from 10 to three, and criminalising the supply of personal data to register someone else's card as well as buying, selling or renting registered cards. Officials say about 98% of users register no more than three cards; drafting details and consultation are still to come, with no effective date.",
+    "es": "El Buró de Comercio y Desarrollo Económico de Hong Kong informó al Consejo Legislativo el 11 de noviembre que propone rebajar de 10 a tres el límite de SIM prepago registradas por persona y operador, y tipificar como delito facilitar datos para registrar la tarjeta de otro y comprar, vender o alquilar tarjetas registradas. Según las autoridades, cerca del 98% de los usuarios registra tres o menos; el texto y la consulta llegarán en los próximos meses, sin fecha de entrada en vigor."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "改的是登记额度，不是实名制本身",
+        "en": "The quota changes, not the registration regime",
+        "es": "Cambia el cupo, no el régimen de registro"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "中国香港自 2023 年 2 月起全面实施电话智能卡实名登记，所有本地发出并使用的卡都要登记后才能开通。现行上限是个人向每家运营商最多 10 张储值卡、企业 25 张，「上台」月费卡不设上限。这次建议只动储值卡额度，一并提出的是把若干不当使用行为刑事化：无合法权限下提供个人资料替他人登记，以及买卖、租借已登记的电话卡。",
+        "en": "Hong Kong has required real-name registration for all locally issued and used SIM cards since February 2023. The current ceiling is 10 prepaid cards per person per operator and 25 per corporate user, with no limit on monthly service-plan cards. The proposal only touches the prepaid quota, and pairs it with criminal offences for supplying personal data to register another person's card without lawful authority, and for buying, selling or renting registered cards.",
+        "es": "Hong Kong exige el registro a nombre real de todas las tarjetas emitidas y usadas localmente desde febrero de 2023. El tope actual es de 10 tarjetas prepago por persona y operador, y 25 por usuario corporativo, sin límite para los planes mensuales. La propuesta solo afecta al cupo de prepago y lo acompaña de delitos por facilitar datos personales para registrar la tarjeta de otro sin autorización, y por comprar, vender o alquilar tarjetas registradas."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "配套的核验与执法",
+        "en": "Verification and enforcement around it",
+        "es": "Verificación y aplicación que lo rodean"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "通讯办要求运营商定期抽查已登记资料，核不实的储值卡直接注销",
+          "en": "OFCA requires operators to sample-check registered data and deregister prepaid cards whose details cannot be verified",
+          "es": "La OFCA obliga a los operadores a revisar por muestreo los datos registrados y a dar de baja las tarjetas no verificables"
+        },
+        {
+          "zh": "香港身份证持有人默认用「智方便」登记；用其他证件在网上登记的，一律人工复核",
+          "en": "iAM Smart is the default channel for Hong Kong identity card holders; online registrations with other documents get manual checks",
+          "es": "iAM Smart es la vía por defecto para titulares del documento de identidad de Hong Kong; los registros en línea con otros documentos pasan por revisión manual"
+        },
+        {
+          "zh": "警方与运营商自 2022 年 9 月起建立拦截机制，截至 2026 年 9 月底拦下逾 1.8 万个本地及非本地号码",
+          "en": "Police and operators have run a blocking mechanism since September 2022, cutting off more than 18,000 local and non-local numbers by end-September 2026",
+          "es": "Policía y operadores mantienen un mecanismo de bloqueo desde septiembre de 2022, con más de 18.000 números locales y no locales cortados a finales de septiembre de 2026"
+        }
+      ]
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "时间表与没交代的部分",
+        "en": "Timeline and open questions",
+        "es": "Calendario y cuestiones abiertas"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "官方说法是正筹备修例细节，计划未来数月就建议咨询公众与业界，未给生效日。存量超限的卡如何处理、企业用户额度是否同步下调、eSIM 预付费是否并入同一额度，答复均未说明。立法会上有议员提出上限应按人而非按运营商计算，局长回应称会研究。",
+        "en": "Officials say the drafting is under way and public and industry consultation will follow in the coming months, with no effective date given. The reply does not say how existing cards above the new cap will be handled, whether the corporate quota moves too, or whether prepaid eSIM falls under the same ceiling. A lawmaker argued the cap should apply per person rather than per operator; the secretary said the government would study it.",
+        "es": "Las autoridades dicen que preparan el texto y que consultarán a público e industria en los próximos meses, sin fecha de entrada en vigor. La respuesta no aclara qué pasará con las tarjetas ya emitidas por encima del nuevo tope, si el cupo corporativo también baja, ni si la eSIM prepago entra en el mismo límite. Un legislador planteó que el tope sea por persona y no por operador; el secretario respondió que lo estudiarán."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "监管上，额度从 10 张压到 3 张直接压缩「批量持卡」的空间，靠多卡做跨境分销、代充与灰色转售的渠道首当其冲；98% 的用户不受影响，说明代价集中在少数批发环节。对做预付费 eSIM 的运营商，远程开通与实体储值卡共用同一登记口径，等于把线上发卡也纳入这套上限。商业上，卡商与分销商的备货模型要改，代他人登记入刑后，便利店、外劳中介这类代客开卡的灰色服务会消失。放到区域里看，菲律宾今年把名下超 100 张的额外核验写进规则，香港走的是另一条路：不查单卡真伪，直接限量并刑事化流转。",
+    "en": "From a regulatory angle, cutting the ceiling from 10 to three squeezes the room for holding cards in bulk, and the first to feel it are channels that rely on multiple cards for cross-border distribution, top-ups and grey resale; with 98% of users unaffected, the cost lands on a thin wholesale layer. For operators selling prepaid eSIM, remote activation shares the same registration basis as physical prepaid cards, so the cap reaches online issuance too. Commercially, distributors must rework inventory models, and criminalising registration on behalf of others removes the informal counter service that convenience stores and migrant-worker agencies provided. Regionally, the Philippines this year added extra verification for holders of more than 100 SIMs; Hong Kong takes a different route, skipping per-card authenticity checks in favour of a hard quota and criminalised transfer.",
+    "es": "En lo regulatorio, bajar el tope de 10 a tres reduce el espacio para acumular tarjetas, y lo sufren primero los canales que dependen de múltiples tarjetas para distribución transfronteriza, recargas y reventa gris; con el 98% de los usuarios sin afectación, el coste recae en una capa mayorista estrecha. Para los operadores que venden eSIM prepago, la activación remota comparte la misma base de registro que la tarjeta física, de modo que el límite alcanza también la emisión en línea. En lo comercial, los distribuidores deben rehacer sus modelos de inventario, y tipificar el registro por cuenta ajena elimina el servicio informal de mostrador que ofrecían tiendas de conveniencia y agencias de trabajadores migrantes. En la región, Filipinas añadió este año verificación extra para quien tiene más de 100 SIM; Hong Kong toma otro camino: sin comprobar la autenticidad de cada tarjeta, impone cupo duro y penaliza la cesión."
+  },
+  "confidence": 0.7,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11-12"
+  }
+}

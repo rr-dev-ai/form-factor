@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-12-identity-02",
+  "slug": "kazakhstan-iin-online-qazeta-order-825",
+  "industry": "identity",
+  "region": "cis",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "biometrics",
+    "mobile-id"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-12T04:20:47+08:00",
+  "ingestedAt": "2026-11-12T03:11:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Qazinform",
+      "url": "https://qazinform.com/news/foreigners-to-obtain-iin-online-within-one-working-day-in-kazakhstan-868288",
+      "lang": "en",
+      "publishedAt": "2026-11-10T18:45:00+05:00"
+    }
+  ],
+  "title": {
+    "zh": "哈萨克斯坦把外国人 IIN 申请搬进 QazETA，1 个工作日办结",
+    "en": "Kazakhstan moves foreigners IIN applications into the QazETA app",
+    "es": "Kazajistán traslada a QazETA las solicitudes de IIN de extranjeros"
+  },
+  "summary": {
+    "zh": "哈萨克斯坦内务部长 11 月 2 日签发第 825 号令，在哈境内临时停留的外国人与无国籍人可在 QazETA app 内申请或更新个人识别号（IIN），须拍摄证件、完成人脸比对并确认在境内的定位。材料交由内务部授权人员复核并排查重号，1 个工作日内办结，试点为期一年。",
+    "en": "Kazakhstan interior minister signed Order No. 825 on 2 November, letting foreign nationals and stateless people temporarily in the country apply for or update an individual identification number (IIN) inside the QazETA app. Applicants photograph their document, pass a biometric check and confirm their location in Kazakhstan; a ministry officer then reviews the file and screens for duplicate numbers. Processing takes one working day and the pilot runs for a year.",
+    "es": "El ministro del Interior de Kazajistán firmó el 2 de noviembre la orden n.º 825, que permite a extranjeros y apátridas en estancia temporal solicitar o actualizar el número de identificación individual (IIN) dentro de la app QazETA. El solicitante fotografía su documento, supera una verificación biométrica y confirma su ubicación en el país; un funcionario del ministerio revisa el expediente y detecta números duplicados. El trámite se resuelve en un día hábil y el piloto dura un año."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "四道核验，缺一不可",
+        "en": "Four checks, none optional",
+        "es": "Cuatro comprobaciones obligatorias"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "流程串在 QazETA app 与移民服务的 MAQ 平台上：先同意个人数据处理，用手机拍摄身份证件，再做生物特征核验；进入申请页后，系统核对当事人是否已入境哈萨克斯坦，随后要求确认所在地、追加一次身份核验、复核自动带出的个人信息，并补填出生地、联系方式与国籍。入境记录与定位这两道前置条件意味着人在境外办不了，远程代办的路径被堵死。",
+        "en": "The flow runs through the QazETA app on top of MAQ, the digital migration services platform. The applicant consents to data processing, photographs the identity document with the phone and passes biometric verification. The system then checks that the person has actually entered Kazakhstan, asks for a location confirmation, runs a second identity check and presents the auto-filled personal data for review, with place of birth, contact details and nationality still to be supplied. Entry record and location as preconditions mean the service cannot be used from abroad.",
+        "es": "El flujo corre en la app QazETA sobre MAQ, la plataforma digital de servicios migratorios. El solicitante consiente el tratamiento de datos, fotografía su documento con el teléfono y supera la verificación biométrica. El sistema comprueba después que la persona haya entrado efectivamente en Kazajistán, pide confirmar la ubicación, ejecuta una segunda verificación de identidad y muestra los datos personales autocumplimentados para su revisión, con lugar de nacimiento, contacto y nacionalidad aún por aportar. El registro de entrada y la ubicación como condiciones previas impiden usar el servicio desde el exterior."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "人工复核仍在，重号由内务部查",
+        "en": "A human still decides, duplicates checked in-house",
+        "es": "Un funcionario decide y el ministerio detecta duplicados"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "申请提交后进入内务部，由授权人员审核材料、核对填报信息并排查重复 IIN。口径是 1 个工作日内办结、不含提交当日；申请人可在 app 内跟踪状态、查看号码，必要时下载 PDF 格式的登记证明。材料不实或不符合条件的会被拒，原文没有说明拒件是否留有补正通道。",
+        "en": "Submitted files land at the Ministry of Internal Affairs, where an authorised officer reviews the documents, verifies the data and screens for duplicate IINs. The stated turnaround is one working day excluding the day of submission, and applicants can track status, read their number and download a PDF registration certificate when one is available. Inaccurate or ineligible applications are rejected, and the notice gives no correction route for refusals.",
+        "es": "El expediente llega al Ministerio del Interior, donde un funcionario autorizado revisa la documentación, verifica los datos y busca IIN duplicados. El plazo declarado es de un día hábil sin contar el día de presentación, y el solicitante puede seguir el estado, consultar su número y descargar un certificado de registro en PDF cuando exista. Las solicitudes inexactas o que no cumplen requisitos se rechazan, y el texto no describe ninguna vía de subsanación."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "一年试点，与既有柜台并行",
+        "en": "A one-year pilot alongside the counters",
+        "es": "Un piloto de un año junto a las ventanillas"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "第 825 号令 11 月 2 日签发，试点自其首次正式公布之日起生效、为期一年，属临时安排而非永久制度。内务部长今年夏天已公开预告要用 QazETA 承载移民服务数字化，这次落地的是身份编号一项。外国人以往只能到移民服务柜台办 IIN，新渠道没有宣布关闭旧渠道，也没有给出申请人在两条渠道间的分流比例。",
+        "en": "Order No. 825 was signed on 2 November and the pilot takes effect on first official publication, running one year: a temporary arrangement, not a permanent rule. The interior minister had already announced in the summer that QazETA would carry digital migration services, and the IIN is the first of them to ship. Foreigners previously had to visit a migration service counter; the new channel comes with no announcement that counters close and no figure for how applicants split between the two.",
+        "es": "La orden n.º 825 se firmó el 2 de noviembre y el piloto entra en vigor con su primera publicación oficial por un año: un arreglo temporal, no una norma permanente. El ministro del Interior ya había anunciado en verano que QazETA alojaría servicios migratorios digitales, y el IIN es el primero en llegar. Antes el extranjero debía acudir a una ventanilla de servicios migratorios; el nuevo canal no anuncia el cierre de las ventanillas ni cifra cómo se repartirán los solicitantes."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "值得盯的是核验链怎么搭：身份编号的签发不再依赖柜台人员看证件，而是把证件拍照、人脸比对、入境记录、境内定位四个断言串起来，其中两个来自移民系统。签发端的接口因此从终端设备转向政务 API 与数据共享，卖采集硬件的机会小，卖比对引擎、证件识别与出入境数据对接的机会大。对跨境业务则是明确边界：定位与入境核验是硬前置，境外远程开户、远程实名在这套规则下拿不到 IIN，不能把哈萨克斯坦当可远程覆盖的市场。规模要克制看待，一年试点、只对身在境内者开放，采购量有限；但 QazETA 被定位为移民服务的统一入口，IIN 只是第一项，后续每接一项都在扩大同一个入口的受理面，做中亚政务数字化的集成商应把接入排期压在试点期内。",
+    "en": "Watch how the verification chain is built rather than what it issues. Issuance no longer rests on a clerk reading a document: it chains four assertions, document capture, face comparison, entry record and in-country location, two of which come from the immigration system. The integration point therefore moves from counter hardware to government APIs and data sharing, which favours matching engines, document recognition and border-data connectors over terminal sales. For cross-border business the boundary is explicit: location and entry checks are hard preconditions, so remote onboarding and remote identity proofing cannot obtain an IIN here, and Kazakhstan should not be treated as a remotely serviceable market. Keep scale in perspective: a one-year pilot open only to people physically present means modest procurement. But QazETA is positioned as the single front door for migration services, the IIN is merely the first item, and each addition widens the same intake surface, so integrators working on Central Asian government digitisation should schedule their integration inside the pilot year.",
+    "es": "Conviene mirar cómo se construye la cadena de verificación, no qué emite. La emisión ya no depende de que un funcionario lea un documento: encadena cuatro afirmaciones, captura del documento, cotejo facial, registro de entrada y ubicación en el país, dos de ellas procedentes del sistema migratorio. El punto de integración pasa así del hardware de ventanilla a las API públicas y al intercambio de datos, lo que favorece motores de cotejo, reconocimiento documental y conectores de datos fronterizos frente a la venta de terminales. Para el negocio transfronterizo el límite es explícito: ubicación y entrada son condiciones previas duras, de modo que el alta remota y la verificación remota de identidad no obtienen IIN, y Kazajistán no debe tratarse como mercado atendible a distancia. La escala pide mesura: un piloto de un año abierto solo a quien está físicamente presente implica compras modestas. Pero QazETA se posiciona como puerta única de los servicios migratorios, el IIN es solo el primer elemento y cada añadido amplía la misma superficie de admisión, por lo que los integradores de digitalización pública en Asia Central deberían planificar su integración dentro del año de piloto."
+  },
+  "confidence": 0.74,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "final-review-2026-11"
+  }
+}

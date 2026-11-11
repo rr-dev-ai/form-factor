@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-12-banking-06",
+  "slug": "mastercard-liapay-prepaid-salary-cards-gcc",
+  "industry": "banking",
+  "region": "mena",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-12T04:20:47+08:00",
+  "ingestedAt": "2026-11-12T02:32:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Mastercard",
+      "url": "https://newsroom.mastercard.com/news/eemea/en/newsroom/press-releases/en/2026/november/mastercard-and-liapay-partner-to-give-gcc-workers-access-to-earned-wages-before-payday/",
+      "lang": "en",
+      "publishedAt": "2026-11-11T00:00:00+04:00"
+    }
+  ],
+  "title": {
+    "zh": "Mastercard 与 LiaPay 发薪资预付卡，先落阿联酋与卡塔尔",
+    "en": "Mastercard and LiaPay put prepaid salary cards on Gulf payroll",
+    "es": "Mastercard y LiaPay emiten tarjetas prepago de salario en el Golfo"
+  },
+  "summary": {
+    "zh": "万事达卡与海湾薪资应用 LiaPay 11 月 11 日宣布，向四个 GCC 市场的雇员发行万事达白金预付卡，先落阿联酋与卡塔尔，随后进沙特与阿曼。卡挂在 LiaPay app 内，可用于店内、线上与跨境汇款。LiaPay 由 Mawarid Finance 任 BIN 赞助、Paymentology 任处理方，与 DEEL、Anvin ERP 的协议覆盖逾 20 万雇员。",
+    "en": "Mastercard and LiaPay, a Gulf payroll app run by Liabify, said on 11 November they will issue Mastercard Platinum prepaid cards to salaried employees across four GCC markets, starting in the UAE and Qatar and later moving into Saudi Arabia and Oman. The card sits inside the LiaPay app and works in store, online and for cross-border remittances. Mawarid Finance is the BIN sponsor and Paymentology the processor, and agreements with DEEL and Anvin ERP reach more than 200,000 employees.",
+    "es": "Mastercard y LiaPay, la app de nómina del grupo Liabify, anunciaron el 11 de noviembre la emisión de tarjetas prepago Mastercard Platinum para asalariados en cuatro mercados del CCG, con lanzamiento inicial en Emiratos Árabes Unidos y Catar y expansión posterior a Arabia Saudí y Omán. La tarjeta vive dentro de la app LiaPay y sirve en tienda, en línea y para remesas transfronterizas. Mawarid Finance actúa como patrocinador de BIN y Paymentology como procesador, y los acuerdos con DEEL y Anvin ERP alcanzan a más de 200.000 empleados."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "把工资单当成发卡入口",
+        "en": "Payroll as the issuing channel",
+        "es": "La nómina como canal de emisión"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "四个 GCC 市场的工资大多走 Wage Protection System 发放，但收款人往往只有账户、没有可日常消费的卡。LiaPay 的做法是把预付卡挂在薪资流程上：雇员在 app 内先支取已挣得的工资（earned wage access，不占用传统授信额度），再直接用卡消费，钱从工资里扣。万事达卡方面的说法是，这是其首次以卡组织身份进入薪资与 EWA 这一细分。",
+        "en": "Salaries across the four GCC markets largely move through Wage Protection Systems, yet recipients often end up with an account and no card for everyday spending. LiaPay attaches the prepaid card to the payroll flow: employees draw down wages already earned inside the app, without a traditional credit line, and spend on the card, with the balance settled against payroll. Mastercard describes the deal as its entry into the payroll and earned wage access segment as card partner.",
+        "es": "Los salarios en los cuatro mercados del CCG circulan en gran medida por los sistemas de protección salarial, pero el beneficiario suele quedarse con una cuenta y sin tarjeta para el gasto diario. LiaPay engancha la tarjeta prepago al flujo de nómina: el empleado dispone dentro de la app del salario ya devengado, sin línea de crédito tradicional, y gasta con la tarjeta, con el saldo liquidado contra la nómina. Mastercard presenta el acuerdo como su entrada en el segmento de nómina y acceso al salario devengado como socio de tarjeta."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "发卡、处理、赞助分属三家",
+        "en": "Issuer, processor and sponsor are three parties",
+        "es": "Emisor, procesador y patrocinador, tres partes"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这层结构值得看清：LiaPay 是产品方，Mawarid Finance 提供 BIN 赞助与受监管主体身份，Paymentology 承担发卡处理，万事达卡提供受理网络与白金卡等级。卡内建认证与反欺诈，受理面覆盖店内、线上与跨境汇款。分发则靠两份企业协议——与 DEEL、Anvin ERP 的合作把 LiaPay 网络推到 20 万以上雇员，等于把发卡量绑在别人的人力资源系统上。",
+        "en": "The structure matters: LiaPay is the product owner, Mawarid Finance supplies BIN sponsorship and the regulated entity, Paymentology runs issuing processing, and Mastercard brings acceptance and the Platinum tier. Authentication and fraud protection are built in, and acceptance covers in-store, online and cross-border remittance. Distribution rests on two enterprise agreements, with DEEL and Anvin ERP pushing the LiaPay network past 200,000 employees, which ties card volumes to other companies HR systems.",
+        "es": "La estructura importa: LiaPay es el dueño del producto, Mawarid Finance aporta el patrocinio de BIN y la entidad regulada, Paymentology ejecuta el procesamiento de emisión y Mastercard pone la aceptación y el nivel Platinum. La autenticación y la protección antifraude vienen integradas, y la aceptación cubre tienda, línea y remesas transfronterizas. La distribución descansa en dos acuerdos empresariales, con DEEL y Anvin ERP llevando la red de LiaPay por encima de 200.000 empleados, lo que ata los volúmenes de tarjetas a los sistemas de recursos humanos de terceros."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "四国分两批，后面接忠诚度与转账",
+        "en": "Four markets in two waves, then loyalty and transfers",
+        "es": "Cuatro mercados en dos olas, luego fidelización y transferencias"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "落地顺序是先阿联酋与卡塔尔，再进沙特与阿曼，四国同属 GCC 但监管与工资保护系统各自为政，逐国落地意味着 BIN 与合规主体要按市场重配。路线图上还有忠诚度与积分平台，以及万事达卡的转账能力组合 Mastercard Move。原文没有给各国发卡时间表、单卡额度与定价，也没有说明 EWA 的资金来源方。",
+        "en": "The sequence runs UAE and Qatar first, then Saudi Arabia and Oman. All four sit in the GCC but each runs its own regulator and wage protection regime, so going market by market means re-cutting BIN and compliance arrangements locally. The roadmap adds a loyalty and rewards platform plus Mastercard Move, the money movement portfolio. The release gives no per-country launch dates, card limits or pricing, and does not name the funding source behind the wage advances.",
+        "es": "La secuencia empieza en Emiratos Árabes Unidos y Catar, y sigue en Arabia Saudí y Omán. Los cuatro están en el CCG pero cada uno tiene regulador y régimen de protección salarial propios, de modo que entrar mercado a mercado obliga a rehacer BIN y estructuras de cumplimiento. La hoja de ruta añade una plataforma de fidelización y Mastercard Move, la cartera de movimiento de dinero. El comunicado no da fechas por país, límites ni precios, ni identifica a quién financia los anticipos."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这张卡的意义不在卡本身，而在分发路径换了：发卡量不再靠网点获客或线上申请，而是挂在雇主的人力资源系统上，一次签约就把整批雇员变成持卡人。对做发卡处理与 BIN 赞助的厂商，GCC 的薪资场景是可复制的模板——DEEL 这类全球雇佣平台一旦接入，同一套结构能平移到别的市场。对卡组织，这是把受理网络往收入上游挪：卡挂在工资发放点上，交易频次从第一天就高，且坏账风险由已挣得的工资兜底，比信用卡模型轻。要留意的是同一批雇员会同时被多家 EWA 产品争抢，LiaPay 靠 20 万雇员的存量协议先占位，后来者得从雇主侧切入。逐国落地也意味着短期规模有限，真正的量在沙特放开之后。",
+    "en": "The interesting part is not the card but the distribution path it replaces. Volumes no longer come from branches or online applications but from employer HR systems, where one signature converts an entire payroll into cardholders. For processors and BIN sponsors, GCC payroll is a replicable template: once a global employment platform such as DEEL is wired in, the same structure ports to other markets. For the scheme, this moves acceptance revenue upstream to the point where income lands, giving high transaction frequency from day one with losses cushioned by wages already earned, a lighter model than credit. The risk is that the same employees get courted by several earned wage access products at once; LiaPay holds position through existing agreements covering 200,000 employees, so later entrants must start from the employer side. Market-by-market rollout also caps near-term volume, and the real scale arrives once Saudi Arabia opens.",
+    "es": "Lo relevante no es la tarjeta sino la ruta de distribución que sustituye. El volumen ya no llega de sucursales ni de solicitudes en línea, sino de los sistemas de recursos humanos del empleador, donde una firma convierte toda una nómina en titulares. Para procesadores y patrocinadores de BIN, la nómina del CCG es una plantilla replicable: cuando se conecta una plataforma global de empleo como DEEL, la misma estructura se traslada a otros mercados. Para el esquema, esto desplaza los ingresos de aceptación aguas arriba, al punto donde llega el ingreso, con alta frecuencia transaccional desde el primer día y pérdidas cubiertas por salario ya devengado, un modelo más ligero que el de crédito. El riesgo es que los mismos empleados sean cortejados por varios productos de acceso al salario a la vez; LiaPay se posiciona con acuerdos que cubren 200.000 empleados, así que quien llegue después tendrá que entrar por el lado del empleador. El despliegue país por país también limita el volumen inmediato, y la escala real llega cuando abra Arabia Saudí."
+  },
+  "confidence": 0.66,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "final-review-2026-11"
+  }
+}

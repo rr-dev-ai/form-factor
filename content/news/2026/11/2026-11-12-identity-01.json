@@ -1,0 +1,102 @@
+{
+  "id": "2026-11-12-identity-01",
+  "slug": "burkina-faso-rniu-mass-enrolment-twelve-digit-id",
+  "industry": "identity",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "biometrics",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-12T04:20:47+08:00",
+  "ingestedAt": "2026-11-12T03:11:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/burkina-faso-begins-mass-biometric-enrollment-for-unique-id-number/",
+      "lang": "en",
+      "publishedAt": "2026-11-11T00:00:00+00:00"
+    },
+    {
+      "name": "AIB",
+      "url": "https://www.aib.media/?p=174432"
+    }
+  ],
+  "title": {
+    "zh": "布基纳法索开登记：一个 12 位号码，脸、十指与双眼虹膜",
+    "en": "Burkina Faso opens enrolment for a lifelong 12-digit ID number",
+    "es": "Burkina Faso abre el registro de un número de identidad de 12 dígitos"
+  },
+  "summary": {
+    "zh": "布基纳法索 11 月 11 日在瓦加杜古启动全国唯一身份登记，总统特拉奥雷第一个登记并领到号码卡。号码 12 位、终身不变，采集人脸、十指指纹与双眼虹膜去重，全国将分批投放 966 套登记设备，登记免费。该号码不替代 CNIB 身份证与护照，只作各机构认人的共同索引。",
+    "en": "Burkina Faso began nationwide enrolment in its unique identity register in Ouagadougou on 11 November, with President Ibrahim Traoré enrolled first and handed his number card. The 12-digit number is issued once and held for life, with face, ten fingerprints and both irises captured for de-duplication; 966 enrolment kits will be deployed across the country and registration is free. The number does not replace the CNIB identity card or the passport, and is meant as a common reference for agencies.",
+    "es": "Burkina Faso inició el 11 de noviembre en Uagadugú el registro nacional de identidad única, con el presidente Ibrahim Traoré como primer inscrito y primer titular de la tarjeta con el número. El número de 12 dígitos se emite una vez y dura toda la vida, con captura de rostro, diez huellas y ambos iris para deduplicar; se desplegarán 966 kits de inscripción y el registro es gratuito. El número no sustituye el CNIB ni el pasaporte, sino que sirve de referencia común entre organismos."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "登记什么",
+        "en": "What the register captures",
+        "es": "Qué captura el registro"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "登记对象是全国居民，采集 biographical 信息与人脸、十指指纹、双眼虹膜，用生物特征比对做去重，确保一个人只拿一个号码。号码由 Registre national d'identification unique（RNIU）签发，一次发放、终身有效。政府称登记免费，费用不构成门槛；移动登记队会进社区，处理流离失所者、老年人与残障人士。",
+        "en": "Enrolment covers residents nationwide and captures biographic data plus a facial image, all ten fingerprints and both irises, using biometric comparison to de-duplicate so that one person holds one number. The number is issued by the Registre national d'identification unique (RNIU), granted once and valid for life. The government says registration is free so cost is not a barrier, and mobile teams will travel to reach displaced people, older people and people with disabilities.",
+        "es": "La inscripción cubre a los residentes del país y captura datos biográficos, imagen facial, las diez huellas y ambos iris, con comparación biométrica para deduplicar y asegurar un número por persona. El número lo emite el Registre national d'identification unique (RNIU), se concede una vez y es válido de por vida. El Gobierno afirma que el registro es gratuito y que equipos móviles atenderán a desplazados, personas mayores y personas con discapacidad."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "三种凭证各管一段",
+        "en": "Three credentials, three jobs",
+        "es": "Tres credenciales, tres funciones"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "RNIU 号码不替代 CNIB 身份证，也不替代护照，它的作用是在税务、社保、选举等系统之间充当同一个人的锚点。布基纳法索另有与马里、尼日尔共用的萨赫勒国家联盟生物识别身份证，三国之间凭它免护照通行，尼日尔版本今年 3 月启用、有效期 10 年、15 岁以上强制。三国均已退出西共体，而西共体移民局长会议刚把 ENBIC 卡的区域内互认定在 2027 年 1 月 1 日。",
+        "en": "The RNIU number does not replace the CNIB card or the passport; its job is to anchor the same person across tax, social security and electoral systems. Burkina Faso separately issues a biometric identity card shared with Mali and Niger under the Alliance of Sahel States, which allows travel among the three without a passport; Niger's version launched in March, runs ten years and is mandatory from age 15. All three have left ECOWAS, whose immigration chiefs have just fixed regional acceptance of the ENBIC card at 1 January 2027.",
+        "es": "El número del RNIU no sustituye el CNIB ni el pasaporte: sirve de ancla de la misma persona entre los sistemas fiscal, de seguridad social y electoral. Burkina Faso emite además un documento biométrico compartido con Malí y Níger en la Alianza de Estados del Sahel, que permite viajar entre los tres sin pasaporte; la versión nigerina se lanzó en marzo, dura diez años y es obligatoria desde los 15. Los tres salieron de la CEDEAO, cuyos jefes de inmigración acaban de fijar la aceptación regional del ENBIC para el 1 de enero de 2027."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "966 套登记设备，分批投放到全国",
+          "en": "966 enrolment kits deployed progressively nationwide",
+          "es": "966 kits de inscripción desplegados de forma progresiva"
+        },
+        {
+          "zh": "数据存放在本国数据中心，由本国工程师运维",
+          "en": "Data hosted in national data centres and run by Burkinabè engineers",
+          "es": "Datos alojados en centros de datos nacionales y operados por ingenieros burkineses"
+        },
+        {
+          "zh": "号码与 CNIB、护照并存，不改变现有证件的法律效力",
+          "en": "The number coexists with the CNIB and passport and does not change their legal force",
+          "es": "El número convive con el CNIB y el pasaporte sin alterar su validez legal"
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "先看清它建的是索引，不是新证件。号码不替代 CNIB 与护照，短期内不改变任何人出示什么，但它一旦接入税务、社保与选举，各机构认人的方式就从「看证件」变成「查号码」，核验接口会成为事实标准。对设备与算法供应商，966 套登记终端、十指加双虹膜的比对负载是实打实的采购量；但政府把运维与数据放在本国，外部厂商能拿到的是硬件、采集算法与去重引擎，拿不到运营。更值得盯的是区域层面：萨赫勒三国用 AES 卡免护照互通，西共体又把 ENBIC 的互认定在 2027 年 1 月 1 日，西非正在形成两套并行证件体系，跨境受理方要同时支持，做单一体系的集成商会先被卡住。",
+    "en": "Read what is being built: an index, not a new credential. The number does not replace the CNIB card or the passport, so in the near term nobody presents anything different. Once it is wired into tax, social security and elections, however, agencies stop checking documents and start querying a number, and that query interface becomes the de facto standard. For device and algorithm suppliers the procurement is concrete: 966 enrolment terminals and a de-duplication workload built on ten fingerprints plus two irises. The government keeps operations and data in-country, so outside vendors can sell hardware, capture algorithms and matching engines, not run the system. Regionally, the Alliance of Sahel States card already lets Burkina Faso, Mali and Niger travel without passports while ECOWAS fixes ENBIC acceptance for 1 January 2027: West Africa is growing two parallel credential systems, and cross-border acceptors will have to support both.",
+    "es": "Conviene leer lo que se construye: un índice, no una credencial nueva. El número no sustituye el CNIB ni el pasaporte, así que a corto plazo nadie presenta algo distinto. Cuando se conecte a los sistemas fiscal, de seguridad social y electoral, los organismos dejarán de mirar documentos y empezarán a consultar un número, y esa interfaz de consulta se volverá el estándar de facto. Para proveedores de equipos y algoritmos la compra es concreta: 966 terminales de inscripción y una carga de deduplicación con diez huellas y dos iris. El Gobierno retiene la operación y los datos en el país, de modo que un proveedor externo vende hardware, algoritmos de captura y motores de cotejo, no la operación. En lo regional, la tarjeta de la Alianza del Sahel ya permite viajar sin pasaporte entre Burkina Faso, Malí y Níger mientras la CEDEAO fija la aceptación del ENBIC para el 1 de enero de 2027: África Occidental está creando dos sistemas paralelos y quien acepte credenciales en frontera tendrá que soportar ambos."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "2026-11-12-telecom-01",
+  "slug": "google-fi-mep-two-profiles-one-esim",
+  "industry": "telecom",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "esim",
+    "mvno",
+    "5g"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-12T04:20:47+08:00",
+  "ingestedAt": "2026-11-12T02:50:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "9to5Google",
+      "url": "https://9to5google.com/2026/11/10/google-fi-network-switching/",
+      "lang": "en",
+      "publishedAt": "2026-11-10T18:00:00-05:00"
+    },
+    {
+      "name": "Android Authority",
+      "url": "https://www.androidauthority.com/google-fi-super-network-3733340/",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "Google Fi 用一张 eSIM 同时跑两家 5G，切换交给系统",
+    "en": "Google Fi runs two US 5G networks on one eSIM with Android MEP",
+    "es": "Google Fi activa dos redes 5G en una eSIM y Android decide el cambio"
+  },
+  "summary": {
+    "zh": "Google 11 月 10 日为 Fi 上线「超级网络」：借助 Android 的多启用电文（MEP）技术，一张 eSIM 同时驻留两家美国 5G 网络，按信号阈值自动切换，用户不能手动选网。首批仅 Pixel 9 及更新机型，且必须用 Fi 的 eSIM、不能有其他启用的 SIM。",
+    "en": "Google switched on Fi's \"super network\" on 10 November: using Android's Multiple Enabled Profiles (MEP), a single eSIM keeps two US 5G networks available at once and the handset moves between them on signal thresholds, with no manual selection. It starts on Pixel 9 and newer, requires Fi on eSIM and no other active SIM.",
+    "es": "Google activó el 10 de noviembre la \"super red\" de Fi: con la tecnología MEP de Android, una sola eSIM mantiene dos redes 5G estadounidenses disponibles a la vez y el teléfono cambia según umbrales de señal, sin selección manual. Arranca en Pixel 9 y posteriores, exige Fi en eSIM y ninguna otra SIM activa."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "同时在线的是两个 profile",
+        "en": "Two profiles online at once",
+        "es": "Dos perfiles activos a la vez"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "过去 eSIM 能存多个 profile，但同时只有一个处于启用状态，换网意味着停用一个、启用另一个。MEP 让两个 profile 同时注册在网，切换在系统层完成，用户看到的是同一个 Fi 连接。Fi 用的是「smart thresholds」，只在备用网明显更好时才切；备用网给最高 QCI 优先级，主网数据不被降速。",
+        "en": "An eSIM could already hold several profiles, but only one was enabled at a time, so changing networks meant disabling one and enabling another. MEP keeps two profiles registered simultaneously and the handset switches in the OS layer, while the user still sees a single Fi connection. Fi applies \"smart thresholds\", moving traffic only when the second network is meaningfully better, and gives the backup link the highest QCI priority while the primary link is never deprioritised.",
+        "es": "Una eSIM ya podía almacenar varios perfiles, pero solo uno estaba habilitado, de modo que cambiar de red obligaba a desactivar uno y activar otro. MEP mantiene dos perfiles registrados a la vez y el teléfono decide en la capa del sistema, mientras el usuario sigue viendo una única conexión Fi. Fi usa \"umbrales inteligentes\": solo migra el tráfico cuando la segunda red es claramente mejor, y asigna la máxima prioridad QCI al enlace de respaldo sin degradar el principal."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "限制与没有公开的部分",
+        "en": "Limits and what was not disclosed",
+        "es": "Límites y lo que no se dijo"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "首批只支持 Pixel 9 及更新机型，按其公告 2027 年扩到更多设备",
+          "en": "Pixel 9 and newer only at launch, with more devices promised for 2027",
+          "es": "Solo Pixel 9 y posteriores al inicio, con más equipos previstos para 2027"
+        },
+        {
+          "zh": "必须使用 Fi 的 eSIM，且设备上不能有其他已启用的 SIM",
+          "en": "Requires Fi on eSIM, with no other active SIM on the device",
+          "es": "Exige Fi en eSIM y ninguna otra SIM activa en el equipo"
+        },
+        {
+          "zh": "第二家运营商没有具名，只说「美国最快的两家 5G 网络」，支持 Ultra Wideband",
+          "en": "The second carrier is unnamed; Google says only that both are among America's fastest 5G networks, with Ultra Wideband",
+          "es": "El segundo operador no se identifica: Google solo dice que ambas están entre las redes 5G más rápidas de EE. UU., con Ultra Wideband"
+        },
+        {
+          "zh": "国际漫游时同样可切换，限 Flexible 与 Unlimited Premium 套餐，覆盖 200 多个目的地",
+          "en": "Switching also works abroad on the Flexible and Unlimited Premium plans, across more than 200 destinations",
+          "es": "El cambio también opera en el extranjero con los planes Flexible y Unlimited Premium, en más de 200 destinos"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这套能力有前史。Project Fi 时代靠 T-Mobile、Sprint 与 U.S. Cellular 三家换网，Sprint 被并购后第二家消失，Fi 实际退化成单网 MVNO；这次是把第二家补回来。同一天 Fi 还把 Wi-Fi Auto Connect+ 扩到部分三星与摩托罗拉机型，并加入应用内助手 Ask Fi。",
+        "en": "The capability has a history. Project Fi switched between T-Mobile, Sprint and U.S. Cellular; after the Sprint merger the second network disappeared and Fi effectively became a single-carrier MVNO. This restores a second network. On the same day Fi extended Wi-Fi Auto Connect+ to selected Samsung and Motorola devices and added an in-app assistant called Ask Fi.",
+        "es": "La capacidad tiene historia. Project Fi alternaba entre T-Mobile, Sprint y U.S. Cellular; tras la fusión de Sprint desapareció la segunda red y Fi quedó como un OMV de una sola red. Ahora se recupera la segunda. Ese mismo día Fi amplió Wi-Fi Auto Connect+ a ciertos Samsung y Motorola y añadió el asistente Ask Fi."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "技术上，MEP 打破「一张卡对应一个签约」的假设：设备要同时维持两套鉴权上下文，卡内要同时启用两个 profile。对 SM-DP+ 与 eUICC 厂商，交付物从「下发一个 profile」变成「下发一组 profile 及其启用策略」，存储分配、射频冲突与功耗管理都成了要写进参数的项。商业上，MVNO 不必逐国逐网谈漫游，可以让终端在两家网络之间择优，这对只握单网批发协议的虚拟运营商是直接的产品差异。往下看，苹果与 Android 对 MEP 的实现差异会成为终端认证与运营商定制的新变量，做 eSIM 管理平台的一方要提前把双 profile 在线场景纳入测试。",
+    "en": "Technically, MEP breaks the assumption that one SIM equals one subscription: the device maintains two authentication contexts and two enabled profiles inside the same eUICC. For SM-DP+ and eUICC vendors the deliverable shifts from shipping one profile to shipping a set of profiles plus an enablement policy, which turns storage allocation, radio contention and power management into parameters that must be specified. Commercially, an MVNO no longer has to negotiate roaming network by network; it can let the handset pick the better of two networks, a direct product difference for virtual operators that hold a wholesale deal with only one. Looking ahead, differences between Apple's and Android's MEP implementations will become a new variable in device certification and operator customisation, and eSIM management platforms should add dual-profile-online scenarios to their test plans now.",
+    "es": "En lo técnico, MEP rompe el supuesto de que una SIM equivale a una suscripción: el equipo mantiene dos contextos de autenticación y dos perfiles habilitados dentro del mismo eUICC. Para los proveedores de SM-DP+ y eUICC, el entregable deja de ser un perfil y pasa a ser un conjunto de perfiles con su política de habilitación, lo que convierte la asignación de memoria, la contención de radio y el consumo en parámetros que hay que especificar. En lo comercial, un OMV ya no necesita negociar itinerancia red por red: puede dejar que el terminal elija la mejor de dos redes, una diferencia de producto directa para operadores virtuales con acuerdo mayorista en una sola. Hacia adelante, las diferencias entre las implementaciones MEP de Apple y Android serán una variable nueva en certificación de equipos y personalización de operador, y las plataformas de gestión eSIM deberían incorporar ya escenarios de doble perfil en línea a sus pruebas."
+  },
+  "confidence": 0.75,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11-12"
+  }
+}

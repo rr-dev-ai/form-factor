@@ -1,0 +1,373 @@
+{
+  "date": "2026-11-12",
+  "industry": "banking",
+  "startedAt": "2026-11-12T02:32:00+08:00",
+  "drafts": [
+    {
+      "id": "2026-11-12-banking-03",
+      "slug": "wasabicard-local-issuing-100-markets",
+      "industry": "banking",
+      "region": "global",
+      "regions": [],
+      "tags": [
+        "issuing"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "FF News",
+          "url": "https://ffnews.com/news/wasabicard-launches-local-card-issuing-across-100-markets-embargoed-68ab69fa",
+          "lang": "en"
+        },
+        {
+          "name": "Finextra",
+          "url": "https://www.finextra.com/pressarticle/111629/wasabicard-launches-local-issuing-across-more-than-100-markets",
+          "lang": "en",
+          "publishedAt": "2026-11-11T10:00:00+00:00"
+        }
+      ],
+      "title": {
+        "zh": "WasabiCard 推本地发卡：100 多个市场用当地 BIN 出卡",
+        "en": "WasabiCard launches local issuing with domestic BINs in 100+ markets",
+        "es": "WasabiCard lanza emisión local con BIN nacionales en más de 100 mercados"
+      },
+      "summary": {
+        "zh": "WasabiCard 11 月 11 日在新加坡发布本地发卡方案：通过与各地金融机构合作取得当地 BIN，让企业在交易发生国发卡，卡组织仍为 Visa 与 Mastercard，支持虚拟卡与实体卡并可直接进 Apple Pay 与 Google Pay。公司称已发 70 万张卡、接入 70 多个 BIN。",
+        "en": "WasabiCard launched a local issuing solution in Singapore on 11 November: through partnerships with financial institutions it obtains domestic BINs so businesses can issue in the market where transactions happen, still on Visa and Mastercard rails, in virtual or physical form with Apple Pay and Google Pay support. The company says it has issued more than 700,000 cards across 70+ BINs.",
+        "es": "WasabiCard lanzó el 11 de noviembre en Singapur una solución de emisión local: mediante acuerdos con entidades financieras obtiene BIN nacionales para que las empresas emitan en el mercado donde ocurre la transacción, siempre sobre Visa y Mastercard, en formato virtual o físico y con soporte de Apple Pay y Google Pay. La empresa afirma haber emitido más de 700.000 tarjetas con más de 70 BIN."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "问题出在 BIN 的国籍",
+            "en": "The problem is the BIN's nationality",
+            "es": "El problema es la nacionalidad del BIN"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "跨境卡项目的常见做法是在一个市场发卡、全球通用，结果是卡在异地被当成国际卡处理，商户费率更高、拒付率更高，还可能触发当地合规问题。这份方案的解法是在交易发生国用当地 BIN 发卡，卡组织不变，结算资金侧可以来自 USDT、USDC 与 OUSD。原文没有列出这 100 多个市场具体是哪些，也没有披露合作金融机构名称与牌照类型。",
+            "en": "Cross-border card programmes usually issue in one market and use the card everywhere, so the card is treated as international elsewhere: higher merchant fees, higher decline rates, and possible local compliance problems. This solution issues in the market where the transaction happens using a domestic BIN, with the scheme unchanged and funding settled from USDT, USDC or OUSD. The release did not list the 100-plus markets, name the partner institutions, or specify licence types.",
+            "es": "Los programas de tarjetas transfronterizos suelen emitir en un mercado y usar la tarjeta en todo el mundo, de modo que fuera se trata como internacional: comisiones más altas para el comercio, más rechazos y posibles problemas de cumplimiento local. Esta solución emite en el mercado donde ocurre la operación con un BIN nacional, sin cambiar de esquema y con liquidación fondeada desde USDT, USDC u OUSD. El comunicado no enumeró los más de 100 mercados, ni nombró a las entidades asociadas, ni precisó tipos de licencia."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "合规筛查放在入金那一刻",
+            "en": "Compliance sits at the deposit step",
+            "es": "El cumplimiento se sitúa al ingresar fondos"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "方案里有一层链上数据核查：入金清算前交叉比对资金来源，命中高风险地址直接拒入，间接触及可疑来源的先暂扣再人工评估，每一步留可审计记录。账户在完成 KYB 与合作方审核后最快 24 小时激活。公司自述已服务 700 多家企业客户、累计交易额超过 10 亿美元。这些是公司提供的数据，未经第三方核实。",
+            "en": "The product includes an on-chain check: before deposits clear, the source of funds is cross-referenced, high-risk addresses are rejected outright, indirect exposure is held for manual review, and each decision is logged for audit. Accounts can activate within 24 hours once KYB and partner review finish. The company says it serves more than 700 enterprise customers and has processed over US$1 billion in volume, figures it supplied and that were not independently verified.",
+            "es": "El producto incluye una verificación on-chain: antes de liquidar el ingreso se contrasta el origen de los fondos, las direcciones de alto riesgo se rechazan, la exposición indirecta se retiene para revisión manual y cada decisión queda registrada para auditoría. La cuenta puede activarse en 24 horas tras completar KYB y la revisión del socio. La empresa afirma atender a más de 700 clientes empresariales y haber procesado más de 1.000 millones de dólares, cifras aportadas por ella y no verificadas de forma independiente."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "本地 BIN 是把卡项目从「一个市场发、全球凑合用」推向「按市场分别发」的关键一步，直接影响商户受理率与跨境费。对做全球薪酬、创作者分成与广告投放的平台，这类方案解决的是收款人所在市场的受理问题，而不只是结算速度；对传统跨境收付商，它压的是外汇与跨境卡手续费这两块收入。需要看清边界：本地发卡必须落地到具体持牌机构，原文既没给市场清单也没给合作方，等于把最关键的可核部分留白；稳定币只是资金侧，卡本身仍走 Visa 与 Mastercard 的规则，不受方案商控制。真正要比的是它在几个主要市场能给出多低的商户费率，而不是市场数量。",
+        "en": "Domestic BINs move card programmes from one-market issuance used globally to issuance per market, which directly affects merchant acceptance rates and cross-border fees. For platforms paying global payroll, creator payouts or ad spend, this addresses acceptance in the recipient's market rather than settlement speed alone; for established cross-border providers it squeezes FX and cross-border card fee revenue. The limits matter: local issuing depends on a licensed institution in each market, and the release names neither the market list nor the partners, leaving the most checkable part blank. Stablecoins sit on the funding side only; the card still runs on Visa and Mastercard rules the issuer does not control. The real comparison is the merchant pricing it can offer in a handful of major markets, not the market count.",
+        "es": "Los BIN nacionales llevan los programas de tarjetas de emitir en un mercado y usarlo en todo el mundo a emitir por mercado, lo que afecta directamente a la aceptación en comercios y a las comisiones transfronterizas. Para plataformas que pagan nóminas globales, regalías de creadores o publicidad, esto atiende la aceptación en el mercado del beneficiario, no solo la velocidad de liquidación; para los proveedores transfronterizos establecidos presiona los ingresos por tipo de cambio y por comisiones de tarjeta internacional. Los límites importan: la emisión local depende de una entidad con licencia en cada mercado, y el comunicado no enumera ni los mercados ni los socios, dejando en blanco la parte más verificable. Las stablecoins están solo en el fondeo; la tarjeta sigue las reglas de Visa y Mastercard que el emisor no controla. La comparación real es el precio para el comercio en unos pocos mercados grandes, no el número de mercados."
+      },
+      "confidence": 0.55,
+      "ai": {
+        "model": "deepseek-v4.1-flash",
+        "promptVersion": "editor-banking-2026-11"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "title": "HSBC 与 Stripe 为英国小微商户上线手机收单",
+      "url": "https://paymentsindustryintelligence.com/hsbc-and-stripe-bring-tap-to-pay-to-uk-small-businesses/",
+      "reason": "duplicate-of-2026-11-11-banking-01：同一场 11 月 10 日的 HSBC UK×Stripe Tap to Pay 发布，PII 只是换了信源重发。"
+    },
+    {
+      "title": "Elephants 选择 Thredd 承接万事达商务卡项目",
+      "url": "https://www.thredd.ai/company/press-releases/elephants-selects-thredd-to-power-mastercard-business-card-program",
+      "reason": "duplicate-of-2026-11-11-banking-05：同一份 11 月 10 日新加坡发布，昨日已发布 Thredd×Elephants 发卡处理。"
+    },
+    {
+      "title": "巴西餐补卡互操作落地受阻：终端未就绪",
+      "url": "https://todaytimeslive.com/brazil-meal-voucher-reform-stalls-over-card-reader-rules",
+      "reason": "duplicate-of-2026-11-10-banking-03：同一项 11 月 7 日生效的 PAT 互操作规则，昨日已发，本条只是补充了行业未就绪的说法。"
+    },
+    {
+      "title": "Visa 把阿联酋 Jaywan 接入受理平台",
+      "url": "https://www.garant.consulting/en/news/visa-jaywan-acceptance-platform-uae-nov-2026",
+      "reason": "duplicate-of-2026-11-09-banking-01：同一笔 11 月 6 日 Al Etihad Payments 与 Visa 的公告，换了两个二手站点重写。"
+    },
+    {
+      "title": "印度旅客在迪拜免税店用 UPI 付款可享 10% 折扣",
+      "url": "https://www.livemint.com/money/indian-travellers-avail-10-pc-discount-upi-transactions-dubai-duty-free-shopping-offer-cap-100-uae-dirhams-npci-payments-11794215635618.html",
+      "reason": "duplicate-of-2026-11-06-banking-03：同一笔 UPI×迪拜免税店×Network International 收单，本条新增的只有营销折扣。"
+    },
+    {
+      "title": "迪拜 RTA 与 Al Etihad Payments 推出 nol-Jaywan 卡",
+      "url": "https://www.merchantseye.com/news/partnership-with-al-etihad-payments-to-launch-next-generation-of-nol-cards-afa785ef",
+      "reason": "duplicate-of-2026-11-06-banking-01：同一张 nol-Jaywan 交通联名卡，11 月试点计划未变。"
+    },
+    {
+      "title": "Cash App 与 Nahmias 推出可支付的方巾，85 美元 11 月 17 日开卖",
+      "url": "https://www.paymentsdive.com/news/blocks-cash-app-weaves-payment-tech-into-bandanas/874328/",
+      "reason": "动作门不过：这是 Cash App Tags 的第二款联名载体，6 月已发过同技术的 digital wand，机制未变、只有外形与联名方变化，属同一厂商半年内第二次同类通稿；另按范围门，支付配饰既不是发卡也不是收单终端。"
+    },
+    {
+      "title": "美国多州继续推进刷卡手续费减免立法",
+      "url": "https://www.paymentsdive.com/news/states-keep-targeting-card-fee-relief/874260/",
+      "reason": "动作门不过：整篇是综述，宾州 HB2090、麻州 S688、新泽西 S4360/A5014 均为此前已提交并停在委员会的旧案，本周没有新的立法或司法节点；伊利诺伊的上诉时间表（11 月 23 日、12 月 21 日交状，2027 年 1 月 27 日开庭）是日程而非动作。"
+    },
+    {
+      "title": "加拿大实时支付系统上线",
+      "url": "https://paymentsindustryintelligence.com/canada-launches-long-delayed-real-time-rail-payments-system/",
+      "reason": "范围门不过：全国实时清算轨道属账户到账户基础设施，与 11-10、11-11 两期同一判据一致，不在发卡与收单栈。"
+    },
+    {
+      "title": "墨西哥拟在加油站取消现金、逐步减少过路费现金",
+      "url": "https://www.mobiletime.com.br/noticias/10/11/2026/mexico-eliminar-dinheiro/",
+      "reason": "动作门不过：《数字与电子支付经济法》11 月 5 日生效，总统 11 月 9 日只是说明拟优先在加油站推纯数字支付，具体行业与时限要等 SHCP 在 15 个工作日内划定，至今没有可核义务。同一监管事件已在 11-07、11-08、11-11 三次按同一判据拦下。"
+    },
+    {
+      "title": "Verve 计划在尼日利亚推出手机非接支付",
+      "url": "https://innov8tiv.com/verve-mobile-tap-to-pay-what-nigerian-cardholders-need-to-know",
+      "reason": "动作门不过：只有「计划推出」与令牌化原理说明，无产品名、无开通日期、无参与的银行名单、无终端改造数量，属能力表述。"
+    },
+    {
+      "title": "俄央行 7438-У、7466-У、7457-У 三份指示",
+      "url": "https://www.cbr.ru/Queries/UniDbQuery/File/90134/8622",
+      "reason": "范围门不过：三份均为 9 月签署的信贷机构报表与统计口径类指示，不涉及卡凭证、受理或清算规则；且签署日已远超 72 小时窗口。"
+    },
+    {
+      "title": "俄央行：Visa 与 Mastercard 若重返俄罗斯须从头走程序",
+      "url": "http://www.dragonnewsru.com/static/content/home/headlines_home/2026-11-11/1570130160605344855.html",
+      "reason": "动作门不过：央行国家支付系统司司长在讲座上的答问，属表态，无文件、无时间表、无受理或发卡机制变化。"
+    },
+    {
+      "title": "俄电商平台有意入股 NSPK",
+      "url": "https://www.akm.ru/eng/news/russian-platforms-are-interested-in-buying-a-stake-in-the-operator-of-the-mir-payment-system/",
+      "reason": "动作门不过：消息源为「接近央行的人士」，属未定案的股权意向，无交易金额、无签约方、无监管批复，且股权变动不是凭证链动作。"
+    },
+    {
+      "title": "俄铁参与量子加密金融基础设施试点",
+      "url": "https://www.comnews.ru/digital-economy/content/248330/2026-11-11/2026-w46/1012/uchastiem-rzhd-zapuschen-pilotnyy-proekt-kvantovoy-zaschity-deystvuyushchey-finansovoy-infrastruktury",
+      "reason": "范围门不过：量子密钥分发保护的是通道加密，标的物不在卡凭证、受理终端或清算规则上。"
+    },
+    {
+      "title": "Pay10 在迪拜金融科技峰会公布零售与教育合作",
+      "url": "https://www.fintechbusinessasia.com/news/1/3669/pay10-expands-uae-digital-payments-ecosystem-through-strategic-partnerships-at-dubai-fintech-summit-2026.html",
+      "reason": "范围门不过：主体能力是 Aani 账户直付与 Open Finance，Jaywan 发卡为既有能力；会场公布的多数为 MoU，唯一可核的是 Bikanervala、Allday、Just Gold 三个已上线商户，规模与终端数均未披露。"
+    },
+    {
+      "title": "Visa 与 Ingenico 把 AXIUM 智能 POS 接入受理平台",
+      "url": "https://www.zacks.com/stock/news/2886884/visas-ingenico-tie-up-expanding-beyond-the-payment-layer",
+      "reason": "时效不可核：唯一来源是券商分析稿，未给公告日期；Ingenico AXIUM 系列本身是 2026 年 2 月的产品，无法判定这次合作落在 72 小时内，按不编时间的原则不收。"
+    },
+    {
+      "title": "埃及推出统一政务服务卡，Visa 参与，首发布赛德省",
+      "url": "https://english.ahram.org.eg/NewsContentMulti/506545/Multimedia.aspx",
+      "reason": "时效不可核： explica 稿只说「近日推出」，没有发布日期，无法判断是否落在 72 小时内；卡片本身信息完整（预付费、带指纹、Visa、首发布赛德省），若后续有一手公告给出日期可再收。"
+    },
+    {
+      "title": "Newland 与 Aevi 打通安卓智能 POS 机型族认证",
+      "url": "https://mihaipay.cn/index.php?a=show&c=index&catid=9&id=422&m=content",
+      "reason": "超窗：事件为 11 月 3 日，早于 72 小时窗口（自 11-09 02:30 起算）；且引用的原始报道为二手汇编站，未见一手公告。"
+    },
+    {
+      "title": "littlefish 与 Halo Dot 打包 SoftPOS 与商户后台",
+      "url": "https://mihaipay.cn/index.php?a=show&c=index&catid=9&id=425&m=content",
+      "reason": "动作门不过：与 11-08 已拦的同一事件重复，原文只有「已在非洲多个市场落地」，无国家、无客户、无终端数；11 月 4 日发布，亦已出窗。"
+    },
+    {
+      "title": "PCI SSC 结束 SPoC 与 CPoC 提交，SoftPOS 全面转向 MPoC",
+      "url": "https://iotdigitaltwinplm.com/softpos-and-tap-to-pay-architecture-contactless-emv-on-commodity-phones-pci-mpoc-and-attestation-2026",
+      "reason": "超窗：日落期为 2026 年 5 月 1 日至 10 月 31 日，10 月 31 日截止已出 72 小时窗口；且来源为架构分析稿，非 PCI SSC 公告，缺可引的一手文件。"
+    },
+    {
+      "title": "新国都：年产逾 1000 万台 POS，参与 PCI MPoC 标准制定",
+      "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2156af40e5047552",
+      "reason": "动作门不过：中新网通讯稿，体裁是记者走访企业，讲的是 2024 年 1 月拿到首张 MPoC 证书与产能存量，本期无新发布、无新客户、无新认证。"
+    },
+    {
+      "title": "Kingdom Bank 上线 Sandstone 数字银行平台",
+      "url": "https://www.finextra.com/pressarticle/111641/kingdom-bank-goes-live-with-sandstone-technology",
+      "reason": "范围门不过：交付内容为数字开户、网银与手机银行，不含发卡、卡管理或受理终端，不落在卡栈。"
+    },
+    {
+      "title": "Verifone 连续第二年获 Javelin 生物识别支付平台最佳等级",
+      "url": "https://www.merchantseye.com/news/verifone-named-best-in-class-by-javelin-for-its-biometric-identity-and-payment-p-6dfa3e7f",
+      "reason": "动作门不过：奖项评定不是六类动作；文中可核的技术事实（Victa 机型、第三方 POS 改造、SDK/API）均为既有能力。"
+    },
+    {
+      "title": "Yoco 获 Victory Park Capital 1 亿美元扩商户融资",
+      "url": "https://techmoran.com/2026/11/11/yoco-raises-100-million-from-victory-park-capital-to-expand-merchant-financing/",
+      "reason": "范围门不过：融资与商户信贷，标的不在发卡、受理或清算规则。"
+    },
+    {
+      "title": "Lumepay 融资 600 万美元进入肯尼亚跨境支付",
+      "url": "https://techmoran.com/2026/11/11/lumepay-discloses-6-million-pre-seed-round-as-it-enters-kenyas-cross-border-payments-market/",
+      "reason": "范围门不过：早期融资与跨境汇款，不含卡凭证或受理终端。"
+    },
+    {
+      "title": "埃及 Enza 融资 600 万美元做银行侧卡组织连接层",
+      "url": "https://readthestak.com/articles/africa-startup-deals-week-2-nov-2026",
+      "reason": "动作门不过：融资事件；其产品（一条连接接 Verve、AfriGo、NIBSS 的接入层）无版本号、无上线客户名单，产品描述不能替代动作。"
+    },
+    {
+      "title": "Bottomline 完成首笔 USDC 实时结算",
+      "url": "https://fintechnews.sg/140941/blockchain/bottomline-usdc-stablecoin-cross-border-payments/",
+      "reason": "范围门不过：稳定币跨境结算，标的不在卡栈；与 11-11 同一判据。"
+    },
+    {
+      "title": "德意志银行上线加密资产托管",
+      "url": "https://www.pymnts.com/cryptocurrency/2026/deutsche-bank-brings-crypto-custody-service-online/",
+      "reason": "范围门不过：托管服务，不涉及卡凭证、发卡或受理。"
+    },
+    {
+      "title": "渣打与蚂蚁国际试点代币化基金流动性安排",
+      "url": "https://fintechnews.hk/42078/blockchain/stanchart-ant-tokenised-fund-liquidity/",
+      "reason": "范围门不过：代币化基金与流动性安排，标的不是卡或受理终端；与 11-03、11-11 代币化类判据一致。"
+    },
+    {
+      "title": "Suhyup Bank 与 SOOHOO.IO 在 Partior 上测代币化存款跨境汇款",
+      "url": "https://fintechnews.hk/42079/fintechkorea/project-namsan-phase-2-suhyup-bank-partior/",
+      "reason": "范围门不过：代币化存款与跨境汇款试点，不在卡栈。"
+    },
+    {
+      "title": "多家全球银行向联合稳定币项目出资 2.7 亿美元",
+      "url": "https://fintechnews.sg/140927/digitalassets/banks-us-dollar-stablecoin/",
+      "reason": "范围门不过：稳定币发行，AGENTS.md 明确排除；出资方与金额虽可核，但标的物不合门。"
+    },
+    {
+      "title": "OCC 给银行检查员一套 AI 审查手册",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/occ-gives-bank-examiners-new-playbook-reviewing-ai/",
+      "reason": "范围门不过：监管检查方法，不落在凭证链任何环节。"
+    },
+    {
+      "title": "卡组织借 B2B 支付为代理商务定规则",
+      "url": "https://www.pymnts.com/news/b2b-payments/2026/card-networks-use-b2b-payments-to-write-the-rules-for-agentic-commerce/",
+      "reason": "动作门不过：分析稿，无新规范版本、无生效日、无强制时点；文中唯一带日期的事实是 11 月 9 日 Clink 接入 Mastercard Agent Pay，该条已在 11-11 按动作门拦下。"
+    },
+    {
+      "title": "Clink 接入 Mastercard Agent Pay",
+      "url": "https://thepaypers.com/payments/news/clink-adds-mastercard-agent-pay-support-for-ai-agent-payments",
+      "reason": "动作门不过：与 11-11 同一判据，无落地市场、无客户、无开通规模，开发者接入仍为接洽制。"
+    },
+    {
+      "title": "OJK 要求银行在不良率飙升时暂停与 P2P 合作放贷",
+      "url": "https://fintechnews.id/111032/lending/ojk-p2p-lending-banks-npl-warning/",
+      "reason": "范围门不过：信贷与助贷监管，不涉及卡凭证或受理。"
+    },
+    {
+      "title": "泰国 SEC 就 ICO 投资者测试与众筹费率征求意见",
+      "url": "https://fintechnews.sg/140974/thailand/thailand-sec-ico-portal-knowledge-test/",
+      "reason": "范围门不过：证券与数字资产发行监管，不在卡栈；同批的众筹费率稿同一判据。"
+    },
+    {
+      "title": "MAS 推出黄金托管服务并修订批发 GST 框架",
+      "url": "https://fintechnews.sg/140926/fintech/mas-gold-vaulting-central-banks-singapore/",
+      "reason": "范围门不过：黄金托管与税制，不落在凭证链。"
+    },
+    {
+      "title": "Backbase 任命两位 CTO",
+      "url": "https://fintechnews.sg/140918/digital-banking-news-singapore/backbase-two-cto/",
+      "reason": "范围门不过：人事变动，AGENTS.md 明确排除。"
+    },
+    {
+      "title": "Airwallex 创始人的 Alta 融资 8000 万美元",
+      "url": "https://fintechnews.sg/140899/funding/alta-80-million-funding-jack-zhang-airwallex/",
+      "reason": "范围门不过：融资，标的是区块链基础设施。"
+    },
+    {
+      "title": "西联放弃 Intermex 收购",
+      "url": "https://www.pymnts.com/news/acquiring/2026/western-union-scraps-intermex-deal-after-regulatory-fight/",
+      "reason": "范围门不过：并购终止，属交易与监管程序，不是凭证机制变化。"
+    },
+    {
+      "title": "Nexi 将 Ratepay 出售给 Affirm",
+      "url": "https://www.finextra.com/newsarticle/48736/nexi-to-sell-ratepay-to-affirm",
+      "reason": "范围门不过：并购，标的为 BNPL 服务商，不是发卡、终端或卡组织规则；与 11-11 同一判据。"
+    },
+    {
+      "title": "Revolut 获新西兰银行牌照",
+      "url": "https://paymentsindustryintelligence.com/revolut-secures-new-zealand-banking-licence/",
+      "reason": "范围门不过：银行牌照，AGENTS.md 明确排除。"
+    },
+    {
+      "title": "EPC 收紧 SEPA 收款人核验匹配规则",
+      "url": "https://paymentsindustryintelligence.com/epc-tightens-verification-of-payee-matching-rules-across-sepa/",
+      "reason": "超窗且不合门：事件为 11 月 5 日，已出 72 小时；标的为 SEPA 转账的收款人核验，不在卡栈。"
+    },
+    {
+      "title": "英国拟强制 POS 软件标准以打击收银舞弊",
+      "url": "https://paymentsindustryintelligence.com/uk-moves-to-mandate-pos-software-standards-effectively/",
+      "reason": "超窗：事件为 10 月 29 日；如后续公布正式立法文本与生效日，可再收。"
+    },
+    {
+      "title": "Sage 与 Mastercard、Adyen 合作把支付嵌进会计软件",
+      "url": "https://www.pymnts.com/partnerships/2026/sage-launches-smb-partnerships-with-mastercard-adyen/",
+      "reason": "动作门不过：既有支付能力换个入口，属销售渠道变化，未改变凭证形态或受理机制。"
+    },
+    {
+      "title": "Block 应 FTC 要求提供数据",
+      "url": "https://www.paymentsdive.com/news/block-to-provide-data-to-ftc/874156/",
+      "reason": "范围门不过：监管调查程序，不涉及凭证载体或受理机制。"
+    },
+    {
+      "title": "Global Payments 面临行业定价压力",
+      "url": "https://www.paymentsdive.com/news/global-payments-faces-industry-pricing-pressure/874128/",
+      "reason": "范围门不过：财报与估值讨论，与 11-11 同一判据。"
+    },
+    {
+      "title": "巴西三季度非接支付增长 16.1%（Abecs 数据）",
+      "url": "https://www.mobiletime.com.br/noticias/10/11/2026/pagamento-nfc-abecs/",
+      "reason": "动作门不过：行业统计，无产品、规范或部署动作。"
+    },
+    {
+      "title": "墨西哥讨论对 Temu、Shein、亚马逊征税",
+      "url": "https://www.mobiletime.com.br/noticias/10/11/2026/colombia-discute-cobranca-de-iva-sobre-temu-shein-e-amazon/",
+      "reason": "范围门不过：跨境电商税收讨论，不在卡栈。"
+    },
+    {
+      "title": "FNB 将重复扣款归因于第三方银行",
+      "url": "https://www.itweb.co.za/article/fnb-blames-third-party-bank-for-duplicate-transactions/DZQ58MV8W88vzXy2",
+      "reason": "范围门不过：运营事故与责任归属，无凭证或受理机制变化。"
+    },
+    {
+      "title": "三星分期付款占非洲智能手机收入 46%",
+      "url": "https://techmoran.com/2026/11/11/samsungs-instalment-plans-accounted-for-46-of-its-smartphone-revenue-in-africa/",
+      "reason": "动作门不过：厂商销售结构统计，不是支付动作。"
+    },
+    {
+      "title": "俄央行 10 月货币信贷条件与统计口径系列发布",
+      "url": "https://www.cbr.ru/analytics/dkp/likvid/#a_17329",
+      "reason": "范围门不过：整组 9 条央行页面为利率、存贷款、外贸与纪念币统计，无凭证、受理或规则变化，按统计类整组排除。"
+    },
+    {
+      "title": "加纳非利息金融、黄金、预算与保险类报道一组",
+      "url": "https://www.ghanabusinessnews.com/2026/11/11/ghana-eyes-10-5-trillion-non-interest-market-as-three-banks-seek-licences/",
+      "reason": "范围门不过：整组 10 条为牌照申请、行业呼吁、大宗与保险，全部不落在卡凭证、发卡、受理或清算规则。"
+    },
+    {
+      "title": "南非 ITWeb AI、SaaS 与终端硬件类报道一组",
+      "url": "https://www.itweb.co.za/article/smmes-struggle-to-move-beyond-basic-ai-adoption/raYAyqormreMJ38N",
+      "reason": "范围门不过：整组为企业 AI 采用、SaaS 续费、云战略与模组广告，与卡栈无关。"
+    },
+    {
+      "title": "PYMNTS 消费与 CFO 调研类报道一组",
+      "url": "https://www.pymnts.com/consumer-insights/2026/retailers-face-a-spending-squeeze-beyond-struggling-households/",
+      "reason": "动作门不过：整组为消费支出、CFO 现金流偏好与观点稿，无具体动作与可核产品。"
+    }
+  ],
+  "stats": {
+    "candidates": 200,
+    "written": 6,
+    "skippedByDedup": 6
+  },
+  "finishedAt": "2026-11-11T20:20:33.637Z"
+}

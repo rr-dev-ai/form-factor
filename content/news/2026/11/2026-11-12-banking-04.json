@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-12-banking-02",
+  "slug": "credit-agricole-deutschland-enfuce-visa-debit-binning",
+  "industry": "banking",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "secure-chip"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-12T04:20:47+08:00",
+  "ingestedAt": "2026-11-12T02:32:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Financial IT",
+      "url": "https://financialit.net/news/banking/credit-agricole-deutschland-selects-enfuce-partner-visa-debit-cards",
+      "lang": "en",
+      "publishedAt": "2026-11-11T11:07:00+00:00"
+    },
+    {
+      "name": "Finextra",
+      "url": "https://www.finextra.com/pressarticle/111647/crdit-agricole-deutschland-selects-enfuce-as-partner-for-visa-debit-cards",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "法农信贷德国新行发 Visa 借记卡，Enfuce 任 BIN 赞助",
+    "en": "Credit Agricole Deutschland picks Enfuce as BIN sponsor for Visa debit",
+    "es": "Credit Agricole Deutschland elige a Enfuce como patrocinador de BIN"
+  },
+  "summary": {
+    "zh": "法国农业信贷银行 11 月 11 日在德国推出的数字零售银行，把 Visa 借记卡的发卡处理交给芬兰 Enfuce：Enfuce 同时担任发卡方、BIN 赞助方与处理方，实体卡与个性化由 G+D 提供。卡绑定活期账户，开户即可使用。发卡量与上线日期未披露。",
+    "en": "Credit Agricole's new digital-first retail bank in Germany, announced on 11 November, hands Visa debit issuing to Finland's Enfuce, which acts as issuer, BIN sponsor and processor. G+D supplies the physical cards and personalisation. The card is tied to the current account and usable as soon as the account opens. Card volumes and a launch date were not disclosed.",
+    "es": "El nuevo banco minorista digital de Credit Agricole en Alemania, anunciado el 11 de noviembre, encarga la emisión de la tarjeta de débito Visa a la finlandesa Enfuce, que actúa como emisor, patrocinador de BIN y procesador. G+D aporta las tarjetas físicas y la personalización. La tarjeta va ligada a la cuenta corriente y sirve desde que se abre la cuenta. No se revelaron volúmenes ni fecha de lanzamiento."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "一家新银行开在别人的 BIN 上",
+        "en": "A new bank running on someone else's BIN",
+        "es": "Un banco nuevo sobre el BIN de otro"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "法国农业信贷在德国已有七十余年历史、服务约一百万客户，这次推出的是面向零售客户的数字优先银行，首批产品为活期账户、Visa 借记卡、储蓄产品与一个用于开户和账户管理的手机 App。Enfuce 承担三个角色：发卡方、BIN 赞助方与支付处理方；G+D 供实体卡并做个性化。原文称这是新建银行，未说明是否替换了既有处理商。",
+        "en": "Credit Agricole has operated in Germany for more than 70 years and serves about one million customers there; the new entity is a digital-first retail bank whose first products are a current account, a Visa debit card, savings products and a mobile app for onboarding and account management. Enfuce carries three roles: issuer, BIN sponsor and payment processor. G+D supplies the physical cards and handles personalisation. The release describes a newly launched bank and does not say whether an incumbent processor was replaced.",
+        "es": "Credit Agricole lleva más de 70 años en Alemania y atiende a cerca de un millón de clientes; la nueva entidad es un banco minorista digital cuyos primeros productos son cuenta corriente, tarjeta de débito Visa, productos de ahorro y una app para el alta y la gestión de la cuenta. Enfuce asume tres roles: emisor, patrocinador de BIN y procesador de pagos. G+D aporta las tarjetas físicas y la personalización. El comunicado describe un banco de nueva creación y no aclara si sustituye a un procesador existente."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "发卡栈被拆成三段外包",
+        "en": "The issuing stack split into three suppliers",
+        "es": "La cadena de emisión dividida en tres proveedores"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这条的结构值得注意：一家持牌银行把 BIN、处理与制卡个性化分别交给 Enfuce 与 G+D，自己只保留账户、客户关系与 App。对想要快速开业的欧洲新银行，这是可复制的模板；对 Enfuce 这类处理商，则意味着生意从「卖系统给银行」变成「替银行持有 BIN」。原文没有给出卡数量、交易量或分阶段上线计划。",
+        "en": "The structure is the point: a licensed bank splits BIN, processing and card personalisation between Enfuce and G+D, keeping only the account, the customer relationship and the app in-house. That is a repeatable template for European banks that want to launch quickly, and for processors such as Enfuce it means the business shifts from selling systems to a bank to holding the BIN on the bank's behalf. The release gave no card counts, transaction volumes or phased rollout plan.",
+        "es": "La estructura es lo relevante: un banco con licencia reparte BIN, procesamiento y personalización de tarjetas entre Enfuce y G+D, y se queda solo con la cuenta, la relación con el cliente y la app. Es una plantilla replicable para bancos europeos que quieran lanzarse rápido y, para procesadores como Enfuce, supone pasar de vender sistemas a un banco a mantener el BIN en su nombre. El comunicado no dio número de tarjetas, volúmenes ni un plan por fases."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "德国的零售银行市场以现金习惯牢固、Girocard 体系独立著称，一家新行直接发 Visa 借记卡而不是先接 Girocard，等于把受理范围押在 Visa 的商户网络上。对发卡处理商，这条说明欧洲新银行更愿意买「BIN + 处理 + 制卡」的整包，而不是自建发卡系统再找赞助行；能同时提供 BIN 赞助的处理商，议价权高于只做处理的同行。对 G+D 这类制卡与个性化厂商，订单从大行集中采购转向跟着新银行项目走，单量小但决策快。需要观察的是这张卡会不会加 Girocard 联名、以及 Enfuce 在德国的第二个客户何时出现——只有一个客户时，这套外包模式还称不上渠道。",
+    "en": "German retail banking is known for stubborn cash habits and a separate Girocard scheme, so a new bank issuing Visa debit first rather than joining Girocard first is betting its acceptance reach on Visa's merchant network. For processors, the deal suggests new European banks prefer buying BIN, processing and card production as one package over building issuing and then finding a sponsor bank; a processor that can also sponsor BIN has more leverage than one that only processes. For card manufacturers such as G+D, orders shift from large central bank procurement to following new-bank projects: smaller volumes, faster decisions. Watch whether a Girocard co-badge follows, and when Enfuce lands a second German client, since one client is not yet a channel.",
+    "es": "La banca minorista alemana se caracteriza por un hábito de efectivo persistente y un esquema Girocard propio, así que un banco nuevo que emite Visa débito antes de entrar en Girocard apuesta su alcance de aceptación a la red de comercios de Visa. Para los procesadores, el acuerdo sugiere que los bancos europeos nuevos prefieren comprar BIN, procesamiento y producción de tarjetas en un solo paquete antes que construir la emisión y luego buscar un banco patrocinador; un procesador que además patrocina BIN tiene más palanca que uno que solo procesa. Para fabricantes como G+D, los pedidos pasan de la compra centralizada de un gran banco a seguir proyectos de bancos nuevos: menos volumen, decisiones más rápidas. Habrá que ver si llega un cobadge Girocard y cuándo Enfuce consigue un segundo cliente alemán, porque un solo cliente aún no es un canal."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-banking-2026-11"
+  }
+}

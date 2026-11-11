@@ -1,0 +1,62 @@
+{
+  "fetchedAt": "2026-11-12T01:53:37+08:00",
+  "fetchedFor": "2026-11-12",
+  "gap": ["cis", "mena", "latam"],
+  "cellGap": [
+    "apac/telecom",
+    "apac/identity",
+    "europe/banking",
+    "europe/telecom",
+    "north-america/telecom",
+    "north-america/identity",
+    "africa/banking",
+    "africa/telecom"
+  ],
+  "industryGap": ["telecom", "banking", "identity"],
+  "items": [
+    {
+      "title": "Kazakhstan lets foreigners apply for IIN online in QazETA biometric pilot",
+      "url": "https://qazinform.com/news/foreigners-to-obtain-iin-online-within-one-working-day-in-kazakhstan-868288",
+      "publishedAt": "2026-11-10T18:45:00+05:00",
+      "industry": "identity",
+      "region": "cis",
+      "actionType": "产品化节点",
+      "gateNote": "落地形态是内务部第 825 号令下的一项在线服务，无招标、无金额、无承接商，离「授标」差标的与承接方两项；也无规范版本与发证机构，离「标准与认证」更远。试点只对身在哈萨克斯坦境内的外国人开放，规模与影响面都小，终审若按「单国小范围服务上线」收紧可能刷掉。",
+      "discoveredBy": "مناقصة بطاقة الهوية الوطنية إصدار نوفمبر 2026",
+      "note": "落在签发环节的受理端。IIN 是国家身份编号，此前外国人只能到移民服务柜台办。机制变化在于把三件事串成一条链：证件拍照、生物识别核验、在哈境内定位确认，全部在 QazETA 内完成，办结压到 1 个工作日。原文没给申请人数量、没说与既有柜台渠道如何分流，也没交代 IIN 与生物识别记录是否并入统一库。"
+    },
+    {
+      "title": "China Mobile Internet seals QRNG chip and PQC into a second-gen super SIM",
+      "url": "https://economy.gmw.cn/2026-11/10/content_39094792.htm",
+      "publishedAt": "2026-11-10T16:30:00+08:00",
+      "industry": "telecom",
+      "region": "apac",
+      "actionType": "产品化节点",
+      "gateNote": "是成果发布加转载通稿（咸宁新闻网原发，光明网转载），有产品形态与工程参数，但没有客户名、没有出货量、没有 GSMA eSA 或 CC 等级；离「标准与认证」差发证方与等级，离「产能与工艺」差产线参数。终审若要求可核客户或认证，这条只剩技术描述。",
+      "discoveredBy": "quantum-safe smart card post-quantum payment card certification November 2026",
+      "note": "落在载体与卡内安全元件。机制变化是把量子随机数芯片与超级 SIM 安全芯片在 4FF 封装（12.3×8.8 毫米）内双芯合封，并让 PQC 密钥协商在卡内跑通，不再依赖预灌装密钥和量子专线；换卡即升级，终端硬件不动。原文没说是哪套 PQC 算法、没给随机数生成速率与密钥协商耗时，也没说哪家运营商已开始发卡。"
+    },
+    {
+      "title": "TIM to embed eSIM connectivity in BYD's Camaçari plant and 400,000 vehicles",
+      "url": "https://valorinternational.globo.com/business/news/2026/11/09/tim-to-connect-byd-factory-and-vehicles.ghtml",
+      "publishedAt": "2026-11-09T00:00:00-03:00",
+      "industry": "telecom",
+      "region": "latam",
+      "actionType": "联合部署",
+      "gateNote": "双方未披露投资金额，未公布 eSIM 供应商与量产时间表，受益方只有 BYD 一家车企，属单客户合同，离「跨国落地」差第二个市场与名单。若终审要求金额或承接规模，这条只剩车辆数与会覆盖城市数两项可核。",
+      "discoveredBy": "Brasil operadora eSIM lançamento novembro 2026 chip virtual",
+      "note": "同时落在分发与载体：车厂把 eSIM 做成出厂预置，运营商按 B2B2C 向车厂收费、车主不付流量费。机制变化是连接从「车主自购卡」变成「出厂 profile 加远程管理」，工厂侧另建私有 4G/5G（7 个室外覆盖点、63 台设备，园区 460 万平方米）。原文只标 11-09 未给时刻，也没给单车数据用量、SM-DP+ 提供方，以及 40 万辆中已激活的比例。"
+    },
+    {
+      "title": "Jordan to put airport entry and exit stamps inside the Sanad digital ID app",
+      "url": "https://www.jordannews.jo/Section-109/News/Airport-Entry-and-Exit-Stamps-to-Be-Available-via-Sanad-58703",
+      "publishedAt": "2026-11-10T00:00:00+03:00",
+      "industry": "identity",
+      "region": "mena",
+      "actionType": "无",
+      "gateNote": "是部委答媒体提问的表态，只说信息「很快」进 app，没有上线日、没有招标、没有金额、没有承接商，六类动作一类都不贴，故记「无」。若终审要求可核交付物，这条只剩 340 万激活数与两个机场已有的 e-gate 两项既有事实，功能本身尚未上线。",
+      "discoveredBy": "Jordan digital ID card mobile wallet launch November 2026",
+      "note": "落在受理端。Sanad 是约旦数字身份 app，此前只用于机场 e-gate 的通行授权，现在要把出入境章的日期与全部历史记录搬进 app 内可查。机制变化是把边检盖章这一纸质动作转成 app 内的电子记录，e-gate 申请也统一收敛到 Sanad。原文只标 11-10 未给时刻，没说是否替代护照盖章，也没给 e-gate 日均通行量，只有 Amman Civil 离港 20–25% 使用率。"
+    }
+  ]
+}

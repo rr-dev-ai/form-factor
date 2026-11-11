@@ -1,0 +1,219 @@
+{
+  "date": "2026-11-12",
+  "industry": "telecom",
+  "startedAt": "2026-11-12T02:50:00+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "KT Sat opens door for Skylo IoT play",
+      "url": "https://www.mobileworldlive.com/industry/kt-sat-opens-door-for-skylo-iot-play/",
+      "reason": "动作门不过：Skylo 在 11-10 刚以 Vodafone IoT 商用发布同一套 NTN 服务（已由 2026-11-10-telecom-02 处理），两天后再发韩国分销协议属同一厂商同类通稿；措辞是「待科技信息通信部批准」，无金额、无上线时间、无客户名单。"
+    },
+    {
+      "title": "Vivo Satélite supera 10 milhões de usuários em duas semanas",
+      "url": "https://www.mobiletime.com.br/noticias/11/11/2026/vivo-satelite-10-milhoes/",
+      "reason": "动作门不过：两周 1000 万用户的采纳里程碑加 12 个月免费促销，载体与鉴权机制未变；按容量付费、不做 revenue share 属商务条款。"
+    },
+    {
+      "title": "AST SpaceMobile eyes nationwide intermittent US service by year end",
+      "url": "https://www.fierce-network.com/wireless/ast-spacemobile-eyes-nationwide-intermittent-us-service-year-end",
+      "reason": "动作门不过：服务上线时间的口头预期，无产品名、无运营商客户、无终端清单，属表态而非部署。"
+    },
+    {
+      "title": "AST SpaceMobile D2D satellite launch target slips again",
+      "url": "https://www.lightreading.com/satellite/ast-spacemobile-d2d-satellite-launch-target-slips-again",
+      "reason": "动作门不过：发射排期再次推迟，属项目进度而非形态或机制变化。"
+    },
+    {
+      "title": "Quectel launches EG216Q-GL and BG950Q-GL",
+      "url": "https://iot-now.com/2026/11/11/159316-quectel-eg216q-gl-bg950q-gl-cost-efficient-lower-power-upgrade/",
+      "reason": "范围门不过：IoT 通信模组，不是 SIM/eUICC/SE 载体本身，也无制程、封装或认证等级参数，不满足上游制造判据。"
+    },
+    {
+      "title": "Quectel SP900BF-AP smart module with 100 TOPS",
+      "url": "https://www.itweb.co.za/article/quectel-sp900bf-ap-smart-module-sets-the-pace-for-edge-ai-with-100-tops-of-computing-power/rW1xL75nknBMRk6m",
+      "reason": "范围门不过：边缘 AI 智能模组，与凭证载体无关。"
+    },
+    {
+      "title": "Quectel expands 5G antenna portfolio with ten combo solutions",
+      "url": "https://www.itweb.co.za/article/quectel-expands-5g-antenna-portfolio-with-ten-versatile-combo-solutions-from-compact-2-in-1-to-rugged-9-in-1-designs/6GxRKqYQOQPqb3Wj",
+      "reason": "范围门不过：天线产品线扩充，属射频器件而非 SIM 载体或签发环节。"
+    },
+    {
+      "title": "T-Mobile goes national with T-Mix",
+      "url": "https://www.lightreading.com/5g/t-mobile-goes-national-with-t-mix-and-gets-real-about-robots",
+      "reason": "范围门不过：套餐积分与订阅打包（Picks 额度、90 天重置），属资费促销，AGENTS 明确排除。"
+    },
+    {
+      "title": "La polémique sur Starlink en Ukraine freine les ambitions D2D de BT",
+      "url": "https://www.mobileworldlive.com/french/la-polemique-sur-starlink-en-ukraine-freine-les-ambitions-d2d-de-bt/",
+      "reason": "动作门不过：CEO 表态暂缓，无签约、无上线时间、无技术参数；FT 与路透的同题稿为同一表态的二次报道。"
+    },
+    {
+      "title": "Anatel anuncia mudanças no Plano Geral de Metas de Competição (IoT)",
+      "url": "https://www.mobiletime.com.br/noticias/10/11/2026/anatel-mudancas-pgmc/",
+      "reason": "范围门不过：批发接入与竞争义务的调整，不改变 SIM/eSIM 载体、profile 下发或鉴权方式。"
+    },
+    {
+      "title": "ICASA seeks input on next phase of spectrum licensing",
+      "url": "https://www.itweb.co.za/article/icasa-seeks-input-on-next-phase-of-spectrum-licensing/DZQ58vV8WPXMzXy2",
+      "reason": "范围门不过：频谱指配征询，AGENTS 列为明确排除项。"
+    },
+    {
+      "title": "GSMA urges governments to strengthen telecom network resilience",
+      "url": "https://www.telecomreviewasia.com/news/policy-news/30751-gsma-urges-governments-to-strengthen-telecom-network-resilience/",
+      "reason": "超窗且不合门：政策原则文件为 11-03 发布，已出 72 小时；内容是网络韧性政策建议，不落载体与鉴权。"
+    },
+    {
+      "title": "NTT DOCOMO BUSINESS advances space infrastructure development",
+      "url": "https://www.telecomreviewasia.com/news/technology-news/30761-ntt-docomo-business-advances-space-infrastructure-development/",
+      "reason": "无法核原文（链接 404）且范围门不过：太空基础设施属地面段与星座，未见 SIM、RSP 或鉴权相关产物。"
+    },
+    {
+      "title": "Optus, Nokia go high on low-band 5G",
+      "url": "https://www.mobileworldlive.com/network-tech/optus-nokia-go-high-on-low-band-5g/",
+      "reason": "范围门不过：无线接入试验，属基站与核心网侧，明确排除。"
+    },
+    {
+      "title": "VodafoneThree explores new subsea cable between Scotland and Norway",
+      "url": "https://www.mobileeurope.co.uk/vodafonethree-subsea-scotland/",
+      "reason": "范围门不过：海底光缆属传输基础设施，不在三条凭证链路上。"
+    },
+    {
+      "title": "Telefonica bolsters German fibre offering",
+      "url": "https://www.mobileworldlive.com/europe/telefonica-bolsters-german-fibre-offering/",
+      "reason": "范围门不过：光纤覆盖扩张，属固网接入。"
+    },
+    {
+      "title": "HGC appoints Frédéric Schepens as CEO",
+      "url": "https://www.telecomreviewasia.com/news/industry-news/30748-hgc-appoints-frederic-schepens-as-ceo-to-advance-its-strategic-growth/",
+      "reason": "范围门不过：人事变动，AGENTS 明确排除。"
+    },
+    {
+      "title": "stc Kuwait wins global award for 5G-Advanced commercial success",
+      "url": "https://www.telecomreviewasia.com/news/industry-news/30755-stc-kuwait-wins-global-award-for-5g-advanced-commercial-success/",
+      "reason": "动作门不过：第三方奖项评定不属六类动作，文中技术事实均为既有能力。"
+    },
+    {
+      "title": "etisalat UAE receives excellence award for intelligent 5G-Advanced operations",
+      "url": "https://www.telecomreviewasia.com/news/industry-news/30744-etisalat-uae-receives-excellence-award-for-advancing-intelligent-5g-advanced-operations/",
+      "reason": "动作门不过：同类奖项稿，无新产品、无版本号、无客户。"
+    },
+    {
+      "title": "Ethiopia's GDP rebasing brings digital finance into national accounts as Ethio telecom revenue climbs",
+      "url": "https://www.telecomreviewafrica.com/articles/telecom-operators/29457-ethiopias-gdp-rebasing-brings-digital-finance-into-national-accounts-as-ethio-telecom-revenue-climbs/",
+      "reason": "范围门不过：财报与国民经济核算，AGENTS 排除财报类。"
+    },
+    {
+      "title": "Telcel mantiene cobertura general más amplia en México, pero AT&T compite en 5G",
+      "url": "https://dplnews.com/telcel-mantiene-cobertura-general-mas-amplia-en-mexico-pero-att-compite-en-5g/",
+      "reason": "动作门不过：第三方路测与覆盖比较，无新部署或产品。"
+    },
+    {
+      "title": "Venezuela: Digitel incorpora wifi calling para clientes con VoLTE",
+      "url": "https://dplnews.com/venezuela-digitel-incorpora-wifi-calling-para-clientes-con-volte/",
+      "reason": "范围门不过：VoWiFi 属语音业务能力，不改变 SIM 载体或网络鉴权方式。"
+    },
+    {
+      "title": "TELMEX refuerza su red de centros de datos con certificación ICREA VI",
+      "url": "https://dplnews.com/telmex-robustece-su-red-nacional-de-centros-de-datos-de-alta-disponibilidad-con-certificacion-icrea-vi/",
+      "reason": "范围门不过：数据中心可用性认证，不在凭证链路。"
+    },
+    {
+      "title": "Uruguay: Antel iniciará en 2027 las obras de su nuevo data center",
+      "url": "https://www.telesemana.com/blog/2026/11/11/uruguay-antel-iniciara-en-2027-las-obras-de-su-nuevo-data-center-en-las-piedras-con-una-inversion-de-us-70-millones/",
+      "reason": "范围门不过：数据中心投资，不在凭证链路。"
+    },
+    {
+      "title": "Cable Antártico: estaría listo para 2034, pero falta el aval ambiental",
+      "url": "https://www.telesemana.com/blog/2026/11/11/cable-antartico-estaria-listo-para-2034-pero-falta-el-aval-ambiental-y-el-modelo-de-gobernanza/",
+      "reason": "范围门不过：海缆项目进度，属传输基础设施。"
+    },
+    {
+      "title": "Vivo avalia compra da Vero e não descarta outros ISPs",
+      "url": "https://www.mobiletime.com.br/noticias/11/11/2026/vero-vivo/",
+      "reason": "动作门不过：并购意向，无金额、无签约；且股权变动不是凭证链动作。"
+    },
+    {
+      "title": "Conatel abre sumario a Nubicom por desvinculación de matriz argentina",
+      "url": "https://dplnews.com/conatel-sumario-nubicom-paraguay/",
+      "reason": "范围门不过：牌照归属与行政程序，不涉及 SIM 载体或签发。"
+    },
+    {
+      "title": "Zayo's new CEO Sampath arrives during AI boom times",
+      "url": "https://www.fierce-network.com/broadband/zayos-new-ceo-sampath-arrives-during-ai-boom-times",
+      "reason": "范围门不过：人事变动。"
+    },
+    {
+      "title": "Charter to transform company from 'bottom up' with $2B in cost cuts",
+      "url": "https://www.fierce-network.com/broadband/charter-transform-company-bottom-2b-cost-cuts",
+      "reason": "范围门不过：成本削减与组织调整，属财报与运营。"
+    },
+    {
+      "title": "Deutsche Telekom invests in industrial AI data centre",
+      "url": "https://www.tahawultech.com/home-slide/deutsche-telekom-invests-in-industrial-ai-data-centre/",
+      "reason": "范围门不过：数据中心投资，不在凭证链路。"
+    },
+    {
+      "title": "Sparklight Business launches mobile service for small businesses",
+      "url": "https://totaltele.com/sparklight-business-launches-mobile-service-for-small-businesses/",
+      "reason": "范围门不过：有线运营商借 MVNO 进入移动市场，属渠道与资费产品，未见 SIM 形态或开通机制变化。"
+    },
+    {
+      "title": "GSMA MWC26 Doha puts MENA at the centre of global connectivity policy",
+      "url": "https://www.tahawultech.com/enterprise/gsma-mwc26-doha-puts-mena-at-the-centre-of-global-connectivity-policy-and-innovation/",
+      "reason": "动作门不过：展会总结稿，无规范版本、无认证、无产品。"
+    },
+    {
+      "title": "Huawei highlights AI-powered innovation at MWC26 Doha",
+      "url": "https://www.tahawultech.com/enterprise/huawei-highlights-ai-powered-innovation-next-gen-connectivity-and-strategic-partnerships-at-mwc26-doha/",
+      "reason": "动作门不过：展台发布与战略表态，无可核产品参数。"
+    },
+    {
+      "title": "South Africa's proposed new SIM card limits",
+      "url": "https://mybroadband.co.za/news/cellular/579000-south-africas-proposed-new-sim-card-limits.html",
+      "reason": "超窗：ICASA 的《国家编号计划规例》修订案 10 月已发布，本条是行业协会 ACT 对旧文档的回应，事件不在 72 小时内。"
+    },
+    {
+      "title": "中国移动互联网把 QRNG 与 PQC 封进第二代量子超级 SIM",
+      "url": "https://economy.gmw.cn/2026-11/10/content_39094792.htm",
+      "reason": "重复：与 11-02 的「QRNG 超级 SIM 双芯合封」同一事件（同为 12.3×8.8mm 4FF 双芯合封、卡内跑 PQC），11-10 为咸宁新闻网二次分发；11-08 已按超窗拦过一次。"
+    },
+    {
+      "title": "SpaceX to connect children's homes in nine African countries with Starlink",
+      "url": "https://techafricanews.com/2026/11/11/spacex-connect-children-homes-nine-african-countries-starlink/",
+      "reason": "范围门不过：750 套宽带终端捐赠，属公益与宽带接入，不涉及 SIM 载体或鉴权。"
+    },
+    {
+      "title": "Safaricom tests Starlink for lower costs and better coverage",
+      "url": "https://www.thenewsbooth.co.ke/article/safaricom-tests-starlink-to-cut-network-costs-expand-coverage",
+      "reason": "范围门不过：卫星回传测试，属基站传输；D2D 部分仅「仍在开发」的表态。"
+    },
+    {
+      "title": "Airalo introduces single-install eSIM experience for 30 million customers",
+      "url": "https://www.businesswire.com/news/home/20261109079390/en/",
+      "reason": "duplicate-of-2026-11-10-telecom-03：同一份 11-09 发布与自有核心网迁移，11-10 已发布，本条为二手重写。"
+    },
+    {
+      "title": "Semtech adds SGP.32 multi-profile eSIM support to its IoT offering",
+      "url": "https://www.semtech.com/company/press/semtech-launches-sgp-32-multi-profile-esim-for-global-iot-deployments",
+      "reason": "duplicate-of-2026-11-10-telecom-04：同一份 11-09 产品发布，11-10 已发布；券商解读与转载稿为二次报道。"
+    },
+    {
+      "title": "Rakuten and AST SpaceMobile establish JV for Japan satellite network",
+      "url": "https://global.rakuten.com/corp/news/press/2026/1109_01.html",
+      "reason": "duplicate-of-2026-11-10-telecom-01：同一笔日本 J-LEO 合资与政府补助，11-10 已发布。"
+    },
+    {
+      "title": "STMicroelectronics simplifies IoT deployment with SoftSIM and SGP.32 in-factory provisioning",
+      "url": "https://newsroom.st.com/media-center/press-item.html/stmicroelectronics-simplifies-iot-deployment-with-softsim-sgp-32-in-factory-provisioning-and-zephyr-support-for-st87m01.html",
+      "reason": "duplicate-of-2026-11-06-telecom-02：同一份 ST87M01 SoftSIM 与产线写卡发布，11-06 已发布，本条为 EE Journal 的二次报道。"
+    }
+  ],
+  "stats": {
+    "candidates": 205,
+    "written": 5,
+    "skippedByDedup": 4
+  },
+  "finishedAt": "2026-11-11T19:01:48.499Z"
+}

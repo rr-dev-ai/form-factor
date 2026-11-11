@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-11T20:16:02.026Z",
+  "selected": [
+    {
+      "industry": "telecom",
+      "slug": "tim-byd-esim-fleet-brazil",
+      "score": 0.65,
+      "reason": "region-floor",
+      "region": "latam",
+      "sourceDate": "2026-11-12"
+    },
+    {
+      "industry": "identity",
+      "slug": "burkina-faso-rniu-mass-enrolment-twelve-digit-id",
+      "score": 0.78,
+      "reason": "region-floor",
+      "region": "africa",
+      "sourceDate": "2026-11-12"
+    },
+    {
+      "industry": "telecom",
+      "slug": "hong-kong-prepaid-sim-cap-10-to-3",
+      "score": 0.7,
+      "reason": "region-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-12"
+    },
+    {
+      "industry": "telecom",
+      "slug": "google-fi-mep-two-profiles-one-esim",
+      "score": 0.75,
+      "reason": "region-floor",
+      "region": "north-america",
+      "sourceDate": "2026-11-12"
+    },
+    {
+      "industry": "banking",
+      "slug": "omise-direct-acquirer-visa-mastercard-thailand",
+      "score": 0.62,
+      "reason": "industry-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-12"
+    },
+    {
+      "industry": "banking",
+      "slug": "rain-agent-vaults-scoped-cards",
+      "score": 0.58,
+      "reason": "industry-floor",
+      "region": "north-america",
+      "sourceDate": "2026-11-12"
+    },
+    {
+      "industry": "banking",
+      "slug": "boost-100xb-mta-cross-border-commercial-card",
+      "score": 0.56,
+      "reason": "industry-floor",
+      "region": "north-america",
+      "sourceDate": "2026-11-12"
+    },
+    {
+      "industry": "telecom",
+      "slug": "vodacom-satellite-to-phone-south-africa-2027",
+      "score": 0.5,
+      "reason": "fill",
+      "region": "africa",
+      "sourceDate": "2026-11-12"
+    },
+    {
+      "industry": "telecom",
+      "slug": "smart-psa-nidas-sim-registration",
+      "score": 0.5,
+      "reason": "fill",
+      "region": "apac",
+      "sourceDate": "2026-11-12"
+    },
+    {
+      "industry": "banking",
+      "slug": "credit-agricole-deutschland-enfuce-visa-debit-binning",
+      "score": 0.6,
+      "reason": "manual",
+      "region": "europe",
+      "sourceDate": "2026-11-11",
+      "note": "undated 裁决：Financial IT 原文页标注 11.11.2026 11:07，事件在 72h 内"
+    },
+    {
+      "industry": "identity",
+      "slug": "kazakhstan-iin-online-qazeta-order-825",
+      "score": 0.74,
+      "reason": "manual",
+      "region": "cis",
+      "sourceDate": "2026-11-10",
+      "note": "补 cis 缺口：Qazinform 2026-11-10 18:45 +05:00，内务部第 825 号令，产品名/参数/终端齐全"
+    },
+    {
+      "industry": "banking",
+      "slug": "mastercard-liapay-prepaid-salary-cards-gcc",
+      "score": 0.66,
+      "reason": "manual",
+      "region": "mena",
+      "sourceDate": "2026-11-11",
+      "note": "补 mena 缺口：Mastercard 新闻室 2026-11-11 迪拜发布，四国 GCC 联合部署，BIN 赞助与处理方均具名"
+    }
+  ],
+  "alternates": [
+    {
+      "industry": "banking",
+      "slug": "wasabicard-local-issuing-100-markets",
+      "score": 0.55,
+      "reason": "fill",
+      "region": "global",
+      "sourceDate": "2026-11-12",
+      "movedFrom": "selected",
+      "note": "banking 已满 5 条，0.55 为最低分，让位给 mena 保底"
+    }
+  ],
+  "expired": [],
+  "gaps": [],
+  "unaccounted": [],
+  "conflicts": [
+    {
+      "kind": "undated",
+      "detail": "banking/credit-agricole-deutschland-enfuce-visa-debit-binning 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "已裁定：Financial IT 原文页标注 11.11.2026 11:07，按 2026-11-11T11:07+00:00 补入，72h 内。europe 缺口同时填上。"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/ecommpay-getnet-bizum-spain 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "未能定日：唯一来源 Finextra（pressarticle/111633）全站 Cloudflare 拦截，raw 与官方稿均无时间戳；按 pressarticle 序号推断早于 111647（11-11），判超 72h 窗口。该稿属 11-11 池遗留，不入本日名单。"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/buckeye-state-bank-corserv-issuing 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "note": "未能定日：Finextra（pressarticle/111627）同样被 Cloudflare 拦截，序号早于 111647 二十位，判超窗。11-11 池遗留，不入本日名单。"
+    }
+  ]
+}
