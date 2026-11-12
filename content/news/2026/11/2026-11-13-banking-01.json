@@ -1,0 +1,81 @@
+{
+  "id": "2026-11-13-banking-04",
+  "slug": "dcs-decard-visa-stablecoin-cards-70-markets",
+  "industry": "banking",
+  "region": "global",
+  "regions": [],
+  "tags": [
+    "issuing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-13T04:17:45+08:00",
+  "ingestedAt": "2026-11-13T02:30:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Fintech News Singapore",
+      "url": "https://fintechnews.sg/141065/payments/dcs-decard-visa-stablecoin-cards-70-markets/",
+      "lang": "en",
+      "publishedAt": "2026-11-12T04:35:10+00:00"
+    },
+    {
+      "name": "TokenPost",
+      "url": "https://www.tokenpost.com/news/business/55284",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "DCS DeCard 把稳定币卡铺到 70 多个市场，Visa 出网络",
+    "en": "DCS DeCard takes stablecoin-linked cards to 70-plus markets with Visa",
+    "es": "DCS DeCard lleva sus tarjetas ligadas a stablecoins a más de 70 mercados con Visa"
+  },
+  "summary": {
+    "zh": "新加坡持牌发卡机构 DCS DeCard 于 11 月 12 日宣布扩大与 Visa 的合作，把稳定币结算的卡项目从亚太扩到欧洲、中东、非洲与拉美 70 多个市场。扩张覆盖两条线：面向 fintech 的白标发卡服务 Cards-as-a-Service，以及支持稳定币资金的企业卡与费用管理平台 DeCard Business Account。各市场的上线时间与本地 BIN 安排未披露。",
+    "en": "Singapore-licensed issuer DCS DeCard said on 12 November that it has widened its Visa relationship, taking stablecoin-settled card programmes from Asia-Pacific into more than 70 markets across Europe, the Middle East, Africa and Latin America. The expansion covers two lines: Cards-as-a-Service, a white-label issuing offering for fintechs, and DeCard Business Account, its corporate card and spend-management platform now supporting stablecoin funding. Per-market launch dates and local BIN arrangements were not disclosed.",
+    "es": "DCS DeCard, emisor con licencia en Singapur, anunció el 12 de noviembre la ampliación de su acuerdo con Visa para llevar programas de tarjetas liquidados en stablecoins desde Asia-Pacífico a más de 70 mercados de Europa, Oriente Medio, África y América Latina. La expansión cubre dos líneas: Cards-as-a-Service, emisión de marca blanca para fintechs, y DeCard Business Account, su plataforma de tarjetas corporativas y gestión de gasto ahora con financiación en stablecoins. No se revelaron fechas por mercado ni acuerdos locales de BIN."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "两条线：白标发卡与企业卡",
+        "en": "Two lines: white-label issuing and corporate cards",
+        "es": "Dos líneas: emisión de marca blanca y tarjetas corporativas"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Cards-as-a-Service 替合作方做卡项目设计、发卡、交易处理与日常运营，合作方不必自建发卡系统就能推出自有品牌的稳定币卡。DeCard Business Account 面向中型与大型企业，把企业卡与费用管理、开票、账单和交易报表放在一起，可用稳定币余额给卡项目注资，持卡人在本地以当地货币消费。DCS 称其前身是新加坡 Diners Club，受新加坡金管局监管。",
+        "en": "Cards-as-a-Service handles programme design, issuance, transaction processing and day-to-day operations for partners, so they can launch a branded stablecoin card without building an issuing stack. DeCard Business Account targets mid-market and large companies, combining corporate cards with expense management, invoicing, billing and transaction reporting; programmes can be funded from stablecoin balances while cardholders spend in local currency. DCS says it was formerly Diners Club Singapore and is regulated by the Monetary Authority of Singapore.",
+        "es": "Cards-as-a-Service se encarga del diseño del programa, la emisión, el procesamiento y la operación diaria por cuenta de los socios, que así lanzan una tarjeta de stablecoin de marca sin construir su propia pila de emisión. DeCard Business Account apunta a empresas medianas y grandes, y combina tarjetas corporativas con gestión de gastos, facturación, cobros y reportes de operaciones; los programas se pueden financiar con saldos en stablecoins mientras el titular gasta en moneda local. DCS dice que antes era Diners Club Singapur y que está regulada por la autoridad monetaria de Singapur."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "先把亚太做通，再往外复制",
+        "en": "Asia-Pacific first, then replication",
+        "es": "Primero Asia-Pacífico, luego replicación"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这家公司 2025 年 5 月在新加坡发出第一张 DeCard Visa 卡，本月初又在香港以 Mastercard 发卡行身份推出以美元计价的企业卡。此次与 Visa 的合作把同一套发卡能力接到 70 多个市场的受理网络上，但公告只给了市场总数与四个大区，没有逐国名单、上线顺序与本地 BIN 的取得方式——而本地 BIN 恰恰是这类跨境卡项目能否降低跨境费与换汇成本的关键。",
+        "en": "The company issued its first DeCard Visa card in Singapore in May 2025 and earlier this month launched a US-dollar corporate card in Hong Kong as a Mastercard issuer. The Visa arrangement connects the same issuing capability to acceptance in more than 70 markets, but the announcement gives only a total and four broad regions, with no country list, sequencing or explanation of how local BINs are obtained, which is the variable that decides whether such cross-border programmes actually cut cross-border and FX costs.",
+        "es": "La empresa emitió su primera tarjeta DeCard Visa en Singapur en mayo de 2025 y a principios de este mes lanzó en Hong Kong una tarjeta corporativa en dólares como emisor Mastercard. El acuerdo con Visa conecta la misma capacidad de emisión a la aceptación en más de 70 mercados, pero el anuncio solo da un total y cuatro grandes regiones, sin lista de países, orden de lanzamiento ni explicación de cómo se obtienen los BIN locales, que es la variable que decide si estos programas transfronterizos realmente reducen costes de cruce de frontera y de cambio."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对做发卡即服务的供应商，这条压缩的是「本地 BIN + 本地合规」这层护城河：过去要在一个新市场发卡，得找本地 BIN 赞助方、过当地合规，现在一家新加坡持牌机构把它打包成 API 卖给 fintech。受影响的首先是各市场的 BIN 赞助银行与本地处理商，它们从「必须经过的关口」变成「可被批发的上游」。商业上，稳定币注资加本地货币消费这套组合，服务的是跨境团队发薪、广告投放与企业采购三类场景，这些场景本来用虚拟卡解决，差别在于资金端不再需要先换汇。要盯的是逐国上线名单与本地 BIN 归属——拿不到本地 BIN，所谓 70 个市场就只是受理覆盖，不是本地发卡。",
+    "en": "For issuing-as-a-service vendors this erodes the local-BIN-plus-local-compliance moat: opening a new market used to mean finding a BIN sponsor and clearing local rules, and now a Singapore-licensed issuer sells that as an API to fintechs. The first parties affected are BIN-sponsor banks and local processors, which move from mandatory gatekeepers to wholesaleable upstream. Commercially, stablecoin funding with local-currency spending serves three use cases, cross-border payroll, ad buying and corporate procurement, all previously handled with virtual cards; the difference is that the funding leg no longer needs a currency conversion first. Watch the country-by-country list and where the local BINs sit: without local BINs, 70 markets means acceptance coverage, not local issuing.",
+    "es": "Para los proveedores de emisión como servicio, esto erosiona el foso de «BIN local más cumplimiento local»: abrir un mercado exigía encontrar un patrocinador de BIN y superar las reglas locales, y ahora un emisor con licencia en Singapur lo vende como API a las fintechs. Los primeros afectados son los bancos patrocinadores de BIN y los procesadores locales, que pasan de porteros obligatorios a proveedor mayorista. En lo comercial, financiación en stablecoins con gasto en moneda local cubre tres casos, nómina transfronteriza, compra de publicidad y compras corporativas, antes resueltos con tarjetas virtuales; la diferencia es que la pata de fondeo ya no exige una conversión previa. Hay que ver la lista país por país y dónde quedan los BIN locales: sin BIN local, 70 mercados significa cobertura de aceptación, no emisión local."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-banking-2026-11"
+  }
+}

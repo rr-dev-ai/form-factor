@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-13-banking-06",
+  "slug": "payment-options-tribe-acquiring-mauritius",
+  "industry": "banking",
+  "region": "africa",
+  "regions": [
+    "apac"
+  ],
+  "tags": [
+    "acquiring"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-13T04:17:45+08:00",
+  "ingestedAt": "2026-11-13T02:30:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Finextra",
+      "url": "https://www.finextra.com/pressarticle/111655/payment-options-picks-tribe-to-power-acquiring-across-apac-and-cema",
+      "lang": "en",
+      "publishedAt": "2026-11-12T13:24:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "毛里求斯收单方 Payment Options 把处理层交给 Tribe",
+    "en": "Mauritius acquirer Payment Options hands its processing layer to Tribe",
+    "es": "El adquirente mauriciano Payment Options entrega su capa de procesamiento a Tribe"
+  },
+  "summary": {
+    "zh": "总部在新加坡的支付服务商 Payment Options 于 11 月 12 日宣布选用 Tribe Payments 做收单处理平台，支撑其在亚太与中东非洲的 Visa、Mastercard 直连收单，首发市场为毛里求斯，随后分阶段扩到集团其他市场。该公司已取得毛里求斯的卡组织主会员资格，此前自建网关但未自建处理平台。",
+    "en": "Singapore-headquartered payment service provider Payment Options said on 12 November that it has chosen Tribe Payments as its acquiring processing platform for direct Visa and Mastercard acquiring across Asia-Pacific and CEMEA, starting in Mauritius with a phased rollout into other markets. The company holds principal membership of the schemes in Mauritius this year and had built its own gateway but not its own processing platform.",
+    "es": "El proveedor de servicios de pago con sede en Singapur Payment Options anunció el 12 de noviembre que eligió a Tribe Payments como plataforma de procesamiento para su adquirencia directa de Visa y Mastercard en Asia-Pacífico y CEMEA, comenzando en Mauricio con un despliegue por fases en otros mercados. La empresa tiene la membresía principal de los esquemas en Mauricio y había construido su propia pasarela, pero no su plataforma de procesamiento."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "买而不是建",
+        "en": "Buy rather than build",
+        "es": "Comprar en lugar de construir"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Payment Options 2012 年在新加坡成立，最早是做收单行的代理与介绍商，后来自建支付网关，转为支付服务商与支付便利化机构，目前在新加坡、毛里求斯、香港、日本与马来西亚设有办公室。取得毛里求斯卡组织主会员资格后，它在自建处理平台与外部采购之间选了后者，理由是时间与卡组织对接经验，而非成本。",
+        "en": "Founded in Singapore in 2012, Payment Options started as an acquirer reseller and referral agent, then built its own gateway and moved into PSP and payfac roles; it now has offices in Singapore, Mauritius, Hong Kong, Japan and Malaysia. After securing principal membership in Mauritius it chose to buy processing rather than build it, citing time and scheme-facing experience rather than cost.",
+        "es": "Fundada en Singapur en 2012, Payment Options empezó como revendedor y referidor de adquirentes, luego construyó su propia pasarela y pasó a ser PSP y facilitador de pagos; hoy tiene oficinas en Singapur, Mauricio, Hong Kong, Japón y Malasia. Tras obtener la membresía principal en Mauricio optó por comprar el procesamiento en lugar de construirlo, por tiempo y experiencia ante los esquemas más que por coste."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "毛里求斯是起点，不是终点",
+        "en": "Mauritius is the start, not the end",
+        "es": "Mauricio es el comienzo, no el final"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "落地顺序写明先做毛里求斯，再随集团扩张分阶段进入其他市场，覆盖亚太与中东非洲两个大区。公告还提到双方正在谈 SoftPOS 等后续方案，Payment Options 也已把部分合作方介绍给 Tribe。原文未给毛里求斯的商户规模、交易量目标与切换时间表。",
+        "en": "The sequencing is explicit: Mauritius first, then phased entry into other markets as the group expands, spanning Asia-Pacific and CEMEA. The release also says the two are discussing further products including SoftPOS, and that Payment Options has referred some of its own partners to Tribe. No merchant numbers, volume targets or cutover dates for Mauritius were given.",
+        "es": "La secuencia es explícita: primero Mauricio y luego entradas por fases en otros mercados conforme el grupo se expande, cubriendo Asia-Pacífico y CEMEA. El comunicado añade que ambas partes negocian productos posteriores como SoftPOS y que Payment Options ya ha referido algunos de sus socios a Tribe. No se dieron cifras de comercios, objetivos de volumen ni fechas de migración para Mauricio."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对想进非洲收单的中小机构，这条写出了最低门槛路径：先做支付便利化机构，攒商户与网关，再拿卡组织主会员资格，最后把处理外包给专业平台，三步都不需要自建清算系统。受影响的首先是本地收单行与自建处理平台的机构——竞争不再是「谁有机房」，而是「谁先拿到主会员资格并找到便宜的处理层」。对 Tribe 这类处理商，这是把能力按批发卖，客户规模小但市场入口多。需要盯的是它在毛里求斯之外拿什么身份进市场：靠主会员资格直连，还是继续做收单行的代理，两条路的毛利与合规负担完全不同。",
+    "en": "For smaller players wanting into African acquiring this spells out the minimum-barrier path: operate as a payfac first, accumulate merchants and a gateway, then obtain scheme principal membership, then outsource processing to a specialist, with no in-house clearing system at any step. The parties most exposed are local acquiring banks and anyone who built their own processing stack, because the contest stops being about who owns the data centre and becomes about who gets principal membership first and finds cheap processing. For processors like Tribe it is capability sold wholesale, small clients but many market entry points. Watch what status it uses outside Mauritius: direct connection on principal membership, or continued reselling for an acquirer, since the margin and compliance load differ completely.",
+    "es": "Para los actores pequeños que quieren entrar en la adquirencia africana, esto describe la ruta de mínima barrera: operar primero como facilitador de pagos, acumular comercios y pasarela, obtener después la membresía principal de los esquemas y externalizar el procesamiento a un especialista, sin sistema de compensación propio en ningún paso. Los más expuestos son los bancos adquirentes locales y quien construyó su propia pila, porque la competencia deja de ser quién tiene el centro de datos y pasa a ser quién obtiene antes la membresía principal y encuentra procesamiento barato. Para procesadores como Tribe es capacidad vendida al por mayor, clientes pequeños pero muchas puertas de entrada. Hay que ver con qué figura opera fuera de Mauricio: conexión directa con membresía principal o reventa para un adquirente, porque el margen y la carga de cumplimiento son opuestos."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-banking-2026-11"
+  }
+}

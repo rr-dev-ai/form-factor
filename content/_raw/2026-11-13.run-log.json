@@ -1,0 +1,194 @@
+{
+  "date": "2026-11-13",
+  "startedAt": "2026-11-13T01:50:36+08:00",
+  "finishedAt": "2026-11-13T01:53:34+08:00",
+  "indexCheck": {
+    "file": "content/_raw/2026-11-13.index.json",
+    "exists": true,
+    "fetchedFor": "2026-11-13",
+    "items": 168,
+    "attempts": 1,
+    "note": "一次通过，未等待。01:31 落盘，168 条。"
+  },
+  "matrix": {
+    "counted": 3,
+    "dropped": {
+      "published": 0,
+      "expired": 0,
+      "undated": 5,
+      "lowConfidence": 160,
+      "invalid": 0
+    },
+    "gaps": ["cis", "mena", "europe", "north-america", "latam"],
+    "cellGaps": [
+      { "region": "apac", "industry": "telecom" },
+      { "region": "apac", "industry": "identity" },
+      { "region": "africa", "industry": "banking" },
+      { "region": "africa", "industry": "telecom" }
+    ],
+    "industryGaps": [
+      {
+        "industry": "telecom",
+        "emptyRegions": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"]
+      },
+      {
+        "industry": "banking",
+        "emptyRegions": ["cis", "mena", "europe", "north-america", "latam", "africa"]
+      },
+      {
+        "industry": "identity",
+        "emptyRegions": ["cis", "mena", "north-america", "latam", "europe", "apac"]
+      }
+    ],
+    "note": "计入 3 条落在 apac/banking 与 africa/identity 两格；21 格里只有 2 格非空。telecom 七区全空，连续第 6 天。"
+  },
+  "phases": [
+    { "phase": "R1", "at": "2026-11-13T01:51:34+08:00", "queries": 8, "hits": 1, "note": "命中 Google Fi Super Network，但已于 11-12 发过，剔除" },
+    { "phase": "R2", "at": "2026-11-13T01:51:46+08:00", "queries": 4, "hits": 0, "note": "低于 5 条下限，如实记账；另 2 次归档页直读（biometricupdate /202611、paymentsindustryintelligence）" },
+    { "phase": "R3", "at": "2026-11-13T01:52:19+08:00", "queries": 3, "hits": 1, "note": "低于 6 条下限；西语 licitación 撞出西班牙 MiDNI，与 11-07 葡语、11-12 阿语的规律一致——R3 价值在顺带撞新闻室稿" },
+    { "phase": "R4", "at": "2026-11-13T01:52:40+08:00", "queries": 0, "hits": 0, "note": "3 次归档页直读代 query（mobileworldlive 首页、biometricupdate 单篇 ×2）；mobileworldlive 当日只有 6G/卫星/光纤，无三条链路标的" },
+    { "phase": "R5", "at": "2026-11-13T01:53:00+08:00", "queries": 3, "hits": 1, "note": "mDL/VC 词撞出萨摩亚 NDID 政策；softPOS 与制卡产线两条全废" },
+    { "phase": "R6", "at": "2026-11-13T01:53:20+08:00", "queries": 8, "hits": 2, "note": "日期锚定 + 区域本地语言；巴林两条均出自日期锚定" },
+    { "phase": "R7", "at": "2026-11-13T01:53:30+08:00", "queries": 5, "hits": 3, "note": "补轮：卡组织合同、西语 cédula、美国发卡、欧洲 5G SA、SM-DP+；命中 Sage×Adyen、Baraka（超窗弃用）、Airalo（超窗弃用）" }
+  ],
+  "phaseTimeNote": "各 phase 的 at 均为实测 date -Iseconds；R1 与 R2 之间仅隔 12 秒，因为 R1 第二批 query 与 R2 是连续发出的，之间没有等待。",
+  "rounds": [
+    {
+      "round": "R1",
+      "driver": "缺口驱动（区域 + 链路环节产品词）",
+      "queries": [
+        "eSIM operator launch November 2026 Europe telecom platform",
+        "SIM-карта оператор запуск ноябрь 2026 eSIM",
+        "STC Mobily Zain eSIM launch Saudi Arabia November 2026",
+        "US carrier eSIM MVNO launch November 2026",
+        "Brasil México operadora eSIM lançamento novembro 2026",
+        "\"SIM card\" manufacturer capacity expansion plant November 2026 secure element",
+        "national digital ID card launch enrollment \"11 November 2026\" OR \"12 November 2026\"",
+        "bank card issuance processor agreement signed November 2026 Europe fintech"
+      ],
+      "result": "8 条 query 里 5 条被旅游 eSIM 站（slashtel、mobimatter、esim-urlaub、trip.com、simpackers）完全占满；有效产出 3 条但全不合用：Google Fi Super Network（11-12 已发）、IFSS 马来西亚（11-10 已发）、Crédit Agricole×Enfuce（11-12 已发）。"
+    },
+    {
+      "round": "R2",
+      "driver": "机构驱动（监管机构、运营商、制卡厂、芯片厂）",
+      "queries": [
+        "Kigen Thales Giesecke Devrient eSIM iSIM announcement certification November 2026",
+        "МегаФон МТС Билайн eSIM запуск ноябрь 2026",
+        "e& du Zain Ooredoo eSIM iSIM launch Middle East November 2026",
+        "Safaricom MTN Airtel SIM registration eSIM rollout November 2026 Africa"
+      ],
+      "result": "4 条全废。俄语与阿语 query 分别被 esimguide、trip.com、trvlsim 占满；厂商名 query 只回 Semtech SGP.32（11-10 已发）与 axiobench 行业统计页。"
+    },
+    {
+      "round": "R3",
+      "driver": "官方一手源 / 当地语言采购术语",
+      "queries": [
+        "\"licitación\" tarjetas inteligentes chip documento identidad noviembre 2026 adjudicación",
+        "\"edital\" pregão cartão SIM chip eSIM 2026 operadora licitação",
+        "GSMA eSA certification eUICC eSIM product launch November 2026"
+      ],
+      "basedOn": "licitación ← R1 的 bank card issuance processor（欧洲）无果后转西语区证件采购；edital ← R1 的 Brasil eSIM query 全为旅游站，改走葡语采购词；GSMA eSA ← R2 厂商名 query 只回 Semtech，改查认证侧",
+      "result": "西语 licitación 命中西班牙 MiDNI（本轮唯一有效条目）；葡语 edital 被百度百科与 eSIM 科普站污染；GSMA eSA 只回 Semtech 与 TrustCB 方案页。"
+    },
+    {
+      "round": "R4",
+      "driver": "行业垂直媒体（归档页直读）",
+      "queries": [],
+      "fetchInstead": [
+        "https://www.mobileworldlive.com/",
+        "https://www.biometricupdate.com/202611",
+        "https://www.paymentsindustryintelligence.com/"
+      ],
+      "basedOn": "R3 三条 query 只出一条，改用归档页一次拿全量标题；11-07 已验证 allowed_domains 在本机返回空，故不写 site: 限定",
+      "result": "mobileworldlive 11-11 当日条目为 NTT 物理 AI、华为子品牌、KT Sat×Skylo 卫星 IoT、Telefónica 光纤批发，无一条落在三条链路；biometricupdate /202611 11-11 十条里九条是监控/LFR/AI 代理身份类观点稿，仅五角大楼 ICAM 一条沾边但属 IAM 不是凭证；paymentsindustryintelligence 首页最新仍停 11-10。"
+    },
+    {
+      "round": "R5",
+      "driver": "新兴术语",
+      "queries": [
+        "softPOS certification EMVCo MPoC approval November 2026 terminal",
+        "mDL issuance verifiable credential pilot launched November 2026 government",
+        "\"SIM card\" factory production line opened November 2026 smart card plant investment"
+      ],
+      "basedOn": "softPOS ← R1 欧洲 banking 只出已发稿，改查认证侧；mDL/VC ← R4 归档页身份线全是观点稿，改查规范落地；制卡产线 ← R2 厂商线全废，改查上游制造",
+      "result": "mDL 词命中萨摩亚 NDID 政策（有效）；softPOS 三条全为厂商 FAQ 与认证说明页；制卡产线回 IFSS（已发）与中山厂房封顶（通信设备，不在链路）。"
+    },
+    {
+      "round": "R6",
+      "driver": "区域补充（本地语言 / 本地媒体 / 日期锚定）",
+      "queries": [
+        "operadora lança eSIM chip virtual Brasil novembro 2026 Anatel",
+        "производство SIM-карт завод ноябрь 2026 сим-карты выпуск оператор",
+        "الاتصالات شريحة إلكترونية eSIM إطلاق نوفمبر 2026",
+        "\"12 November 2026\" OR \"11 November 2026\" bank card digital ID Middle East launch",
+        "\"11 November 2026\" OR \"12 November 2026\" México Brasil tarjeta identificación lanzamiento",
+        "\"11 November 2026\" OR \"12 November 2026\" Kazakhstan Uzbekistan Armenia biometric ID card launch",
+        "\"12 November 2026\" eSIM SIM card operator launches commercial service",
+        "\"11 November 2026\" OR \"12 November 2026\" United States Canada digital ID card issuance contract"
+      ],
+      "basedOn": "前三条 ← R1/R2 的 latam/cis/mena 三条 telecom query 全部被旅游站吃掉，换本地语言重试；后五条 ← R5 验证「日期锚定」在 11-08/11-09/11-10 三次有效，本轮固定保留，用于 mena/latam/cis/north-america 四区",
+      "result": "本地语言三条仍全废（葡语回 simpackers、俄语回 IFSS、阿语回 etravelsim）。日期锚定 5 条出 3 条有效：巴林 CrediMax、巴林 GPS×EazyPay、哈萨克 QazETA（11-12 已发）。latam 与 north-america 两条锚定只回政策与榜单页。"
+    },
+    {
+      "round": "R7",
+      "driver": "补轮（合同/发卡/认证三条未覆盖的角度）",
+      "queries": [
+        "IDEMIA Thales \"G+D\" eSIM contract operator signed November 2026 remote provisioning",
+        "cédula digital documento identidad noviembre 2026 Colombia Perú Chile emisión",
+        "\"12 November 2026\" OR \"11 November 2026\" card issuing program launch bank United States payments",
+        "5G SA SIM card operator launch November 2026 Germany France Spain eSIM upgrade",
+        "\"SM-DP+\" OR \"eUICC\" OR \"RSP\" profile download operator announcement week November 12 2026"
+      ],
+      "basedOn": "IDEMIA/Thales ← R6 telecom 仍零产出，改查厂商合同公告；cédula ← R6 latam 锚定无果，换身份线本地词；美国发卡 ← north-america 三格全空；5G SA ← R5 制卡线只出旧闻，改查 SIM 形态升级；SM-DP+/eUICC ← 前三者均无果后的最后一击",
+      "result": "出 3 条候选：Sage×Adyen×Mastercard（11-10，收）、Baraka 乌兹别克（11-09 20:07，超窗弃）、Airalo 单次安装 eSIM（11-09 起，超窗弃）。另出 Orange 加入 IFPP（11-04，超窗）。SM-DP+ 一轮全为深圳模组厂 B2B 页面。"
+    }
+  ],
+  "totals": {
+    "queries": 31,
+    "archiveReads": 5,
+    "fetches": 5,
+    "items": 5,
+    "roundFloors": "R1 8/6 ✓、R2 4/5 ✗、R3 3/6 ✗、R4 0/3 ✗（3 次归档直读代）、R5 3/3 ✓、R6 8/3 ✓"
+  },
+  "verifiedButDropped": [
+    {
+      "title": "Baraka 在乌兹别克推出 Visa 卡，银行卡/福利卡/交通卡/身份证四合一",
+      "url": "https://finteqstan.com/en/news/baraka-zapustila-kartu-visa-dlya-vyplat-platezhey-i-transporta-v-uzbekistane",
+      "reason": "发布 11-09 20:07，距开跑 72 小时窗差约 30 小时，超窗。内容本身最贴合 cis/banking：Aloqabank 与 Xalq Bank 联合发卡、Visa 网络 200 国、App 内 19 份法定数字证件、60+ 项政务给付、ATTO 四档公交票价、Uzcard/Humo 充值。"
+    },
+    {
+      "title": "Airalo 把 eSIM 改成一次安装、自建核心网承载 3000 万用户",
+      "url": "http://en.lanatime.com/news/airalo-launches-single-install-esim-for-its-30m-users-2026-11-10/",
+      "reason": "分批推送 11-09 启动，超 72 小时窗；且变化落在全球而非单一市场，主区域只能记 global，补不上任何区域格。"
+    },
+    {
+      "title": "Orange 加入 Acceleronix × IDEMIA 的工厂内 eSIM 配置计划（IFPP）",
+      "url": "https://5gworldpro.com/blog/2026/11/10/in-factory-esim-provisioning-what-orange-joining-means",
+      "reason": "公告日 11-04，超窗 9 天。内容是 europe/telecom 少见的真变化：GSMA SGP.41 框架、量子安全 profile 绑定、MFF4 2×2mm、复用 SGP.32 基础设施并可升 SGP.42。若 11-04 当天发现应直接收。"
+    },
+    {
+      "title": "五角大楼 DISA 公开招标重建企业 ICAM，IL5/IL6 原型不超过 9 个月",
+      "url": "https://www.biometricupdate.com/202611/pentagon-seeks-new-identity-system-as-modernization-gaps-persist",
+      "reason": "时间在窗内（11-11 08:16 EST），但标的物是员工身份与访问管理（MIM 同步管道、Federation Hub、权限职责分离），不落在护照/身份证/mDL 的载体、签发、核验终端任一环节，范围门不过。"
+    },
+    {
+      "title": "秘鲁国会授权 8000 万美元 IDB 贷款用于身份现代化",
+      "url": "https://www.biometricupdate.com/202611/peru-clears-80m-idb-loan-for-national-identity-modernization",
+      "reason": "授权日 11-05，超窗。已是 11-11 记过一次的同一条，本轮复核仍超窗。指标齐全（DNIe 持有率 13.9%→75%、发证 9.3 天→2 天、数字渠道 24.9%→50%、六年宽限期），是 latam/identity 最好的料，可惜日期不站在这边。"
+    },
+    {
+      "title": "美国银行与 Allegiant 续签联名卡协议",
+      "url": "https://www.el-fondo.com/en/news/bank-of-america-extends-credit-card-tie-up-with-allegiant",
+      "reason": "11-12 在窗内，但属既有联名卡（2016 年起）的合约续期，无产品参数变化、无新机制，触「不能是既有能力的重复宣传」一条。north-america 因此仍为空。"
+    }
+  ],
+  "notes": [
+    "telecom 七区全空是今天最重的一层，也是连续第 6 天。本轮 12 条 telecom 相关 query（含俄语、阿语、葡语、5G SA、SM-DP+、制卡产线）无一产出 72 小时内的合格候选，唯一在窗内的 Google Fi 已于 11-12 发过。结论与 11-09 至 11-12 一致：不是阈值问题，是现源结构下 telecom 缺口无法靠搜索补。",
+    "旅游 eSIM 站的污染已扩散到全部语种：本轮在英、俄、阿、葡、西五种语言的 telecom query 里都出现在前三位（slashtel、mobimatter、simpackers、etravelsim、trivlsim、esimguide、trip.com）。此后 telecom 缺口不应再从「区域 + eSIM/运营商」入手，也不必再试本地语言版本。",
+    "日期锚定第四次验证有效：R6 五条带引号日期的 query 出三条有效结果，占全天有效产出的六成。建议固定为 R1 的第一手法而非补救手法。",
+    "R2/R3/R4 未达 query 下限，已在 rounds 与 totals 里如实标注。R2 只发 4 条是因为前 3 条已确认旅游站污染、继续换词属「同一 query 换词重发」；R4 用归档页直读替代，因为 allowed_domains 在本机不可用（11-07 已验证）。",
+    "巴林的 CrediMax 与 GPS×EazyPay 同属 mena/banking，但机制不同（前者是把在线持卡人验证移到设备端 passkey，后者是把发卡处理与令牌化留在本地处理商），不是同一事件线，故一并保留供终审取舍。",
+    "本轮 5 条里有 2 条（GPS×EazyPay、Sage×Adyen）自评有被按通稿刷掉的风险，已在 gateNote 写明缺什么；Sage 那条尤其弱，产品仍在开发。",
+    "时钟：01:50:36 → 01:53:34，实测约 2 分 58 秒。预算未用完，瓶颈是源侧供给而非时间。"
+  ]
+}

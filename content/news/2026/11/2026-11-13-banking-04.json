@@ -1,0 +1,81 @@
+{
+  "id": "2026-11-12-banking-03",
+  "slug": "wasabicard-local-issuing-100-markets",
+  "industry": "banking",
+  "region": "global",
+  "regions": [],
+  "tags": [
+    "issuing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-13T04:17:45+08:00",
+  "ingestedAt": "2026-11-12T02:32:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "FF News",
+      "url": "https://ffnews.com/news/wasabicard-launches-local-card-issuing-across-100-markets-embargoed-68ab69fa",
+      "lang": "en"
+    },
+    {
+      "name": "Finextra",
+      "url": "https://www.finextra.com/pressarticle/111629/wasabicard-launches-local-issuing-across-more-than-100-markets",
+      "lang": "en",
+      "publishedAt": "2026-11-11T10:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "WasabiCard 推本地发卡：100 多个市场用当地 BIN 出卡",
+    "en": "WasabiCard launches local issuing with domestic BINs in 100+ markets",
+    "es": "WasabiCard lanza emisión local con BIN nacionales en más de 100 mercados"
+  },
+  "summary": {
+    "zh": "WasabiCard 11 月 11 日在新加坡发布本地发卡方案：通过与各地金融机构合作取得当地 BIN，让企业在交易发生国发卡，卡组织仍为 Visa 与 Mastercard，支持虚拟卡与实体卡并可直接进 Apple Pay 与 Google Pay。公司称已发 70 万张卡、接入 70 多个 BIN。",
+    "en": "WasabiCard launched a local issuing solution in Singapore on 11 November: through partnerships with financial institutions it obtains domestic BINs so businesses can issue in the market where transactions happen, still on Visa and Mastercard rails, in virtual or physical form with Apple Pay and Google Pay support. The company says it has issued more than 700,000 cards across 70+ BINs.",
+    "es": "WasabiCard lanzó el 11 de noviembre en Singapur una solución de emisión local: mediante acuerdos con entidades financieras obtiene BIN nacionales para que las empresas emitan en el mercado donde ocurre la transacción, siempre sobre Visa y Mastercard, en formato virtual o físico y con soporte de Apple Pay y Google Pay. La empresa afirma haber emitido más de 700.000 tarjetas con más de 70 BIN."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "问题出在 BIN 的国籍",
+        "en": "The problem is the BIN's nationality",
+        "es": "El problema es la nacionalidad del BIN"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "跨境卡项目的常见做法是在一个市场发卡、全球通用，结果是卡在异地被当成国际卡处理，商户费率更高、拒付率更高，还可能触发当地合规问题。这份方案的解法是在交易发生国用当地 BIN 发卡，卡组织不变，结算资金侧可以来自 USDT、USDC 与 OUSD。原文没有列出这 100 多个市场具体是哪些，也没有披露合作金融机构名称与牌照类型。",
+        "en": "Cross-border card programmes usually issue in one market and use the card everywhere, so the card is treated as international elsewhere: higher merchant fees, higher decline rates, and possible local compliance problems. This solution issues in the market where the transaction happens using a domestic BIN, with the scheme unchanged and funding settled from USDT, USDC or OUSD. The release did not list the 100-plus markets, name the partner institutions, or specify licence types.",
+        "es": "Los programas de tarjetas transfronterizos suelen emitir en un mercado y usar la tarjeta en todo el mundo, de modo que fuera se trata como internacional: comisiones más altas para el comercio, más rechazos y posibles problemas de cumplimiento local. Esta solución emite en el mercado donde ocurre la operación con un BIN nacional, sin cambiar de esquema y con liquidación fondeada desde USDT, USDC u OUSD. El comunicado no enumeró los más de 100 mercados, ni nombró a las entidades asociadas, ni precisó tipos de licencia."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "合规筛查放在入金那一刻",
+        "en": "Compliance sits at the deposit step",
+        "es": "El cumplimiento se sitúa al ingresar fondos"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "方案里有一层链上数据核查：入金清算前交叉比对资金来源，命中高风险地址直接拒入，间接触及可疑来源的先暂扣再人工评估，每一步留可审计记录。账户在完成 KYB 与合作方审核后最快 24 小时激活。公司自述已服务 700 多家企业客户、累计交易额超过 10 亿美元。这些是公司提供的数据，未经第三方核实。",
+        "en": "The product includes an on-chain check: before deposits clear, the source of funds is cross-referenced, high-risk addresses are rejected outright, indirect exposure is held for manual review, and each decision is logged for audit. Accounts can activate within 24 hours once KYB and partner review finish. The company says it serves more than 700 enterprise customers and has processed over US$1 billion in volume, figures it supplied and that were not independently verified.",
+        "es": "El producto incluye una verificación on-chain: antes de liquidar el ingreso se contrasta el origen de los fondos, las direcciones de alto riesgo se rechazan, la exposición indirecta se retiene para revisión manual y cada decisión queda registrada para auditoría. La cuenta puede activarse en 24 horas tras completar KYB y la revisión del socio. La empresa afirma atender a más de 700 clientes empresariales y haber procesado más de 1.000 millones de dólares, cifras aportadas por ella y no verificadas de forma independiente."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "本地 BIN 是把卡项目从「一个市场发、全球凑合用」推向「按市场分别发」的关键一步，直接影响商户受理率与跨境费。对做全球薪酬、创作者分成与广告投放的平台，这类方案解决的是收款人所在市场的受理问题，而不只是结算速度；对传统跨境收付商，它压的是外汇与跨境卡手续费这两块收入。需要看清边界：本地发卡必须落地到具体持牌机构，原文既没给市场清单也没给合作方，等于把最关键的可核部分留白；稳定币只是资金侧，卡本身仍走 Visa 与 Mastercard 的规则，不受方案商控制。真正要比的是它在几个主要市场能给出多低的商户费率，而不是市场数量。",
+    "en": "Domestic BINs move card programmes from one-market issuance used globally to issuance per market, which directly affects merchant acceptance rates and cross-border fees. For platforms paying global payroll, creator payouts or ad spend, this addresses acceptance in the recipient's market rather than settlement speed alone; for established cross-border providers it squeezes FX and cross-border card fee revenue. The limits matter: local issuing depends on a licensed institution in each market, and the release names neither the market list nor the partners, leaving the most checkable part blank. Stablecoins sit on the funding side only; the card still runs on Visa and Mastercard rules the issuer does not control. The real comparison is the merchant pricing it can offer in a handful of major markets, not the market count.",
+    "es": "Los BIN nacionales llevan los programas de tarjetas de emitir en un mercado y usarlo en todo el mundo a emitir por mercado, lo que afecta directamente a la aceptación en comercios y a las comisiones transfronterizas. Para plataformas que pagan nóminas globales, regalías de creadores o publicidad, esto atiende la aceptación en el mercado del beneficiario, no solo la velocidad de liquidación; para los proveedores transfronterizos establecidos presiona los ingresos por tipo de cambio y por comisiones de tarjeta internacional. Los límites importan: la emisión local depende de una entidad con licencia en cada mercado, y el comunicado no enumera ni los mercados ni los socios, dejando en blanco la parte más verificable. Las stablecoins están solo en el fondeo; la tarjeta sigue las reglas de Visa y Mastercard que el emisor no controla. La comparación real es el precio para el comercio en unos pocos mercados grandes, no el número de mercados."
+  },
+  "confidence": 0.55,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-banking-2026-11"
+  }
+}

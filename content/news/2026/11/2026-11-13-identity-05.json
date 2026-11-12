@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-13-identity-02",
+  "slug": "bil-fourthline-identity-verification-luxembourg",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "verification",
+    "biometrics",
+    "fraud"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-13T04:17:45+08:00",
+  "ingestedAt": "2026-11-13T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Identity Week",
+      "url": "https://identityweek.net/fourthline-expands-into-luxembourg-with-banque-internationale-a-luxembourg-as-new-business-partner-for-its-identity-verification-solution/",
+      "lang": "en",
+      "publishedAt": "2026-11-12T15:39:56+00:00"
+    }
+  ],
+  "title": {
+    "zh": "BIL 选定 Fourthline 做开户核验",
+    "en": "BIL picks Fourthline for digital onboarding checks",
+    "es": "BIL elige a Fourthline para verificar el alta digital"
+  },
+  "summary": {
+    "zh": "卢森堡 BIL 银行选定 Fourthline 为身份核验伙伴，通过一套 API 完成证件核验、生物特征分析与自有模型判定，覆盖本地与国际客户的数字开户。这是 Fourthline 在卢森堡的第一个银行客户，上线时间与开户量未披露。",
+    "en": "Banque Internationale à Luxembourg has selected Fourthline as its identity verification partner, using a single API for document checks, biometric analysis and the vendor's own risk models across domestic and international digital onboarding. It is Fourthline's first bank partner in Luxembourg; go-live timing and volumes were not disclosed.",
+    "es": "El Banque Internationale à Luxembourg eligió a Fourthline como socio de verificación de identidad, con una única API para comprobar documentos, analizar datos biométricos y aplicar sus modelos propios en el alta digital de clientes locales e internacionales. Es el primer socio bancario de Fourthline en Luxemburgo; no se revelaron fechas de inicio ni volúmenes."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "一套接口包住三步",
+        "en": "One API covers three steps",
+        "es": "Una sola API cubre tres pasos"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "按双方公告，BIL 的数字开户走单次 API 接入，链路上依次是身份证件核验、生物特征数据分析、以及 Fourthline 自有核验模型的判定。服务对象同时包括卢森堡本地客户与通过 BIL 数字渠道开户的国际客户。公告没有给出接入的产品版本、开户量、上线日期，也没有说明失败件如何转人工复核。",
+        "en": "According to the announcement, BIL's digital onboarding uses a single API integration that runs document verification, biometric data analysis and decisions from Fourthline's proprietary models. It covers both domestic clients and international clients opening accounts through BIL's digital channels. The announcement gives no product version, account volumes, go-live date or detail on how failed checks are escalated to manual review.",
+        "es": "Según el anuncio, el alta digital de BIL utiliza una única integración de API que ejecuta la verificación documental, el análisis de datos biométricos y las decisiones de los modelos propios de Fourthline. Cubre tanto a clientes locales como a clientes internacionales que abren cuenta por los canales digitales de BIL. El anuncio no indica versión de producto, volumen de altas, fecha de entrada en servicio ni cómo se escalan las comprobaciones fallidas a revisión manual."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "合并后的第一个银行客户",
+        "en": "A bank win after the merger",
+        "es": "Un cliente bancario tras la fusión"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Fourthline 与 Veridas 在 11 月 3 日完成合并，两家都以银行远程开户核验为主业。BIL 成立于 1856 年，按 Fourthline 的说法是卢森堡历史最久的 tier 1 银行，业务覆盖数字银行、财富管理与公司金融，在瑞士、法国和中国设有机构。这条合同是合并后公开的第一笔卢森堡银行客户，但公告未说明它是否由合并前的哪一方带来。",
+        "en": "Fourthline and Veridas completed their merger on November 3; both focus on identity verification for remote bank onboarding. BIL was founded in 1856 and, according to Fourthline, is Luxembourg's oldest tier 1 bank, spanning digital banking, wealth management and corporate finance with offices in Switzerland, France and China. The deal is the first publicly announced Luxembourg bank client since the merger, though the announcement does not say which side brought it in.",
+        "es": "Fourthline y Veridas completaron su fusión el 3 de noviembre; ambas se centran en la verificación de identidad para el alta remota de clientes bancarios. BIL se fundó en 1856 y, según Fourthline, es el banco de nivel 1 más antiguo de Luxemburgo, con actividad en banca digital, gestión de patrimonios y finanzas corporativas y oficinas en Suiza, Francia y China. Es el primer cliente bancario luxemburgués anunciado tras la fusión, aunque el comunicado no aclara qué parte lo aportó."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "卢森堡的银行开户核验正在向「单 API 加自有模型」集中。BIL 这类客户的特点是跨境开户比例高，证件类型覆盖多国，人工复核成本高，因此供应商能不能用一套接口处理多国证件，比本地服务响应速度更重要。对 Fourthline 与 Veridas 的合并体，这笔合同的价值在于证明交叉销售能落地：合并后需要向市场展示，原有两套银行客户名单可以互相导流。对本地核验商，一家历史最久的 tier 1 银行选择外部供应商，说明本地合规熟悉度本身不足以锁定客户，认证范围与模型能力才是采购门槛。",
+    "en": "Bank onboarding checks in Luxembourg are concentrating around a single API plus proprietary models. Banks like BIL handle a high share of cross-border account openings, with document types from many countries and costly manual review, so whether a vendor can process multi-country documents through one interface matters more than local service responsiveness. For the Fourthline-Veridas combination, the contract's value is proof that cross-selling works: after a merger, the market wants evidence that the two bank client lists can feed each other. For local verification providers, the oldest tier 1 bank choosing an outside vendor shows that familiarity with local rules alone does not lock a client; certification coverage and model performance are the procurement threshold.",
+    "es": "La verificación en el alta bancaria de Luxemburgo se concentra en una sola API con modelos propios. Bancos como BIL gestionan una alta proporción de aperturas transfronterizas, con documentos de muchos países y una revisión manual costosa, por lo que la capacidad de tratar documentos de varios países con una interfaz pesa más que la cercanía del proveedor local. Para la combinación Fourthline-Veridas, el valor del contrato es demostrar que la venta cruzada funciona: tras una fusión, el mercado quiere pruebas de que las dos carteras de clientes bancarios se alimentan entre sí. Para los proveedores locales, que el banco de nivel 1 más antiguo elija a un tercero muestra que conocer la normativa local no basta para retener la cuenta; la cobertura de certificaciones y el rendimiento de los modelos son el umbral de compra."
+  },
+  "confidence": 0.66,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

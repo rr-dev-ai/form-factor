@@ -1,0 +1,125 @@
+{
+  "id": "2026-11-13-telecom-01",
+  "slug": "fibocom-cat1bis-starlink-direct-to-cell",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "satellite"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-13T04:17:45+08:00",
+  "ingestedAt": "2026-11-13T02:50:38+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "IoT Business News",
+      "url": "https://iotbusinessnews.com/2026/11/12/fibocom-demonstrates-starlink-direct-to-cell-connectivity-with-standard-lte-cat-1-bis-modules/",
+      "lang": "en",
+      "publishedAt": "2026-11-12T14:41:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "Fibocom 用标准 Cat.1 bis 模组接上星链直连",
+    "en": "Fibocom links standard Cat.1 bis modules to Starlink direct-to-cell",
+    "es": "Fibocom conecta módulos Cat.1 bis estándar a la red direct-to-cell de Starlink"
+  },
+  "summary": {
+    "zh": "Fibocom 在新西兰用 LE270-EU 与 LE271-GL 两款标准 Cat.1 bis 模组接入 Starlink 手机直连卫星网络，不加卫星硬件、不改固件即建立 IP 数据会话。实测下行 2.2 与 2.0 Mbps，上行约 0.3 Mbps，入网 1–30 秒；卫星链路耗电为地面网的 1.5–1.8 倍。属现场测试，未公布合作运营商与商用时间。",
+    "en": "Fibocom ran field tests in New Zealand with its LE270-EU and LE271-GL LTE Cat.1 bis modules on SpaceX's Starlink direct-to-cell network, establishing IP data sessions without satellite-specific hardware or modified firmware. Downlink reached about 2.2 and 2.0 Mbps, uplink around 0.3 Mbps, and network registration took 1 to 30 seconds. Satellite uploads used 1.5 to 1.8 times the energy of terrestrial links. The participating operator and any commercial timeline were not disclosed.",
+    "es": "Fibocom realizó pruebas de campo en Nueva Zelanda con sus módulos LTE Cat.1 bis LE270-EU y LE271-GL en la red direct-to-cell de Starlink, estableciendo sesiones de datos IP sin hardware satelital específico ni firmware modificado. La bajada alcanzó unos 2,2 y 2,0 Mbps, la subida cerca de 0,3 Mbps y el registro en red tardó entre 1 y 30 segundos. La carga por satélite consumió entre 1,5 y 1,8 veces más energía que el enlace terrestre. No se revelaron el operador participante ni un calendario comercial."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "测的是普通模组，不是卫星专用终端",
+        "en": "Ordinary modules, not satellite-specific terminals",
+        "es": "Módulos comunes, no terminales satelitales dedicados"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Starlink 的手机直连方案把 LTE 基站搬到低轨卫星上，终端仍按地面蜂窝的流程附着，接入由参与该网络的本地运营商放行。Fibocom 的测试点在新西兰，用的是现有量产型号 LE270-EU 与 LE271-GL，两者都是 LTE Cat.1 bis 模组，测试中未加装卫星调制解调器，也未改动固件。公告没有说明用的是实体 SIM 还是 eUICC 上的 profile，只强调终端侧没有为卫星做专门改动。",
+        "en": "Starlink's direct-to-cell approach puts LTE base station capability on low-orbit satellites while devices attach through the normal cellular procedure, with access granted by the local operator participating in the network. Fibocom tested in New Zealand with two existing production models, the LE270-EU and LE271-GL, both LTE Cat.1 bis modules, adding no satellite modem and changing no firmware. The announcement did not say whether a physical SIM or an eUICC profile was used, only that nothing on the device was adapted for satellite.",
+        "es": "El esquema direct-to-cell de Starlink lleva capacidad de estación base LTE a satélites en órbita baja, mientras los dispositivos se adhieren por el procedimiento celular habitual y el acceso lo habilita el operador local que participa en la red. Fibocom probó en Nueva Zelanda con dos modelos de producción existentes, LE270-EU y LE271-GL, ambos módulos LTE Cat.1 bis, sin añadir módem satelital ni modificar el firmware. El anuncio no precisó si se usó SIM física o un perfil en eUICC, solo que nada en el dispositivo se adaptó para satélite."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "实测数字",
+        "en": "Measured numbers",
+        "es": "Los números medidos"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "下行：LE270-EU 约 2.2 Mbps，LE271-GL 约 2.0 Mbps；上行两者均约 0.3 Mbps",
+          "en": "Downlink: about 2.2 Mbps on the LE270-EU and 2.0 Mbps on the LE271-GL; uplink around 0.3 Mbps on both",
+          "es": "Bajada: unos 2,2 Mbps en el LE270-EU y 2,0 Mbps en el LE271-GL; subida de unos 0,3 Mbps en ambos"
+        },
+        {
+          "zh": "入网时间 1–30 秒，天空视野良好时 ping 成功率 80%–90%",
+          "en": "Registration took 1 to 30 seconds, with ping success of 80% to 90% under a clear sky view",
+          "es": "El registro tardó de 1 a 30 segundos, con éxito de ping del 80% al 90% con cielo despejado"
+        },
+        {
+          "zh": "室内测试下行降到约 0.5 Mbps，ping 成功率 65%–70%，部分请求明显变慢",
+          "en": "Indoors, downlink fell to about 0.5 Mbps and ping success to 65% to 70%, with some requests markedly slower",
+          "es": "En interiores la bajada cayó a unos 0,5 Mbps y el éxito de ping al 65%–70%, con algunas solicitudes mucho más lentas"
+        },
+        {
+          "zh": "同样文件经卫星上传的能耗是地面蜂窝的 1.5–1.8 倍，待机 2.5 µA 的 PSM 电流未受影响",
+          "en": "Uploading the same file over satellite took 1.5 to 1.8 times the energy of terrestrial cellular, while the 2.5 µA PSM sleep current held",
+          "es": "Subir el mismo archivo por satélite consumió entre 1,5 y 1,8 veces la energía de la red celular terrestre, mientras la corriente PSM de 2,5 µA se mantuvo"
+        }
+      ]
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "代价落在功耗预算上",
+        "en": "The cost lands on the power budget",
+        "es": "El costo recae en el presupuesto de energía"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "能耗差距来自更长的传输时间、更高的发射电流和重传，而不是待机。对电池供电的资产追踪、农业传感、表计来说，这意味着同一块电池在卫星覆盖区要么少报几次，要么换更大容量。可用的缓解手段是把上报频率降下来、先在本地缓存，再按卫星可见窗口批量发送。",
+        "en": "The energy gap comes from longer transmission times, higher transmit current and retransmissions rather than standby. For battery-powered asset tracking, agricultural sensing and metering, the same cell in satellite coverage must either report less often or grow in capacity. The available mitigations are lowering reporting frequency, buffering locally and sending in batches when the satellite is in view.",
+        "es": "La diferencia de consumo proviene de tiempos de transmisión más largos, mayor corriente de emisión y retransmisiones, no del reposo. Para el seguimiento de activos, la sensorización agrícola y los medidores a batería, la misma celda en zona de cobertura satelital debe reportar menos o crecer en capacidad. Las mitigaciones disponibles son bajar la frecuencia de reporte, almacenar en local y enviar por lotes cuando el satélite esté a la vista."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "还不能当作商用结论",
+        "en": "Not yet a commercial conclusion",
+        "es": "Todavía no es una conclusión comercial"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这是单市场、单网络的现场测试，不是入网认证。公告自己写明，接入成功不等于跨卫星网络通用，终端资格、运营商接入安排与实际性能都还要单独谈。Fibocom 表示仍在优化 LE270 与 LE271 系列的直连固件兼容性，重点是入网效率与连接保持。",
+        "en": "This is a single-market, single-network field test, not a network certification. The announcement itself notes that attaching successfully does not mean compatibility across satellite networks, and that device eligibility, operator access arrangements and real-world performance must be negotiated separately. Fibocom said it is still optimising direct-to-cell firmware compatibility for the LE270 and LE271 series, focused on registration efficiency and connection resilience.",
+        "es": "Es una prueba de campo en un solo mercado y una sola red, no una certificación de acceso. El propio anuncio señala que adherirse con éxito no implica compatibilidad entre redes satelitales y que la elegibilidad del dispositivo, los acuerdos de acceso con el operador y el rendimiento real deben negociarse por separado. Fibocom indicó que sigue optimizando la compatibilidad de firmware direct-to-cell de las series LE270 y LE271, centrada en la eficiencia de registro y la resiliencia de conexión."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对 SIM 与 eUICC 这一侧，这条测试给出的信息是：卫星直连没有逼着终端换凭证形态。模组按标准蜂窝流程附着，运营商在网络侧放行，卡里的鉴权凭证和远程配置流程都不需要为卫星单开一套。真正被卡住的是终端资格与运营商接入协议——模组通过测试，不等于整机可以入网，更不等于客户能买到流量。对做资产追踪、农业传感和表计的集成商，短期影响在功耗预算：同一块电池在卫星覆盖区的续航要重算，这决定了哪些场景可以先上。对模组厂，Cat.1 bis 是出货量最大的品类，把直连能力挂到现有料号上，比新开一条卫星专用产品线便宜得多；但要变成订单，还得等参与 Starlink 直连的运营商把终端白名单和资费开出来。",
+    "en": "For the SIM and eUICC side, the useful signal is that direct-to-cell has not forced a change in credential form. Modules attach through the standard cellular procedure and the operator admits them on the network side, so neither the authentication credentials on the card nor the remote provisioning flow needs a satellite-specific variant. What does block progress is device eligibility and operator access: a module passing a test does not mean a finished device is admitted, still less that a customer can buy data. For integrators in asset tracking, agricultural sensing and metering, the near-term effect is on the power budget, since battery life in satellite coverage has to be recalculated, and that decides which use cases can go first. For module vendors, Cat.1 bis is the highest-volume category, so attaching direct-to-cell capability to existing part numbers is far cheaper than opening a satellite-only line, but turning that into orders depends on the Starlink partner operators publishing device whitelists and tariffs.",
+    "es": "Para el lado de SIM y eUICC, la señal útil es que la conexión directa por satélite no ha obligado a cambiar la forma del credencial. Los módulos se adhieren por el procedimiento celular estándar y el operador los admite en la red, de modo que ni las credenciales de autenticación de la tarjeta ni el flujo de aprovisionamiento remoto necesitan una variante específica para satélite. Lo que sí bloquea el avance es la elegibilidad del dispositivo y el acuerdo de acceso: que un módulo pase una prueba no significa que un equipo acabado sea admitido, y menos que un cliente pueda comprar datos. Para los integradores de seguimiento de activos, sensorización agrícola y medición, el efecto inmediato está en el presupuesto de energía, porque la autonomía en cobertura satelital debe recalcularse, y eso decide qué casos de uso pueden ir primero. Para los fabricantes de módulos, Cat.1 bis es la categoría de mayor volumen, así que añadir capacidad direct-to-cell a referencias existentes es mucho más barato que abrir una línea solo satelital, pero convertir eso en pedidos depende de que los operadores socios de Starlink publiquen listas de dispositivos y tarifas."
+  },
+  "confidence": 0.55,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "telecom-editor-2026-11-13"
+  }
+}

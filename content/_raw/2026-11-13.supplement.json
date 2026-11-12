@@ -1,0 +1,64 @@
+{
+  "fetchedAt": "2026-11-13T01:53:34+08:00",
+  "fetchedFor": "2026-11-13",
+  "gap": ["cis", "mena", "europe", "north-america", "latam"],
+  "cellGap": ["apac/telecom", "apac/identity", "africa/banking", "africa/telecom"],
+  "industryGap": ["telecom", "banking", "identity"],
+  "items": [
+    {
+      "title": "西班牙选举委员会认可 MiDNI 投票核验，6 万台扫码终端进投票站",
+      "url": "https://www.biometricupdate.com/202611/spain-reinstates-midni-digital-id-for-voting-in-november-election",
+      "publishedAt": "2026-11-10T07:46:00-05:00",
+      "industry": "identity",
+      "region": "europe",
+      "actionType": "联合部署",
+      "gateNote": "过动作门的「联合部署」：受理方是中央选举委员会与内政部，落地市场写明西班牙，规模给了 6 万台扫码终端。差的是设备供应商与采购金额——终审若按「无具体物」收紧，能站住的只剩规模与 11 月 29 日这个时点。",
+      "discoveredBy": "\"licitación\" tarjetas inteligentes chip documento identidad noviembre 2026 adjudicación",
+      "note": "落身份链路的受理环节：投票站用带摄像头的终端扫 MiDNI 生成的临时 QR，向官方校验器核验数字证件真伪，而不是目视比对手机屏幕。机制变化在于把数字 DNI 的受理从「出示」改为「服务端可验」，且只对 MiDNI 开放，数字驾照 MIDGT 仍被排除。原文未给终端供应商、单台成本，也没说断网投票站如何降级核验。"
+    },
+    {
+      "title": "萨摩亚发布国家数字身份政策，SDIN 为根、2027 年全民集中采集",
+      "url": "https://www.biometricupdate.com/202611/samoa-launches-national-digital-id-policy-sets-roadmap-for-biometric-identity-system",
+      "publishedAt": "2026-11-09T15:46:00-05:00",
+      "industry": "identity",
+      "region": "apac",
+      "actionType": "无",
+      "gateNote": "政策文本发布，六类动作都不贴：没有授标（RFP 尚未开标）、没有部署落地、没有产品参数。它离「授标」只差中标方与金额——统计局已备好 RFP、世行出资，这是可跟踪的下一个节点。",
+      "discoveredBy": "mDL issuance verifiable credential pilot launched November 2026 government",
+      "note": "落签发环节的上游：75 页政策把 SDIN 定为身份根，NDID 由民事登记、身份库、生物库、认证服务四块组成，人脸与指纹按 ISO/IEC 19794、证件按 ICAO 9303、活体检测按 30107 系列。机制变化是启用一次性全国集中采集加村级登记点、便携设备补偏远岛屿，2027 年实施。原文未给系统集成商、单套成本与 RFP 开标日。"
+    },
+    {
+      "title": "巴林 CrediMax 上线 Click to Pay，在线卡支付改用 Passkey 免密",
+      "url": "https://newsroom.mastercard.com/news/eemea/en/newsroom/press-releases/en/2026/november/credimax-and-mastercard-accelerate-frictionless-payments-in-bahrain-with-mastercard-click-to-pay/",
+      "publishedAt": "2026-11-10T00:00:00+03:00",
+      "industry": "banking",
+      "region": "mena",
+      "actionType": "产品化节点",
+      "gateNote": "按「产品化节点」入库：Click to Pay 与 Payment Passkeys 从规范变成可商用受理，落地方是巴林本地发卡兼收单机构，产品名与适用终端（手机生物识别）都齐。缺发卡量与商户覆盖数，收紧时只剩产品名与受理方两项。",
+      "discoveredBy": "\"12 November 2026\" OR \"11 November 2026\" bank card digital ID Middle East launch",
+      "note": "落收单与受理环节：持卡人在商户网页结账不再跳转银行页输 OTP，改用设备指纹或人脸解锁 passkey 完成持卡人认证，令牌化仍由 Mastercard Merchant Cloud 承担。机制变化是把在线卡支付的验证从短信验证码移到设备端密钥。原文未给接入商户数、交易量，也没说无生物识别设备上的降级路径。"
+    },
+    {
+      "title": "巴林 EazyPay 预付卡由 GPS 承接发卡处理，令牌化与 3DS 一并打包",
+      "url": "https://newsroom.mastercard.com/news/eemea/en/newsroom/press-releases/en/2026/november/gps-eazypay-and-mastercard-collaborate-to-launch-prepaid-card-program-to-enhance-bahrain-s-payments-ecosystem/",
+      "publishedAt": "2026-11-11T00:00:00+03:00",
+      "industry": "banking",
+      "region": "mena",
+      "actionType": "联合部署",
+      "gateNote": "三方分工写明（GPS 做发卡处理与令牌化、Mastercard 出网络、EazyPay 做运营），市场为巴林，勉强够联合部署。但无卡量、无上线日、无 BIN 区间，通篇是「expected to accelerate」，终审按通稿刷掉的风险高。",
+      "discoveredBy": "\"12 November 2026\" OR \"11 November 2026\" bank card digital ID Middle East launch",
+      "note": "落发卡与收单两段：预付卡的处理、令牌化、API 对接、欺诈监控与 3DS 全部由本地处理商承接，等于把发卡系统留在本国机房而非跨境处理。机制变化是海湾小体量预付卡程序开始走「本地处理商 + 卡组织网络」的分层。原文只说会加快铺开，未给卡量、上线时间与 BIN。"
+    },
+    {
+      "title": "Sage 把企业账户与借记卡塞进记账软件，Adyen 供 BaaS、Mastercard 出网络",
+      "url": "https://www.sage.com/en-gb/company/digital-newsroom/2026/11/sage-partners-with-adyen-and-mastercard-to-deliver-business-accounts",
+      "publishedAt": "2026-11-10T00:00:00+01:00",
+      "industry": "banking",
+      "region": "europe",
+      "actionType": "联合部署",
+      "gateNote": "分工与首发市场（法国，Sage 50/100/Active）写明，过联合部署最低线。但产品仍在开发，无上线日、无发卡行、无 BIN 赞助方，属计划类通稿，被终审收紧时只剩三方名字与法国这一个市场。",
+      "discoveredBy": "bank card issuance processor agreement signed November 2026 Europe fintech",
+      "note": "落发卡与账户两段：借记卡由 Adyen 的 BaaS 承接开户与入网、Mastercard 供网络，账户与卡长在记账软件里，资金一动账目自动入账。机制变化是发卡分销口从银行网点换成会计软件，服务的是已有银行关系的小微企业。原文未说发卡行是谁、BIN 谁赞助，也未给费率与上线时间。"
+    }
+  ]
+}

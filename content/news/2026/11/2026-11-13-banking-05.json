@@ -1,0 +1,81 @@
+{
+  "id": "2026-11-13-banking-01",
+  "slug": "unionpay-ant-fusion-pos-terminal-china",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "acquiring"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-13T04:17:45+08:00",
+  "ingestedAt": "2026-11-13T02:30:00+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "中国银联",
+      "url": "https://cn.unionpay.com/upowhtml/cn/templates/newInfo-nosub/7885004da382485e8bde5a0ba000fdd3/20261112201000.html",
+      "lang": "zh",
+      "publishedAt": "2026-11-12T20:10:00+08:00"
+    },
+    {
+      "name": "界面新闻",
+      "url": "https://www.jiemian.com/article/15326789.html",
+      "lang": "zh"
+    }
+  ],
+  "title": {
+    "zh": "银联与蚂蚁联合推出融合终端，一台机器收五种支付",
+    "en": "UnionPay and Ant Group launch one terminal for five payment schemes",
+    "es": "UnionPay y Ant Group lanzan un terminal que acepta cinco formas de pago"
+  },
+  "summary": {
+    "zh": "中国银联与蚂蚁集团 11 月 12 日在西安银泰钟楼开元商城发布全功能融合终端，单台设备受理境内外银行卡、聚合二维码、手机 Pay、支付宝碰一下与数字人民币。银联商务为授权经销商与运营方，首批标杆项目已落地，终端同时满足银联企业技术规范与支付宝 IoT 设备安全规范。",
+    "en": "UnionPay and Ant Group unveiled a combined acceptance terminal on 12 November at the Yintai mall in Xi'an, with one device taking domestic and foreign bank cards, aggregated QR codes, mobile wallets, Alipay's tap-to-pay and the digital yuan. UnionPay Merchant Services is the authorised distributor and operator, and the first reference deployments are already live. The device is built to meet both UnionPay's enterprise technical specification and Alipay's IoT device security specification.",
+    "es": "UnionPay y Ant Group presentaron el 12 de noviembre en el centro comercial Yintai de Xi'an un terminal que acepta en un solo equipo tarjetas nacionales y extranjeras, códigos QR agregados, carteras móviles, el pago por toque de Alipay y el yuan digital. UnionPay Merchant Services es el distribuidor y operador autorizado, y los primeros despliegues de referencia ya están activos. El equipo cumple a la vez la especificación técnica empresarial de UnionPay y la de seguridad de dispositivos IoT de Alipay."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "把收银台上的几台设备并成一台",
+        "en": "Several countertop devices folded into one",
+        "es": "Varios equipos de mostrador en uno solo"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "终端是金融级智能 POS，受理侧同时覆盖境内外银行卡、二维码聚合支付、手机 Pay、支付宝碰一下与数字人民币。除收款外，设备集成合并支付与资金分账，可按预设指令把一笔收款拆给不同经营主体，面向多供应商联营、连锁门店与商超联营；还内置电子发票云服务，以及针对境外游客的离境退税双模式。银联商务把「以旧换新」应用做了深度适配，商户无需再单独配置即可受理。",
+        "en": "The device is a financial-grade smart POS terminal covering domestic and foreign cards, aggregated QR acceptance, mobile wallets, Alipay tap-to-pay and the digital yuan at the acceptance layer. Beyond taking payments it splits a single transaction among multiple merchants on preset instructions, aimed at concession counters, chains and shared supermarket floors; it also bundles cloud e-invoicing and two departure-tax-refund modes for foreign shoppers. UnionPay Merchant Services has pre-adapted the national trade-in subsidy app so merchants can accept it without separate configuration.",
+        "es": "El equipo es un POS inteligente de grado financiero que cubre en la capa de aceptación tarjetas nacionales y extranjeras, QR agregado, carteras móviles, el pago por toque de Alipay y el yuan digital. Además del cobro, divide una operación entre varios comercios con instrucciones predefinidas, pensado para concesiones, cadenas y plantas compartidas de supermercado; también incluye facturación electrónica en la nube y dos modalidades de devolución de impuestos para turistas. UnionPay Merchant Services adaptó la aplicación estatal de subsidio por recambio para que el comercio la acepte sin configuración adicional."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "合规基线是两套规范，不是一个标准",
+        "en": "Two specifications, not one, set the compliance floor",
+        "es": "Dos especificaciones, no una, fijan el piso de cumplimiento"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "设备需同时满足银联企业技术规范与支付宝 IoT 设备安全规范，这是它区别于常规 POS 的地方：一台机器要过两家机构的设备与安全要求，应用层也要同时对接两套受理接口。银联商务负责授权经销与运营，首个落地场景是银泰商业西安钟楼开元商城，商场侧已上线会员识别、支付结算与语音导购提醒。公告未给单台价格、首批铺机数量与后续投放时间表。",
+        "en": "The terminal has to satisfy UnionPay's enterprise technical specification and Alipay's IoT device security specification at once, which is what separates it from a conventional POS: one device clears two institutions' hardware and security requirements, and its application layer integrates both acceptance interfaces. UnionPay Merchant Services handles distribution and operations; the first site is the Yintai mall in Xi'an, where member recognition, checkout and voice shopping-assistant prompts are live. The announcement gave no unit price, first-batch volume or rollout timetable.",
+        "es": "El terminal debe cumplir a la vez la especificación técnica empresarial de UnionPay y la de seguridad de dispositivos IoT de Alipay, y ahí se diferencia de un POS convencional: un solo equipo supera los requisitos de hardware y seguridad de dos instituciones, y su capa de aplicación integra ambas interfaces de aceptación. UnionPay Merchant Services se encarga de la distribución y la operación; el primer sitio es el centro Yintai de Xi'an, con reconocimiento de socios, cobro y avisos de voz ya activos. El anuncio no dio precio unitario, volumen del primer lote ni calendario de despliegue."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对做商户系统与 POS 应用的集成商，这条改的是适配对象：过去按一家卡组织或一家钱包的规范做认证，现在同一台机器要同时过银联与支付宝两套设备与安全规范，等于把多渠道受理从软件层挪到了硬件准入层。对设备厂，这是门槛也是护城河——能同时过两套规范的机型会拿到商场、景区这类改造预算，只做单一渠道的机型被推到边缘场景。商业上更值得盯的是资金分账与电子发票被打包进终端：这两项原本是收单行与 SaaS 服务商的收费项，一旦随机具免费落地，靠增值服务收费的中间商要先丢一块。下一步看铺机量，以及机型认证是否向第三方厂商开放。",
+    "en": "For integrators building merchant systems and POS applications, the change is in what has to be certified: instead of qualifying against one scheme or one wallet, a single device must clear both UnionPay's and Alipay's hardware and security specifications, moving multi-channel acceptance from software into hardware admission. For terminal makers that is both a barrier and a moat: models that pass both specifications will win refurbishment budgets in malls and tourist sites, while single-channel models get pushed to the edges. Commercially, the sharper detail is that fund splitting and e-invoicing are now bundled into the terminal; both were billable lines for acquirers and SaaS providers, and once they ship free with the hardware the middle layer selling them as add-ons loses that revenue first. Watch deployment volume and whether model certification opens to third-party vendors.",
+    "es": "Para los integradores de sistemas de comercio y aplicaciones POS, el cambio está en qué hay que certificar: en lugar de calificar contra un esquema o una cartera, un solo equipo debe superar las especificaciones de hardware y seguridad de UnionPay y de Alipay, lo que traslada la aceptación multicanal de la capa de software al acceso de hardware. Para los fabricantes es a la vez barrera y foso: los modelos que pasen ambas especificaciones se llevarán los presupuestos de renovación en centros comerciales y zonas turísticas, mientras los de un solo canal quedan en los márgenes. En lo comercial, el detalle filoso es que la división de fondos y la facturación electrónica van ahora dentro del terminal; ambas eran líneas facturables para adquirentes y proveedores de SaaS, y al ir gratis con el hardware la capa intermedia que las vendía como extra pierde ese ingreso primero. Hay que seguir el volumen desplegado y si la certificación de modelos se abre a terceros."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-banking-2026-11"
+  }
+}

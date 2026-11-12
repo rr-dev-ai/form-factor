@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-13",
+  "industry": "telecom",
+  "startedAt": "2026-11-13T02:50:38+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "Brisanet mira lançamento de D2D com AST SpaceMobile em 2028",
+      "url": "https://www.mobiletime.com.br/noticias/11/11/2026/brisanet-mira-lancamento-de-d2d-com-ast-spacemobile-em-2028/",
+      "reason": "duplicate-of-2026-11-11-telecom-01：同一份 Brisanet/Unifique/iez! 与 AST 的 D2D 协议，本条只是财报电话会补了 2027 投建、2028 商用的时间点。"
+    },
+    {
+      "title": "AST SpaceMobile prevé activar cobertura satelital D2D intermitente antes de finalizar 2026",
+      "url": "https://www.telesemana.com/blog/2026/11/11/ast-spacemobile-preve-activar-cobertura-satelital-d2d-intermitente-antes-de-finalizar-2026/",
+      "reason": "动作门不过：与 11-12 已拦的 Fierce 同题稿是同一表态，无产品名、无运营商客户、无终端清单。"
+    },
+    {
+      "title": "Telia acquires Telavox's Nordic MVNO business in $380m deal",
+      "url": "https://www.mobileeurope.co.uk/telia-mvno-nordics/",
+      "reason": "范围门不过：MVNO 客户群与业务并购，交易标的是用户合同而非 SIM 载体、profile 下发或鉴权方式。"
+    },
+    {
+      "title": "Telia snaps up Telavox enterprise users for $380M",
+      "url": "https://www.mobileworldlive.com/industry/telia-snaps-up-telavox-enterprise-users-for-380m/",
+      "reason": "同上，同一笔交易的另一家报道，按标题去重。"
+    },
+    {
+      "title": "Eurobites: Telia bags Telavox's business customer base",
+      "url": "https://www.lightreading.com/operations/eurobites-telia-bags-telavox-s-business-customer-base",
+      "reason": "同上，Eurobites 汇总里的同一条交易。"
+    },
+    {
+      "title": "Optus y Nokia prueban un canal 5G asimétrico de 25 MHz en la banda de 900 MHz",
+      "url": "https://www.telesemana.com/blog/2026/11/11/optus-y-nokia-prueban-un-canal-5g-asimetrico-de-25-mhz-en-la-banda-de-900-mhz/",
+      "reason": "范围门不过：低频频谱上的无线接入试验，属基站侧，AGENTS 明确排除。"
+    },
+    {
+      "title": "Google Fi comienza a alternar entre dos redes 5G y conexiones Wi-Fi en sus planes",
+      "url": "https://www.telesemana.com/blog/2026/11/11/google-fi-comienza-a-alternar-entre-dos-redes-5g-y-conexiones-wi-fi-en-sus-planes/",
+      "reason": "duplicate-of-2026-11-12-telecom-01：Google Fi 多网络切换的西语版同稿。"
+    },
+    {
+      "title": "Verizon, Nokia show private 5G chops at UK's Thames Freeport",
+      "url": "https://www.lightreading.com/private-networks/verizon-nokia-show-private-5g-chops-at-uk-s-thames-freeport",
+      "reason": "范围门不过：专网 5G 部署，属基站与核心网，不落凭证链路。"
+    },
+    {
+      "title": "Telefónica lands 5G contract for military defence centre in Slovakia",
+      "url": "https://www.mobileeurope.co.uk/telefonica-mod-slovakia/",
+      "reason": "范围门不过：专网合同，标的是网络覆盖而非 SIM/eSIM 载体。"
+    },
+    {
+      "title": "FCC accepts SpaceX application to acquire 800MHz spectrum",
+      "url": "https://totaltele.com/fcc-accepts-spacex-application-to-acquire-800mhz-spectrum/",
+      "reason": "范围门不过：频谱交易受理，属明确排除项。"
+    },
+    {
+      "title": "After Qualcomm, who else might get a piece of Starlink Mobile's 5G network?",
+      "url": "https://www.fierce-network.com/wireless/after-qualcomm-who-else-might-get-piece-of-starlink-mobiles-5g-network",
+      "reason": "范围门不过：地面 5G 设备供应格局的推测稿，与 11-05 已拦的 SpaceX×Qualcomm 同一口径。"
+    },
+    {
+      "title": "Paratus Malawi launches with Starlink services",
+      "url": "https://www.itweb.co.za/article/paratus-malawi-launches-with-starlink-services/mYZRX79gKOJqOgA8",
+      "reason": "范围门不过：宽带分销落地，属渠道与接入服务，无 SIM 或鉴权变化。"
+    },
+    {
+      "title": "Ooredoo acuerda con Bango el acceso de sus filiales a una plataforma de suscripciones",
+      "url": "https://www.telesemana.com/blog/2026/11/11/ooredoo-acuerda-con-bango-el-acceso-de-sus-filiales-a-una-plataforma-de-suscripciones/",
+      "reason": "范围门不过：订阅计费与分发平台，属渠道合作，归资费促销。"
+    },
+    {
+      "title": "Ghana Sets March 2027 Deadline for 70% 5G Network Coverage",
+      "url": "https://www.telecomreviewafrica.com/articles/general-news/29470-ghana-sets-march-2027-deadline-for-70-5g-network-coverage/",
+      "reason": "范围门不过：网络覆盖目标，属监管表态与基站建设。"
+    },
+    {
+      "title": "Ericsson, Vodafone Egypt Achieve 14% 5G Efficiency Gain in AI Trial",
+      "url": "https://www.telecomreviewafrica.com/articles/reports-and-coverage/29461-ericsson-vodafone-egypt-achieve-14-5g-efficiency-gain-in-ai-trial/",
+      "reason": "范围门不过：无线接入能效试验，不涉及载体或鉴权。"
+    },
+    {
+      "title": "Thailand's NT Proposes THB 16.1 Billion Submarine Cable Network Expansion",
+      "url": "https://www.telecomreviewasia.com/news/industry-news/30767-thailands-nt-proposes-thb-16-1-billion-submarine-cable-network-expansion/",
+      "reason": "范围门不过：海缆扩容，属传输基础设施。"
+    },
+    {
+      "title": "A decade on, ICASA edges towards new network licences",
+      "url": "https://www.itweb.co.za/article/a-decade-on-icasa-edges-towards-new-network-licences/6GxRKMYQOjPMb3Wj",
+      "reason": "范围门不过：频谱与网络牌照发放，属排除项。"
+    },
+    {
+      "title": "TIM to expand its services through synergies with Poste – CEO",
+      "url": "https://www.lightreading.com/digital-transformation/tim-to-expand-its-services-through-synergies-with-poste-ceo",
+      "reason": "范围门不过：企业整合与业务协同，无产品、无载体变化。"
+    },
+    {
+      "title": "TIM advances Poste integration, renews Inwit proposal",
+      "url": "https://rcrwireless.com/20261112/carriers/tim-poste-inwit",
+      "reason": "同上，同一组整合动作的另一家报道。"
+    },
+    {
+      "title": "Starlink gets faster ahead of 'V3' launches, but shift to dynamic pricing could backfire",
+      "url": "https://www.lightreading.com/satellite/starlink-gets-faster-ahead-of-v3-launches-but-shift-to-dynamic-pricing-could-backfire",
+      "reason": "范围门不过：宽带速率与资费策略，属资费促销。"
+    },
+    {
+      "title": "NTT Docomo's network glitches twice in five days",
+      "url": "https://www.lightreading.com/5g/ntt-docomo-s-network-glitches-twice-in-five-days",
+      "reason": "范围门不过：网络故障，属核心网运维。"
+    },
+    {
+      "title": "Skylo enters South Korea through distribution agreement with KT SAT",
+      "url": "https://iotbusinessnews.com/2026/11/11/skylo-enters-south-korea-through-distribution-agreement-with-kt-sat/",
+      "reason": "动作门不过：与 11-12 已判的 KT Sat×Skylo 同一分销协议，同一厂商两天内第二次同类通稿；仍待韩国主管部门批准，无金额、无客户。"
+    },
+    {
+      "title": "10 家企业获批开展号码保护服务业务试点",
+      "url": "https://www.163.com/dy/article/LBD7SB7805346RC6.html",
+      "reason": "范围门不过：700 号段与中间号属号码资源与消息路由，不落载体/签发/分发/受理任一环节，与 11-07 拦 Anatel A2P 短码同一口径。"
+    },
+    {
+      "title": "South Africa's proposed new SIM card limits",
+      "url": "https://mybroadband.co.za/news/cellular/579000-south-africas-proposed-new-sim-card-limits.html",
+      "reason": "超窗：ICASA 的编号计划修订案 10 月已发布，本条是行业对旧文档的回应，11-12 已拦过同一事件。"
+    }
+  ],
+  "stats": {
+    "candidates": 197,
+    "written": 1,
+    "skippedByDedup": 2
+  },
+  "finishedAt": "2026-11-12T18:59:10.412Z"
+}

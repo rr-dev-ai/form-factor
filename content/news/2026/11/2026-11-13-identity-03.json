@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-13-identity-01",
+  "slug": "veridas-epic-mychart-identity-verification",
+  "industry": "identity",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "verification",
+    "biometrics",
+    "liveness"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-13T04:17:45+08:00",
+  "ingestedAt": "2026-11-13T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Veridas",
+      "url": "https://www.einnews.com/pr_news/956232078/veridas-successfully-integrates-its-identity-verification-solutions-with-epic-to-secure-digital-healthcare-access",
+      "lang": "en"
+    },
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/veridas-opens-epic-integration-for-mychart-sign-up-and-clinician-access/",
+      "lang": "en",
+      "publishedAt": "2026-11-12T11:02:28-05:00"
+    }
+  ],
+  "title": {
+    "zh": "Veridas 把证件核验接进 Epic 病历门户",
+    "en": "Veridas opens Epic integration for patient portal identity checks",
+    "es": "Veridas integra la verificación de identidad en el portal Epic"
+  },
+  "summary": {
+    "zh": "Veridas 11 月 12 日开放与 Epic 的集成：医院可在 MyChart 注册、账号找回与 EpicCare Link 外部医生接入处，用政府证件加自拍核验身份。医院现在即可签约部署，该集成尚未进入 Epic 的应用目录。",
+    "en": "Veridas opened its Epic integration on November 12, letting hospitals add government-ID plus selfie checks to MyChart sign-up, account recovery and EpicCare Link access for outside clinicians. Health systems can contract and deploy it now, before the integration is listed in Epic's Connection Hub.",
+    "es": "Veridas abrió el 12 de noviembre su integración con Epic: los hospitales pueden añadir verificación con documento oficial y selfi al registro de MyChart, la recuperación de cuentas y el acceso de médicos externos a EpicCare Link. Los sistemas de salud pueden contratarla y desplegarla ya, antes de que figure en el catálogo Connection Hub de Epic."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "核验卡在开户与找回两个口子",
+        "en": "Checks sit at sign-up and account recovery",
+        "es": "La verificación se sitúa en el alta y la recuperación"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "集成覆盖两条入口。MyChart 侧处理患者的远程注册、账号创建与锁定账号找回，用户在流程里提交政府签发证件并拍摄自拍；EpicCare Link 侧面向院外社区医生及其助手，在进入病历前完成同一套核验。Veridas 称核验在注册时完成，用于减少医疗身份盗用和重复病历。",
+        "en": "The integration covers two entry points. On MyChart it handles remote patient onboarding, account creation and recovery of locked accounts, with users submitting a government-issued ID and taking a selfie during the flow. On EpicCare Link it runs the same check for affiliated community doctors and their staff before they reach hospital records. Veridas says the check runs at sign-up to reduce medical identity theft and duplicate patient records.",
+        "es": "La integración cubre dos entradas. En MyChart gestiona el alta remota del paciente, la creación de cuentas y la recuperación de cuentas bloqueadas, con envío de un documento oficial y una selfi durante el flujo. En EpicCare Link aplica la misma comprobación a médicos comunitarios afiliados y su personal antes de acceder a la historia clínica. Veridas afirma que la verificación se ejecuta en el registro para reducir el robo de identidad médica y los historiales duplicados."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "卖点是现成集成与认证",
+        "en": "Prebuilt integration and certifications are the pitch",
+        "es": "La integración ya construida y las certificaciones son el argumento"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Veridas 称该集成已完整开发，医院不需要另做定制开发，可直接嵌入现有临床与行政流程。公司同时列出两项认证作为采购依据：iBeta 按 ISO/IEC 30107-3 出具的呈现攻击检测认证，以及 CEN/TS 18099 的注入攻击检测高档认证；后者针对的是把合成图像或视频直接喂进核验流程的攻击方式。公司还称在 2026 年 NIST 评测中排名第五，服务 25 个国家的 350 多家客户。",
+        "en": "Veridas says the integration is fully built, so hospitals can embed it in existing clinical and administrative workflows without custom development. The company lists two certifications as procurement evidence: iBeta presentation attack detection testing under ISO/IEC 30107-3, and high-level certification under CEN/TS 18099 for injection attack detection, which covers manipulated images or video fed directly into the verification pipeline. It also cites a fifth-place ranking in a 2026 NIST evaluation and more than 350 clients across 25 countries.",
+        "es": "Veridas afirma que la integración está completamente desarrollada, de modo que los hospitales pueden insertarla en sus flujos clínicos y administrativos sin desarrollo a medida. La empresa cita dos certificaciones como base de compra: la prueba de detección de ataques de presentación de iBeta conforme a ISO/IEC 30107-3 y la certificación de nivel alto de CEN/TS 18099 para detección de ataques de inyección, que cubre imágenes o vídeo manipulados introducidos directamente en el proceso. También menciona el quinto puesto en una evaluación del NIST de 2026 y más de 350 clientes en 25 países."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "美国医院门户的核验正在从「每家医院自己做的 IT 项目」变成「可以直接采购的成品集成」。对医院来说，筛选供应商的依据从接口工作量转向认证等级与现成度：CEN/TS 18099 的注入攻击高档认证、ISO/IEC 30107-3 的呈现攻击检测，开始出现在采购文件里。对核验厂商来说，进入 Epic 应用目录之前的这段时间是抢客户的窗口，谁先把集成做完，谁就先进入医院的预算年度。医疗身份盗用和重复病历是医院能算清的成本，这类采购不会因为预算收紧先被砍。",
+    "en": "Identity checks at U.S. hospital portals are moving from bespoke IT projects to off-the-shelf integrations that a health system can buy. For hospitals, the selection criteria shift from interface work to certification levels and readiness: high-level CEN/TS 18099 injection attack certification and ISO/IEC 30107-3 presentation attack testing are starting to appear in procurement documents. For vendors, the period before listing in Epic's app catalogue is a customer acquisition window; whoever finishes the integration first gets into the hospital's budget cycle. Medical identity theft and duplicate records are costs hospitals can quantify, so this spending is less likely to be cut first.",
+    "es": "La verificación en los portales hospitalarios de EE. UU. pasa de proyectos informáticos a medida a integraciones listas para comprar. Para los hospitales, el criterio de selección se desplaza del trabajo de integración al nivel de certificación y a la madurez: la certificación de nivel alto de CEN/TS 18099 contra ataques de inyección y las pruebas de ISO/IEC 30107-3 empiezan a aparecer en los pliegos. Para los proveedores, el periodo previo a la entrada en el catálogo de Epic es una ventana para captar clientes; quien cierre antes la integración entra antes en el ciclo presupuestario del hospital. El robo de identidad médica y los historiales duplicados son costes cuantificables, por lo que este gasto suele resistir mejor los recortes."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

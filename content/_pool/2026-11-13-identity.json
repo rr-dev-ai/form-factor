@@ -1,0 +1,445 @@
+{
+  "date": "2026-11-13",
+  "industry": "identity",
+  "startedAt": "2026-11-13T03:10:00+08:00",
+  "drafts": [
+    {
+      "id": "2026-11-13-identity-04",
+      "slug": "belgium-itsme-eid-photo-face-match-plan",
+      "industry": "identity",
+      "region": "europe",
+      "regions": [],
+      "tags": [
+        "mobile-id",
+        "biometrics",
+        "verification"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "ID Tech",
+          "url": "https://idtechwire.com/belgiums-anti-fraud-plan-adds-face-matching-against-the-eid-photo-to-itsme/",
+          "lang": "en",
+          "publishedAt": "2026-11-12T11:02:08-05:00"
+        }
+      ],
+      "title": {
+        "zh": "比利时给 itsme 加身份证照片人脸比对",
+        "en": "Belgium adds eID photo face match to itsme",
+        "es": "Bélgica añade cotejo facial con la foto del eID a itsme"
+      },
+      "summary": {
+        "zh": "比利时联邦政府 11 月 12 日公布 29 项反网络欺诈措施，其中一项是在 itsme 的某些账户激活环节，把用户人脸与身份证照片比对。政府未给出启用日期，也未界定哪些激活场景适用。",
+        "en": "Belgium's federal government presented a 29-measure plan against online fraud on November 12, including a face comparison against the identity card photo for certain itsme account activations. No start date was set and the government did not define which activations are covered.",
+        "es": "El Gobierno federal belga presentó el 12 de noviembre un plan de 29 medidas contra el fraude en línea, entre ellas un cotejo facial con la foto del documento de identidad en determinadas activaciones de itsme. No se fijó fecha de inicio ni se definió qué activaciones quedan cubiertas."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "比对的是签发时留存的照片",
+            "en": "The reference is the photo held at issuance",
+            "es": "La referencia es la foto guardada en la emisión"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "按计划，itsme 在部分账户激活流程中会比对用户当场拍摄的人脸与比利时身份证上的照片。消费者保护大臣 Rob Beenders 与内政大臣 Bernard Quintin 在部长会议讨论后公布该计划。Beenders 的说法是，这让攻击者更难接管 itsme 账户、以他人名义确认支付或登录。计划没有说明比对的阈值、失败后的处理路径，也没有说明照片来自证件芯片还是国家登记库。",
+            "en": "Under the plan, itsme will compare a live face capture with the photo on the Belgian identity card during some account activations. Consumer Protection Minister Rob Beenders and Interior Minister Bernard Quintin presented it after discussion in the Council of Ministers. Beenders said this makes it harder for attackers to take over an itsme account and confirm payments or logins in someone else's name. The plan does not state the match threshold, what happens after a failed check, or whether the reference photo comes from the card chip or the national register.",
+            "es": "Según el plan, itsme comparará una captura facial en vivo con la foto del documento de identidad belga en algunas activaciones de cuenta. El ministro de Protección de los Consumidores, Rob Beenders, y el ministro del Interior, Bernard Quintin, presentaron el plan tras debatirlo en el Consejo de Ministros. Beenders afirmó que así resulta más difícil hacerse con una cuenta de itsme y confirmar pagos o inicios de sesión en nombre de otra persona. El plan no precisa el umbral de coincidencia, qué ocurre si la comprobación falla ni si la foto de referencia procede del chip del documento o del registro nacional."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "反欺诈计划的其他部分",
+            "en": "The rest of the anti-fraud plan",
+            "es": "El resto del plan antifraude"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "29 项措施围绕预防、快速发现、处置与起诉四组展开，每季度评估一次。银行将获得一个共享可疑账户信息的平台，其他银行可据此在转账或开户时追加检查；政府称会确保数据共享在法律上站得住。未经授权的 SIM 换卡如何收紧仍在研究。检测欺诈网站的 Phish Nemo 项目将从林堡省扩至全国，公民可通过网络安全中心的新表单举报可疑网站、号码、信息与账户。",
+            "en": "The 29 measures are grouped around prevention, faster detection, response and prosecution, with quarterly reviews. Banks will get a platform to share information on suspicious accounts, which other banks can use to run extra checks on transfers or at account opening; the government says it will make the data sharing legally sound. How to tighten controls on unauthorised SIM swaps is still under study. Phish Nemo, a project that detects fraudulent websites, will expand nationwide from Limburg, and citizens can report suspicious sites, numbers, messages and accounts through a new Centre for Cybersecurity Belgium form.",
+            "es": "Las 29 medidas se agrupan en prevención, detección más rápida, respuesta y persecución, con revisión trimestral. Los bancos tendrán una plataforma para compartir información sobre cuentas sospechosas, que otros bancos podrán usar para aplicar controles adicionales en transferencias o en la apertura de cuentas; el Gobierno dice que garantizará la base legal del intercambio. Sigue en estudio cómo restringir los cambios de SIM no autorizados. Phish Nemo, que detecta sitios fraudulentos, se extenderá desde Limburgo a todo el país, y la ciudadanía podrá denunciar sitios, números, mensajes y cuentas sospechosas mediante un nuevo formulario del Centro de Ciberseguridad de Bélgica."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "itsme 在比利时承担银行登录与支付确认，账户被接管就等于支付欺诈，所以把激活环节绑到身份证照片上是把信任锚从「当场自拍」移到「签发时留存的照片」。这跟 eIDAS 高保证远程开户的思路不同：后者要求重新采集并做活体检测，前者复用已经签发的证件照，成本低，但依赖身份证照片的质量与更新频率。真正的缺口在执行细节：没有启用日期，没有界定「某些激活」，银行和 itsme 的接入方无法排期改造，也无法评估误拒率。计划把 SIM 换卡列为待研究项，说明手机号这一环的漏洞还没堵。",
+        "en": "itsme carries bank logins and payment confirmations in Belgium, so account takeover translates directly into payment fraud; anchoring activation to the identity card photo moves the trust anchor from a selfie taken at the moment to the portrait held at issuance. That differs from high-assurance remote onboarding under eIDAS, which requires a fresh capture and liveness check: reusing the issued photo is cheaper but depends on the quality and freshness of that photo. The real gap is implementation detail. With no start date and no definition of which activations are covered, banks and itsme integrators cannot schedule changes or estimate false rejection rates. The plan leaves SIM swap controls under study, which means the phone number leg remains open.",
+        "es": "itsme soporta inicios de sesión bancarios y confirmaciones de pago en Bélgica, de modo que la toma de control de una cuenta se traduce directamente en fraude; anclar la activación a la foto del documento traslada la confianza desde una selfi tomada en el momento a la fotografía guardada en la emisión. Eso difiere del alta remota de alta garantía de eIDAS, que exige una captura nueva y prueba de vida: reutilizar la foto emitida es más barato, pero depende de su calidad y antigüedad. El hueco real está en la ejecución: sin fecha de inicio ni definición de qué activaciones quedan cubiertas, los bancos y los integradores de itsme no pueden planificar cambios ni estimar tasas de rechazo erróneo. El plan deja el control de los cambios de SIM en estudio, así que la pata del número de teléfono sigue abierta."
+      },
+      "confidence": 0.5,
+      "ai": {
+        "model": "deepseek-v4.1-flash",
+        "promptVersion": "identity-editor-2026-11"
+      }
+    },
+    {
+      "id": "2026-11-13-identity-07",
+      "slug": "magtek-dynaflex-ii-go-mdl-passport-reading",
+      "industry": "identity",
+      "region": "north-america",
+      "regions": [],
+      "tags": [
+        "verification",
+        "mobile-id"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "The Green Sheet",
+          "url": "https://www.greensheet.com/newswire&article_id=61720",
+          "lang": "en",
+          "publishedAt": "2026-11-10T17:39:00+00:00"
+        }
+      ],
+      "title": {
+        "zh": "MagTek 让支付终端读 mDL 与数字护照",
+        "en": "MagTek adds mDL and digital passport reading to a payment terminal",
+        "es": "MagTek añade lectura de mDL y pasaporte digital a un terminal de pago"
+      },
+      "summary": {
+        "zh": "MagTek 以纯固件升级的方式，让 DynaFlex II Go 支付终端在受理银行卡之外，读取并认证各州签发的移动驾照（mDL）、数字护照与其他存放在手机钱包里的移动证件，依据是 ISO/IEC 18013-5。该公司称目前美国有 23 个州发行 mDL。升级不换硬件，把证件核验并入收银动线。",
+        "en": "MagTek has enabled its DynaFlex II Go payment terminal, through a firmware-only upgrade, to read and authenticate state-issued mobile driving licences, digital passports and other mobile documents held in phone wallets, following ISO/IEC 18013-5. The company says 23 US states now issue an mDL. No new hardware is required; identity checks move into the checkout workflow.",
+        "es": "MagTek habilitó su terminal de pago DynaFlex II Go, mediante una actualización solo de firmware, para leer y autenticar permisos de conducir móviles (mDL) emitidos por los estados, pasaportes digitales y otros documentos móviles guardados en carteras del teléfono, conforme a ISO/IEC 18013-5. La empresa afirma que 23 estados de EE. UU. ya emiten mDL. No hace falta hardware nuevo: la verificación se integra en el flujo de caja."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "一次固件升级，让收银台多出一个核验口",
+            "en": "One firmware update adds a verification point at the till",
+            "es": "Una actualización de firmware añade un punto de verificación en caja"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "MagTek 在 11 月 10 日的公告中说，DynaFlex II Go 通过固件升级获得新能力：在原有银行卡支付之外，读取并认证存放在消费者手机钱包里的州发移动驾照、数字护照及其他移动证件。公司强调这是 firmware-only upgrade，商户不需要更换硬件，也不需要另购扫描器。目标场景列得很具体——零售、租车、医疗机构、酒店与银行网点，即那些既要收款又要查证件的柜台。",
+            "en": "In a November 10 announcement, MagTek said the DynaFlex II Go gains the capability through firmware: alongside card payments it can now read and authenticate state-issued mobile driving licences, digital passports and other mobile documents held in a consumer's phone wallet. The company stresses it is a firmware-only upgrade — no hardware replacement, no auxiliary scanner. The target settings are listed concretely: retail, car rental, healthcare providers, hospitality and financial institution branches, counters that both take payment and check identity.",
+            "es": "En un anuncio del 10 de noviembre, MagTek indicó que el DynaFlex II Go obtiene la capacidad por firmware: además de cobrar con tarjeta, ahora lee y autentica permisos de conducir móviles emitidos por los estados, pasaportes digitales y otros documentos móviles guardados en la cartera del teléfono. La empresa subraya que es una actualización solo de firmware: sin sustituir hardware ni añadir escáneres auxiliares. Los entornos objetivo son concretos: comercio minorista, alquiler de coches, sanidad, hotelería y sucursales bancarias, mostradores que cobran y verifican identidad a la vez."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "依据是 ISO/IEC 18013-5，外加一条条码兜底",
+            "en": "ISO/IEC 18013-5, with a barcode fallback",
+            "es": "ISO/IEC 18013-5, con código de barras como respaldo"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "技术路径上，MagTek 把设备原有的支付读卡安全能力与企业级云端设备管理，与 ISO/IEC 18013-5（移动驾照与移动证件读取标准）的规范放在一起。对于还没有 mDL 或数字护照的消费者，设备保留了板载条码读取，可读一维码、二维码，包括实体驾照背面的 PDF-417 与登机牌上的 Aztec 码。公司称，经加密认证的证件可让限龄销售放行、开钱箱、门禁开门或安全会话登录等下游动作由宿主应用自动触发，并以不可否认的审计轨迹替代人工目视核验。",
+            "en": "Technically, MagTek pairs the device's existing payment-reader security and enterprise cloud device management with ISO/IEC 18013-5, the standard for mobile driving licences and mobile document reading. For consumers without an mDL or digital passport, the device keeps an onboard barcode reader covering 1D and 2D codes, including the PDF-417 on the back of a physical licence and the Aztec code on a boarding pass. Cryptographically authenticated credentials, the company says, let host applications trigger downstream actions automatically — approving age-restricted sales, opening cash drawers, granting physical access or starting secure sign-ins — replacing visual inspection with a non-repudiable audit trail.",
+            "es": "En lo técnico, MagTek combina la seguridad de lectura de pagos ya existente en el dispositivo y la gestión remota de equipos con la norma ISO/IEC 18013-5, aplicable al permiso de conducir móvil y a la lectura de documentos móviles. Para quienes no tienen mDL ni pasaporte digital, el equipo conserva un lector de códigos de barras integrado que cubre códigos 1D y 2D, incluido el PDF-417 del reverso del permiso físico y el código Aztec de una tarjeta de embarque. Según la empresa, las credenciales autenticadas criptográficamente permiten que la aplicación anfitriona dispare acciones posteriores —aprobar ventas con límite de edad, abrir el cajón, conceder acceso físico o iniciar sesiones seguras— y sustituyan la inspección visual por un rastro de auditoría no repudiable."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "受理端扩容，是 mDL 生态长期缺的那一环",
+            "en": "Relying-party capacity is the piece mDL has lacked",
+            "es": "La capacidad de aceptación, la pieza que faltaba al ecosistema mDL"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "MagTek 给出的市场数字是：美国已有 23 个州发行移动驾照，加上数字护照，具备使用条件的消费者达数千万量级。这与 mDL 生态长期的结构性问题正好对上——签发侧扩张快于受理侧，消费者手机里有了证件，但柜台、门店与自助机具没有能读它的设备，于是数字证件退化为屏幕上的截图。MagTek 的做法是把核验塞进已经装在柜台上的那台机器，而不是要求商户再买一台专用设备。这一思路与机场、交通闸机侧走的路不同：后者靠专用读取器与集中改造，前者靠存量 POS 的软件升级。",
+            "en": "MagTek's market figures: 23 US states now issue a mobile driving licence, and combined with digital passports that puts tens of millions of consumers in a position to use one. That maps onto the mDL ecosystem's long-standing structural problem — issuance has outpaced acceptance. Consumers carry a credential on their phone, but counters, stores and kiosks lack readers, so the digital ID degrades into a screenshot. MagTek's answer is to put verification inside the device already sitting on the counter rather than asking merchants to buy a dedicated reader. It is a different route from airports and transit gates, which rely on purpose-built readers and centralised retrofits; this one rides on software updates to installed payment terminals.",
+            "es": "Las cifras que da MagTek: 23 estados de EE. UU. ya emiten permiso de conducir móvil y, sumados los pasaportes digitales, decenas de millones de consumidores están en condiciones de usarlo. Eso encaja con el problema estructural del ecosistema mDL: la emisión ha ido por delante de la aceptación. El consumidor lleva la credencial en el teléfono, pero mostradores, tiendas y kioscos carecen de lectores y el documento digital se degrada en una captura de pantalla. La respuesta de MagTek es meter la verificación en el dispositivo que ya está en el mostrador, en lugar de pedir al comercio un lector dedicado. Es una vía distinta de la de aeropuertos y tornos de transporte, que dependen de lectores específicos y reformas centralizadas; esta avanza con actualizaciones de software sobre terminales de pago ya instalados."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "mDL 推了多年，卡点从来不在发证而在受理：证件在手机里，柜台读不出来，用户最后还是掏实体卡。把 ISO/IEC 18013-5 的读取能力做成存量支付终端的固件升级，等于绕开了「商户再买一台设备」这道成本墙，改造边际成本接近于零。这条路径一旦铺开，受理侧会在短时间从稀缺变成普遍，而数字证件的实际使用率取决于收银台覆盖，不取决于发证州的数量。对支付终端厂商，这是把硬件从收款工具变成身份基础设施的入口，也是与 SoftPOS、手机 Tap to Pay 争夺柜台位置的另一种打法。需要注意的是，公告没有给出任何已签约商户、部署规模或认证进展，产品能力与实际落地之间仍有距离。",
+        "en": "The mDL bottleneck has never been issuance but acceptance: the credential sits on the phone, the counter cannot read it, and the user hands over a plastic card anyway. Turning ISO/IEC 18013-5 reading into a firmware update for payment terminals already in the field bypasses the \"buy another device\" cost wall, pushing the marginal cost of retrofitting towards zero. If that spreads, acceptance capacity goes from scarce to ubiquitous quickly, and real usage will be set by checkout coverage rather than by how many states issue. For terminal vendors it is a route from payment hardware into identity infrastructure, and a different play for counter space than SoftPOS or tap-to-pay on phones. The caveat: the announcement names no signed merchants, no deployment volumes and no certification progress, so capability and actual rollout remain some distance apart.",
+        "es": "El cuello de botella del mDL nunca fue la emisión sino la aceptación: la credencial está en el teléfono, el mostrador no puede leerla y el usuario acaba entregando la tarjeta física. Convertir la lectura ISO/IEC 18013-5 en una actualización de firmware para terminales de pago ya instalados sortea el muro de coste de \"comprar otro dispositivo\" y lleva el coste marginal de la adaptación casi a cero. Si se generaliza, la capacidad de aceptación pasa de escasa a ubicua en poco tiempo y el uso real lo marcará la cobertura en caja, no el número de estados emisores. Para los fabricantes de terminales es una vía desde el hardware de pago hacia la infraestructura de identidad, y una forma distinta de disputar el mostrador frente al SoftPOS o el pago con el móvil. La advertencia: el anuncio no menciona comercios firmados, volúmenes de despliegue ni avances de certificación, así que entre la capacidad y la implantación real todavía hay distancia."
+      },
+      "confidence": 0.71,
+      "ai": {
+        "model": "deepseek-v4.1-flash",
+        "promptVersion": "identity-editor-2026-11"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Spain reinstates MiDNI digital ID for voting in November election",
+      "url": "https://www.biometricupdate.com/202611/spain-reinstates-midni-digital-id-for-voting-in-november-election",
+      "reason": "duplicate-of-2026-11-07-02：同一场选举委员会的 MiDNI 投票核验决定，11-07 已发（含 6 万台扫码终端与 11-29 投票日），本条只是补位阶段换信源重述。"
+    },
+    {
+      "title": "Samoa launches national digital ID policy, sets roadmap for biometric identity system",
+      "url": "https://www.biometricupdate.com/202611/samoa-launches-national-digital-id-policy-sets-roadmap-for-biometric-identity-system",
+      "reason": "动作门不过：75 页政策文本，无授标、无落地部署、无产品参数；统计局 RFP 尚未开标。11-11 已按同一口径判过。"
+    },
+    {
+      "title": "South Africa begins testing biometric asylum registration platform",
+      "url": "https://www.biometricupdate.com/202611/south-africa-begins-testing-biometric-asylum-registration-platform",
+      "reason": "范围门不过：登记的是申请庇护的意向，DHA 明确该回执不构成申请、身份或公民身份；第一阶段仅测试，无签发凭证、无规模与供应商。"
+    },
+    {
+      "title": "Idex secures largest biometric access card order to date, expands deployment in Japan",
+      "url": "https://www.biometricupdate.com/202611/idex-secures-largest-biometric-access-card-order-to-date-expands-deployment-in-japan",
+      "reason": "范围门不过：标的物是门禁用的指纹卡（能源与零售园区、医院员工出入），不在护照/身份证/mDL 三类凭证链路上。"
+    },
+    {
+      "title": "Trulioo, FrankieOne partner on business verification and ongoing fraud monitoring",
+      "url": "https://www.biometricupdate.com/202611/trulioo-frankieone-partner-on-business-verification-and-ongoing-fraud-monitoring",
+      "reason": "范围门不过：企业主体与受益所有人核验（KYB），标的是公司记录而不是个人证件、签发设备或核验终端。"
+    },
+    {
+      "title": "Trust Stamp adds biometric consent checks for AI agent transactions",
+      "url": "https://www.biometricupdate.com/202611/trust-stamp-adds-biometric-consent-checks-for-ai-agent-transactions",
+      "reason": "范围门不过：AI 智能体交易的生物特征授权，属智能体身份与授权机制，不是三类凭证的签发或受理。"
+    },
+    {
+      "title": "Hancomwith demonstrates AI-powered continuous authentication for banking",
+      "url": "https://www.biometricupdate.com/202611/hancomwith-demonstrates-ai-powered-continuous-authentication-for-banking",
+      "reason": "动作门不过：技术演示，无产品名、无商用客户、无终端类型；且落在网银侧，归 banking。"
+    },
+    {
+      "title": "Feedzai adds AI agent detection to digital banking fraud prevention",
+      "url": "https://www.biometricupdate.com/202611/feedzai-adds-ai-agent-detection-to-digital-banking-fraud-prevention",
+      "reason": "范围门不过：网银反欺诈能力扩展，不涉及证件载体、签发设备或核验终端。"
+    },
+    {
+      "title": "Suprema showcases AI security capabilities at global partner conference",
+      "url": "https://www.biometricupdate.com/202611/suprema-showcases-ai-security-capabilities-at-global-partner-conference",
+      "reason": "动作门不过：合作伙伴大会上的能力展示，无产品版本、无客户、无部署。"
+    },
+    {
+      "title": "US Democrats prepare to scrutinize federal biometric surveillance",
+      "url": "https://www.biometricupdate.com/202611/us-democrats-prepare-to-scrutinize-federal-biometric-surveillance",
+      "reason": "范围门不过：执法人脸监控的国会监督议程。"
+    },
+    {
+      "title": "Ring's surveillance network is learning to move as Amazon unveils autonomous cameras",
+      "url": "https://www.biometricupdate.com/202611/rings-surveillance-network-is-learning-to-move-as-amazon-unveils-autonomous-cameras",
+      "reason": "范围门不过：消费级监控摄像头，非证件链路。"
+    },
+    {
+      "title": "Ada Lovelace Institute wants UK to make retail facial recognition code mandatory",
+      "url": "https://www.biometricupdate.com/202611/ada-lovelace-institute-wants-uk-to-make-retail-facial-recognition-code-mandatory",
+      "reason": "动作门不过：智库倡议，无文书、无生效节点；对象为零售场所监控。"
+    },
+    {
+      "title": "Australia gets conflicting feedback on Digital Duty of Care",
+      "url": "https://www.biometricupdate.com/202611/australia-gets-conflicting-feedback-on-digital-duty-of-care",
+      "reason": "范围门不过：平台注意义务的立法意见征询，与证件签发或核验无关。"
+    },
+    {
+      "title": "Innovatrics venture arm, Zero One Hundred team up to back biometrics for robotics",
+      "url": "https://www.biometricupdate.com/202611/innovatrics-venture-arm-zero-one-hundred-team-up-to-back-biometrics-for-robotics",
+      "reason": "范围门不过：创投基金合作，标的为机器人视觉。"
+    },
+    {
+      "title": "Scottish police pilot BriefCam video analytics as lawmakers resist LFR legislation",
+      "url": "https://www.biometricupdate.com/202611/scottish-police-pilot-briefcam-video-analytics-as-lawmakers-resist-lfr-legislation",
+      "reason": "范围门不过：警务视频分析试点，属执法监控。"
+    },
+    {
+      "title": "Coming in 2027: New and Improved Paraguay Banknotes",
+      "url": "https://platform.keesingtechnologies.com/coming-in-2027-new-and-improved-paraguay-banknotes/",
+      "reason": "范围门不过：纸币改版属现金载体，不落在证件链路。"
+    },
+    {
+      "title": "Colombia | Estudiantes presentan soluciones tecnológicas en la final de Hack4Future SENATIC",
+      "url": "https://dplnews.com/colombia-estudiantes-presentan-soluciones-tecnologicas-en-la-final-de-hack4future-senatic-virtual-challenge-2-0/",
+      "reason": "范围门不过：学生竞赛成果展示，非事件。"
+    },
+    {
+      "title": "Ring Security launches a robotics division",
+      "url": "https://www.tahawultech.com/home-slide/ring-security-launches-a-robotics-division/",
+      "reason": "范围门不过：安防机器人部门，非证件链路。"
+    },
+    {
+      "title": "Digital driver's licence and separate EUDI Wallet d-you to launch in Germany",
+      "url": "https://identityweek.net/digital-drivers-licence-and-separate-eudi-wallet-d-you-to-launch-in-germany/",
+      "reason": "动作门不过：d-you 的 2027-01-02 上线与 40 家伙伴来自 9 月公告；数字驾照只有「11 月内」窗口、无具体日期；《数字身份法》仍是内阁通过的草案。"
+    },
+    {
+      "title": "Germany Sets January Launch for d-you Digital Identity Wallet",
+      "url": "https://mobileidworld.com/germany-sets-january-launch-for-d-you-digital-identity-wallet/",
+      "reason": "超窗：原文发布于 2026-09-11，事件为 9 月公布，已出 72 小时窗口。"
+    },
+    {
+      "title": "24 EU Countries Join Two-Year Project to Put Driving Licences in Digital ID Wallets",
+      "url": "https://mobileidworld.com/24-eu-countries-join-two-year-project-to-put-driving-licences-in-digital-id-wallets/",
+      "reason": "超窗：原文 2026-10-23；mDL4EU 只有「11 月起跑 24 个月」的项目周期，无首发市场与试点名单。"
+    },
+    {
+      "title": "Northern Territory Drivers Will Be Able to Carry Their Licence on Their Phones",
+      "url": "https://mobileidworld.com/northern-territory-drivers-will-be-able-to-carry-their-licence-on-their-phones/",
+      "reason": "超窗：原文 2026-10-19，法案 10-15 通过，服务只有「2026 年底」的窗口。"
+    },
+    {
+      "title": "Malaysians Can Expect Age Checks on Social Media Apps From Early January",
+      "url": "https://mobileidworld.com/malaysians-can-expect-age-checks-on-social-media-apps-from-early-january/",
+      "reason": "动作门不过：副部长在议会的答问，无新文书、无确切生效日；且明确年龄核验不核验身份，属平台年龄门槛。"
+    },
+    {
+      "title": "Virginia Becomes the 15th State to Put a Driver's License in Apple Wallet",
+      "url": "https://mobileidworld.com/virginia-becomes-the-15th-state-to-put-a-drivers-license-in-apple-wallet/",
+      "reason": "动作门不过：把州证件加进 Apple Wallet，属分发渠道变化，未说明签发侧或核验侧机制改动。"
+    },
+    {
+      "title": "South Africans Can Now Replace a Smart ID at 753 Bank Branches, With No Booking",
+      "url": "https://mobileidworld.com/south-africans-can-now-replace-a-smart-id-at-753-bank-branches-with-no-booking/",
+      "reason": "动作门不过：受理网点扩容的里程碑，签发机制与证件形态未变；11-12 已按同一口径判过。"
+    },
+    {
+      "title": "Shoppers at Tobu's Ikebukuro Department Store Can Pay With Their Face From Nov. 19",
+      "url": "https://mobileidworld.com/shoppers-at-tobus-ikebukuro-department-store-can-pay-with-their-face-from-nov-19/",
+      "reason": "范围门不过：人脸支付受理端，归 banking；且无终端型号、商户覆盖与交易规模。"
+    },
+    {
+      "title": "World Ships World ID 4.0 App With Zoom, DocuSign Integrations",
+      "url": "https://mobileidworld.com/world-ships-world-id-4-0-app-with-zoom-docusign-integrations/",
+      "reason": "超窗：原文 2026-04-21，4.0 于 4 月 17 日发布，已出 72 小时窗口。"
+    },
+    {
+      "title": "W3C Updates DID v1.1 Draft as Wallet and Agent Identity Use Cases Expand",
+      "url": "https://mobileidworld.com/w3c-updates-did-v1-1-draft-as-wallet-and-agent-identity-use-cases-expand/",
+      "reason": "超窗：原文 2026-02-23，DID v1.1 工作草案的发布早已出窗。"
+    },
+    {
+      "title": "Finnish Police introduces a digital identity document in 2027",
+      "url": "https://identityweek.net/finnish-police-introduces-a-digital-identity-document-in-2027/",
+      "reason": "超窗：原文 2026-10-26，且只有 2027 年的计划窗口，无产品名与参数。"
+    },
+    {
+      "title": "HKIA the first airport to achieve IATA One ID certification",
+      "url": "https://identityweek.net/hkia-the-first-airport-to-achieve-iata-one-id-certification/",
+      "reason": "超窗：原文 2026-10-29，认证事件已出 72 小时窗口。"
+    },
+    {
+      "title": "Dutch firms launch independent digital ID wallet MyCheck",
+      "url": "https://identityweek.net/dutch-firms-launch-independent-digital-id-wallet-mycheck/",
+      "reason": "超窗：原文 2026-10-20，发布已出窗；且无凭证格式与受理方清单。"
+    },
+    {
+      "title": "Innovatrics Earns High-Level Injection Attack Detection Certification for iOS Under CEN/TS 18099",
+      "url": "https://idtechwire.com/innovatrics-earns-high-level-injection-attack-detection-certification-under-cen-ts-18099/",
+      "reason": "超窗：原文 2026-11-02；同类认证 11-11 已发 Veridas，本条间隔过近且已出 72 小时。"
+    },
+    {
+      "title": "COOP Jednota Verifies 57,000 Shoppers With Innovatrics for Unstaffed 24/7 Stores",
+      "url": "https://idtechwire.com/coop-jednota-verifies-57000-shoppers-with-innovatrics-for-unstaffed-24-7-stores/",
+      "reason": "超窗：原文 2026-10-21，部署事件已出窗。"
+    },
+    {
+      "title": "Fime Expands eID Efforts Beyond Europe, Including U.S. mDL Pilots",
+      "url": "https://idtechwire.com/fime-expands-eid-efforts-beyond-europe-including-u-s-mdl-pilots/",
+      "reason": "超窗：原文 2025-09-03，且为业务扩张综述，无具体 mDL 试点客户。"
+    },
+    {
+      "title": "Delhi makes Aadhaar mandatory for EV subsidies under new policy",
+      "url": "https://www.businesstoday.in/amp/auto/story/delhi-makes-aadhaar-mandatory-for-ev-subsidies-under-new-policy-567177-2026-11-12",
+      "reason": "超窗：通知由德里交通厅 11-03 发出，11-12 才见报，事件已出 72 小时。"
+    },
+    {
+      "title": "Zambia Plans Digital NRC Rollout: What Has Been Announced and What Is Still Unclear",
+      "url": "https://seezambia.online/stories/zambia-digital-nrc-rollout-government-announcement-2026",
+      "reason": "动作门不过：内阁办公室的政策表态，无上线日期、无办理流程、无凭证形态，门户仍标注开发中。"
+    },
+    {
+      "title": "浙江邮政中标全省身份证寄递服务项目",
+      "url": "https://www.chinapost.com.cn/cn/report/2611/2893-1.htm",
+      "reason": "范围门不过：身份证寄递属物流与投递渠道，不是载体、签发设备或核验终端；报道亦无确切日期。"
+    },
+    {
+      "title": "Yubico unveils YubiID as it expands beyond authentication into managing digital IDs",
+      "url": "https://www.biometricupdate.com/202611/yubico-unveils-yubiid-as-it-expands-beyond-authentication-into-managing-digital-ids",
+      "reason": "范围门不过：企业身份生命周期管理与硬件密钥，属企业 IAM；稿件同时混入 Q3 财报，非单一事件。"
+    },
+    {
+      "title": "IBM Acquires AuthMind to Watch How AI Agents Use Their Credentials",
+      "url": "https://idtechwire.com/ibm-acquires-authmind-to-watch-how-ai-agents-use-their-credentials/",
+      "reason": "范围门不过：并购标的为 AI 智能体凭证监控，属企业 IAM。"
+    },
+    {
+      "title": "Fittings Maker MACO Takes Majority Stake in Fingerprint Access Firm ekey",
+      "url": "https://idtechwire.com/fittings-maker-maco-takes-majority-stake-in-fingerprint-access-firm-ekey/",
+      "reason": "范围门不过：门禁指纹企业的股权收购，标的不是证件载体。"
+    },
+    {
+      "title": "Hackers Took 72,702 Passport Photos From Taiwan's Consular Websites",
+      "url": "https://idtechwire.com/hackers-took-72702-passport-photos-from-taiwans-consular-websites/",
+      "reason": "范围门不过：数据泄露事件，AGENTS.md 明确不收。"
+    },
+    {
+      "title": "Judge Certifies Amazon Photos BIPA Class, Rejects Non-User Class",
+      "url": "https://idtechwire.com/judge-certifies-amazon-photos-bipa-class-rejects-non-user-class/",
+      "reason": "范围门不过：生物特征隐私诉讼，非证件签发或核验机制。"
+    },
+    {
+      "title": "UK Police Inspectorate Calls for Tighter Oversight of Retrospective Face Searches",
+      "url": "https://idtechwire.com/uk-police-inspectorate-calls-for-tighter-oversight-of-retrospective-face-searches/",
+      "reason": "范围门不过：警务追溯人脸检索的监督建议。"
+    },
+    {
+      "title": "OMB Fast-Tracks HHS Form Asking Migrant Children's Sponsors and Their Households for ID Selfies",
+      "url": "https://idtechwire.com/omb-fast-tracks-hhs-form-asking-migrant-childrens-sponsors-and-their-households-for-id-selfies/",
+      "reason": "范围门不过：移民申请表格与紧急审批程序，不改变证件载体或核验终端。"
+    },
+    {
+      "title": "Helix Raises $6.2 Million for On-Device Voice Checks That Spot Bots and Estimate Age",
+      "url": "https://idtechwire.com/helix-raises-6-2-million-for-on-device-voice-checks-that-spot-bots-and-estimate-age/",
+      "reason": "动作门不过：融资，无客户、无产品版本、无部署。"
+    },
+    {
+      "title": "Fold CEO Will Reeves Says Repeated KYC Collection Multiplies Breach Risk",
+      "url": "https://idtechwire.com/fold-ceo-will-reeves-says-repeated-kyc-collection-multiplies-breach-risk/",
+      "reason": "动作门不过：高管访谈，无可核的产品或部署变化。"
+    },
+    {
+      "title": "重庆自贸试验区往来港澳人才签注正式落地",
+      "url": "https://gaj.cq.gov.cn/sy_245/bmdt/202611/t20261112_16401908.html",
+      "reason": "动作门不过：签注受理范围与有效期调整属签发政策，六类动作无一可贴；无新增载体、设备或核验机制，且仅限重庆自贸试验区一地。"
+    },
+    {
+      "title": "Idemia Secure Transactions enables banks to prepare cards for the quantum era with industry-first certification",
+      "url": "https://identityweek.net/idemia-secure-transactions-enables-banks-to-prepare-cards-for-the-quantum-era-with-industry-first-certification/",
+      "reason": "超窗：原文 2026-11-02；标的为银行卡 PQC 认证，归 banking，且已出 72 小时窗口。"
+    },
+    {
+      "title": "Kempegowda International Airport launches Digi Yatra trials for international departures",
+      "url": "https://identityweek.net/kempegowda-international-airport-launches-digi-yatra-trials-for-international-departures/",
+      "reason": "超窗：原文 2026-10-30 前后，且为机场试点启动的旧闻，已出 72 小时窗口。"
+    },
+    {
+      "title": "Accenture wins another A$36M Australian digital ID contract",
+      "url": "https://www.biometricupdate.com/202611/accenture-wins-another-a36m-australian-digital-id-contract",
+      "reason": "duplicate-of-2026-11-11-04：同一篇 Biometric Update 报道、同一笔 ATO 合同（A$36.2M、一年期、四个续约选项、累计超 A$2.24 亿），11-11 已按该口径发过，本条撤下。"
+    },
+    {
+      "title": "泰国众议院预算委员会要求核查第四期电子护照招标技术评分",
+      "url": "https://news.qq.com/rain/a/20261111A0C1I600",
+      "reason": "时效门与源门双重不确定：中标结果 2026-10-08 已公布，11-11 见报的是议会要求调取 e-GP 记录，动作属招标争议程序；仅见中文聚合（泰国中文社）转述，未找到泰文一手报道或采购公告，无法核对 72.8991 亿泰铢中标价与上诉细节的不入库。"
+    },
+    {
+      "title": "Foreigners to obtain IIN online within one working day in Kazakhstan",
+      "url": "https://astanatimes.com/2026/11/foreigners-to-obtain-iin-in-kazakhstan-within-one-working-day-under-new-online-pilot/",
+      "reason": "超窗：内务部第 825 号令 2026-11-02 签发、11-09 生效，报道集中在 11-10 至 11-11，事件（生效）距今已过 72 小时；且标的是外国人纳税识别号 IIN 的远程申领流程，非身份证件载体或核验终端。"
+    },
+    {
+      "title": "National Identification Authority suspends date of birth amendments on Ghana Card",
+      "url": "https://www.graphic.com.gh/news/general-news/national-identification-authority-suspends-date-of-birth-amendments-on-ghana-card.html",
+      "reason": "动作门不过且超窗：11-09 起暂停加纳卡出生日期修改，属行政措施暂停受理，六类动作无一可贴；新闻稿签发日 2026-11-09，已出 72 小时窗口。"
+    }
+  ],
+  "stats": {
+    "candidates": 62,
+    "written": 7,
+    "skippedByDedup": 2
+  },
+  "finishedAt": "2026-11-12T19:23:35.738Z"
+}

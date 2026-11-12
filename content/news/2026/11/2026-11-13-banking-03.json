@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-13-banking-05",
+  "slug": "genome-card-acceptance-online-merchants",
+  "industry": "banking",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "payment-gateway"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-13T04:17:45+08:00",
+  "ingestedAt": "2026-11-13T02:30:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Finextra",
+      "url": "https://www.finextra.com/pressarticle/111652/genome-launches-visa-and-mastercard-acceptance-for-online-merchants",
+      "lang": "en",
+      "publishedAt": "2026-11-12T13:16:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "立陶宛持牌电子货币机构 Genome 上线在线卡收单",
+    "en": "Lithuanian e-money institution Genome adds online card acceptance",
+    "es": "La entidad de dinero electrónico lituana Genome añade aceptación de tarjetas en línea"
+  },
+  "summary": {
+    "zh": "受立陶宛央行监管的电子货币机构 Genome 于 11 月 12 日上线 Visa 与 Mastercard 在线收单，商户可用托管支付页或 host-to-host 直连接入，卡款直接结入其 Genome 账户，支持欧元、美元与英镑，最快 T+1 到账。收单与其原有的 SEPA 即时转账、SWIFT、换汇和企业卡放在同一账户下。",
+    "en": "Genome, an e-money institution licensed by the Bank of Lithuania, launched Visa and Mastercard online acceptance on 12 November, letting merchants integrate through a hosted payment page or a host-to-host connection, with card funds settling into their existing Genome account in euros, US dollars or sterling, as fast as T+1. Acceptance now sits in the same account as its SEPA Instant, SWIFT, FX and business card services.",
+    "es": "Genome, entidad de dinero electrónico con licencia del banco central de Lituania, lanzó el 12 de noviembre la aceptación en línea de Visa y Mastercard, con integración mediante página de pago alojada o conexión host-to-host, y liquidación de los fondos en la cuenta Genome del comercio en euros, dólares o libras, en tan solo T+1. La aceptación convive ahora con SEPA Instant, SWIFT, cambio de divisas y tarjetas de empresa en la misma cuenta."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "两种接入，指向两类商户",
+        "en": "Two integrations, two merchant profiles",
+        "es": "Dos integraciones, dos perfiles de comercio"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "托管支付页面向没有技术团队的小商户，商户把结账交给 Genome 的页面；host-to-host 面向有开发能力、要把结账留在自己域名下的商户。两种方式都把卡款结到商户已有的 Genome 账户，不再需要另开一个收款账户再从别处划转。Genome 此前已有基于开放银行的 Pay by Bank，加上卡收单后，结账页可以同时提供账户直付与卡支付。",
+        "en": "The hosted page targets merchants without a technical team, handing checkout to Genome; host-to-host targets merchants able to keep checkout on their own domain. Both settle card funds into the Genome account the merchant already uses, avoiding a second collection account and the transfer out of it. Genome already offered Pay by Bank over open banking, so with card acceptance the checkout can present account-to-account and card side by side.",
+        "es": "La página alojada apunta a comercios sin equipo técnico, que delegan el proceso de compra en Genome; host-to-host apunta a comercios capaces de mantener el proceso en su propio dominio. Ambas liquidan los fondos en la cuenta Genome que el comercio ya usa, sin una segunda cuenta de cobro ni la transferencia posterior. Genome ya ofrecía Pay by Bank sobre open banking, así que con la aceptación de tarjetas el proceso puede presentar pago cuenta a cuenta y tarjeta a la vez."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "没说的是收单资质从哪来",
+        "en": "What is missing: where the acquiring licence sits",
+        "es": "Lo que falta: dónde está la licencia de adquirencia"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公告只说商户可在线申请、资金最快次日到账，没有说明卡收单是通过自有收单资质直连卡组织，还是经由收单行转接，也没给商户费率、拒付与争议处理归属。这三个问题决定了它是真收单方还是收单介绍方——对准备接入的商户，这是签约前必须问清的部分。",
+        "en": "The release says merchants can apply online and that funds arrive as soon as the next business day, but it does not say whether card acceptance runs on its own acquiring licence directly to the schemes or through an acquiring bank, and it gives no merchant pricing or allocation of chargebacks and disputes. Those three answers decide whether Genome is an acquirer or an introducer, which merchants need settled before signing.",
+        "es": "El comunicado dice que el comercio puede solicitarlo en línea y que los fondos llegan al siguiente día hábil, pero no aclara si la aceptación corre con licencia propia conectada directamente a los esquemas o mediante un banco adquiriente, y no da tarifas para el comercio ni reparto de contracargos y disputas. Esas tres respuestas deciden si Genome es adquirente o introductor, algo que el comercio necesita aclarar antes de firmar."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对欧洲的独立 PSP 与聚合收单商，这条把竞争从费率挪到了账户结构：Genome 卖的不是更便宜的收单，而是「收进来的钱就在你已经在用的那个账户里」，省掉的是二次划转与对账。这类打包对只有一两个市场业务的小商户吸引力最大，也最难被纯收单商复制——后者没有账户牌照。对做支付网关与结账页的集成商，多了一个需要适配的收单入口，但它是否值得接，取决于 Genome 到底拿的是自有收单资质还是转接：转接意味着拒付与清算时效仍受制于上游。需要盯两件事：费率与拒付条款何时公开，以及它是否把卡收单开放给非本行账户的商户。",
+    "en": "For independent European PSPs and aggregators this moves competition from pricing to account structure: Genome is not selling cheaper acquiring but the fact that collected funds land in the account the merchant already uses, removing a transfer and a reconciliation step. That bundle appeals most to merchants operating in one or two markets, and is hardest for pure acquirers to copy because they hold no account licence. For gateway and checkout integrators there is one more acceptance endpoint to support, and whether it is worth connecting depends on whether Genome holds its own acquiring licence or routes through a bank: routing leaves chargebacks and settlement timing in someone else's hands. Two things to watch: when pricing and chargeback terms are published, and whether card acceptance opens to merchants who do not bank with Genome.",
+    "es": "Para las pasarelas y agregadores europeos independientes, esto traslada la competencia del precio a la estructura de cuenta: Genome no vende adquirencia más barata sino que los fondos cobrados caigan en la cuenta que el comercio ya usa, eliminando una transferencia y una conciliación. Ese paquete atrae sobre todo a comercios de uno o dos mercados y es lo más difícil de copiar para un adquirente puro, que no tiene licencia de cuenta. Para los integradores de pasarela y checkout hay un punto de aceptación más que soportar, y si merece la pena conectar depende de si Genome tiene licencia propia de adquirencia o encamina a través de un banco: encaminar deja contracargos y plazos de liquidación en manos ajenas. Dos cosas que vigilar: cuándo publica precios y condiciones de contracargo, y si abre la aceptación a comercios que no son clientes de cuenta."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-banking-2026-11"
+  }
+}

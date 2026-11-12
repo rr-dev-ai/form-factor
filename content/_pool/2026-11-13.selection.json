@@ -1,0 +1,177 @@
+{
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-12T20:15:40.397Z",
+  "selected": [
+    {
+      "industry": "identity",
+      "slug": "egypt-trust-facephi-identity-signing-platform",
+      "score": 0.58,
+      "reason": "region-floor",
+      "region": "mena",
+      "sourceDate": "2026-11-13"
+    },
+    {
+      "industry": "identity",
+      "slug": "hong-kong-touchless-e-channel-hzmb-arrivals",
+      "score": 0.74,
+      "reason": "region-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-13"
+    },
+    {
+      "industry": "identity",
+      "slug": "veridas-epic-mychart-identity-verification",
+      "score": 0.72,
+      "reason": "region-floor",
+      "region": "north-america",
+      "sourceDate": "2026-11-13"
+    },
+    {
+      "industry": "identity",
+      "slug": "ecowas-enbic-freetown-declaration-2027",
+      "score": 0.79,
+      "reason": "region-floor",
+      "region": "africa",
+      "sourceDate": "2026-11-13"
+    },
+    {
+      "industry": "identity",
+      "slug": "bil-fourthline-identity-verification-luxembourg",
+      "score": 0.66,
+      "reason": "region-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-13"
+    },
+    {
+      "industry": "banking",
+      "slug": "dcs-decard-visa-stablecoin-cards-70-markets",
+      "score": 0.6,
+      "reason": "industry-floor",
+      "region": "global",
+      "sourceDate": "2026-11-13"
+    },
+    {
+      "industry": "banking",
+      "slug": "payment-options-tribe-acquiring-mauritius",
+      "score": 0.6,
+      "reason": "industry-floor",
+      "region": "africa",
+      "sourceDate": "2026-11-13"
+    },
+    {
+      "industry": "banking",
+      "slug": "genome-card-acceptance-online-merchants",
+      "score": 0.6,
+      "reason": "industry-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-13"
+    },
+    {
+      "industry": "telecom",
+      "slug": "fibocom-cat1bis-starlink-direct-to-cell",
+      "score": 0.55,
+      "reason": "industry-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-13"
+    },
+    {
+      "industry": "banking",
+      "slug": "wasabicard-local-issuing-100-markets",
+      "score": 0.55,
+      "reason": "fill",
+      "region": "global",
+      "sourceDate": "2026-11-12"
+    },
+    {
+      "industry": "banking",
+      "slug": "unionpay-ant-fusion-pos-terminal-china",
+      "score": 0.72,
+      "reason": "manual",
+      "region": "apac",
+      "sourceDate": "2026-11-13"
+    }
+  ],
+  "alternates": [
+    {
+      "industry": "identity",
+      "slug": "magtek-dynaflex-ii-go-mdl-passport-reading",
+      "score": 0.71,
+      "reason": "fill"
+    },
+    {
+      "industry": "identity",
+      "slug": "belgium-itsme-eid-photo-face-match-plan",
+      "score": 0.5,
+      "reason": "fill"
+    },
+    {
+      "industry": "banking",
+      "slug": "credimax-click-to-pay-passkeys-bahrain",
+      "score": 0.62,
+      "reason": "fill"
+    },
+    {
+      "industry": "banking",
+      "slug": "eazypay-gps-mastercard-prepaid-bahrain",
+      "score": 0.58,
+      "reason": "fill"
+    },
+    {
+      "industry": "banking",
+      "slug": "sage-adyen-mastercard-business-accounts-france",
+      "score": 0.5,
+      "reason": "fill"
+    }
+  ],
+  "expired": [],
+  "gaps": [
+    {
+      "region": "cis",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "latam",
+      "note": "池内 0 条"
+    }
+  ],
+  "unaccounted": [],
+  "conflicts": [
+    {
+      "kind": "undated",
+      "detail": "banking/unionpay-ant-fusion-pos-terminal-china 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "补 publishedAt 2026-11-12T20:10:00+08:00（中国银联原文 发布日期 2026-11-12，首发活动西安钟楼），窗口内，manual 调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/credimax-click-to-pay-passkeys-bahrain 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "原文核实 10 November 2026 Manama，窗口内（71h），但 banking 已达 5 条上限，移入 alternates"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/eazypay-gps-mastercard-prepaid-bahrain 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "补录 2026-11-11T00:00+03:00（窗口内），无卡量无上线日，且 banking 已满 5 条，移入 alternates"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/sage-adyen-mastercard-business-accounts-france 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "产品未上线、无发卡行与 BIN，且 banking 已满 5 条，移入 alternates"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/ecommpay-getnet-bizum-spain 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "11-11 池遗留 Finextra 稿，Cloudflare 拦截未取到日期，已连续两日报 undated；banking 满 5 条，不再核，留池"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/buckeye-state-bank-corserv-issuing 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "同上，11-11 池遗留 Finextra 稿，日期不可核，banking 满 5 条，留池"
+    }
+  ],
+  "judgedAt": "2026-11-13T04:45:00+08:00"
+}
