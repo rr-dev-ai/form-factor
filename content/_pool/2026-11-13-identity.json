@@ -4,81 +4,6 @@
   "startedAt": "2026-11-13T03:10:00+08:00",
   "drafts": [
     {
-      "id": "2026-11-13-identity-04",
-      "slug": "belgium-itsme-eid-photo-face-match-plan",
-      "industry": "identity",
-      "region": "europe",
-      "regions": [],
-      "tags": [
-        "mobile-id",
-        "biometrics",
-        "verification"
-      ],
-      "originalLang": "en",
-      "sources": [
-        {
-          "name": "ID Tech",
-          "url": "https://idtechwire.com/belgiums-anti-fraud-plan-adds-face-matching-against-the-eid-photo-to-itsme/",
-          "lang": "en",
-          "publishedAt": "2026-11-12T11:02:08-05:00"
-        }
-      ],
-      "title": {
-        "zh": "比利时给 itsme 加身份证照片人脸比对",
-        "en": "Belgium adds eID photo face match to itsme",
-        "es": "Bélgica añade cotejo facial con la foto del eID a itsme"
-      },
-      "summary": {
-        "zh": "比利时联邦政府 11 月 12 日公布 29 项反网络欺诈措施，其中一项是在 itsme 的某些账户激活环节，把用户人脸与身份证照片比对。政府未给出启用日期，也未界定哪些激活场景适用。",
-        "en": "Belgium's federal government presented a 29-measure plan against online fraud on November 12, including a face comparison against the identity card photo for certain itsme account activations. No start date was set and the government did not define which activations are covered.",
-        "es": "El Gobierno federal belga presentó el 12 de noviembre un plan de 29 medidas contra el fraude en línea, entre ellas un cotejo facial con la foto del documento de identidad en determinadas activaciones de itsme. No se fijó fecha de inicio ni se definió qué activaciones quedan cubiertas."
-      },
-      "body": [
-        {
-          "kind": "h",
-          "text": {
-            "zh": "比对的是签发时留存的照片",
-            "en": "The reference is the photo held at issuance",
-            "es": "La referencia es la foto guardada en la emisión"
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "按计划，itsme 在部分账户激活流程中会比对用户当场拍摄的人脸与比利时身份证上的照片。消费者保护大臣 Rob Beenders 与内政大臣 Bernard Quintin 在部长会议讨论后公布该计划。Beenders 的说法是，这让攻击者更难接管 itsme 账户、以他人名义确认支付或登录。计划没有说明比对的阈值、失败后的处理路径，也没有说明照片来自证件芯片还是国家登记库。",
-            "en": "Under the plan, itsme will compare a live face capture with the photo on the Belgian identity card during some account activations. Consumer Protection Minister Rob Beenders and Interior Minister Bernard Quintin presented it after discussion in the Council of Ministers. Beenders said this makes it harder for attackers to take over an itsme account and confirm payments or logins in someone else's name. The plan does not state the match threshold, what happens after a failed check, or whether the reference photo comes from the card chip or the national register.",
-            "es": "Según el plan, itsme comparará una captura facial en vivo con la foto del documento de identidad belga en algunas activaciones de cuenta. El ministro de Protección de los Consumidores, Rob Beenders, y el ministro del Interior, Bernard Quintin, presentaron el plan tras debatirlo en el Consejo de Ministros. Beenders afirmó que así resulta más difícil hacerse con una cuenta de itsme y confirmar pagos o inicios de sesión en nombre de otra persona. El plan no precisa el umbral de coincidencia, qué ocurre si la comprobación falla ni si la foto de referencia procede del chip del documento o del registro nacional."
-          }
-        },
-        {
-          "kind": "h",
-          "text": {
-            "zh": "反欺诈计划的其他部分",
-            "en": "The rest of the anti-fraud plan",
-            "es": "El resto del plan antifraude"
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "29 项措施围绕预防、快速发现、处置与起诉四组展开，每季度评估一次。银行将获得一个共享可疑账户信息的平台，其他银行可据此在转账或开户时追加检查；政府称会确保数据共享在法律上站得住。未经授权的 SIM 换卡如何收紧仍在研究。检测欺诈网站的 Phish Nemo 项目将从林堡省扩至全国，公民可通过网络安全中心的新表单举报可疑网站、号码、信息与账户。",
-            "en": "The 29 measures are grouped around prevention, faster detection, response and prosecution, with quarterly reviews. Banks will get a platform to share information on suspicious accounts, which other banks can use to run extra checks on transfers or at account opening; the government says it will make the data sharing legally sound. How to tighten controls on unauthorised SIM swaps is still under study. Phish Nemo, a project that detects fraudulent websites, will expand nationwide from Limburg, and citizens can report suspicious sites, numbers, messages and accounts through a new Centre for Cybersecurity Belgium form.",
-            "es": "Las 29 medidas se agrupan en prevención, detección más rápida, respuesta y persecución, con revisión trimestral. Los bancos tendrán una plataforma para compartir información sobre cuentas sospechosas, que otros bancos podrán usar para aplicar controles adicionales en transferencias o en la apertura de cuentas; el Gobierno dice que garantizará la base legal del intercambio. Sigue en estudio cómo restringir los cambios de SIM no autorizados. Phish Nemo, que detecta sitios fraudulentos, se extenderá desde Limburgo a todo el país, y la ciudadanía podrá denunciar sitios, números, mensajes y cuentas sospechosas mediante un nuevo formulario del Centro de Ciberseguridad de Bélgica."
-          }
-        }
-      ],
-      "whyItMatters": {
-        "zh": "itsme 在比利时承担银行登录与支付确认，账户被接管就等于支付欺诈，所以把激活环节绑到身份证照片上是把信任锚从「当场自拍」移到「签发时留存的照片」。这跟 eIDAS 高保证远程开户的思路不同：后者要求重新采集并做活体检测，前者复用已经签发的证件照，成本低，但依赖身份证照片的质量与更新频率。真正的缺口在执行细节：没有启用日期，没有界定「某些激活」，银行和 itsme 的接入方无法排期改造，也无法评估误拒率。计划把 SIM 换卡列为待研究项，说明手机号这一环的漏洞还没堵。",
-        "en": "itsme carries bank logins and payment confirmations in Belgium, so account takeover translates directly into payment fraud; anchoring activation to the identity card photo moves the trust anchor from a selfie taken at the moment to the portrait held at issuance. That differs from high-assurance remote onboarding under eIDAS, which requires a fresh capture and liveness check: reusing the issued photo is cheaper but depends on the quality and freshness of that photo. The real gap is implementation detail. With no start date and no definition of which activations are covered, banks and itsme integrators cannot schedule changes or estimate false rejection rates. The plan leaves SIM swap controls under study, which means the phone number leg remains open.",
-        "es": "itsme soporta inicios de sesión bancarios y confirmaciones de pago en Bélgica, de modo que la toma de control de una cuenta se traduce directamente en fraude; anclar la activación a la foto del documento traslada la confianza desde una selfi tomada en el momento a la fotografía guardada en la emisión. Eso difiere del alta remota de alta garantía de eIDAS, que exige una captura nueva y prueba de vida: reutilizar la foto emitida es más barato, pero depende de su calidad y antigüedad. El hueco real está en la ejecución: sin fecha de inicio ni definición de qué activaciones quedan cubiertas, los bancos y los integradores de itsme no pueden planificar cambios ni estimar tasas de rechazo erróneo. El plan deja el control de los cambios de SIM en estudio, así que la pata del número de teléfono sigue abierta."
-      },
-      "confidence": 0.5,
-      "ai": {
-        "model": "deepseek-v4.1-flash",
-        "promptVersion": "identity-editor-2026-11"
-      }
-    },
-    {
       "id": "2026-11-13-identity-07",
       "slug": "magtek-dynaflex-ii-go-mdl-passport-reading",
       "industry": "identity",
@@ -441,5 +366,5 @@
     "written": 7,
     "skippedByDedup": 2
   },
-  "finishedAt": "2026-11-12T19:23:35.738Z"
+  "finishedAt": "2026-11-12T20:17:45.832Z"
 }

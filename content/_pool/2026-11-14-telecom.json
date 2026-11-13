@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-14",
+  "industry": "telecom",
+  "startedAt": "2026-11-14T02:57:45+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "Smart Communications launches Prepaid Digital Tourist eSIM offers",
+      "url": "https://www.telecompaper.com/news/smart-communications-launches-prepaid-digital-tourist-esim-offers--1588647",
+      "reason": "动作门不过：面向入境游客的两档预付 eSIM 套餐，属资费产品与销售渠道，载体形态与开通机制未变。"
+    },
+    {
+      "title": "Air New Zealand partners with One NZ to launch mobile services",
+      "url": "https://www.telecompaper.com/news/air-new-zealand-partners-with-one-nz-to-launch-mobile-services--1588616",
+      "reason": "动作门不过：航司品牌 MVNO 加 140 国旅行 eSIM，按渠道合作归资费促销；无 SGP 版本、无 profile 机制变化。"
+    },
+    {
+      "title": "STC Bahrain relaunches Rova travel app with 'lifestyle' perks",
+      "url": "https://www.telecompaper.com/news/stc-bahrain-relaunches-rova-travel-app-with-lifestyle-perks--1588481",
+      "reason": "动作门不过：旅行 eSIM App 改版与权益打包，纯渠道与资费；无认证、无版本号、无产品参数。"
+    },
+    {
+      "title": "Kcom welcomes first eSIM mobile customer to headquarters",
+      "url": "https://www.telecompaper.com/news/kcom-welcomes-first-esim-mobile-customer-to-headquarters--1588435",
+      "reason": "动作门不过：英国区域运营商开通 eSIM 月付套餐并把首位用户请到总部，属资费与营销里程碑，机制早已是标准消费级 eSIM。"
+    },
+    {
+      "title": "Revolut Mobile service launches in Ireland",
+      "url": "https://www.telecompaper.com/news/revolut-mobile-service-launches-in-ireland--1588365",
+      "reason": "动作门不过：金融科技公司借 Gigs 做 MVNO 转售，属渠道与资费；与 11-05 拦下的 ING/BBVA 旅行 eSIM 同一口径。"
+    },
+    {
+      "title": "Google Fi MVNO adds second mobile network",
+      "url": "https://www.telecompaper.com/news/google-fi-mvno-adds-second-mobile-network--1588503",
+      "reason": "duplicate-of-2026-11-12-telecom-01：Google Fi 超级网络的 Telecompaper 英文同稿，同一份 11-10 公告。"
+    },
+    {
+      "title": "Orange joins Acceleronix and Idemia to deliver in-factory profile provisioning for IoT devices",
+      "url": "https://www.telecompaper.com/news/orange-joins-acceleronix-and-idemia-to-deliver-in-factory-profile-provisioning-for-iot-devices--1588453",
+      "reason": "duplicate-of-2026-11-05-telecom-01：同一份 IFPP 项目，本条是 11-11 的二次报道，无新增参数。"
+    },
+    {
+      "title": "Semtech introduces SGP.32 eSIM platform",
+      "url": "https://www.telecompaper.com/news/semtech-introduces-sgp32-esim-platform--1588271",
+      "reason": "duplicate-of-2026-11-10-telecom-04：同一份 11-09 产品发布，本条为贸易媒体转写。"
+    },
+    {
+      "title": "STMicroelectronics simplifies IoT deployment with SoftSIM, SGP.32 in-factory provisioning and Zephyr support for ST87M01",
+      "url": "https://newsroom.st.com/media-center/press-item.html/stmicroelectronics-simplifies-iot-deployment-with-softsim-sgp-32-in-factory-provisioning-and-zephyr-support-for-st87m01.html",
+      "reason": "duplicate-of-2026-11-06-telecom-02：同一份 ST87M01 产线写卡发布，embedded.com 与 EE Journal 的 11-11/12 报道均为二次转载。"
+    },
+    {
+      "title": "SoftBank and Sceye Plan Nationwide Stratospheric Connectivity Network in Japan",
+      "url": "https://iotbusinessnews.com/2026/11/04/softbank-and-sceye-plan-nationwide-stratospheric-connectivity-network-in-japan/",
+      "reason": "duplicate-of-2026-11-07-telecom-01：Payload 11-12 的 HAPS 机队协议是同一份五年采购协议，11-07 已发布。"
+    },
+    {
+      "title": "Skylo enters South Korea through distribution agreement with KT SAT",
+      "url": "https://iotbusinessnews.com/2026/11/11/skylo-enters-south-korea-through-distribution-agreement-with-kt-sat/",
+      "reason": "动作门不过：同一厂商两日内第二次同类分销通稿，且无终端清单与资费；维持 11-12/11-13 的同一判例。"
+    },
+    {
+      "title": "Vivo Satélite supera 10 milhões de usuários em duas semanas",
+      "url": "https://www.mobiletime.com.br/noticias/11/11/2026/vivo-satelite-10-milhoes/",
+      "reason": "动作门不过：两周 1000 万用户的采纳里程碑加免费期促销，载体与鉴权机制未变；11-12 已按同一理由拦过。"
+    },
+    {
+      "title": "BYD and TIM Seal Alliance to Connect Camaçari Factory and Nearly 400,000 Vehicles in Brazil With 4G and 5G",
+      "url": "https://latamobility.com/en/byd-and-tim-seal-alliance-to-connect-camacari-factory-and-nearly-400000-vehicles-in-brazil-with-4g-and-5g",
+      "reason": "duplicate-of-2026-11-12-telecom-03：同一笔 TIM×BYD 车联网合作，本条为英文原稿的再索引。"
+    },
+    {
+      "title": "AST SpaceMobile CEO explains new rocket plan, hints about third US operator",
+      "url": "https://www.fierce-network.com/wireless/ast-spacemobile-ceo-explains-new-rocket-plan-hints-about-third-us-operator",
+      "reason": "范围门不过：火箭采购与发射排期，属星座与频谱侧，不落 SIM 载体、签发、分发、受理任一环节。"
+    },
+    {
+      "title": "UE Logo 2.0 targets smarter connectivity",
+      "url": "https://rcrwireless.com/20261113/sponsored/ue-logo-connectivity",
+      "reason": "动作门不可核：URL 标为 sponsored 的赞助稿，无一手公告、无发证方、无产品参数，六类动作都指不出具体物。"
+    },
+    {
+      "title": "GSMA and ITU sign letter of intent on open telecom AI",
+      "url": "https://rcrwireless.com/20261112/ai/gsma-itu-letter-of-intent-telecom-ai",
+      "reason": "范围门不过：AI 治理与网络智能化的合作意向，不涉及载体形态、profile 下发或网络鉴权方式。"
+    },
+    {
+      "title": "SpaceX's bid for Grain's lowband spectrum takes a step forward",
+      "url": "https://www.lightreading.com/5g/spacex-s-bid-for-grain-s-lowband-spectrum-takes-a-step-forward",
+      "reason": "范围门不过：频谱收购进入下一程序节点，AGENTS 明确排除频谱事项。"
+    },
+    {
+      "title": "Millicom in talks to buy Peruvian unit from Entel",
+      "url": "https://www.mobileworldlive.com/latin-america/millicom-in-talks-to-buy-peruvian-unit-from-entel/",
+      "reason": "范围门不过：交易标的是用户合同与牌照，不改变 SIM 载体、开通流程或鉴权方式；尚在洽谈，无金额落地。"
+    },
+    {
+      "title": "Telia acuerda comprar por unos US$380 millones la cartera empresarial nórdica de Telavox",
+      "url": "https://www.telesemana.com/blog/2026/11/12/telia-acuerda-comprar-por-unos-us380-millones-la-cartera-empresarial-nordica-de-telavox/",
+      "reason": "范围门不过：MVNO 企业客户群的并购，与 11-13 拦下的 Telia/Telavox 英文稿为同一笔交易，不落凭证链路。"
+    },
+    {
+      "title": "OneNZ gets physical with retail overhaul",
+      "url": "https://www.mobileworldlive.com/operators/onenz-gets-physical-with-retail-overhaul/",
+      "reason": "范围门不过：零售门店形态调整，属渠道；无 SIM/eSIM 开户机制变化。"
+    },
+    {
+      "title": "Vodafone Qatar, ITPC to explore infrastructure projects in Iraq",
+      "url": "https://www.mobileeurope.co.uk/vodafone-qatar-iraq-telecom/",
+      "reason": "范围门不过：基建合作 MoU，无标的、无金额、无时间表，也不在凭证链路。"
+    },
+    {
+      "title": "Rakuten Mobile's costs are spiking in post-KDDI race to add sites",
+      "url": "https://www.lightreading.com/5g/rakuten-mobile-s-costs-are-spiking-in-post-kddi-race-to-add-sites",
+      "reason": "范围门不过：基站建设成本与资本开支，属网络侧。"
+    },
+    {
+      "title": "Singtel raises full-year outlook despite 55% drop in profit in H1",
+      "url": "https://www.lightreading.com/finance/singtel-s-fundamentals-hold-firm-despite-55-profit-plunge-in-1h-fy2027",
+      "reason": "范围门不过：财报与业绩指引，AGENTS 明确排除。"
+    },
+    {
+      "title": "Reading list: Technical Issues with SIM Binding, online, Friday, November 13, 2026 #NAMA",
+      "url": "https://www.medianama.com/2026/11/223-reading-list-technical-issues-sim-binding/",
+      "reason": "动作门不过：研讨会预告与阅读清单；DoT 的 SIM 绑定指令是 2025 年既存规则，2026-04 已延期至 12-31，本周无新文本或新期限。"
+    },
+    {
+      "title": "New SIM card regulations to be introduced (Sri Lanka TRCSL)",
+      "url": "https://www.nationscope.news/news/new-sim-card-regulations-to-be-introduced-9f81d4f7",
+      "reason": "超窗：TRCSL 总干事表态为 2026-09-11 报道，且只有「年底起新卡需现场拍照、2027 全覆盖」的口头时间表，无公报号与生效日。"
+    },
+    {
+      "title": "Stricter penalties for violations in the digital environment, including 'junk' SIM cards",
+      "url": "https://www.vietnam.vn/en/siet-xu-phat-tren-moi-truong-so-sim-rac-va-tin-gia-tren-mang-xa-hoi",
+      "reason": "超窗：第 174/2026/NĐ-CP 号法令 2026-07-01 已生效，本条及 VTVgo 11-13 的问答均为解读稿，无新规出台。"
+    }
+  ],
+  "stats": {
+    "candidates": 210,
+    "written": 0,
+    "skippedByDedup": 6
+  }
+}

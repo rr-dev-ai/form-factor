@@ -2,227 +2,26 @@
   "date": "2026-11-13",
   "industry": "banking",
   "startedAt": "2026-11-13T02:30:00+08:00",
-  "drafts": [
-    {
-      "id": "2026-11-13-banking-02",
-      "slug": "credimax-click-to-pay-passkeys-bahrain",
-      "industry": "banking",
-      "region": "mena",
-      "regions": [],
-      "tags": [
-        "acquiring",
-        "tokenization"
-      ],
-      "originalLang": "en",
-      "sources": [
-        {
-          "name": "Mastercard Newsroom",
-          "url": "https://newsroom.mastercard.com/news/eemea/en/newsroom/press-releases/en/2026/november/credimax-and-mastercard-accelerate-frictionless-payments-in-bahrain-with-mastercard-click-to-pay/",
-          "lang": "en"
-        }
-      ],
-      "title": {
-        "zh": "巴林 CrediMax 上线 Click to Pay，在线刷卡改走设备端免密",
-        "en": "CrediMax turns on Click to Pay in Bahrain with device-bound passkeys",
-        "es": "CrediMax activa Click to Pay en Baréin con claves ligadas al dispositivo"
-      },
-      "summary": {
-        "zh": "巴林发卡兼收单机构 CrediMax 于 11 月 10 日上线 Mastercard Click to Pay，通过 Mastercard Merchant Cloud 受理，持卡人在商户网页用指纹或人脸完成验证，不再输入密码或短信验证码。配套的 Payment Passkeys 把验证密钥绑定在持卡人设备上，令牌化仍由 Merchant Cloud 承担。公告未给接入商户数、持卡人规模与降级路径。",
-        "en": "CrediMax, a Bahraini card issuer and acquirer, switched on Mastercard Click to Pay on 10 November, delivered through Mastercard Merchant Cloud, so cardholders verify with a fingerprint or face instead of a password or SMS code at online checkout. The companion Payment Passkeys bind the authentication key to the cardholder's device, while tokenisation stays inside Merchant Cloud. Merchant counts, cardholder volumes and fallback paths were not disclosed.",
-        "es": "CrediMax, emisor y adquirente de tarjetas de Baréin, activó el 10 de noviembre Mastercard Click to Pay a través de Mastercard Merchant Cloud, de modo que el titular se autentica con huella o rostro en lugar de contraseña o código SMS al pagar en línea. Las Payment Passkeys asociadas ligan la clave de autenticación al dispositivo del titular, mientras la tokenización sigue en Merchant Cloud. No se revelaron número de comercios, volumen de titulares ni rutas alternativas."
-      },
-      "body": [
-        {
-          "kind": "h",
-          "text": {
-            "zh": "改的是持卡人验证，不是收单协议",
-            "en": "Cardholder verification changes, not the acquiring contract",
-            "es": "Cambia la autenticación del titular, no el contrato de adquirencia"
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "过去巴林的在线卡支付多数要在跳转银行页后输入短信验证码，验证与商户结账页是两段。接入 Click to Pay 后，持卡人在设备上以指纹或人脸解锁完成验证，密钥留在设备安全区，商户侧拿到的是已完成验证的授权请求。CrediMax 同时是本地发卡方与收单方，因此这次改动同时落在其卡片与受理两端。",
-            "en": "Online card payments in Bahrain have mostly required a redirect to the bank page and an SMS code, splitting verification from the merchant's checkout. With Click to Pay the cardholder unlocks with a fingerprint or face on the device, the key stays in the device's secure element, and the merchant receives an already-verified authorisation request. Because CrediMax is both a local issuer and acquirer, the change lands on both its card portfolio and its acceptance side.",
-            "es": "Los pagos con tarjeta en línea en Baréin exigían en su mayoría una redirección a la página del banco y un código SMS, separando la autenticación del proceso de compra. Con Click to Pay el titular desbloquea con huella o rostro en el dispositivo, la clave permanece en el elemento seguro y el comercio recibe una solicitud de autorización ya verificada. Como CrediMax es emisor y adquirente local, el cambio afecta tanto su cartera de tarjetas como su lado de aceptación."
-          }
-        },
-        {
-          "kind": "h",
-          "text": {
-            "zh": "Merchant Cloud 是这次的底座",
-            "en": "Merchant Cloud is the substrate",
-            "es": "Merchant Cloud es la base"
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "Mastercard 把 Click to Pay 放在 Merchant Cloud 之下，后者被描述为统一的开放受理框架，把支付、代理式交易、反欺诈、验证、令牌化与数据服务做成可拼装的模块。设备端生物识别由 Payment Passkeys 提供，卡号本身不进商户系统，令牌化与令牌生命周期仍由卡组织一侧管理。原文未说明无生物识别设备或未注册持卡人的降级方式，也未给商户接入数量与交易量。",
-            "en": "Mastercard places Click to Pay under Merchant Cloud, described as a unified open acceptance framework that turns payments, agentic transactions, fraud, authentication, tokenisation and data into composable modules. Device biometrics come from Payment Passkeys; the card number never enters the merchant's systems, and token issuance and lifecycle stay on the network side. The release did not describe the fallback for devices without biometrics or for unenrolled cardholders, nor did it give merchant counts or transaction volumes.",
-            "es": "Mastercard sitúa Click to Pay bajo Merchant Cloud, descrito como un marco de aceptación abierto y unificado que convierte pagos, operaciones agénticas, fraude, autenticación, tokenización y datos en módulos combinables. La biometría del dispositivo la aportan las Payment Passkeys; el número de tarjeta no entra en los sistemas del comercio y la emisión y el ciclo de vida del token siguen del lado de la red. El comunicado no describió la alternativa para dispositivos sin biometría ni para titulares no registrados, ni dio cifras de comercios o de operaciones."
-          }
-        }
-      ],
-      "whyItMatters": {
-        "zh": "对海湾的收单机构与网关商，这条的分量在于验证环节换了位置：验证从发卡行的页面搬到持卡人的设备，结账页不必再跳转，短信验证码这条成本与流失都高的链路被绕开。做 3DS 接入与短信通道的服务商，在这类市场会先感到压力。技术上，Passkey 把验证密钥绑在单台设备上，换机与多设备场景要重新注册，这既是钓鱼防护的来源，也是客服工单的新来源——公告没有交代这条路径怎么走。对计划进海湾的收单方，值得盯的是 CrediMax 会不会把 Click to Pay 作为默认结账方式而非可选项，以及 Mastercard 是否把 Merchant Cloud 的模块化受理开放给非发卡机构。",
-        "en": "For Gulf acquirers and gateways the weight of this is that verification has moved: it now happens on the cardholder's device rather than on the issuer's page, checkout no longer needs a redirect, and the SMS-code path, which carries both cost and drop-off, is bypassed. Vendors selling 3-D Secure integration and SMS delivery will feel that first in these markets. Technically, a passkey binds the authentication key to one device, so handset replacement and multi-device use require re-enrolment, which is where the phishing resistance comes from and also where a new class of support tickets comes from; the release does not say how that path works. For acquirers planning Gulf entry, watch whether CrediMax makes Click to Pay the default checkout rather than an option, and whether Mastercard opens Merchant Cloud's modular acceptance to non-issuers.",
-        "es": "Para los adquirentes y pasarelas del Golfo, el peso de esto es que la autenticación se ha movido: ahora ocurre en el dispositivo del titular y no en la página del emisor, el proceso de compra ya no necesita redirección y se evita la vía del código SMS, que arrastra coste y abandono. Los proveedores de integración 3-D Secure y de envío de SMS lo notarán primero en estos mercados. En lo técnico, una passkey liga la clave a un solo dispositivo, de modo que cambiar de teléfono o usar varios exige reinscripción: de ahí viene la resistencia al phishing y también una nueva clase de incidencias de soporte, y el comunicado no explica cómo se resuelve. Para los adquirentes que planeen entrar en el Golfo, hay que ver si CrediMax convierte Click to Pay en el modo de pago por defecto y no en una opción, y si Mastercard abre la aceptación modular de Merchant Cloud a quienes no son emisores."
-      },
-      "confidence": 0.62,
-      "ai": {
-        "model": "deepseek-v4.1-flash",
-        "promptVersion": "editor-banking-2026-11"
-      }
-    },
-    {
-      "id": "2026-11-13-banking-03",
-      "slug": "eazypay-gps-mastercard-prepaid-bahrain",
-      "industry": "banking",
-      "region": "mena",
-      "regions": [],
-      "tags": [
-        "issuing",
-        "tokenization"
-      ],
-      "originalLang": "en",
-      "sources": [
-        {
-          "name": "Mastercard Newsroom",
-          "url": "https://newsroom.mastercard.com/news/eemea/en/newsroom/press-releases/en/2026/november/gps-eazypay-and-mastercard-collaborate-to-launch-prepaid-card-program-to-enhance-bahrain-s-payments-ecosystem/",
-          "lang": "en"
-        }
-      ],
-      "title": {
-        "zh": "巴林 EazyPay 预付卡由本地处理商 GPS 承接发卡与令牌化",
-        "en": "EazyPay hands prepaid issuing and tokenisation to Bahrain-based GPS",
-        "es": "EazyPay encarga a GPS, procesador local, la emisión y tokenización de su prepago"
-      },
-      "summary": {
-        "zh": "巴林收单机构 EazyPay 于 11 月 11 日推出 Mastercard 预付卡，发卡处理、令牌化、API 对接、欺诈监控与 3DS 全部交由本地处理商 Global Payment Services 承担，Mastercard 提供网络。三方均未公布卡量、BIN 归属与正式上线日期，只称会加快铺开速度。",
-        "en": "EazyPay, a Bahraini acquirer, launched a Mastercard prepaid programme on 11 November with issuing and processing, tokenisation, API integration, fraud monitoring and 3-D Secure all run by local processor Global Payment Services, and Mastercard supplying the network. None of the three disclosed card volumes, BIN ownership or a firm launch date, saying only that the arrangement should speed the rollout.",
-        "es": "EazyPay, adquirente de Baréin, lanzó el 11 de noviembre un programa de prepago Mastercard con emisión y procesamiento, tokenización, integración por API, monitoreo de fraude y 3-D Secure a cargo del procesador local Global Payment Services, y Mastercard aportando la red. Ninguna de las tres partes reveló volumen de tarjetas, titularidad del BIN ni fecha firme de lanzamiento, y solo señaló que el acuerdo debería acelerar el despliegue."
-      },
-      "body": [
-        {
-          "kind": "h",
-          "text": {
-            "zh": "处理留在本国机房",
-            "en": "Processing stays in-country",
-            "es": "El procesamiento se queda en el país"
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "按公告划分，GPS 承担发卡与处理、令牌化、API 对接、欺诈监控与 3DS，Mastercard 提供受理网络，EazyPay 作为项目运营方负责发卡与商户侧推广。三代分工把发卡系统的运行位置留在了巴林本地，而不是跨境送到区域处理中心——对海湾这类体量不大的预付卡项目，这是成本与合规之间的一种取舍。",
-            "en": "Under the split, GPS takes issuing and processing, tokenisation, API integration, fraud monitoring and 3-D Secure; Mastercard supplies the acceptance network; EazyPay operates the programme and pushes it to its merchant base. The arrangement keeps the issuing system running in Bahrain rather than at a cross-border regional processing hub, a trade-off between cost and compliance that suits small Gulf prepaid programmes.",
-            "es": "Según el reparto, GPS asume emisión y procesamiento, tokenización, integración por API, monitoreo de fraude y 3-D Secure; Mastercard aporta la red de aceptación; EazyPay opera el programa y lo lleva a su base de comercios. El esquema mantiene el sistema de emisión en Baréin y no en un centro regional transfronterizo, una disyuntiva entre coste y cumplimiento que encaja con programas de prepago pequeños del Golfo."
-          }
-        },
-        {
-          "kind": "h",
-          "text": {
-            "zh": "缺的是规模数字",
-            "en": "The missing piece is scale",
-            "es": "Falta la escala"
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "公告没有给出预付卡的发卡量、目标持卡人群、BIN 由谁赞助，也没有上线日期，只说 EazyPay 可借此加快预付卡的铺开。EazyPay 在巴林的主业是商户收单，预付卡意味着它要从受理侧往发卡侧多走一段，客户群大概率是现有商户的员工薪资或消费场景。这一点原文没有明说。",
-            "en": "The release gave no card volume, no target cardholder segment, no BIN sponsor and no go-live date, saying only that EazyPay can accelerate the rollout. EazyPay's core business in Bahrain is merchant acquiring, so a prepaid card means extending from acceptance toward issuing, with the likely customer base being employees or consumers already inside its merchant relationships. The release does not say so explicitly.",
-            "es": "El comunicado no dio volumen de tarjetas, segmento objetivo de titulares, patrocinador del BIN ni fecha de lanzamiento, y solo indicó que EazyPay podrá acelerar el despliegue. El negocio principal de EazyPay en Baréin es la adquirencia, de modo que un prepago implica extenderse desde la aceptación hacia la emisión, con una base probable de empleados o consumidores ya dentro de sus relaciones con comercios. El comunicado no lo dice de forma explícita."
-          }
-        }
-      ],
-      "whyItMatters": {
-        "zh": "对海湾的中小发卡项目，这条给的是一个可复制的分工模板：不发卡行自建系统，也不把处理外包到区域中心，而是用本地处理商承接发卡、令牌化与 3DS，卡组织只出网络。这样做的直接后果是上线周期短、合规边界清楚，代价是议价空间被处理商拿走一层。对做发卡系统与令牌化的供应商，巴林这类市场正在被本地处理商占住入口，想进去只能通过它们或等下一轮替换。需要盯的是 BIN 归属与卡量：BIN 若挂在 EazyPay 名下，它就从收单方变成有发卡资质的运营方；若挂在他方，这仍是一桩处理外包。",
-        "en": "For small Gulf issuing programmes this is a reusable division of labour: no in-house issuing stack, no offshore regional processing hub, but a local processor carrying issuing, tokenisation and 3-D Secure while the network only supplies rails. The immediate effect is a shorter path to launch and a cleaner compliance boundary, at the cost of handing a layer of pricing power to the processor. For vendors selling issuing systems and tokenisation, markets like Bahrain are being closed off at the entry point by local processors; getting in means going through them or waiting for the next replacement cycle. Watch BIN ownership and card volume: if the BIN sits with EazyPay it becomes an issuer-qualified operator rather than an acquirer, and if it sits elsewhere this stays a processing outsourcing deal.",
-        "es": "Para los programas de emisión pequeños del Golfo esto es una división del trabajo reutilizable: sin pila de emisión propia ni centro regional en el exterior, con un procesador local que asume emisión, tokenización y 3-D Secure mientras la red solo pone los raíles. El efecto inmediato es un camino más corto al lanzamiento y un límite de cumplimiento más nítido, a cambio de ceder una capa de poder de precio al procesador. Para los proveedores de sistemas de emisión y tokenización, mercados como Baréin quedan cerrados en la puerta de entrada por los procesadores locales; entrar implica pasar por ellos o esperar el siguiente ciclo de reemplazo. Hay que vigilar la titularidad del BIN y el volumen: si el BIN queda en EazyPay, pasa de adquirente a operador con capacidad de emisión; si queda en otro, esto sigue siendo una externalización de procesamiento."
-      },
-      "confidence": 0.58,
-      "ai": {
-        "model": "deepseek-v4.1-flash",
-        "promptVersion": "editor-banking-2026-11"
-      }
-    },
-    {
-      "id": "2026-11-13-banking-07",
-      "slug": "sage-adyen-mastercard-business-accounts-france",
-      "industry": "banking",
-      "region": "europe",
-      "regions": [],
-      "tags": [
-        "issuing"
-      ],
-      "originalLang": "en",
-      "sources": [
-        {
-          "name": "Sage",
-          "url": "https://www.sage.com/en-gb/company/digital-newsroom/2026/11/sage-partners-with-adyen-and-mastercard-to-deliver-business-accounts",
-          "lang": "en"
-        }
-      ],
-      "title": {
-        "zh": "Sage 把企业账户与借记卡塞进记账软件，法国先做",
-        "en": "Sage puts business accounts and debit cards inside its accounting software",
-        "es": "Sage integra cuentas de empresa y tarjetas de débito en su software contable"
-      },
-      "summary": {
-        "zh": "Sage 于 11 月 10 日在阿姆斯特丹的伙伴大会宣布，与 Adyen、Mastercard 合作把企业账户、借记卡、支付与对账做进记账软件：Adyen 提供 BaaS 基础设施与开户流程，Mastercard 提供卡网络。首个实现计划落在法国的 Sage 50、Sage 100 与 Sage Active，尚未上线，也未公布发卡行与 BIN 归属。",
-        "en": "Sage said at its Amsterdam partner event on 10 November that it is working with Adyen and Mastercard to put business accounts, debit cards, payments and reconciliation inside its accounting software, with Adyen providing banking-as-a-service infrastructure and onboarding and Mastercard supplying the card network. The first implementation is planned for Sage 50, Sage 100 and Sage Active in France and is not live yet; the issuer and BIN sponsor were not named.",
-        "es": "Sage anunció el 10 de noviembre en su evento de socios de Ámsterdam que trabaja con Adyen y Mastercard para integrar cuentas de empresa, tarjetas de débito, pagos y conciliación dentro de su software contable, con Adyen aportando infraestructura bancaria como servicio y el alta de clientes, y Mastercard la red de tarjetas. La primera implementación está prevista para Sage 50, Sage 100 y Sage Active en Francia y aún no opera; no se nombró al emisor ni al patrocinador del BIN."
-      },
-      "body": [
-        {
-          "kind": "h",
-          "text": {
-            "zh": "账户长在软件里，钱一动账就动了",
-            "en": "The account lives in the software, so the books move with the money",
-            "es": "La cuenta vive en el software y los libros se mueven con el dinero"
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "按公告设计，企业账户与借记卡开在 Sage 软件内，支付与刷卡消费产生的流水直接进账簿，不再需要导出对账单再手工核对。Sage 强调这套服务是补充现有银行关系，不要求客户换掉主账户——换句话说，它争的不是主账户，而是主账户之外那部分支出与对账的操作界面。",
-            "en": "As described, the business account and debit card sit inside Sage, so payments and card spending post straight into the books without exporting statements and reconciling by hand. Sage stresses that the service complements existing banking relationships rather than replacing a primary account, which means it competes not for the main account but for the spending and reconciliation surface around it.",
-            "es": "Según el planteamiento, la cuenta y la tarjeta viven dentro de Sage, de modo que los pagos y el gasto con tarjeta se registran directamente en la contabilidad sin exportar extractos ni conciliar a mano. Sage subraya que el servicio complementa la relación bancaria existente y no sustituye la cuenta principal, es decir, no compite por la cuenta principal sino por la superficie de gasto y conciliación alrededor de ella."
-          }
-        },
-        {
-          "kind": "h",
-          "text": {
-            "zh": "还没上线，也还没说谁发卡",
-            "en": "Not live, and no issuer named",
-            "es": "Aún no opera y no se nombró al emisor"
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "首个实现计划落在法国的 Sage 50、Sage 100 与 Sage Active，Adyen 提供 BaaS 与开户流程。公告用词是「正在开发」「计划」，没有上线日期、没有卡产品名、没有费率，也没说发卡行与 BIN 由谁承担——Adyen 的 BaaS 通常需要本地银行或自身牌照落地，这一层原文没有交代。Sage 称各国做法会不同。",
-            "en": "The first implementation is planned for Sage 50, Sage 100 and Sage Active in France, with Adyen providing BaaS and onboarding. The release says Sage is developing the service and describes the first implementation as planned, with no go-live date, no card product name, no pricing, and no statement of who carries the issuing licence or the BIN; Adyen's BaaS normally lands through a local bank or its own licence, and the release does not say which. Sage says the approach will vary by market.",
-            "es": "La primera implementación está prevista para Sage 50, Sage 100 y Sage Active en Francia, con Adyen aportando BaaS y el alta. El comunicado dice que Sage está desarrollando el servicio y describe la primera implementación como prevista, sin fecha de lanzamiento, sin nombre de producto de tarjeta, sin precios y sin indicar quién asume la licencia de emisión o el BIN; el BaaS de Adyen suele aterrizar mediante un banco local o su propia licencia, y el comunicado no aclara cuál. Sage afirma que el enfoque variará por mercado."
-          }
-        }
-      ],
-      "whyItMatters": {
-        "zh": "对发卡处理商与 BIN 赞助方，这条说明分销口正在从银行网点挪到记账软件：Sage 在欧洲有大量小微企业客户，账户与卡如果能嵌进他们每天打开的软件，获客成本远低于开分行或投广告。对 Sage 这类垂直软件商，账户与卡是留存工具，也是把「记账」延伸到「资金流」的入口。要看清的是它并不替代主账户，卡的用量取决于多少客户愿意为对账便利多开一个账户——这类项目历史上卡量与活跃度都不高。真正值得盯的是发卡行与 BIN 归属，以及法国之后第二个市场怎么选：那决定 Adyen 的 BaaS 是做成可复制的产品，还是每国重做一次集成。",
-        "en": "For issuing processors and BIN sponsors this shows the distribution point moving from branches to accounting software: Sage has a large base of small businesses in Europe, and an account and card embedded in software they open daily costs far less to sell than a branch network or advertising. For vertical software vendors, accounts and cards are a retention tool and a route from bookkeeping into money movement. Be clear that it does not replace the primary account, so card usage depends on how many customers will open an extra account for easier reconciliation, and such programmes have historically shown modest card volume and activity. The items that matter are who carries the issuing licence and the BIN, and which market follows France, because that decides whether Adyen's BaaS becomes a repeatable product or a fresh integration per country.",
-        "es": "Para los procesadores de emisión y patrocinadores de BIN, esto muestra que el punto de distribución se traslada de las sucursales al software contable: Sage tiene una base amplia de pequeñas empresas en Europa, y una cuenta y una tarjeta incrustadas en un software que abren a diario cuestan mucho menos de vender que una red de sucursales o publicidad. Para los proveedores de software vertical, cuentas y tarjetas son retención y una vía desde la contabilidad hacia el movimiento de dinero. Conviene ver claro que no sustituye la cuenta principal, así que el uso de la tarjeta depende de cuántos clientes abran una cuenta extra por conciliar mejor, y estos programas han mostrado históricamente volúmenes y actividad modestos. Lo que importa es quién asume la licencia de emisión y el BIN, y qué mercado sigue a Francia, porque eso decide si el BaaS de Adyen se vuelve producto repetible o una integración nueva por país."
-      },
-      "confidence": 0.5,
-      "ai": {
-        "model": "deepseek-v4.1-flash",
-        "promptVersion": "editor-banking-2026-11"
-      }
-    }
-  ],
+  "drafts": [],
   "rejected": [
+    {
+      "slug": "sage-adyen-mastercard-business-accounts-france",
+      "title": "Sage 把企业账户与借记卡塞进记账软件，法国先做",
+      "url": "https://www.sage.com/en-gb/company/digital-newsroom/2026/11/sage-partners-with-adyen-and-mastercard-to-deliver-business-accounts",
+      "reason": "超窗：事件日 2026-11-10，11-14 终审核定时已逾 85 小时。"
+    },
+    {
+      "slug": "eazypay-gps-mastercard-prepaid-bahrain",
+      "title": "巴林 EazyPay 预付卡由本地处理商 GPS 承接发卡与令牌化",
+      "url": "https://newsroom.mastercard.com/news/eemea/en/newsroom/press-releases/en/2026/november/gps-eazypay-and-mastercard-collaborate-to-launch-prepaid-card-program-to-enhance-bahrain-s-payments-ecosystem/",
+      "reason": "超窗：事件日 2026-11-11，11-14 终审核定时已逾 95 小时。"
+    },
+    {
+      "slug": "credimax-click-to-pay-passkeys-bahrain",
+      "title": "巴林 CrediMax 上线 Click to Pay，在线刷卡改走设备端免密",
+      "url": "https://newsroom.mastercard.com/news/eemea/en/newsroom/press-releases/en/2026/november/credimax-and-mastercard-accelerate-frictionless-payments-in-bahrain-with-mastercard-click-to-pay/",
+      "reason": "超窗：事件日 2026-11-10，11-14 终审核定时已逾 85 小时。"
+    },
     {
       "title": "Merchants sue feds over Illinois card fee law",
       "url": "https://www.paymentsdive.com/news/merchants-sue-feds-over-illinois-card-fee-law/874494/",

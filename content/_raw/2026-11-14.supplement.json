@@ -1,0 +1,78 @@
+{
+  "fetchedAt": "2026-11-14T01:54:01+08:00",
+  "fetchedFor": "2026-11-14",
+  "gap": ["apac", "cis", "mena", "europe", "north-america", "latam"],
+  "cellGap": ["africa/banking", "africa/telecom"],
+  "industryGap": ["banking", "telecom"],
+  "items": [
+    {
+      "title": "OpenAI 上线 ChatGPT Wallet：代理用网络令牌付款，每笔需设备生物识别放行",
+      "url": "https://piqmarkets.com/story/openai-launches-chatgpt-wallet-with-amex-mastercard-and-visa",
+      "publishedAt": "2026-11-13T15:45:00+00:00",
+      "industry": "banking",
+      "region": "north-america",
+      "actionType": "产品化节点",
+      "gateNote": "差受理侧的可核规模：三家卡组织与首发市场已具名，但没有商户数、没有交易额、没有美国以外的时间表。若终审按「首次或变化」收紧，唯一能立住的是「代理支付第一次拿到三大网络正式令牌通道」这一点，其余都是能力描述。",
+      "discoveredBy": "\"12 November 2026\" OR \"13 November 2026\" bank card OR SIM OR national ID launch partnership",
+      "note": "落在支付链路的令牌化与持卡人放行环节。机制变化有两处：付款用的是网络侧签发的一次性支付令牌而不是卡号，代理与商户都看不到 PAN；放行从商户侧 OTP 移到持卡人设备的 Face ID 或指纹，每笔一次。首发只给美国 ChatGPT Pro 成年订户、须持美国发行卡，入口是 dots 代理。原文没说的：费率与分成（只说不抽成）、交易上限、支持商户类别，以及美国之外何时开放。"
+    },
+    {
+      "title": "USCIS 把三套身份系统并成一个 2.5 亿美元项目 IBIS，12 月 1 日发询价",
+      "url": "https://www.biometricupdate.com/202611/uscis-expands-biometrics-and-identity-overhaul-into-250-million-competition",
+      "publishedAt": "2026-11-12T14:21:00-05:00",
+      "industry": "identity",
+      "region": "north-america",
+      "actionType": "无",
+      "gateNote": "离授标差一个中标方：目前只是把标的、金额区间与时间表摆出来，RFQ 尚未发布，也没有承接方。若按「授标须有承接方」卡，这条只能算采购预告；它的价值在于用三份存量合同金额（1.349 亿 + 1.084 亿 + 0.649 亿美元）证明了合并后的体量。",
+      "discoveredBy": "R4 归档页直读 biometricupdate.com/202611",
+      "note": "落在身份链路的采集、核验与身份解析环节。机制变化是把 BIMS（生物特征记录与预约调度）、ESIS（跨系统同一人去重）、APIS（在线账户身份证明）三套并行合同并成单一 IBIS，生物识别、实体解析与机器学习合并开发运营。金额 2 亿至 2.5 亿美元，履约 2027-07 至 2032-02，GSA MAS 小企业预留。原文没说的：各应用迁移清单、1:1 人脸核验是否并入；RFQ 只发选定承包商。"
+    },
+    {
+      "title": "欧盟《技能可携法案》拟把职业资格做成可验证凭证，撤销须 24 小时内全欧同步",
+      "url": "https://www.biometricupdate.com/202611/eu-proposal-would-make-verifiable-qualifications-portable-through-eudi-wallets",
+      "publishedAt": "2026-11-12T14:53:00-05:00",
+      "industry": "identity",
+      "region": "europe",
+      "actionType": "无",
+      "gateNote": "六类动作都不贴：这是立法提案，既非授标也非规范版本发布。更麻烦的是时效——法案 9 月已随公平劳工流动一揽子计划公布，11-12 在窗内的只是欧洲议会研究服务处的简报与审议启动。终审若按事件日卡，会判为旧事件；请按「议会审议开始」这一程序节点判断。",
+      "discoveredBy": "R4 归档页直读 biometricupdate.com/202611",
+      "note": "落在身份链路的签发与核验两端，载体是 EUDI 钱包。机制变化四处：数字资格证明 DQA 由公共机构或合格信任服务商签发，成新授予资格的默认格式；雇主不得仅因数字形式拒收，也不得在框架核验后质疑真伪；撤销或失效须 24 小时内在全欧同步；36 个月过渡期内，过去十年资格可申请数字化、两周内出件。原文没说的：无预算、无技术供应商，且不产生职业资格自动互认。"
+    },
+    {
+      "title": "埃塞俄比亚 Wegagen 银行与埃航里程计划发联名卡，里程挂在自家 726 台 POS 上",
+      "url": "https://abaytimes.com/business/wegagen-bank-and-shebamiles-launch-card-that-earns-travel-points-on-purchases",
+      "publishedAt": "2026-11-12T12:00:00+03:00",
+      "industry": "banking",
+      "region": "africa",
+      "actionType": "联合部署",
+      "gateNote": "差发卡规模与卡组织归属：原文通篇没写这张卡走 Visa 还是 Mastercard，也没给发卡量目标，权益全在里程积分这一层。能落的硬数字只有本行 726 台 POS、400 台 ATM、457 家网点与 13,157 个代理。若无卡组织与发卡量，终审很可能按渠道合作刷掉。",
+      "discoveredBy": "R6 日期锚定 \"12 November 2026\" OR \"13 November 2026\" bank card OR SIM OR national ID launch partnership",
+      "note": "落在支付链路的发卡与受理两端。机制变化很小：把航司里程积分直接绑在本行 POS 的消费流水上，开卡送 50 里程，申请走手机银行、网点取卡，没有新的凭证形态。可核规模来自银行自身：457 家网点、400 台 ATM、726 台 POS、13,157 个代理，实收资本逾 100 亿比尔。原文没说的：卡组织、发卡量、里程兑换比率，以及是否支持非接与线上。同日 12 号在亚的斯亚贝巴总部发布。"
+    },
+    {
+      "title": "巴西新身份证累计签发逾 6500 万张，CPF 成唯一编号，旧 RG 有效到 2032 年",
+      "url": "https://br.ibtimes.com/brazil-national-id-70-million-106078",
+      "publishedAt": "2026-11-12T19:48:00-03:00",
+      "industry": "identity",
+      "region": "latam",
+      "actionType": "无",
+      "gateNote": "差可核的新增物：只有一张累计签发量的成绩单，没有新供应商、新产线、新规范，也没有数字版占比。它证明的是存量替换在推进，不是机制又变了一次。终审若按「必须是首次或变化」卡，这条会被当运营数据剔除；建议只当巴西身份链路的进度基线用。",
+      "discoveredBy": "R6 \"novembro\" OR \"noviembre\" 2026 数字身份 / gov.br 用户规模",
+      "note": "落在身份链路的签发与制证环节。没有新机制，值得记的是规模与切换节奏：CIN 以 CPF 为唯一编号，实体与数字同源、可经 GOV.BR 出具；旧 RG 保留效力到 2032 年，靠州级制证能力逐步替换。部长 11-12 公布：逾 6500 万张、逼近 7000 万，巴伊亚近 500 万张约合该州人口 33%，GOV.BR 近 1.8 亿用户。原文特意说明 7000 万是近似值，非统计确认数。"
+    }
+  ],
+  "verifiedButDropped": [
+    "MagTek DynaFlex II Go（11-10，固件升级让支付终端读 mDL 与数字护照，ISO/IEC 18013-5）：发布与开售均在 72 小时窗外，差约 1 小时",
+    "Telstra × Starlink Direct to Cell 短信（澳洲）：报道页无发布日期，另一篇 11-09 的稿子称该服务已存在，无法判定时效",
+    "Rakuten × AST SpaceMobile 成立 Rakuten AST（11-06 签约、11-09 公布，1480 亿日元补助、2029 年 3 月前商用）：超窗",
+    "TBC Georgia 掌纹支付（11-09）：超窗，且全文无网点数、无终端数、无上线规模",
+    "Baraka Visa 卡乌兹别克（11-09）：超窗，11-13 已记入 verifiedButDropped",
+    "Claro Pay × Grupo Aval 哥伦比亚 BaaS 钱包：原文 El Tiempo 返回 403，事件日期与是否发卡均无法核实",
+    "菲律宾 BSP Circular 1242 上调信用卡分期费率上限（11-12）：属资费类调整，范围门不过",
+    "韩国 PIPC 罚 8 家 MVNO 非法收集住民登录号（11-12）：执法处罚，标的物不是凭证本身",
+    "ECOWAS《弗里敦宣言》2027-01-01 起互认 ENBIC：与 11-13 已发「西非 12 国互认生物识别身份证」同一事件线",
+    "SAMA 宣布 mada 在卡塔尔、HIMYAN 在沙特互认：官网首页无日期，无法判时效",
+    "Orange 加入 IFPP 在厂内写 eSIM（SGP.41/SGP.32、MFF4、量子安全绑定）：事件 11-04，超窗",
+    "NADRA 采购手持与生物识别设备（11-09，21/22/75 台）：超窗且量级过小"
+  ]
+}

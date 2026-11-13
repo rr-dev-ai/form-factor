@@ -1,0 +1,84 @@
+{
+  "id": "2026-11-14-banking-04",
+  "slug": "monefit-creditstar-estonia-credit-card-moorwand-thredd",
+  "industry": "banking",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "issuing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-14T04:18:12+08:00",
+  "ingestedAt": "2026-11-14T03:58:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "The Paypers",
+      "url": "https://thepaypers.com/payments/news/creditstar-group-launches-monefit-credit-card-in-estonia",
+      "lang": "en",
+      "publishedAt": "2026-11-13T00:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "爱沙尼亚 Monefit 发信用卡，固定 20% 年息、零费用",
+    "en": "Monefit launches an Estonian credit card with a flat 20% rate and no fees",
+    "es": "Monefit lanza en Estonia una tarjeta de crédito al 20% fijo y sin comisiones"
+  },
+  "summary": {
+    "zh": "爱沙尼亚消费信贷集团 Creditstar 11 月 13 日推出 Monefit 信用卡：获批客户统一 20% 固定年息，无年费、月费与申请费；批复即给虚拟万事达卡，实体卡另订，支持 Google Pay。Moorwand 供卡组织通道，Thredd 做发卡处理，Monefit Estonia OÜ 承担授信与项目管理。该卡 8 月起已向候补名单试运行。",
+    "en": "Estonian consumer lender Creditstar launched a credit card under its Monefit brand on 13 November: one flat 20% annual rate for every approved customer, with no annual, monthly or application fee. Approvals get a virtual Mastercard immediately, a physical card can be ordered, and Google Pay is supported. Moorwand provides the scheme relationship, Thredd does issuer processing, and Monefit Estonia OÜ holds the credit and runs the programme. A waitlist rollout has run since August.",
+    "es": "La financiera estonia Creditstar lanzó el 13 de noviembre una tarjeta de crédito bajo su marca Monefit: un tipo anual fijo del 20% para todo cliente aprobado, sin cuota anual, mensual ni de solicitud. La aprobación entrega una Mastercard virtual al instante, la tarjeta física se puede pedir y Google Pay está soportado. Moorwand aporta la relación con el esquema, Thredd el procesamiento de emisión y Monefit Estonia OÜ el crédito y la gestión del programa. Desde agosto hay un despliegue con lista de espera."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "把贷款账户做成一张卡",
+        "en": "A loan account turned into a card",
+        "es": "Una cuenta de préstamo convertida en tarjeta"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Creditstar 自 2006 年起做消费信贷，在英国与七个欧盟市场经营，注册客户逾 190 万；这张卡接在集团既有的授信、风险、合规与服务体系上，不是另建一套平台。定价只有一档：所有获批客户 20% 固定年息，不随额度或客群分层。",
+        "en": "Creditstar has written consumer credit since 2006, operates in the UK and seven EU markets and counts more than 1.9 million registered customers. The card runs on the group’s existing underwriting, risk, compliance and servicing systems rather than a new platform. Pricing has a single tier: a flat 20% annual rate for every approved customer, regardless of limit or segment.",
+        "es": "Creditstar concede crédito al consumo desde 2006, opera en el Reino Unido y siete mercados de la UE y supera 1,9 millones de clientes registrados. La tarjeta corre sobre los sistemas de originación, riesgo, cumplimiento y servicio del grupo, no sobre una plataforma nueva. El precio tiene un solo nivel: 20% anual fijo para todo cliente aprobado, sin importar límite ni segmento."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "形态上虚拟卡即时可用，实体卡另订；App 里的 Payment Wheel 显示不同还款额分别落到本金与利息上的比例；公司同时在做 Flex，把符合条件的消费转成固定分期。卡组织通道与处理分别外包给 Moorwand 与 Thredd，授信主体是 Monefit Estonia OÜ。",
+        "en": "The virtual card is usable immediately and the plastic is optional. A \"Payment Wheel\" in the app shows how different repayment amounts split between principal and interest, and the group is building Flex, which converts eligible purchases into fixed instalments. The scheme relationship and processing are outsourced to Moorwand and Thredd respectively, while Monefit Estonia OÜ is the creditor.",
+        "es": "La tarjeta virtual sirve al instante y la física es opcional. Una \"Payment Wheel\" en la app muestra cómo distintos importes de pago se reparten entre principal e intereses, y el grupo desarrolla Flex, que convierte compras elegibles en cuotas fijas. La relación con el esquema y el procesamiento se externalizan en Moorwand y Thredd, mientras Monefit Estonia OÜ es el acreedor."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "先落一个小市场",
+        "en": "Starting in a small market",
+        "es": "Empezar en un mercado pequeño"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公司称爱沙尼亚是首个落地市场，技术栈可按市场改造，其余市场在评估。未披露发卡量目标、获客成本与逾期假设，也未说明这张卡与集团既有的分期贷款产品如何划分客群。",
+        "en": "The company calls Estonia the initial market, says the stack can be adapted per market, and is assessing the rest. It disclosed no issuance target, acquisition cost or delinquency assumptions, and did not say how the card segments against its existing instalment loans.",
+        "es": "La empresa presenta Estonia como primer mercado, afirma que la pila técnica es adaptable por mercado y evalúa el resto. No reveló objetivo de emisión, coste de adquisición ni supuestos de mora, ni cómo segmenta la tarjeta frente a sus préstamos a plazos."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "非银行信贷机构过去把卡当成导流入口，卡本身由银行发；这家把贷款账户直接做成卡，授信、定价与账务都留在自己手里，只买卡组织通道与处理能力。对 Thredd、Moorwand 这类供应商，这意味着客户群里多了一类「有信贷牌照、没有银行牌照」的机构，它们的采购决策比银行快，但合规审查更依赖供应商。定价上，单一 20% 固定利率加零费用，是把英国与欧盟的消费信贷透明度要求直接写进产品参数；代价是高风险的客群没法再加价，只能靠拒批来控制。爱沙尼亚本身太小，真正的信号是这套模板能不能复制到其余七个市场——那里有它既有的一百多万客户。",
+    "en": "Non-bank lenders used to treat cards as an acquisition funnel with a bank doing the issuing; this one turns the loan account into the card, keeping underwriting, pricing and servicing in-house and buying only scheme access and processing. For suppliers such as Thredd and Moorwand it adds a customer type that holds a credit licence but not a bank licence: faster procurement than a bank, heavier reliance on the vendor for compliance. On pricing, a single 20% rate with no fees writes UK and EU consumer-credit transparency expectations straight into product parameters; the cost is that higher-risk segments cannot be repriced, only declined. Estonia is too small to matter on its own — the signal is whether the template ports to the other seven markets, where the group already has over a million customers.",
+    "es": "Las financieras no bancarias usaban la tarjeta como embudo de captación con un banco emitiendo; esta convierte la cuenta de préstamo en tarjeta y se queda con originación, precio y servicio, comprando solo acceso al esquema y procesamiento. Para proveedores como Thredd y Moorwand añade un tipo de cliente con licencia de crédito pero no bancaria: compra más rápido que un banco y depende más del proveedor para cumplimiento. En precio, un 20% único sin comisiones mete las exigencias de transparencia del crédito al consumo británico y europeo en los parámetros del producto; el coste es que los segmentos de más riesgo no se reprecian, solo se rechazan. Estonia es demasiado pequeña: la señal es si la plantilla se traslada a los otros siete mercados, donde el grupo ya tiene más de un millón de clientes."
+  },
+  "confidence": 0.45,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-banking-2026-11"
+  }
+}

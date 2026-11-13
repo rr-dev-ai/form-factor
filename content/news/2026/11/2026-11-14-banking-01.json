@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-14-banking-03",
+  "slug": "visa-anchorage-usdpt-stablecoin-visanet-settlement",
+  "industry": "banking",
+  "region": "global",
+  "regions": [],
+  "tags": [
+    "clearing",
+    "scheme-rules"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-14T04:18:12+08:00",
+  "ingestedAt": "2026-11-14T03:58:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Finextra",
+      "url": "https://www.finextra.com/newsarticle/48752/visa-and-anchorage-digital-bring-western-union-stablecoin-to-settlement-network",
+      "lang": "en",
+      "publishedAt": "2026-11-13T00:01:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "Visa 收银行发行稳定币做结算，首家用西联 USDPT",
+    "en": "Visa opens VisaNet settlement to a bank-issued stablecoin, starting with USDPT",
+    "es": "Visa abre la liquidación de VisaNet a una stablecoin bancaria, empezando por USDPT"
+  },
+  "summary": {
+    "zh": "Visa 与 Anchorage Digital 合作，允许符合条件的合作方用 Anchorage 发行的部分稳定币结算 VisaNet 债务，第一个是西联的 USDPT。Anchorage 是美国持牌银行，同时提供发行、托管与结算。Visa 未公布上线时间、适用市场与额度；其稳定币结算年化流水 9 月为 200 亿美元。",
+    "en": "Visa is working with Anchorage Digital to let eligible partners settle VisaNet obligations in select stablecoins issued by Anchorage, starting with Western Union’s USDPT. Anchorage is a federally regulated US bank that also provides custody and settlement. Visa did not give a go-live date, the markets covered or any limits; its annualised stablecoin settlement run rate was $20 billion in September.",
+    "es": "Visa trabaja con Anchorage Digital para que socios elegibles liquiden obligaciones de VisaNet con stablecoins seleccionadas emitidas por Anchorage, empezando por USDPT de Western Union. Anchorage es un banco estadounidense con regulación federal que también ofrece custodia y liquidación. Visa no dio fecha de inicio, mercados ni límites; su volumen anualizado de liquidación con stablecoins era de 20.000 millones de dólares en septiembre."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "换的是结算资产",
+        "en": "The settlement asset changes",
+        "es": "Cambia el activo de liquidación"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "持卡人怎么付没有变化，变的是收单方与发卡方之间的净额结算可以用稳定币完成。Visa 从 2021 年起就用 USDC 做结算，这次加入的资产由一家持牌银行发行、受联邦监管，且发行方同时承担托管与结算角色。原文只说先支持 USDPT，之后可能增加其他稳定币，没有给名单。",
+        "en": "How cardholders pay is unchanged; what changes is that net settlement between acquirers and issuers can be completed in a stablecoin. Visa has settled in USDC since 2021, and the asset added here is issued by a federally regulated bank that also carries custody and settlement. The release says support starts with USDPT and may extend to other stablecoins, without naming them.",
+        "es": "El pago del titular no cambia; lo que cambia es que la liquidación neta entre adquirentes y emisores puede hacerse en stablecoin. Visa liquida en USDC desde 2021, y el activo que se suma aquí lo emite un banco con regulación federal que también asume custodia y liquidación. El texto dice que el soporte empieza con USDPT y podría ampliarse a otras stablecoins, sin nombrarlas."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "谁承担储备与赎回",
+        "en": "Who carries reserve and redemption risk",
+        "es": "Quién asume reservas y reembolso"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Anchorage 的首席执行官把卖点说成「稳定币的速度加联邦监管银行的安全性」，并称目标是做机构级的稳定币结算银行；换言之，发行、托管、结算三个角色由同一家机构承担。Visa 未说明哪些市场、哪些合作方先上，未给单笔或日限额，也未说明这套结算与既有代理行路径如何并存。参照数字只有 Visa 自己披露的稳定币结算年化 200 亿美元、为上年 15 倍。",
+        "en": "Anchorage’s chief executive sells the combination as \"the speed of a stablecoin and the safety of a federally regulated bank\", with the stated ambition of becoming a settlement bank for stablecoins at institutional scale — meaning issuance, custody and settlement sit inside one institution. Visa did not say which markets or partners go first, gave no per-transaction or daily limits, and did not explain how this coexists with correspondent-banking settlement. The only reference number is Visa’s own disclosure of a $20 billion annualised stablecoin settlement run rate, 15 times the prior year.",
+        "es": "El consejero delegado de Anchorage vende la combinación como \"la velocidad de una stablecoin y la seguridad de un banco con regulación federal\", con la ambición declarada de ser un banco de liquidación de stablecoins a escala institucional: emisión, custodia y liquidación en una sola entidad. Visa no dijo qué mercados ni socios van primero, no fijó límites por operación ni diarios y no explicó cómo convive esto con la liquidación vía bancos corresponsales. La única cifra de referencia es la suya: 20.000 millones anualizados, 15 veces el año anterior."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "稳定币过去停在受理端——消费者拿它换卡消费，商户照常收法币；这条把它推到清算端，储备与赎回风险直接落到清算成员头上，而不是停在某个钱包运营方。对没有银行牌照的发行方，这是明确的挤出：网络愿意收的是「银行发行的币」，不是「任何合规的币」。对跨境收单方，结算时点与流动性管理的算法要重写，因为资金不再必经代理行。技术上的空白也很实在：链上转账与卡组织净额结算如何对账、退款与拒付走哪条回滚路径，原文一句没提。缺时间表与市场名单，所以这现在只是方向，不是可排期的变化。",
+    "en": "Stablecoins used to sit at the acceptance end: consumers spend them through a card, merchants settle in fiat. This pushes them into clearing, so reserve and redemption risk lands on clearing members rather than staying with a wallet operator. For issuers without a bank licence it is an explicit squeeze: the network will take a bank-issued coin, not just any compliant one. For cross-border acquirers, settlement timing and liquidity management have to be re-thought because funds no longer have to pass through a correspondent bank. The technical gap is real too: how on-chain transfers reconcile to net settlement, and which rollback path refunds and chargebacks take, is not addressed. With no timeline or market list, this is a direction, not a schedulable change.",
+    "es": "Las stablecoins estaban en el extremo de aceptación: el consumidor las gasta con tarjeta y el comercio liquida en moneda fiat. Esto las empuja a la compensación, de modo que el riesgo de reservas y reembolso recae en los miembros liquidadores y no en un operador de cartera. Para emisores sin licencia bancaria es una exclusión explícita: la red acepta una moneda emitida por un banco, no cualquiera que cumpla normas. Para los adquirentes transfronterizos hay que repensar plazos de liquidación y gestión de liquidez, porque los fondos ya no tienen que pasar por un banco corresponsal. El vacío técnico es real: cómo concilia la transferencia en cadena con la liquidación neta y qué ruta de reversión siguen devoluciones y contracargos no se aborda. Sin calendario ni lista de mercados, es una dirección, no un cambio planificable."
+  },
+  "confidence": 0.45,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-banking-2026-11"
+  }
+}

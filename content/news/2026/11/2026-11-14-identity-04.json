@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-14-identity-01",
+  "slug": "toppan-photo-id-fime-data-model-test",
+  "industry": "identity",
+  "region": "global",
+  "regions": [],
+  "tags": [
+    "mobile-id",
+    "passport",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-14T04:18:12+08:00",
+  "ingestedAt": "2026-11-14T03:10:30+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech Wire",
+      "url": "https://idtechwire.com/toppan-security-passes-fimes-photo-id-data-model-tests-on-ios-and-android/",
+      "lang": "en",
+      "publishedAt": "2026-11-13T17:28:13Z"
+    }
+  ],
+  "title": {
+    "zh": "TOPPAN 的 Photo ID 通过 Fime 数据模型测试",
+    "en": "TOPPAN Security passes Fime data model tests for Photo ID",
+    "es": "TOPPAN Security supera las pruebas de modelo de datos de Fime para Photo ID"
+  },
+  "summary": {
+    "zh": "Fime 按 ISO/IEC TS 23220-4:2026 附录 C，测试 TOPPAN Security 的 Photo ID 实现，iOS 与安卓两个 goID 样例应用的全部适用用例均通过。结果已列入 Fime 公开清单，有效期至 2027-10-15；Fime 称该公司是首个完成该项测试的厂商。",
+    "en": "Fime has tested TOPPAN Security’s Photo ID implementations against Annex C of ISO/IEC TS 23220-4:2026, and both the iOS and Android goID sample apps passed every applicable test case. The results sit on Fime’s public list of tested products with an expiry of October 15, 2027; Fime says the vendor is the first to complete this testing.",
+    "es": "Fime ha probado las implementaciones de Photo ID de TOPPAN Security contra el anexo C de ISO/IEC TS 23220-4:2026, y las dos aplicaciones de muestra goID, iOS y Android, superaron todos los casos aplicables. Los resultados figuran en la lista pública de productos probados de Fime con vencimiento el 15 de octubre de 2027; Fime afirma que el proveedor es el primero en completar esta prueba."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "测的是一份挂在手机里的身份证件",
+        "en": "Testing a digital identity document that lives on the phone",
+        "es": "Probar un documento de identidad que vive en el teléfono"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Photo ID 是 ISO 规范里定义的一种手机端数字身份证件，可携带与护照芯片相同的数据，包括持照人照片。Fime 的测试对象是 TOPPAN Security 的 goID 样例应用，iOS 与安卓各一份，判定依据是 ISO/IEC TS 23220-4:2026 的附录 C，两个实现均通过全部适用用例。这两份样例应用建立在 TOPPAN 的可验证凭证移动 SDK 上，同一套 SDK 也支撑其 TOPPAN Wallet 与 SuperApp。",
+        "en": "Photo ID is a phone-held digital identity document defined in the ISO specification; it can carry the same data as a passport chip, including the holder’s photograph. Fime tested TOPPAN Security’s goID sample apps, one for iOS and one for Android, against Annex C of ISO/IEC TS 23220-4:2026, and both passed all applicable cases. The sample apps are built on TOPPAN’s Verifiable Credential Mobile SDK, the same SDK behind its TOPPAN Wallet and SuperApp.",
+        "es": "Photo ID es un documento de identidad digital para el teléfono definido en la especificación ISO; puede llevar los mismos datos que el chip de un pasaporte, incluida la fotografía del titular. Fime probó las aplicaciones de muestra goID de TOPPAN Security, una para iOS y otra para Android, contra el anexo C de ISO/IEC TS 23220-4:2026, y ambas superaron todos los casos aplicables. Se basan en el SDK móvil de credenciales verificables de TOPPAN, el mismo que sostiene su TOPPAN Wallet y su SuperApp."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "清单与有效期",
+        "en": "The list and its expiry",
+        "es": "La lista y su vigencia"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "测试结果列入 Fime 的公开数字身份产品清单，到期日为 2027-10-15。同一份清单上，TOPPAN 的 mDL 样例应用是按 ISO/IEC 18013-5:2021 测过的。也就是说，一家厂商在两张清单上分别对应护照数据衍生的 Photo ID 与驾照数据衍生的 mDL，路径不同、标准不同。",
+        "en": "The results appear on Fime’s public list of tested digital identity products with an expiry date of October 15, 2027. On the same list, TOPPAN’s mDL sample apps are recorded as tested against ISO/IEC 18013-5:2021. One vendor therefore sits on two lists: Photo ID derived from passport data, and mDL derived from licence data, with different specifications behind each.",
+        "es": "Los resultados figuran en la lista pública de productos de identidad digital probados de Fime, con vencimiento el 15 de octubre de 2027. En esa misma lista, las aplicaciones mDL de TOPPAN constan probadas conforme a ISO/IEC 18013-5:2021. Un mismo proveedor aparece así en dos listas: Photo ID derivado de datos de pasaporte y mDL derivado de datos de permiso, con especificaciones distintas detrás."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "厂商给出的落地参照",
+        "en": "The deployments the vendor points to",
+        "es": "Los despliegues que cita el proveedor"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "TOPPAN Security 称其 SDK 已用于在役的国家身份项目，并点名阿根廷与菲律宾的移动身份项目；该公司同时是欧盟大规模试点 Aptitude 的参与方，在旅行试点里用护照数据生成 Photo ID 凭证。公司副总裁 Fabrice Jogand-Coulomb 的说法是，Photo ID 正与 mDL 并列成为国际数字证件，用途会超出欧盟范围。这些是厂商自述，公告未给出各国项目的签发量。",
+        "en": "TOPPAN Security says its SDK is deployed in live national identity programs and names mobile identity work in Argentina and the Philippines; it is also a partner in Aptitude, one of the EU’s large-scale pilots, where travel pilots build Photo ID credentials from passport data. Vice president Fabrice Jogand-Coulomb says Photo ID is emerging alongside the mDL as an international digital credential, with uses extending beyond the EU. These are the vendor’s own statements; the announcement gives no issuance volumes for either national program.",
+        "es": "TOPPAN Security afirma que su SDK se usa en programas nacionales de identidad en producción y menciona proyectos móviles en Argentina y Filipinas; también participa en Aptitude, uno de los pilotos a gran escala de la UE, donde los pilotos de viaje generan credenciales Photo ID a partir de datos de pasaporte. Su vicepresidente Fabrice Jogand-Coulomb sostiene que Photo ID se está consolidando junto al mDL como credencial digital internacional, con usos más allá de la UE. Son declaraciones del proveedor; el anuncio no da volúmenes de emisión."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "护照数据第一次有了可被第三方实验室验证的移动端载体口径。此前 Photo ID 只存在于规范文本与厂商自述里，护照签发方要把芯片数据交到手机上，得自己判断互操作；现在可以引用一份带到期日、带适用用例范围的测试清单。对做受理端的人，意义在选型：机场、边检与钱包发行方按清单挑实现，比按厂商演示挑实现便宜。对签发方，Photo ID 与 mDL 并列意味着同一套移动身份基础设施要同时覆盖护照与驾照两类源数据，而两者的信任根、撤销路径并不相同。ISO/IEC 23220 系列已开放赞助方投稿，测试生态仍在早期，清单上的名字会直接影响欧盟钱包试点与旅行场景的采购名单。",
+    "en": "Passport data now has a mobile carrier definition that a third-party lab can verify. Until this week Photo ID existed mainly in specification text and vendor claims; an issuing authority moving chip data onto phones had to judge interoperability on its own. A test listing with an expiry date and a defined scope of applicable cases is something a buyer can cite. For the acceptance side the value is procurement: airports, border agencies and wallet issuers can shortlist implementations from a list rather than from demos. For issuers, Photo ID standing beside the mDL means one mobile identity stack must cover both passport and licence source data, whose trust roots and revocation paths differ. The ISO/IEC 23220 series is still taking sponsored contributions and the test ecosystem is young, so names on the list will shape shortlists for EU wallet pilots and travel use cases.",
+    "es": "Los datos de pasaporte cuentan ahora con una definición de soporte móvil que un laboratorio independiente puede verificar. Hasta esta semana, Photo ID existía sobre todo en el texto de la especificación y en las afirmaciones de los proveedores; una autoridad emisora que traslada datos del chip al teléfono debía juzgar la interoperabilidad por su cuenta. Una lista de pruebas con fecha de vencimiento y un alcance definido de casos aplicables es algo que un comprador puede citar. Para el lado de la aceptación el valor está en la compra: aeropuertos, autoridades fronterizas y emisores de carteras pueden preseleccionar implementaciones a partir de una lista y no de demostraciones. Para los emisores, que Photo ID se sitúe junto al mDL implica que una sola pila de identidad móvil debe cubrir datos de pasaporte y de permiso, cuyas raíces de confianza y rutas de revocación difieren. La serie ISO/IEC 23220 sigue abierta a contribuciones patrocinadas y el ecosistema de pruebas es joven: los nombres de la lista influirán en las preselecciones para los pilotos de cartera de la UE y los casos de viaje."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

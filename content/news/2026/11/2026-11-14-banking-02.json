@@ -1,0 +1,104 @@
+{
+  "id": "2026-11-14-banking-01",
+  "slug": "openai-chatgpt-wallet-network-token-biometric-approval",
+  "industry": "banking",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "tokenization",
+    "digital-wallet",
+    "fraud"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-14T04:18:12+08:00",
+  "ingestedAt": "2026-11-14T03:58:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "lang": "en",
+      "publishedAt": "2026-11-13T00:00:00+00:00"
+    },
+    {
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/openai-debuts-new-chatgpt-payment-method-with-card-networks",
+      "lang": "en",
+      "publishedAt": "2026-11-13T00:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "OpenAI 推 ChatGPT 钱包，代理付款改用一次性令牌",
+    "en": "OpenAI launches ChatGPT Wallet with per-purchase network tokens",
+    "es": "OpenAI lanza ChatGPT Wallet con tokens de red por compra"
+  },
+  "summary": {
+    "zh": "OpenAI 11 月 13 日推出 ChatGPT 钱包，与美国运通、万事达、Visa 合作。用户绑卡一次，代理 dots 每笔付款前须由持卡人在设备上做 Face ID 或指纹验证，支付网络随即签发含替代卡号、安全码与有效期的令牌，商户与代理都看不到真实卡号。首发仅限美国 ChatGPT Pro 成年订户，暂不抽成。",
+    "en": "OpenAI launched ChatGPT Wallet on 13 November with American Express, Mastercard and Visa. A cardholder enrols a card once; before each purchase the dots agent initiates, they approve on-device with Face ID or a fingerprint, and the network issues a token carrying a substitute card number, security code and expiry. Neither the merchant nor the agent sees the real number. The first release is limited to US adult ChatGPT Pro subscribers, with no commission taken.",
+    "es": "OpenAI lanzó ChatGPT Wallet el 13 de noviembre con American Express, Mastercard y Visa. El titular registra la tarjeta una vez; antes de cada compra que inicia el agente dots, aprueba en el dispositivo con Face ID o huella, y la red emite un token con un número, código de seguridad y caducidad sustitutos. Ni el comercio ni el agente ven el número real. El primer despliegue se limita a suscriptores estadounidenses adultos de ChatGPT Pro, sin comisión."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "卡号在谁手里",
+        "en": "Who holds the card number",
+        "es": "Quién tiene el número de la tarjeta"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "付款前用户在 ChatGPT 里核对商户、商品、金额与所选卡片，再用设备生物识别放行；每次放行生成一条授权记录。之后由支付网络签发一笔交易专用的令牌，含替代卡号、安全码与有效期，款项仍从用户所选的那张卡扣除。OpenAI 明确钱包本身不开银行账户，不吸存也不授信，持卡人原有的积分与符合条件的争议保障不变。",
+        "en": "Before paying, the user reviews the merchant, items, total and selected card inside ChatGPT, then releases the purchase with on-device biometrics; each release produces an authorisation record. The network then issues a single-use token with a substitute card number, security code and expiry, and the charge lands on the card the user picked. OpenAI states the wallet opens no bank account, holds no value and extends no credit, and that existing rewards and eligible dispute protections stay with the cardholder.",
+        "es": "Antes de pagar, el usuario revisa en ChatGPT el comercio, los artículos, el importe y la tarjeta elegida, y autoriza con biometría del dispositivo; cada autorización genera un registro. Después la red emite un token de un solo uso con número, código de seguridad y caducidad sustitutos, y el cargo recae en la tarjeta elegida. OpenAI afirma que la cartera no abre cuenta bancaria, no custodia saldo ni da crédito, y que los puntos y las protecciones de disputa elegibles se mantienen."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "首发范围与商户侧的门槛",
+        "en": "Launch scope and the merchant-side gate",
+        "es": "Alcance inicial y la barrera para el comercio"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "首发只给美国 18 岁以上的 ChatGPT Pro 订户，且须持美国发行的合格卡片，入口是 OpenAI 的 dots 代理；OpenAI 称初期不从交易抽成。同步发布的商户手册要求商家在 ChatGPT 内认领并核验门店、上传含实时价格与库存的商品源，并按 Web Bot Auth 让 CDN 与防火墙放行带签名的代理请求——原文承认部分站点会误拦代理下单。",
+        "en": "The first release is limited to US subscribers aged 18 or over on ChatGPT Pro holding an eligible US-issued card, entered through OpenAI’s dots agent; OpenAI says it takes no commission at the start. A companion merchant playbook asks businesses to claim and verify their listing in ChatGPT, upload a product feed with live pricing and stock, and configure CDNs and firewalls to admit signed agent requests via Web Bot Auth. The document concedes that some sites will block agent purchases by mistake.",
+        "es": "El primer despliegue se limita a suscriptores estadounidenses mayores de 18 años con ChatGPT Pro y una tarjeta elegible emitida en EE. UU., a través del agente dots; OpenAI dice que al inicio no cobra comisión. Una guía para comercios pide reclamar y verificar la ficha en ChatGPT, subir un feed con precios y stock en vivo y configurar CDN y cortafuegos para admitir peticiones firmadas de agentes mediante Web Bot Auth. El texto admite que algunos sitios bloquearán compras de agentes por error."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "美国运通称这是其 Agentic Commerce Experiences 的首个集成，面向合格卡会员。",
+          "en": "American Express calls it the first integration of its Agentic Commerce Experiences, for eligible card members.",
+          "es": "American Express lo describe como la primera integración de sus Agentic Commerce Experiences, para titulares elegibles."
+        },
+        {
+          "zh": "万事达的表述是把用户已批准的购买接到商户与银行现有系统上。",
+          "en": "Mastercard frames it as connecting user-approved purchases to the systems merchants and banks already run.",
+          "es": "Mastercard lo plantea como conectar compras aprobadas por el usuario con los sistemas que ya usan comercios y bancos."
+        },
+        {
+          "zh": "Visa 的表述是提供基础设施，把已批准的购买接到既有受理侧。",
+          "en": "Visa describes supplying the infrastructure that links approved purchases to existing acceptance.",
+          "es": "Visa describe aportar la infraestructura que une compras aprobadas con la aceptación existente."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "变化不在钱包界面，而在授权证据链。卡存档的续扣过去靠商户侧令牌加 CVV，出争议时由发卡行判断持卡人是否真的授权；这里每笔都要设备生物识别，等于把「人批准了这一笔」做成可举证的记录，发卡行的拒付举证负担变轻，但授权报文得带住代理身份与批准时间。对商户与收单方，真正的门槛是别把代理请求当机器人拦掉——Web Bot Auth、CDN 规则、风控白名单都要改，改不动就直接体现为拒付率。对三家网络，这是拿到真实用户基数的分发渠道；不过首发仅美国、仅 Pro 订户、不抽成，短期不构成收入，先该看的是商户兼容率而不是交易额。",
+    "en": "The change is not the wallet interface but the authorisation trail. Card-on-file recurring charges have relied on a merchant-side token plus CVV, with the issuer adjudicating whether the cardholder really approved; here every purchase needs on-device biometrics, turning \"a human approved this one\" into evidence and easing the issuer’s chargeback burden — provided the authorisation message carries agent identity and approval time. For merchants and acquirers the real gate is not blocking agent traffic as bots: Web Bot Auth, CDN rules and risk allow-lists all have to change, and failure shows up directly as declines. For the three networks this is distribution with a real user base, but US-only, Pro-only and commission-free means no near-term revenue; watch merchant compatibility before transaction volume.",
+    "es": "El cambio no está en la interfaz sino en la prueba de autorización. Los cargos recurrentes con tarjeta guardada dependían de un token del comercio más el CVV, y el emisor dirimía si el titular había aprobado; aquí cada compra exige biometría del dispositivo, lo que convierte \"una persona aprobó esto\" en evidencia y aligera la carga del emisor, siempre que el mensaje de autorización lleve identidad del agente y hora de aprobación. Para comercios y adquirentes la barrera real es no bloquear el tráfico de agentes como si fueran bots: Web Bot Auth, reglas de CDN y listas blancas de riesgo deben cambiar, y el fallo se ve como rechazos. Para las tres redes es distribución con base real de usuarios, pero solo EE. UU., solo Pro y sin comisión no es ingreso a corto plazo; conviene mirar la compatibilidad de comercios antes que el volumen."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-banking-2026-11"
+  }
+}

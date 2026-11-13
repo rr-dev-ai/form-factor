@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-14-identity-03",
+  "slug": "va-gov-clear-face-sign-in-passkeys",
+  "industry": "identity",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "biometrics",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-14T04:18:12+08:00",
+  "ingestedAt": "2026-11-14T03:10:30+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech Wire",
+      "url": "https://idtechwire.com/va-adds-clear-face-sign-in-and-passkeys-to-redesigned-va-gov/",
+      "lang": "en",
+      "publishedAt": "2026-11-13T16:07:19Z"
+    }
+  ],
+  "title": {
+    "zh": "VA.gov 改版：刷脸登录与通行密钥并列上线",
+    "en": "VA.gov redesign adds CLEAR face sign-in and passkeys",
+    "es": "El rediseño de VA.gov suma acceso facial con CLEAR y claves de acceso"
+  },
+  "summary": {
+    "zh": "美国退伍军人事务部 11 月 11 日上线改版 VA.gov，登录新增 CLEAR 人脸核验与通行密钥，与原有的 Login.gov、ID.me 并存，四种方式均免费且可选。CLEAR 可在线开通，也可在亚特兰大、布鲁克林、奥兰多、帕洛阿尔托、圣胡安与华盛顿六地退伍军人医疗中心现场办理。",
+    "en": "The US Department of Veterans Affairs went live with a redesigned VA.gov on November 11, adding CLEAR face verification and passkeys as sign-in options alongside Login.gov and ID.me; all four are free and optional. CLEAR can be set up online or in person at VA medical centres in Atlanta, Brooklyn, Orlando, Palo Alto, San Juan and Washington, D.C.",
+    "es": "El Departamento de Asuntos de Veteranos de EE. UU. estrenó el 11 de noviembre un VA.gov rediseñado, con verificación facial de CLEAR y claves de acceso como opciones de inicio de sesión junto a Login.gov e ID.me; las cuatro son gratuitas y opcionales. CLEAR puede registrarse en línea o presencialmente en centros médicos de VA en Atlanta, Brooklyn, Orlando, Palo Alto, San Juan y Washington D. C."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "第四个入口是一家商业身份网络",
+        "en": "A fourth door run by a commercial identity network",
+        "es": "Una cuarta puerta de una red comercial de identidad"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "VA 在改版公告中说，退伍军人可选 CLEAR 刷脸登录：在线建档一次，或到六地退伍军人医疗中心现场办理，之后用面部扫描进入账户。通行密钥则是设备侧的指纹、人脸或 PIN，VA 明确生物特征不离开设备。原有的 Login.gov 与 ID.me 保留，四种方式并列，均免费且可选。此前 VA 已在 10 月初把 CLEAR 接入登录页。",
+        "en": "In its relaunch notice, VA says veterans can sign in with a CLEAR face scan, enrolling once online or in person at six VA medical centres and thereafter entering the account with their face. Passkeys use the device’s fingerprint, face or PIN, and VA states the biometric never leaves the device. Login.gov and ID.me remain, so four options sit side by side, all free and optional. VA had already put CLEAR on the sign-in page in early October.",
+        "es": "En su aviso de relanzamiento, VA indica que los veteranos pueden entrar con un escaneo facial de CLEAR, registrándose una vez en línea o presencialmente en seis centros médicos de VA y accediendo después con el rostro. Las claves de acceso usan la huella, el rostro o el PIN del dispositivo, y VA afirma que el dato biométrico no sale del equipo. Login.gov e ID.me se mantienen: cuatro opciones, todas gratuitas y opcionales. VA ya había incorporado CLEAR a la página de acceso a principios de octubre."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "改的不只是登录",
+        "en": "More than the sign-in box changed",
+        "es": "No solo cambió el acceso"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "同一轮改版还包括：在最受信任的设备上，一次登录可维持数月，并覆盖索赔、健康咨询与进度查询；短信 Magic Link 可在不输密码的情况下查索赔状态；QuickSubmit 把填表与上传从 11 步压到 3 步，用的是预填表单；首页的登录区更显眼，搜索框可接受自然语言提问。VA 称这些改动基于 2026 年 3 月至 5 月收集的近 9 万份问卷。",
+        "en": "The same release extends a sign-in on the most trusted device to several months and carries it across claims, health chat and the status tracker; a texted Magic Link lets veterans check a claim without a password; QuickSubmit cuts form completion and document upload from 11 steps to three using pre-filled forms; the homepage gives sign-in more prominence and the search box accepts plain-language questions. VA says nearly 90,000 survey responses gathered between March and May 2026 shaped the changes.",
+        "es": "La misma versión extiende el inicio de sesión en el dispositivo de mayor confianza a varios meses y lo mantiene en reclamaciones, chat de salud y seguimiento; un enlace mágico por SMS permite consultar el estado sin contraseña; QuickSubmit reduce el formulario y la carga de documentos de 11 pasos a tres con formularios precargados; la portada da más peso al acceso y el buscador acepta preguntas en lenguaje natural. VA afirma que casi 90.000 respuestas de encuestas recogidas entre marzo y mayo de 2026 dieron forma a los cambios."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "边界",
+        "en": "Where it stops",
+        "es": "Dónde termina"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "VA 说健康信息仍留在本部，网站地址与账户不变，福利、索赔、预约与资格都不受影响；线下渠道——医疗中心、地区办公室、授权代表与退伍军人服务组织——继续并行。公告未给各登录方式的使用比例，也没有说明 CLEAR 建档后数据如何在 VA 与 CLEAR 之间流转。",
+        "en": "VA says health information stays with the department, the address and accounts are unchanged, and benefits, claims, appointments and eligibility are unaffected; offline channels, from medical centres and regional offices to accredited representatives and veterans service organisations, continue in parallel. The announcement gives no share of use by sign-in method and does not describe how data moves between VA and CLEAR once an account is enrolled.",
+        "es": "VA sostiene que la información de salud permanece en el departamento, que la dirección y las cuentas no cambian y que prestaciones, reclamaciones, citas y elegibilidad no se ven afectadas; los canales presenciales, desde centros médicos y oficinas regionales hasta representantes acreditados y organizaciones de veteranos, siguen operando. El anuncio no indica la proporción de uso por método ni cómo circulan los datos entre VA y CLEAR tras el registro."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "联邦福利门户把商业身份网络的刷脸，放在了与政府身份提供商同级的位置。过去 VA 的登录只有 Login.gov 与 ID.me 两条路，信任根都在政府侧或政府授权的身份经纪；现在多了一条由私营生物识别网络自己建档、自己比对的路径。对 CLEAR 这类公司，这是把机场与场馆的会员网络延伸进联邦福利场景，客单价与续费率都会跟着变。对做核验的供应商，信号是受理端的采购单位不再只问「接不接得住政府身份」，还要问「接不接得住商业身份网络的人脸模板」。对监管方，问题在于同一个人在同一门户里有四种身份锚点，注销与申诉该找谁，公告没有回答。",
+    "en": "A federal benefits portal has placed a commercial identity network’s face check on the same footing as government identity providers. VA sign-in used to offer two paths, Login.gov and ID.me, both anchored in government or government-authorised identity brokering; there is now a third in which a private biometric network enrols the user and performs the match itself. For a company like CLEAR that extends an airport and venue membership network into federal benefits, with the effect on revenue per member and renewal rates that implies. For verification vendors the signal is that acceptance-side buyers no longer ask only whether a stack can consume government identity, but whether it can consume face templates held by commercial networks. For regulators, the open question is what happens when one person has four identity anchors in one portal: who handles revocation and appeals, which the announcement does not address.",
+    "es": "Un portal federal de prestaciones ha situado la verificación facial de una red comercial de identidad al mismo nivel que los proveedores gubernamentales. El acceso a VA ofrecía dos vías, Login.gov e ID.me, ancladas en el gobierno o en un corretaje autorizado; ahora hay una tercera en la que una red biométrica privada registra al usuario y hace ella misma la comparación. Para una empresa como CLEAR supone extender una red de socios de aeropuertos y recintos al ámbito de prestaciones federales, con el efecto que ello implica en ingreso por socio y renovaciones. Para los proveedores de verificación la señal es que el comprador ya no pregunta solo si la pila consume identidad gubernamental, sino si consume plantillas faciales de redes comerciales. Para los reguladores queda abierta la cuestión de qué ocurre cuando una persona tiene cuatro anclas de identidad en un portal: quién gestiona revocación y reclamaciones, algo que el anuncio no responde."
+  },
+  "confidence": 0.55,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

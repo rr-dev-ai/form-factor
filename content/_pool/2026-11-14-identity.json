@@ -1,0 +1,234 @@
+{
+  "date": "2026-11-14",
+  "industry": "identity",
+  "startedAt": "2026-11-14T03:10:30+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "South Africa’s rollout of bank-based biometric ID services ahead of schedule",
+      "url": "https://www.biometricupdate.com/202611/south-africa-expands-biometric-smart-id-services-to-753-bank-branches",
+      "reason": "动作门：银行网点受理 Smart ID 换发的累计里程碑（753 家、合计 967 个服务点），签发机制与证件形态未变；11-12、11-13 已按同一口径判过两次。"
+    },
+    {
+      "title": "Banque Internationale à Luxembourg Picks Fourthline for Digital Onboarding Checks",
+      "url": "https://idtechwire.com/banque-internationale-a-luxembourg-picks-fourthline-for-digital-onboarding-checks/",
+      "reason": "duplicate-of-2026-11-13-02：同一笔 BIL 选定 Fourthline 的开户核验合作，11-13 已发，本条是同日换信源重述。"
+    },
+    {
+      "title": "Offline Aadhaar verification to get easier as UIDAI onboards 300 entities",
+      "url": "https://m.economictimes.com/wealth/save/offline-aadhaar-verification-to-get-easier-for-users-as-uidai-onboards-300-entities-to-complete-process/articleshow/135607596.cms",
+      "reason": "duplicate-of-2026-11-07-04：UIDAI 离线核验受理机构从 100 扩到 300，11-07 已发布；本条为同一里程碑的回顾，另附 App 下载与锁指纹的累计数据。"
+    },
+    {
+      "title": "Kigali to Resume e-ID Registration and Photographing",
+      "url": "https://www.kigalitimes.rw/2026/11/13/kigali-to-resume-e-id-registration-and-photographing",
+      "reason": "动作门：10-08 暂停的 e-ID 信息核对与拍照 11-17 恢复，属排期恢复而非机制变化；无供应商、无凭证参数、无规模。"
+    },
+    {
+      "title": "Delhi makes Aadhaar mandatory for EV incentives for purchase, scrapping",
+      "url": "https://www.newindianexpress.com/cities/delhi/2026/Nov/13/aadhaar-made-mandatory-for-claiming-ev-incentives-for-purchase-scrapping-in-delhi",
+      "reason": "时效门：德里交通厅通知 11-03 即发出（11-13 才见报），已出 72 小时窗口；11-13 已按同一理由拦过。另属补贴资格规则，非证件签发或核验机制。"
+    },
+    {
+      "title": "New Online Passport Application System to Launch on 16 November 2026",
+      "url": "https://vox.gi/new-online-passport-application-system-to-launch-on-16-november-2026",
+      "reason": "动作门：直布罗陀护照申请改线上、柜台停收纸质件，属申请受理渠道线上化；无承接方、无金额、无技术方案，六类动作无一可贴。"
+    },
+    {
+      "title": "USCIS expands biometrics and identity overhaul into $250 million competition",
+      "url": "https://www.biometricupdate.com/202611/uscis-expands-biometrics-and-identity-overhaul-into-250-million-competition",
+      "reason": "动作门：RFQ 尚未发出、无承接方，属采购预告；金额区间与三份存量合同（1.349 亿 + 1.084 亿 + 0.649 亿美元）只是标的体量的证明。"
+    },
+    {
+      "title": "Brazil’s new national ID nears 70 million documents issued",
+      "url": "https://br.ibtimes.com/brazil-national-id-70-million-106078",
+      "reason": "动作门：部长 11-12 公布的累计签发量（逾 6500 万张、巴伊亚近 500 万张），无新供应商、新产线或新规范，属存量替换进度盘点。"
+    },
+    {
+      "title": "EU proposal would make verifiable qualifications portable through EUDI wallets",
+      "url": "https://www.biometricupdate.com/202611/eu-proposal-would-make-verifiable-qualifications-portable-through-eudi-wallets",
+      "reason": "动作门：技能可携法案 9 月已随公平劳工流动一揽子计划公布，11-12 在窗内的只是欧洲议会研究服务处简报与审议启动；无预算、无供应商。"
+    },
+    {
+      "title": "Versasec adds post-quantum and biometric key support",
+      "url": "https://www.biometricupdate.com/202611/versasec-adds-post-quantum-and-biometric-key-support",
+      "reason": "范围门：vSEC 7.5 管的是企业安全密钥、PIV 证书与 HSM 迁移，属企业 IAM，不是证件载体、签发设备或核验终端。"
+    },
+    {
+      "title": "Apple details HomeView biometric security as anti-spoofing safeguards emerge",
+      "url": "https://www.biometricupdate.com/202611/apple-details-homeview-biometric-security-as-anti-spoofing-safeguards-emerge",
+      "reason": "范围门：消费级家居摄像头的人脸与防欺骗设计，不在护照/身份证/mDL 任一环节。"
+    },
+    {
+      "title": "Austrian access control provider moves into biometrics with ekey deal",
+      "url": "https://www.biometricupdate.com/202611/austrian-access-control-provider-moves-into-biometrics-with-ekey-deal",
+      "reason": "范围门：门禁指纹企业的股权交易，标的是物理访问控制；11-13 已按同一口径拦过 MACO 收购 ekey。"
+    },
+    {
+      "title": "South Korea adds passkeys to updated personal data security guidance",
+      "url": "https://www.biometricupdate.com/202611/south-korea-adds-passkeys-to-updated-personal-data-security-guidance",
+      "reason": "范围门：个人信息安全指南把通行密钥列为认证方式，属数据安全指引，不是证件规范或核验终端。"
+    },
+    {
+      "title": "Intellicheck profit rises despite quarterly revenue decline",
+      "url": "https://www.biometricupdate.com/202611/intellicheck-profit-rises-despite-quarterly-revenue-decline",
+      "reason": "范围门：季度财报，AGENTS.md 明确不收。"
+    },
+    {
+      "title": "ROC’s biometric software growth lifts revenue 50% in Q3",
+      "url": "https://www.biometricupdate.com/202611/rocs-biometric-software-growth-lifts-revenue-50-in-q3",
+      "reason": "范围门：季度财报，AGENTS.md 明确不收。"
+    },
+    {
+      "title": "Precise Biometrics revenue rises following Fingerprint Cards merger, losses widen",
+      "url": "https://www.biometricupdate.com/202611/precise-biometrics-revenue-rises-following-fingerprint-cards-merger-losses-widen",
+      "reason": "范围门：季度财报与并购后合并口径。"
+    },
+    {
+      "title": "Austriacard revenue up slightly with DNP deal conditions counting down",
+      "url": "https://www.biometricupdate.com/202611/austriacard-revenue-up-slightly-with-dnp-deal-conditions-counting-down",
+      "reason": "范围门：财报与并购交割条件，非制证设备或工艺的参数变化。"
+    },
+    {
+      "title": "Feedzai, Socure and Tech5 name new executives across key business functions",
+      "url": "https://www.biometricupdate.com/202611/feedzai-socure-and-tech5-name-new-executives-across-key-business-functions",
+      "reason": "范围门：人事变动，AGENTS.md 明确不收。"
+    },
+    {
+      "title": "Brasil | Ataque hacker vaza CPFs de 7,6 milhões de clientes da Caixa",
+      "url": "https://dplnews.com/brasil-ataque-hacker-vaza-cpfs-de-76-milhoes-de-clientes-da-caixa/",
+      "reason": "范围门：数据泄露事件，AGENTS.md 明确不收。"
+    },
+    {
+      "title": "SA’s data legislation advancing but gaps remain as AI is entrenched in workplaces",
+      "url": "https://www.itweb.co.za/article/sas-data-legislation-advancing-but-gaps-remain-as-ai-is-entrenched-in-workplaces/4r1lyMR9xdQ7pmda",
+      "reason": "范围门：数据保护立法进度与 AI 治理，不涉及证件载体或核验机制。"
+    },
+    {
+      "title": "Сертификаты под нож. Иностранные удостоверяющие центры отозвали SSL-сертификаты российских компаний",
+      "url": "https://www.comnews.ru/content/248354/2026-11-13/2026-w46/1008/sertifikaty-pod-nozh-inostrannye-udostoveryayuschie-centry-otozvali-ssl-sertifikaty-rossiyskikh-kompaniy",
+      "reason": "范围门：TLS 服务器证书被境外 CA 吊销，属网站信任链，不属护照/身份证/mDL 的 PKI。"
+    },
+    {
+      "title": "Interior Ministry to leverage AI to enhance work of internal security agencies",
+      "url": "https://www.ghanabusinessnews.com/2026/11/13/interior-ministry-to-leverage-ai-to-enhance-work-of-internal-security-agencies/",
+      "reason": "范围门：部委 AI 应用表态，无证件标的物、无具体物。"
+    },
+    {
+      "title": "As automation scales, GLEIF positions vLEI as enabler of secure digital infrastructure",
+      "url": "https://www.biometricupdate.com/202611/as-automation-scales-gleif-positions-vlei-as-enabler-of-secure-digital-infrastructure",
+      "reason": "范围门：法人实体标识（LEI/vLEI），标的是机构身份而非个人证件。"
+    },
+    {
+      "title": "Google’s AI glasses raise questions about enforcing biometric privacy protections",
+      "url": "https://www.biometricupdate.com/202611/googles-ai-glasses-raise-questions-about-enforcing-biometric-privacy-protections",
+      "reason": "范围门：消费硬件的生物特征隐私执法讨论，无证件载体或核验终端。"
+    },
+    {
+      "title": "Biometric defenses put to the test with faster AI face-swap model",
+      "url": "https://www.biometricupdate.com/202611/biometric-defenses-put-to-the-test-with-faster-ai-face-swap-model",
+      "reason": "动作门：攻防测试报道，无产品名、无认证结论、无客户，属能力评测。"
+    },
+    {
+      "title": "Poland’s ePUAP Platform Remains Offline After Cyberattack, With Trusted Profile Downtime Planned",
+      "url": "https://idtechwire.com/polands-epuap-platform-remains-offline-after-cyberattack-with-trusted-profile-downtime-planned/",
+      "reason": "范围门：网络攻击导致政务门户停摆，属安全事件；停摆与维护排期不构成签发或核验机制变化。"
+    },
+    {
+      "title": "Swedish Appeals Court Blocks Tax Agency Demands for Customers’ BankID Location and IP Data",
+      "url": "https://idtechwire.com/swedish-appeals-court-blocks-tax-agency-demands-for-customers-bankid-location-and-ip-data/",
+      "reason": "动作门：法院对税务机关调取 BankID 位置与 IP 数据的裁决，属数据调取权限，非凭证载体或核验机制。"
+    },
+    {
+      "title": "Santa Catarina Switches On 211 Face Recognition Cameras Across 20 Brazilian Cities",
+      "url": "https://idtechwire.com/santa-catarina-switches-on-211-face-recognition-cameras-across-20-brazilian-cities/",
+      "reason": "范围门：州级公安人脸识别监控网络（211 台、5,170 万雷亚尔），属执法监控。"
+    },
+    {
+      "title": "Feedzai Expands Digital Trust to Help Banks Detect AI Agents in Customer Sessions",
+      "url": "https://idtechwire.com/feedzai-expands-digital-trust-to-help-banks-detect-ai-agents-in-customer-sessions/",
+      "reason": "范围门：网银侧识别 AI 代理的设备绑定与行为分析，不涉及证件载体或核验终端。"
+    },
+    {
+      "title": "ROC Turns a Profit as Intellicheck and BIO-key Report Third-Quarter Results",
+      "url": "https://idtechwire.com/roc-turns-a-profit-as-intellicheck-and-bio-key-report-third-quarter-results/",
+      "reason": "范围门：三家上市公司季报汇总，AGENTS.md 明确不收财报。"
+    },
+    {
+      "title": "江苏省公安厅移动终端采集设备项目（第二次）中标公告",
+      "url": "https://www.365trade.com.cn/jhwzb/896774.jhtml",
+      "reason": "范围门：标的为手机云取证采集设备（拓界 MCloud，25.8 万元），采集对象是移动终端数据，不是证件或生物特征。"
+    },
+    {
+      "title": "光山县公安局 2026 年公安业务装备采购（第三批）中标公告",
+      "url": "https://ggzyjy.xinyang.gov.cn/jyxx/002002/002002003/20261112/37227302-cbdf-475e-9311-5c0dd458f26d.html",
+      "reason": "范围门：警用装备打包采购（197.6 万元），公告未披露品类，无法证明落在证件链路。"
+    },
+    {
+      "title": "河南省公安厅证件制作中心出入境电子卡式证件制证耗材采购项目（航天信息中标）",
+      "url": "https://stock.stockstar.com/RB2026111200021368.shtml",
+      "reason": "时效门：成交公告 11-09 发布，距 11-14 03:10 已逾 72 小时；且 11-09 已发过上海出入境同类耗材成交。"
+    },
+    {
+      "title": "重庆国际旅行卫生保健中心 2026 年实验室设备采购（第二次）中标公告",
+      "url": "http://chongqing.customs.gov.cn/chongqing_customs/2026-11/12/article_2026111216180556460.html",
+      "reason": "范围门：智能采血标注设备，与证件链路无关。"
+    },
+    {
+      "title": "Saudi Arabia Launches Digital Signature Platform for Government Services",
+      "url": "https://saudipress.com/saudi-arabia-launches-digital-signature-platform-for-government-services",
+      "reason": "范围门：政府电子签名平台（Ibram），属信任服务而非证件载体、签发设备或核验终端；原文亦无发布日期与版本。"
+    },
+    {
+      "title": "Dubai Expands Tourism Services With Faster Airport Clearance and New Visa Access",
+      "url": "https://www.travelandtourworld.com/news/article/893dae0cb7u3",
+      "reason": "动作门：Red Carpet 生物通关的累计使用盘点（截至 4 月底约 80 万人次、合格旅客采用率 83%），无新终端参数与新市场。"
+    },
+    {
+      "title": "Vietnam expands VNeID eligibility for foreign nationals from September 28",
+      "url": "https://economictimes.indiatimes.com/nri/latest-updates/vietnam-expands-vneid-eligibility-for-foreign-nationals-in-hanoi-ho-chi-minh-city-from-september-28/articleshow/133423607.cms",
+      "reason": "时效门：第 320/2026 号法令 9-28 生效，已出 72 小时窗口。"
+    },
+    {
+      "title": "Bangladesh moves to phase out MRPs as 99% apply for e-passports",
+      "url": "https://eng.shawdeshnews.com/bangladesh-moves-to-phase-out-mrps-as-99-apply-for-e-passports",
+      "reason": "时效门：跨部门评审会议在 5-23，报道虽新但事件远超窗口。"
+    },
+    {
+      "title": "EUDI 如何改变数字身份验证",
+      "url": "https://m.10jqka.com.cn/20261113/c681794308.shtml",
+      "reason": "动作门：二手综述，无具体事件、无版本号与发证方；EUDI 钱包 2026-12 期限属既有法规时间表。"
+    },
+    {
+      "title": "WhatsApp Says a Billion People Now Sign In With a Passkey",
+      "url": "https://mobileidworld.com/whatsapp-says-a-billion-people-now-sign-in-with-a-passkey/",
+      "reason": "范围门：消费应用登录方式统计，无证件载体、签发或核验终端。"
+    },
+    {
+      "title": "Ping Identity’s Mobile Authentication App Faces Patent Suit from Nexiden",
+      "url": "https://mobileidworld.com/ping-identitys-mobile-authentication-app-faces-patent-suit-from-nexiden/",
+      "reason": "范围门：专利诉讼，非证件链路机制变化。"
+    },
+    {
+      "title": "Malaysians Can Expect Age Checks on Social Media Apps From Early January",
+      "url": "https://mobileidworld.com/malaysians-can-expect-age-checks-on-social-media-apps-from-early-january/",
+      "reason": "动作门：部长答问，义务源自既有 Act 866，无新文书；11-12、11-13 已两次同判。"
+    },
+    {
+      "title": "Shoppers at Tobu’s Ikebukuro Department Store Can Pay With Their Face From Nov. 19",
+      "url": "https://mobileidworld.com/shoppers-at-tobus-ikebukuro-department-store-can-pay-with-their-face-from-nov-1/",
+      "reason": "范围门：人脸支付受理端，归 banking；且无终端型号与商户覆盖。"
+    },
+    {
+      "title": "ID Tech Digest – November 13, 2026",
+      "url": "https://idtechwire.com/id-tech-digest-november-13-2026/",
+      "reason": "范围门：当日条目汇总页，非单一事件，逐条判断见本池其它 rejected。"
+    }
+  ],
+  "stats": {
+    "candidates": 88,
+    "written": 4,
+    "skippedByDedup": 3
+  },
+  "finishedAt": "2026-11-13T19:15:59.185Z"
+}

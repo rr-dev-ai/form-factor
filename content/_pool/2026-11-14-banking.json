@@ -1,0 +1,285 @@
+{
+  "date": "2026-11-14",
+  "industry": "banking",
+  "startedAt": "2026-11-14T03:58:00+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "slug": "rhb-duitnow-pay-merchant-acceptance-autodebit",
+      "title": "马来西亚 RHB 把 DuitNow Pay 接进商户收单，含定期扣款",
+      "url": "https://thepaypers.com/payments/news/rhb-enables-duitnow-pay-acceptance-for-merchants-through-rhb-pay",
+      "reason": "范围门：DuitNow Pay 是 PayNet 的账户直付与定期扣款（A2A）轨道，RHB PAY 接入的是账户扣款而非卡收单，与 11-11 对 A2A 的判据一致；动作门亦属渠道接入。"
+    },
+    {
+      "title": "Why PayPal wants to have a bank",
+      "url": "https://www.paymentsdive.com/news/why-paypal-wants-to-have-a-bank/874615/",
+      "reason": "范围门：银行牌照与存款业务，不在发卡、受理、令牌化或清算规则内。"
+    },
+    {
+      "title": "EBA E-mail alert 13 November, 2026",
+      "url": "https://www.eba.europa.eu/node/20193",
+      "reason": "监管邮件订阅页，无具体事件与标的物。"
+    },
+    {
+      "title": "JPMorgan and Mastercard Back Firmly’s Agentic Commerce Infrastructure",
+      "url": "https://paymentsindustryintelligence.com/jpmorgan-and-mastercard-back-firmlys-innovative-platform/",
+      "reason": "动作门：1500 万美元 A 轮融资加既有平台宣传，机制未变（Firmly Connect 2026 年 3 月已发布）。"
+    },
+    {
+      "title": "Global Banks Commit $270m to Stablecoin Venture Project Faro",
+      "url": "https://paymentsindustryintelligence.com/global-banks-commit-270m-to-stablecoin-venture-project-faro/",
+      "reason": "范围门：稳定币发行募资，标的不在凭证链路。"
+    },
+    {
+      "title": "DCS DeCard and Visa Expand Stablecoin-Linked Card Payments Across 70 Markets",
+      "url": "https://paymentsindustryintelligence.com/dcs-decard-and-visa-expand-stablecoin-linked-card/",
+      "reason": "duplicate-of-2026-11-13-banking-04：同一发布，11-13 已发。"
+    },
+    {
+      "title": "Mastercard, LiaPay offer GCC workers access to wages before payday",
+      "url": "https://www.zawya.com/en/business/mastercard-liapay-offer-gcc-workers-access-to-wages-before-payday-2159603",
+      "reason": "duplicate-of-2026-11-12-banking-06：同一发布，11-12 已发。"
+    },
+    {
+      "title": "Mastercard and Glyde reimagine cross-border payments for Southern Africa travel",
+      "url": "https://newsroom.mastercard.com/news/eemea/en/newsroom/press-releases/en/2026/november/mastercard-and-glyde-are-reimagining-cross-border-payments-for-southern-africa-s-travel-businesses/",
+      "reason": "超窗：事件日 11-09，距本期截稿 72 小时外。"
+    },
+    {
+      "title": "Nigeria’s Wema Bank Adds Google Pay",
+      "url": "https://www.riotimesonline.com/wema-bank-google-pay-mastercard-nigeria-2026",
+      "reason": "超窗：事件日 11-08，且内容是既有 Google Pay 在尼日利亚上线后的银行侧开通。"
+    },
+    {
+      "title": "Project Ensemble Seeks Scale After Tokenised Deposits Go 24/7",
+      "url": "https://fintechnews.hk/42113/blockchain/project-ensemble-hkma-sfc-tokenisation/",
+      "reason": "范围门：代币化存款，与本项目 11-03、11-04 两期同一判据，不属卡凭证链路。"
+    },
+    {
+      "title": "Mastercard Opens Its Largest APAC Innovation Centre in Singapore",
+      "url": "https://fintechnews.sg/141118/payments/mastercard-innovation-centre/",
+      "reason": "范围门：设施与人员招聘，非凭证机制或终端形态变化。"
+    },
+    {
+      "title": "HSBC Plans Retail and Business Banking Merger in Singapore",
+      "url": "https://fintechnews.sg/141171/fintech/hsbc-singapore-merger/",
+      "reason": "范围门：组织架构合并。"
+    },
+    {
+      "title": "OCBC Launches AI Assistant for Business Account Maintenance",
+      "url": "https://fintechnews.sg/141119/ai/ocbc-velocity-smart-assist-ai-business-banking/",
+      "reason": "范围门：企业网银 AI 助手，不在卡栈。"
+    },
+    {
+      "title": "Singapore Fintech Association Accepts Stablecoins for Member Fees",
+      "url": "https://fintechnews.sg/141132/digitalassets/sfa-stablecoins/",
+      "reason": "范围门：以稳定币缴纳协会会费，标的是协会收费而非凭证。"
+    },
+    {
+      "title": "Samsung Wallet Now Supports ShopeePay in Singapore, Vietnam",
+      "url": "https://fintechnews.sg/141086/payments/samsung-wallet-shopeepay-singapore-vietnam/",
+      "reason": "动作门：把第三方钱包入口装进 Samsung Wallet，属分销。"
+    },
+    {
+      "title": "DBS First Singapore Bank to Support China’s Three Major QR Payments",
+      "url": "https://fintechnews.sg/141050/china/dbs-paylah-china-qr-payments/",
+      "reason": "动作门：把别家支付入口装进自家 App，属分销，与 11-13 同一判据。"
+    },
+    {
+      "title": "UEFA Renews Ant Group Partnership Through EURO 2028",
+      "url": "https://fintechnews.sg/141045/payments/uefa-ant-group-euro-2028-partnership/",
+      "reason": "范围门：赞助续约。"
+    },
+    {
+      "title": "Bottomline Completes First Live USDC Payments via Treasury Platform",
+      "url": "https://fintechnews.sg/140941/blockchain/bottomline-usdc-stablecoin-cross-border-payments/",
+      "reason": "范围门：企业司库稳定币跨境，不落在卡或受理终端上。"
+    },
+    {
+      "title": "OKX SG Lets VIP Customers Buy McLarens Using Crypto",
+      "url": "https://fintechnews.sg/141078/digitalassets/okx-sg-mclaren-crypto-otc-singapore/",
+      "reason": "范围门：加密资产柜台交易。"
+    },
+    {
+      "title": "How Cellulant is Connecting Africa’s Fragmented Payments Markets Using AWS Technology",
+      "url": "https://techmoran.com/2026/11/13/how-cellulant-is-connecting-africas-fragmented-payments-markets-using-aws-technology/",
+      "reason": "动作门：人物访谈与企业介绍，无可核的具体物。"
+    },
+    {
+      "title": "Airtel Money Adds Pesalink Transfers to 30 Banks, SACCOs and Microfinance Institutions",
+      "url": "https://techmoran.com/2026/11/13/airtel-money-adds-pesalink-transfers-to-30-banks-saccos-and-microfinance-institutions/",
+      "reason": "范围门：A2A 转账接入，不属卡组织与清算规则，与 11-11 判据一致。"
+    },
+    {
+      "title": "ЦБ работает с банками в части расширения сервисов в цифровом рубле",
+      "url": "https://www.comnews.ru/content/248367/2026-11-13/2026-w46/1009/cb-rabotaet-bankami-chasti-rasshireniya-servisov-cifrovom-ruble",
+      "reason": "动作门：行长表态与计划，无银行名单、无服务清单、无日期。"
+    },
+    {
+      "title": "В Госдуму внесли законопроект о противодействии деятельности дропперов",
+      "url": "https://www.comnews.ru/content/248364/2026-11-13/2026-w46/1009/gosdumu-vnesli-zakonoproekt-o-protivodeystvii-deyatelnosti-dropperov",
+      "reason": "范围门：反钱骡立法，标的是账户出借行为而非凭证机制。"
+    },
+    {
+      "title": "Сбербанк представил новую «Стратегию 2029»",
+      "url": "https://www.comnews.ru/content/248366/2026-11-13/2026-w46/1009/sberbank-predstavil-novuyu-strategiyu-2029",
+      "reason": "范围门：战略发布，无具体物。"
+    },
+    {
+      "title": "Bank of Russia: указания, информационные письма, реестры и статистика (13 Nov batch)",
+      "url": "https://www.cbr.ru/Queries/UniDbQuery/File/90134/8625",
+      "reason": "统计页、名录与信息函，无法从条目判定内容变化，整批不作为候选。"
+    },
+    {
+      "title": "Bank of Russia: RUONIA / MIACR / своп / депозиты 等利率与流动性数据页",
+      "url": "https://www.cbr.ru/hd_base/ruonia/",
+      "reason": "行情与统计页，非事件。"
+    },
+    {
+      "title": "State Attorneys General Say $183.5 Million Settlement Requires Acima to Overhaul Rental-Purchase Practices",
+      "url": "https://www.pymnts.com/legal/2026/state-attorneys-general-say-183-million-dollar-settlement-requires-acima-overhaul-rental-purchase-practices/",
+      "reason": "范围门：租赁购买消费分期执法，不在卡栈。"
+    },
+    {
+      "title": "Scammers Use Stolen Cards to Fulfill Fake Dumpster Rental Ads",
+      "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/scammers-use-stolen-cards-to-fulfill-fake-dumpster-rental-ads/",
+      "reason": "范围门：欺诈手法报道，无凭证或终端机制变化。"
+    },
+    {
+      "title": "Gen Z Gives Payment Perks More Weight at Grocery Checkout",
+      "url": "https://www.pymnts.com/consumer-insights/2026/gen-z-gives-payment-perks-more-weight-at-grocery-checkout/",
+      "reason": "消费调研，非事件。"
+    },
+    {
+      "title": "Velera Says Credit Unions Can Learn Digital Money Together",
+      "url": "https://www.pymnts.com/opinion/2026/velera-says-credit-unions-can-learn-digital-money-together/",
+      "reason": "观点稿。"
+    },
+    {
+      "title": "Kalshi in Talks to Raise Funding at $65 Billion Valuation",
+      "url": "https://www.pymnts.com/economy/markets/2026/kalshi-in-talks-to-raise-funding-at-65-billion-valuation/",
+      "reason": "融资，且标的是预测市场。"
+    },
+    {
+      "title": "Maersk’s Legacy-System Incident Shows M&A’s New Cyber Requirement",
+      "url": "https://www.pymnts.com/cybersecurity/2026/maersks-legacy-system-incident-shows-mas-new-cyber-requirement/",
+      "reason": "范围门：企业网络事件复盘，不在支付链。"
+    },
+    {
+      "title": "Fiserv preps debit network sale",
+      "url": "https://www.paymentsdive.com/news/fiserv-preps-debit-network-sale/874395/",
+      "reason": "并购动作，非凭证机制变化；与 11-13 同一判据。"
+    },
+    {
+      "title": "Merchants sue feds over Illinois card fee law",
+      "url": "https://www.paymentsdive.com/news/merchants-sue-feds-over-illinois-card-fee-law/874494/",
+      "reason": "动作门：诉讼不属六类；州级交换费立法已在本项目 11-12 按综述稿拦过。"
+    },
+    {
+      "title": "Block’s Cash App weaves payment tech into bandanas",
+      "url": "https://www.paymentsdive.com/news/blocks-cash-app-weaves-payment-tech-into-bandanas/874328/",
+      "reason": "共同限制第 2 条：同一产品换外形，机制未变，与 11-12 同一判据。"
+    },
+    {
+      "title": "States keep targeting card fee relief",
+      "url": "https://www.paymentsdive.com/news/states-keep-targeting-card-fee-relief/874260/",
+      "reason": "立法综述，30 余项议案无一项完成程序。"
+    },
+    {
+      "title": "Fiserv adds AI-powered ecommerce capabilities to Clover for SMBs",
+      "url": "https://thepaypers.com/payments/news/fiserv-adds-ai-powered-ecommerce-capabilities-to-clover-for-smbs",
+      "reason": "范围门：POS 平台加电商建站与 AI 功能，凭证与受理机制未变。"
+    },
+    {
+      "title": "TabaPay becomes direct network participant of Discover Network",
+      "url": "https://thepaypers.com/payments/news/tabapay-becomes-direct-network-participant-of-discover-network",
+      "reason": "超窗：直连在 2026 年 7 月已建立，11-12 为迁移阶段的再宣传。"
+    },
+    {
+      "title": "Visa adds Monad to its stablecoin settlement programme",
+      "url": "https://thepaypers.com/payments/crypto-web3-and-cbdc/news/visa-adds-monad-to-its-stablecoin-settlement-programme",
+      "reason": "与本期 03 同一结算计划的新增链，同一事件线不重复记，且无时间表。"
+    },
+    {
+      "title": "Nova raises USD 24 mln to link credit cards to Brazil’s Pix",
+      "url": "https://thepaypers.com/payments/news/nova-raises-usd-24-mln-to-link-credit-cards-to-brazils-pix",
+      "reason": "动作门：融资轮，产品仍处建设期。"
+    },
+    {
+      "title": "Griffin secures USD 20 million Series B to add cards and stablecoins",
+      "url": "https://thepaypers.com/payments/news/griffin-secures-usd-20-million-series-b-to-add-cards-and-stablecoins",
+      "reason": "动作门：融资轮，未给发卡产品或上线时间。"
+    },
+    {
+      "title": "Bank Millennium adds instalments to the BLIK Płacę Później service",
+      "url": "https://thepaypers.com/payments/news/bank-millennium-adds-instalments-to-the-blik-pace-pozniej-service",
+      "reason": "范围门：BLIK 为账户直付轨道，加分期不构成卡凭证机制变化。"
+    },
+    {
+      "title": "dLocal brings Kueski Pay BNPL to Decathlon shoppers in Mexico",
+      "url": "https://thepaypers.com/payments/news/dlocal-brings-kueski-pay-bnpl-to-decathlon-shoppers-in-mexico",
+      "reason": "动作门：BNPL 接入单一商户，属分销与渠道合作。"
+    },
+    {
+      "title": "United Airlines moves to restrict AI agents’ access to its platforms",
+      "url": "https://thepaypers.com/payments/news/united-airlines-moves-to-restrict-ai-agents-to-its-platforms",
+      "reason": "范围门：商户封禁代理访问，非凭证或受理机制。"
+    },
+    {
+      "title": "Hyundai Card launches new AI-powered credit card model",
+      "url": "https://www.finextra.com/pressarticle/111668/hyundai-card-launches-new-ai-powered-credit-card-model",
+      "reason": "范围门：PLCC 2.0 是 AI 推荐与数据 SaaS 加营销合作，不在发卡系统或凭证机制。"
+    },
+    {
+      "title": "Wirex launches Navoka, an AI agent that pays from its own bank account and card",
+      "url": "https://www.finextra.com/pressarticle/111665/wirex-launches-navoka-an-ai-agent-that-pays-from-its-own-bank-account-and-card",
+      "reason": "原文被 Cloudflare 拦截，无法核对产品范围、限额与上线市场，未核实即不收。"
+    },
+    {
+      "title": "Visa and Anchorage Digital bring Western Union stablecoin to settlement network (duplicate check)",
+      "url": "https://www.finextra.com/newsarticle/48752/visa-and-anchorage-digital-bring-western-union-stablecoin-to-settlement-network",
+      "reason": "已作为本期 03 收录，此处仅留核对痕迹，不重复记。"
+    },
+    {
+      "title": "EBANX, Eneba strengthen partnership in Latin America",
+      "url": "https://www.greensheet.com/newswire&newswire_id=61728",
+      "reason": "动作门：既有合作扩容与增长数据，无新凭证或受理机制。"
+    },
+    {
+      "title": "Brazilian App Store starts accepting Pix as payment method, according to tests",
+      "url": "https://allworld.media/en/article/192208556",
+      "reason": "未经 Apple 确认的测试发现，事件是否成立无法核实。"
+    },
+    {
+      "title": "Perú atrae nuevos adquirentes y Niubiz busca diferenciarse con préstamos e IA",
+      "url": "https://iupana.com/2026/11/13/peru-atrae-nuevos-adquirentes-niubiz-busca-diferenciarse-prestamos-ia/",
+      "reason": "访谈与战略稿，无可核的具体动作。"
+    },
+    {
+      "title": "PCI SSC Publishes New Guidance on Understanding PCI DSS Third-Party Service Providers",
+      "url": "https://blog.pcisecuritystandards.org/pci-ssc-publishes-new-guidance-on-understanding-pci-dss-third-party-service-providers",
+      "reason": "超窗：11-10 发布，且是解释性指引，无规范版本变化。"
+    },
+    {
+      "title": "国标《网络安全技术 具有中央处理器的IC卡芯片安全规范》GB/T 22186-2026 实施",
+      "url": "http://www.stea2008.com/article/13_1302_0_2497975.html",
+      "reason": "超窗：2026-11-01 实施，距本期超过 72 小时。"
+    },
+    {
+      "title": "USCIS IBIS 2.5 亿美元身份系统整合（supplement）",
+      "url": "https://www.biometricupdate.com/202611/uscis-expands-biometrics-and-identity-overhaul-into-250-million-competition",
+      "reason": "属身份行业范畴，非银行业；且仅有采购预告，无承接方。"
+    },
+    {
+      "title": "埃塞俄比亚 Wegagen 银行与 Shebamiles 联名卡",
+      "url": "https://abaytimes.com/business/wegagen-bank-and-shebamiles-launch-card-that-earns-travel-points-on-purchases",
+      "reason": "共同限制第 2 条：联名卡权益包，未写卡组织与发卡量，原文缺失项无法补。"
+    }
+  ],
+  "stats": {
+    "candidates": 88,
+    "written": 4,
+    "skippedByDedup": 2
+  },
+  "finishedAt": "2026-11-13T20:17:43.996Z"
+}

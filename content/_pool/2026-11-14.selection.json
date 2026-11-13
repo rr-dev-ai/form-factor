@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-13T20:15:48.958Z",
+  "selected": [
+    {
+      "industry": "identity",
+      "slug": "henan-id-card-production-system-retrofit-contract",
+      "score": 0.45,
+      "reason": "region-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-14"
+    },
+    {
+      "industry": "identity",
+      "slug": "belgium-itsme-eid-photo-face-match-plan",
+      "score": 0.5,
+      "reason": "region-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-13"
+    },
+    {
+      "industry": "identity",
+      "slug": "va-gov-clear-face-sign-in-passkeys",
+      "score": 0.55,
+      "reason": "region-floor",
+      "region": "north-america",
+      "sourceDate": "2026-11-14"
+    },
+    {
+      "industry": "banking",
+      "slug": "visa-anchorage-usdpt-stablecoin-visanet-settlement",
+      "score": 0.45,
+      "reason": "industry-floor",
+      "region": "global",
+      "sourceDate": "2026-11-14"
+    },
+    {
+      "industry": "identity",
+      "slug": "toppan-photo-id-fime-data-model-test",
+      "score": 0.6,
+      "reason": "fill",
+      "region": "global",
+      "sourceDate": "2026-11-14"
+    },
+    {
+      "industry": "identity",
+      "slug": "gripid-v10-mannix-multimodal-enrolment-device",
+      "score": 0.55,
+      "reason": "fill",
+      "region": "global",
+      "sourceDate": "2026-11-14"
+    },
+    {
+      "industry": "banking",
+      "slug": "openai-chatgpt-wallet-network-token-biometric-approval",
+      "score": 0.78,
+      "reason": "manual",
+      "region": "north-america",
+      "sourceDate": "2026-11-14"
+    },
+    {
+      "industry": "banking",
+      "slug": "monefit-creditstar-estonia-credit-card-moorwand-thredd",
+      "score": 0.45,
+      "reason": "manual",
+      "region": "europe",
+      "sourceDate": "2026-11-14"
+    }
+  ],
+  "alternates": [],
+  "expired": [
+    {
+      "slug": "magtek-dynaflex-ii-go-mdl-passport-reading",
+      "eventAt": "2026-11-10T17:39:00.000Z",
+      "hours": 75
+    }
+  ],
+  "gaps": [
+    {
+      "region": "cis",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "mena",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "latam",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "africa",
+      "note": "池内 0 条"
+    }
+  ],
+  "unaccounted": [],
+  "conflicts": [
+    {
+      "kind": "undated",
+      "detail": "banking/openai-chatgpt-wallet-network-token-biometric-approval 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "resolved: openai.com 页面确认 2026-11-13 发布，补 publishedAt 后 manual 调入（banking 第 2 条）。范围门：网络令牌化 + 持卡人放行；动作门：产品化节点（ChatGPT Wallet，三家网络具名，每笔设备生物识别）。"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/rhb-duitnow-pay-merchant-acceptance-autodebit 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "resolved: The Paypers 载 12 Nov 2026，在窗内；但 DuitNow Pay 属 PayNet 账户直付/定期扣款（A2A），非卡收单，按 11-11 判据不过范围门，已移入该池 rejected。"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/monefit-creditstar-estonia-credit-card-moorwand-thredd 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "resolved: The Paypers 载 13 Nov 2026，在窗内；爱沙尼亚首发、Moorwand 供 Mastercard 通道、Thredd 做发卡处理，补 publishedAt 后 manual 调入（banking 第 3 条）。"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/credimax-click-to-pay-passkeys-bahrain 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "resolved: 事件日 2026-11-10（11-13 supplement 记录），距本期已逾 85 小时，超窗不调；11-13 池该稿已移入 rejected 以免每天重复报冲突。"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/eazypay-gps-mastercard-prepaid-bahrain 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "resolved: 事件日 2026-11-11，距本期已逾 95 小时，超窗不调；11-13 池该稿已移入 rejected。"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/sage-adyen-mastercard-business-accounts-france 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "resolved: 事件日 2026-11-10，距本期已逾 85 小时，超窗不调；11-13 池该稿已移入 rejected。"
+    }
+  ]
+}

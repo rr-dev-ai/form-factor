@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-14",
+  "startedAt": "2026-11-14T01:50:32+08:00",
+  "finishedAt": "2026-11-14T01:55:24+08:00",
+  "indexCheck": {
+    "file": "content/_raw/2026-11-14.index.json",
+    "exists": true,
+    "fetchedFor": "2026-11-14",
+    "items": 153,
+    "attempts": 1,
+    "note": "一次通过，未等待。01:32 落盘，153 条，全部无 fetchedAt 字段但 fetchedFor 正确、items 非空。"
+  },
+  "matrix": {
+    "counted": 2,
+    "dropped": {
+      "published": 0,
+      "expired": 0,
+      "undated": 7,
+      "lowConfidence": 144,
+      "invalid": 0
+    },
+    "gaps": ["apac", "cis", "mena", "europe", "north-america", "latam"],
+    "cellGaps": [
+      { "region": "africa", "industry": "banking" },
+      { "region": "africa", "industry": "telecom" }
+    ],
+    "industryGaps": [
+      {
+        "industry": "banking",
+        "emptyRegions": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"]
+      },
+      {
+        "industry": "telecom",
+        "emptyRegions": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"]
+      },
+      {
+        "industry": "identity",
+        "emptyRegions": ["apac", "cis", "mena", "north-america", "latam", "europe"]
+      }
+    ],
+    "note": "计入 2 条，落在 africa/identity 与 global/banking；21 格里 2 格非空。当日 raw 153 条里 telecom 占绝大多数且全是观点稿与 Nvidia 叙事，低置信 144 条即由此而来。"
+  },
+  "phases": [
+    {
+      "phase": "R1",
+      "at": "2026-11-14T01:51:22+08:00",
+      "queries": 8,
+      "hits": 0,
+      "note": "六个 gap 区各一条 + africa/banking、africa/telecom 各一条。全部空手：apac/cis 两条回 Semtech SGP.32（11-10 supplement 已用）与 b2b168 电商页；mena 回 Emirates ID 攻略与 ICP 服务页；europe 回 EMVCo 百科；north-america 回 BIN sponsor 科普；latam 回 INMETRO/NOM 认证代办；africa 两条被 trip.com、etravelsim、slashtel 旅游 eSIM 占满。"
+    },
+    {
+      "phase": "R2",
+      "at": "2026-11-14T01:51:52+08:00",
+      "queries": 6,
+      "hits": 0,
+      "note": "SAMA/mada、NPCI/UIDAI、巴西央行/Febraban、Bundesdruckerei/G+D/IDEMIA、NIMC/Interswitch、DT/Vodafone/Orange eSIM。唯一沾边的是 Crédit Agricole Deutschland × Enfuce（G+D 供卡与个人化），但已于 11-12 发过，剔除；其余回官网首页、JAM 科普、Aadhaar PVC 攻略。"
+    },
+    {
+      "phase": "R3",
+      "at": "2026-11-14T01:52:20+08:00",
+      "queries": 3,
+      "hits": 0,
+      "note": "低于 6 条下限，如实记账。西语 licitación、葡语 licitação/edital、阿语 مناقصة 三条。产出仅有 NADRA 采购 21 台手持机 + 22 台生物识别设备 + 75 台蓝牙打印机（11-09，超窗且量级过小）。TED 与 тендер 两条按 11-08/11-11 结论直接砍掉，额度移给日期锚定。"
+    },
+    {
+      "phase": "R4",
+      "at": "2026-11-14T01:52:55+08:00",
+      "queries": 0,
+      "hits": 2,
+      "note": "0 条 query，低于 3 条下限；改用 2 次归档页直读（biometricupdate /202611、paymentsindustryintelligence 首页）。两处命中：EU《技能可携法案》DQA 与 USCIS IBIS 2.5 亿美元，均落盘。支付侧首页最新到 11-12，DCS DeCard 已于 11-13 发过，其余为稳定币/代理商务。"
+    },
+    {
+      "phase": "R5",
+      "at": "2026-11-14T01:53:05+08:00",
+      "queries": 3,
+      "hits": 1,
+      "note": "SGP.32 eIM、mDL issuance、Thales/IDEMIA/Linxens 合同。mDL 那条挖出 MagTek DynaFlex II Go（11-10 固件升级让支付终端读 mDL 与数字护照），但发布与开售均在 72 小时窗外，记入 verifiedButDropped；另两条全回 Semtech 与厂商方案页。"
+    },
+    {
+      "phase": "R6",
+      "at": "2026-11-14T01:53:12+08:00",
+      "queries": 10,
+      "hits": 3,
+      "note": "区域补充四组：巴西葡语、俄语 карта/еSIM、东南亚 POS、日期锚定，均无果；再补 Tawakkalna/UAE Pass、Llave MX/gov.br、澳新日卫星直连、亚美尼亚/乌兹别克四组，只出巴西 CIN 6500 万张；最后 Telstra D2C 与 mada/HIMYAN 两组因无日期弃用。落盘三条：OpenAI ChatGPT Wallet、Wegagen × ShebaMiles、巴西 CIN。"
+    }
+  ],
+  "queries": {
+    "total": 30,
+    "byRound": { "R1": 8, "R2": 6, "R3": 3, "R4": 0, "R5": 3, "R6": 10 },
+    "archiveReads": 2,
+    "originalFetches": 8,
+    "belowFloor": ["R3（3/6）", "R4（0/3，以 2 次归档直读替代）"]
+  },
+  "produced": {
+    "file": "content/_raw/2026-11-14.supplement.json",
+    "items": 5,
+    "cells": [
+      "north-america/banking",
+      "north-america/identity",
+      "europe/identity",
+      "africa/banking",
+      "latam/identity"
+    ]
+  },
+  "unfilled": [
+    "apac 三行业全空",
+    "cis 三行业全空",
+    "mena 三行业全空",
+    "europe/banking、europe/telecom",
+    "africa/telecom",
+    "north-america/telecom",
+    "latam/banking、latam/telecom",
+    "telecom 七区仍零条（连续第 7 天）"
+  ],
+  "notes": [
+    "当日 raw 的 telecom 条目全部是 Nvidia 人事、6G、光纤、财报与观点稿，没有一条落在载体/签发/分发/受理上——这是 telecom 连续第七天归零的源侧原因，与阈值无关。",
+    "日期锚定本周仍是最高效手法：R6 三条产出里两条来自带引号日期的 query（OpenAI 11-13、Wegagen 11-12）。",
+    "无日期的稿子这次卡掉两条高价值候选（Telstra × Starlink D2C 短信、SAMA mada/HIMYAN 互认）。二者都值得明天先查一手公告日期再定。",
+    "MagTek 那条只差约 1 小时出窗，是本周第二次「差一点点」——以后遇到 11-10 下午的英文新闻稿要先判窗口再核全文。"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "2026-11-14-identity-02",
+  "slug": "gripid-v10-mannix-multimodal-enrolment-device",
+  "industry": "identity",
+  "region": "global",
+  "regions": [],
+  "tags": [
+    "biometrics",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-14T04:18:12+08:00",
+  "ingestedAt": "2026-11-14T03:10:30+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/gripid-launches-foldable-all-in-one-biometrics-device-with-ib-scanner",
+      "lang": "en",
+      "publishedAt": "2026-11-12T10:03:13-05:00"
+    }
+  ],
+  "title": {
+    "zh": "GripID 发布 2.2 公斤折叠式多模态采集终端",
+    "en": "GripID launches a 2.2 kg foldable multimodal capture device",
+    "es": "GripID lanza un dispositivo plegable multimodal de captura de 2,2 kg"
+  },
+  "summary": {
+    "zh": "GripID 推出 V10 MANNIX：一台 2.2 公斤的折叠式终端，同时采集全掌、十指、双虹膜与人脸，内置 Integrated Biometrics 的 MANNIX FAP60 指纹模块（FBI Appendix F 认证），另有护照与身份证 NFC 读头、16,500 mAh 电池，11 月 16 日在迪拜世界警察峰会首次演示。",
+    "en": "GripID has launched the V10 MANNIX, a 2.2 kg foldable device that captures full palm, ten fingerprints, dual iris and face in one unit, built around Integrated Biometrics’ MANNIX FAP60 scanner certified to FBI Appendix F, with an NFC reader for passports and ID cards and a 16,500 mAh battery. It debuts at the World Police Summit in Dubai on November 16.",
+    "es": "GripID ha lanzado el V10 MANNIX, un equipo plegable de 2,2 kg que captura palma completa, diez huellas, doble iris y rostro en una sola unidad, con el escáner MANNIX FAP60 de Integrated Biometrics certificado según FBI Appendix F, lector NFC para pasaportes y documentos de identidad y batería de 16.500 mAh. Se presenta en la Cumbre Mundial de Policía de Dubái el 16 de noviembre."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "一台机器收四种模态",
+        "en": "Four modalities in one unit",
+        "es": "Cuatro modalidades en un equipo"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "V10 MANNIX 把过去要分开摆放的采集项并进一台 2.2 公斤的折叠机身：全掌、十指、双虹膜与人脸。屏幕是 10 英寸触摸屏，可旋转 180 度，另有一块 2 英寸屏配手写笔做签名采集。指纹部分用 Integrated Biometrics 的 MANNIX FAP60 扫描器，认证等级为 FBI Appendix F，采用发光传感器（LES）方案，厂商强调在阳光直射、灰尘与污渍条件下仍能出图。",
+        "en": "The V10 MANNIX folds palm, ten-print, dual-iris and face capture into one 2.2 kg hinged body, where those used to require separate stations. A 10-inch touchscreen rotates 180 degrees, and a second 2-inch display with a stylus captures signatures. Fingerprints come from Integrated Biometrics’ MANNIX FAP60 scanner, certified to FBI Appendix F, using the company’s light-emitting sensor approach, which the vendors say holds image quality in direct sunlight and against dirt or contaminants.",
+        "es": "El V10 MANNIX reúne captura de palma, diez huellas, doble iris y rostro en un cuerpo plegable de 2,2 kg, funciones que antes exigían puestos separados. Una pantalla táctil de 10 pulgadas gira 180 grados y una segunda pantalla de 2 pulgadas con lápiz óptico captura firmas. Las huellas provienen del escáner MANNIX FAP60 de Integrated Biometrics, certificado según FBI Appendix F, con sensor de emisión luminosa que, según los fabricantes, mantiene la calidad de imagen a plena luz solar y frente a suciedad."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "与上一代的差别在机身形态",
+        "en": "What changed is the form factor",
+        "es": "Lo que cambia es el formato"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这不是 GripID 的第一台 MANNIX。去年是平板式，今年早些时候出过配 FAP50 五连指扫描器的 V10 版本。这次的改动是折叠结构与掌纹、双虹膜同时采集：厂商首席执行官 Eric Fouchard 的说法是，掌纹与虹膜过去需要固定站，现在可以在现场按同一认证标准采集。设备另有护照与身份证 NFC 读头与 16,500 mAh 电池，指向长时间离站作业。",
+        "en": "This is not GripID’s first MANNIX. Last year’s model was tablet-style, and an earlier V10 shipped with IB’s FAP 50 five-finger scanner. The change here is the folding body plus simultaneous palm and dual-iris capture: chief executive Eric Fouchard says palm and iris used to require a fixed station, and can now be captured in the field to the same certified standard. An NFC reader for passports and ID cards and a 16,500 mAh battery target extended off-station work.",
+        "es": "No es el primer MANNIX de GripID. El del año pasado era tipo tableta y antes hubo una versión V10 con el escáner FAP 50 de cinco dedos de IB. El cambio es el cuerpo plegable y la captura simultánea de palma y doble iris: el consejero delegado Eric Fouchard dice que palma e iris exigían una estación fija y ahora pueden capturarse en campo con el mismo estándar certificado. Un lector NFC para pasaportes y documentos y una batería de 16.500 mAh apuntan a trabajo prolongado fuera de estación."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "谁会用，公告没说什么",
+        "en": "Who it is for, and what is left unsaid",
+        "es": "Para quién es y qué no se dice"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "目标场景：边检与移民管理、警务识别与建档、资源匮乏地区的民事登记。",
+          "en": "Target settings: border and immigration control, police identification and booking, civil registration in resource-constrained communities.",
+          "es": "Entornos objetivo: control fronterizo y de inmigración, identificación y fichado policial, registro civil en comunidades con pocos recursos."
+        },
+        {
+          "zh": "公告未给单价、采购客户与量产时间，也没有说明掌纹与虹膜图像的认证口径。",
+          "en": "The announcement gives no unit price, no purchasing customer and no production timeline, and does not state a certification basis for the palm and iris images.",
+          "es": "El anuncio no indica precio unitario, cliente comprador ni plazo de producción, y no precisa la base de certificación de las imágenes de palma e iris."
+        },
+        {
+          "zh": "首次公开演示安排在 11 月 16 日至 18 日的迪拜世界警察峰会。",
+          "en": "The first public demonstration is set for the World Police Summit in Dubai, November 16 to 18.",
+          "es": "La primera demostración pública está prevista en la Cumbre Mundial de Policía de Dubái, del 16 al 18 de noviembre."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "现场采集的设备形态正在从「一台机器一种模态」转向「一台机器收全」。这对采购方的直接影响是编制与流程：过去一次登记要排三次队、换三个工位，现在可以一个工位一次完成，移动登记队的车辆与人员配置随之改变。对供应链，压力落在传感器与结构件上——掌纹与虹膜同时采集要求光学路径与人体工学一起改，能做的模组厂不多，FAP60 这类已认证指纹模块成了整机的锚点。需要注意的是，这台设备只解决采集，不解决证件的签发与互操作；它的竞争对手不是别的采集机，而是各国已有的固定登记站与外包登记队。",
+    "en": "Field enrolment hardware is moving from one device per modality to one device for all of them. The direct effect on buyers is staffing and process: a registration that once meant three queues and three workstations can now finish at one, which changes how mobile enrolment teams are crewed and equipped. For the supply chain the pressure lands on sensors and mechanics, since capturing palm and iris together forces optical path and ergonomics to change in step, and few module makers can do both; a certified fingerprint module like the FAP60 becomes the anchor of the whole unit. Worth keeping in view: this device solves capture, not issuance or interoperability, and its real competitor is not another capture kit but the fixed registration stations and outsourced enrolment teams governments already run.",
+    "es": "El hardware de enrolamiento en campo pasa de un dispositivo por modalidad a uno para todas. El efecto directo en los compradores es de personal y proceso: un registro que antes exigía tres colas y tres puestos ahora se completa en uno, lo que cambia la dotación de los equipos móviles de enrolamiento. En la cadena de suministro la presión recae en sensores y mecánica, porque capturar palma e iris a la vez obliga a cambiar la ruta óptica y la ergonomía, y pocos fabricantes de módulos pueden hacer ambas cosas; un módulo de huellas certificado como el FAP60 se vuelve el ancla del equipo. Conviene retenerlo: el dispositivo resuelve la captura, no la emisión ni la interoperabilidad, y su competidor real no es otro kit de captura sino las estaciones fijas de registro y los equipos de enrolamiento subcontratados que los gobiernos ya operan."
+  },
+  "confidence": 0.55,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}
