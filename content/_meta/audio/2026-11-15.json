@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-14T20:21:05.836Z",
+  "renderer": 1,
+  "items": {
+    "cuscal-paymark-nz-terminal-digital-age-credential": {
+      "zh": {
+        "file": "audio/zh/cuscal-paymark-nz-terminal-digital-age-credential.998b4864.mp3",
+        "hash": "998b4864",
+        "bytes": 1642509,
+        "duration": 136.78,
+        "voice": "zm_010",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/cuscal-paymark-nz-terminal-digital-age-credential.daa86fdb.mp3",
+        "hash": "daa86fdb",
+        "bytes": 1646541,
+        "duration": 137.133,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/cuscal-paymark-nz-terminal-digital-age-credential.9b30f28a.mp3",
+        "hash": "9b30f28a",
+        "bytes": 1691469,
+        "duration": 140.875,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "neweb-buytalk-agent-mastercard-agent-pay-taiwan": {
+      "zh": {
+        "file": "audio/zh/neweb-buytalk-agent-mastercard-agent-pay-taiwan.29ddf868.mp3",
+        "hash": "29ddf868",
+        "bytes": 1468269,
+        "duration": 122.265,
+        "voice": "zm_011",
+        "speed": 1.157
+      },
+      "en": {
+        "file": "audio/en/neweb-buytalk-agent-mastercard-agent-pay-taiwan.84734a6d.mp3",
+        "hash": "84734a6d",
+        "bytes": 1603629,
+        "duration": 133.552,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/neweb-buytalk-agent-mastercard-agent-pay-taiwan.be0203cb.mp3",
+        "hash": "be0203cb",
+        "bytes": 1677069,
+        "duration": 139.66,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "romania-ro-wallet-january-14-launch-youniqx": {
+      "zh": {
+        "file": "audio/zh/romania-ro-wallet-january-14-launch-youniqx.225cc209.mp3",
+        "hash": "225cc209",
+        "bytes": 2316429,
+        "duration": 192.95,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/romania-ro-wallet-january-14-launch-youniqx.79bf59b1.mp3",
+        "hash": "79bf59b1",
+        "bytes": 2441421,
+        "duration": 203.355,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/romania-ro-wallet-january-14-launch-youniqx.e8c9fd82.mp3",
+        "hash": "e8c9fd82",
+        "bytes": 2494701,
+        "duration": 207.805,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "us-ds-11-passport-applications-online-americagov-logingov": {
+      "zh": {
+        "file": "audio/zh/us-ds-11-passport-applications-online-americagov-logingov.92b53d46.mp3",
+        "hash": "92b53d46",
+        "bytes": 2617677,
+        "duration": 218.05,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/us-ds-11-passport-applications-online-americagov-logingov.6ea16342.mp3",
+        "hash": "6ea16342",
+        "bytes": 2060109,
+        "duration": 171.584,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/us-ds-11-passport-applications-online-americagov-logingov.6f26230d.mp3",
+        "hash": "6f26230d",
+        "bytes": 2149965,
+        "duration": 179.075,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    }
+  }
+}

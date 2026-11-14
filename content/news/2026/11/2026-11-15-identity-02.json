@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-15-identity-01",
+  "slug": "us-ds-11-passport-applications-online-americagov-logingov",
+  "industry": "identity",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "passport",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-15T04:17:40+08:00",
+  "ingestedAt": "2026-11-15T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Government Executive",
+      "url": "https://shared.govexec.com/technology/2026/11/state-department-pilot-online-passport-applications-first-time-applicants/417219",
+      "lang": "en",
+      "publishedAt": "2026-11-13T20:26:00Z"
+    }
+  ],
+  "title": {
+    "zh": "美国 DS-11 申请上线，走 America.gov 与 Login.gov",
+    "en": "US opens DS-11 passport applications online through America.gov and Login.gov",
+    "es": "EE. UU. abre la solicitud de pasaporte DS-11 en línea vía America.gov y Login.gov"
+  },
+  "summary": {
+    "zh": "美国国务院 11 月 16 日启动为期一年的试点，允许部分首次申请护照的成年人和不符合 DS-82 续签条件的前护照持有人在线提交 DS-11。资格筛查在 America.gov 完成，身份核验转到 Login.gov，宣誓改为自录视频，由护照官员复核。2025 财年 DS-11 约 1390 万份，纸质表平均耗时 85 分钟。",
+    "en": "The State Department starts a year-long pilot on November 16 letting some first-time adult applicants and former passport holders ineligible for DS-82 renewal file Form DS-11 online. Eligibility screening runs on America.gov, identity proofing moves to Login.gov, and the oath becomes a self-recorded video reviewed by a passport agent. The department processed about 13.9 million DS-11 applications in fiscal 2025, at an average of 85 minutes each on paper.",
+    "es": "El Departamento de Estado inicia el 16 de noviembre un piloto de un año que permite a algunos adultos solicitantes por primera vez y a antiguos titulares no elegibles para la renovación DS-82 presentar el formulario DS-11 en línea. La elegibilidad se evalúa en America.gov, la prueba de identidad pasa a Login.gov y el juramento se graba en vídeo para su revisión por un agente. En el año fiscal 2025 se tramitaron unos 13,9 millones de DS-11, con 85 minutos de media en papel."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "试点覆盖谁",
+        "en": "Who the pilot covers",
+        "es": "A quién cubre el piloto"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "按国务院拟在 11 月 16 日《联邦公报》刊登的文件，试点从 11 月 16 日跑到 2027 年 11 月 20 日。开放对象限定为美国境内的成年人，且属于两类之一：曾持有有效美国护照、但不符合 DS-82 线上续签条件的人；以及用入籍证书证明美国公民身份的首次成年申请人。申请人先在 America.gov 回答一组资格问题，通过后被转往 Login.gov 完成身份核验，再回到申请流程填写个人信息、上传护照照片、选择护照种类与投递方式。",
+        "en": "According to the document the department scheduled for Federal Register publication on November 16, the pilot runs from that date through November 20, 2027. It is limited to adults in the United States in one of two groups: people who previously held a valid US passport but are not eligible to renew with Form DS-82, and first-time adult applicants who can establish citizenship with a Certificate of Naturalization. Applicants answer eligibility questions on America.gov, are routed to Login.gov for identity proofing, then return to complete biographic details, upload a passport photo and choose a passport product and delivery method.",
+        "es": "Según el documento que el departamento prevé publicar en el Registro Federal el 16 de noviembre, el piloto va de esa fecha al 20 de noviembre de 2027. Se limita a adultos en Estados Unidos de uno de dos grupos: quienes tuvieron un pasaporte válido pero no pueden renovarlo con el formulario DS-82, y adultos que solicitan por primera vez y acreditan la ciudadanía con un certificado de naturalización. El solicitante responde preguntas de elegibilidad en America.gov, pasa a Login.gov para la prueba de identidad y vuelve para completar datos, subir la foto y elegir producto y entrega."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "宣誓变成一段录像",
+        "en": "The oath becomes a recording",
+        "es": "El juramento se convierte en grabación"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "纸质 DS-11 的关键环节是当面宣誓：申请人当着受理人员签字，由其见证。试点把这一步改成申请人自己录制一段陈述，声明所填信息真实，随后由护照官员审看录像与其他材料，再交由护照授权官员按与纸质 DS-11 相同的程序裁决，其中包括对公民身份记录的核查。国务院说，随测试与技术能力推进，后续可能把出生证明、公民证书、海外出生领事报告的使用者以及境外的合格申请人纳入。",
+        "en": "On paper, the DS-11 hinges on an in-person oath: the applicant signs before an acceptance agent who witnesses it. The pilot replaces that with a self-recorded statement that the information is accurate. A passport agent then reviews the recording along with the rest of the application, and a passport authorising officer adjudicates under the same procedures used for paper DS-11s, including checks against citizenship records. The department said it may later add applicants using birth certificates, Certificates of Citizenship or Consular Reports of Birth Abroad, as well as eligible applicants located overseas.",
+        "es": "En papel, el DS-11 depende de un juramento presencial: el solicitante firma ante un agente de aceptación que lo presencia. El piloto lo sustituye por una declaración grabada por el propio solicitante. Después, un agente de pasaportes revisa la grabación junto con el resto del expediente y un funcionario autorizador resuelve con los mismos procedimientos que en papel, incluidas las comprobaciones de registros de ciudadanía. El departamento dijo que más adelante podría sumar a quienes usan actas de nacimiento, certificados de ciudadanía o informes consulares de nacimiento, y a solicitantes en el exterior."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "数字化的是受理环节，不是证件",
+        "en": "The intake is digital, not the document",
+        "es": "Lo digital es la admisión, no el documento"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这条试点改的是申请通道，护照本身仍是本式或卡式实体证件。国务院给出的规模参照是 2025 财年约 1390 万份 DS-11、纸表平均 85 分钟；文件同时说明，线上能省多少时间要靠试点收集数据才能确定，并未给出预估。此前只有符合 DS-82 条件的续签可以在线办理，首次申请与无法续签的情形一直要走纸质流程。",
+        "en": "What changes is the intake channel; the passport itself remains a physical book or card. The department's scale reference is about 13.9 million DS-11 applications in fiscal 2025 at an average of 85 minutes on paper, and the document says how much time the online route saves will be one of the data points the pilot has to produce. It offers no estimate. Until now only DS-82 renewals could be filed online; first-time applications and cases that cannot use renewal had to go through paper.",
+        "es": "Lo que cambia es el canal de admisión; el pasaporte sigue siendo un librito o tarjeta física. La referencia de escala del departamento son unos 13,9 millones de DS-11 en el año fiscal 2025 con 85 minutos de media en papel, y el documento afirma que el tiempo ahorrado será uno de los datos que debe arrojar el piloto, sin ofrecer estimación. Hasta ahora solo podían presentarse en línea las renovaciones DS-82; las solicitudes iniciales y los casos no renovables iban por papel."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "护照受理是三类证件里最难线上化的一环，因为它同时要解决三件事：申请人是不是本人、公民身份证据能不能核、宣誓这种准司法动作由谁见证。这条试点把前两件交给 Login.gov 的身份核验与既有公民记录核查，第三件换成可留存的录像，等于把「见证」从人的在场改成对记录的复核。对做证件受理终端的厂商，短期没有设备订单；真正的信号在流程侧——如果录像宣誓被证明可审计，同样的做法会往其他需要见证的证件流程迁移，比如公证、出入境面谈与部分领事业务。对集成商，值得盯的是 America.gov 这个入口本身的定位：白宫把它当统一的前台，护照只是第一批接入的高频业务，后面接什么、用什么身份核验标准，会决定 Login.gov 在联邦身份体系里的实际权重。",
+    "en": "Passport intake is the hardest of the three credential chains to move online, because it has to settle three things at once: whether the applicant is who they claim, whether the citizenship evidence can be checked, and who witnesses an oath that behaves like a quasi-judicial act. The pilot hands the first two to Login.gov proofing plus existing citizenship-record checks, and replaces the third with a recording that can be retained, turning witness-by-presence into review-of-record. For terminal makers there is no hardware order here. The signal is procedural: if a recorded oath proves auditable, the same approach migrates to other witnessed document processes such as notarisation, border interviews and some consular work. For integrators, watch what America.gov becomes. The White House is positioning it as a unified front door, passports are only the first high-volume service wired in, and what follows will decide how much weight Login.gov actually carries in federal identity.",
+    "es": "La admisión de pasaportes es el eslabón más difícil de digitalizar de las tres cadenas, porque debe resolver tres cosas a la vez: si el solicitante es quien dice, si la prueba de ciudadanía puede verificarse y quién presencia un juramento que se comporta como acto cuasi judicial. El piloto entrega las dos primeras a la prueba de Login.gov y a las comprobaciones de registros de ciudadanía, y sustituye la tercera por una grabación conservable: el testigo presente pasa a ser revisión de registro. Para los fabricantes de terminales no hay pedido de hardware. La señal es procedural: si un juramento grabado demuestra ser auditable, el mismo enfoque migrará a otros trámites con testigo, como la fe notarial, las entrevistas fronterizas y parte del trabajo consular. Para los integradores, la pregunta es qué será America.gov: la Casa Blanca lo plantea como puerta única y los pasaportes son solo el primer servicio de alto volumen; lo que venga después definirá el peso real de Login.gov en la identidad federal."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

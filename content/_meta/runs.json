@@ -1,5 +1,592 @@
 [
   {
+    "date": "2026-11-15",
+    "startedAt": "2026-11-15T02:31:00+08:00",
+    "durationMs": 6379740,
+    "fetched": 65,
+    "afterDedup": 255,
+    "passed": 4,
+    "published": 4,
+    "industries": {
+      "banking": {
+        "fetched": 32,
+        "afterDedup": 91,
+        "passed": 2,
+        "published": 2
+      },
+      "telecom": {
+        "fetched": 48,
+        "afterDedup": 83,
+        "passed": 0,
+        "published": 0
+      },
+      "identity": {
+        "fetched": 15,
+        "afterDedup": 81,
+        "passed": 2,
+        "published": 2
+      }
+    },
+    "regions": [
+      "apac",
+      "europe",
+      "north-america"
+    ],
+    "missing": [
+      "cis",
+      "mena",
+      "latam",
+      "africa"
+    ],
+    "candidates": 4,
+    "pooled": 0,
+    "fallback": false,
+    "conflicts": [
+      {
+        "kind": "undated",
+        "detail": "banking/neweb-buytalk-agent-mastercard-agent-pay-taiwan 的 sources 缺 publishedAt，无法判定时效",
+        "resolved": true
+      },
+      {
+        "kind": "undated",
+        "detail": "identity/us-ds-11-passport-applications-online-americagov-logingov 的 sources 缺 publishedAt，无法判定时效",
+        "resolved": true
+      }
+    ],
+    "supplement": {
+      "triggered": true,
+      "items": 5,
+      "sources": [
+        "cis",
+        "mena",
+        "europe",
+        "north-america",
+        "latam",
+        "africa"
+      ]
+    },
+    "rejected": [
+      {
+        "title": "OpenAI Gives AI Agents a Wallet While Blocking Them From Seeing the Card",
+        "reason": "duplicate-of-2026-11-14-banking-02：ChatGPT Wallet 同一发布，11-14 已发。",
+        "industry": "banking"
+      },
+      {
+        "title": "全功能融合创新终端全国首发 中国银联携手蚂蚁集团推动支付受理提智增效",
+        "reason": "duplicate-of-2026-11-13-banking-05：银联与蚂蚁融合终端同一事件，11-13 已发。",
+        "industry": "banking"
+      },
+      {
+        "title": "Visa Adds Monad as a Stablecoin Settlement Network Option",
+        "reason": "duplicate-of-2026-11-14-banking-01：Visa 稳定币结算网络扩容同一条线，11-14 已发。",
+        "industry": "banking"
+      },
+      {
+        "title": "Stripe awaits payoff on Tempo chain",
+        "reason": "范围门：自建链与稳定币结算，标的不在卡栈；且为战略访谈，无发布节点。",
+        "industry": "banking"
+      },
+      {
+        "title": "Why PayPal wants to have a bank",
+        "reason": "范围门：银行牌照与存款业务，不在发卡、受理、令牌化或清算规则内。",
+        "industry": "banking"
+      },
+      {
+        "title": "Merchants sue feds over Illinois card fee law",
+        "reason": "动作门：州级交换费立法的诉讼日程，六类动作无一匹配；与 11-12 对同一立法的判据一致。",
+        "industry": "banking"
+      },
+      {
+        "title": "Fiserv preps debit network sale",
+        "reason": "动作门：资产出售，属并购交易，不在六类动作内。",
+        "industry": "banking"
+      },
+      {
+        "title": "Block’s Cash App weaves payment tech into bandanas",
+        "reason": "范围门：可穿戴配件不是发卡也不是受理终端；与 11-12 Cash App Tags 判据一致。",
+        "industry": "banking"
+      },
+      {
+        "title": "JPMorgan Stops AI Agents From Using Customer Credit Cards",
+        "reason": "动作门：发卡行拦截代理交易的内部政策，无产品、无规范、无落地市场；同题材的 ChatGPT Wallet 已于 11-14 处理。",
+        "industry": "banking"
+      },
+      {
+        "title": "Fed Raises Check Fees as Businesses Keep Writing Them",
+        "reason": "范围门：票据与支票收费，不在卡与凭证链路。",
+        "industry": "banking"
+      },
+      {
+        "title": "Designation of Prosegur Australia Pty Ltd under the Cash Distribution Framework Act 2026",
+        "reason": "范围门：现钞配送与押运的指定，标的是现金而非凭证载体。",
+        "industry": "banking"
+      },
+      {
+        "title": "UQPAY Secures Visa Associate Membership in Australia",
+        "reason": "动作门：只有会员资格获批，无 BIN、无卡产品上线日、无发卡量；补位阶段已标「可能被刷」，未补上缺的具体物。",
+        "industry": "banking"
+      },
+      {
+        "title": "Wegagen Bank and ShebaMiles launch card that earns travel points on purchases",
+        "reason": "动作门：里程联名卡，无卡组织、无发卡量，权益只在积分层；同国上月 Dashen 已发同型卡，非首次或变化。",
+        "industry": "banking"
+      },
+      {
+        "title": "UOB adds UnionPay card and China QR payments",
+        "reason": "范围门：把境外二维码受理装进自家 App 属分销，与 11-13 对 DBS PayLah! 的判据一致；正文未取到，卡产品细节不可核。",
+        "industry": "banking"
+      },
+      {
+        "title": "AviaGames partners Visa for player payouts",
+        "reason": "动作门：走既有 Visa Direct 通道的商户接入，机制未变。",
+        "industry": "banking"
+      },
+      {
+        "title": "Wirex launches Navoka, an AI agent that pays from its own bank account and card",
+        "reason": "事实不可核：原文被 Cloudflare 拦截，与 11-14 同一处置；未核实即不收。",
+        "industry": "banking"
+      },
+      {
+        "title": "Hyundai Card launches new AI-powered credit card model",
+        "reason": "范围门：AI 推荐与数据服务，不是发卡系统或凭证形态；与 11-14 同判据。",
+        "industry": "banking"
+      },
+      {
+        "title": "Mastercard opens Singapore innovation centre of excellence",
+        "reason": "动作门：办公与研发设施投入，不改变卡或受理机制。",
+        "industry": "banking"
+      },
+      {
+        "title": "NYDFS issues virtual currency advertising guidance",
+        "reason": "范围门：虚拟货币广告指引，标的不在卡栈。",
+        "industry": "banking"
+      },
+      {
+        "title": "Uber adds Revolut Pay option",
+        "reason": "动作门：渠道接入，机制未变。",
+        "industry": "banking"
+      },
+      {
+        "title": "RBI consolidates money transfer rules (Domestic Money Transfer Directions, 2026)",
+        "reason": "范围门：现金汇款与 A2A 通道，原文明确把卡到卡转账排除在外。",
+        "industry": "banking"
+      },
+      {
+        "title": "Ecuador regulator issues Resolution JPRFM-2026-048-T on card fraud insurance",
+        "reason": "时效：决议发布 11-06，已出 72 小时窗口。",
+        "industry": "banking"
+      },
+      {
+        "title": "Pomelo Global Card: card programmes in 150+ countries via one integration",
+        "reason": "动作门：访谈稿，无发布日与可核产品节点；且与 11-13 WasabiCard 同型能力，非首次。",
+        "industry": "banking"
+      },
+      {
+        "title": "EBANX and Eneba expand partnership across eight Latin American markets",
+        "reason": "范围门：Pix、SPEI、OXXO 等账户与现金通道扩容，无卡与凭证机制。",
+        "industry": "banking"
+      },
+      {
+        "title": "Millicom compra Entel Perú por US$ 1.714 millones",
+        "reason": "范围门／动作门：运营商并购，与卡栈无关。",
+        "industry": "banking"
+      },
+      {
+        "title": "La caída de Ueno Bank sacude a América Latina",
+        "reason": "范围门：银行倒闭与数据泄露事件，不是发卡、受理或清算机制。",
+        "industry": "banking"
+      },
+      {
+        "title": "Nu llega a 143 millones de clientes en el tercer trimestre",
+        "reason": "动作门：财报口径的客户数，非机制变化。",
+        "industry": "banking"
+      },
+      {
+        "title": "Más de un tercio de clientes obtuvo su primera tarjeta de crédito con Stori",
+        "reason": "动作门：统计口径的渗透率宣传，无发布物。",
+        "industry": "banking"
+      },
+      {
+        "title": "XP app ganha monitoramento de investimentos em tempo real",
+        "reason": "范围门：投资 App 功能，不在卡与受理链路。",
+        "industry": "banking"
+      },
+      {
+        "title": "China’s Singles’ Day Sells Robots, AI Credits and a Little Help Around the House",
+        "reason": "范围门：零售大促观察，与凭证机制无关。",
+        "industry": "banking"
+      },
+      {
+        "title": "Amazon Expands Alexa for Shopping to 15 Countries and Lets Anyone Shop by Text",
+        "reason": "范围门：购物入口扩张，未触及支付凭证或受理终端。",
+        "industry": "banking"
+      },
+      {
+        "title": "IAB Launches New Framework to Track When AI Influences or Completes Purchases",
+        "reason": "范围门：广告效果计量框架，不是支付或卡组织规范。",
+        "industry": "banking"
+      },
+      {
+        "title": "Visa AI 智慧購物評測首輪通過率 56.6%",
+        "reason": "动作门：评测基准无版本号，也未构成认证体系；与同期蓝新那条同源，已单列处理后者。",
+        "industry": "banking"
+      },
+      {
+        "title": "FCC sets key dates for upper C-band auction",
+        "reason": "范围门不过：频谱拍卖排期。AGENTS 明确把频谱拍卖列为「动作合规、标的物不合规」，在范围门即被拦下，不进入动作门判断。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Upper C-band auction gets April 27 start date",
+        "reason": "同上，同一场拍卖的另一家报道；标的是频谱使用权，不落在 SIM 载体、签发、分发、受理任一环节。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Nokia Federal wins DoW contract for ISAC project",
+        "reason": "范围门不过：ISAC（通感一体）属无线接入侧能力，标的是感知与基站设备，与凭证载体、profile 下发、鉴权方式无关。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Verizon Business lights up private 5G across Thames Freeport",
+        "reason": "范围门不过：专网 5G 部署，标的是基站与核心网覆盖，不改变 SIM/eSIM 形态或开户机制；与 11-13 已拦的同一事件同一口径。",
+        "industry": "telecom"
+      },
+      {
+        "title": "T-Mobile execs stay unfazed by SpaceX threat",
+        "reason": "动作门不过：高管对竞争格局的表态，无产品名、无版本号、无金额、无客户，六类动作一类都不贴。",
+        "industry": "telecom"
+      },
+      {
+        "title": "AT&T is rebuilding its network for the AI and autonomous era",
+        "reason": "范围门不过：网络架构与运维自动化的整体叙事，未落到 SIM 载体或鉴权链路；文中的 D2D 切换部分与 2026-11-04-telecom-01 同一场测试。",
+        "industry": "telecom"
+      },
+      {
+        "title": "CableFinder brings T-Mobile for Business to tech advisors through leading TSDs",
+        "reason": "动作门不过：销售渠道变化。按 AGENTS「不能只是销售渠道的变化」，把既有产品挂进另一家分销商属渠道合作。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Anatel suspende ferramenta antispam da TIM",
+        "reason": "范围门不过：反垃圾短信工具被暂停，标的是消息过滤与监管程序，不落载体、签发、分发、受理任一环节；与 11-07 拦 Anatel A2P 短码同一口径。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Millicom compra Entel Perú por US$ 1.714 millones y ya suma 13 mercados en América Latina",
+        "reason": "范围门不过：交易标的是用户合同与牌照，不改变 SIM 载体形态、开通流程或鉴权方式；与 11-14 拦 Telia×Telavox 同一判据。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Starlink crece en las ciudades, pero los datos de Ookla no demuestran que esté conquistando el mercado",
+        "reason": "动作门不过：测速数据与市场份额分析，没有可核的产品、版本、金额或客户变化。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Marinha e Motorola Solutions vão testar rede Mesh para comunicação com navios e drones",
+        "reason": "范围门不过：军用 Mesh 专网试验，属无线接入与组网，不涉及用户凭证；无 SIM 形态、无 profile 下发。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Cisco posts strongest revenue growth in 15 years as AI demand fuels networking rebound",
+        "reason": "范围门不过：设备商财报，AGENTS 明确排除财报类。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Cable One warns of bankruptcy risk as Optimum hits a debt wall",
+        "reason": "范围门不过：运营商财务困境，标的物不在凭证链路。",
+        "industry": "telecom"
+      },
+      {
+        "title": "新西兰航空拉 One NZ 做移动品牌：旅行 eSIM 按行程和中转点配，国内档是预付月付",
+        "reason": "动作门不过：航司品牌 MVNO 加 140 国旅行 eSIM，按「银行或钱包 App 内嵌旅行 eSIM 归渠道与资费」的同一口径拦；原文没写 SM-DP+ 归属、eSIM 供应商与激活量，只有打包方式的变化。11-14 已就 telecompaper 同稿按同一理由拦过一次。",
+        "industry": "telecom"
+      },
+      {
+        "title": "PTA considers reducing voice SIM limit from five to three per CNIC",
+        "reason": "动作门不过：PTA 仅有「原则决定」，要等与运营商磋商后才定稿，没有正式指令、没有生效日、没有文本编号；六类动作无一对得上。当前仍执行 5 语音 + 3 数据的旧上限。",
+        "industry": "telecom"
+      },
+      {
+        "title": "PTA plans to reduce voice SIM limit to three per CNIC, increase data SIM allowance",
+        "reason": "同上一条同一事件，且原文明确写「尚未正式实施」「将在与运营商磋商后敲定」，属预告而非变化。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Mexico passes 100 million prepaid lines linked to identity as the digit-6 deadline arrives",
+        "reason": "动作门不过：预付费实名按号码尾号分十批执行，11-15 是第 7 批（尾号 6）到期，机制自 8-15 起已在运行，既非首次也非变化；CRT 的 1.005 亿条 / 83.3% 是进度数字，不是新规则。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Unregistered SIM cards will be banned in Latvia",
+        "reason": "超窗：Saeima 10-29 三读通过电子通信法修正案，2027-09-01 生效；11-12/13 的再现是聚合器重新索引与二手转载，事件本身距落盘 16 天。11-09 已按同一理由拦过。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Yesim becomes an official member of the GSMA",
+        "reason": "动作门不过：加入行业协会不是认证、不是规范版本落地，也不改变 profile 下发机制；事件在 2026-08，11-12 的报道属复盘。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Yesim joins the GSMA, but operator integration will be the real test",
+        "reason": "同上一条同一事件的分析稿，原文自己写明「GSMA 会员资格不会自动带来运营商接入，也不会把平台变成经认证的 eSIM 方案」。",
+        "industry": "telecom"
+      },
+      {
+        "title": "AT&T and AST SpaceMobile prove seamless satellite-to-cell handoff",
+        "reason": "duplicate-of-2026-11-04-telecom-02：同一场 10-21 在华盛顿州 Granite Falls 完成的天地切换测试（Ericsson 地面侧、Nokia 天基侧、未改装手机），公告 11-12 才发出，本周十余家英文稿均为二次报道，无新增参数。",
+        "industry": "telecom"
+      },
+      {
+        "title": "Cuscal Paymark brings digital age checks to NZ payment terminals",
+        "reason": "已由 banking 行业处理（2026-11-15-banking-01），同一事件按 sources[].url 去重",
+        "industry": "identity"
+      },
+      {
+        "title": "Shufti patents split-inference age assurance with on-device biometrics",
+        "reason": "动作门：专利授权不属于六类动作，既无产品落地参数也无客户，属既有能力的权利化",
+        "industry": "identity"
+      },
+      {
+        "title": "Toppan, BitGo test vLEI identity checks for secure digital asset transfers",
+        "reason": "范围门：vLEI 是法人机构的可验证标识，落在信任服务与企业身份，不在护照/身份证/mDL 的载体、签发、分发、受理任一环节",
+        "industry": "identity"
+      },
+      {
+        "title": "Singapore explores internet domain system to identify and track AI agents",
+        "reason": "范围门：AI 代理的标识与治理，与三类证件链路无关；且仍在探索阶段，无具体机制",
+        "industry": "identity"
+      },
+      {
+        "title": "La caída de Ueno Bank sacude a América Latina",
+        "reason": "范围门：机构倒闭与生物识别数据外泄风险，AGENTS.md 明确排除数据泄露事件",
+        "industry": "identity"
+      },
+      {
+        "title": "Podcast: EU and UK online safety laws keep coming",
+        "reason": "动作门：播客节目，无事件、无具体物",
+        "industry": "identity"
+      },
+      {
+        "title": "World Bank urges governments to build digital wallet ecosystems, not apps",
+        "reason": "范围门与动作门：世行政策倡议与报告，无标的、无承接方、无落地市场",
+        "industry": "identity"
+      },
+      {
+        "title": "EU age assurance study finds privacy risks manageable, costs relatively low",
+        "reason": "动作门：研究报告，无规范版本、无认证落地、无产品",
+        "industry": "identity"
+      },
+      {
+        "title": "Japan built a fortress around MyNumber and left the side doors open",
+        "reason": "动作门：评论文章，无新事件与新文书",
+        "industry": "identity"
+      },
+      {
+        "title": "UK police don't know how much retrospective facial recognition helps: inspection",
+        "reason": "范围门：执法人脸检索的稽查结论，属监控执法，不在证件链路",
+        "industry": "identity"
+      },
+      {
+        "title": "USCIS expands biometrics and identity overhaul into $250 million competition",
+        "reason": "动作门：RFQ 定于 12 月 1 日发布、2027 年 7 月才开始履约，属采购预告而非授标；与 11-05 DHS OBIM 同一类，按预告刷",
+        "industry": "identity"
+      },
+      {
+        "title": "EU takes EES contractors to court as new consortium takes over border system",
+        "reason": "时效门：报道 11 月 9 日，事件为 6 月授标与更早的诉讼，超 72 小时窗口",
+        "industry": "identity"
+      },
+      {
+        "title": "Africa's uncollected national ID cards raise questions about mass issuance",
+        "reason": "动作门：多国未领取证件的盘点分析，无单一事件、无新数字",
+        "industry": "identity"
+      },
+      {
+        "title": "AEPD clarification of GDPR's necessity clause widens door for biometrics",
+        "reason": "动作门：监管解释意见，未改变任何签发或受理机制，也无具体物",
+        "industry": "identity"
+      },
+      {
+        "title": "Brazil's gov.br faces record DDoS attacks as Serpro insists defenses held",
+        "reason": "范围门：网络攻击与防护表态，不落在凭证形态；AGENTS.md 排除安全事件类（除受理端凭证撤回）",
+        "industry": "identity"
+      },
+      {
+        "title": "DHS readies $100M identity access contract as ICEpick leak exposes security stakes",
+        "reason": "动作门：采购预告，与 11-05 同一结论（11-20 发标、单一来源 Dignari），无授标",
+        "industry": "identity"
+      },
+      {
+        "title": "US Democrats prepare to scrutinize federal biometric surveillance",
+        "reason": "范围门：立法监督与政治议程，属监控治理",
+        "industry": "identity"
+      },
+      {
+        "title": "Who sent this agent? Proving the person behind every AI action",
+        "reason": "范围门：AI 代理的责任归属，与企业身份、代理凭证有关，不在三类证件链路",
+        "industry": "identity"
+      },
+      {
+        "title": "Your face is your boarding pass: how biometric identity is redefining travel",
+        "reason": "动作门：专题综述，无单一新事件",
+        "industry": "identity"
+      },
+      {
+        "title": "Making digital identity work takes more than technology",
+        "reason": "动作门：观点文章，无事件与具体物",
+        "industry": "identity"
+      },
+      {
+        "title": "North Korean hackers steal faces for crypto fraud and cyberattacks",
+        "reason": "范围门：身份盗用与诈骗案件，属安全事件，不在凭证载体与机制",
+        "industry": "identity"
+      },
+      {
+        "title": "Privacy-enhancing technologies boom, but adoption lags: OECD",
+        "reason": "范围门：OECD 隐私技术报告，与证件链路无关",
+        "industry": "identity"
+      },
+      {
+        "title": "Google's AI glasses raise questions about enforcing biometric privacy protections",
+        "reason": "范围门：消费硬件的生物识别隐私执法，不在证件链路",
+        "industry": "identity"
+      },
+      {
+        "title": "Biometric defenses put to the test with faster AI face-swap model",
+        "reason": "范围门：攻防测试报道，无认证结果与发证方",
+        "industry": "identity"
+      },
+      {
+        "title": "As automation scales, GLEIF positions vLEI as enabler of secure digital infrastructure",
+        "reason": "范围门：法人可验证标识的行业倡议，同 Toppan×BitGo 一条，不属个人证件链路",
+        "industry": "identity"
+      },
+      {
+        "title": "South Africa expands biometric Smart ID services to 753 bank branches",
+        "reason": "动作门：银行网点受理点数量里程碑，无新凭证形态与机制；本站 11-08 以来已三次同判",
+        "industry": "identity"
+      },
+      {
+        "title": "NIA to begin Ghana Card registration for children in Upper West and Savannah",
+        "reason": "时效门：公告 11 月 11 日 22:05（+08），到发稿已 77 小时，超 72 小时窗口；且为既有登记流程的年龄下探，无卡种、设备与发卡量",
+        "industry": "identity"
+      },
+      {
+        "title": "Romania sets January 2027 start for RO Wallet digital identity app",
+        "reason": "同一事件已由本池 2026-11-15-identity-02 处理，Biometric Update 版本补上了承接方（youniqx Identity）与互操作测试，本信源仅作交叉核对",
+        "industry": "identity"
+      },
+      {
+        "title": "FaceTec and Police & Sheriffs Press put UR Codes on law enforcement ID cards",
+        "reason": "时效门：发布于 10 月 21 日，超 72 小时窗口",
+        "industry": "identity"
+      },
+      {
+        "title": "After divesting LA Wallet, Envoc turns to face-bound credentials with FaceLock",
+        "reason": "时效门：发布于 10 月 21 日，超 72 小时窗口",
+        "industry": "identity"
+      },
+      {
+        "title": "Fime expands eID efforts beyond Europe, including U.S. mDL pilots",
+        "reason": "时效门：发布于 2025 年 9 月 3 日，首页位置易误判为当日稿",
+        "industry": "identity"
+      },
+      {
+        "title": "COOP Jednota verifies 57,000 shoppers with Innovatrics for unstaffed 24/7 stores",
+        "reason": "时效门：发布于 10 月 21 日，超 72 小时窗口",
+        "industry": "identity"
+      },
+      {
+        "title": "DigiSign uses Innovatrics biometrics to extend digital signing beyond Bank iD",
+        "reason": "时效门：发布于 10 月 6 日；且标的为电子签名信任服务，非证件载体",
+        "industry": "identity"
+      },
+      {
+        "title": "Innovatrics earns high-level injection attack detection certification under CEN/TS 18099",
+        "reason": "duplicate-of-2026-11-03-identity-03：同一认证、同一信源，11 月 4 日已发布",
+        "industry": "identity"
+      },
+      {
+        "title": "Poland's ePUAP platform remains offline after cyberattack, with Trusted Profile downtime planned",
+        "reason": "时效门：攻击发生在 11 月 10 日，已超 72 小时；11 月 14–15 日的可信 profile 停机是预告的周末维护，不是新事件",
+        "industry": "identity"
+      },
+      {
+        "title": "Swedish Appeals Court blocks tax agency demands for customers BankID location and IP data",
+        "reason": "动作门：司法裁定划定了签发方提供数据的边界，未改变凭证形态、签发流程或受理机制，六类动作均不成立",
+        "industry": "identity"
+      },
+      {
+        "title": "ROC turns a profit as Intellicheck and BIO-key report third-quarter results",
+        "reason": "动作门：财报与在手合同，AGENTS.md 明确排除财报",
+        "industry": "identity"
+      },
+      {
+        "title": "Banque Internationale à Luxembourg picks Fourthline for digital onboarding checks",
+        "reason": "duplicate-of-2026-11-13-identity-02：同一事件，11 月 13 日已发布",
+        "industry": "identity"
+      },
+      {
+        "title": "Santa Catarina switches on 211 face recognition cameras across 20 Brazilian cities",
+        "reason": "范围门：公共监控摄像头部署，不在证件链路",
+        "industry": "identity"
+      },
+      {
+        "title": "IBM acquires Authmind to watch how AI agents use their credentials",
+        "reason": "范围门与动作门：企业 IAM 与 AI 代理凭证的并购，既不在证件链路，并购也不在六类动作内",
+        "industry": "identity"
+      },
+      {
+        "title": "Fittings maker Maco takes majority stake in fingerprint access firm eKey",
+        "reason": "范围门：门禁指纹设备与股权交易，不在证件链路",
+        "industry": "identity"
+      },
+      {
+        "title": "AI update: U.S. disrupts North Korean fake video call scheme tied to $400 million theft",
+        "reason": "范围门：执法行动与深度伪造诈骗，属安全事件",
+        "industry": "identity"
+      },
+      {
+        "title": "FaceTec's chief identity technology strategist details UR Code solution for healthcare sector",
+        "reason": "动作门：访谈，无新部署与新客户",
+        "industry": "identity"
+      },
+      {
+        "title": "Fold CEO Will Reeves says repeated KYC collection multiplies breach risk",
+        "reason": "动作门：访谈与观点，无事件",
+        "industry": "identity"
+      },
+      {
+        "title": "Troy Group flags birth certificates as a target for document fraud",
+        "reason": "动作门：企业风险提示，无产品、无认证、无客户",
+        "industry": "identity"
+      },
+      {
+        "title": "Device intelligence is no longer a proxy for identity trust",
+        "reason": "动作门：观点文章",
+        "industry": "identity"
+      },
+      {
+        "title": "Kigali to resume e-ID registration and photographing",
+        "reason": "动作门：暂停后的排期恢复，无新凭证形态、无承接方、无设备采购；11-14 已作同判",
+        "industry": "identity"
+      },
+      {
+        "title": "Burkina Faso launches nationwide registration for unique digital ID",
+        "reason": "duplicate-of-2026-11-12-identity-01：同一登记启动（11 月 11 日、12 位号码、966 套设备），11 月 12 日已发布",
+        "industry": "identity"
+      },
+      {
+        "title": "ASEAN signs region-wide digital economy pact in Manila",
+        "reason": "范围门：数字身份只是五大支柱之一，协定未给出任何凭证形态、互认机制或承接方，180 天后才生效",
+        "industry": "identity"
+      }
+    ],
+    "failedSources": [],
+    "costUsd": 0,
+    "migrated": false
+  },
+  {
     "date": "2026-11-14",
     "startedAt": "2026-11-14T02:57:45+08:00",
     "durationMs": 1183996,

@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-15",
+  "startedAt": "2026-11-15T01:50:56+08:00",
+  "finishedAt": "2026-11-15T01:57:12+08:00",
+  "indexCheck": {
+    "file": "content/_raw/2026-11-15.index.json",
+    "exists": true,
+    "fetchedFor": "2026-11-15",
+    "items": 65,
+    "attempts": 1,
+    "note": "一次通过，未等待。fetchedAt 字段为 undefined，65 条全部无 publishedAt，这是当日矩阵计入仅 1 条的直接原因。"
+  },
+  "matrix": {
+    "counted": 1,
+    "dropped": {
+      "published": 0,
+      "expired": 0,
+      "undated": 12,
+      "lowConfidence": 52,
+      "invalid": 0
+    },
+    "gaps": ["cis", "mena", "europe", "north-america", "latam", "africa"],
+    "cellGaps": [
+      { "region": "apac", "industry": "banking" },
+      { "region": "apac", "industry": "telecom" }
+    ],
+    "industryGaps": [
+      {
+        "industry": "banking",
+        "emptyRegions": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"]
+      },
+      {
+        "industry": "telecom",
+        "emptyRegions": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"]
+      },
+      {
+        "industry": "identity",
+        "emptyRegions": ["cis", "mena", "europe", "north-america", "latam", "africa"]
+      }
+    ],
+    "note": "脚本 stdout 为「矩阵已重算：计入 1 条，剔除 已发布 0 / 超窗 0 / 无日期 12 / 低置信 52」。content/_raw/2026-11-15.matrix.json 未落盘（cat 为空），三层缺口以 stdout 为准，未改脚本、未改阈值。industryGaps 三行说明 banking 与 telecom 是七区全断，identity 只差 cis 一区。"
+  },
+  "phases": [
+    {
+      "phase": "R1",
+      "at": "2026-11-15T01:51:43+08:00",
+      "queries": 8,
+      "hits": 0,
+      "note": "六个 gap 区各一条 + apac/banking、apac/telecom 两格各一条，用「区域 + 链路环节产品词」。全空手：apac 两条回旅游 eSIM 站与 SGP.32 厂商页，cis 与 mena 回 Emirates ID 攻略与银行官网首页，europe 回 softPOS 百科，north-america 回 BIN sponsor 科普，latam 回发卡外包软文，africa 回发卡系统供应商页。"
+    },
+    {
+      "phase": "R2",
+      "at": "2026-11-15T01:52:16+08:00",
+      "queries": 7,
+      "hits": 0,
+      "note": "换成具体主体：ICP Emirates ID、CBN 发卡指令、Wero 受理、Kigen-Thales-IDEMIA eUICC、DT-Vodafone-Telefonica iSIM、NPCI-Aadhaar-RuPay、SAMA mada。全部只回机构首页、规则汇编与厂商方案页，无带日期的新闻稿。"
+    },
+    {
+      "phase": "R3",
+      "at": "2026-11-15T01:52:16+08:00",
+      "queries": 6,
+      "hits": 0,
+      "note": "官方一手源六条：licitación、edital licitação、مناقصة、appel d'offres、Ausschreibung、Tenders Electronic Daily。与历史一致，近零产出：只回 freetender、globaltenders、dailytenderalert、biddetail、bidsfactory 等聚合站，标的为 Malawi 反光标识、Ecuador 全息膜、Pakistan 税票、France Tsingoni 社会融入卡，均不构成可核一手授标稿。"
+    },
+    {
+      "phase": "R4",
+      "at": "2026-11-15T01:52:50+08:00",
+      "queries": 6,
+      "hits": 0,
+      "note": "行业垂直媒体六条（GSMA eSA、mDL issuance、paymentscardsandmobile、age assurance、verifiable credential pilot、quantum-safe EMVCo），另用 2 次归档页直读替代 site: 限定：biometricupdate /202611 成功但当日无 11-13 以后的 identity 稿；paymentsindustryintelligence 再次 302 到 http://paymentsindustryintelligence.com/，未重试。"
+    },
+    {
+      "phase": "R5",
+      "at": "2026-11-15T01:52:50+08:00",
+      "queries": 3,
+      "hits": 0,
+      "note": "新兴术语三条（age assurance、verifiable credential pilot、quantum-safe card）与 R4 合并发出，故单列计数 3 条。只回厂商方案页与咨询报告，无带日期的事件。"
+    },
+    {
+      "phase": "R6",
+      "at": "2026-11-15T01:53:10+08:00",
+      "queries": 8,
+      "hits": 0,
+      "note": "区域补充不许原样重发：俄语哈萨克 Stop Account、中文 eSIM 商用、法语非洲 SIM 实名、西语拉美 eSIM、德语 eSIM、阿语 eSIM、X Money 反查、1LINK 与 renascence 原文核验。五条 eSIM 语种查询全部被 slashtel / triposim / mobimatter / etravelsim / esim-now / oneesim / 0xesim 占满，与 memory 记录完全一致；X Money 被证伪（2026-07-27 首次上线），1LINK 与 renascence 两篇超窗。"
+    },
+    {
+      "phase": "补轮",
+      "at": "2026-11-15T01:53:10+08:00",
+      "queries": 9,
+      "hits": 0,
+      "note": "换载体与主体：eUICC 量产、D2D 卫星 SIM、阿语卡发行、葡语巴西发卡、尼日利亚肯尼亚发卡、欧洲收单处理商、美国借记卡项目、印度 eSIM、Air NZ 交叉核验。只出 BTG Pay（11-06 事件，超窗）、BankPro×Thredd（11-10 发布，超窗）、CBN 市场份额新规（条款源自 6 月 circular，事件日错配），三条逐一弃用。"
+    },
+    {
+      "phase": "尾轮",
+      "at": "2026-11-15T01:53:10+08:00",
+      "queries": 10,
+      "hits": 5,
+      "note": "日期锚定四组（telecom / 身份证 / 卡发行 / 认证与受理）+ TechCabal 非洲 + 欧洲本地卡组织两组。产出：Air NZ Mobile（11-12 商用）、Ghana NIA 儿童登记（11-11 声明、11-12 开跑）、Wegagen×ShebaMiles（11-12）、UQPAY 澳洲 Visa 副会员（11-13 14:07）、深圳海关智能缴税终端（11-12，外卡直缴入库，未落盘）；另撞到 PIB Mizoram ASK 与 NADRA 无出生证首办 CNIC，均因无发卡量或无一手稿未采用。Visa×Octopus HK 扫码与 11-10 已发同事件线，剔除。"
+    },
+    {
+      "phase": "追加",
+      "at": "2026-11-15T01:56:45+08:00",
+      "queries": 17,
+      "hits": 1,
+      "note": "补轮之后再发 17 条，全部带日期锚定或本地语：俄语 eSIM、俄语发卡、乌兹别克 ID 卡、西语发卡、葡语发卡、欧洲 MVNO、美区 MVNO、俄语虚拟运营商、Thales/IDEMIA/Kigen 合同、数字身份钱包、SoftPOS/MPoC、西语收单、沙特 eSIM、拉美发卡、CoDi 限额，加 4 次原文核验（Itaú、IDB、Wegagen、RO Wallet）。唯一新增落盘项是罗马尼亚 RO Wallet 时间表（11-12 07:45 EET）；CoDi 因范围门不过被排除。basedOn：全部由上轮命中的「卡发行」「身份证登记」「运营商 MVNO」三条结果推出，换语种与换主体，不重发近义 query。"
+    }
+  ],
+  "queries": {
+    "total": 74,
+    "byRound": { "R1": 8, "R2": 7, "R3": 6, "R4": 6, "R5": 3, "R6": 8, "补轮": 9, "尾轮": 10, "追加": 17 },
+    "archiveReads": 2,
+    "originalFetches": 11,
+    "belowFloor": []
+  },
+  "produced": {
+    "file": "content/_raw/2026-11-15.supplement.json",
+    "items": 5,
+    "cells": ["apac/telecom", "apac/banking", "africa/identity", "africa/banking", "europe/identity"]
+  },
+  "unfilled": [
+    "cis 三行业全空（连续第 8 天）",
+    "mena 三行业全空",
+    "latam 三行业全空",
+    "north-america 三行业全空",
+    "europe/banking、europe/telecom",
+    "africa/telecom",
+    "telecom 只剩 apac 一格被补上，其余六区仍零条"
+  ],
+  "notes": [
+    "当日 raw 只有 1 条能进矩阵，是本月最空的一天：65 条全部无 publishedAt，12 条无日期、52 条置信度低于 0.6。三层缺口同时报出 banking 7/7、telecom 7/7、identity 6/7，属极值日。",
+    "industryGaps 这一层今天比 gaps 更有信息量：identity 只差 cis 一区，说明身份线还有供给，而 banking 与 telecom 是七区全断——只看 gaps 会误判成「三线全崩」。",
+    "日期锚定仍是唯一稳定手法：本轮落盘 5 条里有 3 条来自带引号日期的 query（Air NZ 11-12、Wegagen 11-12、Ghana 11-12）。追加轮里换语种的 17 条只多挖出 1 条，说明缺口不在语种覆盖，而在源侧供给。",
+    "「发布超窗但事件在窗内」这次彻底失效：Itaú（11-07）、IDB 埃及（11-05）、Kigen eSA（11-03）、Eseye（11-02）、Semtech（11-09）、Revolut Mobile 爱尔兰（11-09）六条全在窗外，占 verifiedButDropped 一半。11 月上旬的英文通稿已整体出窗，明天起应把日期锚定推到 13–14 日。",
+    "康涅狄格 Mobile ID 是今天最可惜的一条：11-18 上线、TSA 两个机场可用、明确执法与投票不接受，机制面完整，但公告在 10 月下旬、事件在 11-18，两头都不在窗口，只能进 verifiedButDropped。",
+    "Wegagen 那条与 11-14 supplement 重复投递：当日未被采用，但事件仍在 72 小时窗内（11-12），故照实重报并在 gateNote 里写明。若明天仍未采用，应转 verifiedButDropped 不再占位。"
+  ]
+}

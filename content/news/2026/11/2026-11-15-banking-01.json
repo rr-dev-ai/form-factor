@@ -1,0 +1,97 @@
+{
+  "id": "2026-11-15-banking-01",
+  "slug": "cuscal-paymark-nz-terminal-digital-age-credential",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-15T04:17:40+08:00",
+  "ingestedAt": "2026-11-15T02:31:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/cuscal-paymark-brings-digital-age-checks-to-nz-payment-terminals",
+      "lang": "en",
+      "publishedAt": "2026-11-13T19:43:26+00:00"
+    },
+    {
+      "name": "NZ Herald",
+      "url": "https://www.nzherald.co.nz/business/companies/retail/payment-terminals-will-soon-validate-digital-ids-as-cuscal-paymark-upgrades-system/premium/ZRHCJDSVPRDALLH236PZM6Z4CA/",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "新西兰把年龄凭证读进 POS：终端加一层数字身份",
+    "en": "Cuscal Paymark puts digital age credentials inside New Zealand payment terminals",
+    "es": "Cuscal Paymark lleva credenciales de edad digitales a los terminales de pago neozelandeses"
+  },
+  "summary": {
+    "zh": "新西兰收单网络 Cuscal Paymark 11 月 13 日确认，正把数字年龄凭证的读取能力加进柜台上的支付终端，终端侧由 Skyzer NZ 改造。凭证是新西兰数字钱包里的 Kiwi Access Card，按《数字身份服务信任框架》签发，NEC 与 Hospitality New Zealand 参与发行侧。推广自 2027 年 3 月开始。",
+    "en": "Cuscal Paymark confirmed on 13 November that it is adding digital age-credential reading to the payment terminals already sitting on New Zealand counters, with Skyzer NZ building the capability into its devices. The credential is the Kiwi Access Card held in the national digital wallet, issued under the Digital Identity Services Trust Framework; NEC and Hospitality New Zealand sit on the issuance side. Rollout is due to start in March 2027.",
+    "es": "Cuscal Paymark confirmó el 13 de noviembre que añade la lectura de credenciales de edad digitales a los terminales de pago ya instalados en los comercios neozelandeses, con Skyzer NZ incorporando la capacidad en sus equipos. La credencial es la Kiwi Access Card del monedero digital nacional, emitida bajo el marco de confianza de servicios de identidad digital; NEC y Hospitality New Zealand participan en la emisión. El despliegue empezaría en marzo de 2027."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "同一台机器，多一种读法",
+        "en": "One device, one more thing to read",
+        "es": "Un mismo equipo, una lectura más"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "做法不是另发一台核验机，而是在商户已有的收单终端上加一层能力：消费者在终端上出示数字钱包里的年龄凭证，终端读取并回传结果，付款与验龄在同一个动作里完成。Cuscal 数字身份与数据负责人 Helen Littlewood 的说法是，公司扮演管道角色，「把身份作为一种能力加进那台已经在柜台上的支付终端」。终端侧改造由新西兰终端供应商 Skyzer NZ 承担。",
+        "en": "The approach is not a second verification box at the counter but an extra capability on the acquiring terminal the merchant already runs: the customer presents the age credential from the digital wallet, the terminal reads it and returns a result, so payment and age check happen in one motion. Helen Littlewood, Cuscal’s head of digital identity and data, describes the company as a conduit that is “adding ID as a capability within that payment terminal”. Terminal work is being done by New Zealand terminal supplier Skyzer NZ.",
+        "es": "El planteamiento no es un segundo equipo de verificación en el mostrador sino una capacidad añadida al terminal de adquirencia que el comercio ya tiene: el cliente presenta la credencial de edad de su monedero digital, el terminal la lee y devuelve un resultado, de modo que pago y comprobación de edad ocurren en un solo gesto. Helen Littlewood, responsable de identidad digital y datos de Cuscal, describe a la empresa como un conducto que “añade la identidad como capacidad dentro de ese terminal de pago”. La adaptación la realiza el proveedor neozelandés Skyzer NZ."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "凭证从哪来，什么时候能用",
+        "en": "Where the credential comes from, and when it works",
+        "es": "De dónde sale la credencial y cuándo estará disponible"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "年龄凭证是 Kiwi Access Card 的数字版，按新西兰《数字身份服务信任框架》签发，放在政府数字钱包里；发证与商户侧推广由 NEC 与 Hospitality New Zealand 合作推进。Cuscal Paymark 称相关开发在 Paymark 已做了三年，该公司 2026 年 5 月被澳洲 Cuscal 收购后改用现名。对外口径是 2027 年 3 月起开始推广，未给终端数量、参与商户数或首月目标。",
+        "en": "The age credential is the digital version of the Kiwi Access Card, issued under New Zealand’s Digital Identity Services Trust Framework and held in the government digital wallet, with NEC and Hospitality New Zealand working on issuance and merchant uptake. Cuscal Paymark says the work has run for three years at Paymark, which took its current name after Australia’s Cuscal acquired it in May 2026. The stated plan is to begin rollout in March 2027; no terminal count, merchant number or first-month target was given.",
+        "es": "La credencial es la versión digital de la Kiwi Access Card, emitida bajo el marco de confianza neozelandés y alojada en el monedero digital del gobierno, con NEC y Hospitality New Zealand trabajando en emisión y adopción comercial. Cuscal Paymark afirma que el desarrollo lleva tres años en Paymark, que adoptó el nombre actual tras la compra por la australiana Cuscal en mayo de 2026. El plan anunciado es empezar el despliegue en marzo de 2027; no se dieron número de terminales, comercios ni objetivo del primer mes."
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "同一套凭证在酒店、商超、便利店通用，不绑定单一连锁。",
+          "en": "The same credential is meant to work across hospitality, grocery and convenience formats rather than one chain.",
+          "es": "La misma credencial busca servir a hostelería, supermercados y tiendas de conveniencia, no a una sola cadena."
+        },
+        {
+          "zh": "公告未说明终端侧改造成本由谁承担，也未说明旧机型是否支持。",
+          "en": "The announcement does not say who pays for the terminal upgrade, nor whether older models are supported.",
+          "es": "El anuncio no indica quién asume el coste de adaptar los terminales ni si los modelos antiguos son compatibles."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "把年龄核验塞进收单终端，等于让受理网络多一条不靠卡号的业务线。对新西兰的收单方与终端商，这意味着固件与受理流程要改，改完之后同一台机器既收款又做合规核验，商户不必再单买核验设备，柜台上的硬件从成本项变成能卖服务的位置。对做身份凭证的一方，终端是最难谈的入口——几万台设备分散在几千个商户手里，靠一家终端商统一改比逐店部署现实得多。真正的变量在监管侧：凭证按信任框架签发，终端读到的结果能不能被发牌机关直接采信，决定了这套做法是本地试点还是可复制的模板。",
+    "en": "Putting age checks inside the acquiring terminal gives the acceptance network a second business line that does not run on card numbers. For New Zealand acquirers and terminal vendors it means firmware and acceptance-flow changes, after which one device takes payment and performs a compliance check, so merchants stop buying separate verification hardware and the counter device turns from a cost into a place to sell services. For the credential issuers, terminals are the hardest channel to negotiate: tens of thousands of devices sit with thousands of merchants, and changing them through one terminal vendor is far more practical than store-by-store deployment. The real variable is regulatory: whether a result read at the terminal is accepted outright by licensing authorities decides if this stays a local pilot or becomes a replicable template.",
+    "es": "Meter la verificación de edad en el terminal de adquirencia da a la red de aceptación una segunda línea de negocio que no depende del número de tarjeta. Para adquirentes y proveedores de terminales neozelandeses implica cambios de firmware y de flujo de aceptación: un solo equipo cobra y comprueba cumplimiento, el comercio deja de comprar hardware de verificación aparte y el dispositivo del mostrador pasa de coste a soporte de servicios. Para quienes emiten la credencial, el terminal es el canal más difícil de negociar: decenas de miles de equipos en manos de miles de comercios, y cambiarlos a través de un proveedor es mucho más viable que tienda por tienda. La variable decisiva es regulatoria: que el resultado leído en el terminal sea aceptado por la autoridad licenciante define si esto queda en piloto local o se vuelve plantilla replicable."
+  },
+  "confidence": 0.58,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-banking-2026-11"
+  }
+}

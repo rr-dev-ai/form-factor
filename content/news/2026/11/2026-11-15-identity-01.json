@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-15-identity-02",
+  "slug": "romania-ro-wallet-january-14-launch-youniqx",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "mobile-id",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-15T04:17:40+08:00",
+  "ingestedAt": "2026-11-15T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/romania-sets-january-14-launch-for-national-eudi-wallet",
+      "lang": "en",
+      "publishedAt": "2026-11-13T16:15:05Z"
+    }
+  ],
+  "title": {
+    "zh": "罗马尼亚 RO Wallet 定档 1 月 14 日，用德国技术底座",
+    "en": "Romania sets January 14 launch for RO Wallet on a German tech base",
+    "es": "Rumanía fija el 14 de enero para RO Wallet sobre base tecnológica alemana"
+  },
+  "summary": {
+    "zh": "罗马尼亚内务部把 RO Wallet 排定在 2027 年 1 月 14 日公开发布，iOS 与 Android 同步；12 月 22 日先出 beta，用来赶欧盟给成员国的 12 月期限。首版可存数字身份证件与数字驾照，并提供年龄核验，2 月起加合格证书电子签名与新电子凭证。技术底座沿用德国 EUDI 钱包那套，由奥地利国家印刷厂旗下 youniqx Identity 提供。",
+    "en": "Romania's interior ministry has set January 14, 2027 for the public release of RO Wallet on iOS and Android, with a beta on December 22 to meet the EU's December deadline for member states. The first version stores digital ID credentials and a digital driving licence and offers age verification; qualified electronic signatures and new attestations follow from February. The technical base is the one Germany built for its EUDI wallet, supplied by youniqx Identity under the Austrian State Printing Company.",
+    "es": "El ministerio del Interior de Rumanía fijó el 14 de enero de 2027 para el lanzamiento público de RO Wallet en iOS y Android, con una beta el 22 de diciembre para cumplir el plazo de diciembre de la UE. La primera versión guarda credenciales de identidad y el permiso de conducir digital y ofrece verificación de edad; desde febrero llegan las firmas electrónicas cualificadas y nuevas attestations. La base técnica es la que Alemania construyó para su cartera EUDI, suministrada por youniqx Identity, del grupo Austrian State Printing Company."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "时间表与准入顺序",
+        "en": "The timetable and who gets in first",
+        "es": "El calendario y quién entra primero"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公开发布日定在 2027 年 1 月 14 日，12 月 22 日的 beta 是有限范围，目的是在欧盟给成员国的 12 月期限前先交出一版可用的钱包。首版功能包括存放与出示数字身份证件、数字驾照，以及年龄核验；2 月起按计划加入基于合格证书的电子签名、新的电子凭证与更多数字服务集成。第一批开放的是电子身份证持有人，靠读卡内 NFC 芯片加卡 PIN 远程注册；持经典身份证的人只能走现场身份核验，排在后面。内务部说最小可用产品 12 月送认证，完整认证与所需能力计划在 2027 年 12 月完成。",
+        "en": "The public release is January 14, 2027. The December 22 beta is a limited one, meant to put a working wallet in place before the EU's December deadline for member states. The first version stores and presents digital ID credentials and a digital driving licence and adds age verification; qualified-certificate signatures, new attestations and more service integrations are scheduled from February. Electronic identity card holders go first, enrolling remotely by reading the card's NFC chip together with the card PIN. Holders of the classic identity card can only enrol through in-person identity verification and come later. The ministry expects the minimum viable product to be certified in December, with full certification and required capabilities targeted for December 2027.",
+        "es": "El lanzamiento público es el 14 de enero de 2027. La beta del 22 de diciembre es limitada y busca tener una cartera operativa antes del plazo de diciembre de la UE. La primera versión guarda y presenta credenciales de identidad y el permiso digital y añade verificación de edad; las firmas con certificado cualificado, nuevas attestations y más integraciones llegan desde febrero. Los titulares del documento electrónico entran primero, con registro remoto leyendo el chip NFC y el PIN de la tarjeta. Los titulares del documento clásico solo pueden registrarse con verificación presencial y quedan para después. El ministerio espera certificar el producto mínimo viable en diciembre y completar la certificación en diciembre de 2027."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "谁在做这个钱包",
+        "en": "Who is building it",
+        "es": "Quién construye la cartera"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "罗马尼亚 6 月决定直接沿用德国为 EUDI 钱包搭的技术基础设施，技术来自 youniqx Identity——奥地利国家印刷厂（OSD）的数字子公司。生态分工写明：用户持钱包，内务部既是身份数据（PID）的签发方也是钱包提供方，公共机构与私营企业都可做凭证签发方，另有依赖方，证书机构由特别电信局（STS）承担。内务部的钱包团队 10 月在 EUDI Wallet Launchpad 2026 上做了演示，称与奥地利、捷克、法国、德国、希腊、匈牙利、意大利、拉脱维亚、挪威、波兰、西班牙、乌克兰完成互操作测试，并拿到该活动按成功失败比评出的奖项。",
+        "en": "In June Romania decided to reuse the technical infrastructure Germany built for its EUDI wallet, supplied by youniqx Identity, the digital subsidiary of the Austrian State Printing Company (OSD). The division of roles is explicit: users hold the wallet, the interior ministry is both issuer of person identification data and wallet provider, public bodies and private firms can act as attestation providers, relying parties sit on the other side, and the Special Telecommunications Service (STS) serves as certificate authority. The ministry's wallet team demonstrated RO Wallet at the EUDI Wallet Launchpad 2026 in October, saying it completed interoperability tests with Austria, the Czech Republic, France, Germany, Greece, Hungary, Italy, Latvia, Norway, Poland, Spain and Ukraine, and won the event's award for best success-to-failure ratio.",
+        "es": "En junio Rumanía decidió reutilizar la infraestructura técnica que Alemania construyó para su cartera EUDI, suministrada por youniqx Identity, filial digital de Austrian State Printing Company (OSD). El reparto es explícito: el usuario sostiene la cartera, el ministerio del Interior es emisor de los datos de identificación personal y proveedor de la cartera, organismos públicos y empresas privadas pueden actuar como emisores de attestations, las partes confiables quedan al otro lado y el Servicio Especial de Telecomunicaciones (STS) ejerce de autoridad de certificación. El equipo demostró RO Wallet en el EUDI Wallet Launchpad 2026 en octubre y afirmó haber completado pruebas de interoperabilidad con Austria, Chequia, Francia, Alemania, Grecia, Hungría, Italia, Letonia, Noruega, Polonia, España y Ucrania, además de ganar el premio al mejor ratio éxito-fracaso."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "下一步装什么",
+        "en": "What goes in next",
+        "es": "Lo que viene después"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "内务部说目标是逐步把更多电子凭证装进去，点名了护照、许可证与医保卡。其引用的调查显示，公民最希望钱包承载的三类证件是身份证 96%、驾照 94%、医保卡 92%。这三项都不在首版清单里——首版只有身份证件、驾照与年龄核验，医保卡与护照属于后续阶段。",
+        "en": "The ministry says the goal is to add a wider range of electronic credentials, naming passports, permits and health cards. It cites survey results showing the national ID card, driving licence and health card as the documents citizens most want in the wallet, at 96, 94 and 92 percent. Not all three are in the first release, which covers ID credentials, the driving licence and age verification; the health card and passport belong to later stages.",
+        "es": "El ministerio afirma que el objetivo es incorporar más credenciales electrónicas y menciona pasaportes, permisos y tarjetas sanitarias. Cita una encuesta según la cual el documento nacional, el permiso de conducir y la tarjeta sanitaria son los que más se quieren en la cartera, con un 96, 94 y 92 por ciento. No los tres están en la primera versión, que cubre credenciales de identidad, permiso de conducir y verificación de edad; la tarjeta sanitaria y el pasaporte quedan para fases posteriores."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这条的分量不在日期，在选择。罗马尼亚没有自建钱包技术栈，而是整体接过德国那套、由 youniqx 供货，这与它 10 月能一次跟 12 国跑完互操作测试是同一件事的两面：复用已经过认证的底座，换来的是时间与互操作名单，代价是把钱包的核心实现交给了一个外部供应商和一个外部国家的架构决定。对做 EUDI 相关组件的厂商，这意味着中小成员国的采购窗口正在从「建平台」缩成「接平台」，机会集中在凭证签发方的接入、依赖方的适配与本地化集成，而不是钱包内核。另一个观察点是准入分层：电子身份证持有者能远程开户，经典身份证持有者必须到场核验，同一国家的公民在同一款钱包上被分成两条通道，这条缝会一直留到旧证件退场。",
+    "en": "The weight here is in the choice, not the date. Romania did not build its own wallet stack; it took Germany's wholesale with youniqx supplying it. That is the same fact as its ability to run interoperability tests with twelve countries in one go in October: reusing a certified base buys time and a partner list, at the price of handing the wallet's core implementation to an outside supplier and another country's architectural decisions. For vendors of EUDI components, the procurement window in smaller member states is shrinking from building a platform to plugging into one, which pushes opportunity toward attestation-provider onboarding, relying-party adaptation and local integration rather than the wallet core. The second point is the two-tier intake: electronic ID holders enrol remotely while classic card holders must appear in person, so citizens of one country end up on two different channels inside the same wallet, a gap that stays open until the old card retires.",
+    "es": "El peso está en la elección, no en la fecha. Rumanía no construyó su propia pila: adoptó la alemana con youniqx como suministrador. Ese es el mismo hecho que su capacidad de completar pruebas de interoperabilidad con doce países de una vez en octubre: reutilizar una base certificada compra tiempo y una lista de socios, a cambio de entregar el núcleo de la cartera a un proveedor externo y las decisiones arquitectónicas de otro país. Para los fabricantes de componentes EUDI, la ventana de compra en los Estados miembros pequeños pasa de construir una plataforma a conectarse a una, lo que desplaza la oportunidad hacia el alta de emisores de attestations, la adaptación de partes confiables y la integración local, no el núcleo. El segundo punto es el acceso en dos velocidades: los titulares del documento electrónico se registran en remoto y los del documento clásico deben acudir en persona, de modo que ciudadanos de un mismo país quedan en dos canales dentro de la misma cartera, una brecha que seguirá abierta hasta que la tarjeta antigua se retire."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

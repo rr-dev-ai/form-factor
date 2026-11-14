@@ -1,0 +1,78 @@
+{
+  "fetchedAt": "2026-11-15T01:56:45+08:00",
+  "fetchedFor": "2026-11-15",
+  "gap": ["cis", "mena", "europe", "north-america", "latam", "africa"],
+  "cellGap": ["apac/banking", "apac/telecom"],
+  "industryGap": ["banking", "telecom", "identity"],
+  "items": [
+    {
+      "title": "新西兰航空拉 One NZ 做移动品牌：旅行 eSIM 按行程和中转点配，国内档是预付月付",
+      "url": "https://liftvector.co.nz/story/air-new-zealand-launches-mobile-service-with-one-nz",
+      "publishedAt": "2026-11-12T12:00:00+13:00",
+      "industry": "telecom",
+      "region": "apac",
+      "actionType": "联合部署",
+      "gateNote": "差分发侧的归属与规模：One NZ 只被写成「提供连接基础设施」，没说是哪家 SM-DP+ 下发 profile、有没有 MVNE 在中间跑计费，也没有用户数或激活量。若终审要「新凭证形态或新受理面」，这条会被判为航司把品牌套在现成旅行 eSIM 转售上；能立住的是同一天两个产品层同时开卖、且 eSIM 按航段与中转点配置这个做法。",
+      "discoveredBy": "尾轮 \"12 November 2026\" OR \"13 November 2026\" eSIM SIM launch operator network",
+      "note": "落在分发（eSIM profile 下发）与受理（One NZ 网络）两端。机制变化在配置方式：旅行档按旅客行程与日期下单，把中转点也纳入覆盖，登机前装好、落地即用，覆盖 140 多个目的地；国内档是预付月付，语音、短信、数据跑 One NZ 网络，向本地用户卖。可核事实：对任意运营商用户开放，12 日商用。原文没说的：eSIM 供应商、两档定价、激活量目标，以及是否自建计费。"
+    },
+    {
+      "title": "UQPAY 拿到澳大利亚 Visa 副会员资格，要把卡支付接进自家多币种账户",
+      "url": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniyqncx1018253.shtml",
+      "publishedAt": "2026-11-13T14:07:00+08:00",
+      "industry": "banking",
+      "region": "apac",
+      "actionType": "产品化节点",
+      "gateNote": "差发卡与受理：只有会员资格获批，没有 BIN、没有卡产品上线日、没有发卡量、没有收单侧。原文用「将遵循适用监管要求、Visa 规则及审批程序推进」把落地时间全部留白。若终审按「必须已有可核交付物」卡，这条会判为资质类公告；可立的是主体身份变了——从转售别人 BIN 的聚合服务商变成卡组织成员。",
+      "discoveredBy": "尾轮 Mastercard OR Visa certification terminal acceptance launch \"13 November 2026\"",
+      "note": "落在签发层：拿到的是 Visa 澳大利亚 Associate Membership，为后续以本地 BIN 发卡打开通道，前提是接上已在当地运营的 UMA 多币种账户与跨境付款、外汇服务。机制变化在主体身份而非产品：卡从「转售他人 BIN」变成自有会员资格下的发行能力。原文没说的：是否同时含 Mastercard、发卡主体落在哪家持牌实体、上线时间表与目标发卡量，均以「正式公布的产品安排为准」带过。"
+    },
+    {
+      "title": "加纳把 Ghana Card 登记下探到 6–14 岁：上西与萨凡纳两区开学逐校采集",
+      "url": "https://www.isd.gov.gh/nia-begins-ghana-card-registration-for-children-in-upper-west-and-savannah",
+      "publishedAt": "2026-11-11T12:00:00+00:00",
+      "industry": "identity",
+      "region": "africa",
+      "actionType": "联合部署",
+      "gateNote": "差凭证形态与供应商：这是既有登记流程的年龄下探，没有新卡种、没有新芯片或 inlay 供应商、没有采集设备招标，也没有发卡量目标。若终审要「首次或变化」，唯一能立住的是把 6–14 岁纳入同一个 12 位号码体系，并把学校当成采集入口。若按「必须有承接方或设备」卡，会被刷掉。",
+      "discoveredBy": "尾轮 \"12 November 2026\" OR \"13 November 2026\" national ID card launched enrolment biometric",
+      "note": "落在签发环节。机制变化三点：采集入口从登记中心改为逐校推进，每日 08:00–17:00；举证链允许以 Oath of Identity 替代出生证，无亲属者由两名社会福利官宣誓作保；呈送人须为持有效 Ghana Card 的成年加纳公民，虚报属刑事罪。此前 Volta、Oti、Northern、Upper East、North-East 五区已完成。原文没说的：发卡量目标与制卡供应商。"
+    },
+    {
+      "title": "Wegagen 与埃航 ShebaMiles 发联名卡，里程只认本行 726 台 POS 的消费",
+      "url": "https://abaytimes.com/business/wegagen-bank-and-shebamiles-launch-card-that-earns-travel-points-on-purchases",
+      "publishedAt": "2026-11-13T12:00:00+03:00",
+      "industry": "banking",
+      "region": "africa",
+      "actionType": "联合部署",
+      "gateNote": "与 11-14 supplement 同一条，当日未被采用，事件仍在 72 小时窗内（事件 11-12、发布 11-13）。仍差卡组织与发卡量：全文没写走 Visa 还是 Mastercard，权益只在里程积分这一层，没有新凭证形态。若无卡组织与发卡量，终审很可能按渠道合作刷掉。",
+      "discoveredBy": "尾轮 \"12 November 2026\" OR \"13 November 2026\" card payment scheme launch issuer",
+      "note": "落在发卡与受理两端。机制变化很小：把航司里程直接绑在本行 POS 的消费流水上，开卡送 50 里程，申请走手机银行、网点取卡，没有新的凭证形态。可核规模来自银行自身：457 家网点、400 台 ATM、726 台 POS、13,157 个代理。原文没说的：卡组织、发卡量、里程兑换比率、是否支持非接与线上。上月 Dashen 银行已发同型 Platinum Mastercard 联名卡。"
+    },
+    {
+      "title": "罗马尼亚定下 RO Wallet 时间表：明年 1 月先开电子身份证远程注册，旧证要等三季度",
+      "url": "https://pollar.news/en/event/ro-wallet-starts-january-2027",
+      "publishedAt": "2026-11-12T07:45:00+02:00",
+      "industry": "identity",
+      "region": "europe",
+      "actionType": "产品化节点",
+      "gateNote": "差承接方与授标：只给了时间表和准入顺序，没有中标厂商、没有合同金额、没有钱包技术栈，内务部自研还是采购未写明。若终审要「授标或标准落地」，这条只能算政府排期；能立的是 EUDI 钱包第一次给出可注册的具体年月与分层顺序。",
+      "discoveredBy": "追加轮 \"12 November 2026\" OR \"13 November 2026\" digital ID wallet launch government app",
+      "note": "落在签发与分发：钱包由内务部按 eIDAS 2 建设，2027 年 1 月先对电子身份证（CEI）持有人开放，靠 NFC 读卡内芯片加卡 PIN 远程注册；持旧式身份证者要等到 2027 年三季度且须现场核身。可核事实：12 日内阁会议定档，官方口径是可在罗马尼亚与全欧盟在线或离线证明身份，并支持电子签名。原文没说的：预算、承建方、是否复用现有 eID 中间件。"
+    }
+  ],
+  "verifiedButDropped": [
+    "康涅狄格 Mobile ID（11-18 上线，NBC Boston / The Day / Government Technology）：公告在 10 月下旬，事件在 11-18，两端都不在窗内",
+    "Google Fi Super Network「一张 eSIM 同时跑两家 5G」（11-10 公布）：与 11-12 已发 2026-11-12-telecom-03 同一事件线，剔除",
+    "Revolut Mobile 爱尔兰 eSIM-only 服务（11-09 商用，沃达丰供网、RevPoints 抵账单）：事件超窗 6 天",
+    "Itaú World Legend Exclusive Mastercard（Seu Dinheiro 11-07，年费 1.2 万雷亚尔）：超窗",
+    "IDB 埃及 × ElTarek 联名 Mastercard（官网 11-05）：超窗",
+    "Kigen 车用 eSIM 过 GSMA eSA、对齐 SGP.32 v1.3（11-03）：超窗",
+    "Eseye AnyNet Select（11-02）、Semtech SGP.32 Smart Connectivity Premium（11-09）：均超窗，两条都是 SGP.32 商用的好料",
+    "墨西哥多家银行 11 月上半月上线 CoDi 扫码、N2 Bis 限额 2.5 万升至 13.5 万比索：账户到账户转账码，不在卡/SIM/证件三条凭证链路上，范围门不过，且无一手公告日期",
+    "加纳 Heritage Series 新钞（11-12 首发，小尺寸、增强防伪）：现钞改版，标的物不在凭证链路",
+    "乌兹别克斯坦取消遗失护照/ID 卡罚款：源自 7 月总统令、10 月为办理期限，非本周事件",
+    "EBANX × Eneba 拉美八国支付扩容（11-13）：标的是 Pix、SPEI、OXXO 等账户与现金通道，无卡与凭证",
+    "乌兹别克斯坦与哈萨克斯坦商谈凭 ID 卡过境、QazETA 便利化（11-11 会谈）：只是磋商，无签署、无生效日"
+  ]
+}
