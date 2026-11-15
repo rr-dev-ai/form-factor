@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-15T20:20:19.921Z",
+  "renderer": 1,
+  "items": {
+    "bakong-global-visa-mastercard-virtual-cards": {
+      "zh": {
+        "file": "audio/zh/bakong-global-visa-mastercard-virtual-cards.ec822c50.mp3",
+        "hash": "ec822c50",
+        "bytes": 1655757,
+        "duration": 137.89,
+        "voice": "zm_010",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/bakong-global-visa-mastercard-virtual-cards.9198a628.mp3",
+        "hash": "9198a628",
+        "bytes": 1637901,
+        "duration": 136.411,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/bakong-global-visa-mastercard-virtual-cards.c99a1b95.mp3",
+        "hash": "c99a1b95",
+        "bytes": 1720557,
+        "duration": 143.29,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "costa-rica-digital-id-mandatory-acceptance-2027": {
+      "zh": {
+        "file": "audio/zh/costa-rica-digital-id-mandatory-acceptance-2027.2d75de8f.mp3",
+        "hash": "2d75de8f",
+        "bytes": 2570445,
+        "duration": 214.125,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/costa-rica-digital-id-mandatory-acceptance-2027.b6b1a88c.mp3",
+        "hash": "b6b1a88c",
+        "bytes": 2060109,
+        "duration": 171.577,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/costa-rica-digital-id-mandatory-acceptance-2027.c571cd78.mp3",
+        "hash": "c571cd78",
+        "bytes": 2233197,
+        "duration": 186.01,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "weixin-pay-pix-qr-brazil-travelers": {
+      "zh": {
+        "file": "audio/zh/weixin-pay-pix-qr-brazil-travelers.be2e5071.mp3",
+        "hash": "be2e5071",
+        "bytes": 1530765,
+        "duration": 127.465,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/weixin-pay-pix-qr-brazil-travelers.676a3efd.mp3",
+        "hash": "676a3efd",
+        "bytes": 1552941,
+        "duration": 129.323,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/weixin-pay-pix-qr-brazil-travelers.c9481930.mp3",
+        "hash": "c9481930",
+        "bytes": 1600749,
+        "duration": 133.315,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    }
+  }
+}

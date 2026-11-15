@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-15T20:16:03.872Z",
+  "selected": [
+    {
+      "industry": "identity",
+      "slug": "costa-rica-digital-id-mandatory-acceptance-2027",
+      "score": 0.74,
+      "reason": "region-floor",
+      "region": "latam",
+      "sourceDate": "2026-11-16"
+    },
+    {
+      "industry": "banking",
+      "slug": "weixin-pay-pix-qr-brazil-travelers",
+      "score": 0.7,
+      "reason": "manual",
+      "region": "latam",
+      "sourceDate": "2026-11-13"
+    },
+    {
+      "industry": "banking",
+      "slug": "bakong-global-visa-mastercard-virtual-cards",
+      "score": 0.55,
+      "reason": "manual",
+      "region": "apac",
+      "sourceDate": "2026-11-15"
+    }
+  ],
+  "alternates": [],
+  "expired": [
+    {
+      "slug": "travelport-mastercard-agentic-flight-booking-verifiable-intent",
+      "eventAt": "2026-11-12T00:00:00.000Z",
+      "hours": 92
+    }
+  ],
+  "gaps": [
+    {
+      "region": "cis",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "mena",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "europe",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "north-america",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "africa",
+      "note": "池内 0 条"
+    }
+  ],
+  "unaccounted": [],
+  "conflicts": [
+    {
+      "kind": "undated",
+      "detail": "banking/weixin-pay-pix-qr-brazil-travelers 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolvedNote": "原文 Plataforma Media 2026-11-13（PR Newswire 广州 11-13 电），距截稿约 68h，补 publishedAt 后 manual 调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/bakong-global-visa-mastercard-virtual-cards 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolvedNote": "PR Newswire 2026-11-15 18:00 CST = 10:00Z，距截稿约 10h，补 publishedAt 后 manual 调入，填 apac"
+    }
+  ]
+}

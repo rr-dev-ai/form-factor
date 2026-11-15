@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-16-identity-01",
+  "slug": "costa-rica-digital-id-mandatory-acceptance-2027",
+  "industry": "identity",
+  "region": "latam",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "mobile-id",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-16T04:17:46+08:00",
+  "ingestedAt": "2026-11-16T03:10:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "The Tico Times",
+      "url": "https://ticotimes.net/2026/11/13/costa-rica-digital-id-must-be-accepted-2027",
+      "lang": "en",
+      "publishedAt": "2026-11-13T21:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "哥斯达黎加 2027 年起强制接受手机身份证",
+    "en": "Costa Rica makes digital ID mandatory to accept from 2027",
+    "es": "Costa Rica obliga a aceptar el DNI digital desde 2027"
+  },
+  "summary": {
+    "zh": "哥斯达黎加最高选举法院把 2027 年 1 月 1 日定为强制受理日：银行、政府部门与商户对任何需要验明身份的手续，必须接受手机版身份证 IDC，不得再以证件在手机里为由拒绝。该凭证与实体卡同等法律效力，2025 年 9 月上线后一直由机构自愿接受，截至 11 月 1 日有 107,243 人申领。",
+    "en": "Costa Rica's Supreme Electoral Tribunal has set January 1, 2027 as the date from which banks, government agencies and businesses must accept the digital identity (IDC), the smartphone version of the national ID card, for any procedure that requires identification. The credential carries the same legal force as the plastic card; since its September 2025 launch institutions could accept it or not, and 107,243 people had requested one by November 1.",
+    "es": "El Tribunal Supremo de Elecciones de Costa Rica fijó el 1 de enero de 2027 como fecha desde la cual bancos, instituciones públicas y comercios deberán aceptar la Identidad Digital Costarricense (IDC), la versión móvil de la cédula, en todo trámite que exija identificarse. La credencial tiene la misma validez legal que la tarjeta física; desde su lanzamiento en septiembre de 2025 su aceptación era potestad de cada institución, y al 1 de noviembre la habían solicitado 107.243 personas."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "从可以拒收到必须接受",
+        "en": "From optional to obligatory",
+        "es": "De opcional a obligatorio"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "变化落在受理端，不在签发端。最高选举法院（TSE）说，2027 年 1 月 1 日起，机构不得仅因为证件显示在手机上就拒绝；适用范围是需要证明身份的任何交易或手续，从银行开户到行政办理、再到各类需要出示证件的服务。实体卡继续签发、继续被接受，数字版不取代它。这套凭证 2025 年 9 月 9 日就已上线，此前是否接受由各机构自行决定，同一个人在同一条街上可能被两家网点区别对待。",
+        "en": "The change sits on the acceptance side. From January 1, 2027, institutions may no longer turn the credential away simply because it appears on a phone, the Supreme Electoral Tribunal (TSE) says. It applies to any transaction or procedure that requires proving identity, from opening an account to administrative paperwork to any service that asks for a document. The plastic card keeps being issued and accepted; the digital version does not replace it. The credential has existed since September 9, 2025, and until now each institution decided whether to take it, so the same person could be treated differently by two branches on the same street.",
+        "es": "El cambio está en la aceptación. Desde el 1 de enero de 2027 las instituciones no podrán rechazarla por el hecho de mostrarse en un teléfono, según el Tribunal Supremo de Elecciones (TSE). Aplica a cualquier trámite que exija acreditar identidad, desde abrir una cuenta hasta papeleo administrativo o cualquier servicio que pida documento. La tarjeta física se sigue emitiendo y aceptando; la versión digital no la sustituye. La credencial existe desde el 9 de septiembre de 2025 y hasta ahora cada institución decidía si la admitía, de modo que una misma persona podía recibir trato distinto en dos sucursales de la misma calle."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "凭证怎么发、怎么验",
+        "en": "How it is issued and checked",
+        "es": "Cómo se emite y se comprueba"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "申请人走 TSE 网站 tse.go.cr/idc，输入身份证号、完成一次身份核验、留邮箱，用 Visa 或 Mastercard 付 2,600 科朗（约 5.8 美元），有效期四年，老年人免收。批准后在官方 IDC-Ciudadano 应用里激活，使用时凭个人 PIN 加人脸识别；人脸与本人最近一次办理实体证件时采集的生物特征比对。只对哥斯达黎加公民开放，首次办证者必须先拿到实体卡，且名下不能有待领取的证件。实体卡在 TSE 总部与 32 个地区办事处免费办理，只有超过年度补办上限才收费。",
+        "en": "Applicants use the TSE site at tse.go.cr/idc: enter the ID number, pass an identity check, leave an email address and pay 2,600 colones (about USD 5.80) with a Visa or Mastercard. The credential lasts four years and is free for senior citizens. Once approved it is activated in the official IDC-Ciudadano app and used with a personal PIN plus facial recognition, matched against the biometrics captured at the holder's most recent in-person ID procedure. It is open to Costa Rican citizens only, first-time applicants must obtain the plastic card first, and no document may be awaiting collection in the applicant's name. Physical cards remain free at TSE headquarters and its 32 regional offices, with a fee only beyond the annual limit on duplicate replacements.",
+        "es": "El solicitante entra al sitio del TSE, tse.go.cr/idc, digita el número de cédula, supera una verificación de identidad, deja un correo y paga 2.600 colones (unos 5,80 dólares) con Visa o Mastercard. La credencial dura cuatro años y es gratuita para adultos mayores. Aprobada, se activa en la app oficial IDC-Ciudadano y se usa con PIN personal y reconocimiento facial, cotejado contra la biometría captada en el último trámite presencial. Solo está abierta a ciudadanos costarricenses, quien tramita su primera cédula debe obtener antes la tarjeta física y no puede tener un documento pendiente de retiro. La tarjeta física sigue siendo gratuita en la sede del TSE y sus 32 oficinas regionales, con cobro solo al superar el límite anual de reposiciones."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "柜台上的两种形态",
+        "en": "Two formats at the same counter",
+        "es": "Dos formatos en la misma ventanilla"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "TSE 说截至 2026 年 11 月 1 日有 107,243 人申领，相对全国成年人口仍是小比例。这意味着强制受理日之后的一段时间里，同一柜台要同时处理手机出示与实体卡，机构既不能拒收前者，也不能假定来人都已持有。对银行与商户的具体含义是：柜面与网点要能读出手机证件里的信息、确认它不是截图或翻拍，并把这次核验留成可追溯的证据。",
+        "en": "The TSE counted 107,243 requests as of November 1, 2026, still a small share of the adult population. So for a stretch after the mandate takes effect, one counter handles both a phone and a plastic card, and staff can neither refuse the former nor assume every customer holds one. In practice that means branches and shops need to read what the phone presents, tell a live credential from a screenshot or a photograph of one, and keep a traceable record of that check.",
+        "es": "El TSE contabilizó 107.243 solicitudes al 1 de noviembre de 2026, aún una fracción menor de la población adulta. Por eso, durante un tiempo tras la obligación, una misma ventanilla atenderá teléfono y tarjeta, sin poder rechazar el primero ni suponer que todos lo tienen. En la práctica, sucursales y comercios deben leer lo que presenta el teléfono, distinguir una credencial viva de una captura o una foto de pantalla, y dejar registro trazable de esa comprobación."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "分量在受理端，不在签发端。数字身份证 2025 年就发出去了，卡住它的是机构可以拒收这一步；法律效力与强制受理同时到位后，压力从 TSE 转到银行、商户和政府窗口——它们有一个明确的截止日，要把读证、验真、留证的流程做出来，否则合规风险自己承担。对供应商这是一次带日期的采购窗口：柜面读码、手机端出示流程、与人脸比对绑定的核验服务，都会跟着强制受理日走。放到拉美看，哥斯达黎加走的是先发证、再强制受理，顺序与巴西、秘鲁先换发新证件再谈受理相反，所以它的增量需求集中在受理侧，而不是制证与个性化设备。",
+    "en": "The weight sits on acceptance, not issuance. Costa Rica has handed out the digital ID since 2025; what held it back was institutional discretion to refuse. Legal equivalence plus mandatory acceptance moves the burden from the TSE to banks, merchants and government counters, which now face a fixed date to build reading, authenticity checking and record-keeping, or carry the compliance risk themselves. For vendors it is a dated procurement window: counter-side reading, phone presentation flows and checks bound to a face match all follow the mandate. Regionally, Costa Rica runs issue-first, mandate-acceptance-second, the reverse of Brazil and Peru, which replaced the document before settling acceptance. That puts incremental demand on the acceptance side rather than on card production and personalisation equipment.",
+    "es": "El peso está en la aceptación, no en la emisión. Costa Rica entrega la identidad digital desde 2025; lo que la frenaba era la facultad de las instituciones de rechazarla. Equipararla legalmente y volver obligatoria su aceptación traslada la carga del TSE a bancos, comercios y ventanillas públicas, que ahora tienen una fecha fija para construir lectura, verificación de autenticidad y registro, o asumir el riesgo de cumplimiento. Para los proveedores es una ventana de compra con fecha: lectura en mostrador, flujos de presentación en el teléfono y comprobaciones ligadas a la comparación facial siguen al mandato. En la región, Costa Rica aplica primero emitir y después obligar a aceptar, al revés que Brasil y Perú, que sustituyeron el documento antes de resolver la aceptación. Eso concentra la demanda incremental en el lado de la aceptación y no en la producción de tarjetas y su equipamiento de personalización."
+  },
+  "confidence": 0.74,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

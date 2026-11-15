@@ -1,0 +1,419 @@
+{
+  "date": "2026-11-16",
+  "industry": "banking",
+  "startedAt": "2026-11-16T02:30:00+08:00",
+  "drafts": [
+    {
+      "id": "2026-11-16-banking-03",
+      "slug": "travelport-mastercard-agentic-flight-booking-verifiable-intent",
+      "industry": "banking",
+      "region": "global",
+      "regions": [],
+      "tags": [
+        "acquiring",
+        "tokenization"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "Travelport",
+          "url": "https://www.travelport.com/press-releases/travelport-booked-ai-basis-theory-and-mastercard-complete-live-end-to-end-agentic-flight-purchase",
+          "lang": "en",
+          "publishedAt": "2026-11-12T00:00:00+00:00"
+        },
+        {
+          "name": "The Paypers",
+          "url": "https://thepaypers.com/payments/news/travelport-and-mastercard-complete-live-agentic-flight-booking",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "代理订票跑通全链路：航司仍是商户，卡号不进代理",
+        "en": "Agent books and pays for a flight end to end, airline stays merchant",
+        "es": "Un agente reserva y paga un vuelo de punta a punta y la aerolínea sigue siendo comercio"
+      },
+      "summary": {
+        "zh": "Travelport、Booked AI、Basis Theory 与万事达 11 月 12 日在伦敦宣布完成一笔端到端代理订票支付：AI 代理经 Travelport TripServices 取航司 NDC 报价，客户确认后由 Mastercard Agent Pay 用令牌化凭证付款，卡号存于 Basis Theory 的 PCI 保险库、未进代理；Verifiable Intent 把客户授权与交易绑定，航司全程为商户。",
+        "en": "Travelport, Booked AI, Basis Theory and Mastercard said on 12 November in London that they completed an end-to-end agentic booking and payment: an AI agent pulled an airline NDC offer through Travelport TripServices, the customer confirmed, and Mastercard Agent Pay paid with a tokenised credential held in Basis Theory’s PCI vault, never exposed to the agent; Verifiable Intent bound the customer’s approval to the transaction, with the airline as merchant throughout.",
+        "es": "Travelport, Booked AI, Basis Theory y Mastercard anunciaron el 12 de noviembre en Londres una reserva y pago agénticos de punta a punta: un agente de IA tomó una oferta NDC de una aerolínea vía Travelport TripServices, el cliente confirmó y Mastercard Agent Pay pagó con una credencial tokenizada guardada en la bóveda PCI de Basis Theory, sin exponerla al agente; Verifiable Intent vinculó la aprobación del cliente a la transacción y la aerolínea mantuvo el rol de comercio."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "授权先落，付款才放行",
+            "en": "Approval first, payment second",
+            "es": "Primero la aprobación, después el pago"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "流程是：客户在对话里确认航班与票价，代理发起付款，万事达用令牌化凭证完成授权，Basis Theory 的 PCI 合规保险库持有底层卡凭证。新增的一层是 Verifiable Intent——它把客户点过的那次确认与这笔交易绑定，交易要素与授权不符就不放行，后续任何消费都要重新获批。公告称，这样一来代理既拿不到卡号，也无法把一次授权挪用到另一次购买上。",
+            "en": "The sequence: the customer confirms flight and fare in the conversation, the agent initiates payment, Mastercard authorises with a tokenised credential, and Basis Theory’s PCI-compliant vault holds the underlying card credential. The new layer is Verifiable Intent, which binds the specific approval the customer gave to that transaction; a mismatch between transaction and approval blocks the payment, and any further purchase needs fresh consent. The release says this keeps the card number out of the agent’s reach and stops one approval being reused for another purchase.",
+            "es": "La secuencia: el cliente confirma vuelo y tarifa en la conversación, el agente inicia el pago, Mastercard autoriza con una credencial tokenizada y la bóveda PCI de Basis Theory custodia la credencial subyacente. La capa nueva es Verifiable Intent, que vincula la aprobación concreta del cliente a esa transacción; si los datos no coinciden, el pago no pasa, y cualquier compra posterior exige consentimiento nuevo. Según el anuncio, así el número de tarjeta queda fuera del alcance del agente y una aprobación no sirve para otra compra."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "航司没被绕成第三方",
+            "en": "The airline is not disintermediated",
+            "es": "La aerolínea no queda desplazada"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "整笔交易走的是航司既有的 NDC 与支付轨道，出票在 Travelport 与航司系统内完成，中间没有额外的收银台，航司自始至终是 merchant of record——这正是与「把订票搬到代理平台、由平台代收」的差别。公告强调航线来自一家大型国际承运人，但未点名，也未说明这套能力何时商用。同周联合航空宣布限制未经授权的第三方 AI 代理访问其系统，两家对代理渠道的态度正好相反。",
+            "en": "The whole transaction ran on the airline’s existing NDC and payment rails, with ticketing handled inside Travelport’s and the airline’s systems and no intermediate checkout, so the airline stayed merchant of record throughout — the difference from models that move booking onto an agent platform which collects on its own account. The release says the itinerary came from a major international carrier but does not name it, and gives no commercial availability date. In the same week United Airlines said it would restrict unauthorised third-party AI agents from its systems, the opposite stance on the same channel.",
+            "es": "Toda la operación corrió sobre los rieles NDC y de pago que la aerolínea ya usaba, con el billete emitido dentro de los sistemas de Travelport y de la aerolínea y sin caja intermedia, de modo que la aerolínea fue comercio registrado de principio a fin: la diferencia con modelos que trasladan la reserva a una plataforma de agentes que cobra por cuenta propia. El comunicado dice que el itinerario vino de una gran aerolínea internacional, sin nombrarla, y no da fecha de disponibilidad comercial. La misma semana United Airlines anunció que restringiría el acceso de agentes de IA de terceros no autorizados, la postura opuesta sobre el mismo canal."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "这条把代理支付从「钱包侧发令牌」推进到「商户侧认授权」。此前 ChatGPT Wallet 与 Mastercard Agent Pay 的落点多在钱包或平台，商户只是被动接受一个看不见的持卡人；这次是航司在自己的 NDC 与收单轨道上完成交易，并由 Verifiable Intent 把「客户批准了什么」变成可校验的对象。对收单行与商户系统集成商，这意味着授权报文里要多带一层意图凭证，拒付争议的举证责任也会跟着变——过去争的是持卡人有没有授权，以后要争的是这笔交易是否落在授权范围内。对 GDS 与航司，意义在于证明代理渠道不必牺牲商户身份，这决定了它们愿不愿意把内容开放给代理。缺口是规模：一笔交易，承运人未具名，商用时间未定，也没有失败率与拒付数据。真正的问题在规则层——卡组织的争议处理至今仍按人类持卡人设计，代理交易的责任怎么分，Visa 与万事达都还没定稿。",
+        "en": "This moves agentic payment from “the wallet issues a token” to “the merchant verifies the mandate.” Earlier launches — ChatGPT Wallet, Mastercard Agent Pay deployments — landed on the wallet or platform side, with merchants passively accepting a cardholder they cannot see; here the airline completes the transaction on its own NDC and acquiring rails, and Verifiable Intent turns “what the customer approved” into something checkable. For acquirers and merchant systems integrators that means an intent credential travelling alongside the authorisation message, and a shift in chargeback evidence: the question used to be whether the cardholder authorised anything, and becomes whether this transaction fell inside what was authorised. For GDSs and airlines the point is proving the agent channel need not cost them merchant status, which decides whether they open content to agents at all. The gap is scale: one transaction, an unnamed carrier, no commercial date, no chargeback data. The harder problem sits in the rules — scheme dispute processes are still designed around a human cardholder, and neither Visa nor Mastercard has finalised liability allocation for agent-initiated transactions.",
+        "es": "Esto lleva el pago agéntico de “el monedero emite un token” a “el comercio verifica el mandato”. Los lanzamientos anteriores —ChatGPT Wallet, los despliegues de Mastercard Agent Pay— aterrizaron del lado del monedero o la plataforma, con el comercio aceptando a un titular que no ve; aquí la aerolínea cierra la operación sobre su propio NDC y su adquirencia, y Verifiable Intent convierte “lo que el cliente aprobó” en algo comprobable. Para adquirentes e integradores de sistemas del comercio supone una credencial de intención que viaja junto al mensaje de autorización y un cambio en la prueba de los contracargos: antes se discutía si el titular autorizó algo, ahora si esta operación cayó dentro de lo autorizado. Para GDS y aerolíneas, la clave es demostrar que el canal de agentes no les cuesta la condición de comercio, lo que decide si abren su contenido a los agentes. La laguna es la escala: una operación, una aerolínea sin nombrar, sin fecha comercial y sin datos de fallos ni contracargos. El problema duro son las reglas: los procesos de disputa siguen diseñados para un titular humano y ni Visa ni Mastercard han cerrado el reparto de responsabilidad en operaciones con agentes."
+      },
+      "confidence": 0.6,
+      "ai": {
+        "model": "deepseek-v4.1-flash",
+        "promptVersion": "editor-banking-2026-11"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Commerzbank, Deutsche Bank and German Savings Banks Association establish joint venture to combat financial crime",
+      "url": "https://www.commerzbank.de/group/newsroom/press-releases/2026/20261111-pm-gruendung-gemeinsames-unternehmen.pdf",
+      "reason": "超窗：11-11 公告，距本期截稿约 88 小时；机制（MPC 跨行比对涉诈账户）本身过硬，但事件日超出 72 小时窗口，且无 11-13 之后的新节点。若日后有首家外部银行签约可复用。"
+    },
+    {
+      "title": "Bangladesh Bank launching National Debit Card on November 1",
+      "url": "https://news.google.com/search?q=%22National%20Debit%20Card%22%20Bangladesh",
+      "reason": "超窗且事实不可核：标题所指事件日为 11-01，已出窗口；仅聚合标题可见，Bangladesh Bank 官网无可达公告，卡组织、BIN 归属、发卡行名单均无从确认。"
+    },
+    {
+      "title": "Mastercard and Banque Bemo Saudi Fransi bring internationally accepted Mastercard cards to government employees in Syria",
+      "url": "https://news.google.com/search?q=%22Banque%20Bemo%20Saudi%20Fransi%22%20Mastercard%20Syria",
+      "reason": "事实不可核：仅 Zawya 聚合标题可见，原文正文与发布日期取不到，无卡类型、无规模、无时间表。同批次 QNB×Paymera 叙利亚 MoU 发布于 11-12，已出窗。"
+    },
+    {
+      "title": "QNB and Paymera to Strengthen Syria's Digital Payment Ecosystem Through Strategic Collaboration",
+      "url": "https://www.qnb.com/sites/qnb/qnbglobal/en/12nov2026news",
+      "reason": "超窗：11-12 多哈发布，距本期截稿超过 72 小时；且为探索性 MoU，无商户数、无终端、无上线时间。"
+    },
+    {
+      "title": "Visa Launches Passkey in India, Reducing Friction in Digital Payments",
+      "url": "https://news.google.com/search?q=Visa%20passkey%20India%20when%3A7d",
+      "reason": "事实不可核：只能取到聚合站标题，无一手稿与发布日期；Visa Payment Passkey 在印度的部署 9 至 10 月已由 CCAvenue、Checkout 分批公布，本条疑似旧闻重发。"
+    },
+    {
+      "title": "Zobe payment ring enters the Nigerian market",
+      "url": "https://news.google.com/search?q=Zobe%20payment%20ring%20Nigeria",
+      "reason": "事实不可核：TheCable 原文被 Cloudflare 拦截，检索不到可打开的一手公告；无发卡方、无卡组织、无价格与上市日期。"
+    },
+    {
+      "title": "Smartphones may widen card payment access for small businesses",
+      "url": "https://www.thedailystar.net/business/economy/news/smartphones-may-widen-card-payment-access-small-businesses-4323821",
+      "reason": "动作门：Visa 孟加拉国负责人访谈，Visa Accept 上月经 UCB 上线、已接入约 100 家商户属既成事实，本篇无新发布节点；与 11-04 对 Google Wallet 访谈的判据一致。"
+    },
+    {
+      "title": "Following Google Pay launch, Zobe payment ring enters the Nigerian market (TheCable duplicate feed)",
+      "url": "https://news.google.com/search?q=Zobe%20ring%20Nigeria%20TheCable",
+      "reason": "同上一条同一事件，聚合源重复出现；原文不可达，不重复计候选。"
+    },
+    {
+      "title": "GTCO Integrates Google Pay Into GTBank And Squad Payment Services",
+      "url": "https://news.google.com/search?q=GTCO%20Google%20Pay%20GTBank%20Squad",
+      "reason": "动作门：把既有 Google Pay 入口接进自家银行与收单 App，属分销，机制未变；与 11-14 拦下的 Wema Bank Google Pay、11-13 拦下的 DBS PayLah! 同一判据。"
+    },
+    {
+      "title": "NPCI launches UPI Vyapaar Saksham scheme to onboard small merchants",
+      "url": "https://news.google.com/search?q=NPCI%20UPI%20Vyapaar%20Saksham",
+      "reason": "动作门：对小微商户的入网补贴（二维码与音箱奖励），属受理激励方案，无规范版本、无产品节点、无终端新形态。"
+    },
+    {
+      "title": "Paraguay partially refunds eligible Ueno Bank depositors",
+      "url": "https://thepaypers.com/fintech/news/paraguay-partially-refunds-eligible-ueno-bank-depositors",
+      "reason": "范围门：银行处置与存款保险赔付，标的是存款而非凭证机制；与 11-15 对 Ueno 的判据一致。"
+    },
+    {
+      "title": "Paraguay's $700M Pension Crisis: New Bank Cards Issued, But Big Questions Remain Unanswered",
+      "url": "https://www.euronews.com/2026/11/10/paraguays-new-president-vows-to-recover-pension-funds-at-risk-in-ueno-bank-crisis",
+      "reason": "范围门：银行倒闭后向养老金领取者补发卡，是危机处置的配套动作，无发卡方产品发布、无卡组织、无规模；事件本体是 Ueno 处置，已按范围门拦。"
+    },
+    {
+      "title": "NAPAS processed 12.4 billion transactions in 10 months",
+      "url": "https://news.google.com/search?q=NAPAS%2012.4%20billion%20transactions",
+      "reason": "动作门：处理量统计，无产品、无规范、无机制变化。"
+    },
+    {
+      "title": "RBI's 6-Hour Rule Boosts Digital Payment Security",
+      "url": "https://news.google.com/search?q=RBI%206-hour%20rule%20digital%20payment",
+      "reason": "duplicate-of-2026-11-08-banking-03：RBI 主指示（RBI/DPSS/2026-27/475）同一份文件的解读稿，11-08 已发。"
+    },
+    {
+      "title": "Sony Patent Puts a Card Reader in Your PS5 Controller",
+      "url": "https://news.google.com/search?q=Sony%20patent%20card%20reader%20PS5%20controller",
+      "reason": "动作门：专利申请，不是产品；无型号、无认证、无上市计划。"
+    },
+    {
+      "title": "Fees and QR rivals squeeze Apple Pay in South Korea",
+      "url": "https://news.google.com/search?q=Apple%20Pay%20South%20Korea%20QR%20fees",
+      "reason": "动作门：市场竞争分析稿，无发布、无规则变更、无可核具体物。"
+    },
+    {
+      "title": "Cardless launches Cardless AI for credit cards",
+      "url": "https://thepaypers.com/payments/news",
+      "reason": "事实不可核：The Paypers 当日列表页已翻不到该条，无法取得正文确认产品能力与发布日期；Cardless 在 WSJ 报道中只是表示正与卡组织合作，无发布节点。"
+    },
+    {
+      "title": "Interlace Launches First Visa/Mastercard Built for Autonomous AI Agents",
+      "url": "https://theagenttimes.com/agents/article/interlace-launches-first-visa-mastercard-built-for-autonomou-efad8644",
+      "reason": "超窗：产品为 2026 年 5 月上线，本文是社交平台转述的复盘，不是新发布；且自称「first」无法核。"
+    },
+    {
+      "title": "Mastercard, LiaPay offer GCC workers access to wages before payday (Global Payroll Association repost)",
+      "url": "https://gpa.net/blogs/top-posts/middle-east-mastercard-and-liapay-partner-to-offer-gcc-payroll-cards",
+      "reason": "duplicate-of-2026-11-12-banking-06：同一发布，11-12 已发。"
+    },
+    {
+      "title": "UOB adds UnionPay card and China QR payments",
+      "url": "https://thepaypers.com/payments/news",
+      "reason": "范围门：把境外二维码受理装进自家 App 属分销；与 11-15 同一判据。"
+    },
+    {
+      "title": "Bank Millennium launches BLIK instalments",
+      "url": "https://thepaypers.com/payments/news",
+      "reason": "范围门：BLIK 分期属 BNPL 信贷产品，标的是消费分期而非卡凭证或受理机制。"
+    },
+    {
+      "title": "Dashen Bank and ShebaMiles launch Platinum co-branded Mastercard debit card",
+      "url": "https://news.google.com/search?q=Dashen%20Bank%20ShebaMiles%20Mastercard",
+      "reason": "动作门：里程联名卡，权益只在积分层，无发卡量、无卡组织新规则；与 11-15 对 Wegagen 同型卡的判据一致。"
+    },
+    {
+      "title": "Cargills Bank, Mastercard launch Lanka's first ocean plastic debit card",
+      "url": "https://news.google.com/search?q=Cargills%20Bank%20Mastercard%20ocean%20plastic%20debit",
+      "reason": "共同限制第 2 条：同一产品换卡片材质，机制未变；自称「first」不可核。"
+    },
+    {
+      "title": "HBL launches Visa Infinite credit card for affluent clients",
+      "url": "https://news.google.com/search?q=HBL%20Visa%20Infinite%20credit%20card",
+      "reason": "动作门：既有卡档位加权益包，非首次也非变化；与 11-07 World Legend 判据一致。"
+    },
+    {
+      "title": "Google Pay Flex SBI Card Launched",
+      "url": "https://news.google.com/search?q=Google%20Pay%20Flex%20SBI%20Card",
+      "reason": "动作门：联名卡发行，无新受理机制与规范；与 11-15 拦截的联名卡同判据。"
+    },
+    {
+      "title": "Southeast Bank, CliniCall launch co-branded healthcare card",
+      "url": "https://news.google.com/search?q=Southeast%20Bank%20CliniCall%20co-branded%20healthcare%20card",
+      "reason": "动作门：联名权益卡，无发卡量、无卡组织规则变化。"
+    },
+    {
+      "title": "FactOR4 Expands Retail Reach With ERPLY POS Integration",
+      "url": "https://news.google.com/search?q=Factor4%20ERPLY%20POS%20integration",
+      "reason": "动作门：支付应用与零售 POS 的软件集成，属渠道接入，机制未变，无终端新形态与认证。"
+    },
+    {
+      "title": "LemFi launches its biggest product expansion yet alongside a new global brand",
+      "url": "https://news.google.com/search?q=LemFi%20product%20expansion%20global%20brand",
+      "reason": "范围门：跨境汇款与多币种账户，标的是账户轨道而非卡或受理终端。"
+    },
+    {
+      "title": "South Korea's Devdi raises follow-on from MYSC to expand rent card payments",
+      "url": "https://news.google.com/search?q=Devdi%20MYSC%20rent%20card%20payments",
+      "reason": "动作门：融资轮，无产品发布与机制变化。"
+    },
+    {
+      "title": "Russia moves to monitor peer-to-peer bank transfers for undeclared income",
+      "url": "https://news.google.com/search?q=Russia%20monitor%20peer-to-peer%20transfers",
+      "reason": "范围门：税务与账户监控规则，标的是转账流水而非凭证载体。"
+    },
+    {
+      "title": "Bank of Russia allows crypto trading on exchanges from 22 November",
+      "url": "https://thepaypers.com/regulations/news/bank-of-russia-allows-crypto-trading-on-exchanges-from-22-november",
+      "reason": "范围门：加密资产交易准入，不在卡栈。"
+    },
+    {
+      "title": "Cambodia-Rwanda remittance corridor via Bakong and RSwitch",
+      "url": "https://en.webrwanda.com/2026/11/rwanda-cambodia-test-cross-border-money.html",
+      "reason": "范围门：账户与钱包之间的跨境汇款走廊（ACLEDA 代理行、I&M 结算行），不涉及卡或受理终端；与 Bakong 虚拟卡同场发布但机制不同，已单列后者。"
+    },
+    {
+      "title": "Mastercard launches crypto program with Binance, Ripple, PayPal",
+      "url": "https://news.google.com/search?q=Mastercard%20crypto%20program%20Binance%20Ripple%20PayPal",
+      "reason": "范围门：加密资产结算合作，标的不在卡凭证链路。"
+    },
+    {
+      "title": "Commercial Bank launches Miqdam segment for Qataris",
+      "url": "https://news.google.com/search?q=Commercial%20Bank%20Miqdam%20Qataris",
+      "reason": "动作门：客群分层与权益包，无发卡机制变化、无卡产品参数。"
+    },
+    {
+      "title": "Ticketer launches Fareway, uniting ticketing and payments",
+      "url": "https://news.google.com/search?q=Ticketer%20Fareway%20ticketing%20payments",
+      "reason": "动作门：把支付嵌进公交票务系统，属既有终端的软件功能叠加，无新终端形态、无认证变化。"
+    },
+    {
+      "title": "Egypt Freezes New Lending Licences Until 2027, Giving Established Fintech Players an Edge",
+      "url": "https://techmoran.com/2026/11/15/egypt-freezes-new-lending-licences-until-2027-giving-established-fintech-players-an-edge/",
+      "reason": "范围门：放贷牌照发放冻结，属银行与信贷牌照监管，不在发卡、受理、令牌化或清算规则内。"
+    },
+    {
+      "title": "Stripe awaits payoff on Tempo chain",
+      "url": "https://www.paymentsdive.com/news/stripe-awaits-payoff-on-tempo-chain/874618/",
+      "reason": "范围门：自建链与稳定币结算，标的不在卡栈；且为战略访谈，无发布节点。与 11-15 同一判据。"
+    },
+    {
+      "title": "Why PayPal wants to have a bank",
+      "url": "https://www.paymentsdive.com/news/why-paypal-wants-to-have-a-bank/874615/",
+      "reason": "范围门：银行牌照与存款业务，不在发卡、受理、令牌化或清算规则内。"
+    },
+    {
+      "title": "Block's Cash App weaves payment tech into bandanas",
+      "url": "https://www.paymentsdive.com/news/blocks-cash-app-weaves-payment-tech-into-bandanas/874328/",
+      "reason": "共同限制第 2 条：同一产品换外形，机制未变；可穿戴配件既不是发卡也不是受理终端，与 11-12、11-15 同一判据。"
+    },
+    {
+      "title": "States keep targeting card fee relief",
+      "url": "https://www.paymentsdive.com/news/states-keep-targeting-card-fee-relief/874260/",
+      "reason": "动作门：州级交换费立法的综述与诉讼，六类动作无一匹配；与 11-12、11-14 对同一立法的判据一致。"
+    },
+    {
+      "title": "Mastercard scales in India",
+      "url": "https://www.paymentsdive.com/news/mastercard-scales-in-india/873405/",
+      "reason": "动作门：与印度最大私营银行的既有合作扩容，无产品、无规范、无受理机制变化。"
+    },
+    {
+      "title": "Will ditching the 'honor all cards' rule matter?",
+      "url": "https://www.paymentsdive.com/news/will-ditching-honor-all-cards-rule-matter-visa-mastercard-amex/873187/",
+      "reason": "动作门：对既有和解条款的评论稿，无新版本规则文件、无生效日。"
+    },
+    {
+      "title": "Google makes big plans for wallet",
+      "url": "https://www.paymentsdive.com/news/google-thinks-bigger-about-the-wallet-digital-agentic-retail/873585/",
+      "reason": "动作门：高管访谈中的路线图，无产品名、无参数、无上线时间；与 11-04 对 Google Wallet 的判据一致。"
+    },
+    {
+      "title": "Fiserv talks to potential asset buyers",
+      "url": "https://www.paymentsdive.com/news/fiserv-talks-to-potential-asset-buyers/873604/",
+      "reason": "动作门：资产出售洽谈，属并购交易，不在六类动作内。"
+    },
+    {
+      "title": "NCR Atleos, First Citizens lock arms",
+      "url": "https://www.paymentsdive.com/news/ncr-atleos-first-citizens-target-stores-atm-digital-banking/873953/",
+      "reason": "超窗：事件为 10-19 公告，11-06 已按超窗拦过；机制为 ATM 渠道叠加银行服务，非卡或终端形态变化。"
+    },
+    {
+      "title": "Mastercard opens Singapore innovation centre of excellence",
+      "url": "https://www.finextra.com/newsarticle/48751/mastercard-opens-singapore-innovation-centre-of-excellence",
+      "reason": "动作门：办公与研发设施投入加人员招聘，不改变卡或受理机制；与 11-14 同一判据。"
+    },
+    {
+      "title": "PayPal partners with Workday to enhance employee financial wellbeing",
+      "url": "https://www.finextra.com/pressarticle/111667/paypal-partners-with-workday-to-enhance-employee-financial-wellbeing",
+      "reason": "范围门：薪酬与福利平台集成，标的是工资发放流程，不落在卡、终端或凭证机制上。"
+    },
+    {
+      "title": "Hyundai Card launches new AI-powered credit card model",
+      "url": "https://www.finextra.com/pressarticle/111668/hyundai-card-launches-new-ai-powered-credit-card-model",
+      "reason": "范围门：AI 推荐与数据服务，不是发卡系统或凭证形态；与 11-14 同一判据。"
+    },
+    {
+      "title": "Wirex launches Navoka, an AI agent that pays from its own bank account and card",
+      "url": "https://www.finextra.com/pressarticle/111665/wirex-launches-navoka-an-ai-agent-that-pays-from-its-own-bank-account-and-card",
+      "reason": "事实不可核：原文被 Cloudflare 拦截，无法确认产品机制与发布日期；与 11-14 同一处置。"
+    },
+    {
+      "title": "Fiserv lays groundwork to offload a debit network",
+      "url": "https://www.finextra.com/newsarticle/48750/fiserv-lays-groundwork-to-offload-a-debit-network",
+      "reason": "动作门：资产处置准备，属并购交易，不在六类动作内。"
+    },
+    {
+      "title": "Banking giants commit $270m to stablecoin venture - Bloomberg",
+      "url": "https://www.finextra.com/newsarticle/48738/banking-giants-commit-270m-to-stablecoin-venture---bloomberg",
+      "reason": "范围门：稳定币发行募资，标的不在凭证链路；与 11-14 Project Faro 同一判据。"
+    },
+    {
+      "title": "Canada's real-time payments system launches",
+      "url": "https://www.finextra.com/newsarticle/48725/canadas-real-time-payments-system-launches",
+      "reason": "范围门：实时支付轨道（A2A），不属卡组织与清算规则；与 11-10、11-11 同一判据。"
+    },
+    {
+      "title": "Metro Bank puts itself up for sale",
+      "url": "https://www.finextra.com/newsarticle/48745/metro-bank-puts-itself-up-for-sale",
+      "reason": "范围门：银行并购与出售流程，不涉及发卡、受理或清算机制。"
+    },
+    {
+      "title": "Mexico's Clara raises $65m for spend management platform",
+      "url": "https://www.finextra.com/newsarticle/48753/mexicos-clara-raises-65m-for-spend-management-platform",
+      "reason": "动作门：融资轮，无产品发布与机制变化；企业支出管理软件不在卡栈。"
+    },
+    {
+      "title": "Deutsche Bank and Ant set out roadmap for integrating agentic AI into wholesale banking",
+      "url": "https://www.finextra.com/newsarticle/48740/deutsche-bank-and-ant-set-out-roadmap-for-integrating-agentic-ai-into-wholesale-banking",
+      "reason": "动作门：路线图与意向，无产品名、无版本、无落地时间；批发银行 AI 不在凭证机制上。"
+    },
+    {
+      "title": "AI could cut banking industry's cost base by 20% - McKinsey",
+      "url": "https://www.finextra.com/newsarticle/48739/ai-could-cut-banking-industrys-cost-base-by-20---mckinsey",
+      "reason": "范围门：行业研究报告，无标的物也无动作。"
+    },
+    {
+      "title": "Payments firm settles FTC fees case",
+      "url": "https://www.paymentsdive.com/news/payment-processor-settle-ftc-alleged-deceptive-fees/873669/",
+      "reason": "范围门：收单机构与监管的收费和解执法，标的不是凭证机制或终端形态。"
+    },
+    {
+      "title": "Block reaches $964M DOJ pact",
+      "url": "https://www.paymentsdive.com/news/block-reaches-964m-doj-pact/873729/",
+      "reason": "范围门：反洗钱合规和解，属执法与罚款，不改变卡或受理机制。"
+    },
+    {
+      "title": "FTC, states sue Toast over fees",
+      "url": "https://www.paymentsdive.com/news/ftc-states-sue-toast-over-fees-restaurant-dining-online-food/873225/",
+      "reason": "动作门：监管诉讼，六类动作无一匹配；争议在收费披露而非受理机制。"
+    },
+    {
+      "title": "California takes CoinFlip to task",
+      "url": "https://www.paymentsdive.com/news/california-coinflip-crypto-atm-enforcement-fraud/874002/",
+      "reason": "范围门：加密 ATM 执法与赔付，标的是加密资产兑换，不在卡栈。"
+    },
+    {
+      "title": "Global Payments faces industry pricing pressure",
+      "url": "https://www.paymentsdive.com/news/global-payments-faces-industry-pricing-pressure/874128/",
+      "reason": "动作门：分析师视角的定价压力报道，无产品、无协议、无机制变化。"
+    },
+    {
+      "title": "Cuscal Paymark brings digital age checks to NZ payment terminals",
+      "url": "https://www.biometricupdate.com/202611/cuscal-paymark-brings-digital-age-checks-to-nz-payment-terminals",
+      "reason": "duplicate-of-2026-11-15-banking-01：同一事件，11-15 已发。"
+    },
+    {
+      "title": "DCS DeCard and Visa Expand Stablecoin-Linked Card Payments Across 70 Markets",
+      "url": "https://paymentsindustryintelligence.com/dcs-decard-and-visa-expand-stablecoin-linked-card/",
+      "reason": "duplicate-of-2026-11-13-banking-04：同一发布，11-13 已发。"
+    },
+    {
+      "title": "Visa and Anchorage Digital bring Western Union stablecoin to settlement network",
+      "url": "https://www.finextra.com/newsarticle/48752/visa-and-anchorage-digital-bring-western-union-stablecoin-to-settlement-network",
+      "reason": "duplicate-of-2026-11-14-banking-03：同一发布，11-14 已发。"
+    },
+    {
+      "title": "OpenAI launches ChatGPT Wallet to let AI agents make purchases",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "reason": "duplicate-of-2026-11-14-banking-01：同一发布，11-14 已发；11-15 已按重复拦过一次，本轮 14 家转载仍为同一事件。"
+    }
+  ],
+  "stats": {
+    "candidates": 63,
+    "written": 3,
+    "skippedByDedup": 4
+  },
+  "finishedAt": "2026-11-15T20:17:32.435Z"
+}

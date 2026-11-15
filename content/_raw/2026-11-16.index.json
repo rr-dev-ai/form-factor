@@ -1,0 +1,235 @@
+{
+  "fetchedFor": "2026-11-16",
+  "items": [
+    {
+      "url": "https://www.fierce-network.com/cloud/one-chip-many-sensors-intel-and-alteras-play-physical-ai",
+      "title": "One chip, many sensors: Intel and Altera's play for physical AI",
+      "industry": "telecom",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.fierce-network.com/cloud/gpu-gold-rush-creates-cpu-opportunity-and-akamai-knows-it",
+      "title": "The GPU gold rush creates a CPU opportunity — and Akamai knows it",
+      "industry": "telecom",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.fierce-network.com/wireless/ast-spacemobile-eyes-nationwide-intermittent-us-service-year-end",
+      "title": "AST SpaceMobile eyes nationwide intermittent US service by year end",
+      "industry": "telecom",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.35
+    },
+    {
+      "url": "https://www.fierce-network.com/broadband/zayos-new-ceo-sampath-arrives-during-ai-boom-times",
+      "title": "Zayo’s new CEO Sampath arrives during AI boom times",
+      "industry": "telecom",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "personnel",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://dplnews.com/dpl-news-weekly-277/",
+      "title": "DPL News Weekly",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.cbr.ru/hd_base/BankPapers/",
+      "title": "Информация о ценных бумагах, принимаемых в обеспечение по кредитам Банка России на 16.11.2026",
+      "industry": "banking",
+      "region": "cis",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/15/cnn-travel-names-nzulezu-among-africas-most-amazing-places-to-visit-in-ghana/",
+      "title": "CNN Travel names Nzulezu among Africa’s most amazing places to visit in Ghana",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/15/assembly-member-calls-on-minister-to-terminate-contract-on-stalled-afadzato-south-road/",
+      "title": "Assembly Member calls on Minister to terminate contract on stalled Afadzato South road",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/15/ghana-government-urged-to-expand-free-primary-healthcare-policy-at-district-levels/",
+      "title": "Ghana government urged to expand free primary healthcare policy at district levels",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/15/asante-akim-central-chiefs-seek-presidents-intervention-in-northern-ashanti-mines-takeover/",
+      "title": "Asante-Akim Central chiefs seek President’s intervention in Northern Ashanti Mines takeover",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/15/two-suspects-remanded-over-murder-of-39-year-old-woman/",
+      "title": "Two suspects remanded over murder of 39-year-old woman",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "litigation",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/15/germanys-solar-power-production-nears-record-level/",
+      "title": "Germany’s solar power production nears record level",
+      "industry": "telecom",
+      "region": "europe",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://techmoran.com/2026/11/15/egypt-freezes-new-lending-licences-until-2027-giving-established-fintech-players-an-edge/",
+      "title": "Egypt Freezes New Lending Licences Until 2027, Giving Established Fintech Players an Edge",
+      "industry": "banking",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://techmoran.com/2026/11/15/spacex-grant-to-connect-childcare-homes-in-nine-african-countries-with-starlink/",
+      "title": "SpaceX Grant to Connect Childcare Homes in Nine African Countries With Starlink",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.2
+    }
+  ],
+  "matrix": {
+    "apac": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "cis": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "mena": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "europe": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "north-america": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "latam": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "africa": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "global": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    }
+  },
+  "gaps": [
+    "apac",
+    "cis",
+    "mena",
+    "europe",
+    "north-america",
+    "latam",
+    "africa"
+  ],
+  "cellGaps": [],
+  "industryGaps": [
+    {
+      "industry": "banking",
+      "emptyRegions": [
+        "apac",
+        "cis",
+        "mena",
+        "europe",
+        "north-america",
+        "latam",
+        "africa"
+      ]
+    },
+    {
+      "industry": "telecom",
+      "emptyRegions": [
+        "apac",
+        "cis",
+        "mena",
+        "europe",
+        "north-america",
+        "latam",
+        "africa"
+      ]
+    },
+    {
+      "industry": "identity",
+      "emptyRegions": [
+        "apac",
+        "cis",
+        "mena",
+        "europe",
+        "north-america",
+        "latam",
+        "africa"
+      ]
+    }
+  ],
+  "matrixBasis": {
+    "computedAt": "2026-11-15T17:50:58.627Z",
+    "confidenceFloor": 0.6,
+    "windowHours": 72,
+    "industryGapFloor": 4,
+    "counted": 0,
+    "dropped": {
+      "published": 0,
+      "expired": 0,
+      "undated": 4,
+      "lowConfidence": 10,
+      "invalid": 0
+    }
+  }
+}

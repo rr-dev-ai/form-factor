@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-16-banking-02",
+  "slug": "bakong-global-visa-mastercard-virtual-cards",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-16T04:17:46+08:00",
+  "ingestedAt": "2026-11-16T02:30:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/apac/news-releases/cambodia-takes-bakong-global-connecting-asean-with-japan-and-africa-302939651.html",
+      "lang": "en",
+      "publishedAt": "2026-11-15T10:00:00+00:00"
+    },
+    {
+      "name": "Macau Business",
+      "url": "https://macaubusiness.com/cambodia-takes-bakong-global-connecting-asean-with-japan-and-africa",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "柬埔寨 Bakong 要让用户在 App 里开 Visa 与万事达虚拟卡",
+    "en": "Cambodia’s Bakong to issue Visa and Mastercard virtual cards in-app",
+    "es": "Bakong de Camboya emitirá tarjetas virtuales Visa y Mastercard en la app"
+  },
+  "summary": {
+    "zh": "柬埔寨国家银行 11 月 15 日在金边宣布 Bakong 出海：用户可在 App 内生成 Visa 或 Mastercard 虚拟卡，用于境外非接触支付。同一批还宣布与日本 SBI 试点稳定币汇款、与卢旺达 RSwitch 打通走廊。Bakong 现有约 3800 万账户，2025 年处理 13 亿笔、241.84 亿美元。",
+    "en": "The National Bank of Cambodia said on 15 November in Phnom Penh that Bakong is going cross-border: users will be able to generate Visa or Mastercard virtual cards inside the app for contactless payments abroad. The same package covers a stablecoin remittance pilot with Japan’s SBI Group and a corridor with Rwanda’s RSwitch. Bakong holds about 38 million accounts and processed 1.3 billion transactions worth US$241.84 billion in 2025.",
+    "es": "El Banco Nacional de Camboya anunció el 15 de noviembre en Phnom Penh que Bakong sale al exterior: los usuarios podrán generar tarjetas virtuales Visa o Mastercard dentro de la app para pagos sin contacto en el extranjero. El paquete incluye un piloto de remesas con stablecoin con SBI Group de Japón y un corredor con RSwitch de Ruanda. Bakong reúne unos 38 millones de cuentas y procesó 1.300 millones de operaciones por 241.840 millones de dólares en 2025."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "账户直接变持卡人",
+        "en": "Accounts become cardholders",
+        "es": "Las cuentas se vuelven titulares de tarjeta"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "按公告，Bakong 用户不必先去银行申请实体卡，在 App 内即可生成 Visa 或 Mastercard 虚拟卡，用于境外非接触支付。这意味着柬埔寨约 3800 万个 Bakong 账户在功能上具备了直接出境的支付能力，而发卡这一层从商业银行上移到国家支付系统。公告未说明由哪家机构承担 BIN、单笔与年度限额、以及虚拟卡是否先向部分用户开放。",
+        "en": "Under the announcement, Bakong users need not apply for a physical card at a bank first; a Visa or Mastercard virtual card can be generated in the app for contactless payments abroad. That puts outbound payment capability on roughly 38 million Bakong accounts and moves the issuing layer up from commercial banks to the national payment system. The release does not say which institution holds the BIN, what per-transaction or annual limits apply, or whether the virtual card opens to all users at once.",
+        "es": "Según el anuncio, el usuario de Bakong no necesita solicitar antes una tarjeta física en un banco: puede generar una tarjeta virtual Visa o Mastercard en la app para pagar sin contacto en el exterior. Eso dota de capacidad de pago saliente a unos 38 millones de cuentas Bakong y desplaza la capa de emisión de los bancos comerciales al sistema nacional de pagos. El comunicado no indica qué institución aporta el BIN, qué límites por operación o anuales rigen, ni si la tarjeta virtual se abre a todos los usuarios a la vez."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "卡、稳定币、债券装进同一个发布",
+        "en": "Cards, stablecoins and bonds in one package",
+        "es": "Tarjetas, stablecoins y bonos en un mismo paquete"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "同一场发布会还宣布：柬埔寨国家银行与日本 SBI 集团探索以稳定币做跨境汇款，资金落入 Bakong 钱包；SBI 银行（柬埔寨）在 Canton Network 上试点政府债券代币化；Bakong 与卢旺达 RSwitch 打通，先做柬埔寨至卢旺达的汇款，ACLEDA 银行任代理行、I&M 银行（卢旺达）任结算行。三项的时间表与规模均未公布。",
+        "en": "The same event announced that the National Bank of Cambodia and Japan’s SBI Group will explore stablecoin-based cross-border transfers landing in Bakong wallets; that SBI Bank (Cambodia) will pilot tokenising Cambodian government bonds on the Canton Network; and that Bakong will connect with Rwanda’s RSwitch, starting with remittances from Cambodia to Rwanda, with ACLEDA Bank as correspondent and I&M Bank (Rwanda) as settlement bank. No timelines or volumes were given for any of the three.",
+        "es": "El mismo acto anunció que el Banco Nacional de Camboya y SBI Group de Japón explorarán transferencias transfronterizas con stablecoin que aterrizan en monederos Bakong; que SBI Bank (Camboya) pilotará la tokenización de bonos del gobierno camboyano en Canton Network; y que Bakong se conectará con RSwitch de Ruanda, empezando por remesas de Camboya a Ruanda, con ACLEDA Bank como banco corresponsal e I&M Bank (Ruanda) como banco liquidador. No se dieron plazos ni volúmenes para ninguno de los tres."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这条改的是发卡权的位置。过去柬埔寨用户要出境消费得向银行申请卡，现在国家支付系统自己在 App 里发虚拟卡，把 3800 万个账户直接变成潜在持卡人。对 Visa 与万事达，这是用一家央行级机构换一块增量发卡市场；对柬埔寨的商业银行，发卡这一层的独占被绕开了——同一批用户既在银行开户也在 Bakong 里，卡不再必须由银行出，银行的角色退到账户与资金来源。更值得看的是它把卡、稳定币汇款、债券代币化放进同一个发布会：央行显然把这三项当成一套基础设施在推，而不是三条独立赛道，这对做跨境受理与清算的供应商意味着接口会按「一套」而不是「一个产品」来设计。缺口同样明显——公告只说「将能」，没有上线时间、没有发卡行、没有限额。若最终只有虚拟卡落地，它就只是一次受理侧扩容，而非发卡结构的改变。",
+    "en": "What changes here is where the issuing right sits. Cambodian users who wanted to spend abroad used to apply for a card at a bank; now the national payment system issues virtual cards in its own app, turning 38 million accounts into potential cardholders. For Visa and Mastercard this trades a central-bank-level institution for an incremental issuing market; for Cambodian commercial banks the issuing monopoly is bypassed — the same users hold bank accounts and Bakong wallets, the card no longer has to come from a bank, and the bank’s role retreats to the account and the funding source. More telling is the packaging: cards, stablecoin remittances and bond tokenisation in one announcement means the central bank is pushing them as a single infrastructure layer rather than three separate tracks, which for cross-border acceptance and clearing vendors implies interfaces designed as a set, not a product. The gap is just as plain: the release only says users “will be able to”, with no launch date, no issuing bank and no limits. If only the virtual card ships, this is acceptance expansion, not a change in the issuing structure.",
+    "es": "Lo que cambia es dónde reside el derecho de emisión. Antes, un usuario camboyano que quería gastar en el exterior solicitaba una tarjeta a un banco; ahora el sistema nacional de pagos emite tarjetas virtuales en su propia app y convierte 38 millones de cuentas en titulares potenciales. Para Visa y Mastercard supone cambiar una institución de nivel banco central por un mercado de emisión incremental; para la banca comercial camboyana, el monopolio de emisión queda sorteado: los mismos usuarios tienen cuenta bancaria y monedero Bakong, la tarjeta ya no tiene que salir de un banco y el rol del banco se retira a la cuenta y al origen de fondos. Más revelador es el empaquetado: tarjetas, remesas con stablecoin y tokenización de bonos en un solo anuncio indica que el banco central los impulsa como una capa de infraestructura única y no como tres vías separadas, lo que implica interfaces diseñadas como conjunto para los proveedores de aceptación. La laguna es igual de clara: el comunicado solo dice que los usuarios “podrán”, sin fecha de lanzamiento, banco emisor ni límites. Si solo llega la tarjeta virtual, es ampliación de aceptación, no un cambio en la estructura de emisión."
+  },
+  "confidence": 0.55,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-banking-2026-11"
+  }
+}
