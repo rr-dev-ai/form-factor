@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-17-identity-02",
+  "slug": "eurotunnel-drive-in-biometric-kiosks-ees-trial",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "passport",
+    "biometrics",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-17T04:18:21+08:00",
+  "ingestedAt": "2026-11-17T03:10:28+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com/travel/2026/nov/14/eurotunnel-drive-in-fingerprint-trial-folkestone-calais-border",
+      "lang": "en",
+      "publishedAt": "2026-11-14T07:00:00Z"
+    },
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/eu-clears-eurotunnel-to-trial-drive-in-biometric-kiosks-for-entry-exit-system-checks/",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "欧洲隧道获批车内采指纹，120 台车道亭试两年",
+    "en": "Eurotunnel wins approval for in-car biometric kiosks on both sides",
+    "es": "Eurotúnel obtiene permiso para quioscos biométricos en el vehículo"
+  },
+  "summary": {
+    "zh": "欧盟委员会与法国当局批准 Getlink 在福克斯通与加来两侧启用 120 台车道自助亭，让非欧盟旅客不下车完成 EES 首次登记：护照、指纹与面部图像都在车内采集，由「鹰眼」摄像头远程监督，警员不再逐台站岗。试点为期两年，但连接法国系统的数据链路仍未打通。",
+    "en": "The European Commission and French authorities have cleared Getlink to run 120 drive-in kiosks at Folkestone and Calais, letting non-EU travellers complete first-time EES registration without leaving the car. Passports, fingerprints and facial images are captured at the vehicle while police watch remotely through overhead cameras instead of standing at each kiosk. The trial runs two years, but the data link to the French system is still not working.",
+    "es": "La Comisión Europea y las autoridades francesas autorizaron a Getlink a operar 120 quioscos en Folkestone y Calais para que los viajeros no comunitarios completen el registro inicial del EES sin bajar del coche. El pasaporte, las huellas y la imagen facial se capturan junto al vehículo mientras la policía vigila a distancia mediante cámaras cenitales en lugar de apostarse en cada quiosco. La prueba dura dos años, pero el enlace de datos con el sistema francés aún no funciona."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "必须有人盯着的首次采集",
+        "en": "The first enrolment that needs a witness",
+        "es": "El registro inicial que exige testigo"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "EES 要求非欧盟旅客在进出申根区时提交指纹与面部图像。首次登记（primo）原来必须有警员在场，防的是有人拿别人的干净指纹顶替。放在机场，这不是问题；放在车道边境，就变成瓶颈——Getlink 先前考虑过给车里的人发表格板自助录入，或让人停车走进大厅办理，两种方案都要求警员亲自到场处理首次指纹，车流一堵就顶到引道上。最终方案是把机场的做法搬过来：每台亭子上方装「鹰眼」摄像头，警方在远端盯屏，与在机场监控电子闸门同一种作业方式。",
+        "en": "EES requires non-EU travellers to give fingerprints and a facial image when entering and leaving the Schengen area. First-time enrolment - the primo registration - used to require an officer present, a safeguard against someone presenting another passenger's clean prints. At an airport that is workable. At a drive-through border it becomes the bottleneck: Getlink considered handing tablets to people in their cars, or having them park and walk into a terminal, but both needed an officer on hand for the first fingerprint capture, and queues would have backed onto the approach roads. The answer was to copy the airport model: each kiosk sits under an eagle-eye camera, and police watch from a distance, the same way they oversee e-gates without standing at every gate.",
+        "es": "El EES exige que los viajeros no comunitarios entreguen huellas e imagen facial al entrar y salir del espacio Schengen. El registro inicial —la inscripción primo— requería un agente presente, como salvaguarda frente a quien presenta las huellas limpias de otro pasajero. En un aeropuerto es viable; en una frontera de paso vehicular se vuelve el cuello de botella: Getlink evaluó entregar tabletas dentro de los coches o hacer aparcar para entrar a una terminal, pero ambas opciones exigían un agente para la primera captura y las colas habrían llegado a los accesos. La solución fue copiar el modelo aeroportuario: cada quiosco queda bajo una cámara cenital y la policía observa a distancia, igual que supervisa las puertas electrónicas sin apostarse en cada una."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "已经装好的 120 台",
+        "en": "The 120 kiosks already in place",
+        "es": "Los 120 quioscos ya instalados"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "两侧终端共装 120 台，每台服务一条车道，每车配两个采集台，乘客在座位上伸手读护照、按指纹，摄像头在头顶取像。试点两年，Getlink 希望转为永久安排；CEO Yann Leriche 说下一步要向英法当局提交一份 40 页方案，把欧洲隧道做成「智能边境」的试验场，参照的是美墨陆路口岸与新加坡的做法。法国方面支持试点的理由也直白：远程监督对执法一方同样省人力。",
+        "en": "There are 120 kiosks across the two terminals, one lane each, with two capture stands per vehicle so passengers can reach the passport reader and fingerprint platen from their seats while an overhead camera takes the image. The trial runs two years and Getlink wants it made permanent. Chief executive Yann Leriche says a 40-page proposal will go to UK and French authorities to turn Eurotunnel into a testbed for an intelligent border, drawing on US-Mexico land crossings and Singapore. French support for the trial rests on a plain argument: remote supervision also saves officers.",
+        "es": "Hay 120 quioscos entre las dos terminales, uno por carril, con dos puestos de captura por vehículo para que los pasajeros alcancen el lector de pasaporte y el sensor de huellas desde su asiento mientras una cámara cenital toma la imagen. La prueba dura dos años y Getlink quiere hacerla permanente. Su consejero delegado, Yann Leriche, prepara una propuesta de 40 páginas para las autoridades británicas y francesas con el fin de convertir el Eurotúnel en banco de pruebas de una frontera inteligente, inspirada en los pasos terrestres entre Estados Unidos y México y en Singapur. El apoyo francés se apoya en un argumento simple: la supervisión remota también ahorra agentes."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "还没接通的那一段",
+        "en": "The link that is still missing",
+        "es": "El enlace que falta"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "亭子能跑，系统没通。Leriche 说与法国边境系统的连接仍未打通，何时能通他也说不准。这不是欧洲隧道一家的问题：EES 原定 9 月 9 日在全欧盟完成部署，27 个成员国里有 9 个（含法国）至今没有全面上线，欧盟边境机构已就延期起诉 IBM、Atos 与 Leonardo。对每天往返英法的通勤者来说，短期内看到的仍是人工查证与部分闸机并存，而不是一条完全自动化的车道。",
+        "en": "The kiosks work; the connection does not. Leriche said the link to the French border system is still not live and he cannot say when it will be. Eurotunnel is not alone in this: EES was supposed to be complete across the EU by September 9, nine of 27 member states including France have not fully deployed it, and the EU border agency is suing IBM, Atos and Leonardo over the delays. For commuters crossing between Britain and France, the near-term reality is manual checks alongside some gates, not a fully automated lane.",
+        "es": "Los quioscos funcionan; la conexión no. Leriche dijo que el enlace con el sistema fronterizo francés aún no está operativo y que no puede precisar cuándo lo estará. El Eurotúnel no está solo: el EES debía completarse en toda la UE el 9 de septiembre, nueve de los 27 Estados miembros, entre ellos Francia, no lo han desplegado del todo, y la agencia fronteriza europea demanda a IBM, Atos y Leonardo por los retrasos. Para quien cruza a diario entre Reino Unido y Francia, lo inmediato es control manual junto a algunas puertas, no un carril plenamente automatizado."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这段试验真正的产出不是 120 台亭子，而是一种被监管方接受的作业方式：首次生物特征采集可以没有警员站在旁边，改由摄像头加远程监视满足「在场」要求。一旦这个先例在陆路口岸站住，同样的模式可以复制到渡轮码头、跨境巴士站与陆路货运通道——凡是有车流、又请不起每车道一名警员的场景，都是它的市场。对设备商，需求从「一台自助机」变成「采集终端 + 头顶成像 + 远端坐席软件」的组合，验收指标也从事务量转向监督留证。反过来看，这也是 EES 拖延的一个注脚：欧盟 27 国里有 9 个还没上线，承包商正在被起诉，说明瓶颈不在前端设备而在后端系统对接。想进这个市场的厂商，卖硬件不如先证明能接进各国边境系统。",
+    "en": "The real output of this trial is not 120 kiosks but a supervisory model regulators have now accepted: first-time biometric capture can happen without an officer standing beside the machine, because cameras plus remote monitoring satisfy the witnessing requirement. If that precedent holds at a land border, it transfers to ferry ports, cross-border coach stations and road-freight corridors - anywhere there is vehicle flow and no budget for one officer per lane. For vendors the requirement shifts from a self-service box to a bundle of capture terminal, overhead imaging and remote-agent software, and the acceptance test shifts from throughput to retained evidence of supervision. It is also a footnote to the EES delay: nine of 27 member states are not live and contractors are being sued, which says the bottleneck sits in back-end integration, not front-end hardware. For anyone selling into this market, proving you can connect to national border systems matters more than shipping the box.",
+    "es": "El producto real de esta prueba no son 120 quioscos, sino un modelo de supervisión que los reguladores acaban de aceptar: la captura biométrica inicial puede ocurrir sin un agente junto a la máquina, porque cámaras y monitoreo remoto satisfacen la exigencia de testigo. Si el precedente se sostiene en una frontera terrestre, se traslada a puertos de ferry, estaciones de autobuses transfronterizos y corredores de carga: cualquier lugar con flujo vehicular y sin presupuesto para un agente por carril. Para los proveedores, el requisito pasa de una caja de autoservicio a un conjunto de terminal de captura, imagen cenital y software de puesto remoto, y la prueba de aceptación pasa del caudal a la evidencia conservada de la supervisión. Es además una nota al pie del retraso del EES: nueve de 27 Estados no están operativos y hay demandas contra contratistas, lo que indica que el cuello de botella está en la integración de back-end, no en el hardware. Para vender en este mercado, poder conectarse a los sistemas fronterizos nacionales pesa más que entregar el equipo."
+  },
+  "confidence": 0.75,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

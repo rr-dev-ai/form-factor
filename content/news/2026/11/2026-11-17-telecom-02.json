@@ -1,0 +1,97 @@
+{
+  "id": "2026-11-17-telecom-02",
+  "slug": "russia-esim-remote-issuance-qualified-signature",
+  "industry": "telecom",
+  "region": "cis",
+  "regions": [],
+  "tags": [
+    "esim",
+    "sim-registration"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-17T04:18:21+08:00",
+  "ingestedAt": "2026-11-17T02:50:34+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Osegi",
+      "url": "https://osegi.com/en/russia-esim-rules-qualified-electronic-signature",
+      "lang": "en",
+      "publishedAt": "2026-11-16T15:52:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "俄数字发展部收紧远程 eSIM，只认合格电子签名",
+    "en": "Russia moves to allow remote eSIM issuance only with a qualified e-signature",
+    "es": "Rusia limitará la emisión remota de eSIM a la firma electrónica cualificada"
+  },
+  "summary": {
+    "zh": "俄罗斯数字发展部副部长卡恰诺夫致函移动运营商，要求停止用「增强非合格电子签名」远程开卡或补换 eSIM，只接受「增强合格电子签名」。运营商须在 12 月 1 日前完成与「国家钥匙」应用的对接改造，并核查 11 月 15 日之前远程开通并使用过 eSIM 的用户数据。该部称现行法律本就只允许合格签名，运营商此前通过应用留下了非合格签名的技术通道。",
+    "en": "Russia's Ministry of Digital Development has told mobile operators to stop issuing or re-issuing eSIMs remotely with an enhanced unqualified electronic signature and accept only the qualified kind. Operators have until 1 December to rework their integration with the Gosklyuch state app and to audit users who activated and used an eSIM remotely before 15 November. The ministry says existing law already allowed only qualified signatures, but operators retained a technical route for the weaker kind through the app.",
+    "es": "El Ministerio de Desarrollo Digital de Rusia pidió a los operadores móviles dejar de emitir o renovar eSIM de forma remota con una firma electrónica no cualificada y aceptar solo la cualificada. Los operadores tienen hasta el 1 de diciembre para rehacer la integración con la app estatal Gosklyuch y revisar los datos de quienes activaron y usaron una eSIM en remoto antes del 15 de noviembre. El ministerio sostiene que la ley ya exigía la firma cualificada, pero los operadores mantenían una vía técnica para la más débil."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "两种签名，一条技术后门",
+        "en": "Two signature classes, one technical route",
+        "es": "Dos clases de firma y una vía técnica"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "俄罗斯法律把增强电子签名分两级：非合格的（УНЭП）与合格的（УКЭП）。按规定，远程签订通信合同、开通 eSIM 应使用合格签名，但运营商在实践中留了一条通道——用户在「国家钥匙」（Госключ）应用内用非合格签名即可完成。数字发展部的函件要求把这条通道关掉。据数字证书专家拉哈特金的说法，已确认的国家服务门户账号就足以申请非合格证书，账号一旦被攻破，攻击者即可以机主名义取得证书；合格证书则需要当面或在线身份核验、已有合格证书、新一代护照芯片，或门户账号加生物识别。",
+        "en": "Russian law splits enhanced electronic signatures into two tiers: unqualified (UNEP) and qualified (UKEP). Remote conclusion of a communications contract and eSIM activation is supposed to use the qualified tier, but operators kept a route where a user could complete it with an unqualified signature inside the Gosklyuch government app. The ministry's letter closes that route. According to digital certificate specialist Evgeny Lakhatkin, a confirmed public services portal account is enough to obtain an unqualified certificate, so an account takeover lets an attacker obtain a certificate in the owner's name; a qualified certificate needs in-person or online identity checks, an existing qualified certificate, the chip in a new-generation passport, or the portal account plus biometrics.",
+        "es": "La ley rusa divide las firmas electrónicas avanzadas en dos niveles: no cualificada (UNEP) y cualificada (UKEP). La contratación remota y la activación de eSIM deberían usar la cualificada, pero los operadores mantenían una vía para completarla con una firma no cualificada dentro de la app estatal Gosklyuch. La carta del ministerio cierra esa vía. Según el especialista en certificados Evgeny Lakhatkin, una cuenta confirmada del portal de servicios públicos basta para obtener un certificado no cualificado, de modo que un robo de cuenta permite obtenerlo en nombre del titular; el cualificado exige identificación presencial o en línea, un certificado ya existente, el chip del pasaporte de nueva generación o la cuenta más biometría."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "12 月 1 日与 11 月 15 日两个日期",
+        "en": "Two dates: 1 December and 15 November",
+        "es": "Dos fechas: 1 de diciembre y 15 de noviembre"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "运营商须在 12 月 1 日前完成与「国家钥匙」的重新对接，使 eSIM 只能凭合格签名开通。",
+          "en": "Operators must complete re-integration with Gosklyuch by 1 December so that an eSIM can be issued only against a qualified signature.",
+          "es": "Los operadores deben rehacer la integración con Gosklyuch antes del 1 de diciembre para que la eSIM solo se emita con firma cualificada."
+        },
+        {
+          "zh": "与国家系统的对接只能走跨部门电子交互系统，不得使用 API 或其他通路。",
+          "en": "Integration with state systems may run only through the interdepartmental electronic interaction system, not via an API or other routes.",
+          "es": "La integración con sistemas estatales solo puede ir por el sistema interdepartamental de interacción electrónica, no por API ni otras vías."
+        },
+        {
+          "zh": "该部同时要求运营商核查 11 月 15 日之前远程开通并使用过 eSIM 的用户数据。",
+          "en": "The ministry also asked operators to check the data of users who activated and used an eSIM remotely before 15 November.",
+          "es": "El ministerio pidió además revisar los datos de quienes activaron y usaron una eSIM en remoto antes del 15 de noviembre."
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "运营商反应分化：T2 移动称影响不大，MegaFon 称将调整流程，MTS 未回应，VimpelCom 拒绝置评。俄罗斯 eSIM 用户规模没有官方统计，Unisimka 的卡什尼茨卡娅称在数百万量级，且随出厂无卡槽机型增多而上升。数字发展部未公布函件全文，上述内容来自俄媒报道。",
+        "en": "Operator responses diverge: T2 Mobile said the change will not affect it much, MegaFon said it will adapt its processes, MTS did not respond and VimpelCom declined to comment. There is no official count of eSIM users in Russia; Unisimka's Anna Kashnitskaya put it in the millions, rising as more handsets ship without a physical SIM slot. The ministry has not published the letter; the account above rests on Russian media reports.",
+        "es": "Las respuestas difieren: T2 Mobile dijo que el cambio apenas le afectará, MegaFon que adaptará sus procesos, MTS no respondió y VimpelCom declinó comentar. No hay cifra oficial de usuarios de eSIM en Rusia; Anna Kashnitskaya, de Unisimka, la sitúa en millones y al alza a medida que llegan terminales sin ranura física. El ministerio no ha publicado la carta; el relato anterior se basa en reportes de medios rusos."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这是把「远程开通」的信任锚点从账号换成人。非合格签名之所以被滥用，是因为它的取得门槛只是一个门户账号密码——号码被搬到攻击者的 eSIM 上，短信验证码随之落到对方手里，银行与即时通讯的二次验证同时失效。改成合格签名后，冒名开卡需要生物识别、护照芯片或已有合格证书中的一项，攻击成本从「攻破一个账号」抬到「伪造一个人的身份」。对产业链的直接后果有三层：运营商后台要在不到一个月内改完与政府系统的对接，且只能走跨部门电子交互，集成自由度被压缩；设备侧的影响落在无卡槽机型上，远程开卡这条 eSIM 的主要卖点在俄罗斯被削掉一半；对做远程开户、eSIM 转移和号码复用的平台商，俄罗斯成了一个必须单独做合规分支的市场。这也给其他把号码当作身份锚的辖区提供了一个样本：当远程开通成为诈骗入口时，监管的第一反应往往是提高签名等级，而不是关掉远程通道。",
+    "en": "This swaps the trust anchor for remote activation from an account to a person. The unqualified signature was abused because its only bar was a portal login: move the number onto an attacker's eSIM, and SMS codes follow, defeating second-factor checks at banks and messengers alike. Under the qualified tier, impersonation needs biometrics, a passport chip or an existing qualified certificate — raising the cost from breaking one account to forging one identity. Three consequences follow. Operator back ends must be reworked against state systems in under a month, with integration confined to the interdepartmental channel. The device-side effect lands on slotless handsets, removing much of the point of eSIM in Russia. And platforms handling remote onboarding, eSIM transfer and number reuse now need a separate Russian compliance branch. It is also a template for other jurisdictions that treat the number as an identity anchor: when remote activation becomes a fraud channel, regulators tend to raise the signature grade rather than close the channel.",
+    "es": "Esto cambia el ancla de confianza de la activación remota: de una cuenta a una persona. La firma no cualificada se abusaba porque su único requisito era un inicio de sesión en el portal: trasladar el número a la eSIM del atacante hace que los códigos SMS le lleguen, anulando el segundo factor en bancos y mensajería. Con la firma cualificada, suplantar exige biometría, el chip del pasaporte o un certificado cualificado previo: el coste pasa de vulnerar una cuenta a falsificar una identidad. Hay tres consecuencias: los sistemas de los operadores deben rehacerse en menos de un mes y solo por el canal interdepartamental; el efecto en el dispositivo recae en terminales sin ranura, restando buena parte del sentido de la eSIM en Rusia; y las plataformas de alta remota, traspaso de eSIM y reutilización de números necesitan una rama de cumplimiento específica. Es además una plantilla para otras jurisdicciones que usan el número como ancla de identidad: cuando la activación remota se vuelve canal de fraude, el regulador suele subir el grado de firma en lugar de cerrar el canal."
+  },
+  "confidence": 0.4,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-telecom-2026-11-17"
+  }
+}

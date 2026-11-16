@@ -1,0 +1,111 @@
+{
+  "id": "2026-11-17-banking-03",
+  "slug": "verve-uba-kenya-card-issuing",
+  "industry": "banking",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "scheme-rules",
+    "clearing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-17T04:18:21+08:00",
+  "ingestedAt": "2026-11-17T02:30:24+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Capital FM",
+      "url": "https://www.capitalfm.co.ke/business/2026/11/interswitch-uba-kenya-partner-to-expand-verve-card-access/",
+      "lang": "en",
+      "publishedAt": "2026-11-16T00:00:00+03:00"
+    },
+    {
+      "name": "KBC Digital",
+      "url": "https://www.kbc.co.ke/uba-kenya-interswitch-ink-deal-to-advance-card-payments/",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "Verve 卡进肯尼亚，UBA 客户可用 2000 多台 ATM",
+    "en": "Verve enters Kenya as UBA starts issuing the domestic scheme card",
+    "es": "Verve entra en Kenia con UBA emitiendo la tarjeta del esquema local"
+  },
+  "summary": {
+    "zh": "11 月 16 日，Interswitch 与 UBA 肯尼亚在内罗毕宣布，由后者向本行客户发行 Verve 卡。持卡人可在 2000 多台接入 Interswitch 的 ATM、受理商户与其他受理点取现和消费，符合条件的境内交易按本币清算，减少换汇环节。",
+    "en": "Interswitch and UBA Kenya said in Nairobi on 16 November that the bank will issue Verve cards to its customers. Cardholders can withdraw cash and pay at more than 2,000 Interswitch-connected ATMs, participating merchants and other acceptance points, with eligible domestic transactions settled in local currency to cut foreign-exchange conversion.",
+    "es": "Interswitch y UBA Kenia anunciaron en Nairobi el 16 de noviembre que el banco emitirá tarjetas Verve para sus clientes. Los titulares podrán retirar efectivo y pagar en más de 2.000 cajeros conectados a Interswitch, comercios participantes y otros puntos de aceptación, con liquidación en moneda local para las operaciones nacionales elegibles, lo que reduce la conversión de divisas."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "发行方与转接方各拿什么",
+        "en": "What each side brings",
+        "es": "Qué aporta cada parte"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Verve 是 Interswitch 自有的卡品牌，定位是给非洲金融机构一个国际卡组织之外的选项。这次合作里，UBA 肯尼亚负责发卡与客户关系，Interswitch 提供品牌、转接网络与清算安排。双方把卖点放在两点：一是受理面——2000 多台 ATM 与受理商户构成的网络；二是成本——符合条件的境内交易以本币结算，不必先换美元再换回本币，减少汇率敞口与两次换汇的手续费。",
+        "en": "Verve is Interswitch's own card brand, positioned as an alternative to the international schemes for African financial institutions. Under the partnership, UBA Kenya handles issuing and the customer relationship while Interswitch supplies the brand, the switching network and the settlement arrangement. The pitch rests on two points: reach, through a network of more than 2,000 ATMs and participating merchants, and cost, because eligible domestic transactions settle in local currency rather than being converted to dollars and back, which removes currency exposure and two sets of conversion fees.",
+        "es": "Verve es la marca de tarjetas propia de Interswitch, planteada como alternativa a los esquemas internacionales para las entidades financieras africanas. En la alianza, UBA Kenia asume la emisión y la relación con el cliente, mientras Interswitch aporta la marca, la red de conmutación y la liquidación. El argumento se apoya en dos puntos: alcance, con más de 2.000 cajeros y comercios participantes, y coste, porque las operaciones nacionales elegibles se liquidan en moneda local en lugar de convertirse a dólares y de vuelta, lo que elimina la exposición cambiaria y dos juegos de comisiones de conversión."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "这一步在区域里的位置",
+        "en": "Where this sits regionally",
+        "es": "Dónde encaja regionalmente"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "非洲的本土卡组织不止一家：尼日利亚有 Verve 与 AfriGo，肯尼亚长期以国际卡组织加本地转接为主。Verve 以「非洲市场设计」为卖点进入肯尼亚，与各国推本国 scheme 降低受理成本的思路一致，区别在于 Verve 是私营、跨国的。Interswitch 肯尼亚总经理 Geoffrey Njuguna 称，这一步是扩大 Verve 在肯尼亚的存在；UBA 肯尼亚执行董事 Joseph Adedotun 的说法是，让客户「有一个为肯尼亚市场设计、而不是改造过来的」支付选项。",
+        "en": "Africa has more than one domestic scheme: Nigeria has Verve and AfriGo, while Kenya has leaned on international schemes plus local switching. Verve enters Kenya selling itself as built for African markets, consistent with the wider push by central banks to cut acceptance costs through national schemes, except that Verve is privately owned and cross-border. Interswitch Kenya managing director Geoffrey Njuguna framed the deal as growing Verve's presence in the country; UBA Kenya executive director Joseph Adedotun said customers would get an option \"designed specifically around the Kenyan market, rather than adapted for it\".",
+        "es": "África tiene más de un esquema nacional: Nigeria cuenta con Verve y AfriGo, mientras Kenia se ha apoyado en esquemas internacionales y conmutación local. Verve llega a Kenia presentándose como diseñada para mercados africanos, en línea con el impulso de los bancos centrales por reducir costes de aceptación mediante esquemas nacionales, con la diferencia de que Verve es privada y transfronteriza. El director general de Interswitch Kenia, Geoffrey Njuguna, enmarcó el acuerdo en el crecimiento de la presencia de Verve en el país; el director ejecutivo de UBA Kenia, Joseph Adedotun, dijo que los clientes tendrán una opción \"diseñada específicamente para el mercado keniano, no adaptada a él\"."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "公告没给的三样东西",
+        "en": "Three things not disclosed",
+        "es": "Tres datos no divulgados"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "发卡量目标与上线日期：公告只说「将发行」，没有张数，也没有时间表。",
+          "en": "Issuance targets and a go-live date: the release says cards \"will\" be issued, with no volume and no timetable.",
+          "es": "Objetivos de emisión y fecha de lanzamiento: la nota dice que las tarjetas \"se emitirán\", sin volumen ni calendario."
+        },
+        {
+          "zh": "是否双标卡：Verve 卡能否同时挂国际品牌以便境外使用，公告未说明。",
+          "en": "Whether cards will be co-badged: the release does not say if Verve cards will also carry an international brand for use abroad.",
+          "es": "Si las tarjetas serán de doble marca: la nota no aclara si las Verve llevarán también una marca internacional para uso en el exterior."
+        },
+        {
+          "zh": "交换费水平：只讲「成本效益」，没有给出与 Visa、Mastercard 的费率差。",
+          "en": "Interchange levels: \"cost-effective\" is asserted, but no rate difference versus Visa or Mastercard is given.",
+          "es": "Niveles de intercambio: se afirma que es \"rentable\", pero no se indica diferencia de tasas frente a Visa o Mastercard."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对想在东非发卡的中小银行，这条给出的信号是 BIN 与转接可以不走国际卡组织：省掉的不只是交换费，还有本币清算带来的汇率敞口，以及跨境结算的时滞。代价是受理面——2000 多台 ATM 的规模在肯尼亚够用，但出了境就归零，除非做双标卡。对收单机构与 ATM 运营商，多一个本地 scheme 意味着终端参数与对账口径要再加一套。对 Visa 与 Mastercard，这类合作是慢性的份额侵蚀：每多一家本地 scheme 的发行行，跨境交易之外的境内流量就少一块。真正需要盯的是第二批发行行——如果 Verve 在肯尼亚只有 UBA 一家，它仍是一个双边协议；出现第二家、第三家，才说明转接网络本身被接受了。",
+    "en": "For mid-sized banks in East Africa weighing card issuance, the signal is that BIN sponsorship and switching need not go through an international scheme. What is saved is not only interchange but local-currency settlement — no FX exposure, no cross-border lag. The cost is acceptance: 2,000-plus ATMs is adequate inside Kenya and drops to zero outside it without co-badging. For acquirers and ATM operators, one more domestic scheme means another set of terminal parameters and reconciliation rules. For Visa and Mastercard this is slow share erosion: every additional domestic-scheme issuer takes domestic volume off the international rails, leaving only cross-border. The thing to watch is the second issuer. With UBA alone, Verve in Kenya is a bilateral deal; a second and third issuer is what shows the switch itself has been accepted.",
+    "es": "Para los bancos medianos de África Oriental que evalúan emitir tarjetas, la señal es que el patrocinio de BIN y la conmutación no tienen por qué pasar por un esquema internacional. Lo que se ahorra no es solo el intercambio, sino la liquidación en moneda local: sin exposición cambiaria ni demora transfronteriza. El coste es la aceptación: más de 2.000 cajeros basta dentro de Kenia y cae a cero fuera sin doble marca. Para adquirentes y operadores de cajeros, un esquema nacional más implica otro juego de parámetros de terminal y reglas de conciliación. Para Visa y Mastercard es una erosión lenta de cuota: cada emisor adicional de un esquema nacional resta volumen nacional a los raíles internacionales y deja solo el transfronterizo. Lo que hay que vigilar es el segundo emisor. Con UBA sola, Verve en Kenia es un acuerdo bilateral; un segundo y un tercer emisor demostrarían que se ha aceptado la red de conmutación."
+  },
+  "confidence": 0.66,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-banking-2026-11-17"
+  }
+}

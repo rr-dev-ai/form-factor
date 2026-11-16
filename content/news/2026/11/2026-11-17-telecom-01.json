@@ -1,0 +1,104 @@
+{
+  "id": "2026-11-17-telecom-01",
+  "slug": "india-dot-sim-binding-24-hour-check",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "sim-registration"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-17T04:18:21+08:00",
+  "ingestedAt": "2026-11-17T02:50:34+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "MediaNama",
+      "url": "https://www.medianama.com/2026/11/223-dot-clarifies-sim-binding-24-hour-checks/",
+      "lang": "en",
+      "publishedAt": "2026-11-16T12:45:00+05:30"
+    }
+  ],
+  "title": {
+    "zh": "印度把消息应用的 SIM 绑定核验定为每 24 小时一次",
+    "en": "India sets a 24-hour interval for messaging apps' SIM binding checks",
+    "es": "India fija en 24 horas el intervalo de verificación de SIM para apps"
+  },
+  "summary": {
+    "zh": "印度电信部就 2025 年 11 月的 SIM 绑定指令作出澄清，把「持续绑定」具化为每隔 24 小时核验一次注册所用的 SIM 仍在设备内。指令发给 WhatsApp、Telegram、Signal、Arattai、ShareChat、JioChat 与 Josh，合规期限 2026 年 12 月 31 日。电信部未公布澄清文本，发出日期亦未披露。",
+    "en": "India's Department of Telecommunications has clarified that the \"continuous\" SIM binding required of messaging apps means checking every 24 hours that the SIM used at registration is still in the device. The direction covers WhatsApp, Telegram, Signal, Arattai, ShareChat, JioChat and Josh, with a compliance deadline of 31 December 2026. The clarification text and its issue date have not been published.",
+    "es": "El Departamento de Telecomunicaciones de India precisó que la vinculación \"continua\" de SIM exigida a las apps de mensajería significa comprobar cada 24 horas que la SIM usada en el registro sigue en el dispositivo. La orden abarca WhatsApp, Telegram, Signal, Arattai, ShareChat, JioChat y Josh, con plazo de cumplimiento el 31 de diciembre de 2026. El texto de la aclaración y su fecha no se han publicado."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "「持续」原本没有刻度",
+        "en": "\"Continuous\" had no interval",
+        "es": "\"Continuo\" no tenía intervalo"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "2025 年 11 月，印度电信部依据《2024 年电信（电信网络安全）规则》向被定义为「电信标识符使用实体」（TIUE）的通信应用发函，要求其确保应用「持续与设备内插着的 SIM 卡保持关联」，使「没有这张特定的、活跃的 SIM 就无法使用应用」。原始指令没有定义「持续」，也没有说明核验频率，只给了 90 天期限，该期限后被延至 2026 年 12 月 31 日。据 MediaNama 援引的一位匿名行业信源，电信部其后另发澄清，把频率定为 24 小时一次。",
+        "en": "In November 2025 the Department of Telecommunications wrote to communication apps classed as Telecommunication Identifier User Entities (TIUEs) under the Telecom Cyber Security Rules, 2024, ordering them to keep the app \"continuously linked\" to the SIM installed in the device so that \"it is impossible to use the app without that specific, active SIM.\" The original direction neither defined \"continuous\" nor set a checking frequency; it gave 90 days, later extended to 31 December 2026. According to an anonymous industry source cited by MediaNama, a subsequent clarification puts the interval at 24 hours.",
+        "es": "En noviembre de 2025 el Departamento de Telecomunicaciones escribió a las apps de comunicación clasificadas como entidades usuarias de identificadores de telecomunicaciones (TIUE) bajo las Reglas de Ciberseguridad de Telecomunicaciones de 2024, ordenándoles mantener la app \"vinculada de forma continua\" a la SIM instalada en el dispositivo, de modo que \"sea imposible usar la app sin esa SIM concreta y activa\". La orden original no definía \"continuo\" ni fijaba frecuencia; daba 90 días, luego prorrogados al 31 de diciembre de 2026. Según una fuente sectorial anónima citada por MediaNama, una aclaración posterior fija el intervalo en 24 horas."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "24 小时这个数字难在取数",
+        "en": "The hard part is getting the identifier",
+        "es": "Lo difícil es obtener el identificador"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "核验的前提是应用能读到 SIM 的身份参数。按公开的行业讨论，这需要 IMSI 或 ICCID——前者标识用户，后者标识卡片本身。iOS 不向第三方应用开放这两项，Android 亦在多个版本中收紧。应用层因此只能依赖系统提供的接口，或者把判断交给运营商网络。2026 年 10 月有 CNBC 报道称苹果已作必要改动以支持 iOS 上的 SIM 绑定，MediaNama 表示未能独立核实。",
+        "en": "Verification assumes the app can read the SIM's identity parameters. Industry discussion points to IMSI or ICCID — the subscriber identity and the card identity respectively. iOS does not expose either to third-party apps, and Android has tightened access across versions. Apps therefore depend on what the operating system provides, or must delegate the judgement to the operator's network. A CNBC report in October 2026 said Apple had made the necessary changes to support SIM binding on iOS; MediaNama said it could not independently verify that.",
+        "es": "La verificación supone que la app puede leer los parámetros de identidad de la SIM. El debate sectorial apunta al IMSI o al ICCID: identidad del abonado e identidad de la tarjeta. iOS no expone ninguno de los dos a apps de terceros y Android ha restringido el acceso en varias versiones. Las apps dependen por tanto de lo que ofrezca el sistema operativo o deben delegar el juicio en la red del operador. Un informe de CNBC de octubre de 2026 afirmó que Apple había hecho los cambios necesarios para soportar la vinculación en iOS; MediaNama dijo no poder verificarlo de forma independiente."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "运营商把核验挪进网络侧",
+        "en": "Operators move verification into the network",
+        "es": "Los operadores llevan la verificación a la red"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "Airtel 在 2026 年 10 月的公告中称，静默认证可在登录与 SIM 绑定流程中替代短信验证码，做法是比对用户填写的号码与设备内的活跃 SIM。",
+          "en": "Airtel said in an October 2026 release that silent authentication can replace SMS OTPs in login and SIM-binding flows by matching the entered number against the active SIM in the device.",
+          "es": "Airtel afirmó en un comunicado de octubre de 2026 que la autenticación silenciosa puede sustituir a los OTP por SMS en los flujos de inicio de sesión y vinculación de SIM, comparando el número introducido con la SIM activa del dispositivo."
+        },
+        {
+          "zh": "Vodafone Idea 在 2026 年 6 月与 Meta 的合作公告中，把静默手机号核验列为注册、验证、登录与账户找回的可用手段，核验请求经电信网络在后台完成。",
+          "en": "Vodafone Idea's June 2026 partnership announcement with Meta listed silent mobile verification for registration, number verification, login, re-login and account recovery, with the request validated in the background through the telecom network.",
+          "es": "El anuncio de Vodafone Idea con Meta en junio de 2026 incluyó la verificación móvil silenciosa para registro, verificación de número, inicio y reinicio de sesión y recuperación de cuenta, validada en segundo plano a través de la red."
+        },
+        {
+          "zh": "三家运营商均已在印度移动通信大会上宣布基于 GSMA CAMARA 的 SIM Swap API，并计划推出 Number Verification API，把号码比对做成网络侧接口而非终端侧读取。",
+          "en": "All three operators have announced GSMA CAMARA-based SIM Swap APIs in India and planned a Number Verification API, turning number matching into a network-side interface rather than a read on the handset.",
+          "es": "Los tres operadores anunciaron API de SIM Swap basadas en GSMA CAMARA en India y prevén una API de verificación de número, convirtiendo la comparación en una interfaz de red en lugar de una lectura en el terminal."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "把「持续」定成 24 小时，等于给一个原本无从实施的义务划了可执行的边界，但它同时把成本推到了两端。技术上是应用与操作系统的接口问题：只要 iOS 与 Android 不向第三方开放 IMSI 或 ICCID，应用就只能依赖运营商网络侧的静默核验，而这条路径把每一次核验都变成一次网络查询，规模化后的结算与容量安排尚无公开方案。监管上是管辖边界问题：TIUE 这个类别把即时通讯应用拉进电信网络安全的义务框架，印度是先例，其他把号码当作账号标识的辖区会盯这套定义怎么落。商业上受益的是能提供网络侧接口的运营商与聚合平台——Airtel、Jio、Vodafone Idea 已经把 CAMARA 系列 API 摆上货架，绑定义务越具体，这类接口的采购理由越硬；受挤压的是依赖网页端与多设备登录的跨境应用，它们的账号模型建立在「号码可离线」之上。",
+    "en": "Defining \"continuous\" as 24 hours turns an unenforceable duty into an executable one, and pushes the cost to both ends. Technically it is an interface problem between apps and operating systems: while iOS and Android withhold IMSI or ICCID from third parties, apps must lean on network-side silent verification, which converts every check into a network query with no public answer yet on settlement and capacity at scale. On regulation, the TIUE category pulls messaging apps into a telecom cyber-security obligation framework, and India is the precedent other jurisdictions will watch. Commercially the gain sits with operators and aggregators that can sell network interfaces — Airtel, Jio and Vodafone Idea already list CAMARA APIs — while cross-border apps whose account model assumes a number can be offline face the squeeze.",
+    "es": "Fijar \"continuo\" en 24 horas convierte un deber inaplicable en uno ejecutable y traslada el coste a ambos extremos. En lo técnico es un problema de interfaz entre apps y sistemas operativos: mientras iOS y Android no expongan IMSI o ICCID a terceros, las apps dependen de la verificación silenciosa en red, que convierte cada comprobación en una consulta con coste y capacidad aún sin respuesta pública. En lo regulatorio, la categoría TIUE arrastra a las apps de mensajería al marco de obligaciones de ciberseguridad de telecomunicaciones, con India como precedente. En lo comercial gana quien puede vender interfaces de red —Airtel, Jio y Vodafone Idea ya listan API CAMARA—, mientras las apps transfronterizas cuyo modelo asume un número desconectable quedan expuestas."
+  },
+  "confidence": 0.5,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-telecom-2026-11-17"
+  }
+}

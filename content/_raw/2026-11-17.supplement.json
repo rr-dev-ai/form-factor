@@ -1,0 +1,64 @@
+{
+  "fetchedAt": "2026-11-17T01:54:18+08:00",
+  "fetchedFor": "2026-11-17",
+  "gap": ["cis", "mena", "europe", "north-america", "africa"],
+  "cellGap": ["apac/banking", "apac/telecom", "latam/banking", "latam/telecom"],
+  "industryGap": ["banking", "telecom", "identity"],
+  "items": [
+    {
+      "title": "Egypt's Nasser Social Bank signs five-year card issuing and personalisation protocol with eNovate",
+      "url": "https://www.businesstec.news/25117",
+      "publishedAt": "2026-11-14T13:04:00+02:00",
+      "industry": "banking",
+      "region": "mena",
+      "actionType": "授标",
+      "gateNote": "有承接方（eFinance 旗下 eNovate）与标的（银行发卡与卡个性化、数字支付、移动应用），但无合同金额、无发卡量、无上线时间与具体产品；若终审按「必须有可核具体物」收紧，只剩双方名称与五年期限两项，可能被刷。",
+      "discoveredBy": "fintechnews card issuance OR eKYC partnership 16 November 2026（R4 垂直媒体轮）",
+      "note": "落在发卡与卡个性化环节：埃及社会银行把发卡处理、卡片个性化连同数字支付与移动应用打包给 eNovate，协议在 Cairo ICT 2026 现场签署、为期五年，属把自建产线换成外部代工+代运营。原文未披露合同金额、年发卡规模、替换的是哪家现有供应商，也没说是否涉及实体卡印制产线迁转。"
+    },
+    {
+      "title": "Crédit Agricole Deutschland picks Enfuce for Visa debit issuing, G+D for card personalisation",
+      "url": "https://paymentsindustryintelligence.com/credit-agricole-partners-with-enfuce-in-germany-launch/",
+      "publishedAt": "2026-11-16T17:51:00+00:00",
+      "industry": "banking",
+      "region": "europe",
+      "actionType": "授标",
+      "gateNote": "承接方两项可核（Enfuce 承担发卡、BIN 赞助与处理；G+D 承担实体卡生产与个性化），标的为德国 Visa 借记卡计划；缺合同金额与发卡量，若终审要求「金额或规模」之一，本条只剩承接方一项凭据。",
+      "discoveredBy": "归档直读 paymentsindustryintelligence 首页（R2 机构驱动轮）",
+      "note": "落在发卡与制卡个性化：法国农业信贷在德国新设数字优先零售银行，把发卡处理、BIN 赞助外包给 Enfuce，实体卡生产与个性化交给 G+D，开户当刻即可用卡、无需等塑料卡寄达。原文未给发卡量、目标客户数（仅提集团在德存量约百万）与合同金额，也未说该行是否保留自有 CMS。"
+    },
+    {
+      "title": "Gibraltar moves passport applications fully online, closes paper counters from 16 November",
+      "url": "https://www.vox.gi/new-online-passport-application-system-to-launch-on-16-november-2026",
+      "publishedAt": "2026-11-12T00:00:00+01:00",
+      "industry": "identity",
+      "region": "europe",
+      "actionType": "无",
+      "gateNote": "六类动作都不贴：这是签发渠道的数字化（纸本柜台停收、全部转线上、并入 HMPO 现代化计划），没有新证件形态、没有授标、没有版本号。发布日 11-12 在 72 小时窗外，事件日 11-16 在窗内，按 11-10 科索沃先例照实填发布时间交终审判断。",
+      "discoveredBy": "\"15 November 2026\" OR \"16 November 2026\" passport OR \"identity card\" contract signing biometric（R7 补充轮）",
+      "note": "落在证件的签发环节：直布罗陀版英国护照自 11-16 起只接受线上申请，柜台不再收纸本，申请、上传照片、在线缴费与进度查询全部转到政府网站，属 HMPO 在 UK、皇家属地与海外领地推的案卷系统现代化。原文未说系统供应商、办理时限有无变化，也没说证件本身的芯片、版式或防伪要素是否同步调整。"
+    },
+    {
+      "title": "Nigeria launches vPASS airport passenger verification with NIN and facial recognition at Lagos and Abuja",
+      "url": "https://portnewsnigeria.com.ng/aviation-minister-to-launch-airport-passenger-verification-system-at-lagos-airport",
+      "publishedAt": "2026-11-14T00:00:00+01:00",
+      "industry": "identity",
+      "region": "africa",
+      "actionType": "产品化节点",
+      "gateNote": "有产品名（vPASS）、合作方（Verxid Technologies）、落地机场与 e-gate 形态，但属「将于 11-16 上线」的预告稿；缺合同金额、覆盖旅客量、与 NIMC 身份库的接口细节，若终审要求已生效证据，需等上线后的一手确认。",
+      "discoveredBy": "\"verifiable credential\" OR \"mDL\" government pilot issuance \"November 16, 2026\"（R5 新兴术语轮）",
+      "note": "落在身份核验终端：FAAN 用 NIN 加人脸比对在机场 e-gate 完成旅客身份核验，替代现场出示实体证件，首期覆盖拉各斯 MMIA 与阿布贾 NAIA 两个国内航站楼，合作方为 Verxid Technologies。原文未说对接哪一个国家身份库、误识率与注册覆盖率，也没提生物特征模板的留存期限与删除规则。"
+    },
+    {
+      "title": "Visa Scan to Pay goes live in Samsung Wallet across Asia Pacific, Australia and Singapore first",
+      "url": "https://en.yna.co.kr/view/RPR20261116003000353",
+      "publishedAt": "2026-11-16T12:19:00+09:00",
+      "industry": "banking",
+      "region": "apac",
+      "actionType": "联合部署",
+      "gateNote": "双方是卡组织与终端厂商，落地市场（澳大利亚、新加坡）与受理网络（Alipay+、FOMO Pay、Lakala、VNPay、OpenRice、Octopus）可核；但缺发卡行名单与受理商户数，若终审要求「至少一方是运营方或受理方」，此处只有钱包与网络，属临界。",
+      "discoveredBy": "US bank launches card program OR \"tap to pay\" merchants \"November 16, 2026\"（R6 区域补充轮）",
+      "note": "落在受理与分发：Visa 卡凭证经 Samsung Wallet 生成 QR 扫码支付，复用 Alipay+、FOMO Pay、Lakala、VNPay、OpenRice、Octopus 等既有受理网络，澳新先行、后续按季度扩市场。原文只说「数百万商户」与 Visa 全球 1.75 亿受理点的总量口径，未给本次实际开通商户数、支持卡种（信用卡/借记卡）与收单侧分润安排。"
+    }
+  ]
+}

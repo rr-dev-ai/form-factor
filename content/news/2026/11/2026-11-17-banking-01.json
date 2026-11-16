@@ -1,0 +1,116 @@
+{
+  "id": "2026-11-17-banking-01",
+  "slug": "unionpay-visa-acceptance-network-link",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "scheme-rules",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-17T04:18:21+08:00",
+  "ingestedAt": "2026-11-17T02:30:24+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "央广网",
+      "url": "https://www.cnr.cn/tech/techgd/20261116/t20261116_527875040.shtml",
+      "lang": "zh",
+      "publishedAt": "2026-11-16T21:07:03+08:00"
+    },
+    {
+      "name": "澎湃新闻",
+      "url": "https://m.thepaper.cn/newsDetail_forward_34490346",
+      "lang": "zh"
+    }
+  ],
+  "title": {
+    "zh": "银联与 Visa 打通受理网络，银联凭证可走 Visa 全球非接",
+    "en": "UnionPay and Visa link acceptance networks so UnionPay credentials reach Visa terminals",
+    "es": "UnionPay y Visa interconectan sus redes de aceptación para credenciales UnionPay"
+  },
+  "summary": {
+    "zh": "11 月 16 日，中国银联与 Visa 在深圳前海启动双向互联互通：参与合作的数字钱包可用银联支付凭证，在银联与 Visa 的全球非接受理网络完成支付。入境侧由 Nihao China App 承接扫码消费、公交地铁与离境退税，Visa 率先接入，商户不必改造既有银联终端。",
+    "en": "UnionPay and Visa launched a two-way interconnection in Shenzhen on 16 November. Wallets in the programme can pay with a UnionPay credential across both networks' contactless acceptance points worldwide. For inbound visitors, the Nihao China app handles QR shopping, metro and bus fares and departure tax refunds, with Visa the first international scheme to join, and merchants need no changes to existing UnionPay terminals.",
+    "es": "UnionPay y Visa pusieron en marcha el 16 de noviembre en Shenzhen una interconexión bidireccional: los monederos participantes pueden pagar con una credencial UnionPay en los puntos de aceptación sin contacto de ambas redes. Para visitantes entrantes, la app Nihao China cubre compras por QR, metro y autobús y devolución de impuestos, con Visa como primer esquema internacional; los comercios no deben modificar sus terminales UnionPay."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "三块内容，核心是网络对网络",
+        "en": "Three tracks, with network-to-network at the centre",
+        "es": "Tres ejes, con la conexión red a red en el centro"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "合作分三块。第一块是「一点对接」的网络对网络互联：钱包侧接入一次，就能用同一张银联支付凭证，在银联和 Visa 各自的非接受理网络上完成交易。第二块是入境支付，银联的 Nihao China App 让境外用户直接扫码完成购物、公交地铁、餐饮与离境退税，收单机构与商户无需二次改造已有的银联终端，Visa 是率先接入的卡组织。第三块是智能商务，双方称将提升智能体协议标准的互操作性，共同推进智能体支付框架。",
+        "en": "The agreement has three tracks. The first is a network-to-network link: a wallet integrates once and can then use the same UnionPay credential across UnionPay's and Visa's separate contactless acceptance networks. The second covers inbound payments, where UnionPay's Nihao China app lets overseas visitors scan to pay for shopping, metro and bus rides, dining and departure tax refunds, without acquirers or merchants rebuilding existing UnionPay terminals; Visa is the first card scheme to join. The third is agentic commerce, where the two say they will improve interoperability between agent protocol standards and jointly develop an agent payment framework.",
+        "es": "El acuerdo tiene tres ejes. El primero es una conexión red a red: un monedero se integra una vez y luego usa la misma credencial UnionPay en las redes de aceptación sin contacto de UnionPay y de Visa. El segundo cubre los pagos entrantes: la app Nihao China de UnionPay permite a los visitantes extranjeros escanear para pagar compras, metro y autobús, restaurantes y devolución de impuestos, sin que adquirentes ni comercios reconstruyan los terminales UnionPay existentes; Visa es el primer esquema de tarjetas en sumarse. El tercero es el comercio con agentes, donde ambos dicen que mejorarán la interoperabilidad entre estándares de protocolos de agentes y desarrollarán un marco de pagos con agentes."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "谁在场，谁没被写进时间表",
+        "en": "Who attended, who has no timetable",
+        "es": "Quién asistió y quién no tiene calendario"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "启动仪式在深圳前海举行。银联董事长董俊峰、Visa 大中华区总裁张文翊、银联执行副总裁胡浩中、Visa 中国区总裁尹小龙出席；中国人民银行深圳市分行、前海管理局、深圳市文化广电旅游体育局到场，工、农、中、建、交、招商、中信、广发、平安、深圳农商等商业银行与产业伙伴列席。公告未给出各家银行的接入时间表，也未说明首发钱包名单。",
+        "en": "The launch took place in Shenzhen's Qianhai district. UnionPay chairman Dong Junfeng, Visa Greater China president Zhang Wenyi, UnionPay executive vice president Hu Haozhong and Visa China president Yin Xiaolong attended, alongside the People's Bank of China Shenzhen branch, the Qianhai authority and the city's culture, radio, television, tourism and sports bureau. Industrial and Commercial Bank of China, Agricultural Bank of China, Bank of China, China Construction Bank, Bank of Communications, China Merchants Bank, China CITIC Bank, China Guangfa Bank, Ping An Bank and Shenzhen Rural Commercial Bank sent representatives. The announcement gave no bank-by-bank integration timetable and no list of launch wallets.",
+        "es": "El acto se celebró en el distrito de Qianhai, Shenzhen. Asistieron el presidente de UnionPay, Dong Junfeng; el presidente de Visa Greater China, Zhang Wenyi; el vicepresidente ejecutivo de UnionPay, Hu Haozhong, y el presidente de Visa China, Yin Xiaolong, junto con la sucursal de Shenzhen del Banco Popular de China, la autoridad de Qianhai y la oficina de cultura, radio, televisión, turismo y deporte de la ciudad. Estuvieron representados ICBC, Agricultural Bank of China, Bank of China, China Construction Bank, Bank of Communications, China Merchants Bank, China CITIC Bank, China Guangfa Bank, Ping An Bank y Shenzhen Rural Commercial Bank. El anuncio no dio calendario de integración por banco ni lista de monederos iniciales."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "公告没说的四项",
+        "en": "Four things the announcement left out",
+        "es": "Cuatro puntos que el anuncio omitió"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "交换费与网络服务费如何在两个网络之间分摊，公告未提。",
+          "en": "How interchange and network fees are split between the two networks is not addressed.",
+          "es": "No se aborda cómo se reparten las tasas de intercambio y de red entre ambas redes."
+        },
+        {
+          "zh": "Visa 凭证在银联网络的反向受理何时上线，没有季度或年份。",
+          "en": "No quarter or year is given for the reverse direction, Visa credentials accepted on UnionPay's network.",
+          "es": "No se indica trimestre ni año para la dirección inversa: credenciales Visa aceptadas en la red UnionPay."
+        },
+        {
+          "zh": "智能体支付框架只写到「提升互操作性」，没有规范版本号或授权数据字段。",
+          "en": "The agent payment framework stops at \"improving interoperability\", with no specification version or authorisation data fields.",
+          "es": "El marco de pagos con agentes se queda en \"mejorar la interoperabilidad\", sin versión de especificación ni campos de datos de autorización."
+        },
+        {
+          "zh": "哪些钱包首发、覆盖哪些境外市场，均未披露。",
+          "en": "Which wallets go first and which overseas markets they cover are undisclosed.",
+          "es": "No se revela qué monederos van primero ni qué mercados exteriores cubren."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对受理侧的技术团队，「一次接入、两网通行」被写进两家卡组织的合作框架，意味着钱包与收单机构过去为每个网络各做一套凭证与密钥流程的做法有了复用空间。真实工作量取决于后续发布的技术规范：只做凭证层映射，改造集中在钱包 SDK 与终端参数；一旦涉及令牌与密钥体系互认，收单机构的终端固件与 TMS 都要动。对景区、交通、退税这类境外客流集中的商户，短期利好是存量银联终端不必再加设备。接下来该盯两件事：Visa 侧反向受理是否给出上线季度，以及智能体支付框架会不会落到具体的授权数据字段——只有落到字段，才是能写进实现的东西。",
+    "en": "For acceptance-side engineering teams, \"integrate once, pay on both networks\" being written into a scheme-level framework matters because wallets and acquirers have historically built a separate credential and key pipeline per network. How much work it actually saves depends on the technical specifications still to come: a credential-layer mapping concentrates changes in wallet SDKs and terminal parameters, while mutual recognition of tokens and keys would touch terminal firmware and remote key management on the acquirer side. For merchants with heavy inbound traffic — attractions, transit, tax refunds — the near-term gain is that existing UnionPay terminals need no extra hardware. Two things to watch: whether Visa gives a quarter for the reverse direction, and whether the agent framework lands on concrete authorisation data fields. Only the latter becomes something an engineer can implement.",
+    "es": "Para los equipos técnicos del lado de la aceptación, que \"integrar una vez, pagar en ambas redes\" quede escrito en un marco de esquemas importa porque los monederos y adquirentes han construido históricamente una canalización de credenciales y claves distinta por red. El ahorro real depende de las especificaciones técnicas aún pendientes: un mapeo en la capa de credenciales concentra los cambios en SDK de monederos y parámetros de terminal, mientras que el reconocimiento mutuo de tokens y claves tocaría el firmware de los terminales y la gestión remota de claves del adquirente. Para comercios con mucho tráfico entrante —atracciones, transporte, devolución de impuestos— la ganancia inmediata es que los terminales UnionPay existentes no necesitan hardware adicional. Dos cosas a seguir: si Visa fija un trimestre para la dirección inversa y si el marco de agentes aterriza en campos concretos de datos de autorización. Solo lo segundo se puede implementar."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-banking-2026-11-17"
+  }
+}

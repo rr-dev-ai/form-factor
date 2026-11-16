@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-17-identity-03",
+  "slug": "veratad-accs-new-york-safe-for-kids-certification",
+  "industry": "identity",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "verification",
+    "biometrics",
+    "liveness"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-17T04:18:21+08:00",
+  "ingestedAt": "2026-11-17T03:10:28+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/veratad-gets-new-york-safe-for-kids-certification-as-shufti-patents-on-device-age-checks/",
+      "lang": "en"
+    },
+    {
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/veratad-among-the-first-providers-with-age-assurance-methods-certified-by-accs-under-new-yorks-safe-for-kids-act-302940526.html",
+      "lang": "en",
+      "publishedAt": "2026-11-16T09:06:00-05:00"
+    }
+  ],
+  "title": {
+    "zh": "纽约年龄核验开认证，两种方法先过 ACCS",
+    "en": "New York opens age-check certification with two approved methods",
+    "es": "Nueva York abre la certificación de verificación de edad"
+  },
+  "summary": {
+    "zh": "认证机构 ACCS 按纽约 SAFE for Kids 实施规则，认证了 Veratad VX 平台上的两种年龄核验方法：不需证件的面部估龄，以及证件加自拍比对。该法 2027 年 1 月 25 日生效，平台提供的每一种方法都须每年由认可第三方就准确性、规避、隐私与安全重新认证；Veratad 自称属首批通过者。",
+    "en": "Certification body ACCS has certified two age assurance methods on Veratad's VX platform under New York's SAFE for Kids implementing rules: facial age estimation that needs no document, and ID-to-selfie matching. The law takes effect January 25, 2027, and every method a platform offers must be re-certified each year by an accredited third party on accuracy, circumvention, privacy and security. Veratad describes itself as among the first providers to clear it.",
+    "es": "El organismo de certificación ACCS certificó dos métodos de verificación de edad en la plataforma VX de Veratad conforme a las reglas de aplicación de la ley SAFE for Kids de Nueva York: estimación de edad por rostro sin documento y cotejo de documento con selfi. La ley entra en vigor el 25 de enero de 2027 y cada método ofrecido debe recertificarse cada año por un tercero acreditado en precisión, elusión, privacidad y seguridad. Veratad se presenta como uno de los primeros proveedores en lograrlo."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "认证的是方法，不是产品",
+        "en": "The methods get certified, not the product",
+        "es": "Se certifican los métodos, no el producto"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "纽约的《停止成瘾性信息流利用儿童法》（SAFE for Kids Act）要求被覆盖的社交媒体平台在推送算法化信息流或发送夜间通知之前，先确认用户是成年人，除非取得家长同意。州总检察长的实施规则把可用的办法分成三类：年龄估计、年龄核验、年龄推断，并规定平台提供的每一种办法都要由认可的第三方按准确性、可规避性、隐私与安全四项标准认证，且每年重做一次。ACCS 这次认证的两项分别是面部分析估龄（不读证件）与证件加自拍比对；Veratad 说第三种年龄推断还在申请。",
+        "en": "New York's Stop Addictive Feeds Exploitation (SAFE) for Kids Act requires covered social platforms to establish that a user is an adult before serving an algorithmically personalised feed or sending overnight notifications, unless a parent consents. The attorney general's implementing rules allow three approaches - age estimation, age verification and age inference - and require every method a platform offers to be certified by an accredited third party against accuracy, circumvention, privacy and security, with annual re-certification. ACCS certified two: facial age estimation, which reads no document, and ID-to-selfie matching. Veratad says a third, age inference, is still under application.",
+        "es": "La ley SAFE for Kids de Nueva York obliga a las plataformas sociales cubiertas a confirmar que el usuario es adulto antes de servir un feed personalizado por algoritmo o enviar notificaciones nocturnas, salvo consentimiento parental. Las reglas de la fiscalía general admiten tres vías —estimación, verificación e inferencia de edad— y exigen que cada método ofrecido sea certificado por un tercero acreditado en precisión, elusión, privacidad y seguridad, con recertificación anual. ACCS certificó dos: estimación facial sin documento y cotejo de documento con selfi. Veratad dice que la tercera, inferencia, sigue en trámite."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "接在既有的 ISO 认证之上",
+        "en": "Bolted onto an existing ISO certificate",
+        "es": "Sobre una certificación ISO previa"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这条不是从零起步。Veratad 在 2026 年 4 月已经拿到 ISO/IEC 27566-1:2025 的年龄核验认证，当时是首批三家之一；纽约这次认证是把同一套方法的适用范围扩到州法条文。差别在约束力：ISO 认证是自愿性的国际标准，纽约的认证是市场准入条件——平台不采用已认证方法，就违反了实施规则。这也解释了为什么认证机构出现在新闻里：ACCS 这类机构过去主要服务英国与欧盟的年龄核验体系，现在开始承接美国州法的合规业务。",
+        "en": "This does not start from zero. Veratad obtained ISO/IEC 27566-1:2025 age assurance certification in April 2026, one of a first cohort of three; the New York certificate extends the same methods into a statutory requirement. The difference is binding force. ISO certification is a voluntary international standard, while the New York certificate is a market entry condition: a platform that does not use certified methods breaches the implementing rules. That also explains why the certifier is in the story. Bodies such as ACCS built their business on UK and EU age-check regimes and are now taking on US state compliance work.",
+        "es": "No se parte de cero. Veratad obtuvo en abril de 2026 la certificación ISO/IEC 27566-1:2025 de verificación de edad, dentro de un primer grupo de tres; el certificado de Nueva York extiende los mismos métodos a un requisito legal. La diferencia es la fuerza vinculante: la ISO es un estándar voluntario y el certificado neoyorquino es condición de acceso al mercado, porque una plataforma que no use métodos certificados incumple las reglas. Eso explica también por qué aparece el certificador: organismos como ACCS construyeron su negocio sobre los regímenes británico y europeo y ahora asumen el cumplimiento de leyes estatales de EE. UU."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "年检带来的重复收入",
+        "en": "The recurring revenue in annual review",
+        "es": "Los ingresos recurrentes de la revisión anual"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "年检条款把一次性的测试变成周期性的支出。平台若同时提供估龄与证件核验，两套方法各要一份认证，换供应商或改模型都要重新走一遍。公告没有给出认证费用、测试样本量或错误率阈值，也没有说明州总检察长如何抽查——这三项决定年度认证到底是一道真门槛，还是可以走过场的手续。Veratad 方面只说「纽约设了一个可测量的门槛」，未披露具体指标。",
+        "en": "The annual clause turns a one-off test into a recurring cost. A platform offering both estimation and document verification needs a certificate for each, and switching vendors or retraining a model means going through it again. The announcement gives no certification fee, no test sample size and no error threshold, and does not say how the attorney general will audit compliance - three things that decide whether annual certification is a real gate or a formality. Veratad says only that New York set a measurable bar, without publishing the numbers.",
+        "es": "La cláusula anual convierte una prueba puntual en un costo recurrente. Una plataforma que ofrezca estimación y verificación documental necesita un certificado por cada método, y cambiar de proveedor o reentrenar el modelo obliga a repetir el proceso. El anuncio no da tarifa de certificación, tamaño de muestra ni umbral de error, y no explica cómo auditará la fiscalía: tres puntos que deciden si la certificación anual es una barrera real o un trámite. Veratad solo afirma que Nueva York fijó un listón medible, sin publicar las cifras."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "年龄核验这两年一直在标准层面打转，纽约把它变成了准入条件加年检，性质变了：过去厂商可以说「符合 ISO 27566」，现在平台要的是「这个方法在本州被认可第三方认证过，且在有效期内」。对做证件核验与活体检测的公司，这是一条新的收入路径——把读证件、比人脸的能力包装成社媒合规预算里的一个条目，买单方从银行风控换成平台合规。对认证机构，年检条款意味着可持续的业务，ACCS 从英欧走进美国州法是这个趋势的开头。需要留意的反面是：标准与执法都还在成形，认证费用与错误率阈值未公开，平台完全可能先拿最低成本的估龄方案过关，把证件核验留给高风险场景。供应商若只卖「更准」，未必卖得动；卖「可被认证、可被复审」才贴合这条规则的写法。",
+    "en": "Age assurance has spent two years circling standards; New York has turned it into a market entry condition plus an annual review, which changes the nature of the sale. A vendor could once say it complies with ISO 27566; a platform now needs a method certified by an accredited third party in that state and still in validity. For companies doing document checks and liveness, that opens a revenue path: package document reading and face matching as a line item in a social platform's compliance budget, paid for by compliance rather than by bank risk. For certifiers, the annual clause is recurring business, and ACCS moving from the UK and EU into a US state law is the leading edge of that. The caution is that both the standard and the enforcement are still forming: fees and error thresholds are unpublished, and platforms may well clear the bar with the cheapest estimation method and reserve document checks for high-risk cases. Selling accuracy alone may not work here; selling certifiability and auditability fits how the rule is written.",
+    "es": "La verificación de edad lleva dos años girando en torno a estándares; Nueva York la convirtió en condición de acceso al mercado más revisión anual, y eso cambia la naturaleza de la venta. Antes un proveedor podía decir que cumplía la ISO 27566; ahora la plataforma necesita un método certificado por un tercero acreditado en ese estado y vigente. Para quienes hacen lectura de documentos y prueba de vida se abre una vía de ingresos: empaquetar lectura de documento y cotejo facial como partida del presupuesto de cumplimiento de una plataforma social, pagado por compliance y no por riesgo bancario. Para los certificadores, la cláusula anual es negocio recurrente, y el paso de ACCS del Reino Unido y la UE a una ley estatal estadounidense marca el inicio. La advertencia es que tanto el estándar como la ejecución están en formación: no se publican tarifas ni umbrales de error, y es probable que las plataformas superen el listón con el método de estimación más barato y reserven la verificación documental para casos de riesgo alto. Vender solo precisión puede no funcionar; vender certificabilidad y auditabilidad encaja con cómo está escrita la norma."
+  },
+  "confidence": 0.62,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

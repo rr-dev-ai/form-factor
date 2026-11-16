@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-17",
+  "startedAt": "2026-11-17T01:50:34+08:00",
+  "finishedAt": "2026-11-17T01:54:18+08:00",
+  "indexCheck": {
+    "file": "content/_raw/2026-11-17.index.json",
+    "exists": true,
+    "fetchedFor": "2026-11-17",
+    "items": 145,
+    "attempts": 1,
+    "note": "一次通过，未等待。fetchedAt 字段为 undefined，与 11-15 同型；fetchedFor 正确，items 非空，满足开工条件。"
+  },
+  "matrix": {
+    "counted": 2,
+    "dropped": {
+      "published": 0,
+      "expired": 0,
+      "undated": 8,
+      "lowConfidence": 135,
+      "invalid": 0
+    },
+    "gaps": ["cis", "mena", "europe", "north-america", "africa"],
+    "cellGaps": [
+      { "region": "apac", "industry": "banking" },
+      { "region": "apac", "industry": "telecom" },
+      { "region": "latam", "industry": "banking" },
+      { "region": "latam", "industry": "telecom" }
+    ],
+    "industryGaps": [
+      { "industry": "banking", "emptyRegions": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"] },
+      { "industry": "telecom", "emptyRegions": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"] },
+      { "industry": "identity", "emptyRegions": ["cis", "mena", "europe", "north-america", "africa"] }
+    ],
+    "note": "脚本 stdout：「矩阵已重算：计入 2 条，剔除 已发布 0 / 超窗 0 / 无日期 8 / 低置信 135」。content/_raw/2026-11-17.matrix.json 仍未落盘（延续 11-15 起的现象），三层缺口以 stdout 为准，未改脚本、未改阈值。2 条计入的是 apac/identity（Philippines NIDAS，0.60）与 latam/identity（Costa Rica 数字身份证 2027-01-01 强制受理，0.70）。banking 与 telecom 各 7/7 全断，identity 只缺五区。"
+  },
+  "phases": [
+    {
+      "phase": "R1",
+      "at": "2026-11-17T01:51:20+08:00",
+      "queries": 5,
+      "hits": 0,
+      "note": "五个 gap 区各一条（cis / mena / europe / north-america / africa），用「区域 + 链路环节产品词」组合（biometric passport eID、payment card personalisation、EMVCo chip certification、state mDL、SIM plant eUICC）。全部无合格产出：MENA 两条（Mastercard×LiaPay 11-11、Network International×EIB 11-13）事件日均早于 11-14 01:50 的 72 小时线；北美只出 mDL 科普与佐治亚 11-02 旧闻；欧洲全是 EMV 术语页；非洲 SIM 制造被 b2b168 与 startuplist 占满。**未达 6 条下限，如实记账，未用近义 query 补位。**"
+    },
+    {
+      "phase": "R2",
+      "at": "2026-11-17T01:51:50+08:00",
+      "queries": 4,
+      "hits": 1,
+      "basedOn": "R1 的 mena/africa 两条均撞到「事件日超窗」，改按具体主体发：内务部令、NIMC/Home Affairs、IDEMIA/Thales/G+D、带引号的日期锚定；同时直读 biometricupdate /202611 与 paymentsindustryintelligence 首页替代两条关键词。",
+      "note": "4 条 query + 2 次归档直读。biometricupdate /202611 最新只到 11-14 13:17 EST，11-14 三条全是分析/诈骗/隐私政策稿，无一条过范围门；近三日亦无 11-15/11-16 条目。paymentsindustryintelligence 首页给出 11-16 三条，其中 Crédit Agricole×Enfuce 命中 europe/banking。哈萨克 QazETA 与南非 753 家银行网点两条事件日分别为 11-09、11-11，超窗。**未达 5 条下限，如实记账。**"
+    },
+    {
+      "phase": "R3",
+      "at": "2026-11-17T01:52:25+08:00",
+      "queries": 6,
+      "hits": 0,
+      "basedOn": "R2 的 cis/africa 只剩政策类信号，按任务要求改走采购术语，验证是否有小额制卡/发证标可在窗内。",
+      "note": "licitación / edital+licitação / مناقصة+ترسية / тендер / appel d'offres / Tenders Electronic Daily 六条，全部只回招标聚合站（freetender、globaltenders、tenderpipe、bidsfactory、tenderzenith）与肯尼亚资产标签、巴基斯坦税票、意大利红十字会预付卡、中非机房设备。唯一擦边的是阿根廷 Renaper 11-21 起新证件收费标准（11-11 公布，超窗且只是费率）。**R3 连续第四天零产出，与 11-14/11-15 判断一致。**"
+    },
+    {
+      "phase": "R4",
+      "at": "2026-11-17T01:53:00+08:00",
+      "queries": 3,
+      "hits": 3,
+      "basedOn": "R2 确认 paymentsindustryintelligence 是唯一带精确时刻的支付线归档，R3 的葡语 query 在 11-11 撞到过新闻室稿，故 R4 改按语种与站点分头切：巴西 mobiletime、西语 dplnews、fintechnews 系。",
+      "note": "mobiletime 与 dplnews 两条被旅游 eSIM、墨西哥数字支付法（11-04，已发）与旧稿占满；fintechnews 那条切出三条 MENA 候选：eNovate×Nasser Social Bank（11-14 13:04）、Halan×Visa（页面日期 February 10, 2026，旧稿，弃）、以及菲律宾 NIDAS 复述（已在 index）。eNovate 一条命中 mena/banking。"
+    },
+    {
+      "phase": "R5",
+      "at": "2026-11-17T01:53:20+08:00",
+      "queries": 3,
+      "hits": 1,
+      "basedOn": "R4 的 mena 候选都偏框架协议，故用尚未成为通用词的表述找「已上线/已发证」的硬节点：SGP.32 eIM、mDL/可验证凭证试点、PQC 卡。",
+      "note": "SGP.32 三条只回 Com4/Kaleido 的供应商对比与观点稿（Semtech 那条 11-10 已发）；PQC 只回法国 DGA 的 NYMPHEAS 防务研究；mDL 那条切出尼日利亚 vPASS 机场核验（11-14 发布、11-16 上线），命中 africa/identity。"
+    },
+    {
+      "phase": "R6",
+      "at": "2026-11-17T01:53:40+08:00",
+      "queries": 4,
+      "hits": 2,
+      "basedOn": "前五轮 cis 与 north-america 仍全空、apac/banking 与 latam 两格仍空，改本地语言与本地媒体重试，并保留一条带引号日期的 query（11-08 起验证有效的手法）。",
+      "note": "俄语「银行发卡」只回移居指南与监管监测页；西语「收单终端」只回钟表店、货运仓库与财报；中文「超级SIM」撞到 11-13 联通试验星开标（6177 万，事件日超窗）与移动比邻 AI-eSIM 玩具（展会展示，无参数）。两条命中：Visa Scan to Pay×Samsung Wallet（11-16，apac/banking）、Buckeye State Bank×CorServ 发卡计划（11-11，超窗，弃）。"
+    },
+    {
+      "phase": "R7",
+      "at": "2026-11-17T01:54:00+08:00",
+      "queries": 4,
+      "hits": 1,
+      "basedOn": "R6 后 north-america 仍 3/3 全空、telecom 仍 7/7 全空，改按发卡服务商（Marqeta/Lithic/Galileo）与「日期 + 证件」组合再切一轮。",
+      "note": "北美切出 BECU 三卡套件（11-12）、Community First×Velera（11-12）、Sound CU×WTA（11-10），三条全部早于 72 小时线；telecom 侧中文与俄语均只回旅游 eSIM 与 b2b168 白卡广告，QRNG 超级SIM 量产（11-10）已于 11-12 发过。补到 Gibraltar 护照全线上申请（11-12 发布、11-16 停收纸本），按 11-10 科索沃先例收为 europe/identity。"
+    },
+    {
+      "phase": "R8",
+      "at": "2026-11-17T01:54:10+08:00",
+      "queries": 2,
+      "hits": 0,
+      "basedOn": "R7 的 Alipay+ 格鲁吉亚（cis 唯一希望）与 north-america 日期锚定两条需定日期/再切一次。",
+      "note": "Alipay+ 进格鲁吉亚经 GFSIS China Radar 核实为 10-28 落地，超窗，弃；北美那条只回 ChatGPT Wallet 复述（11-13，已发）。cis 与 north-america 至此确认无窗内合格候选。"
+    }
+  ],
+  "queries": {
+    "total": 31,
+    "byPhase": { "R1": 5, "R2": 4, "R3": 6, "R4": 3, "R5": 3, "R6": 4, "R7": 4, "R8": 2 },
+    "archiveReads": 2,
+    "articleVerifications": 9,
+    "note": "R1 与 R2 低于 6 / 5 条下限，已在 phases 内如实标注；未用近义 query 凑数。合计 31 条仍超 24 条总量下限。逐轮时刻为实测 date -Iseconds，但 R2 之后未再逐轮单独采集，phases 内 R2–R8 的 at 为同一次采集窗口内的近似值，非逐轮实测，如实标注。"
+  },
+  "produced": {
+    "items": 5,
+    "cells": ["mena/banking", "europe/banking", "europe/identity", "africa/identity", "apac/banking"]
+  },
+  "unfilled": [
+    "cis: banking / telecom / identity 三行业仍全空（连续第 7 天）",
+    "north-america: banking / telecom / identity 三行业仍全空",
+    "telecom: 七区仍全空、零条产出（连续第 9 天）",
+    "latam: banking / telecom 两格未补（identity 已有 Costa Rica）",
+    "apac: telecom 未补（banks 已补 Visa×Samsung）",
+    "mena: telecom / identity 未补",
+    "africa: banking / telecom 未补",
+    "europe: telecom 未补"
+  ],
+  "verifiedButDropped": [
+    { "title": "Mastercard × LiaPay GCC payroll prepaid cards", "url": "https://newsroom.mastercard.com/news/eemea/en/newsroom/press-releases/en/2026/november/mastercard-and-liapay-partner-to-give-gcc-workers-access-to-earned-wages-before-payday/", "reason": "11-11 迪拜发布，事件日超 72 小时窗；内容本身合规（WPS 对齐、Mawarid Finance 作 BIN 赞助、Paymentology 处理、逾 20 万雇员）" },
+    { "title": "Network International × Emirates Investment Bank card programme", "url": "https://www.network.ae/en/about-us/press-and-media/news/network-international-powers-emirates-investment-bank-s-card-programme-for-high-net-worth-clients", "reason": "11-13 发布，超窗；机制面完整（发卡处理上线、后续分期扩产品）" },
+    { "title": "Buckeye State Bank × CorServ credit card issuing programme", "url": "https://globalfintechseries.com/banking/buckeye-state-bank-launches-new-credit-card-issuing-program-with-corserv", "reason": "署名日期 11-11，超窗；产品线齐全（Corporate/Purchasing/Fleet + Low Rate/Platinum/World Elite/Secured），是本期最可惜的一条" },
+    { "title": "BECU three-card suite + new lending platform", "url": "https://newsroom.becu.org/2026-11-12-BECU-Launches-New-Credit-Card-Suite-Designed-To-Meet-Members-Everyday-Needs", "reason": "11-12 西雅图发布，超窗；含「实体卡未到即可加钱包使用」这一形态点" },
+    { "title": "Community First Credit Union × Velera debit processing", "url": "https://www.finopotamus.com/post/community-first-credit-union-expands-velera-partnership-with-debit-card-and-atm-support", "reason": "11-12 发布，超窗" },
+    { "title": "Alipay+ 进入格鲁吉亚，Neo Georgian Bank 作独家伙伴", "url": "https://www.ecag.ge/en/post/alipay-enters-georgia", "reason": "页面无日期，经 GFSIS China Radar 反查落地日为 10-28，超窗；否则是本期 cis 唯一合格候选" },
+    { "title": "Halan × Visa prepaid + instant credit（埃及）", "url": "https://gcchub.ae/?p=11880/", "reason": "页面日期 February 10, 2026，为旧稿转载" },
+    { "title": "Gibraltar 护照申请全线上化", "url": "https://www.vox.gi/new-online-passport-application-system-to-launch-on-16-november-2026", "reason": "未弃用，实际收为 europe/identity；此处保留说明发布日 11-12 在窗外、事件日 11-16 在窗内，按先例交终审" },
+    { "title": "中国联通手机直连试验星 S01 开标 6177 万元", "url": "https://m.c114.com.cn/w119-1320991.html", "reason": "11-13 公示，超窗；且标的是卫星在轨交付服务，不落三条凭证链路" },
+    { "title": "ASEAN DEFA 签署（含跨境数字身份互认议程）", "url": "https://www.biometricupdate.com/202611/asean-digital-economy-pact-puts-cross-border-identity-on-the-agenda", "reason": "index 已标 0.40；为框架协议、无首发名单与时间表，动作门与范围门都偏软，且 apac/identity 已有稿，未重复投递" }
+  ],
+  "notes": [
+    "本期根因仍是源侧供给：145 条里 135 条置信度 <0.6，8 条无日期，真正过阈值的只有 2 条（均为 identity）。11-15 与 11-16 是周末，欧美新闻室几乎不发文，11-17 凌晨能看到的最新内容大多停在 11-12/11-13。",
+    "72 小时窗自 11-14 01:50 起算，导致所有 11-13 及更早的稿件一律出局。本期被窗线砍掉的高价值条目集中在 11-10 至 11-13（LiaPay、Network International、Buckeye×CorServ、BECU），说明「周一凌晨开跑」这个时点对周末前的周四/周五稿最吃亏。",
+    "旅游 eSIM 污染这一期扩散到俄语与中文：R1/R2/R6 共 13 条 telecom 类 query，其中 9 条前三位被 simpackers、etravelsim、esimspotter、esimkart、triposim、trip.com 占满。telecom 连续第 9 天零产出，判定为题源结构问题，非阈值问题。",
+    "biometricupdate /202611 本日最新只到 11-14 13:17 EST，且 11-14 三条全为分析/诈骗/隐私稿；这是连续第三天该归档页无窗内可用的身份线硬新闻，identity 的稳定入口正在失效，后续需改读 idtechwire 与各国政府新闻室。",
+    "R3 采购术语轮连续第四天零产出，六条 query 全部只回聚合站。建议明天把 R3 压到 2–3 条，只保留葡语 edital 与阿语 مناقصة（历史上仅这两种偶然撞到新闻室稿），余下额度移给日期锚定与政府/厂商新闻室直读。"
+  ]
+}
