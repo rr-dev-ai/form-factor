@@ -16,6 +16,15 @@ export const audioBaseUrl: string = 'https://audio.formfactor.top';
 /** 只保留窗口内的音频文件与 manifest。 */
 export const WINDOW_DAYS: number = 90;
 
+/**
+ * 规则变更只向前生效。早于该日期、且已有音频的条目一律冻结：
+ * 朗读规则改了也不回头重录，历史音频保留旧版。
+ *
+ * 例外是「没有音频」——缺文件或合成失败的条目照常补，否则旧稿永远补不回来。
+ * 真要整段历史重建，把这个日期前移再跑 `--all`。
+ */
+export const AUDIO_REBUILD_FROM: string = '2026-11-17';
+
 /** 影响输出字节的规则版本。变更即全量重建。 */
 export const RENDER_VERSION: number = 1;
 
@@ -68,9 +77,6 @@ export const TITLE_PAUSE: number = 0.8;
 
 /** 过渡语之后的停顿，覆盖 BASE。 */
 export const TRANSITION_PAUSE: number = 0.35;
-
-/** 前或后是小标题时的倍率。 */
-export const HEADING_PAUSE_FACTOR: number = 1.4;
 
 /** 相邻两个列表条目时的倍率。 */
 export const LIST_PAUSE_FACTOR: number = 0.7;
