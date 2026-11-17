@@ -1,160 +1,160 @@
 {
   "date": "2026-11-17",
-  "generatedAt": "2026-11-16T20:23:32.621Z",
+  "generatedAt": "2026-11-17T02:13:18.813Z",
   "renderer": 1,
   "items": {
     "eurotunnel-drive-in-biometric-kiosks-ees-trial": {
       "zh": {
-        "file": "audio/zh/eurotunnel-drive-in-biometric-kiosks-ees-trial.952997b3.mp3",
-        "hash": "952997b3",
-        "bytes": 2625741,
-        "duration": 218.725,
+        "file": "audio/zh/eurotunnel-drive-in-biometric-kiosks-ees-trial.78ecf524.mp3",
+        "hash": "78ecf524",
+        "bytes": 2477709,
+        "duration": 206.4,
         "voice": "zf_008",
         "speed": 1.038
       },
       "en": {
-        "file": "audio/en/eurotunnel-drive-in-biometric-kiosks-ees-trial.a2f188ac.mp3",
-        "hash": "a2f188ac",
-        "bytes": 2110509,
-        "duration": 175.793,
+        "file": "audio/en/eurotunnel-drive-in-biometric-kiosks-ees-trial.a6306b9d.mp3",
+        "hash": "a6306b9d",
+        "bytes": 2018637,
+        "duration": 168.143,
         "voice": "am_fenrir",
         "speed": 1.315
       },
       "es": {
-        "file": "audio/es/eurotunnel-drive-in-biometric-kiosks-ees-trial.e55c9a51.mp3",
-        "hash": "e55c9a51",
-        "bytes": 2324205,
-        "duration": 193.59,
+        "file": "audio/es/eurotunnel-drive-in-biometric-kiosks-ees-trial.fb3aa412.mp3",
+        "hash": "fb3aa412",
+        "bytes": 2225133,
+        "duration": 185.34,
         "voice": "ef_dora",
         "speed": 1.15
       }
     },
     "india-dot-sim-binding-24-hour-check": {
       "zh": {
-        "file": "audio/zh/india-dot-sim-binding-24-hour-check.8956e696.mp3",
-        "hash": "8956e696",
-        "bytes": 2580813,
-        "duration": 214.98,
+        "file": "audio/zh/india-dot-sim-binding-24-hour-check.a8e21f9b.mp3",
+        "hash": "a8e21f9b",
+        "bytes": 2427309,
+        "duration": 202.18,
         "voice": "zm_015",
         "speed": 1.094
       },
       "en": {
-        "file": "audio/en/india-dot-sim-binding-24-hour-check.5a30de37.mp3",
-        "hash": "5a30de37",
-        "bytes": 2088045,
-        "duration": 173.913,
+        "file": "audio/en/india-dot-sim-binding-24-hour-check.dada71dd.mp3",
+        "hash": "dada71dd",
+        "bytes": 1990125,
+        "duration": 165.763,
         "voice": "am_fenrir",
         "speed": 1.315
       },
       "es": {
-        "file": "audio/es/india-dot-sim-binding-24-hour-check.bb22d0b3.mp3",
-        "hash": "bb22d0b3",
-        "bytes": 2171853,
-        "duration": 180.91,
+        "file": "audio/es/india-dot-sim-binding-24-hour-check.972a888c.mp3",
+        "hash": "972a888c",
+        "bytes": 2056653,
+        "duration": 171.31,
         "voice": "ef_dora",
         "speed": 1.15
       }
     },
     "russia-esim-remote-issuance-qualified-signature": {
       "zh": {
-        "file": "audio/zh/russia-esim-remote-issuance-qualified-signature.9ec1531d.mp3",
-        "hash": "9ec1531d",
-        "bytes": 2150541,
-        "duration": 179.12,
+        "file": "audio/zh/russia-esim-remote-issuance-qualified-signature.d6ef7902.mp3",
+        "hash": "d6ef7902",
+        "bytes": 2052045,
+        "duration": 170.905,
         "voice": "zf_001",
         "speed": 1.16
       },
       "en": {
-        "file": "audio/en/russia-esim-remote-issuance-qualified-signature.e0089982.mp3",
-        "hash": "e0089982",
-        "bytes": 2156589,
-        "duration": 179.63,
+        "file": "audio/en/russia-esim-remote-issuance-qualified-signature.1f805ede.mp3",
+        "hash": "1f805ede",
+        "bytes": 2073357,
+        "duration": 172.695,
         "voice": "am_michael",
         "speed": 1.329
       },
       "es": {
-        "file": "audio/es/russia-esim-remote-issuance-qualified-signature.8465a97f.mp3",
-        "hash": "8465a97f",
-        "bytes": 2104749,
-        "duration": 175.32,
+        "file": "audio/es/russia-esim-remote-issuance-qualified-signature.cf9186a4.mp3",
+        "hash": "cf9186a4",
+        "bytes": 2024397,
+        "duration": 168.615,
         "voice": "em_alex",
         "speed": 1.128
       }
     },
     "unionpay-visa-acceptance-network-link": {
       "zh": {
-        "file": "audio/zh/unionpay-visa-acceptance-network-link.6959cba9.mp3",
-        "hash": "6959cba9",
-        "bytes": 1961901,
-        "duration": 163.395,
+        "file": "audio/zh/unionpay-visa-acceptance-network-link.4055fe09.mp3",
+        "hash": "4055fe09",
+        "bytes": 1826541,
+        "duration": 152.12,
         "voice": "zm_009",
         "speed": 1.15
       },
       "en": {
-        "file": "audio/en/unionpay-visa-acceptance-network-link.446a20f4.mp3",
-        "hash": "446a20f4",
-        "bytes": 2147373,
-        "duration": 178.866,
+        "file": "audio/en/unionpay-visa-acceptance-network-link.08aea8b5.mp3",
+        "hash": "08aea8b5",
+        "bytes": 2040237,
+        "duration": 169.941,
         "voice": "am_michael",
         "speed": 1.329
       },
       "es": {
-        "file": "audio/es/unionpay-visa-acceptance-network-link.6be015f3.mp3",
-        "hash": "6be015f3",
-        "bytes": 2205549,
-        "duration": 183.715,
+        "file": "audio/es/unionpay-visa-acceptance-network-link.29045105.mp3",
+        "hash": "29045105",
+        "bytes": 2088909,
+        "duration": 173.99,
         "voice": "em_alex",
         "speed": 1.128
       }
     },
     "veratad-accs-new-york-safe-for-kids-certification": {
       "zh": {
-        "file": "audio/zh/veratad-accs-new-york-safe-for-kids-certification.3ece290b.mp3",
-        "hash": "3ece290b",
-        "bytes": 2367117,
-        "duration": 197.175,
+        "file": "audio/zh/veratad-accs-new-york-safe-for-kids-certification.99a70fdb.mp3",
+        "hash": "99a70fdb",
+        "bytes": 2230605,
+        "duration": 185.8,
         "voice": "zm_011",
         "speed": 1.157
       },
       "en": {
-        "file": "audio/en/veratad-accs-new-york-safe-for-kids-certification.5aa062f1.mp3",
-        "hash": "5aa062f1",
-        "bytes": 2384973,
-        "duration": 198.654,
+        "file": "audio/en/veratad-accs-new-york-safe-for-kids-certification.8350778f.mp3",
+        "hash": "8350778f",
+        "bytes": 2272653,
+        "duration": 189.304,
         "voice": "af_heart",
         "speed": 1.254
       },
       "es": {
-        "file": "audio/es/veratad-accs-new-york-safe-for-kids-certification.147d45dd.mp3",
-        "hash": "147d45dd",
-        "bytes": 2414925,
-        "duration": 201.145,
+        "file": "audio/es/veratad-accs-new-york-safe-for-kids-certification.ee7d385c.mp3",
+        "hash": "ee7d385c",
+        "bytes": 2291661,
+        "duration": 190.895,
         "voice": "em_alex",
         "speed": 1.128
       }
     },
     "verve-uba-kenya-card-issuing": {
       "zh": {
-        "file": "audio/zh/verve-uba-kenya-card-issuing.e1d4a655.mp3",
-        "hash": "e1d4a655",
-        "bytes": 1899693,
-        "duration": 158.23,
+        "file": "audio/zh/verve-uba-kenya-card-issuing.4126c978.mp3",
+        "hash": "4126c978",
+        "bytes": 1768365,
+        "duration": 147.28,
         "voice": "zm_010",
         "speed": 1.15
       },
       "en": {
-        "file": "audio/en/verve-uba-kenya-card-issuing.a60352ed.mp3",
-        "hash": "a60352ed",
-        "bytes": 1912365,
-        "duration": 159.273,
+        "file": "audio/en/verve-uba-kenya-card-issuing.0356d41e.mp3",
+        "hash": "0356d41e",
+        "bytes": 1834893,
+        "duration": 152.823,
         "voice": "af_heart",
         "speed": 1.254
       },
       "es": {
-        "file": "audio/es/verve-uba-kenya-card-issuing.ad21a729.mp3",
-        "hash": "ad21a729",
-        "bytes": 1995309,
-        "duration": 166.19,
+        "file": "audio/es/verve-uba-kenya-card-issuing.aa3547f5.mp3",
+        "hash": "aa3547f5",
+        "bytes": 1904589,
+        "duration": 158.64,
         "voice": "ef_dora",
         "speed": 1.15
       }
