@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-18-banking-02",
+  "slug": "bank-of-russia-card-registry-20-card-cap",
+  "industry": "banking",
+  "region": "cis",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "scheme-rules"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-18T04:17:39+08:00",
+  "ingestedAt": "2026-11-18T02:38:13+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Банк России",
+      "url": "http://www.cbr.ru/press/event/?id=32988",
+      "publishedAt": "2026-11-17T00:00:00+03:00"
+    },
+    {
+      "name": "UA.NEWS",
+      "url": "https://ua.news/en/war-vs-rf/tsentrobank-rf-vizme-pid-totalnii-kontrol-bankivski-kartki-rosiian-dlia-stezhennia-za-perekazami",
+      "lang": "en",
+      "publishedAt": "2026-11-17T00:00:00+03:00"
+    }
+  ],
+  "title": {
+    "zh": "俄央行定卡登记册时限：2027 年 9 月起每人限 20 张",
+    "en": "Bank of Russia sets card registry deadline and a 20-card cap",
+    "es": "El Banco de Rusia fija el registro de tarjetas y un tope de 20 por cliente"
+  },
+  "summary": {
+    "zh": "俄罗斯央行 11 月 17 日明确统一支付卡登记系统（ЕСУПК）的报送规则：银行须在 2027 年 9 月 1 日前把所有在用卡的卡号、卡种与客户税号录入。同日起，发新卡前必须先核对该客户已持卡数，超过 20 张即不得发卡；此前已发的卡继续有效。",
+    "en": "The Bank of Russia set the reporting rules for its unified payment card registry on 17 November: banks must load the number, type and customer tax ID of every active card by 1 September 2027. From that date a bank must check how many cards a customer already holds before issuing a new one, and refuse once the count exceeds 20. Cards already issued stay valid.",
+    "es": "El Banco de Rusia fijó el 17 de noviembre las reglas de reporte de su registro unificado de tarjetas de pago: los bancos deben cargar el número, el tipo y el identificador fiscal del cliente de cada tarjeta activa antes del 1 de septiembre de 2027. Desde esa fecha, antes de emitir una tarjeta nueva el banco debe comprobar cuántas tiene ya el cliente y negarse si supera las 20. Las tarjetas ya emitidas siguen vigentes."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "俄罗斯央行 11 月 17 日发布两份指示——第 7459-У 号规定登记系统的运行规则，第 7467-У 号规定银行报送的字段与时限——把统一支付卡登记系统（ЕСУПК）从立法落到可执行的操作层。登记系统的运营方是国家支付卡系统（НСПК），也就是 Mir 卡的运营机构，负责每日 24 小时接收、处理与存储银行报送的数据。",
+        "en": "The Bank of Russia issued two instructions on 17 November: No. 7459-У sets how the registry operates, and No. 7467-У sets the fields and deadlines banks must meet. Together they move the unified payment card registry from statute to operating rules. The operator is the National Payment Card System, which also runs the Mir scheme, and it must receive, process and store the reported data around the clock every day.",
+        "es": "El Banco de Rusia emitió dos instrucciones el 17 de noviembre: la 7459-У fija el funcionamiento del registro y la 7467-У los campos y plazos que deben cumplir los bancos. Juntas trasladan el registro unificado de tarjetas de pago del texto legal a reglas operativas. El operador es el Sistema Nacional de Tarjetas de Pago, que también gestiona la marca Mir, y debe recibir, procesar y almacenar los datos las 24 horas de cada día."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "需要录入的是所有在用卡：卡号、卡种，以及持卡客户的纳税人识别号。截止日为 2027 年 9 月 1 日。央行要求报送的是存量卡，不只是新发卡，这意味着银行要先补齐历史数据。",
+        "en": "What goes into the registry is every active card: its number, its type, and the tax identification number of the customer holding it. The deadline is 1 September 2027. The requirement covers the existing stock of cards, not just new issuance, which means banks have to backfill historical data first.",
+        "es": "Lo que entra en el registro es cada tarjeta activa: su número, su tipo y el identificador fiscal del cliente que la posee. El plazo vence el 1 de septiembre de 2027. El requisito abarca el parque ya emitido, no solo las tarjetas nuevas, de modo que los bancos deben completar antes los datos históricos."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "同一天生效的还有发卡数量上限。银行在发新卡前必须查询该客户在全国范围内的持卡总数，超过 20 张就不得发卡。此前已经发出的卡不受影响，即使总数已超过 20 张也继续有效。这条上限写在法律里，央行负责定执行细则。",
+        "en": "A cap on how many cards one person may hold takes effect the same day. Before issuing, a bank must query the customer's nationwide card count and decline once it exceeds 20. Cards issued earlier are unaffected and keep working even where the total is already above the limit. The cap itself sits in statute; the central bank wrote the operating rules.",
+        "es": "Ese mismo día entra en vigor un límite al número de tarjetas por persona. Antes de emitir, el banco debe consultar el total nacional del cliente y rechazar la solicitud cuando supere las 20. Las tarjetas emitidas antes no se ven afectadas y siguen operando aunque el total ya esté por encima del límite. El tope figura en la ley; el banco central redactó las reglas de aplicación."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "央行把这项限制的目的写成阻断「批量办卡后转交诈骗团伙」的路径——这类卡被用于套现和提取赃款。指示没有公布对违规银行的罚则，也没有说明登记系统与警方或税务系统的数据共享范围。",
+        "en": "The central bank frames the limit as a way to block bulk card opening for handover to fraud gangs, which use such cards to cash out and withdraw stolen money. The instructions published no penalties for banks that miss the deadlines and did not describe how far registry data is shared with police or tax authorities.",
+        "es": "El banco central presenta el límite como una forma de bloquear la apertura masiva de tarjetas para entregarlas a bandas de fraude, que las usan para retirar dinero robado. Las instrucciones no publicaron sanciones para los bancos que incumplan los plazos ni precisaron hasta dónde se comparten los datos del registro con la policía o la administración tributaria."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这是把发卡从「银行与客户的双边关系」改成全国可查的配额制。以往一家银行看不到客户在别家开了多少卡，批量办卡因此难以拦截；登记册上线后，发卡环节多了一道跨行校验。对在俄经营的银行，2027 年 9 月 1 日是硬截止：既要补录存量卡数据，又要改造发卡流程插入配额查询，还要处理客户拒绝提供税号的情形。",
+    "en": "This turns card issuance from a bilateral bank-customer relationship into a nationwide quota with a shared lookup. Previously no single bank could see how many cards a customer held elsewhere, which is what made bulk opening hard to stop; once the registry is live, issuance carries a cross-bank check. For banks operating in Russia, 1 September 2027 is a hard deadline covering three jobs at once: backfilling existing card data, rebuilding the issuance flow around a quota query, and handling customers who decline to supply a tax ID.",
+    "es": "Esto convierte la emisión de tarjetas de una relación bilateral entre banco y cliente en una cuota nacional con consulta compartida. Antes ningún banco podía ver cuántas tarjetas tenía un cliente en otra entidad, y eso hacía difícil frenar la apertura masiva; con el registro en marcha, la emisión incorpora una comprobación interbancaria. Para los bancos que operan en Rusia, el 1 de septiembre de 2027 es un plazo duro que cubre tres tareas a la vez: completar los datos existentes, rediseñar el flujo de emisión en torno a la consulta de cuota y atender a los clientes que se nieguen a dar su identificador fiscal."
+  },
+  "confidence": 0.65,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

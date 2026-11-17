@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-18-telecom-03",
+  "slug": "iridium-ntn-direct-activation-nb-iot",
+  "industry": "telecom",
+  "region": "global",
+  "regions": [],
+  "tags": [
+    "satellite"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-18T04:17:39+08:00",
+  "ingestedAt": "2026-11-18T02:50:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Iridium",
+      "url": "https://investor.iridium.com/2026-11-17-Iridium-Activates-Iridium-NTN-Direct-Worlds-First-Standards-based-NB-IoT-and-D2D-Service-with-Truly-Global-Coverage",
+      "lang": "en",
+      "publishedAt": "2026-11-17T13:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "Iridium 把 NB-IoT 接入搬上卫星，标准模组即可入网",
+    "en": "Iridium puts NB-IoT access on satellite with standard modules",
+    "es": "Iridium lleva el acceso NB-IoT al satélite con módulos estándar"
+  },
+  "summary": {
+    "zh": "Iridium 11 月 17 日激活 NTN Direct，一项面向 NB-IoT 与直连设备的卫星接入服务，称可覆盖全球。设备用兼容 NB-IoT 芯片组接入，不需要专用卫星终端；Nordic nRF9151 为首个获批模组，2027 年 1 月推送固件。",
+    "en": "Iridium activated its NTN Direct service on 17 November, a satellite access service for NB-IoT and direct-to-device links that it says covers the globe. Devices connect with compatible NB-IoT chipsets rather than dedicated satellite terminals; Nordic's nRF9151 is the first approved module, with firmware due in January 2027.",
+    "es": "Iridium activó el 17 de noviembre su servicio NTN Direct, un acceso satelital para NB-IoT y conexión directa a dispositivos que, según la empresa, cubre todo el globo. Los equipos se conectan con chipsets NB-IoT compatibles, no con terminales satelitales dedicados; el nRF9151 de Nordic es el primer módulo aprobado, con firmware previsto para enero de 2027."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "换的是接入点，不是卡",
+        "en": "The access point changes, not the card",
+        "es": "Cambia el acceso, no la tarjeta"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Iridium 的 NTN Direct 建立在公司现役的低轨星座与已协调的 L 波段频谱上，终端侧使用支持非地面网络的 NB-IoT 芯片组，不需要另配卫星终端或专用天线。设备离开地面蜂窝覆盖后由卫星接入，用户身份与号码体系仍沿用移动运营商的那一套，这也是它与过去那类封闭卫星物联网的根本区别：接入层换了，签约与鉴权关系没换。按其公告，这是首次由太空提供基于 3GPP 标准的服务。",
+        "en": "Iridium NTN Direct runs on the company's existing low-Earth-orbit constellation and coordinated L-band spectrum, with terminals built on NB-IoT chipsets that support non-terrestrial networks, so no dedicated satellite terminal or antenna is required. When a device leaves terrestrial coverage the satellite carries the link, while subscriber identity and numbering stay with the mobile operator — the fundamental difference from closed satellite IoT systems: the access layer changes, the subscription and authentication relationship does not. By the company's account, this is the first time a 3GPP standards-based service is delivered from space.",
+        "es": "Iridium NTN Direct se apoya en la constelación de órbita baja ya operativa de la empresa y en espectro L coordinado, con terminales basados en chipsets NB-IoT compatibles con redes no terrestres, sin necesidad de terminal satelital ni antena dedicada. Cuando el equipo sale de cobertura terrestre, el enlace lo lleva el satélite, mientras la identidad del abonado y la numeración siguen en el operador móvil: la diferencia de fondo con los sistemas satelitales cerrados es que cambia la capa de acceso, no la relación de suscripción y autenticación. Según la empresa, es la primera vez que un servicio basado en estándares 3GPP se presta desde el espacio."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "认证清单与升级路径",
+        "en": "The certification list and the upgrade path",
+        "es": "La lista de certificación y la ruta de actualización"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Nordic Semiconductor 的 nRF9151 是首个获 Iridium 批准的 NTN 模组，Nordic 计划在 2027 年 1 月发布公开固件，让已经出货的该型号模组支持 NTN Direct，不必更换硬件。Iridium 同时在与 Altair Semiconductor、Deutsche Telekom IoT、Mlink Technology 与 Vodafone IoT 推进集成。公告给出的唯一具名客户是挪威的 Nofence，它把该服务做进用于畜牧的 N3 项圈，理由是项圈本身就在用 NB-IoT 与蜂窝网通信，卫星只是同一套协议下的另一条链路。",
+        "en": "Nordic Semiconductor's nRF9151 is the first NTN module approved for Iridium NTN Direct; Nordic plans a public firmware release in January 2027 that lets modules already shipped support the service without new hardware. Iridium is also working with Altair Semiconductor, Deutsche Telekom IoT, Mlink Technology and Vodafone IoT on integrations. The only named customer in the release is Norway's Nofence, which is putting the service into its N3 livestock collars on the argument that the collars already speak NB-IoT to cellular networks, with satellite as another link under the same protocol.",
+        "es": "El nRF9151 de Nordic Semiconductor es el primer módulo NTN aprobado para Iridium NTN Direct; Nordic prevé publicar firmware en enero de 2027 para que los módulos ya enviados soporten el servicio sin hardware nuevo. Iridium también trabaja en integraciones con Altair Semiconductor, Deutsche Telekom IoT, Mlink Technology y Vodafone IoT. El único cliente nombrado es la noruega Nofence, que incorpora el servicio a sus collares N3 para ganado, con el argumento de que los collares ya hablan NB-IoT con las redes celulares y el satélite es otro enlace bajo el mismo protocolo."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "覆盖写在全球，许可留在各国",
+        "en": "Global coverage, national permissions",
+        "es": "Cobertura global, permisos nacionales"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Iridium 称服务今天起可在全球任何地点提供，但随即限定：初始可用性会因辖区而异，能否提供与使用取决于当地法律、监管与服务商条件。公告没有给出资费、模组价格、连接数目标，也没有说明运营商需要改造哪些网元才能把卫星链路纳入自己的签约与计费流程——对做跨国出货的设备商，这一条比覆盖率更影响排期。",
+        "en": "Iridium says the service can be provided anywhere on the globe from today, then qualifies it: initial availability will vary by jurisdiction, and authority to provide or use it depends on local law, regulation and service-provider conditions. The release gives no pricing, module cost or connection targets, and does not say which network elements an operator must change to fold the satellite link into its own subscription and billing flows — for device makers shipping across borders, that matters more to schedules than the coverage map.",
+        "es": "Iridium afirma que el servicio puede prestarse hoy en cualquier punto del globo, pero lo matiza: la disponibilidad inicial variará según la jurisdicción y la autorización para prestarlo o usarlo depende de la ley, la regulación y las condiciones del proveedor local. El anuncio no da tarifas, precio de módulo ni objetivos de conexiones, y no indica qué elementos de red debe cambiar un operador para integrar el enlace satelital en sus flujos de suscripción y facturación: para un fabricante que exporta, eso pesa más en el calendario que el mapa de cobertura."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这一条改变的是接入层，不是凭证：设备里的 SIM 或 eSIM、运营商的签约关系都照旧，变的是这条链路可以从卫星进来。对运营商，NTN 意味着要把卫星接进自己的核心网与漫游安排，谁能把卫星覆盖当成套餐的一部分卖，谁就多一个不留死角的卖点；对模组与芯片厂，认证清单是新的准入门槛，nRF9151 之后谁能进这份名单决定 IoT 订单归属。市场上，Iridium 走的是自建星座加自有频谱的路，与聚合多方 MSS 频谱的 Skylo 形成两种供给模型，设备商要选的不只是覆盖，还有长期的商务与监管路径。",
+    "en": "What changes here is the access layer, not the credential: the SIM or eSIM in the device and the operator's subscription stay as they are, but the link can now arrive from a satellite. For operators, NTN means folding satellite into their core network and roaming arrangements, and whoever can sell satellite coverage as part of a plan gains a no-dead-zone pitch; for module and chip vendors the certification list is a new gate, and who follows the nRF9151 onto it decides where IoT orders land. In the market, Iridium runs its own constellation and spectrum while Skylo aggregates MSS spectrum from several owners, so device makers are choosing between two supply models, not just two coverage maps, with different commercial and regulatory paths.",
+    "es": "Lo que cambia es la capa de acceso, no la credencial: la SIM o eSIM del equipo y la suscripción del operador siguen igual, pero el enlace puede llegar desde un satélite. Para los operadores, NTN implica integrar el satélite en su core y en sus acuerdos de roaming, y quien pueda vender cobertura satelital como parte de un plan gana un argumento sin zonas muertas; para módulos y chips, la lista de certificación es una nueva barrera y quién siga al nRF9151 en ella decide dónde caen los pedidos de IoT. En el mercado, Iridium opera constelación y espectro propios mientras Skylo agrega espectro MSS de varios titulares, de modo que el fabricante elige entre dos modelos de suministro, no solo entre dos mapas de cobertura, con rutas comerciales y regulatorias distintas."
+  },
+  "confidence": 0.7,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-telecom-2026-11-18"
+  }
+}

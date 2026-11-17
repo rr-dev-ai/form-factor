@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-17T20:15:53.894Z",
+  "selected": [
+    {
+      "industry": "telecom",
+      "slug": "italy-open-gateway-four-operators-sim-apis",
+      "score": 0.62,
+      "reason": "region-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-18"
+    },
+    {
+      "industry": "telecom",
+      "slug": "iridium-ntn-direct-activation-nb-iot",
+      "score": 0.7,
+      "reason": "industry-floor",
+      "region": "global",
+      "sourceDate": "2026-11-18"
+    },
+    {
+      "industry": "banking",
+      "slug": "mastercard-accept-phone-acceptance-apac",
+      "score": 0.8,
+      "reason": "manual",
+      "region": "apac",
+      "sourceDate": "2026-11-17"
+    },
+    {
+      "industry": "telecom",
+      "slug": "att-flexible-sim-sgp32-commercial",
+      "score": 0.78,
+      "reason": "manual",
+      "region": "north-america",
+      "sourceDate": "2026-11-17"
+    },
+    {
+      "industry": "identity",
+      "slug": "nigeria-vpass-airport-nin-face-verification",
+      "score": 0.72,
+      "reason": "manual",
+      "region": "africa",
+      "sourceDate": "2026-11-16"
+    },
+    {
+      "industry": "banking",
+      "slug": "bank-of-russia-card-registry-20-card-cap",
+      "score": 0.65,
+      "reason": "manual",
+      "region": "cis",
+      "sourceDate": "2026-11-17"
+    }
+  ],
+  "alternates": [],
+  "expired": [
+    {
+      "slug": "travelport-mastercard-agentic-flight-booking-verifiable-intent",
+      "eventAt": "2026-11-12T00:00:00.000Z",
+      "hours": 140
+    }
+  ],
+  "gaps": [
+    {
+      "region": "mena",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "latam",
+      "note": "池内 0 条"
+    }
+  ],
+  "unaccounted": [
+    {
+      "title": "Nigeria sets December 31 deadline for airlines to adopt V-Pass biometric checks",
+      "url": "https://www.biometricupdate.com/202611/nigeria-sets-december-31-deadline-for-airlines-to-adopt-v-pass-biometric-checks",
+      "confidence": 0.65
+    },
+    {
+      "title": "Mastercard Gives Small Sellers a Way to Take Card Payments by Phone",
+      "url": "https://fintechnews.sg/141339/singapore-fintech-festival-2026/mastercard-accept/",
+      "confidence": 0.7
+    }
+  ],
+  "conflicts": [
+    {
+      "kind": "undated",
+      "detail": "banking/mastercard-accept-phone-acceptance-apac 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/bank-of-russia-card-registry-20-card-cap 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/silverflow-modular-in-person-acceptance 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/splitit-fis-total-issuing-instalments 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/pliant-uk-government-payment-solutions-framework 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/tbc-uzbekistan-visa-business-platinum-sme-cards 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "telecom/att-flexible-sim-sgp32-commercial 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/nigeria-vpass-airport-nin-face-verification 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/identomat-iad-cen-ts-18099-high 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/moldova-border-biometric-kits-eight-crossings 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/visa-cargo-solutions-hkia-commercial-card 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/euronet-getnet-tax-free-terminal-spain 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/nigeria-vpass-airport-nin-face-verification 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "2026-11-18-telecom-01",
+  "slug": "att-flexible-sim-sgp32-commercial",
+  "industry": "telecom",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "esim",
+    "rsp"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-18T04:17:39+08:00",
+  "ingestedAt": "2026-11-18T02:50:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "AT&T",
+      "url": "https://about.att.com/story/2026/flexible-sim.html",
+      "lang": "en",
+      "publishedAt": "2026-11-17T00:00:00-06:00"
+    }
+  ],
+  "title": {
+    "zh": "AT&T 把 SGP.32 做成可订购的 IoT eSIM 产品",
+    "en": "AT&T turns SGP.32 into an orderable IoT eSIM product",
+    "es": "AT&T convierte SGP.32 en un producto eSIM IoT disponible"
+  },
+  "summary": {
+    "zh": "AT&T 11 月 17 日宣布 Flexible SIM 全面可用，这是基于 GSMA SGP.32 的远程配置产品：设备预置 AT&T profile 后可空中安装与切换运营商 profile，覆盖 200 多个国家与地区。",
+    "en": "AT&T said on 17 November that Flexible SIM is generally available, a remote provisioning product built on GSMA SGP.32: devices ship with an AT&T profile and can install, activate and switch operator profiles over the air, covering more than 200 countries and territories. Management runs through its IoT Console or APIs.",
+    "es": "AT&T anunció el 17 de noviembre la disponibilidad general de Flexible SIM, un producto de aprovisionamiento remoto basado en GSMA SGP.32: los equipos salen con un perfil de AT&T y pueden instalar, activar y cambiar perfiles de operador por aire, con cobertura en más de 200 países y territorios. La gestión pasa por su IoT Console o API."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "SGP.32 落成可下单的产品",
+        "en": "SGP.32 becomes an orderable product",
+        "es": "SGP.32 se convierte en producto"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "AT&T 在 11 月 17 日的公告中称，Flexible SIM 已全面可用，方案基于 GSMA 的 SGP.32 物联网 eSIM 规范。设备出厂时可预置一个 AT&T profile，凭它在 200 多个国家与地区、数百张网络上连网；之后安装、激活与切换其他运营商的 profile 都通过空中完成，不需要现场接触设备或更换 SIM 卡。远程配置可通过 AT&T 的 IoT Console 单一面板或 API 触发，企业也可以购买 AT&T 的工程支持服务，把远程 SIM 配置整体交给 AT&T 运营。",
+        "en": "In its 17 November announcement AT&T said Flexible SIM is generally available, built on the GSMA SGP.32 specification for IoT eSIMs. A device can ship with an AT&T profile preloaded and use it to connect across more than 200 countries and territories and hundreds of networks; installing, activating and switching to other operators' profiles then happens over the air, with no physical access or SIM swap. Remote provisioning can be triggered from AT&T's IoT Console single pane of glass or through APIs, and customers can buy AT&T Engineering Support Services to have the operator run remote SIM provisioning on their behalf.",
+        "es": "En su anuncio del 17 de noviembre AT&T indicó que Flexible SIM está disponible de forma general, sobre la especificación GSMA SGP.32 para eSIM de IoT. El equipo puede salir con un perfil de AT&T precargado y usarlo para conectarse en más de 200 países y territorios y cientos de redes; después, la instalación, activación y el cambio a perfiles de otros operadores se hacen por aire, sin acceso físico ni cambio de SIM. El aprovisionamiento remoto se activa desde el panel IoT Console o por API, y el cliente puede contratar servicios de ingeniería para que AT&T gestione el aprovisionamiento por él."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "与 Global SIM Advanced 的分工",
+        "en": "How it splits from Global SIM Advanced",
+        "es": "Su reparto con Global SIM Advanced"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "AT&T 同时销售 Global SIM Advanced，那是一款多 IMSI 的 eSIM，靠内置的自动化与编排规则在网络之间自动切换，客户买的是「已经编好策略」的连通性。Flexible SIM 把切换权交回客户：什么时候换 profile、换成哪一家，由客户通过控制台或 API 决定。两者的差别不在射频，而在谁持有切换决策——一个交给规则引擎，一个交给客户的运维流程。",
+        "en": "AT&T also sells Global SIM Advanced, a multi-IMSI eSIM that switches between networks through built-in automation and orchestration rules, so the customer buys connectivity with the policy already encoded. Flexible SIM hands the switch back to the customer: when to change profile, and to which operator, is decided through the console or API. The difference is not radio but who holds the switching decision — a rules engine in one case, the customer's own operations in the other.",
+        "es": "AT&T también vende Global SIM Advanced, una eSIM multi-IMSI que cambia de red mediante reglas de automatización y orquestación incorporadas: el cliente compra conectividad con la política ya codificada. Flexible SIM devuelve el control al cliente: cuándo cambiar de perfil y a qué operador se decide desde el panel o la API. La diferencia no está en la radio sino en quién toma la decisión de cambio: un motor de reglas en un caso, la operación del cliente en el otro."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "公告没说的三件事",
+        "en": "Three things the release leaves out",
+        "es": "Tres cosas que el anuncio omite"
+      }
+    },
+    {
+      "kind": "ul",
+      "items": [
+        {
+          "zh": "客户与规模：公告未列出任何具名客户，也没有已激活设备数或 profile 下载量。",
+          "en": "Customers and scale: the release names no customer and gives no activated-device or profile-download figures.",
+          "es": "Clientes y escala: el comunicado no nombra clientes ni da cifras de dispositivos activados o perfiles descargados."
+        },
+        {
+          "zh": "供应商：公告只说方案延续 2025 年 10 月与 Thales 的远程配置合作，未说明 eUICC 与 eIM 分别由谁提供。",
+          "en": "Suppliers: the release only says the product builds on work with Thales announced in October 2025, without saying who supplies the eUICC or the eIM.",
+          "es": "Proveedores: solo indica que el producto parte del trabajo con Thales anunciado en octubre de 2025, sin precisar quién aporta la eUICC ni el eIM."
+        },
+        {
+          "zh": "商务条款：定价、按设备计费方式，以及可切换的运营商名单均未披露。",
+          "en": "Commercial terms: pricing, per-device billing and the list of operators a device can switch to are not disclosed.",
+          "es": "Condiciones comerciales: no se publican precios, facturación por dispositivo ni la lista de operadores a los que se puede cambiar."
+        }
+      ]
+    }
+  ],
+  "whyItMatters": {
+    "zh": "SGP.32 的价值在于把 profile 编排从运营商内部系统拆成一个可采购的环节，AT&T 这条产品是北美一线运营商第一次把它做成公开可下单的形态。对设备商，出路是把区域 SKU 收成单一硬件，靠远端换 profile 适配市场，物流与认证成本随之下移；对 eUICC、模组与 eIM 供应商，采购接口从此有了明确的技术基线，围绕 SGP.32 的实现与互操作测试会先在这类运营商项目里被验证。真正的瓶颈不在规范而在名单：设备能切到哪些运营商，取决于 AT&T 与对方签了什么，公告没给。",
+    "en": "The point of SGP.32 is that it turns profile orchestration from an operator's internal system into a procurable component, and AT&T's product is the first time a top-tier North American operator has offered it as a publicly orderable item. For device makers the payoff is collapsing regional SKUs into one piece of hardware and adapting to markets by remote profile change, which pushes logistics and certification cost down the chain. For eUICC, module and eIM suppliers, procurement now has a concrete technical baseline, and SGP.32 implementations and interoperability tests will be proven first inside operator projects like this. The bottleneck is not the specification but the list: which operators a device can switch to depends on agreements AT&T has signed, and the release does not say.",
+    "es": "El valor de SGP.32 es convertir la orquestación de perfiles de un sistema interno del operador en un componente comprable, y el producto de AT&T es la primera vez que un operador de primer nivel en Norteamérica lo ofrece como artículo pedible. Para los fabricantes de dispositivos, la ganancia es reducir SKU regionales a un solo hardware y adaptarse a cada mercado cambiando el perfil en remoto, lo que baja costes de logística y certificación. Para proveedores de eUICC, módulos y eIM, la compra pasa a tener una base técnica concreta, y las implementaciones y pruebas de interoperabilidad SGP.32 se validarán primero en proyectos de operador como este. El cuello de botella no es la especificación sino la lista: a qué operadores puede cambiarse un equipo depende de los acuerdos que AT&T haya firmado, y el anuncio no lo dice."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-telecom-2026-11-18"
+  }
+}

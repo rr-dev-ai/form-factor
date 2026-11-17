@@ -1,0 +1,100 @@
+{
+  "id": "2026-11-18-identity-01",
+  "slug": "nigeria-vpass-airport-nin-face-verification",
+  "industry": "identity",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "biometrics",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-18T04:17:39+08:00",
+  "ingestedAt": "2026-11-18T03:10:30+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Radio Nigeria",
+      "url": "https://radionigerialagos.gov.ng/vpass-no-ninno-boarding-as-federal-government-tightens-domestic-flight-security/",
+      "lang": "en",
+      "publishedAt": "2026-11-16T14:00:00+01:00"
+    },
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/nigeria-launches-vpass-airport-face-verification-sets-january-deadline-for-domestic-airlines/",
+      "lang": "en",
+      "publishedAt": "2026-11-16T14:00:00+01:00"
+    }
+  ],
+  "title": {
+    "zh": "尼日利亚机场启用 NIN 刷脸，明年起未接入不得登机",
+    "en": "Nigeria ties boarding to national ID with airport face checks from January",
+    "es": "Nigeria ata el embarque al NIN con control facial desde enero"
+  },
+  "summary": {
+    "zh": "尼日利亚航空部 11 月 16 日在拉各斯启用 vPASS：旅客以 NIN 加人脸一次性注册，之后凭 NIN、刷脸、虹膜或登机牌二维码通过机场闸机。拉各斯与阿布贾两个国内航站楼先行，航司须在 12 月 31 日前接入，2027 年 1 月 1 日起未接入的定期国内航班不得登机。",
+    "en": "Nigeria's aviation ministry unveiled vPASS in Lagos on November 16. Travellers register once with their National Identification Number and a face scan, then pass airport gates with the NIN, facial recognition, iris biometrics or a QR code on the boarding pass. The domestic terminals at Lagos and Abuja go first, airlines must integrate by December 31, and from January 1, 2027 scheduled domestic flights may not board passengers without it.",
+    "es": "El ministerio de Aviación de Nigeria presentó vPASS en Lagos el 16 de noviembre. El viajero se registra una vez con su Número de Identificación Nacional y un escaneo facial, y luego pasa las puertas del aeropuerto con el NIN, reconocimiento facial, iris o un código QR del pase de abordar. Las terminales nacionales de Lagos y Abuya van primero, las aerolíneas deben integrarse antes del 31 de diciembre y desde el 1 de enero de 2027 ningún vuelo nacional regular podrá embarcar pasajeros sin el sistema."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "闸机替代人工查证",
+        "en": "Gates replace manual document checks",
+        "es": "Puertas en lugar de control manual"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "vPASS 由联邦机场管理局（FAAN）委托 Verxid Technologies 开发，注册渠道有两个：机场现场，或 Android 与 iOS 上的 vPASS 应用。注册时提交 NIN 并做一次人脸比对，系统据此去国家身份库核验，之后旅客在装了电子闸机的指定入口刷脸或刷虹膜通行。FAAN 总经理 Olubunmi Kuku 说目标是减少排队、降低对实体证件的依赖、少做重复查验；首期覆盖拉各斯穆尔塔拉·穆罕默德机场与阿布贾纳姆迪·阿齐基韦机场的国内航站楼，部长 Festus Keyamo 说最终会铺到全国每一个国内机场。",
+        "en": "vPASS was built for the Federal Airports Authority of Nigeria by Verxid Technologies. Enrolment happens at the airport or in the vPASS app for Android and iOS: the traveller submits a NIN and completes a face match, which the system checks against the national identity database. After that, entry points fitted with electronic gates read a face or iris. FAAN managing director Olubunmi Kuku said the aim is shorter queues, less reliance on physical documents and fewer repeated checks. The first phase covers the domestic terminals at Murtala Muhammed International in Lagos and Nnamdi Azikiwe International in Abuja; aviation minister Festus Keyamo said it will eventually reach every domestic airport in the country.",
+        "es": "vPASS fue desarrollado para la Autoridad Federal de Aeropuertos de Nigeria por Verxid Technologies. El registro ocurre en el aeropuerto o en la app vPASS para Android e iOS: el viajero entrega su NIN y completa una comparación facial que el sistema coteja contra la base nacional de identidad. Después, los accesos dotados de puertas electrónicas leen rostro o iris. La directora de FAAN, Olunlumi Kuku, dijo que el objetivo es reducir colas, depender menos del documento físico y repetir menos controles. La primera fase cubre las terminales nacionales de Murtala Muhammed en Lagos y Nnamdi Azikiwe en Abuya; el ministro de Aviación, Festus Keyamo, afirmó que llegará a todos los aeropuertos nacionales del país."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "截止日压在航司一侧",
+        "en": "The deadline lands on airlines",
+        "es": "El plazo recae en las aerolíneas"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "接入义务不在机场，在承运人。Keyamo 给定期国内航班的期限是 12 月 31 日完成与 vPASS 的对接，2027 年 1 月 1 日起不接入就不得让旅客登机。项目经联邦执行委员会批准，走公私合作模式，基础设施特许监管委员会（ICRC）总干事 Jobson Oseodion Ewalefoh 说程序上过了执行委员会与联邦总检察署两道关。公告没有披露合同金额、特许期长度与投资回收安排，只说旅客承担的额外成本「很小」。",
+        "en": "The obligation falls on carriers, not airports. Keyamo gave scheduled domestic airlines until December 31 to integrate with vPASS, with a ban on boarding from January 1, 2027 for those that do not. The project was approved by the Federal Executive Council and runs as a public-private partnership; Infrastructure Concession Regulatory Commission director-general Jobson Oseodion Ewalefoh said it cleared both the council and the Office of the Attorney-General. The announcement disclosed no contract value, concession length or revenue arrangement, saying only that the extra cost to passengers would be minimal.",
+        "es": "La obligación recae en las aerolíneas, no en los aeropuertos. Keyamo dio a las aerolíneas nacionales regulares hasta el 31 de diciembre para integrarse con vPASS, con prohibición de embarcar desde el 1 de enero de 2027 para quienes no lo hagan. El proyecto fue aprobado por el Consejo Ejecutivo Federal y opera como asociación público-privada; el director de la Comisión Reguladora de Concesiones de Infraestructura, Jobson Oseodion Ewalefoh, dijo que superó al consejo y a la Fiscalía General. El anuncio no reveló monto, plazo de concesión ni esquema de ingresos, y solo señaló que el costo adicional para el pasajero será mínimo."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "公告没写的部分",
+        "en": "What the announcement leaves out",
+        "es": "Lo que el anuncio no dice"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "三个关键参数缺席：一是误识与拒识指标，机场闸机每天要处理数千人，阈值定在哪里直接决定排队长度；二是生物特征模板的留存期限与删除规则，公告只说去国家身份库核验，没说是比对后即弃还是留档；三是 NIN 覆盖率的兜底方案，尼日利亚仍有相当比例成年人没有完成登记，这些人如何登机没有交代。航司侧要改的是值机与离港系统，把旅客记录与 NIN 绑定并回传闸机放行结果，这部分工作量与费用同样未披露。",
+        "en": "Three parameters are missing. First, error rates: airport gates handle thousands of people a day, and where the threshold sits decides how long the queue gets. Second, template retention: the announcement says the check runs against the national identity database but not whether the biometric is discarded after matching or kept. Third, a fallback for people without a NIN, since a sizeable share of Nigerian adults are still unenrolled and the announcement does not say how they board. On the airline side the work sits in check-in and departure systems, binding passenger records to a NIN and taking back the gate's decision; neither the effort nor the cost was disclosed.",
+        "es": "Faltan tres parámetros. Primero, las tasas de error: una puerta de aeropuerto procesa miles de personas al día y el umbral elegido decide la longitud de la cola. Segundo, la retención de plantillas: el anuncio dice que se coteja contra la base nacional, pero no si la biometría se descarta tras la comparación o se archiva. Tercero, un plan alternativo para quien no tiene NIN, porque una parte relevante de los adultos nigerianos sigue sin registrarse y no se explica cómo embarcará. En las aerolíneas el trabajo está en los sistemas de facturación y salida: vincular el registro del pasajero al NIN y recoger la decisión de la puerta; ni el esfuerzo ni el costo se detallaron."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "把国家身份库接到登机口，是非洲今年少见的、带硬截止日的落地。对供应商而言，需求分成三块：机场入口的电子闸机与虹膜/人脸模组、一次性注册的采集终端（含移动端活体）、以及航司值机系统与身份库之间的对接层。第三块最容易被低估，它不卖硬件，但决定 12 月 31 日能不能按时上线，本地集成商在这里的位置比设备商更靠前。监管上，用「不接入不得登机」推覆盖率，等于把身份登记的缺口转成航空公司的运营风险——没有 NIN 的旅客会在值机柜台被拦下，而登记体系本身不在民航部门手里。放到区域看，尼日利亚走的是先建国家号、再把号接进具体受理场景的路径，与肯尼亚、加纳此前的顺序一致；差别在于这次给了明确的执法日。后续值得盯的是特许经营合同条款与 NIMC 的接口规范，那两项决定这门生意是项目制还是长期运营。",
+    "en": "Wiring the national identity database into the boarding gate is one of the few African rollouts this year with a hard deadline. Demand splits three ways: electronic gates and iris or face modules at airport entry points, enrolment terminals for the one-time registration including mobile liveness, and the integration layer between airline departure systems and the identity database. That third piece is the most underrated. It sells no hardware, but it decides whether December 31 is met, and local integrators sit closer to it than equipment vendors do. On the regulatory side, using a boarding ban to drive coverage converts a registration gap into an airline operating risk: passengers without a NIN get stopped at the counter, while the enrolment system sits outside the aviation ministry. Regionally, Nigeria is building the number first and plugging it into specific acceptance points afterwards, the same order Kenya and Ghana followed, except this time with an enforcement date attached. What to watch next is the concession terms and NIMC's interface specification; those two decide whether this is a project business or a long-running operation.",
+    "es": "Conectar la base nacional de identidad con la puerta de embarque es uno de los pocos despliegues africanos del año con fecha límite dura. La demanda se divide en tres: puertas electrónicas y módulos de iris o rostro en los accesos al aeropuerto, terminales de enrolamiento para el registro único —incluida la prueba de vida móvil— y la capa de integración entre los sistemas de salida de las aerolíneas y la base de identidad. Esa tercera pieza es la más subestimada: no vende hardware, pero decide si se cumple el 31 de diciembre, y los integradores locales están más cerca de ella que los fabricantes de equipos. En lo regulatorio, usar la prohibición de embarque para elevar la cobertura convierte un hueco de registro en riesgo operativo para las aerolíneas: quien no tiene NIN queda detenido en el mostrador, mientras el sistema de enrolamiento no depende del ministerio de Aviación. En la región, Nigeria construye primero el número y luego lo enchufa en puntos concretos, como Kenia y Ghana, salvo que aquí hay fecha de enforcement. Faltan los términos de la concesión y la especificación del NIMC: definen si el negocio es por proyecto o de operación continua."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

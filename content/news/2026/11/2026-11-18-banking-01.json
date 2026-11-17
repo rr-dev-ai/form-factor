@@ -1,0 +1,88 @@
+{
+  "id": "2026-11-18-banking-01",
+  "slug": "mastercard-accept-phone-acceptance-apac",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [
+    "latam",
+    "mena",
+    "africa"
+  ],
+  "tags": [
+    "acquiring",
+    "softpos",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-18T04:17:39+08:00",
+  "ingestedAt": "2026-11-18T02:38:13+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Mastercard",
+      "url": "https://www.mastercard.com/news/ap/en/newsroom/press-releases/en/2026/mastercard-enables-debit-cardholders-to-get-paid-as-easily-as-they-pay",
+      "lang": "en",
+      "publishedAt": "2026-11-17T00:00:00+08:00"
+    },
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/credit-cards/2026/mastercard-debuts-tool-to-get-debit-users-paid-faster/",
+      "lang": "en",
+      "publishedAt": "2026-11-17T00:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "万事达卡让借记卡持卡人用手机收款，首发亚太",
+    "en": "Mastercard turns debit cards into phone-based acceptance, starting in Asia Pacific",
+    "es": "Mastercard convierte tarjetas de débito en aceptación por teléfono, desde Asia-Pacífico"
+  },
+  "summary": {
+    "zh": "万事达卡 11 月 17 日推出 Mastercard Accept：持卡人在自家手机银行或支付 App 里选「收款」、输入金额，对方用非接卡或钱包碰手机、或扫二维码付款，钱进同一张借记卡或预付卡账户。首发聚焦亚太，菲律宾 Maya、斯里兰卡锡兰银行与 LOLC、柬埔寨 Kardal 与 Oriental Bank 在列。",
+    "en": "Mastercard introduced Mastercard Accept on 17 November: debit and prepaid cardholders pick an \"accept payment\" option inside their existing banking or payments app, key in an amount, and the payer taps a contactless card or wallet on the phone or scans a QR code. Funds land in the same debit or prepaid account. The first push is Asia Pacific, with Maya in the Philippines, Bank of Ceylon and LOLC in Sri Lanka, and Kardal with Oriental Bank in Cambodia.",
+    "es": "Mastercard presentó el 17 de noviembre Mastercard Accept: los titulares de tarjetas de débito y prepago eligen la opción de cobrar dentro de su app bancaria o de pagos, introducen el importe y el pagador acerca una tarjeta sin contacto o una cartera al teléfono o escanea un código QR. El dinero entra en la misma cuenta de débito o prepago. El primer despliegue se centra en Asia-Pacífico, con Maya en Filipinas, Bank of Ceylon y LOLC en Sri Lanka, y Kardal con Oriental Bank en Camboya."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "万事达卡 11 月 17 日在新加坡发布 Mastercard Accept，把受理能力装进发卡行既有的手机银行或支付 App。持卡人打开 App 选「收款」、输入金额，把手机递给付款方；付款方用非接触卡或兼容的数字钱包碰一下手机，或者扫描屏幕上显示的二维码打开卡支付链接。资金进入与收款人关联的银行账户或预付卡账户。",
+        "en": "Mastercard launched Mastercard Accept in Singapore on 17 November, putting acceptance inside the banking or payments app an issuer already runs. A cardholder opens the app, selects the option to accept a payment, enters the amount and holds out the phone. The payer either taps a contactless card or a compatible digital wallet on the handset, or scans a QR code on screen that opens a card payment link. Funds land in a linked bank account or prepaid card account.",
+        "es": "Mastercard lanzó Mastercard Accept en Singapur el 17 de noviembre, incorporando la aceptación dentro de la app bancaria o de pagos que el emisor ya opera. El titular abre la app, elige la opción de cobrar, introduce el importe y extiende el teléfono. El pagador acerca una tarjeta sin contacto o una cartera digital compatible al terminal, o escanea un código QR en pantalla que abre un enlace de pago con tarjeta. Los fondos llegan a una cuenta bancaria o de tarjeta prepago vinculada."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "受理侧由三件万事达卡既有工具拼成：Tap on Phone 用手机 NFC 读非接卡与钱包，Mastercard QR 生成收款码，Pay by Link 发送远程收款链接。某个市场具体开放哪几种，取决于当地发卡行与收单方的实现。万事达卡称资金可近实时到账，但到账速度实际由各合作方与本地清算安排决定。",
+        "en": "Three existing Mastercard tools do the work: Tap on Phone reads contactless cards and wallets through the phone's NFC, Mastercard QR generates an acceptance code, and Pay by Link sends a remote payment request. Which of the three a market gets depends on how the local issuer and acquirer implement it. Mastercard describes funds as arriving in near real time, though actual timing rests with each partner and the local clearing arrangement.",
+        "es": "Tres herramientas ya existentes de Mastercard hacen el trabajo: Tap on Phone lee tarjetas y carteras sin contacto mediante el NFC del teléfono, Mastercard QR genera un código de cobro y Pay by Link envía una solicitud de pago remota. Qué opción recibe cada mercado depende de cómo la implementen el emisor y el adquirente locales. Mastercard describe la llegada de fondos como casi en tiempo real, aunque el plazo real depende de cada socio y de la cámara de compensación local."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "万事达卡公布的合作方名单覆盖四个区域：Maya Bank（菲律宾）、Bank of Ceylon 与 LOLC（斯里兰卡）、Kardal 与 Oriental Bank（柬埔寨，待监管批准）在亚太；此外还有 areeba、BAC Latam、Banco de Costa Rica、Banco Davivienda、Banco Industrial、Banco Nacional de Costa Rica、Equity Bank、Getnet、G&T Continental、Grupo Cibest、KCB Bank Kenya、Network International 与 Premier Bank Kenya。万事达卡与 Maya 将于 11 月 18 日在新加坡金融科技节做首次公开演示。",
+        "en": "The partner list Mastercard published spans four regions. In Asia Pacific: Maya Bank in the Philippines, Bank of Ceylon and LOLC in Sri Lanka, and Kardal with Oriental Bank in Cambodia, the last subject to regulatory approval. Elsewhere it names areeba, BAC Latam, Banco de Costa Rica, Banco Davivienda, Banco Industrial, Banco Nacional de Costa Rica, Equity Bank, Getnet, G&T Continental, Grupo Cibest, KCB Bank Kenya, Network International and Premier Bank Kenya. Mastercard and Maya were due to demonstrate the service publicly at the Singapore FinTech Festival on 18 November.",
+        "es": "La lista de socios publicada por Mastercard abarca cuatro regiones. En Asia-Pacífico: Maya Bank en Filipinas, Bank of Ceylon y LOLC en Sri Lanka, y Kardal con Oriental Bank en Camboya, este último sujeto a aprobación regulatoria. Fuera de la región figuran areeba, BAC Latam, Banco de Costa Rica, Banco Davivienda, Banco Industrial, Banco Nacional de Costa Rica, Equity Bank, Getnet, G&T Continental, Grupo Cibest, KCB Bank Kenya, Network International y Premier Bank Kenya. Mastercard y Maya tenían previsto demostrar el servicio en el Singapore FinTech Festival el 18 de noviembre."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "万事达卡没有公布费率，也没有给出各市场的商用时间表。首发范围写的是亚太、拉美、中东与非洲的「重点市场」，之后再做全球推广。对发卡行而言，新增的是把借记卡账户变成收款账户的能力，不需要另行采购终端；收单方需要决定是否把这一层接进自己的商户体系。",
+        "en": "Mastercard disclosed no pricing and no commercial launch dates for individual markets. The stated initial scope is \"key markets\" across Asia Pacific, Latin America, the Middle East and Africa, followed by a broader global rollout. For an issuer, the addition is the ability to turn a debit account into an acceptance account without buying terminals; for an acquirer, the question is whether to fold that layer into its own merchant estate.",
+        "es": "Mastercard no reveló precios ni fechas de lanzamiento comercial por mercado. El alcance inicial declarado son \"mercados clave\" de Asia-Pacífico, América Latina, Oriente Medio y África, con un despliegue global posterior. Para un emisor, la novedad es poder convertir una cuenta de débito en cuenta de cobro sin comprar terminales; para un adquirente, la pregunta es si incorpora esa capa a su propia red de comercios."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "受理覆盖面一直由收单机构铺多少台终端决定，小微商户因此被挡在卡支付之外。Mastercard Accept 把受理入口下放到发卡行的 App，用同一张借记卡凭证完成收付，绕开终端采购与商户号申请。对发卡行这是新增商户服务收入的可能，对收单机构则是边界被侵蚀。需要留一分保留：费率与商用时间都未公布，实际覆盖取决于各发卡行是否真把收款功能做进 App。",
+    "en": "Card acceptance has always been capped by how many terminals acquirers deploy, which is what keeps very small sellers outside card payments. Mastercard Accept moves the entry point into the issuer's app and uses the same debit credential to pay and to get paid, sidestepping terminal purchases and merchant account applications. That is potential new merchant-service revenue for issuers and an encroachment on acquirers. One caveat: no pricing and no commercial dates were disclosed, so real coverage depends on whether each issuer actually ships the acceptance function.",
+    "es": "La cobertura de aceptación siempre ha estado limitada por el número de terminales que despliegan los adquirentes, y eso deja fuera del pago con tarjeta a los vendedores más pequeños. Mastercard Accept traslada el punto de entrada a la app del emisor y usa la misma credencial de débito para pagar y cobrar, evitando comprar terminales y solicitar una cuenta de comercio. Es posible ingreso nuevo por servicios a comercios para los emisores y una erosión del terreno de los adquirentes. Una salvedad: no se publicaron precios ni fechas comerciales, así que la cobertura real depende de que cada emisor incorpore de hecho la función de cobro."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

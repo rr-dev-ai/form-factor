@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-18",
+  "industry": "telecom",
+  "startedAt": "2026-11-18T02:50:00+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "Com custo de fraude cada vez menor, Anatel determina biometria para donos de linhas móveis",
+      "url": "https://beverified.org/news/brazil-anatel-facial-biometrics-mobile-lines",
+      "reason": "duplicate-of-2026-10-30-telecom-04：同一份 Anatel 技术规范 GT-SEG.2026.11（2026-10-28 发布，2027-09-30 起新预付卡刷脸、2029-01 未核验停机），本周多篇葡语稿只是复述，不是新变化。"
+    },
+    {
+      "title": "Eseye launches AnyNet Select for SGP.32 IoT deployments",
+      "url": "https://www.eseye.com/resources/news/eseye-launches-anynet-select-sgp32-iot-deployments",
+      "reason": "duplicate-of-2026-11-05-telecom-02：IT Brief UK 11-17 的稿件是 11-02 Eseye AnyNet Select 发布的迟到转写，产品、profile 目录与多 eIM 编排三项与已发条目完全一致。"
+    },
+    {
+      "title": "SIM-Binding Rule Takes Effect From January 2027: WhatsApp And Telegram Will Need An Active Registered SIM",
+      "url": "https://www.etvbharat.com/amp/en/technology/sim-binding-rule-takes-effect-from-january-2027-whatsapp-telegram-snapchat-arattai-sharechat-josh-jiochat-signal-enn26102304963",
+      "reason": "duplicate-of-2026-11-17-telecom-01：印度电信部 2025-11-28 指令与 2026-12-31 合规期限是同一件事，本站 11-17 已写 24 小时核验口径；本条为印地语媒体的规则复述，且政策原始发布在 10 月下旬，已超 72 小时。"
+    },
+    {
+      "title": "Telkom signs Amazon Leo satellite distribution deal",
+      "url": "https://www.itweb.co.za/article/telkom-signs-amazon-leo-satellite-distribution-deal/JBwErvn3jbl76Db2",
+      "reason": "范围门不过：Openserve 成为 Amazon Leo 在南非的授权分销商，卖的是卫星宽带与企业专线备份，全文没有 SIM 载体、profile 下发或鉴权方式的变化。"
+    },
+    {
+      "title": "Cameroon’s Telecom Regulator Finds Compliance and Service Gaps at Three Mobile Operators",
+      "url": "https://www.telecomreviewafrica.com/articles/telecom-operators/29484-cameroons-telecom-regulator-finds-compliance-and-service-gaps-at-three-mobile-operators/",
+      "reason": "范围门不过：TRB 查出 93 项牌照义务违反，内容是 2G/3G 覆盖、数据质量、设备认证与骨干光纤，落点在网络与服务质量，不在凭证链路。"
+    },
+    {
+      "title": "Megatel Becomes First Telkom Business MVNO Partner",
+      "url": "https://www.telecomreviewafrica.com/articles/reports-and-coverage/29485-megatel-becomes-first-telkom-business-mvno-partner/",
+      "reason": "范围门不过：MVNO 挂靠协议属销售渠道与批发资费，不涉及 SIM/eSIM 载体形态或 profile 分发机制。"
+    },
+    {
+      "title": "Perú | ¿Compraste un celular y no está en la lista blanca? Conoce qué hacer para evitar su bloqueo",
+      "url": "https://dplnews.com/peru-compraste-un-celular-y-no-esta-en-la-lista-blanca-conoce-que-hacer-para-evitar-su-bloqueo/",
+      "reason": "范围门不过：Osiptel 的白名单管的是终端 IMEI 注册，不是 SIM 实名或鉴权；且这是既有规则的办理指引，无新动作。"
+    },
+    {
+      "title": "AST SpaceMobile CEO explains new rocket plan, hints about third US operator",
+      "url": "https://www.fierce-network.com/wireless/ast-spacemobile-ceo-explains-new-rocket-plan-hints-about-third-us-operator",
+      "reason": "范围门不过：发射排期与第三家美国运营商合作意向，属星座与频谱侧，未给出 SIM 载体、profile 或鉴权链路的具体变化。"
+    },
+    {
+      "title": "IDEMIA Secure Transactions and IonQ validate Quantum Key Distribution interoperability for critical communications",
+      "url": "https://www.idemia.com/press-release/idemia-secure-transactions-and-ionq-validate-quantum-key-distribution-interoperability-critical-communications-2026-11-17",
+      "reason": "动作门不过：实验室互操作验证，没有产品名、版本号、认证或客户；QKD 面向通信加密密钥，不改变 SIM 或 profile 的鉴权流程。"
+    },
+    {
+      "title": "ETSI advances digital accessibility across Europe with two standards",
+      "url": "https://www.etsi.org/newsroom/press-releases/etsi-advances-digital-accessibility-across-europe-with-two-standards/",
+      "reason": "范围门不过：两项无障碍标准与终端可用性有关，不落在载体、签发、分发、受理任一环节。"
+    },
+    {
+      "title": "Belgium confirms 2G shutdown plans for 2028/29",
+      "url": "https://www.mobileeurope.co.uk/belgium-2g-shutdown/",
+      "reason": "范围门不过：网络关停排期属核心网与频谱效率，与凭证形态或鉴权方式无关。"
+    },
+    {
+      "title": "Five-SIM limit per NID planned",
+      "url": "http://en.banglanews24.com/technology/news/bd/197914.details",
+      "reason": "动作门不过：邮电与信息技术部长 11-16 在议会答问时称「正在推进」，单人 5 张上限、7 天注册间隔与人脸核验三项都没有文本、没有生效日；同一议题 2025-12 与 2026-09 已报过两次。"
+    },
+    {
+      "title": "PTA may cut voice SIMs to three per CNIC",
+      "url": "https://dailybyte.pk/blog/pta-voice-sim-limit-three-per-cnic-15-november-2026",
+      "reason": "动作门不过：仍是「原则同意 + 待与运营商磋商」，无正式指令编号与生效日；与 11-15 拦下的同一议题重复。"
+    },
+    {
+      "title": "SES to Develop European Direct-to-Device Technologies under ESA Partnership Project",
+      "url": "https://www.ses.com/news/press-release/ses-to-develop-european-directtodevice-technologies-under-esa-partnership",
+      "reason": "动作门不过：SELYCE 是 ESA 资助的研发项目，本轮只做技术验证与端到端测试，没有可商用产品、参数或客户；与已收的 Iridium NTN Direct 属不同成熟度。"
+    },
+    {
+      "title": "eSIM Embeddable — launch a white-label eSIM storefront",
+      "url": "https://zendit.io?p=4874/",
+      "reason": "范围门不过：白标 eSIM 商店是把旅行套餐嵌进合作方 App 或网站，属销售渠道与资费分发，AGENTS 明确不收；技术上是同一套批发目录的前端封装，无新载体或新鉴权机制。"
+    },
+    {
+      "title": "Saily adds shared eSIM plans for up to five people",
+      "url": "https://www.esim.report/news/saily-adds-shared-esim-plans-for-up-to-five-people",
+      "reason": "范围门不过：同一数据池发邀请链接的共享方案，属资费形态；功能 2026-08-31 已上线，本周仍是体验稿，11-14 起已连续拦过。"
+    },
+    {
+      "title": "Smart Communications launches Prepaid Digital Tourist eSIM offers",
+      "url": "https://www.esim.report/news/smart-communications-launches-prepaid-digital-tourist-esim-offers",
+      "reason": "范围门不过：游客预付 eSIM 套餐属资费产品，无新载体或新分发机制；11-14 已按同一理由拦过。"
+    }
+  ],
+  "stats": {
+    "candidates": 232,
+    "written": 3,
+    "skippedByDedup": 3
+  },
+  "finishedAt": "2026-11-17T20:16:46.287Z"
+}

@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-18",
+  "startedAt": "2026-11-18T01:51:03+08:00",
+  "finishedAt": "2026-11-18T01:56:37+08:00",
+  "indexCheck": {
+    "file": "content/_raw/2026-11-18.index.json",
+    "exists": true,
+    "fetchedFor": "2026-11-18",
+    "items": 200,
+    "attempts": 1,
+    "note": "一次通过，未等待（01:51:03 首次确认即达标）。fetchedAt 字段为 undefined，与 11-14/11-15/11-17 同型；fetchedFor 正确、items 为 200 条非空，三项条件全部满足。"
+  },
+  "matrix": {
+    "counted": 4,
+    "dropped": {
+      "published": 0,
+      "expired": 0,
+      "undated": 13,
+      "lowConfidence": 183,
+      "invalid": 0
+    },
+    "gaps": ["cis", "mena", "europe", "north-america", "latam"],
+    "cellGaps": [
+      { "region": "apac", "industry": "telecom" },
+      { "region": "africa", "industry": "banking" },
+      { "region": "africa", "industry": "telecom" }
+    ],
+    "industryGaps": [
+      { "industry": "telecom", "emptyRegions": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"] },
+      { "industry": "banking", "emptyRegions": ["cis", "mena", "europe", "north-america", "latam", "africa"] },
+      { "industry": "identity", "emptyRegions": ["cis", "mena", "europe", "north-america", "latam"] }
+    ],
+    "note": "脚本 stdout：「矩阵已重算：计入 4 条，剔除 已发布 0 / 超窗 0 / 无日期 13 / 低置信 183」。content/_raw/2026-11-18.matrix.json 未落盘（延续 11-15 起的现象），三层缺口以 stdout 为准，未改脚本、未改阈值。4 条计入全部靠 confidence 过线、publishedAt 缺失：柬埔寨证件核验（identity/apac 0.60）、尼日利亚 V-Pass 12-31 期限（identity/africa 0.65）、Mastercard 让小商户用手机收卡（banking/apac 0.70）、Visa×Samsung QR（banking/apac 0.65）。三条 industryGaps 同时成立，说明本期不是单点缺口而是行业级断供。"
+  },
+  "phases": [
+    {
+      "phase": "R1",
+      "at": "2026-11-18T01:51:55+08:00",
+      "queries": 4,
+      "hits": 1,
+      "note": "缺口驱动：cis / mena / europe / north-america 四区各一条，全部用「带引号日期锚定 + 区域 + 链路环节产品词」——Kazakhstan biometric passport、Saudi UAE bank card issuance、Europe digital identity wallet、US mDL。命中 mena/banking（Bank of Jordan × Mastercard，15 Nov）。北美那条只回 mDL 科普与旧闻；欧洲与中亚两条回到旅游 eSIM 与护照代办站。**未达 6 条下限，如实记账，未用近义 query 补位。**"
+    },
+    {
+      "phase": "R2",
+      "at": "2026-11-18T01:52:06+08:00",
+      "queries": 4,
+      "hits": 0,
+      "basedOn": "R1 四条都停在「区域 + 泛产品词」，改按该市场的具体主体发：巴西发卡与身份链、SIM 卡制造厂与 eUICC 平台、非洲银行发卡处理方、非洲 SIM 实名登记监管方。",
+      "note": "巴西那条全被 C6 / trio.com.br 科普与 pix 教程占满；SIM 制造开工那条仍是 2022 年旧闻与广告；非洲发卡处理只回 SunTrust × OPay 的 TID 协议（无日期、无金额、无发卡量）与 Rex Africa（11-15 超窗）；非洲 SIM 登记只回肯尼亚 2023 与加纳 2024 的旧稿。**未达 5 条下限，如实记账。**"
+    },
+    {
+      "phase": "R3",
+      "at": "2026-11-18T01:53:10+08:00",
+      "queries": 4,
+      "hits": 0,
+      "basedOn": "R1/R2 的欧洲、中亚、非洲三区全部零产出，按任务要求改走当地语言采购术语，验证是否有小额制卡/发证标可在窗内开出。",
+      "note": "licitación tarjetas identificación / edital licitação cartão / مناقصة بطاقة الهوية الذكية / appel d'offres carte d'identité 四条，全部只回招标聚合站与旧的费率通告，无一条落在 11-15 01:51 之后。R3 连续第五天零产出，与 11-14 至 11-17 的判断一致。**未达 6 条下限，如实记账。**"
+    },
+    {
+      "phase": "R4",
+      "at": "2026-11-18T01:53:40+08:00",
+      "queries": 3,
+      "hits": 1,
+      "basedOn": "R3 确认采购口径无供给，改按语种与站点分头切垂直媒体，并直接读归档页替代关键词（本机 WebSearch 的 allowed_domains 仍返回空，11-07 已验证）。",
+      "note": "3 条 query + 2 次归档直读。biometricupdate /202611 直读命中瑞典 IMY 否决国家人脸库（11-16 17:24 EST），收为 europe/identity；同一页近三日的其余条目为深伪与诈骗分析稿，不过范围门。paymentsindustryintelligence 首页给出 11-17 的 Crédit Agricole × Enfuce 与 Mastercard Accept 两条，前者已于 11-17 发稿、后者与 index 内「Mastercard small sellers」同事件线，均避让。mobiletime 与 dplnews 那条被旅游 eSIM 与墨西哥数字支付法旧稿占满。"
+    },
+    {
+      "phase": "R5",
+      "at": "2026-11-18T01:54:00+08:00",
+      "queries": 4,
+      "hits": 0,
+      "basedOn": "R4 表明身份线的硬新闻只在归档页偶现，故改按尚未成为通用词的表述找「已商用/已发证」的硬节点：SGP.32 eIM、iSIM 商用、mDL 可验证凭证试点、中亚 ID 卡。",
+      "note": "iSIM 商用那条被 esim-urlaub、mobimatter、travelnet-esim、simology 占满；SGP.32 只回供应商对比稿；mDL 试点那条切出的是美国各州旧稿与国际刑警组织 10 月文件；乌兹别克/亚美尼亚 ID 卡只回 2023 年换发公告。四条零产出。"
+    },
+    {
+      "phase": "R6",
+      "at": "2026-11-18T01:55:38+08:00",
+      "queries": 21,
+      "hits": 3,
+      "basedOn": "前五轮 telecom 七区、north-america 三行业、latam 三行业仍全空；R1 的日期锚定是唯一稳定命中手法（命中 BOJ），故 R6 起放大该手法并叠加本地语言与主体替换（发卡处理商、卡项目聚合站、央行/监管机构、区域媒体），逐条按上一轮的具体主体改写，不原样重发。",
+      "note": "21 条 query 分三波：第一波按主体换词（Al Etihad Jaywan、Минцифры Казахстан eSIM、Enfuce/Marqeta/FIME、CorServ/Velera/Fiserv、各国 DNIe/cédula、加纳 NCA 与尼日利亚 NCC、沙特数字身份、俄央行卡片登记、美国银行金融科技发卡）；第二波按语言与日期锚定重切（11-17/16 的葡语、西语、阿语、俄语稿）；第三波只打 latam（智利/阿根廷卡、墨西哥/巴西/哥伦比亚生物识别、Akua × Itaú）。三条命中：Kommersant 俄央行 ЕСУПК（cis/banking，17.11 14:43）、Incode Know Your Agent（north-america/identity，11-17）、Itaú 入股 Akua（latam/banking，11-16）。**telecom 侧 21 条里 7 条被旅游 eSIM 站占满，仍零条。**"
+    }
+  ],
+  "queries": {
+    "total": 40,
+    "byPhase": { "R1": 4, "R2": 4, "R3": 4, "R4": 3, "R5": 4, "R6": 21 },
+    "archiveReads": 2,
+    "articleVerifications": 10,
+    "note": "R1 4/6、R2 4/5、R3 4/6 三处低于下限，已在 phases 内逐条标注，未用近义 query 凑数；合计 40 条仍超 24 条总量下限。实测时刻有五次（01:51:03 / 01:51:55 / 01:52:06 / 01:55:38 / 01:56:37），R3–R5 的 at 落在 01:52:06 与 01:55:38 之间，为同窗口内的时间序标注、非逐轮实测，如实说明。"
+  },
+  "produced": {
+    "items": 5,
+    "cells": ["cis/banking", "mena/banking", "europe/identity", "north-america/identity", "latam/banking"]
+  },
+  "unfilled": [
+    "telecom: 七区仍全空、零条产出（连续第 10 天，40 条 query 里 12 条打 telecom，全部无合格产出）",
+    "apac: telecom 未补（cellGap；banks 侧本日已有 3 条计入）",
+    "africa: banking 与 telecom 两格未补（cellGap）",
+    "cis: identity 与 telecom 未补（banking 已补俄央行 ЕСУПК）",
+    "mena: identity 与 telecom 未补（banking 已补 BOJ × Mastercard）",
+    "europe: banking 与 telecom 未补（identity 已补瑞典 IMY）",
+    "north-america: banking 与 telecom 未补（identity 已补 Incode）",
+    "latam: identity 与 telecom 未补（banking 已补 Itaú × Akua）"
+  ],
+  "verifiedButDropped": [
+    { "title": "Crédit Agricole Deutschland picks Enfuce for Visa debit issuing, G+D for card personalisation", "url": "https://paymentsindustryintelligence.com/credit-agricole-partners-with-enfuce-in-germany-launch/", "reason": "11-16 17:51 UTC 发布，本身合规且在窗内，但已于 11-17 的 supplement 报送并已发稿，同事件线不重复投递" },
+    { "title": "Mastercard Accept：让小商户用手机收卡（PRNewswire，SINGAPORE dateline）", "url": "https://www.prnewswire.com/", "reason": "与 index 已计入的「Mastercard Gives Small Sellers a Way to Take Card Payments by Phone」（banking/apac 0.70）同事件线，按「同一事件最多 1 条」避让；原链接未留存，仅记事件" },
+    { "title": "Google Pay 支持沙特发行 Mastercard 卡", "url": "https://arabpress.com/", "reason": "只提 tokenization 与「参与沙特银行未具名」，正文无 dateline，无法确认在 72 小时窗内，弃" },
+    { "title": "SunTrust Bank × OPay Terminal ID Services Agreement", "url": "https://spectraafrica.com/", "reason": "无发布日期、无金额、无 TID 数量，机制面只有登记/结算/对账三段，不足以过动作门，弃" },
+    { "title": "Infcurion × JR-West「Wesmo! Online Card」", "url": "https://www.infcurion.com/en/news/news-20261117_001/", "reason": "11-17 公告、11-24 才上线；JCB 虚拟卡 + Xard 平台 + App 内身份核验，落在 banking 而非 telecom，而 apac/banking 本日已有多条计入，未占用额度" },
+    { "title": "柬埔寨证件核验 / 尼日利亚 V-Pass / Visa × Samsung QR", "url": "https://www.mastercard.com/", "reason": "三条均已在 index 内（identity/apac 0.60、identity/africa 0.65、banking/apac 0.65），且 Visa × Samsung 与柬埔寨 Bakong 已于近三日发稿" }
+  ],
+  "notes": [
+    "本期根因仍是源侧供给：200 条里 183 条置信度 <0.6、13 条无日期，真正过阈值的只有 4 条，且这 4 条全部缺 publishedAt。三层缺口同时成立（gaps 五区、cellGaps 三格、industryGaps 三行业），是本轮最严重的一次。",
+    "telecom 连续第 10 天零条产出。40 条 query 里 12 条打 telecom，其中 9 条前三位被 mobimatter、simpackers、etravelsim、esimkite、slashtel、simology、imeialert 占满；剩下 3 条只回白卡广告与 2022 年旧闻。这与 11-06 起的观察完全一致，判定为题源结构问题，非阈值或 query 写法问题。",
+    "R3 采购术语轮连续第五天零产出，四条全部只回聚合站。11-17 的建议（压到 2–3 条、只留葡语 edital 与阿语 مناقصة）本期仍未产生收益，明天可进一步压到 2 条或直接删去该轮。",
+    "R1 的日期锚定再次证明是唯一稳定手法：四条锚定 query 里命中 1 条（BOJ，15 Nov），而 R6 的 21 条里有 12 条带锚定或本地语言，命中 3 条。锚定日已需推到 15–17 日区间，与 11-17 记录的「13–14 日」相比又后移两天。",
+    "本期补位全部落在 banking 与 identity，telecom 一条没有；若 telecom 源侧再连续一周断供，需要改判定——不是「缺口」而是「该行业在公开新闻流里没有对应事件」，应据实上报而不是继续靠 query 变体硬挖。",
+    "Incode 一条是本期唯一的范围门临界项：标的物是 AI agent 授权框架，靠「对人证比对州 DMV 人像记录」勉强落在身份凭证的核验/受理侧，已在 gateNote 写明可能被终审刷掉，未伪装成硬命中。"
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-17T20:22:37.018Z",
+  "renderer": 1,
+  "items": {
+    "att-flexible-sim-sgp32-commercial": {
+      "zh": {
+        "file": "audio/zh/att-flexible-sim-sgp32-commercial.ee3372e8.mp3",
+        "hash": "ee3372e8",
+        "bytes": 1738125,
+        "duration": 144.755,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/att-flexible-sim-sgp32-commercial.e728e468.mp3",
+        "hash": "e728e468",
+        "bytes": 1867437,
+        "duration": 155.533,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/att-flexible-sim-sgp32-commercial.c1018946.mp3",
+        "hash": "c1018946",
+        "bytes": 1846125,
+        "duration": 153.745,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "bank-of-russia-card-registry-20-card-cap": {
+      "zh": {
+        "file": "audio/zh/bank-of-russia-card-registry-20-card-cap.4b91bddf.mp3",
+        "hash": "4b91bddf",
+        "bytes": 1640205,
+        "duration": 136.6,
+        "voice": "zm_015",
+        "speed": 1.094
+      },
+      "en": {
+        "file": "audio/en/bank-of-russia-card-registry-20-card-cap.b9c951a2.mp3",
+        "hash": "b9c951a2",
+        "bytes": 1452429,
+        "duration": 120.955,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/bank-of-russia-card-registry-20-card-cap.89ef0a8f.mp3",
+        "hash": "89ef0a8f",
+        "bytes": 1656333,
+        "duration": 137.935,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "iridium-ntn-direct-activation-nb-iot": {
+      "zh": {
+        "file": "audio/zh/iridium-ntn-direct-activation-nb-iot.5cffd79c.mp3",
+        "hash": "5cffd79c",
+        "bytes": 1810125,
+        "duration": 150.75,
+        "voice": "zm_011",
+        "speed": 1.157
+      },
+      "en": {
+        "file": "audio/en/iridium-ntn-direct-activation-nb-iot.494e3f62.mp3",
+        "hash": "494e3f62",
+        "bytes": 1926477,
+        "duration": 160.441,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/iridium-ntn-direct-activation-nb-iot.928de8b4.mp3",
+        "hash": "928de8b4",
+        "bytes": 1982061,
+        "duration": 165.095,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "italy-open-gateway-four-operators-sim-apis": {
+      "zh": {
+        "file": "audio/zh/italy-open-gateway-four-operators-sim-apis.34ddb29c.mp3",
+        "hash": "34ddb29c",
+        "bytes": 1942605,
+        "duration": 161.805,
+        "voice": "zf_001",
+        "speed": 1.16
+      },
+      "en": {
+        "file": "audio/en/italy-open-gateway-four-operators-sim-apis.1e830c4a.mp3",
+        "hash": "1e830c4a",
+        "bytes": 1974285,
+        "duration": 164.428,
+        "voice": "am_michael",
+        "speed": 1.329
+      },
+      "es": {
+        "file": "audio/es/italy-open-gateway-four-operators-sim-apis.ce43a851.mp3",
+        "hash": "ce43a851",
+        "bytes": 2128653,
+        "duration": 177.31,
+        "voice": "em_alex",
+        "speed": 1.128
+      }
+    },
+    "mastercard-accept-phone-acceptance-apac": {
+      "zh": {
+        "file": "audio/zh/mastercard-accept-phone-acceptance-apac.f29ac7fb.mp3",
+        "hash": "f29ac7fb",
+        "bytes": 2258541,
+        "duration": 188.125,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/mastercard-accept-phone-acceptance-apac.0096f361.mp3",
+        "hash": "0096f361",
+        "bytes": 1785645,
+        "duration": 148.709,
+        "voice": "am_fenrir",
+        "speed": 1.315
+      },
+      "es": {
+        "file": "audio/es/mastercard-accept-phone-acceptance-apac.ae2a59fc.mp3",
+        "hash": "ae2a59fc",
+        "bytes": 1941741,
+        "duration": 161.725,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    },
+    "nigeria-vpass-airport-nin-face-verification": {
+      "zh": {
+        "file": "audio/zh/nigeria-vpass-airport-nin-face-verification.71d1eed3.mp3",
+        "hash": "71d1eed3",
+        "bytes": 2314125,
+        "duration": 192.75,
+        "voice": "zm_010",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/nigeria-vpass-airport-nin-face-verification.a4a5e7e3.mp3",
+        "hash": "a4a5e7e3",
+        "bytes": 2376909,
+        "duration": 197.979,
+        "voice": "af_heart",
+        "speed": 1.254
+      },
+      "es": {
+        "file": "audio/es/nigeria-vpass-airport-nin-face-verification.5dfb4b04.mp3",
+        "hash": "5dfb4b04",
+        "bytes": 2316141,
+        "duration": 192.935,
+        "voice": "ef_dora",
+        "speed": 1.15
+      }
+    }
+  }
+}
