@@ -23,7 +23,7 @@ export const WINDOW_DAYS: number = 90;
  * 例外是「没有音频」——缺文件或合成失败的条目照常补，否则旧稿永远补不回来。
  * 真要整段历史重建，把这个日期前移再跑 `--all`。
  */
-export const AUDIO_REBUILD_FROM: string = '2026-11-17';
+export const AUDIO_REBUILD_FROM: string = '2026-11-18';
 
 /** 影响输出字节的规则版本。变更即全量重建。 */
 export const RENDER_VERSION: number = 1;
@@ -48,13 +48,13 @@ export const AUDIO_SPEED: Record<Locale, Record<string, number>> = {
     zm_015: 1.094,
   },
   en: {
-    af_heart: 1.254,
-    am_fenrir: 1.315,
-    am_michael: 1.329,
+    af_heart: 1.066,
+    am_fenrir: 1.118,
+    am_michael: 1.13,
   },
   es: {
-    ef_dora: 1.15,
-    em_alex: 1.128,
+    ef_dora: 1.093,
+    em_alex: 1.072,
   },
 };
 
