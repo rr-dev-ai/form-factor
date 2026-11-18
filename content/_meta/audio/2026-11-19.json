@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-18T20:24:31.278Z",
+  "renderer": 1,
+  "items": {
+    "identomat-iad-cen-ts-18099-high": {
+      "zh": {
+        "file": "audio/zh/identomat-iad-cen-ts-18099-high.048bdc14.mp3",
+        "hash": "048bdc14",
+        "bytes": 1529901,
+        "duration": 127.4,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/identomat-iad-cen-ts-18099-high.c319015b.mp3",
+        "hash": "c319015b",
+        "bytes": 1849293,
+        "duration": 154.022,
+        "voice": "am_michael",
+        "speed": 1.13
+      },
+      "es": {
+        "file": "audio/es/identomat-iad-cen-ts-18099-high.b78b93f0.mp3",
+        "hash": "b78b93f0",
+        "bytes": 1603917,
+        "duration": 133.58,
+        "voice": "em_alex",
+        "speed": 1.072
+      }
+    },
+    "lianlian-visa-agent-specific-token-xcard-apac": {
+      "zh": {
+        "file": "audio/zh/lianlian-visa-agent-specific-token-xcard-apac.b9a553dd.mp3",
+        "hash": "b9a553dd",
+        "bytes": 1582893,
+        "duration": 131.825,
+        "voice": "zm_011",
+        "speed": 1.157
+      },
+      "en": {
+        "file": "audio/en/lianlian-visa-agent-specific-token-xcard-apac.196444ca.mp3",
+        "hash": "196444ca",
+        "bytes": 1741293,
+        "duration": 145.023,
+        "voice": "af_heart",
+        "speed": 1.066
+      },
+      "es": {
+        "file": "audio/es/lianlian-visa-agent-specific-token-xcard-apac.ca4da40e.mp3",
+        "hash": "ca4da40e",
+        "bytes": 1764045,
+        "duration": 146.905,
+        "voice": "em_alex",
+        "speed": 1.072
+      }
+    },
+    "miden-visa-virtual-commercial-card-issuing-africa": {
+      "zh": {
+        "file": "audio/zh/miden-visa-virtual-commercial-card-issuing-africa.fcb1ef33.mp3",
+        "hash": "fcb1ef33",
+        "bytes": 1435149,
+        "duration": 119.5,
+        "voice": "zm_010",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/miden-visa-virtual-commercial-card-issuing-africa.c3819e97.mp3",
+        "hash": "c3819e97",
+        "bytes": 1721421,
+        "duration": 143.372,
+        "voice": "af_heart",
+        "speed": 1.066
+      },
+      "es": {
+        "file": "audio/es/miden-visa-virtual-commercial-card-issuing-africa.631c863a.mp3",
+        "hash": "631c863a",
+        "bytes": 1572525,
+        "duration": 130.955,
+        "voice": "ef_dora",
+        "speed": 1.093
+      }
+    },
+    "simpl-wireless-satellite-fallback-esim-iot-us": {
+      "zh": {
+        "file": "audio/zh/simpl-wireless-satellite-fallback-esim-iot-us.3cef6e09.mp3",
+        "hash": "3cef6e09",
+        "bytes": 2575629,
+        "duration": 214.55,
+        "voice": "zf_003",
+        "speed": 1.024
+      },
+      "en": {
+        "file": "audio/en/simpl-wireless-satellite-fallback-esim-iot-us.a226d698.mp3",
+        "hash": "a226d698",
+        "bytes": 2451789,
+        "duration": 204.231,
+        "voice": "af_heart",
+        "speed": 1.066
+      },
+      "es": {
+        "file": "audio/es/simpl-wireless-satellite-fallback-esim-iot-us.6e734382.mp3",
+        "hash": "6e734382",
+        "bytes": 2192301,
+        "duration": 182.615,
+        "voice": "ef_dora",
+        "speed": 1.093
+      }
+    },
+    "splitit-fis-total-issuing-instalments": {
+      "zh": {
+        "file": "audio/zh/splitit-fis-total-issuing-instalments.4020a298.mp3",
+        "hash": "4020a298",
+        "bytes": 1610829,
+        "duration": 134.15,
+        "voice": "zm_015",
+        "speed": 1.094
+      },
+      "en": {
+        "file": "audio/en/splitit-fis-total-issuing-instalments.a9696800.mp3",
+        "hash": "a9696800",
+        "bytes": 1640781,
+        "duration": 136.639,
+        "voice": "am_fenrir",
+        "speed": 1.118
+      },
+      "es": {
+        "file": "audio/es/splitit-fis-total-issuing-instalments.3243586c.mp3",
+        "hash": "3243586c",
+        "bytes": 1668141,
+        "duration": 138.915,
+        "voice": "ef_dora",
+        "speed": 1.093
+      }
+    },
+    "tbc-uzbekistan-visa-business-platinum-sme-cards": {
+      "zh": {
+        "file": "audio/zh/tbc-uzbekistan-visa-business-platinum-sme-cards.cf0dc112.mp3",
+        "hash": "cf0dc112",
+        "bytes": 1364301,
+        "duration": 113.6,
+        "voice": "zf_001",
+        "speed": 1.16
+      },
+      "en": {
+        "file": "audio/en/tbc-uzbekistan-visa-business-platinum-sme-cards.54512f06.mp3",
+        "hash": "54512f06",
+        "bytes": 1639629,
+        "duration": 136.559,
+        "voice": "am_michael",
+        "speed": 1.13
+      },
+      "es": {
+        "file": "audio/es/tbc-uzbekistan-visa-business-platinum-sme-cards.98160e00.mp3",
+        "hash": "98160e00",
+        "bytes": 1490445,
+        "duration": 124.11,
+        "voice": "em_alex",
+        "speed": 1.072
+      }
+    },
+    "uk-dvs-register-scale-testing-data-sharing-code": {
+      "zh": {
+        "file": "audio/zh/uk-dvs-register-scale-testing-data-sharing-code.9eab3a4c.mp3",
+        "hash": "9eab3a4c",
+        "bytes": 1978893,
+        "duration": 164.825,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/uk-dvs-register-scale-testing-data-sharing-code.dc7cc6f6.mp3",
+        "hash": "dc7cc6f6",
+        "bytes": 1756845,
+        "duration": 146.324,
+        "voice": "am_fenrir",
+        "speed": 1.118
+      },
+      "es": {
+        "file": "audio/es/uk-dvs-register-scale-testing-data-sharing-code.f2df4d8b.mp3",
+        "hash": "f2df4d8b",
+        "bytes": 1742445,
+        "duration": 145.12,
+        "voice": "ef_dora",
+        "speed": 1.093
+      }
+    }
+  }
+}

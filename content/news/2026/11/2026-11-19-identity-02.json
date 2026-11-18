@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-19-identity-03",
+  "slug": "identomat-iad-cen-ts-18099-high",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "verification",
+    "liveness",
+    "biometrics"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-19T04:19:26+08:00",
+  "ingestedAt": "2026-11-19T03:10:22+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/identomat-proves-iad-capability-with-high-level-certification-against-cen-ts-18099",
+      "lang": "en",
+      "publishedAt": "2026-11-16T22:25:00Z"
+    },
+    {
+      "name": "CLR Labs",
+      "url": "https://clr-cert.eu/biometrie-iad/",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "Identomat 的注入攻击检测拿到 CEN/TS 18099 高档",
+    "en": "Identomat clears high-level CEN/TS 18099 test for injection attack detection",
+    "es": "Identomat obtiene el nivel alto de CEN/TS 18099 en detección de inyección"
+  },
+  "summary": {
+    "zh": "CLR Labs 公布，Identomat 的 iOS 注入攻击检测框架 13.0 版通过 CEN/TS 18099 高档认证，高于基础与实质两档。该测试针对摄像头画面被合成、重放或注入替换的攻击，与活体检测分开评估，认证用于证明远程开户环节的采集完整性。",
+    "en": "CLR Labs has certified version 13.0 of Identomat’s iOS injection attack detection framework at the high level of CEN/TS 18099, above the basic and substantial tiers. The test targets synthetic, replayed or injected camera feeds and is assessed separately from liveness detection, covering the integrity of capture in remote onboarding.",
+    "es": "CLR Labs certificó la versión 13.0 del marco de detección de inyección de Identomat para iOS en el nivel alto de CEN/TS 18099, por encima de los niveles básico y sustancial. La prueba apunta a imágenes de cámara sintéticas, repetidas o inyectadas y se evalúa aparte de la prueba de vida, cubriendo la integridad de la captura en el alta remota."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "测的是摄像头这一端",
+        "en": "The test sits at the camera",
+        "es": "La prueba está en la cámara"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "CEN/TS 18099 分基础、实质、高档三级，测的是采集端能否识别画面并非来自真实摄像头：攻击者用虚拟摄像头、预录视频或深度合成替换画面，把人脸图像直接喂进核验流程。Identomat 送测的是 iOS 端的注入攻击检测框架，版本 13.0，由 CLR Labs 在其 CLR Cert 项目下评估。这一项与呈现攻击检测（拿照片、面具骗过摄像头）是两套评估，前者防的是信号源头被换掉，后者防的是真人面前摆假人。",
+        "en": "CEN/TS 18099 has three levels — basic, substantial and high — and tests whether the capture side can tell that a frame did not come from a real camera: an attacker substitutes a virtual camera, a pre-recorded video or a deepfake and feeds a face image straight into the verification flow. Identomat submitted its iOS injection attack detection framework, version 13.0, evaluated by CLR Labs under its CLR Cert programme. This is a separate assessment from presentation attack detection, which catches a photo or mask held in front of a real camera; injection detection targets the signal source being replaced.",
+        "es": "CEN/TS 18099 tiene tres niveles —básico, sustancial y alto— y evalúa si el lado de captura distingue que un cuadro no proviene de una cámara real: el atacante sustituye la cámara virtual, un video pregrabado o un deepfake e inyecta una imagen facial directamente en el flujo de verificación. Identomat presentó su marco de detección de inyección para iOS, versión 13.0, evaluado por CLR Labs en su programa CLR Cert. Es una evaluación distinta de la detección de ataques de presentación, que frena una foto o máscara ante una cámara real; aquí se ataca la fuente de la señal."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "谁在要求这张证书",
+        "en": "Who asks for the certificate",
+        "es": "Quién pide el certificado"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "欧盟反洗钱条例要求金融机构在高风险场景做更强的身份核验，eIDAS 2.0 又把远程身份证明的保证等级写进条文，两者都指向可被第三方复核的测试报告，而不是厂商自述。对采购方来说，CEN/TS 18099 的高档只覆盖注入攻击这一项，不覆盖人证比对准确率、证件防伪特征识别或模板存储方式，签合同前仍需分别索取。CLR Labs 同时是多家厂商的测试机构，Veridas 与 Innovatrics 的同类认证也由其实施。",
+        "en": "The EU anti-money laundering regulation pushes financial firms toward stronger identity checks in higher-risk cases, and eIDAS 2.0 writes assurance levels for remote identification into the text; both point to third-party test reports rather than vendor claims. For buyers, the high level under CEN/TS 18099 covers injection attacks only — not face-match accuracy, not security-feature checking on the document, not template storage — so those still need separate evidence before signing. CLR Labs also tested the comparable certifications for Veridas and Innovatrics.",
+        "es": "El reglamento europeo contra el blanqueo empuja a las entidades financieras a controles de identidad más fuertes en casos de mayor riesgo, y eIDAS 2.0 fija niveles de garantía para la identificación remota; ambos apuntan a informes de terceros y no a la declaración del proveedor. Para el comprador, el nivel alto de CEN/TS 18099 cubre solo la inyección: no la precisión de la comparación facial, ni la verificación de elementos de seguridad del documento, ni el almacenamiento de plantillas, que exigen evidencia aparte antes de firmar. CLR Labs evaluó también las certificaciones equivalentes de Veridas e Innovatrics."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "注入攻击检测正在从加分项变成准入项。远程开户的量越大，攻击者越没有必要伪造一张真证件，直接换掉摄像头信号成本更低；CEN/TS 18099 把这件事拆成可测的三档之后，采购合同里的「支持活体检测」开始被替换成「通过某项标准的某一档」。对集成商而言，这意味着同一套开户流程要接两个独立结论：人是不是真的在镜头前，画面是不是真的来自镜头。供应商侧的压力在于版本管理——认证绑定具体版本号，升级 SDK 后证书是否仍然成立，是投标时必须回答的问题。",
+    "en": "Injection attack detection is moving from a differentiator to an entry requirement. The more remote onboarding happens, the less an attacker needs a convincing forged document — replacing the camera feed is cheaper. Once CEN/TS 18099 turns this into three testable levels, procurement language shifts from “supports liveness” to “passed level X of standard Y”. For integrators that means two independent conclusions per onboarding flow: whether a real person is in front of the camera, and whether the frame came from a camera at all. The vendor-side pressure is version control, because certification binds to a version number, and whether a certificate still holds after an SDK upgrade is a question that has to be answered in a bid.",
+    "es": "La detección de inyección pasa de diferenciador a requisito de entrada. Cuanto más alta remota es el alta de clientes, menos necesita el atacante un documento falsificado convincente: sustituir la señal de cámara es más barato. Cuando CEN/TS 18099 convierte esto en tres niveles verificables, el pliego cambia de «admite prueba de vida» a «superó el nivel X de la norma Y». Para el integrador son dos conclusiones independientes por flujo: si hay una persona real ante la cámara y si el cuadro provino de una cámara. La presión para el proveedor es la gestión de versiones: la certificación se ata a un número de versión y si el certificado sigue vigente tras actualizar el SDK es pregunta obligada en una licitación."
+  },
+  "confidence": 0.7,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

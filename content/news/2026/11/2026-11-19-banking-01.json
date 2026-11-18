@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-19-banking-02",
+  "slug": "lianlian-visa-agent-specific-token-xcard-apac",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "tokenization",
+    "issuing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-19T04:19:26+08:00",
+  "ingestedAt": "2026-11-19T02:37:18+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Finextra",
+      "url": "https://www.finextra.com/pressarticle/111714/lianlian-digitech-and-via-complete-live-agentic-b2b-transaction",
+      "lang": "en",
+      "publishedAt": "2026-11-18T13:48:00Z"
+    }
+  ],
+  "title": {
+    "zh": "连连与 Visa 完成代理专用令牌 B2B 实付，推出 XCard",
+    "en": "Lianlian and Visa complete agent-specific token B2B payment, launch XCard",
+    "es": "Lianlian y Visa completan un pago B2B con token para agentes y lanzan XCard"
+  },
+  "summary": {
+    "zh": "连连数字与 Visa 11 月 18 日在新加坡金融科技节宣布完成亚太首笔代理商务实付：注册在 Visa Agentic Directory 的 AI 代理 XWorker，经 Visa Intelligent Commerce Connect 取得代理专用令牌化支付凭证，完成一笔办公用品采购。同日推出面向企业费用管理的 LianLian XCard，18 日起合资格客户可申请。",
+    "en": "Lianlian DigiTech and Visa announced on 18 November at the Singapore Fintech Festival the first live agentic B2B transaction in Asia-Pacific: XWorker, an AI agent registered in the Visa Agentic Directory, obtained an agent-specific tokenised payment credential through Visa Intelligent Commerce Connect and completed an office-supplies purchase. They also launched LianLian XCard for corporate spend, open to eligible clients from 18 November.",
+    "es": "Lianlian DigiTech y Visa anunciaron el 18 de noviembre en el Singapore Fintech Festival la primera transacción B2B agentiva real en Asia-Pacífico: XWorker, un agente de IA registrado en el Visa Agentic Directory, obtuvo una credencial de pago tokenizada específica para agentes mediante Visa Intelligent Commerce Connect y completó una compra de material de oficina. También lanzaron LianLian XCard para gastos corporativos, disponible para clientes elegibles desde el 18 de noviembre."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "连连数字与 Visa 于 11 月 18 日在新加坡金融科技节公布两件事：完成一笔代理发起的企业采购实付，以及推出企业费用卡 LianLian XCard。这笔交易被称为双方在亚太的首次代理商务实付。",
+        "en": "Lianlian DigiTech and Visa announced two things at the Singapore Fintech Festival on 18 November: a live agent-initiated corporate purchase and the launch of LianLian XCard, a corporate expense card. The transaction is described as their first live agentic commerce payment in Asia-Pacific.",
+        "es": "Lianlian DigiTech y Visa anunciaron dos novedades en el Singapore Fintech Festival el 18 de noviembre: una compra corporativa real iniciada por un agente y el lanzamiento de LianLian XCard, una tarjeta de gastos corporativos. La transacción se presenta como su primer pago commercial agentivo real en Asia-Pacífico."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "技术机制落在凭证层。AI 代理 XWorker 先在 Visa Agentic Directory 注册，再经 Visa Intelligent Commerce Connect 取得一张专门发给授权代理的令牌化支付凭证，用它在预设额度与审批范围内完成办公用品采购。区别于把常规卡号交给代理，这次发放的是代理专用令牌，配合代理身份识别与企业自定控制，决定代理能买什么、怎么付款。",
+        "en": "The mechanism sits at the credential layer. The AI agent XWorker first registers in the Visa Agentic Directory, then obtains a tokenised payment credential issued specifically for an authorised agent through Visa Intelligent Commerce Connect, using it to complete an office-supplies purchase within preset limits and approval rules. Rather than handing an agent a regular card number, this issues an agent-specific token combined with agent identity and business-defined controls that determine what an agent may buy and how it pays.",
+        "es": "El mecanismo está en la capa de credenciales. El agente de IA XWorker se registra primero en el Visa Agentic Directory y luego obtiene una credencial de pago tokenizada emitida específicamente para un agente autorizado mediante Visa Intelligent Commerce Connect, con la que completa una compra de material de oficina dentro de límites y reglas de aprobación predefinidos. En lugar de entregar al agente un número de tarjeta corriente, se emite un token específico para el agente, junto con identidad de agente y controles definidos por la empresa."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "从 11 月 18 日起，合资格客户可通过 XWorker 申请 LianLian XCard，用于团队与项目支出管理，支持卡额度与交易门槛设置；客户还可将 LianLian XPay 钱包与该卡关联，让授权代理在企业设定参数内付款。公告未披露令牌方案细节、交易金额与可用市场范围。",
+        "en": "From 18 November, eligible clients can apply for LianLian XCard through XWorker for team and project spend, with card limits and transaction thresholds; clients can also link their LianLian XPay wallet so authorised agents can pay within business-defined parameters. The release gave no token-scheme details, transaction value or list of markets.",
+        "es": "Desde el 18 de noviembre, los clientes elegibles pueden solicitar LianLian XCard a través de XWorker para gastos de equipos y proyectos, con límites de tarjeta y umbrales de transacción; también pueden vincular su monedero LianLian XPay para que los agentes autorizados paguen dentro de parámetros definidos por la empresa. El comunicado no detalló el esquema de token, el importe de la transacción ni los mercados disponibles."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这条变化与消费钱包的代理支付分属不同环节：此前 OpenAI 的 ChatGPT 钱包把网络令牌放进消费者钱包，台湾导购平台是把卡组织的代理支付接进导购流程；这次是把令牌化凭证直接发给一个已注册的 AI 代理，并配一张企业费用卡承接 B2B 采购。对做发卡与令牌化的供应商，新问题是代理身份如何登记、凭证如何限定权限与额度、企业如何设置审批边界，这三项都成了产品的一部分。受益方是 Visa 的 Intelligent Commerce 生态与连连的中小企业客户；对钱包与网关厂商，压力在于现有令牌生命周期是否支持「发给代理」这类非持卡人主体。公告没有令牌方案细节与可用市场，覆盖面仍需观察。",
+    "en": "This sits in a different part of the chain from agent payments in consumer wallets. OpenAI's ChatGPT wallet put network tokens into a consumer wallet, and a Taiwanese shopping platform plugged a scheme's agent payment into its buying flow. Here a tokenised credential is issued directly to a registered AI agent, backed by a corporate expense card for B2B purchasing. For issuing and tokenisation vendors, the new questions are how an agent is registered, how a credential is scoped in permission and limit, and how a business sets approval boundaries; all three become part of the product. Visa's Intelligent Commerce partners and Lianlian's SME clients gain, while wallet and gateway makers face whether their token lifecycle supports a non-cardholder subject. The release gave no token details or markets, so reach remains to be seen.",
+    "es": "Este cambio está en un eslabón distinto de los pagos agentivos en monederos de consumo. La cartera ChatGPT de OpenAI puso tokens de red en un monedero de consumidor, y una plataforma de compras taiwanesa integró el pago agentivo de un esquema en su flujo de compra. Aquí se emite una credencial tokenizada directamente a un agente de IA registrado, respaldada por una tarjeta corporativa para compras B2B. Para proveedores de emisión y tokenización, las nuevas preguntas son cómo se registra un agente, cómo se limitan permisos y montos de la credencial y cómo la empresa define límites de aprobación; los tres pasan a ser parte del producto. Se benefician los socios de Intelligent Commerce de Visa y los clientes pymes de Lianlian; los fabricantes de monederos y pasarelas enfrentan si su ciclo de vida de tokens admite un sujeto que no es titular de tarjeta. El comunicado no detalló el esquema ni los mercados, así que el alcance está por verse."
+  },
+  "confidence": 0.62,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "fetchedAt": "2026-11-19T01:55:16+08:00",
+  "fetchedFor": "2026-11-19",
+  "gap": ["apac", "cis", "mena", "north-america", "latam", "africa"],
+  "cellGap": ["europe/banking", "europe/telecom"],
+  "industryGap": ["banking", "telecom", "identity"],
+  "items": [
+    {
+      "title": "坦桑尼亚投300亿先令升级国民身份证系统，激光层内刻蚀、产能2800卡/小时",
+      "url": "https://www.therespondents.co.tz/2026/11/tanzania-spends-tzs30bn-on-new-national.html",
+      "publishedAt": "2026-11-18T00:00:00+03:00",
+      "industry": "identity",
+      "region": "africa",
+      "actionType": "产能与工艺",
+      "gateNote": "有投资额、机台数、单卡产能与工艺切换的具体参数，贴『产能与工艺』；但由总理在启用现场披露，无承接方与合同授予，终审若按『授标』三要素缺承接方可核；属升级换代非首次制证，须在正文交代此前系统。",
+      "discoveredBy": "R3 query: edital emissão cartão identidade bancário 17 novembro 2026 homologação",
+      "note": "落在身份链路的证件签发与个性化环节。坦桑尼亚投入逾300亿先令升级国家身份证系统，11-17由总理在Kibaha启用：5台新制卡机合计2800卡/小时，改用激光在卡体层内刻蚀人像与资料而非表面喷墨，数字应用位由4增至8，同步推出NIDA Wallet移动端核验。改变的是制卡工艺与单机产能。原文未说设备供应商、金额分项、芯片规格与NFC能力，也未给NIDA Wallet联网时间表。"
+    },
+    {
+      "title": "乌兹别克Uzcard与Humo本国卡首次接入Apple Pay，含卡片令牌化",
+      "url": "https://tafs.uz/en/2026/11/17/apple-pay-in-uzbekistan-begins-supporting-uzcard-and-humo-cards",
+      "publishedAt": "2026-11-17T18:06:00+05:00",
+      "industry": "banking",
+      "region": "cis",
+      "actionType": "产品化节点",
+      "gateNote": "本国卡经令牌化进钱包是新增能力，贴『产品化节点』。但与11-01已报的乌兹别克Apple Pay开放属同一事件线的不同节点，终审可能按同一线去重；首发银行归属两家媒体说法相反，写稿需回避具体银行搭配。",
+      "discoveredBy": "R6 补搜 query: November 17 2026 card personalization issuance contract central bank bank note printer secretaria",
+      "note": "落在支付链路的令牌化与钱包分发环节。11-17乌兹别克央行宣布本国卡系统Uzcard与Humo开始接入Apple Pay，首发为人民银行的Humo卡与Octobank的Uzcard卡（两家媒体对银行归属说法相反），需经技术集成含卡片令牌化。这是10-27国际卡上线后本国卡首次进Apple Wallet，11-01曾报过同一进程节点。原文未给发卡量、其余银行接入时间表与具体令牌方案。"
+    },
+    {
+      "title": "Network International为Emirates Investment Bank上线信用卡处理项目",
+      "url": "https://fintechnews.media/uae/2026/11/Network-International-powers-Emirates-Investment-Banks-Card-Programme-for-High-Net-Worth-Clients",
+      "publishedAt": "2026-11-16T20:10:00+04:00",
+      "industry": "banking",
+      "region": "mena",
+      "actionType": "联合部署",
+      "gateNote": "卡项目在第三方处理平台上线是真实节点，但缺金额、发卡量、卡种任一可核数字，只剩承接方与市场两项，终审按七类共同限制可能判无具体物；另属单一银行项目，非跨国落地。",
+      "discoveredBy": "R2 query: November 17 2026 Saudi Payments mada Network International card launch issuance contactless",
+      "note": "落在支付链路的发卡处理环节。11-16 Network International在迪拜宣布，已将Emirates Investment Bank的信用卡项目上线其卡处理平台，面向高净值与超高净值客户，是该行2025年起合作的借记/信用卡方案第一阶段。改变的是这家私人银行的信用卡从自建转向外包处理平台承载。原文未披露交易金额、发卡量、卡组织与卡等级，也未说是否含实体卡个性化与制卡环节。"
+    },
+    {
+      "title": "GSA在存量PIV卡芯片上跑通后量子算法并签发新凭证",
+      "url": "https://cyberscoop.com/gsa-post-quantum-encryption-piv-cards/",
+      "publishedAt": "2026-11-17T21:19:00Z",
+      "industry": "identity",
+      "region": "north-america",
+      "actionType": "产品化节点",
+      "gateNote": "偏标准与认证——在存量卡上跑通后量子算法并发新凭证是机制验证，非商用发放；无采购合同、无承建方、无部署规模，终审很可能按无具体物或无首次商用收紧。与11-14发的IDEMIA PQC Java Card EMVCo认证同为后量子卡线，需区分。",
+      "discoveredBy": "R6 query: November 17 2026 GSA post-quantum PIV card credentials algorithms chips federal badges CyberScoop",
+      "note": "落在身份链路的凭证载体与签发环节。11-17 GSA技术政策官员在FedTalks披露，已在现有PIV智能卡芯片上直接运行后量子算法、签发新凭证，并配套建起策略、认证与硬件安全模块，证明抗量子凭证可在现有卡片上实现，无需换卡。改变的是联邦身份凭证的算法层与发证配套。原文未点名算法（ML-DSA/ML-KEM仅见第三方讨论）、无合同方、无部署规模与时间表，属会议披露的验证。"
+    },
+    {
+      "title": "印尼PERURI发布与ITB合研的电子护照『红白芯片』原型",
+      "url": "https://en.antaranews.com/news/443131/peruriunveils-e-passport-chip-prototype-developed-with-itb",
+      "publishedAt": "2026-11-17T02:11:00+07:00",
+      "industry": "identity",
+      "region": "apac",
+      "actionType": "产品化节点",
+      "gateNote": "停在原型/沙盒，离可商用实现差测试验证与行业标准达标，缺任何产能或参数。终审若按『首次或变化+具体物』判，本条只有原型这一具体物，可能被按研发表态刷掉。",
+      "discoveredBy": "R6 query: 17 November 2026 eID passport chip EMVCo certification secure element smart card new",
+      "note": "落在身份链路的证件载体与证件芯片上游制造环节。11-17印尼国有印钞与安全印刷企业PERURI披露与万隆理工合作的电子护照『红白芯片』原型，用于强化国产安全芯片能力，此前已建芯片沙盒。改变的是证件芯片从进口转向本土设计的尝试。原文明确仍是原型，下一步才是测试验证与行业达标探索，未给制程、容量、安全等级、量产时间与首个客户。"
+    },
+    {
+      "title": "孟加拉拟限每张身份证注册5张SIM并叠加人脸核验",
+      "url": "http://en.banglanews24.com/technology/news/bd/197914.details",
+      "publishedAt": "2026-11-16T21:59:00+06:00",
+      "industry": "telecom",
+      "region": "apac",
+      "actionType": "无",
+      "gateNote": "七类动作都不贴，是政策提案与议会表态，无授标、无上线、无标准版本。有具体数字（5张/7天）但无实施时间表，终审可能按表态或政策意图剔除；补位阶段留作电信链路鉴权机制候选。",
+      "discoveredBy": "R3 query: tender SIM eSIM identity card issuance award November 17 2026 government gazette",
+      "note": "落在电信链路的SIM载体与实名鉴权环节。11-16孟加拉邮电与IT部长在议会答复时提出：每张国民身份证（NID）在各运营商的SIM注册上限设为5张、新卡间隔至少7天，并在现有生物识别核验之外增加人脸核验，由BTRC的中央生物识别监测平台实时监管。改变的是SIM实名从单一生物核验叠加人脸并设数量门槛。原文未给实施日期、法律依据与处罚条款，部长明确未说全面落地时间。"
+    }
+  ]
+}

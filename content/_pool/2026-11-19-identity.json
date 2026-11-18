@@ -1,0 +1,526 @@
+{
+  "date": "2026-11-19",
+  "industry": "identity",
+  "startedAt": "2026-11-19T03:10:22+08:00",
+  "drafts": [
+    {
+      "id": "2026-11-19-identity-01",
+      "slug": "tanzania-nida-laser-card-line-2800-per-hour",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "tags": [
+        "national-id",
+        "secure-chip",
+        "mobile-id"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "The Respondent",
+          "url": "https://www.therespondents.co.tz/2026/11/tanzania-spends-tzs30bn-on-new-national.html",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "坦桑尼亚投 300 亿先令升级身份证产线，信息激光内刻",
+        "en": "Tanzania spends 30bn shillings on ID card line with laser layer engraving",
+        "es": "Tanzania invierte 30.000 millones de chelines en una línea de carnés con grabado láser"
+      },
+      "summary": {
+        "zh": "坦桑尼亚总理姆维古卢在基巴哈启动 2026 版国民身份证系统：投入超过 300 亿先令，新增 5 台制卡机，合计每小时 2800 张。新机把个人信息与照片用激光刻进卡片层内，不再用油墨印在表面；卡片预留 8 个数字应用位，是旧版的两倍。同期推出 NIDA Wallet 手机应用。",
+        "en": "Prime Minister Mwigulu Nchemba launched the 2026 national ID card system in Kibaha with more than 30bn shillings invested, five new card production machines and a combined capacity of 2,800 cards per hour. The machines engrave personal data and photos inside the card layers with laser rather than printing ink on the surface. Cards carry eight slots for digital applications, double the previous four, and a NIDA Wallet app was launched alongside.",
+        "es": "El primer ministro Mwigulu Nchemba lanzó en Kibaha el sistema de carné nacional 2026 con más de 30.000 millones de chelines invertidos, cinco máquinas nuevas y una capacidad conjunta de 2.800 tarjetas por hora. Las máquinas graban con láser los datos y la foto dentro de las capas de la tarjeta, en lugar de imprimirlos con tinta en la superficie. Los carnés tienen ocho espacios para aplicaciones digitales, el doble que antes, y se presentó la aplicación NIDA Wallet."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "五台机器与层内刻蚀",
+            "en": "Five machines and layer engraving",
+            "es": "Cinco máquinas y grabado en las capas"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "坦桑尼亚国家身份管理局局长詹姆斯·卡吉披露，这次升级投入超过 300 亿先令，用于新卡和 5 台现代化制卡机，合计产能为每小时 2800 张。新机用激光把姓名、照片等个人信息刻进卡片各层之间，而不是像旧工艺那样把油墨印在卡面。管理局的说法是，信息被封进层内后更耐磨，也更难伪造。卡片还把可供加载数字应用的位置从 4 个增加到 8 个。",
+            "en": "National Identification Authority director general James Kaji said the upgrade put more than 30bn shillings into new cards and five modern production machines, with a combined capacity of 2,800 cards per hour. The machines use laser to engrave names, photos and other personal data between the card layers instead of printing ink on the surface. The authority says sealing data inside the layers improves durability and makes the cards harder to counterfeit. The cards also double the slots for digital applications from four to eight.",
+            "es": "El director general de la Autoridad Nacional de Identificación, James Kaji, indicó que la actualización destinó más de 30.000 millones de chelines a nuevos carnés y cinco máquinas modernas, con una capacidad conjunta de 2.800 tarjetas por hora. Las máquinas graban con láser nombres, fotos y otros datos personales entre las capas, en lugar de imprimir con tinta en la superficie. La autoridad sostiene que sellar los datos dentro de las capas mejora la durabilidad y dificulta la falsificación. Los carnés también duplican de cuatro a ocho los espacios para aplicaciones digitales."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "钱包与换卡边界",
+            "en": "The wallet and the replacement line",
+            "es": "La cartera y el límite de sustitución"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "同批发布的 NIDA Wallet 让持有人把身份信息存进手机，在办理服务时出示核验，但实际可用要看各机构先把系统对接起来。内政部长帕特罗巴斯·卡坦比明确，新卡上市不使旧证失效，卡况良好的持有人不必因为出了新版本就去换卡。健康保险、驾照和交通服务的并入将分阶段推进，取决于机构系统准备、部门间协议和法律要求。升级版国民身份证由总理姆维古卢·恩切姆巴代表总统萨米娅在海岸省基巴哈启动。",
+            "en": "The NIDA Wallet released alongside lets holders keep identity data on a phone and present it for verification when accessing services, though use depends on institutions connecting their systems first. Home Affairs Minister Patrobas Katambi said the new card does not invalidate earlier ones, and holders with cards in good condition need not replace them just because a new version exists. Folding in health insurance, driving licences and transport services will happen in stages, subject to institutional readiness, inter-agency agreements and legal requirements. Prime Minister Mwigulu Nchemba launched the upgraded card in Kibaha, Coast Region, on behalf of President Samia.",
+            "es": "La NIDA Wallet presentada al mismo tiempo permite llevar los datos de identidad en el teléfono y mostrarlos para verificarlos al acceder a servicios, aunque su uso depende de que las instituciones conecten antes sus sistemas. El ministro del Interior, Patrobas Katambi, aclaró que el nuevo carné no invalida los anteriores y quienes tengan un documento en buen estado no deben sustituirlo solo por que exista una versión nueva. La incorporación de seguro de salud, licencias de conducir y transporte se hará por etapas, según la preparación de los organismos, los acuerdos entre ellos y los requisitos legales. El primer ministro Mwigulu Nchemba lanzó la tarjeta mejorada en Kibaha, región costera, en nombre de la presidenta Samia."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "这条变化落在制证工艺上，不是发卡渠道上。层内激光刻蚀把个人信息从可读的卡面移进卡体内部，直接影响的是证件防伪的验证方式：受理端今后要检查的是层间图像和激光特征，而不是仅看印刷网点。5 台机器合计每小时 2800 张的产能，决定了新增申请能否在合理时间内消化，也决定政府有没有余力承接健康保险、驾照等其他证件的个性化。对制卡设备与耗材供应商而言，8 个数字应用位是明确的技术门槛——旧卡只有 4 个，新卡的数据结构和个性化流程都要重做。需要留意的是，官方明说旧证继续有效，换卡不是强制的，所以产线利用率取决于新申请量而非存量替换。",
+        "en": "This change is in card production, not in the issuing channel. Laser engraving inside the layers moves personal data from a readable surface into the body of the card, which changes how authenticity is checked: acceptance points will need to inspect inter-layer images and laser features rather than printed dot patterns. The combined 2,800 cards per hour across five machines sets how fast new applications can be cleared and whether the government has spare capacity to personalise other credentials such as health insurance and driving licences. For equipment and consumables suppliers, the eight application slots are a concrete technical threshold: the old cards had four, so both data structures and personalisation flows have to be rebuilt. Note that the authorities explicitly said older cards stay valid and replacement is voluntary, so line utilisation will track new applications rather than a stock swap.",
+        "es": "El cambio está en la fabricación, no en el canal de emisión. El grabado láser dentro de las capas traslada los datos personales de una superficie legible al interior de la tarjeta y modifica cómo se comprueba la autenticidad: los puntos de aceptación deberán inspeccionar imágenes intercapa y rasgos láser, no solo tramas de impresión. La capacidad conjunta de 2.800 tarjetas por hora en cinco máquinas fija la rapidez con que se pueden tramitar solicitudes nuevas y si el gobierno le sobra capacidad para personalizar otros documentos, como el seguro de salud o las licencias. Para proveedores de equipos y consumibles, los ocho espacios de aplicación son un umbral técnico concreto: los carnés anteriores tenían cuatro, por lo que hay que refacer estructuras de datos y flujos de personalización. Conviene señalar que las autoridades dijeron que los carnés antiguos siguen vigentes y la sustitución es voluntaria, así que el uso de la línea dependerá de las solicitudes nuevas y no de un recambio del parque."
+      },
+      "confidence": 0.74,
+      "ai": {
+        "model": "claude-opus-6",
+        "promptVersion": "identity-editor-2026-11-19"
+      }
+    },
+    {
+      "id": "2026-11-19-identity-04",
+      "slug": "moldova-border-biometric-kits-eight-crossings",
+      "industry": "identity",
+      "region": "europe",
+      "regions": [],
+      "tags": [
+        "verification",
+        "biometrics",
+        "passport"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "Biometric Update",
+          "url": "https://www.biometricupdate.com/202611/moldova-expands-biometric-border-checks-with-us-funded-equipment",
+          "lang": "en"
+        },
+        {
+          "name": "IOM Moldova",
+          "url": "https://moldova.iom.int/ro/news/politia-de-frontiera-din-moldova-primit-echipamente-specializate-cu-sprijinul-guvernului-sua-si-oim",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "摩尔多瓦八个口岸换装，美方出资经 IOM 交付",
+        "en": "Moldova fits out eight border crossings with US-funded document and biometric kits",
+        "es": "Moldavia equipa ocho pasos fronterizos con equipos financiados por EE. UU."
+      },
+      "summary": {
+        "zh": "摩尔多瓦边境警察在 8 个口岸接收一批证件查验与生物特征登记设备，由美国政府出资、国际移民组织执行，交接仪式在 Tudora–Starokazacie 口岸举行。设备用于二线查验、身份核实与庇护申请人的生物特征采集，另有车辆检查配套；公告未披露供应商与采购金额。",
+        "en": "Moldova’s Border Police has taken delivery of document examination and biometric enrolment equipment at eight border crossing points, funded by the US government and delivered through the International Organization for Migration, with the handover held at Tudora–Starokazacie. The kit covers second-line inspection, identity checks and biometric processing for asylum seekers, plus vehicle inspection support; neither the supplier nor the value was disclosed.",
+        "es": "La Policía de Fronteras de Moldavia recibió equipos de examen documental y registro biométrico en ocho pasos fronterizos, financiados por el gobierno de EE. UU. y entregados a través de la Organización Internacional para las Migraciones, con acto en Tudora–Starokazacie. El paquete cubre inspección de segunda línea, verificación de identidad y datos biométricos de solicitantes de asilo, además de apoyo a la inspección de vehículos; no se revelaron proveedor ni monto."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "交付清单与落地位置",
+            "en": "What was handed over, and where",
+            "es": "Qué se entregó y dónde"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "这批设备包括证件检查仪、生物特征数据登记工作站，以及车辆检查用的配套器材，部署在摩尔多瓦 8 个边境口岸。接手方是内务部下属边境警察总局，用途写明三项：二线查验、身份核实、识别伪造或变造的旅行证件。庇护申请人的生物特征采集也在这批设备的用途里。国际移民组织驻摩尔多瓦代表团团长 Ester Ruiz de Azua 在交接时把这批设备与「机构韧性」挂钩，未提具体型号。",
+            "en": "The package comprises document examination devices, biometric data enrolment workstations and equipment supporting vehicle inspection, deployed at eight Moldovan border crossing points. The recipient is the General Inspectorate of Border Police under the Interior Ministry, and the stated uses are second-line inspection, identity verification and detection of fraudulent or altered travel documents. Biometric processing for asylum seekers is also in scope. Ester Ruiz de Azua, who heads the IOM mission in Moldova, framed the handover around institutional resilience and named no specific models.",
+            "es": "El paquete incluye equipos de examen documental, puestos de registro de datos biométricos y material de apoyo a la inspección de vehículos, desplegado en ocho pasos fronterizos. Lo recibe la Inspección General de Policía de Fronteras del Ministerio del Interior, con tres usos declarados: inspección de segunda línea, verificación de identidad y detección de documentos de viaje fraudulentos o alterados. El registro biométrico de solicitantes de asilo también entra en el alcance. Ester Ruiz de Azua, jefa de la misión de la OIM en Moldavia, vinculó la entrega a la resiliencia institucional y no citó modelos concretos."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "和既有能力的接缝",
+            "en": "How it fits what was already there",
+            "es": "Cómo encaja con lo que ya había"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "摩尔多瓦此前已通过国际刑警组织的项目拿到生物识别能力：警务总局有 14 台 Integrated Biometrics 的加固型采集设备，接入国际刑警的 BIOHUB 做比对。这批新设备落在边境一侧，与警务侧的采集点不是同一套资产，中间的比对与数据留存规则公告没有交代。内务部另有一份全国人脸图像登记库（RIF）的提案在推进，用途是执法检索与欧洲方向的数据交换，尚未见生效文本。",
+            "en": "Moldova already had biometric capability through Interpol projects: the General Inspectorate of Police holds 14 rugged Integrated Biometrics devices that check against Interpol’s BIOHUB. The new equipment sits on the border side and is a separate asset from the police collection points; the announcement does not set out how matching or retention works across the two. The Interior Ministry is also pursuing a proposal for a national facial image registry (RIF) for law enforcement searches and data exchange with European counterparts, with no text in force yet.",
+            "es": "Moldavia ya tenía capacidad biométrica por proyectos de Interpol: la Inspección General de Policía cuenta con 14 dispositivos reforzados de Integrated Biometrics que cotejan contra BIOHUB. El nuevo equipo está del lado fronterizo y es un activo distinto de los puntos policiales; el anuncio no detalla cómo se comparan ni cómo se retienen los datos entre ambos. El Ministerio del Interior impulsa además una propuesta de registro nacional de imágenes faciales (RIF) para búsquedas policiales e intercambio con socios europeos, todavía sin texto vigente."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "对设备商来说，这类由捐助方出资、国际组织执行的边境采购，是进入中小市场最现实的一条路：合同不挂在政府采购平台上，招标信息往往只在执行机构的当地页面出现。摩尔多瓦这次没有公布供应商，意味着后续维保、耗材与软件升级的归属仍可能重新分配。对边境管理方而言，二线查验设备的密度上去之后，瓶颈会从「有没有设备」转到「比对结果往哪里落」——本国库、国际刑警库、还是未来的 RIF，三者的法律基础与留存期限各不相同，混用会直接变成数据保护问题。",
+        "en": "For equipment vendors, donor-funded border procurement executed by an international organisation is the most realistic route into smaller markets: the contract does not appear on a public procurement platform, and tender information often surfaces only on the implementing agency’s local page. Moldova named no supplier, which leaves maintenance, consumables and software upgrades open to reassignment later. For border agencies, once second-line inspection equipment is dense enough, the bottleneck moves from having devices to where the match results land — a national database, an Interpol database, or the planned RIF, each with different legal bases and retention rules, and mixing them becomes a data protection problem.",
+        "es": "Para los proveedores, la compra fronteriza financiada por donantes y ejecutada por una organización internacional es la vía más realista a mercados pequeños: el contrato no aparece en una plataforma pública y la licitación suele surgir solo en la página local de la agencia ejecutora. Moldavia no nombró proveedor, lo que deja abiertos el mantenimiento, los consumibles y las actualizaciones. Para las autoridades fronterizas, cuando la inspección de segunda línea es densa, el cuello de botella pasa de tener equipos a dónde aterrizan los resultados: base nacional, base de Interpol o el futuro RIF, con bases legales y plazos distintos, y mezclarlos se convierte en un problema de protección de datos."
+      },
+      "confidence": 0.6,
+      "ai": {
+        "model": "deepseek-v4.1-flash",
+        "promptVersion": "identity-editor-2026-11"
+      }
+    },
+    {
+      "id": "2026-11-19-identity-05",
+      "slug": "nist-ansi-nist-itl-2025-machine-readable-json",
+      "industry": "identity",
+      "region": "global",
+      "regions": [],
+      "tags": [
+        "biometrics",
+        "verification",
+        "pki"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "ID Tech",
+          "url": "https://idtechwire.com/nist-turns-the-600-page-ansi-nist-itl-biometric-data-standard-into-a-machine-readable-json-specification/",
+          "lang": "en"
+        },
+        {
+          "name": "NIST",
+          "url": "https://csrc.nist.gov/pubs/ir/8616/final",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "NIST 把 600 页生物特征数据标准译成机器可读 JSON",
+        "en": "NIST turns 600-page biometric data standard into machine-readable JSON",
+        "es": "NIST convierte la norma de datos biométricos de 600 páginas en JSON legible por máquina"
+      },
+      "summary": {
+        "zh": "NIST 发布内部报告 8616，把 ANSI/NIST-ITL 1-2025 这份 600 多页的生物特征数据交换标准的要求编码为结构化 JSON，用强类型 JSON schema 和共享校验规则约束，总量近 12 万行。开发商过去靠人工从正文和表格里抽取同一字段的分散要求，各自解读可能不一致；机器可读版给出单一解释，可直接被软件使用或裁成特定部署的实现剖面。",
+        "en": "NIST published Internal Report 8616, encoding the requirements of ANSI/NIST-ITL 1-2025, a 600-page biometric data exchange standard, as structured JSON governed by a strongly typed schema and shared validation patterns, running to nearly 120,000 lines. Developers previously extracted scattered requirements by hand, producing divergent interpretations; the machine-readable version gives a single interpretation usable directly by software or cut into deployment-specific implementation profiles.",
+        "es": "NIST publicó el informe interno 8616, que codifica los requisitos de ANSI/NIST-ITL 1-2025, una norma de intercambio de datos biométricos de más de 600 páginas, como JSON estructurado regido por un esquema fuertemente tipado y patrones de validación compartidos, con casi 120.000 líneas. Los desarrolladores extraían antes a mano requisitos dispersos y obtenían interpretaciones distintas; la versión legible por máquina ofrece una interpretación única, usable por software o recortable en perfiles de implementación."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "从文本到约 12 万行 JSON",
+            "en": "From text to 120,000 lines of JSON",
+            "es": "Del texto a 120.000 líneas de JSON"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "ANSI/NIST-ITL 1-2025 是执法机构与其他部门交换指纹、人脸等生物特征与法医数据的标准，国际刑警组织、美国联邦调查局和国土安全部都在使用。标准从 1986 年只有 53 页的指纹识别文件扩展而来，2025 版已超过 600 页，加入了人脸、虹膜、掌纹和 DNA 数据。NIST 内部报告 8616 把这 600 多页的要求写成结构化 JSON，按记录、字段、子字段和信息项组织，用强类型 schema 与共享校验规则约束，总量接近 12 万行。",
+            "en": "ANSI/NIST-ITL 1-2025 is the standard law enforcement and other agencies use to exchange fingerprint, facial and other biometric and forensic data, relied on by INTERPOL, the FBI and the Department of Homeland Security. It began in 1986 as a 53-page fingerprint document and the 2025 revision runs over 600 pages, having added facial, iris, plantar and DNA data. NIST Internal Report 8616 encodes those requirements as structured JSON organised by records, fields, subfields and information items, checked against a strongly typed schema and shared validation patterns, totalling nearly 120,000 lines.",
+            "es": "ANSI/NIST-ITL 1-2025 es la norma que usan las fuerzas del orden y otros organismos para intercambiar datos biométricos y forenses de huellas, rostro y otros tipos, y la emplean Interpol, el FBI y el Departamento de Seguridad Nacional. Nació en 1986 como un documento de 53 páginas sobre huellas y la revisión de 2025 supera las 600, con datos faciales, de iris, palma y ADN. El informe interno 8616 del NIST codifica esos requisitos como JSON estructurado, organizado por registros, campos, subcampos y elementos de información, validado con un esquema fuertemente tipado y patrones compartidos, con casi 120.000 líneas."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "谁要改实现",
+            "en": "Who has to change implementation",
+            "es": "Quién debe cambiar su implementación"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "NIST 说，单一数据元素的要求常分散并重复出现在正文和表格里，过去每个机构都要自己比对，不同比对会得出不同解释。机器可读版把记录、字段、子字段和信息项的层级统一表示，用 Python 脚本合并分片、按 schema 校验并转成 HTML，校验失败时直接指出出错的记录和字段。NIST 用签名图像记录里的 8.006 字段与原文逐项对照，确认要求被完整捕获。规格以开源仓库发布，改动须通过 schema 校验和主题评审才会纳入，定位是补充而非取代文本标准。",
+            "en": "NIST says requirements for a single data element were often spread and repeated across narrative sections and tables, so each organisation reconciled them by hand and different reconciliations produced different interpretations. The machine-readable version represents the hierarchy of records, fields, subfields and information items in one structure; Python scripts merge partial files, validate against the schema and convert to HTML, pointing to the exact record and field when validation fails. NIST checked field 8.006 in the signature-image record against the original text to confirm full capture. The spec is released as an open-source repository, changes must pass schema validation and subject-matter review, and it supplements rather than replaces the text standard.",
+            "es": "NIST señala que los requisitos de un mismo elemento solían estar dispersos y repetidos en texto y tablas, por lo que cada organismo los cotejaba por su cuenta y obtenía interpretaciones distintas. La versión legible por máquina representa la jerarquía de registros, campos, subcampos y elementos en una sola estructura; scripts de Python unen archivos parciales, validan con el esquema y convierten a HTML, señalando el registro y campo exactos cuando falla la validación. NIST cotejó el campo 8.006 del registro de imágenes de firma con el texto original para confirmar la captura completa. La especificación se publica como repositorio de código abierto, los cambios requieren validación de esquema y revisión temática, y complementa sin sustituir la norma en texto."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "这条变化给做生物特征数据交换的集成商省掉一件重复劳动：过去每个团队都要从 600 多页标准里手工抽取字段类型、字符上限和出现次数，不同团队的整理结果还不一致。机器可读规格给出一份可被引擎直接读取的共同解释，能直接生成一致性测试与数据处理工具，也能裁成某个部署只用的记录与字段。对互操作的影响是实在的，国际刑警组织、联邦调查局和国土安全部共用这套标准，字段解释不一致会导致跨机构数据交换被退回。需要分清的是，NIST 明确这份 JSON 是补充文本标准而非取代，投标里仍要按文本标准举证，机器可读版解决的是实现和校验这一层。",
+        "en": "This change removes duplicated work for integrators building biometric data exchange: each team used to extract field types, character limits and occurrence counts by hand from 600 pages, and the results did not always agree. The machine-readable spec gives one common interpretation an engine can read directly, can generate conformance and data-processing tools, and can be cut to the records and fields a deployment actually uses. The interoperability impact is concrete: INTERPOL, the FBI and DHS share this standard, and inconsistent field interpretation causes cross-agency exchanges to be rejected. Note that NIST frames the JSON as supplementing, not replacing, the text standard, so bids still cite the text; the machine-readable version addresses the implementation and validation layer.",
+        "es": "Este cambio evita trabajo duplicado a los integradores de intercambio de datos biométricos: cada equipo extraía a mano tipos de campo, límites de caracteres y ocurrencias de más de 600 páginas, y los resultados no siempre coincidían. La especificación legible por máquina ofrece una interpretación común que un motor puede leer directamente, permite generar herramientas de conformidad y procesamiento de datos y recortarse a los registros y campos que un despliegue usa. El efecto en interoperabilidad es concreto: Interpol, el FBI y el Departamento de Seguridad Nacional comparten la norma y una interpretación distinta de los campos hace que se rechacen intercambios entre organismos. Conviene distinguir que NIST presenta el JSON como complemento y no sustituto del texto, por lo que las ofertas siguen citando la norma escrita; la versión legible actúa en la capa de implementación y validación."
+      },
+      "confidence": 0.7,
+      "ai": {
+        "model": "claude-opus-6",
+        "promptVersion": "identity-editor-2026-11-19"
+      }
+    },
+    {
+      "id": "2026-11-19-identity-06",
+      "slug": "south-africa-passport-480-bank-branches",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "tags": [
+        "passport",
+        "national-id",
+        "biometrics"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "ID Tech",
+          "url": "https://idtechwire.com/south-africa-opens-passport-applications-at-480-capitec-and-absa-bank-branches/",
+          "lang": "en"
+        },
+        {
+          "name": "News24",
+          "url": "https://www.news24.com/business/economy/no-more-travel-to-travel-almost-500-bank-branches-now-offer-passport-services-20261118-0811",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "南非把护照申请开进 480 家银行网点",
+        "en": "South Africa opens passport applications at 480 bank branches",
+        "es": "Sudáfrica abre solicitudes de pasaporte en 480 sucursales bancarias"
+      },
+      "summary": {
+        "zh": "南非内政部长 Leon Schreiber 宣布，成人可在 480 家银行网点申请或换发护照，其中 Capitec 412 家、Absa 68 家，此前只有 228 个内政部受理点，总受理点增至 700 多个。网点自助终端现场采集照片与指纹，照片与人口登记库比对不一致就不制证；持绿色身份证旧册的人同时申请智能身份证，两份申请约五分钟提交完成。",
+        "en": "Home Affairs Minister Leon Schreiber said adults can now apply for or renew a passport at 480 bank branches, 412 Capitec and 68 Absa, up from 228 Home Affairs locations to more than 700 points. Self-service terminals capture a photo and fingerprints, and a passport is not manufactured if the photo fails to match the population register. Holders of the old green ID book apply for a smart ID card at the same time, with both submissions taking about five minutes.",
+        "es": "El ministro del Interior de Sudáfrica, Leon Schreiber, anunció que los adultos pueden solicitar o renovar un pasaporte en 480 sucursales bancarias, 412 de Capitec y 68 de Absa, frente a 228 oficinas de Interior, con más de 700 puntos en total. Los terminales de autoservicio capturan foto y huellas, y el pasaporte no se fabrica si la foto no coincide con el registro de población. Quienes tienen el antiguo carné verde solicitan al mismo tiempo un carné inteligente; ambas solicitudes se envían en unos cinco minutos."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "从 228 个受理点到 700 多个",
+            "en": "From 228 points to more than 700",
+            "es": "De 228 puntos a más de 700"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "南非内政部长 Leon Schreiber 在开普敦宣布，成人现在可以在 480 家参与银行网点申请新护照或换发过期护照，Capitec 提供 412 家、Absa 提供 68 家，内政部计划逐步扩大。此前护照申请只在 228 个内政部地点受理，加入银行网点后总受理点超过 700 个，Schreiber 称护照服务覆盖面扩大 208%。银行与内政部的合作关系从今年 3 月起步，当时先在 Absa、Capitec、FNB 和 Standard Bank 的网点办理智能身份证换发，八个月已处理超过 100 万份智能身份证申请，现在有 800 多家银行网点提供该项服务。",
+            "en": "Home Affairs Minister Leon Schreiber announced in Cape Town that adults can now apply for a new passport or renew an expired one at 480 participating bank branches, 412 at Capitec and 68 at Absa, with the department planning to expand. Passport applications were previously taken only at 228 Home Affairs locations; with the bank branches added the total exceeds 700, which Schreiber said grows access by 208 percent. The bank partnership began in March, initially handling smart ID replacements at Absa, Capitec, FNB and Standard Bank; it has processed over one million smart ID applications in eight months, and more than 800 bank branches now offer that service.",
+            "es": "El ministro del Interior de Sudáfrica, Leon Schreiber, anunció en Ciudad del Cabo que los adultos pueden solicitar un pasaporte nuevo o renovar uno vencido en 480 sucursales bancarias participantes, 412 de Capitec y 68 de Absa, con planes de ampliación. Antes solo se tramitaban en 228 oficinas de Interior; con las sucursales suman más de 700 puntos, lo que según Schreiber amplía el acceso en un 208 %. La alianza con los bancos empezó en marzo para renovar carnés inteligentes en sucursales de Absa, Capitec, FNB y Standard Bank; en ocho meses ha tramitado más de un millón de solicitudes y ya son más de 800 las sucursales que ofrecen el servicio."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "终端比对人口登记库",
+            "en": "Terminals check the population register",
+            "es": "Los terminales consultan el registro de población"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "Schreiber 说银行网点的流程完全自动化，建立在生物识别技术之上：自助终端现场采集申请人照片，照片与人口登记库中的记录比对，不匹配就不制造护照，以此排除欺诈和换照片。仍持绿色身份证旧册的申请人，在网点申请护照时会自动同时提交智能身份证申请，两份申请约五分钟完成，无需预约、纸质材料或排队。内政部还计划首次对通过银行网点申请的智能身份证和护照提供安全上门投递，并将很快开放未成年人的护照申请。成人旅游护照规费为 600 兰特，48 页的 maxi 护照为 1200 兰特。",
+            "en": "Schreiber said the bank process is fully automated and built on biometric technology: the self-service terminal captures the applicant photo on site and checks it against the population register, and a passport is not manufactured if the photo does not match, to rule out fraud and photo swapping. Applicants still holding the old green ID book automatically submit a smart ID card application alongside the passport, both completed in about five minutes without booking, paperwork or queues. The department also plans secure home delivery of smart ID cards and passports applied for at bank branches, a first, and will soon open passport applications for minors at the branches. Fees are 600 rand for an adult tourist passport and 1,200 rand for the 48-page maxi version.",
+            "es": "Schreiber afirmó que el proceso bancario está totalmente automatizado y se apoya en tecnología biométrica: el terminal de autoservicio capta la foto del solicitante y la compara con el registro de población; si no coincide, no se fabrica el pasaporte, para descartar fraudes y sustitución de fotos. Quienes aún tienen el carné verde presentan automáticamente una solicitud de carné inteligente junto con la del pasaporte, ambas en unos cinco minutos y sin cita, papeleo ni colas. El departamento prevé además la entrega segura a domicilio de carnés inteligentes y pasaportes solicitados en bancos, algo inédito, y pronto abrirá las solicitudes de pasaporte para menores. Las tasas son 600 rand para un pasaporte turístico de adulto y 1.200 rand para la versión maxi de 48 páginas."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "把护照受理从 228 个政府网点扩到 700 多个含银行的受理点，改变的是签发链条的入口结构：受理方从单一政府机构扩展到商业银行，自助终端承担采集与比对，内政部退到制证与审批后段。照片与人口登记库比对不一致即停止制证，把核验前移到受理环节，这对集成商意味着要在网点终端侧实现与人口登记系统的实时对接和图像质量把控，而不只是把申请表电子化。绿色身份证旧册持有人被自动带入智能身份证申请，是借护照需求推动证件换代，内政部此前把停止签发绿色旧册列在 2027 年 3 月 31 日、失效列在 2028 年 3 月 31 日，银行网点成了换代的执行端。需要留意的是，这次扩的是受理渠道，制证与核验机制本身没有新增标准或供应商变化。",
+        "en": "Expanding passport acceptance from 228 government offices to more than 700 points including banks changes the entry structure of the issuing chain: the acceptance party widens from a single agency to commercial banks, self-service terminals handle capture and comparison, and the department steps back to production and approval. Stopping manufacture when the photo fails to match the population register moves verification into the acceptance step, which means integrators must implement real-time links to the population register and image quality control at branch terminals, not just digitise forms. Holders of the green ID book are automatically carried into a smart ID application, using passport demand to drive credential replacement; the department had set an end to green book production at 31 March 2027 and loss of validity at 31 March 2028, making bank branches the execution end of that swap. Note that this expands the acceptance channel; the production and verification mechanisms themselves gain no new standard or supplier change.",
+        "es": "Ampliar la aceptación de pasaportes de 228 oficinas públicas a más de 700 puntos, incluidos bancos, cambia la estructura de entrada de la cadena de emisión: el receptor pasa de un único organismo a bancos comerciales, los terminales asumen la captura y comparación, y el departamento se replega a la fabricación y aprobación. Detener la fabricación cuando la foto no coincide con el registro de población adelanta la verificación al momento de aceptación; para los integradores supone enlaces en tiempo real con el registro y control de calidad de imagen en el terminal, no solo digitalizar formularios. Los poseedores del carné verde quedan incluidos automáticamente en una solicitud de carné inteligente, usando la demanda de pasaportes para impulsar el recambio: el departamento fijó el fin de emisión del carné verde el 31 de marzo de 2027 y su pérdida de validez el 31 de marzo de 2028, con las sucursales como extremo de ejecución. Cabe señalar que esto amplía el canal de aceptación; los mecanismos de fabricación y verificación no incorporan normas ni proveedores nuevos."
+      },
+      "confidence": 0.68,
+      "ai": {
+        "model": "claude-opus-6",
+        "promptVersion": "identity-editor-2026-11-19"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Augmented Vision Investigate",
+      "url": "https://www.idemia.com/video/augmented-vision-investigate",
+      "reason": "范围门与动作门：厂商宣传视频，无产品名、版本、客户或日期，无可核的具体事件"
+    },
+    {
+      "title": "Incode extends fraud protection to AI agents with biometric liveness",
+      "url": "https://www.biometricupdate.com/202611/incodes-extends-fraud-protection-to-ai-agents-with-biometric-liveness",
+      "reason": "范围门：面向 AI 智能体的欺诈防护，不在护照/身份证/mDL 的载体、签发与核验链路"
+    },
+    {
+      "title": "Swiss campaign seeks constitutional safeguards as digital identity rollout advances",
+      "url": "https://www.biometricupdate.com/202611/swiss-campaign-secrets-constitutional-safeguards-as-digital-identity-rollout-advances",
+      "reason": "动作门：公民倡议运动，无授标、无上线、无标准版本，属表态"
+    },
+    {
+      "title": "SensAI Veritas expands security screening platform with real-time risk analysis",
+      "url": "https://www.biometricupdate.com/202611/sensai-veritas-expands-security-screening-platform-with-real-time-risk-analysis",
+      "reason": "范围门：安检风险评估平台，不是证件载体、签发设备或核验终端"
+    },
+    {
+      "title": "New York plans digital identity overhaul with biometrics and fraud controls",
+      "url": "https://www.biometricupdate.com/202611/new-york-plans-digital-identity-overhaul-with-biometrics-and-fraud-controls",
+      "reason": "动作门：11-16 发布的 RFI 只是规划，公告明说不承诺采购、不选供应商、不授标，无生效时间"
+    },
+    {
+      "title": "HID hackathon puts facial authentication to the test in India",
+      "url": "https://www.biometricupdate.com/202611/hid-hackathon-puts-facial-authentication-to-the-test-in-india",
+      "reason": "动作门：黑客松活动，非产品发布或部署，无可核客户与产能"
+    },
+    {
+      "title": "A leader’s guide to evaluating biometric orchestration technology",
+      "url": "https://www.biometricupdate.com/202611/a-leaders-guide-to-evaluating-biometric-orchestration-technology",
+      "reason": "范围门：方法论指南，无具体事件或产品变化"
+    },
+    {
+      "title": "Amazon facial recognition safeguards face questions over Israeli military surveillance",
+      "url": "https://www.biometricupdate.com/202611/amazons-facial-recognition-safeguards-face-questions-over-israeli-military-surveillance",
+      "reason": "范围门：军事监控争议，非凭证链路环节"
+    },
+    {
+      "title": "Police deny legal wrongdoing in arrest prompted by false facial recognition match",
+      "url": "https://www.biometricupdate.com/202611/police-deny-legal-wrongdoing-in-arrest-prompted-by-false-facial-recognition-match",
+      "reason": "范围门：执法误判的法律争议，非凭证载体或核验机制变化"
+    },
+    {
+      "title": "Quantum Physics Can Verify a Person’s Location, NIST Researchers Show",
+      "url": "https://www.nist.gov/news-events/news/2026/11/quantum-physics-can-verify-persons-location-nist-researchers-show",
+      "reason": "范围门：量子定位基础研究，不涉及证件签发、核验或生物识别产品"
+    },
+    {
+      "title": "Vivo lança CPF Seguro em seu app",
+      "url": "https://www.mobiletime.com.br/noticias/17/11/2026/vivo-lanca-cpf-seguro-em/",
+      "reason": "范围门：信用分与负面记录查询订阅服务，不是身份证载体、签发或核验"
+    },
+    {
+      "title": "Ueno Bank: De la insolvencia financiera al tráfico y riesgo de los datos biométricos",
+      "url": "https://www.telesemana.com/blog/2026/11/17/ueno-bank-de-la-insolvencia-financiera-al-trafico-y-riesgo-de-los-datos-biometricos-poblacionales/",
+      "reason": "范围门：数据泄露与金融风险事件，AGENTS.md 明确不收"
+    },
+    {
+      "title": "GSA 在存量 PIV 卡芯片上跑通后量子算法并签发新凭证",
+      "url": "https://cyberscoop.com/gsa-post-quantum-encryption-piv-cards/",
+      "reason": "动作门：FedTalks 会议表态，无合同、无承建方、无部署规模，且是机制验证非商用发放"
+    },
+    {
+      "title": "印尼 PERURI 发布与 ITB 合研的电子护照红白芯片原型",
+      "url": "https://en.antaranews.com/news/443131/peruriunveils-e-passport-chip-prototype-developed-with-itb",
+      "reason": "动作门：停在原型与沙盒，无制程、容量、产能或认证等参数，下一步仍是测试验证"
+    },
+    {
+      "title": "Liberian Parliament rejects $52M national digital ID contract proposal",
+      "url": "https://www.biometricupdate.com/202611/liberian-parliament-rejects-52m-national-digital-id-contract-proposal",
+      "reason": "动作门：议会因采购违规把合同退回总统重谈，未授标；11-06 已就同一 OeSD 特许权按动作门与时效门刷过"
+    },
+    {
+      "title": "Spain Supreme Court orders certification on 61,603 MiDNI voter ID readers",
+      "url": "https://idtechwire.com/spains-supreme-court-orders-interior-to-certify-security-checks-on-61603-midni-voter-id-readers/",
+      "reason": "duplicate-of-2026-11-07-identity-04：同为 MiDNI 用于 11-29 大选的读者设备核验线，同一政策同一选举，换信源重写不算新事件"
+    },
+    {
+      "title": "Verifone Brings Kiwi Access Digital Age Checks to New Zealand Payment Terminals",
+      "url": "https://idtechwire.com/verifone-brings-kiwi-access-digital-age-checks-to-new-zealand-payment-terminals/",
+      "reason": "duplicate-of-2026-11-15-banking-01：同一 Kiwi Access 年龄凭证进新西兰 POS 终端事件，已由银行业写走"
+    },
+    {
+      "title": "Polish Government Adopts Bill to Bring the EU Digital Identity Wallet to mObywatel",
+      "url": "https://idtechwire.com/polish-government-adopts-bill-to-bring-the-eu-digital-identity-wallet-to-mobywatel/",
+      "reason": "动作门：内阁通过法案草案，明称第一步，无生效时间、无产品版本、无供应商，属立法早期表态"
+    },
+    {
+      "title": "youniqx Identity Opens Public EUDI Wallet Sandbox and Relaunches MIA as a Test Wallet",
+      "url": "https://idtechwire.com/youniqx-identity-opens-public-eudi-wallet-sandbox-and-relaunches-mia-as-a-test-wallet/",
+      "reason": "动作门：公开测试沙盒与测试钱包，非商用产品节点，无客户或部署规模"
+    },
+    {
+      "title": "HYPR and Hitachi Unveil Ways to Tie AI Agent Actions to a Verified Human",
+      "url": "https://idtechwire.com/hypr-and-hitachi-unveil-ways-to-tie-ai-agent-actions-to-a-verified-human/",
+      "reason": "范围门：企业 IAM 与 AI 智能体行为绑定，不在三类凭证链路"
+    },
+    {
+      "title": "1Kosmos Brings Identity Proofing to SailPoint Onboarding",
+      "url": "https://idtechwire.com/1kosmos-brings-identity-proofing-to-sailpoint-onboarding-as-pindrop-launches-hiring-fraud-checks/",
+      "reason": "范围门：企业员工入职 IAM 集成，非护照/身份证/mDL 的签发与核验"
+    },
+    {
+      "title": "WalletConnect and Socure Partner to Tie Verified Identities to Crypto Wallets",
+      "url": "https://idtechwire.com/walletconnect-and-socure-partner-to-tie-verified-identities-to-verified-crypto-wallets/",
+      "reason": "范围门：加密钱包 KYC 与账户控制核验，归银行业链路"
+    },
+    {
+      "title": "OpenAI Launches ChatGPT Wallet With Face ID Security Check",
+      "url": "https://idtechwire.com/openai-launches-chatgpt-wallet-with-a-security-check-such-as-face-id-for-every-agent-purchase/",
+      "reason": "范围门：AI 代理支付钱包与交易确认，属支付受理端，不归身份证照"
+    },
+    {
+      "title": "Avon and Somerset Police Postpone First Live Facial Recognition Deployment in Bath",
+      "url": "https://idtechwire.com/avon-and-somerset-police-postpone-first-live-facial-recognition-deployment-in-bath-after-objections/",
+      "reason": "范围门：执法现场人脸识别部署延期，非凭证载体或核验终端；且为取消而非变化"
+    },
+    {
+      "title": "German banks join together to share financial crime information",
+      "url": "https://identityweek.net/german-banks-join-together-to-share-financial-crime-information-to-other-institutions/",
+      "reason": "范围门：银行反洗钱信息共享，属银行业，非身份凭证形态变化"
+    },
+    {
+      "title": "Tech chiefs praise Burnham’s National Centre for Information Defence",
+      "url": "https://identityweek.net/tech-chiefs-praise-burnhams-national-centre-for-information-defence/",
+      "reason": "动作门：人物表态与机构倡议，无具体物可核"
+    },
+    {
+      "title": "Tech in Gov spotlight interview: Zoran Jordanoski, UNU-EGOV",
+      "url": "https://identityweek.net/tech-in-gov-spotlight-interview-zoran-jordanoski-lead-research-analyst-unu-egov/",
+      "reason": "范围门：访谈，无事件"
+    },
+    {
+      "title": "Your next customers could be at Identity Week Europe 2027",
+      "url": "https://identityweek.net/your-next-customers-could-be-at-identity-week-europe-2027-will-you/",
+      "reason": "动作门：展会招商营销，非产品授标或上线"
+    },
+    {
+      "title": "Fourthline expands into Luxembourg with BIL as new business partner",
+      "url": "https://identityweek.net/fourthline-expands-into-luxembourg-with-banque-internationale-a-luxembourg-as-new-business-partner-for-its-identity-verification-solution/",
+      "reason": "duplicate-of-2026-11-13-identity-02：BIL 选定 Fourthline 做开户核验已发布"
+    },
+    {
+      "title": "Australia expands biometric requirements for visa applicants in India",
+      "url": "https://identityweek.net/australia-expands-biometric-requirements-for-visa-applicants-in-india/",
+      "reason": "时效门：11-09 已发布且事件在 10-26 生效，超出 72 小时窗口"
+    },
+    {
+      "title": "Regula Expands Its Database to 17,000 ID Templates",
+      "url": "https://financialpost.com/press-releases/globe-newswire/regula-expands-its-database-to-17000-id-templates-helping-businesses-keep-pace-with-evolving-ids",
+      "reason": "动作门：厂商自有证件模板库扩容，是累计数据盘点，不是凭证形态或核验机制变化"
+    },
+    {
+      "title": "Over 18 mln Afghans receive electronic national ID cards",
+      "url": "https://english.news.cn/20261118/326ee54a977c47809b5423c366e9a398/c.html",
+      "reason": "动作门：累计发放量盘点，非首次或变化，无新政策或设备节点"
+    },
+    {
+      "title": "Cambodia plans to expand document verification platform into digital ID wallet",
+      "url": "https://www.biometricupdate.com/202611/cambodia-plans-to-expand-document-verification-platform-into-digital-id-wallet",
+      "reason": "动作门：部长在论坛上的愿景表态，无时间表、无供应商，11-18 已按同因刷过"
+    },
+    {
+      "title": "Costa Rica Makes Digital ID Acceptance Mandatory From January 2027",
+      "url": "https://facia.ai/news/costa-rica-makes-digital-id-acceptance-mandatory-from-january-2027",
+      "reason": "duplicate-of-2026-11-16-identity-01：哥斯达黎加 IDC 2027-01-01 强制接受已发布，换信源重写不算新事件"
+    },
+    {
+      "title": "Smart national ID card to be introduced next year: President (Maldives)",
+      "url": "https://www.oneonline.mv/en/128580",
+      "reason": "动作门：总统表态，无具体日期、无供应商、无技术参数"
+    },
+    {
+      "title": "UAE Innovates 2026 Award: Digital Dubai real-time census platform",
+      "url": "https://www.thenationalnews.com/news/uae/2026/11/17/sheikh-hamdan-honours-uae-innovates-2026-award-winners-at-dubai-ceremony/",
+      "reason": "范围门与动作门：颁奖与累计节省额盘点，非凭证链路形态变化"
+    },
+    {
+      "title": "UAE PASS Staging App and Environment: Test Account Guide",
+      "url": "https://bybanks.me/perspectives/uae-pass-staging-app-test-account-credentials",
+      "reason": "范围门：开发者沙盒操作指南，无事件、无日期"
+    },
+    {
+      "title": "Nigeria Launches NIN-Linked Biometric System for Domestic Air Travel",
+      "url": "https://www.africaupdates.com/news/nigeria-launches-nin-linked-biometric-system-for-domestic-air-travel-n2255/2026/11/17",
+      "reason": "duplicate-of-2026-11-18-identity-01：尼日利亚 V-PASS 机场 NIN 刷脸已发布，换信源重写不算新事件"
+    },
+    {
+      "title": "DHS faces widening vendor lock-in risks across biometric and identity systems",
+      "url": "https://www.biometricupdate.com/202611/dhs-faces-widening-vendor-lock-in-risks-across-biometric-and-identity-systems",
+      "reason": "动作门：报告与风险评估，非授标、上线或标准变化"
+    },
+    {
+      "title": "South Africa Opens Passport Applications at 480 Bank Branches (DHA minister address)",
+      "url": "https://www.dha.gov.za/index.php/statements-speeches/2115-address-by-the-minister-of-home-affairs-dr-leon-schreiber-from-south-africa-to-the-world-the-next-phase-of-the-digital-partnership",
+      "reason": "同一事件：已作为 identity-06 草稿写入，此处仅记录权衡过程，不重复计条"
+    }
+  ],
+  "stats": {
+    "candidates": 42,
+    "written": 6,
+    "skippedByDedup": 5
+  },
+  "finishedAt": "2026-11-18T20:18:18.472Z"
+}

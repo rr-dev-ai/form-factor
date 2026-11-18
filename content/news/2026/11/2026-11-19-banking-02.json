@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-19-banking-01",
+  "slug": "miden-visa-virtual-commercial-card-issuing-africa",
+  "industry": "banking",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "payment-gateway"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-19T04:19:26+08:00",
+  "ingestedAt": "2026-11-19T02:37:18+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Finextra",
+      "url": "https://www.finextra.com/pressarticle/111717/miden-and-visa-partner-on-commercial-card-issuing-for-african-businesses",
+      "lang": "en",
+      "publishedAt": "2026-11-18T13:55:00Z"
+    }
+  ],
+  "title": {
+    "zh": "Miden 与 Visa 直连发虚拟商务卡，先落尼日利亚",
+    "en": "Miden links direct to Visa for virtual commercial cards in Nigeria",
+    "es": "Miden se conecta directamente a Visa para tarjetas comerciales virtuales en Nigeria"
+  },
+  "summary": {
+    "zh": "尼日利亚支付基建商 Miden 11 月 18 日在拉各斯宣布与 Visa 直连，面向中大型企业发放虚拟商务卡。企业可在平台配置分发卡片并按商户类别、地域和额度设限；直连去掉多层第三方转接，已列出 Grey、Bamboo、Travelbay 与 Bon Hotels 等客户。",
+    "en": "Nigerian payment infrastructure provider Miden announced a direct link to Visa on 18 November in Lagos, issuing virtual commercial cards to mid-sized and large businesses. Firms can configure and distribute cards with merchant, category and geographic controls. The direct link removes intermediary layers; named clients include Grey, Bamboo, Travelbay and Bon Hotels.",
+    "es": "El proveedor nigeriano de infraestructura de pagos Miden anunció el 18 de noviembre en Lagos una conexión directa con Visa para emitir tarjetas comerciales virtuales a empresas medianas y grandes. Las firmas pueden configurar y distribuir tarjetas con controles por comercio, categoría y geografía. El enlace directo elimina intermediarios; entre los clientes figuran Grey, Bamboo, Travelbay y Bon Hotels."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "尼日利亚支付基建商 Miden 于 11 月 18 日在拉各斯的产品发布会上宣布，与 Visa 完成直连接入，面向中型与大型企业发放虚拟 Visa 商务卡。企业可通过 Miden 平台配置、管理并把卡分发给员工、团队、项目与供应商，卡片由参与合作的金融机构发行。",
+        "en": "Nigerian payment infrastructure provider Miden announced at a product launch in Lagos on 18 November that it has completed a direct integration with Visa to issue virtual Visa commercial cards to mid-sized and large businesses. Companies can configure, manage and distribute cards to employees, teams, projects and suppliers through Miden's platform, with cards issued by participating financial institutions.",
+        "es": "El proveedor nigeriano de infraestructura de pagos Miden anunció el 18 de noviembre en un lanzamiento en Lagos que completó una integración directa con Visa para emitir tarjetas comerciales virtuales a empresas medianas y grandes. Las compañías pueden configurar, gestionar y distribuir tarjetas a empleados, equipos, proyectos y proveedores mediante la plataforma de Miden, con tarjetas emitidas por entidades financieras participantes."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "技术变化在于绕开多层中介。Miden 与 Visa 的直接集成让商务卡交易不再经过非洲常见的多层第三方转接，公司称此举可降低处理费用、缩短延迟并提高授权率。Miden 同时开放细粒度卡控：商户白名单、商户类别码限制、地域限制、实时监控，以及即时发卡、激活、暂停、终止与换卡的全生命周期管理。",
+        "en": "The technical change is the removal of intermediary layers. Miden's direct integration with Visa keeps commercial card transactions off the multi-tier third-party routes common in Africa; the company says this lowers processing fees, reduces latency and raises authorisation rates. Miden also opens granular controls: approved-vendor lists, merchant category code limits, geographic boundaries, real-time monitoring, and full card lifecycle management covering instant issue, activation, pause, termination and replacement.",
+        "es": "El cambio técnico reside en eliminar capas intermedias. La integración directa de Miden con Visa evita las rutas de terceros de varios niveles habituales en África; la empresa afirma que esto reduce comisiones y latencia y mejora las tasas de autorización. Miden también habilita controles granulares: listas de comercios autorizados, límites por código de categoría de comercio, fronteras geográficas, supervisión en tiempo real y gestión completa del ciclo de vida de la tarjeta."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Miden 称该直连方案即日起对其 API 驱动的发卡客户开放，已列出的企业客户包括 Grey、Bamboo、Travelbay 与 Bon Hotels。公告未披露发卡量、交易额、参与发卡的金融机构名单，也未说明尼日利亚之外的落地市场。",
+        "en": "Miden says the direct integration is available immediately to clients using its API-driven issuing infrastructure, with named customers Grey, Bamboo, Travelbay and Bon Hotels. The announcement gave no card volumes, transaction values, list of issuing banks, or markets beyond Nigeria.",
+        "es": "Miden afirma que la integración directa está disponible de inmediato para clientes de su infraestructura de emisión basada en API, con Grey, Bamboo, Travelbay y Bon Hotels entre los clientes nombrados. El anuncio no dio volúmenes de tarjetas, valores de transacción, lista de bancos emisores ni mercados fuera de Nigeria."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对非洲做企业支付的企业与集成商，这条变化落在发卡链路的处理层：当地商务卡过去多经多层第三方转接，费用与授权率都受制于中间环节。直连 Visa 把处理方与卡组织之间的链路缩短，并把商户类别码、地域与额度控制做成平台可调参数，企业不必再自建卡控系统。受益方是 Miden 现有客户与同类区域处理商，压力给到靠多层转接收费的中间商。但公告没有发卡量、交易额和发卡行名单，直连的实际规模与授权率改善幅度尚无法核实，下一步要跟的是参与金融机构与第二个市场的落地。",
+    "en": "For firms and integrators building business payments in Africa, the change sits in the processing layer of the issuing chain: commercial cards there have typically passed through multiple third-party hops, leaving fees and approval rates at the mercy of intermediaries. A direct Visa link shortens the path between processor and scheme and turns merchant category, geographic and spend controls into platform-level parameters, so companies need not build card controls themselves. Miden's existing clients and similar regional processors benefit; intermediaries charging for extra layers come under pressure. The release gave no card volumes, transaction values or issuing banks, so the real scale and approval gains cannot yet be verified. Watch for the participating issuers and a second market.",
+    "es": "Para las empresas e integradores de pagos corporativos en África, el cambio está en la capa de procesamiento de la cadena de emisión: las tarjetas comerciales suelen pasar por varios intermediarios, con comisiones y tasas de aprobación dependientes de esos eslabones. Un enlace directo con Visa acorta el trayecto entre procesador y esquema y convierte los controles por categoría, geografía y gasto en parámetros de plataforma, sin necesidad de construir controles propios. Se benefician los clientes actuales de Miden y procesadores regionales similares; los intermediarios que cobran por capas extra enfrentan presión. El comunicado no aportó volúmenes, valores ni bancos emisores, por lo que aún no se puede verificar la escala real ni la mejora en aprobación. Conviene seguir a los emisores participantes y un segundo mercado."
+  },
+  "confidence": 0.65,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

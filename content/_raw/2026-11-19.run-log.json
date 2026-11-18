@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-19",
+  "startedAt": "2026-11-19T01:50:40+08:00",
+  "finishedAt": "2026-11-19T01:55:16+08:00",
+  "indexCheck": {
+    "file": "content/_raw/2026-11-19.index.json",
+    "exists": true,
+    "fetchedFor": "2026-11-19",
+    "items": 171,
+    "attempts": 1,
+    "note": "一次通过，未等待（01:50:40 首次确认即达标）。fetchedAt 字段为 undefined（与 11-14 起同型），fetchedFor 正确、items 为 171 条非空，三项条件全部满足。"
+  },
+  "matrix": {
+    "counted": 1,
+    "dropped": {
+      "published": 0,
+      "expired": 0,
+      "undated": 15,
+      "lowConfidence": 155,
+      "invalid": 0
+    },
+    "gaps": ["apac", "cis", "mena", "north-america", "latam", "africa"],
+    "cellGaps": [
+      { "region": "europe", "industry": "banking" },
+      { "region": "europe", "industry": "telecom" }
+    ],
+    "industryGaps": [
+      { "industry": "banking", "emptyRegions": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"] },
+      { "industry": "telecom", "emptyRegions": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"] },
+      { "industry": "identity", "emptyRegions": ["apac", "cis", "mena", "north-america", "latam", "africa"] }
+    ],
+    "note": "脚本 stdout：「矩阵已重算：计入 1 条，剔除 已发布 0 / 超窗 0 / 无日期 15 / 低置信 155」。21 格里只有 1 格非空，三层缺口同时成立且接近满格：六区三行业全零，banking 与 telecom 各 7/7、identity 6/7。content/_raw/2026-11-19.matrix.json 未落盘（延续 11-15 起现象），三层缺口以 stdout 为准，未改脚本、未改阈值。本期是源侧结构问题：171 条里 155 条置信度 <0.6，主力是运营商财报/6G/裁员与旅游服务号。"
+  },
+  "phases": [
+    {
+      "phase": "R1",
+      "at": "2026-11-19T01:51:38+08:00",
+      "queries": 6,
+      "hits": 2,
+      "note": "缺口驱动：apac / cis / mena / north-america / latam / africa 六区各一条，用「带引号日期锚定 17-18 日 + 区域 + 链路环节产品词」。命中 cis/banking（乌兹别克 UZCARD/Humo 本国卡接入 Apple Pay）与 latam 方向的 GlobalFinTechSeries 线索；telecom 与身份词全面被旅游 eSIM 站与护照代办站污染。达 6 条下限。"
+    },
+    {
+      "phase": "R2",
+      "at": "2026-11-19T01:52:03+08:00",
+      "queries": 6,
+      "basedOn": "R1 六条只出一条主线，改用具体主体发：发卡处理商（Enfuce/Marqeta/Velera/CorServ）、MENA 收单与卡组织、非洲证件局、俄央行与НСПК、各国证件局、拉美本地行。",
+      "note": "命中 mena/banking（Network International × Emirates Investment Bank 信用卡项目，11-16）；BaaS 聚合站全是评测榜单，非新闻；非洲证件局给出 Ghana Card 作学号（表态，无落地）；俄央行 20 张卡登记册为 11-18 已发同源；拉美条目全为汇率/旅游攻略。达 6 条下限。"
+    },
+    {
+      "phase": "R3",
+      "at": "2026-11-19T01:52:18+08:00",
+      "queries": 6,
+      "basedOn": "R1/R2 显示卡与证件是本期唯一有具体物的方向，改用当地语言采购术语从授标/招标侧反查：阿语 مناقصة/ترسية、西语 licitación、葡语 edital、英语 tender、法语 appel d'offres、俄语 тендер。",
+      "note": "命中 africa/identity（坦桑尼亚 TZS300 亿身份证系统升级，由葡语 edital 那条带出）；孟加拉 5 SIM/NID 上限由 tender 那条带出。其余全回招标聚合站（Vuza/globaltenders/freetender）与国债招标，采购轮价值仍在顺带撞新闻室稿，不在标本身。达 6 条下限。"
+    },
+    {
+      "phase": "R4",
+      "at": "2026-11-19T01:52:39+08:00",
+      "queries": 3,
+      "basedOn": "R1-R3 已锁定支付/身份两条线，改读垂媒归档页拿同日条目：biometricupdate /202611（一次直读）与 paymentsindustryintelligence 首页（一次直读），再用垂媒限定 query 查独家稿。",
+      "note": "biometricupdate 归档页 11-17 十条里多为观点稿/ICE 监控/年龄核验分析，可用线索是柬埔寨 Verify.gov.kh 拟扩数字钱包（部长 11-15 表态，无上线时间，弃）；paymentsindustryintelligence 首页最新仍停 11-16（ChatGPT Wallet 等已发）。达 3 条下限，另有 2 次归档直读。"
+    },
+    {
+      "phase": "R5",
+      "at": "2026-11-19T01:52:56+08:00",
+      "queries": 3,
+      "basedOn": "R4 归档页未见 SGP.32/eSIM 硬新闻，改用尚未成为通用词的新兴术语找产品化节点：SGP.32 eIM / iSIM / eSIM orchestration、mDL issuance、verifiable credential / age assurance / quantum-safe card / softPOS。",
+      "note": "命中 north-america/identity（GSA 后量子 PIV 卡，由 quantum-safe card 术语线引出）；SGP.32 三条全为 AT&T Flexible SIM（11-18 已发）与 Semtech 旧稿；mDL 全是科普与已发的 8 州 Apple Wallet；年龄核验全是分析稿。达 3 条下限。"
+    },
+    {
+      "phase": "R6",
+      "at": "2026-11-19T01:53:19+08:00",
+      "queries": 3,
+      "basedOn": "前五轮 latam 全空、telecom 七区全空，换英文与本地语言定向重试：GSA PIV 一手原文反查、证件芯片与 EMVCo 认证、拉美卡发行与身份词；后又补 2 条 latam 西语/葡语定向。",
+      "note": "命中 apac/identity（印尼 PERURI 电子护照芯片原型），补搜命中 tafs.uz 的乌兹别克本国卡一手。latam 两条补搜只回已发的 Mastercard Accept 与 Visa Agentic Ready，无新事件线。达 3 条下限，另有 2 条补搜。"
+    }
+  ],
+  "queries": {
+    "R1": 6,
+    "R2": 6,
+    "R3": 6,
+    "R4": 3,
+    "R5": 3,
+    "R6": 3,
+    "extra": 2,
+    "total": 29,
+    "archiveReads": 2,
+    "note": "六轮 query 下限 6/5/6/3/3/3 全部达标，合计 27 条主 query + 2 条 latam 补搜 = 29 条；另 2 次归档页直读（biometricupdate /202611、paymentsindustryintelligence 首页）。R3 起每轮 basedOn 已填。"
+  },
+  "produced": [
+    { "title": "坦桑尼亚300亿先令身份证系统升级", "region": "africa", "industry": "identity", "fills": "gap" },
+    { "title": "乌兹别克Uzcard/Humo接入Apple Pay", "region": "cis", "industry": "banking", "fills": "gap" },
+    { "title": "Network International×Emirates Investment Bank信用卡项目", "region": "mena", "industry": "banking", "fills": "gap" },
+    { "title": "GSA存量PIV卡后量子凭证", "region": "north-america", "industry": "identity", "fills": "gap" },
+    { "title": "印尼PERURI电子护照芯片原型", "region": "apac", "industry": "identity", "fills": "gap" },
+    { "title": "孟加拉5 SIM/NID上限与人脸核验", "region": "apac", "industry": "telecom", "fills": "gap + industryGap(telecom)" }
+  ],
+  "unfilled": [
+    "latam 三行业全空（两轮定向补搜只回已发稿）",
+    "banking 仍缺 apac / europe / north-america / latam",
+    "telecom 仍缺 cis / mena / europe / north-america / latam / africa（连续第 11 天行业级断供）",
+    "identity 仍缺 cis / mena / latam",
+    "cellGap europe/banking 与 europe/telecom 未补"
+  ],
+  "verifiedButDropped": [
+    { "title": "Mastercard Accept 借记卡手机收款", "reason": "11-18 已发布 banking/apac，同一事件线" },
+    { "title": "Visa Agentic Ready 扩至受理侧 140+ 伙伴", "reason": "11-13/14 已报同线，且主体是 AI agent 受理框架非凭证载体" },
+    { "title": "柬埔寨 Verify.gov.kh 拟扩数字身份钱包", "reason": "部长 11-15 表态、无上线时间、无具体机制变化" },
+    { "title": "LianLian XCard / Visa Agentic B2B 首笔", "reason": "AI agent 支付凭证，标的物为代理授权框架，范围门临界；且与已发同线" },
+    { "title": "Regula 证件模板库扩至 17000", "reason": "模板数据库更新，不改变证件形态或签发机制" },
+    { "title": "俄罗斯央行 20 张卡登记册 ЕСУПК", "reason": "11-18 已发布 banking/cis，同一事件线" },
+    { "title": "iFAST 多币种 Visa 借记卡扩至 7 市场", "reason": "既有卡的海外覆盖扩展，属销售渠道变化" },
+    { "title": "保加利亚议会缩短身份证办理 30→20 天", "reason": "办理时限调整，非载体或签发机制变化；且 europe/identity 已有稿" }
+  ],
+  "notes": "标注一次通过、矩阵计入仅 1 条，三层缺口接近满格。六轮实际 29 条 query + 2 次归档直读 + 8 次原文 WebFetch 核验（GSA 原文另经 cyberscoop 复核）。6 条补位全部通过范围门，URL 均未在 index.json 的 171 条里标注过。telecom 只补到 apac 一格，仍是七区里最空的一条线；latam 连续多日全空且今日两轮定向补搜无果，建议后续从该区域本地一手新闻室直查而非关键词。时序上 01:50:40 起跑、01:55:16 落盘，远低于 30 分钟预算，瓶颈是源侧供给而非时间。"
+}

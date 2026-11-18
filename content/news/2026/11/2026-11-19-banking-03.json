@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-19-banking-04",
+  "slug": "splitit-fis-total-issuing-instalments",
+  "industry": "banking",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "payment-gateway"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-19T04:19:26+08:00",
+  "ingestedAt": "2026-11-19T02:37:18+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/splitit-and-fis-bring-bank-issued-credit-to-the-point-of-purchase-302941711.html",
+      "lang": "en",
+      "publishedAt": "2026-11-17T09:13:00-05:00"
+    }
+  ],
+  "title": {
+    "zh": "Splitit 接进 FIS 发卡平台，分期回到银行信用卡",
+    "en": "Splitit plugs into FIS issuing platform to put instalments on bank cards",
+    "es": "Splitit se integra en la plataforma de emisión de FIS para llevar cuotas a tarjetas bancarias"
+  },
+  "summary": {
+    "zh": "分期服务商 Splitit 11 月 17 日宣布与 FIS Total Issuing Solutions 深度集成，让银行的存量信用卡在结账时提供固定期数分期与积分支付，仍由银行品牌与授信关系主导。方案面向北美 FIS 发卡客户，计划 2027 年初上线。FIS 称其年处理 400 亿笔交易、服务 150 多家金融机构、覆盖 75 个以上国家。",
+    "en": "Instalment provider Splitit announced on 17 November a deep integration with FIS Total Issuing Solutions that lets banks offer fixed-term instalments and points payment on existing credit cards at checkout, keeping the bank's brand and credit relationship in charge. It will be available to FIS issuing clients in North America in early 2027. FIS says it processes over 40 billion transactions a year for 150-plus financial institutions across 75-plus countries.",
+    "es": "El proveedor de cuotas Splitit anunció el 17 de noviembre una integración profunda con FIS Total Issuing Solutions que permite a los bancos ofrecer cuotas de plazo fijo y pago con puntos en tarjetas de crédito existentes en el momento de la compra, manteniendo la marca y la relación crediticia del banco. Estará disponible para clientes emisores de FIS en Norteamérica a principios de 2027. FIS afirma procesar más de 40.000 millones de transacciones al año para más de 150 entidades financieras en más de 75 países."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Splitit 于 11 月 17 日宣布与 FIS Total Issuing Solutions 深度集成。Splitit 的技术把银行已有信用卡额度转成固定期数的分期，在实体与数字结账、钱包、市场平台以及 AI 购物渠道中使用，持卡人无需另开第三方 BNPL 账户。",
+        "en": "Splitit announced on 17 November a deep integration with FIS Total Issuing Solutions. Splitit's technology turns an existing bank card credit line into fixed-term instalments usable at physical and digital checkout, in wallets, marketplaces and AI shopping channels, without the cardholder opening a separate BNPL account.",
+        "es": "Splitit anunció el 17 de noviembre una integración profunda con FIS Total Issuing Solutions. Su tecnología convierte la línea de crédito existente de una tarjeta bancaria en cuotas de plazo fijo utilizables en compras físicas y digitales, monederos, mercados y canales de compra con IA, sin que el titular abra una cuenta BNPL separada."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "对银行而言，变化在于接入路径。银行不必逐一对接数千家商户、钱包与市场平台，而是通过已有的 FIS 发卡处理关系即可接入 Splitit 的商户网络。FIS 表示其发卡平台服务 150 多家金融机构、年处理 400 亿笔交易、覆盖 75 个以上国家；这一规模成为 Splitit 分期能力的分发渠道。",
+        "en": "For banks, the change is the access path. Instead of connecting one by one to thousands of merchants, wallets and marketplaces, a bank reaches Splitit's merchant network through its existing FIS issuer-processing relationship. FIS says its issuing platform serves over 150 financial institutions, processes more than 40 billion transactions a year and spans 75-plus countries; that scale becomes the distribution channel for Splitit's instalments.",
+        "es": "Para los bancos, el cambio está en la vía de acceso. En lugar de conectarse uno a uno con miles de comercios, monederos y mercados, un banco llega a la red de comercios de Splitit mediante su relación existente de procesamiento de emisión con FIS. FIS afirma que su plataforma de emisión atiende a más de 150 entidades financieras, procesa más de 40.000 millones de transacciones al año y abarca más de 75 países; esa escala se convierte en canal de distribución de las cuotas de Splitit."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Splitit 表示方案会用 AI 依据持卡人与银行的关系、购买行为及交易情境个性化分期报价。该集成计划 2027 年初先面向北美参与的金融机构开放。公告未披露已签约的银行名单、商户数量与分期定价。",
+        "en": "Splitit says it will use AI to personalise instalment offers based on the cardholder's relationship with the bank, purchase behaviour and transaction context. The integration is set to open to participating North American financial institutions in early 2027. The release named no signed banks, merchant counts or instalment pricing.",
+        "es": "Splitit afirma que usará IA para personalizar las ofertas de cuotas según la relación del titular con el banco, su comportamiento de compra y el contexto de la transacción. La integración abrirá a entidades financieras participantes de Norteamérica a principios de 2027. El comunicado no nombró bancos firmantes, número de comercios ni precios de las cuotas."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这条变化把分期能力接进了发卡处理层，而不是在结账处引入新贷款方：持卡人用已有银行额度，银行保留品牌、授信与积分关系，第三方 BNPL 被挡在客户关系之外。对发卡行与处理平台集成商，新的产品形态是「分期即发卡能力」，谁掌握发卡处理关系谁就能把分期铺到商户侧，无需重建商户接入。受益方是 FIS 的 150 多家发卡客户与 Splitit；压力给到以独立贷款主体在结账处获客的 BNPL 厂商。但上线要等到 2027 年初，且公告无签约银行与商户数量，实际覆盖仍取决于银行的开启意愿。",
+    "en": "The change plugs instalments into the issuing-processing layer instead of introducing a new lender at checkout: the cardholder uses an existing bank credit line, the bank keeps its brand, underwriting and rewards relationship, and third-party BNPL is kept away from the customer. For issuers and processor integrators, the new product shape is \"instalments as an issuing capability\": whoever holds the issuer-processing relationship can push instalments out to merchants without rebuilding merchant onboarding. FIS's 150-plus issuing clients and Splitit benefit; BNPL firms that acquire customers at checkout as separate lenders come under pressure. Rollout waits until early 2027 and the release named no signed banks or merchant counts, so real reach depends on how many banks switch it on.",
+    "es": "El cambio integra las cuotas en la capa de procesamiento de emisión, en lugar de introducir un nuevo prestamista en la compra: el titular usa una línea de crédito bancaria existente, el banco conserva marca, evaluación crediticia y puntos, y el BNPL de terceros queda fuera de la relación con el cliente. Para emisores e integradores de procesadores, la nueva forma de producto es «cuotas como capacidad de emisión»: quien tiene la relación de procesamiento de emisión puede llevar las cuotas a los comercios sin reconstruir la incorporación de comerciantes. Se benefician los más de 150 clientes emisores de FIS y Splitit; las fintechs BNPL que captan clientes en la compra como prestamistas separados enfrentan presión. El lanzamiento espera hasta principios de 2027 y el comunicado no nombró bancos ni comercios, así que el alcance real dependerá de cuántos bancos lo activen."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-19-identity-02",
+  "slug": "uk-dvs-register-scale-testing-data-sharing-code",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "verification",
+    "digital-wallet",
+    "pki"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-19T04:19:26+08:00",
+  "ingestedAt": "2026-11-19T03:10:22+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/uk-begins-testing-dvs-for-checks-at-scale-publishes-guidance-for-data-sharing",
+      "lang": "en",
+      "publishedAt": "2026-11-17T21:25:27Z"
+    }
+  ],
+  "title": {
+    "zh": "英国开始规模化测试 DVS 核验，数据共享准则送交议会",
+    "en": "UK starts at-scale DVS checks testing as data-sharing code goes to Parliament",
+    "es": "Reino Unido inicia pruebas a escala de DVS mientras el código de datos va al Parlamento"
+  },
+  "summary": {
+    "zh": "英国数字身份与属性办公室开始分阶段测试 DVS 登记册的规模化查询能力，第一阶段测传输证书与服务认证，第二阶段两周后加入 OpenID Federation。同时，公共机构向已注册 DVS 共享信息的准则草案已送交议会审议，依据《2025 年数据（使用与访问）法》第 45 条。",
+    "en": "The Office for Digital Identity and Attributes has begun phased testing of at-scale queries against the DVS register, starting with transport certificates and service authentication and adding OpenID Federation in a second phase in two weeks. A draft Code of Practice for public authorities sharing information with registered DVS has been laid in Parliament under section 45 of the Data (Use and Access) Act 2025.",
+    "es": "La Oficina de Identidad Digital y Atributos del Reino Unido inició pruebas por fases de las consultas a escala al registro DVS, centradas primero en certificados de transporte y autenticación de servicios, con OpenID Federation previsto para la segunda fase en dos semanas. Un código de prácticas para que los organismos públicos compartan información con DVS registrados se presentó ante el Parlamento según el artículo 45 de la Ley de Datos (Uso y Acceso) de 2025."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "第一阶段测服务认证",
+        "en": "Phase one tests service authentication",
+        "es": "La primera fase prueba la autenticación de servicios"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "英国数字身份与属性办公室（OfDIA）宣布，已开始测试让机构安全地、规模化核查 DVS 登记册信息的技术。测试分阶段进行：第一阶段聚焦传输证书和客户端认证，参与服务商要证明自己能被识别、能查询本机构与已注册服务的信息、并完成对受保护 API 的请求。认证有两种方式，一种是用客户端传输证书做双向 TLS（mTLS），另一种是用数字签名的客户端断言（private_key_jwt）。服务商在不接生产登记册、不用真实数据的环境里测试。",
+        "en": "The Office for Digital Identity and Attributes said it has begun testing the technology that lets organisations check information on the DVS register securely and at scale. Testing is phased: phase one covers transport certificates and client authentication, where participating providers must prove they can identify themselves, query information about their organisation and registered services, and make requests to a protected API. Two authentication methods are available: mutual TLS using a client transport certificate, or a digitally signed client assertion (private_key_jwt). Providers test without connecting to the live register or using real data.",
+        "es": "La Oficina de Identidad Digital y Atributos (OfDIA) anunció que comenzó a probar la tecnología que permite a las organizaciones consultar a escala y con seguridad el registro DVS. Las pruebas son por fases: la primera cubre certificados de transporte y autenticación de clientes, donde los proveedores deben demostrar que pueden identificarse, consultar datos de su organización y servicios registrados y realizar solicitudes a una API protegida. Hay dos métodos de autenticación: TLS mutuo (mTLS) con un certificado de transporte, o una aserción de cliente firmada digitalmente (private_key_jwt). Las pruebas no se conectan al registro real ni usan datos reales."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "两周后进入第二阶段",
+        "en": "Phase two starts in two weeks",
+        "es": "La segunda fase empieza en dos semanas"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "OfDIA 说第二阶段将在两周后启动，把 OpenID Federation、用户界面和完整的入驻流程纳入测试。想参与的已注册 DVS 服务商通过邮件报名。与之并行，政府把《公共机构向数字核验服务共享信息行为准则》草案送交议会，称其为启动信息网关的重要一步。该准则依据《2025 年数据（使用与访问）法》第 45 条，为公共机构共享信息时必须考虑的事项提供指引，包括把政府签发的凭证直接发进私营部门注册的钱包。准则须经两院批准后才能定稿发布。",
+        "en": "OfDIA said phase two starts in two weeks and will add OpenID Federation, user interfaces and the full onboarding journey; interested registered providers can apply by email. In parallel, the government laid a draft Code of Practice for Public Authorities Sharing Information with Digital Verification Services in Parliament, calling it a significant milestone toward commencing the information gateway. The Code gives guidance that public authorities must have regard to under section 45 of the Data (Use and Access) Act 2025, including direct issuance of government-issued credentials into registered private-sector wallets. It must be approved by both Houses before publication as final.",
+        "es": "OfDIA indicó que la segunda fase arranca en dos semanas e incorporará OpenID Federation, las interfaces de usuario y el recorrido completo de alta; los proveedores registrados interesados pueden inscribirse por correo. En paralelo, el gobierno presentó ante el Parlamento un proyecto de código de prácticas para organismos públicos que comparten información con servicios de verificación digital, al que calificó como un hito para poner en marcha la pasarela de información. El código orienta a los organismos públicos según el artículo 45 de la Ley de Datos (Uso y Acceso) de 2025 e incluye la emisión directa de credenciales gubernamentales en carteras privadas registradas. Debe ser aprobado por ambas cámaras antes de publicarse de forma definitiva."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "DVS 登记册是英国把私营身份核验服务商纳入政府凭证体系的关键接口，这次把查询从纸面规则推到可测试的技术栈，直接决定服务商能否在真实受理场景中调用政府签发的凭证。mTLS 与 private_key_jwt 两条认证路径同时保留，意味着集成方要按两种证书管理方式准备，而不只是对接一个 API。两周后加入 OpenID Federation，又把跨组织的信任协商纳入范围，对做钱包和核验平台 integration 的团队是最需要提前跟进的部分。行为准则还停在草案阶段、须两院通过，所以现在能确定的是技术测试路径，合规义务的正式生效时间仍未定。",
+    "en": "The DVS register is the interface through which Britain brings private identity verification providers into the government credential system. Moving queries from written rules to a testable stack determines whether providers can call government-issued credentials in real acceptance scenarios. Keeping both mTLS and private_key_jwt means integrators must support two certificate management approaches, not just one API. Adding OpenID Federation in two weeks brings cross-organisation trust negotiation into scope, which is the part wallet and verification platform teams need to track first. The Code of Practice is still a draft requiring both Houses, so the test path is fixed but the compliance timetable is not.",
+    "es": "El registro DVS es la interfaz con la que Reino Unido incorpora a proveedores privados de verificación de identidad al sistema de credenciales públicas. Llevar las consultas de las reglas escritas a una pila tecnológica probable decide si los proveedores pueden usar credenciales gubernamentales en escenarios reales. Mantener mTLS y private_key_jwt obliga a los integradores a preparar dos formas de gestionar certificados, no una sola API. La incorporación de OpenID Federation en dos semanas suma la negociación de confianza entre organizaciones, el punto que los equipos de carteras y plataformas de verificación deben seguir de cerca. El código sigue en fase de proyecto y requiere ambas cámaras, por lo que la ruta técnica está definida pero el calendario de cumplimiento no."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11-19"
+  }
+}
