@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-20-identity-01",
+  "slug": "milan-airports-vision-box-egates-biometric-corridor",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "verification",
+    "biometrics"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-20T04:28:34+08:00",
+  "ingestedAt": "2026-11-20T03:10:09+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/milan-airports-award-vision-box-e6-9-million-for-new-border-egates-and-a-biometric-corridor-trial/",
+      "lang": "en",
+      "publishedAt": "2026-11-19T00:00:00Z"
+    },
+    {
+      "name": "Tenders Electronic Daily",
+      "url": "https://ted.europa.eu/en/notice/-/detail/798765-2026",
+      "lang": "en",
+      "publishedAt": "2026-11-17T00:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "米兰两机场授 Vision-Box 687 万欧元建电子闸门",
+    "en": "Milan airports award Vision-Box €6.87m for border eGates",
+    "es": "Los aeropuertos de Milán adjudican a Vision-Box 6,87 M€ para eGates"
+  },
+  "summary": {
+    "zh": "米兰利纳特与马尔彭萨机场运营方 SEA 将边境自助通关闸门合同授给 Vision-Box，金额 686.8 万欧元，欧盟采购公告 11 月 17 日披露。合同含新闸门、旧设备升级，并在马尔彭萨试点前置自助亭与「生物识别走廊」；承接方为 Amadeus 旗下葡萄牙公司，合同期至 2030 年 5 月。",
+    "en": "SEA, operator of Milan's Linate and Malpensa airports, awarded Vision-Box a €6,867,768 contract for automated border control eGates, disclosed in an EU procurement notice on 17 November. The deal covers new gates, upgrades to existing ones, and a trial of pre-border kiosks and a biometric corridor at Malpensa. The Portuguese vendor, owned by Amadeus, was the sole bidder; the contract runs to May 2030.",
+    "es": "SEA, operador de los aeropuertos de Linate y Malpensa en Milán, adjudicó a Vision-Box un contrato de 6.867.768 € para eGates de control fronterizo, revelado en un anuncio de contratación de la UE el 17 de noviembre. El acuerdo incluye nuevas compuertas, mejoras de las existentes y una prueba de quioscos previos y un pasillo biométrico en Malpensa. El proveedor portugués, propiedad de Amadeus, fue el único licitador; el contrato corre hasta mayo de 2030."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "686.8 万欧元的授标",
+        "en": "The €6.87m award",
+        "es": "La adjudicación de 6,87 M€"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "米兰机场运营方 SEA 通过无事先竞争的谈判程序，把边境自动通关闸门合同授给 Vision-Box，金额 686.8 万欧元。欧盟公共采购公告在 11 月 17 日刊出，Vision-Box 是唯一投标人。这家葡萄牙边检公司隶属 Amadeus，自 2018 年起就为利纳特和马尔彭萨机场供应边检闸门。公告列出的合同执行期为 2025 年 12 月 12 日至 2030 年 5 月 31 日。",
+        "en": "Milan airport operator SEA awarded the border control eGate contract to Vision-Box for €6,867,768 through a negotiated procedure without a prior call for competition. The EU procurement notice appeared on 17 November, and Vision-Box was the only bidder. The Portuguese border-control company, owned by Amadeus, has supplied the airports' gates since 2018. The notice lists a contract period from 12 December 2025 to 31 May 2030.",
+        "es": "El operador de los aeropuertos de Milán, SEA, adjudicó el contrato de eGates de control fronterizo a Vision-Box por 6.867.768 € mediante un procedimiento negociado sin convocatoria previa. El anuncio de contratación de la UE apareció el 17 de noviembre y Vision-Box fue el único licitador. La empresa portuguesa, propiedad de Amadeus, suministra las compuertas de los aeropuertos desde 2018. El anuncio fija el periodo de ejecución entre el 12 de diciembre de 2025 y el 31 de mayo de 2030."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "前置自助亭与生物识别走廊试点",
+        "en": "Kiosks and a biometric corridor trial",
+        "es": "Quioscos y una prueba de pasillo biométrico"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "米兰机场的合同范围除新闸门和既有闸门升级外，还包括在马尔彭萨机场试点的前置自助亭和一条「生物识别走廊」。Vision-Box 今年也在都柏林机场为爱尔兰安装了 25 台新建和升级的电子闸门。SEA 的公告没有披露这次试点的旅客处理量或评估标准。",
+        "en": "The Milan contract covers new gates and upgrades to existing ones, plus a trial of pre-border kiosks and a biometric corridor at Malpensa. Vision-Box also installed 25 new and upgraded eGates at Dublin Airport for Ireland this year. SEA's notice does not disclose the trial's passenger throughput or evaluation criteria.",
+        "es": "El contrato de Milán cubre compuertas nuevas y mejoras de las existentes, además de una prueba de quioscos previos y un pasillo biométrico en Malpensa. Vision-Box también instaló 25 eGates nuevos y mejorados en el aeropuerto de Dublín para Irlanda este año. El anuncio de SEA no revela el flujo de pasajeros ni los criterios de evaluación de la prueba."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "米兰这次授标把闸门采购从单点设备扩展为整条通关流程：前置自助亭、通道式生物识别与既有闸门升级被放进同一份 686.8 万欧元合同。对边检集成商而言，竞争单位从「一台闸门」变成「一段旅客流程」，没有前置采集和走廊方案的厂商会被挡在同类招标之外。唯一投标人身份和无事先竞争的谈判程序，说明 SEA 认可 Vision-Box 自 2018 年形成的既有接口，替换成本本身构成壁垒；都柏林等机场的同类升级很可能沿用同一供应关系。需要留意的是，合同期起点早于公告近一年，试点的旅客量与评估口径也未公开，实际部署节奏要看 2030 年前的分批交付。",
+    "en": "The Milan award widens gate procurement from a single device to a whole passage: pre-border kiosks, corridor-style biometrics and upgrades to existing gates sit in one €6.87m contract. For border-integrations vendors the unit of competition shifts from one gate to one passenger journey, and firms without front-end capture or corridor offerings will be shut out of similar tenders. The sole-bidder, no-competition procedure shows SEA values the interfaces Vision-Box has built since 2018; switching cost itself is a barrier, and similar upgrades at Dublin and elsewhere will likely follow the same supplier. Note that the contract period starts almost a year before the notice, and trial throughput and criteria are undisclosed, so the real rollout pace depends on staged delivery through 2030.",
+    "es": "La adjudicación de Milán amplía la compra de compuertas, de un dispositivo aislado a un recorrido completo: quioscos previos, biometría de pasillo y mejoras de compuertas caben en un mismo contrato de 6,87 M€. Para los integradores fronterizos, la unidad de competencia pasa de una compuerta a un trayecto del pasajero, y las firmas sin captura previa ni soluciones de pasillo quedarán fuera de licitaciones similares. El procedimiento con un único licitador y sin competencia previa indica que SEA valora las interfaces que Vision-Box construyó desde 2018; el costo de sustitución es una barrera y las mejoras en Dublín u otros aeropuertos seguirán probablemente al mismo proveedor. Conviene señalar que el contrato arranca casi un año antes del anuncio y que no se publican el flujo ni los criterios de la prueba, por lo que el ritmo real dependerá de las entregas escalonadas hasta 2030."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11-20"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "fetchedAt": "2026-11-20T01:59:15+08:00",
+  "fetchedFor": "2026-11-20",
+  "gap": ["cis", "mena", "north-america", "africa"],
+  "cellGap": [
+    "apac/banking",
+    "apac/identity",
+    "europe/banking",
+    "europe/identity",
+    "latam/telecom",
+    "latam/identity"
+  ],
+  "industryGap": ["identity", "banking", "telecom"],
+  "items": [
+    {
+      "title": "UQPAY 投产 Visa Payment Passkey，线上支付改用设备通行密钥核验持卡人",
+      "url": "https://www.prnasia.com/story/557154-1.shtml",
+      "publishedAt": "2026-11-19T11:07:00+08:00",
+      "industry": "banking",
+      "region": "apac",
+      "actionType": "产品化节点",
+      "gateNote": "最接近产品化节点：有明确产品名与投产状态，但没有客户名、卡量、商户数或认证笔数；本质是 Visa 既有能力在单一发卡机构启用，终审可能按既有能力重复宣传剔除。",
+      "discoveredBy": "\"November 19, 2026\" OR \"November 18, 2026\" paymentsindustryintelligence card issuing tokens contactless launch bank US Canada",
+      "note": "落在银行卡的发卡与持卡人认证环节。UQPAY 把 Visa Payment Passkey 推进到生产环境，线上非面对面交易改用设备绑定通行密钥与生物识别替代短信验证码，并为智能体支付提供持卡人授权确认。原文未列参与商户、发卡量、认证笔数或覆盖卡种与市场。"
+    },
+    {
+      "title": "N26 在德国推出 Aura 账户，配套欧洲首款镜面陶瓷银行卡",
+      "url": "https://assets.ctfassets.net/q33z48p65a6w/2WqV4fP3v6IKfrgLD5GFCG/f006c28ef68102b2168e61c8d2459d67/N26_Press_Release_N26_Aura.pdf",
+      "publishedAt": "2026-11-19T09:00:00+01:00",
+      "industry": "banking",
+      "region": "europe",
+      "actionType": "产品化节点",
+      "gateNote": "最接近产品化节点：有产品名、材质与价格，但无芯片或卡组织参数、产能与客户规模；核心变化是卡基材质加会员权益，终审可能按高端卡包装而非机制变化剔除。原文只给日期，时刻为占位。",
+      "discoveredBy": "\"19 نوفمبر 2026\" بطاقة بنك إصدار محفظة رقمية جواز سفر إلكتروني إطلاق",
+      "note": "落在银行卡载体本身。N26 在德国推出 Aura 账户，配套自称欧洲首款镜面陶瓷卡的卡基，把常用塑料卡体改为陶瓷并叠加会员权益；2027 年 2 月 28 日前开户可免费获卡，账户月费 55 欧元。原文未披露芯片规格、卡组织、制卡供应商、发卡量，也未说明是否支持非接或数字钱包。"
+    },
+    {
+      "title": "IDEMIA 把手机钱包里的 mDL 接进微软 Entra Verified ID 做员工身份核验",
+      "url": "https://www.morningstar.com/news/pr-newswire/20261119ne02611/idemia-public-security-to-bring-mobile-drivers-license-verification-to-the-microsoft-entra-verified-id-ecosystem",
+      "publishedAt": "2026-11-19T09:05:00-05:00",
+      "industry": "identity",
+      "region": "north-america",
+      "actionType": "产品化节点",
+      "gateNote": "最接近产品化节点：有明确产品与 ISO/IEC 18013 标准号，但无客户名单、覆盖州数与核验量；5 月已有自助账户找回能力，本次是功能扩展，终审可能按既有产品迭代剔除。",
+      "discoveredBy": "\"November 19, 2026\" OR \"November 18, 2026\" United States Canada mobile ID driver license DMV launch card issuing processor contactless",
+      "note": "落在身份凭证的核验与受理侧。IDEMIA 把手机钱包中的 mDL 接入微软 Entra Verified ID，按 ISO/IEC 18013 做密码学校验并叠加活体比对，用于远程入职、账户找回与高权限访问，替代实体证件拍照。原文未给客户名单、覆盖州数与核验量，也未说明哪些钱包或机型已完成互操作测试。"
+    },
+    {
+      "title": "乌干达要求银行接入 NIRA 核验系统，身份证核验从读卡面转为按 NIN 查库",
+      "url": "https://www.zawya.com/en/press-release/africa-press-releases/uganda-new-national-identification-and-registration-authority-nira-system-set-to-tighten-security-in-banking-transactions-2371691",
+      "publishedAt": "2026-11-18T18:51:00+01:00",
+      "industry": "identity",
+      "region": "africa",
+      "actionType": "无",
+      "gateNote": "六类都不贴：这是议会答复中对既有核验制度的执行进度通报，无新授标、版本号或上线日；终审可能按政策表态或旧制度复述剔除。",
+      "discoveredBy": "\"18 de noviembre de 2026\" OR \"19 de noviembre de 2026\" tarjeta SUNAT RENIEC DNI emisión banco tarjetacontactless lanzamiento",
+      "note": "落在身份证件的受理核验环节。内政部长 11 月 18 日议会答复称，银行与电信机构须把 NIRA 的国家安全信息系统接进自身系统，只凭 NIN 向数据库取数，不再依赖读取证件表面信息，核验端点移到后台。原文称已向 107 家伙伴下发对接指引、截至 10 月 28 日仅 10 家在系统中交易；未给强制切换日、银行名单或罚则。"
+    },
+    {
+      "title": "利比里亚议会退回与 OeSD 的 5200 万美元国家数字身份证特许合同",
+      "url": "https://www.biometricupdate.com/202611/liberian-parliament-rejects-52m-national-digital-id-contract-proposal",
+      "publishedAt": "2026-11-18T12:53:00-05:00",
+      "industry": "identity",
+      "region": "africa",
+      "actionType": "无",
+      "gateNote": "方向最接近授标但恰好相反：这是否决而非中标，缺承接方落实与交割节点；金额与分成可核，终审可能按采购争议或政治新闻剔除。",
+      "discoveredBy": "site:biometricupdate.com 202611 \"Nov 19, 2026\" digital ID contract OR issuance OR e-gate",
+      "note": "落在国家身份证的签发与个性化基础设施。利比里亚众议院把与奥地利 OeSD 的 5200 万美元、十年 BOT 特许合同退回总统重谈，委员会列出 40 多项采购违规并质疑生物数据主权；OeSD 报告十年收入约 1.07 亿美元，公司分 6950 万、政府分 3740 万。原文未说明重谈时间表、是否重新招标或本地厂商能否接盘。"
+    },
+    {
+      "title": "埃及首次上线海员护照与适任证书电子签发，附二维码即时验真",
+      "url": "https://see.news/egypt-launches-online-seafarers-passport-issuance-renewal-services",
+      "publishedAt": "2026-11-19T01:39:00+02:00",
+      "industry": "identity",
+      "region": "mena",
+      "actionType": "无",
+      "gateNote": "最接近产品化节点：有首次上线日与具体功能，但只是流程上云，没有版本号、承建方或处理量；终审可能按政务服务公告剔除。原文时刻按站点本地时区记录。",
+      "discoveredBy": "\"November 19, 2026\" UAE OR Saudi OR Jordan OR Egypt launched card biometric ID payment tokenization bank customer",
+      "note": "落在护照与海事证件的签发环节。埃及交通部 11 月 19 日首次把海员护照的首次签发、续期与损毁换发，以及适任证书等搬上海事安全局网站，可全天在线提交并缴费，签发证书附二维码供即时验真。原文未给系统承建方、上线证件数量、办理时长，也未说明纸质证件是否停用。"
+    },
+    {
+      "title": "意法半导体给 ST87M01 加 Onomondo SoftSIM 与 SGP.32 工厂端 profile 预置",
+      "url": "https://www.21ic.com/a/1016888.html",
+      "publishedAt": "2026-11-19T19:40:00+08:00",
+      "industry": "telecom",
+      "region": "global",
+      "actionType": "产品化节点",
+      "gateNote": "最接近产品化节点：有产品名、标准号与封装参数，但无客户与出货量；演示发生在 11 月 10–12 日展会、早于公告一周，本质为模块选配，终审可能按展会展示剔除。",
+      "discoveredBy": "\"November 18, 2026\" OR \"November 19, 2026\" eSIM SGP.32 iSIM launch operator certification Mobile World Live TelecomReview",
+      "note": "落在 SIM/eSIM 载体与 profile 分发环节。意法半导体为 ST87M01 NB-IoT 模块增加 Onomondo SoftSIM 软件 SIM、基于 SGP.32 的工厂端 profile 预置和 Zephyr 驱动，厂商可在产线按运营商下载配置，无需为不同运营商备货；模块为 12.8×10.6mm LGA、LTE Cat NB2 Rel 15。原文未给客户、出货量或商用时间。"
+    },
+    {
+      "title": "MagTek 让 DynaFlex II Go 读卡器固件升级后同时核验 mDL 与银行卡",
+      "url": "https://www.biometricupdate.com/202611/us-mobile-id-adoption-advances-across-retail-government-and-enterprise-systems",
+      "publishedAt": "2026-11-19T08:58:00-05:00",
+      "industry": "banking",
+      "region": "north-america",
+      "actionType": "产品化节点",
+      "gateNote": "最接近产品化节点：有产品名与固件升级方式，但无客户、装机量与价格；且与同篇 IDEMIA 与州级 mDL 消息属同一趋势，终审可能按重复事件线只留一条。",
+      "discoveredBy": "\"18 November 2026\" OR \"19 November 2026\" \"mDL issuance\" OR \"verifiable credential\" pilot launch wallet government age assurance certification",
+      "note": "落在卡受理终端。MagTek 宣布 DynaFlex II Go 读卡器只需固件升级即可同时读取 mDL、数字护照与实体卡，按 ISO/IEC 18013-5 做密码学验真，同时保留 NFC 非接、EMV 接触与非接及磁条，内置码枪可扫 PDF417、QR 与 Aztec。原文未给升级可用日期、终端装机量、商户名单或价格。"
+    }
+  ]
+}

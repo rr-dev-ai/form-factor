@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-20-telecom-03",
+  "slug": "orange-spain-skylo-ntn-iot-cattle",
+  "industry": "telecom",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "satellite",
+    "rsp"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-20T04:28:34+08:00",
+  "ingestedAt": "2026-11-20T02:50:27+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Mobile World Live",
+      "url": "https://www.mobileworldlive.com/industry/orange-spain-skylo-partner-on-cattle-tracking-trial/",
+      "lang": "en",
+      "publishedAt": "2026-11-19T13:40:53.000Z"
+    },
+    {
+      "name": "Light Reading",
+      "url": "https://www.lightreading.com/satellite/eurobites-orange-spain-to-track-cattle-with-skylo-s-satellites",
+      "lang": "en",
+      "publishedAt": "2026-11-19T11:29:23.000Z"
+    }
+  ],
+  "title": {
+    "zh": "Orange 西班牙与 Skylo 用标准 SIM 试卫星追踪牧牛",
+    "en": "Orange Spain and Skylo trial satellite IoT cattle tracking with standard SIM",
+    "es": "Orange España y Skylo prueban seguimiento satelital de ganado con SIM estándar"
+  },
+  "summary": {
+    "zh": "Skylo、Orange 西班牙与畜牧科技公司 Digitanimal 在加利西亚山区启动卫星物联网试点：给放养牛戴智能项圈采集定位与活动数据，连接走标准 SIM 接入开放 3GPP 标准的非地面网络，无需专用硬件或另建独立网络。",
+    "en": "Skylo, Orange Spain and livestock technology firm Digitanimal have launched a satellite IoT pilot in a mountainous region of Galicia: smart collars gather location and activity data from free-range cattle, connecting over standard SIMs to a non-terrestrial network built on open 3GPP standards, without dedicated hardware or a separate network.",
+    "es": "Skylo, Orange España y la empresa ganadera tecnológica Digitanimal han lanzado un piloto de IoT satelital en una zona montañosa de Galicia: collares inteligentes recogen datos de ubicación y actividad del ganado en libertad, conectados mediante SIM estándar a una red no terrestre basada en normas abiertas 3GPP, sin hardware específico ni una red separada."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Skylo Technologies、Orange 西班牙与 Digitanimal 于 2026 年 11 月 19 日公布在加利西亚 Serra do Xistral 山区启动卫星物联网试点：给放养牛佩戴智能项圈，采集 GPS 位置与活动数据，用于牧群管理、健康监测和降低运营成本。",
+        "en": "Skylo Technologies, Orange Spain and Digitanimal disclosed on 19 November 2026 a satellite IoT pilot in the mountainous Serra do Xistral area of Galicia: smart collars on free-range cattle collect GPS location and activity data for herd management, health monitoring and lower operating costs.",
+        "es": "Skylo Technologies, Orange España y Digitanimal anunciaron el 19 de noviembre de 2026 un piloto de IoT satelital en la zona montañosa de Serra do Xistral, en Galicia: collares inteligentes en ganado en libertad recopilan datos de ubicación GPS y actividad para la gestión de rebaños, el control sanitario y la reducción de costes."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "试点验证基于开放 3GPP 标准的非地面网络（NTN）物联网连接，目的是在常规移动网络覆盖不到的山区继续追踪资产。Skylo 欧洲、中东与非洲业务负责人 Nisha Malhan 表示，方案使用标准 SIM 连接，不需要专用硬件，也不必管理一张独立网络。",
+        "en": "The pilot validates non-terrestrial network (NTN) IoT connectivity based on open 3GPP standards, aiming to keep tracking assets in mountains beyond ordinary mobile coverage. Nisha Malhan, Skylo's director of business development for EMEA, said the setup uses standard SIM connectivity without requiring dedicated hardware or managing an independent network.",
+        "es": "El piloto valida la conectividad IoT de red no terrestre (NTN) basada en normas abiertas 3GPP, con el objetivo de seguir rastreando activos en montañas fuera de la cobertura móvil habitual. Nisha Malhan, directora de desarrollo empresarial de Skylo para EMEA, explicó que la solución usa conectividad SIM estándar sin exigir hardware específico ni gestionar una red independiente."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Orange 西班牙企业、数字与增长业务负责人 Victor del Pozo 说，该公司的方向是把卫星连接与自有 5G 网络放在开放、多厂商的生态里，同时支持 GEO 与 LEO 卫星，并与地面移动网络无缝整合。Digitanimal 提供动物追踪项圈和配套数字平台。",
+        "en": "Victor del Pozo, Orange Spain's director of B2B, digital and growth, said the company's direction is to combine satellite connectivity with its own 5G network in an open, multi-vendor ecosystem that supports both GEO and LEO satellites and integrates them with the terrestrial mobile network. Digitanimal supplies the animal-tracking collars and the accompanying digital platform.",
+        "es": "Victor del Pozo, director de B2B, digital y crecimiento de Orange España, explicó que la línea de la compañía es combinar la conectividad satelital con su propia red 5G en un ecosistema abierto y multiproveedor que admita satélites GEO y LEO y los integre con la red móvil terrestre. Digitanimal aporta los collares de seguimiento animal y la plataforma digital asociada."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公告把这次项目定位为验证性试验，没有披露项圈数量、试点期限、资费或商用时间表，也没有说明使用哪颗卫星、哪个 NTN 频段，或标准 SIM 的 profile 由哪一方管理。",
+        "en": "The partners frame the project as a validation trial and disclose no collar count, trial duration, pricing or commercial timetable. They also do not say which satellite or NTN frequency band is used, or which party manages the profile on the standard SIM.",
+        "es": "Los socios presentan el proyecto como un ensayo de validación y no revelan el número de collares, la duración de la prueba, los precios ni un calendario comercial. Tampoco indican qué satélite o banda de frecuencia NTN se utiliza, ni qué parte gestiona el perfil de la SIM estándar."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这次试点的意义不在养牛本身，而在它验证标准 SIM 能否直接跑在 3GPP 非地面网络上：如果成立，物联网集成商不必为卫星场景另做一套专用硬件和网络，现有 SIM 供应链与 profile 管理方式可以沿用。技术上的待核验点是山区环境下的连接稳定性、终端功耗与资费，公告均未给出数据。市场上，Orange 西班牙明确要同时接入 GEO 和 LEO 并与自有 5G 整合，若路线跑通，卫星连接会从独立产品变成运营商现有物联网套餐的覆盖范围补充，直接冲击只卖专用卫星终端的供应商。",
+    "en": "The value of this trial is not cattle but whether a standard SIM can run directly over a 3GPP non-terrestrial network. If it holds, IoT integrators avoid building separate hardware and a separate network for satellite use cases and can reuse the existing SIM supply chain and profile management. Open questions are link reliability in mountainous terrain, device power draw and pricing — none are quantified in the announcement. In the market, Orange Spain explicitly wants to combine GEO and LEO satellites with its own 5G; if that works, satellite connectivity shifts from a stand-alone product into coverage added to an operator's existing IoT plan, putting direct pressure on vendors selling dedicated satellite terminals.",
+    "es": "El valor de este piloto no está en el ganado sino en comprobar si una SIM estándar puede funcionar directamente sobre una red no terrestre 3GPP. Si se confirma, los integradores IoT evitarían crear hardware y una red separados para casos satelitales y podrían reutilizar la cadena de suministro de SIM y la gestión de perfiles. Las incógnitas abiertas son la fiabilidad del enlace en terreno montañoso, el consumo del dispositivo y los precios, sin cifras en el anuncio. En el mercado, Orange España quiere combinar satélites GEO y LEO con su propia red 5G; si funciona, la conectividad satelital pasaría de producto independiente a cobertura añadida al plan IoT de un operador, presionando a los vendedores de terminales satelitales dedicados."
+  },
+  "confidence": 0.58,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-telecom-2026-11-20"
+  }
+}

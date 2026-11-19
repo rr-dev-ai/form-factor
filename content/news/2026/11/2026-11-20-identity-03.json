@@ -1,0 +1,89 @@
+{
+  "id": "2026-11-20-identity-05",
+  "slug": "tanzania-nida-laser-card-line-2800-per-hour",
+  "industry": "identity",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "secure-chip",
+    "mobile-id"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-20T04:28:34+08:00",
+  "ingestedAt": "2026-11-20T03:10:09+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/tanzania-launches-new-national-id-card-with-eight-data-sections-and-a-nida-wallet-app/",
+      "lang": "en",
+      "publishedAt": "2026-11-19T00:00:00Z"
+    },
+    {
+      "name": "EMPTECH",
+      "url": "https://emperortech.com/news/company-news/Tanzania-Next-Generation-National-eID-and-NIDA-Wallet.html",
+      "lang": "en",
+      "publishedAt": "2026-11-18T00:00:00Z"
+    },
+    {
+      "name": "The Respondent",
+      "url": "https://www.therespondents.co.tz/2026/11/tanzania-spends-tzs30bn-on-new-national.html",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "坦桑尼亚投 300 亿先令升级身份证产线，信息激光内刻",
+    "en": "Tanzania spends 30bn shillings on ID card line with laser layer engraving",
+    "es": "Tanzania invierte 30.000 millones de chelines en una línea de carnés con grabado láser"
+  },
+  "summary": {
+    "zh": "坦桑尼亚总理姆维古卢在基巴哈启动 2026 版国民身份证系统：投入超过 300 亿先令，新增 5 台制卡机，合计每小时 2800 张。新机把个人信息与照片用激光刻进卡片层内，不再用油墨印在表面；卡片预留 8 个数字应用位，是旧版的两倍。同期推出 NIDA Wallet 手机应用。",
+    "en": "Prime Minister Mwigulu Nchemba launched the 2026 national ID card system in Kibaha with more than 30bn shillings invested, five new card production machines and a combined capacity of 2,800 cards per hour. The machines engrave personal data and photos inside the card layers with laser rather than printing ink on the surface. Cards carry eight slots for digital applications, double the previous four, and a NIDA Wallet app was launched alongside.",
+    "es": "El primer ministro Mwigulu Nchemba lanzó en Kibaha el sistema de carné nacional 2026 con más de 30.000 millones de chelines invertidos, cinco máquinas nuevas y una capacidad conjunta de 2.800 tarjetas por hora. Las máquinas graban con láser los datos y la foto dentro de las capas de la tarjeta, en lugar de imprimirlos con tinta en la superficie. Los carnés tienen ocho espacios para aplicaciones digitales, el doble que antes, y se presentó la aplicación NIDA Wallet."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "五台机器与层内刻蚀",
+        "en": "Five machines and layer engraving",
+        "es": "Cinco máquinas y grabado en las capas"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "坦桑尼亚国家身份管理局局长詹姆斯·卡吉披露，这次升级投入超过 300 亿先令，用于新卡和 5 台现代化制卡机，合计产能为每小时 2800 张。新机用激光把姓名、照片等个人信息刻进卡片各层之间，而不是像旧工艺那样把油墨印在卡面。管理局的说法是，信息被封进层内后更耐磨，也更难伪造。卡片还把可供加载数字应用的位置从 4 个增加到 8 个。",
+        "en": "National Identification Authority director general James Kaji said the upgrade put more than 30bn shillings into new cards and five modern production machines, with a combined capacity of 2,800 cards per hour. The machines use laser to engrave names, photos and other personal data between the card layers instead of printing ink on the surface. The authority says sealing data inside the layers improves durability and makes the cards harder to counterfeit. The cards also double the slots for digital applications from four to eight.",
+        "es": "El director general de la Autoridad Nacional de Identificación, James Kaji, indicó que la actualización destinó más de 30.000 millones de chelines a nuevos carnés y cinco máquinas modernas, con una capacidad conjunta de 2.800 tarjetas por hora. Las máquinas graban con láser nombres, fotos y otros datos personales entre las capas, en lugar de imprimir con tinta en la superficie. La autoridad sostiene que sellar los datos dentro de las capas mejora la durabilidad y dificulta la falsificación. Los carnés también duplican de cuatro a ocho los espacios para aplicaciones digitales."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "钱包与换卡边界",
+        "en": "The wallet and the replacement line",
+        "es": "La cartera y el límite de sustitución"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "坦桑尼亚国家身份管理局同批发布的 NIDA Wallet 让持有人把身份信息存进手机，在办理服务时出示核验，但实际可用要看各机构先把系统对接起来。内政部长帕特罗巴斯·卡坦比明确，新卡上市不使旧证失效，卡况良好的持有人不必因为出了新版本就去换卡。健康保险、驾照和交通服务的并入将分阶段推进，取决于机构系统准备、部门间协议和法律要求。升级版国民身份证由总理姆维古卢·恩切姆巴代表总统萨米娅在海岸省基巴哈启动。",
+        "en": "Tanzania's NIDA released the NIDA Wallet alongside lets holders keep identity data on a phone and present it for verification when accessing services, though use depends on institutions connecting their systems first. Home Affairs Minister Patrobas Katambi said the new card does not invalidate earlier ones, and holders with cards in good condition need not replace them just because a new version exists. Folding in health insurance, driving licences and transport services will happen in stages, subject to institutional readiness, inter-agency agreements and legal requirements. Prime Minister Mwigulu Nchemba launched the upgraded card in Kibaha, Coast Region, on behalf of President Samia.",
+        "es": "La Autoridad Nacional de Identificación de Tanzania presentó al mismo tiempo la NIDA Wallet permite llevar los datos de identidad en el teléfono y mostrarlos para verificarlos al acceder a servicios, aunque su uso depende de que las instituciones conecten antes sus sistemas. El ministro del Interior, Patrobas Katambi, aclaró que el nuevo carné no invalida los anteriores y quienes tengan un documento en buen estado no deben sustituirlo solo por que exista una versión nueva. La incorporación de seguro de salud, licencias de conducir y transporte se hará por etapas, según la preparación de los organismos, los acuerdos entre ellos y los requisitos legales. El primer ministro Mwigulu Nchemba lanzó la tarjeta mejorada en Kibaha, región costera, en nombre de la presidenta Samia."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这条变化落在制证工艺上，不是发卡渠道上。层内激光刻蚀把个人信息从可读的卡面移进卡体内部，直接影响的是证件防伪的验证方式：受理端今后要检查的是层间图像和激光特征，而不是仅看印刷网点。5 台机器合计每小时 2800 张的产能，决定了新增申请能否在合理时间内消化，也决定政府有没有余力承接健康保险、驾照等其他证件的个性化。对制卡设备与耗材供应商而言，8 个数字应用位是明确的技术门槛——旧卡只有 4 个，新卡的数据结构和个性化流程都要重做。需要留意的是，官方明说旧证继续有效，换卡不是强制的，所以产线利用率取决于新申请量而非存量替换。",
+    "en": "This change is in card production, not in the issuing channel. Laser engraving inside the layers moves personal data from a readable surface into the body of the card, which changes how authenticity is checked: acceptance points will need to inspect inter-layer images and laser features rather than printed dot patterns. The combined 2,800 cards per hour across five machines sets how fast new applications can be cleared and whether the government has spare capacity to personalise other credentials such as health insurance and driving licences. For equipment and consumables suppliers, the eight application slots are a concrete technical threshold: the old cards had four, so both data structures and personalisation flows have to be rebuilt. Note that the authorities explicitly said older cards stay valid and replacement is voluntary, so line utilisation will track new applications rather than a stock swap.",
+    "es": "El cambio está en la fabricación, no en el canal de emisión. El grabado láser dentro de las capas traslada los datos personales de una superficie legible al interior de la tarjeta y modifica cómo se comprueba la autenticidad: los puntos de aceptación deberán inspeccionar imágenes intercapa y rasgos láser, no solo tramas de impresión. La capacidad conjunta de 2.800 tarjetas por hora en cinco máquinas fija la rapidez con que se pueden tramitar solicitudes nuevas y si el gobierno le sobra capacidad para personalizar otros documentos, como el seguro de salud o las licencias. Para proveedores de equipos y consumibles, los ocho espacios de aplicación son un umbral técnico concreto: los carnés anteriores tenían cuatro, por lo que hay que refacer estructuras de datos y flujos de personalización. Conviene señalar que las autoridades dijeron que los carnés antiguos siguen vigentes y la sustitución es voluntaria, así que el uso de la línea dependerá de las solicitudes nuevas y no de un recambio del parque."
+  },
+  "confidence": 0.74,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11-20"
+  }
+}

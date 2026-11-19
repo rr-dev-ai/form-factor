@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-20-banking-01",
+  "slug": "alipay-plus-pix-brazil-wallet-gateway",
+  "industry": "banking",
+  "region": "latam",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-20T04:28:34+08:00",
+  "ingestedAt": "2026-11-20T02:39:37+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Fintech News Singapore",
+      "url": "https://fintechnews.sg/141905/payments/alipay-plus-pix-brazil-cross-border-qr/",
+      "lang": "en",
+      "publishedAt": "2026-11-19T08:39:44.000Z"
+    },
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/digital-payments/2026/alipay-links-its-global-wallet-gateway-to-brazils-pix/",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "蚂蚁 Alipay+ 接通巴西 Pix，50 多个钱包可扫码",
+    "en": "Ant's Alipay+ connects to Brazil's Pix, letting 50-plus wallets scan QR codes",
+    "es": "Alipay+ de Ant se conecta a Pix de Brasil y permite pagar con más de 50 monederos"
+  },
+  "summary": {
+    "zh": "蚂蚁国际 11 月 19 日宣布，其 Alipay+ 钱包网关已接通巴西国家即时支付系统 Pix。Alipay+ 连接 50 多个数字钱包与银行 App、覆盖 21 亿用户账户，Pix 成为其接入的第 16 个国家级二维码支付方案。出境游客可用本国钱包扫描 Pix 二维码付款，无需下载新应用。",
+    "en": "Ant International said on 19 November that its Alipay+ wallet gateway has connected to Pix, Brazil's national instant payment system. Alipay+ links more than 50 digital wallets and banking apps covering 2.1 billion user accounts, and Pix is the 16th national QR payment scheme in its network. Overseas travellers can scan Pix codes with their home wallets without downloading a new app.",
+    "es": "Ant International anunció el 19 de noviembre que su pasarela de monederos Alipay+ se ha conectado a Pix, el sistema de pago instantáneo nacional de Brasil. Alipay+ enlaza más de 50 monederos digitales y aplicaciones bancarias con 2.100 millones de cuentas de usuario, y Pix es el decimosexto esquema nacional de pago con código QR en su red. Los viajeros pueden escanear códigos Pix con su monedero habitual sin descargar una aplicación nueva."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "蚂蚁国际于 11 月 19 日宣布，Alipay+ 钱包网关已接通巴西中央银行建设运营的 Pix 国家即时支付系统。通过在巴西的支付伙伴，Alipay+ 把境外钱包与银行 App 接入 Pix 的二维码受理网络。",
+        "en": "Ant International announced on 19 November that its Alipay+ wallet gateway has connected to Pix, the national instant payment system built and operated by the Central Bank of Brazil. Through payment partners in Brazil, Alipay+ brings overseas wallets and banking apps into the Pix QR acceptance network.",
+        "es": "Ant International anunció el 19 de noviembre que su pasarela de monederos Alipay+ se ha conectado a Pix, el sistema de pago instantáneo nacional construido y operado por el Banco Central de Brasil. A través de socios de pago en Brasil, Alipay+ integra monederos y aplicaciones bancarias extranjeras en la red de aceptación de códigos QR de Pix."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Alipay+ 目前连接 50 多个数字钱包与银行 App，覆盖 1.5 亿商户与 21 亿用户账户。Pix 是它接入的第 16 个国家级二维码支付方案，此前该网络已覆盖亚洲、中东与拉美的其他国家级系统。蚂蚁国际称该服务使用其 AI 原生支付与风险管理能力。",
+        "en": "Alipay+ connects more than 50 digital wallets and banking apps, covering 150 million merchants and 2.1 billion user accounts. Pix is the 16th national QR payment scheme in its network, which already spans other national systems across Asia, the Middle East and Latin America. Ant International says the service uses its AI-native payment and risk management capabilities.",
+        "es": "Alipay+ conecta más de 50 monederos digitales y aplicaciones bancarias, con 150 millones de comercios y 2.100 millones de cuentas de usuario. Pix es el decimosexto esquema nacional de pago con código QR en su red, que ya abarca otros sistemas nacionales de Asia, Oriente Medio y América Latina. Ant International afirma que el servicio usa sus capacidades de pago y gestión de riesgos nativas de IA."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "游客在巴西的商店、餐厅与景点可用本国钱包扫描 Pix 二维码付款，不必下载当地应用。这一机制与 11 月 13 日上线的微信支付直连 Pix 不同：微信支付是单一钱包接入，Alipay+ 是把多个钱包聚合到同一网关，商户侧看到的是统一的跨境二维码受理。",
+        "en": "Travellers can scan Pix QR codes at shops, restaurants and attractions across Brazil using their home wallets, with no local app download. The mechanism differs from WeChat Pay's direct Pix connection launched on 13 November: WeChat Pay is a single wallet connecting to Pix, while Alipay+ aggregates multiple wallets behind one gateway, so merchants see a unified cross-border QR acceptance flow.",
+        "es": "Los viajeros pueden escanear códigos QR de Pix en tiendas, restaurantes y atracciones de Brasil con su monedero habitual, sin descargar una aplicación local. Este mecanismo difiere de la conexión directa de WeChat Pay a Pix, lanzada el 13 de noviembre: WeChat Pay es un único monedero conectado a Pix, mientras que Alipay+ agrupa varios monederos tras una sola pasarela, de modo que los comercios ven un flujo de aceptación QR transfronterizo unificado."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对巴西商户与收单机构而言，Alipay+ 的接入把入境游客的付款渠道从单一的微信支付钱包扩展到 50 多个境外钱包，同一套 Pix 二维码即可受理，不必为每个钱包单独布码。对钱包运营商而言，第 16 个国家级二维码方案意味着跨境受理网络继续扩大，中小商户也能通过现有 Pix 受理点触达境外客群。受理侧的连接并不改变资金结算路径，结算仍经由 Alipay+ 的支付伙伴完成；后续值得观察的是各钱包的汇率与手续费如何定价，以及这一网关能否复制到其他拉美市场的即时支付系统。",
+    "en": "For Brazilian merchants and acquirers, the Alipay+ link widens inbound-tourist payments from a single WeChat Pay wallet to more than 50 overseas wallets, all accepted through the same Pix QR codes with no separate codes per wallet. For wallet operators, the 16th national QR scheme extends the cross-border acceptance network, letting smaller merchants reach foreign customers through existing Pix acceptance points. The connection on the acceptance side does not change the settlement path, which still runs through Alipay+ payment partners. What to watch is how each wallet prices FX and fees, and whether the gateway can be replicated to other instant payment systems in Latin America.",
+    "es": "Para los comercios y adquirentes brasileños, la conexión de Alipay+ amplía los pagos de turistas entrantes desde un único monedero WeChat Pay a más de 50 monederos extranjeros, todos aceptados con los mismos códigos QR de Pix sin códigos separados por monedero. Para los operadores de monederos, el decimosexto esquema QR nacional amplía la red de aceptación transfronteriza y permite a pequeños comercios llegar a clientes extranjeros mediante puntos Pix existentes. La conexión del lado de la aceptación no cambia la ruta de liquidación, que sigue pasando por los socios de pago de Alipay+. Conviene observar cómo fija cada monedero el cambio y las comisiones, y si la pasarela puede replicarse en otros sistemas de pago instantáneo de América Latina."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

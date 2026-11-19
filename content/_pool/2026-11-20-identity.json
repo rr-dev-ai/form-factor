@@ -1,0 +1,349 @@
+{
+  "date": "2026-11-20",
+  "industry": "identity",
+  "startedAt": "2026-11-20T03:10:09+08:00",
+  "drafts": [
+    {
+      "id": "2026-11-20-identity-03",
+      "slug": "five-states-join-utah-sedi-digital-identity",
+      "industry": "identity",
+      "region": "north-america",
+      "regions": [],
+      "tags": [
+        "mobile-id",
+        "verification",
+        "pki"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "ID Tech",
+          "url": "https://idtechwire.com/colorado-delaware-massachusetts-oklahoma-and-wyoming-join-utah-on-state-endorsed-digital-identity/",
+          "lang": "en",
+          "publishedAt": "2026-11-19T00:00:00Z"
+        },
+        {
+          "name": "KPCW",
+          "url": "https://www.kpcw.org/state-regional/2026-11-18/five-states-join-utah-in-effort-to-create-digital-id-program"
+        }
+      ],
+      "title": {
+        "zh": "科罗拉多等五州加入犹他州背书数字身份框架",
+        "en": "Five US states join Utah's state-endorsed digital identity framework",
+        "es": "Cinco estados de EE. UU. se suman al marco de identidad digital de Utah"
+      },
+      "summary": {
+        "zh": "犹他州州长 Spencer Cox 宣布，科罗拉多、特拉华、马萨诸塞、俄克拉荷马和怀俄明五州正与犹他合作开发州背书数字身份 SEDI 框架。SEDI 由州政府签发可证明年龄或居住等事实的凭证，支持选择性披露、双向核验和离线使用；犹他计划 1 月用它取代本州手机驾照项目。",
+        "en": "Utah governor Spencer Cox announced that Colorado, Delaware, Massachusetts, Oklahoma and Wyoming are working with Utah to develop the state-endorsed digital identity (SEDI) framework. SEDI uses state-signed credentials that prove facts such as age or residency, with selective disclosure, two-way verification and offline use. Utah plans to replace its mobile driver's licence programme with SEDI in January.",
+        "es": "El gobernador de Utah, Spencer Cox, anunció que Colorado, Delaware, Massachusetts, Oklahoma y Wyoming trabajan con Utah en el marco de identidad digital respaldado por el estado (SEDI). SEDI usa credenciales firmadas por el estado que prueban hechos como la edad o la residencia, con divulgación selectiva, verificación bidireccional y uso sin conexión. Utah planea sustituir su programa de carné de conducir móvil por SEDI en enero."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "五州加入开发",
+            "en": "Five states join the effort",
+            "es": "Cinco estados se suman"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "犹他州州长 Spencer Cox 在 Park City 举行的 SEDI 峰会上宣布，科罗拉多、特拉华、马萨诸塞、俄克拉荷马和怀俄明五州正与犹他合作开发州背书数字身份 SEDI 框架。Cox 把 SEDI 定位为数字公共基础设施，目标是让个人在使用凭证时也能核验索取方身份与权限。犹他计划 1 月用 SEDI 取代本州现行的手机驾照项目。",
+            "en": "Utah governor Spencer Cox told the Park City SEDI summit that Colorado, Delaware, Massachusetts, Oklahoma and Wyoming are working with Utah to develop the state-endorsed digital identity framework. Cox described SEDI as digital public infrastructure in which a person can also verify who is asking for their identity and whether that party has authority. Utah plans to replace its current mobile driver's licence programme with SEDI in January.",
+            "es": "El gobernador de Utah, Spencer Cox, anunció en la cumbre SEDI de Park City que Colorado, Delaware, Massachusetts, Oklahoma y Wyoming trabajan con Utah en el marco de identidad digital respaldado por el estado. Cox describió SEDI como infraestructura digital pública en la que la persona también puede verificar quién pide su identidad y si tiene autoridad. Utah planea sustituir su actual programa de carné móvil por SEDI en enero."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "选择性披露与双向核验",
+            "en": "Selective disclosure and two-way checks",
+            "es": "Divulgación selectiva y verificación bidireccional"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "SEDI 的凭证由州政府签署，只证明州里已掌握的事实，例如年龄或居住情况；持有人可选择披露内容，能证明已满 21 岁而不透露姓名、地址和出生日期，签发机构也不会知道凭证在哪里被使用。犹他官方称凭证支持离线出示。该州的《数字身份权利法案》要求这类项目必须自愿，法律也禁止政府追踪身份证的使用时间和地点。Cox 10 月已签署行政令，要求州政府机构在适用场景下采用 SEDI 作为信任基础设施。",
+            "en": "SEDI credentials are signed by the state and prove only facts the state already holds, such as age or residency. Holders choose what to disclose and can prove they are over 21 without revealing name, address or date of birth, and the issuer is not told where the credential was used. Utah's official site says the ID works offline. The state's Digital Identity Bill of Rights makes such programmes optional and state law bars tracking when and where IDs are used. Cox signed an executive order in October directing state agencies to use SEDI as trust infrastructure where applicable.",
+            "es": "Las credenciales SEDI están firmadas por el estado y prueban solo hechos que el estado ya posee, como la edad o la residencia. Los titulares eligen qué divulgar y pueden demostrar que son mayores de 21 años sin revelar nombre, dirección ni fecha de nacimiento; el emisor no sabe dónde se usó la credencial. El sitio oficial de Utah afirma que el documento funciona sin conexión. La Ley de Derechos de Identidad Digital del estado hace opcionales estos programas y prohíbe rastrear cuándo y dónde se usan. Cox firmó en octubre una orden ejecutiva que instruye a las agencias estatales a usar SEDI como infraestructura de confianza cuando proceda."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "SEDI 与手机驾照的关键差别在核验方向：凭证证明持有人事实的同时，也要求索要方证明自己有权索取，这把 mDL 生态里长期缺失的双向核验写进州级框架。对身份钱包和凭证集成商而言，选择性披露、离线出示和防追踪三项会成为后续州际互操作的硬指标，只做实体证电子化的产品难以满足。五州以「合作开发」加入而非采购，说明框架仍在成形，真正的产品化落点要看犹他 1 月替换手机驾照后的接口与厂商名单；此前 25 个州参加过 4 月的聚会，Kantara Initiative 是联盟挂靠方，后续扩展路径已具备组织基础。",
+        "en": "The key difference between SEDI and a mobile driver's licence is the direction of verification: while the credential proves facts about the holder, it also requires the party asking to prove it has authority, writing the two-way check that the mDL ecosystem has long lacked into a state framework. For wallet and credential integrators, selective disclosure, offline presentation and anti-tracking become hard requirements for any later interstate interoperability, which pure digitised-card products cannot meet. The five states joined through a development effort rather than procurement, so the framework is still taking shape; the real productisation point comes with the interfaces and vendor list after Utah replaces its mDL in January. Twenty-five states attended an April gathering and the Kantara Initiative hosts the consortium, giving the expansion an organisational base.",
+        "es": "La diferencia clave entre SEDI y un carné de conducir móvil está en la dirección de la verificación: la credencial prueba hechos del titular y exige además que quien la pide demuestre su autoridad, incorporando a un marco estatal la verificación bidireccional que el ecosistema mDL llevaba tiempo sin tener. Para integradores de carteras y credenciales, la divulgación selectiva, la presentación sin conexión y la prevención del rastreo serán requisitos duros de la futura interoperabilidad entre estados, que los productos que solo digitalizan el carné no satisfacen. Los cinco estados se sumaron mediante un esfuerzo de desarrollo y no una compra, así que el marco aún se forma; el verdadero punto de productización llegará con las interfaces y los proveedores tras la sustitución del mDL en Utah en enero. Veinticinco estados asistieron a una reunión en abril y la Kantara Initiative acoge al consorcio, lo que da base organizativa a la expansión."
+      },
+      "confidence": 0.58,
+      "ai": {
+        "model": "claude-opus-6",
+        "promptVersion": "identity-editor-2026-11-20"
+      }
+    },
+    {
+      "id": "2026-11-20-identity-07",
+      "slug": "moldova-border-biometric-kits-eight-crossings",
+      "industry": "identity",
+      "region": "europe",
+      "regions": [],
+      "tags": [
+        "verification",
+        "biometrics",
+        "passport"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "Biometric Update",
+          "url": "https://www.biometricupdate.com/202611/moldova-expands-biometric-border-checks-with-us-funded-equipment",
+          "lang": "en",
+          "publishedAt": "2026-11-17T14:24:00Z"
+        },
+        {
+          "name": "IOM Moldova",
+          "url": "https://moldova.iom.int/ro/news/politia-de-frontiera-din-moldova-primit-echipamente-specializate-cu-sprijinul-guvernului-sua-si-oim",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "摩尔多瓦八个口岸换装，美方出资经 IOM 交付",
+        "en": "Moldova fits out eight border crossings with US-funded document and biometric kits",
+        "es": "Moldavia equipa ocho pasos fronterizos con equipos financiados por EE. UU."
+      },
+      "summary": {
+        "zh": "摩尔多瓦边境警察在 8 个口岸接收一批证件查验与生物特征登记设备，由美国政府出资、国际移民组织执行，交接仪式在 Tudora–Starokazacie 口岸举行。设备用于二线查验、身份核实与庇护申请人的生物特征采集，另有车辆检查配套；公告未披露供应商与采购金额。",
+        "en": "Moldova’s Border Police has taken delivery of document examination and biometric enrolment equipment at eight border crossing points, funded by the US government and delivered through the International Organization for Migration, with the handover held at Tudora–Starokazacie. The kit covers second-line inspection, identity checks and biometric processing for asylum seekers, plus vehicle inspection support; neither the supplier nor the value was disclosed.",
+        "es": "La Policía de Fronteras de Moldavia recibió equipos de examen documental y registro biométrico en ocho pasos fronterizos, financiados por el gobierno de EE. UU. y entregados a través de la Organización Internacional para las Migraciones, con acto en Tudora–Starokazacie. El paquete cubre inspección de segunda línea, verificación de identidad y datos biométricos de solicitantes de asilo, además de apoyo a la inspección de vehículos; no se revelaron proveedor ni monto."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "交付清单与落地位置",
+            "en": "What was handed over, and where",
+            "es": "Qué se entregó y dónde"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "摩尔多瓦边境警察接收的设备包括证件检查仪、生物特征数据登记工作站，以及车辆检查用的配套器材，部署在摩尔多瓦 8 个边境口岸。接手方是内务部下属边境警察总局，用途写明三项：二线查验、身份核实、识别伪造或变造的旅行证件。庇护申请人的生物特征采集也在这批设备的用途里。国际移民组织驻摩尔多瓦代表团团长 Ester Ruiz de Azua 在交接时把这批设备与「机构韧性」挂钩，未提具体型号。",
+            "en": "The equipment Moldova's Border Police received comprises document examination devices, biometric data enrolment workstations and equipment supporting vehicle inspection, deployed at eight Moldovan border crossing points. The recipient is the General Inspectorate of Border Police under the Interior Ministry, and the stated uses are second-line inspection, identity verification and detection of fraudulent or altered travel documents. Biometric processing for asylum seekers is also in scope. Ester Ruiz de Azua, who heads the IOM mission in Moldova, framed the handover around institutional resilience and named no specific models.",
+            "es": "Los equipos que recibió la Policía de Fronteras de Moldavia incluyen equipos de examen documental, puestos de registro de datos biométricos y material de apoyo a la inspección de vehículos, desplegado en ocho pasos fronterizos. Lo recibe la Inspección General de Policía de Fronteras del Ministerio del Interior, con tres usos declarados: inspección de segunda línea, verificación de identidad y detección de documentos de viaje fraudulentos o alterados. El registro biométrico de solicitantes de asilo también entra en el alcance. Ester Ruiz de Azua, jefa de la misión de la OIM en Moldavia, vinculó la entrega a la resiliencia institucional y no citó modelos concretos."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "和既有能力的接缝",
+            "en": "How it fits what was already there",
+            "es": "Cómo encaja con lo que ya había"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "摩尔多瓦此前已通过国际刑警组织的项目拿到生物识别能力：警务总局有 14 台 Integrated Biometrics 的加固型采集设备，接入国际刑警的 BIOHUB 做比对。这批新设备落在边境一侧，与警务侧的采集点不是同一套资产，中间的比对与数据留存规则公告没有交代。内务部另有一份全国人脸图像登记库（RIF）的提案在推进，用途是执法检索与欧洲方向的数据交换，尚未见生效文本。",
+            "en": "Moldova already had biometric capability through Interpol projects: the General Inspectorate of Police holds 14 rugged Integrated Biometrics devices that check against Interpol’s BIOHUB. The new equipment sits on the border side and is a separate asset from the police collection points; the announcement does not set out how matching or retention works across the two. The Interior Ministry is also pursuing a proposal for a national facial image registry (RIF) for law enforcement searches and data exchange with European counterparts, with no text in force yet.",
+            "es": "Moldavia ya tenía capacidad biométrica por proyectos de Interpol: la Inspección General de Policía cuenta con 14 dispositivos reforzados de Integrated Biometrics que cotejan contra BIOHUB. El nuevo equipo está del lado fronterizo y es un activo distinto de los puntos policiales; el anuncio no detalla cómo se comparan ni cómo se retienen los datos entre ambos. El Ministerio del Interior impulsa además una propuesta de registro nacional de imágenes faciales (RIF) para búsquedas policiales e intercambio con socios europeos, todavía sin texto vigente."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "对设备商来说，这类由捐助方出资、国际组织执行的边境采购，是进入中小市场最现实的一条路：合同不挂在政府采购平台上，招标信息往往只在执行机构的当地页面出现。摩尔多瓦这次没有公布供应商，意味着后续维保、耗材与软件升级的归属仍可能重新分配。对边境管理方而言，二线查验设备的密度上去之后，瓶颈会从「有没有设备」转到「比对结果往哪里落」——本国库、国际刑警库、还是未来的 RIF，三者的法律基础与留存期限各不相同，混用会直接变成数据保护问题。",
+        "en": "For equipment vendors, donor-funded border procurement executed by an international organisation is the most realistic route into smaller markets: the contract does not appear on a public procurement platform, and tender information often surfaces only on the implementing agency’s local page. Moldova named no supplier, which leaves maintenance, consumables and software upgrades open to reassignment later. For border agencies, once second-line inspection equipment is dense enough, the bottleneck moves from having devices to where the match results land — a national database, an Interpol database, or the planned RIF, each with different legal bases and retention rules, and mixing them becomes a data protection problem.",
+        "es": "Para los proveedores, la compra fronteriza financiada por donantes y ejecutada por una organización internacional es la vía más realista a mercados pequeños: el contrato no aparece en una plataforma pública y la licitación suele surgir solo en la página local de la agencia ejecutora. Moldavia no nombró proveedor, lo que deja abiertos el mantenimiento, los consumibles y las actualizaciones. Para las autoridades fronterizas, cuando la inspección de segunda línea es densa, el cuello de botella pasa de tener equipos a dónde aterrizan los resultados: base nacional, base de Interpol o el futuro RIF, con bases legales y plazos distintos, y mezclarlos se convierte en un problema de protección de datos."
+      },
+      "confidence": 0.6,
+      "ai": {
+        "model": "deepseek-v4.1-flash",
+        "promptVersion": "identity-editor-2026-11-20"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Spain Supreme Court orders checks on 61,603 MiDNI voter ID readers",
+      "url": "https://idtechwire.com/spains-supreme-court-orders-interior-to-certify-security-checks-on-61603-midni-voter-id-readers/",
+      "reason": "duplicate-of-2026-11-07-identity-04：西班牙最高法院对 61603 台 MiDNI 读者机的安检命令，同一事件换源报道"
+    },
+    {
+      "title": "Tanzania Launches New National ID Card With Eight Data Sections and a NIDA Wallet App",
+      "url": "https://idtechwire.com/tanzania-launches-new-national-id-card-with-eight-data-sections-and-a-nida-wallet-app/",
+      "reason": "duplicate-of-2026-11-19-identity-01：300 亿先令、5 机 2800 卡/时、8 vs 4 应用位、激光内刻、EMPTECH 承建全部与昨日池草稿一致，作为复用草稿处理，不另起新稿"
+    },
+    {
+      "title": "Liberia's House Rejects $52 Million National ID Concession With Austria's OeSD",
+      "url": "https://idtechwire.com/liberias-house-rejects-52-million-national-id-concession-with-austrias-oesd-calls-for-open-bidding/",
+      "reason": "动作门不通过：议会否决而非授标，无承接方落实与交割节点；同一特许权 11-06 已按动作门+时效门刷过"
+    },
+    {
+      "title": "Liberia parliament rejects $52m national digital ID contract proposal",
+      "url": "https://www.biometricupdate.com/202611/liberian-parliament-rejects-52m-national-digital-id-contract-proposal",
+      "reason": "同上，补位池 gateNote 标可能被刷，默认按刷；否决非授标"
+    },
+    {
+      "title": "Egypt launches online seafarers passport issuance, renewal services",
+      "url": "https://see.news/egypt-launches-online-seafarers-passport-issuance-renewal-services",
+      "reason": "补位池 gateNote 标可能被刷且缺版本号/承建方/处理量，默认按刷；仅为政务流程上云，无证件机制变化"
+    },
+    {
+      "title": "IDEMIA brings mDL verification to Microsoft Entra Verified ID",
+      "url": "https://www.morningstar.com/news/pr-newswire/20261119ne02611/idemia-public-security-to-bring-mobile-drivers-license-verification-to-the-microsoft-entra-verified-id-ecosystem",
+      "reason": "动作门不通过：基于 5 月已 GA 的自助账户找回能力做功能扩展，无客户名单/覆盖州数/核验量，gateNote 标可能被刷，默认按刷"
+    },
+    {
+      "title": "Uganda new NIRA system set to tighten security in banking transactions",
+      "url": "https://www.zawya.com/en/press-release/africa-press-releases/uganda-new-national-identification-and-registration-authority-nira-system-set-to-tighten-security-in-banking-transactions-2371691",
+      "reason": "动作门不通过：议会答复中对既有核验制度的执行进度通报，无新授标、版本号或上线日"
+    },
+    {
+      "title": "USCIS extends identity proofing contract as agency prepares transition to IBIS",
+      "url": "https://www.biometricupdate.com/202611/uscis-extends-identity-proofing-contract-as-agency-prepares-transition-to-ibis",
+      "reason": "动作门不通过：既有 APIS 合同的 bridge 延期，非新授标；IBIS 仍是 2.5 亿美元的采购 forecast，历史多次按预告刷过"
+    },
+    {
+      "title": "Socure, WalletConnect tie verified identities to verified wallets",
+      "url": "https://www.biometricupdate.com/202611/socure-walletconnect-tie-verified-identities-to-verified-wallets-before-tokenized-assets-move",
+      "reason": "范围门不通过：核验对象是加密钱包控制权和 KYC/AML，不是护照/身份证/mDL 载体，归 banking"
+    },
+    {
+      "title": "Indonesia surpasses 2026 biometric SIM target with 41M registrations",
+      "url": "https://www.biometricupdate.com/202611/indonesia-surpasses-2026-biometric-sim-target-with-41m-registrations",
+      "reason": "范围门不通过：SIM 登记归 telecom 链路，非身份证件"
+    },
+    {
+      "title": "New data on age check circumvention helps build case for platform accountability",
+      "url": "https://www.biometricupdate.com/202611/new-data-on-age-check-circumvention-helps-build-case-for-platform-accountability",
+      "reason": "范围门/动作门不通过：平台问责研究，无证件载体或核验终端机制变化"
+    },
+    {
+      "title": "Google Wallet code points to Social Security credential carrying benefits data",
+      "url": "https://www.biometricupdate.com/202611/google-wallet-code-points-to-social-security-credential-carrying-benefits-data",
+      "reason": "动作门不通过：仅从代码线索推测，无官方发布、无版本号与承建方"
+    },
+    {
+      "title": "UQPAY puts Visa Payment Passkey into production",
+      "url": "https://www.prnasia.com/story/557154-1.shtml",
+      "reason": "已由 banking 行业处理（当天 banking 池草稿），避免跨行业重复"
+    },
+    {
+      "title": "MagTek lets DynaFlex II Go reader verify mDL and bank cards",
+      "url": "https://www.biometricupdate.com/202611/us-mobile-id-adoption-advances-across-retail-government-and-enterprise-systems",
+      "reason": "已由 banking 行业处理（当天 banking 池草稿），避免跨行业重复"
+    },
+    {
+      "title": "N26 launches Aura account with mirrored ceramic card in Germany",
+      "url": "https://assets.ctfassets.net/q33z48p65a6w/2WqV4fP3v6IKfrgLD5GFCG/f006c28ef68102b2168e61c8d2459d67/N26_Press_Release_N26_Aura.pdf",
+      "reason": "补位池条目，归 banking：材质与会员权益变化，无证件机制"
+    },
+    {
+      "title": "STMicroelectronics adds Onomondo SoftSIM and SGP.32 to ST87M01",
+      "url": "https://www.21ic.com/a/1016888.html",
+      "reason": "补位池条目，归 telecom：SoftSIM/eSIM profile 预置，非身份链路"
+    },
+    {
+      "title": "UK company directors adopt identity verification",
+      "url": "https://identityweek.net/uk-company-directors-adopt-identity-verification/",
+      "reason": "动作门不通过：2025 年既有制度的执行进度盘点（1218 万任命已核验），非首次或变化"
+    },
+    {
+      "title": "German banks join together to share financial crime information",
+      "url": "https://identityweek.net/german-banks-join-together-to-share-financial-crime-information-to-other-institutions/",
+      "reason": "范围门不通过：银行反洗钱信息共享，归 banking"
+    },
+    {
+      "title": "Tech chiefs praise Burnham's National Centre for Information Defence",
+      "url": "https://identityweek.net/tech-chiefs-praise-burnhams-national-centre-for-information-defence/",
+      "reason": "范围门/动作门不通过：技术负责人表态，无证件机制变化"
+    },
+    {
+      "title": "Tech in Gov spotlight interview: Zoran Jordanoski",
+      "url": "https://identityweek.net/tech-in-gov-spotlight-interview-zoran-jordanoski-lead-research-analyst-unu-egov/",
+      "reason": "访谈体裁，无事件与可核具体物"
+    },
+    {
+      "title": "Poland plans age checks via mObywatel for under-15 social media ban",
+      "url": "https://idtechwire.com/poland-plans-age-checks-via-mobywatel-the-eu-digital-identity-wallet-or-platform-tools-for-under-15-social-media-ban/",
+      "reason": "动作门不通过：拟议法律与计划，无生效时间、承接方或落地清单"
+    },
+    {
+      "title": "Bulgaria's cabinet approves EU digital identity wallet bill",
+      "url": "https://idtechwire.com/bulgarias-cabinet-approves-eu-digital-identity-wallet-bill-and-opens-bg-wallet-information-site/",
+      "reason": "动作门不通过：内阁通过的法案草案，自认第一步，无授标或上线日"
+    },
+    {
+      "title": "Rio de Janeiro adds newborn and mother fingerprints to birth registration",
+      "url": "https://idtechwire.com/rio-de-janeiro-becomes-first-brazilian-state-to-add-newborn-and-mother-fingerprints-to-birth-registration/",
+      "reason": "范围门不通过：出生登记不在护照/身份证/mDL 三类载体之内"
+    },
+    {
+      "title": "NYC Inspector General finds NYPD facial recognition policy violations",
+      "url": "https://idtechwire.com/new-york-city-inspector-general-finds-nypd-facial-recognition-policy-violations-issues-17-recommendations/",
+      "reason": "范围门不通过：执法人脸监控合规，非证件核验终端"
+    },
+    {
+      "title": "Singapore's central bank to develop a Know Your Agent protocol",
+      "url": "https://idtechwire.com/singapores-central-bank-to-develop-a-know-your-agent-protocol-for-ai-agents-accessing-financial-services/",
+      "reason": "范围门不通过：AI 智能体协议，非证件载体或核验终端"
+    },
+    {
+      "title": "NIST turns 600-page ANSI/NIST-ITL standard into machine-readable JSON",
+      "url": "https://idtechwire.com/nist-turns-the-600-page-ansi-nist-itl-biometric-data-standard-into-a-machine-readable-json-specification/",
+      "reason": "时效门：事件为 11-17，到今天 11-20 凌晨已超 72 小时窗口，不复用昨日同题草稿"
+    },
+    {
+      "title": "OpenAI launches ChatGPT Wallet with Face ID check",
+      "url": "https://idtechwire.com/openai-launches-chatgpt-wallet-with-a-security-check-such-as-face-id-for-every-agent-purchase/",
+      "reason": "duplicate-of-2026-11-14-banking-01：OpenAI 钱包已在 banking 发布，且归支付链路"
+    },
+    {
+      "title": "Africa's expanding digital ID infrastructure faces a cybersecurity capacity gap",
+      "url": "https://www.biometricupdate.com/202611/africas-expanding-digital-id-infrastructure-faces-a-cybersecurity-capacity-gap",
+      "reason": "观点体裁，无事件与可核具体物"
+    },
+    {
+      "title": "EUDI Wallets on track for uneven launch and hesitant relying parties",
+      "url": "https://www.biometricupdate.com/202611/eudi-wallets-on-track-for-uneven-launch-and-hesitant-relying-parties",
+      "reason": "观点体裁，无版本号、授标或上线日"
+    },
+    {
+      "title": "Is Utah's SEDI the future of digital identity in the United States?",
+      "url": "https://www.biometricupdate.com/202611/is-utahs-sedi-the-future-of-digital-identity-in-the-united-states",
+      "reason": "观点体裁；五州加入 SEDI 已按 11-19 新事件另写草稿，本篇不重复"
+    },
+    {
+      "title": "CDPI joins Digital Public Goods Alliance",
+      "url": "https://www.biometricupdate.com/202611/cdpi-joins-digital-public-goods-alliance-to-support-dpi-initiatives",
+      "reason": "动作门不通过：加入联盟的倡议，无证件机制变化"
+    },
+    {
+      "title": "UK biometrics commissioner warns facial recognition oversight plans lack detail",
+      "url": "https://www.biometricupdate.com/202611/uk-biometrics-commissioner-warns-facial-recognition-oversight-plans-lack-detail",
+      "reason": "执法监控与表态，非证件核验终端"
+    },
+    {
+      "title": "Incode extends fraud protection to AI agents with biometric liveness",
+      "url": "https://www.biometricupdate.com/202611/incode-extends-fraud-protection-to-ai-agents-with-biometric-liveness",
+      "reason": "范围门不通过：AI 智能体身份，非证件载体"
+    },
+    {
+      "title": "Kenya nears EU data agreement in boost for outsourcing ambitions",
+      "url": "https://techmoran.com/2026/11/19/kenya-nears-eu-data-agreement-in-boost-for-outsourcing-ambitions/",
+      "reason": "范围门不通过：数据跨境协议，非证件载体或核验终端"
+    },
+    {
+      "title": "Colombia Bogotá to have new Science Centre",
+      "url": "https://dplnews.com/colombia-bogota-tendra-un-nuevo-centro-de-ciencias-para-impulsar-la-participacion-ciudadana-en-ciencia-tecnologia-e-innovacion/",
+      "reason": "与三条凭证链路无关"
+    }
+  ],
+  "stats": {
+    "candidates": 62,
+    "written": 7,
+    "skippedByDedup": 5
+  },
+  "finishedAt": "2026-11-19T19:17:32.906Z"
+}

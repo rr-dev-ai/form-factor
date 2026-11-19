@@ -1,0 +1,89 @@
+{
+  "id": "2026-11-20-identity-02",
+  "slug": "peru-reniec-digital-dni-peru-pass-wallet",
+  "industry": "identity",
+  "region": "latam",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "mobile-id",
+    "biometrics",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-20T04:28:34+08:00",
+  "ingestedAt": "2026-11-20T03:10:09+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/perus-reniec-launches-free-digital-dni-issued-through-the-peru-pass-wallet-with-fingerprint-and-face-checks/",
+      "lang": "en",
+      "publishedAt": "2026-11-19T00:00:00Z"
+    },
+    {
+      "name": "Andina",
+      "url": "https://andina.pe/agencia/noticia-reniec-lanza-dni-digital-ahora-podras-identificarte-desde-tu-celular-video-1100492.aspx",
+      "lang": "es"
+    },
+    {
+      "name": "El Peruano",
+      "url": "https://www.elperuano.pe/noticia/309217-reniec-da-un-nuevo-paso-hacia-la-identidad-digital-aprueba-caracteristicas-del-dni-digital-y-peru-pass",
+      "lang": "es"
+    }
+  ],
+  "title": {
+    "zh": "秘鲁 RENIEC 上线免费数字身份证，装进 Perú Pass 钱包",
+    "en": "Peru's RENIEC launches free digital ID in the Perú Pass wallet",
+    "es": "El RENIEC de Perú lanza un DNI digital gratuito en la cartera Perú Pass"
+  },
+  "summary": {
+    "zh": "秘鲁国家身份与民事登记局 RENIEC 开始签发免费自愿的数字身份证 DNId，与实体证同等法律效力。申请人用 ID Perú 应用读取实体证机器可读区、比对指纹和人脸，在 Perú Pass 钱包生成 DNId；核验靠动态临时二维码，截图无效，每次共享数据需生物识别或 PIN 授权。",
+    "en": "Peru's national registry RENIEC has begun issuing DNId, a free voluntary digital version of the national ID with the same legal weight as the physical card. Applicants use the ID Perú app to read the card's machine-readable zone and match fingerprint and face, then generate the DNId in the Perú Pass wallet. Verification uses dynamic temporary QR codes; screenshots are rejected and every data share needs biometric or PIN approval.",
+    "es": "El registro nacional del Perú, RENIEC, empezó a emitir el DNId, una versión digital gratuita y voluntaria del DNI con la misma fuerza legal que el documento físico. Los solicitantes usan la app ID Perú para leer la zona legible por máquina y cotejar huella y rostro, y luego generan el DNId en la cartera Perú Pass. La verificación usa códigos QR temporales; no se aceptan capturas y cada compartir datos requiere biometría o PIN."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "DNId 的签发流程",
+        "en": "How the DNId is issued",
+        "es": "Cómo se emite el DNId"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "秘鲁国家身份与民事登记局 RENIEC 开始签发 DNId，这是实体国民身份证 DNI 的免费自愿数字版本，官方称与实体证含电子版本具有同等法律效力和证明力，实体证不被取代。申请人需要一张有效 DNI 和一部兼容 Perú Pass 的手机，在钱包中设置六位安全码，选择获取 DNId，再完成读取实体证机器可读区、指纹比对和 ID Perú 应用的人脸比对。父母可为未成年子女申领。",
+        "en": "Peru's RENIEC has begun issuing the DNId, a free voluntary digital version of the physical DNI that the registry says carries the same legal value and evidentiary weight, including against the electronic card. The physical card is not replaced. Applicants need a valid DNI and a Perú Pass-compatible phone, set a six-digit security code in the wallet, choose to obtain the DNId and complete identity validation: reading the physical card's machine-readable zone, fingerprint verification and facial verification through the ID Perú app. Parents can obtain the DNId for minor children.",
+        "es": "El RENIEC del Perú empezó a emitir el DNId, versión digital gratuita y voluntaria del DNI físico que, según el registro, tiene el mismo valor legal y probatorio, incluso frente al carné electrónico. El documento físico no se sustituye. Los solicitantes necesitan un DNI vigente y un teléfono compatible con Perú Pass, crean un código de seguridad de seis dígitos en la cartera, eligen obtener el DNId y completan la validación: lectura de la zona legible por máquina, verificación de huella y verificación facial mediante la app ID Perú. Los padres pueden obtener el DNId para sus hijos menores."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "核验与数据授权",
+        "en": "Verification and data consent",
+        "es": "Verificación y consentimiento de datos"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "DNId 的核验依赖动态临时二维码和加密机制，RENIEC 明确不接受照片或截图作为身份证明。持有人每次转移数据都要用生物识别或 PIN 授权，并自行选择本次共享哪些属性，没有数据自动传输。手机遗失后持有人可在 RENIEC 网站申请撤销 DNId，再在另一台设备重新下载。RENIEC 同时批准了 DNId、Perú Pass 和 ID Perú 的技术特征，并要求下属司局起草使用规则；背景是今年获批的 8 亿美元泛美开发银行借款，用于现代化身份与民事登记服务。",
+        "en": "DNId verification relies on dynamic temporary QR codes backed by cryptography, and RENIEC explicitly rejects photos or screenshots as proof. Holders authorise every data transfer with biometrics or a PIN and choose which attributes to share; nothing is transmitted automatically. If a phone is lost, the holder revokes the DNId through RENIEC's website and downloads it again on another device. RENIEC also approved the technical characteristics of the DNId, Perú Pass and ID Perú, and ordered its directorate to draft usage rules, against the backdrop of an $80 million Inter-American Development Bank loan approved this year to modernise identity and civil registry services.",
+        "es": "La verificación del DNId depende de códigos QR temporales con respaldo criptográfico y el RENIEC rechaza explícitamente fotos o capturas como prueba. Los titulares autorizan cada transferencia con biometría o PIN y eligen qué atributos compartir; nada se transmite automáticamente. Si se pierde el teléfono, el titular revoca el DNId en la web del RENIEC y lo descarga de nuevo en otro dispositivo. El RENIEC aprobó además las características técnicas del DNId, Perú Pass e ID Perú y ordenó redactar las reglas de uso, en el marco de un préstamo de 80 millones de dólares del BID aprobado este año para modernizar la identidad y el registro civil."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "秘鲁把数字身份证从实体证件的电子副本做成可验证凭证钱包里的独立凭证，改变的是核验侧：受理方不再收实体证照片或截图，而要接入能验证动态二维码和签名的系统。对核验终端与钱包集成商来说，ID Perú 的指纹加人脸注册、Perú Pass 的凭证存储、属性选择性共享三块是明确的对接点。RENIEC 把使用规则留待后续起草，意味着受理机构何时、以什么接口接入仍不确定；8 亿美元 IDB 贷款把这次上线和后台现代化绑在一起，后续采购会集中在登记数据与凭证服务这一层。",
+    "en": "Peru turns the digital ID from an electronic copy of the card into a standalone credential in a verifiable-credential wallet, and the change lands on the verification side: accepting parties stop collecting photos or screenshots and must connect to systems that validate dynamic QR codes and signatures. For terminal and wallet integrators, fingerprint-plus-face enrolment in ID Perú, credential storage in Perú Pass and selective attribute sharing are three concrete integration points. RENIEC has left the usage rules to be drafted later, so when and how relying parties connect remains open; the $80 million IDB loan ties this launch to back-office modernisation, pushing later procurement towards registry data and credential services.",
+    "es": "Perú convierte el DNI digital de una copia electrónica del carné en una credencial independiente dentro de una cartera de credenciales verificables, y el cambio recae en la verificación: quienes aceptan el documento dejan de recoger fotos o capturas y deben conectarse a sistemas que validen códigos QR dinámicos y firmas. Para integradores de terminales y carteras, el registro con huella y rostro en ID Perú, el almacenamiento en Perú Pass y el uso selectivo de atributos son tres puntos concretos de integración. El RENIEC dejó las reglas de uso para una fase posterior, por lo que aún no está claro cuándo ni cómo se conectarán las entidades receptoras; el préstamo de 80 millones del BID vincula este lanzamiento con la modernización interna y orientará las próximas compras a datos del registro y servicios de credenciales."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11-20"
+  }
+}

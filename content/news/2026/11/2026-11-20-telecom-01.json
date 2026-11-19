@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-20-telecom-01",
+  "slug": "idemia-sweden-private-5g-sim-esim",
+  "industry": "telecom",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "esim",
+    "5g"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-20T04:28:34+08:00",
+  "ingestedAt": "2026-11-20T02:50:27+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "IDEMIA",
+      "url": "https://www.idemia.com/press-release/idemia-secure-transactions-power-secure-5g-connectivity-healthcare-and-critical-public-services-across-swedens-region-vastra-gotaland-2026-11-19",
+      "lang": "en",
+      "publishedAt": "2026-11-19T08:42:15.000Z"
+    }
+  ],
+  "title": {
+    "zh": "IDEMIA 拿下瑞典西约特兰大区专网 SIM 与 eSIM 供货",
+    "en": "IDEMIA to supply SIM and eSIM for a Swedish region's private 5G",
+    "es": "IDEMIA suministrará SIM y eSIM a la red 5G privada de una región sueca"
+  },
+  "summary": {
+    "zh": "IDEMIA Secure Transactions 获选为瑞典西约特兰大区的专用 5G 网络提供实体 SIM、eSIM 及配套管理平台，支撑医疗、急救与公共交通中数十万台设备的远程激活与生命周期管理，计划 2027 年第一季度全面投运。",
+    "en": "IDEMIA Secure Transactions has been selected to supply physical SIMs, eSIMs and the management platforms for Region Västra Götaland's private 5G network in Sweden. The setup covers healthcare, emergency services and public transport, with remote activation and lifecycle updates for hundreds of thousands of devices, and is scheduled to be fully operational in the first quarter of 2027.",
+    "es": "IDEMIA Secure Transactions ha sido seleccionada para suministrar SIM físicas, eSIM y las plataformas de gestión de la red 5G privada de la región sueca de Västra Götaland. La solución cubre sanidad, emergencias y transporte público, con activación remota y actualizaciones a lo largo del ciclo de vida de cientos de miles de dispositivos, y se prevé plenamente operativa en el primer trimestre de 2027."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "瑞典西约特兰大区（Region Västra Götaland）覆盖约 178 万居民，运营 17 家医院、121 个医疗中心和 170 家牙科诊所。IDEMIA Secure Transactions 被选中为该大区自建的专用 5G 网络提供 SIM 与 eSIM 技术，以及激活、管理和更新连接设备所需的管理能力。",
+        "en": "Region Västra Götaland in western Sweden serves about 1.78 million inhabitants and runs 17 hospitals, 121 healthcare centres and 170 dental clinics. IDEMIA Secure Transactions was selected to supply SIM and eSIM technology for the region's own private 5G network, along with the capabilities needed to activate, manage and update connected devices.",
+        "es": "La región sueca de Västra Götaland atiende a unos 1,78 millones de habitantes y gestiona 17 hospitales, 121 centros sanitarios y 170 clínicas dentales. IDEMIA Secure Transactions ha sido elegida para suministrar tecnología SIM y eSIM a la red 5G privada de la región, junto con las capacidades para activar, gestionar y actualizar los dispositivos conectados."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "IDEMIA 的供货把实体 SIM、eSIM 与数字平台合并：设备可远程批量激活和配置，配置时间从数周缩短到数天；已部署设备也能远程更新，减少人工现场处理。大区按阶段在订阅管理、物联网设备管理和空中管理（OTA）环境中部署，计划 2027 年第一季度全面投运。",
+        "en": "IDEMIA's scope combines physical SIMs, eSIMs and the digital platforms used to activate, manage and update devices over their lifecycle. Devices can be provisioned remotely and at scale, cutting configuration time from weeks to days, while devices already in the field receive remote updates instead of on-site visits. The region is deploying in phases across subscription management, IoT device management and over-the-air management environments, with full operation scheduled for the first quarter of 2027.",
+        "es": "El suministro de IDEMIA combina SIM físicas, eSIM y las plataformas digitales para activar, gestionar y actualizar dispositivos durante todo su ciclo de vida. Los equipos pueden aprovisionarse de forma remota y a escala, lo que reduce la configuración de semanas a días, mientras los dispositivos ya desplegados reciben actualizaciones remotas en lugar de visitas in situ. La región despliega por fases en entornos de gestión de suscripciones, de dispositivos IoT y de gestión por aire (OTA), con plena operación prevista para el primer trimestre de 2027."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "瑞典西约特兰大区专网上的设备包括救护车、医护人员平板、医疗设备、监护仪器、报警系统，以及公交、电车、列车和船只上的联网设备。IDEMIA 表示，方案把数据主权与网络安全要求嵌入设计，大区可自行决定哪些设备接入网络、如何配置，以及连接在整个生命周期内如何变化。",
+        "en": "Devices on the region's private network include ambulances, tablets carried by healthcare workers, medical and monitoring equipment, alarm systems, and connected equipment on buses, trams, trains and boats. IDEMIA says data sovereignty and cybersecurity requirements are embedded by design, leaving the region to decide which devices access the network, how they are configured and how their connectivity evolves over the lifecycle.",
+        "es": "Los dispositivos de la red privada de la región incluyen ambulancias, tabletas del personal sanitario, equipos médicos y de monitorización, sistemas de alarma y equipos conectados en autobuses, tranvías, trenes y barcos. IDEMIA afirma que la soberanía de datos y la ciberseguridad están integradas desde el diseño, de modo que la región decide qué dispositivos acceden a la red, cómo se configuran y cómo evoluciona su conectividad durante el ciclo de vida."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "IDEMIA 此前已被选为法国 Réseau Radio du Futur 提供技术支持，该网络计划到 2027 年服务超过 30 万名公共安全与急救人员。瑞典项目公告未披露合同金额、SIM 与 eSIM 的具体数量，也未说明管理平台由哪一方运营。",
+        "en": "IDEMIA was previously selected to support France's Réseau Radio du Futur, a secure network intended to serve more than 300,000 public safety and emergency service users by 2027. The Swedish announcement gives no contract value, no exact count of SIMs and eSIMs, and does not say which party will operate the management platform.",
+        "es": "IDEMIA ya había sido seleccionada para apoyar la red francesa Réseau Radio du Futur, concebida para atender a más de 300.000 usuarios de seguridad pública y emergencias antes de 2027. El anuncio sueco no revela el valor del contrato, el número exacto de SIM y eSIM, ni qué parte operará la plataforma de gestión."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对做专网的运营方和集成商来说，这条消息把 eSIM 的价值从「换运营商」移到「管设备」：大区买的不只是卡，而是订阅管理、设备管理和空中更新三套环境，救护车与监护仪出厂后不必到现场就能换配置。商业上，IDEMIA 借瑞典项目把 SIM/eSIM 供货延伸成按设备生命周期收费的管理服务，与此前拿下的法国国家级专网形成同一套打法。需要注意的是，公告把数据主权列为设计目标，却没有说明管理平台由谁运营，设备数量与合同金额也未披露，能否复制到其他大区取决于这些细节。",
+    "en": "For operators and integrators building private networks, the deal moves eSIM's value from switching operators to managing devices: the region is buying not just cards but three environments for subscription, device and over-the-air management, so ambulances and monitors can be reconfigured without a site visit. Commercially, IDEMIA extends SIM/eSIM supply into lifecycle management services, repeating the approach it won for France's national secure network. The announcement names data sovereignty as a design goal but does not say who operates the management platform, and gives neither device counts nor contract value — details that will decide whether the model transfers to other regions.",
+    "es": "Para operadores e integradores que construyen redes privadas, el acuerdo desplaza el valor de la eSIM de cambiar de operador a gestionar dispositivos: la región compra no solo tarjetas, sino tres entornos de gestión de suscripciones, dispositivos y actualizaciones por aire, de modo que ambulancias y monitores puedan reconfigurarse sin visitas in situ. En lo comercial, IDEMIA amplía el suministro de SIM/eSIM hacia servicios de gestión del ciclo de vida, repitiendo el enfoque que ganó para la red segura nacional de Francia. El anuncio cita la soberanía de datos como objetivo de diseño, pero no dice quién opera la plataforma de gestión ni aporta cifras de dispositivos o valor del contrato, detalles que determinarán si el modelo se traslada a otras regiones."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-telecom-2026-11-20"
+  }
+}

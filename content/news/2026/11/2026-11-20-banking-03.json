@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-20-banking-03",
+  "slug": "uqpay-visa-payment-passkey-live",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "tokenization"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-20T04:28:34+08:00",
+  "ingestedAt": "2026-11-20T02:39:37+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "美通社",
+      "url": "https://www.prnasia.com/story/557154-1.shtml",
+      "lang": "zh",
+      "publishedAt": "2026-11-19T11:07:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "UQPAY 投产 Visa Payment Passkey，用通行密钥核验持卡人",
+    "en": "UQPAY puts Visa Payment Passkey into production with device passkeys",
+    "es": "UQPAY pone en producción Visa Payment Passkey con claves de acceso de dispositivo"
+  },
+  "summary": {
+    "zh": "新加坡发卡机构 UQPAY 11 月 19 日宣布投产 Visa Payment Passkey，把基于通行密钥与 FIDO 认证的身份验证用于线上支付。持卡人可用设备生物识别或设备密码完成核验，替代传统密码与短信验证码。按其公告，UQPAY 于 4 月以发卡主会员身份加入 Visa Agentic Ready 计划。",
+    "en": "Singapore issuer UQPAY announced on 19 November that it has put Visa Payment Passkey into production, using passkeys and FIDO-based authentication for online payments. Cardholders verify with device biometrics or a device PIN instead of passwords and one-time codes. According to its announcement, UQPAY joined the Visa Agentic Ready programme as a principal issuer member in April.",
+    "es": "El emisor con sede en Singapur UQPAY anunció el 19 de noviembre que ha puesto en producción Visa Payment Passkey, con claves de acceso y autenticación basada en FIDO para pagos en línea. Los titulares se verifican con biometría del dispositivo o un PIN en lugar de contraseñas y códigos de un solo uso. Según su comunicado, UQPAY se unió en abril al programa Visa Agentic Ready como miembro emisor principal."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "UQPAY 于 11 月 19 日宣布正式投产 Visa Payment Passkey。按其公告，UQPAY 是亚太地区较早把该能力投入生产环境的发卡机构之一。",
+        "en": "UQPAY announced on 19 November that it has formally put Visa Payment Passkey into production. According to its announcement, UQPAY is among the earlier issuers in Asia-Pacific to move the capability into a production environment.",
+        "es": "UQPAY anunció el 19 de noviembre que ha puesto en producción Visa Payment Passkey. Según su comunicado, UQPAY es uno de los primeros emisores de Asia-Pacífico en llevar la capacidad a un entorno de producción."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Visa Payment Passkey 基于通行密钥与 FIDO 认证技术，让持卡人通过设备生物识别或设备密码完成线上支付身份验证，替代传统密码与一次性验证码，用于减少非面对面交易的认证摩擦。",
+        "en": "Visa Payment Passkey is based on passkeys and FIDO authentication, letting cardholders complete online payment verification with device biometrics or a device PIN instead of passwords and one-time codes, with the aim of reducing authentication friction in card-not-present transactions.",
+        "es": "Visa Payment Passkey se basa en claves de acceso y autenticación FIDO, y permite a los titulares completar la verificación de pagos en línea con biometría del dispositivo o un PIN, en lugar de contraseñas y códigos de un solo uso, para reducir la fricción de autenticación en transacciones sin tarjeta presente."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "在代理支付场景中，Visa Intelligent Commerce 的设计允许持卡人在新增支付卡并完成设备绑定后，用 Payment Passkey 确认由代理发起的购买是否基于真实持卡人授权。UQPAY 今年 4 月以发卡主会员身份加入 Visa Agentic Ready 计划。公告未披露已启用该能力的卡量与商户范围。",
+        "en": "In agentic payments, the Visa Intelligent Commerce design lets a cardholder, after adding a card and binding a device, use Payment Passkey to confirm that a purchase initiated by an agent rests on genuine cardholder authorisation. UQPAY joined the Visa Agentic Ready programme as a principal issuer member in April this year. The announcement did not disclose the number of cards enabled or the merchant scope.",
+        "es": "En pagos agénticos, el diseño de Visa Intelligent Commerce permite al titular, tras añadir una tarjeta y vincular un dispositivo, usar Payment Passkey para confirmar que una compra iniciada por un agente se basa en una autorización genuina del titular. UQPAY se unió en abril al programa Visa Agentic Ready como miembro emisor principal. El comunicado no reveló el número de tarjetas habilitadas ni el alcance de comercios."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对发卡机构而言，Payment Passkey 把线上支付的身份验证从短信验证码迁移到设备侧通行密钥，既降低验证码的成本与劫持风险，也为代理发起的购买提供可核验的持卡人授权信号。UQPAY 把这一能力投入生产，意味着 Visa 的代理支付授权设计从方案阶段进入真实发卡环境，接入的商户与钱包需要支持对应的通行密钥流程。公告没有给出启用卡量、商户名单或交易数据，实际覆盖面仍待观察；其他发卡机构是否跟进，取决于设备通行密钥的用户渗透率与跨设备恢复机制的成熟度。",
+    "en": "For issuers, Payment Passkey moves online payment verification from SMS codes to device-side passkeys, cutting the cost and interception risk of one-time codes while giving agent-initiated purchases a verifiable signal of cardholder authorisation. UQPAY moving the capability into production means Visa's agentic authorisation design has shifted from a scheme proposal into a live issuing environment, and connected merchants and wallets will need to support the corresponding passkey flow. The announcement gives no enabled-card count, merchant list or transaction data, so real coverage remains to be seen. Whether other issuers follow will depend on passkey adoption among users and the maturity of cross-device recovery.",
+    "es": "Para los emisores, Payment Passkey traslada la verificación de pagos en línea de los códigos SMS a claves de acceso en el dispositivo, reduciendo el costo y el riesgo de interceptación de códigos de un solo uso y aportando a las compras iniciadas por agentes una señal verificable de autorización del titular. Que UQPAY la haya puesto en producción significa que el diseño de autorización agéntica de Visa pasó de propuesta de esquema a entorno de emisión real, y que los comercios y monederos conectados deberán admitir el flujo de claves de acceso. El comunicado no da cifras de tarjetas, lista de comercios ni datos de transacciones, por lo que el alcance real está por verse. Si otros emisores siguen dependerá de la adopción de passkeys y de la madurez de la recuperación entre dispositivos."
+  },
+  "confidence": 0.5,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

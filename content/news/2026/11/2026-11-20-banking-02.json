@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-20-banking-02",
+  "slug": "pine-labs-staq-stablecoin-card-orchestrator",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-20T04:28:34+08:00",
+  "ingestedAt": "2026-11-20T02:39:37+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Fintech News Singapore",
+      "url": "https://fintechnews.sg/141902/payments/pine-labs-stablecoin-linked-cards/",
+      "lang": "en",
+      "publishedAt": "2026-11-19T08:33:08.000Z"
+    }
+  ],
+  "title": {
+    "zh": "Pine Labs 推 Staq 平台，用稳定币余额发 Visa 预付卡",
+    "en": "Pine Labs launches Staq platform for stablecoin-funded Visa prepaid cards",
+    "es": "Pine Labs lanza Staq para emitir tarjetas prepago Visa financiadas con stablecoins"
+  },
+  "summary": {
+    "zh": "支付科技公司 Pine Labs 11 月 19 日发布 Staq Web3 Orchestrator，帮助金融科技公司发行可从稳定币余额消费的卡。Reap 在该项目中担任发卡方与 BIN 赞助方，提供 Visa 网络接入；平台支持实体与虚拟预付卡，可用于线上和线下消费，商户无需直接受理稳定币。",
+    "en": "Payment technology firm Pine Labs launched Staq Web3 Orchestrator on 19 November, a platform for fintechs to issue cards that spend from stablecoin balances. Reap acts as issuer and BIN sponsor in the programme, providing access to the Visa network. The platform supports physical and virtual prepaid cards for online and in-store purchases, with merchants accepting ordinary card payments rather than stablecoins.",
+    "es": "La empresa de tecnología de pagos Pine Labs lanzó el 19 de noviembre Staq Web3 Orchestrator, una plataforma para que las fintechs emitan tarjetas que gastan saldos en stablecoins. Reap actúa como emisor y patrocinador de BIN en el programa, con acceso a la red Visa. La plataforma admite tarjetas prepago físicas y virtuales para compras en línea y en tienda, y los comercios aceptan pagos de tarjeta normales en lugar de stablecoins."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Pine Labs 于 11 月 19 日发布名为 Staq Web3 Orchestrator 的平台，面向希望发行稳定币挂钩卡的金融科技公司。Pine Labs 负责该项目的技术与运营管理。",
+        "en": "Pine Labs launched a platform called Staq Web3 Orchestrator on 19 November, aimed at fintechs that want to issue stablecoin-linked cards. Pine Labs manages the technology and operations of the programme.",
+        "es": "Pine Labs lanzó el 19 de noviembre una plataforma llamada Staq Web3 Orchestrator, dirigida a fintechs que quieren emitir tarjetas vinculadas a stablecoins. Pine Labs gestiona la tecnología y las operaciones del programa."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "在该项目中，Reap 担任发卡机构与银行识别码（BIN）赞助方，提供对 Visa 网络的接入。Staq 整合了数字资产托管、合规、流动性以及稳定币与传统货币之间的兑换服务。",
+        "en": "In the programme, Reap serves as card issuer and bank identification number (BIN) sponsor, providing access to the Visa network. Staq brings together digital asset custody, compliance, liquidity and conversion between stablecoins and traditional currencies.",
+        "es": "En el programa, Reap actúa como emisor de tarjetas y patrocinador del número de identificación bancaria (BIN), con acceso a la red Visa. Staq integra custodia de activos digitales, cumplimiento, liquidez y conversión entre stablecoins y monedas tradicionales."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "平台支持实体与虚拟预付卡，可用于线上与线下购物。对商户而言，结账流程与普通卡交易一致，无需直接受理稳定币。Pine Labs CEO Amrish Rau 称，企业自行组装这套能力通常需要 12 至 18 个月与五六家供应商。",
+        "en": "The platform supports physical and virtual prepaid cards for online and in-store shopping. To merchants, checkout looks like an ordinary card transaction with no need to accept stablecoins directly. Pine Labs CEO Amrish Rau said assembling the stack in house typically takes 12 to 18 months and five or six providers.",
+        "es": "La plataforma admite tarjetas prepago físicas y virtuales para compras en línea y en tienda. Para los comercios, el pago parece una transacción de tarjeta normal, sin necesidad de aceptar stablecoins directamente. El CEO de Pine Labs, Amrish Rau, afirmó que reunir esta estructura internamente suele llevar de 12 a 18 meses y cinco o seis proveedores."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这条变化把稳定币资金与卡受理网络之间的接口封装成可采购的平台，金融科技公司不必自己逐一谈托管、合规、流动性与 BIN 赞助。对 Reap 这样的发卡方，Staq 带来新的发卡量来源；对卡组织而言，稳定币作为资金来源进入 Visa 预付卡，意味着受理端仍沿用既有网络与商户受理习惯，不必改造终端。值得盯的是资金端变化带来的合规边界：卡内余额来自稳定币，兑换与托管由平台合作方完成，发生拒付或兑换异常时各方责任如何划分，公告没有说明。",
+    "en": "The platform packages the interface between stablecoin funding and card acceptance networks into something fintechs can buy, rather than negotiating custody, compliance, liquidity and BIN sponsorship one by one. For an issuer like Reap, Staq adds a new source of card volume; for the scheme, stablecoins enter Visa prepaid cards as a funding source while acceptance stays on the existing network and merchant habits, with no terminal changes. The open question is the compliance boundary created by the funding side: balances come from stablecoins while conversion and custody sit with platform partners, and the release does not say how liability is split across chargebacks or conversion failures.",
+    "es": "La plataforma empaqueta la interfaz entre el financiamiento con stablecoins y las redes de aceptación de tarjetas en algo que las fintechs pueden adquirir, en lugar de negociar custodia, cumplimiento, liquidez y patrocinio de BIN uno por uno. Para un emisor como Reap, Staq añade una nueva fuente de volumen de tarjetas; para el esquema, las stablecoins entran en las tarjetas prepago Visa como fuente de financiamiento mientras la aceptación sigue en la red existente, sin cambiar terminales. La pregunta abierta es el límite de cumplimiento que crea el financiamiento: los saldos provienen de stablecoins y la conversión y custodia recaen en socios de la plataforma, sin que el comunicado explique cómo se reparte la responsabilidad ante contracargos o fallos de conversión."
+  },
+  "confidence": 0.58,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

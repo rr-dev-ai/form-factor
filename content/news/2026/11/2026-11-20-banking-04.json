@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-20-banking-05",
+  "slug": "google-wallet-ios-agentic-credentials-us",
+  "industry": "banking",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "digital-wallet",
+    "tokenization"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-20T04:28:34+08:00",
+  "ingestedAt": "2026-11-20T02:39:37+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Payments Dive",
+      "url": "https://www.paymentsdive.com/news/google-wallet-returns-to-apple/875182/",
+      "lang": "en",
+      "publishedAt": "2026-11-19T15:24:00.000Z"
+    }
+  ],
+  "title": {
+    "zh": "谷歌钱包重返 iPhone，面向代理购物存支付凭证",
+    "en": "Google Wallet returns to iPhone as a hub for agentic purchases",
+    "es": "Google Wallet regresa a iPhone como centro de compras agénticas"
+  },
+  "summary": {
+    "zh": "谷歌 11 月 17 日重新在美国市场推出 iOS 版 Google Wallet，距其 2013 年首次进入苹果生态、约五年前下架后再次回归。新 App 存储支付卡与会员凭证，并定位为跨谷歌服务管理代理购物（agentic purchases）的安全中枢，目前不支持从苹果设备发起非接支付。",
+    "en": "Google relaunched Google Wallet for iOS in the United States on 17 November, returning to Apple's ecosystem 13 years after its first entry and about five years after it was pulled. The app stores payment cards and loyalty credentials and is positioned as a secure hub for managing agentic purchases across Google services. It does not yet support tap-to-pay from Apple devices.",
+    "es": "Google relanzó Google Wallet para iOS en Estados Unidos el 17 de noviembre, regresando al ecosistema de Apple 13 años después de su primera entrada y unos cinco años tras su retirada. La aplicación almacena tarjetas de pago y credenciales de fidelización y se presenta como un centro seguro para gestionar compras agénticas en los servicios de Google. Aún no admite pagos sin contacto desde dispositivos Apple."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "谷歌于 11 月 17 日通过公司博客宣布，重新在美国市场提供 iOS 版 Google Wallet 应用。这是该钱包自 2013 年首次进入苹果生态、约五年前下架后的回归。",
+        "en": "Google announced through a company blog post on 17 November that it is again offering a Google Wallet app for iOS in the United States. It is the wallet's return after a first stint in Apple's ecosystem from 2013 and a removal about five years ago.",
+        "es": "Google anunció el 17 de noviembre mediante un blog corporativo que vuelve a ofrecer la aplicación Google Wallet para iOS en Estados Unidos. Es el regreso del monedero tras una primera etapa en el ecosistema de Apple desde 2013 y su retirada hace unos cinco años."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "新版钱包支持数字化会员凭证与存储支付卡，谷歌消费者支付副总裁 P.J. Linarducci 表示，该钱包还将作为管理跨谷歌服务代理购物的安全中枢。目前该 App 不支持从苹果设备发起非接 tap 支付，谷歌在博客中用「目前」一词描述这一限制。",
+        "en": "The new wallet digitises loyalty credentials and stores payment cards, and Google vice president of consumer payments P.J. Linarducci said it will also serve as a secure hub for managing agentic purchases across Google services. The app does not currently support tap-to-pay from Apple devices, a limitation Google described in its post with the phrase \"at this time\".",
+        "es": "El nuevo monedero digitaliza credenciales de fidelización y almacena tarjetas de pago, y el vicepresidente de pagos al consumidor de Google, P.J. Linarducci, afirmó que también servirá como centro seguro para gestionar compras agénticas en los servicios de Google. La aplicación no admite actualmente pagos sin contacto desde dispositivos Apple, limitación que Google describió en su publicación con la expresión \"por ahora\"."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "分析人士把这次回归解读为代理商务布局：GlobalData 的分析师认为，随着 AI 代理承担更多线上购物，支付重点会从实体终端转向存储凭证与用户控制；FTI Consulting 的董事总经理则称这并非支付布局而是代理商务布局。谷歌此前已让 Siri 等苹果 AI 功能由其 Gemini 模型驱动。",
+        "en": "Analysts read the return as a move in agentic commerce: a GlobalData analyst argues that as AI agents take on more online shopping, the focus shifts from the physical terminal to stored credentials and user controls, while an FTI Consulting managing director called it an agentic commerce play rather than a payments play. Google already powers Siri and other Apple AI features with its Gemini models.",
+        "es": "Los analistas interpretan el regreso como un movimiento en comercio agéntico: una analista de GlobalData sostiene que, a medida que los agentes de IA asumen más compras en línea, el foco pasa del terminal físico a las credenciales almacenadas y el control del usuario, mientras que un director gerente de FTI Consulting lo calificó como una jugada de comercio agéntico y no de pagos. Google ya impulsa Siri y otras funciones de IA de Apple con sus modelos Gemini."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对钱包与发卡方而言，Google Wallet 回到 iOS 意味着支付卡凭证可以在苹果设备上以钱包应用的形式被代理购物流程调用，凭证管理的入口从实体终端进一步转向软件层。对代理支付生态，谷歌把钱包定位为授权与控制的载体，与上周发布的 OpenAI ChatGPT Wallet 及 Stripe Link 形成同一方向的不同路径。对苹果而言，其原生钱包与第三方钱包在代理场景中的分工尚未定型。需要注意的是，这次回归暂不支持非接支付，短期内影响集中在线上凭证存储与代理购物；分析人士的观点属于判断，用例落地仍取决于谷歌后续开放的功能。",
+    "en": "For wallets and issuers, Google Wallet's iOS return means payment card credentials can be invoked by agentic shopping flows through a wallet app on Apple devices, moving the credential-management entry point further from the physical terminal into software. For the agentic payments ecosystem, Google is positioning the wallet as a vehicle for authorisation and control, a different route in the same direction as last week's OpenAI ChatGPT Wallet and Stripe Link. For Apple, the division of labour between its native wallet and third-party wallets in agentic scenarios is still unsettled. The relaunch does not yet support tap-to-pay, so near-term impact is limited to online credential storage and agentic shopping; analyst views are judgements, and real use depends on what Google opens up next.",
+    "es": "Para monederos y emisores, el regreso de Google Wallet a iOS significa que las credenciales de tarjetas de pago pueden ser invocadas por flujos de compra agéntica mediante una aplicación de monedero en dispositivos Apple, alejando la gestión de credenciales del terminal físico hacia el software. Para el ecosistema de pagos agénticos, Google posiciona el monedero como vehículo de autorización y control, una vía distinta en la misma dirección que OpenAI ChatGPT Wallet y Stripe Link de la semana pasada. Para Apple, el reparto entre su monedero nativo y los monederos de terceros en escenarios agénticos aún no está definido. El relanzamiento aún no admite pagos sin contacto, por lo que el impacto inmediato se limita al almacenamiento de credenciales en línea y las compras agénticas; las opiniones de analistas son juicios y el uso real dependerá de lo que Google abra próximamente."
+  },
+  "confidence": 0.55,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

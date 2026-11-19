@@ -1,0 +1,248 @@
+{
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-19T20:25:48.223Z",
+  "selected": [
+    {
+      "industry": "identity",
+      "slug": "peru-reniec-digital-dni-peru-pass-wallet",
+      "score": 0.72,
+      "reason": "region-floor",
+      "region": "latam",
+      "sourceDate": "2026-11-20"
+    },
+    {
+      "industry": "identity",
+      "slug": "nist-sp-1800-42-mdl-online-use-draft",
+      "score": 0.62,
+      "reason": "region-floor",
+      "region": "north-america",
+      "sourceDate": "2026-11-20"
+    },
+    {
+      "industry": "identity",
+      "slug": "tanzania-nida-laser-card-line-2800-per-hour",
+      "score": 0.74,
+      "reason": "region-floor",
+      "region": "africa",
+      "sourceDate": "2026-11-20"
+    },
+    {
+      "industry": "identity",
+      "slug": "milan-airports-vision-box-egates-biometric-corridor",
+      "score": 0.78,
+      "reason": "region-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-20"
+    },
+    {
+      "industry": "telecom",
+      "slug": "idemia-sweden-private-5g-sim-esim",
+      "score": 0.72,
+      "reason": "industry-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-20"
+    },
+    {
+      "industry": "telecom",
+      "slug": "verizon-bosch-esim-race-telemetry",
+      "score": 0.6,
+      "reason": "industry-floor",
+      "region": "global",
+      "sourceDate": "2026-11-20"
+    },
+    {
+      "industry": "telecom",
+      "slug": "orange-spain-skylo-ntn-iot-cattle",
+      "score": 0.58,
+      "reason": "industry-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-20"
+    },
+    {
+      "industry": "identity",
+      "slug": "south-africa-passport-480-bank-branches",
+      "score": 0.68,
+      "reason": "fill",
+      "region": "africa",
+      "sourceDate": "2026-11-20"
+    },
+    {
+      "industry": "banking",
+      "slug": "alipay-plus-pix-brazil-wallet-gateway",
+      "score": 0.6,
+      "reason": "manual",
+      "region": "latam",
+      "sourceDate": "2026-11-20"
+    },
+    {
+      "industry": "banking",
+      "slug": "pine-labs-staq-stablecoin-card-orchestrator",
+      "score": 0.58,
+      "reason": "manual",
+      "region": "apac",
+      "sourceDate": "2026-11-20"
+    },
+    {
+      "industry": "banking",
+      "slug": "uqpay-visa-payment-passkey-live",
+      "score": 0.5,
+      "reason": "manual",
+      "region": "apac",
+      "sourceDate": "2026-11-20"
+    },
+    {
+      "industry": "banking",
+      "slug": "google-wallet-ios-agentic-credentials-us",
+      "score": 0.55,
+      "reason": "manual",
+      "region": "north-america",
+      "sourceDate": "2026-11-20"
+    },
+    {
+      "industry": "banking",
+      "slug": "pliant-uk-government-payment-solutions-framework",
+      "score": 0.6,
+      "reason": "manual",
+      "region": "europe",
+      "sourceDate": "2026-11-20"
+    }
+  ],
+  "alternates": [
+    {
+      "industry": "identity",
+      "slug": "moldova-border-biometric-kits-eight-crossings",
+      "score": 0.6,
+      "reason": "fill"
+    },
+    {
+      "industry": "identity",
+      "slug": "five-states-join-utah-sedi-digital-identity",
+      "score": 0.58,
+      "reason": "fill"
+    }
+  ],
+  "expired": [],
+  "gaps": [
+    {
+      "region": "cis",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "mena",
+      "note": "池内 0 条"
+    }
+  ],
+  "unaccounted": [],
+  "conflicts": [
+    {
+      "kind": "undated",
+      "detail": "banking/alipay-plus-pix-brazil-wallet-gateway 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/pine-labs-staq-stablecoin-card-orchestrator 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/uqpay-visa-payment-passkey-live 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/magtek-dynaflex-ii-go-mdl-card-reader 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/google-wallet-ios-agentic-credentials-us 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/pliant-uk-government-payment-solutions-framework 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/idenfy-pci-dss-v4-bank-card-verification 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/paysafe-paysafego-merchant-branded-wallets 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/silverflow-modular-in-person-acceptance 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/pliant-uk-government-payment-solutions-framework 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/idenfy-pci-dss-v4-bank-card-verification 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/paysafe-paysafego-merchant-branded-wallets 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/tanzania-nida-laser-card-line-2800-per-hour 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/moldova-border-biometric-kits-eight-crossings 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/nist-ansi-nist-itl-2025-machine-readable-json 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/south-africa-passport-480-bank-branches 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/silverflow-modular-in-person-acceptance 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/splitit-fis-total-issuing-instalments 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/pliant-uk-government-payment-solutions-framework 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/tbc-uzbekistan-visa-business-platinum-sme-cards 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/identomat-iad-cen-ts-18099-high 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "identity/moldova-border-biometric-kits-eight-crossings 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    }
+  ]
+}

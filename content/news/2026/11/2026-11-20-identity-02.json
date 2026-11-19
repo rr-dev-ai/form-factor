@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-20-identity-04",
+  "slug": "nist-sp-1800-42-mdl-online-use-draft",
+  "industry": "identity",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "mobile-id",
+    "verification",
+    "pki"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-20T04:28:34+08:00",
+  "ingestedAt": "2026-11-20T03:10:09+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/11/nist-project-aims-accelerate-mobile-drivers-license-adoption",
+      "lang": "en",
+      "publishedAt": "2026-11-19T00:00:00Z"
+    },
+    {
+      "name": "NIST",
+      "url": "https://www.nccoe.nist.gov/sites/default/files/2026-11/nist-sp-1800-42-2pd.pdf",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "NIST 发布 mDL 在线核验参考架构草案",
+    "en": "NIST drafts reference architecture for online mDL checks",
+    "es": "NIST publica un borrador de arquitectura para verificar mDL en línea"
+  },
+  "summary": {
+    "zh": "美国国家标准与技术研究院 NCCoE 项目发布 SP 1800-42 第二版公开草案，给出手机驾照 mDL 在线使用的参考架构，演示在线出示、高风险场景重新核验、签发防钓鱼通行密钥三项能力；征求意见至 12 月 20 日。美国已有 22 个州和地区开展 mDL 项目，约 500 万张在用。",
+    "en": "NIST's NCCoE programme released the second public draft of SP 1800-42, a reference architecture for online use of mobile driver's licences. It demonstrates three capabilities: presenting an mDL in an online transaction, re-verifying identity in high-risk scenarios, and issuing a phishing-resistant passkey. Comments are due by 20 December. Twenty-two US states and territories run mDL programmes, with roughly five million licences in use.",
+    "es": "El programa NCCoE del NIST publicó el segundo borrador público de SP 1800-42, una arquitectura de referencia para el uso en línea del carné de conducir móvil. Demuestra tres capacidades: presentar un mDL en una transacción en línea, reverificar la identidad en escenarios de alto riesgo y emitir una clave de acceso resistente a phishing. Los comentarios se reciben hasta el 20 de diciembre. Veintidós estados y territorios de EE. UU. tienen programas de mDL, con unos cinco millones de licencias en uso."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "三项演示能力",
+        "en": "Three demonstrated capabilities",
+        "es": "Tres capacidades demostradas"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "NIST 下属国家网络安全卓越中心 NCCoE 发布 SP 1800-42 第二版公开草案，报告全名是《数字身份——手机驾照：实现安全且可互操作的在线使用》。参考架构演示三项能力：用户在在线交易中出示 mDL 完成身份验证；在大额交易或账户找回等高风险场景重新请求并出示 mDL 以恢复信任；向用户签发防钓鱼的通行密钥。NIST 说整套系统用市售现成技术、软件和标准搭建。",
+        "en": "NIST's National Cybersecurity Center of Excellence released the second public draft of SP 1800-42, titled Digital Identities — Mobile Driver's License: Enabling Secure and Interoperable Online Use. The reference architecture demonstrates three capabilities: presenting an mDL to verify identity in an online transaction, requesting and presenting an mDL again in high-risk scenarios such as large transactions or account recovery to re-establish trust, and issuing a phishing-resistant passkey to the user. NIST says the system was built from commercially available, off-the-shelf technology, software and standards.",
+        "es": "El Centro Nacional de Excelencia en Ciberseguridad del NIST publicó el segundo borrador público de SP 1800-42, titulado Identidades digitales: carné de conducir móvil, uso en línea seguro e interoperable. La arquitectura de referencia demuestra tres capacidades: presentar un mDL para verificar la identidad en una transacción en línea, volver a pedir y presentar el mDL en escenarios de alto riesgo como operaciones de gran importe o recuperación de cuenta, y emitir una clave de acceso resistente a phishing. El NIST afirma que el sistema se construyó con tecnología, software y estándares disponibles en el mercado."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "参与方与征求意见",
+        "en": "Participants and comments",
+        "es": "Participantes y comentarios"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "NCCoE 的 mDL 项目参与方包括技术公司、政府机构和美国十家最大银行中的五家。NIST 安全工程师 Bill Fisher 把推广障碍概括为「鸡生蛋」：消费者在没有高价值日常使用场景时不愿采用 mDL，企业在没有用户需求时也不愿投入集成。草案还给出七条用户体验实践建议，征求意见截至 12 月 20 日。NIST 统计美国有 22 个州和地区已上线 mDL 项目，至少 500 万张在用，约 47% 人口可获取。",
+        "en": "The NCCoE mDL project brought together technology companies, government agencies and five of the ten largest US banks. NIST security engineer Bill Fisher describes the adoption barrier as a chicken-and-egg problem: consumers will not take up mDLs without high-value everyday uses, and firms will not invest in integration without demand. The draft also offers seven usability practices, with comments due by 20 December. NIST counts 22 states and territories with active mDL programmes, at least five million licences in use and access for about 47 percent of the population.",
+        "es": "El proyecto mDL del NCCoE reunió a empresas tecnológicas, organismos públicos y cinco de los diez mayores bancos de EE. UU. El ingeniero de seguridad del NIST Bill Fisher describe el obstáculo como un problema de huevo y gallina: los consumidores no adoptan el mDL sin usos cotidianos de alto valor y las empresas no invierten en integración sin demanda. El borrador ofrece además siete prácticas de usabilidad, con comentarios hasta el 20 de diciembre. El NIST cuenta 22 estados y territorios con programas activos, al menos cinco millones de licencias en uso y acceso para cerca del 47 % de la población."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这份草案把 mDL 从「能装在手机里的证件」推进到「受理方具体怎么接」：在线出示、高风险重新核验和防钓鱼通行密钥三项演示，给银行和政府服务提供了可直接对照的集成路径。对钱包与核验厂商而言，参考架构一旦稳住，接口差异会被收敛，产品竞争会转向能否在高风险场景里把 mDL 与账户找回流程绑定。NIST 点明瓶颈在受理端而非技术本身，这意味着短期机会在商户与银行的核验接入，而不是再发一种证件。草案仍在征求意见，最终版的能力边界和合规口径可能调整，投标时不宜当作定稿引用。",
+    "en": "The draft moves the mDL from a credential that fits in a phone to how accepting parties actually integrate it: online presentation, high-risk re-verification and a phishing-resistant passkey give banks and government services a concrete path to copy. For wallet and verification vendors, once the reference architecture settles, interface differences narrow and competition shifts to whether a product can bind the mDL to account-recovery flows in high-risk scenarios. NIST names the bottleneck as the accepting side rather than the technology, so near-term opportunity sits in merchant and bank verification integration, not in issuing another kind of credential. The document is still open for comment, so final capability boundaries and compliance language may change and bids should not cite it as final.",
+    "es": "El borrador lleva el mDL de ser una credencial que cabe en el teléfono a cómo la integran realmente quienes la aceptan: la presentación en línea, la reverificación de alto riesgo y una clave resistente a phishing ofrecen a bancos y servicios públicos una vía concreta. Para fabricantes de carteras y verificación, once estabilizada la arquitectura de referencia se reducen las diferencias de interfaz y la competencia pasa a centrarse en si el producto puede vincular el mDL a flujos de recuperación de cuenta en escenarios críticos. El NIST señala que el cuello de botella está en el lado receptor y no en la tecnología, por lo que la oportunidad a corto plazo está en integrar la verificación de comercios y bancos, no en emitir otro tipo de documento. El texto sigue en consulta, así que los límites finales y el lenguaje de cumplimiento pueden cambiar y las ofertas no deberían citarlo como definitivo."
+  },
+  "confidence": 0.62,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11-20"
+  }
+}

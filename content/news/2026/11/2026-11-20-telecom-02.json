@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-20-telecom-02",
+  "slug": "verizon-bosch-esim-race-telemetry",
+  "industry": "telecom",
+  "region": "global",
+  "regions": [],
+  "tags": [
+    "esim",
+    "rsp"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-20T04:28:34+08:00",
+  "ingestedAt": "2026-11-20T02:50:27+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "IoT Business News",
+      "url": "https://iotbusinessnews.com/2026/11/18/verizon-and-bosch-motorsport-expand-iot-connectivity-for-global-race-telemetry/",
+      "lang": "en",
+      "publishedAt": "2026-11-18T00:00:00Z"
+    },
+    {
+      "name": "eSIM Report",
+      "url": "https://www.esim.report/news/verizon-business-signs-bosch-motorsport-for-iot-in-140-countries",
+      "lang": "en",
+      "publishedAt": "2026-11-18T00:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "Verizon 用远程 eSIM 配置支撑博世赛车 140 多国遥测",
+    "en": "Verizon uses remote eSIM profiles for Bosch race telemetry in 140+ countries",
+    "es": "Verizon usa perfiles eSIM remotos para la telemetría de carreras de Bosch en más de 140 países"
+  },
+  "summary": {
+    "zh": "Verizon Business 与博世汽车赛事扩大合作：ThingSpace 平台用远程下发的 eSIM profile 把博世网关接入 140 多个国家的当地网络，私有 APN 不随运营商变化；方案已从底特律大奖赛用到 Petit Le Mans，每辆车回传约 400 路遥测数据。",
+    "en": "Verizon Business and Bosch Motorsport are extending a connectivity deal: the ThingSpace platform delivers eSIM profiles remotely so Bosch gateways join local networks in more than 140 countries without changing the private APN. The setup has run at the Detroit Grand Prix and Petit Le Mans, with each car streaming about 400 telemetry channels.",
+    "es": "Verizon Business y Bosch Motorsport amplían un acuerdo de conectividad: la plataforma ThingSpace entrega perfiles eSIM de forma remota para que las pasarelas de Bosch se unan a redes locales en más de 140 países sin cambiar el APN privado. El sistema se ha usado en el Gran Premio de Detroit y en Petit Le Mans, con unos 400 canales de telemetría por vehículo."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Verizon Business 与 Bosch Motorsport 在 2026 年 11 月 18 日披露扩大合作，用 Verizon 的 Global IoT Orchestration 服务与 ThingSpace 平台连接博世的 RaceConnect 传感器系统，支撑国际赛事的实时遥测与合规监控。",
+        "en": "Verizon Business and Bosch Motorsport disclosed on 18 November 2026 that they are extending their collaboration, using Verizon's Global IoT Orchestration service and ThingSpace platform to connect Bosch's RaceConnect sensor systems for live telemetry and compliance monitoring at international races.",
+        "es": "Verizon Business y Bosch Motorsport anunciaron el 18 de noviembre de 2026 que amplían su colaboración, usando el servicio Global IoT Orchestration y la plataforma ThingSpace de Verizon para conectar los sistemas de sensores RaceConnect de Bosch y respaldar la telemetría en tiempo real y el control de cumplimiento en carreras internacionales."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Verizon 平台支持 140 多个国家的连接。博世 Connected Gateway 3.2 抵达其中任一国家时，ThingSpace 通过远程下发的 eSIM profile 把设备接到当地网络，私有 APN 在更换运营商时保持不变，设备无需逐国重新配置网络接入参数。",
+        "en": "Verizon's platform supports connectivity in more than 140 countries. When a Bosch Connected Gateway 3.2 arrives in any of them, ThingSpace attaches it to a local network through a remotely provisioned eSIM profile, and the private APN stays the same across operators, so the device needs no per-country reconfiguration of access settings.",
+        "es": "La plataforma de Verizon admite conectividad en más de 140 países. Cuando una pasarela Bosch Connected Gateway 3.2 llega a cualquiera de ellos, ThingSpace la conecta a la red local mediante un perfil eSIM aprovisionado a distancia, y el APN privado permanece igual al cambiar de operador, sin necesidad de reconfigurar los parámetros de acceso en cada país."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "博世的 RaceConnect 传感器在时速超过 200 英里的赛车上采集发动机参数、转速、车速、横向加速度和悬架运动，每辆车约 400 路数据近乎实时回传私有云，用于技术合规检查、性能监控、赛事安全和数字化裁判。",
+        "en": "Bosch's RaceConnect sensors collect engine parameters, RPM, vehicle speed, lateral acceleration and suspension movement from cars travelling above 200 mph. About 400 channels per car reach a private cloud in near real time for technical compliance checks, performance monitoring, race safety and digital marshalling.",
+        "es": "Los sensores RaceConnect de Bosch recopilan parámetros del motor, revoluciones, velocidad, aceleración lateral y movimiento de suspensión de coches que superan las 200 mph. Unos 400 canales por vehículo llegan a una nube privada casi en tiempo real para revisiones técnicas de cumplimiento, supervisión del rendimiento, seguridad y control digital de carrera."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Verizon 在底特律大奖赛部署了移动基站车、轻型基站车、分布式天线系统和移动专网，把关键遥测流量与观众流量隔开。这套连接配置最初用于底特律，此后用于 Petit Le Mans，并计划在戴通纳 24 小时耐力赛和塞布林 12 小时耐力赛等 IMSA 赛事继续使用。公告未披露合同金额、设备数量，也未把它描述为首次合作，而是既有合作的扩展。",
+        "en": "At the Detroit Grand Prix, Verizon deployed cells on wheels, cells on light trucks, distributed antenna systems and a mobile private network to separate critical telemetry traffic from spectator traffic. The setup first used in Detroit has since run at Petit Le Mans and is planned for IMSA events including the Rolex 24 At Daytona and the Mobil 1 Twelve Hours of Sebring. The announcement gives no contract value or device count, and describes the deal as an extension of an existing collaboration rather than a new one.",
+        "es": "En el Gran Premio de Detroit, Verizon desplegó estaciones móviles, estaciones en camiones ligeros, sistemas de antenas distribuidas y una red móvil privada para separar la telemetría crítica del tráfico de los espectadores. La configuración, estrenada en Detroit, se ha usado después en Petit Le Mans y está prevista para pruebas IMSA como las 24 Horas de Daytona y las 12 Horas de Sebring. El anuncio no da valor del contrato ni número de dispositivos y describe el acuerdo como una ampliación de una colaboración existente, no como una nueva."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "远程 eSIM profile 加统一 APN，解决的是跨国物联网部署里最费人工的那一环：设备换到另一张当地网络时不必重新配置接入参数，车队每换一个赛道就能少做一轮现场调试。技术上的关键不在传感器数量，而在 eSIM profile 的远程下发与跨运营商 APN 的一致性，这两点决定了同一套配置能否从赛车扩展到物流或工程机械。商业上，Verizon 把连接管理从卖流量转向按设备编排收费，博世则把遥测接入自己的私有云。需要留意的是，公告明确这是既有合作的扩展，140 多国是平台覆盖范围，不等于博世已在这么多国家实际部署。",
+    "en": "A remotely delivered eSIM profile plus a fixed APN removes the most labour-heavy step in cross-border IoT deployments: devices join a different local network without reconfiguring access settings, so a team avoids another round of on-site setup at every race. The technical point is not the sensor count but remote profile provisioning and APN consistency across operators — these decide whether the same configuration can move from racing to logistics or construction equipment. Commercially, Verizon shifts from selling connectivity to charging for device orchestration, while Bosch feeds telemetry into its own private cloud. Note that the announcement calls this an extension of an existing deal, and 140-plus countries is the platform's footprint, not where Bosch has actually deployed.",
+    "es": "Un perfil eSIM entregado a distancia junto con un APN fijo elimina el paso más costoso en mano de obra de las implementaciones IoT transfronterizas: los dispositivos se unen a otra red local sin reconfigurar los ajustes de acceso, lo que evita otra ronda de instalación in situ en cada carrera. Lo técnico relevante no es el número de sensores, sino el aprovisionamiento remoto de perfiles y la coherencia del APN entre operadores, que determinan si la misma configuración puede pasar de las carreras a la logística o la maquinaria. En lo comercial, Verizon pasa de vender conectividad a cobrar por orquestación de dispositivos, mientras Bosch integra la telemetría en su nube privada. Conviene notar que el anuncio lo describe como una ampliación de un acuerdo existente y que los más de 140 países son la cobertura de la plataforma, no donde Bosch haya desplegado realmente."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "editor-telecom-2026-11-20"
+  }
+}
