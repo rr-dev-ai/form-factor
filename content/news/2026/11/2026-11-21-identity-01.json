@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-21-identity-04",
+  "slug": "five-states-join-utah-sedi-digital-identity",
+  "industry": "identity",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "mobile-id",
+    "verification",
+    "pki"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-21T04:19:37+08:00",
+  "ingestedAt": "2026-11-21T03:15:53+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/colorado-delaware-massachusetts-oklahoma-and-wyoming-join-utah-on-state-endorsed-digital-identity/",
+      "lang": "en",
+      "publishedAt": "2026-11-19T00:00:00Z"
+    },
+    {
+      "name": "KPCW",
+      "url": "https://www.kpcw.org/state-regional/2026-11-18/five-states-join-utah-in-effort-to-create-digital-id-program"
+    }
+  ],
+  "title": {
+    "zh": "科罗拉多等五州加入犹他州背书数字身份框架",
+    "en": "Five US states join Utah's state-endorsed digital identity framework",
+    "es": "Cinco estados de EE. UU. se suman al marco de identidad digital de Utah"
+  },
+  "summary": {
+    "zh": "犹他州州长 Spencer Cox 宣布，科罗拉多、特拉华、马萨诸塞、俄克拉荷马和怀俄明五州正与犹他合作开发州背书数字身份 SEDI 框架。SEDI 由州政府签发可证明年龄或居住等事实的凭证，支持选择性披露、双向核验和离线使用；犹他计划 1 月用它取代本州手机驾照项目。",
+    "en": "Utah governor Spencer Cox announced that Colorado, Delaware, Massachusetts, Oklahoma and Wyoming are working with Utah to develop the state-endorsed digital identity (SEDI) framework. SEDI uses state-signed credentials that prove facts such as age or residency, with selective disclosure, two-way verification and offline use. Utah plans to replace its mobile driver's licence programme with SEDI in January.",
+    "es": "El gobernador de Utah, Spencer Cox, anunció que Colorado, Delaware, Massachusetts, Oklahoma y Wyoming trabajan con Utah en el marco de identidad digital respaldado por el estado (SEDI). SEDI usa credenciales firmadas por el estado que prueban hechos como la edad o la residencia, con divulgación selectiva, verificación bidireccional y uso sin conexión. Utah planea sustituir su programa de carné de conducir móvil por SEDI en enero."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "五州加入开发",
+        "en": "Five states join the effort",
+        "es": "Cinco estados se suman"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "犹他州州长 Spencer Cox 在 Park City 举行的 SEDI 峰会上宣布，科罗拉多、特拉华、马萨诸塞、俄克拉荷马和怀俄明五州正与犹他合作开发州背书数字身份 SEDI 框架。Cox 把 SEDI 定位为数字公共基础设施，目标是让个人在使用凭证时也能核验索取方身份与权限。犹他计划 1 月用 SEDI 取代本州现行的手机驾照项目。",
+        "en": "Utah governor Spencer Cox told the Park City SEDI summit that Colorado, Delaware, Massachusetts, Oklahoma and Wyoming are working with Utah to develop the state-endorsed digital identity framework. Cox described SEDI as digital public infrastructure in which a person can also verify who is asking for their identity and whether that party has authority. Utah plans to replace its current mobile driver's licence programme with SEDI in January.",
+        "es": "El gobernador de Utah, Spencer Cox, anunció en la cumbre SEDI de Park City que Colorado, Delaware, Massachusetts, Oklahoma y Wyoming trabajan con Utah en el marco de identidad digital respaldado por el estado. Cox describió SEDI como infraestructura digital pública en la que la persona también puede verificar quién pide su identidad y si tiene autoridad. Utah planea sustituir su actual programa de carné móvil por SEDI en enero."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "选择性披露与双向核验",
+        "en": "Selective disclosure and two-way checks",
+        "es": "Divulgación selectiva y verificación bidireccional"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "SEDI 的凭证由州政府签署，只证明州里已掌握的事实，例如年龄或居住情况；持有人可选择披露内容，能证明已满 21 岁而不透露姓名、地址和出生日期，签发机构也不会知道凭证在哪里被使用。犹他官方称凭证支持离线出示。该州的《数字身份权利法案》要求这类项目必须自愿，法律也禁止政府追踪身份证的使用时间和地点。Cox 10 月已签署行政令，要求州政府机构在适用场景下采用 SEDI 作为信任基础设施。",
+        "en": "SEDI credentials are signed by the state and prove only facts the state already holds, such as age or residency. Holders choose what to disclose and can prove they are over 21 without revealing name, address or date of birth, and the issuer is not told where the credential was used. Utah's official site says the ID works offline. The state's Digital Identity Bill of Rights makes such programmes optional and state law bars tracking when and where IDs are used. Cox signed an executive order in October directing state agencies to use SEDI as trust infrastructure where applicable.",
+        "es": "Las credenciales SEDI están firmadas por el estado y prueban solo hechos que el estado ya posee, como la edad o la residencia. Los titulares eligen qué divulgar y pueden demostrar que son mayores de 21 años sin revelar nombre, dirección ni fecha de nacimiento; el emisor no sabe dónde se usó la credencial. El sitio oficial de Utah afirma que el documento funciona sin conexión. La Ley de Derechos de Identidad Digital del estado hace opcionales estos programas y prohíbe rastrear cuándo y dónde se usan. Cox firmó en octubre una orden ejecutiva que instruye a las agencias estatales a usar SEDI como infraestructura de confianza cuando proceda."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "SEDI 与手机驾照的关键差别在核验方向：凭证证明持有人事实的同时，也要求索要方证明自己有权索取，这把 mDL 生态里长期缺失的双向核验写进州级框架。对身份钱包和凭证集成商而言，选择性披露、离线出示和防追踪三项会成为后续州际互操作的硬指标，只做实体证电子化的产品难以满足。五州以「合作开发」加入而非采购，说明框架仍在成形，真正的产品化落点要看犹他 1 月替换手机驾照后的接口与厂商名单；此前 25 个州参加过 4 月的聚会，Kantara Initiative 是联盟挂靠方，后续扩展路径已具备组织基础。",
+    "en": "The key difference between SEDI and a mobile driver's licence is the direction of verification: while the credential proves facts about the holder, it also requires the party asking to prove it has authority, writing the two-way check that the mDL ecosystem has long lacked into a state framework. For wallet and credential integrators, selective disclosure, offline presentation and anti-tracking become hard requirements for any later interstate interoperability, which pure digitised-card products cannot meet. The five states joined through a development effort rather than procurement, so the framework is still taking shape; the real productisation point comes with the interfaces and vendor list after Utah replaces its mDL in January. Twenty-five states attended an April gathering and the Kantara Initiative hosts the consortium, giving the expansion an organisational base.",
+    "es": "La diferencia clave entre SEDI y un carné de conducir móvil está en la dirección de la verificación: la credencial prueba hechos del titular y exige además que quien la pide demuestre su autoridad, incorporando a un marco estatal la verificación bidireccional que el ecosistema mDL llevaba tiempo sin tener. Para integradores de carteras y credenciales, la divulgación selectiva, la presentación sin conexión y la prevención del rastreo serán requisitos duros de la futura interoperabilidad entre estados, que los productos que solo digitalizan el carné no satisfacen. Los cinco estados se sumaron mediante un esfuerzo de desarrollo y no una compra, así que el marco aún se forma; el verdadero punto de productización llegará con las interfaces y los proveedores tras la sustitución del mDL en Utah en enero. Veinticinco estados asistieron a una reunión en abril y la Kantara Initiative acoge al consorcio, lo que da base organizativa a la expansión."
+  },
+  "confidence": 0.58,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11-20"
+  }
+}

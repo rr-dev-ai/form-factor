@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-21-banking-02",
+  "slug": "pliant-uk-government-payment-solutions-framework",
+  "industry": "banking",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "issuing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-21T04:19:37+08:00",
+  "ingestedAt": "2026-11-21T03:05:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "The Paypers",
+      "url": "https://thepaypers.com/payments/news/pliant-named-supplier-on-uk-governments-gbp-132-bln-framework",
+      "lang": "en",
+      "publishedAt": "2026-11-18T00:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "Pliant 入英国政府采购卡框架，与四大行同列",
+    "en": "Pliant named supplier on UK government commercial card framework",
+    "es": "Pliant entra en el marco de tarjetas del gobierno británico"
+  },
+  "summary": {
+    "zh": "商业卡与 B2B 支付服务商 Pliant 11 月 18 日宣布，被英国政府商业署列入 Payment Solutions 3 采购框架（编号 RM6383）第一标段「商业卡与数字支付」，与 Barclays、HSBC、Lloyds、NatWest 同列，是五家供应商中唯一的金融科技公司。该标段四年期、指示性总值 132 亿英镑，2026 年 10 月至 2030 年 9 月有效。",
+    "en": "Commercial card and B2B payments provider Pliant announced on 18 November that it has been named a supplier on the UK Government Commercial Agency's Payment Solutions 3 framework (RM6383), Lot 1 for Commercial Cards and Digital Payments, alongside Barclays, HSBC, Lloyds and NatWest, the only fintech among five suppliers. The four-year lot has an indicative value of GBP 13.2 billion and runs from October 2026 to September 2030.",
+    "es": "El proveedor de tarjetas comerciales y pagos B2B Pliant anunció el 18 de noviembre que fue designado proveedor del marco Payment Solutions 3 de la Agencia Comercial del Gobierno británico (RM6383), lote 1 de Tarjetas Comerciales y Pagos Digitales, junto a Barclays, HSBC, Lloyds y NatWest, siendo la única fintech entre cinco proveedores. El lote cuatrienal tiene un valor indicativo de 13.200 millones de libras y vigencia de octubre de 2026 a septiembre de 2030."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Pliant 于 11 月 18 日宣布，被英国政府商业署（GCA）列为 Payment Solutions 3 采购框架（编号 RM6383）的供应商，进入第一标段「商业卡与数字支付」。英国中央政府部门与更广泛的公共机构可通过该框架采购 Pliant 的商业卡与数字支付方案。",
+        "en": "Pliant announced on 18 November that it has been named a supplier on the UK Government Commercial Agency's (GCA) Payment Solutions 3 framework (RM6383), in Lot 1 for Commercial Cards and Digital Payments. UK central government departments and wider public bodies can procure Pliant's commercial card and digital payment solutions through the framework.",
+        "es": "Pliant anunció el 18 de noviembre que fue designado proveedor del marco Payment Solutions 3 de la Agencia Comercial del Gobierno británico (GCA, por sus siglas en inglés), con referencia RM6383, en el lote 1 de Tarjetas Comerciales y Pagos Digitales. Los departamentos del gobierno central británico y otros organismos públicos pueden contratar las soluciones de tarjetas comerciales y pagos digitales de Pliant a través del marco."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "同批进入第一标段的还有 Barclays、HSBC、Lloyds 与 NatWest。Pliant 是五家中唯一的金融科技公司与非银行机构，为公共部门买方提供既有银行之外的选择。该标段为期四年，指示性总值 132 亿英镑（含增值税），代表所有供应商的潜在支出总额，并非 Pliant 的承诺收入。",
+        "en": "Barclays, HSBC, Lloyds and NatWest were named in the same lot. Pliant is the only fintech and non-bank among the five, giving public-sector buyers an alternative to established banks. The four-year lot has an indicative value of GBP 13.2 billion including VAT, representing potential spending across all suppliers rather than committed revenue for Pliant.",
+        "es": "Barclays, HSBC, Lloyds y NatWest figuran en el mismo lote. Pliant es la única fintech y entidad no bancaria entre cinco, lo que ofrece a los compradores del sector público una alternativa a los bancos establecidos. El lote cuatrienal tiene un valor indicativo de 13.200 millones de libras con IVA incluido, que representa el gasto potencial de todos los proveedores y no ingresos comprometidos para Pliant."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Pliant 表示此次入选经过竞争性采购程序。Payment Solutions 3 于 2026 年 10 月至 2030 年 9 月运行，取代上一版 Payment Solutions 2 框架。公告未披露 Pliant 预计获得的采购份额或具体公共部门客户。",
+        "en": "Pliant says the appointment followed a competitive procurement process. Payment Solutions 3 runs from October 2026 to September 2030, succeeding the earlier Payment Solutions 2 framework. The release gave no expected share of spend for Pliant or specific public-sector clients.",
+        "es": "Pliant afirma que la designación siguió un proceso de contratación competitivo. Payment Solutions 3 opera de octubre de 2026 a septiembre de 2030 y sucede al anterior marco Payment Solutions 2. El comunicado no reveló la cuota de gasto esperada para Pliant ni clientes concretos del sector público."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这条变化落在商业卡的公共采购入口：英国中央政府采购商业卡长期由四大行把持，Pliant 作为唯一非银行供应商进入第一标段，意味着公共部门买方获得一个以模块化 B2B 支付为核心的方案，不必默认绑定银行发卡体系。对做商业卡与个人化服务的供应商，这类框架采购是中长期稳定渠道，先入框者获得四年期的准入资格。但 132 亿英镑是全部五家的指示性上限，不是 Pliant 的收入；公告也没有份额与具体客户，实际影响取决于 Pliant 能从标段中拿下多少采购量。",
+    "en": "The change sits at the public-procurement entry point for commercial cards. UK central government commercial cards have long been supplied by the big four banks; Pliant entering Lot 1 as the only non-bank supplier gives public-sector buyers a modular B2B payments alternative rather than a default bank-issuing relationship. For vendors in commercial cards and personalisation, framework appointments are a stable multi-year channel, and being named early grants four-year access. But GBP 13.2 billion is the indicative ceiling for all five suppliers, not Pliant's revenue, and the release gave no share or named clients; the real effect depends on how much spend Pliant wins from the lot.",
+    "es": "El cambio está en el punto de entrada de contratación pública de tarjetas comerciales. Las tarjetas comerciales del gobierno central británico han sido provistas históricamente por los cuatro grandes bancos; la entrada de Pliant en el lote 1 como único proveedor no bancario ofrece a los compradores públicos una alternativa modular de pagos B2B frente a la relación bancaria de emisión por defecto. Para proveedores de tarjetas comerciales y personalización, los marcos de contratación son un canal estable a varios años, y figurar desde el inicio da acceso por cuatro años. Pero los 13.200 millones de libras son el techo indicativo de los cinco proveedores, no ingresos de Pliant, y el comunicado no dio cuota ni clientes; el efecto real dependerá del volumen que Pliant capte del lote."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

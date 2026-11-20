@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-21-identity-01",
+  "slug": "shanghai-singapore-cross-border-digital-id-2-0",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "verification",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-21T04:19:37+08:00",
+  "ingestedAt": "2026-11-21T03:15:53+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/shanghai-launches-version-2-0-of-cross-border-digital-id-checks-for-singapore-investors/",
+      "lang": "en",
+      "publishedAt": "2026-11-20T00:00:00Z"
+    },
+    {
+      "name": "China Daily",
+      "url": "https://global.chinadaily.com.cn/a/202611/20/WS6affbd00e4b03ebf8519dae5.html",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "上海把中新跨境数字身份核验升到 2.0，新加坡高管扫码开户",
+    "en": "Shanghai upgrades cross-border digital ID checks to 2.0 for Singapore investors",
+    "es": "Shanghai eleva a 2.0 la verificación digital transfronteriza para inversores de Singapur"
+  },
+  "summary": {
+    "zh": "上海市市场监管局把沪新跨境数字身份认证系统升级到 2.0，并从上个别试点转为长期部署，接入一网通办企业开办平台。新加坡公司高管用手机上的数字身份小程序扫码，调取个人数字身份与公司授权文件，把身份核验步骤从四步压缩到两步；系统还能跨境解析并验证新加坡电子文件，自动读取复用签署人信息。已有两家新加坡公司用它完成在沪企业登记。",
+    "en": "Shanghai's market regulator has upgraded the Shanghai–Singapore cross-border digital identity system to version 2.0, moving it from pilot cases to long-term use on the city's enterprise registration platform. Singapore company executives scan a code with a digital identity mini-program to retrieve their identity and authorization documents, cutting verification from four steps to two. The system parses Singapore electronic documents across the border and reuses signatory data automatically. Two Singapore firms have registered Shanghai companies through it.",
+    "es": "El regulador de mercado de Shanghái actualizó a la versión 2.0 el sistema de identidad digital transfronteriza Shanghái–Singapur, pasando de pilotos a un uso permanente en la plataforma de registro de empresas. Los ejecutivos de firmas de Singapur escanean un código con un miniprograma de identidad digital para obtener su identidad y autorizaciones, reduciendo la verificación de cuatro pasos a dos. El sistema analiza documentos electrónicos de Singapur y reutiliza los datos de los firmantes. Dos empresas de Singapur ya registraron compañías en Shanghái."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "从试点转为长期部署",
+        "en": "From pilot to permanent deployment",
+        "es": "Del piloto al despliegue permanente"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "上海市市场监管局把沪新跨境数字身份认证系统升级到 2.0，接入上海的「一网通办」企业开办平台，并把它从个别试点案例转为全面部署、长期使用。系统的 1.0 版在去年年底完成首例外商投资企业登记；2.0 版针对试点中暴露的手续繁琐和手工录入出错做了改造。上海市市场监管局表示，下一步会把跨境身份认证扩展到更多应用场景，并在更多地区复制。",
+        "en": "Shanghai's Administration for Market Regulation has upgraded the Shanghai–Singapore cross-border digital identity authentication system to version 2.0 and wired it into the city's \"One-stop Government Service\" enterprise registration platform, moving it from isolated pilot cases to full, long-term use. Version 1.0 completed its first foreign-invested enterprise registration late last year; version 2.0 addresses the cumbersome steps and manual-entry errors exposed in the pilot. The regulator says it will extend cross-border identity authentication to more scenarios and replicate it in more regions.",
+        "es": "La Administración de Regulación del Mercado de Shanghái actualizó a la versión 2.0 el sistema de autenticación de identidad digital transfronteriza Shanghái–Singapur y lo integró en la plataforma de registro de empresas «Ventanilla Única» de la ciudad, pasando de casos piloto aislados a un uso pleno y permanente. La versión 1.0 completó el primer registro de una empresa de inversión extranjera a finales del año pasado; la 2.0 corrige los pasos engorrosos y los errores de entrada manual revelados en el piloto. El regulador afirma que ampliará la autenticación de identidad transfronteriza a más escenarios y la replicará en más regiones."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "扫码核验与跨境文件解析",
+        "en": "Code-scan checks and cross-border document parsing",
+        "es": "Verificación por código y análisis de documentos transfronterizos"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "2.0 版让新加坡公司高管用手机上的数字身份小程序扫码，取得个人数字身份和公司授权文件，把身份核验步骤从四步压缩到两步。系统能跨境解析并验证新加坡电子文件，自动读取并复用其中的公司与签署人信息，申请人不必再逐项手工录入。所有跨境身份核验结果记录在区块链上，上海市市场监管局称这样能让核验与授权防篡改、可追溯。两地还编制了中英双语操作指南。",
+        "en": "Version 2.0 lets executives of Singapore companies scan a code with a digital identity mini-program on their phones to obtain their personal digital identity and company authorization documents, cutting identity verification from four steps to two. The system parses and verifies Singapore electronic documents across the border, automatically reading and reusing company and signatory data so applicants no longer type each item by hand. All cross-border identity verification results are recorded on a blockchain, which the regulator says keeps checks and authorizations tamper-proof and traceable. The two sides also produced a bilingual Chinese–English operating guide.",
+        "es": "La versión 2.0 permite a los ejecutivos de empresas de Singapur escanear un código con un miniprograma de identidad digital en el móvil para obtener su identidad personal y los documentos de autorización de la empresa, reduciendo la verificación de cuatro pasos a dos. El sistema analiza y valida documentos electrónicos de Singapur al otro lado de la frontera, y lee y reutiliza automáticamente los datos de la empresa y de los firmantes, de modo que los solicitantes ya no tienen que escribirlos a mano. Todos los resultados de verificación transfronteriza quedan registrados en una cadena de bloques, lo que según el regulador hace que las comprobaciones y autorizaciones sean a prueba de manipulación y trazables. Ambas partes elaboraron además una guía operativa bilingüe chino–inglés."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "两地合作背景",
+        "en": "The wider Shanghai–Singapore cooperation",
+        "es": "La cooperación más amplia Shanghái–Singapur"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "11 月 19 日，第七次沪新全面合作理事会会议在上海举行并发布一份关于两地跨境数字身份互认的白皮书，突出上海在线上企业登记方面的经验。该理事会由上海市市长龚正与新加坡律政部长 Edwin Tong 共同主持，与会方签署了 16 项协议，覆盖金融、科技创新和数字经济等领域。上海市市场监管局说，新加坡的 ZEFIX 与 RAYS3I 两家投资机构已使用 2.0 版完成在沪公司登记；其中 ZEFIX 在 10 月当天办结，RAYS3I 在 11 月 12 日完成一家材料科技公司的登记。",
+        "en": "On November 19, the seventh Singapore–Shanghai Comprehensive Cooperation Council met in Shanghai and released a white paper on cross-border digital identity recognition between the two cities, highlighting Shanghai's experience with online business registration. The council is co-chaired by Shanghai Mayor Gong Zheng and Singapore's Minister for Law Edwin Tong, and participants signed 16 agreements spanning finance, technological innovation and the digital economy. The regulator says two Singapore investors, ZEFIX and RAYS3I, have used version 2.0 to register Shanghai companies: ZEFIX completed its registration on the day in October, and RAYS3I registered a materials technology firm on November 12.",
+        "es": "El 19 de noviembre, el séptimo Consejo de Cooperación Integral Singapur–Shanghái se reunió en Shanghái y publicó un documento sobre el reconocimiento mutuo de identidad digital transfronteriza entre ambas ciudades, destacando la experiencia de Shanghái en el registro de empresas en línea. El consejo está copresidido por el alcalde de Shanghái, Gong Zheng, y el ministro de Justicia de Singapur, Edwin Tong, y los participantes firmaron 16 acuerdos en ámbitos como finanzas, innovación tecnológica y economía digital. El regulador afirma que dos inversores de Singapur, ZEFIX y RAYS3I, usaron la versión 2.0 para registrar empresas en Shanghái: ZEFIX completó su registro el mismo día en octubre y RAYS3I registró una empresa de tecnología de materiales el 12 de noviembre."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这条变化把跨境公司开办里最费人工的一段——核验外国签署人的身份与授权——改成机器可读：新加坡电子文件被跨境解析、签署人信息自动复用，企业开办从四步变两步。对做跨境企业服务与身份验证的供应商，信号是互认的落点在受理端的文件解析和授权校验，而不只是发一张数字身份证；区块链留痕与中英双语指南也说明可审计性正成为跨境受理的标配。两地已明确要向更多场景和地区复制，这套流程一旦被当作模板，参与建设的身份核验与电子文件厂商有机会进入其他城市的跨境登记链路。但当前只有两家新加坡投资机构实际办结，规模很小，离形成通用互认标准还有距离。",
+    "en": "The change replaces the most labour-intensive part of cross-border company setup—verifying a foreign signatory's identity and authority—with machine-readable checks: Singapore electronic documents are parsed across the border, signatory data is reused automatically, and registration drops from four steps to two. For vendors in cross-border business services and identity verification, the signal is that mutual recognition is landing at the accepting end—document parsing and authorization checks—not just in issuing a digital ID. The blockchain audit trail and bilingual guide also show that auditability is becoming standard in cross-border acceptance. Both cities have said they will replicate the model in more scenarios and regions; if it becomes a template, identity-verification and e-document vendors involved could enter other cities' cross-border registration chains. Only two Singapore investors have actually completed registrations so far, however, a small base far from a general mutual-recognition standard.",
+    "es": "Este cambio sustituye la parte más laboriosa de crear empresas transfronterizas —verificar la identidad y la autoridad de un firmante extranjero— por comprobaciones legibles por máquina: los documentos electrónicos de Singapur se analizan al otro lado de la frontera, los datos del firmante se reutilizan y el registro pasa de cuatro pasos a dos. Para los proveedores de verificación de identidad, la señal es que el reconocimiento mutuo se materializa en el extremo receptor —análisis de documentos y validación de autorizaciones—, no solo en la emisión de un documento digital. La trazabilidad en cadena de bloques y la guía bilingüe muestran que la auditabilidad se vuelve estándar de la aceptación transfronteriza. Ambas ciudades replicarán el modelo en más escenarios y regiones; si se convierte en plantilla, los proveedores participantes podrían acceder a las cadenas de registro de otras ciudades. Hasta ahora solo dos inversores de Singapur han completado registros, una base pequeña aún lejos de un estándar general."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11-21"
+  }
+}

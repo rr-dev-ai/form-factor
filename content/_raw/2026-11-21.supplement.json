@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-11-21T01:53:36+08:00",
+  "fetchedFor": "2026-11-21",
+  "gap": ["apac", "cis", "mena", "europe", "north-america"],
+  "cellGap": ["africa/banking"],
+  "industryGap": ["telecom", "banking"],
+  "items": [
+    {
+      "title": "Visa 在刚果（金）首发手机 Tap to Pay，Visa Pay App 变受理终端",
+      "url": "https://www.xtrafrica.com/news/dr-congo-first-visa-pay-tap-to-pay-smartphone-launch-2026",
+      "publishedAt": "2026-11-19T00:00:00+01:00",
+      "industry": "banking",
+      "region": "africa",
+      "actionType": "跨国落地",
+      "gateNote": "Visa Pay 在该市场的首次落地，11-16 金沙萨上线、11-18 公司公告，Access Bank、Sofibanque、Solidaire Banque、UBA 四家具名。离动作门差可核规模：无交易量、商户数、终端数与时限，属功能扩展型首发，终审可能按既有钱包加功能收紧；来源为本地聚合媒体转述公司公告，非 Visa 官网一手稿。",
+      "discoveredBy": "\"20 November 2026\" OR \"19 November 2026\" prepaid card issuing contactless launch bank Africa Nigeria Kenya Ghana Uganda launch",
+      "note": "落在收单受理端：把银行卡受理能力塞进持卡人手机，用带 NFC 的安卓机在兼容终端上碰一下收款，Visa 以令牌化加设备认证替代实体卡。机制变化是 Visa Pay 从转账与线上交易扩到线下门店收款，首发市场为刚果（金）。原文未披露交易量、商户或终端覆盖数、四家银行各自上线范围、费率与结算时限，写稿不要补这些数字。"
+    },
+    {
+      "title": "youniqx 开放欧盟数字身份钱包公开测试环境，MIA 更名 EUDI Wallet",
+      "url": "https://www.biometricupdate.com/202611/youniqx-opens-testing-environment-for-eu-digital-identity-wallets-relaunches-mia",
+      "publishedAt": "2026-11-19T14:30:00-05:00",
+      "industry": "identity",
+      "region": "europe",
+      "actionType": "产品化节点",
+      "gateNote": "厂商自建测试环境并重塑品牌，非监管授标或认证，离动作门差可核的落地市场与依赖方：未给上线时间表、用户数、签约方，也没有新版本号或认证等级。MIA 目前仅 iOS，Android 待出。终审可能按「沙盒演示非商用节点」收紧，留判断余地。",
+      "discoveredBy": "\"mDL issuance\" OR \"verifiable credential pilot\" OR \"age assurance\" \"November 2026\" launch",
+      "note": "落在身份凭证的签发与核验环节：奥地利 youniqx（国家印钞集团 OSD 子公司）开放 EUDI Sandbox，用虚构个人身份数据模拟酒店入住、买酒年龄核验、SIM 卡注册等跨境与在线场景，测试数字凭证在依赖方侧的可验流程；2015 年上线的 MIA 同步改称 EUDI Wallet。原文未说沙盒是否接入官方信任框架、有哪些依赖方正式接入、测试结论，也未给具体用户规模，写稿勿把演示场景当作已落地受理。"
+    },
+    {
+      "title": "NIST 发布 IR 8616：把 ANSI/NIST-ITL 1-2025 生物特征交换格式变成机器可读规范",
+      "url": "https://www.biometricupdate.com/202611/nist-introduces-spec-to-make-biometric-data-exchange-format-machine-readable",
+      "publishedAt": "2026-11-19T14:24:00-05:00",
+      "industry": "identity",
+      "region": "north-america",
+      "actionType": "标准与认证",
+      "gateNote": "有明确规范号 IR 8616、45 页、发布方 NIST，符合标准类的版本与发证方要求。离动作门差可核采用方：这是帮助落地的机器可读框架，不是新算法或新认证等级，未点名采用机构与生效日期，FBI、DHS、INTERPOL 只是既有标准使用方。终审可能按「技术配套规范、非形态变化」收紧。",
+      "discoveredBy": "\"quantum-safe card\" OR \"softPOS certification\" OR \"payment card\" EMVCo \"November 2026\"",
+      "note": "落在身份数据的签发/核验接口层：NIST 把沿用多年的 ANSI/NIST-ITL 1-2025 指纹、人像等多模态交换标准转成机器可读规范，用模块化 JSON 架构加自动构建流程（合并、校验、转 HTML、后处理），减少人工交叉比对与解释偏差，便于证件与指纹系统在开发早期就按标准实现，而非靠后期一致性测试找错。原文未说强制时限、采用机构名单、BioCTS 是否同步升级，写稿不要扩展为强制迁移。"
+    },
+    {
+      "title": "马来西亚旅游局与 Merchantrade 推游客 Visa 预付卡，接入多币种电子钱包",
+      "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/19/tourism-malaysia-merchantrade-introduce-prepaid-card-ahead-of-visit-malaysia-campaign",
+      "publishedAt": "2026-11-19T22:08:00+08:00",
+      "industry": "banking",
+      "region": "apac",
+      "actionType": "联合部署",
+      "gateNote": "有具名双方、签署 MOU、明确产品形态（Visa 预付卡+多币种钱包）与场景（2026–2027 访马年），离动作门差发卡规模与受理终端数：原稿未给数量与时限，本质是游客卡加商户折扣，含渠道合作成分，终审可能按资费促销或渠道合作刷掉。发卡量 1 万张、DuitNow QR 支持只见于二手旅游聚合站，未采信。",
+      "discoveredBy": "\"19 de noviembre de 2026\" OR \"20 de noviembre de 2026\" tarjeta emisión banco contactless lanzamiento",
+      "note": "落在卡的签发与受理端：Merchantrade Money Visit Malaysia Visa 预付卡把多币种电子钱包与 Visa 受理结合，面向入境游客在酒店、商场、餐饮与景点消费，随卡给全国合作商户折扣；双方为马来西亚旅游局与 Merchantrade Asia，11-19 布城发布并签 MOU。原文给了一至九月 3230 万人次入境（同比增 2.4%）作背景，但未给发卡量、网点数、汇率与费率细节、DuitNow QR 是否支持，写稿不要引用二手聚合站补这些参数。"
+    }
+  ]
+}

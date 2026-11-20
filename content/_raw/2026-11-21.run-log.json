@@ -1,0 +1,38 @@
+{
+  "fetchedFor": "2026-11-21",
+  "matrix": {
+    "gap": ["apac", "cis", "mena", "europe", "north-america"],
+    "cellGap": ["latam/telecom", "africa/banking", "africa/telecom"],
+    "industryGap": ["telecom 7/7", "banking 6/7", "identity 5/7"],
+    "note": "build-matrix 计入 3 条，剔除 无日期 7 / 低置信 148；21 格仅 latam/banking、latam/identity、africa/identity 非空"
+  },
+  "phases": [
+    { "phase": "R1-缺口驱动", "at": "2026-11-21T01:51:24+08:00", "queries": 6, "basedOn": null },
+    { "phase": "R2-机构驱动", "at": "2026-11-21T01:51:35+08:00", "queries": 5, "basedOn": null },
+    { "phase": "R3-官方一手", "at": "2026-11-21T01:52:03+08:00", "queries": 6, "basedOn": "R1 乌兹别克/斯里兰卡 SIM 核验线索→采购词；R2 CorServ/Velera→发卡处理商项目落地" },
+    { "phase": "R4-垂媒", "at": "2026-11-21T01:52:10+08:00", "queries": 3, "basedOn": "R1/R3 证件签发线索→biometricupdate /202611 与 paymentsindustryintelligence 归档页直读" },
+    { "phase": "R5-新兴术语", "at": "2026-11-21T01:52:18+08:00", "queries": 3, "basedOn": "R3 EUDI/采购线索→verifiable credential、age assurance；R3 IDEMIA PQC→quantum-safe card" },
+    { "phase": "R6-区域补充", "at": "2026-11-21T01:52:55+08:00", "queries": 6, "basedOn": "R1/R2 刚果与非洲支付空白→西语/英语预付卡词；R5 SGP.32 全废→换本地运营商与 GSMA 词" },
+    { "phase": "tail-一手核验", "at": "2026-11-21T01:53:51+08:00", "queries": 3, "basedOn": "R6 刚果 Visa Pay、马来西亚预付卡两条线索→反查一手源" }
+  ],
+  "queryCounts": { "R1": 6, "R2": 5, "R3": 6, "R4": 3, "R5": 3, "R6": 6, "tail": 3, "total": 32, "archiveFetches": 2, "fullTextFetches": 12 },
+  "result": {
+    "kept": 4,
+    "verifiedButDropped": [
+      { "item": "中国—阿联酋银联–Jaywan 双品牌卡首笔交易", "reason": "证券时报原文实为 2025-11-22 发布（搜索摘要标 11-19 为事件日），超窗一年" },
+      { "item": "Emptech 坦桑尼亚生物身份证+数字钱包", "reason": "11-20 10:15 EST，与 11-20 已发「坦桑尼亚300亿先令升级身份证产线」同一项目（5 台制卡机 2800 卡/小时、MLP 激光内刻、数字位 4→8 全同）" },
+      { "item": "NIST SP 1800-42 mDL 在线核验参考架构草案", "reason": "11-20 已发 identity-02，同一事件线" },
+      { "item": "泰国 Phase 4 电子护照招标澄清", "reason": "11-11 19:51 GMT+7 发布，超窗且为争议表态非授标" },
+      { "item": "尼日利亚 FAAN vPASS 机场生物识别核验", "reason": "与 11-17 已发同事件线，11-13 报道" },
+      { "item": "中国移动 AI-eSIM", "reason": "aastocks 页面标 2026/05/05，会期 5 月 7-9 日，非 11-20 新事件" },
+      { "item": "CorServ×Buckeye / Velera×Community First / Crédit Agricole×Enfuce", "reason": "分别 11-10、11-12、11-11，超窗或已发" },
+      { "item": "塞舌尔 IN Groupe 生物护照", "reason": "PDF 路径含 2022/12，旧闻" },
+      { "item": "肯尼亚 CA 否认 SIM 生物采集 / 斯里兰卡 TRCSL SIM 新规", "reason": "表态阶段，无具体落地物与时间表" }
+    ],
+    "uncovered": {
+      "gaps": ["cis", "mena"],
+      "cellGap": ["latam/telecom", "africa/telecom", "africa/banking(仅间接——刚果属 africa 已填)"],
+      "industryGap": ["telecom 连续第 13 天行业级断供，六轮零命中"]
+    }
+  }
+}

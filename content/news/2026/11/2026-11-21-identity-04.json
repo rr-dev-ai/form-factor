@@ -1,0 +1,100 @@
+{
+  "id": "2026-11-21-identity-03",
+  "slug": "vietnam-electronic-identification-law-vneid-accounts",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "biometrics",
+    "verification",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-21T04:19:37+08:00",
+  "ingestedAt": "2026-11-21T03:15:53+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/vietnam-passes-law-tying-social-media-and-bank-accounts-to-national-digital-id/",
+      "lang": "en",
+      "publishedAt": "2026-11-20T00:00:00Z"
+    },
+    {
+      "name": "Dan Tri",
+      "url": "https://dantri.com.vn/thoi-su/quoc-hoi-luat-hoa-yeu-cau-xac-thuc-danh-tinh-tai-khoan-mang-xa-hoi-20261120173051691.htm",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "越南立法：社媒与银行账户须绑定国家电子身份，2027 年生效",
+    "en": "Vietnam passes law tying social and bank accounts to national digital ID",
+    "es": "Vietnam aprueba una ley que vincula redes sociales y cuentas bancarias a la identidad digital nacional"
+  },
+  "summary": {
+    "zh": "越南国会通过《电子身份与认证法》，要求社交网络、银行、支付中介、电子钱包、数字资产等线上账户按国家电子身份核验并绑定。法律以 473 票、94.79% 赞成票通过，禁止用伪造生物特征或数字生成图像建立身份，也禁止买卖租借电子身份；核验失败不得仅凭一次结果拒绝服务。VNeID 被定为国家电子身份应用，法律于 2027 年 7 月 1 日生效，公共数字签名证书 2027 年 3 月 1 日起签发。",
+    "en": "Vietnam's National Assembly has passed a law requiring online accounts in social networks, banking, payment intermediation, e-wallets and digital assets to be verified against and linked to a national electronic identity. It passed with 473 votes (94.79 per cent), bans fabricated biometrics and digitally created images for identity, and bars trading electronic identities. A single failed check cannot deny access. VNeID is named the national identity app; the law takes effect July 1, 2027, with public digital signature certificates from March 1, 2027.",
+    "es": "La Asamblea Nacional de Vietnam aprobó una ley que exige que las cuentas en redes sociales, banca, pagos, monederos electrónicos y activos digitales se verifiquen y vinculen a una identidad electrónica nacional. Se aprobó con 473 votos (94,79 %), prohíbe biométricos falsos e imágenes generadas digitalmente, y prohíbe comerciar identidades electrónicas. Un solo fallo no puede negar el acceso. VNeID queda como aplicación nacional; la ley entra en vigor el 1 de julio de 2027 y los certificados públicos de firma se emiten desde el 1 de marzo de 2027."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "立法内容与适用范围",
+        "en": "What the law covers",
+        "es": "Qué cubre la ley"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "越南国会通过了《电子身份与认证法》，以 473 票赞成、占全体代表 94.79% 的比例通过。法律规定，在证券、电信、银行、邮政、电子商务、医疗、支付中介、电子钱包、数字资产、网络游戏、域名注册和社交网络等领域使用线上交易账户的机构、组织和个人，必须把这些账户按国家电子身份核验并绑定。其他高风险交易也在此列，具体范围由各领域部长制定，政府设定实施路线图。公安部长 Luong Tam Quang 代表总理在投票前做了最终审议报告。",
+        "en": "Vietnam's National Assembly passed the Law on Electronic Identification and Authentication with 473 votes in favour, or 94.79 per cent of all deputies. The law requires agencies, organisations and individuals using online transaction accounts in securities, telecommunications, banking, postal services, e-commerce, medical treatment, payment intermediaries, e-wallets, digital assets, online games, domain name registration and social networks to verify and link those accounts to a national electronic identity. Other high-risk transactions are also covered, with ministers specifying sectors and the government setting an implementation roadmap. Minister of Public Security Luong Tam Quang presented the final report on behalf of the prime minister before the vote.",
+        "es": "La Asamblea Nacional de Vietnam aprobó la Ley de Identificación y Autenticación Electrónica con 473 votos a favor, el 94,79 % de todos los diputados. La ley exige que agencias, organizaciones y personas que usen cuentas de transacción en línea en valores, telecomunicaciones, banca, servicios postales, comercio electrónico, salud, intermediación de pagos, monederos electrónicos, activos digitales, juegos en línea, registro de dominios y redes sociales verifiquen y vinculen esas cuentas a una identidad electrónica nacional. También se cubren otras transacciones de alto riesgo, cuyo alcance fijarán los ministros y cuya hoja de ruta establecerá el gobierno. El ministro de Seguridad Pública, Luong Tam Quang, presentó el informe final en nombre del primer ministro antes de la votación."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "生物识别禁令与核验救济",
+        "en": "Biometric ban and failed-check safeguards",
+        "es": "Prohibición biométrica y garantías ante fallos"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "10 月提交审议的草案曾禁止伪造生物特征，禁令写入了最终文本：法律禁止用伪造的生物特征数据或数字生成的图像建立身份或进行电子认证，也禁止侵占、买卖、租借电子身份。法律同时限制了服务商对核验失败的处理——不得仅凭一次不成功的电子认证拒绝访问，必须设有复核机制，执行核验的组织要说明失败原因并告知如何补救。当一个人或企业在国家或行业数据库里的信息完整准确时，国家将直接为其创建电子身份并签发识别码，无需再次登记。",
+        "en": "A ban on fake biometrics in the draft tabled in October survived into the final text: the law prohibits using fabricated biometric data or digitally created images to establish an identity or carry out electronic authentication, and bars appropriating, buying, selling, renting or leasing electronic identities. The law also limits how providers handle failures—access cannot be denied on a single unsuccessful check without a review mechanism, and the organisation running the check must give the reason and explain how to fix it. Where a person's or business's data in a national or specialised database is complete and accurate, the state will create an electronic identity and issue an identification code without a new registration.",
+        "es": "La prohibición de biométricos falsos incluida en el borrador presentado en octubre se mantuvo en el texto final: la ley prohíbe usar datos biométricos fabricados o imágenes creadas digitalmente para establecer una identidad o autenticar electrónicamente, y prohíbe apropiarse, comprar, vender, alquilar o ceder identidades electrónicas. La ley también limita el tratamiento de los fallos: el acceso no puede negarse por una sola verificación fallida sin un mecanismo de revisión, y la organización que realiza la comprobación debe explicar el motivo y cómo subsanarlo. Cuando los datos de una persona o empresa en una base nacional o sectorial son completos y exactos, el estado creará una identidad electrónica y emitirá un código sin exigir un nuevo registro."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "VNeID 的角色与生效时间",
+        "en": "VNeID's role and timeline",
+        "es": "El papel de VNeID y el calendario"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "法律把国家身份识别应用 VNeID 定义为用于电子身份识别与认证、数据访问、公共服务和交易账户绑定的应用。通过 VNeID 发送的通知具有与纸质通知同等的法律效力，应用必须提供免费的公共数字签名认证。身份信息涉及个人数据的，其使用须经本人同意，本人可决定共享的范围、对象和期限。电子识别的对象从人和组织扩展到产品、商品、实物与数字资产、知识产权、事件、交易和地点。法律于 2027 年 7 月 1 日生效，国家电子身份主管部门从 2027 年 3 月 1 日起签发公共数字签名证书。",
+        "en": "The law defines the national identification app VNeID as the application for electronic identification and authentication, data access, public services and linking transaction accounts. Notifications sent through VNeID carry the same legal weight as paper notices, and the app must provide free public digital signature authentication. Where identity information includes personal data, its use requires the person's consent, and the person decides the scope, recipients and duration of sharing. The scope of electronic identification extends beyond people and organisations to products, goods, physical and digital assets, intellectual property, events, transactions and locations. The law takes effect on July 1, 2027, and public digital signature certificates are issued from March 1, 2027.",
+        "es": "La ley define la aplicación nacional de identidad VNeID como la aplicación para identificación y autenticación electrónica, acceso a datos, servicios públicos y vinculación de cuentas de transacción. Las notificaciones enviadas por VNeID tienen el mismo valor legal que las notificaciones en papel, y la aplicación debe ofrecer autenticación gratuita con firma digital pública. Cuando la información de identidad incluye datos personales, su uso requiere el consentimiento de la persona, que decide el alcance, los destinatarios y la duración del uso compartido. El alcance de la identificación electrónica se amplía más allá de personas y organizaciones a productos, bienes, activos físicos y digitales, propiedad intelectual, eventos, transacciones y lugares. La ley entra en vigor el 1 de julio de 2027 y los certificados públicos de firma digital se emiten desde el 1 de marzo de 2027."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这部法律把国家电子身份从「可选的政务登录方式」变成大量线上账户的强制核验底座：社交、银行、钱包、支付中介等账户都要按 VNeID 核验并绑定，等于给受理侧设定了新的合规义务，依赖方接入和账户核验的厂商会迎来明确需求。对身份核验供应商而言，两个技术门槛值得注意——法律明令禁止伪造生物特征与数字生成图像做身份，把活体检测与证件真伪校验写成合规要求；同时一次核验失败不得直接拒绝服务，产品必须内置复核与说明失败原因的流程。生效时间留出到 2027 年 7 月，公共数字签名证书更早于 3 月签发，集成商可据此排期。不过法律把实施路线图交给政府、具体高风险领域交各部委细化，真正的接入清单仍待后续文件。",
+    "en": "The law turns national digital identity from an optional government login into a mandatory verification base for a wide range of online accounts: social, banking, wallet and payment-intermediation accounts must all be checked and linked through VNeID, creating a new compliance duty on the accepting side and clear demand for relying-party onboarding and account-verification vendors. Two technical requirements matter for verification suppliers. The law explicitly bans fabricated biometrics and digitally created images for identity, writing liveness and document-authenticity checks into compliance; and a single failed check cannot deny service, so products must build in review and explainable failure reasons. The July 2027 effective date, with public digital signature certificates from March, gives integrators a schedule. But the implementation roadmap sits with the government and sector-specific scope with ministries, so the actual onboarding list is still to be issued.",
+    "es": "La ley convierte la identidad digital nacional de un acceso opcional a trámites públicos en una base de verificación obligatoria para numerosas cuentas en línea: las cuentas sociales, bancarias, de monederos y de intermediación de pagos deben verificarse y vincularse mediante VNeID, lo que crea una nueva obligación de cumplimiento en el extremo receptor y una demanda clara para los proveedores de incorporación y verificación de cuentas. Dos requisitos técnicos importan. La ley prohíbe expresamente los biométricos fabricados y las imágenes generadas digitalmente, incorporando la detección de vida y la autenticidad documental al cumplimiento; y un solo fallo no puede negar el servicio, por lo que los productos deben incluir revisión y explicación de los fallos. La entrada en vigor en julio de 2027, con certificados públicos de firma desde marzo, da un calendario a los integradores. Pero la hoja de ruta depende del gobierno y el alcance sectorial de los ministerios, así que la lista real de incorporación aún está por publicarse."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11-21"
+  }
+}

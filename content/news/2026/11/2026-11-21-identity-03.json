@@ -1,0 +1,84 @@
+{
+  "id": "2026-11-21-identity-02",
+  "slug": "germany-bundesrat-approves-digital-identity-law-d-you",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "digital-wallet",
+    "national-id",
+    "mobile-id",
+    "pki"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-21T04:19:37+08:00",
+  "ingestedAt": "2026-11-21T03:15:53+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/germanys-bundesrat-approves-digital-identity-law-ahead-of-january-eudi-wallet-launch/",
+      "lang": "en",
+      "publishedAt": "2026-11-20T00:00:00Z"
+    },
+    {
+      "name": "Bundesrat",
+      "url": "https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1070/03.html",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "德国联邦参议院批准数字身份法，d-you 钱包 1 月 2 日上线",
+    "en": "Germany's Bundesrat approves digital identity law, d-you wallet due January 2",
+    "es": "El Bundesrat alemán aprueba la ley de identidad digital; la cartera d-you llega el 2 de enero"
+  },
+  "summary": {
+    "zh": "德国联邦参议院一致批准《数字身份法》，为引入欧盟数字身份钱包 EUDI 扫清最后障碍，法律公布次日生效。德国的钱包应用名为 d-you，定于 2027 年 1 月 2 日上线，开局即可用于身份验证、年龄证明、开立账户和签署有法律约束力的合同。设置需启用在线功能的德国身份证或电子居留许可加六位 PIN，通过 NFC 读取卡数据；约 40 家伙伴参与，已备妥 300 多个用例，上线时预计约 50 个可用。",
+    "en": "Germany's Bundesrat has unanimously approved the Digital Identities Act, clearing the last hurdle for the country's EU Digital Identity Wallet; the law takes effect the day after promulgation. The wallet app, called d-you, is due on January 2, 2027, and will launch with identity checks, age proof, bank account opening and legally binding signatures. Setup requires a German ID card or e-residence permit with online function enabled and a six-digit PIN, read over NFC. Around 40 partners are involved, more than 300 use cases prepared and about 50 expected at launch.",
+    "es": "El Bundesrat alemán aprobó por unanimidad la Ley de Identidades Digitales, allanando el camino para la cartera de identidad digital de la UE; la ley entra en vigor al día siguiente de su publicación. La aplicación, llamada d-you, llegará el 2 de enero de 2027 con verificación de identidad, prueba de edad, apertura de cuentas y firmas vinculantes. La configuración requiere un documento de identidad alemán con función en línea activada y un PIN de seis dígitos, leído por NFC. Participan unos 40 socios, se han preparado más de 300 casos de uso y unos 50 estarán disponibles en el lanzamiento."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "法律获批与生效时间",
+        "en": "The law clears its final hurdle",
+        "es": "La ley supera su último obstáculo"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "德国联邦参议院代表各州，于 11 月 20 日周五一致批准《数字身份法》。联邦议院已在 10 月中旬由执政的基民盟/基社盟与社民党投票通过该法；参议院同意后，法律即可签署公布，并在公布次日生效。该法落实欧盟要求成员国向公民提供数字身份钱包的规定。德国联邦政府说，d-you 钱包定于 2027 年 1 月 2 日上线，用户从一开始就能用它证明身份、证明年龄、开立银行账户并签署有法律约束力的合同，使用免费且自愿，非数字化服务继续保留。",
+        "en": "Germany's Bundesrat, which represents the federal states, unanimously approved the Digital Identities Act on Friday, November 20. The Bundestag passed the law in mid-October with the governing CDU/CSU and SPD; with the states' consent it can now be signed and promulgated, and takes effect the day after promulgation. The law implements the EU rule requiring member states to offer a digital identity wallet. The federal government says the d-you wallet is due on January 2, 2027, with identity checks, age proof, bank account opening and legally binding contracts available from the start. Use is free and voluntary, and non-digital services remain.",
+        "es": "El Bundesrat alemán, que representa a los estados federados, aprobó por unanimidad la Ley de Identidades Digitales el viernes 20 de noviembre. El Bundestag la aprobó a mediados de octubre con los votos de la CDU/CSU y el SPD; con el consentimiento de los estados, la ley puede firmarse y publicarse, y entra en vigor al día siguiente. La ley aplica la norma de la UE que exige a los Estados miembros ofrecer una cartera de identidad digital. El gobierno federal afirma que la cartera d-you llegará el 2 de enero de 2027, con verificación de identidad, prueba de edad, apertura de cuentas y contratos vinculantes desde el inicio. El uso es gratuito y voluntario, y se mantienen los servicios no digitales."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "设置方式与可用场景",
+        "en": "Setup and launch use cases",
+        "es": "Configuración y casos de uso"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "d-you 开发者说，应用至少需要 iOS 26.4 或 Android 14，以及带 NFC 和必要安全功能的手机。设置时使用已启用在线身份证功能、设有六位 PIN 的德国身份证或电子居留许可，通过 NFC 读取卡数据并存入手机；上线时需要联网，完全离线使用留待以后。约 40 家来自产业、学界和政府的伙伴参与，已准备 300 多个用例，预计上线时约 50 个可用。数字驾照也与钱包在 1 月 2 日同步上线：交警出示二维码，司机用手机扫描，钱包显示所请求的数据并在用户同意后发送，数字驾照用于补充而非取代实体卡。",
+        "en": "The d-you developers say the app requires at least iOS 26.4 or Android 14 and a phone with NFC and the necessary security features. Setup uses a German ID card or electronic residence permit with the online ID function activated and a six-digit PIN; card data is read over NFC and stored on the phone. An internet connection is needed at launch, with fully offline use planned later. About 40 partners from industry, academia and government are involved, more than 300 use cases prepared and about 50 expected at launch. A digital driving licence also arrives in d-you on January 2: police display a QR code that the driver scans, and the wallet shows which data is requested and sends it only after consent. The digital licence supplements rather than replaces the plastic card.",
+        "es": "Los desarrolladores de d-you indican que la aplicación requiere al menos iOS 26.4 o Android 14 y un móvil con NFC y las funciones de seguridad necesarias. La configuración usa un documento de identidad alemán o un permiso de residencia electrónico con la función en línea activada y un PIN de seis dígitos; los datos se leen por NFC y se guardan en el móvil. El lanzamiento requiere conexión a internet y el uso totalmente sin conexión se prevé más adelante. Participan unos 40 socios de la industria, la academia y el gobierno; se han preparado más de 300 casos de uso y unos 50 estarán disponibles al inicio. El carné de conducir digital también llega a d-you el 2 de enero: la policía muestra un código QR que el conductor escanea, y la cartera muestra qué datos se piden y los envía solo tras el consentimiento. El carné digital complementa, y no sustituye, la tarjeta de plástico."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "德国是欧盟最大的经济体，它的钱包从法案到上线时间点落定，等于给 eIDAS 2.0 在各成员国的落地提供了一个可参照的进度样本——尤其是把数字驾照和实体卡并行、以二维码按需披露数据的做法，会直接影响钱包与核验终端厂商的接口设计。d-you 设定了明确的操作系统门槛（iOS 26.4、Android 14）与 NFC 要求，意味着一部分旧机型用户被挡在门外，受理方在设计线上流程时仍需保留身份证与实体卡通道。300 多个用例只开放约 50 个，说明钱包的能力是分批放出的，集成商应围绕首批场景排优先级。法律还放宽了 70 岁以上身份证的有效期、取消搬家后更新护照住址的要求，属于签发侧的配套调整。",
+    "en": "Germany is the EU's largest economy, so a fixed law and launch date give other member states a concrete reference for eIDAS 2.0 rollout—especially the choice to run a digital driving licence alongside the plastic card and disclose data on demand via QR code, which directly shapes wallet and reader interfaces. d-you sets explicit OS and NFC requirements (iOS 26.4, Android 14), which locks out some older phones; relying parties must keep ID-card and physical-card routes in their online flows. Only about 50 of more than 300 prepared use cases go live first, so capability is being released in stages and integrators should prioritise the initial set. The law also makes ID cards issued at age 70 or older valid indefinitely and ends passport address updates after a move—issuance-side changes worth noting.",
+    "es": "Alemania es la mayor economía de la UE, por lo que una ley y una fecha de lanzamiento fijas ofrecen a otros Estados miembros una referencia concreta para el despliegue de eIDAS 2.0, especialmente la decisión de mantener el carné de conducir digital junto al de plástico y divulgar datos bajo demanda mediante código QR, lo que configura las interfaces de carteras y lectores. d-you fija requisitos explícitos de sistema operativo y NFC (iOS 26.4, Android 14), lo que deja fuera a algunos móviles antiguos; las partes receptoras deben conservar las vías del documento físico en sus flujos en línea. Solo unos 50 de más de 300 casos preparados se lanzan primero, así que las capacidades se liberan por fases y los integradores deben priorizar el conjunto inicial. La ley también hace válidos indefinidamente los documentos emitidos a partir de los 70 años y elimina la actualización de domicilio en el pasaporte tras un cambio de residencia."
+  },
+  "confidence": 0.82,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11-21"
+  }
+}

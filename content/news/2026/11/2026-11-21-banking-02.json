@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-21-banking-07",
+  "slug": "visa-recurrent-subscription-management-apac",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "payment-gateway",
+    "issuing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-21T04:19:37+08:00",
+  "ingestedAt": "2026-11-21T03:05:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "IT Brief New Zealand",
+      "url": "https://www.itbrief.co.nz/visa-launches-subscription-tool-with-kiwibank-first/",
+      "lang": "en",
+      "publishedAt": "2026-11-19T00:00:00+12:00"
+    }
+  ],
+  "title": {
+    "zh": "Visa 推订阅管理工具，Kiwibank 率先接入网银",
+    "en": "Visa launches Visa Recurrent with Kiwibank first in digital banking",
+    "es": "Visa lanza Visa Recurrent con Kiwibank como primer banco"
+  },
+  "summary": {
+    "zh": "Visa 于 11 月 19 日在亚太推出 Visa Recurrent，把订阅与周期性扣款的查看和管理搬进银行 App 与网银。新西兰 Kiwibank 率先在手机银行和网银上线，公司称其为首个部署该产品的发卡行。用户在银行侧查看与管理合格周期扣款，商户在用户采取特定操作时收到通知并可把用户导回商户页面。",
+    "en": "Visa launched Visa Recurrent across Asia Pacific on 19 November, moving the viewing and management of subscriptions and recurring charges into bank apps and online banking. New Zealand's Kiwibank went first, deploying the product in its mobile and internet banking; the company calls it the first card issuer to do so. Users manage eligible recurring charges inside the bank, while merchants receive notifications when a user acts and can redirect the customer back to them.",
+    "es": "Visa lanzó Visa Recurrent en Asia-Pacífico el 19 de noviembre, llevando la consulta y gestión de suscripciones y cargos recurrentes a las apps y la banca en línea. El neozelandés Kiwibank fue el primero en desplegarlo en su banca móvil y en línea; la empresa lo describe como el primer emisor que lo adopta. Los usuarios gestionan los cargos elegibles dentro del banco, mientras los comercios reciben avisos cuando el usuario actúa y pueden redirigirlo."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Visa 于 11 月 19 日发布 Visa Recurrent，面向亚太参与银行开放。Kiwibank 已把该服务接进手机银行与网银，用户可在其中查看和管理合格的订阅及其他重复扣款，不必逐个登录商户网站、App 或联系客服。",
+        "en": "Visa released Visa Recurrent on 19 November for participating financial institutions across Asia Pacific. Kiwibank has put the service into its mobile app and internet banking, where users can view and manage eligible subscriptions and other repeat charges without visiting each merchant site or app or calling customer service.",
+        "es": "Visa lanzó Visa Recurrent el 19 de noviembre para instituciones financieras participantes en Asia-Pacífico. Kiwibank ya lo integró en su app móvil y banca en línea, donde los usuarios pueden consultar y gestionar suscripciones y otros cargos repetidos elegibles sin entrar a cada sitio o app del comercio ni llamar al servicio de atención."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Visa Recurrent 把消费者、金融机构与参与商户连接到同一条周期扣款流程。银行侧提供集中视图并支持部分管理操作；当消费者通过银行采取特定动作时，系统可向商户发送通知，并在需要时把消费者带回商户页面。",
+        "en": "Visa Recurrent connects consumers, financial institutions and participating merchants across the recurring-payment process. The bank provides a consolidated view and supports some management actions; when a consumer takes certain actions through the bank, the system can notify the merchant and redirect the customer back to the merchant where needed.",
+        "es": "Visa Recurrent conecta a consumidores, instituciones financieras y comercios participantes en el proceso de pago recurrente. El banco ofrece una vista consolidada y admite algunas acciones de gestión; cuando el consumidor realiza ciertas acciones a través del banco, el sistema puede avisar al comercio y redirigir al cliente hacia él cuando sea necesario."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Kiwibank 自称新西兰最大的本地持股银行，并称自己是全球首家部署该产品的发卡行。Visa 把 Visa Recurrent 与其 Visa Stop Payment Service、Visa Subscription Manager 并列为订阅管理产品线。公司援引新西兰调研称，三分之一的消费者曾为不再使用的服务继续付费，86% 希望银行提供周期扣款管理工具；公告未给出其他上线银行名单与时间表。",
+        "en": "Kiwibank describes itself as New Zealand's largest locally owned bank and says it is the first card issuer globally to deploy the product. Visa positions Visa Recurrent alongside Visa Stop Payment Service and Visa Subscription Manager in a subscription-management portfolio. It cites New Zealand research that one in three consumers kept paying for a service they no longer used and 86% wanted their bank to offer recurring-payment tools; the release named no other launch banks and gave no timeline.",
+        "es": "Kiwibank se describe como el mayor banco neozelandés de capital local y afirma ser el primer emisor del mundo en desplegar el producto. Visa sitúa Visa Recurrent junto a Visa Stop Payment Service y Visa Subscription Manager en una cartera de gestión de suscripciones. Cita un estudio neozelandés según el cual uno de cada tres consumidores siguió pagando por un servicio que ya no usaba y el 86% quería que su banco ofreciera herramientas de pagos recurrentes; el comunicado no nombró otros bancos de lanzamiento ni dio calendario."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对发卡行与数字银行，Visa Recurrent 把原来分散在各商户网站的订阅管理动作收进自家 App，银行在账户侧多了一层可见性和触点，也更容易识别客户因忘记取消而产生的持续扣款；先接入的 Kiwibank 由此在数字银行功能上领先同规模本地银行。对商户，通知与重定向机制意味着停订动作不再完全发生在商户视线之外，能否把用户留在自己的关系里，取决于双方对哪些扣款算「合格」以及通知触发条件的约定。需要注意边界：只有参与该服务的银行与商户之间才能形成闭环，公告给的是亚太参与机构开放而非全面上线名单，也未说明用户能否在银行侧直接完成退订或只能查看与跳转，终审可据此判断这条究竟是受理机制变化还是银行账户侧的增值功能。",
+    "en": "For issuers and digital banks, Visa Recurrent pulls subscription-management actions out of individual merchant sites into the bank's own app, giving the bank another visibility layer and a way to spot charges customers keep paying by forgetting to cancel. Kiwibank gains an edge in digital-banking features among similarly sized local banks. For merchants, notification and redirection mean a cancellation no longer happens entirely out of their sight; whether the customer stays in the merchant relationship depends on which charges count as eligible and when notifications trigger. The boundary matters: the loop only closes between participating banks and merchants, and the release offers opening access across Asia Pacific rather than a full launch list. It also does not say whether users can actually cancel inside the bank or only view and get redirected, so the final reviewer can judge whether this is an acceptance-mechanism change or an account-side bank feature.",
+    "es": "Para los emisores y la banca digital, Visa Recurrent concentra en la app del banco acciones de gestión de suscripciones que antes estaban repartidas por sitios de comercios, dando al banco una capa adicional de visibilidad y una forma de detectar cargos que el cliente sigue pagando por olvidar cancelarlos. Kiwibank gana una ventaja en funciones digitales frente a bancos locales de tamaño similar. Para los comercios, las notificaciones y redirecciones implican que una cancelación ya no ocurre por completo fuera de su vista; si el cliente permanece en su relación depende de qué cargos se consideran elegibles y cuándo se disparan los avisos. El límite importa: el circuito solo se cierra entre bancos y comercios participantes, y el comunicado ofrece acceso abierto en Asia-Pacífico, no una lista completa de lanzamiento. Tampoco aclara si el usuario puede cancelar dentro del banco o solo consultar y ser redirigido, por lo que el revisor final puede decidir si se trata de un cambio en el mecanismo de aceptación o de una función de cuenta bancaria."
+  },
+  "confidence": 0.5,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

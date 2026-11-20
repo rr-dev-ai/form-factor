@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-21-identity-05",
+  "slug": "rio-newborn-mother-fingerprints-birth-registration",
+  "industry": "identity",
+  "region": "latam",
+  "regions": [],
+  "tags": [
+    "biometrics",
+    "national-id",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-21T04:19:37+08:00",
+  "ingestedAt": "2026-11-21T03:15:53+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/rio-de-janeiro-becomes-first-brazilian-state-to-add-newborn-and-mother-fingerprints-to-birth-registration/",
+      "lang": "en",
+      "publishedAt": "2026-11-19T00:00:00Z"
+    },
+    {
+      "name": "G1",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/11/19/cartorios-poderao-registrar-nascimento-com-biometria-de-bebes-em-hospitais-publicos-e-privados-do-rj.ghtml",
+      "lang": "en"
+    }
+  ],
+  "title": {
+    "zh": "巴西里约新生儿出生登记加采母婴指纹，防抱错与拐卖",
+    "en": "Brazil's Rio adds newborn and mother fingerprints to birth registration",
+    "es": "Río de Janeiro añade huellas del recién nacido y la madre al registro de nacimiento"
+  },
+  "summary": {
+    "zh": "巴西里约热内卢州的民事登记处获准在公立和私立医院采集新生儿与母亲的指纹，并附到出生登记上。措施由州法院总督察签发的行政令确立，里约是巴西首个采用该做法的州。母婴指纹须在出生后 24 小时内同时采集，数据由州法院保存、仅授权人员在司法许可下访问。采集已在里约联邦大学附属妇产科医院运行，目标是覆盖全州 58 家设有登记点的妇产医院，2027 年第一季度先覆盖 15 家。",
+    "en": "Civil registry offices in Brazil's Rio de Janeiro state can now collect fingerprints from mothers and newborns in public and private hospitals and attach them to birth records. An administrative order from the state court enables it, and Rio is the first Brazilian state to do so. Mother and baby fingerprints must be taken together within 24 hours of birth; the court holds the data, accessible only with judicial approval. Collection is running at one maternity hospital, with a goal of covering all 58 hospitals with registry posts and 15 by the first quarter of 2027.",
+    "es": "Las oficinas de registro civil de Río de Janeiro, Brasil, pueden tomar huellas de madres y recién nacidos en hospitales públicos y privados y adjuntarlas al acta de nacimiento. Una orden del tribunal estatal lo permite, y Río es el primer estado brasileño en hacerlo. Las huellas deben tomarse juntas en las 24 horas posteriores al parto; el tribunal custodia los datos, accesibles solo con autorización judicial. La recolección funciona en un hospital, con el objetivo de cubrir los 58 hospitales con registro y 15 para el primer trimestre de 2027."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "行政令确立的新做法",
+        "en": "The order that enables it",
+        "es": "La orden que lo permite"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "巴西里约热内卢州的民事登记处现已获准在公立和私立妇产医院采集母亲与新生儿的指纹，并把指纹附到出生登记上。该措施由里约热内卢法院（TJRJ）的总督察 Cláudio Brandão de Oliveira 签署的一份行政令（provimento）确立，他负责监督全州的公证人和登记官。ID Tech 按其报道称，里约是巴西首个采用这一程序的州。登记处设在医疗机构内的服务点可在全州开展新生儿生物特征采集。",
+        "en": "Civil registry offices in Brazil's Rio de Janeiro state are now authorised to collect fingerprints from mothers and newborns in public and private maternity hospitals and attach them to birth records. The measure was established by an administrative order, or provimento, signed by Cláudio Brandão de Oliveira, the corregedor-geral of the Rio de Janeiro Court of Justice (TJRJ), who supervises the state's notaries and registrars. ID Tech reports that Rio is the first state in Brazil to adopt the procedure. Registry offices operating posts inside health units can now carry out neonatal biometric collection across the state.",
+        "es": "Las oficinas de registro civil del estado de Río de Janeiro, Brasil, están autorizadas a tomar huellas de madres y recién nacidos en hospitales de maternidad públicos y privados y adjuntarlas al acta de nacimiento. La medida fue establecida por una orden administrativa, o provimento, firmada por Cláudio Brandão de Oliveira, corregedor-geral del Tribunal de Justicia de Río de Janeiro (TJRJ), que supervisa a notarios y registradores del estado. ID Tech informa que Río es el primer estado de Brasil en adoptar el procedimiento. Las oficinas con puntos en centros de salud pueden realizar ahora la recolección biométrica neonatal en todo el estado."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "采集流程与数据保管",
+        "en": "How collection and storage work",
+        "es": "Cómo funcionan la recolección y el almacenamiento"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "按行政令要求，母亲和婴儿的指纹须在出生后 24 小时内、在医疗机构内专门腾出的房间，由一名卫生专业人员同时采集。采集到的生物特征数据成为出生证明关联信息的一部分，把婴儿身份与其母亲从出生最初几小时就绑定起来。数据由 TJRJ 保存，访问限于经授权、持有司法许可的人员。法院说，目的是让民事登记更安全，防止产房抱错、非法收养和儿童贩运；司法部数据显示，2026 年 1 月至 10 月该州有 1385 名儿童和青少年失踪。",
+        "en": "Under the order, the mother's and baby's fingerprints must be collected together within 24 hours of birth, on the premises of the health unit and in a room set aside for the purpose, by a health professional. The biometric data become part of the information linked to the birth certificate, tying the baby's identity to the mother's from the first hours of life. The data is stored by the TJRJ, with access restricted to authorised people holding judicial authorisation. The court says the aim is to make civil records more secure and prevent babies being swapped in maternity wards, illegal adoptions and child trafficking. Justice Ministry data cited in the report says 1,385 children and adolescents disappeared in the state between January and October 2026.",
+        "es": "Según la orden, las huellas de la madre y del bebé deben tomarse juntas en las 24 horas posteriores al nacimiento, en el centro de salud y en una sala destinada a tal fin, por un profesional sanitario. Los datos biométricos pasan a formar parte de la información vinculada al acta de nacimiento, asociando la identidad del bebé a la de su madre desde las primeras horas. El TJRJ custodia los datos y el acceso se limita a personas autorizadas con permiso judicial. El tribunal afirma que el objetivo es hacer más seguros los registros civiles y evitar intercambios de bebés, adopciones ilegales y trata de niños. Datos del Ministerio de Justicia citados en el informe señalan que 1.385 niños y adolescentes desaparecieron en el estado entre enero y octubre de 2026."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "推广计划",
+        "en": "Rollout plan",
+        "es": "Plan de despliegue"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "新生儿指纹采集自 10 月起已在里约联邦大学附属妇产科医院（UFRJ）运行。TJRJ 的目标是把采集扩展到全州 58 家设有登记点的妇产医院，并计划在 2027 年第一季度先覆盖其中 15 家。州法院总督察 Brandão 说，技术进步克服了此前的障碍——采集新生儿指纹过去被视为一大难题，现在已有足够技术完成。第四民事登记处登记官 Priscilla Machado Soares Milhomem 说，出生证明除传记信息外增加生物特征数据，是整个巴西登记体系的一大进展。",
+        "en": "Neonatal fingerprint collection has been running since October at the Federal University of Rio de Janeiro's maternity hospital (UFRJ). The TJRJ aims to extend collection to all 58 maternity hospitals in the state that have registry posts, with 15 covered by the end of the first quarter of 2027. Corregedor-geral Brandão said advances in technology overcame a previous obstacle—capturing newborns' fingerprints used to be a major difficulty, and the technology now exists. Priscilla Machado Soares Milhomem, registrar of the 4th Civil Registry Office, said adding biometric data to the biographical record is a major advance for Brazil's entire registry system.",
+        "es": "La recolección de huellas neonatales funciona desde octubre en el hospital de maternidad de la Universidad Federal de Río de Janeiro (UFRJ). El TJRJ pretende ampliarla a los 58 hospitales de maternidad del estado con puntos de registro, y cubrir 15 para fines del primer trimestre de 2027. El corregedor-geral Brandão afirmó que los avances tecnológicos superaron un obstáculo anterior: captar huellas de recién nacidos era una gran dificultad y hoy existe la tecnología. Priscilla Machado Soares Milhomem, registradora de la Cuarta Oficina de Registro Civil, dijo que añadir datos biométricos al registro biográfico es un gran avance para todo el sistema registral de Brasil."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "把指纹绑进出生登记，等于是把身份链的最前端—身份的初次确立—从纸质陈述升级为生物特征绑定。对证件与登记系统的供应商，信号是新生儿生物采集（过去被视为难点）已进入可扩展的州级部署，58 家医院的覆盖目标意味着采集终端、活体判断与数据保管都有实际采购空间。数据由法院集中保管、访问需司法许可，这套治理安排会成为同类项目绕不开的合规参照。但要看到这是民事登记环节的变化，尚未延伸到身份证或护照的签发，从出生登记到证照载体之间的衔接仍需后续政策打通；目前只有一家医院在运行，扩张能否按期也取决于设备与预算。",
+    "en": "Binding fingerprints into birth registration upgrades the very start of the identity chain—the first establishment of an identity—from a paper declaration to a biometric link. For vendors in credentials and registry systems, the signal is that neonatal biometric capture, once seen as difficult, has entered a scalable state-level deployment; the 58-hospital target implies real procurement for capture devices, liveness checks and data storage. Holding the data centrally at the court with judicial-approval access sets a governance pattern that similar projects will have to reckon with. Note, though, that this changes the civil-registration step and does not yet extend to issuing ID cards or passports; the link from birth record to credential still needs later policy. Only one hospital is running it so far, and the rollout's pace depends on equipment and budget.",
+    "es": "Vincular huellas al registro de nacimiento mejora el inicio mismo de la cadena de identidad —el primer establecimiento de una identidad— de una declaración en papel a un vínculo biométrico. Para los proveedores de credenciales y sistemas registrales, la señal es que la captura biométrica neonatal, antes considerada difícil, ha entrado en un despliegue estatal escalable; la meta de 58 hospitales implica compras reales de dispositivos de captura, detección de vida y almacenamiento. Custodiar los datos en el tribunal con acceso sujeto a autorización judicial sienta un patrón de gobernanza que proyectos similares deberán considerar. Conviene notar, sin embargo, que esto cambia la etapa de registro civil y aún no llega a la emisión de documentos de identidad o pasaportes; el vínculo entre el acta y la credencial requiere políticas posteriores. Hasta ahora solo funciona en un hospital y el ritmo depende del equipamiento y el presupuesto."
+  },
+  "confidence": 0.7,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11-21"
+  }
+}

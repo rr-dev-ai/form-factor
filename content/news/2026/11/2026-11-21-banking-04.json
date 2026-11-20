@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-21-banking-05",
+  "slug": "vietnam-napas-nets-vietqrglobal-cross-border-qr",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-21T04:19:37+08:00",
+  "ingestedAt": "2026-11-21T03:05:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Fintech News Singapore",
+      "url": "https://fintechnews.sg/142009/payments/vietnam-singapore-nets-qr-payments/",
+      "lang": "en",
+      "publishedAt": "2026-11-20T04:03:05Z"
+    }
+  ],
+  "title": {
+    "zh": "越南 NAPAS 接通新加坡 NETS，旅客可扫本地码付款",
+    "en": "NAPAS and NETS launch VietQRGlobal for Vietnamese travellers in Singapore",
+    "es": "NAPAS y NETS lanzan VietQRGlobal para viajeros vietnamitas en Singapur"
+  },
+  "summary": {
+    "zh": "越南国家支付公司 NAPAS 与新加坡 NETS 于 11 月 20 日上线 VietQRGlobal。越南旅客用本国银行或钱包 App 扫新加坡 NETS 二维码，可在逾 15 万个受理点付款，新币与越南盾实时直接换算。首批支持 MoMo、Payoo 及 Vietcombank、BIDV 等十余家银行。",
+    "en": "Vietnam's NAPAS and Singapore's NETS launched VietQRGlobal on 20 November. Vietnamese travellers scan NETS QR codes with domestic bank or wallet apps at more than 150,000 payment points in Singapore, with real-time conversion between Singapore dollars and Vietnamese dong. MoMo, Payoo and a dozen banks are live at launch.",
+    "es": "NAPAS de Vietnam y NETS de Singapur lanzaron VietQRGlobal el 20 de noviembre. Los viajeros vietnamitas escanean códigos QR NETS con aplicaciones bancarias o monederos locales en más de 150.000 puntos de pago en Singapur, con conversión en tiempo real entre dólares singapurenses y dong vietnamitas. MoMo, Payoo y una docena de bancos están operativos desde el inicio."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "越南国家支付公司 NAPAS 与新加坡 NETS 于 11 月 20 日上线 VietQRGlobal 服务。越南旅客在本国银行或钱包 App 里扫描新加坡商户的 NETS 二维码即可付款，覆盖便利店、百货等逾 15 万个支付点。",
+        "en": "Vietnam's National Payment Corporation (NAPAS) and Singapore's Network for Electronic Transfers (NETS) launched VietQRGlobal on 20 November. Vietnamese travellers scan a merchant's NETS QR code with a domestic bank or wallet app to pay at more than 150,000 payment points, including convenience stores and department stores.",
+        "es": "la Corporación Nacional de Pagos de Vietnam (NAPAS) y la Red de Transferencias Electrónicas de Singapur (NETS) lanzaron VietQRGlobal el 20 de noviembre. Los viajeros vietnamitas escanean el código QR NETS de un comercio con una app bancaria o monedero local para pagar en más de 150.000 puntos de pago, incluidos comercios y almacenes."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "交易实时处理，新加坡元与越南盾直接换算，旅客不必先兑换现金。可用 App 包括 MoMo、Payoo，以及 VietinBank、Agribank、BIDV、Vietcombank、MBBank、ACB、Sacombank、TPBank 等银行。",
+        "en": "The service processes cross-border QR payments in real time with direct conversion between Singapore dollars and Vietnamese dong, so travellers do not need to exchange cash. Participating apps include MoMo and Payoo alongside banks such as VietinBank, Agribank, BIDV, Vietcombank, MBBank, ACB, Sacombank and TPBank.",
+        "es": "El servicio procesa pagos QR transfronterizos en tiempo real con conversión directa entre dólares singapurenses y dong vietnamitas, sin necesidad de cambiar efectivo. Las apps participantes incluyen MoMo y Payoo, además de bancos como VietinBank, Agribank, BIDV, Vietcombank, MBBank, ACB, Sacombank y TPBank."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "VietQRGlobal 源于 NAPAS 与 NETS 2025 年 3 月在河内签署的谅解备忘录。双方表示将增加接入银行与支付服务商，并开放相反方向，让新加坡旅客在越南扫 VietQRGlobal 码付款。公告未给出费率与时间表。",
+        "en": "VietQRGlobal follows a memorandum of understanding NAPAS and NETS signed in Hanoi in March 2025. Both say they will add banks and payment providers and open the service in the other direction so Singaporean travellers can scan VietQRGlobal codes in Vietnam. The announcement gave no fee schedule or rollout date.",
+        "es": "VietQRGlobal surge de un memorando de entendimiento firmado por NAPAS y NETS en Hanói en marzo de 2025. Ambos señalan que añadirán bancos y proveedores de pago y abrirán el servicio en sentido inverso para que los viajeros singapurenses escaneen códigos VietQRGlobal en Vietnam. El anuncio no dio tarifas ni calendario."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对越南旅客与新加坡商户，这条通道把跨境扫码从「钱包各自谈定的境外受理」变成两国国家 QR 网络之间的直连：旅客沿用本国 App，商户不必新增终端或改造收银流程就能承接越南客群。15 万个受理点是已落地的覆盖面，比常见的单一商户或机场试点更接近日常消费。技术上一个值得盯的点是实时换汇落在网络层，旅客看到的是本币金额，汇率与结算责任由 NAPAS、NETS 及参与银行承担，而非每家商户自行处理。与 11 月 16 日微信支付接通巴西 Pix、11 月 20 日 Alipay+ 接通 Pix 相比，这次连接的是两张国家 QR 受理网络，且扫码方向是越南旅客扫新加坡商户码，不是钱包网关聚合多国钱包，机制与参与方都不同。反向服务尚未上线，能否形成双向流量取决于双方后续接入的银行数量。",
+    "en": "For Vietnamese travellers and Singapore merchants, the link turns cross-border QR payment from a wallet-by-wallet arrangement into a direct connection between two national QR networks: travellers keep a domestic app, while merchants need no new terminal to serve them. The 150,000 payment points make this closer to everyday spending than the single-merchant or airport pilots common in cross-border QR. Real-time conversion sits in the network layer, so travellers see a dong amount while NAPAS, NETS and participating banks carry exchange-rate and settlement responsibility rather than each merchant. Unlike the Weixin Pay and Alipay+ links to Brazil's Pix, this connects two national acceptance networks in one direction. The reverse flow is not live; whether two-way traffic develops depends on how many more banks each side adds.",
+    "es": "Para los viajeros vietnamitas y los comercios singapurenses, el enlace convierte el pago QR transfronterizo en una conexión directa entre dos redes QR nacionales: los viajeros conservan su app local y los comercios no necesitan nuevos terminales. Los 150.000 puntos de pago acercan el servicio al consumo cotidiano, frente a las pruebas en un solo comercio o aeropuerto habituales en QR transfronterizo. La conversión en tiempo real queda en la capa de red: el viajero ve un importe en dong mientras NAPAS, NETS y los bancos participantes asumen el cambio y la liquidación, no cada comercio. A diferencia de los enlaces de Weixin Pay y Alipay+ con Pix en Brasil, aquí se conectan dos redes nacionales de aceptación en un solo sentido. El flujo inverso aún no está activo y dependerá de cuántos bancos añada cada parte."
+  },
+  "confidence": 0.55,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}
