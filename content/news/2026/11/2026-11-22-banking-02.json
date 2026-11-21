@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-22-banking-02",
+  "slug": "magtek-dynaflex-ii-go-mdl-card-reader",
+  "industry": "banking",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "acquiring"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-22T04:19:59+08:00",
+  "ingestedAt": "2026-11-22T02:41:40+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/us-mobile-id-adoption-advances-across-retail-government-and-enterprise-systems",
+      "lang": "en",
+      "publishedAt": "2026-11-19T08:58:00-05:00"
+    }
+  ],
+  "title": {
+    "zh": "MagTek 读卡器固件升级，一台终端同验银行卡与移动驾照",
+    "en": "MagTek reader firmware update verifies bank cards and mobile licences together",
+    "es": "Actualización de firmware de MagTek verifica tarjetas y carnés móviles a la vez"
+  },
+  "summary": {
+    "zh": "支付硬件厂商 MagTek 11 月 19 日宣布，DynaFlex II Go 安全读卡器通过纯固件升级，可在受理银行卡的同时读取并核验州签发的移动驾照、数字护照等钱包内证件。设备支持 NFC 非接、EMV 非接、EMV 接触芯片与磁条，并内置二维码读取。公告未披露客户、装机量与价格。",
+    "en": "Payment hardware vendor MagTek announced on 19 November that a firmware-only upgrade to its DynaFlex II Go secure card reader lets it accept bank cards while also reading and authenticating state-issued mobile driving licences, digital passports and other wallet-held documents. The device supports NFC contactless, EMV contactless, EMV contact chip and magnetic stripe, plus an onboard barcode reader. The release gave no customers, install base or price.",
+    "es": "El fabricante de hardware de pago MagTek anunció el 19 de noviembre que una actualización solo de firmware de su lector seguro DynaFlex II Go permite aceptar tarjetas bancarias y, a la vez, leer y autenticar carnés de conductor móviles emitidos por el estado, pasaportes digitales y otros documentos en monederos. El dispositivo admite NFC sin contacto, EMV sin contacto, chip EMV y banda magnética, además de un lector de códigos de barras integrado. El comunicado no dio clientes, base instalada ni precio."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "MagTek 于 11 月 19 日宣布，其 DynaFlex II Go 安全读卡器认证器获得扩展能力，通过纯固件升级即可让应用同时受理支付交易与数字证件。",
+        "en": "MagTek announced on 19 November that its DynaFlex II Go secure card reader authenticator has gained expanded capabilities, allowing applications to accept both payment transactions and digital credentials through a firmware-only upgrade.",
+        "es": "MagTek anunció el 19 de noviembre que su lector-autenticador seguro DynaFlex II Go ha ampliado sus capacidades, permitiendo a las aplicaciones aceptar tanto transacciones de pago como credenciales digitales mediante una actualización solo de firmware."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "该设备保留 NFC 非接、EMV 非接、EMV 接触芯片与磁条等银行卡受理方式，并加入板载二维码读取，可读取实体驾照背面的 PDF-417、登机牌上的 QR 及 Aztec 码。移动驾照与数字证件的读取核验遵循 ISO/IEC 18013-5 标准。",
+        "en": "The device retains NFC contactless, EMV contactless, EMV contact chip and magnetic stripe card acceptance, and adds an onboard barcode reader for PDF-417 on the back of physical driving licences, QR and Aztec codes on boarding passes. Reading and authenticating mobile licences and digital documents follows the ISO/IEC 18013-5 standard.",
+        "es": "El dispositivo conserva la aceptación de tarjetas por NFC sin contacto, EMV sin contacto, chip EMV y banda magnética, y añade un lector de códigos de barras integrado para PDF-417 en el reverso de carnés físicos y códigos QR y Aztec en tarjetas de embarque. La lectura y autenticación de carnés móviles y documentos digitales sigue el estándar ISO/IEC 18013-5."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "MagTek 把该设备面向零售、租车、医疗、酒店与金融机构，用于年龄核验、KYC 以及自动触发开抽屉、门禁与会话登录等动作。公告没有披露客户名单、装机量与价格。",
+        "en": "MagTek targets the device at retailers, car rental companies, healthcare providers, hospitality venues and financial institutions for age verification, KYC and automated actions such as opening cash drawers, granting physical access and starting secure sessions. The release gave no customer list, install base or price.",
+        "es": "MagTek dirige el dispositivo a minoristas, empresas de alquiler de autos, proveedores de salud, locales de hostelería e instituciones financieras para verificación de edad, KYC y acciones automatizadas como abrir cajones, conceder acceso físico e iniciar sesiones seguras. El comunicado no dio lista de clientes, base instalada ni precio."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对商户与收单方而言，这台读卡器把支付受理与证件核验合并到同一台终端，年龄限制商品销售、租车与 KYC 场景不必再摆放单独的证件读取设备，柜台集成度提高。对支付硬件厂商，这是一条把 mDL 核验能力叠加到既有卡受理产品线、无需更换硬件的升级路径，设备替换成本低于新增一台读卡器。需要注意的是，公告未给出客户与装机量，尚无法判断实际部署规模；证件核验涉及各州对可信读取设备与 ISO/IEC 18013-5 合规的认定，设备能否跨州通用仍取决于各地规则。",
+    "en": "For merchants and acquirers, the reader merges payment acceptance and credential verification into one terminal, so age-restricted sales, car rental and KYC no longer need a separate document reader at the counter. For payment hardware vendors, it is a path to layer mDL verification onto an existing card-acceptance product line through firmware rather than new hardware, at lower replacement cost. The release gives no customers or install base, so real deployment scale is unknown. Credential verification also depends on each state's recognition of trusted readers and ISO/IEC 18013-5 compliance, so cross-state use still hinges on local rules.",
+    "es": "Para comercios y adquirentes, el lector fusiona la aceptación de pagos y la verificación de credenciales en un solo terminal, de modo que la venta con restricción de edad, el alquiler de autos y el KYC ya no necesitan un lector de documentos separado. Para los fabricantes de hardware de pago, es una vía para añadir verificación de mDL a una línea de aceptación de tarjetas existente mediante firmware, con menor costo que nuevo hardware. El comunicado no da clientes ni base instalada, por lo que se desconoce la escala real de despliegue. La verificación de credenciales depende además del reconocimiento estatal de lectores de confianza y del cumplimiento de ISO/IEC 18013-5, por lo que el uso entre estados sigue sujeto a reglas locales."
+  },
+  "confidence": 0.5,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

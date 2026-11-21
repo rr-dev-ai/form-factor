@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-21T20:15:58.539Z",
+  "selected": [
+    {
+      "industry": "identity",
+      "slug": "persona-android-sdk-cen-ts-18099-high-iad",
+      "score": 0.86,
+      "reason": "region-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-22"
+    },
+    {
+      "industry": "identity",
+      "slug": "five-states-join-utah-sedi-digital-identity",
+      "score": 0.58,
+      "reason": "region-floor",
+      "region": "north-america",
+      "sourceDate": "2026-11-20"
+    },
+    {
+      "industry": "identity",
+      "slug": "nigeria-passport-booklet-manufacturing-plant",
+      "score": 0.85,
+      "reason": "region-floor",
+      "region": "africa",
+      "sourceDate": "2026-11-22"
+    },
+    {
+      "industry": "banking",
+      "slug": "unionpay-transsion-t-wallet-pakistan-mobile-pay",
+      "score": 0.55,
+      "reason": "manual",
+      "region": "apac",
+      "sourceDate": "2026-11-21"
+    },
+    {
+      "industry": "banking",
+      "slug": "magtek-dynaflex-ii-go-mdl-card-reader",
+      "score": 0.5,
+      "reason": "manual",
+      "region": "north-america",
+      "sourceDate": "2026-11-19"
+    },
+    {
+      "industry": "banking",
+      "slug": "mastercard-ant-international-agentic-commerce-apac",
+      "score": 0.55,
+      "reason": "manual",
+      "region": "apac",
+      "sourceDate": "2026-11-19"
+    }
+  ],
+  "alternates": [],
+  "expired": [
+    {
+      "slug": "pliant-uk-government-payment-solutions-framework",
+      "eventAt": "2026-11-18T00:00:00.000Z",
+      "hours": 92
+    },
+    {
+      "slug": "moldova-border-biometric-kits-eight-crossings",
+      "eventAt": "2026-11-17T14:24:00.000Z",
+      "hours": 102
+    }
+  ],
+  "gaps": [
+    {
+      "region": "cis",
+      "note": "池内 0 条；搜索与直读无过两道门候选"
+    },
+    {
+      "region": "mena",
+      "note": "池内 0 条；Connect Money 融资为少数投资、无控制权重组，按两道门不收"
+    },
+    {
+      "region": "latam",
+      "note": "池内 0 条；Rio 新生儿生物识别属民事登记，按既有判据不收"
+    }
+  ],
+  "unaccounted": [],
+  "conflicts": [
+    {
+      "kind": "undated",
+      "detail": "banking/unionpay-transsion-t-wallet-pakistan-mobile-pay 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "补录 2026-11-21T17:15:00+08:00（11-22 supplement），manual 调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/magtek-dynaflex-ii-go-mdl-card-reader 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "补录 2026-11-19T08:58:00-05:00（11-20 supplement），manual 调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/mastercard-ant-international-agentic-commerce-apac 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "原文确认 Published 2026-11-19，补录 T00:00:00Z，manual 调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/magtek-dynaflex-ii-go-mdl-card-reader 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "跨天重复登记，与首条同稿，已一并裁决"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/idenfy-pci-dss-v4-bank-card-verification 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "11-19 至 11-21 旧池残留，当日池无此稿，不调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/paysafe-paysafego-merchant-branded-wallets 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "11-19 至 11-21 旧池残留，当日池无此稿，不调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/magtek-dynaflex-ii-go-mdl-card-reader 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "跨天重复登记，与首条同稿，已一并裁决"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/idenfy-pci-dss-v4-bank-card-verification 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "跨天重复登记，旧池残留，不调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/paysafe-paysafego-merchant-branded-wallets 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "跨天重复登记，旧池残留，不调入"
+    }
+  ]
+}

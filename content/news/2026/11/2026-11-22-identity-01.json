@@ -1,0 +1,100 @@
+{
+  "id": "2026-11-22-identity-02",
+  "slug": "persona-android-sdk-cen-ts-18099-high-iad",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "verification",
+    "liveness",
+    "biometrics"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-22T04:19:59+08:00",
+  "ingestedAt": "2026-11-22T03:14:19+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Persona",
+      "url": "https://withpersona.com/blog/persona-achieves-cen-ts-18099-high-certification",
+      "lang": "en",
+      "publishedAt": "2026-11-20T00:00:00Z"
+    },
+    {
+      "name": "Business Wire",
+      "url": "https://natlawreview.com/press-releases/persona-earns-cents-18099-high-certification-injection-attack-detection",
+      "lang": "en",
+      "publishedAt": "2026-11-21T00:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "Persona 安卓 SDK 拿到 CEN/TS 18099 最高级认证",
+    "en": "Persona Android SDK Earns CEN/TS 18099 High Certification",
+    "es": "El SDK de Android de Persona obtiene la certificación CEN/TS 18099 High"
+  },
+  "summary": {
+    "zh": "身份验证平台 Persona 11 月 20 日宣布，其安卓软件开发工具包通过 CEN/TS 18099 注入攻击检测的最高级 High 认证，由参与制定该标准的法国 CLR Labs 评定。High 级测试至少投入 30 人日，覆盖根节点设备、篡改相机服务等三类手法与 15 类攻击介质，认证结果已列入 CLR CERT 目录，Persona 客户可开通。",
+    "en": "Identity platform Persona announced on November 20 that its Android SDK earned High, the top level of CEN/TS 18099 certification for injection attack detection, evaluated by CLR Labs, which helped write the standard. High-level testing took at least 30 person-days and covered rooted devices, tampered camera services and 15 attack media types. The certification is listed on CLR CERT's registry and is available to Persona customers.",
+    "es": "La plataforma de identidad Persona anunció el 20 de noviembre que su SDK de Android obtuvo High, el nivel más alto de certificación CEN/TS 18099 para detección de ataques de inyección, evaluado por CLR Labs, que ayudó a redactar la norma. Las pruebas de nivel High requirieron al menos 30 personas-día y cubrieron dispositivos con root, servicios de cámara manipulados y 15 tipos de medios de ataque. La certificación figura en el registro de CLR CERT y está disponible para los clientes de Persona."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "注入攻击绕过摄像头，传统活体检测拦不住",
+        "en": "Injection attacks bypass the camera; standard liveness checks miss them",
+        "es": "Los ataques de inyección evitan la cámara y burlan la detección de vida habitual"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "注入攻击指攻击者用虚拟摄像头、模拟器或被篡改的设备，把盗取或 AI 生成的人脸视频直接送进核验流程，系统收到的画面看似实时采集，传统的打印照片、面具类活体检测并不针对这一类。CEN/TS 18099 由欧洲标准化委员会 2024 年发布，是首个专门测试注入攻击检测的标准，按攻击所需时间与专业程度分 Basic、Substantial、High 三级，High 为最高级。",
+        "en": "Injection attacks use virtual cameras, emulators or tampered devices to feed stolen or AI-generated face video straight into a verification flow, so the system receives what looks like a live capture; conventional liveness checks for printed photos and masks are not built for this. CEN/TS 18099 was published by the European Committee for Standardization in 2024 as the first standard dedicated to testing injection attack detection. It grades systems as Basic, Substantial or High according to the time and expertise an attack requires, with High the most demanding.",
+        "es": "Los ataques de inyección usan cámaras virtuales, emuladores o dispositivos manipulados para introducir vídeo facial robado o generado por IA directamente en un flujo de verificación, de modo que el sistema recibe una captura que parece en vivo; la detección de vida convencional de fotos impresas o máscaras no está diseñada para esto. CEN/TS 18099 fue publicado por el Comité Europeo de Normalización en 2024 como la primera norma dedicada a probar la detección de ataques de inyección. Clasifica los sistemas como Basic, Substantial o High según el tiempo y la pericia que exige un ataque, siendo High el más exigente."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Persona 的安卓软件开发工具包由 CLR CERT 评定，该机构隶属法国 Cabinet Louis Reynaud 实验室，获 ISO/IEC 17025 认可并参与编写 CEN/TS 18099。High 级评定投入至少 30 人日，使用根节点设备、篡改相机服务和定制安卓系统三类以上注入手法，以及深度伪造视频、AI 生成人脸、拼接片段等至少 15 类攻击介质；评定同时检查真实用户仍能通过，避免系统靠一概拒绝过关。Persona 称该能力已在实时运行中启用，客户可开通。",
+        "en": "Persona's Android SDK was evaluated by CLR CERT, the certification arm of France's Cabinet Louis Reynaud labs, which is ISO/IEC 17025 accredited and helped draft CEN/TS 18099. High-level assessment took at least 30 person-days, using rooted devices, tampered camera services and custom Android builds among three or more injection methods, plus at least 15 attack media types including deepfake video, AI-generated faces and spliced clips. Evaluators also checked that genuine users still pass, so blanket rejection cannot earn a pass. Persona says the defenses already run in real time and can be enabled by customers.",
+        "es": "El SDK de Android de Persona fue evaluado por CLR CERT, el brazo de certificación del laboratorio francés Cabinet Louis Reynaud, acreditado bajo ISO/IEC 17025 y coautor de CEN/TS 18099. La evaluación de nivel High requirió al menos 30 personas-día y empleó dispositivos con root, servicios de cámara manipulados y compilaciones personalizadas de Android entre tres o más métodos de inyección, además de al menos 15 tipos de medios de ataque, incluidos vídeos deepfake, rostros generados por IA y fragmentos manipulados. Los evaluadores comprobaron también que los usuarios reales sigan pasando, para que el rechazo indiscriminado no sirva para aprobar. Persona afirma que las defensas ya funcionan en tiempo real y pueden activarse los clientes."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "欧洲合规正在把注入攻击检测变成硬门槛",
+        "en": "European rules are turning injection testing into a hard requirement",
+        "es": "La normativa europea convierte la prueba de inyección en un requisito estricto"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这张认证落在欧洲远程身份核验收紧的背景下。ETSI TS 119 461 是信任服务提供商的远程身份核验标准，已要求做 CEN/TS 18099 测试，并把 High 作为其 Extended 等级的要求；欧盟反洗钱条例涵盖远程客户身份识别，将于 2027 年 7 月 10 日适用。国际标准方面，ISO 正以 CEN/TS 18099 为起点制定 ISO/IEC 25456，计划 2027 年发布。",
+        "en": "The certification lands as European remote identity proofing tightens. ETSI TS 119 461, the standard for trust service providers' remote identity proofing, already calls for CEN/TS 18099 testing and sets High as the bar for its Extended level. The EU Anti-Money Laundering Regulation, which covers remote customer identification, applies from July 10, 2027. Internationally, ISO is developing ISO/IEC 25456 from CEN/TS 18099 as its starting point, with publication planned for 2027.",
+        "es": "La certificación llega cuando la identificación remota europea se está endureciendo. ETSI TS 119 461, la norma de identificación remota para proveedores de servicios de confianza, ya exige pruebas CEN/TS 18099 y fija High como umbral de su nivel Extended. El Reglamento Antilavado de la UE, que cubre la identificación remota de clientes, se aplica desde el 10 de julio de 2027. A escala internacional, ISO desarrolla ISO/IEC 25456 tomando CEN/TS 18099 como punto de partida, con publicación prevista para 2027."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Persona 2018 年成立，总部在旧金山，按其公告已累计核验约 10 亿次身份，客户包括 LinkedIn、OpenAI、Square 等。公告未披露这次 High 级评定的具体起止日期，也未说明现有客户中已有多少开通了该能力。",
+        "en": "Persona was founded in 2018 and is headquartered in San Francisco; by its own account it has verified roughly one billion identities, with customers including LinkedIn, OpenAI and Square. The announcement did not give exact start and end dates for the High-level assessment or say how many existing customers have enabled the capability.",
+        "es": "Persona se fundó en 2018 y tiene sede en San Francisco; según su propio comunicado ha verificado unos mil millones de identidades, con clientes como LinkedIn, OpenAI y Square. El anuncio no precisó las fechas exactas de la evaluación de nivel High ni cuántos clientes actuales han activado la capacidad."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对做远程身份核验的供应商，这张认证有现实门槛意义：ETSI TS 119 461 已把 CEN/TS 18099 测试写进信任服务提供商要求，欧盟反洗钱条例 2027 年 7 月适用后，面向欧洲的远程开户与注册流程会倾向于要求 High 级证据，没有最高级认证的 SDK 会在这一轮采购里处于劣势。对集成商与买方，High 级测试的构成比证书本身更有用——30 人日、三类以上注入手法、15 类攻击介质，加上「真实用户仍须通过」的反向约束，给了一套可以拿来比对不同供应商检测深度的尺度。需要注意，本站此前已收录 Identomat、Veridas 等厂商的 CEN/TS 18099 High 结果，Persona 是同一标准下的又一份认证，反映的是这条检测能力正在成为标配，而非某家独家的形态变化。",
+    "en": "For remote identity-proofing vendors, this certification carries a practical threshold: ETSI TS 119 461 already writes CEN/TS 18099 testing into trust service provider requirements, and once the EU Anti-Money Laundering Regulation applies in July 2027, European remote onboarding flows will tend to demand High-level evidence, leaving SDKs without top-tier certification at a disadvantage in procurement. For integrators and buyers, the makeup of the High assessment matters more than the badge: 30 person-days, three or more injection methods, 15 attack media types and a reverse check that genuine users still pass give a yardstick for comparing how deeply different vendors test. Note that this site has already covered CEN/TS 18099 High results from Identomat and Veridas; Persona is another certification under the same standard, showing the capability is becoming baseline rather than one vendor's distinct shift.",
+    "es": "Para los proveedores de identificación remota, esta certificación supone un umbral práctico: ETSI TS 119 461 ya incluye las pruebas CEN/TS 18099 en los requisitos de los proveedores de servicios de confianza y, cuando se aplique el Reglamento Antilavado de la UE en julio de 2027, los flujos europeos de alta remota tenderán a exigir evidencia de nivel High, dejando en desventaja en las compras a los SDK sin certificación superior. Para integradores y compradores, la composición de la evaluación High importa más que la insignia: 30 personas-día, tres o más métodos de inyección, 15 tipos de medios de ataque y una comprobación inversa de que los usuarios reales sigan pasando ofrecen una medida para comparar la profundidad de prueba de distintos proveedores. Conviene señalar que este sitio ya cubrió resultados CEN/TS 18099 High de Identomat y Veridas; Persona es una certificación más bajo la misma norma y refleja que la capacidad se está convirtiendo en estándar, no en un cambio exclusivo de un proveedor."
+  },
+  "confidence": 0.86,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11-22"
+  }
+}

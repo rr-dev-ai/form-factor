@@ -1,0 +1,20 @@
+{
+  "fetchedAt": "2026-11-22T01:57:53+08:00",
+  "fetchedFor": "2026-11-22",
+  "gap": ["apac", "cis", "mena", "north-america", "africa"],
+  "cellGap": ["europe/banking", "europe/telecom", "latam/banking", "latam/telecom"],
+  "industryGap": ["banking", "telecom", "identity"],
+  "items": [
+    {
+      "title": "银联国际与传音达成全球手机 Pay 合作，首站落地巴基斯坦",
+      "url": "https://news.qq.com/rain/a/20261121A0AS5300",
+      "publishedAt": "2026-11-21T17:15:00+08:00",
+      "industry": "banking",
+      "region": "apac",
+      "actionType": "跨国落地",
+      "gateNote": "有明确首发市场（巴基斯坦）与首家发卡行（Allied Bank Limited），NFC 非接支付已上线，满足跨国落地首门槛。但与 11-21 已发的『传音×Visa 非洲手机受理』是不同卡组织、不同市场、不同环节，非同一事件线。缺口在未披露发卡量、其余上线市场名单与时间表，二维码与 In-App 仍是『陆续开通』；若终审收紧到要有可核规模或第二市场，本条会被降级。另：稿件为 IT之家经腾讯新闻转载，非银联一手通稿，需编辑核一手。",
+      "discoveredBy": "\"November 20, 2026\" OR \"November 21, 2026\" card issuing OR smart card OR SIM acquisition OR merger deal issuer processor payment",
+      "note": "落在支付凭证的分发与受理环节：传音 T Wallet 内绑定银联卡，把手机变成非接支付载体，双击电源键贴近 POS 即完成支付。改变的机制是把银联『卡码合一』方案嵌进手机厂商自有钱包，由终端保有量直接提供受理入口绕过单独发卡 App；首站巴基斯坦、ABL 首家发卡行、银联称当地已是第二大卡品牌且几乎全商户可受理。原文未说发卡量、其他市场名单、二维码与 In-App 的具体上线时间，也未给出合作金额；写稿勿补这些数字。"
+    }
+  ]
+}

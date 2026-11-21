@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-21T20:24:09.051Z",
+  "renderer": 1,
+  "items": {
+    "magtek-dynaflex-ii-go-mdl-card-reader": {
+      "zh": {
+        "file": "audio/zh/magtek-dynaflex-ii-go-mdl-card-reader.30083339.mp3",
+        "hash": "30083339",
+        "bytes": 1345005,
+        "duration": 112,
+        "voice": "zm_015",
+        "speed": 1.094
+      },
+      "en": {
+        "file": "audio/en/magtek-dynaflex-ii-go-mdl-card-reader.384100f6.mp3",
+        "hash": "384100f6",
+        "bytes": 1420173,
+        "duration": 118.249,
+        "voice": "am_fenrir",
+        "speed": 1.118
+      },
+      "es": {
+        "file": "audio/es/magtek-dynaflex-ii-go-mdl-card-reader.d4cccf21.mp3",
+        "hash": "d4cccf21",
+        "bytes": 1390509,
+        "duration": 115.79,
+        "voice": "ef_dora",
+        "speed": 1.093
+      }
+    },
+    "mastercard-ant-international-agentic-commerce-apac": {
+      "zh": {
+        "file": "audio/zh/mastercard-ant-international-agentic-commerce-apac.f8c1ee39.mp3",
+        "hash": "f8c1ee39",
+        "bytes": 1529325,
+        "duration": 127.35,
+        "voice": "zm_011",
+        "speed": 1.157
+      },
+      "en": {
+        "file": "audio/en/mastercard-ant-international-agentic-commerce-apac.6887238c.mp3",
+        "hash": "6887238c",
+        "bytes": 1794285,
+        "duration": 149.447,
+        "voice": "af_heart",
+        "speed": 1.066
+      },
+      "es": {
+        "file": "audio/es/mastercard-ant-international-agentic-commerce-apac.a0f5833a.mp3",
+        "hash": "a0f5833a",
+        "bytes": 1612269,
+        "duration": 134.28,
+        "voice": "em_alex",
+        "speed": 1.072
+      }
+    },
+    "nigeria-passport-booklet-manufacturing-plant": {
+      "zh": {
+        "file": "audio/zh/nigeria-passport-booklet-manufacturing-plant.d7f91663.mp3",
+        "hash": "d7f91663",
+        "bytes": 2154573,
+        "duration": 179.45,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/nigeria-passport-booklet-manufacturing-plant.06d35418.mp3",
+        "hash": "06d35418",
+        "bytes": 2675565,
+        "duration": 222.873,
+        "voice": "am_michael",
+        "speed": 1.13
+      },
+      "es": {
+        "file": "audio/es/nigeria-passport-booklet-manufacturing-plant.e8df38ee.mp3",
+        "hash": "e8df38ee",
+        "bytes": 2518029,
+        "duration": 209.74,
+        "voice": "em_alex",
+        "speed": 1.072
+      }
+    },
+    "persona-android-sdk-cen-ts-18099-high-iad": {
+      "zh": {
+        "file": "audio/zh/persona-android-sdk-cen-ts-18099-high-iad.f6469445.mp3",
+        "hash": "f6469445",
+        "bytes": 2742669,
+        "duration": 228.475,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/persona-android-sdk-cen-ts-18099-high-iad.0eb92065.mp3",
+        "hash": "0eb92065",
+        "bytes": 2775789,
+        "duration": 231.232,
+        "voice": "am_fenrir",
+        "speed": 1.118
+      },
+      "es": {
+        "file": "audio/es/persona-android-sdk-cen-ts-18099-high-iad.b4ea0ed9.mp3",
+        "hash": "b4ea0ed9",
+        "bytes": 2714733,
+        "duration": 226.135,
+        "voice": "ef_dora",
+        "speed": 1.093
+      }
+    },
+    "unionpay-transsion-t-wallet-pakistan-mobile-pay": {
+      "zh": {
+        "file": "audio/zh/unionpay-transsion-t-wallet-pakistan-mobile-pay.1ff7425e.mp3",
+        "hash": "1ff7425e",
+        "bytes": 1401165,
+        "duration": 116.675,
+        "voice": "zm_010",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/unionpay-transsion-t-wallet-pakistan-mobile-pay.a6ed003b.mp3",
+        "hash": "a6ed003b",
+        "bytes": 1405485,
+        "duration": 117.048,
+        "voice": "af_heart",
+        "speed": 1.066
+      },
+      "es": {
+        "file": "audio/es/unionpay-transsion-t-wallet-pakistan-mobile-pay.7fa2c92e.mp3",
+        "hash": "7fa2c92e",
+        "bytes": 1251693,
+        "duration": 104.23,
+        "voice": "ef_dora",
+        "speed": 1.093
+      }
+    }
+  }
+}

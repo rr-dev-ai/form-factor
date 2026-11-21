@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-22-banking-01",
+  "slug": "unionpay-transsion-t-wallet-pakistan-mobile-pay",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "digital-wallet",
+    "acquiring"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-22T04:19:59+08:00",
+  "ingestedAt": "2026-11-22T02:41:40+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "银联国际",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzk0MjcwNzk3Mw==&mid=2247490643&idx=1&sn=7d0d57437acfcfd75db77c6ca38762e7&chksm=c23412812bf58848b5d735b78a6bca74d9887741839b13cbb9de0e4a5b082aad7bafee157911#rd",
+      "lang": "zh"
+    },
+    {
+      "name": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20261121A0AS5300",
+      "lang": "zh",
+      "publishedAt": "2026-11-21T17:15:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "银联传音手机Pay落地巴基斯坦，ABL首绑卡",
+    "en": "UnionPay mobile Pay lands in Pakistan via Transsion, with ABL as first issuer",
+    "es": "UnionPay Pay móvil aterriza en Pakistán con Transsion y ABL como primer emisor"
+  },
+  "summary": {
+    "zh": "银联国际与传音达成全球合作，把银联「卡码合一」手机Pay方案嵌进传音钱包T Wallet。首站落地巴基斯坦，巴基斯坦联合银行（ABL）成为首家发卡合作机构，用户绑定银联卡后双击电源键贴近POS即可完成线下NFC非接支付，二维码与线上In-App支付将陆续开通。公告未披露发卡量与其余上线市场名单。",
+    "en": "UnionPay International and Transsion struck a global deal to embed UnionPay's \"card-and-code in one\" mobile Pay scheme into Transsion's T Wallet. Pakistan is the first market, with Allied Bank Limited (ABL) as the first issuing partner. Users bind a UnionPay card and tap a POS terminal to pay over NFC; QR and in-app payments will follow. The announcement gave no card numbers or rollout markets.",
+    "es": "UnionPay International y Transsion firmaron un acuerdo global para integrar el esquema de pago móvil «tarjeta y código en uno» de UnionPay en la billetera T Wallet de Transsion. Pakistán es el primer mercado, con Allied Bank Limited (ABL) como primer emisor. Los usuarios vinculan una tarjeta UnionPay y acercan el teléfono a un POS para pagar por NFC; el QR y las compras in-app llegarán después. El anuncio no dio cifras de tarjetas ni mercados."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "银联国际近日宣布与传音达成全球合作，双方基于银联「卡码合一」手机Pay方案，在传音旗下钱包产品T Wallet中推出银联支付服务。用户境外在传音智能终端上绑定银联卡，即可率先体验线下非接NFC支付。",
+        "en": "UnionPay International recently announced a global partnership with Transsion to put UnionPay's \"card-and-code in one\" mobile Pay scheme into Transsion's T Wallet. Users bind a UnionPay card on a Transsion handset and can start with offline contactless NFC payments.",
+        "es": "UnionPay International anunció recientemente una alianza global con Transsion para integrar el esquema «tarjeta y código en uno» de UnionPay en la billetera T Wallet de Transsion. Los usuarios vinculan una tarjeta UnionPay en un terminal Transsion y pueden empezar con pagos NFC sin contacto."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "本次合作首站落地巴基斯坦，巴基斯坦联合银行有限公司（Allied Bank Limited，ABL）成为首家发卡合作机构。ABL已全面支持银联卡绑定T Wallet，用户线下消费时双击手机电源键或打开T Wallet，贴近POS终端即可完成「一拍即付」。银联国际称银联已是巴基斯坦第二大银行卡品牌，几乎所有商户都可受理银联卡。",
+        "en": "Pakistan is the first market, and Allied Bank Limited (ABL) is the first issuing partner. ABL now fully supports binding UnionPay cards to T Wallet: shoppers double-press the power key or open T Wallet and tap a POS terminal to pay. UnionPay International says UnionPay is already Pakistan's second-largest card brand, accepted by nearly all merchants.",
+        "es": "Pakistán es el primer mercado y Allied Bank Limited (ABL) el primer emisor asociado. ABL ya admite vincular tarjetas UnionPay a T Wallet: los compradores pulsan dos veces el botón de encendido o abren T Wallet y acercan el móvil a un POS. UnionPay International afirma que UnionPay ya es la segunda marca de tarjetas en Pakistán, aceptada por casi todos los comercios."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "传音旗下拥有TECNO、Infinix、itel等手机品牌，业务覆盖非洲、南亚、东南亚、中东及拉美等100多个国家和地区。T Wallet后续将陆续开通银联二维码支付与线上In-App支付。公告未披露发卡量、其他上线市场名单、时间表或合作金额。",
+        "en": "Transsion sells TECNO, Infinix and itel handsets across more than 100 countries in Africa, South Asia, Southeast Asia, the Middle East and Latin America. T Wallet will add UnionPay QR and in-app payments over time. The announcement disclosed no card volumes, list of further markets, timetable or deal value.",
+        "es": "Transsion vende móviles TECNO, Infinix e itel en más de 100 países de África, Asia del Sur, Asia suroriental, Oriente Medio y América Latina. T Wallet añadirá pagos QR y compras in-app de UnionPay con el tiempo. El anuncio no reveló volúmenes, lista de mercados, calendario ni valor del acuerdo."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对发卡行与收单方而言，这条路线的变化在于手机厂商的存量终端直接变成非接受理入口：用户不必再单独下载发卡行App，绑定卡片后即可贴近POS支付，获客与受理成本都随之下降。对卡组织而言，传音在新兴市场逾百国的出货量为银联手机Pay提供了现成的分发渠道，尤其是二维码与In-App尚未开通、本次仅NFC先行，属于先把非接支付铺开再补场景。需注意公告没有给出发卡量、第二市场名单与时间表，真正规模仍取决于ABL的发卡推进速度。",
+    "en": "For issuers and acquirers, the shift is that a handset maker's installed base becomes a ready-made contactless acceptance point: users need no separate bank app, they bind a card and tap a POS, which cuts acquisition and acceptance costs. For the scheme, Transsion's shipments across 100-plus emerging markets give UnionPay mobile Pay an existing distribution channel. Only NFC is live for now, with QR and in-app still to come, so contactless is being rolled out first. The release gave no card volumes, second-market list or timetable, so real scale hinges on how fast ABL issues cards.",
+    "es": "Para emisores y adquirentes, el cambio es que la base instalada de un fabricante de móviles se convierte en un punto de aceptación sin contacto listo: el usuario no necesita una app del banco, vincula la tarjeta y acerca el móvil al POS, lo que reduce costos de captación. Para la red, los envíos de Transsion en más de 100 mercados emergentes dan a UnionPay Mobile Pay un canal de distribución existente. Por ahora solo funciona NFC; el QR y las compras in-app vendrán después. El anuncio no dio volúmenes, segundo mercado ni calendario, así que la escala real dependerá del ritmo de emisión de ABL."
+  },
+  "confidence": 0.55,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

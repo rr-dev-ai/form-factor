@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-22",
+  "industry": "telecom",
+  "startedAt": "2026-11-22T02:53:49+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "MTN Revives Telkom Takeover Talks as IHS Deal Deadline Moves to December",
+      "url": "https://techmoran.com/2026/11/21/mtn-revives-telkom-takeover-talks-as-ihs-deal-deadline-moves-to-december/",
+      "reason": "时效门+并购门：核心交易是 Telkom 11-16 证交所公告（早于 72h 截止点），价格条款仍在谈判、无监管批准或交割节点，规模一项不足；IHS 延期标的是铁塔，不落凭证载体环节。"
+    },
+    {
+      "title": "FCC habilita espectro para conectar barcos, aviones y drones",
+      "url": "https://dplnews.com/fcc-habilita-espectro-barcos-aviones-drones/",
+      "reason": "范围门：频谱分配事项，标的物不落 SIM/eSIM 载体、RSP 或鉴权链路。"
+    },
+    {
+      "title": "Starlink amplía su acceso al espectro satelital en Brasil",
+      "url": "https://dplnews.com/starlink-amplia-espectro-satelital-brasil/",
+      "reason": "范围门：卫星频谱接入，非卫星直连对鉴权链的影响，属频谱事项。"
+    },
+    {
+      "title": "Elon Musk says micro cell towers will bring Starlink Mobile indoors",
+      "url": "https://www.fierce-network.com/wireless/elon-musk-says-micro-cell-towers-will-bring-starlink-mobile-indoors",
+      "reason": "范围门+动作门：核心网与基站覆盖表态，无产品名、参数或客户等可核具体物。"
+    },
+    {
+      "title": "Private 5G is scaling, but Wi-Fi isn't going anywhere",
+      "url": "https://rcrwireless.com/20261120/5g/private-5g-scale-alongside-wifi",
+      "reason": "范围门：专网 5G 与 Wi-Fi 的观点稿，不落载体/签发/分发/受理环节。"
+    },
+    {
+      "title": "Altán busca en privados el dinero que le falta a la CFE para ampliar su red en zonas remotas",
+      "url": "https://dplnews.com/altan-busca-en-privados-el-dinero-que-le-falta-a-la-cfe-para-ampliar-su-red-en-zonas-remotas/",
+      "reason": "范围门：偏远地区网络扩建融资，属网络基建，非凭证载体。"
+    },
+    {
+      "title": "Brasil despliega tecnología para blindar las comunicaciones y modernizar sus fuerzas de seguridad",
+      "url": "https://www.telesemana.com/blog/2026/11/20/brasil-despliega-tecnologia-para-blindar-las-comunicaciones-y-modernizar-sus-fuerzas-de-seguridad/",
+      "reason": "范围门：执法通信与公共安全现代化，非 SIM/eSIM 载体或鉴权链路。"
+    },
+    {
+      "title": "Argentina: Diputados citan al Gobierno a explicar la norma de ciberseguridad contra el uso de tecnología de red china",
+      "url": "https://www.telesemana.com/blog/2026/11/20/argentina-diputados-citan-al-gobierno-a-explicar-la-norma-de-ciberseguridad-contra-el-uso-de-tecnologia-de-red-china/",
+      "reason": "范围门：网络设备与供应链安全，非凭证载体环节。"
+    },
+    {
+      "title": "Wave Wins Congo Licence to Challenge Mobile-Money Incumbents",
+      "url": "https://techmoran.com/2026/11/21/wave-wins-congo-licence-to-challenge-mobile-money-incumbents/",
+      "reason": "范围门：移动钱包牌照，属支付链路，非电信行业。"
+    },
+    {
+      "title": "Connect Money Announces $3.5 Million Deal Ahead of Saudi, Morocco Expansion",
+      "url": "https://techmoran.com/2026/11/21/connect-money-announces-3-5-million-deal-ahead-of-saudi-morocco-expansion/",
+      "reason": "范围门：支付交易，归 banking，非电信行业。"
+    },
+    {
+      "title": "Airtel Money Upgrades Payment Platforms in Tanzania and Malawi",
+      "url": "https://techmoran.com/2026/11/21/airtel-money-upgrades-payment-platforms-in-tanzania-and-malawi/",
+      "reason": "范围门：支付平台升级，归 banking，非电信行业。"
+    },
+    {
+      "title": "IDEMIA Secure Transactions to Manage SIM & eSIM for Sweden's Largest Private 5G Network (The Fast Mode 换源)",
+      "url": "https://www.idemia.com/press-release/idemia-secure-transactions-power-secure-5g-connectivity-healthcare-and-critical-public-services-across-swedens-region-vastra-gotaland-2026-11-19",
+      "reason": "duplicate-of-2026-11-20-telecom-01：IDEMIA 瑞典西约特兰大区专网 SIM/eSIM 的换源二次报道，同一事件。"
+    },
+    {
+      "title": "Минцифры запретит eSIM без УКЭП и отменит онлайн-переоформление по УНЭП (Techora 换源)",
+      "url": "https://www.worldcybernews.com/articles/2017",
+      "reason": "duplicate-of-2026-11-17-telecom-02：俄数字发展部收紧远程 eSIM、只认合格电子签名的换源二次报道，同一事件。"
+    },
+    {
+      "title": "Atli offers data-only travel eSIMs in 200+ destinations",
+      "url": "https://www.esim.report/news/atli-offers-data-only-travel-esims-in-200-destinations",
+      "reason": "动作门/范围门：旅行 eSIM 套餐上架，属渠道与资费促销，不改变凭证形态或机制。"
+    },
+    {
+      "title": "Apple iOS 27 adds iPhone Handoff for one number on two iPhones",
+      "url": "https://www.esim.report/news/apple-ios-27-adds-iphone-handoff-for-one-number-on-two-iphones",
+      "reason": "动作门：尚无发布的多机共号功能，仅媒体拆解与爆料，无可核产品化节点。"
+    },
+    {
+      "title": "Tune Talk wins MCMC licence to own network infrastructure",
+      "url": "https://www.esim.report/news/tune-talk-wins-mcmc-licence-to-own-network-infrastructure",
+      "reason": "范围门：MVNO 自建网络基础设施牌照，属网络基建，非 SIM/eSIM 载体或鉴权链路。"
+    }
+  ],
+  "stats": {
+    "candidates": 137,
+    "written": 0,
+    "skippedByDedup": 2
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-22-banking-03",
+  "slug": "mastercard-ant-international-agentic-commerce-apac",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "tokenization",
+    "payment-gateway"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-22T04:19:59+08:00",
+  "ingestedAt": "2026-11-22T02:41:40+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Ant International",
+      "url": "https://www.ant-intl.com/en/news/detail/mastercard-and-ant-international-advance-trusted-agentic-commerce-in-asia-pacific",
+      "lang": "en",
+      "publishedAt": "2026-11-19T00:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "万事达与蚂蚁国际在亚太完成智能体实交易",
+    "en": "Mastercard and Ant International complete live agentic transactions in Asia Pacific",
+    "es": "Mastercard y Ant International completan transacciones agénticas reales en Asia-Pacífico"
+  },
+  "summary": {
+    "zh": "万事达卡与蚂蚁国际宣布在亚太完成两项智能体支付里程碑：一笔由AI代理依据消费者预授权意图、经蚂蚁国际商户平台Antom受理并走万事达Agent Pay with Verifiable Intent的买咖啡实交易；以及在新加坡完成的Agent Pay for Machines（AP4M）企业采购试点，让企业为AI代理设定权限与支出上限。两项均以网络令牌化与可核验意图锁定授权。",
+    "en": "Mastercard and Ant International announced two agentic payment milestones in Asia Pacific: a live purchase in which an AI agent, acting on a consumer's captured intent, bought a coffee through Ant International's merchant platform Antom over Mastercard Agent Pay with Verifiable Intent; and a completed Singapore pilot of Agent Pay for Machines (AP4M), letting businesses set permissions and spending limits for their AI agents. Both rely on network tokenisation and verifiable intent to pin down authorisation.",
+    "es": "Mastercard y Ant International anunciaron dos hitos de pago agéntico en Asia-Pacífico: una compra real en la que un agente de IA, actuando con la intención previamente capturada del consumidor, compró un café a través de la plataforma de comercio Antom con Mastercard Agent Pay y Verifiable Intent; y una prueba completada en Singapur de Agent Pay for Machines (AP4M), que permite a las empresas fijar permisos y límites de gasto a sus agentes. Ambas usan tokenización de red e intención verificable."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "万事达卡与蚂蚁国际宣布在亚太完成两项智能体支付进展，分别针对消费者购物与企业采购中「如何确认AI代理获得真实授权」这一共同问题。",
+        "en": "Mastercard and Ant International announced two agentic payment advances in Asia Pacific, both addressing the same question: how to confirm that an AI agent has genuine authorisation, whether shopping for a consumer or procuring for a business.",
+        "es": "Mastercard y Ant International anunciaron dos avances de pago agéntico en Asia-Pacífico, ambos centrados en la misma pregunta: cómo confirmar que un agente de IA tiene autorización real, tanto para comprar como para aprovisionar."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "在消费者实交易中，一个AI代理依据消费者预先授权的购买意图买了一杯咖啡，由蚂蚁国际的商户支付与数字化平台Antom提供受理，交易走万事达Agent Pay with Verifiable Intent，生成一份可核验的授权记录。Agent Pay把网络令牌化、身份认证与消费者意图组合在一起；Verifiable Intent被设计为开放、基于标准、不绑定特定协议的信任层，并与谷歌的AP2等框架对齐。",
+        "en": "In the live consumer transaction, an AI agent bought a cup of coffee based on the consumer's previously captured intent, with acceptance provided by Ant International's merchant payment and digitalisation platform Antom. The transaction ran on Mastercard Agent Pay with Verifiable Intent, which produced a verifiable record of what the consumer authorised. Agent Pay combines network tokenisation, authentication and consumer intent; Verifiable Intent is designed as an open, standards-based, protocol-agnostic trust layer aligned with frameworks such as Google's AP2.",
+        "es": "En la transacción real de consumo, un agente de IA compró un café según la intención previamente capturada del cliente, con aceptación de Antom, la plataforma de pago y digitalización de comercios de Ant International. La operación usó Mastercard Agent Pay con Verifiable Intent, que generó un registro verificable de lo autorizado. Agent Pay combina tokenización de red, autenticación e intención del consumidor; Verifiable Intent es una capa de confianza abierta, basada en estándares y agnóstica al protocolo, alineada con marcos como AP2 de Google."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "企业侧是新一轮在新加坡完成的Agent Pay for Machines（AP4M）试点。AP4M于2026年6月推出，让企业给AI代理发放凭证、界定可购买范围与支出上限，并在每笔交易留下可审计记录。试点中，Antom让AI代理在设定的参数内使用AP4M凭证与支付授权购买数字服务。公告未披露交易金额、上线市场或时间表。",
+        "en": "The business side is a newly completed Agent Pay for Machines (AP4M) pilot in Singapore. Introduced in June 2026, AP4M lets businesses issue credentials to AI agents, define what they may buy and cap spending, with an auditable record on every transaction. In the pilot, Antom let an AI agent use AP4M credentials and payment authorisation to buy digital services within set parameters. The release disclosed no transaction values, launch markets or timetable.",
+        "es": "El lado empresarial es una prueba de Agent Pay for Machines (AP4M) recién completada en Singapur. Lanzada en junio de 2026, AP4M permite a las empresas emitir credenciales a agentes de IA, definir qué pueden comprar y limitar el gasto, con un registro auditables por transacción. En la prueba, Antom permitió a un agente usar credenciales y autorización de pago AP4M para comprar servicios digitales dentro de los parámetros fijados. El anuncio no dio montos, mercados ni calendario."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对收单方与商户而言，这两笔实交易把智能体结账从概念推到可受理：真正确定责任的不是代理身份本身，而是一份能核验「消费者到底授权了什么」的记录，这为处理AI代购的拒付与越权争议提供了判据。对发卡与钱包侧，网络令牌化加可核验意图意味着代理凭证不再是静态卡号，可按场景限定权限。需要区分的是，本条主体是万事达与蚂蚁国际，走Antom受理与AP4M企业采购；与11月19日连连和Visa的B2B实付分属不同卡组织与不同机制，不是同一笔交易。公告没有给出金额与市场时间表，规模化仍待观察。",
+    "en": "For acquirers and merchants, these live transactions move agentic checkout from concept to something acceptable: what determines liability is not the agent's identity but a verifiable record of what the consumer actually authorised, giving a basis for disputes over AI purchases. On the issuing and wallet side, network tokenisation plus verifiable intent means agent credentials are no longer static card numbers and can be scoped per task. Note the parties here are Mastercard and Ant International, using Antom acceptance and AP4M procurement, distinct from the LianLian-Visa B2B transaction reported on 19 November. No values or market timetable were given, so scale remains unproven.",
+    "es": "Para adquirentes y comercios, estas transacciones reales llevan el checkout agéntico de la idea a algo aceptable: lo que define la responsabilidad no es la identidad del agente, sino un registro verificable de lo que el consumidor autorizó, base para disputas sobre compras de IA. En emisión y monederos, la tokenización de red más la intención verificable significa que las credenciales del agente dejan de ser números de tarjeta estáticos y pueden limitarse por tarea. Conviene distinguir: aquí intervienen Mastercard y Ant International, con aceptación Antom y compras AP4M, distinto de la transacción B2B LianLian-Visa del 19 de noviembre. No se dieron montos ni calendario, así que la escala sigue sin probarse."
+  },
+  "confidence": 0.55,
+  "ai": {
+    "model": "deepseek-v4.1-flash",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

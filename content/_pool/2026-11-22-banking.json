@@ -1,0 +1,264 @@
+{
+  "date": "2026-11-22",
+  "industry": "banking",
+  "startedAt": "2026-11-22T02:41:40+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "中国银联与Visa深化双向互联互通，共促跨境支付便利化",
+      "url": "https://www.ccn.com.cn/Content/2026/11-20/1805317390.html",
+      "reason": "duplicate-of-2026-11-17-banking-01：事件日11-16前海启动仪式，与已发「银联与Visa打通受理网络」同一网络对网络互联互通事件，11-20只是再报道"
+    },
+    {
+      "title": "腾讯发布首个来华支付应用TenPayGo",
+      "url": "https://www.tencent.com/en-us/articles/2202338.html",
+      "reason": "duplicate-of-2026-11-16-banking-01：TenPayGo及 PayPal World×TenPay Global 均为9月前海发布会旧事件，11-21财联社稿是回顾，事件超72h窗"
+    },
+    {
+      "title": "传音与Visa战略合作，推动新兴市场数字支付与智能体支付创新",
+      "url": "https://techafricanews.com/transsion-and-visa-partner-to-expand-agentic-payments-and-digital-acceptance-in-emerging-markets/",
+      "reason": "duplicate-of-2026-11-21-banking-06：已于11-21发布，今日中文源为同一事件再报道"
+    },
+    {
+      "title": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体真实交易",
+      "url": "https://www.finextra.com/pressarticle/111714/lianlian-digitech-and-via-complete-live-agentic-b2b-transaction",
+      "reason": "duplicate-of-2026-11-19-banking-02：11-19已发布，今日多语源为同一事件再报道"
+    },
+    {
+      "title": "Alipay+联通巴西国家级即时支付系统Pix",
+      "url": "https://fintechnews.sg/141905/payments/alipay-plus-pix-brazil-cross-border-qr/",
+      "reason": "duplicate-of-2026-11-20-banking-01：11-20已发布，今日中文源再报道"
+    },
+    {
+      "title": "Google Wallet lands on iOS in the US",
+      "url": "https://www.finextra.com/pressarticle/111753/google-wallet-lands-on-ios-in-the-us",
+      "reason": "duplicate-of-2026-11-20-banking-05：11-20已发布谷歌钱包重返iPhone"
+    },
+    {
+      "title": "Maya's Tap to Phone turns your Android smartphone into a POS terminal",
+      "url": "https://technobaboy.com/2026/11/mayas-tap-to-phone-turns-your-android-smartphone-into-a-pos-terminal/",
+      "reason": "duplicate-of-2026-11-18-banking-01：Maya Bank已在11-18已发Mastercard Accept合作方名单内，换信源不算新事件"
+    },
+    {
+      "title": "iDenfy bank card verification receives PCI DSS compliance attestation",
+      "url": "https://thepaypers.com/fraud-and-fincrime/news/idenfy-receives-pci-dss-attestation-for-bank-card-verification",
+      "reason": "超72h窗：原文日期18 Nov 2026，事件日11-18早于窗口下界，11-21池复用件本期不再收录"
+    },
+    {
+      "title": "Paysafe launches PaysafeGo for merchant-branded digital wallets",
+      "url": "https://thepaypers.com/payments/news/paysafe-launches-paysafego-for-merchant-branded-digital-wallets",
+      "reason": "超72h窗：原文日期18 Nov 2026，事件日11-18早于窗口下界"
+    },
+    {
+      "title": "YES BANK, novio Launch Dual Mastercard-RuPay Credit Card",
+      "url": "https://www.cnbctv18.com/personal-finance/yes-bank-novio-launch-dual-credit-card-with-shared-limit-across-mastercard-and-rupay-20036933.htm",
+      "reason": "超72h窗：卡于18 Nov 2026发布，事件日11-18早于窗口下界"
+    },
+    {
+      "title": "Visa Direct adds stablecoin prefunding in APAC",
+      "url": "https://www.theblock.co/news/business/2026-11-18-visa-direct-extend-stablecoin-prefunding-cross-border-payouts-asia-pacific-443457",
+      "reason": "超72h窗且范围门：公告事件日11-18，且标的是稳定币预融资跨境汇款，非卡凭证环节"
+    },
+    {
+      "title": "Bill agrees to be acquired by TPG in $6bn deal",
+      "url": "https://www.finextra.com/pressarticle/111752/bill-agrees-to-be-acquired-by-tpg-in-6bn-deal",
+      "reason": "范围门：BILL是AP/AR财务自动化软件，标的不在卡栈；与11-21同判据"
+    },
+    {
+      "title": "CBI, Bancomat and Nexi to build Italian digital euro infrastructure",
+      "url": "https://www.finextra.com/newsarticle/48792/cbi-bancomat-and-nexi--to-build-italian-digital-euro-infrastructure",
+      "reason": "范围门：数字欧元CBDC基础设施，不落卡凭证链"
+    },
+    {
+      "title": "UK SME lender OakNorth secures US banking licence",
+      "url": "https://www.finextra.com/newsarticle/48790/uk-sme-lender-oaknorth-secures-us-banking-licence",
+      "reason": "范围门：银行牌照，明确不收"
+    },
+    {
+      "title": "Adyen merchants can offer Klarna in AI agent checkout",
+      "url": "https://www.finextra.com/pressarticle/111751/adyen-merchants-can-offer-klarna-in-ai-agent-checkout",
+      "reason": "动作门：收单网关给AI结账加一种BNPL支付方式，既有能力开关，机制增量弱"
+    },
+    {
+      "title": "HarnessBuy signs MoU with Mastercard on agentic commerce in APAC",
+      "url": "https://thepaypers.com/payments/news/harnessbuy-signs-mou-with-mastercard-on-agentic-commerce-in-apac",
+      "reason": "动作门：只有MoU与demo，无落地市场、客户或规模，无具体物"
+    },
+    {
+      "title": "YeePay and Banking Circle sign MoU on China-Europe payments",
+      "url": "https://thepaypers.com/payments/news/yeepay-and-banking-circle-sign-mou-on-china-europe-payments",
+      "reason": "动作门：MoU无金额、无客户、无上线时间表，且属跨境汇款基建，范围边缘"
+    },
+    {
+      "title": "Katanox and Mobi.AI partner on payments for AI hotel bookings",
+      "url": "https://thepaypers.com/payments/news/katanox-and-mobiai-partner-on-payments-for-ai-hotel-bookings",
+      "reason": "动作门：AI酒店预订支付合作，无卡凭证机制变化，接近渠道分销"
+    },
+    {
+      "title": "Maybank completes tokenised bond pilot with SettleMint",
+      "url": "https://www.finextra.com/pressarticle/111748/maybank-executes-malaysias-first-tokenised-mgs-transaction",
+      "reason": "范围门：债券/存款代币化，非支付卡令牌化"
+    },
+    {
+      "title": "World Bank enlists Citi and Circle to test stablecoin-based disbursements",
+      "url": "https://www.fintechfutures.com/blockchain-crypto-digital-assets/world-bank-enlists-citi-and-circle-to-test-stablecoin-based-disbursements",
+      "reason": "范围门：稳定币拨付试验，非卡凭证"
+    },
+    {
+      "title": "Visa report finds AI-enabled fraud and third-party attacks are rising",
+      "url": "https://thepaypers.com/fraud-and-fincrime/news/visa-report-finds-ai-enabled-fraud-and-third-party-attacks-are-rising",
+      "reason": "非事件：报告/观点稿，无具体动作"
+    },
+    {
+      "title": "PayPal CEO remakes team",
+      "url": "https://www.paymentsdive.com/news/paypal-ceo-remakes-team/875344/",
+      "reason": "人事变动，明确不收"
+    },
+    {
+      "title": "ACI Worldwide's CEO heads out",
+      "url": "https://www.paymentsdive.com/news/aci-worldwides-ceo-heads-out/875047/",
+      "reason": "人事变动，明确不收"
+    },
+    {
+      "title": "Former NatWest CEO Alison Rose joins Otoma board",
+      "url": "https://www.finextra.com/pressarticle/111746/former-natwest-ceo-alison-rose-joins-otoma-board",
+      "reason": "人事变动，明确不收"
+    },
+    {
+      "title": "Mitek Systems appoints Laura Apel as Chief Marketing Officer",
+      "url": "https://www.finextra.com/pressarticle/111756/mitek-systems-appoints-laura-apel-as-chief-marketing-officer",
+      "reason": "人事变动，明确不收"
+    },
+    {
+      "title": "Klarna launches AI concierge",
+      "url": "https://www.paymentsdive.com/news/klarna-launches-ai-concierge/875033/",
+      "reason": "范围门：BNPL的AI客服工具，非卡凭证机制"
+    },
+    {
+      "title": "Visa, Mastercard face possible trial",
+      "url": "https://www.paymentsdive.com/news/visa-mastercard-face-possible-trial/874834/",
+      "reason": "非新事件：交换费和解案程序进展，与11-09同判据；无可核新动作"
+    },
+    {
+      "title": "States keep targeting card fee relief",
+      "url": "https://www.paymentsdive.com/news/states-keep-targeting-card-fee-relief/874260/",
+      "reason": "综述稿：30多项州级交换费法案仍在委员会，无新动作"
+    },
+    {
+      "title": "Fiserv preps debit network sale",
+      "url": "https://www.paymentsdive.com/news/fiserv-preps-debit-network-sale/874395/",
+      "reason": "非事件：财报电话会口径，无交割或买方等可核节点"
+    },
+    {
+      "title": "Western Union, Intermex clash",
+      "url": "https://www.paymentsdive.com/news/western-union-intermex-acquisition-fight-California-regulator/874396/",
+      "reason": "范围门：汇款服务并购，标的不在卡凭证环节"
+    },
+    {
+      "title": "Block's Cash App weaves payment tech into bandanas",
+      "url": "https://www.paymentsdive.com/news/blocks-cash-app-weaves-payment-tech-into-bandanas/874328/",
+      "reason": "与11-12同判据：Cash App Tags第二款联名载体，机制未变，且配饰不在卡栈"
+    },
+    {
+      "title": "NCR Atleos, First Citizens lock arms",
+      "url": "https://www.paymentsdive.com/news/ncr-atleos-first-citizens-target-stores-atm-digital-banking/873953/",
+      "reason": "超窗：10-19公告，Payments Dive 11月再报道"
+    },
+    {
+      "title": "Mastercard pilots AI travel purchases",
+      "url": "https://www.paymentsdive.com/news/mastercard-pilots-ai-travel-purchases/874746/",
+      "reason": "超窗：实际为11-12新闻稿，且与已判的Travelport同事件线"
+    },
+    {
+      "title": "Stripe awaits payoff on Tempo chain",
+      "url": "https://www.paymentsdive.com/news/stripe-awaits-payoff-on-tempo-chain/874618/",
+      "reason": "范围门：稳定币区块链基础设施，非卡凭证"
+    },
+    {
+      "title": "Connect Money Announces $3.5 Million Deal Ahead of Saudi, Morocco Expansion",
+      "url": "https://techmoran.com/2026/11/21/connect-money-announces-3-5-million-deal-ahead-of-saudi-morocco-expansion/",
+      "reason": "动作门/范围门：融资与扩张，无卡凭证机制变化"
+    },
+    {
+      "title": "Wave Wins Congo Licence to Challenge Mobile-Money Incumbents",
+      "url": "https://techmoran.com/2026/11/21/wave-wins-congo-licence-to-challenge-mobile-money-incumbents/",
+      "reason": "范围门：移动支付牌照，非卡凭证环节"
+    },
+    {
+      "title": "Airtel Money Upgrades Payment Platforms in Tanzania and Malawi",
+      "url": "https://techmoran.com/2026/11/21/airtel-money-upgrades-payment-platforms-in-tanzania-and-malawi/",
+      "reason": "范围门：移动钱包A2A平台升级，非卡栈"
+    },
+    {
+      "title": "Nigeria Gives Crypto Providers November 30 Tax Registration Deadline",
+      "url": "https://techmoran.com/2026/11/21/nigeria-gives-crypto-providers-november-30-tax-registration-deadline/",
+      "reason": "范围门：加密税务，非卡凭证"
+    },
+    {
+      "title": "Bank of Ghana is ready to adopt ECO currency",
+      "url": "https://www.ghanabusinessnews.com/2026/11/21/bank-of-ghana-is-ready-to-adopt-eco-currency-governor/",
+      "reason": "范围门：货币与央行表态，非卡凭证"
+    },
+    {
+      "title": "Lanzan tarjeta de crédito para personas que hoy los bancos rechazan",
+      "url": "https://gestion.pe/",
+      "reason": "范围门/动作门：面向被拒人群的信用卡产品，无卡凭证机制变化的具体物"
+    },
+    {
+      "title": "Metro lanza nueva tarjeta Bip! con un guanaco y su cría",
+      "url": "https://cnnchile.com/",
+      "reason": "范围门：交通卡换图案，载体与机制未变"
+    },
+    {
+      "title": "PayPo Taps Citigroup and JPMorgan for Possible Warsaw IPO",
+      "url": "https://www.pymnts.com/news/investment-tracker/ipo/2026/paypo-taps-citigroup-and-jpmorgan-for-possible-warsaw-ipo/",
+      "reason": "资本市场：IPO传闻，非卡凭证动作"
+    },
+    {
+      "title": "Payment Leaders Make the Case for Rail-Agnostic Routing",
+      "url": "https://www.pymnts.com/news/payments-innovation/2026/payment-leaders-make-the-case-for-rail-agnostic-routing/",
+      "reason": "观点稿：行业观点，无具体动作"
+    },
+    {
+      "title": "Paysafe Enlists Altimetrik to Boost System Reliability",
+      "url": "https://www.pymnts.com/partnerships/2026/paysafe-enlists-altimetrik-to-boost-system-reliability/",
+      "reason": "范围门：系统可靠性工程服务，非卡凭证机制"
+    },
+    {
+      "title": "Visa expands Agentic Ready programme to acceptance ecosystem",
+      "url": "https://thepaypers.com/payments/news/visa-expands-agentic-ready-programme-to-acceptance-ecosystem",
+      "reason": "共同限制第2条：3月欧洲、4月拉美亚太、11月受理侧，同一计划第三次扩员，机制未变"
+    },
+    {
+      "title": "移卡携手Mastercard探索Agent支付，推动AI智能体商业交易场景落地",
+      "url": "https://www.mpaypass.com.cn/",
+      "reason": "动作门：探索/MoU，无落地市场、产品或规模等具体物"
+    },
+    {
+      "title": "NETS与蚂蚁国际深化合作，拟接入AMP探索AI智能体支付",
+      "url": "https://www.mpaypass.com.cn/",
+      "reason": "动作门：拟接入/探索，无已上线产品与时间表"
+    },
+    {
+      "title": "AXS推出智能体账单支付方案，Visa、万事达卡等参与",
+      "url": "https://www.mpaypass.com.cn/",
+      "reason": "范围门：跨境账单支付A2A，非卡凭证环节"
+    },
+    {
+      "title": "日本直贩试点日元稳定币JPYC支付",
+      "url": "https://www.mpaypass.com.cn/",
+      "reason": "范围门：稳定币支付，非卡凭证"
+    },
+    {
+      "title": "马来西亚央行与菲律宾央行深化跨境支付等领域合作",
+      "url": "https://www.mpaypass.com.cn/",
+      "reason": "范围门：央行间A2A跨境合作，非卡组织与清算规则"
+    }
+  ],
+  "stats": {
+    "candidates": 95,
+    "written": 3,
+    "skippedByDedup": 6
+  },
+  "finishedAt": "2026-11-21T20:19:39.004Z"
+}

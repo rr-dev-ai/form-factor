@@ -1,0 +1,115 @@
+{
+  "fetchedFor": "2026-11-22",
+  "matrix": {
+    "gap": ["apac", "cis", "mena", "north-america", "africa"],
+    "cellGap": ["europe/banking", "europe/telecom", "latam/banking", "latam/telecom"],
+    "industryGap": ["banking 7/7", "telecom 7/7", "identity 5/7"],
+    "note": "index 完整（fetchedFor=2026-11-22，52 条，01:31 落盘，fetchedAt undefined），一次通过未等待。build-matrix 计入仅 2 条，剔除 无日期 2 / 低置信 48。21 格仅 2 格非空。"
+  },
+  "phases": [
+    {
+      "phase": "R1-缺口驱动",
+      "at": "2026-11-22T01:52:16+08:00",
+      "queries": 6,
+      "basedOn": null,
+      "note": "按 gaps 五区 + cellGaps 格子逐格发；引号日期锚定 20/21 日 + 区域产品词，避开已被旅游站污染的『区域+eSIM』。全部命中卡设计营销页、统计排行榜、发卡指南或已发同线（Bank of Jordan、坦桑尼亚 NIDA、乌兹别克 Apple Pay），零命中。"
+    },
+    {
+      "phase": "R2-机构驱动",
+      "at": "2026-11-22T01:52:58+08:00",
+      "queries": 5,
+      "basedOn": null,
+      "note": "换发卡处理商（CorServ/Velera/Enfuce/Marqeta/Fiserv）+ 具体主体（DMV/证件局/芯片厂/收单厂）。命中 Crédit Agricole×Enfuce（11-17 已发）、Visa Agentic 受理侧（11-18 已发）、IDEMIA 瑞典（11-20 已发）、NIST mDL（11-20 已发）、香港 iAM Smart（11-09 超窗），全弃。"
+    },
+    {
+      "phase": "R3-官方一手",
+      "at": "2026-11-22T01:53:40+08:00",
+      "queries": 6,
+      "basedOn": "R1 坦桑尼亚 NIDA/Bank of Jordan 具体主体→西/葡/英/阿/俄采购词反查授标；R2 拉美卡项目→智利/菲律宾采购门户",
+      "note": "西语、葡语、英语 tender、阿语、俄语六条采购词。命中坦桑尼亚 NIDA（已发）、菲律宾 29,000 EMV 卡招标（10-28 发布、招标非授标、超窗）、亚美尼亚加急护照（11-14 服务提速、与 HayPass 同线）、俄 20 张卡上限提醒（11-18 与 ЕСУПК 同政策线），全弃。"
+    },
+    {
+      "phase": "R4-垂媒",
+      "at": "2026-11-22T01:54:30+08:00",
+      "queries": 3,
+      "archiveFetches": 3,
+      "basedOn": "R3 身份/卡类线索→biometricupdate /202611、paymentsindustryintelligence 首页、idtechwire digest 归档页直读",
+      "note": "biometricupdate /202611 最新停 11-20 且十条全已发/已弃；paymentsindustryintelligence 首页停 11-20 且为欺诈/Agentic/FCA 范围外；idtechwire digest 为聚合页（硬排除）但反查一手。Verifone Kiwi Access（新西兰 8 万台终端年龄核验，11-18 发布）为 96h 超窗，弃。"
+    },
+    {
+      "phase": "R5-新兴术语",
+      "at": "2026-11-22T01:55:05+08:00",
+      "queries": 3,
+      "basedOn": "R4 签证/身份线索→SGP.32 eIM、verifiable credential/mDL issuance、quantum-safe card/SoftPOS 认证",
+      "note": "命中 AT&T Flexible SIM（11-17 已发）、Simartis GSMA 认证（11-16 超窗）、Eseye AnyNet Select（11-17 超窗）、Mastercard Quantum Advisory（咨询非载体，范围门不过）、波兰 EUDI 法案（一手核为 11-17 超窗），全弃。"
+    },
+    {
+      "phase": "R6-区域补充",
+      "at": "2026-11-22T01:56:18+08:00",
+      "queries": 3,
+      "basedOn": "R1/R2 apac/cis/mena/africa 零产出→波兰语/阿语/斯瓦希里语方向换本地语言与媒体重试；德国 d-you 与波兰 EUDI 对照去重",
+      "note": "波兰 EUDI 法案（波兰电台一手 11-17 超窗，且与 11-21 已发德国 d-you 同 EUDI 立法线）、Payoneer OCC（稳定币范围外）、乌干达 NIRA（11-20 已发同线）、卢旺达 NIDA 补登记（11-17 流程恢复非形态变化），全弃。"
+    },
+    {
+      "phase": "tail-深挖与一手核验",
+      "at": "2026-11-22T01:57:53+08:00",
+      "queries": 3,
+      "archiveFetches": 2,
+      "basedOn": "R1-R6 全零→11-20/21 具体一手项目与并购（PRNewswire/BusinessWire 列表 + 银联/GTCR/埃及卡）；telecom 断供→eSIM 商业 Launch 词",
+      "note": "PRNewswire 列表无合格条目；BusinessWire Access Denied。命中并核验：银联国际×传音 T Wallet 巴基斯坦（11-21 17:15，收录）；GTCR 500 亿收购 Global Payments（仅探索传闻、无报价/监管/交割、双方未置评，并购第七类不满足）；埃及统一服务卡（explainer 无发布日期，时效不可判）；telecom 全为旅游 eSIM 与厂商榜单。"
+    }
+  ],
+  "queryCounts": {
+    "R1": 6,
+    "R2": 5,
+    "R3": 6,
+    "R4": 3,
+    "R5": 3,
+    "R6": 3,
+    "tail": 3,
+    "total": 29,
+    "archiveFetches": 5,
+    "fullTextFetches": 7
+  },
+  "result": {
+    "kept": 1,
+    "verifiedButDropped": [
+      {
+        "item": "GTCR 拟 500 亿美元收购 Global Payments",
+        "reason": "Bloomberg 报道的探索传闻，无正式报价、无监管批准、无交割节点，双方均未置评；金额一项可核但不足并购第七类『三项至少两项』门槛"
+      },
+      {
+        "item": "Verifone Kiwi Access 新西兰 8 万台终端年龄核验",
+        "reason": "11-18 发布，距今约 96 小时超 72h 窗口"
+      },
+      {
+        "item": "波兰 EUDI Wallet 法案（mObywatel Europa）",
+        "reason": "波兰电台一手发布于 11-17 23:45，超窗；zgsxgt 聚合页标 11-20 为一手 date 冲突，按一手为准"
+      },
+      {
+        "item": "德国 d-you 钱包法案通过",
+        "reason": "11-21 已发『德国联邦参议院批准数字身份法，d-you 钱包 1 月 2 日上线』，同一事件线"
+      },
+      {
+        "item": "Mastercard Quantum Advisory Practice",
+        "reason": "11-20，标的是咨询服务与白皮书，非凭证载体/签发/受理环节，范围门不过"
+      },
+      {
+        "item": "埃及统一服务卡（Visa 合作、指纹预付卡）",
+        "reason": "Ahram explainer 无发布日期，事件为『recently launched』无具体日，时效不可判"
+      },
+      {
+        "item": "迪拜 RTA 手机 QR 数字 nol 票据",
+        "reason": "交通票非三条凭证链路标的，范围门不过；且来源为迪拜时报聚合页"
+      },
+      {
+        "item": "Eseye AnyNet Select / Simartis GSMA 认证 / AT&T Flexible SIM",
+        "reason": "分别 11-17/11-16/11-17，超窗或已发同线"
+      }
+    ],
+    "gapCoverage": {
+      "filled": ["apac/banking"],
+      "unfilled": ["cis 三行业", "mena 三行业", "north-america 三行业", "africa 三行业", "europe/banking", "europe/telecom", "latam/banking", "latam/telecom"]
+    }
+  }
+}
