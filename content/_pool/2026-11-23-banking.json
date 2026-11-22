@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-23",
+  "industry": "banking",
+  "startedAt": "2026-11-23T02:30:33+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "RBA 指定 Prosegur Australia 依据现金分发框架法",
+      "url": "https://www.rba.gov.au/media-releases/2026/mr-26-31.html",
+      "reason": "范围门：现金分发框架指定，不涉及卡凭证载体/签发/受理任一环节，不收"
+    },
+    {
+      "title": "DPL Spotlight 数字政策周报",
+      "url": "https://dplnews.com/dpl-spotlight-politica-digital-weekly-90/",
+      "reason": "综述周报，非七类动作，无可核具体物"
+    },
+    {
+      "title": "DPL News Weekly 周报",
+      "url": "https://dplnews.com/dpl-news-weekly-278/",
+      "reason": "综述周报，非七类动作，无可核具体物"
+    },
+    {
+      "title": "加纳 Black Challenge 点球胜土耳其进世界杯决赛",
+      "url": "https://www.ghanabusinessnews.com/2026/11/22/ghana-black-challenge-beats-turkiye-on-penalties-to-reach-historic-world-cup-final/",
+      "reason": "范围门：体育新闻，与凭证链路无关"
+    },
+    {
+      "title": "UniMAC 毕业 1414 名学生",
+      "url": "https://www.ghanabusinessnews.com/2026/11/22/unimac-graduates-1414-students/",
+      "reason": "范围门：教育新闻，与凭证链路无关"
+    },
+    {
+      "title": "加纳内部审计员强化监督促保护公共资金",
+      "url": "https://www.ghanabusinessnews.com/2026/11/22/internal-auditors-urged-to-strengthen-oversight-protect-public-funds/",
+      "reason": "范围门：公共财政管理，不涉及卡栈"
+    },
+    {
+      "title": "加纳政府承诺加快内部审计局法案",
+      "url": "https://www.ghanabusinessnews.com/2026/11/22/ghana-government-assures-expedited-action-on-internal-audit-authority-bill/",
+      "reason": "范围门：审计监管立法，与凭证链路无关"
+    },
+    {
+      "title": "加纳警察制定人权手册",
+      "url": "https://www.ghanabusinessnews.com/2026/11/22/ghana-police-to-develop-human-rights-manual-to-strengthen-professionalism-public-trust/",
+      "reason": "范围门：警务治理，无关"
+    },
+    {
+      "title": "版权为现代全球经济基础——Bonsu",
+      "url": "https://www.ghanabusinessnews.com/2026/11/22/copyright-now-foundation-of-modern-global-economy-bonsu/",
+      "reason": "范围门：版权表态，无关"
+    },
+    {
+      "title": "传统当局支持反巫术法案",
+      "url": "https://www.ghanabusinessnews.com/2026/11/22/traditional-authorities-urged-to-support-passage-of-anti-witchcraft-bill/",
+      "reason": "范围门：社会立法，无关"
+    },
+    {
+      "title": "退役军官涉征兵欺诈出庭",
+      "url": "https://www.ghanabusinessnews.com/2026/11/22/retired-senior-military-officer-in-court-over-alleged-enlistment-fraud/",
+      "reason": "范围门：刑事案件，无关"
+    },
+    {
+      "title": "三名女子涉 GH¢350 万盗窃被拘",
+      "url": "https://www.ghanabusinessnews.com/2026/11/22/three-women-held-over-alleged-gh%c2%a23-5m-theft/",
+      "reason": "范围门：刑事案件，无关"
+    },
+    {
+      "title": "肯尼亚 Simba Corp 与英国 MG 签 770 万美元组装协议",
+      "url": "https://techmoran.com/2026/11/21/kenyas-simba-corp-in-7-7-million-assembly-deal-with-british-car-brand-mg/",
+      "reason": "范围门：汽车组装，非芯片/inlay/支付卡载体制造"
+    },
+    {
+      "title": "Safaricom 获全非商业领袖奖年度公司",
+      "url": "https://techmoran.com/2026/11/21/safaricom-named-company-of-the-year-at-all-africa-business-leaders-awards/",
+      "reason": "获奖，非七类动作"
+    },
+    {
+      "title": "Absa/NCBA 高管看好股票",
+      "url": "https://techmoran.com/2026/11/21/absa-ncba-executives-back-equities-as-kenyans-rethink-wealth-creation/",
+      "reason": "投资观点，非七类动作"
+    },
+    {
+      "title": "CBI、Bancomat 与 Nexi 签备忘录共建意大利数字欧元共享受理基础设施",
+      "url": "https://paymentsindustryintelligence.com/italy-accelerates-digital-euro-preparations/",
+      "reason": "范围门+动作门：数字欧元为账户型 CBDC 非卡凭证载体；仅 MoU，无授标金额/建设合同/上线日，数字欧元本身待立法与 ECB 最终发行决定。gateNote 自标可能被终审刷，未补上可核具体物，按刷处理"
+    },
+    {
+      "title": "贵阳银行社保卡及个人化外包服务公示中标候选人，金邦达报价 7.65 元/张",
+      "url": "https://www.gzszbgs.com/?S_id=3308&type=newsinfo",
+      "reason": "动作门+时效：中标候选人公示非最终授标，无总量/合同额/发卡量；开标评标 11-13 已超窗，页面 11-19 14:18 早于 72h 起点约 11 小时。gateNote 自标可能被刷，未补上缺失具体物，按刷处理"
+    },
+    {
+      "title": "NETS 试点 Tap QR to Pay：NFC 手机拍 SGQR 触发二维码支付",
+      "url": "https://www.nets.com.sg/newsroom/nets-announces-nets-app-enhancements-for-a-more-inclusive-everyday-payment-experience",
+      "reason": "时效：官方原文事件日 2026-11-18，早于窗口下界 11-20 02:30 北京约 54 小时；中文二次报道日不能替代事件日"
+    },
+    {
+      "title": "YES BANK 与 novio 发双网络信用卡（实体 Mastercard+虚拟 RuPay 共享额度）",
+      "url": "https://bfsi.eletsonline.com/yes-bank-novio-credit-card",
+      "reason": "时效：公告事件日 2026-11-18，超 72h 窗"
+    },
+    {
+      "title": "柬埔寨东方银行联合 Kardal 落地万事达 Accept 手机 POS",
+      "url": "https://www.mpaypass.com.cn/news/202611/20130338.html",
+      "reason": "跨天重复+时效：即 11-18 已发布「万事达卡让借记卡持卡人用手机收款，首发亚太」的柬埔寨落地节点，事件为母公司 11-16 公告，超窗"
+    },
+    {
+      "title": "万事达卡 Accept 首发亚太（菲律宾/斯里兰卡/柬埔寨手机收款）",
+      "url": "https://www.mastercard.com/news/ap/en/newsroom/press-releases/en/2026/mastercard-enables-debit-cardholders-to-get-paid-as-easily-as-they-pay",
+      "reason": "duplicate-of-2026-11-18-banking-01：已在 11-18 发布，同事件不同信源"
+    },
+    {
+      "title": "美国第八巡回法院推翻 Reg II 借记卡交换费上限",
+      "url": "https://www.clarkhill.com/news-events/news/regulation-ii-debit-card-interchange-fee-cap-ruling",
+      "reason": "时效：判决事件日 2026-10-26，超窗近一个月；Clark Hill 11-22 为律所评论稿，非新动作"
+    },
+    {
+      "title": "VPBank 与 Central Retail Vietnam 推出 The 1 联名卡",
+      "url": "https://www.vietnam.vn/en/vpbank-va-central-retail-vietnam-ra-mat-the-tin-dung-dong-thuong-hieu-the-1",
+      "reason": "范围门：原文核实 The 1 为零售会员积分计划（Eagle Eye 平台），非银行卡产品；Google News 标题误导，无卡组织/发卡机制"
+    },
+    {
+      "title": "Adyen 商户可在 AI agent 结账时提供 Klarna",
+      "url": "https://www.finextra.com/pressarticle/111751/adyen-merchants-can-offer-klarna-in-ai-agent-checkout",
+      "reason": "范围门：把 Klarna 支付入口装进 Adyen 代理结账，属分销/渠道合作，非卡栈形态变化；agentic 主题 11-19/11-22 已发多条"
+    },
+    {
+      "title": "Bill 同意被 TPG 以 60 亿美元收购",
+      "url": "https://www.finextra.com/pressarticle/111752/bill-agrees-to-be-acquired-by-tpg-in-6bn-deal",
+      "reason": "范围门：BILL 为 AP/AR 财务自动化软件，标的不在卡栈；11-21 已按同判据拦过"
+    },
+    {
+      "title": "Visa 扩展 Agentic Ready 计划",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBVLWhrSFNQcG5MbzRiS21Ja1BzRTFaTHE5OFJxS2NzdngwOThDdmxfVjl6Q09TdzFVM1ZqN2l6dDBSUHZoRld2b2FxaWthMWNrSnBfcG9TYWw4ZDRWelYzUzhIejFTUXVwZjZ3",
+      "reason": "共同限制第2条：3月欧洲、4月拉美亚太、本次受理侧，同一计划第三次扩员，机制未变"
+    },
+    {
+      "title": "HarnessBuy 与 Mastercard 签 agentic commerce 亚太备忘录",
+      "url": "https://thepaypers.com",
+      "reason": "动作门：探索性 MoU，无产品名/参数/上线日，无七类动作可核具体物"
+    },
+    {
+      "title": "移卡与 Mastercard 探索 Agent 支付",
+      "url": "https://www.mpaypass.com.cn/news/",
+      "reason": "动作门：探索合作，无具体产品/参数/客户，机制未变"
+    },
+    {
+      "title": "AXS 推出智能体账单支付方案，Visa/万事达参与",
+      "url": "https://www.mpaypass.com.cn/news/",
+      "reason": "动作门：概念方案，无可核产品名/参数/上线日/客户"
+    },
+    {
+      "title": "Visa 报告：AI 欺诈与第三方攻击上升",
+      "url": "https://thepaypers.com",
+      "reason": "非七类动作：研究报告，不是形态或机制变化"
+    },
+    {
+      "title": "Visa Direct 在亚太增加稳定币预融资",
+      "url": "https://thepaypers.com",
+      "reason": "范围门：稳定币预融资跨境汇款，非卡栈；11-22 已按同判据拦过"
+    },
+    {
+      "title": "Worldline 股价因 FT 现金预付款报道暴跌",
+      "url": "https://www.finextra.com/newsarticle/48791/worldline-shares-plummet-on-ft-report-on-cash-advances",
+      "reason": "财报/股价，非七类动作"
+    },
+    {
+      "title": "OakNorth 获美国银行牌照",
+      "url": "https://www.finextra.com/newsarticle/48790/uk-sme-lender-oaknorth-secures-us-banking-licence",
+      "reason": "范围门：银行牌照，明确不收"
+    },
+    {
+      "title": "Storspay 完成加拿大 MSB 注册",
+      "url": "https://www.finextra.com/pressarticle/111747/storspay-completes-money-services-business-registration-in-canada",
+      "reason": "范围门：支付牌照注册，非卡栈"
+    },
+    {
+      "title": "Maybank 完成马来西亚首笔代币化 MGS 交易",
+      "url": "https://www.finextra.com/pressarticle/111748/maybank-executes-malaysias-first-tokenised-mgs-transaction",
+      "reason": "范围门：代币化证券，非卡凭证栈"
+    },
+    {
+      "title": "Aqua Global 与 IntellectEU 合作连接银行系统与数字资产网络",
+      "url": "https://www.finextra.com/pressarticle/111750/aqua-global-and-intellecteu-partner-to-connect-banks-existing-systems-with-digital-asset-networks",
+      "reason": "范围门：数字资产网络连接，非卡栈"
+    },
+    {
+      "title": "建行江苏省分行商户收单扫码终端采购招标",
+      "url": "https://www.mpaypass.com.cn/news/202611/20192458.html",
+      "reason": "动作门：招标公告非授标，无中标方；按 11-15 湖北公安先例（采购预告非授标）拦"
+    },
+    {
+      "title": "建行山东省分行 2027-2028 第三方支付权益服务招标",
+      "url": "https://www.mpaypass.com.cn/news/202611/20184759.html",
+      "reason": "动作门：招标公告非授标，无中标方，且权益服务非卡栈"
+    },
+    {
+      "title": "吉林通支付牌照被注销",
+      "url": "https://www.mpaypass.com.cn/news/202611/20202905.html",
+      "reason": "范围门：牌照注销，非七类动作"
+    },
+    {
+      "title": "LankaPay 注册门户安全事件，支付系统未受影响",
+      "url": "https://www.mpaypass.com.cn/news/202611/20183739.html",
+      "reason": "范围门：信息泄露事件明确不收；且支付核心未受影响"
+    },
+    {
+      "title": "潘功胜会见万事达卡 CEO 孟轲",
+      "url": "https://www.mpaypass.com.cn/news/202611/20185418.html",
+      "reason": "会晤表态，非七类动作，无可核具体物"
+    },
+    {
+      "title": "PayPal 宣布多项高管任命推进三年战略",
+      "url": "https://www.mpaypass.com.cn/news/202611/21144705.html",
+      "reason": "人事，范围门明确不收"
+    },
+    {
+      "title": "大连农商银行收反洗钱罚单，CIO 等 5 人被罚",
+      "url": "https://www.mpaypass.com.cn/news/202611/21152643.html",
+      "reason": "监管处罚，非七类动作，与凭证载体无关"
+    },
+    {
+      "title": "印度 CERT-In 警示企业支付系统未授权交易",
+      "url": "https://www.mpaypass.com.cn/news/202611/21112832.html",
+      "reason": "安全警示（防护建议），非具体安全事件机制，无可核受影响方"
+    },
+    {
+      "title": "江苏银行 CIO 梁斌离任",
+      "url": "https://www.mpaypass.com.cn/news/202611/21111829.html",
+      "reason": "人事，范围门明确不收"
+    },
+    {
+      "title": "入境便利化支付为 APEC 商旅互联互通铺路",
+      "url": "https://www.mpaypass.com.cn/news/202611/21151015.html",
+      "reason": "综述/宣传，非七类动作，无可核具体物"
+    },
+    {
+      "title": "Visa 中国区总裁：中国是 Visa 长期投入的重要市场",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZLVpZaWMySTJ3UmVOTS1XbW1MWmRESXY5X01DU0dwdktzSWNUd1pjYXZ4QU5MbkQ4NFBLX3lncmZuWjFkNWV1WmNJMlhCUndXZ0F6LWxEMlBxMnRySG5VOW5n",
+      "reason": "访谈表态，非七类动作"
+    },
+    {
+      "title": "南韩 Kakao Pay/Toss 11-23 上线居民身份验证",
+      "url": "https://finance.biggo.com",
+      "reason": "范围门：居民身份验证属身份核验链路，非卡栈；且为钱包 App 功能"
+    },
+    {
+      "title": "罗马尼亚国家银行：6 月活跃银行卡增至 2974 万张",
+      "url": "https://informat.ro",
+      "reason": "统计数据，非七类动作，事件为 6 月数据超窗"
+    },
+    {
+      "title": "权益瘦身、存量缩水 1.34 亿张：信用卡如何精打细算",
+      "url": "https://www.sohu.com",
+      "reason": "综述观点，非七类动作"
+    },
+    {
+      "title": "Marqeta 高管访谈：让卡替你选择",
+      "url": "https://www.financexmagazine.com",
+      "reason": "访谈，非七类动作"
+    },
+    {
+      "title": "特朗普称民主党人或支持信用卡利率上限",
+      "url": "https://247wallst.com",
+      "reason": "政治表态，非七类动作"
+    },
+    {
+      "title": "墨西哥商户支付合规格局演变",
+      "url": "https://mexicobusiness.news",
+      "reason": "综述，非七类动作；墨西哥数字支付立法已多次按同判据拦"
+    },
+    {
+      "title": "POSCO International 与 LG CNS 完成 Injective 贸易应收账款代币化试点",
+      "url": "https://www.tradingview.com",
+      "reason": "范围门：应收账款代币化，非卡栈"
+    },
+    {
+      "title": "ECB 邀请业界参与 Appia 代币化试验",
+      "url": "https://finance.biggo.com",
+      "reason": "范围门：代币化存款/证券试验，非卡凭证栈"
+    },
+    {
+      "title": "信用卡兑换/权益类常青内容（Chase 转账奖励等）",
+      "url": "https://cardpolo.com/news",
+      "reason": "权益与奖励，非七类动作，非形态变化"
+    },
+    {
+      "title": "银联与 Visa 深化三大领域合作",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1MUVBRUU90OU41LWQ3R21BUkR6cXB0RUQyX3BiVXp2cFNlLTVjdTFNMlVaZ2kxTkI1Z2lMR3RtREdOVjRPMHdkejhLZw",
+      "reason": "duplicate-of-2026-11-17-banking-01：与已发布「银联与 Visa 打通受理网络」为同一前海启动仪式网络互联互通事件，多语再报道不算新事件"
+    },
+    {
+      "title": "银联国际与传音合作推「卡码合一」支付，首站巴基斯坦",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrREdUU2l6N1djbjFRYy10eWN0NXlBMWJFSDRVd254bDJtRlNuRFRwQUpydU55RzNUV3BqcFktLWoySkg0UzJvdVA1VUVuZXVxTjBSQ0JkOEJjaFBuNUE",
+      "reason": "duplicate-of-2026-11-22-banking-01：与已发布「银联传音手机 Pay 落地巴基斯坦」同事件换信源"
+    },
+    {
+      "title": "万事达卡与蚂蚁国际在亚太推进智能体商务",
+      "url": "https://www.mpaypass.com.cn/news/202611/20184250.html",
+      "reason": "duplicate-of-2026-11-22-banking-03：已发布同一事件"
+    },
+    {
+      "title": "Visa 携手连连数字完成亚太首笔支付标记 B2B 智能体真实交易",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMTZpMERjZVhJemVqTmNPdGlZQjdsN0Q3SGFsYWI2dmVWVG4zcjhVUW5TZUhBOWhBMWx0bFR2dXp4bHBQdUZDLUt0bjRvbUJBb2RvcDJITHkyTVBfeHJELXFNVTZISnZvTXRPX3dsQVFBWEtMUzZtaS1PdWxfVnVZRnB5X0xPVzY3",
+      "reason": "duplicate-of-2026-11-19-banking-01：与已发布「连连与 Visa 完成代理专用令牌 B2B 实付」同事件换信源"
+    },
+    {
+      "title": "Visa 推出新一代订阅管理解决方案 Visa Recurrence",
+      "url": "https://www.itbrief.co.nz/visa-launches-subscription-tool-with-kiwibank-first/",
+      "reason": "duplicate-of-2026-11-21-banking-02：已发布「Visa 推订阅管理工具，Kiwibank 率先接入网银」"
+    },
+    {
+      "title": "Google Wallet 重返 iOS（美国）",
+      "url": "https://www.finextra.com/pressarticle/111753/google-wallet-lands-on-ios-in-the-us",
+      "reason": "duplicate-of-2026-11-20-banking-04：已发布「谷歌钱包重返 iPhone」"
+    },
+    {
+      "title": "传音与 Visa 签合作，在非洲推手机受理与代理支付",
+      "url": "https://techafricanews.com/transsion-and-visa-partner-to-expand-agentic-payments-and-digital-acceptance-in-emerging-markets/",
+      "reason": "duplicate-of-2026-11-21-banking-03：已发布同事件"
+    },
+    {
+      "title": "越南 NAPAS 接通新加坡 NETS，旅客可扫本地码付款",
+      "url": "https://fintechnews.sg/142009/payments/vietnam-singapore-nets-qr-payments/",
+      "reason": "duplicate-of-2026-11-21-banking-04：已发布同事件"
+    },
+    {
+      "title": "Maya Tap to Phone 把安卓手机变 POS",
+      "url": "https://www.technobaboy.com",
+      "reason": "duplicate-of-2026-11-18-banking-01：Maya 为已发布 Mastercard Accept 首发合作方，同一机制再报道"
+    },
+    {
+      "title": "蚂蚁 Alipay+ 接通巴西 Pix",
+      "url": "https://fintechnews.sg/141905/payments/alipay-plus-pix-brazil-cross-border-qr/",
+      "reason": "duplicate-of-2026-11-20-banking-01：已发布同事件"
+    },
+    {
+      "title": "微信支付接通巴西 Pix",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/weixin-pay-enables-pix-qr-103900632.html",
+      "reason": "duplicate-of-2026-11-16-banking-01：已发布同事件"
+    },
+    {
+      "title": "iDenfy 银行核卡服务获 PCI DSS v4.0.1 合规认证",
+      "url": "https://thepaypers.com/fraud-and-fincrime/news/idenfy-receives-pci-dss-attestation-for-bank-card-verification",
+      "reason": "时效：原文 The Paypers 标事件日 11-18，早于窗口下界 11-20 02:30；11-22 池已按超窗拦，不复用"
+    },
+    {
+      "title": "Paysafe 推 PaysafeGo，让商户开自有品牌钱包",
+      "url": "https://thepaypers.com/payments/news/paysafe-launches-paysafego-for-merchant-branded-digital-wallets",
+      "reason": "时效：原文 The Paypers 标事件日 11-18，超窗；11-22 池已按超窗拦，不复用"
+    },
+    {
+      "title": "MagTek 读卡器固件升级，一台终端同验银行卡与移动驾照",
+      "url": "https://www.biometricupdate.com/202611/us-mobile-id-adoption-advances-across-retail-government-and-enterprise-systems",
+      "reason": "duplicate-of-2026-11-22-banking-02：已在 11-22 发布"
+    },
+    {
+      "title": "Pliant 入英国政府采购卡框架",
+      "url": "https://thepaypers.com/payments/news/pliant-named-supplier-on-uk-governments-gbp-132-bln-framework",
+      "reason": "duplicate-of-2026-11-21-banking-01：已在 11-21 发布"
+    }
+  ],
+  "stats": {
+    "candidates": 78,
+    "written": 0,
+    "skippedByDedup": 14
+  }
+}

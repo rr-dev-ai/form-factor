@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-11-23T01:55:20+08:00",
+  "fetchedFor": "2026-11-23",
+  "gap": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"],
+  "cellGap": [],
+  "industryGap": ["banking", "telecom", "identity"],
+  "items": [
+    {
+      "title": "Bayobab 与 Google Firebase 在非洲上线基于 SIM 的静默号码核验",
+      "url": "https://techafricanews.com/2026/11/20/mtn-bayobab-google-firebase-carrier-based-authentication-africa/",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "industry": "telecom",
+      "region": "africa",
+      "actionType": "联合部署",
+      "gateNote": "运营商侧（MTN 子公司 Bayobab）与平台侧（Google Firebase）具名，非洲首次上线、能力已向 Firebase 开发者开放，机制变化可核。缺口：原文只给『非洲』与 MTN 约 1.65 亿 Android 用户，未列首发国家、接入运营商数、开发者可用范围或上线日时刻；也不排除终审把它判为通用 App 身份验证而非凭证链路的鉴权方式。若按后者，本条先出局。另：publishedAt 只有日期，原文与 idtechwire 均未给时刻，已按 UTC 零点记，请终审按时效判断。",
+      "discoveredBy": "R4 归档页直读 idtechwire.com 首页（November 20, 2026 条目）",
+      "note": "落在电信链路的网络鉴权环节：把号码归属从『用户手工输入短信 OTP』改为『运营商网络直接返回设备内 SIM 所持号码』，验证在 Android 生态内静默完成，Firebase 称无短信即消除短信钓鱼面，未覆盖的设备与网络可回退 SMS。改变的是鉴权凭据的来源——从对短信可达性的证明变成对 SIM 与号码绑定关系的证明。原文未说首发国家、参与运营商清单、开发者调用门槛、上线具体时刻，也未给任何交易或调用量；1.65 亿是 MTN 全域 Android 用户数，不是已覆盖用户数，写稿勿混用。"
+    },
+    {
+      "title": "湖北公安居民身份证制作中心采购特种证件制发系统，预算 50.15 万元",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202611/t20261120_27724236.htm",
+      "publishedAt": "2026-11-20T15:29:00+08:00",
+      "industry": "identity",
+      "region": "apac",
+      "actionType": "无",
+      "gateNote": "公开招标的采购预告，不是授标——无中标方，七类动作都不贴。可核的具体物是预算 50.15 万元、3 个月交货、项目编号 HBCZ-2604051953-264790 与 12 月 2 日开标时间。若终审只收授标或上线节点，本条会被按『招标阶段』刷掉；补位阶段留作证件制发侧的机制变化线索。",
+      "discoveredBy": "\"2026年11月21日\" 身份证 制卡 采购 中标 公安厅",
+      "note": "落在证件签发环节：湖北省公安厅居民身份证制作中心要为全省特种证件申办业务建一套数据报送软硬件及集成服务，搭安全报送通道，打通外部用户与公安内网制证系统，实现线上申报、自动校验、审批管理与状态查询。改变的是申办数据进入制证系统的路径——从分散线下递交改为经安全通道直连内网制证系统。原文未说『特种证件』具体是哪种证、系统覆盖多少网点、供应商是谁，也未给制卡产能；预算 50.15 万元是上限而非成交额，写稿勿写成已授标。"
+    },
+    {
+      "title": "CBI、Bancomat 与 Nexi 签备忘录共建意大利数字欧元共享受理基础设施",
+      "url": "https://paymentsindustryintelligence.com/italy-accelerates-digital-euro-preparations/",
+      "publishedAt": "2026-11-22T18:37:00+01:00",
+      "industry": "banking",
+      "region": "europe",
+      "actionType": "联合部署",
+      "gateNote": "只是一份 CBI 与 Bancomat 之间的 MoU，Nexi 与 TAS 为技术方，没有授标金额、没有建设合同、没有确定的上线日；数字欧元本身仍待立法与 ECB 最终发行决定。可核的是 Bancomat 现有网络年处理 27 亿笔、约 2000 亿欧元，ECB 试点 2027 年、潜在发行 2029 年。风险有二：其一，终审可能认定基础设施筹备离产品化节点还差一个可商用实现；其二，若按『数字现金非凭证载体』判范围门，本条直接出局。补位阶段保留判断余地，不自我否决。",
+      "discoveredBy": "R2 机构轮 \"November 21, 2026\" \"card issuing\" OR \"personalization\" bank launch EMVCo → 命中支付垂媒首页，反查 22 日条目",
+      "note": "落在支付链路的清算与受理侧：CBI 与 Bancomat 搭一个共享技术平台，让银行和支付服务商处理数字欧元交易并直连未来 Eurosystem 服务；架构模块化、技术中立，CBI 与 Bancomat 共治，Nexi 提供技术、TAS 供支付软件，Poste Italiane 供云。改变的是接入方式——从每家银行自建专有接口变成共用一套国家平台，降低中小机构接入门槛。原文未说平台建设预算、合同金额、参与银行数（仅点名 Intesa Sanpaolo、isybank、Poste Italiane）、数字欧元是否最终发行；写稿勿把试点时间写成上线承诺。"
+    },
+    {
+      "title": "贵阳银行社保卡及个人化外包服务公示中标候选人，金邦达报价 7.65 元/张",
+      "url": "https://www.gzszbgs.com/?S_id=3308&type=newsinfo",
+      "publishedAt": "2026-11-19T14:18:34+08:00",
+      "industry": "banking",
+      "region": "apac",
+      "actionType": "授标",
+      "gateNote": "只是中标候选人公示，不是最终中标公告；三候选人单价可核（7.65 / 7.78 / 7.80 元每张），但无总量、无合同额、无发卡量。开标与评审在 11-13，公示期 11-20 至 11-23——事件发生日（公示开始）在 72 小时窗内，但页面发布时间 11-19 14:18 比窗口起点早约 11 小时。按 11-10 科索沃先例照实填 publishedAt 并把两个日期都写明，交终审按事件日判断。若终审按发布日卡窗或只认最终授标，本条会被刷掉。",
+      "discoveredBy": "\"2026年11月21日\" 制卡 银行卡 个人化 采购 中标 公告",
+      "note": "落在银行卡的个性化（发卡）环节：贵阳银行把社保卡的制卡与个人化外包，公开招标后公示三名候选人及每张卡报价，金邦达 7.65 元、东信和平 7.78 元、楚天龙 7.80 元，均满足质量与资格要求、交货期符合招标文件。改变的是这张卡的制卡与个人化从行内转为外包并按单张计价，价格梯度可知。原文未说本次社保卡发卡总量、合同总额、服务期限、是否含芯片或卡基、最终中标人是谁；写稿勿把候选人当成已中标方，也勿反推总金额。"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-22T20:15:26.273Z",
+  "selected": [],
+  "alternates": [],
+  "expired": [],
+  "gaps": [
+    {
+      "region": "apac",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "cis",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "mena",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "europe",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "north-america",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "latam",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "africa",
+      "note": "池内 0 条"
+    }
+  ],
+  "unaccounted": [],
+  "conflicts": [
+    {
+      "kind": "undated",
+      "detail": "banking/magtek-dynaflex-ii-go-mdl-card-reader 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "已于 2026-11-22-banking-02 发布，重复，不调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/idenfy-pci-dss-v4-bank-card-verification 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "原文 The Paypers 标注 18 Nov 2026，超出 72 小时窗口，不调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/paysafe-paysafego-merchant-branded-wallets 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "原文 The Paypers 标注 18 Nov 2026，超出 72 小时窗口，不调入"
+    }
+  ]
+}

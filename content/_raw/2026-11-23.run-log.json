@@ -1,0 +1,76 @@
+{
+  "fetchedFor": "2026-11-23",
+  "matrix": {
+    "gap": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"],
+    "cellGap": [],
+    "industryGap": ["banking 7/7", "telecom 7/7", "identity 7/7"],
+    "note": "index 一次通过（fetchedFor=2026-11-23，20 条，01:31 落盘，fetchedAt undefined）。build-matrix 计入 0 条，剔除 无日期 5 / 低置信 15。21 格全空，是本月最彻底的满格缺口。matrix.json 未落盘，以 stdout 为准。"
+  },
+  "timing": {
+    "startedAt": "2026-11-23T01:50:51+08:00",
+    "midCheckAt": "2026-11-23T01:54:05+08:00",
+    "writtenAt": "2026-11-23T01:55:20+08:00",
+    "caveat": "本轮未在每轮结束时执行 date -Iseconds，故 phases 内不写估算时刻；只有以上三个实测点。不得据此反推各轮耗时。"
+  },
+  "phases": [
+    {
+      "phase": "R1-缺口驱动",
+      "queries": 5,
+      "at": null,
+      "basedOn": null,
+      "note": "七区全为 gaps，按区发引号日期锚定 20/21 日 + 区域产品词，避开已确认被旅游站污染的『区域+eSIM』。命中深圳 APEC 开户、statpit 排行榜、oneesim/simtogo 旅游页、俄语 SIM 指南、eUICC 供应商黄页、南非护照指南等；唯一可用线索来自次日归档页直读，不在本轮 query 内。低于 6 条下限 1 条，未用近义 query 凑数。"
+    },
+    {
+      "phase": "R2-机构驱动",
+      "queries": 5,
+      "at": null,
+      "basedOn": "R1 无任何命中，改从具体主体切入：Velera/CorServ/Marqeta/Fiserv/Enfuce、IDEMIA/Thales/G+D、央行与证件局、亚洲收单机构",
+      "note": "Velera 支付指数为消费数据（无机制变化）、thecudaily 为统计稿；银联传音巴基斯坦 11-21 已发；德国 d-you、越南数字身份、里约新生儿指纹、NIST mDL 全部已在 11-20/11-21 发过；Fiji 国家 ID 法案只到工作组认可草案、无技术与承建方，弃。PRNewswire 列表页直读 21/22 日条目无凭证链路标的。达下限。"
+    },
+    {
+      "phase": "R3-官方一手",
+      "queries": 5,
+      "at": null,
+      "basedOn": "R2 德国/越南证件线与拉美卡项目无新事件→转中、阿、葡采购术语反查授标；R1 中国区零命中→ccgp.gov.cn 直查",
+      "note": "中文两轮出两条可用：湖北公安特种证件制发系统（11-20 15:29，50.15 万元）、贵阳银行社保卡个人化候选人公示（发布 11-19，公示期 11-20 至 11-23）。葡语 edital、阿语 مناقصة、英语 tender 仍全回签证指南与招标聚合站。低于 6 条下限 1 条，未用近义 query 凑数。"
+    },
+    {
+      "phase": "R4-行业垂媒",
+      "queries": 1,
+      "archiveFetches": 5,
+      "at": null,
+      "basedOn": "R3 证件与卡类线索→biometricupdate /202611、paymentsindustryintelligence 首页、idtechwire.com、PRNewswire 列表页归档直读",
+      "note": "biometricupdate /202611 的 11-20~22 十条里，里约、德国、越南、NIST、瑞典 IMY 等全已发，余为观点/监控稿；paymentsindustryintelligence 首页 11-22 三条为稳定币、数字欧元、Adyen×Klarna，仅数字欧元可用；idtechwire 首页给出 Bayobab×Firebase（可用）+ NIST/德国/越南（已发）。归档直读效率远高于 query，但 query 数低于 3 条下限，如实记账。"
+    },
+    {
+      "phase": "R5-新兴术语",
+      "queries": 1,
+      "at": null,
+      "basedOn": "R4 idtechwire 的 SIM 核验线索→SGP.32 eIM / iSIM 术语轮反查同类机制变化",
+      "note": "只回 AT&T Flexible SIM（11-17 已发）、Semtech SGP.32（11-09 已发）、Com4 厂商榜单与 sgp32.co.uk 分析稿，均为已发或营销页。低于 3 条下限 2 条，源侧无新事件，未用近义 query 凑数。"
+    },
+    {
+      "phase": "R6-区域补充",
+      "queries": 3,
+      "at": null,
+      "basedOn": "R1/R2 的 apac/africa/latam 零命中→西语与葡语母语日期、Ghana Card/NIN 本地术语重试",
+      "note": "西语 DNI 轮命中秘鲁 Perú Pass（11-20 已发）与南非 Capitec（11-18 超窗）；非洲轮全为博彩验证指南与国家银行资本金新闻；亚洲 POS 轮命中银联传音（已发）与 Maya Tap to Phone（产品页无发布日期，时效不可判）。达下限。"
+    }
+  ],
+  "queryTotal": 19,
+  "queryNote": "六轮合计 19 条 WebSearch + 5 次归档页直读 + 8 次原文 WebFetch 核验。R1/R3/R4/R5 低于规定下限，原因是窗口内源侧枯竭且近义 query 已被前几轮覆盖，未靠换词重发凑数。",
+  "verifiedButDropped": [
+    "德国联邦参议院通过数字身份法、d-you 1 月 2 日上线（idtechwire 11-20）——11-21-identity-03 已发",
+    "越南社媒与银行账户绑定国家数字身份法（idtechwire 11-20）——11-21-identity-04 已发",
+    "里约新生儿母婴指纹出生登记（biometricupdate 11-20 15:04 EST）——11-21-identity-02 已发，且 CGJ 90/2026 签发日 11-17 已出窗",
+    "NIST mDL 在线核验指南草案（idtechwire 11-20）——11-20-identity-02 已发",
+    "泰国 NBTC 生物识别 SIM 登记草案（thaitimes）——页面无发布日期，时效不可判",
+    "银联国际×传音 T Wallet 巴基斯坦（11-21）——11-22-banking-01 已发",
+    "秘鲁 RENIEC Perú Pass（11-18 技术规范批准）——11-20-identity-01 已发",
+    "尼日利亚 7000 万美元护照本厂动工（11-20）——11-22-identity-02 已发",
+    "Fiji 国家 ID 法案工作组认可草案（11-20）——仅草案，无承建方、无载体、无上线日",
+    "Maya Tap to Phone（菲律宾，3% MDR）——产品页无发布日期，时效不可判",
+    "建行广西银行卡制卡设备耗材及维保供应商征集（11-20）——无中标方无金额，仅为征集",
+    "Kona I 金属卡快闪店（韩国，11-19 开）——营销活动，不改变凭证机制"
+  ]
+}
