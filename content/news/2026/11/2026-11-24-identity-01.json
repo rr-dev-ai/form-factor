@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-24-identity-01",
+  "slug": "italy-it-wallet-driving-licence-identity-document",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "mobile-id",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-24T04:17:20+08:00",
+  "ingestedAt": "2026-11-24T03:18:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/italy-opens-new-it-wallet-phase-making-the-digital-driving-licence-valid-as-an-identity-document/",
+      "lang": "en",
+      "publishedAt": "2026-11-23T00:00:00Z"
+    },
+    {
+      "name": "Il Sole 24 Ore",
+      "url": "https://en.ilsole24ore.com/art/the-it-wallet-is-now-available-to-everyone-on-the-appio-app-your-driving-licence-and-mobile-phone-will-now-be-valid-as-forms-of-id-AJuepMQC",
+      "lang": "en",
+      "publishedAt": "2026-11-24T00:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "意大利数字驾照升格身份证件，IT-Wallet 全面开放",
+    "en": "Italy's IT-Wallet opens to all as digital driving licence becomes ID",
+    "es": "IT-Wallet de Italia se abre a todos y el carné digital vale como DNI"
+  },
+  "summary": {
+    "zh": "意大利公共数字钱包 IT-Wallet 11 月 23 日起在 IO 应用向全体公民和居民开放。钱包里的电子驾照从此可作为身份证件，与居留证明、学历等共八种文件在认可纸质原件的场合替代实体证件。激活需电子身份证 CIE 与 NFC 手机，线下核验用公共应用 Valida Documenti。",
+    "en": "Italy's public digital wallet IT-Wallet opened to all citizens and residents in the IO app on November 23. The digital driving licence in the wallet now counts as an identity document, alongside residence certificates, school and university records and health cards — eight documents that can replace physical originals wherever those are accepted. Activation requires an electronic identity card (CIE) and an NFC phone.",
+    "es": "La billetera digital pública de Italia, IT-Wallet, se abrió a todos los ciudadanos y residentes en la app IO el 23 de noviembre. El carné de conducir digital cuenta ahora como documento de identidad, junto con certificados de residencia, títulos y tarjetas sanitarias: ocho documentos que sustituyen a los originales en papel donde se aceptan. La activación exige un DNI electrónico (CIE) y un teléfono con NFC."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "驾照从驾驶凭证变成身份证件",
+        "en": "From driving proof to identity document",
+        "es": "De prueba de conducción a documento de identidad"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "意大利的 IT-Wallet 是集成在政府 IO 应用里的公共数字钱包。11 月 23 日向全体公民和居民开放前，它已按随机抽取方式向部分用户逐步放量。在这个新阶段，手机里的电子驾照不再只用于证明驾驶资格，还能在需要身份鉴定的公务窗口作为身份证件出示；居留证明、学历、在校证明、学位、健康卡与欧洲残障卡等共八种文件，也可在认可纸质原件的场合替代实体版本。数字驾照可用于线上登录的「用 IT-Wallet 登录」按钮，会逐步出现在加入系统的公共机构网站上。",
+        "en": "Italy's IT-Wallet is a public digital wallet built into the government's IO app. Before opening to all citizens and residents on November 23, it had been rolled out gradually to randomly selected users. In this new phase, the digital driving licence on a phone is no longer limited to proving the right to drive: it can be shown as an identity document at public counters. Residence certificates, school and university records, the health card and the European Disability Card are among eight documents that can replace their physical versions wherever paper originals are accepted. An 'Entra con IT-Wallet' button for online login will appear gradually on the sites of public administrations that join the system.",
+        "es": "IT-Wallet es la billetera digital pública de Italia integrada en la app gubernamental IO. Antes de abrirse a todos los ciudadanos y residentes el 23 de noviembre, se había desplegado de forma gradual entre usuarios seleccionados al azar. En esta nueva fase, el carné de conducir digital ya no sirve solo para acreditar el derecho a conducir: puede mostrarse como documento de identidad en ventanillas públicas. Los certificados de residencia, los expedientes académicos, la tarjeta sanitaria y la Tarjeta Europea de Discapacidad figuran entre ocho documentos que sustituyen a los originales físicos donde se aceptan en papel. El botón «Entra con IT-Wallet» aparecerá progresivamente en las webs de las administraciones que se adhieran."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "激活条件与核验方式",
+        "en": "Activation and verification",
+        "es": "Activación y verificación"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "激活 IT-Wallet 需要本人持有电子身份证 CIE，以及一部支持 NFC 的手机；即使用 SPID 登录 IO，激活时仍要读 CIE。线下由商户或公务人员用免费的公共应用 Valida Documenti 实时核验钱包里的凭证；2024 年上线的旧版 Documenti su IO 功能保留到 2027 年 7 月，此前已有 1300 万次激活。启用新钱包属自愿，不想切换的人可以继续用旧功能但能力受限。",
+        "en": "Activating IT-Wallet requires holding an electronic identity card (CIE) and an NFC-enabled phone; even users who sign in to IO with SPID must read the CIE at activation. In person, merchants or officials verify the wallet's credentials in real time with a free public app, Valida Documenti. The older Documenti su IO feature, launched in 2024, stays available until July 2027 and has recorded 13 million activations. Switching to IT-Wallet is voluntary, and users who stay can keep using the older feature with limited functions.",
+        "es": "Activar IT-Wallet exige poseer un DNI electrónico (CIE) y un teléfono con NFC; incluso quienes entran en IO con SPID deben leer la CIE al activar. Presencialmente, comercios y funcionarios verifican las credenciales en tiempo real con una app pública gratuita, Valida Documenti. La función anterior Documenti su IO, lanzada en 2024, seguirá disponible hasta julio de 2027 y acumula 13 millones de activaciones. El cambio a IT-Wallet es voluntario y quienes no se cambien conservan la función antigua con capacidades limitadas."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "建设分工与私人钱包",
+        "en": "Who builds it, and private wallets",
+        "es": "Quién lo construye y las billeteras privadas"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "公共钱包由 PagoPA 开发、Sogei 作为技术伙伴，项目由总理府数字化转型部门统筹。国家印刷与造币研究院负责中央基础设施与证件签发，AGID 制定规则，国家网络安全局负责安全。系统同时允许市场运营商提供私人钱包，须遵守统一的安全与互操作标准；面向私人运营商的测试环境在 2026 年 5 月已开放。",
+        "en": "PagoPA developed the public wallet with Sogei as technology partner, under the Department for Digital Transformation at the Prime Minister's office. The state printing and mint institute runs the central infrastructure and issues the certificates, AGID sets the rules and the National Cybersecurity Agency handles security. The system also allows private wallets from market operators, subject to common security and interoperability standards; the test environment opened to private operators in May 2026.",
+        "es": "PagoPA desarrolló la billetera pública con Sogei como socio tecnológico, bajo el Departamento de Transformación Digital de la Presidencia del Gobierno. La imprenta y casa de moneda estatal gestiona la infraestructura central y emite los certificados, AGID fija las reglas y la Agencia Nacional de Ciberseguridad se encarga de la seguridad. El sistema admite también billeteras privadas de operadores de mercado, sujetas a normas comunes de seguridad e interoperabilidad; el entorno de pruebas se abrió a operadores privados en mayo de 2026."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "电子驾照被赋予身份证件效力，改变了 IT-Wallet 在意大利的角色：它不再只是证件的存放容器，而开始承担线下的身份证明功能。对证照与钱包供应商而言，核验端要同时支持 Valida Documenti 这类公共验证应用和「用 IT-Wallet 登录」的线上接口，接入工作量会随参与机构增加而上升。PagoPA 与 Sogei 承建公共钱包、国家印刷与造币研究院负责发证的分工，也给私人钱包设下互操作门槛——想进入市场的运营商必须对齐公共系统的安全与交换规则。意大利是欧盟要求成员国在 2026 年底前提供兼容钱包的进度较快者，这一节奏会影响其他成员国对电子驾照身份属性的取舍。",
+    "en": "Giving the digital driving licence identity-document status changes IT-Wallet's role in Italy: it is no longer just a container for credentials but a means of proving identity offline. For credential and wallet suppliers, the acceptance side must now support both a public verification app such as Valida Documenti and the online 'Entra con IT-Wallet' button, so integration work grows as more public bodies join. The split — PagoPA and Sogei building the wallet, the state mint issuing certificates — sets an interoperability bar for private wallets: operators must align with the public system's security and data-exchange rules. Italy is moving faster than most EU states toward the bloc's end-2026 wallet deadline, and that pace will shape how other members treat the identity status of a digital licence.",
+    "es": "Dar al carné de conducir digital rango de documento de identidad cambia el papel de IT-Wallet en Italia: deja de ser un simple contenedor de credenciales y pasa a acreditar la identidad presencialmente. Para los proveedores de credenciales y billeteras, el lado de verificación debe admitir tanto una app pública como Valida Documenti como el botón en línea «Entra con IT-Wallet», por lo que el trabajo de integración crece con cada organismo que se adhiera. El reparto —PagoPA y Sogei construyen la billetera, la casa de moneda estatal emite los certificados— fija un umbral de interoperabilidad para las billeteras privadas: los operadores deben alinearse con las reglas de seguridad e intercambio del sistema público. Italia avanza más rápido que la mayoría de los Estados de la UE hacia el plazo de billeteras de finales de 2026, y ese ritmo influirá en cómo otros países tratan el carné digital como documento de identidad."
+  },
+  "confidence": 0.82,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

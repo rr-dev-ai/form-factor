@@ -1,0 +1,339 @@
+{
+  "date": "2026-11-24",
+  "industry": "banking",
+  "startedAt": "2026-11-24T02:43:34+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "Banque Misr 上线 BM Pay 安卓非接支付",
+      "url": "https://www.banquemisr.com/en/ABOUT-US/News/Banque-Misr-Launches-BM-Pay",
+      "reason": "与埃及央行同日发布的 Android 令牌化服务为同一事件，BM Pay 是该服务在单家银行的下游实例，已并入 2026-11-24-banking-01；gateNote 亦标可能被刷（无卡组织、发卡量、商户数）"
+    },
+    {
+      "title": "埃及 Visa 三家银行扩展 tap-to-pay",
+      "url": "https://www.zawya.com/en/business/visa-expands-tokenized-contactless-payments-in-egypt-through-banks-own-mobile-apps",
+      "reason": "与埃及央行 Android 令牌化发布同事件的不同信源，原文未取到一手稿，按同一发布并入 01"
+    },
+    {
+      "title": "CBE introduces payment card tokenization services for android devices",
+      "url": "https://www.businesstodayegypt.com",
+      "reason": "同一央行令牌化事件的重复报道，合并入 01"
+    },
+    {
+      "title": "CBE expands digital payments with card tokenization services for android devices",
+      "url": "https://www.egypttoday.com",
+      "reason": "同一央行令牌化事件的重复报道，合并入 01"
+    },
+    {
+      "title": "Egypt’s Central Bank Launches Card Tokenization On Android",
+      "url": "https://forbesmiddleeast.com",
+      "reason": "同一央行令牌化事件的重复报道，合并入 01"
+    },
+    {
+      "title": "Kiwe 与 Banque Misr、Visa 在埃及推出支付卡",
+      "url": "https://ffnews.com/news/kiwe-launches-integrated-fintech-app-and-payment-card-in-egypt-with-banque-misr-and-visa/",
+      "reason": "一手原文取不到（站内页面不可达），无法核实产品名、机制与发布日期，按不可核即不收"
+    },
+    {
+      "title": "Safwa Islamic Bank 与 Mastercard 推出 Fakher World Elite 信用卡",
+      "url": "https://www.zawya.com",
+      "reason": "既有 World Elite 档位＋权益包，按 11-07 判据（既有档位重复宣传）拦"
+    },
+    {
+      "title": "NBE 与 Mastercard 在非洲推出 World Legend 信用卡",
+      "url": "https://techafricanews.com",
+      "reason": "World Legend 档位 2025 年 7 月已设，属既有档位＋权益包，按 11-07 判据拦"
+    },
+    {
+      "title": "Visa 与 National Bank of Cambodia、ACLEDA 让 Bakong 虚拟卡进 Google Pay",
+      "url": "https://cambodianess.com/article/visa-national-bank-of-cambodia-and-acleda-bank-plc-enable-google-pay-for-visa-virtual-cards-expanding-secure-and-seamless-mobile-payments-in-cambodia",
+      "reason": "原文写明事件日 2026-11-19，早于窗口下界约 11-21 02:30（北京时间），超 72 小时窗；稿件 11-23 发布不等于事件日"
+    },
+    {
+      "title": "Visa and Alipay+ link wallets to QR merchants in APAC",
+      "url": "https://thepaypers.com",
+      "reason": "一手原文取不到（分类页 Cookiebot 墙、猜测直链均 404），无法核实市场名单与机制，按不可核即不收"
+    },
+    {
+      "title": "Klarna expands Visa partnership",
+      "url": "https://www.finextra.com/pressarticle/111763/klarna-expands-visa-partnership",
+      "reason": "把 Klarna 这一 BNPL 支付方式挂进 Visa Acceptance Platform 供商户选用，属分销渠道变化，按共同限制第 3 条拦"
+    },
+    {
+      "title": "Adyen and Klarna Expand Agentic Commerce Beyond Traditional Card Payments",
+      "url": "https://paymentsindustryintelligence.com/adyen-and-klarna-expand-agentic-commerce/",
+      "reason": "AI 代理结账中的支付方式选择，非卡凭证机制变化；且为 11-22 稿件，动作门不明确"
+    },
+    {
+      "title": "Unlimit joins Visa Agentic Ready for Acceptance programme",
+      "url": "https://thepaypers.com",
+      "reason": "Visa Agentic Ready 计划又一次扩员，同一计划多次扩编，按共同限制第 2 条（既有能力重复宣传）拦"
+    },
+    {
+      "title": "Mastercard, Ant International test AI agent payments in APAC",
+      "url": "https://thepaypers.com",
+      "reason": "与 2026-11-22-banking-03（万事达与蚂蚁国际亚太智能体实交易）为同一事件，duplicate-of-2026-11-22-banking-03"
+    },
+    {
+      "title": "Silverflow launches modular in-person payments tech",
+      "url": "https://www.finextra.com/pressarticle/111761/silverflow-launches-modular-in-person-payments-tech",
+      "reason": "与 2026-11-19-banking-03（Silverflow 模块化线下受理）为同一产品线的再宣传，Terminal-to-Cloud 为年初已有技术，duplicate-of-2026-11-19-banking-03"
+    },
+    {
+      "title": "Akurateco external MPI（The Paypers 版本）",
+      "url": "https://thepaypers.com",
+      "reason": "同一事件，已用可达的 Merchant's Eye 一手稿写入 04，换信源不重复计"
+    },
+    {
+      "title": "Trump signs Common Cents bill",
+      "url": "https://www.paymentsdive.com/news/trump-signs-common-cents-bill/875442/",
+      "reason": "现金交易舍入规则、电子交易排除，标的物不落卡栈，范围门拦"
+    },
+    {
+      "title": "Fed President pitches FedNow",
+      "url": "https://www.paymentsdive.com/news/federal-reserve-president-faster-payments-fednow/875321/",
+      "reason": "即时支付基础设施表态，不是卡组织与清算规则变化，范围门拦"
+    },
+    {
+      "title": "World Bank Partners Citi and Circle to Explore Stablecoin Payments",
+      "url": "https://paymentsindustryintelligence.com/world-bank-partners-citi-and-circle/",
+      "reason": "稳定币支付探索，非卡凭证机制，范围门拦"
+    },
+    {
+      "title": "StraitsX and OCBC pilot cross-border stablecoin payments",
+      "url": "https://www.finextra.com/pressarticle/111758/straitsx-and-ocbc-pilot-cross-border-stablecoin-payments-into-business-bank-accounts",
+      "reason": "稳定币结算到银行账户，非卡栈，范围门拦"
+    },
+    {
+      "title": "M-DAQ Taps Circle to Bring Stablecoins Into Cross-Border Payments",
+      "url": "https://fintechnews.sg/142152/digitalassets/m-daq-circle/",
+      "reason": "稳定币，非卡凭证机制，范围门拦"
+    },
+    {
+      "title": "Triple-A supports Visa Direct stablecoin prefunding in Asia Pacific",
+      "url": "https://thepaypers.com",
+      "reason": "稳定币预融资，标的不在卡栈，范围门拦"
+    },
+    {
+      "title": "dtcpay 支持 Visa 稳定币资金流转",
+      "url": "https://tradingview.com",
+      "reason": "稳定币资金流转，非卡栈，范围门拦"
+    },
+    {
+      "title": "Visa 推出实验性 AI 代理钱包以 OUSD 付费",
+      "url": "https://tradingview.com",
+      "reason": "稳定币计价的代理钱包，非卡凭证机制，范围门拦"
+    },
+    {
+      "title": "Singapore and China Explore Cross-Border Fast Payment Link",
+      "url": "https://fintechnews.sg/142162/payments/china-singapore-fast-payment-linkage/",
+      "reason": "即时支付系统互联，非卡组织与清算规则，范围门拦；且为探索阶段无具体机制"
+    },
+    {
+      "title": "银联国际、大华银行、NETS 深化中新跨境支付合作",
+      "url": "https://www.mpaypass.com.cn",
+      "reason": "跨境快速支付互联，非卡栈，范围门拦"
+    },
+    {
+      "title": "中国银联携手申通地铁上线银联卡轨道交通计次票",
+      "url": "https://www.mpaypass.com.cn",
+      "reason": "交通票务产品，非发卡或收单机制变化，范围门拦"
+    },
+    {
+      "title": "银联国际与新加坡收单机构 Debia 推动智能体支付应用",
+      "url": "https://www.mpaypass.com.cn",
+      "reason": "智能体支付探索，无可核产品名与落地参数，动作门不达标"
+    },
+    {
+      "title": "WooshPay 发布 Agentic Payments 产品演示，2027 Q1 试点",
+      "url": "https://www.mpaypass.com.cn",
+      "reason": "产品演示与未来试点，无已上线能力，动作门不达标"
+    },
+    {
+      "title": "PayerMax and ShopeePay Expand Partnership Beyond Payments",
+      "url": "https://fintechnews.sg/142141/payments/payermax-shopeepay-partnership/",
+      "reason": "SFF 签署 MoU，探索营销与更多支付方式，无具体产品与落地时间，动作门不达标"
+    },
+    {
+      "title": "Samsung and ShopeePay Deepen Partnership",
+      "url": "https://news.samsung.com",
+      "reason": "一手原文取不到（404），且未见具体卡/QR受理机制变化，不可核即不收"
+    },
+    {
+      "title": "Mastercard Targets the Trust Gap in Open Finance",
+      "url": "https://www.pymnts.com/news/banking/2026/mastercard-targets-the-trust-gap-in-open-finance/",
+      "reason": "开放金融观点稿，无具体动作与可核物"
+    },
+    {
+      "title": "How digital dollars improve cross-border payment management",
+      "url": "https://www.paymentsdive.com/spons/how-digital-dollars-improve-cross-border-payment-management/874849/",
+      "reason": "赞助内容＋数字美元，非卡栈，范围门拦"
+    },
+    {
+      "title": "Travel brands and non-prime credit card partnerships",
+      "url": "https://www.paymentsdive.com/spons/travel-brands-arent-the-only-ones-that-benefit-from-non-prime-credit-card/875363/",
+      "reason": "赞助内容，非具体动作，动作门不达标"
+    },
+    {
+      "title": "Real-Time Payments Are Changing the Economics of Corporate Liquidity",
+      "url": "https://www.pymnts.com/real-time-payments/2026/real-time-payments-are-changing-economics-corporate-liquidity/",
+      "reason": "即时支付对企业流动性的观点稿，非卡栈"
+    },
+    {
+      "title": "Governors Urge Congress to Preserve State Authority in National AI Framework",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/governors-urge-congress-to-preserve-state-authority-in-national-ai-framework/",
+      "reason": "AI 监管表态，与凭证链路无关，范围门拦"
+    },
+    {
+      "title": "New York Judge Set to Hear Bid That Could Shut Down Kalshi Nationwide",
+      "url": "https://www.pymnts.com/legal/2026/new-york-judge-set-hear-bid-that-could-shut-down-kalshi-nationwide/",
+      "reason": "预测平台诉讼，非卡栈"
+    },
+    {
+      "title": "Hackers Use Fake Ads to Steal iPhone Users’ Crypto",
+      "url": "https://www.pymnts.com/cybersecurity/2026/hackers-use-fake-ads-to-steal-iphone-users-crypto/",
+      "reason": "加密资产诈骗，与凭证载体无关，范围门拦"
+    },
+    {
+      "title": "68% of Finance Leaders Say AI Gives Fraudsters the Upper Hand",
+      "url": "https://www.pymnts.com/cybersecurity/2026/68-percent-of-finance-leaders-say-ai-gives-fraudsters-the-upper-hand/",
+      "reason": "调查观点稿，无具体动作"
+    },
+    {
+      "title": "Small Businesses Face a Credit Divide That Widens With Size",
+      "url": "https://www.pymnts.com/smbs/2026/small-businesses-face-a-credit-divide-that-widens-with-size/",
+      "reason": "信贷市场观点稿，非凭证机制"
+    },
+    {
+      "title": "Croissant Uses Remy AI to Match Luxury Shoppers With New Brands",
+      "url": "https://www.pymnts.com/commerce/ecommerce/2026/croissant-uses-remy-ai-to-match-luxury-shoppers-with-new-brands/",
+      "reason": "零售推荐应用，非卡栈"
+    },
+    {
+      "title": "Wise Offers Up to S$40 Cashback on Overseas Card",
+      "url": "https://fintechnews.sg/142100/payments/wise-cashback-overseas-payments-singapore/",
+      "reason": "返现促销，非机制变化，动作门拦"
+    },
+    {
+      "title": "Faster Payment System to Go Offline for 10 Hours on 29 November",
+      "url": "https://fintechnews.hk/42264/payments/fps-downtime-hong-kong-29-november/",
+      "reason": "系统维护公告，非机制变化"
+    },
+    {
+      "title": "Hong Kong Bill Would Bring Four Virtual Asset Services Under SFC",
+      "url": "https://fintechnews.hk/42236/regtech/hong-kong-virtual-asset-bill-sfc-licensing/",
+      "reason": "虚拟资产监管，非卡栈，范围门拦"
+    },
+    {
+      "title": "Ping An Digital Bank Gets HK$500 Million Funding",
+      "url": "https://fintechnews.hk/42243/funding/ping-an-digital-bank-capital-injection-lufax/",
+      "reason": "银行注资，非凭证机制，范围门拦"
+    },
+    {
+      "title": "UOB to Establish Technology Innovation Centre in Guangzhou",
+      "url": "https://fintechnews.hk/42239/fintechchina/uob-guangzhou-technology-innovation-centre/",
+      "reason": "机构布局，非卡栈，范围门拦"
+    },
+    {
+      "title": "Argentina bancos impulsan alias global para pagos internacionales",
+      "url": "https://dplnews.com/argentina-transferencias-made-in-argentina-bancos-impulsan-alias-global-para-pagos-internacionales/",
+      "reason": "跨境转账别名，属账户与汇款，非卡栈，范围门拦"
+    },
+    {
+      "title": "Venezuela Cashea admite inconvenientes con clientes",
+      "url": "https://dplnews.com/venezuela-cashea-admite-inconvenientes-y-se-compromete-a-solucionar-problemas-con-clientes/",
+      "reason": "消费信贷平台客诉，非卡凭证机制"
+    },
+    {
+      "title": "Expensify rolls out AI-powered analytics feature",
+      "url": "https://www.finextra.com/pressarticle/111762/expensify-rolls-out-ai-powered-analytics-feature",
+      "reason": "费用分析软件功能，非发卡或收单机制，范围门拦"
+    },
+    {
+      "title": "State Street joins Equilend 1Source DLT platform",
+      "url": "https://www.finextra.com/pressarticle/111764/state-street-joins-equilend-1source-dlt-platform",
+      "reason": "证券借贷 DLT 平台，非卡栈，范围门拦"
+    },
+    {
+      "title": "ECB expands acceptance of DLT-based assets as collateral",
+      "url": "https://www.finextra.com/pressarticle/111765/ecb-expands-acceptance-of-dlt-based-assets-as-eligible-eurosystem-collateral",
+      "reason": "央行抵押品规则，非卡凭证，范围门拦"
+    },
+    {
+      "title": "IForex receives in-principle approval for UAE licence",
+      "url": "https://www.finextra.com/pressarticle/111759/iforex-receives-in-principle-approval-for-uae-licence",
+      "reason": "金融牌照，范围门明确不收"
+    },
+    {
+      "title": "TPG and Corpay to acquire BILL Holdings",
+      "url": "https://thepaypers.com",
+      "reason": "标的为 AP/AR 财务自动化软件，不在卡栈，按 11-21 判据拦"
+    },
+    {
+      "title": "Mastercard 老板谈如何应对AI和加密威胁",
+      "url": "https://www.idnfinancials.com",
+      "reason": "高管访谈观点，无具体动作"
+    },
+    {
+      "title": "Visa报告：AI赋能的欺诈和第三方攻击正在全球蔓延",
+      "url": "https://www.mpaypass.com.cn",
+      "reason": "报告观点稿，无具体产品与机制变化"
+    },
+    {
+      "title": "华夏银行南宁分行收单业务外包项目成交公示",
+      "url": "https://www.mpaypass.com.cn",
+      "reason": "国内收单外包采购公示，无金额与承建方细节，动作门不达标"
+    },
+    {
+      "title": "湖南银行联合收单业务合作机构项目中标候选人公示",
+      "url": "https://www.mpaypass.com.cn",
+      "reason": "国内收单外包采购公示，无金额与具体机制，动作门不达标"
+    },
+    {
+      "title": "无锡农商银行2027-2028年度收单业务外包服务招标",
+      "url": "https://www.mpaypass.com.cn",
+      "reason": "国内收单外包招标，无中标与金额，动作门不达标"
+    },
+    {
+      "title": "长沙农商银行收单行业应用与场景化服务交流公告",
+      "url": "https://www.mpaypass.com.cn",
+      "reason": "交流公告，非授标或部署，动作门不达标"
+    },
+    {
+      "title": "CBI, Bancomat and Nexi to build Italian digital euro infrastructure",
+      "url": "https://www.finextra.com/newsarticle/48792/cbi-bancomat-and-nexi--to-build-italian-digital-euro-infrastructure",
+      "reason": "数字欧元基础设施，非卡栈；且事件在 11-20 已超窗，与 11-23 池判据一致"
+    },
+    {
+      "title": "Shoprite invests R3.6bn in tech company DNI",
+      "url": "https://www.itweb.co.za/article/shoprite-invests-r36bn-in-tech-company-dni/j5alrvQAXN3vpYQk",
+      "reason": "零售企业投资，标的不在卡栈"
+    },
+    {
+      "title": "Reunert operating profit tumbles 44%",
+      "url": "https://www.itweb.co.za/article/reunert-operating-profit-tumbles-44-in-difficult-year/mQwkoM6YrN973r9A",
+      "reason": "财报，范围门明确不收"
+    },
+    {
+      "title": "Bank of Ghana policy rate cut brings single-digit lending rates closer",
+      "url": "https://www.ghanabusinessnews.com/2026/11/23/bank-of-ghana-policy-rate-cut-brings-single-digit-lending-rates-closer-economist/",
+      "reason": "宏观利率评论，非卡栈"
+    },
+    {
+      "title": "Launch Africa Leads $500,000 Investment in AI Commerce Startup Khaime",
+      "url": "https://techmoran.com/2026/11/23/launch-africa-leads-500000-investment-in-ai-commerce-startup-khaime/",
+      "reason": "AI 电商初创融资，标的不在卡栈"
+    },
+    {
+      "title": "Sage Taps Mastercard and Adyen to Launch Integrated Banking for SMEs",
+      "url": "https://www.finextra.com",
+      "reason": "事件日 11-21 20:13 GMT 早于窗口下界，超 72 小时；且企业账户非卡栈"
+    }
+  ],
+  "stats": {
+    "candidates": 96,
+    "written": 5,
+    "skippedByDedup": 9
+  },
+  "finishedAt": "2026-11-23T20:16:21.104Z"
+}

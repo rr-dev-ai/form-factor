@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-24-banking-04",
+  "slug": "akurateco-external-mpi-3ds-reuse",
+  "industry": "banking",
+  "region": "global",
+  "regions": [],
+  "tags": [
+    "payment-gateway",
+    "fraud"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-24T04:17:20+08:00",
+  "ingestedAt": "2026-11-24T02:43:34+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Merchant's Eye",
+      "url": "https://www.merchantseye.com/news/akurateco-adds-external-mpi-to-reduce-repeat-3ds-challenges-on-payment-retries-478a5c39",
+      "lang": "en",
+      "publishedAt": "2026-11-23T00:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "Akurateco上线外部MPI，3DS结果可跨收单复用",
+    "en": "Akurateco launches external MPI to reuse 3DS results across acquirers",
+    "es": "Akurateco lanza MPI externo para reutilizar resultados 3DS entre adquirentes"
+  },
+  "summary": {
+    "zh": "支付编排平台Akurateco于11月23日推出外部MPI（商户插件），让支付服务商和商户把一次3-D Secure认证结果沿用到后续其他收单机构的重试中，不再重复触发验证挑战。方案保留认证值、电子商务指示器（ECI）与交易标识。Akurateco称平台已有700多个集成，符合PCI DSS v4.0.1一级标准。",
+    "en": "Payment orchestration platform Akurateco launched an external merchant plug-in on 23 November that lets PSPs and merchants carry a single 3-D Secure authentication result into retries through other acquirers, avoiding repeated customer challenges. The setup preserves the authentication value, electronic commerce indicator (ECI) and transaction identifiers. Akurateco says the platform has over 700 integrations and is PCI DSS v4.0.1 Level 1 compliant.",
+    "es": "La plataforma de orquestación de pagos Akurateco lanzó el 23 de noviembre un complemento externo de comercio (MPI) que permite a PSP y comercios reutilizar una autenticación 3-D Secure en reintentos con otros adquirentes, evitando desafíos repetidos al cliente. La solución conserva el valor de autenticación, el indicador de comercio electrónico (ECI) y los identificadores de transacción. Akurateco afirma tener más de 700 integraciones y cumplir PCI DSS v4.0.1 nivel 1."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Akurateco于11月23日为其支付编排平台推出外部MPI（商户插件）。商户和支付服务商只需完成一次3-D Secure认证，就能把认证结果用于后续由其他收单机构处理的同一笔交易重试，不必让持卡人再次通过验证挑战。",
+        "en": "Akurateco introduced an external merchant plug-in for its orchestration platform on 23 November. Merchants and payment service providers complete 3-D Secure authentication once and carry the result into later retries of the same payment handled by another acquirer, without asking the cardholder to pass a challenge again.",
+        "es": "Akurateco presentó el 23 de noviembre un MPI externo para su plataforma de orquestación. Comercios y proveedores de servicios de pago completan la autenticación 3-D Secure una sola vez y reutilizan el resultado en reintentos posteriores del mismo pago gestionados por otro adquirente, sin pedir al titular que supere de nuevo el desafío."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "外部MPI在交易提交给收单机构之前采集认证值、电子商务指示器（ECI）与交易标识。首笔授权被拒且符合重试条件时，Akurateco的编排层带着这些认证数据把请求转给备用收单机构，从而跳过重复的持卡人验证。",
+        "en": "The external MPI captures the authentication value, electronic commerce indicator (ECI) and transaction identifiers before a payment is committed to an acquirer. When the first authorization is declined and is eligible for retry, Akurateco's orchestration layer forwards the request with that authentication data to a fallback acquirer, skipping a second cardholder verification.",
+        "es": "El MPI externo captura el valor de autenticación, el indicador de comercio electrónico (ECI) y los identificadores de transacción antes de enviar el pago a un adquirente. Cuando la primera autorización es rechazada y admite reintento, la capa de orquestación de Akurateco envía la solicitud con esos datos al adquirente alternativo, omitiendo una segunda verificación del titular."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "复用能否成立取决于接收方收单机构是否接受外部生成的3DS数据，发卡行仍保留是否发起挑战的决定权。Akurateco称平台已有700多个集成，符合PCI DSS v4.0.1一级标准并持有ISO/IEC 27001:2022认证，覆盖欧洲、亚洲、拉美与中东市场。",
+        "en": "Whether reuse works depends on the receiving acquirer accepting externally generated 3DS data; the issuer still decides whether to issue a challenge. Akurateco says the platform has over 700 integrations, is PCI DSS v4.0.1 Level 1 compliant and holds ISO/IEC 27001:2022 certification, serving markets in Europe, Asia, Latin America and the Middle East.",
+        "es": "Que la reutilización funcione depende de que el adquirente receptor acepte datos 3DS generados externamente; el emisor conserva la decisión de emitir o no el desafío. Akurateco afirma tener más de 700 integraciones, cumplir PCI DSS v4.0.1 nivel 1 y contar con la certificación ISO/IEC 27001:2022, con presencia en Europa, Asia, América Latina y Medio Oriente."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对做多收单路由的商户和支付服务商，外部MPI直接解决级联重试中的掉单问题：过去一笔交易转到备用收单机构时，持卡人常被要求再验证一次，这一步是结账流失的高发点。把认证结果留在编排层复用，等于把\"验证\"与\"收单通道\"解耦，重试不再以牺牲体验为代价。对收单机构，这也划出一条兼容线——只有能接受外部3DS数据的一方才进得了备用路由，不能接受的机构会在编排中被跳过。对发卡行，决定权没有被绕过，挑战是否发起仍由发卡行判断，这条方案改变的是数据的携带方式，不是风控归属。",
+    "en": "For merchants and PSPs routing across multiple acquirers, the external MPI targets a concrete source of drop-off in cascading retries: when a payment was sent to a backup acquirer, the cardholder was often asked to authenticate again, a common point of checkout abandonment. Keeping the authentication result at the orchestration layer decouples verification from the acquiring route, so a retry no longer costs conversion. For acquirers it draws a compatibility line — only those accepting externally generated 3DS data can enter the backup route, and those that cannot get skipped in the cascade. For issuers, authority is not bypassed: they still decide whether to challenge. What changes is how the data travels, not who owns the risk decision.",
+    "es": "Para comercios y PSP que enrutan pagos entre varios adquirentes, el MPI externo ataca una causa concreta de abandono en los reintentos en cascada: cuando un pago se enviaba a un adquirente alternativo, a menudo se pedía al titular autenticarse de nuevo, un punto frecuente de pérdida en el pago. Mantener el resultado de autenticación en la capa de orquestación separa la verificación de la ruta de adquisición, de modo que el reintento ya no cueste conversión. Para los adquirentes traza una línea de compatibilidad: solo quienes aceptan datos 3DS generados externamente entran en la ruta alternativa, y los que no quedan omitidos. Para los emisores, la autoridad no se elude: siguen decidiendo si desafían. Lo que cambia es el transporte de datos, no la titularidad de la decisión de riesgo."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

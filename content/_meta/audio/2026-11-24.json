@@ -1,0 +1,241 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-23T20:22:55.703Z",
+  "renderer": 1,
+  "items": {
+    "akurateco-external-mpi-3ds-reuse": {
+      "zh": {
+        "file": "audio/zh/akurateco-external-mpi-3ds-reuse.5ef5b2dd.mp3",
+        "hash": "5ef5b2dd",
+        "bytes": 1697229,
+        "duration": 141.35,
+        "voice": "zf_003",
+        "speed": 1.024
+      },
+      "en": {
+        "file": "audio/en/akurateco-external-mpi-3ds-reuse.a8269a81.mp3",
+        "hash": "a8269a81",
+        "bytes": 1652877,
+        "duration": 137.655,
+        "voice": "af_heart",
+        "speed": 1.066
+      },
+      "es": {
+        "file": "audio/es/akurateco-external-mpi-3ds-reuse.6d37d451.mp3",
+        "hash": "6d37d451",
+        "bytes": 1516941,
+        "duration": 126.335,
+        "voice": "ef_dora",
+        "speed": 1.093
+      }
+    },
+    "eastcompeace-mastercard-ecos-certification": {
+      "zh": {
+        "file": "audio/zh/eastcompeace-mastercard-ecos-certification.222067dd.mp3",
+        "hash": "222067dd",
+        "bytes": 1495341,
+        "duration": 124.525,
+        "voice": "zm_015",
+        "speed": 1.094
+      },
+      "en": {
+        "file": "audio/en/eastcompeace-mastercard-ecos-certification.8e69b27b.mp3",
+        "hash": "8e69b27b",
+        "bytes": 1506861,
+        "duration": 125.475,
+        "voice": "am_fenrir",
+        "speed": 1.118
+      },
+      "es": {
+        "file": "audio/es/eastcompeace-mastercard-ecos-certification.8a68da2a.mp3",
+        "hash": "8a68da2a",
+        "bytes": 1496781,
+        "duration": 124.655,
+        "voice": "ef_dora",
+        "speed": 1.093
+      }
+    },
+    "egypt-central-bank-android-card-tokenization": {
+      "zh": {
+        "file": "audio/zh/egypt-central-bank-android-card-tokenization.cb39895b.mp3",
+        "hash": "cb39895b",
+        "bytes": 1453293,
+        "duration": 121.025,
+        "voice": "zm_010",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/egypt-central-bank-android-card-tokenization.f24281e1.mp3",
+        "hash": "f24281e1",
+        "bytes": 1674765,
+        "duration": 139.485,
+        "voice": "af_heart",
+        "speed": 1.066
+      },
+      "es": {
+        "file": "audio/es/egypt-central-bank-android-card-tokenization.527f5422.mp3",
+        "hash": "527f5422",
+        "bytes": 1613421,
+        "duration": 134.36,
+        "voice": "ef_dora",
+        "speed": 1.093
+      }
+    },
+    "henderson-edgepos-digital-proof-of-age-checkout": {
+      "zh": {
+        "file": "audio/zh/henderson-edgepos-digital-proof-of-age-checkout.ef612681.mp3",
+        "hash": "ef612681",
+        "bytes": 1719405,
+        "duration": 143.2,
+        "voice": "zm_011",
+        "speed": 1.157
+      },
+      "en": {
+        "file": "audio/en/henderson-edgepos-digital-proof-of-age-checkout.eaf81f57.mp3",
+        "hash": "eaf81f57",
+        "bytes": 1870317,
+        "duration": 155.762,
+        "voice": "af_heart",
+        "speed": 1.066
+      },
+      "es": {
+        "file": "audio/es/henderson-edgepos-digital-proof-of-age-checkout.b9376d8e.mp3",
+        "hash": "b9376d8e",
+        "bytes": 1870029,
+        "duration": 155.76,
+        "voice": "em_alex",
+        "speed": 1.072
+      }
+    },
+    "huawei-osta-o1-pro-esim-dual-active": {
+      "zh": {
+        "file": "audio/zh/huawei-osta-o1-pro-esim-dual-active.e05e905f.mp3",
+        "hash": "e05e905f",
+        "bytes": 1820205,
+        "duration": 151.6,
+        "voice": "zf_005",
+        "speed": 1.048
+      },
+      "en": {
+        "file": "audio/en/huawei-osta-o1-pro-esim-dual-active.04ecddb6.mp3",
+        "hash": "04ecddb6",
+        "bytes": 1787661,
+        "duration": 148.886,
+        "voice": "am_fenrir",
+        "speed": 1.118
+      },
+      "es": {
+        "file": "audio/es/huawei-osta-o1-pro-esim-dual-active.15ac2d5d.mp3",
+        "hash": "15ac2d5d",
+        "bytes": 1700109,
+        "duration": 141.6,
+        "voice": "em_alex",
+        "speed": 1.072
+      }
+    },
+    "italy-it-wallet-driving-licence-identity-document": {
+      "zh": {
+        "file": "audio/zh/italy-it-wallet-driving-licence-identity-document.aa47e97c.mp3",
+        "hash": "aa47e97c",
+        "bytes": 2358189,
+        "duration": 196.425,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/italy-it-wallet-driving-licence-identity-document.d2b70da4.mp3",
+        "hash": "d2b70da4",
+        "bytes": 2180781,
+        "duration": 181.655,
+        "voice": "am_fenrir",
+        "speed": 1.118
+      },
+      "es": {
+        "file": "audio/es/italy-it-wallet-driving-licence-identity-document.b7fc2e57.mp3",
+        "hash": "b7fc2e57",
+        "bytes": 2101869,
+        "duration": 175.08,
+        "voice": "ef_dora",
+        "speed": 1.093
+      }
+    },
+    "korea-resident-id-verification-kakaopay-toss-photo": {
+      "zh": {
+        "file": "audio/zh/korea-resident-id-verification-kakaopay-toss-photo.5318b435.mp3",
+        "hash": "5318b435",
+        "bytes": 1723149,
+        "duration": 143.5,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/korea-resident-id-verification-kakaopay-toss-photo.f850e518.mp3",
+        "hash": "f850e518",
+        "bytes": 2045709,
+        "duration": 170.395,
+        "voice": "am_michael",
+        "speed": 1.13
+      },
+      "es": {
+        "file": "audio/es/korea-resident-id-verification-kakaopay-toss-photo.da80f5b0.mp3",
+        "hash": "da80f5b0",
+        "bytes": 1802349,
+        "duration": 150.1,
+        "voice": "em_alex",
+        "speed": 1.072
+      }
+    },
+    "trust-payments-okto-latam-local-card-processing": {
+      "zh": {
+        "file": "audio/zh/trust-payments-okto-latam-local-card-processing.d7215ed3.mp3",
+        "hash": "d7215ed3",
+        "bytes": 1411821,
+        "duration": 117.575,
+        "voice": "zf_001",
+        "speed": 1.16
+      },
+      "en": {
+        "file": "audio/en/trust-payments-okto-latam-local-card-processing.8d582b57.mp3",
+        "hash": "8d582b57",
+        "bytes": 1772397,
+        "duration": 147.622,
+        "voice": "am_michael",
+        "speed": 1.13
+      },
+      "es": {
+        "file": "audio/es/trust-payments-okto-latam-local-card-processing.69f01133.mp3",
+        "hash": "69f01133",
+        "bytes": 1582317,
+        "duration": 131.78,
+        "voice": "ef_dora",
+        "speed": 1.093
+      }
+    },
+    "txn-issuer-processor-uk-europe-launch": {
+      "zh": {
+        "file": "audio/zh/txn-issuer-processor-uk-europe-launch.44bf9220.mp3",
+        "hash": "44bf9220",
+        "bytes": 1475181,
+        "duration": 122.85,
+        "voice": "zf_001",
+        "speed": 1.16
+      },
+      "en": {
+        "file": "audio/en/txn-issuer-processor-uk-europe-launch.406b8eb2.mp3",
+        "hash": "406b8eb2",
+        "bytes": 1712781,
+        "duration": 142.643,
+        "voice": "am_michael",
+        "speed": 1.13
+      },
+      "es": {
+        "file": "audio/es/txn-issuer-processor-uk-europe-launch.61143d96.mp3",
+        "hash": "61143d96",
+        "bytes": 1598445,
+        "duration": 133.105,
+        "voice": "em_alex",
+        "speed": 1.072
+      }
+    }
+  }
+}

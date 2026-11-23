@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-24-identity-03",
+  "slug": "henderson-edgepos-digital-proof-of-age-checkout",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "verification",
+    "mobile-id"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-24T04:17:20+08:00",
+  "ingestedAt": "2026-11-24T03:18:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/henderson-technology-adds-digital-proof-of-age-for-alcohol-sales-to-its-edgepos-till-system/",
+      "lang": "en",
+      "publishedAt": "2026-11-23T00:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "英国 EDGEPoS 收银系统接入数字年龄凭证，12 月试点",
+    "en": "Henderson adds digital proof-of-age checks to EDGEPoS tills",
+    "es": "Henderson integra la verificación digital de edad en las cajas EDGEPoS"
+  },
+  "summary": {
+    "zh": "英国零售技术商 Henderson Technology 把数字年龄证明核验集成进 EDGEPoS 收银软件，12 月 1 日起在便利店试点。公路服务运营商 Roadchef 的 18 个网点和加油站零售商 Gill Marsh Forecourts 的 5 个网点首批接入，顾客结账时出示受支持的数字凭证即可完成年龄核验。",
+    "en": "UK retail technology supplier Henderson Technology is integrating digital proof-of-age checks into its EDGEPoS till software, with a soft launch on December 1. Motorway services operator Roadchef and forecourt retailer Gill Marsh Forecourts will pilot it at 18 and five sites respectively. Customers present a supported digital credential at checkout, where EDGEPoS verifies it as part of the sale.",
+    "es": "El proveedor británico de tecnología minorista Henderson Technology está integrando la verificación digital de la edad en su software de cajas EDGEPoS, con un lanzamiento inicial el 1 de diciembre. El operador de áreas de servicio Roadchef y el minorista de gasolineras Gill Marsh Forecourts lo probarán en 18 y cinco establecimientos. Los clientes muestran una credencial digital admitida en la caja, donde EDGEPoS la verifica durante la venta."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "把核验放进结账流程",
+        "en": "Verification inside the checkout",
+        "es": "La verificación dentro del cobro"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "英国零售技术商 Henderson Technology 正在把数字年龄证明核验做进 EDGEPoS 收银软件。12 月 1 日起，参加试点的便利店和加油站可以在结账时接受顾客出示的受支持数字凭证，由 EDGEPoS 在销售流程中完成核验。首批试点包括公路服务运营商 Roadchef 的 18 个网点和加油站零售商 Gill Marsh Forecourts 的 5 个网点；系统面向英格兰和威尔士的持证零售商开放。",
+        "en": "UK retail technology supplier Henderson Technology is building digital proof-of-age checks into its EDGEPoS till software. From December 1, participating convenience stores and forecourts can accept a supported digital credential at checkout, with EDGEPoS verifying it as part of the sale. The first pilots are at 18 sites run by motorway services operator Roadchef and five run by forecourt retailer Gill Marsh Forecourts; the system is available to licensed retailers in England and Wales.",
+        "es": "El proveedor británico Henderson Technology está incorporando la verificación digital de la edad a su software de cajas EDGEPoS. Desde el 1 de diciembre, tiendas de conveniencia y gasolineras participantes podrán aceptar una credencial digital admitida en la caja, que EDGEPoS verificará durante la venta. Las primeras pruebas se hacen en 18 establecimientos del operador de autopistas Roadchef y cinco del minorista Gill Marsh Forecourts; el sistema está disponible para minoristas con licencia en Inglaterra y Gales."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "规则变化与标准合作",
+        "en": "The rule change and the standards partner",
+        "es": "El cambio de norma y el socio de estándares"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这一步建立在此前的规则调整之上：2026 年 9 月，英格兰和威尔士的许可规则允许零售商在售酒时接受经过认证的数字年龄证明，与实体证件并列。Henderson 自称是英国便利店行业首家把这能力带进收银系统的零售技术公司。年龄证明标准机构 PASS 与该公司合作，其负责人 Mel Brown 表示，把核验嵌进结账是让数字年龄证明进入日常购物的重要一步。试点门店会通过屏幕、海报和收银台说明接受哪些形式的数字年龄证明。",
+        "en": "The move follows a rule change in September 2026 that let retailers in England and Wales accept certified digital proof of age alongside physical ID when selling alcohol. Henderson says it is the first retail technology company to bring the capability to the UK convenience sector. The Proof of Age Standards Scheme (PASS) is working with the company; its chief executive, Mel Brown, said integrating checks into the checkout is an important step toward making digital proof of age part of everyday shopping. Pilot stores will explain which forms of digital proof of age are accepted on screens, posters and at the tills.",
+        "es": "La medida sigue a un cambio normativo de septiembre de 2026 que permitió a los minoristas de Inglaterra y Gales aceptar una prueba digital certificada de la edad junto al documento físico al vender alcohol. Henderson afirma ser la primera empresa de tecnología minorista en llevar esta capacidad al sector de tiendas de conveniencia del Reino Unido. El esquema de estándares de prueba de edad (PASS) trabaja con la empresa; su director, Mel Brown, señaló que integrar la verificación en la caja es un paso importante para que la prueba digital de la edad forme parte de la compra cotidiana. Las tiendas piloto explicarán en pantallas, carteles y cajas qué formas se aceptan."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "自助结账的适用场景",
+        "en": "Where self-checkout matters",
+        "es": "Dónde importa el autoservicio"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "把核验放进收银软件，针对的是店员核对证件耗时的问题。在自助结账机上，系统希望减少叫店员过来确认顾客年龄的次数。新西兰也在推进类似集成：Verifone 正把 Kiwi Access 的数字年龄核验接进其支付终端。",
+        "en": "Putting verification in the till software targets the time staff spend checking identification. At self-checkouts, the system is expected to reduce how often a staff member must step in to confirm a customer's age. A similar integration is under way in New Zealand, where Verifone is bringing Kiwi Access digital age checks to its payment terminals.",
+        "es": "Integrar la verificación en el software de cajas apunta al tiempo que el personal dedica a revisar documentos. En las cajas de autoservicio, el sistema pretende reducir las veces que hay que llamar a un empleado para confirmar la edad. Se avanza en una integración similar en Nueva Zelanda, donde Verifone lleva la verificación digital de edad Kiwi Access a sus terminales de pago."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "数字年龄证明从手机里的凭证变成收银流程的一部分，核验发生的地点从店员目视检查移到收银软件，这要求年龄凭证的签发方把可验证数据结构对接到零售终端。对收银与收单技术商而言，年龄核验成为 POS 软件的一项功能，会改变这类终端的采购规格。试点选在公路服务区和加油站，这些场景对自助结账和高峰通过速度敏感，核验能否在数秒内返回，将决定数字凭证能否真正替代实体证件。Henderson 与 PASS 的合作也说明，标准机构需要为零售场景定义可接受的凭证清单，受理端才敢放行。",
+    "en": "A digital proof of age moving from a phone into the checkout shifts verification from a staff member's visual check into till software, which means issuers must expose verifiable data structures that retail terminals can consume. For till and acquiring vendors, age checks become a POS feature and that changes procurement specifications for these terminals. The pilots sit in motorway service areas and forecourts, where self-checkout and peak throughput matter; whether verification returns in a few seconds will decide if a digital credential can truly replace a physical card. The tie-up with PASS also shows that a standards body must define which credentials are acceptable in retail before acceptance sides will rely on them.",
+    "es": "Que una prueba digital de la edad pase del teléfono al proceso de cobro desplaza la verificación de la revisión visual del personal al software de caja, lo que obliga a los emisores a exponer estructuras de datos verificables que el terminal minorista pueda consumir. Para los proveedores de cajas y adquirencia, la comprobación de edad se convierte en una función del POS y cambia las especificaciones de compra de estos terminales. Las pruebas se hacen en áreas de servicio y gasolineras, donde importan el autoservicio y la velocidad en hora punta: si la verificación responde en segundos decidirá si la credencial digital sustituye de verdad a la tarjeta física. El acuerdo con PASS muestra además que un organismo de estándares debe definir qué credenciales se aceptan en el comercio antes de que el lado receptor se atreva a confiar en ellas."
+  },
+  "confidence": 0.7,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

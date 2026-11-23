@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-24-banking-05",
+  "slug": "trust-payments-okto-latam-local-card-processing",
+  "industry": "banking",
+  "region": "latam",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "payment-gateway"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-24T04:17:20+08:00",
+  "ingestedAt": "2026-11-24T02:43:34+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Finextra",
+      "url": "https://www.finextra.com/pressarticle/111757/trust-payments-partners-okto-payments-in-latam",
+      "lang": "en",
+      "publishedAt": "2026-11-23T13:05:00Z"
+    }
+  ],
+  "title": {
+    "zh": "Trust Payments接入OKTO，覆盖拉美六国本地卡处理",
+    "en": "Trust Payments adds OKTO for local card processing in six Latin American markets",
+    "es": "Trust Payments integra a OKTO para procesamiento local en seis mercados de Latinoamérica"
+  },
+  "summary": {
+    "zh": "Trust Payments于11月23日宣布与OKTO PAYMENTS合作，其商户可接入后者在巴西、墨西哥、哥伦比亚、智利、秘鲁和阿根廷六个市场的本地支付轨道与本地卡处理。OKTO在各市场持牌运营，目前为40多家商户处理即时支付，年化处理规模超过170亿欧元。",
+    "en": "Trust Payments announced on 23 November a partnership with OKTO PAYMENTS that gives its merchants access to OKTO's domestic payment rails and local card processing in Brazil, Mexico, Colombia, Chile, Peru and Argentina. OKTO is licensed in each market and currently processes instant payments for more than 40 merchants at an annual run rate above EUR 17 billion.",
+    "es": "Trust Payments anunció el 23 de noviembre una alianza con OKTO PAYMENTS que da a sus comercios acceso a los rieles de pago locales y al procesamiento local de tarjetas de OKTO en Brasil, México, Colombia, Chile, Perú y Argentina. OKTO opera con licencia en cada mercado y actualmente procesa pagos instantáneos para más de 40 comercios, con un ritmo anual superior a 17.000 millones de euros."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Trust Payments于11月23日宣布与OKTO PAYMENTS达成合作。根据协议，Trust Payments的商户可以接入OKTO在巴西、墨西哥、哥伦比亚、智利、秘鲁和阿根廷六国的本地支付方式与本地卡处理能力。",
+        "en": "Trust Payments announced a partnership with OKTO PAYMENTS on 23 November. Under the agreement, Trust Payments merchants gain access to OKTO's domestic payment methods and local card processing in Brazil, Mexico, Colombia, Chile, Peru and Argentina.",
+        "es": "Trust Payments anunció el 23 de noviembre una alianza con OKTO PAYMENTS. Según el acuerdo, los comercios de Trust Payments acceden a los métodos de pago locales y al procesamiento local de tarjetas de OKTO en Brasil, México, Colombia, Chile, Perú y Argentina."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "OKTO在这六个市场各自持有本地牌照并受当地监管，目前为拉美地区40多家商户处理即时支付，年化处理规模超过170亿欧元。其基础设施同时覆盖即时收付款、资金与流动性管理以及结算。",
+        "en": "OKTO holds a local licence and is regulated in each of the six markets. It currently processes instant payments for more than 40 merchants in the region at an annual run rate above EUR 17 billion. Its infrastructure also covers instant pay-ins and pay-outs, treasury and liquidity management, and settlement.",
+        "es": "OKTO cuenta con licencia local y está regulada en cada uno de los seis mercados. Actualmente procesa pagos instantáneos para más de 40 comercios de la región, con un volumen anualizado superior a 17.000 millones de euros. Su infraestructura cubre además cobros y pagos instantáneos, gestión de tesorería y liquidez, y liquidación."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "对跨多个拉美市场经营的商户，这次接入把本地轨道、资金和结算汇到一个视图，不必再按市场分别对接和对账。OKTO方面称，拉美由多套监管与支付习惯不同的市场组成，本地持牌能力是进入的前提；Trust Payments表示合作让其商户用一个关系覆盖六国本地受理。",
+        "en": "For merchants operating across several Latin American markets, the integration brings local rails, treasury and settlement into one view rather than separate connections and reconciliation per country. OKTO says Latin America is made up of distinct regulatory regimes and payment habits, and local licensing is the price of entry. Trust Payments says the deal gives its merchants local acceptance in six countries through a single relationship.",
+        "es": "Para comercios que operan en varios mercados latinoamericanos, la integración reúne rieles locales, tesorería y liquidación en una sola vista, en lugar de conexiones y conciliaciones separadas por país. OKTO sostiene que Latinoamérica está formada por regímenes regulatorios y hábitos de pago distintos, y que la licencia local es requisito de entrada. Trust Payments afirma que el acuerdo da a sus comercios aceptación local en seis países mediante una sola relación."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对已经在拉美经营或计划进入的商户，这条合作把六国本地受理从\"逐国找服务商\"变成一次接入，降低的是合规和对接的重复成本；OKTO在各地持牌，是这条路径能成立的前提。对Trust Payments，这是把受理版图从英国和欧洲扩到拉美的一步，切入点不是钱包或卡品牌，而是收单网关背后的本地轨道。对OKTO，合作带来的是Trust Payments的商户资源，其现有40多家商户与170亿欧元年化规模说明基础设施已在运转。需要注意的是，OKTO的主线是即时支付，卡处理只是其中一项，公告未列出支持的卡组织或具体卡产品，这条对卡栈的影响仍要看后续落地。",
+    "en": "For merchants already operating in Latin America or planning to enter, the deal turns local acceptance in six countries from a country-by-country vendor search into a single integration, cutting repeated compliance and connection costs; OKTO's licences in each market are what make that path viable. For Trust Payments it extends acceptance coverage beyond the UK and Europe into Latin America, and the entry point is not a wallet or a card brand but the local rails behind a gateway. For OKTO, the partnership brings Trust Payments' merchant base, and its existing 40-plus merchants and EUR 17 billion run rate show the infrastructure is already live. Note that OKTO's main line is instant payments and card processing is only one part of the offering; the announcement names no card scheme or specific card product, so the impact on the card stack depends on what actually gets rolled out.",
+    "es": "Para comercios que ya operan en Latinoamérica o planean entrar, el acuerdo convierte la aceptación local en seis países de una búsqueda de proveedores país por país en una sola integración, reduciendo costos repetidos de cumplimiento y conexión; las licencias locales de OKTO son lo que hace viable ese camino. Para Trust Payments amplía la cobertura de aceptación más allá del Reino Unido y Europa hacia Latinoamérica, y el punto de entrada no es una billetera ni una marca de tarjeta, sino los rieles locales detrás de una pasarela. Para OKTO, la alianza aporta la base de comercios de Trust Payments, y sus más de 40 comercios y 17.000 millones de euros anualizados muestran que la infraestructura ya opera. Conviene notar que la línea principal de OKTO son los pagos instantáneos y el procesamiento de tarjetas es solo una parte; el anuncio no nombra redes ni productos de tarjeta concretos, así que el impacto sobre la pila de pagos dependerá de lo que se implemente."
+  },
+  "confidence": 0.5,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

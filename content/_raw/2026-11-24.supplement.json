@@ -1,0 +1,53 @@
+{
+  "fetchedAt": "2026-11-24T01:54:28+08:00",
+  "fetchedFor": "2026-11-24",
+  "gap": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"],
+  "cellGap": [],
+  "industryGap": ["banking", "telecom", "identity"],
+  "items": [
+    {
+      "title": "埃及首家：Banque Misr 上线 BM Pay，Android 手机非接支付",
+      "url": "https://www.banquemisr.com/en/ABOUT-US/News/Banque-Misr-Launches-BM-Pay",
+      "publishedAt": "2026-11-23T11:21:00+02:00",
+      "industry": "banking",
+      "region": "mena",
+      "actionType": "产品化节点",
+      "gateNote": "银行一手稿，首发埃及但无发卡量、商户数与卡组织；只有令牌化＋指纹/人脸＋非接 POS 的机制描述，终审若按无规模的产品宣传收紧会刷掉。页面未印时区，+02:00 按开罗当地时间记。",
+      "discoveredBy": "R2 \"November 23 2026\" softPOS certification EMVCo contactless acceptance terminal launch bank",
+      "note": "落在支付受理与凭证载体环节：BM Pay 把银行卡号换成设备内令牌，持卡人在支持非接的 POS 上用 Android 手机完成交易。机制变化是受理端不再读实体卡，放行改由指纹或人脸完成，且在 BM Online App 内经 OTP 绑卡、可随时解绑。原文未说支持的卡组织、发卡量、商户数，也未给与 Apple/Google Pay 的关系，写稿不要外推成通用钱包。"
+    },
+    {
+      "title": "韩国居民登记证真伪核验接入 Kakao Pay 与 Toss，新增证件照片比对",
+      "url": "https://en.nocutnews.co.kr/news/6610599",
+      "publishedAt": "2026-11-22T12:00:00+09:00",
+      "industry": "identity",
+      "region": "apac",
+      "actionType": "联合部署",
+      "gateNote": "政府＋两家支付平台＋清算院，原文称 11-23 上线、Naver Pay 12 月接入，受理侧明确；但页面只印 '2026.11.22 12:00 PM' 无时区，且 11-18 Asiae 写 11-24 上线，日期有一天的口径冲突，终审可能据此收紧。",
+      "discoveredBy": "R6 \"November 23, 2026\" state mobile ID launch wallet driver license TSA acceptance",
+      "note": "落在身份凭证的受理核验环节。韩国行政安全部把政府居民登记证真伪服务接进 Kakao Pay、Toss，非面对面核验从只比对姓名、居民登记号与发证日，升级为同时比对证件照片数据，用以识别伪造与变造证；两家平台去年合计约 1750 万次核验。原文未说照片比对算法、误拒率，也未给改造成本与覆盖商户清单；Naver Pay 仅计划 12 月接入，不要写成已上线。"
+    },
+    {
+      "title": "印尼 PANRB 11 月 23–27 日办 VC 训练营，试公务员证与残疾证的可验证凭证",
+      "url": "https://govinsider.asia/intl-en/article/indonesia-tests-verifiable-credentials-in-bootcamp-to-cut-paperwork-for-citizens-and-civil-servants",
+      "publishedAt": "2026-11-22T00:00:00+07:00",
+      "industry": "identity",
+      "region": "apac",
+      "actionType": "无",
+      "gateNote": "监管沙盒内的五日训练营，约 12 家机构参与，产出是信任框架、数字钱包与使用设计草案，无已签发凭证、无承建方与金额，七类动作都不贴；终审若按「研发表态」收紧会刷掉。原文只给日期未给时刻，+07:00 为雅加达时区占位。",
+      "discoveredBy": "R5 \"23 November 2026\" verifiable credential pilot mDL issuance age assurance launch government",
+      "note": "落在身份凭证的签发与受理机制：印尼行政改革部与 KPTDP、CDPI 在雅加达办五日训练营，把公务员证、残疾证、学历证等做成可验证凭证，由授权机构签发、公民钱包保存、用数字签名与信任名册核验，支持选择性披露。机制变化是受理方不必直连每个签发系统。原文未说已上线凭证、技术标准选型、承建方与金额，成果要到 2027 年 3 月全球 DPI 峰会展示，写稿别当成已落地。"
+    },
+    {
+      "title": "阿联酋推出 Mira 代办护照与 Emirates ID 续期，2027 年 3 月首批上线",
+      "url": "https://gulfnews.com/uae/meet-mira-uaes-ai-concierge-agent-that-renews-passport-emirates-id-books-doctors-and-handles-school-affairs-in-one-chat-1.500758308",
+      "publishedAt": "2026-11-23T19:21:00+04:00",
+      "industry": "identity",
+      "region": "mena",
+      "actionType": "产品化节点",
+      "gateNote": "项目由副总理级官员发布、身份与公民事务联邦管理局演示续期流程，但首批服务 2027-03 才开，凭证载体本身未变；若终审认定主体是政务 AI 助手而非凭证机制，本条先出局。Gulf News 标 'Last updated'，+04:00 按阿联酋时区记。",
+      "discoveredBy": "R3 \"23 November 2026\" immigration authority passport identity card issuance biometric new system launched",
+      "note": "落在证件签发的服务入口：阿联酋 11-23 发布 Mira，由身份、公民、海关与口岸安全联邦管理局演示自动发现护照过期、提交续期并返回受理号，Emirates ID 到期提醒与 UAE Pass 联动，企业端同步办工签。机制变化是续期发起从公民逐个填表改为代理触发，15 项工业服务由五天缩到五分钟。原文未说新证件形态、签发量、技术标准与采购方，首批要到 2027 年 3 月，勿写成已上线。"
+    }
+  ]
+}

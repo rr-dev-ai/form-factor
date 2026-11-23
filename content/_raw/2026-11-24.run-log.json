@@ -1,0 +1,79 @@
+{
+  "fetchedFor": "2026-11-24",
+  "matrix": {
+    "gap": ["apac", "cis", "mena", "europe", "north-america", "latam", "africa"],
+    "cellGap": [],
+    "industryGap": ["banking 7/7", "telecom 7/7", "identity 7/7"],
+    "note": "index 一次通过（fetchedFor=2026-11-24，137 条，01:32 落盘，无 fetchedAt 字段）。build-matrix 计入 0 条，剔除 无日期 14 / 低置信 123。21 格全空，与 11-23 并列最空。matrix.json 未落盘，以 stdout 为准。"
+  },
+  "timing": {
+    "startedAt": "2026-11-24T01:50:33+08:00",
+    "r1At": "2026-11-24T01:51:15+08:00",
+    "r2At": "2026-11-24T01:51:28+08:00",
+    "r3At": "2026-11-24T01:51:43+08:00",
+    "r4At": "2026-11-24T01:52:00+08:00",
+    "r5At": "2026-11-24T01:52:24+08:00",
+    "r6At": "2026-11-24T01:54:17+08:00",
+    "writtenAt": "2026-11-24T01:54:28+08:00"
+  },
+  "phases": [
+    {
+      "phase": "R1-缺口驱动",
+      "queries": 6,
+      "at": "2026-11-24T01:51:15+08:00",
+      "basedOn": null,
+      "note": "七区全为 gaps，按区域＋载体词＋引号日期锚定 22/23 日发 6 条。命中多为已发事件线（尼日利亚护照厂、坦桑尼亚 NIDA、亚美尼亚生物护照）与营销页；UnionPay×UOB 二维码互通与 WasabiCard 发卡平台是仅有的新线索，前者只说即将上线，后者无日期无客户。"
+    },
+    {
+      "phase": "R2-机构驱动",
+      "queries": 5,
+      "at": "2026-11-24T01:51:28+08:00",
+      "basedOn": "R1 的区域＋产品词被旅游站与已发稿占满，改从具体机构（发卡行、证件局、卡处理商、芯片厂）切入",
+      "note": "命中 Banque Misr BM Pay（一手稿，11-23 11:21）与 UAE Mira（Gulf News，11-23 19:21），两条均 WebFetch 打开核对。IDEMIA×Microsoft mDL 为 11-20 已发；Velera 支付指数为消费数据；南非 SIM 登记整治为 11-20 政策表态。"
+    },
+    {
+      "phase": "R3-官方一手",
+      "queries": 6,
+      "at": "2026-11-24T01:51:43+08:00",
+      "basedOn": "R2 的卡与证件线缺一手公告日期与承建方，转采购术语与官方公告反查；中文采购词沿用 11-23 有效路径",
+      "note": "中文两轮只回到 11-19/11-20 的贵阳银行、湖北特种证件（均超窗且 11-23 已报）；葡语 edital 出 Salvador CIN 新增服务点（渠道变化，非机制）；阿语、俄语、英语 SAM.gov/TED 全为招标聚合站与无关标的。南非 Capitec 480 网点办护照为 11-18，超窗。"
+    },
+    {
+      "phase": "R4-行业垂媒",
+      "queries": 3,
+      "archiveFetches": 3,
+      "at": "2026-11-24T01:52:00+08:00",
+      "basedOn": "R3 采购轮无窗内标的，转 biometricupdate /202611、paymentsindustryintelligence 首页、idtechwire 归档直读",
+      "note": "biometricupdate 11-21/22 四条全是斯里兰卡观点稿与智能眼镜隐私；paymentsindustryintelligence 11-22 三条中 CBI×Bancomat×Nexi 已在 11-23 supplement 报过，余为稳定币与代理商务；idtechwire 停在 11-20 且全已发。三条垂媒 query 只回已发或营销页。"
+    },
+    {
+      "phase": "R5-新兴术语",
+      "queries": 3,
+      "at": "2026-11-24T01:52:24+08:00",
+      "basedOn": "R4 telecom 归档无新事件、identity 全是观点稿，改用 SGP.32 eIM / verifiable credential / quantum-safe card 等未通用表述反查",
+      "note": "verifiable credential 命中印尼 PANRB 的 VC Bootcamp（11-22 发布、11-23~27 举行），已 WebFetch 核对；SGP.32 三条全为 AT&T Flexible SIM、Semtech（均已发）与分析稿；quantum-safe 三条为 IDEMIA 旧认证、Mastercard 咨询业务，不落本日窗口。"
+    },
+    {
+      "phase": "R6-区域补充",
+      "queries": 4,
+      "at": "2026-11-24T01:54:17+08:00",
+      "basedOn": "R5 只在 apac 出一条且 cis/latam/north-america/africa 仍全空，换母语日期与本地主体重试；美国 mobile ID 查询命中韩国线后追加一条韩文原句反查一手",
+      "note": "西语拉美轮只回 UnionPay 稿；俄语轮全是 Guide/签证页；北美轮全为 11-18 康州 Mobile ID 已弃条目；非洲轮 Ghana Card 学生号 11-18 超窗。韩文反查拿到 nocutnews 一手英文转述（11-22 12:00，无时区），与 BigGo 转述交叉核对，另记 Asiae 11-18 称 11-24 上线的口径冲突。"
+    }
+  ],
+  "queryTotal": 28,
+  "queryNote": "六轮合计 28 条 WebSearch（含 R6 后追加的韩文原句反查）＋3 次归档页直读＋6 次原文 WebFetch 核验。六轮 query 均达下限（6/5/6/3/3/4）。",
+  "verifiedButDropped": [
+    "UnionPay International × UOB 二维码接入 TMRW（thesun.my 11-23 23:50）——原文称 'upcoming launch'，无上线日与规模，且属渠道互通，未采用",
+    "CBI × Bancomat × Nexi 意大利数字欧元共享受理平台（PII 11-22 18:37）——11-23 supplement 已报",
+    "Capitec/Absa 480 个银行网点办护照（News24 11-18 08:11）——超窗",
+    "Connecticut Mobile ID 上线（11-18）——超窗，11-15 已记入 verifiedButDropped",
+    "坦桑尼亚 NIDA 新卡与 NIDA Wallet（11-18）、尼日利亚护照本厂动工（11-20）——均已发同线",
+    "AT&T Flexible SIM、Semtech SGP.32、Bayobab×Firebase SIM 核验——均已发同线",
+    "贵阳银行社保卡个人化中标（11-19 14:18）、湖北特种证件制发系统（11-20 15:29）——超窗且 11-23 supplement 已报",
+    "Temu×Mastercard 谅解备忘录（11-23）——仅评估 Click to Pay 与令牌化，无推出时间表",
+    "WooshPay Agentic Payments 演示（11-23）——试点要等 2027Q1",
+    "马来西亚 MCMC 国际漫游/eSIM 公众咨询（Bernama 11-23）——咨询阶段，无机制变化",
+    "WasabiCard Local Issuing Solution——无发布日期、无客户与发卡量"
+  ]
+}

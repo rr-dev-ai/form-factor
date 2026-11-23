@@ -1,0 +1,344 @@
+{
+  "date": "2026-11-24",
+  "industry": "identity",
+  "startedAt": "2026-11-24T03:18:00+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "Persona earns High-level IAD certification under European biometric standard (Biometric Update 11-23)",
+      "url": "https://www.biometricupdate.com/202611/persona-earns-high-level-iad-certification-under-european-biometric-standard",
+      "reason": "duplicate-of-2026-11-22-identity-02：同一笔 Persona 安卓 SDK 的 CEN/TS 18099 高档认证，换信源重发，非新事件"
+    },
+    {
+      "title": "Persona's Android SDK Earns High-Level IAD Certification Under CEN/TS 18099 (ID Tech 11-23)",
+      "url": "https://idtechwire.com/personas-android-sdk-earns-high-level-injection-attack-detection-certification-under-cen-ts-18099/",
+      "reason": "duplicate-of-2026-11-22-identity-02：同一认证的第二个信源，关键主体与等级一致"
+    },
+    {
+      "title": "Nigeria Begins Construction of $70m Passport Factory",
+      "url": "https://www.africaupdates.com/news/nigeria-begins-construction-of-70m-passport-factory-targets-6-million-booklets-annually-n2311/2026/11/23",
+      "reason": "duplicate-of-2026-11-22-identity-01：同一 7000 万美元护照本厂、Iris Smart、600 万本/年、2027-05 投产，只是换源重发"
+    },
+    {
+      "title": "FG Begins Construction of $70 Million Passport Manufacturing Centre in Abuja",
+      "url": "https://www.nigeriahousingmarket.com/news/fg-begins-70m-passport-factory-abuja-six-million-booklets",
+      "reason": "duplicate-of-2026-11-22-identity-01：同一事件第三个信源"
+    },
+    {
+      "title": "A Nigerian passport costs 100,000 or 200,000 naira in 2026",
+      "url": "https://theradar.ng/lifestyle/a-nigerian-passport-costs-naira100000-or-naira200000-in-2026-how-to-apply-and-what-is-not-a-fee",
+      "reason": "非事件：护照费用与办理指南，无形态或机制变化；其中护照厂部分 duplicate-of-2026-11-22-identity-01"
+    },
+    {
+      "title": "Tanzania Unveils New National ID Card And NIDA Wallet",
+      "url": "https://cioafrica.co/tanzania-unveils-new-national-id-card-and-nida-wallet",
+      "reason": "duplicate-of-2026-11-20-identity-05：同 8 个信息区、300 亿先令、5 机 2800 卡/时、EMPTTECH、11-18 发布"
+    },
+    {
+      "title": "Milan airports explore biometric corridors in €6.9M Vision-Box contract",
+      "url": "https://www.biometricupdate.com/202611/milan-airports-explore-biometric-corridors-in-e6-9m-vision-box-contract",
+      "reason": "duplicate-of-2026-11-20-identity-01：同一 687 万欧元 eGates 与生物识别走廊试验，换源重发"
+    },
+    {
+      "title": "NIST releases draft on mobile drivers' licence use (Identity Week 11-23)",
+      "url": "https://identityweek.net/nist-releases-draft-on-mobile-drivers-licence-use",
+      "reason": "duplicate-of-2026-11-20-identity-04：同一 mDL 在线核验参考架构草案"
+    },
+    {
+      "title": "NIST Seeks Comment on Draft Guide for Accepting Mobile Driver's Licenses Online",
+      "url": "https://idtechwire.com/nist-seeks-comment-on-draft-guide-for-accepting-mobile-drivers-licenses-online/",
+      "reason": "duplicate-of-2026-11-20-identity-04：同一草案的第二个信源"
+    },
+    {
+      "title": "Germany's Bundesrat Approves Digital Identity Law Ahead of January EUDI Wallet Launch",
+      "url": "https://idtechwire.com/germanys-bundesrat-approves-digital-identity-law-ahead-of-january-eudi-wallet-launch/",
+      "reason": "duplicate-of-2026-11-21-identity-02：同一联邦参议院批准与 d-you 1 月 2 日上线"
+    },
+    {
+      "title": "Vietnam Passes Law Tying Social Media and Bank Accounts to National Digital ID",
+      "url": "https://idtechwire.com/vietnam-passes-law-tying-social-media-and-bank-accounts-to-national-digital-id/",
+      "reason": "duplicate-of-2026-11-21-identity-03：同一《电子身份与认证法》"
+    },
+    {
+      "title": "Shanghai Launches Version 2.0 of Cross-Border Digital ID Checks for Singapore Investors",
+      "url": "https://idtechwire.com/shanghai-launches-version-2-0-of-cross-border-digital-id-checks-for-singapore-investors/",
+      "reason": "duplicate-of-2026-11-21-identity-01：同一跨境核验 2.0"
+    },
+    {
+      "title": "State Department Opens Online Passport Applications to Some First-Time Applicants, With Login.gov Face Checks",
+      "url": "https://idtechwire.com/state-department-opens-online-passport-applications-to-some-first-time-applicants-with-login-gov-face-checks/",
+      "reason": "duplicate-of-2026-11-15-identity-01：同一 DS-11 线上试点，事件日 11-16，此处仅为回述"
+    },
+    {
+      "title": "ECOWAS countries to accept regional biometric identity card for cross-border travel from January 1, 2027",
+      "url": "https://m.economictimes.com/nri/latest-updates/ecowas-countries-to-accept-regional-biometric-identity-card-for-cross-border-travel-from-january-1-2027/articleshow/135922635.cms",
+      "reason": "duplicate-of-2026-11-13-identity-06：西非国家互认生物识别身份证同一安排；且 Freetown 宣言事件在 11-03/04、报道 11-17，双超 72 小时"
+    },
+    {
+      "title": "Microsoft Integrates IDEMIA Public Security ID Verification",
+      "url": "https://platform.keesingtechnologies.com/microsoft-integrates-idemia-public-security-id-verification/",
+      "reason": "时效门：IDEMIA 公告在 11-19，超出 72 小时；且基于 5 月已上线的账户恢复能力增补，非本窗口新事件"
+    },
+    {
+      "title": "USCIS Extends Identity Proofing Contract Ahead of Planned $250 Million Competition",
+      "url": "https://idtechwire.com/uscis-extends-identity-proofing-contract-ahead-of-planned-250-million-biometrics-and-identity-competition/",
+      "reason": "动作门：既有 APIS 合同延期，不是新授标；2–2.5 亿美元 IBIS 仍是采购预告，无中标方"
+    },
+    {
+      "title": "USCIS Orders Up to $9.2 Million in Remote Document Authentication Software",
+      "url": "https://idtechwire.com/uscis-orders-up-to-9-2-million-in-remote-document-authentication-software/",
+      "reason": "时效门：交付订单签于 9-16、报道 10-16，远超 72 小时"
+    },
+    {
+      "title": "State Department Opens Market Research on Passport and Visa Facial Recognition, Citing IDEMIA Dependency",
+      "url": "https://idtechwire.com/state-department-opens-market-research-on-passport-and-visa-facial-recognition-citing-idemia-dependency/",
+      "reason": "动作门：仅为 RFI 市场调研，公告明说不承诺发标或合同，无授标"
+    },
+    {
+      "title": "Philippine Senator Files Bill Requiring Government Offices to Accept Digital IDs",
+      "url": "https://idtechwire.com/philippine-senator-files-bill-requiring-government-offices-to-accept-digital-ids/",
+      "reason": "动作门：参议院第 2590 号法案刚提交、未付委员会、未通过，无实施时间"
+    },
+    {
+      "title": "Poland Approves EUDI Wallet Bill to Advance Cross-Border Identity Recognition",
+      "url": "https://www.zgsxgt.com/news/Access_Control/Identity_Flow/Poland_Approves_EUDI_Wallet_Bill_to_Advance_Cross_Border_Identity_Recognition.html",
+      "reason": "时效门（政府通过法案在 11-20）+ 动作门：仍是法案草案，无生效日期与技术要求"
+    },
+    {
+      "title": "National ID registration to remain voluntary (Fiji)",
+      "url": "https://fijisun.com.fj/news/nation/national-id-registration-to-remain-voluntary",
+      "reason": "动作门：国家身份法仍为工作草案，11-30 至 12-04 才提交议会，无证件签发或承建"
+    },
+    {
+      "title": "端押：俄罗斯统一人口登记册将成公民信息唯一来源",
+      "url": "https://www.comnews.ru/content/248493/2026-11-23/2026-w48/1008/ern-stanet-edinym-istochnikom-informacii-o-grazhdanakh",
+      "reason": "范围门：第 38787-9 号法案关于人口统计登记册与统计去标识化，不是证件载体或签发/核验机制变化"
+    },
+    {
+      "title": "重庆 38 项政务服务支持「数字身份」认证",
+      "url": "https://epaper.cpd.com.cn/szb/wwwcpd_9/dzb_16465/rmga/2026/2026_11_22/16466_2026_11_22_47041/1126/t_1259302.html",
+      "reason": "动作门：既有国家网络身份认证在地方平台的依赖方受理点增设，无凭证形态或核验机制变化"
+    },
+    {
+      "title": "推广国家网络身份认证公共服务 长寿公安在行动",
+      "url": "https://www.cqcs.gov.cn/zwxx_164/bmjz/202611/t20261123_16459858.html",
+      "reason": "动作门：校园宣传与申领活动，非形态或机制变化"
+    },
+    {
+      "title": "Indonesia tests verifiable credentials in bootcamp to cut paperwork",
+      "url": "https://govinsider.asia/intl-en/article/indonesia-tests-verifiable-credentials-in-bootcamp-to-cut-paperwork-for-citizens-and-civil-servants",
+      "reason": "动作门：PANRB 五日训练营与监管沙盒，产出是框架草案，无已签发凭证、无承建方与金额；补位 gateNote 已提示可能被刷"
+    },
+    {
+      "title": "Indonesia tests digital credentials to reduce paperwork in government services",
+      "url": "https://pageoneasia.com/top-story/indonesia-tests-digital-credentials-to-reduce-paperwork-in-government-services",
+      "reason": "动作门：同一训练营的第二信源，仍是沙盒研究而非产品化"
+    },
+    {
+      "title": "阿联酋推出 Mira 代办护照与 Emirates ID 续期，2027 年 3 月首批上线",
+      "url": "https://gulfnews.com/uae/meet-mira-uaes-ai-concierge-agent-that-renews-passport-emirates-id-books-doctors-and-handles-school-affairs-in-one-chat-1.500758308",
+      "reason": "范围门与动作门：AI 政务服务入口，只改办理渠道不改证件形态或核验机制，首批服务 2027-03 才上线"
+    },
+    {
+      "title": "Sheikh Mohammed launches the new look of government services in UAE",
+      "url": "https://www.gulftoday.ae/news/2026/11/23/sheikh-mohammed-launches-the-new-look-of-government-services-in-uae",
+      "reason": "范围门与动作门：同一 Mira AI 助手的第二信源，无凭证机制变化"
+    },
+    {
+      "title": "UAE unveils Mira for government services with rollout set for March 2027",
+      "url": "https://www.aiaffairs.com/government/uae-mira-government-services-march-2027",
+      "reason": "范围门与动作门：Mira 第三信源，仅为服务渠道，上线在 2027-03"
+    },
+    {
+      "title": "CrowdStrike completes record takeover of Zscaler",
+      "url": "https://identityweek.net/crowdstrike-completes-record-takeover-of-zscaler/",
+      "reason": "范围门：439 亿美元通用网络安全并购，标的不在护照/身份证/mDL/发卡/收单/SIM 任链路"
+    },
+    {
+      "title": "Sri Lanka seeks Ukraine, Estonia, and Google expertise for digital ID plans",
+      "url": "https://www.biometricupdate.com/202611/sri-lanka-seeks-ukraine-estonia-and-google-expertise-for-digital-id-plans",
+      "reason": "动作门：寻求外部建议，无产品名、承建方、金额或落地时间"
+    },
+    {
+      "title": "Sri Lankan Activist Asks Court of Appeal to Quash Digital ID Project Over Iris and Face Data",
+      "url": "https://idtechwire.com/sri-lankan-activist-asks-court-of-appeal-to-quash-digital-id-project-over-iris-and-face-data/",
+      "reason": "时效门（事件 11-20）+ 动作门：司法诉请，不是七类动作中的任一项"
+    },
+    {
+      "title": "Met Police Begins Six-Month Trial of Phone-Based Facial Recognition for 100 Officers",
+      "url": "https://idtechwire.com/met-police-begins-six-month-trial-of-phone-based-facial-recognition-for-100-officers/",
+      "reason": "范围门：执法人脸识别，不在身份凭证载体/签发/核验链路；且事件 11-20 超窗"
+    },
+    {
+      "title": "Alabama Opens Age-Verification Rulemaking as Fifth Circuit Lifts Mississippi Block",
+      "url": "https://idtechwire.com/alabama-opens-age-verification-rulemaking-as-fifth-circuit-lifts-mississippi-block-and-netchoice-sues-indiana/",
+      "reason": "范围门：社媒账号年龄核验，标的是账号不是证件；且事件 11-20 超窗"
+    },
+    {
+      "title": "Italy's Governing Parties Propose Social Media Age Checks Tied to EU Digital Identity Wallets",
+      "url": "https://idtechwire.com/italys-governing-parties-propose-social-media-age-checks-tied-to-eu-digital-identity-wallets/",
+      "reason": "范围门与动作门：社媒账号年龄核验的修正案提案，非证件机制；且 11-20 超窗"
+    },
+    {
+      "title": "Indiana Judge Dismisses State's Age Verification Suit Against Pornhub Parent",
+      "url": "https://idtechwire.com/indiana-judge-dismisses-states-age-verification-suit-against-pornhub-parent-declines-to-read-vpn-duty-into-law/",
+      "reason": "范围门：账号年龄核验的诉讼裁决，与证件载体无关"
+    },
+    {
+      "title": "Terminal 3 and Affinidi Launch TENON, a Public Network to Verify AI Agents",
+      "url": "https://idtechwire.com/terminal-3-and-affinidi-launch-tenon-a-public-network-to-verify-ai-agents/",
+      "reason": "范围门：AI 智能体身份网络，不是自然人证件；且事件 11-20 超窗"
+    },
+    {
+      "title": "MTN's Bayobab and Google Firebase Launch SIM-Based Phone Number Verification in Africa",
+      "url": "https://idtechwire.com/mtns-bayobab-and-google-firebase-launch-sim-based-phone-number-verification-in-africa/",
+      "reason": "范围门：手机号核验归 telecom 链路，非身份凭证；且事件 11-20 超窗"
+    },
+    {
+      "title": "Mitek Names Former Vonage Marketing Executive Laura Apel as Chief Marketing Officer",
+      "url": "https://idtechwire.com/mitek-names-former-vonage-marketing-executive-laura-apel-as-chief-marketing-officer/",
+      "reason": "范围门：人事变动明确不收"
+    },
+    {
+      "title": "BioCatch supports new intelligence-sharing network for four biggest NZ banks",
+      "url": "https://www.biometricupdate.com/202611/biocatch-supports-new-intelligence-sharing-network-for-four-biggest-nz-banks",
+      "reason": "范围门：银行反欺诈情报共享，归 banking，不涉及身份凭证形态或核验"
+    },
+    {
+      "title": "How workforce impersonation exploits gaps in employee identity verification",
+      "url": "https://www.biometricupdate.com/202611/how-workforce-impersonation-exploits-gaps-in-employee-identity-verification",
+      "reason": "观点文章，无具体事件、产品名或数字"
+    },
+    {
+      "title": "Identity verification faces challenges on both sides of the trust equation",
+      "url": "https://www.biometricupdate.com/202611/identity-verification-faces-challenges-on-both-sides-of-the-trust-equation",
+      "reason": "观点文章，无可核事件"
+    },
+    {
+      "title": "Identity Is Becoming Invisible. Trust Must Remain Visible.",
+      "url": "https://www.idemia.com/insights/identity-becoming-invisible-trust-must-remain-visible",
+      "reason": "厂商观点稿，无产品版本、参数或客户"
+    },
+    {
+      "title": "Building resilience into digital identity takes on new urgency",
+      "url": "https://www.biometricupdate.com/202611/building-resilience-into-digital-identity-takes-on-new-urgency",
+      "reason": "观点文章，无具体事件"
+    },
+    {
+      "title": "Dutch tests find smart glasses privacy safeguards fail in practice",
+      "url": "https://www.biometricupdate.com/202611/dutch-tests-find-smart-glasses-privacy-safeguards-fail-in-practice",
+      "reason": "范围门：消费级智能眼镜隐私测试，非证件或生物识别核验链路"
+    },
+    {
+      "title": "Electronic passports launched nationwide today, enabling self-service clearance",
+      "url": "https://www.howtotrip.net/views-59522",
+      "reason": "时效门与事实：SEO 改写页，所述中国电子护照启用为多年前的旧事，无一手来源与本窗口事件日"
+    },
+    {
+      "title": "World's First: Dubai Airport Launches Mobile Passport Control",
+      "url": "https://www.howtotrip.net/views-25181",
+      "reason": "时效门：聚合站旧闻，无事件日期与一手公告"
+    },
+    {
+      "title": "Digital ID & Biometrics Tracker (MyPrivacy)",
+      "url": "https://myprivacy.blog/trackers/digital-id/",
+      "reason": "综述型 tracker，非单条事件"
+    },
+    {
+      "title": "European digital wallet to bring together IDs, permits and health documents",
+      "url": "https://www.ma-no.org/en/news-and-events/mobile/european-digital-wallet-to-bring-together-ids-permits-and-health-documents",
+      "reason": "综述：EUDI 钱包各成员国进度盘点，无本窗口新事件"
+    },
+    {
+      "title": "EU AML Regulation (AMLR) for non-bank lenders — Customer Due Diligence Guide",
+      "url": "https://authologic.com/blog/amlr-non-bank-lenders",
+      "reason": "合规指南，非事件；AMLR 生效在 2027-07-10"
+    },
+    {
+      "title": "Saudi Vision 2030 drives Kingdom's rise among world's leading digital governments",
+      "url": "https://economymiddleeast.com/news/saudi-vision-2030-drives-kingdoms-rise-among-worlds-leading-digital-governments/",
+      "reason": "范围门与动作门：电子政务排名与累计数据盘点，无证件形态或机制变化"
+    },
+    {
+      "title": "Single Lane Automated Border Gate Market Outlook 2026",
+      "url": "https://www.datainsightsreports.com/reports/single-lane-automated-border-gate-market-307026",
+      "reason": "市场研究报告，非单条可核事件"
+    },
+    {
+      "title": "Immigration Gates for passenger identity verification",
+      "url": "https://www.trafficinfratech.com/immigration_gates_for_passenger_identity_verification/",
+      "reason": "无发布日期的产品介绍页，时效不可核"
+    },
+    {
+      "title": "National ID Registration in Nepal 2026: Pre-Enrollment, Documents & NIN Guide",
+      "url": "https://notarynepal.com/blog/national-id-registration-in-nepal",
+      "reason": "SEO 办事指南，非事件"
+    },
+    {
+      "title": "E-Passport in Nepal: Online Pre-Enrolment, Fees, Documents & Collection Guide",
+      "url": "https://notarynepal.com/blog/e-passport-in-nepal",
+      "reason": "SEO 办事指南，所述电子护照 2021 年已启用，超窗"
+    },
+    {
+      "title": "Laos Launches National Digital Identity App to Replace Paper Registration Documents",
+      "url": "https://laospost.com/laos-launches-national-digital-identity-app-to-replace-paper-registration-documents",
+      "reason": "时效不可核：页面无任何日期字段，且此前已按同因刷过"
+    },
+    {
+      "title": "SMX Introduces Digital Plastic Passport and Global Marketplace",
+      "url": "https://www.acnnewswire.com/press-release/english/111793/smx-introduces-digital-plastic-passport-and-global-marketplace-to-advance-the-circular-plastics-economy",
+      "reason": "范围门：塑料循环溯源的「数字护照」，不是自然人身份凭证"
+    },
+    {
+      "title": "South Africans, International Visitors Take Note: Defining Dates in Your Dealings with Home Affairs",
+      "url": "https://www.workpermitsouthafrica.co.za/south-africans-international-visitors-take-note-defining-dates-in-your-dealings-with-home-affairs/",
+      "reason": "动作门：未来时间表与规划（ePassport、自动闸机），无授标、无具体参数"
+    },
+    {
+      "title": "省公安厅机关陕西公安出入境管理信息系统支撑保障平台2026-2027年度运维服务项目中标公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202611/t20261123_27732878.htm",
+      "reason": "范围门：信息系统运行维护服务，37.9 万元，不涉及证件形态、签发或核验机制"
+    },
+    {
+      "title": "[海淀区]外国人出入境服务厅劳务派遣服务项目中标公告",
+      "url": "http://www.ccgp-beijing.gov.cn/xxgg/qjxxgg/qjzbggs/2026/11/1d451c3e39644a1589783396e534031e.htm",
+      "reason": "范围门：8 人劳务派遣，359.5 万元，与凭证载体无关"
+    },
+    {
+      "title": "宣城市公安局「三警合一」窗口一体化终端采购项目询价公告",
+      "url": "https://gaj.xuancheng.gov.cn/Content/show/1738360.html",
+      "reason": "动作门：询价公告未授标，且未给出证件核验相关具体参数"
+    },
+    {
+      "title": "警务室政务服务宣传用品项目网上竞价公告",
+      "url": "https://ggzy.zhumadian.gov.cn/TPFront/infodetail/?infoid=00ad2656-97ae-4771-b84c-c518c26fa557",
+      "reason": "范围门：印刷宣传用品，3800 元，与证件无关"
+    },
+    {
+      "title": "苏州市公安局交管支队信息网络等保障服务成交公告",
+      "url": "https://ggzy.suzhou.gov.cn/jyxx/003034/003034003/20261123/c01061ca-b55e-4af1-a56d-270c032c3eb5.html",
+      "reason": "范围门：网络与机房保障服务，33.8 万元，与证件载体无关"
+    },
+    {
+      "title": "内蒙古自治区公安厅刑事技术专业信息系统运行维护服务中标公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202611/t20261123_27733663.htm",
+      "reason": "范围门：足迹/指纹/DNA 数据库运维，属刑侦库非身份凭证核验；金额仅 11–23 万元"
+    },
+    {
+      "title": "九州一轨参股公司金刚石芯片基板项目点火投产",
+      "url": "https://finance.sina.com.cn/stock/bxjj/2026-11-23/doc-iniztrzu5461178.shtml",
+      "reason": "范围门：第四代半导体散热基板，非证件芯片、安全元件或 inlay"
+    },
+    {
+      "title": "Apple Wallet Driver's License Feature Coming to Three More U.S. States",
+      "url": "https://www.macrumors.com/2026/11/23/apple-wallet-ids-coming-to-three-more-states",
+      "reason": "动作门：基于代码发现的「未来数月」扩容预期，无确定上线日期；且属既有 mDL 钱包入口的分发渠道变化"
+    }
+  ],
+  "stats": {
+    "candidates": 69,
+    "written": 3,
+    "skippedByDedup": 13
+  },
+  "finishedAt": "2026-11-23T19:20:26.283Z"
+}

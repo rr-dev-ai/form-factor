@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-24-banking-03",
+  "slug": "txn-issuer-processor-uk-europe-launch",
+  "industry": "banking",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "payment-gateway"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-24T04:17:20+08:00",
+  "ingestedAt": "2026-11-24T02:43:34+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "IT Brief UK",
+      "url": "https://www.itbrief.co.uk/ian-johnson-launches-txn-for-uk-europe-card-issuers/",
+      "lang": "en",
+      "publishedAt": "2026-11-23T00:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "前Marqeta欧洲负责人推出txn发卡处理平台",
+    "en": "Former Marqeta Europe head launches txn issuer processor",
+    "es": "Exdirectivo de Marqeta en Europa lanza el procesador de emisión txn"
+  },
+  "summary": {
+    "zh": "前Marqeta欧洲区负责人Ian Johnson于11月23日推出发卡处理平台txn，面向英国与欧洲的金融科技公司、银行和企业。平台由Direct Transact与Paycorp各持一半，底层处理基础设施来自Direct Transact，每月处理额超过500亿兰特（约27亿欧元），可用性宣称99.99%。",
+    "en": "Ian Johnson, formerly head of Marqeta in Europe, launched txn on 23 November, an issuer processor for fintechs, banks and corporates in the UK and Europe. The venture is owned equally by Direct Transact and Paycorp. Its processing infrastructure comes from Direct Transact, which handles more than ZAR 50 billion (about EUR 2.7 billion) a month and claims 99.99% uptime.",
+    "es": "Ian Johnson, exdirectivo de Marqeta en Europa, lanzó el 23 de noviembre txn, un procesador de emisión para fintechs, bancos y empresas del Reino Unido y Europa. La firma es propiedad al 50% de Direct Transact y Paycorp. Su infraestructura de procesamiento proviene de Direct Transact, que maneja más de 50.000 millones de rand (unos 2.700 millones de euros) al mes y afirma un 99,99% de disponibilidad."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Ian Johnson于11月23日推出txn，一家面向英国与欧洲的发卡处理平台。Johnson此前任Marqeta欧洲区负责人。txn由南非支付公司Direct Transact与支付集团Paycorp各持一半，目标客户是希望自行上线和管理卡项目的金融科技公司、银行与企业。",
+        "en": "Ian Johnson launched txn on 23 November, an issuer processor covering the UK and Europe. Johnson previously led Marqeta in Europe. txn is owned equally by South African payments company Direct Transact and payments group Paycorp, and targets fintechs, banks and corporates that want to launch and manage their own card programmes.",
+        "es": "Ian Johnson lanzó el 23 de noviembre txn, un procesador de emisión para el Reino Unido y Europa. Johnson dirigió antes Marqeta en Europa. txn es propiedad al 50% de la sudafricana Direct Transact y del grupo de pagos Paycorp, y apunta a fintechs, bancos y empresas que quieren lanzar y gestionar sus propios programas de tarjetas."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "txn的底层处理能力来自Direct Transact。据该公司介绍，这套基础设施在受监管银行环境中运行超过二十年，每月处理额超过500亿兰特、约合27亿欧元，可用性为99.99%，平台托管在欧洲的云基础设施上。",
+        "en": "txn's processing base comes from Direct Transact. According to the company, that infrastructure has run in regulated banking environments for more than two decades, processes over ZAR 50 billion (about EUR 2.7 billion) a month and delivers 99.99% uptime. The platform is hosted on cloud infrastructure in Europe.",
+        "es": "La base de procesamiento de txn proviene de Direct Transact. Según la empresa, esa infraestructura opera en entornos bancarios regulados desde hace más de dos décadas, procesa más de 50.000 millones de rand (unos 2.700 millones de euros) al mes y ofrece 99,99% de disponibilidad. La plataforma se aloja en infraestructura de nube en Europa."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "txn以API为核心构建平台，并把人工智能工具嵌进入网、配置与卡项目管理环节，用于解释配置决定、在改动前提示可能的错误并指出相关合规要求。客户可选用整个平台，也可只挑部分组件；适用场景包括数字银行卡、绑定钱包的卡、费用管理、差旅、多币种和工资发放等。",
+        "en": "txn is built around APIs and embeds AI tools in onboarding, configuration and programme management, explaining configuration choices, flagging possible errors before changes are made and pointing to relevant compliance requirements. Customers can take the full platform or individual components. Use cases include digital banking cards, wallet-linked cards, expense management, travel, multi-currency cards and payroll disbursement.",
+        "es": "txn se construye alrededor de API e incorpora herramientas de IA en el alta, la configuración y la gestión de programas, explicando decisiones de configuración, señalando posibles errores antes de los cambios e indicando requisitos de cumplimiento. Los clientes pueden tomar la plataforma completa o componentes individuales. Los casos incluyen tarjetas de banca digital, tarjetas vinculadas a billeteras, gestión de gastos, viajes, multidivisa y pago de nóminas."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对英国和欧洲想自己发卡的金融科技公司与企业，txn提供的是一条介于老牌处理器与纯软件新平台之间的路径：底层有二十年受监管处理记录和99.99%可用性作背书，上层用API与AI配置工具压低接入和运维门槛。对发卡处理市场，这直接增加了一个有真实处理量的竞争者，客户在选处理器时多了一个可核对月处理额与可用性的选项。值得留意的是，txn刚上线，公告没有给出首批客户名单和具体定价；99.99%可用性、月处理额均为公司自述，能否兑现在英国与欧洲市场，要看后续签约和上线情况。",
+    "en": "For fintechs and corporates in the UK and Europe that want to issue their own cards, txn offers a path between incumbent processors and software-only newcomers: two decades of regulated processing and claimed 99.99% uptime underneath, with APIs and AI configuration tools lowering integration and running costs on top. For the issuer-processing market it adds a competitor with real volume, giving buyers another option whose monthly throughput and uptime can be checked. Note that txn has just launched and named no first customers or pricing; the uptime and volume figures are company claims, and whether they hold up in the UK and Europe depends on future signings and go-lives.",
+    "es": "Para fintechs y empresas del Reino Unido y Europa que quieren emitir sus propias tarjetas, txn ofrece un camino entre los procesadores tradicionales y las plataformas solo de software: dos décadas de procesamiento regulado y un 99,99% de disponibilidad declarada abajo, con API y herramientas de configuración con IA que reducen la integración y el costo operativo arriba. Para el mercado de procesamiento de emisión añade un competidor con volumen real, lo que da a los compradores otra opción cuyo rendimiento mensual y disponibilidad pueden verificarse. Conviene notar que txn acaba de lanzarse y no nombró primeros clientes ni precios; las cifras son declaraciones de la empresa y su cumplimiento en el Reino Unido y Europa dependerá de futuros contratos y puestas en marcha."
+  },
+  "confidence": 0.65,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

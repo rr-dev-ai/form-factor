@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-24",
+  "industry": "telecom",
+  "startedAt": "2026-11-24T02:57:17+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "Ericsson and Altair Semiconductor complete first eRedCap connection to advance affordable, AI-focused 5G IoT devices",
+      "url": "https://iot-now.com/2026/11/23/159465-ericsson-altair-first-eredcap-connection-5g-iot/",
+      "reason": "范围门不过：eRedCap 是 5G 物联网终端的能力等级与模组连接，不是 SIM/eSIM/iSIM 载体形态，也不涉及 RSP、profile 下载或鉴权链；虽为 11-23 新事件，标的物不落电信链路。"
+    },
+    {
+      "title": "Eurobites: Vodafone, AST SpaceMobile plan joint D2D research in Spain",
+      "url": "https://www.lightreading.com/satellite/eurobites-vodafone-ast-spacemobile-plan-joint-d2d-research-in-spain",
+      "reason": "动作门不过：内容为马拉加研发站开站与 D2D 研究计划，无产品名、版本、参数或具名客户；且卫星直连带宽与研发设施本身不落凭证载体环节。"
+    },
+    {
+      "title": "Vodafone, AST advance satellite R&D work",
+      "url": "https://www.mobileworldlive.com/vodafone/vodafone-ast-advance-satellite-rd-work/",
+      "reason": "与同日 Light Reading 的 Eurobites 为同一研发站开站事件换信源；动作门仍不过，无产品、参数或客户。"
+    },
+    {
+      "title": "Kyivstar open to more D2D partners beyond Starlink",
+      "url": "https://www.lightreading.com/satellite/kyivstar-open-to-more-d2d-partners-but-currently-sees-no-starlink-alternative",
+      "reason": "动作门不过：COO 访谈表态愿接更多卫星伙伴、并称暂无替代者，属意向表态；800 万用户是既有 Starlink D2D 的进度统计，无新合同、产品、参数或鉴权机制变化。"
+    },
+    {
+      "title": "Satellite operators tipped to boost mobile core market",
+      "url": "https://www.mobileworldlive.com/network-tech/satellite-operators-tipped-to-boost-mobile-core-market/",
+      "reason": "范围门与动作门均不过：分析师评论卫星运营商进入移动核心网，无具体事件、可核数字或凭证载体标的物。"
+    },
+    {
+      "title": "Beyond branded calling – how network APIs are building the future of trusted communications (Reader Forum)",
+      "url": "https://rcrwireless.com/20261123/carriers/branded-calling-network-apis-future-of-trusted-comms-reader-forum",
+      "reason": "范围门不过：读者论坛观点文，讲网络 API 与品牌来电，非 SIM/eSIM/iSIM 载体或鉴权机制，且无可核事件。"
+    },
+    {
+      "title": "New e-hailer puts safety, free data first",
+      "url": "https://www.itweb.co.za/article/new-e-hailer-puts-safety-free-data-first/lwrKx73Y6wzqmg1o",
+      "reason": "范围门不过：网约车服务与赠送流量，主体不是凭证载体或发卡受理环节。"
+    },
+    {
+      "title": "SoSIM launches contract-free \"One Number Watch\" data package",
+      "url": "https://doc.irasia.com/listco/hk/hthkh/press/p261117.pdf",
+      "reason": "时效门不过：新闻稿落款 2026-11-17，早于 72 小时窗口起点约 6 天；且机制是手表 eSIM 与主卡共享号码与流量的资费套餐，按渠道/资费不收。"
+    },
+    {
+      "title": "National ID makes SIM registration faster; Smart becomes first telco partner, reduces process to one minute",
+      "url": "https://philsys.gov.ph/national-id-makes-sim-registration-faster-smart-becomes-first-telco-partner-reduces-process-to-one-minute",
+      "reason": "duplicate-of-2026-11-12-telecom-04：同为菲律宾 Smart 把 PSA 的 NIDAS/eVerify 接入 SIM 登记、把流程压到一分钟内，签约日 11-05；这次是 PSA 官方稿换信源重写，不是新事件。"
+    },
+    {
+      "title": "PTA Proposes Central Database to Block Foreign SIMs Flagged for Illegal Activity",
+      "url": "https://www.around.pk/news/pta-proposes-central-database-to-block-foreign-sims-flagged-for",
+      "reason": "时效与动作门不过：源自 10 月的《国际漫游（入境）条例》草案、意见征集 11-10 已截止，无最终文本或生效日；主体是入境漫游监管，不落载体形态。"
+    },
+    {
+      "title": "Max将接入俄罗斯国家SIM卡数据库,可每分钟1500次无授权查询手机号状态",
+      "url": "https://www.aqniu.net/news/details/20261107075122873006671?type=5",
+      "reason": "时效与范围门不过：草案 11-07 已报道、决议定于 2027-03-01 生效，无新规落地；且主体是即时通讯账号与手机号状态核验，不是 SIM/eSIM 载体或鉴权机制变化。"
+    },
+    {
+      "title": "Simtogo launches one-tap travel eSIM activation on November 20, 2026",
+      "url": "https://www.esim.report/news/simtogo-launches-one-tap-travel-esim-activation-on-november-20-2026",
+      "reason": "范围门不过：旅行 eSIM 的一键激活入口，属销售渠道与资费便利化，不改变 eSIM 载体形态或 profile 机制。"
+    },
+    {
+      "title": "Atli offers data-only travel eSIMs in 200+ destinations",
+      "url": "https://www.esim.report/news/atli-offers-data-only-travel-esims-in-200-destinations",
+      "reason": "范围门不过：面向旅客的数据流量套餐与目的地覆盖，属资费促销，无载体或机制变化。"
+    },
+    {
+      "title": "Apple iOS 27 adds iPhone Handoff for one number on two iPhones",
+      "url": "https://www.esim.report/news/apple-ios-27-adds-iphone-handoff-for-one-number-on-two-iphones",
+      "reason": "动作门不过：未发布 iOS 功能的爆料与拆解，无正式产品发布、规范版本或可核上线时间。"
+    },
+    {
+      "title": "Newsweek compares eSIM, roaming and local SIM costs for Europe",
+      "url": "https://www.esim.report/news/newsweek-compares-esim-roaming-and-local-sim-costs-for-europe",
+      "reason": "范围门不过：消费者资费比价内容，不是事件，无产品、标准、交易或部署可核。"
+    }
+  ],
+  "stats": {
+    "candidates": 45,
+    "written": 1,
+    "skippedByDedup": 3
+  },
+  "finishedAt": "2026-11-23T18:58:16.446Z"
+}

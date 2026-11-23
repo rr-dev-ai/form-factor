@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-24-banking-01",
+  "slug": "egypt-central-bank-android-card-tokenization",
+  "industry": "banking",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "tokenization",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-24T04:17:20+08:00",
+  "ingestedAt": "2026-11-24T02:43:34+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Daily News Egypt",
+      "url": "https://dailynewsegypt.com/2026/11/23/cbe-launches-payment-card-tokenisation-services-on-android-devices/",
+      "lang": "en",
+      "publishedAt": "2026-11-23T18:00:00+02:00"
+    }
+  ],
+  "title": {
+    "zh": "埃及央行把支付卡令牌化扩到安卓手机",
+    "en": "Egypt central bank extends card tokenization to Android devices",
+    "es": "El banco central de Egipto amplía la tokenización de tarjetas a móviles Android"
+  },
+  "summary": {
+    "zh": "埃及央行11月23日宣布，支付卡令牌化服务已在安卓设备上线，由银行与金融科技公司共同接入。此前该服务只通过苹果Apple Pay提供，截至2026年9月底累计约2.92亿笔交易、金额2280亿埃及镑。用户可把银行卡加入手机应用，凭指纹或人脸在非接POS与电商页面付款，无需输入卡号或密码。",
+    "en": "Egypt's central bank said on 23 November that payment card tokenization is now available on Android devices through banks and fintechs. Until now the service ran only through Apple Pay; by the end of September 2026 it had processed about 292 million transactions worth EGP 228 billion. Cardholders add a card to a phone app and pay at contactless POS terminals or online with fingerprint or face verification, without entering the card number.",
+    "es": "El banco central de Egipto anunció el 23 de noviembre que la tokenización de tarjetas ya está disponible en dispositivos Android a través de bancos y fintechs. Hasta ahora el servicio funcionaba solo con Apple Pay; a fines de septiembre de 2026 había procesado unos 292 millones de pagos por 228.000 millones de libras egipcias. Los usuarios añaden una tarjeta a una app y pagan en terminales sin contacto o en línea con huella o reconocimiento facial."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "埃及央行（Central Bank of Egypt）11月23日宣布，支付卡令牌化服务已在安卓手机上线，由商业银行与金融科技公司共同接入。央行行长哈桑·阿卜杜拉说，这一步属于该行数字化转型与减少现金依赖战略的一部分。",
+        "en": "The Central Bank of Egypt announced on 23 November that payment card tokenization is now live on Android phones, with commercial banks and fintechs connecting to it. Governor Hassan Abdalla said the move is part of the bank's digital transformation strategy and its push to reduce cash use.",
+        "es": "El Banco Central de Egipto anunció el 23 de noviembre que la tokenización de tarjetas ya funciona en teléfonos Android, con bancos comerciales y fintechs conectados. El gobernador Hassan Abdalla dijo que la medida forma parte de la estrategia de transformación digital del banco y su impulso para reducir el uso de efectivo."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "令牌化把银行卡号换成手机应用里的一枚数字令牌。用户在支持非接的POS终端或电商网站付款时，商户只收到令牌，交易放行改用指纹或人脸识别，不必输入卡片密码。这套服务2024年12月先通过苹果Apple Pay上线，安卓是第二个平台。",
+        "en": "Tokenization replaces the card number with a digital token held in the phone app. When a customer pays at a contactless POS terminal or on a website, the merchant receives only the token, and the transaction is approved with fingerprint or face recognition instead of a card PIN. The service first launched through Apple Pay in December 2024; Android is the second platform.",
+        "es": "La tokenización sustituye el número de tarjeta por un token digital guardado en la app del teléfono. Al pagar en un terminal sin contacto o en un sitio web, el comercio recibe solo el token y la operación se aprueba con huella o reconocimiento facial en lugar del PIN. El servicio se lanzó primero con Apple Pay en diciembre de 2024; Android es la segunda plataforma."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "埃及央行披露，截至2026年9月底，这套令牌化服务累计完成约2.92亿笔交易，总额2280亿埃及镑。央行称安卓版本将扩大可使用的用户范围，并带动POS与电商交易增长。同日，埃及银行Banque Misr上线了基于该服务的BM Pay，用户通过BM Online应用绑卡后可在非接POS上用安卓手机付款。",
+        "en": "The central bank disclosed that by the end of September 2026 the tokenization service had processed about 292 million transactions worth EGP 228 billion. It said the Android release widens the pool of eligible users and should lift POS and e-commerce volume. On the same day, Banque Misr launched BM Pay on top of the service, letting customers add a card in the BM Online app and pay at contactless POS terminals with an Android phone.",
+        "es": "El banco central informó que, a fines de septiembre de 2026, el servicio había procesado unos 292 millones de transacciones por 228.000 millones de libras egipcias. Según la entidad, la versión Android amplía el grupo de usuarios y debería impulsar las operaciones en POS y comercio electrónico. Ese mismo día, Banque Misr lanzó BM Pay sobre el servicio, que permite añadir una tarjeta en la app BM Online y pagar en terminales sin contacto con un teléfono Android."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对收单机构与商户，安卓令牌化把非接支付的覆盖面从苹果用户扩到埃及更广泛的安卓用户群，此前这部分交易只能走实体卡或苹果设备。对发卡行，央行统一提供令牌化服务意味着不必各自建设令牌域，改造重点转到手机应用的绑卡流程与生物识别放行。对钱包与金融科技公司，2.92亿笔、2280亿埃及镑的存量规模说明令牌化在该国已不是试点，接入央行服务正成为进入非接市场的门槛。后续要看各银行接入节奏，以及令牌能否跨钱包通用；公告未说明这两点。",
+    "en": "For acquirers and merchants, Android tokenization extends contactless acceptance beyond iPhone owners to Egypt's much larger Android base; those payments previously required a physical card or an Apple device. For issuers, a central-bank-run tokenization service removes the need to build a token domain each, shifting the work to card-onboarding flows and biometric approval inside phone apps. For wallets and fintechs, the installed base of 292 million transactions and EGP 228 billion shows tokenization is past pilot stage in Egypt, and connecting to the central service is becoming the entry ticket to contactless. What remains open is how fast individual banks connect and whether tokens work across wallets; the announcement does not say.",
+    "es": "Para adquirentes y comercios, la tokenización en Android amplía la aceptación sin contacto más allá de los usuarios de iPhone al mayor grupo de usuarios Android de Egipto; antes esos pagos requerían una tarjeta física o un dispositivo Apple. Para los emisores, un servicio de tokenización operado por el banco central evita construir un dominio de tokens propio y traslada el trabajo a los flujos de alta de tarjeta y la aprobación biométrica en las apps. Para billeteras y fintechs, los 292 millones de transacciones y 228.000 millones de libras acumulados muestran que la tokenización ya superó la fase piloto en Egipto y que conectarse al servicio central se vuelve requisito de entrada al mercado sin contacto. Queda por ver el ritmo de conexión de cada banco y si los tokens funcionan entre billeteras; el anuncio no lo precisa."
+  },
+  "confidence": 0.75,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

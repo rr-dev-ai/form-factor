@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-23T20:15:29.542Z",
+  "selected": [
+    {
+      "industry": "banking",
+      "slug": "trust-payments-okto-latam-local-card-processing",
+      "score": 0.5,
+      "reason": "region-floor",
+      "region": "latam",
+      "sourceDate": "2026-11-24"
+    },
+    {
+      "industry": "banking",
+      "slug": "egypt-central-bank-android-card-tokenization",
+      "score": 0.75,
+      "reason": "region-floor",
+      "region": "africa",
+      "sourceDate": "2026-11-24"
+    },
+    {
+      "industry": "identity",
+      "slug": "italy-it-wallet-driving-licence-identity-document",
+      "score": 0.82,
+      "reason": "region-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-24"
+    },
+    {
+      "industry": "identity",
+      "slug": "korea-resident-id-verification-kakaopay-toss-photo",
+      "score": 0.8,
+      "reason": "region-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-24"
+    },
+    {
+      "industry": "banking",
+      "slug": "eastcompeace-mastercard-ecos-certification",
+      "score": 0.65,
+      "reason": "industry-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-24"
+    },
+    {
+      "industry": "telecom",
+      "slug": "huawei-osta-o1-pro-esim-dual-active",
+      "score": 0.6,
+      "reason": "industry-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-24"
+    },
+    {
+      "industry": "identity",
+      "slug": "henderson-edgepos-digital-proof-of-age-checkout",
+      "score": 0.7,
+      "reason": "industry-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-24"
+    },
+    {
+      "industry": "banking",
+      "slug": "txn-issuer-processor-uk-europe-launch",
+      "score": 0.65,
+      "reason": "manual",
+      "region": "europe",
+      "sourceDate": "2026-11-23"
+    },
+    {
+      "industry": "banking",
+      "slug": "akurateco-external-mpi-3ds-reuse",
+      "score": 0.6,
+      "reason": "manual",
+      "region": "global",
+      "sourceDate": "2026-11-23"
+    }
+  ],
+  "alternates": [],
+  "expired": [],
+  "gaps": [
+    {
+      "region": "cis",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "mena",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "north-america",
+      "note": "池内 0 条"
+    }
+  ],
+  "unaccounted": [],
+  "conflicts": [
+    {
+      "kind": "undated",
+      "detail": "banking/txn-issuer-processor-uk-europe-launch 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/akurateco-external-mpi-3ds-reuse 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-24-identity-02",
+  "slug": "korea-resident-id-verification-kakaopay-toss-photo",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-24T04:17:20+08:00",
+  "ingestedAt": "2026-11-24T03:18:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/south-korea-extends-government-id-card-verification-including-photo-checks-to-kakao-pay-and-toss/",
+      "lang": "en",
+      "publishedAt": "2026-11-23T00:00:00Z"
+    },
+    {
+      "name": "NOCUTNEWS",
+      "url": "https://en.nocutnews.co.kr/news/6610599",
+      "lang": "en",
+      "publishedAt": "2026-11-22T12:00:00+09:00"
+    }
+  ],
+  "title": {
+    "zh": "韩国把居民证真伪核验接进 Kakao Pay 与 Toss，加验照片",
+    "en": "South Korea extends resident ID verification to Kakao Pay and Toss",
+    "es": "Corea amplía la verificación del DNI a Kakao Pay y Toss"
+  },
+  "summary": {
+    "zh": "韩国内政安全部与金融监督院 11 月 23 日起在 Kakao Pay 和 Toss 上线居民登记证真伪核验，Naver Pay 计划 12 月接入。此前只核对姓名、居民登记号和发证日期，现在同时比对证件照片数据，以识别伪造、变造证件。两家平台去年合计完成约 1750 万次非面对面身份核验。",
+    "en": "South Korea's Ministry of the Interior and Safety and the Financial Supervisory Service launched resident registration card authenticity checks on Kakao Pay and Toss on November 23, with Naver Pay due to join in December. The check previously matched only the name, resident number and issue date printed on the card; it now also compares the card's photo data to catch forged or altered documents. The two platforms together ran about 17.5 million non-face-to-face identity checks last year.",
+    "es": "El Ministerio del Interior y Seguridad de Corea del Sur y el Servicio de Supervisión Financiera lanzaron el 23 de noviembre la verificación de autenticidad del carné de residencia en Kakao Pay y Toss; Naver Pay se sumará en diciembre. Antes solo se cotejaban el nombre, el número de residente y la fecha de emisión impresos en el documento; ahora también se compara la foto para detectar falsificaciones. Ambas plataformas realizaron unos 17,5 millones de verificaciones no presenciales el año pasado."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "从信息核对升级到照片比对",
+        "en": "From field matching to photo comparison",
+        "es": "De cotejo de datos a comparación de foto"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "韩国内政安全部 11 月 22 日宣布，政府居民登记证真伪核验服务从 11 月 23 日起在 Kakao Pay 和 Toss 上线，Naver Pay 计划 12 月接入。非面对面核验此前只交叉核对证件上印的姓名、居民登记号和发证日期，现在还比对证件照片数据，用以筛出伪造或变造的证件。据内政安全部，Kakao Pay 与 Toss 由此成为电子金融业首批提供这一等级核验的平台，能力对齐银行、券商和保险公司。",
+        "en": "South Korea's Ministry of the Interior and Safety announced on November 22 that its government resident registration card authenticity service would go live on Kakao Pay and Toss from November 23, with Naver Pay due to join in December. Non-face-to-face checks previously cross-matched only the name, resident number and issue date printed on the card; the service now also compares the document's photo data to screen out forged or altered cards. According to the ministry, Kakao Pay and Toss are the first e-finance platforms to offer this level of verification, previously available only to banks, securities firms and insurers.",
+        "es": "El Ministerio del Interior y Seguridad de Corea del Sur anunció el 22 de noviembre que su servicio de verificación de autenticidad del carné de residencia estaría activo en Kakao Pay y Toss desde el 23, con Naver Pay previsto para diciembre. Las verificaciones no presenciales cotejaban solo el nombre, el número de residente y la fecha de emisión impresos; ahora se compara también la foto del documento para descartar falsificaciones. Según el ministerio, Kakao Pay y Toss son las primeras plataformas financieras electrónicas con este nivel de verificación, antes reservado a bancos, corredoras y aseguradoras."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "制度与技术基础",
+        "en": "The agreement behind the service",
+        "es": "El acuerdo detrás del servicio"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这套服务的制度安排始于 7 月 9 日：内政安全部与 Kakao Pay、Toss、Naver Pay、金融监督院和韩国金融电信与清算院签署协议，7 月 27 日又出台使用通知，明确可用对象、方法与流程。韩国金融电信与清算院用金融公司已有的中转平台把支付应用接到政府系统。上线前，金融监督院对三家公司的核验技术和运营管理体系做了安全检查。",
+        "en": "The arrangement dates to July 9, when the ministry signed an agreement with Kakao Pay, Toss and Naver Pay alongside the Financial Supervisory Service and the Korea Financial Telecommunications and Clearings Institute. A notice issued on July 27 set out eligible users, methods and procedures. The clearing institute connected the payment apps to government systems through the relay platform already used by financial firms. Before launch, the Financial Supervisory Service reviewed the three companies' verification technology and operational management systems.",
+        "es": "El acuerdo se remonta al 9 de julio, cuando el ministerio firmó con Kakao Pay, Toss y Naver Pay, junto al Servicio de Supervisión Financiera y el Instituto de Telecomunicaciones y Compensación Financiera de Corea. Una notificación del 27 de julio fijó usuarios elegibles, métodos y procedimientos. El instituto conectó las apps de pago a los sistemas públicos mediante la plataforma intermedia que ya usan las entidades financieras. Antes del lanzamiento, el regulador revisó la tecnología de verificación y los sistemas de gestión de las tres empresas."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "核验规模与后续扩容",
+        "en": "Volume and expansion",
+        "es": "Volumen y ampliación"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "仅 Kakao Pay 和 Toss 两家，去年就完成约 750 万次和 1000 万次非面对面核验，合计约 1750 万次。内政安全部表示会同金融监督院和韩国金融电信与清算院继续监测运行情况，并把服务扩到其他电子金融企业。核验多出一道照片比对，也给这些平台的开户与转账流程带来新的中途放弃变量。",
+        "en": "Kakao Pay and Toss alone carried out about 7.5 million and 10 million non-face-to-face checks last year, roughly 17.5 million combined. The ministry says it will keep monitoring operations with the regulator and the clearing institute, and extend the service to other e-finance companies. Adding a photo comparison step also introduces a new drop-off variable in these platforms' sign-up and transfer flows.",
+        "es": "Solo Kakao Pay y Toss realizaron el año pasado unas 7,5 y 10 millones de verificaciones no presenciales, unos 17,5 millones en total. El ministerio afirma que seguirá supervisando el servicio con el regulador y el instituto de compensación, y lo ampliará a otras empresas financieras electrónicas. Añadir la comparación de foto introduce también un nuevo factor de abandono en los procesos de alta y transferencia de estas plataformas."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "证件核验从比对打印信息升级到比对证件照片，意味着受理端要处理的不再只是结构化字段，而是图像数据与政府证件库的关联查询；韩国金融电信与清算院用金融公司已有的中转平台把支付应用接到政府系统，给其他市场提供了一条可复用的接入路径。对支付平台而言，核验能力对齐银行级带来的是合规抬升——金融监督院的安全检查成为上线前置条件，后续接入的电子金融企业要付出同样的系统改造成本。核验多一道照片比对后，开户与转账的中途放弃率会成为运营方需要权衡的新变量。",
+    "en": "Moving from printed fields to the document's photo means the acceptance side no longer handles only structured data: it must link image data to a government document store. The clearing institute's decision to connect the payment apps through the relay platform already used by banks offers a reusable integration path for other markets. For the platforms, bank-grade verification raises the compliance bar — a regulator security review became a precondition for launch, and later e-finance entrants will face the same systems work. The extra photo-comparison step also gives operators a new drop-off rate to weigh in sign-up and transfer flows.",
+    "es": "Pasar de los datos impresos a la foto del documento significa que el lado de verificación ya no trata solo campos estructurados: debe vincular imágenes con un repositorio público de documentos. La decisión del instituto de compensación de conectar las apps mediante la plataforma intermedia que ya usan los bancos ofrece una vía de integración reutilizable en otros mercados. Para las plataformas, la verificación de nivel bancario eleva el listón de cumplimiento: la revisión de seguridad del regulador fue condición previa al lanzamiento y los nuevos entrantes afrontarán el mismo trabajo. El paso extra de comparar la foto introduce además una nueva tasa de abandono que los operadores deberán sopesar."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

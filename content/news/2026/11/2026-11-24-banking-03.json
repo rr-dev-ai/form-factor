@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-24-banking-02",
+  "slug": "eastcompeace-mastercard-ecos-certification",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "scheme-rules",
+    "secure-chip"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-24T04:17:20+08:00",
+  "ingestedAt": "2026-11-24T02:43:34+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "证券时报",
+      "url": "https://www.stcn.com/article/detail/4348705.html",
+      "lang": "zh",
+      "publishedAt": "2026-11-23T17:38:00+08:00"
+    },
+    {
+      "name": "同花顺财经",
+      "url": "https://stock.10jqka.com.cn/20261123/c682114923.shtml",
+      "lang": "zh"
+    }
+  ],
+  "title": {
+    "zh": "东信和平通过万事达新一代ECOS产品认证",
+    "en": "Eastcompeace passes Mastercard ECOS product certification",
+    "es": "Eastcompeace supera la certificación de producto ECOS de Mastercard"
+  },
+  "summary": {
+    "zh": "东信和平11月23日宣布，其产品通过基于万事达最新支付应用规范的ECOS产品认证，公司称是国内首家。ECOS是万事达用于替代M/Chip的新一代规范，以AES加密为核心密码底座，覆盖金融IC卡与非接支付产品。通过认证意味着该公司具备面向下一代支付场景的技术储备和交付能力。",
+    "en": "Eastcompeace said on 23 November that its products passed Mastercard's ECOS certification, based on the scheme's latest payment application specification; the company calls itself the first domestic vendor to do so. ECOS is Mastercard's next-generation specification intended to replace M/Chip, using AES encryption as its cryptographic base and covering IC cards and contactless payment products. Passing means the vendor can supply products built to the new specification.",
+    "es": "Eastcompeace anunció el 23 de noviembre que sus productos superaron la certificación ECOS de Mastercard, basada en la especificación de aplicación de pago más reciente de la red; la empresa se dice la primera nacional en lograrlo. ECOS es la especificación de próxima generación de Mastercard destinada a sustituir a M/Chip, con cifrado AES como base criptográfica y aplicable a tarjetas IC y pagos sin contacto. La certificación permite al proveedor entregar productos ajustados a la nueva norma."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "东信和平11月23日发布消息，其产品通过了基于万事达最新支付应用规范的ECOS产品认证。据该公司公告，东信和平是国内首家通过这项认证的厂商，认证范围涉及金融IC卡、非接支付产品与安全应用规范落地。",
+        "en": "Eastcompeace said on 23 November that its products had passed Mastercard's ECOS certification, based on the scheme's latest payment application specification. According to the company's notice, it is the first domestic vendor to pass, covering IC cards, contactless payment products and implementation of the security application specification.",
+        "es": "Eastcompeace informó el 23 de noviembre que sus productos superaron la certificación ECOS de Mastercard, basada en la especificación de aplicación de pago más reciente. Según el aviso de la empresa, es el primer proveedor nacional en lograrlo, con alcance sobre tarjetas IC, productos de pago sin contacto y la aplicación de la especificación de seguridad."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "ECOS是万事达推出的新一代支付应用规范，目标是替代原有的M/Chip方案。据同花顺财经对该认证的说明，ECOS以AES加密标准作为核心密码底座，强化交易链路的隐私加密防护，用于应对现有及新型攻击手段。",
+        "en": "ECOS is Mastercard's next-generation payment application specification, intended to replace the existing M/Chip scheme. As described in the certification coverage, ECOS uses AES encryption as its core cryptographic base and strengthens privacy protection along the transaction path against current and emerging attacks.",
+        "es": "ECOS es la especificación de aplicación de pago de nueva generación de Mastercard, concebida para sustituir al esquema M/Chip. Según la cobertura de la certificación, ECOS usa cifrado AES como base criptográfica central y refuerza la protección de la privacidad en la cadena de transacción frente a ataques actuales y nuevos."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "认证由万事达发放，通过方为东信和平。该公司表示，这项认证说明其产品与安全应用已达到万事达新一代规范的要求，具备面向下一代支付场景的技术储备和交付能力。公告未披露具体产品型号与认证时间，两家财媒稿件均未给出万事达方面的独立确认。",
+        "en": "The certification was issued by Mastercard to Eastcompeace. The company says it shows its products and security applications meet the new specification and that it can deliver products for next-generation payment scenarios. The notice did not name the certified product models or give a certification date, and neither financial-news report carries an independent confirmation from Mastercard.",
+        "es": "La certificación fue emitida por Mastercard a Eastcompeace. La empresa sostiene que demuestra que sus productos y aplicaciones de seguridad cumplen la nueva especificación y que puede entregar productos para escenarios de pago de próxima generación. El aviso no nombró los modelos certificados ni dio una fecha, y ninguno de los dos informes financieros incluye una confirmación independiente de Mastercard."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对制卡与个性化厂商，ECOS认证是一道新的准入门槛：万事达把M/Chip换成以AES为底座的ECOS，意味着金融IC卡与非接产品要重做安全应用的合规验证，谁先拿到认证，谁就先具备向银行交付新一代卡的资格。对国内发卡行，这条消息给出的是供应商侧的进度——规范替换已经落到具体厂商的产品上，采购时可以要求供应商出示ECOS认证，而不只是口头承诺支持。对东信和平自身，\"国内首家\"是其公告说法，尚未见万事达独立确认，先发窗口能否变成实际订单，要看后续银行招标。",
+    "en": "For card manufacturers and personalization vendors, ECOS certification is a new gate: as Mastercard moves from M/Chip to an AES-based specification, IC cards and contactless products need fresh compliance testing of their security applications, and the first vendors certified are the first able to deliver next-generation cards to banks. For Chinese issuers, the news marks supplier-side progress — the spec change has reached a named vendor's products, so procurement can ask for ECOS certification rather than accept a verbal claim of support. For Eastcompeace, \"first domestic vendor\" is its own wording with no independent Mastercard confirmation so far; whether the head start turns into orders depends on upcoming bank tenders.",
+    "es": "Para fabricantes de tarjetas y proveedores de personalización, la certificación ECOS es una nueva barrera de entrada: al pasar Mastercard de M/Chip a una especificación basada en AES, las tarjetas IC y los productos sin contacto requieren nueva validación de cumplimiento de sus aplicaciones de seguridad, y los primeros certificados son los primeros capaces de entregar tarjetas de nueva generación a los bancos. Para los emisores chinos, la noticia muestra avance del lado de proveedores: el cambio de norma ya llegó a los productos de un fabricante concreto, por lo que las compras pueden exigir la certificación ECOS en lugar de aceptar una promesa verbal. Para Eastcompeace, \"primer proveedor nacional\" es su propia afirmación, sin confirmación independiente de Mastercard; si la ventaja se convierte en pedidos depende de futuras licitaciones bancarias."
+  },
+  "confidence": 0.65,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

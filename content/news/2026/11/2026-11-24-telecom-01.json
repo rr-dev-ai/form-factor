@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-24-telecom-01",
+  "slug": "huawei-osta-o1-pro-esim-dual-active",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "esim",
+    "rsp"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-24T04:17:20+08:00",
+  "ingestedAt": "2026-11-24T02:57:17+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "IT之家",
+      "url": "https://m.ithome.com/html/1031219.htm",
+      "lang": "zh",
+      "publishedAt": "2026-11-23T22:58:00+08:00"
+    },
+    {
+      "name": "华为",
+      "url": "https://consumer.huawei.com/cn/osta/phones/o1-pro/specs",
+      "lang": "zh"
+    }
+  ],
+  "title": {
+    "zh": "华为星芒新机确认支持eSIM，四号可同时启用两个",
+    "en": "Huawei's OSTA O1 Pro supports eSIM with four numbers and two active at once",
+    "es": "El OSTA O1 Pro de Huawei confirma eSIM: cuatro números, dos activos"
+  },
+  "summary": {
+    "zh": "华为11月23日在官网规格页确认，新子品牌星芒OSTA O1 Pro支持eSIM：同一手机可存2个eSIM号码，连同2张实体卡最多4号，且能同时启用两个号码，支持双实体卡、实体卡加eSIM、双eSIM三种组合。该机11月20日发布，叠加国补后4999元起，eSIM需运营商开通。",
+    "en": "Huawei's official spec page confirmed on November 23 that its new OSTA O1 Pro supports eSIM: the phone stores up to two eSIM numbers alongside two nano-SIM slots for four numbers total, and can keep two active at once in three combinations. Launched November 20 from 4,999 yuan after subsidy, it needs carrier activation.",
+    "es": "La ficha técnica oficial de Huawei confirmó el 23 de noviembre que el nuevo OSTA O1 Pro admite eSIM: el teléfono almacena hasta dos números eSIM y, con dos ranuras nano-SIM, llega a cuatro números, con dos activos a la vez en tres combinaciones. Lanzado el 20 de noviembre desde 4.999 yuanes con subsidio, requiere activación del operador."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "华为官网的 OSTA O1 Pro 规格页在 11 月 23 日显示该机支持 eSIM。同一页面写明，这个功能需要开通运营商业务才能使用，目前只有部分运营商提供。华为在 11 月 20 日下午发布 OSTA 星芒子品牌及首款机型 O1 Pro，叠加国补后 4999 元起。",
+        "en": "Huawei's spec page for the OSTA O1 Pro began listing eSIM support on November 23. The page states the feature requires activation through a carrier and is currently offered by only some operators. Huawei launched the OSTA sub-brand and its first handset, the O1 Pro, on the afternoon of November 20, priced from 4,999 yuan after a state subsidy.",
+        "es": "La página de especificaciones del OSTA O1 Pro de Huawei empezó a mostrar la compatibilidad con eSIM el 23 de noviembre. La página indica que la función requiere contratar el servicio de un operador y que, por ahora, solo algunos operadores la ofrecen. Huawei presentó la submarca OSTA y su primer modelo, el O1 Pro, la tarde del 20 de noviembre, con un precio desde 4.999 yuanes tras el subsidio estatal."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "OSTA O1 Pro 的 eSIM 容量写进规格：单机最多存储 2 个 eSIM 号码，加上 SIM 卡 1 与 SIM 卡 2 两个 nano SIM 卡槽，同一台手机最多支持四个号码。规格列出三种双卡同时启用方案——两张实体卡、一张实体卡加任一 eSIM 号码、两个 eSIM 号码。",
+        "en": "The OSTA O1 Pro's eSIM capacity is specified on the page: the handset stores up to two eSIM numbers and, together with two nano-SIM slots, supports four numbers in total. Huawei lists three ways to run two numbers at once — two physical SIMs, one physical SIM plus any eSIM number, or two eSIM numbers.",
+        "es": "La capacidad eSIM del OSTA O1 Pro figura en la ficha: el teléfono guarda hasta dos números eSIM y, junto con dos ranuras nano-SIM, admite cuatro números en total. Huawei enumera tres formas de usar dos números a la vez: dos SIM físicas, una SIM física más cualquier número eSIM, o dos números eSIM."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "国内运营商的手机 eSIM 业务决定了这些号码能否落地。IT之家的报道指出，中国联通的 eSIM 机型名单已覆盖华为、苹果、OPPO、荣耀等品牌，中国移动单台手机最多可存 2 个移动 eSIM 号码，中国电信主要支持 iPhone、华为 Mate 等旗舰机型；手机 eSIM 套餐与实体卡套餐通用，暂无额外溢价。华为规格页也写明，eSIM 需开通运营商业务，目前仅部分运营商提供。",
+        "en": "Chinese carriers determine whether those numbers can be activated. IT Home reports that China Unicom's eSIM handset list already covers Huawei, Apple, OPPO and Honor, China Mobile allows up to two mobile eSIM numbers per handset, and China Telecom mainly supports flagship models such as the iPhone and Huawei Mate series. eSIM plans are priced the same as physical-SIM plans, with no surcharge. Huawei's spec page likewise says eSIM requires carrier service and is available from only some operators.",
+        "es": "Los operadores chinos deciden si esos números pueden activarse. IT Home señala que la lista de modelos compatibles con eSIM de China Unicom ya incluye a Huawei, Apple, OPPO y Honor; China Mobile permite hasta dos números eSIM móviles por teléfono; y China Telecom se centra en modelos insignia como el iPhone y la serie Mate de Huawei. Los planes eSIM cuestan lo mismo que los de SIM física, sin recargo. La ficha de Huawei también señala que eSIM requiere servicio del operador y solo está disponible en algunos."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对双卡终端和 eSIM 配置供应链，OSTA O1 Pro 把两个 eSIM 号码同时启用带到 5000 元价位的国行鸿蒙手机，竞争点从「有没有 eSIM」转向「一台机能存几个号、能同时开几个」。终端厂商要按两张 eSIM 并行驻留与切换设计测试，运营商的开卡与 EID 绑定系统也要支撑一机多号。国行 iPhone Duo 走的是无卡槽、纯 eSIM 路线，OSTA O1 Pro 保留实体卡槽再叠加 eSIM，为工作生活分号、两地号码并存这类场景留了位置。公告未说明三种组合下的数据并发能力，也未给出运营商侧开卡的具体时间。",
+    "en": "For handset and eSIM-provisioning suppliers, the OSTA O1 Pro brings two simultaneously active eSIM numbers to a 5,000-yuan-class HarmonyOS phone sold in China. Competition shifts from whether a phone has eSIM to how many numbers it can store and run at once. Device makers need test plans for two eSIM profiles resident and switching in parallel, and carrier activation and EID-binding systems have to support multiple numbers per device. The China-only iPhone Duo takes a different route with no physical SIM slot and eSIM only, while the OSTA O1 Pro keeps two physical slots and adds eSIM on top, leaving room for separate work and personal numbers. Huawei did not publish data concurrency for the three combinations or a carrier-side launch date.",
+    "es": "Para los fabricantes de terminales y los proveedores de aprovisionamiento eSIM, el OSTA O1 Pro lleva dos números eSIM activos a la vez a un teléfono HarmonyOS vendido en China. La competencia pasa de si el teléfono tiene eSIM a cuántos números puede guardar y ejecutar simultáneamente. Los fabricantes necesitan planes de prueba con dos perfiles eSIM residentes y conmutación en paralelo, y los sistemas de activación y vinculación EID de los operadores deben admitir varios números por dispositivo. El iPhone Duo, solo para China, sigue otra vía: sin ranura física y únicamente eSIM, mientras que el OSTA O1 Pro conserva dos ranuras físicas y añade eSIM, dejando sitio a números separados para trabajo y vida personal. Huawei no publicó la concurrencia de datos de las tres combinaciones ni una fecha de lanzamiento con los operadores."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "telecom-editor-2026-11"
+  }
+}
