@@ -1,0 +1,86 @@
+{
+  "id": "2026-11-25-identity-03",
+  "slug": "maldives-via-egates-foreign-passports",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "passport",
+    "biometrics",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-25T04:17:45+08:00",
+  "ingestedAt": "2026-11-25T03:11:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Maldives Business Review",
+      "url": "https://mbr.mv/story/24-11-2026-1228-international-travellers-can-now-use-e-gates-at-via",
+      "lang": "en",
+      "publishedAt": "2026-11-24T07:28:00Z"
+    }
+  ],
+  "title": {
+    "zh": "马尔代夫维拉纳机场自助闸机开放给外籍电子护照旅客",
+    "en": "Maldives' Velana airport opens e-gates to foreign e-passport holders",
+    "es": "El aeropuerto de Velana abre las compuertas a pasaportes electrónicos extranjeros"
+  },
+  "summary": {
+    "zh": "马尔代夫维拉纳国际机场 11 月 24 日把自助通关闸机从本国护照持有人扩大到符合条件的国际旅客，首批覆盖 46 个国籍、31 家航空公司的电子护照。机场现有 35 台闸机，入境 20 台、出境 15 台，用人脸与虹膜比对电子护照内信息，通关约 6 至 7 秒。",
+    "en": "Velana International Airport in the Maldives opened its e-gates to eligible international travelers on November 24, expanding beyond Maldivian passport holders. The first phase covers electronic passports from 46 nationalities on 31 airlines. The airport has 35 gates, 20 at arrivals and 15 at departures, using facial and iris recognition against data stored in e-passports, with clearance in about six to seven seconds.",
+    "es": "El aeropuerto internacional de Velana, en Maldivas, abrió el 24 de noviembre sus compuertas automáticas a viajeros internacionales elegibles, más allá de los titulares de pasaporte maldivo. La primera fase cubre pasaportes electrónicos de 46 nacionalidades en 31 aerolíneas. Hay 35 compuertas, 20 de llegadas y 15 de salidas, con reconocimiento facial e de iris frente a los datos del pasaporte electrónico, en unos seis o siete segundos."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "从本国旅客扩到 46 个国籍",
+        "en": "From domestic travelers to 46 nationalities",
+        "es": "De viajeros nacionales a 46 nacionalidades"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "马尔代夫维拉纳国际机场 11 月 24 日在 1 号航站楼把自助通关闸机服务扩大到符合条件的国际旅客。此前这套系统只面向马尔代夫护照持有人，持电子护照的外国旅客现在可在入境和出境两侧使用自动通关。马尔代夫移民局说，首批覆盖 46 个国籍、31 家参与航空公司的护照持有人，具体适用还要看入境与运营条件。",
+        "en": "Velana International Airport in the Maldives expanded e-gate service to eligible international travelers at Terminal 1 on November 24. Previously available only to Maldivian passport holders, the automated gates can now be used on arrival and departure by foreign travelers with electronic passports. Maldives Immigration said the first phase covers passport holders from 46 eligible nationalities traveling on 31 participating airlines, subject to entry and operational requirements.",
+        "es": "El aeropuerto internacional de Velana amplió el 24 de noviembre el servicio de compuertas automáticas en la Terminal 1 a viajeros internacionales elegibles. Antes disponible solo para titulares de pasaporte maldivo, las compuertas ahora pueden usarlas a la llegada y salida los extranjeros con pasaporte electrónico. Inmigración de Maldivas informó que la primera fase cubre 46 nacionalidades en 31 aerolíneas participantes, sujeto a requisitos de entrada y operación."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "维拉纳机场现有 35 台自助闸机，其中入境 20 台、出境 15 台。系统用人脸与虹膜识别把旅客身份与电子护照内存储的信息比对，并加入电子护照真伪校验。马尔代夫移民局称，符合条件的旅客通过人脸识别完成通关约需 6 至 7 秒。",
+        "en": "Velana airport currently has 35 e-gates, 20 at arrivals and 15 at departures. The system uses facial and iris recognition to verify travelers against information stored in electronic passports and includes electronic passport authentication. Maldives Immigration said eligible passengers clear in approximately six to seven seconds using facial recognition.",
+        "es": "El aeropuerto de Velana cuenta con 35 compuertas automáticas, 20 de llegadas y 15 de salidas. El sistema usa reconocimiento facial e de iris para verificar a los viajeros frente a la información guardada en el pasaporte electrónico e incluye autenticación del documento. Inmigración de Maldivas indicó que el paso tarda unos seis o siete segundos mediante reconocimiento facial."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "受理端扩容，签证随之电子化",
+        "en": "Acceptance expands, visas follow into digital form",
+        "es": "Se amplía la aceptación y el visado pasa a formato digital"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "扩大自助闸机适用人群由马尔代夫移民局与机场运营方 MACL 共同推动，仪式由国土安全、劳工与技术部长 Ali Ihusaan 主持。持电子护照的外国旅客过关后将收到电子旅游签证，签证详情发送到旅客在 IMUGA 旅客申报中填写的邮箱。此次调整改变的是口岸受理端的证件核验范围，通报未说明设备供应商或新增闸机数量。",
+        "en": "The expansion was driven by Maldives Immigration and airport operator MACL, with the inauguration led by Minister of Homeland Security, Labour and Technology Ali Ihusaan. Foreign travelers receive an electronic tourist visa after clearance, with visa details sent to the email address provided in the IMUGA Traveller Declaration. The change widens the set of documents accepted at the border verification terminal; the announcement did not name an equipment supplier or say how many gates were added.",
+        "es": "La ampliación fue impulsada por Inmigración de Maldivas y el operador aeroportuario MACL, con una inauguración presidida por el ministro de Seguridad Nacional, Trabajo y Tecnología Ali Ihusaan. Los viajeros extranjeros reciben un visado turístico electrónico tras el control, cuyos datos se envían al correo declarado en IMUGA. El cambio amplía los documentos aceptados en el terminal de verificación fronteriza; el anuncio no nombró proveedor ni precisó cuántas compuertas se añadieron."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "维拉纳机场把自助通关的受理范围从本国证件扩到 46 个国籍的电子护照，改变了口岸核验终端要处理的证件集合：设备必须能读多国电子护照芯片，并完成真伪校验，而不只服务单一国家的公民。对闸机与生物识别供应商而言，这是一个明确的多国证件互认落地案例，31 家参与航空公司意味着验证场景从机场扩展到航司值机环节。6 至 7 秒的通关时间是运营商衡量是否继续扩容的现成指标。电子旅游签证与通关结果绑定，也把证件受理和签证签发两个环节连到了同一条自助链路上。",
+    "en": "Velana airport's move widens e-gate acceptance from a national document to e-passports from 46 nationalities, changing the document set that border verification terminals must handle. Equipment has to read chips from many countries and authenticate them, not just serve one nation's citizens. For gate and biometric vendors this is a concrete case of multi-country document interoperability, and 31 participating airlines extend the verification scenario from the airport into airline check-in. The six-to-seven-second clearance time gives the operator a ready metric for deciding further expansion. Binding the electronic tourist visa to the clearance result also joins document acceptance and visa issuance into one self-service chain.",
+    "es": "La ampliación en Velana pasa de un documento nacional a pasaportes electrónicos de 46 nacionalidades, lo que cambia el conjunto de documentos que deben gestionar los terminales de verificación fronteriza: el equipo debe leer chips de muchos países y autenticarlos. Para proveedores de compuertas y biometría es un caso concreto de interoperabilidad multinacional, y 31 aerolíneas participantes extienden la verificación del aeropuerto al facto de embarque. Los seis o siete segundos de paso dan al operador una métrica clara para ampliar. Vincular el visado electrónico al resultado del control une la aceptación del documento y la emisión del visado en una sola cadena autoservicio."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

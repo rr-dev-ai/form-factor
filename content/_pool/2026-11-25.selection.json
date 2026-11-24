@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-24T20:15:57.893Z",
+  "selected": [
+    {
+      "industry": "identity",
+      "slug": "czech-eudi-wallet-wultra-consortium",
+      "score": 0.88,
+      "reason": "region-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-25"
+    },
+    {
+      "industry": "identity",
+      "slug": "maldives-via-egates-foreign-passports",
+      "score": 0.8,
+      "reason": "region-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-25"
+    },
+    {
+      "industry": "identity",
+      "slug": "tan-son-nhat-autogates-fingerprint-iris",
+      "score": 0.78,
+      "reason": "industry-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-25"
+    },
+    {
+      "industry": "banking",
+      "slug": "openway-visa-digitalisation-ready-apac",
+      "score": 0.55,
+      "reason": "manual",
+      "region": "apac",
+      "sourceDate": "2026-11-24"
+    },
+    {
+      "industry": "banking",
+      "slug": "aci-neopay-acquiring-fraud-uae",
+      "score": 0.45,
+      "reason": "manual",
+      "region": "mena",
+      "sourceDate": "2026-11-24"
+    },
+    {
+      "industry": "banking",
+      "slug": "deel-card-stripe-issuing-stablecoin-26-markets",
+      "score": 0.6,
+      "reason": "manual",
+      "region": "latam",
+      "sourceDate": "2026-11-24"
+    },
+    {
+      "industry": "banking",
+      "slug": "unionpay-djibouti-east-africa-bank-card-launch",
+      "score": 0.6,
+      "reason": "manual",
+      "region": "africa",
+      "sourceDate": "2026-11-24"
+    },
+    {
+      "industry": "telecom",
+      "slug": "starhub-m1-all-share-merger-circles-life",
+      "score": 0.68,
+      "reason": "manual",
+      "region": "apac",
+      "sourceDate": "2026-11-24"
+    }
+  ],
+  "alternates": [],
+  "expired": [],
+  "gaps": [
+    {
+      "region": "cis",
+      "note": "池内 0 条；搜索与当地站点直读无过门候选"
+    },
+    {
+      "region": "north-america",
+      "note": "池内 0 条；命中均为 RFI 或未上线"
+    }
+  ],
+  "unaccounted": [],
+  "conflicts": [
+    {
+      "kind": "undated",
+      "detail": "banking/openway-visa-digitalisation-ready-apac 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/aci-neopay-acquiring-fraud-uae 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/deel-card-stripe-issuing-stablecoin-26-markets 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/unionpay-djibouti-east-africa-bank-card-launch 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/clapp-visa-crypto-card-credit-line 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    },
+    {
+      "kind": "undated",
+      "detail": "telecom/starhub-m1-all-share-merger-circles-life 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "telecom/huawei-mate-x8-dual-esim-three-sim-active 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": false
+    }
+  ]
+}

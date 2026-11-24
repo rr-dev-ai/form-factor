@@ -1,0 +1,107 @@
+{
+  "id": "2026-11-25-identity-01",
+  "slug": "czech-eudi-wallet-wultra-consortium",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "mobile-id",
+    "national-id",
+    "pki",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-25T04:17:45+08:00",
+  "ingestedAt": "2026-11-25T03:11:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/wultra-led-consortium-wins-czech-eudi-wallet-concession-valetka-due-by-end-of-2027",
+      "lang": "en",
+      "publishedAt": "2026-11-24T17:58:00Z"
+    },
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/wultra-led-consortium-wins-tender-to-build-and-operate-the-czech-eu-digital-identity-wallet/",
+      "lang": "en",
+      "publishedAt": "2026-11-24T00:00:00Z"
+    },
+    {
+      "name": "Identity Week",
+      "url": "https://identityweek.net/wultra-led-consortium-wins-tender-to-deliver-and-operate-the-czech-european-digital-id-wallet/",
+      "lang": "en",
+      "publishedAt": "2026-11-24T16:01:00Z"
+    }
+  ],
+  "title": {
+    "zh": "Wultra 财团中标捷克国家数字身份钱包 Valetka",
+    "en": "Wultra consortium wins Czech national digital ID wallet concession",
+    "es": "Consorcio liderado por Wultra gana la concesión de la cartera digital checa"
+  },
+  "summary": {
+    "zh": "捷克数字与信息局 11 月 24 日宣布，Wultra 牵头的财团中标国家欧洲数字身份钱包 Valetka 的建设与运营特许合同。钱包计划 2027 年底上线，目标到 2032 年覆盖 400 万用户和 1500 家参与商户，并与捷克邮政合作设立 200 多个线下注册点。",
+    "en": "Czechia's Digital and Information Agency announced on November 24 that a consortium led by Wultra won the concession to build and operate Valetka, the national European Digital Identity Wallet. The wallet is due by the end of 2027 and targets more than four million users and 1,500 participating businesses by 2032, with over 200 assisted sign-up points run with Czech Post.",
+    "es": "La Agencia Digital y de Información de Chequia anunció el 24 de noviembre que un consorcio liderado por Wultra ganó la concesión para construir y operar Valetka, la cartera nacional de identidad digital europea. La app estará lista a finales de 2027 y apunta a más de cuatro millones de usuarios y 1.500 empresas participantes para 2032, con más de 200 puntos de registro asistido junto a Correos Checos."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "按使用效果付费的特许合同",
+        "en": "A concession paid for results",
+        "es": "Una concesión pagada por resultados"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "捷克数字与信息局（DIA）11 月 24 日公布 Valetka 项目的中标方。合同采用特许经营形式：承建方负责开发、运营并推动用户采用，国家按服务质量和实际使用付费，未达约定目标就减少付款。DIA 计划在 11 月底前签署合同并在公共合同登记册公布量化目标，合同金额与期限均未披露。",
+        "en": "Czechia's Digital and Information Agency (DIA) named the winner of the Valetka project on November 24. The state is buying the wallet as a concession: the supplier builds it, operates it and drives adoption, while payment depends on service quality and actual use, with less money paid if agreed targets are missed. DIA plans to sign by the end of November and publish measurable goals in the public contracts register; neither value nor duration has been disclosed.",
+        "es": "La Agencia Digital y de Información de Chequia (DIA) anunció el 24 de noviembre al ganador del proyecto Valetka. El Estado compra la cartera como concesión: el proveedor la construye, la opera y promueve su uso, y el pago depende de la calidad del servicio y del uso real, con menos dinero si no se alcanzan los objetivos. DIA firmará antes de fin de noviembre y publicará las metas medibles; no se han revelado importe ni duración."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Valetka 上线时将承载身份证明、身份证数据、驾驶授权、年龄证明和代表关系，可在政府部门、银行和酒店出示，并支持在全欧盟范围内具有法律效力的合格电子签名。钱包只披露交易所必需的属性，例如网上商店核验年龄时只回答是否达标，不透露出生日期。",
+        "en": "At launch, Valetka will carry proof of identity, ID card data, driving authorization, age verification and representation. People can present it at government offices, banks and hotels, and sign documents with a qualified electronic signature valid across the EU. The wallet shares only what a transaction needs: an online age check returns whether the customer is old enough, not a date of birth.",
+        "es": "Al lanzarse, Valetka incluirá prueba de identidad, datos del DNI, autorización de conducción, verificación de edad y representación. Se podrá mostrar en oficinas públicas, bancos y hoteles, y firmar documentos con una firma electrónica cualificada válida en toda la UE. La cartera comparte solo lo necesario: una comprobación de edad en línea responde si el cliente cumple la edad, no su fecha de nacimiento."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "从 eDoklady 走向全欧互认",
+        "en": "From eDoklady to EU-wide interoperability",
+        "es": "De eDoklady a la interoperabilidad europea"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "捷克现有的手机证件应用 eDoklady 将继续作为仅在国内使用的应用运行，Valetka 则按修订后的 eIDAS 条例建设，可在欧盟跨境使用。按 eIDAS 2.0，每个成员国须在 2026 年底前提供至少一个数字身份钱包，受监管的私营机构须在 2027 年底前接受合规钱包。",
+        "en": "Czechia's existing mobile ID app eDoklady will keep running as a domestic-only app, while Valetka is built to the revised eIDAS regulation and works across the EU. Under eIDAS 2.0 every member state must offer at least one wallet by late 2026, and regulated private-sector organizations must accept compliant wallets by the end of 2027.",
+        "es": "La actual app checa eDoklady seguirá funcionando solo a nivel nacional, mientras que Valetka se construye según el eIDAS revisado y funciona en toda la UE. Bajo eIDAS 2.0 cada Estado miembro debe ofrecer una cartera antes de finales de 2026, y las organizaciones privadas reguladas deben aceptarla antes de finales de 2027."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "中标财团除 Wultra 外还包括 iProov、Signicat、Youniqx Identity 和 Partners Bank，Amdocs 为分包方。项目目标为 2032 年前覆盖 400 万用户与 1500 家参与机构，并与捷克邮政合作运营 200 多个 WalletPoint，帮助无法自行在线注册的人完成办理。",
+        "en": "Besides Wultra, the winning consortium includes iProov, Signicat, Youniqx Identity and Partners Bank, with Amdocs as subcontractor. The targets are more than four million users and 1,500 participating organizations by 2032. The consortium will also run more than 200 WalletPoints with Czech Post to help people who cannot enroll online.",
+        "es": "Además de Wultra, el consorcio ganador incluye a iProov, Signicat, Youniqx Identity y Partners Bank, con Amdocs como subcontratista. Las metas son más de cuatro millones de usuarios y 1.500 organizaciones participantes para 2032. El consorcio operará también más de 200 WalletPoint con Correos Checos para ayudar a quienes no pueden registrarse en línea."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "Valetka 的中标把欧洲钱包供应商的竞争焦点从「谁能建钱包」推向「谁能承接国家级运营与到店推广」。DIA 把付款与服务质量、实际使用量绑定，意味着 iProov 的人脸核验、Signicat 的身份验证和 Youniqx 的钱包技术都要在真实采用率上兑现，而不只是交付软件。捷克把上线时间定在 2027 年底，晚于 eIDAS 2.0 的 2026 年底期限，也晚于德国 d-you 的 2027 年 1 月，成员国的落地节奏正在分化。对银行与商户而言，2027 年底的受理义务已进入倒计时，认证与接口改造需要提前排期。",
+    "en": "The Valetka award shifts the competitive question for European wallet vendors from who can build a wallet to who can run national-scale operations and in-person onboarding. DIA ties payment to service quality and real usage, so iProov's face checks, Signicat's identity proofs and Youniqx's wallet technology must deliver adoption, not just software. Czechia's end-2027 launch lands after the eIDAS 2.0 deadline and after Germany's January 2027 d-you launch, showing member-state rollouts are diverging. For banks and merchants, the 2027 acceptance obligation is now a countdown, and certification and interface work needs scheduling.",
+    "es": "La adjudicación de Valetka desplaza la competencia entre proveedores europeos de quién puede construir una cartera a quién puede operarla a escala nacional y gestionar el registro presencial. DIA vincula el pago a la calidad y al uso real, de modo que las verificaciones faciales de iProov, las pruebas de identidad de Signicat y la tecnología de Youniqx deben lograr adopción, no solo entregar software. El lanzamiento checo a finales de 2027 llega después del plazo de eIDAS 2.0 y del de d-you en Alemania en enero de 2027, lo que muestra ritmos de implantación divergentes. Para bancos y comercios, la obligación de aceptación de 2027 ya es una cuenta atrás."
+  },
+  "confidence": 0.88,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

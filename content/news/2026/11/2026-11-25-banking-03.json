@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-25-banking-03",
+  "slug": "deel-card-stripe-issuing-stablecoin-26-markets",
+  "industry": "banking",
+  "region": "latam",
+  "regions": [
+    "africa"
+  ],
+  "tags": [
+    "issuing",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-25T04:17:45+08:00",
+  "ingestedAt": "2026-11-25T02:37:56+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "The Defiant",
+      "url": "https://thedefiant.io/deel-launches-stablecoin-spending-card-in-26-markets",
+      "lang": "en",
+      "publishedAt": "2026-11-24T00:00:00+00:00"
+    },
+    {
+      "name": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20261124A0FX8F00",
+      "lang": "zh",
+      "publishedAt": "2026-11-24T00:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "Deel 上线稳定币消费卡，26 市场由 Stripe 发卡",
+    "en": "Deel launches stablecoin spending card across 26 markets on Stripe Issuing",
+    "es": "Deel lanza tarjeta de gasto en stablecoins en 26 mercados con Stripe Issuing"
+  },
+  "summary": {
+    "zh": "Deel 于 11 月 24 日推出新版 Deel Card，承包商可直接用 DLUSD 稳定币余额在 Visa 网络消费。卡由 Lead Bank 依 Visa 授权发行、Bridge Ventures 担任项目管理方，底层使用 Stripe Issuing。即日起在拉美、加勒比和非洲 26 个市场开放虚拟卡，实体卡数周后推出。",
+    "en": "Deel launched a new Deel Card on 24 November that lets contractors spend DLUSD stablecoin balances directly over the Visa network. The prepaid debit Visa card is issued by Lead Bank under licence from Visa, with Bridge Ventures as program manager, on Stripe Issuing infrastructure. Virtual cards are live from 24 November in 26 markets across Latin America, the Caribbean and Africa; physical cards follow in coming weeks.",
+    "es": "Deel lanzó el 24 de noviembre una nueva Deel Card que permite a contratistas gastar saldos en stablecoin DLUSD directamente en la red Visa. La tarjeta prepago de débito Visa es emitida por Lead Bank con licencia de Visa, con Bridge Ventures como gestora del programa, sobre la infraestructura de Stripe Issuing. Las tarjetas virtuales están disponibles desde el 24 de noviembre en 26 mercados de América Latina, el Caribe y África; las físicas llegarán en las próximas semanas."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Deel 于 11 月 24 日宣布推出新版 Deel Card。符合条件的用户可把平台内的 DLUSD 美元稳定币余额直接用于消费，商户以本地货币收款，用户可把卡加入 Apple Pay 或 Google Pay，无须先转回银行账户或另开账户。Deel 是面向企业的薪酬与人力资源平台。",
+        "en": "Deel announced the new Deel Card on 24 November. Eligible users can spend their DLUSD dollar-stablecoin balance held on the platform directly, with merchants paid in local currency and the card addable to Apple Pay or Google Pay, without first moving funds back to a bank account or opening a new one. Deel is a payroll and human-resources platform for companies.",
+        "es": "Deel anunció el 24 de noviembre la nueva Deel Card. Los usuarios elegibles pueden gastar directamente su saldo en DLUSD, una stablecoin denominada en dólares, con los comercios cobrando en moneda local y la tarjeta añadible a Apple Pay o Google Pay, sin tener que devolver los fondos a una cuenta bancaria ni abrir otra. Deel es una plataforma de nóminas y recursos humanos para empresas."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这张卡由 Lead Bank 依 Visa 授权发行，Bridge Ventures 担任项目管理方，发卡基础设施来自 Stripe Issuing，稳定币由 Bridge 发行、钱包由 Privy 支持。Deel 于 2026 年 6 月上线稳定币钱包，公司称用户至今已存入逾 4500 万美元 DLUSD。",
+        "en": "The card is issued by Lead Bank under licence from Visa, with Bridge Ventures as program manager and card-issuing infrastructure from Stripe Issuing; Bridge issues the stablecoin and Privy powers the wallet. Deel launched its stablecoin wallet in June 2026 and says users have since deposited more than 45 million dollars in DLUSD.",
+        "es": "La tarjeta es emitida por Lead Bank con licencia de Visa, con Bridge Ventures como gestora del programa y la infraestructura de emisión de Stripe Issuing; Bridge emite la stablecoin y Privy gestiona la billetera. Deel lanzó su billetera de stablecoins en junio de 2026 y afirma que los usuarios han depositado desde entonces más de 45 millones de dólares en DLUSD."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "新版 Deel Card 即日起在拉美、加勒比与非洲 26 个市场开放，包括阿根廷、巴西、哥伦比亚、肯尼亚和南非，虚拟卡先上线，实体卡计划在未来数周推出。标准版免费、返现 0.5%，高级版一次性收费 99 美元、返现 1.5%。公告未披露持卡人数或稳定币余额占总薪酬的比例。",
+        "en": "The new Deel Card is available from 24 November in 26 markets across Latin America, the Caribbean and Africa, including Argentina, Brazil, Colombia, Kenya and South Africa. Virtual cards are live first, with physical cards planned in coming weeks. A free Standard plan returns 0.5% cashback and a 99-dollar Premium plan returns 1.5%. The announcement did not disclose cardholder numbers or what share of total payouts sits in stablecoin balances.",
+        "es": "La nueva Deel Card está disponible desde el 24 de noviembre en 26 mercados de América Latina, el Caribe y África, entre ellos Argentina, Brasil, Colombia, Kenia y Sudáfrica. Las tarjetas virtuales se lanzan primero y las físicas están previstas en las próximas semanas. El plan Standard gratuito devuelve 0,5% en recompensas y el plan Premium, de 99 dólares, devuelve 1,5%. El anuncio no reveló el número de titulares ni qué parte de los pagos totales se mantiene en saldos de stablecoins."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对薪酬平台和发卡处理商，这条给出了稳定币余额接入卡轨道的完整分工：Stripe Issuing 管发卡、Bridge 管稳定币、Privy 管钱包、Lead Bank 持牌发行，后来者不必自己凑齐这套组合。对拉美与非洲的承包商，变化是收入不必先换成法币进银行就能花，26 个市场的名单让这条路径可核验。它与 11 月 20 日 Pine Labs 的 Staq 不是同一事件：Pine Labs 是支付公司用稳定币余额发 Visa 预付卡，Deel 是企业薪酬平台把已发工资的余额直接接到卡上，主体和在产业链的位置不同。返现与费率是营销口径，实际成本要看兑换价差；公告也没有持卡人数，规模仍不透明。",
+    "en": "For payroll platforms and issuing processors, this shows a full division of labour for connecting stablecoin balances to card rails: Stripe Issuing handles issuing, Bridge the stablecoin, Privy the wallet, and Lead Bank the licensed issuance, so followers need not assemble the stack themselves. For contractors in Latin America and Africa, the change is that earnings can be spent without first converting to fiat and depositing in a bank, and the 26-market list makes the path verifiable. This is not the same event as Pine Labs' Staq on 20 November: Pine Labs is a payments company issuing Visa prepaid cards against stablecoin balances, while Deel is a payroll platform connecting already-paid wages directly to a card, with different actors and positions in the chain. Cashback and fees are promotional figures and real cost depends on the conversion spread; no cardholder count was given, so scale stays opaque.",
+    "es": "Para plataformas de nóminas y procesadores de emisión, esto muestra una división completa del trabajo para conectar saldos de stablecoins a las redes de tarjetas: Stripe Issuing gestiona la emisión, Bridge la stablecoin, Privy la billetera y Lead Bank la emisión con licencia, por lo que quienes sigan no necesitan armar el conjunto por su cuenta. Para contratistas de América Latina y África, el cambio es que sus ingresos pueden gastarse sin convertirlos primero a moneda fiduciaria y depositarlos en un banco, y la lista de 26 mercados hace verificable la vía. No es el mismo evento que Staq de Pine Labs el 20 de noviembre: Pine Labs es una empresa de pagos que emite tarjetas prepago Visa contra saldos de stablecoins, mientras Deel es una plataforma de nóminas que conecta salarios ya pagados directamente a una tarjeta, con actores y posiciones distintos en la cadena. Las recompensas y comisiones son cifras promocionales y el coste real depende del diferencial de conversión; no se informó el número de titulares, por lo que la escala sigue siendo opaca."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

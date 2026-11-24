@@ -1,0 +1,42 @@
+{
+  "fetchedAt": "2026-11-25T01:57:09+08:00",
+  "fetchedFor": "2026-11-25",
+  "gap": ["cis", "mena", "europe", "latam"],
+  "cellGap": ["apac/banking", "apac/telecom", "north-america/banking", "north-america/telecom", "africa/telecom"],
+  "industryGap": ["telecom", "banking", "identity"],
+  "items": [
+    {
+      "title": "Wultra 牵头财团中标捷克国家 EUDI 数字身份钱包，含 200+ 线下 WalletPoint",
+      "url": "https://idtechwire.com/wultra-led-consortium-wins-tender-to-build-and-operate-the-czech-eu-digital-identity-wallet/",
+      "publishedAt": "2026-11-24T12:00:00+01:00",
+      "industry": "identity",
+      "region": "europe",
+      "actionType": "授标",
+      "gateNote": "特许经营合同，明确中标方（Wultra、iProov、Signicat、youniqx Identity、Partners Bank，Amdocs 分包）与建设＋运营＋推广范围，承接方一项可核；但原文未给金额、合同期限、发卡量或覆盖人口，且从中标到公民实际开通仍有交付周期。终审若按授标需「金额/规模/节点三项至少两项」收紧，只剩承接方一项会被刷掉。页面只标日期无时刻，+01:00 按布拉格时区占位。",
+      "discoveredBy": "R4 归档直读 idtechwire 首页（Wultra-Led Consortium Wins Tender to Build and Operate the Czech EU Digital Identity Wallet）",
+      "note": "落在身份凭证的签发与受理环节。捷克按修订版 eIDAS 建国家 EUDI 钱包，Wultra 财团以特许经营方式负责交付与运营，并联合捷克邮政设 200 多个 WalletPoint 提供线下协助登记，行动不便者可上门，以满足高保证等级。机制变化是国家数字身份从试点转为有中标方、有全国受理网络的项目，且把线下通道写进合同。原文未给金额、期限、发卡量与覆盖人口，勿写成已可向公民发放。"
+    },
+    {
+      "title": "美国国务院就替换 4.3 亿人脸的护照与签证生物识别系统发 RFI",
+      "url": "https://www.biometricupdate.com/202611/us-seeks-replacement-for-430m-face-passport-and-visa-biometric-matching-system",
+      "publishedAt": "2026-11-23T16:00:00-05:00",
+      "industry": "identity",
+      "region": "north-america",
+      "actionType": "无",
+      "gateNote": "这是信息征询（RFI）而非招标或授标，无中标方、无金额，七类动作都不贴：要求 12 月 11 日前回复，合同设想为 2027-04-01 起一年基准＋四年选择期至 2032-03，均属未来安排。终审若按「授标」或「产品化节点」门槛收紧会刷掉；保留是因它给出替换现有 4.3 亿人脸库的具体机制需求，属护照/签证受理链的机制层变化。",
+      "discoveredBy": "R4 归档直读 biometricupdate /202611（US seeks replacement for 430M-face passport and visa biometric matching system）",
+      "note": "落在身份凭证的核验与受理环节。美国国务院外交技术局发 RFI，拟替换 IDEMIA 支撑的企业级生物识别系统：要一对多识别、一对一核验与登记，可扩新图像库与监视名单，支持虹膜多模态。IDEMIA 称现库逾 4.3 亿人脸，为美国联邦最大。机制变化是护照签证核验底层引擎拟更换、摆脱专有组件锁定。原文无预算、中标方与选型，并点明 CEAC 依赖或致单一来源；勿写成已决定换供应商。"
+    },
+    {
+      "title": "斐济推进自愿生物识别身份证法案，11 月 30 日议会提交",
+      "url": "https://www.biometricupdate.com/202611/fiji-advances-voluntary-biometric-id-law-maps-788-government-services-for-digitization",
+      "publishedAt": "2026-11-24T08:28:00-05:00",
+      "industry": "identity",
+      "region": "apac",
+      "actionType": "无",
+      "gateNote": "工作草案于 11-20 获指导委员会背书、预计 11-30 至 12-04 议会会期提交，尚未成法、无承建方、无金额、无发证时间表，七类动作都不贴。终审若按「首次或变化」＋「可核具体物」收紧，只剩自愿制与 788 项服务数字化两个口径，会被刷掉。保留是因它给出证件采集的生物特征范围与撤回机制，属签发链机制层动向。",
+      "discoveredBy": "R4 归档直读 biometricupdate /202611（Fiji advances voluntary biometric ID law, maps 788 government services for digitization）",
+      "note": "落在身份凭证的采集与签发机制。斐济国家身份项目指导委员会 11-20 通过《2026 国家身份法案》草案，拟建自愿登记的生物识别国民身份系统，采集指纹与面部图像并限定授权用途，核验须本人同意，允许查询更正与登记后退出，不登记者不被拒服务。机制变化是把生物特征采集、同意核验与退出权写入法案，并将 788 项政府服务列入优先数字化。原文无承建方、金额、设备与发卡量，也未给生效日；勿写成新授标。"
+    }
+  ]
+}

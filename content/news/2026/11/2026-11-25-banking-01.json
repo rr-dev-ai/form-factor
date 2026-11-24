@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-25-banking-01",
+  "slug": "openway-visa-digitalisation-ready-apac",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "scheme-rules"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-25T04:17:45+08:00",
+  "ingestedAt": "2026-11-25T02:37:56+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Fintech News Singapore",
+      "url": "https://fintechnews.sg/142264/payments/openway-visa-digital-payments-apac/",
+      "lang": "en",
+      "publishedAt": "2026-11-24T09:33:46Z"
+    }
+  ],
+  "title": {
+    "zh": "OpenWay 加入 Visa 数字化计划，亚太先上两项支付能力",
+    "en": "OpenWay joins Visa digitalisation programme, starts with two payment capabilities in APAC",
+    "es": "OpenWay se suma al programa de digitalización de Visa y lanza dos capacidades de pago en Asia-Pacífico"
+  },
+  "summary": {
+    "zh": "OpenWay 于 11 月 24 日宣布加入 Visa 数字化就绪计划，先在其 Way4 处理平台上落地 Visa Flexible Credential 与 Click to Pay 两项能力，面向亚太的银行、支付处理商与金融科技公司。Flexible Credential 让一个支付凭证调用多个资金来源，Click to Pay 让网购免于反复输入卡号。双方称后续可纳入更多 Visa 数字支付方案。",
+    "en": "OpenWay said on 24 November that it joined Visa's Digitalisation Ready Program, starting with Visa Flexible Credential and Click to Pay on its Way4 processing platform for banks, payment processors and fintechs across Asia-Pacific. Flexible Credential lets one payment credential draw on multiple funding sources, while Click to Pay removes repeated card-number entry online. The two firms say more Visa digital payment solutions may be added later.",
+    "es": "OpenWay anunció el 24 de noviembre que se unió al Programa de Digitalización de Visa, empezando por Visa Flexible Credential y Click to Pay en su plataforma de procesamiento Way4 para bancos, procesadores y fintechs de Asia-Pacífico. Flexible Credential permite que una sola credencial use varias fuentes de financiación, y Click to Pay evita introducir el número de tarjeta repetidamente en compras en línea. Ambas empresas señalan que podrían sumarse más soluciones digitales de Visa más adelante."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "OpenWay 于 11 月 24 日宣布加入 Visa 数字化就绪计划（Digitalisation Ready Program）。这家发卡与收单处理软件商将先在其 Way4 处理平台上集成 Visa Flexible Credential 与 Click to Pay，供亚太地区的银行、支付处理商和金融科技公司部署。OpenWay 亚洲区董事总经理 Rudy Gunawan 表示，两项能力的初始目标是让客户在资金来源和网购体验上有更多选择。",
+        "en": "OpenWay announced on 24 November that it joined Visa's Digitalisation Ready Program. The issuer and acquirer processing software vendor will first integrate Visa Flexible Credential and Click to Pay into its Way4 processing platform for banks, payment processors and fintechs in Asia-Pacific to deploy. Rudy Gunawan, managing director for Asia at OpenWay, said the initial focus of the two capabilities is to give clients more choice in how purchases are funded and how they pay online.",
+        "es": "OpenWay anunció el 24 de noviembre que se unió al Programa de Digitalización de Visa (Digitalisation Ready Program). Este proveedor de software de procesamiento de emisión y adquirencia integrará primero Visa Flexible Credential y Click to Pay en su plataforma Way4, para que bancos, procesadores y fintechs de Asia-Pacífico los desplieguen. Rudy Gunawan, director general para Asia de OpenWay, señaló que el objetivo inicial de ambas capacidades es dar a los clientes más opciones de financiación y de pago en línea."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Visa Flexible Credential 的机制是让持卡人用一个支付凭证访问多个资金来源，具体启用借记还是信用由发卡行决定。Click to Pay 则让已在项目中登记的银行卡在参与电商网站结账时自动带出，省去逐次输入卡号。OpenWay 表示 Click to Pay 已可在 Way4 平台上使用，Flexible Credential 是本次新增集成的重点。",
+        "en": "Visa Flexible Credential lets a cardholder access multiple funding sources through one payment credential, with the issuer deciding whether debit or credit is used. Click to Pay automatically fills enrolled cards at participating online checkouts, removing repeated manual entry. OpenWay says Click to Pay is already available on Way4, and Flexible Credential is the main capability being integrated now.",
+        "es": "Visa Flexible Credential permite al titular acceder a varias fuentes de financiación con una sola credencial de pago, y el emisor decide si se usa débito o crédito. Click to Pay rellena automáticamente las tarjetas inscritas en comercios electrónicos participantes, evitando introducir los datos cada vez. OpenWay indica que Click to Pay ya está disponible en Way4 y que Flexible Credential es la capacidad principal que se integra ahora."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Visa 核心平台与数字解决方案主管 Krishna Thiruvengadam 表示，此次合作先把两项能力带给双方共同客户，后续视情况扩大到更多 Visa 数字支付方案。公告未给出上线的银行名单、具体时间表或商户规模，落地节奏仍取决于各家客户自己的排期。",
+        "en": "Krishna Thiruvengadam, head of core platform and digital solutions at Visa, said the collaboration starts by bringing the two capabilities to mutual clients and may expand to more Visa digital payment solutions. The announcement gave no launch banks, timetable or merchant scale, so the rollout pace still depends on each client's own schedule.",
+        "es": "Krishna Thiruvengadam, responsable de plataforma central y soluciones digitales de Visa, señaló que la colaboración empieza llevando las dos capacidades a clientes comunes y podría ampliarse a más soluciones digitales de Visa. El anuncio no identificó bancos de lanzamiento, calendario ni escala de comercios, por lo que el ritmo de despliegue dependerá del cronograma de cada cliente."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对亚太发卡行和处理商，这次变化在于两项 Visa 能力被做成 Way4 平台内可直接启用的模块：接入 Flexible Credential 不必各自与 Visa 单独建连接，采购决策从「要不要自建」变成「在现有平台上打开哪个功能」。对 Visa，这把数字化方案的分发从逐个银行签约前移到处理平台层，Way4 的存量客户成为潜在上线方。需要看清边界：11 月 19 日 UQPAY 投产的 Visa Payment Passkey 解决的是持卡人身份核验，这次动的是一张卡的资金来源和网购结账流程，两者同属 Visa 数字化清单但落在不同环节。公告没有银行名单和时间表，能否变成实际发卡量要看客户排期。",
+    "en": "For Asia-Pacific issuers and processors, the change is that two Visa capabilities become modules that can be switched on inside the Way4 platform: adopting Flexible Credential no longer requires each bank to build a separate connection to Visa, and the buying decision shifts from whether to build it to which feature to enable on an existing platform. For Visa, this moves distribution of its digital solutions from bank-by-bank deals up to the processing-platform layer, turning Way4's installed base into potential launch clients. The boundary matters: UQPAY put Visa Payment Passkey into production on 19 November to verify cardholder identity, whereas this move changes how a card is funded and checked out online. Both sit on Visa's digitalisation list but touch different steps. No banks or timetable were named, so actual issuance volumes depend on client schedules.",
+    "es": "Para bancos emisores y procesadores de Asia-Pacífico, el cambio es que dos capacidades de Visa se convierten en módulos activables dentro de la plataforma Way4: adoptar Flexible Credential ya no exige que cada banco construya una conexión propia con Visa, y la decisión de compra pasa de si conviene desarrollarlo a qué función activar en una plataforma existente. Para Visa, esto traslada la distribución de sus soluciones digitales de acuerdos banco por banco al nivel de la plataforma de procesamiento, convirtiendo la base instalada de Way4 en posibles clientes de lanzamiento. Conviene precisar el alcance: UQPAY puso en producción Visa Payment Passkey el 19 de noviembre para verificar la identidad del titular, mientras que este movimiento cambia cómo se financia una tarjeta y cómo se paga en línea. Ambos figuran en la lista de digitalización de Visa pero actúan en eslabones distintos. El anuncio no nombró bancos ni calendario, por lo que los volúmenes reales de emisión dependerán de los cronogramas de los clientes."
+  },
+  "confidence": 0.55,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

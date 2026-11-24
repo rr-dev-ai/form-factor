@@ -1,0 +1,86 @@
+{
+  "id": "2026-11-25-identity-02",
+  "slug": "tan-son-nhat-autogates-fingerprint-iris",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "passport",
+    "biometrics",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-25T04:17:45+08:00",
+  "ingestedAt": "2026-11-25T03:11:00+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "VietnamNet",
+      "url": "https://vietnamnet.vn/en/tan-son-nhat-airport-to-install-and-upgrade-20-automated-immigration-gates-2578299.html",
+      "lang": "en",
+      "publishedAt": "2026-11-24T15:04:00Z"
+    }
+  ],
+  "title": {
+    "zh": "胡志明市机场装 20 台自助通关闸机，指纹虹膜直连人口库",
+    "en": "Ho Chi Minh City airport adds 20 autogates with fingerprint and iris checks",
+    "es": "Aeropuerto de Ciudad Ho Chi Minh suma 20 compuertas con huella e iris"
+  },
+  "summary": {
+    "zh": "越南新山一机场移民警 11 月 24 日通报，正安装 10 台自助通关闸机并升级出境区 10 台旧闸机，共 20 台。新一代系统采用指纹与虹膜识别，直连国家人口数据库和二级电子身份账户，旅客无需事先登记即可出入境，计划 12 月初正式投用。",
+    "en": "Immigration police at Vietnam's Tan Son Nhat airport said on November 24 that they are installing 10 new autogates and upgrading 10 existing departure gates, 20 in total. The next-generation system uses fingerprint and iris recognition linked directly to the national population database and level-2 electronic identity accounts, so travelers skip prior registration. All 20 gates are due to enter service in early December.",
+    "es": "La policía de inmigración del aeropuerto Tan Son Nhat informó el 24 de noviembre que instala 10 nuevas compuertas automáticas y mejora 10 existentes de salidas, 20 en total. El sistema usa huella e iris conectados directamente a la base de datos nacional de población y a cuentas de identidad electrónica de nivel 2, sin registro previo. Las 20 compuertas entrarán en servicio a principios de diciembre."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "入境新增 10 台，出境升级 10 台",
+        "en": "Ten new arrival gates, ten upgraded departure gates",
+        "es": "Diez nuevas compuertas de llegadas, diez mejoradas de salidas"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "新山一国际机场移民警 11 月 24 日通报，正在入境区安装 10 台自助通关闸机，并对出境区 10 台旧闸机做全面升级扩容。施工期间原有闸机保持运行，但可用通道减少，越南护照持有人可能在高峰时段遇到局部排队，机场已增派人员维持秩序。",
+        "en": "Immigration police at Tan Son Nhat International Airport said on November 24 that they are installing 10 new autogates in the arrivals area and comprehensively upgrading 10 existing gates in departures. Existing gates stay open during construction, but the reduced capacity may cause localized queues at peak times, and the airport has added officers to manage lines.",
+        "es": "La policía de inmigración del aeropuerto internacional Tan Son Nhat informó el 24 de noviembre que instala 10 compuertas automáticas nuevas en llegadas y mejora integralmente 10 existentes en salidas. Las compuertas actuales siguen operativas durante la obra, pero la menor capacidad puede generar colas en horas punta; el aeropuerto añadió agentes para organizarlas."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "新一代闸机集成指纹与虹膜识别，并直接接入越南国家人口数据库和二级电子身份账户，同时服务越南公民与符合条件的外国人。移民警表示，这套连接让旅客不必再办理此前繁琐的事先登记手续，即可在入境和出境两侧使用自助通关。",
+        "en": "The next-generation gates incorporate fingerprint and iris recognition and connect directly to Vietnam's national population database and level-2 electronic identity accounts, serving both Vietnamese citizens and eligible foreign nationals. Immigration police said the link removes the cumbersome prior registration previously required, allowing travelers to use the gates on both arrival and departure.",
+        "es": "Las compuertas de nueva generación integran huella e iris y se conectan directamente a la base de datos nacional de población de Vietnam y a cuentas de identidad electrónica de nivel 2, para ciudadanos vietnamitas y extranjeros elegibles. La policía de inmigración señaló que esto elimina el engorroso registro previo y permite usar las compuertas tanto a la llegada como a la salida."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "12 月初投用，与电子身份体系打通",
+        "en": "In service by early December, tied to the eID system",
+        "es": "En servicio en diciembre, conectadas al sistema de identidad digital"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "技术团队计划在 12 月初完成安装，让 20 台闸机正式运行。闸机把护照核验终端接到国家人口库和电子身份账户上，口岸受理环节由此可以直接调用这两套数据源完成身份确认，而不只依赖护照芯片本身。通报未披露设备供应商或合同金额。",
+        "en": "Technical teams aim to finish installation and put all 20 gates into official operation in early December. The gates connect passport-checking terminals to the national population database and eID accounts, letting border verification draw on both data sources directly rather than relying only on the passport chip. The notice did not name an equipment supplier or disclose a contract value.",
+        "es": "Los equipos técnicos prevén terminar la instalación y poner en marcha las 20 compuertas a principios de diciembre. Las compuertas conectan los terminales de control de pasaportes a la base de datos nacional y a las cuentas de identidad digital, para que la verificación fronteriza use ambas fuentes y no solo el chip del pasaporte. El aviso no nombró proveedor ni reveló importe."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "新山一机场把自助通关闸机直连国家人口库和二级电子身份账户，改变了口岸核验的数据来源：受理终端不再只读护照芯片，而是能当场比对国家人口数据。对设备商而言，这类「闸机＋人口库＋eID 账户」的组合会成为东南亚口岸升级的参照，投标时要证明的不只是读卡速度，还有与国家级身份库的接口能力。指纹与虹膜同时采集，也把生物特征登记从人工窗口前移到了自助通道。12 月初投用意味着施工窗口很短，高峰期的排队压力会影响首批旅客体验。",
+    "en": "Tan Son Nhat's decision to link autogates directly to the national population database and level-2 eID accounts changes the data source for border checks: the terminal no longer reads only the passport chip but can compare against national population records on the spot. For vendors, this combination of gate, population database and eID account becomes a reference for Southeast Asian border upgrades, and bids must show interface capability with national identity systems, not just card-reading speed. Capturing fingerprint and iris together also moves biometric enrollment from staffed counters into self-service lanes. An early-December go-live leaves a short construction window, with queue pressure at peak times shaping first-user experience.",
+    "es": "Conectar las compuertas directamente a la base de datos nacional y a cuentas de identidad digital de nivel 2 cambia la fuente de datos del control fronterizo: el terminal ya no lee solo el chip del pasaporte, sino que compara con registros nacionales al momento. Para los proveedores, esta combinación de compuerta, base de datos y cuenta de identidad digital será un referente para mejoras fronterizas en el sudeste asiático, y las ofertas deberán demostrar Interfaces con sistemas nacionales, no solo velocidad de lectura. Capturar huella e iris a la vez traslada el registro biométrico de ventanillas a carriles autoservicio. La puesta en marcha en diciembre deja poco tiempo de obra, con colas en horas punta que afectarán a los primeros usuarios."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-25-banking-02",
+  "slug": "aci-neopay-acquiring-fraud-uae",
+  "industry": "banking",
+  "region": "mena",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "fraud"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-25T04:17:45+08:00",
+  "ingestedAt": "2026-11-25T02:37:56+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ACI Worldwide",
+      "url": "https://investor.aciworldwide.com/news-releases/news-release-details/aci-worldwide-expands-strategic-partnership-neopay-adding-ai",
+      "lang": "en",
+      "publishedAt": "2026-11-24T00:00:00+00:00"
+    }
+  ],
+  "title": {
+    "zh": "ACI 扩大与阿联酋 NEOPAY 合作，收单平台加装反欺诈",
+    "en": "ACI expands UAE acquirer NEOPAY tie-up with fraud management",
+    "es": "ACI amplía su acuerdo con el adquirente emiratí NEOPAY con gestión de fraude"
+  },
+  "summary": {
+    "zh": "ACI Worldwide 于 11 月 24 日宣布，阿联酋收单机构 NEOPAY 扩大使用 ACI Acquiring 收单平台，覆盖 POS 与电商渠道，并新增部署 ACI Fraud Management 反欺诈方案。NEOPAY 服务零售、电商、酒店与公共部门商户。双方合作可追溯至 2007 年 Mashreq 的收单业务。",
+    "en": "ACI Worldwide said on 24 November that NEOPAY, a merchant acquirer in the UAE, is expanding its use of the ACI Acquiring platform across point-of-sale and ecommerce channels and adding ACI Fraud Management. NEOPAY serves merchants in retail, ecommerce, hospitality and the public sector. The relationship dates back to 2007 through Mashreq's merchant acquiring business.",
+    "es": "ACI Worldwide anunció el 24 de noviembre que NEOPAY, adquirente de comercios en los Emiratos Árabes Unidos, amplía el uso de la plataforma ACI Acquiring a canales presenciales y de comercio electrónico y suma ACI Fraud Management. NEOPAY atiende a comercios de retail, comercio electrónico, hostelería y sector público. La relación se remonta a 2007 a través del negocio de adquirencia de Mashreq."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "ACI Worldwide 于 11 月 24 日发布公告称，阿联酋收单机构 NEOPAY 扩展了与 ACI 的长期合作。NEOPAY 将继续使用 ACI Acquiring 平台处理 POS 与电商收单，并新增部署 ACI Fraud Management 反欺诈方案。NEOPAY 服务于零售、电商、酒店和公共部门的数千家商户。",
+        "en": "ACI Worldwide said in a 24 November announcement that NEOPAY, a merchant acquirer in the UAE, has expanded its long-standing relationship with ACI. NEOPAY will keep using the ACI Acquiring platform for point-of-sale and ecommerce acquiring and will add ACI Fraud Management. NEOPAY serves thousands of merchants in retail, ecommerce, hospitality and the public sector.",
+        "es": "ACI Worldwide anunció el 24 de noviembre que NEOPAY, adquirente de comercios en los EAU, amplió su relación de larga data con ACI. NEOPAY seguirá usando la plataforma ACI Acquiring para adquirencia presencial y electrónica, y añadirá ACI Fraud Management. NEOPAY atiende a miles de comercios de retail, comercio electrónico, hostelería y sector público."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "ACI Fraud Management 以机器学习、行为分析和实时决策识别交易风险，数据来自 ACI 所称的数十亿笔交易。公告把部署理由指向阿联酋现场刷卡与非现场交易共同面临的风险上升，反欺诈模块将覆盖这两类场景。",
+        "en": "ACI Fraud Management uses machine learning, behavioural analytics and real-time decisioning to flag transaction risk, drawing on what ACI says are billions of transactions. The announcement ties the deployment to rising risk in both card-present and card-not-present transactions in the UAE, with the fraud module covering both.",
+        "es": "ACI Fraud Management usa aprendizaje automático, análisis de comportamiento y decisiones en tiempo real para detectar riesgos en transacciones, a partir de lo que ACI describe como miles de millones de operaciones. El anuncio vincula el despliegue al aumento de riesgos tanto en transacciones presenciales como sin tarjeta presente en los EAU, y el módulo cubre ambos escenarios."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "双方合作始于 2007 年 Mashreq 的商户收单业务，ACI Acquiring 并非首次部署。本次新增的是 Fraud Management 模块，公告未披露合同金额、商户数量变化或上线时间，也未说明 NEOPAY 是否更换收单处理平台。",
+        "en": "The relationship began in 2007 with Mashreq's merchant acquiring business, so ACI Acquiring is not a first-time deployment. What is new is the Fraud Management module. The announcement gave no contract value, change in merchant numbers or go-live date, and did not say whether NEOPAY is replacing its acquiring processor.",
+        "es": "La relación comenzó en 2007 con el negocio de adquirencia de Mashreq, por lo que ACI Acquiring no es un despliegue inédito. Lo nuevo es el módulo Fraud Management. El anuncio no precisó valor del contrato, cambio en el número de comercios ni fecha de entrada en funcionamiento, y no indicó si NEOPAY sustituye a su procesador de adquirencia."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对阿联酋商户和收单机构，这次变化是反欺诈能力被加到已有的收单平台上，而不是换一套系统——NEOPAY 的商户不必改造受理端就能获得实时风险评分，部署阻力低于更换处理商。对 ACI，这是一条把风控软件搭进存量收单客户的上行路径，无须重新赢下平台合同。但要清楚它的边界：ACI Acquiring 自 2007 年就在用，本次只是加装模块，不是新的收单形态或清算关系变化；公告也没有金额、商户增量或上线日期。这条更接近供应商侧的增量交付，交终审判断是否够得上机制变化。",
+    "en": "For UAE merchants and acquirers, the change is that fraud capability is being added to an existing acquiring platform rather than replacing the system: NEOPAY's merchants get real-time risk scoring without reworking their acceptance side, a lower barrier than switching processors. For ACI, it is a path to upsell risk software into an installed acquiring customer without re-winning the platform contract. The boundary is clear, though: ACI Acquiring has been in use since 2007, this is an added module, not a new acquiring shape or a change in clearing relationships, and the announcement gave no value, merchant increment or go-live date. It reads more as an incremental supplier delivery, leaving it to final review whether it clears the bar for a mechanism change.",
+    "es": "Para comercios y adquirentes de los EAU, el cambio es que la capacidad de fraude se añade a una plataforma de adquirencia ya existente, sin sustituir el sistema: los comercios de NEOPAY obtienen calificación de riesgo en tiempo real sin modificar su lado de aceptación, un obstáculo menor que cambiar de procesador. Para ACI, es una vía para vender software de riesgo a un cliente instalado de adquirencia sin volver a ganar el contrato de la plataforma. El límite está claro: ACI Acquiring se usa desde 2007, esto es un módulo añadido, no una nueva forma de adquirencia ni un cambio en las relaciones de compensación, y el anuncio no dio valor, incremento de comercios ni fecha de puesta en marcha. Se parece más a una entrega incremental del proveedor, y corresponde a la revisión final decidir si alcanza el umbral de cambio de mecanismo."
+  },
+  "confidence": 0.45,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

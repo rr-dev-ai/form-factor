@@ -1,0 +1,84 @@
+{
+  "fetchedFor": "2026-11-25",
+  "matrix": {
+    "gap": ["cis", "mena", "europe", "latam"],
+    "cellGap": ["apac/banking", "apac/telecom", "north-america/banking", "north-america/telecom", "africa/telecom"],
+    "industryGap": ["telecom 7/7", "banking 6/7", "identity 4/7"],
+    "note": "index 一次通过（fetchedFor=2026-11-25，152 条，01:50 落盘，fetchedAt 字段 undefined）。build-matrix 计入 4 条，剔除 低置信 148 / 无日期 0 / 超窗 0 / 已发布 0。21 格里仅 apac/identity、north-america/identity、africa/banking、africa/identity 各 1 条非空。matrix.json 未落盘，以 stdout 为准。"
+  },
+  "timing": {
+    "startedAt": "2026-11-25T01:50:42+08:00",
+    "r1At": "2026-11-25T01:51:26+08:00",
+    "r2At": "2026-11-25T01:51:46+08:00",
+    "r3At": "2026-11-25T01:51:59+08:00",
+    "r4At": "2026-11-25T01:53:42+08:00",
+    "r5At": "2026-11-25T01:54:03+08:00",
+    "r6At": "2026-11-25T01:54:45+08:00",
+    "writtenAt": "2026-11-25T01:58:55+08:00"
+  },
+  "phases": [
+    {
+      "phase": "R1-缺口驱动",
+      "queries": 6,
+      "at": "2026-11-25T01:51:26+08:00",
+      "basedOn": null,
+      "note": "按 gaps 四区（cis/mena/europe/latam）＋cellGap 的 apac/banking、africa/telecom 各发一条，均带引号日期锚 22/23/24 日。命中多为已发或无关：埃及 Android 令牌化、银联传音手机 Pay、意大利 IT-Wallet 均为 11-22~24 已发；Clapp crypto card 与稳定币卡营销页占满 banking 结果位；非洲 SIM 登记整治为政策表态。无新硬新闻。"
+    },
+    {
+      "phase": "R2-机构驱动",
+      "queries": 6,
+      "at": "2026-11-25T01:51:46+08:00",
+      "basedOn": "R1 的区域＋产品词被已发稿与稳定币营销页占满，改从具体机构（发卡处理商、证件局、芯片厂、卡项目聚合站）切入",
+      "note": "aisengtech 支付简报给出 Deel Card、NEOPAY×ACI、Clapp 三条线索，逐一反查一手；G+D 陶瓷卡为 11-20 已报；IDEMIA×Microsoft mDL 为 11-20 已发；俄央行平台线索为既有监管机制；Network International 利比亚/埃及稿无发布日期，无法判时效。"
+    },
+    {
+      "phase": "R3-官方一手",
+      "queries": 6,
+      "at": "2026-11-25T01:51:59+08:00",
+      "basedOn": "R2 线索缺一手日期与承建方，转采购术语与官方公告反查；中文采购词沿用 11-23/24 有效路径",
+      "note": "葡语 edital 带出坦桑尼亚 NIDA 新卡（11-18 已发同线）；中文两轮只回贵阳银行、陕西农信、四川银行（均超窗，贵阳行 11-23 supplement 已报）；阿语、法语、英语采购词全为招标聚合站与国库券。无窗内可用授标。"
+    },
+    {
+      "phase": "R4-行业垂媒",
+      "queries": 0,
+      "archiveFetches": 3,
+      "at": "2026-11-25T01:53:42+08:00",
+      "basedOn": "R3 采购轮零产出，转 biometricupdate /202611、paymentsindustryintelligence 首页、idtechwire 归档直读",
+      "note": "本轮是全天主产出：idtechwire 11-24 归档给出捷克 EUDI 钱包中标、Sumsub Ghana Card 核验两条；biometricupdate /202611 给出越南数字身份法、美国务院 430M 人脸替换 RFI、斐济生物 ID 法、赞比亚 UNDP MoU 四条；paymentsindustryintelligence 首页停在 11-22 且三条全为已报/稳定币/代理商务。三条归档直读共 9 条候选，逐条 WebFetch 核验后取 3 条。"
+    },
+    {
+      "phase": "R5-新兴术语",
+      "queries": 3,
+      "at": "2026-11-25T01:54:03+08:00",
+      "basedOn": "R4 的 telecom 归档无新事件、identity 多为政策与观点稿，改用 SGP.32 / iSIM / mDL issuance / softPOS / quantum-safe 等未通用表述反查",
+      "note": "SGP.32 三条全为 AT&T Flexible SIM、Semtech（均已发）与厂商榜单；mDL/VC 命中 NIST 1800-42、康州 Mobile ID（均已弃或已发）、马来西亚 MyKad MyGOV（仅立法讨论表态）；softPOS/quantum-safe 命中 Brightsight×Alcinéo KaiOS MPoC（11-20，超窗）与 Mastercard Accept 演示（11-18，超窗）。telecom 连续第 17 天零条。"
+    },
+    {
+      "phase": "R6-区域补充",
+      "queries": 8,
+      "at": "2026-11-25T01:54:45+08:00",
+      "basedOn": "R5 仍无 cis/mena/latam 与 telecom，换本地语言与具体主体重试；对 R4/R5 已捞到的候选再做定向核验",
+      "note": "葡语拉美轮只回 Banco do Brasil 金属卡（11-19 宣布、11-23 起邀请制，属高端卡档次非机制变化）与营销页；mena 轮埃及令牌化已发、卡塔尔 GCC 框架无日期；cis 轮全是字母改革与旧生物护照稿；软 POS 轮 Mastercard Accept 为 SFF 演示超窗。收尾核验 Deel Card 一手稿（Stripe Issuing、26 市场、$45M DLUSD），判为稳定币发行不落范围门且归 latam/mena 非缺口，弃用。"
+    }
+  ],
+  "queryTotal": 31,
+  "queryNote": "六轮合计 31 条 WebSearch ＋ 3 次归档页直读 ＋ 12 次原文 WebFetch 核验。query 分布 6/6/6/0/3/8，R4 以 3 次归档直读替代 query（低于 3 条下限，如实记账）；R5 R6 达到下限。R3 起每轮 basedOn 已写明推导来源。",
+  "verifiedButDropped": [
+    "Deel Card 稳定币 Visa 卡（Stripe Issuing／Lead Bank 发行，26 个拉美加勒比非洲市场，11-24）——稳定币发行不落三条链路范围门，且归 latam/mena 非缺口格，未采用",
+    "Sumsub Ghana Card PIN＋自拍核验（ID Tech 11-24）——对应 LI 2523 生物核验规则，与 11-05 已发加纳 LI 2523 为同一事件线，未采用",
+    "埃及央行 Android 令牌化（11-23 宣布，292M 笔／EGP 2280 亿）——11-24 content/news 已发「埃及央行把支付卡令牌化扩到安卓手机」",
+    "G+D 为 N26 Aura 供陶瓷卡（11-23）——11-20 supplement 已报同线（欧洲首款镜面陶瓷卡）",
+    "意大利 IT-Wallet 全面开放（biometricupdate 11-24 11:45 EST）——11-24 content/news 已发「意大利数字驾照升格身份证件，IT-Wallet 全面开放」",
+    "CBI×Bancomat×Nexi 意大利数字欧元共享受理（PII 11-22 18:37）——11-23 supplement 已报",
+    "越南《电子身份识别与认证法》强制社交／银行／电商核验（11-24 11:13 EST，2027-07-01 生效）——window 内但 apac/identity 已 1 条且立法表态、无实施时间表；同 URL 已在今日 index 标注，按去重剔除",
+    "Banco do Brasil Altus World Legend 金属卡（11-19 宣布、11-23 起邀请制）——高端卡档次变化非凭证机制变化，且一级源为转载",
+    "Clapp crypto card（PRNewswire 11-24）、Finmo USDC/USDT、韩国韩元稳定币框架（11-24）——稳定币发行或营销稿，范围门不过",
+    "赞比亚 UNDP DPI MoU（11-20 签署、11-24 报道）——无金额、无承建方、无发卡时间表",
+    "NEOPAY×ACI AI 反欺诈（11-24）——受理侧反欺诈软件，不改变凭证形态或受理机制",
+    "Brightsight×Alcinéo KaiOS PCI MPoC（11-20）、Mastercard Accept（SFF 11-18 演示）——超 72h 窗口",
+    "Temu×Mastercard 谅解备忘录（11-23）、YES BANK×novio 双卡（11-20）、Mercado Pago 墨西哥停借记卡充值（11-24）——前者仅评估无时间表，中者超窗，后者属渠道变化",
+    "Semtech SGP.32、AT&T Flexible SIM、Thales×BR Captura 拉美 SGP.32（11-19 报道）——均已发同线或仅评估",
+    "贵阳银行社保卡个人化中标（11-19）、陕西农信 2026 银行卡入围、四川银行制卡成交、天津银行 IC 卡入围——超窗或 11-23 supplement 已报",
+    "坦桑尼亚 NIDA 新卡设计（11-20）、亚美尼亚新一代生物护照（11-01 上线）、乌兹别克字母改革涉及证件拼写（草案）——已发／超窗／拼写规则非机制变化"
+  ]
+}

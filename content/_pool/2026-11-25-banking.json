@@ -1,0 +1,355 @@
+{
+  "date": "2026-11-25",
+  "industry": "banking",
+  "startedAt": "2026-11-25T02:37:56+08:00",
+  "drafts": [
+    {
+      "id": "2026-11-25-banking-05",
+      "slug": "clapp-visa-crypto-card-credit-line",
+      "industry": "banking",
+      "region": "global",
+      "regions": [],
+      "tags": [
+        "issuing",
+        "digital-wallet"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "FinanceX Magazine",
+          "url": "https://www.financexmagazine.com/post/clapp-crypto-card-taps-credit-lines-so-holders-spend-without-selling",
+          "lang": "en"
+        },
+        {
+          "name": "Crypto Compass",
+          "url": "https://www.cryptocompass.com/articles/clapp-finance-launches-crypto-card-with-0-transaction-fees-and-credit-line-spendings-24-nov",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "Clapp 发 Visa 加密卡，可用抵押借贷额度消费",
+        "en": "Clapp launches Visa crypto card funded by collateral-backed credit line",
+        "es": "Clapp lanza tarjeta Visa cripto financiada con una línea de crédito garantizada"
+      },
+      "summary": {
+        "zh": "Clapp Finance 于 11 月 24 日在布拉格发布 Clapp Crypto Card，一张 Visa Platinum 卡，可直接消费 USDT、USDC 余额，也可挂钩多抵押信贷线，借出稳定币消费而不卖出原加密资产。虚拟卡即时发行、限时收费 4.99 美元，公司称可在 150 多个国家使用。借贷利率与抵押比例未在公告披露。",
+        "en": "Clapp Finance launched the Clapp Crypto Card from Prague on 24 November: a Visa Platinum card that spends USDT or USDC balances directly and can also be linked to a multi-collateral credit line, borrowing stablecoins against crypto collateral without selling the underlying assets. Virtual cards are issued instantly for a limited-time 4.99-dollar fee, and the company says the card works in more than 150 countries. Interest rates and collateral ratios were not disclosed.",
+        "es": "Clapp Finance lanzó el 24 de noviembre desde Praga la Clapp Crypto Card, una tarjeta Visa Platinum que gasta saldos en USDT o USDC directamente y que también puede vincularse a una línea de crédito con múltiples garantías, tomando prestadas stablecoins contra criptoactivos sin venderlos. Las tarjetas virtuales se emiten al instante con una tarifa de 4,99 dólares por tiempo limitado, y la empresa afirma que funciona en más de 150 países. No se revelaron tasas de interés ni ratios de garantía."
+      },
+      "body": [
+        {
+          "kind": "p",
+          "text": {
+            "zh": "Clapp Finance 于 11 月 24 日宣布推出 Clapp Crypto Card，这是一款挂钩 Visa 网络的加密卡，可用于线上与线下消费。商户收到的是本地法币，Visa 网络负责清算，受理端不需要任何加密资产处理能力。这张卡为 Visa Platinum 档，已集成进 Clapp 现有的钱包与交易平台。",
+            "en": "Clapp Finance announced the Clapp Crypto Card on 24 November, a crypto-linked card on the Visa network for online and in-store spending. Merchants receive local fiat and settlement runs over Visa, so the acceptance side needs no crypto capability. The card sits on Visa's Platinum tier and is integrated into Clapp's existing wallet and exchange.",
+            "es": "Clapp Finance anunció el 24 de noviembre la Clapp Crypto Card, una tarjeta vinculada a criptoactivos en la red Visa para gastos en línea y presenciales. Los comercios reciben moneda fiduciaria local y la liquidación corre por Visa, por lo que el lado de aceptación no necesita capacidad cripto. La tarjeta pertenece al nivel Platinum de Visa y está integrada en la billetera y casa de cambio existentes de Clapp."
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "这张卡有两种资金来源。一是直接扣减用户持有的 USDT 或 USDC 余额，按实时汇率换算成商户本地货币。二是挂钩 Clapp 的多抵押信贷线：用户质押比特币或以太坊等资产借出稳定币再消费，原持仓不卖出，后续上涨仍归用户。这是它与普通加密借记卡的主要差别。",
+            "en": "The card draws on two funding sources. The first debits a user's USDT or USDC balance, converted at the point of sale into the merchant's local currency. The second links to a Clapp multi-collateral credit line: the user pledges assets such as bitcoin or ether, borrows stablecoins against them and spends the proceeds while keeping the original position. That is the main difference from a plain crypto debit card.",
+            "es": "La tarjeta se financia de dos maneras. La primera descuenta el saldo en USDT o USDC del usuario, convertido en el momento de la compra a la moneda local del comercio. La segunda la vincula a una línea de crédito con múltiples garantías de Clapp: el usuario pone en garantía activos como bitcoin o éter, pide prestadas stablecoins y gasta el importe conservando su posición original. Esa es la principal diferencia con una tarjeta de débito cripto corriente."
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "Clapp 称虚拟卡即时发行，限时发行费 4.99 美元（原为 9.99 美元），支持加入 Apple Pay 与 Google Pay，可在 150 多个国家使用。公司自称对加密兑法币不收兑换费、无月费，标准 Visa 网络与处理费仍适用。公告未说明信贷利率、抵押率、清算阈值与首批发行市场，相关数字均为公司自述。",
+            "en": "Clapp says virtual cards are issued instantly for a limited-time 4.99-dollar fee, down from 9.99 dollars, can be added to Apple Pay and Google Pay, and work in more than 150 countries. The company claims no fee on crypto-to-fiat conversion and no monthly charge, while standard Visa network and processing fees still apply. The release gave no interest rates, loan-to-value ratios, liquidation thresholds or first launch markets; those figures are the company's own statements.",
+            "es": "Clapp afirma que las tarjetas virtuales se emiten al instante con una tarifa de 4,99 dólares por tiempo limitado (antes 9,99), pueden añadirse a Apple Pay y Google Pay y funcionan en más de 150 países. La empresa dice no cobrar comisión por conversión cripto a moneda fiduciaria ni cuota mensual, aunque siguen aplicándose las tarifas estándar de Visa y del procesador. El comunicado no precisó tasas de interés, ratios de préstamo, umbrales de liquidación ni los primeros mercados de lanzamiento; las cifras son afirmaciones de la empresa."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "对加密资产持有者，这条变化把「花掉资产」和「保留仓位」拆开：普通加密借记卡在刷卡时卖出币，会产生处置并失去后续上涨；Clapp 把卡接到抵押信贷线后，消费的是借出的稳定币，质押资产仍在账上。对发卡方，这是一个把借贷产品与卡消费绑在同一入口的尝试，收入来自利差与兑换价差而非卡费。风险同样明确：抵押借贷带利率与清算机制，币价下跌时用户可能追加保证金或被平仓，公告没有给出这些条款。它与 11 月 20 日 Pine Labs 的 Staq 不是同一事件——Staq 是把稳定币余额做成可发 Visa 预付卡的能力，面向支付公司；Clapp 是加密平台把抵押借贷直接接到卡上，机制与客群都不同。上述产品说法均为公司自述，尚无独立核实。",
+        "en": "For crypto holders, the change separates spending the asset from keeping the position: a plain crypto debit card sells coins at the till, crystallising a disposal and losing future upside; by linking the card to a collateral-backed credit line, Clapp funds spending with borrowed stablecoins while the pledged assets remain. For the issuer, this is an attempt to bundle lending and card spending in one entry point, with revenue from interest and conversion spreads rather than card fees. The risk is equally clear: collateral borrowing carries interest and liquidation, so a price fall can trigger margin calls, and the release gave no terms. This is not the same event as Pine Labs' Staq on 20 November, which turns stablecoin balances into Visa prepaid issuing capability for payment companies, whereas Clapp connects collateral lending straight to a card for crypto users, with a different mechanism and audience. All product claims are the company's own and have not been independently verified.",
+        "es": "Para quienes poseen criptoactivos, el cambio separa gastar el activo de conservar la posición: una tarjeta de débito cripto corriente vende las monedas al pagar, materializando la venta y perdiendo futuras subidas; al vincular la tarjeta a una línea de crédito garantizada, Clapp financia el gasto con stablecoins prestadas mientras los activos en garantía siguen en su cuenta. Para el emisor, es un intento de agrupar crédito y gasto con tarjeta en una sola entrada, con ingresos provenientes de intereses y diferenciales de conversión más que de comisiones de tarjeta. El riesgo es igual de claro: el préstamo garantizado implica intereses y liquidación, por lo que una caída del precio puede exigir más garantía, y el comunicado no dio condiciones. No es el mismo evento que Staq de Pine Labs el 20 de noviembre, que convierte saldos de stablecoins en capacidad de emisión de tarjetas prepago Visa para empresas de pagos, mientras Clapp conecta el crédito garantizado directamente a una tarjeta para usuarios cripto, con mecanismo y público distintos. Todas las afirmaciones sobre el producto son de la empresa y no han sido verificadas de forma independiente."
+      },
+      "confidence": 0.55,
+      "ai": {
+        "model": "claude-opus-6",
+        "promptVersion": "banking-editor-2026-11"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Visa, Transsion Partner to Expand Visa Tap-to-Pay to Smartphones",
+      "url": "https://techmoran.com/2026/11/24/visa-transsion-partner-to-expand-visa-tap-to-pay-to-smartphones/",
+      "reason": "跨天重复：传音与 Visa 非洲手机受理与代理支付已于 2026-11-21-banking-06 发布，本次为同一合作再报道（duplicate-of-2026-11-21-banking-06）"
+    },
+    {
+      "title": "银联亮相新加坡金融科技节 携手多家本地机构升级跨境支付服务生态",
+      "url": "https://www.unionpayintl.com/cn/mediaCenter/newsCenter/companyNews/3016586.shtml",
+      "reason": "事件日为 11-18 新加坡金融科技节现场，早于 72h 下界约 11-22 02:30，超窗"
+    },
+    {
+      "title": "UnionPay International and Debia Ink MoU to Explore Agentic Payments in Singapore",
+      "url": "https://hkbusinesswire.com/unionpay-international-and-debia-ink-mou-to-explore-agentic-payments-in-singapore",
+      "reason": "11-18 签署的概念备忘录，超窗；且仅为智能体支付探索 MoU，无上线产品与时间表，过不了动作门"
+    },
+    {
+      "title": "Bank of Thailand Extends 8% Credit Card Minimum Payment Rate to 2028",
+      "url": "https://fintechnews.sg/142224/thailand/credit-card-minimum-payment-thailand-bot-2028/",
+      "reason": "信用卡最低还款比例属信贷监管，不在发卡/收单/令牌化等凭证载体环节，范围门拦"
+    },
+    {
+      "title": "Mastercard gana terreno en México: su cámara de compensación ya alcanza 55 jugadores",
+      "url": "https://dplnews.com/mastercard-gana-terreno-mexico-camara-compensacion/",
+      "reason": "四年前上线的清算所现状回顾与高管访谈，不是首次或变化，动作门共同限制第 2 条拦"
+    },
+    {
+      "title": "Kenya’s Cloud9 Money Buys Canadian Payments Firm Monix Pay",
+      "url": "https://techmoran.com/2026/11/23/kenyas-cloud9-money-buys-canadian-payments-firm-monix-pay-in-push-beyond-africa/",
+      "reason": "标的是外汇与汇款服务（MSB），不在发卡/收单/制卡等凭证链环节，范围门拦；发实体卡仅为未来计划"
+    },
+    {
+      "title": "Apis Partners Acquires Majority Stake in African Logistics Fintech Korridor",
+      "url": "https://techmoran.com/2026/11/24/apis-partners-acquires-majority-stake-in-african-logistics-fintech-korridor/",
+      "reason": "标的是物流金融科技，不在三条链路环节，范围门拦"
+    },
+    {
+      "title": "Klarna expands Visa partnership",
+      "url": "https://www.finextra.com/pressarticle/111763/klarna-expands-visa-partnership",
+      "reason": "把 Klarna 分期挂进 Visa Acceptance Platform 属分销渠道变化，共同限制第 3 条拦；11-24 已按同判据拦过"
+    },
+    {
+      "title": "Silverflow launches modular in-person payments tech",
+      "url": "https://www.finextra.com/pressarticle/111761/silverflow-launches-modular-in-person-payments-tech",
+      "reason": "跨天重复：Silverflow 模块化线下受理已于 2026-11-19-banking-03 发布（duplicate-of-2026-11-19-banking-03）；且核心 Terminal-to-Cloud 为年初既有能力"
+    },
+    {
+      "title": "Trust Payments partners OKTO Payments in LatAm",
+      "url": "https://www.finextra.com/pressarticle/111757/trust-payments-partners-okto-payments-in-latam",
+      "reason": "跨天重复：已于 2026-11-24-banking-05 发布（duplicate-of-2026-11-24-banking-05）"
+    },
+    {
+      "title": "埃及央行将在 Android 上推出支付卡支付标记化服务",
+      "url": "https://www.mpaypass.com.cn/",
+      "reason": "跨天重复：埃及央行安卓卡令牌化已于 2026-11-24-banking-01 发布（duplicate-of-2026-11-24-banking-01）"
+    },
+    {
+      "title": "东信和平通过万事达新一代 ECOS 产品认证",
+      "url": "https://www.stcn.com/article/detail/4348705.html",
+      "reason": "跨天重复：已于 2026-11-24-banking-02 发布（duplicate-of-2026-11-24-banking-02）"
+    },
+    {
+      "title": "Pine Labs 推 Staq Web3 Orchestrator，打通稳定币与卡支付",
+      "url": "https://fintechnews.sg/141902/payments/pine-labs-stablecoin-linked-cards/",
+      "reason": "跨天重复：已于 2026-11-20-banking-02 发布（duplicate-of-2026-11-20-banking-02）"
+    },
+    {
+      "title": "Google Wallet lands on iOS in the US",
+      "url": "https://www.finextra.com/pressarticle/111753/google-wallet-lands-on-ios-in-the-us",
+      "reason": "跨天重复：谷歌钱包重返 iPhone 已于 2026-11-20-banking-05 发布（duplicate-of-2026-11-20-banking-05）"
+    },
+    {
+      "title": "PathFin.ai Trial Tests How Banks and Payment Providers Verify AI Agents",
+      "url": "https://fintechnews.sg/142186/ai/pathfin-ai-agentic-payments-safeguards-mas/",
+      "reason": "受控环境下的智能体验证 PoC，原文明确不是客户产品或自主支付服务上线，过不了动作门"
+    },
+    {
+      "title": "Bill 完成私有化收购，估值 60 亿美元",
+      "url": "https://www.mpaypass.com.cn/",
+      "reason": "标的是 AP/AR 财务自动化软件，不在凭证链环节，范围门拦；与 11-21 拦 TPG/Corpay 收购 BILL 同判据"
+    },
+    {
+      "title": "Mastercard launches Quantum Advisory Practice, publishes white paper",
+      "url": "https://thepaypers.com/fraud-and-fincrime/news/mastercard-launches-quantum-advisory-practice-publishes-white-paper",
+      "reason": "咨询业务与白皮书，不是凭证载体或卡栈机制变化，范围门拦；与 11-21 拦 Mastercard 量子咨询同判据"
+    },
+    {
+      "title": "Payoneer scores preliminarily OCC approval for stablecoin bank",
+      "url": "https://www.finextra.com/newsarticle/48798/payoneer-scores-preliminarily-occ-approval-for-stablecoin-bank",
+      "reason": "银行牌照与稳定币发行，范围门明确不收"
+    },
+    {
+      "title": "StraitsX and OCBC pilot cross-border stablecoin payments into business bank accounts",
+      "url": "https://www.finextra.com/pressarticle/111758/straitsx-and-ocbc-pilot-cross-border-stablecoin-payments-into-business-bank-accounts",
+      "reason": "稳定币跨境结算到银行账户，不在卡栈环节，范围门拦"
+    },
+    {
+      "title": "CBI, Bancomat and Nexi to build Italian digital euro infrastructure",
+      "url": "https://www.finextra.com/newsarticle/48792/cbi-bancomat-and-nexi--to-build-italian-digital-euro-infrastructure",
+      "reason": "11-20 事件且数字欧元基础设施与此前多期判据一致按范围门拦，超窗"
+    },
+    {
+      "title": "WasabiCard Nears 1 Million Cards Issued as It Showcases Local Issuing at SFF 2026",
+      "url": "https://www.globenewswire.com/",
+      "reason": "WasabiCard 本地发卡已于 2026-11-12 收录，本次为发卡量更新与展会展示，非新动作"
+    },
+    {
+      "title": "i2c Recognized as a Leading Vendor in Datos Insights Report on Credit Card Issuer Processing Platforms",
+      "url": "https://www.businesswire.com/",
+      "reason": "第三方报告排名，不是可核的动作事件，动作门拦"
+    },
+    {
+      "title": "VIB One Card wins Best Innovation in Personalised Credit Cards in Vietnam",
+      "url": "https://internationalfinance.com/",
+      "reason": "获奖非七类动作，且无载体或机制变化，动作门拦"
+    },
+    {
+      "title": "1inch Winds Down Its Crypto Card, Urges Withdrawals by Dec. 18",
+      "url": "https://coinmarketcap.com/",
+      "reason": "加密卡关停不属七类动作，且标的为稳定币卡业务收缩，动作门拦"
+    },
+    {
+      "title": "Safaricom’s Shiriki Pay Attracts 3.7 Million Users as M-PESA Expands Into Shared Spending",
+      "url": "https://techmoran.com/2026/11/24/safaricoms-shiriki-pay-attracts-3-7-million-users-as-m-pesa-expands-into-shared-spending/",
+      "reason": "移动钱包共享支出功能与用户数，不是卡栈形态或机制变化，范围门拦"
+    },
+    {
+      "title": "PayPal’s new CFO lands big pay",
+      "url": "https://www.paymentsdive.com/news/incoming-paypal-cfo-30m-stock-bonuses-comp-turnaround-strategy/875474/",
+      "reason": "人事与薪酬，范围门明确不收"
+    },
+    {
+      "title": "Adyen Co-Founder Pieter van der Does to Retire After 20 Years",
+      "url": "https://fintechnews.sg/142203/payments/adyen-ceo-pieter-van-der-does-retire/",
+      "reason": "人事变动，范围门明确不收"
+    },
+    {
+      "title": "OCBC Taps China Chief Ang Eng Siong to Lead Global Corporate Banking",
+      "url": "https://fintechnews.sg/142234/fintech/ang-eng-siong-ocbc-global-corporate-banking/",
+      "reason": "人事任命，范围门明确不收"
+    },
+    {
+      "title": "FCA Warns Companies Against Unregulated Agentic Activity",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fca-warns-companies-against-unregulated-agentic-activity/",
+      "reason": "AI 监管表态，不在凭证链环节且无具体规则版本或执行节点，范围门与动作门均拦"
+    },
+    {
+      "title": "WorldRemit Founder Launching Migrant-Focused FinTech Odola",
+      "url": "https://www.pymnts.com/money-mobility/2026/worldremit-founder-launching-migrant-focused-fintech-odola/",
+      "reason": "汇款创业公司成立，不在卡栈环节且无可核产品与规模，范围门拦"
+    },
+    {
+      "title": "信用卡“瘦身”“转身”",
+      "url": "https://bank.eastmoney.com/a/202611243938020028.html",
+      "reason": "行业综述稿，非单一可核事件，动作门拦"
+    },
+    {
+      "title": "支付老板们在 APEC 谈了哪些话题?",
+      "url": "https://caifuhao.eastmoney.com/news/20261124173114914923430",
+      "reason": "会议观点综述，行业会议与表态不在范围门内"
+    },
+    {
+      "title": "上海浦东：优化非居民账户开立、移动支付、跨境汇款等服务流程",
+      "url": "https://www.mpaypass.com.cn/",
+      "reason": "地方服务流程优化，非凭证载体或卡栈机制变化，范围门拦"
+    },
+    {
+      "title": "中国银联携手申通地铁上线银联卡轨道交通计次票",
+      "url": "https://www.mpaypass.com.cn/",
+      "reason": "交通场景权益与计次票，非发卡/收单机制变化，动作门拦"
+    },
+    {
+      "title": "JPMorgan, Visa and Mastercard say hackers leaked customer emails",
+      "url": "https://www.finextra.com/newsarticle/48789/jpmorgan-visa-and-mastercard-say-hackers-leaked-customer-emails",
+      "reason": "第三方供应商泄露客户邮箱，不改变卡片或受理机制，范围门拦"
+    },
+    {
+      "title": "Canada picks FDX for open banking technical standards",
+      "url": "https://www.finextra.com/",
+      "reason": "开放银行数据标准，不在发卡/收单/令牌化等凭证链环节，范围门拦"
+    },
+    {
+      "title": "Expensify rolls out AI-powered analytics feature",
+      "url": "https://www.finextra.com/",
+      "reason": "费用分析 AI 功能，不是卡片或受理机制变化，范围门拦"
+    },
+    {
+      "title": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
+      "url": "https://www.finextra.com/",
+      "reason": "证券抵押品市场基础设施，不在卡栈环节，范围门拦"
+    },
+    {
+      "title": "Worldline shares plummet on FT report on cash advances",
+      "url": "https://www.finextra.com/newsarticle/48791/worldline-shares-plummet-on-ft-report-on-cash-advances",
+      "reason": "股价与经营报道，范围门明确不收"
+    },
+    {
+      "title": "Payoneer names Claire Bramley CFO / Mitek appoints Laura Apel as CMO",
+      "url": "https://www.finextra.com/",
+      "reason": "人事任命，范围门明确不收"
+    },
+    {
+      "title": "OJK Backs RWA Tokenisation and Weighs a Rupiah Stablecoin With BI",
+      "url": "https://fintechnews.id/111075/digitalassets/rwa-tokenisation-indonesia-ojk-retail-investors/",
+      "reason": "RWA 代币化与稳定币监管表态，不在卡栈环节，范围门拦"
+    },
+    {
+      "title": "Bank Danamon Taps Advance Intelligence Group to Explore AI Agents",
+      "url": "https://fintechnews.id/111085/ai/danamon-advance-intelligence-group-ai/",
+      "reason": "探索 AI 智能体，无卡栈产品与具体动作，动作门拦"
+    },
+    {
+      "title": "Webull HK Adds Korean Stocks as Its Fifth Equity Market",
+      "url": "https://fintechnews.hk/42272/wealthtech/webull-hk-korean-stocks-hong-kong/",
+      "reason": "证券交易品种扩展，不在凭证链环节，范围门拦"
+    },
+    {
+      "title": "Worldline 旗下 Global Collect 品牌焕新，专注旅游与数字行业全球支付",
+      "url": "https://www.mpaypass.com.cn/",
+      "reason": "品牌焕新，非载体或机制变化，动作门拦"
+    },
+    {
+      "title": "VISA 联名复联 5 广告",
+      "url": "https://k.sina.com.cn/",
+      "reason": "广告营销，非可核动作事件，范围门拦"
+    },
+    {
+      "title": "瑞银称 Visa 和万事达有望从标记化支付的扩张中获益",
+      "url": "https://news.futunn.com/",
+      "reason": "券商研报观点，非动作事件，动作门拦"
+    },
+    {
+      "title": "Bilawal launches Sindh Youth Card, opening new opportunities for 100,000 young people",
+      "url": "https://www.app.com.pk/",
+      "reason": "原文打不开无法核实发布日期与卡组织；福利卡项目亦非卡栈机制变化，按不可核即不收"
+    },
+    {
+      "title": "Clapp 以外其它加密卡（RedotPay 46% 份额、Crypto Card Spending Tops $300 Million a Week）",
+      "url": "https://finance.biggo.com/",
+      "reason": "市场规模与份额统计稿，非单一可核动作事件，动作门拦"
+    },
+    {
+      "title": "Nubicom 5G 许可证、Vodafone 卫星测试、Free 通话翻译",
+      "url": "https://www.telesemana.com/",
+      "reason": "电信业议题，不属 banking 行业范围"
+    },
+    {
+      "title": "加纳新钞、NATO 表态、Akwamuman 制药中心等 Ghana Business News 条目",
+      "url": "https://www.ghanabusinessnews.com/",
+      "reason": "时政、货币设计与宏观议题，不在支付凭证链环节，范围门拦"
+    },
+    {
+      "title": "Bank of Russia 证券清单、REPO 参数、货币总量等统计页",
+      "url": "https://www.cbr.ru/",
+      "reason": "央行统计与公开咨询页，无卡栈机制变化，范围门拦"
+    },
+    {
+      "title": "Wultra 牵头中标捷克国家 EUDI 数字身份钱包",
+      "url": "https://idtechwire.com/wultra-led-consortium-wins-tender-to-build-and-operate-the-czech-eu-digital-identity-wallet/",
+      "reason": "属 identity 行业（数字身份钱包），补位已标 identity，本行业不收"
+    },
+    {
+      "title": "美国国务院就替换 4.3 亿人脸的护照与签证生物识别系统发 RFI",
+      "url": "https://www.biometricupdate.com/202611/us-seeks-replacement-for-430m-face-passport-and-visa-biometric-matching-system",
+      "reason": "属 identity 行业（护照生物识别），补位已标 identity，本行业不收"
+    },
+    {
+      "title": "斐济推进自愿生物识别身份证法案",
+      "url": "https://www.biometricupdate.com/202611/fiji-advances-voluntary-biometric-id-law-maps-788-government-services-for-digitization",
+      "reason": "属 identity 行业（身份证签发），补位已标 identity，本行业不收"
+    }
+  ],
+  "stats": {
+    "candidates": 63,
+    "written": 5,
+    "skippedByDedup": 9
+  },
+  "finishedAt": "2026-11-24T20:17:03.049Z"
+}
