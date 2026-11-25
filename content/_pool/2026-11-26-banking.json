@@ -1,0 +1,199 @@
+{
+  "date": "2026-11-26",
+  "industry": "banking",
+  "startedAt": "2026-11-26T02:30:45+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "iwoca 联合 Visa、Enfuce 在英国上线中小企业信用卡",
+      "url": "https://www.businesswire.com/news/home/20261124276924/en/",
+      "reason": "补位池 gateNote 自标可能被刷：9 月已预告商务卡，本次只补 Visa 与 Enfuce 承接方和卡条款；原文无卡体、令牌、受理端变化与发卡量，按默认按刷处理"
+    },
+    {
+      "title": "Visa Recurrent 在新西兰由 Kiwibank 首发",
+      "url": "https://thepaypers.com/payments/news/visa-launches-visa-recurrent-subscription-management",
+      "reason": "duplicate-of-2026-11-21-banking-07：同为 Visa 订阅管理工具由 Kiwibank 首发接入网银，换信源不算新事件"
+    },
+    {
+      "title": "Temu 与 Mastercard 签 MoU 研究 Click to Pay 与 Agent Pay",
+      "url": "https://www.mobiletime.com.br/noticias/24/11/2026/temu-mastercard-acordo/",
+      "reason": "动作门不过：仅为谅解备忘录、研究两种方案，无落地市场、无产品上线、无时间表；现有令牌化为既有能力"
+    },
+    {
+      "title": "Blackstone 领投 500 亿美元收购 Global Payments",
+      "url": "https://www.pymnts.com/news/acquiring/2026/blackstone-warburg-pincus-and-apollo-weigh-backing-50-billion-global-payments-acquisition/",
+      "reason": "并购门槛不足：仍在洽谈、no agreement finalized，无监管批准或交割节点，三项仅金额一项可核；且 11-20 已报 GTCR 评估同一收购"
+    },
+    {
+      "title": "MAS 发布代币化银行存款指南，数字钱包可作存款账户",
+      "url": "https://fintechnews.sg/142347/e-wallets/mas-tokenisation-guide-digital-wallets/",
+      "reason": "范围门拦：标的是代币化银行存款与分布式账本，不在发卡、收单、卡组织或清算规则任一环节"
+    },
+    {
+      "title": "Capital One 推进支付现代化高管访谈",
+      "url": "https://www.paymentsdive.com/news/cap-one-pursues-payments-modernization/875673/",
+      "reason": "动作门不过：访谈稿，无产品名、金额、客户或时间表；核心为实时轨道与云的既有投入"
+    },
+    {
+      "title": "Payaza 收购加纳 Seesail",
+      "url": "https://techmoran.com/2026/11/25/payaza-acquires-ghanas-seesail-to-expand-sme-commerce-and-financing-across-africa/",
+      "reason": "范围门拦：标的为商务与融资平台、非卡栈环节；并购金额未披露、无规模或监管节点"
+    },
+    {
+      "title": "兴业银行深圳分行收单机构营销项目中标候选人公示",
+      "url": "https://www.mpaypass.com.cn/news/202610/26172910.html",
+      "reason": "标的为收单外包营销服务采购、非载体形态变化；且处中标候选人公示阶段，承接方未确定"
+    },
+    {
+      "title": "nCino 向 Rabobank 提供贷款发放平台",
+      "url": "https://www.finextra.com/pressarticle/111778/ncino-offers-lending-platform-to-rabobank/",
+      "reason": "范围门拦：企业贷款发放平台，不在发卡、收单、卡组织任一环节"
+    },
+    {
+      "title": "Ant International 与 BNY 签 24/7 外汇与支付创新 MoU",
+      "url": "https://www.finextra.com/pressarticle/111781/ant-international-and-bny-ink-mou-to-explore-247-fx-and-payments-innovation",
+      "reason": "动作门不过：探索性备忘录，无具体产品、落地市场或时间表"
+    },
+    {
+      "title": "Iliad Solutions 拓展南非支付测试市场",
+      "url": "https://www.finextra.com/pressarticle/111789/iliad-solutions-targets-south-african-market/",
+      "reason": "动作门不过：仅任命一名区域负责人拓展业务，无客户、合同、产品或规模数字"
+    },
+    {
+      "title": "Mastercard 与 BBSF 在叙利亚发国际受理卡",
+      "url": "https://www.mastercard.com/news/eemea/en/newsroom/press-releases/en/2026/november/mastercard-and-banque-bemo-saudi-fransi-bring-internationally-accepted-mastercard-cards-to-government-employees-in-syria/",
+      "reason": "超窗：官网原文标事件日 11 月 15 日，早于窗口下界 11 月 23 日 02:30；The Paypers 11-25 为再报道"
+    },
+    {
+      "title": "Sezzle 在加拿大推出开放式 BNPL 虚拟卡",
+      "url": "https://sezzle.com/news/Sezzle-Anywhere-Launches-Canada",
+      "reason": "超窗：官网原文事件日 11 月 18 日，早于窗口下界 11 月 23 日 02:30"
+    },
+    {
+      "title": "Mastercard 与 areeba 在黎巴嫩上线 Wholesale Program",
+      "url": "https://www.mastercard.com/news/eemea/en/newsroom/press-releases/en/2026/november/mastercard-and-areeba-streamline-travel-payments-for-businesses-in-lebanon/",
+      "reason": "超窗：官网原文事件日 11 月 18 日，早于窗口下界 11 月 23 日 02:30"
+    },
+    {
+      "title": "Finom 在德荷上线中小企业透支与信用卡",
+      "url": "https://finom.co/en-nl/news/finom-is-starting-with-overdrafts-and-business-credit-cards",
+      "reason": "超窗：官网原文事件日 11 月 19 日，早于窗口下界 11 月 23 日 02:30"
+    },
+    {
+      "title": "Kiwe 在埃及上线社交钱包与支付卡",
+      "url": "https://en.arageek.com/kiwe-launches-its-social-money-app-and-card-in-egypt",
+      "reason": "超窗：原文标发布日 11 月 22 日，早于窗口下界 11 月 23 日 02:30"
+    },
+    {
+      "title": "Nordic Payments Council 发布 2027 规则手册与 NOLO Inst",
+      "url": "https://thepaypers.com/regulations/news/nordic-payments-council-publishes-new-credit-transfer-rulebooks",
+      "reason": "范围门拦：标的是银行间即时信贷转账规则，非卡组织或卡清算规则；与 11-11 拦加拿大 RTR 同一判据"
+    },
+    {
+      "title": "Blackstone 等洽谈为 GTCR 收购 Global Payments 融资",
+      "url": "https://www.pymnts.com/news/acquiring/2026/blackstone-warburg-pincus-and-apollo-weigh-backing-50-billion-global-payments-acquisition/",
+      "reason": "与同一收购事件重复记录，仅融资方浮出水面、无协议或交割节点，不另立条"
+    },
+    {
+      "title": "Card One 支付现代化访谈",
+      "url": "https://www.paymentsdive.com/news/cap-one-pursues-payments-modernization/875673/",
+      "reason": "访谈稿，无动作门可核具体物，与上一条同源去重"
+    },
+    {
+      "title": "JPMorgan、Visa、Mastercard 报告第三方客户数据泄露",
+      "url": "https://paymentsindustryintelligence.com/jpmorgan-visa-and-mastercard-report-third-party-breaches/",
+      "reason": "范围门拦：数据泄露事件，不改变凭证载体或受理机制"
+    },
+    {
+      "title": "加拿大选定 FDX 制定开放银行标准",
+      "url": "https://paymentsindustryintelligence.com/canada-selects-fdx-to-establish-open-banking-standards/",
+      "reason": "范围门拦：开放银行与账户数据标准，不属卡组织或卡清算规则"
+    },
+    {
+      "title": "Worldline 股价因现金流管理受 scrutiny 下挫",
+      "url": "https://paymentsindustryintelligence.com/worldline-shares-plunge-amid-cash-flow-concerns/",
+      "reason": "范围门拦：财报与市场表现，非形态或机制变化"
+    },
+    {
+      "title": "Visa 批准 5000 万美元 CEO 留任股票奖励",
+      "url": "https://fintechnews.sg/142320/payments/visa-ceo-ryan-mcinerney-stock-award/",
+      "reason": "范围门拦：人事与薪酬，非卡栈事件"
+    },
+    {
+      "title": "Adyen 联合创始人卸任",
+      "url": "https://www.paymentsdive.com/news/adyen-co-founder-van-der-does-step-down-uytdehaage/875648/",
+      "reason": "范围门拦：人事变动"
+    },
+    {
+      "title": "Payoneer 获信托银行有条件批准",
+      "url": "https://www.paymentsdive.com/news/payoneer-gets-conditional-approval-trust-bank-occ-payo-digital/875545/",
+      "reason": "范围门拦：银行牌照，明确不收"
+    },
+    {
+      "title": "Intermex 起诉 Western Union",
+      "url": "https://www.paymentsdive.com/news/intermex-sues-western-union/875625/",
+      "reason": "范围门拦：诉讼，非凭证形态或受理机制变化"
+    },
+    {
+      "title": "EBA 2026 年 11 月 25 日邮件提醒",
+      "url": "https://www.eba.europa.eu/node/20237",
+      "reason": "无具体事件与可核动作，标注阶段置信度 0.05"
+    },
+    {
+      "title": "Finmo 为企业账户增加 USDC 与 USDT 支持",
+      "url": "https://fintechnews.sg/142303/blockchain/finmo-stablecoins-usdc-usdt-business-account/",
+      "reason": "范围门拦：稳定币发行与账户，不在卡栈"
+    },
+    {
+      "title": "Meeza 在安卓手机上线 Tap & Pay 非接支付",
+      "url": "https://see.news/egypt-expands-tap-to-pay-services-to-android-phones-through-local-banks",
+      "reason": "duplicate-of-2026-11-24-banking-01：与埃及央行安卓卡令牌化为同一发布，Meeza 为其中本地方案"
+    },
+    {
+      "title": "Deel 上线稳定币消费卡、26 市场由 Stripe 发卡",
+      "url": "https://thedefiant.io/deel-launches-stablecoin-spending-card-in-26-markets",
+      "reason": "duplicate-of-2026-11-25-banking-03：已由此前发布处理"
+    },
+    {
+      "title": "银联在吉布提首发实体借记与数字预付卡",
+      "url": "https://www.163.com/dy/article/LCGMICGD0519BND1.html",
+      "reason": "duplicate-of-2026-11-25-banking-04：已由此前发布处理"
+    },
+    {
+      "title": "东信和平通过万事达新一代 ECOS 产品认证",
+      "url": "https://www.stcn.com/article/detail/4348705.html",
+      "reason": "duplicate-of-2026-11-24-banking-02：已由此前发布处理"
+    },
+    {
+      "title": "OpenWay 加入 Visa 数字化计划、亚太先上两项能力",
+      "url": "https://fintechnews.sg/142264/payments/openway-visa-digital-payments-apac/",
+      "reason": "duplicate-of-2026-11-25-banking-01：已由此前发布处理"
+    },
+    {
+      "title": "ACI 扩大与阿联酋 NEOPAY 合作、收单平台加装反欺诈",
+      "url": "https://investor.aciworldwide.com/news-releases/news-release-details/aci-worldwide-expands-strategic-partnership-neopay-adding-ai",
+      "reason": "duplicate-of-2026-11-25-banking-02：已由此前发布处理"
+    },
+    {
+      "title": "Trust Payments 接入 OKTO、覆盖拉美六国本地卡处理",
+      "url": "https://www.finextra.com/pressarticle/111757/trust-payments-partners-okto-payments-in-latam",
+      "reason": "duplicate-of-2026-11-24-banking-05：已由此前发布处理"
+    },
+    {
+      "title": "埃及央行把支付卡令牌化扩到安卓手机",
+      "url": "https://dailynewsegypt.com/2026/11/23/cbe-launches-payment-card-tokenisation-services-on-android-devices/",
+      "reason": "duplicate-of-2026-11-24-banking-01：已由此前发布处理"
+    },
+    {
+      "title": "Clapp 发 Visa 加密卡、可用抵押借贷额度消费",
+      "url": "https://www.financexmagazine.com/post/clapp-crypto-card-taps-credit-lines-so-holders-spend-without-selling",
+      "reason": "duplicate-of-2026-11-25-banking-05：已由此前发布处理"
+    }
+  ],
+  "stats": {
+    "candidates": 62,
+    "written": 1,
+    "skippedByDedup": 10
+  },
+  "finishedAt": "2026-11-25T20:17:08.459Z"
+}

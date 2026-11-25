@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-26-banking-01",
+  "slug": "satispay-adyen-smart-pos-terminal",
+  "industry": "banking",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "acquiring",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-26T04:18:02+08:00",
+  "ingestedAt": "2026-11-26T02:30:45+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "The Paypers",
+      "url": "https://thepaypers.com/payments/news/satispay-unveils-smart-pos-terminal-developed-with-adyen",
+      "lang": "en",
+      "publishedAt": "2026-11-24T00:00:00+01:00"
+    }
+  ],
+  "title": {
+    "zh": "Satispay 与 Adyen 发布多合一 Smart POS 终端",
+    "en": "Satispay and Adyen launch Smart POS terminal for 500,000 merchants",
+    "es": "Satispay y Adyen lanzan un terminal Smart POS para 500.000 comercios"
+  },
+  "summary": {
+    "zh": "Satispay 于 11 月 24 日发布与 Adyen 联合开发的 Smart POS 终端，把银行卡受理、Satispay 自有支付、餐饮券、礼品券与 Pay in 3 分期放进同一台设备，面向其网络内逾 50 万商户，计划 2026 年 12 月中旬上市。合作同时让已用 Adyen 的商户反向接入 Satispay。",
+    "en": "Satispay unveiled on 24 November a Smart POS terminal developed with Adyen, putting card acceptance, Satispay payments, meal and gift vouchers and Pay in 3 instalments on a single device for more than 500,000 merchants in its network. Rollout starts in mid-December 2026. The tie-up also lets merchants already using Adyen add Satispay.",
+    "es": "Satispay presentó el 24 de noviembre un terminal Smart POS desarrollado con Adyen, que reúne la aceptación de tarjetas, los pagos propios de Satispay, vales de comida y regalo y Pay in 3 en un solo dispositivo para más de 500.000 comercios de su red. El despliegue empieza a mediados de diciembre de 2026. El acuerdo también permite a los comercios que ya usan Adyen añadir Satispay."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Satispay 于 11 月 24 日公布一款与荷兰支付处理商 Adyen 联合开发的 Smart POS 终端。这家以「无需硬件、靠手机收款」为卖点的意大利支付网络，此前主要依靠 App 与商户自有设备完成收款，这次是其首次推出自有实体 POS 终端。",
+        "en": "Satispay announced a Smart POS terminal on 24 November, developed jointly with Dutch payment processor Adyen. The Italian payments network has sold itself on taking payments with no hardware, relying on its app and merchants' own devices; this is its first physical POS terminal.",
+        "es": "Satispay anunció el 24 de noviembre un terminal Smart POS desarrollado conjuntamente con el procesador neerlandés Adyen. La red italiana de pagos se ha promocionado por cobrar sin hardware, usando su app y los dispositivos propios de los comercios; este es su primer terminal POS físico."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Smart POS 把银行卡刷卡、Satispay 自有支付、餐饮券、礼品券与 Pay in 3 分期集中到同一台硬件上。Satispay 说明，这台设备面向其网络内超过 50 万商户以及未来加入的商户，商户在收银台不必再为卡、券和分期分别准备工具。",
+        "en": "The Smart POS puts card acceptance, Satispay payments, meal vouchers, gift vouchers and Pay in 3 instalments on one piece of hardware. Satispay says the device targets the more than 500,000 merchants already in its network plus future joiners, so a checkout no longer needs separate tools for cards, vouchers and instalments.",
+        "es": "El Smart POS reúne en un solo hardware la aceptación de tarjetas, los pagos de Satispay, vales de comida y regalo y las cuotas de Pay in 3. Satispay indica que el dispositivo se dirige a los más de 500.000 comercios de su red y a los que se sumen después, de modo que un punto de venta ya no necesita herramientas separadas para tarjetas, vales y cuotas."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Adyen 在这项合作中承担终端底层处理能力，Satispay 的服务运行在 Adyen 的平台上。合作也向反方向开放：已经使用 Adyen 受理方案的商户，可以把 Satispay 接进现有配置，Satispay 借此进入 Adyen 覆盖的国际品牌线上与线下场景。",
+        "en": "Adyen provides the underlying processing for the terminal, with Satispay's services running on Adyen's platform. The arrangement also works in reverse: merchants already on Adyen can add Satispay to their existing setup, giving Satispay a route into the online and physical estates of international brands that Adyen serves.",
+        "es": "Adyen aporta el procesamiento subyacente del terminal, con los servicios de Satispay funcionando sobre la plataforma de Adyen. El acuerdo también opera en sentido inverso: los comercios que ya usan Adyen pueden añadir Satispay a su configuración actual, lo que abre a Satispay el acceso a los canales online y físicos de marcas internacionales atendidas por Adyen."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Smart POS 计划在 2026 年 12 月中旬开始供货。Satispay 的公告未披露设备定价、首批供货国家，也未列出将接入 Satispay 的具体 Adyen 商户名单，这些细节要在上市时才能确认。",
+        "en": "The Smart POS is scheduled to be available from mid-December 2026. Satispay's announcement did not disclose device pricing, the first shipping countries, or a named list of Adyen merchants that will add Satispay; those details remain open until launch.",
+        "es": "El Smart POS estará disponible a mediados de diciembre de 2026. El anuncio de Satispay no reveló el precio del dispositivo, los primeros países de entrega ni una lista de comercios de Adyen que añadirán Satispay; esos detalles quedan abiertos hasta el lanzamiento."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "Smart POS 改变了 Satispay 商户的收银台构成。这家此前以「无需硬件、靠手机收款」为卖点的支付网络，第一次把银行卡、自有余额、券与分期收进一台实体终端，等于从二维码与 App 收款扩展到需要同时处理卡与券的餐饮、零售场景。对商户而言，原本分开放置的刷卡机、券核销工具与分期入口合并到同一后台，退货与对账集中在一处。Adyen 的合作是另一条线：这家处理商服务的大量国际品牌商户，现在可以把 Satispay 加进现有受理配置，Satispay 借此进入自身网络难以覆盖的大型线上线下商户。终端 12 月中旬才上市，设备定价、接入的 Adyen 商户名单与首批发货国家均未披露，实际覆盖仍待观察。",
+    "en": "The Smart POS changes the checkout counter for Satispay's merchants. A network that sold itself on taking payments with no hardware now puts cards, its own balance, vouchers and instalments into one physical terminal, extending from app-based collection into restaurants and shops that must handle cards and vouchers side by side. Merchants collapse separate card readers, voucher tools and instalment flows into one back office, concentrating returns and reconciliation. The Adyen tie-up runs the other way: the processor's large international brand merchants can now add Satispay to an existing acceptance setup, giving Satispay access to big online and in-store accounts its own merchant base could not reach. The terminal arrives in mid-December; device pricing, the named Adyen merchants and the first shipping countries were not disclosed, so real coverage is still unproven.",
+    "es": "El Smart POS cambia el mostrador de los comercios de Satispay. Una red que vendía la ventaja de cobrar sin hardware reúne ahora tarjetas, saldo propio, vales y cuotas en un terminal físico, pasando del cobro con app a restaurantes y tiendas que deben gestionar tarjetas y vales a la vez. Los comercios unifican en una sola Administración lectores de tarjetas, herramientas de vales y flujos de cuotas, concentrando devoluciones y conciliación. El acuerdo con Adyen opera en otra dirección: los grandes comercios de marcas internacionales atendidos por ese procesador pueden añadir Satispay a su configuración actual, lo que da a la firma acceso a cuentas online y físicas que su propia red no alcanzaba. El terminal llega a mediados de diciembre; no se revelaron precio, comercios concretos de Adyen ni primeros países de entrega, por lo que la cobertura real está aún por verificar."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "workbuddy-agent",
+    "promptVersion": "banking-editor-2026-11"
+  }
+}

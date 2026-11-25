@@ -2,78 +2,7 @@
   "date": "2026-11-25",
   "industry": "banking",
   "startedAt": "2026-11-25T02:37:56+08:00",
-  "drafts": [
-    {
-      "id": "2026-11-25-banking-05",
-      "slug": "clapp-visa-crypto-card-credit-line",
-      "industry": "banking",
-      "region": "global",
-      "regions": [],
-      "tags": [
-        "issuing",
-        "digital-wallet"
-      ],
-      "originalLang": "en",
-      "sources": [
-        {
-          "name": "FinanceX Magazine",
-          "url": "https://www.financexmagazine.com/post/clapp-crypto-card-taps-credit-lines-so-holders-spend-without-selling",
-          "lang": "en"
-        },
-        {
-          "name": "Crypto Compass",
-          "url": "https://www.cryptocompass.com/articles/clapp-finance-launches-crypto-card-with-0-transaction-fees-and-credit-line-spendings-24-nov",
-          "lang": "en"
-        }
-      ],
-      "title": {
-        "zh": "Clapp 发 Visa 加密卡，可用抵押借贷额度消费",
-        "en": "Clapp launches Visa crypto card funded by collateral-backed credit line",
-        "es": "Clapp lanza tarjeta Visa cripto financiada con una línea de crédito garantizada"
-      },
-      "summary": {
-        "zh": "Clapp Finance 于 11 月 24 日在布拉格发布 Clapp Crypto Card，一张 Visa Platinum 卡，可直接消费 USDT、USDC 余额，也可挂钩多抵押信贷线，借出稳定币消费而不卖出原加密资产。虚拟卡即时发行、限时收费 4.99 美元，公司称可在 150 多个国家使用。借贷利率与抵押比例未在公告披露。",
-        "en": "Clapp Finance launched the Clapp Crypto Card from Prague on 24 November: a Visa Platinum card that spends USDT or USDC balances directly and can also be linked to a multi-collateral credit line, borrowing stablecoins against crypto collateral without selling the underlying assets. Virtual cards are issued instantly for a limited-time 4.99-dollar fee, and the company says the card works in more than 150 countries. Interest rates and collateral ratios were not disclosed.",
-        "es": "Clapp Finance lanzó el 24 de noviembre desde Praga la Clapp Crypto Card, una tarjeta Visa Platinum que gasta saldos en USDT o USDC directamente y que también puede vincularse a una línea de crédito con múltiples garantías, tomando prestadas stablecoins contra criptoactivos sin venderlos. Las tarjetas virtuales se emiten al instante con una tarifa de 4,99 dólares por tiempo limitado, y la empresa afirma que funciona en más de 150 países. No se revelaron tasas de interés ni ratios de garantía."
-      },
-      "body": [
-        {
-          "kind": "p",
-          "text": {
-            "zh": "Clapp Finance 于 11 月 24 日宣布推出 Clapp Crypto Card，这是一款挂钩 Visa 网络的加密卡，可用于线上与线下消费。商户收到的是本地法币，Visa 网络负责清算，受理端不需要任何加密资产处理能力。这张卡为 Visa Platinum 档，已集成进 Clapp 现有的钱包与交易平台。",
-            "en": "Clapp Finance announced the Clapp Crypto Card on 24 November, a crypto-linked card on the Visa network for online and in-store spending. Merchants receive local fiat and settlement runs over Visa, so the acceptance side needs no crypto capability. The card sits on Visa's Platinum tier and is integrated into Clapp's existing wallet and exchange.",
-            "es": "Clapp Finance anunció el 24 de noviembre la Clapp Crypto Card, una tarjeta vinculada a criptoactivos en la red Visa para gastos en línea y presenciales. Los comercios reciben moneda fiduciaria local y la liquidación corre por Visa, por lo que el lado de aceptación no necesita capacidad cripto. La tarjeta pertenece al nivel Platinum de Visa y está integrada en la billetera y casa de cambio existentes de Clapp."
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "这张卡有两种资金来源。一是直接扣减用户持有的 USDT 或 USDC 余额，按实时汇率换算成商户本地货币。二是挂钩 Clapp 的多抵押信贷线：用户质押比特币或以太坊等资产借出稳定币再消费，原持仓不卖出，后续上涨仍归用户。这是它与普通加密借记卡的主要差别。",
-            "en": "The card draws on two funding sources. The first debits a user's USDT or USDC balance, converted at the point of sale into the merchant's local currency. The second links to a Clapp multi-collateral credit line: the user pledges assets such as bitcoin or ether, borrows stablecoins against them and spends the proceeds while keeping the original position. That is the main difference from a plain crypto debit card.",
-            "es": "La tarjeta se financia de dos maneras. La primera descuenta el saldo en USDT o USDC del usuario, convertido en el momento de la compra a la moneda local del comercio. La segunda la vincula a una línea de crédito con múltiples garantías de Clapp: el usuario pone en garantía activos como bitcoin o éter, pide prestadas stablecoins y gasta el importe conservando su posición original. Esa es la principal diferencia con una tarjeta de débito cripto corriente."
-          }
-        },
-        {
-          "kind": "p",
-          "text": {
-            "zh": "Clapp 称虚拟卡即时发行，限时发行费 4.99 美元（原为 9.99 美元），支持加入 Apple Pay 与 Google Pay，可在 150 多个国家使用。公司自称对加密兑法币不收兑换费、无月费，标准 Visa 网络与处理费仍适用。公告未说明信贷利率、抵押率、清算阈值与首批发行市场，相关数字均为公司自述。",
-            "en": "Clapp says virtual cards are issued instantly for a limited-time 4.99-dollar fee, down from 9.99 dollars, can be added to Apple Pay and Google Pay, and work in more than 150 countries. The company claims no fee on crypto-to-fiat conversion and no monthly charge, while standard Visa network and processing fees still apply. The release gave no interest rates, loan-to-value ratios, liquidation thresholds or first launch markets; those figures are the company's own statements.",
-            "es": "Clapp afirma que las tarjetas virtuales se emiten al instante con una tarifa de 4,99 dólares por tiempo limitado (antes 9,99), pueden añadirse a Apple Pay y Google Pay y funcionan en más de 150 países. La empresa dice no cobrar comisión por conversión cripto a moneda fiduciaria ni cuota mensual, aunque siguen aplicándose las tarifas estándar de Visa y del procesador. El comunicado no precisó tasas de interés, ratios de préstamo, umbrales de liquidación ni los primeros mercados de lanzamiento; las cifras son afirmaciones de la empresa."
-          }
-        }
-      ],
-      "whyItMatters": {
-        "zh": "对加密资产持有者，这条变化把「花掉资产」和「保留仓位」拆开：普通加密借记卡在刷卡时卖出币，会产生处置并失去后续上涨；Clapp 把卡接到抵押信贷线后，消费的是借出的稳定币，质押资产仍在账上。对发卡方，这是一个把借贷产品与卡消费绑在同一入口的尝试，收入来自利差与兑换价差而非卡费。风险同样明确：抵押借贷带利率与清算机制，币价下跌时用户可能追加保证金或被平仓，公告没有给出这些条款。它与 11 月 20 日 Pine Labs 的 Staq 不是同一事件——Staq 是把稳定币余额做成可发 Visa 预付卡的能力，面向支付公司；Clapp 是加密平台把抵押借贷直接接到卡上，机制与客群都不同。上述产品说法均为公司自述，尚无独立核实。",
-        "en": "For crypto holders, the change separates spending the asset from keeping the position: a plain crypto debit card sells coins at the till, crystallising a disposal and losing future upside; by linking the card to a collateral-backed credit line, Clapp funds spending with borrowed stablecoins while the pledged assets remain. For the issuer, this is an attempt to bundle lending and card spending in one entry point, with revenue from interest and conversion spreads rather than card fees. The risk is equally clear: collateral borrowing carries interest and liquidation, so a price fall can trigger margin calls, and the release gave no terms. This is not the same event as Pine Labs' Staq on 20 November, which turns stablecoin balances into Visa prepaid issuing capability for payment companies, whereas Clapp connects collateral lending straight to a card for crypto users, with a different mechanism and audience. All product claims are the company's own and have not been independently verified.",
-        "es": "Para quienes poseen criptoactivos, el cambio separa gastar el activo de conservar la posición: una tarjeta de débito cripto corriente vende las monedas al pagar, materializando la venta y perdiendo futuras subidas; al vincular la tarjeta a una línea de crédito garantizada, Clapp financia el gasto con stablecoins prestadas mientras los activos en garantía siguen en su cuenta. Para el emisor, es un intento de agrupar crédito y gasto con tarjeta en una sola entrada, con ingresos provenientes de intereses y diferenciales de conversión más que de comisiones de tarjeta. El riesgo es igual de claro: el préstamo garantizado implica intereses y liquidación, por lo que una caída del precio puede exigir más garantía, y el comunicado no dio condiciones. No es el mismo evento que Staq de Pine Labs el 20 de noviembre, que convierte saldos de stablecoins en capacidad de emisión de tarjetas prepago Visa para empresas de pagos, mientras Clapp conecta el crédito garantizado directamente a una tarjeta para usuarios cripto, con mecanismo y público distintos. Todas las afirmaciones sobre el producto son de la empresa y no han sido verificadas de forma independiente."
-      },
-      "confidence": 0.55,
-      "ai": {
-        "model": "claude-opus-6",
-        "promptVersion": "banking-editor-2026-11"
-      }
-    }
-  ],
+  "drafts": [],
   "rejected": [
     {
       "title": "Visa, Transsion Partner to Expand Visa Tap-to-Pay to Smartphones",
@@ -351,5 +280,5 @@
     "written": 5,
     "skippedByDedup": 9
   },
-  "finishedAt": "2026-11-24T20:17:03.049Z"
+  "finishedAt": "2026-11-25T20:17:08.462Z"
 }

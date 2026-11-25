@@ -1,0 +1,66 @@
+{
+  "id": "2026-11-25-telecom-02",
+  "slug": "huawei-mate-x8-dual-esim-three-sim-active",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "esim",
+    "5g"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-26T04:18:02+08:00",
+  "ingestedAt": "2026-11-25T02:53:18+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "华为官网",
+      "url": "https://consumer.huawei.com/cn/phones/mate-x8/specs/",
+      "lang": "zh"
+    },
+    {
+      "name": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20261124A0AGJ100",
+      "lang": "zh",
+      "publishedAt": "2026-11-24T16:26:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "华为 Mate X8 确认双 eSIM，四号可三卡同时在线",
+    "en": "Huawei Mate X8 specs confirm dual eSIM, three of four numbers active at once",
+    "es": "Las especificaciones del Huawei Mate X8 confirman doble eSIM y tres números activos de cuatro"
+  },
+  "summary": {
+    "zh": "华为 11 月 24 日在上海发布折叠旗舰 Mate X8，官网规格页确认支持 eSIM：单机最多存 2 个 eSIM 号码，整机最多四个号码（2 张实体卡＋2 个 eSIM），可同时使用三个，其中至少两个需属同一中国大陆运营商。这是大折叠形态首次把双 eSIM 写进规格并给出同时在线组合，机型 12999 元起售。",
+    "en": "Huawei launched the foldable flagship Mate X8 in Shanghai on 24 November, and its official specs page confirms eSIM support: up to two eSIM numbers stored, four numbers in total (two physical SIMs plus two eSIMs), with three usable at once provided at least two belong to the same mainland China carrier. It is the first large-foldable to put dual eSIM in its specs with a stated active combination. Pricing starts at CNY 12,999.",
+    "es": "Huawei lanzó en Shanghái el 24 de noviembre el plegable insignia Mate X8, y su página oficial de especificaciones confirma la compatibilidad con eSIM: hasta dos números eSIM almacenados, cuatro números en total (dos SIM físicas más dos eSIM), con tres activos a la vez siempre que al menos dos pertenezcan al mismo operador de China continental. Es el primer plegable grande que incluye doble eSIM en sus especificaciones con una combinación activa declarada. El precio parte de 12.999 yuanes."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "华为 Mate X8 于 11 月 24 日在上海的全场景新品发布会上正式发布。华为官网规格页写明该机支持 eSIM：单个手机最多可存储 2 个 eSIM 号码，整机最多支持四个号码，即 2 张实体卡号码加 2 个 eSIM 号码，并可同时使用其中三个号码。规格页同时注明，三个在用号码中至少有两个须为同一中国大陆运营商。",
+        "en": "Huawei formally launched the Mate X8 at its Shanghai product event on 24 November. The company's official specs page states that the phone supports eSIM: it can store up to two eSIM numbers, carry four numbers in total made up of two physical SIMs and two eSIMs, and keep three of them active at the same time. The page also notes that at least two of the three active numbers must belong to the same mainland China carrier.",
+        "es": "Huawei lanzó formalmente el Mate X8 en su evento de productos en Shanghái el 24 de noviembre. La página oficial de especificaciones indica que el teléfono admite eSIM: puede almacenar hasta dos números eSIM, tener cuatro números en total formados por dos SIM físicas y dos eSIM, y mantener tres activos a la vez. La página señala además que al menos dos de los tres números activos deben pertenecer al mismo operador de China continental."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "华为在发布会上给出的具体组合是 2 张实体 SIM 加 1 个 eSIM，或 1 张实体 SIM 加 2 个 eSIM，两种情况下三个号码均可通话、上网和收发短信。 Mate X8 搭载麒麟 9050 Pro 芯片与 HarmonyOS 7.0，展开态厚 4.2 毫米，标准版 12GB＋256GB 售价 12999 元，典藏版 15999 元起。华为官网注明 eSIM 功能需开通运营商相关业务，目前仅部分运营商提供。",
+        "en": "The combinations Huawei gave at the launch are two physical SIMs plus one eSIM, or one physical SIM plus two eSIMs, with all three numbers able to make calls, use data and send messages in either case. The Mate X8 runs on the Kirin 9050 Pro chip and HarmonyOS 7.0, measures 4.2 mm unfolded, and starts at CNY 12,999 for the 12GB plus 256GB version, with the Collector's Edition from CNY 15,999. Huawei's specs note that the eSIM feature requires the carrier to offer the service, which currently only some carriers do.",
+        "es": "Las combinaciones que Huawei presentó en el lanzamiento son dos SIM físicas más una eSIM, o una SIM física más dos eSIM, y en ambos casos los tres números pueden llamar, usar datos y enviar mensajes. El Mate X8 usa el chip Kirin 9050 Pro y HarmonyOS 7.0, mide 4,2 mm abierto y parte de 12.999 yuanes en la versión de 12 GB más 256 GB, mientras que la edición Collector comienza en 15.999 yuanes. Las especificaciones de Huawei señalan que la función eSIM requiere que el operador ofrezca el servicio, algo que por ahora hacen solo algunos."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对做多号终端的厂商和集成商，Mate X8 把双 eSIM 从直板机推进到大折叠形态，并把「四号存三、三卡同时在线」写成官网可核参数。真正的新点是同时在线的三个号码里至少两个须属同一中国大陆运营商：这说明能否三卡并发取决于运营商是否放号与是否同网，不是终端硬件单独决定，厂商做多 eSIM 产品时必须把运营商组合列进兼容清单。对 SIM 与 eSIM 供应商，这就把采购判断从「能不能写两个 eSIM」变成「在哪些运营商组合下能同时用三个号」。边界也要看清：11 月 24 日已收录的华为星芒 OSTA O1 Pro 是四号同时启用两个，Mate X8 是四号同时启用三个且带同网限制，两者是不同产品线与不同能力参数，不是同一款机的重复报道。",
+    "en": "For vendors and integrators building multi-number devices, the Mate X8 moves dual eSIM from slab phones into the large-foldable form factor and puts four stored numbers with three active at once into an official, checkable spec. The genuinely new point is the condition that at least two of the three active numbers belong to the same mainland China carrier: whether three numbers can run concurrently depends on carrier provisioning and network, not on handset hardware alone, so vendors must list carrier combinations in compatibility matrices. For SIM and eSIM suppliers this shifts the buying question from whether two eSIMs can be written to which carrier combinations allow three numbers at once. The boundary is also clear: the Huawei OSTA O1 Pro recorded on 24 November enables two of four numbers at once, while the Mate X8 enables three of four with a same-network condition, so these are different product lines and capability parameters, not a repeat story about one handset.",
+    "es": "Para fabricantes e integradores de dispositivos con varios números, el Mate X8 lleva la doble eSIM de los teléfonos planos al formato plegable grande y convierte cuatro números almacenados con tres activos a la vez en una especificación oficial verificable. El punto realmente nuevo es la condición de que al menos dos de los tres números activos pertenezcan al mismo operador de China continental: si tres números pueden funcionar simultáneamente depende del aprovisionamiento y la red del operador, no solo del hardware, por lo que los fabricantes deben incluir las combinaciones de operadores en sus listas de compatibilidad. Para los proveedores de SIM y eSIM, esto cambia la pregunta de compra de si se pueden escribir dos eSIM a qué combinaciones de operadores permiten tres números a la vez. El límite también está claro: el Huawei OSTA O1 Pro registrado el 24 de noviembre activa dos de cuatro números a la vez, mientras que el Mate X8 activa tres de cuatro con condición de misma red, por lo que son líneas de producto y parámetros distintos, no una repetición sobre un mismo terminal."
+  },
+  "confidence": 0.62,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "telecom-editor-2026-11"
+  }
+}

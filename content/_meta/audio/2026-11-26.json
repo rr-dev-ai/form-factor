@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-25T20:22:21.809Z",
+  "renderer": 1,
+  "items": {
+    "cell-c-acquires-melon-mobile-mvno": {
+      "zh": {
+        "file": "audio/zh/cell-c-acquires-melon-mobile-mvno.b31e71ed.mp3",
+        "hash": "b31e71ed",
+        "bytes": 1673037,
+        "duration": 139.325,
+        "voice": "zm_011",
+        "speed": 1.157
+      },
+      "en": {
+        "file": "audio/en/cell-c-acquires-melon-mobile-mvno.94e4e43f.mp3",
+        "hash": "94e4e43f",
+        "bytes": 1981773,
+        "duration": 165.061,
+        "voice": "af_heart",
+        "speed": 1.066
+      },
+      "es": {
+        "file": "audio/es/cell-c-acquires-melon-mobile-mvno.00f1048b.mp3",
+        "hash": "00f1048b",
+        "bytes": 1886445,
+        "duration": 157.11,
+        "voice": "em_alex",
+        "speed": 1.072
+      }
+    },
+    "clapp-visa-crypto-card-credit-line": {
+      "zh": {
+        "file": "audio/zh/clapp-visa-crypto-card-credit-line.e046b6ba.mp3",
+        "hash": "e046b6ba",
+        "bytes": 1839501,
+        "duration": 153.2,
+        "voice": "zm_015",
+        "speed": 1.094
+      },
+      "en": {
+        "file": "audio/en/clapp-visa-crypto-card-credit-line.ba941935.mp3",
+        "hash": "ba941935",
+        "bytes": 1847853,
+        "duration": 153.895,
+        "voice": "am_fenrir",
+        "speed": 1.118
+      },
+      "es": {
+        "file": "audio/es/clapp-visa-crypto-card-credit-line.b2191ba9.mp3",
+        "hash": "b2191ba9",
+        "bytes": 1964205,
+        "duration": 163.585,
+        "voice": "ef_dora",
+        "speed": 1.093
+      }
+    },
+    "huawei-mate-x8-dual-esim-three-sim-active": {
+      "zh": {
+        "file": "audio/zh/huawei-mate-x8-dual-esim-three-sim-active.d71bab40.mp3",
+        "hash": "d71bab40",
+        "bytes": 1502829,
+        "duration": 125.15,
+        "voice": "zm_009",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/huawei-mate-x8-dual-esim-three-sim-active.ccd0461e.mp3",
+        "hash": "ccd0461e",
+        "bytes": 1858797,
+        "duration": 154.813,
+        "voice": "am_michael",
+        "speed": 1.13
+      },
+      "es": {
+        "file": "audio/es/huawei-mate-x8-dual-esim-three-sim-active.82290210.mp3",
+        "hash": "82290210",
+        "bytes": 1772109,
+        "duration": 147.58,
+        "voice": "em_alex",
+        "speed": 1.072
+      }
+    },
+    "satispay-adyen-smart-pos-terminal": {
+      "zh": {
+        "file": "audio/zh/satispay-adyen-smart-pos-terminal.4c04d82f.mp3",
+        "hash": "4c04d82f",
+        "bytes": 1645965,
+        "duration": 137.075,
+        "voice": "zm_010",
+        "speed": 1.15
+      },
+      "en": {
+        "file": "audio/en/satispay-adyen-smart-pos-terminal.42d47313.mp3",
+        "hash": "42d47313",
+        "bytes": 1793133,
+        "duration": 149.343,
+        "voice": "af_heart",
+        "speed": 1.066
+      },
+      "es": {
+        "file": "audio/es/satispay-adyen-smart-pos-terminal.b33b1947.mp3",
+        "hash": "b33b1947",
+        "bytes": 1680237,
+        "duration": 139.935,
+        "voice": "ef_dora",
+        "speed": 1.093
+      }
+    },
+    "sumsub-ghana-non-doc-id-pin-selfie": {
+      "zh": {
+        "file": "audio/zh/sumsub-ghana-non-doc-id-pin-selfie.346e5180.mp3",
+        "hash": "346e5180",
+        "bytes": 2264589,
+        "duration": 188.625,
+        "voice": "zf_008",
+        "speed": 1.038
+      },
+      "en": {
+        "file": "audio/en/sumsub-ghana-non-doc-id-pin-selfie.9f1657bb.mp3",
+        "hash": "9f1657bb",
+        "bytes": 2057517,
+        "duration": 171.361,
+        "voice": "am_fenrir",
+        "speed": 1.118
+      },
+      "es": {
+        "file": "audio/es/sumsub-ghana-non-doc-id-pin-selfie.44f392b4.mp3",
+        "hash": "44f392b4",
+        "bytes": 1800045,
+        "duration": 149.915,
+        "voice": "ef_dora",
+        "speed": 1.093
+      }
+    }
+  }
+}

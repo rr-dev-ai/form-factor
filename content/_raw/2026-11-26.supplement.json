@@ -1,0 +1,65 @@
+{
+  "fetchedAt": "2026-11-26T01:54:22+08:00",
+  "fetchedFor": "2026-11-26",
+  "gap": [
+    "apac",
+    "cis",
+    "mena",
+    "europe",
+    "north-america",
+    "latam",
+    "africa"
+  ],
+  "cellGap": [],
+  "industryGap": [
+    "banking",
+    "telecom",
+    "identity"
+  ],
+  "items": [
+    {
+      "title": "iwoca 联合 Visa、Enfuce 在英国上线中小企业信用卡",
+      "url": "https://www.businesswire.com/news/home/20261124276924/en/",
+      "publishedAt": "2026-11-24T19:01:00-05:00",
+      "industry": "banking",
+      "region": "europe",
+      "actionType": "产品化节点",
+      "gateNote": "产品化节点，但 9 月 28 日财报已预告商务卡，本次只补上 Visa 与 Enfuce 承接方及具体条款；无卡体、令牌或受理端变化，缺发卡量。终审若按「首次或变化＋可核具体物」收紧，可能按常规卡产品宣传刷掉；保留是因它给出英国新卡项目的发卡与处理承接方。",
+      "discoveredBy": "R1「November 25 2026」credit union card program issuer processor OR mobile ID launch",
+      "note": "落在银行卡的发卡与个性化环节。iwoca 把中小企业信贷客户直接接到一张 Visa 商务卡上，Enfuce 云原生平台承担发卡与处理，1% 返现、最长 42 天免息、零年费与零外汇费。机制变化是把贷款、先买后付与卡整合进同一借款人关系，由第三方发卡处理商替代银行自建。原文未给卡体形态、令牌化方案、发卡量与额度分布，也未披露处理迁移细节，勿写成卡载体或支付机制创新。"
+    },
+    {
+      "title": "新西兰移民局为生物特征比对系统发 RFI，目标每小时 1 万张人脸",
+      "url": "https://idtechwire.com/new-zealand-seeks-new-immigration-biometric-matching-system-after-failed-nz50-million-project/",
+      "publishedAt": "2026-11-24T12:00:00+13:00",
+      "industry": "identity",
+      "region": "apac",
+      "actionType": "无",
+      "gateNote": "RFI 不是招标也不是授标，无中标方、无合同金额，七类动作都不贴。终审若按七类动作卡会直接刷掉；保留是因原文给出处理速度、模板规模与失败项目沉没成本，属核验机制层可核动向。页面只有日期无时刻，+13:00 为新西兰夏令时占位。",
+      "discoveredBy": "R4 归档直读 idtechwire 首页（New Zealand Seeks New Immigration Biometric Matching System After Failed NZ$50 Million Project）",
+      "note": "落在身份凭证的核验与受理环节。MBIE 为 Core Identity Modernisation 征询替代现有 IDme 的人脸与指纹比对能力，要求每小时 1 万次照片比对、500 枚指纹、2000 万模板库，且保留现系统界面。机制变化是弃用已耗约 5000 万纽元却无可衡量收益的旧项目，改为窄范围替换核心比对引擎。原文明确这不是招标，预算、架构、采购路径未定，商业案例要到 2027 年 7 月。"
+    },
+    {
+      "title": "Visa Recurrent 在新西兰由 Kiwibank 首发，订阅扣款进银行 App 管理",
+      "url": "https://thepaypers.com/payments/news/visa-launches-visa-recurrent-subscription-management",
+      "publishedAt": "2026-11-25T12:00:00+01:00",
+      "industry": "banking",
+      "region": "apac",
+      "actionType": "产品化节点",
+      "gateNote": "改变的是银行 App 内的订阅管理界面而非卡片或令牌形态，只有 Kiwibank 一家首发，没有发卡量、商户数与其他上线银行。终审若按「改变凭证形态或机制」收紧，可能按渠道功能刷掉；保留是因它是 Visa 订阅管理能力在亚太首次嵌入发卡行渠道。页面无发布时刻，+01:00 占位。",
+      "discoveredBy": "R5「25 November 2026」mDL issuance OR verifiable credential pilot OR age assurance wallet launch（顺带命中 The Paypers 支付简报中的 Visa Recurrent）",
+      "note": "落在银行卡的受理与持卡人控制环节。Visa 把合格的周期性卡支付汇总进银行手机银行与网银，用户可查看流媒体、健身、软件、账单等订阅并执行支持的操作，参与商户可收到通知与跳转。机制变化是订阅管理从商户页面与卡组织独立工具移到发卡行渠道，并打通商户通知。原文未披露卡号或令牌是否变化、支持商户清单、覆盖卡量，勿写成新支付凭证。"
+    },
+    {
+      "title": "罗马尼亚外交部拟 12 月 2 日起在领事馆签发电子身份证",
+      "url": "https://rotimes.ro/en/article/2026-11-24-mae-to-issue-electronic-ids-at-consulates-from-dec-2026",
+      "publishedAt": "2026-11-24T15:29:00+02:00",
+      "industry": "identity",
+      "region": "europe",
+      "actionType": "无",
+      "gateNote": "仍是政府决定草案，无承建方、无金额、无设备或发卡量，七类动作都不贴。事件日 12-02 在窗口内但公告 11-24，终审若按公告时间或「首次或变化」收紧会刷掉；且与 11-15 已发罗马尼亚 RO Wallet 同属国家数字身份线，需终审判断是否为不同节点。页面时刻未标时区，+02:00 按布加勒斯特占位。",
+      "discoveredBy": "R3 edital cartão de identidade emissão 25 novembro 2026 contratação empresa",
+      "note": "落在身份凭证的签发环节。外交部公布政府决定草案，把电子身份证 CEI 的受理延伸到驻外使领馆，首批只给在罗有登记住所的海外公民，须本人到馆提交原件；证件送达使领馆欧盟内最多 45 个工作日、第三国 60 个工作日，同日起停收 1997 版旧证。机制变化是电子身份证签发渠道从境内延伸到领事端并设旧证退场日。原文未给芯片规格、安全等级、承建方与发证量。"
+    }
+  ]
+}

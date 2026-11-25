@@ -1,0 +1,99 @@
+{
+  "fetchedFor": "2026-11-26",
+  "matrix": {
+    "gap": [
+      "apac",
+      "cis",
+      "mena",
+      "europe",
+      "north-america",
+      "latam",
+      "africa"
+    ],
+    "cellGap": [],
+    "industryGap": [
+      "banking",
+      "telecom",
+      "identity"
+    ],
+    "note": "index 一次通过（fetchedFor=2026-11-26，148 条，fetchedAt 字段 undefined）。build-matrix 计入 0 条，剔除 低置信 148／无日期 0／超窗 0／已发布 0。21 格全空：七区三行业均为 0，cellGaps 被 gaps 吸收故为空，industryGaps 三行业各 7/7。matrix.json 未落盘，以 stdout 为准。"
+  },
+  "timing": {
+    "startedAt": "2026-11-26T01:50:50+08:00",
+    "r1At": "2026-11-26T01:51:36+08:00",
+    "r2At": "2026-11-26T01:51:48+08:00",
+    "r3At": "2026-11-26T01:52:01+08:00",
+    "r4At": "2026-11-26T01:52:19+08:00",
+    "r5At": "2026-11-26T01:52:30+08:00",
+    "r6At": "2026-11-26T01:52:46+08:00",
+    "extraAt": "2026-11-26T01:53:48+08:00",
+    "writtenAt": "2026-11-26T01:54:22+08:00"
+  },
+  "phases": [
+    {
+      "phase": "R1-缺口驱动",
+      "queries": 7,
+      "at": "2026-11-26T01:51:36+08:00",
+      "basedOn": null,
+      "note": "七区全空，按区各发一条带引号 11-25 日期锚定的产品词 query（亚洲卡发行、俄语卡证、海湾卡与数字身份、欧洲卡/eID、北美卡项目、西语拉美卡证、非洲卡与国民 ID）。命中集中于 iwoca 商务卡、Lianlian XCard、Metrobank Google Pay、坦桑尼亚新版 ID；后两条经核验分别撞已发同线与无效新机制，iwoca 保留。"
+    },
+    {
+      "phase": "R2-机构驱动",
+      "queries": 6,
+      "at": "2026-11-26T01:51:48+08:00",
+      "basedOn": "R1 的区域＋产品词命中多为重复宣传，改按具体主体切入：通稿发布页、发卡处理商（CorServ/Velera/Marqeta/Fiserv/Enfuce）、证件局、芯片厂、制卡厂、Finopotamus 类长尾",
+      "note": "BusinessWire 通稿页给出 iwoca×Visa×Enfuce；证件机构线撞坦桑尼亚 NIDA 与越南新山一机场闸机（已发）；芯片厂线全是汽车雷达与无关产品；制卡厂线出现尼日利亚护照本厂（11-22 已发）与广告页。iwoca 之外无新增可用。"
+    },
+    {
+      "phase": "R3-官方一手",
+      "queries": 6,
+      "at": "2026-11-26T01:52:01+08:00",
+      "basedOn": "R1/R2 的证照与卡项目线索缺一手日期、承建方与规模，转采购术语与官方公告反查，沿用此前有效的中文采购词路径",
+      "note": "中文 ccgp 找到港珠澳大桥边检站 45.4 万元采购（含 2 台制卡机），但用途只写执勤装备、无证件机制变化，弃用；葡语 edital 撞罗马尼亚领事馆签发电子身份证草案，经原文核验后保留；阿语、西语、英语采购词与 TED 全回招标聚合站、卡塔尔保险标与超窗的瑞士深伪检测授标。"
+    },
+    {
+      "phase": "R4-行业垂媒",
+      "queries": 3,
+      "archiveFetches": 3,
+      "at": "2026-11-26T01:52:19+08:00",
+      "basedOn": "R3 的采购标本身近乎零产出，转 biometricupdate /202611、idtechwire 首页与 paymentsindustryintelligence 首页归档直读，跳过搜索结果聚合页",
+      "note": "idtechwire 一屏给出新西兰移民生物比对 RFI（保留），其余为科罗拉多数字 ID 泄露（不收）、Wultra 捷克钱包与美国务院 RFI（已发）；biometricupdate 归档 11-23/24 十缘多为观点、ICE 监控、年龄估算与已发条目；paymentsindustryintelligence 首页停在 11-24 且三条全为泄露、财报与开放银行标准，范围门不过。三条 query 与三次归档直读均完成。"
+    },
+    {
+      "phase": "R5-新兴术语",
+      "queries": 3,
+      "at": "2026-11-26T01:52:30+08:00",
+      "basedOn": "R4 归档里 telecom 与新卡形态仍是空白，改用 SGP.32 eIM／iSIM、mDL 与可验证凭证、quantum-safe card／softPOS 认证等尚未通用的表述反查",
+      "note": "SGP.32 轮全为 1oT 客户案例、协议讲解与旅游 eSIM 页；mDL／VC 轮撞香港 CMU 债券平台（不落三条链路）与 The Paypers 日报，后者带出 Visa Recurrent 与 Cashfree 代理钱包；quantum-safe 轮只有 Mastercard 咨询部门＋白皮书与欧盟量子法案，均非卡片或凭证形态变化。Visa Recurrent 保留，Cashfree 因与 11-14 起连续的代理钱包同线弃用。"
+    },
+    {
+      "phase": "R6-区域补充",
+      "queries": 4,
+      "at": "2026-11-26T01:52:46+08:00",
+      "basedOn": "R5 仍无 cis／mena／latam／north-america 命中，四区各换本地语言或具体主体重试，不重发前面同义 query",
+      "note": "俄语轮只回 Mir 科普与旧监管稿；阿语轮撞已发的埃及 Meeza 安卓令牌化、卡塔尔 GCC 框架（A2A 非卡）；葡语轮只回菲律宾纸版国家 ID 与塞浦路斯社会救助预付卡（无发行方与机制参数）；北美轮只剩康州 Mobile ID 与 Apple Wallet 排期，均非窗口内新事件。四区仍为零。"
+    },
+    {
+      "phase": "补轮-主体定向",
+      "queries": 4,
+      "at": "2026-11-26T01:53:48+08:00",
+      "basedOn": "R6 四区仍空，按缺口区具体机构或产品名再做最后一轮定向：mada/Jaywan/Banque Misr、拉美银行、北美信用合作社、俄 NSPK",
+      "note": "MENA 只有埃及令牌化复述与汇率；拉美只有 iwoca 与已剔除的 MetaMask；北美除 NCUA 公司信用合作社规则（治理规则，范围门不过）外，出现 Reap 的 Visa BIN 赞助服务，但仅有希腊二手摘要、未找到一手来源，不收；俄语仍为旧稿。补轮零新增。"
+    }
+  ],
+  "queryTotal": 33,
+  "queryNote": "六轮 29 条 query（7/6/6/3/3/4）＋补轮 4 条，合计 33 条 WebSearch；另 3 次归档页直读、11 次原文 WebFetch 核验。六轮均达到 query 下限，R3 起每轮均写明 basedOn。每轮结束均有 date -Iseconds 实测，无估算时刻。",
+  "verifiedButDropped": [
+    "Lianlian XCard 与 Visa 代理专用令牌 B2B 实付（PRNewswire／Yonhap 11-25）——2026-11-19-banking-01 已发同一事件线，去重剔除",
+    "尼日利亚 7000 万美元护照本厂动工（Empowered Newswire）——2026-11-22-identity-02 已发，去重剔除",
+    "坦桑尼亚 NIDA 新一代 eID 与 NIDA Wallet 上线（11-25 多源）——2026-11-20-identity-03 与 11-19 supplement 已报同产线，去重剔除",
+    "Cashfree Wallet 让 AI 代理代付账单（The Paypers 11-24）——与 11-14 ChatGPT 钱包、11-19 连连 XCard、11-22 万事达蚂蚁实交易同属代理支付凭证线，避免重复收录",
+    "埃及 EBC Meeza Tap & Pay 安卓令牌化（11-24）——2026-11-24-banking-02 已发，去重剔除",
+    "港珠澳大桥边检站 45.4 万元制卡机采购（ccgp 11-24 17:29）——仅执勤装备清单，未说明制卡对象与凭证机制变化，范围门证据不足",
+    "瑞士 ELCA 深伪检测模块 444 万瑞郎授标（biometricupdate）——授标决定 11-18，超 72 小时窗",
+    "菲律宾 PDNI 数字国家身份项目投标截止延至 2027-02-11（philsys 公告 11-23）——非授标、公告日在窗边缘且无可核规模",
+    "科罗拉多 myColorado 数字 ID 因安全事件下线（idtechwire／biometricupdate 11-24）——数据泄露事件属 AGENTS.md 明确不收",
+    "Reap Visa BIN 赞助服务（11-25）——只找到希腊二手摘要，未找到可打开的一手公告，按规则弃用",
+    "Naver Pay Handsign 掌纹支付原型（11-25）——仅展会演示、无上线日与部署规模；Hitachi×Tobu 人脸支付 114 店为同批报道，但主体是 SAKULaLa 账户绑定信用卡而非新凭证机制"
+  ]
+}

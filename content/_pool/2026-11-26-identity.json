@@ -1,0 +1,334 @@
+{
+  "date": "2026-11-26",
+  "industry": "identity",
+  "startedAt": "2026-11-26T03:16:37+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "FBI plans investigative data consolidation to expand biometric and AI analysis",
+      "url": "https://www.biometricupdate.com/202611/fbi-plans-investigative-data-consolidation-to-expand-biometric-and-ai-analysis",
+      "reason": "执法机构内部数据整合计划，非护照/身份证/mDL 的载体、签发或核验形态变化，范围门不通过"
+    },
+    {
+      "title": "Sri Lanka’s digital ID could unlock credit for rural entrepreneurs",
+      "url": "https://www.biometricupdate.com/202611/sri-lankas-digital-id-could-unlock-credit-for-rural-entrepreneurs",
+      "reason": "观点稿，无版本号、产品名、金额或落地市场，动作门不通过"
+    },
+    {
+      "title": "Mississippi age checks survive court challenge as Indiana hits VPN limits",
+      "url": "https://www.biometricupdate.com/202611/mississippi-age-checks-survive-court-challenge-as-indiana-hits-vpn-limits",
+      "reason": "社媒账号年龄核验的诉讼进展，标的是账号非证件，范围门不通过"
+    },
+    {
+      "title": "Alabama seeks industry input on app store age verification standards",
+      "url": "https://www.biometricupdate.com/202611/alabama-seeks-industry-input-on-app-store-age-verification-standards",
+      "reason": "RFI 征求意见，账号年龄核验且无成文标准，范围门与动作门均不通过"
+    },
+    {
+      "title": "Colorado digital ID breach puts state’s technology overhaul in the spotlight",
+      "url": "https://www.biometricupdate.com/202611/colorado-digital-id-breach-puts-states-technology-overhaul-in-the-spotlight",
+      "reason": "数据泄露事件属 AGENTS.md 明确不收，且为评论稿"
+    },
+    {
+      "title": "Colorado Takes myColorado App Offline After Cybersecurity Incident That May Affect Up to 150,000 Users",
+      "url": "https://idtechwire.com/colorado-takes-mycolorado-app-offline-after-cybersecurity-incident-that-may-affect-up-to-150000-users/",
+      "reason": "数据泄露与安全事件，范围门明确不收"
+    },
+    {
+      "title": "Lawmakers Press ID.me, Persona, CLEAR, Intellicheck and IDScan.net Over 150 Million Stolen Driver’s License Images",
+      "url": "https://idtechwire.com/lawmakers-press-id-me-persona-clear-intellicheck-and-idscan-net-over-150-million-stolen-drivers-license-images/",
+      "reason": "数据泄露与国会质询信，非凭证形态或机制变化，范围门不通过"
+    },
+    {
+      "title": "Bithumb Says October Breach Exposed ID Copies and Passport Numbers, and Lasted 15 Days",
+      "url": "https://idtechwire.com/bithumb-says-october-breach-exposed-id-copies-and-passport-numbers-and-lasted-15-days/",
+      "reason": "数据泄露事件，范围门明确不收；且事件在 10 月，超窗"
+    },
+    {
+      "title": "Persona’s device-based injection attacks report 2026",
+      "url": "https://www.biometricupdate.com/202611/personas-device-based-injection-attacks-report-2026",
+      "reason": "报告/研究稿非七类动作，且 Persona 的 CEN/TS 18099 认证已于 2026-11-22-identity-02 发布，duplicate-of-2026-11-22-identity-02"
+    },
+    {
+      "title": "UK rules out joining EU Digital Identity Wallet as digital partnership takes shape",
+      "url": "https://www.biometricupdate.com/202611/uk-rules-out-joining-eu-digital-identity-wallet-as-digital-partnership-takes-shape",
+      "reason": "政策表态，无版本号、产品名或落地机制，动作门不通过"
+    },
+    {
+      "title": "Cameroon urged to strengthen birth registration law and women’s role in legal identity",
+      "url": "https://www.biometricupdate.com/202611/cameroon-urged-to-strengthen-birth-registration-law-and-womens-role-in-legal-identity",
+      "reason": "倡议/呼吁，无具体法律文书或数字，动作门不通过；出生登记非三类载体"
+    },
+    {
+      "title": "Indonesia Counts 41.49 Million Biometric SIM Registrations as Officials Flag Sale of Face Data",
+      "url": "https://idtechwire.com/indonesia-counts-41-49-million-biometric-sim-registrations-as-officials-flag-sale-of-face-data/",
+      "reason": "SIM 实名登记属电信链路，归 telecom；且为累计数据盘点"
+    },
+    {
+      "title": "UK Home Affairs Committee Opens Inquiry Into Police Use of Facial Recognition, AI and Other Technology",
+      "url": "https://idtechwire.com/uk-home-affairs-committee-opens-inquiry-into-police-use-of-facial-recognition-ai-and-other-technology/",
+      "reason": "执法人脸识别调查，非证件核验链路，范围门不通过"
+    },
+    {
+      "title": "Chile’s Lower House Passes Bill Barring Under-14s From Social Media and Requiring Age Verification",
+      "url": "https://idtechwire.com/chiles-lower-house-passes-bill-barring-under-14s-from-social-media-and-requiring-age-verification/",
+      "reason": "社媒账号年龄核验法案且尚未成法，范围门与动作门均不通过"
+    },
+    {
+      "title": "New Identity Proofing Rules Slow Affordable Care Act Sign-Ups, Prompting Calls to Extend Enrollment",
+      "url": "https://idtechwire.com/new-identity-proofing-rules-slow-affordable-care-act-sign-ups-prompting-calls-to-extend-enrollment/",
+      "reason": "医保参保流程影响，非凭证载体或核验终端的形态变化，范围门不通过"
+    },
+    {
+      "title": "New Launches in South Korea and Japan Take Palm and Face Payments to Hospitals, Kiosks and a Fukuoka Shopping Complex",
+      "url": "https://idtechwire.com/new-launches-in-south-korea-and-japan-take-palm-and-face-payments-to-hospitals-kiosks-and-a-fukuoka-shopping-complex/",
+      "reason": "掌纹/人脸支付属支付链路，归 banking"
+    },
+    {
+      "title": "Sumsub Ghana Non-Doc IDV — 上海/河南同类耗材对比项（非本期）",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202611/t20261107_27641398.htm",
+      "reason": "11 月 7 日上海出入境证件耗材中标，事件超窗，且已于 2026-11-09-identity-02 发布"
+    },
+    {
+      "title": "Indiana Judge Dismisses State’s Age Verification Suit Against Pornhub Parent",
+      "url": "https://idtechwire.com/indiana-judge-dismisses-states-age-verification-suit-against-pornhub-parent-declines-to-read-vpn-duty-into-law/",
+      "reason": "账号年龄核验诉讼，标的是账号非证件，范围门不通过"
+    },
+    {
+      "title": "Philippine Senator Files Bill Requiring Government Offices to Accept Digital IDs",
+      "url": "https://idtechwire.com/philippine-senator-files-bill-requiring-government-offices-to-accept-digital-ids/",
+      "reason": "议员提案未成法，无承接方与金额，动作门不通过"
+    },
+    {
+      "title": "State Department Opens Market Research on Passport and Visa Facial Recognition, Citing IDEMIA Dependency",
+      "url": "https://idtechwire.com/state-department-opens-market-research-on-passport-and-visa-facial-recognition-citing-idemia-dependency/",
+      "reason": "RFI 市场调研，非授标，且已于此前多日按动作门刷掉"
+    },
+    {
+      "title": "USCIS Extends Identity Proofing Contract Ahead of Planned $250 Million Biometrics and Identity Competition",
+      "url": "https://idtechwire.com/uscis-extends-identity-proofing-contract-ahead-of-planned-250-million-biometrics-and-identity-competition/",
+      "reason": "合同延期，2.5 亿美元竞争仍属 forecast 未授标，动作门不通过"
+    },
+    {
+      "title": "IDEX Biometrics Hires Former BankID CTO Heikki Henriksen as Chief Identity and Payments Officer",
+      "url": "https://idtechwire.com/idex-biometrics-hires-former-bankid-cto-heikki-henriksen-as-chief-identity-and-payments-officer/",
+      "reason": "人事任命，范围门明确不收"
+    },
+    {
+      "title": "Daon Previews TrustX Updates for EU Anti-Money Laundering Rules and Digital Identity Wallets",
+      "url": "https://idtechwire.com/daon-previews-trustx-updates-for-eu-anti-money-laundering-rules-and-digital-identity-wallets/",
+      "reason": "产品预告，无版本号、客户名或金额，动作门不通过"
+    },
+    {
+      "title": "Shufti Launches Fraud Hub to Link Identity, Device and Biometric Signals Across Accounts",
+      "url": "https://idtechwire.com/shufti-launches-fraud-hub-to-link-identity-device-and-biometric-signals-across-accounts/",
+      "reason": "账号反欺诈产品，非护照/身份证/mDL 的核验终端形态变化，范围门不通过"
+    },
+    {
+      "title": "BTS and Veridas Partner to Strengthen Digital Identity and Fraud Prevention",
+      "url": "https://veridas.com/en/veridas-and-bts-partner-to-strengthen-digital-identity-and-fraud-prevention",
+      "reason": "渠道/商业合作，无具名客户或落地市场，85 million 次核验为历史累计数据，动作门不通过"
+    },
+    {
+      "title": "Securiport launches APIS Plus for biometric passenger screening and border risk assessment",
+      "url": "https://www.biometricupdate.com/202611/securiport-launches-apis-plus-for-biometric-passenger-screening-and-border-risk-assessment",
+      "reason": "无客户名、无参数的产品线宣传，已于 2026-11-25 按动作门刷掉"
+    },
+    {
+      "title": "Switzerland awards $5.3M deepfake detection contract to secure digital ID rollout",
+      "url": "https://www.biometricupdate.com/202611/switzerland-awards-5-3m-deepfake-detection-contract-to-secure-digital-id-rollout",
+      "reason": "授标决定 11 月 18 日作出，按事件时间已超 72 小时窗口"
+    },
+    {
+      "title": "Bahrain’s eKey surpasses 800,000 users as UN digital government ranking rises",
+      "url": "https://www.biometricupdate.com/202611/bahrains-ekey-surpasses-800000-users-as-un-digital-government-ranking-rises",
+      "reason": "累计用户数与 UN 排名，非首次或变化，动作门不通过"
+    },
+    {
+      "title": "Idemia-backed Connecticut mobile ID tops 10,000 downloads after launch",
+      "url": "https://www.biometricupdate.com/202611/idemia-backed-connecticut-mobile-id-tops-10000-downloads-after-launch",
+      "reason": "累计下载量盘点，非形态或机制变化，动作门不通过"
+    },
+    {
+      "title": "aiQ targets human accountability in AI agent workflows with QiD Agentic",
+      "url": "https://www.biometricupdate.com/202611/aiq-targets-human-accountability-in-ai-agent-workflows-with-qid-agentic",
+      "reason": "AI 智能体身份与账号责任，非政府签发凭证，范围门不通过"
+    },
+    {
+      "title": "USCIS turns to Sayari to trace financial ties in immigration fraud investigations",
+      "url": "https://www.biometricupdate.com/202611/uscis-turns-to-sayari-to-trace-financial-ties-in-immigration-fraud-investigations",
+      "reason": "移民欺诈调查工具采购，非凭证形态或核验机制，范围门不通过"
+    },
+    {
+      "title": "Philippines extends $40M digital ID tender, giving challengers more time to compete",
+      "url": "https://www.biometricupdate.com/202611/philippines-extends-40m-digital-id-tender-giving-challengers-more-time-to-compete",
+      "reason": "投标截止日期延期，非授标；原始提案 9 月已批，动作门不通过"
+    },
+    {
+      "title": "UNDP and SMART Zambia Institute sign strategic partnership to accelerate Zambia's digital transformation",
+      "url": "https://identityweek.net/undp-and-smart-zambia-institute-sign-strategic-partnership-to-accelerate-zambias-digital-transformation/",
+      "reason": "MoU 战略合作，无凭证产品、金额或落地市场，动作门不通过"
+    },
+    {
+      "title": "10 new speakers join Identity Week Europe (Save €1,800 before Friday)",
+      "url": "https://identityweek.net/10-new-speakers-join-identity-week-europe-save-e1800-before-friday/",
+      "reason": "会议营销信息，非新闻事件"
+    },
+    {
+      "title": "UK-EU Summit 2026, cultivating a stronger relationship with the Bloc",
+      "url": "https://identityweek.net/uk-eu-summit-2026-cultivating-a-stronger-relationship-with-the-bloc/",
+      "reason": "峰会综述，无具体凭证机制变化，动作门不通过"
+    },
+    {
+      "title": "CrowdStrike completes record takeover of Zscaler",
+      "url": "https://identityweek.net/crowdstrike-completes-record-takeover-of-zscaler/",
+      "reason": "通用网络安全并购，标的不在三条凭证链路，范围门不通过"
+    },
+    {
+      "title": "NIST releases draft on mobile drivers' licence use",
+      "url": "https://identityweek.net/nist-releases-draft-on-mobile-drivers-licence-use/",
+      "reason": "NIST SP 1800-42 mDL 核验参考架构草案换源，duplicate-of-2026-11-20-identity-04"
+    },
+    {
+      "title": "Wultra-led Consortium wins tender to deliver and operate the Czech European digital ID wallet",
+      "url": "https://identityweek.net/wultra-led-consortium-wins-tender-to-deliver-and-operate-the-czech-european-digital-id-wallet/",
+      "reason": "捷克 Valetka 钱包授标换源，duplicate-of-2026-11-25-identity-01"
+    },
+    {
+      "title": "Italy Opens New IT-Wallet Phase, Making the Digital Driving Licence Valid as an Identity Document",
+      "url": "https://idtechwire.com/italy-opens-new-it-wallet-phase-making-the-digital-driving-licence-valid-as-an-identity-document/",
+      "reason": "意大利 IT-Wallet 换源，duplicate-of-2026-11-24-identity-01"
+    },
+    {
+      "title": "South Korea Extends Government ID Card Verification, Including Photo Checks, to Kakao Pay and Toss",
+      "url": "https://idtechwire.com/south-korea-extends-government-id-card-verification-including-photo-checks-to-kakao-pay-and-toss/",
+      "reason": "韩国居民证核验换源，duplicate-of-2026-11-24-identity-02"
+    },
+    {
+      "title": "Henderson Technology Adds Digital Proof of Age for Alcohol Sales to Its EDGEPoS Till System",
+      "url": "https://idtechwire.com/henderson-technology-adds-digital-proof-of-age-for-alcohol-sales-to-its-edgepos-till-system/",
+      "reason": "EDGEPoS 数字年龄凭证换源，duplicate-of-2026-11-24-identity-03"
+    },
+    {
+      "title": "Persona’s Android SDK Earns High-Level Injection Attack Detection Certification Under CEN/TS 18099",
+      "url": "https://idtechwire.com/personas-android-sdk-earns-high-level-injection-attack-detection-certification-under-cen-ts-18099/",
+      "reason": "Persona CEN/TS 18099 换源，duplicate-of-2026-11-22-identity-02"
+    },
+    {
+      "title": "Germany’s Bundesrat Approves Digital Identity Law Ahead of January EUDI Wallet Launch",
+      "url": "https://idtechwire.com/germanys-bundesrat-approves-digital-identity-law-ahead-of-january-eudi-wallet-launch/",
+      "reason": "德国数字身份法与 d-you 换源，duplicate-of-2026-11-21-identity-02"
+    },
+    {
+      "title": "Vietnam Passes Law Tying Social Media and Bank Accounts to National Digital ID",
+      "url": "https://idtechwire.com/vietnam-passes-law-tying-social-media-and-bank-accounts-to-national-digital-id/",
+      "reason": "越南电子身份法换源，duplicate-of-2026-11-21-identity-03"
+    },
+    {
+      "title": "Italy opens digital ID wallet to public with legally valid driving licenses and IDs",
+      "url": "https://www.biometricupdate.com/202611/italy-opens-digital-id-wallet-to-public-with-legally-valid-driving-licenses-and-ids",
+      "reason": "意大利 IT-Wallet 换源，duplicate-of-2026-11-24-identity-01"
+    },
+    {
+      "title": "Wultra-led consortium wins Czech EUDI Wallet concession, Valetka due by end of 2027",
+      "url": "https://www.biometricupdate.com/202611/wultra-led-consortium-wins-czech-eudi-wallet-concession-valetka-due-by-end-of-2027",
+      "reason": "捷克 Valetka 换源，duplicate-of-2026-11-25-identity-01"
+    },
+    {
+      "title": "New Zealand Seeks New Immigration Biometric Matching System After Failed NZ$50 Million Project",
+      "url": "https://idtechwire.com/new-zealand-seeks-new-immigration-biometric-matching-system-after-failed-nz50-million-project/",
+      "reason": "补位项 gateNote 自述为 RFI 非授标，无中标方与金额，动作门不通过"
+    },
+    {
+      "title": "罗马尼亚外交部拟 12 月 2 日起在领事馆签发电子身份证",
+      "url": "https://rotimes.ro/en/article/2026-11-24-mae-to-issue-electronic-ids-at-consulates-from-dec-2026",
+      "reason": "补位项 gateNote 自述为政府决定草案，无承建方/金额/发卡量；且与 11-15 罗马尼亚 RO Wallet 同属国家数字身份线"
+    },
+    {
+      "title": "Dr. Mwinyi receives upgraded National ID as Tanzania moves to improve access to public services",
+      "url": "https://www.therespondents.co.tz/2026/11/dr-mwinyi-receives-upgraded-national-id.html",
+      "reason": "坦桑尼亚 NIDA 新一代 eID 与 NIDA Wallet 的二次报道，duplicate-of-2026-11-20-identity-05"
+    },
+    {
+      "title": "Tanzania Unveils Next-Generation National eID And NIDA Wallet",
+      "url": "https://www.europesays.com/africa/541028",
+      "reason": "坦桑尼亚制卡线换源，5 台设备 2800 卡/小时、4 改 8 应用位均与已发布稿一致，duplicate-of-2026-11-20-identity-05"
+    },
+    {
+      "title": "Nigeria Launches $70M Passport Factory in Abuja",
+      "url": "https://www.plus234feed.com/article/fg-begins-construction-of-70-million-privately-funded-passport-manufacturing-centre-in-abuja-mwqa2lob",
+      "reason": "尼日利亚护照本厂 11 月 20 日奠基换源，duplicate-of-2026-11-22-identity-01"
+    },
+    {
+      "title": "From passport importer to manufacturer: Inside Nigeria’s $70m sovereignty gamble",
+      "url": "https://empowerednewswire.org/from-passport-importer-to-manufacturer-inside-nigerias-70m-sovereignty-gamble",
+      "reason": "尼日利亚护照厂评论稿换源，duplicate-of-2026-11-22-identity-01"
+    },
+    {
+      "title": "意大利 App IO 升级 IT-Wallet 数字钱包",
+      "url": "https://www.163.com/dy/article/LCGECQAS0556BI41.html",
+      "reason": "意大利 IT-Wallet 中文换源，duplicate-of-2026-11-24-identity-01"
+    },
+    {
+      "title": "Maldives Ushers in a New Tourism Era With Free Digital Visas and Faster Border Clearance",
+      "url": "https://www.travelandtourworld.com/news/article/maldives-ushers-in-a-new-tourism-era-with-free-digital-visas-and-faster-border-clearance",
+      "reason": "马尔代夫维拉纳机场 e-Gate 开放外籍电子护照的同一发布，duplicate-of-2026-11-25-identity-03；电子签证替代盖章属签证签发非三类载体"
+    },
+    {
+      "title": "Tan Son Nhat Airport installs 10 more autogates in the immigration area",
+      "url": "https://www.vietnam.vn/en/san-bay-tan-son-nhat-lap-them-10-autogate-khu-vuc-nhap-canh",
+      "reason": "新山一机场 10 新 10 升级闸机换源，duplicate-of-2026-11-25-identity-02"
+    },
+    {
+      "title": "航天信息中标福建省公安厅出入境管理局卡式出入境证件制证耗材 510 万元",
+      "url": "https://guba.eastmoney.com/news,600271,1800816322.html",
+      "reason": "同一供应商同类耗材采购，上海 306 万已于 2026-11-09-identity-02 发布、河南同类合同 11-10 公告，属半年内第二次同类通稿；且仅为耗材续采，无形态或机制变化，动作门不通过"
+    },
+    {
+      "title": "雄帝科技中标重庆市公安局出入境管理局电子普通护照制证设备维保及耗材 122.9 万元",
+      "url": "https://caifuhao.eastmoney.com/news/20261125180409014717540",
+      "reason": "既有制证设备的维保与耗材续采，无新增产线、工艺或凭证形态变化，动作门不通过"
+    },
+    {
+      "title": "云南省红塔银行公民身份信息核鉴数据采购项目中标候选人公示",
+      "url": "https://www.ynhtbank.com/xwdt/zbcg/202611/20261125_2020910.html",
+      "reason": "中标候选人公示非最终授标，且为银行采购第三方身份核验数据服务（依赖方接入），无凭证形态变化，动作门不通过"
+    },
+    {
+      "title": "Tencent Cloud expands biometric palm tech in Singapore",
+      "url": "https://el-fondo-dev.alpha-nex.de/en/news/tencent-cloud-expands-biometric-palm-tech-in-singapore",
+      "reason": "养老中心签到用掌纹识别，非护照/身份证/mDL 核验终端，范围门不通过；且为一年累计盘点"
+    },
+    {
+      "title": "The EU and Kenya move to approve a personal data deal and agree to work together on AI",
+      "url": "https://tech-ish.com/2026/11/25/eu-kenya-data-deal-ai-factories",
+      "reason": "个人数据跨境与 AI 合作，数字身份仅为议题之一，无具体凭证机制，范围门与动作门不通过"
+    },
+    {
+      "title": "Apple Wallet IDs: 14 States Live, 3 Original Partners Wait",
+      "url": "https://shattered.io/apple-wallet-ids-14-states-live-three-original-partners-still-waiting",
+      "reason": "累计各州上线盘点与评测稿，无首次或变化，动作门不通过"
+    },
+    {
+      "title": "Beyond onboarding: Is your identity verification strategy ready for 2027?",
+      "url": "https://www.itweb.co.za/article/beyond-onboarding-is-your-identity-verification-strategy-ready-for-2027/lwrKxq3Y6Zz7mg1o",
+      "reason": "观点稿，无具体产品名、版本或客户，动作门不通过"
+    },
+    {
+      "title": "RFID or bar code? Start with the problem",
+      "url": "https://www.itweb.co.za/article/rfid-or-bar-code-start-with-the-problem/j5alrvQAXG1vpYQk",
+      "reason": "RFID 零售/物流盘点，非证件载体，范围门不通过"
+    },
+    {
+      "title": "Google terá de adequar tratamento de dados de menores à legislação colombiana",
+      "url": "https://www.mobiletime.com.br/noticias/24/11/2026/google-tera-de-adequar-tratamento-de-dados-de-menores-a-legislacao-colombiana/",
+      "reason": "未成年人账号数据合规，标的是账号非证件，范围门不通过"
+    }
+  ],
+  "stats": {
+    "candidates": 120,
+    "written": 1,
+    "skippedByDedup": 14
+  },
+  "finishedAt": "2026-11-25T19:20:20.207Z"
+}

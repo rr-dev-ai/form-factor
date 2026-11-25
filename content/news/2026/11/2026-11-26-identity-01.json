@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-26-identity-01",
+  "slug": "sumsub-ghana-non-doc-id-pin-selfie",
+  "industry": "identity",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "biometrics",
+    "liveness",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-26T04:18:02+08:00",
+  "ingestedAt": "2026-11-26T03:16:37+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Sumsub",
+      "url": "https://sumsub.com/newsroom/sumsub-launches-ghana-non-doc-i",
+      "lang": "en",
+      "publishedAt": "2026-11-23T00:00:00Z"
+    },
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/sumsub-launches-ghana-card-checks-by-pin-and-selfie-as-biometric-verification-rules-take-hold/",
+      "lang": "en",
+      "publishedAt": "2026-11-24T00:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "Sumsub 上线加纳卡 PIN 加自拍核验，直连 NIA 数据库",
+    "en": "Sumsub launches Ghana Card PIN and selfie checks against NIA records",
+    "es": "Sumsub lanza verificación del Ghana Card con PIN y selfie contra el NIA"
+  },
+  "summary": {
+    "zh": "Sumsub 11 月 23 日上线加纳非证件身份验证产品：用户输入 Ghana Card 的 PIN 并完成活体自拍，系统把自拍与国家身份局 NIA 库内照片比对，确认后直接调取身份信息，无需提交卡面影像。产品对应 11 月 2 日结束过渡期的 LI 2523 法令，面向银行、支付与电信机构的远程核验。",
+    "en": "Sumsub launched a Ghana non-document identity verification product on November 23: users enter a Ghana Card PIN and complete a live selfie, which is matched to the photo held by the National Identification Authority, with identity data pulled from the government register and no card image involved. It targets the LI 2523 rules whose transition period ended November 2, for remote checks by banks, payment firms and telcos.",
+    "es": "Sumsub lanzó el 23 de noviembre un producto de verificación sin documento para Ghana: el usuario introduce el PIN del Ghana Card y completa una selfie en vivo, que se compara con la foto del Registro Nacional de Identidad; los datos se toman directamente del registro estatal sin imagen de la tarjeta. Responde a la norma LI 2523, cuyo período de transición terminó el 2 de noviembre."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Sumsub 11 月 23 日发布 Ghana Non-Doc Identity Verification (PIN)，用 PIN 加活体自拍替代实体卡影像完成加纳身份核验。用户先输入 Ghana Card 的 PIN，再对着摄像头完成一次实时自拍；系统把这张自拍与国家身份局 NIA 登记的照片比对，确认持证人身份后直接从政府登记库调取姓名等信息，企业不再收集、存储或人工查看卡面照片。",
+        "en": "Sumsub released Ghana Non-Doc Identity Verification (PIN) on November 23, replacing a physical card image with a PIN plus a live selfie. A user enters the Ghana Card PIN and takes a real-time selfie; the system matches that selfie to the photograph held by the National Identification Authority and, once confirmed, retrieves identity fields directly from the government register, so businesses never collect, store or review a card photo.",
+        "es": "Sumsub lanzó el 23 de noviembre Ghana Non-Doc Identity Verification (PIN), que sustituye la imagen de la tarjeta por un PIN y una selfie en vivo. El usuario introduce el PIN del Ghana Card y toma una selfie en tiempo real; el sistema la compara con la foto del Registro Nacional de Identidad y, una vez confirmada, obtiene los datos directamente del registro estatal, sin que la empresa recopile o guarde una foto de la tarjeta."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "这套核验对应加纳 Legislative Instrument 2523 的要求。该法令的过渡期在 2026 年 11 月 2 日结束，此后照片、扫描件和人工目视检查 Ghana Card 都不再算合规的身份核验方式，机构须以实时生物特征比对查询 NIA 记录。Sumsub 把这一法定流程做成可按 API、网页和移动端接入的商用产品。",
+        "en": "The check implements Ghana's Legislative Instrument 2523. Its transition period ended on November 2, 2026, after which photos, scans and visual inspection of the Ghana Card are no longer valid identity checks and organizations must query NIA records through real-time biometric matching. Sumsub has turned that statutory process into a commercial product accessible through API, web and mobile channels.",
+        "es": "La verificación aplica el Instrumento Legislativo 2523 de Ghana. Su período de transición terminó el 2 de noviembre de 2026: desde entonces las fotos, copias y la inspección visual del Ghana Card ya no son válidas y las organizaciones deben consultar los registros del NIA mediante comparación biométrica en tiempo real. Sumsub ha convertido ese proceso legal en un producto comercial integrable por API, web y móvil."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "产品同时支持 Ghana Card（兼作西共体身份证）与在加外国人的非公民卡。Sumsub 援引 NIA 数据称 Ghana Card 覆盖约 93% 人口。公司列出的适用方包括在加银行、存款机构、支付服务商、移动运营商、金融科技公司、保险公司、外汇兑换点、加密交易平台与 iGaming 运营商，用于远程开户与合规核验。",
+        "en": "The product supports both the Ghana Card, which doubles as an ECOWAS identity card, and the non-citizen card issued to foreign residents. Citing NIA figures, Sumsub says the Ghana Card covers about 93 percent of the population. Named users include banks, payment service providers, mobile money operators, fintechs, insurers, forex bureaux, crypto exchanges and iGaming operators for remote onboarding and compliance checks.",
+        "es": "El producto admite tanto el Ghana Card, que sirve también como documento de identidad de la CEDEAO, como la tarjeta para extranjeros residentes. Según cifras del NIA citadas por Sumsub, el Ghana Card cubre alrededor del 93 % de la población. Los usuarios previstos incluyen bancos, proveedores de pago, operadores de dinero móvil, fintechs, aseguradoras, casas de cambio, exchanges de cripto y operadores de iGaming."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "对在加运营的机构，合规路径从留存卡面影像改为对接政府库的实时比对，旧的照片留档流程需要替换。这次发布把无卡核验单独打包成可按 API 集成的产品，让机构在客户不开卡面影像的情况下仍满足 NIA 实时生物核验的要求。公告未披露定价与客户名单。",
+        "en": "For organizations operating in Ghana, the compliance path shifts from retaining card images to real-time matching against the government register, which means older photo-archiving workflows must be replaced. This launch packages card-free verification as an API-integrable product, letting firms meet the NIA's real-time biometric requirement without handling card images. The announcement disclosed no pricing or customer list.",
+        "es": "Para las operadoras en Ghana, la vía de cumplimiento pasa de archivar imágenes de la tarjeta a la comparación en tiempo real con el registro estatal, lo que obliga a sustituir los flujos antiguos de guardado de fotos. Este lanzamiento empaqueta la verificación sin tarjeta como un producto integrable por API. El anuncio no reveló precios ni lista de clientes."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "加纳把身份证核验从看卡面转向查国家库，直接改变了在加运营机构的合规流程。银行、移动钱包与金融科技过去留存的 Ghana Card 照片和扫描件在 11 月 2 日后不再有效，必须改成对接 NIA 的实时比对接口，这为能把 PIN 查询与活体自拍打包的验证厂商开出一类新采购，其他供应商预计会跟进同类能力。对持有人，无卡核验免去上传证件影像，但身份信息改由政府库直接返回，机构对数据的掌控下降。Ghana Card 兼作西共体身份证，这类核验能力未来可能沿区域互认继续扩展。",
+    "en": "Ghana's shift from inspecting card photos to querying the national register changes the compliance workflow for any firm operating there. Bank, wallet and fintech teams can no longer rely on archived Ghana Card images after November 2 and must integrate real-time matching against NIA records, opening a new procurement category for vendors that can bundle PIN lookup with live selfie capture; other providers are likely to follow. For holders, card-free checks remove the need to upload document images, but identity data now comes straight from the state register, reducing what institutions hold. Because the Ghana Card doubles as an ECOWAS ID, this verification pattern may spread through regional recognition.",
+    "es": "El cambio de Ghana, de inspeccionar fotos de la tarjeta a consultar el registro nacional, altera el flujo de cumplimiento de cualquier empresa que opere allí. Bancos, monederos y fintechs ya no pueden apoyarse en imágenes archivadas del Ghana Card después del 2 de noviembre y deben integrar la comparación en tiempo real con el NIA, lo que abre una nueva categoría de compras para proveedores que combinen consulta por PIN y selfie en vivo. Para los titulares, la verificación sin tarjeta evita subir imágenes, pero los datos pasan a venir directamente del registro estatal. Como el Ghana Card sirve también como documento de la CEDEAO, este patrón podría extenderse por el reconocimiento regional."
+  },
+  "confidence": 0.72,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11-26",
+    "tokens": 0,
+    "costUsd": 0
+  }
+}

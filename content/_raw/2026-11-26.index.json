@@ -1,0 +1,1441 @@
+{
+  "fetchedFor": "2026-11-26",
+  "items": [
+    {
+      "url": "https://www.biometricupdate.com/202611/fbi-plans-investigative-data-consolidation-to-expand-biometric-and-ai-analysis",
+      "title": "FBI plans investigative data consolidation to expand biometric and AI analysis",
+      "industry": "identity",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.2
+    },
+    {
+      "url": "https://www.biometricupdate.com/202611/sri-lankas-digital-id-could-unlock-credit-for-rural-entrepreneurs",
+      "title": "Sri Lanka’s digital ID could unlock credit for rural entrepreneurs",
+      "industry": "identity",
+      "region": "apac",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.35
+    },
+    {
+      "url": "https://www.biometricupdate.com/202611/mississippi-age-checks-survive-court-challenge-as-indiana-hits-vpn-limits",
+      "title": "Mississippi age checks survive court challenge as Indiana hits VPN limits",
+      "industry": "identity",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.35
+    },
+    {
+      "url": "https://www.biometricupdate.com/202611/alabama-seeks-industry-input-on-app-store-age-verification-standards",
+      "title": "Alabama seeks industry input on app store age verification standards",
+      "industry": "identity",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.3
+    },
+    {
+      "url": "https://www.biometricupdate.com/202611/colorado-digital-id-breach-puts-states-technology-overhaul-in-the-spotlight",
+      "title": "Colorado digital ID breach puts state’s technology overhaul in the spotlight",
+      "industry": "identity",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.15
+    },
+    {
+      "url": "https://www.biometricupdate.com/202611/personas-device-based-injection-attacks-report-2026",
+      "title": "Persona’s device-based injection attacks report 2026",
+      "industry": "identity",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.2
+    },
+    {
+      "url": "https://www.biometricupdate.com/202611/uk-rules-out-joining-eu-digital-identity-wallet-as-digital-partnership-takes-shape",
+      "title": "UK rules out joining EU Digital Identity Wallet as digital partnership takes shape",
+      "industry": "identity",
+      "region": "europe",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.4
+    },
+    {
+      "url": "https://www.biometricupdate.com/202611/cameroon-urged-to-strengthen-birth-registration-law-and-womens-role-in-legal-identity",
+      "title": "Cameroon urged to strengthen birth registration law and women’s role in legal identity",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.25
+    },
+    {
+      "url": "https://iot-now.com/2026/11/25/159514-vodafone-ast-spacemobile-earth-space-station-malaga/",
+      "title": "Vodafone activates resilient integrated terrestrial and satellite connectivity at new Earth-space station",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.25
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/cap-one-pursues-payments-modernization/875673/",
+      "title": "Cap One pursues payments modernization",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.2
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/adyen-co-founder-van-der-does-step-down-uytdehaage/875648/",
+      "title": "Adyen co-founder to step down",
+      "industry": "banking",
+      "region": "europe",
+      "regions": [],
+      "mechanism": "personnel",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/payoneer-gets-conditional-approval-trust-bank-occ-payo-digital/875545/",
+      "title": "Payoneer gets conditional approval for trust bank",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/intermex-sues-western-union/875625/",
+      "title": "Intermex sues Western Union",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "litigation",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.eba.europa.eu/node/20237",
+      "title": "EBA E-mail alert 25 November, 2026",
+      "industry": "banking",
+      "region": "europe",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.lightreading.com/cable-technology/comcast-s-bill-in-wherevertv-patent-case-grows-to-334m",
+      "title": "Comcast's bill in WhereverTV patent case grows to $334M",
+      "industry": "telecom",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "litigation",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.lightreading.com/5g/t-mobile-goes-all-in-to-connect-las-vegas-grand-prix",
+      "title": "T-Mobile goes all-in to connect Las Vegas Grand Prix",
+      "industry": "telecom",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.lightreading.com/regulatory-politics/eurobites-openreach-sounds-isdn-warning-as-migration-deadline-nears",
+      "title": "Eurobites: Openreach sounds ISDN warning as migration deadline nears",
+      "industry": "telecom",
+      "region": "europe",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.lightreading.com/6g/china-rolls-out-6g-pilot-testing-in-eight-provinces",
+      "title": "China rolls out 6G pilot testing in eight provinces",
+      "industry": "telecom",
+      "region": "apac",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.lightreading.com/5g/orange-taking-nokia-plus-nvidia-very-seriously-for-ran-tender",
+      "title": "Orange taking Nokia plus Nvidia 'very seriously' for RAN tender",
+      "industry": "telecom",
+      "region": "europe",
+      "regions": [],
+      "mechanism": "procurement",
+      "confidence": 0.15
+    },
+    {
+      "url": "https://www.lightreading.com/broadband/ntia-spacex-agreement-undermines-goal-of-bead-fba",
+      "title": "NTIA, SpaceX agreement 'undermines' goal of BEAD – FBA",
+      "industry": "telecom",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobileeurope.co.uk/telenet-cfo-silvia-brady/",
+      "title": "Telenet CFO Silvia Brady exits",
+      "industry": "telecom",
+      "region": "europe",
+      "regions": [],
+      "mechanism": "personnel",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobileeurope.co.uk/bics-airtel-africa/",
+      "title": "BICS, Airtel Africa extends roaming and network security partnership",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "partnership",
+      "confidence": 0.2
+    },
+    {
+      "url": "https://www.mobileeurope.co.uk/ericsson-tests-5g-for-military-drone-defence/",
+      "title": "Ericsson tests 5G for military drone defence",
+      "industry": "telecom",
+      "region": "europe",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobileworldlive.com/industry/siemens-expands-ai-agent-to-cover-more-sectors/",
+      "title": "Siemens expands AI agent to cover more sectors",
+      "industry": "banking",
+      "region": "europe",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobileworldlive.com/europe/ec-unveils-e50b-fund-to-boost-quantum-technology/",
+      "title": "EC unveils €50B fund to boost quantum technology",
+      "industry": "banking",
+      "region": "europe",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobileworldlive.com/regulation/huawei-found-guilty-of-multiple-charges-in-us-court/",
+      "title": "Huawei found guilty of multiple charges in US court",
+      "industry": "telecom",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "litigation",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobileworldlive.com/meta/meta-rolls-out-muse-ai-agent-to-uk-users/",
+      "title": "Meta rolls out Muse AI agent to UK users",
+      "industry": "identity",
+      "region": "europe",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobileworldlive.com/network-tech/kt-lg-record-upload-boost-from-potential-6g-tech/",
+      "title": "KT, LG record upload boost from potential 6G tech",
+      "industry": "telecom",
+      "region": "apac",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobileworldlive.com/industry/interview-vodafone-iot-strategy-head-reveals-performance-goals/",
+      "title": "Interview: Vodafone IoT strategy head reveals performance goals",
+      "industry": "telecom",
+      "region": "europe",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobileworldlive.com/ai-cloud/uk-cybersecurity-body-flags-increase-in-ai-aided-attacks/",
+      "title": "UK cybersecurity body flags increase in AI-aided attacks",
+      "industry": "identity",
+      "region": "europe",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobileworldlive.com/nvidia/huang-apologises-to-nvidia-staff-after-return/",
+      "title": "Huang apologises to Nvidia staff after return",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "personnel",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobileworldlive.com/airtel/bics-airtel-africa-extend-roaming-security-pact/",
+      "title": "BICS, Airtel Africa extend roaming, security pact",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "partnership",
+      "confidence": 0.2
+    },
+    {
+      "url": "https://www.mobileworldlive.com/xiaomi/component-costs-car-woes-weigh-on-xiaomi-top-line/",
+      "title": "Component costs, car woes weigh on Xiaomi top-line",
+      "industry": "telecom",
+      "region": "apac",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobileworldlive.com/spanish/el-modem-c2-de-apple-mejora-sobre-todo-las-conexiones-5g-mas-lentas/",
+      "title": "El módem C2 de Apple mejora sobre todo las conexiones 5G más lentas",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.mobileworldlive.com/spanish/nvidia-restituye-a-jensen-huang-como-ceo-mientras-la-sec-investiga-su-contabilidad/",
+      "title": "Nvidia restituye a Jensen Huang como CEO mientras la SEC investiga su contabilidad",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "personnel",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://paymentsindustryintelligence.com/jpmorgan-visa-and-mastercard-report-third-party-breaches/",
+      "title": "JPMorgan, Visa and Mastercard Report Third-Party Customer Data Breaches",
+      "industry": "banking",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://paymentsindustryintelligence.com/worldline-shares-plunge-amid-cash-flow-concerns/",
+      "title": "Worldline Shares Plunge as Cash Flow Management Comes Under Scrutiny",
+      "industry": "banking",
+      "region": "europe",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://paymentsindustryintelligence.com/canada-selects-fdx-to-establish-open-banking-standards/",
+      "title": "Canada Selects FDX to Establish Open Banking Standards",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.5
+    },
+    {
+      "url": "https://www.pymnts.com/loans/working-capital/2026/chief-financial-officers-shift-working-capital-strategy-from-holding-cash-moving-it/",
+      "title": "CFOs Shift Working Capital Strategy From Holding Cash to Moving It",
+      "industry": "banking",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.pymnts.com/news/wearables/2026/nestle-tests-wearable-devices-to-monitor-human-and-pet-health/",
+      "title": "Nestlé Tests Wearable Devices to Monitor Human and Pet Health",
+      "industry": "identity",
+      "region": "global",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.pymnts.com/news/payments-innovation/2026/when-every-payments-company-has-ai-what-separates-the-winners/",
+      "title": "When Every Payments Company Has AI, What Separates the Winners?",
+      "industry": "banking",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.pymnts.com/consumer-insights/2026/how-fans-rearrange-their-budgets-to-keep-spending-on-favorites/",
+      "title": "How Fans Rearrange Their Budgets to Keep Spending on Favorites",
+      "industry": "banking",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.pymnts.com/consumer-insights/2026/convenience-beats-price-for-34-percent-of-grocery-shoppers/",
+      "title": "Convenience Beats Price for 34% of Grocery Shoppers",
+      "industry": "banking",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.pymnts.com/report/tracker/tokenized-deposits-bridging-on-chain-money-and-existing-payment-rails/",
+      "title": "Tokenized Deposits: Bridging On-Chain Money and Existing Payment Rails",
+      "industry": "banking",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.25
+    },
+    {
+      "url": "https://www.pymnts.com/earnings/2026/kohls-deploys-ai-assistant-on-demand-delivery-flexible-payments-for-holidays/",
+      "title": "Kohl’s Deploys AI Assistant, On-Demand Delivery, Flexible Payments for Holidays",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.pymnts.com/earnings/2026/dicks-sporting-goods-ceo-calls-gamechanger-app-a-secret-weapon/",
+      "title": "Dick’s Sporting Goods CEO Calls GameChanger App a Secret Weapon",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.pymnts.com/legal/2026/utah-drops-criminal-charges-against-kalshi-and-founders-after-company-exits-state/",
+      "title": "Utah Drops Criminal Charges Against Kalshi and Founders After Company Exits State",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "litigation",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.pymnts.com/news/acquiring/2026/blackstone-warburg-pincus-and-apollo-weigh-backing-50-billion-global-payments-acquisition/",
+      "title": "Blackstone Leads Talks to Back GTCR’s $50 Billion Global Payments Deal",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.5
+    },
+    {
+      "url": "https://rcrwireless.com/20261125/internet-of-things-4/semtech-wireless-lora",
+      "title": "Semtech expands wireless portfolio as LoRa revenue rises 69%",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://rcrwireless.com/20261125/analyst-angle/new-research-shows-6ghz-wi-fi-is-growing-fast-analyst-angle",
+      "title": "New research shows 6GHz Wi-Fi is growing fast (Analyst Angle)",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://rcrwireless.com/20261125/network-infrastructure/scaling-ai-infrastructure-with-multi-core-and-hollow-core-fiber-reader-forum",
+      "title": "Scaling AI infrastructure with multi-core and hollow-core fiber (Reader Forum)",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://rcrwireless.com/20261125/opinion/physical-ai-and-the-opposite-downlink-problem-telco-diary",
+      "title": "Physical AI – and the (opposite) downlink problem (Telco Diary)",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://rcrwireless.com/20261124/ai/eredcap-esim-legacy-iot-ai-ready",
+      "title": "eRedCap and eSIM move legacy IoT toward AI-ready operations",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.45
+    },
+    {
+      "url": "https://www.telefonica.com/en/communication-room/blog/enterprise-cybersecurity-protecting-business-continuity-cyberattacks/",
+      "title": "Enterprise Cybersecurity: Protecting Business Continuity Against Cyberattacks",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/25/11/2026/shopee-super-panorama/",
+      "title": "Shopee e Mercado Livre lideram na preferência do brasileiro em compras no smartphone",
+      "industry": "banking",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/24/11/2026/senado-atualiza-app/",
+      "title": "Senado atualiza app com área para acompanhar orçamento da União",
+      "industry": "identity",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/24/11/2026/pix-aumento-rio-verao/",
+      "title": "Transações via Pix tem aumento de 71% no Rio de Janeiro, diz Cielo",
+      "industry": "banking",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/24/11/2026/google-tera-de-adequar-tratamento-de-dados-de-menores-a-legislacao-colombiana/",
+      "title": "Google terá de adequar tratamento de dados de menores à legislação colombiana",
+      "industry": "identity",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/24/11/2026/temu-mastercard-acordo/",
+      "title": "Temu fecha acordo com Mastercard para testar Click to Pay e agentes",
+      "industry": "banking",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "partnership",
+      "confidence": 0.55
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/24/11/2026/eaf-smartphones-robustos/",
+      "title": "EAF adquire mil smartphones robustecidos que funcionam como celular e rádio comunicador",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "procurement",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/24/11/2026/finch-prompt-injection/",
+      "title": "Finch alerta para aumento de uso de prompt injection no judiciário brasileiro",
+      "industry": "banking",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/24/11/2026/open-finance-para-pj/",
+      "title": "Open Finance para PJ precisa agregar mais valor, recomenda Pagar",
+      "industry": "banking",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/24/11/2026/denga-love-rede-social/",
+      "title": "Com foco em pessoas pretas, Denga Love quer chegar às 500 mil contas até o fim de 2026",
+      "industry": "banking",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.15
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/24/11/2026/caixa-eletronico-super/",
+      "title": "73% dos brasileiros com smartphone não costumam sacar dinheiro em caixa eletrônico",
+      "industry": "banking",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/24/11/2026/mobimeeting-chamada-final/",
+      "title": "Mobimeeting Finance + ID reunirá bancos, fintechs e redes de adquirência",
+      "industry": "banking",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://dplnews.com/25n-robots-infantiles-violencia-sexual-vs-mujeres/",
+      "title": "25N | Robots infantiles: nueva dimensión de la violencia sexual contra las mujeres",
+      "industry": "identity",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://dplnews.com/uruguay-antel-arena-consolida-su-crecimiento-mas-espectaculos-mayor-diversidad-y-nuevas-audiencias/",
+      "title": "Uruguay | Antel Arena consolida su crecimiento: más espectáculos, mayor diversidad y nuevas audiencias",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://dplnews.com/uruguay-acuerdo-entre-ande-y-amazon-facilitara-acceso-de-mipymes-a-inteligencia-artificial-y-herramientas-digitales/",
+      "title": "Uruguay | Acuerdo entre ANDE y Amazon facilitará acceso de mipymes a inteligencia artificial y herramientas digitales",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "partnership",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://dplnews.com/republica-dominicana-indotel-inaugura-punto-wi-fi-movil-llevar-internet-gratuito-capacitacion-digital-a-comunidades-del-pais/",
+      "title": "República Dominicana | Indotel inaugura primer Punto Wi-Fi Móvil para llevar internet gratuito y capacitación digital a comunidades del país",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://dplnews.com/chile-mundo-telecomunicaciones-triunfa-en-conecta-latam-2026-con-dos-premios-internacionales/",
+      "title": "Chile | Mundo Telecomunicaciones triunfa en Conecta LATAM 2026 con dos premios internacionales",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://dplnews.com/peru-fen-mtc-fortalece-trabajo-operadoras-garantizar-continuidad-telecomunicaciones-emergencias/",
+      "title": "Perú | Comando FEN: MTC fortalece el trabajo con operadoras para garantizar la continuidad de las telecomunicaciones ante emergencias",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://dplnews.com/peru-mtc-adjudico-34-frecuencias-radio-16-localidades-9-regiones/",
+      "title": "Perú | MTC adjudicó 34 frecuencias de radio en 16 localidades de nueve regiones del país",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "procurement",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://dplnews.com/fcc-condicionar-acceso-satelites-extranjeros/",
+      "title": "FCC propone condicionar acceso de satélites extranjeros al trato que reciben empresas de EE. UU.",
+      "industry": "telecom",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://dplnews.com/juristas-economistas-rejeicao-pl-mercados-digitais/",
+      "title": "Juristas e economistas pedem rejeição do PL de mercados digitais",
+      "industry": "banking",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://dplnews.com/piden-rechazar-proyecto-mercados-digitales-brasil/",
+      "title": "Juristas y economistas piden rechazar proyecto de ley de mercados digitales en Brasil",
+      "industry": "banking",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.telesemana.com/blog/2026/11/25/schneider-electric-vincula-solar-y-baterias-con-menores-costos-energeticos-para-centros-de-datos/",
+      "title": "Schneider Electric vincula solar y baterías con menores costos energéticos para centros de datos",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.telesemana.com/blog/2026/11/25/el-jefe-de-gabinete-del-gobierno-argentino-asegura-que-aun-no-se-decidio-limitar-el-equipamiento-chino-en-las-redes/",
+      "title": "El jefe de Gabinete del Gobierno argentino asegura que aún no se decidió limitar el equipamiento chino en las redes",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.telesemana.com/blog/2026/11/24/indotel-adjudico-260-mhz-a-claro-y-viettel-en-republica-dominicana/",
+      "title": "Indotel adjudicó 260 MHz a Claro y Viettel en República Dominicana",
+      "industry": "telecom",
+      "region": "latam",
+      "regions": [],
+      "mechanism": "procurement",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.itweb.co.za/article/cell-c-strengthens-mvno-play-with-melon-acquisition/kYbe9MXbBkevAWpG",
+      "title": "Cell C strengthens MVNO play with Melon acquisition",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.2
+    },
+    {
+      "url": "https://www.itweb.co.za/article/meta-ai-glasses-enter-south-african-market/GxwQDM1DNQy7lPVo",
+      "title": "Meta AI glasses enter South African market",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.itweb.co.za/article/skills-shortages-threaten-renewable-energy-ambitions/O2rQGqAE1kxqd1ea",
+      "title": "Skills shortages threaten renewable energy ambitions",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.itweb.co.za/article/science-dept-begins-senior-manager-hiring-spree/xA9PO7NEnkDvo4J8",
+      "title": "Science dept begins senior manager hiring spree",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "personnel",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.itweb.co.za/article/naspers-prosus-say-ai-is-their-secret-sauce/Gb3BwMWaGRyv2k6V",
+      "title": "Naspers, Prosus say AI is their secret sauce",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.itweb.co.za/article/cape-town-adds-13-cashless-driver-testing-centres/4r1lyMR9xrD7pmda",
+      "title": "Cape Town adds 13 cashless driver testing centres",
+      "industry": "banking",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.5
+    },
+    {
+      "url": "https://www.itweb.co.za/article/inforeg-calls-out-dpsa-in-cellphone-allowance-dispute/rW1xL75nkZPMRk6m",
+      "title": "InfoReg calls out DPSA in cellphone allowance dispute",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "litigation",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.itweb.co.za/article/sas-bluevision-expands-internationally-appoints-new-coo/PmxVEMKE5kovQY85",
+      "title": "SA’s BlueVision expands internationally, appoints new COO",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "personnel",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.itweb.co.za/article/sas-yomo-secures-global-award-amid-rising-mvno-competition/o1Jr5qxPRbQqKdWL",
+      "title": "SA’s YOMO secures global award amid rising MVNO competition",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.itweb.co.za/article/bolt-ups-driver-safety-efforts-for-festive-season/VgZey7JlDGrqdjX9",
+      "title": "Bolt ups driver safety efforts for festive season",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.itweb.co.za/article/itweb-tv-biz-closing-the-governance-gap-at-the-speed-of-ai-software-delivery/G98Yd7LGpRZvX2PD",
+      "title": "ITWeb TV Biz: Closing the governance gap at the speed of AI software delivery",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.itweb.co.za/article/the-ai-capability-paradox/j5alrMQAXGzMpYQk",
+      "title": "The AI capability paradox",
+      "industry": "telecom",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.itweb.co.za/article/hurricane-electric-expands-global-network-with-new-point-of-presence-at-ixafrica-nbox1-in-nairobi/KzQenMjy1Ez7Zd2r",
+      "title": "Hurricane Electric Expands Global Network With New Point of Presence at iXAfrica NBOX1 in Nairobi",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.itweb.co.za/article/pt-pan-brothers-tbk-advances-smart-manufacturing-with-more-resilient-sap-operations-from-rimini-street/wbrpO7g2dEAvDLZn",
+      "title": "PT Pan Brothers Tbk Advances Smart Manufacturing with More Resilient SAP Operations from Rimini Street",
+      "industry": "identity",
+      "region": "apac",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.itweb.co.za/article/rubrik-launches-configuration-resilience-for-microsoft-365/DZQ58MV8WkJvzXy2",
+      "title": "Rubrik launches Configuration Resilience for Microsoft 365",
+      "industry": "identity",
+      "region": "global",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.itweb.co.za/article/why-a-multilayered-approach-to-cyber-security-is-a-must-in-2027/KzQenvjy14JqZd2r",
+      "title": "Why a multilayered approach to cyber security is a must in 2027",
+      "industry": "identity",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.itweb.co.za/article/black-fridays-biggest-pressure-point-isnt-the-sale-its-the-back-office/Pero37Z3NGKMQb6m",
+      "title": "Black Friday's biggest pressure point isn't the sale. It's the back office",
+      "industry": "banking",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.itweb.co.za/article/linkup-youth-launches-free-estimate-of-what-employers-could-save-on-entry-level-staff/RgeVDMPR2GVvKJN3",
+      "title": "LinkUp Youth launches free estimate of what employers could save on entry-level staff",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.itweb.co.za/article/can-we-manage-the-risks-posed-by-ai-agents/KA3Ww7dzbE8qrydZ",
+      "title": "Can we manage the risks posed by AI agents?",
+      "industry": "identity",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.itweb.co.za/article/beyond-onboarding-is-your-identity-verification-strategy-ready-for-2027/lwrKxq3Y6Zz7mg1o",
+      "title": "Beyond onboarding: Is your identity verification strategy ready for 2027?",
+      "industry": "identity",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.itweb.co.za/article/rfid-or-bar-code-start-with-the-problem/j5alrvQAXG1vpYQk",
+      "title": "RFID or bar code? Start with the problem",
+      "industry": "identity",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.cbr.ru/analytics/insideinfo/",
+      "title": "Инсайдерская информация Банка России",
+      "industry": "banking",
+      "region": "cis",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.cbr.ru/analytics/bank_sector/develop/#a_48876",
+      "title": "О развитии банковского сектора Российской Федерации в октябре 2026 года",
+      "industry": "banking",
+      "region": "cis",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.cbr.ru/project_na/?tab.current=t2#a_6857",
+      "title": "Проекты нормативных документов Банка России для публичного обсуждения",
+      "industry": "banking",
+      "region": "cis",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.15
+    },
+    {
+      "url": "https://www.cbr.ru/rbr/rbr_fr/",
+      "title": "Решения Банка России в отношении участников финансового рынка",
+      "industry": "banking",
+      "region": "cis",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.cbr.ru/ec_research/ser/#a_200428page",
+      "title": "Финансовые ожидания домохозяйств и их взаимосвязь с потребительским поведением",
+      "industry": "banking",
+      "region": "cis",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.cbr.ru/hd_base/mkr/mkr_base/",
+      "title": "Ставки группы MIACR",
+      "industry": "banking",
+      "region": "cis",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.cbr.ru/hd_base/ruonia/sv_ruonia/",
+      "title": "Индекс и срочная версия RUONIA",
+      "industry": "banking",
+      "region": "cis",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.cbr.ru/analytics/drknb/#a_108509",
+      "title": "«Динамика реструктуризации кредитов населения и бизнеса» № 44 / 25.11.2026",
+      "industry": "banking",
+      "region": "cis",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.cbr.ru/hd_base/ruonia/",
+      "title": "Ставка RUONIA",
+      "industry": "banking",
+      "region": "cis",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.cbr.ru/project_na/?tab.current=t2#a_6856",
+      "title": "Сводная таблица предложений и замечаний по проекту указания Банка России",
+      "industry": "banking",
+      "region": "cis",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.tahawultech.com/home-slide/artefact-unveils-ai-sovereignty-framework-to-help-uae-govt-entities-scale-agentic-ai/",
+      "title": "Artefact unveils AI sovereignty framework to help UAE govt entities scale agentic AI",
+      "industry": "identity",
+      "region": "mena",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.tahawultech.com/news/mindware-to-showcase-the-flow-of-intelligence-at-gitex-global-2026/",
+      "title": "Mindware to showcase the “Flow of Intelligence” at GITEX Global 2026",
+      "industry": "identity",
+      "region": "mena",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.tahawultech.com/enterprise/nemetschek-group-spotlights-ai-powered-solutions-for-the-middle-easts-aec-o-sector-at-big-5-global-2026/",
+      "title": "Nemetschek Group spotlights AI-powered solutions for the Middle East’s AEC/O Sector at Big 5 Global 2026",
+      "industry": "identity",
+      "region": "mena",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.tahawultech.com/channel/dxc-collaborates-with-cisco-to-turn-ai-powered-network-insights-into-action/",
+      "title": "DXC collaborates with Cisco to turn AI-powered network insights into action",
+      "industry": "telecom",
+      "region": "mena",
+      "regions": [],
+      "mechanism": "partnership",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.tahawultech.com/channel/huawei-and-landmark-group-drive-measurable-digital-growth-for-centrepoint-and-home-centre/",
+      "title": "Huawei and Landmark Group drive measurable digital growth for Centrepoint and Home Centre",
+      "industry": "telecom",
+      "region": "mena",
+      "regions": [],
+      "mechanism": "partnership",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.tahawultech.com/features/see-the-best-moments-from-the-ai-governance-leadership-forum-awards-2026/",
+      "title": "See the best moments from the AI & Governance Leadership Forum & Awards 2026",
+      "industry": "identity",
+      "region": "mena",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.tahawultech.com/enterprise/eset-to-showcase-prevention-first-ai-powered-cybersecurity-at-gitex-global-2026/",
+      "title": "ESET to showcase prevention-first, AI-powered cybersecurity at GITEX Global 2026",
+      "industry": "identity",
+      "region": "mena",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.tahawultech.com/enterprise/cloud-box-technologies-to-showcase-ai-powered-solutions-and-dell-technologies-portfolio-at-gitex-2026/",
+      "title": "Cloud Box Technologies to showcase AI-powered solutions and Dell Technologies portfolio at GITEX 2026",
+      "industry": "identity",
+      "region": "mena",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.tahawultech.com/enterprise/cybersecurity-exhibitors-at-gitex-global-put-ai-agents-at-the-top-of-the-risk-agenda/",
+      "title": "Cybersecurity exhibitors at GITEX GLOBAL put AI agents at the top of the risk agenda",
+      "industry": "identity",
+      "region": "mena",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.tahawultech.com/enterprise/invent-to-excel-open-to-empower-huawei-holds-the-7th-innovation-and-ip-forum/",
+      "title": "Invent to Excel, Open to Empower: Huawei holds the 7th Innovation and IP Forum",
+      "industry": "telecom",
+      "region": "mena",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.tahawultech.com/enterprise/solarwinds-to-put-operational-resilience-centre-stage-at-gitex-global-2026/",
+      "title": "SolarWinds to put operational resilience centre stage at GITEX Global 2026",
+      "industry": "identity",
+      "region": "mena",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.tahawultech.com/enterprise/nutanix-marks-its-10th-year-at-gitex-global-with-focus-on-enterprise-ai-sovereignty-and-hybrid-multicloud-innovation/",
+      "title": "Nutanix marks its 10th Year at GITEX Global with focus on enterprise AI, sovereignty and hybrid multicloud innovation",
+      "industry": "identity",
+      "region": "mena",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.tahawultech.com/insight/new-cisco-study-shows-maturing-ai-market-and-expanding-opportunity-for-partners/",
+      "title": "New Cisco study shows maturing AI market and expanding opportunity for partners",
+      "industry": "telecom",
+      "region": "mena",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.tahawultech.com/home-slide/sitecore-to-power-flydubais-digital-transformation-programme-to-enhance-online-customer-journey/",
+      "title": "Sitecore to enhance flydubai’s online customer journey",
+      "industry": "banking",
+      "region": "mena",
+      "regions": [],
+      "mechanism": "deployment",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/25/gh%c2%a230-7m-nsa-hire-purchase-funds-diverted-to-company-witness/",
+      "title": "GH¢30.7m NSA hire-purchase funds diverted to company – Witness",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/25/chief-urges-government-to-strengthen-power-of-traditional-rulers/",
+      "title": "Chief urges government to strengthen power of traditional rulers",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/25/teachers-raise-concerns-over-poor-implementation-of-ges-collective-agreement-study/",
+      "title": "Teachers raise concerns over poor implementation of GES collective agreement – Study",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/25/the-power-of-africa/",
+      "title": "The power of Africa",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/25/agriculture-remains-ghanas-largest-employer-despite-lower-gdp-share/",
+      "title": "Agriculture remains Ghana’s largest employer despite lower GDP share",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/25/ghana-government-develops-national-framework-to-address-kayayie-challenge/",
+      "title": "Ghana government develops national framework to address Kayayie challenge",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/25/african-secondary-education-systems-must-transform-to-prepare-youth-for-jobs-report/",
+      "title": "African secondary education systems must transform to prepare youth for jobs – Report",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/25/ghana-poultry-farmers-urged-to-prepare-for-el-nino-heat/",
+      "title": "Ghana poultry farmers urged to prepare for El Niño heat",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/25/uds-graduates-to-demonstrate-over-delay-in-releasing-certificates/",
+      "title": "UDS graduates to demonstrate over delay in releasing certificates",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.ghanabusinessnews.com/2026/11/25/businessman-granted-gh%c2%a2400000-bail-in-alleged-land-document-forgery-case/",
+      "title": "Businessman granted GH¢400,000 bail in alleged land document forgery case",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://techmoran.com/2026/11/25/aeon-raises-2-million-to-build-africas-cyber-defence-infrastructure/",
+      "title": "Aeon Raises $2 Million to Build Africa’s Cyber Defence Infrastructure",
+      "industry": "identity",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://techmoran.com/2026/11/25/axian-revenue-grows-to-525-million-as-data-growth-and-wananchi-lift-sales/",
+      "title": "Axian Revenue Grows to $525 Million as Data Growth and Wananchi Lift Sales",
+      "industry": "telecom",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://techmoran.com/2026/11/25/payaza-acquires-ghanas-seesail-to-expand-sme-commerce-and-financing-across-africa/",
+      "title": "Payaza Acquires Ghana’s Seesail to Expand SME Commerce and Financing Across Africa",
+      "industry": "banking",
+      "region": "africa",
+      "regions": [],
+      "mechanism": "finance",
+      "confidence": 0.35
+    },
+    {
+      "url": "https://fintechnews.sg/142347/e-wallets/mas-tokenisation-guide-digital-wallets/",
+      "title": "Digital Wallets Could Double as Bank Accounts, Says MAS Tokenisation Guide",
+      "industry": "banking",
+      "region": "apac",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.4
+    },
+    {
+      "url": "https://fintechnews.sg/142339/ai/linqalpha-jae-leeholland-chief-product-officer/",
+      "title": "SFF 2026 Hackcelerator Winner LinqAlpha Names New Chief Product Officer",
+      "industry": "banking",
+      "region": "apac",
+      "regions": [],
+      "mechanism": "personnel",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://fintechnews.sg/140867/events/ntu-msc-financial-technology-fintech-careers/",
+      "title": "What Does It Take to Build a Career in Fintech?",
+      "industry": "banking",
+      "region": "global",
+      "regions": [],
+      "mechanism": "opinion",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://fintechnews.sg/142323/payments/ant-international-bny/",
+      "title": "Ant International and BNY Eye Real-Time Treasury, Global Payments",
+      "industry": "banking",
+      "region": "global",
+      "regions": [],
+      "mechanism": "partnership",
+      "confidence": 0.35
+    },
+    {
+      "url": "https://fintechnews.sg/142320/payments/visa-ceo-ryan-mcinerney-stock-award/",
+      "title": "Visa Approves US$50 Million Stock Award to Retain CEO Ryan McInerney",
+      "industry": "banking",
+      "region": "global",
+      "regions": [],
+      "mechanism": "personnel",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://fintechnews.sg/142303/blockchain/finmo-stablecoins-usdc-usdt-business-account/",
+      "title": "Finmo Adds USDC and USDT Support to Business Accounts",
+      "industry": "banking",
+      "region": "apac",
+      "regions": [],
+      "mechanism": "product",
+      "confidence": 0.2
+    },
+    {
+      "url": "https://fintechnews.sg/142305/ai/bkn301-mambu/",
+      "title": "BKN301, Mambu to Simplify Banking Modernisation and AI Adoption",
+      "industry": "banking",
+      "region": "europe",
+      "regions": [],
+      "mechanism": "partnership",
+      "confidence": 0.15
+    },
+    {
+      "url": "https://fintechnews.id/111114/digitalassets/kldx-nobu-bank-cross-border-tokenised-assets/",
+      "title": "KLDX, Nobu Bank Explore Cross-Border Tokenised Asset Opportunities",
+      "industry": "banking",
+      "region": "apac",
+      "regions": [],
+      "mechanism": "partnership",
+      "confidence": 0.15
+    },
+    {
+      "url": "https://fintechnews.id/111101/regtech/ojk-financial-reporting-integrity-pojk-19-2026/",
+      "title": "OJK Sets Financial Reporting Rules for Insurers and Pension Funds",
+      "industry": "banking",
+      "region": "apac",
+      "regions": [],
+      "mechanism": "rule-change",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.telecomreviewasia.com/news/industry-news/30846-huawei-welcomes-rico-acquittal-reaffirms-commitment-to-compliance/",
+      "title": "Huawei Welcomes RICO Acquittal, Reaffirms Commitment to Compliance",
+      "industry": "telecom",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "litigation",
+      "confidence": 0.05
+    },
+    {
+      "url": "https://www.telecomreviewasia.com/news/service-news/30843-globe-ncs-partnership-expands-philippine-enterprise-digital-solutions/",
+      "title": "Globe, NCS Partnership Expands Philippine Enterprise Digital Solutions",
+      "industry": "telecom",
+      "region": "apac",
+      "regions": [],
+      "mechanism": "partnership",
+      "confidence": 0.1
+    },
+    {
+      "url": "https://www.telecomreviewafrica.com/articles/telecom-vendor/29513-huawei-welcomes-rico-acquittal-reaffirms-commitment-to-compliance/",
+      "title": "Huawei Welcomes RICO Acquittal, Reaffirms Commitment to Compliance",
+      "industry": "telecom",
+      "region": "north-america",
+      "regions": [],
+      "mechanism": "litigation",
+      "confidence": 0.05
+    }
+  ],
+  "matrix": {
+    "apac": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "cis": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "mena": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "europe": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "north-america": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "latam": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "africa": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    },
+    "global": {
+      "banking": 0,
+      "telecom": 0,
+      "identity": 0
+    }
+  },
+  "gaps": [
+    "apac",
+    "cis",
+    "mena",
+    "europe",
+    "north-america",
+    "latam",
+    "africa"
+  ],
+  "cellGaps": [],
+  "industryGaps": [
+    {
+      "industry": "banking",
+      "emptyRegions": [
+        "apac",
+        "cis",
+        "mena",
+        "europe",
+        "north-america",
+        "latam",
+        "africa"
+      ]
+    },
+    {
+      "industry": "telecom",
+      "emptyRegions": [
+        "apac",
+        "cis",
+        "mena",
+        "europe",
+        "north-america",
+        "latam",
+        "africa"
+      ]
+    },
+    {
+      "industry": "identity",
+      "emptyRegions": [
+        "apac",
+        "cis",
+        "mena",
+        "europe",
+        "north-america",
+        "latam",
+        "africa"
+      ]
+    }
+  ],
+  "matrixBasis": {
+    "computedAt": "2026-11-25T17:51:02.177Z",
+    "confidenceFloor": 0.6,
+    "windowHours": 72,
+    "industryGapFloor": 4,
+    "counted": 0,
+    "dropped": {
+      "published": 0,
+      "expired": 0,
+      "undated": 0,
+      "lowConfidence": 148,
+      "invalid": 0
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-26-telecom-01",
+  "slug": "cell-c-acquires-melon-mobile-mvno",
+  "industry": "telecom",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "mvno",
+    "esim"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-26T04:18:02+08:00",
+  "ingestedAt": "2026-11-26T02:54:28+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ITWeb",
+      "url": "https://www.itweb.co.za/article/cell-c-strengthens-mvno-play-with-melon-acquisition/kYbe9MXbBkevAWpG",
+      "lang": "en",
+      "publishedAt": "2026-11-25T12:15:39+02:00"
+    }
+  ],
+  "title": {
+    "zh": "Cell C 收购南非虚拟运营商 Melon Mobile",
+    "en": "Cell C acquires South African MVNO Melon Mobile",
+    "es": "Cell C adquiere la OMV sudafricana Melon Mobile"
+  },
+  "summary": {
+    "zh": "南非运营商 Cell C 于 11 月 25 日确认已完成对虚拟运营商 Melon Group 的收购。Melon Mobile 由 Calvin Collett 于 2023 年 4 月创立，无实体门店、以按月合约和 eSIM 支持为卖点，用户约 10 万。收购后 Melon 仍作为独立法人、由原管理团队运营，交易金额未披露。",
+    "en": "South African operator Cell C confirmed on 25 November that it had completed the acquisition of MVNO Melon Group. Melon Mobile was founded by Calvin Collett in April 2023, runs without physical stores on month-to-month plans with eSIM support, and has roughly 100 000 subscribers. Melon stays a separate legal entity under its existing management after the deal; the price was not disclosed.",
+    "es": "El operador sudafricano Cell C confirmó el 25 de noviembre que ha completado la adquisición de la OMV Melon Group. Melon Mobile fue fundada por Calvin Collett en abril de 2023, opera sin tiendas físicas con planes mensuales y soporte eSIM, y cuenta con unos 100.000 abonados. Tras la operación, Melon sigue siendo una entidad jurídica separada bajo su dirección actual; el precio no se reveló."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Cell C 在 11 月 25 日发给 ITWeb 的声明中确认，已完成对 Melon Group 的收购。Melon Mobile 是这家集团旗下的移动虚拟运营商，由 Calvin Collett 于 2023 年 4 月创立，不设实体门店、不签长期合约，主打可自定义的按月套餐与 eSIM 支持。Cell C 表示，交易金额与合同条款属于双方保密信息，未对外披露。",
+        "en": "Cell C confirmed in a statement to ITWeb on 25 November that it had completed the acquisition of Melon Group. Melon Mobile is the group's mobile virtual network operator, founded by Calvin Collett in April 2023, operating without physical stores or long-term contracts and offering customisable month-to-month plans with eSIM support. Cell C said the price and contract terms are confidential between the parties and were not disclosed.",
+        "es": "Cell C confirmó en un comunicado enviado a ITWeb el 25 de noviembre que ha completado la adquisición de Melon Group. Melon Mobile es el operador móvil virtual del grupo, fundado por Calvin Collett en abril de 2023, que opera sin tiendas físicas ni contratos a largo plazo y ofrece planes mensuales personalizables con soporte eSIM. Cell C indicó que el precio y las condiciones contractuales son confidenciales y no se divulgaron."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Melon Mobile 在被收购后继续作为独立法人运作，日常经营由原管理团队维持，Cell C 称交易不影响客户、员工与合作伙伴关系。分析机构 World Wide Worx 的 Arthur Goldstuck 指出，Cell C 买下的不只是一家虚拟运营商的用户群，还有 Melon Digital 开发的平台，这套技术可让其他企业更快、更低成本地推出自己的移动服务。",
+        "en": "After the acquisition, Melon Mobile continues as a separate legal entity with day-to-day operations run by its existing management; Cell C said the deal changes nothing for customers, employees or partners. Arthur Goldstuck of World Wide Worx noted that Cell C is buying more than an MVNO subscriber base: it also gains Melon Digital's platform, technology that lets other businesses launch their own mobile services faster and more cheaply.",
+        "es": "Tras la adquisición, Melon Mobile sigue operando como entidad jurídica separada, con la gestión diaria a cargo de su equipo actual; Cell C señaló que la operación no cambia nada para clientes, empleados ni socios. Arthur Goldstuck de World Wide Worx señaló que Cell C no solo compra la base de abonados de una OMV: también obtiene la plataforma de Melon Digital, una tecnología que permite a otras empresas lanzar sus propios servicios móviles de forma más rápida y económica."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "规模数据来自受访分析师。BMIT 的 Christopher Geerdts 称 Melon 约有 10 万用户；Cell C 披露截至 5 月底其平台承载 570 万虚拟运营商用户线，占南非虚拟运营商业务约 80% 至 85%，上一财年批发收入增长 20%。Melon 目前在 MTN 的网络上运行，收购后 Cell C 既是对独立虚拟运营商的批发供应商，又拥有一家竞争对手，分析人士认为这需要向批发客户说明是否存在商业优势不均。",
+        "en": "Scale figures come from the analysts quoted. Christopher Geerdts of BMIT put Melon at roughly 100 000 subscribers; Cell C disclosed 5.7 million MVNO subscriber lines on its platform at the end of May, about 80% to 85% of South Africa's MVNO business, with wholesale revenue up 20% in its last financial year. Melon currently runs on MTN's network, so after the deal Cell C is both a wholesale supplier to independent MVNOs and the owner of one of their competitors, a conflict analysts say it will need to explain to wholesale customers.",
+        "es": "Las cifras de escala provienen de los analistas citados. Christopher Geerdts de BMIT situó a Melon en unos 100.000 abonados; Cell C comunicó 5,7 millones de líneas de OMV en su plataforma a finales de mayo, alrededor del 80 % al 85 % del negocio de OMV de Sudáfrica, con un crecimiento del 20 % en los ingresos mayoristas del último ejercicio. Melon opera hoy en la red de MTN, por lo que tras la operación Cell C es a la vez proveedor mayorista de OMV independientes y propietaria de una de sus competidoras, un conflicto que los analistas dicen que deberá explicar a sus clientes mayoristas."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对南非的虚拟运营商与 eSIM 供应链，这笔交易改变的是批发侧的买家结构：Cell C 本就承载当地八成以上虚拟运营商业务，如今又买下一家自带 eSIM 能力和 MVNE 平台的运营商，未来新品牌上线的通道会更集中到 Cell C 手里。对平台与卡务供应商，Melon Digital 的技术被并入 Cell C 后，profile 下发与号码管理接口的对接方可能重新收敛。边界要说清：这是股权收购，本身没有引入新的 SIM 载体形态或鉴权机制，对凭证链路的影响来自采购方集中度变化，而非技术变化。金额与交割细节未披露，代价与协同仍无法核算。",
+    "en": "For South Africa's MVNO and eSIM supply chain, the deal changes buyer structure on the wholesale side: Cell C already hosts over 80% of the country's MVNO business and now owns an operator with its own eSIM capability and MVNE platform, concentrating the route for launching new brands in Cell C's hands. For platform and card-vendor suppliers, folding Melon Digital's technology into Cell C may consolidate the counterparties for profile download and number-management interfaces. The boundary matters: this is an equity acquisition, introducing no new SIM form factor or authentication mechanism. Its effect on the credential chain comes from buyer concentration, not technology. The price and closing details were not disclosed, so cost and synergies cannot yet be calculated.",
+    "es": "Para la cadena de suministro de OMV y eSIM de Sudáfrica, la operación cambia la estructura de compradores en el lado mayorista: Cell C ya alberga más del 80 % del negocio de OMV del país y ahora posee un operador con su propia capacidad eSIM y plataforma MVNE, concentrando en Cell C la vía para lanzar nuevas marcas. Para los proveedores de plataformas y tarjetas, integrar la tecnología de Melon Digital en Cell C puede concentrar las contrapartes de las interfaces de descarga de perfiles y gestión de numeración. Conviene precisar el alcance: se trata de una adquisición accionarial, sin nuevo formato de SIM ni mecanismo de autenticación. Su efecto en la cadena de credenciales proviene de la concentración de compradores, no de la tecnología. El precio y los detalles del cierre no se divulgaron, por lo que aún no se pueden calcular costes ni sinergias."
+  },
+  "confidence": 0.58,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "telecom-editor-2026-11"
+  }
+}

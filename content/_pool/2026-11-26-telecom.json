@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-26",
+  "industry": "telecom",
+  "startedAt": "2026-11-26T02:54:28+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "Vodafone activates resilient integrated terrestrial and satellite connectivity at new Earth-space station",
+      "url": "https://iot-now.com/2026/11/25/159514-vodafone-ast-spacemobile-earth-space-station-malaga/",
+      "reason": "范围门与动作门不过：马拉加地球站是 AST SpaceMobile 的研发地面设施开站，只有设施本身、无产品名/参数/客户；D2D 卫星连接本身不落在 SIM 载体与鉴权环节，与 11-24 已拦同事件。"
+    },
+    {
+      "title": "BICS, Airtel Africa extends roaming and network security partnership（Mobile Europe 与 Mobile World Live 两稿同源）",
+      "url": "https://www.mobileworldlive.com/airtel/bics-airtel-africa-extend-roaming-security-pact/",
+      "reason": "范围门不过：升级的是托管信令防火墙与漫游安全能力，不落在 SIM 载体、RSP/profile 下载或网络鉴权，属网络安全服务，与 11-25 已拦同事件。"
+    },
+    {
+      "title": "eRedCap and eSIM move legacy IoT toward AI-ready operations",
+      "url": "https://rcrwireless.com/20261124/ai/eredcap-esim-legacy-iot-ai-ready",
+      "reason": "动作门不过：观点分析稿，无产品、版本、参数或客户等可核具体物，也不构成首次或变化；eRedCap 是终端能力等级不是 SIM 载体。"
+    },
+    {
+      "title": "Semtech expands wireless portfolio as LoRa revenue rises 69%",
+      "url": "https://rcrwireless.com/20261125/internet-of-things-4/semtech-wireless-lora",
+      "reason": "范围门不过：LoRa 无线产品线与财报营收，不落在三条凭证链路；Semtech 的 SGP.32 产品节点已于 11-10 发布。"
+    },
+    {
+      "title": "China rolls out 6G pilot testing in eight provinces",
+      "url": "https://www.lightreading.com/6g/china-rolls-out-6g-pilot-testing-in-eight-provinces",
+      "reason": "范围门明确不收：6G 试点属 AGENTS.md 列出的「6G 表态/核心网」排除项。"
+    },
+    {
+      "title": "T-Mobile goes all-in to connect Las Vegas Grand Prix",
+      "url": "https://www.lightreading.com/5g/t-mobile-goes-all-in-to-connect-las-vegas-grand-prix",
+      "reason": "范围门不过：赛事现场网络覆盖属核心网与基站，不落在 SIM/eSIM 载体或鉴权。"
+    },
+    {
+      "title": "FCC propone condicionar acceso de satélites extranjeros al trato que reciben empresas de EE. UU.",
+      "url": "https://dplnews.com/fcc-condicionar-acceso-satelites-extranjeros/",
+      "reason": "范围门不过：外国卫星准入的对等条件是频谱与星座监管，不落凭证链路。"
+    },
+    {
+      "title": "Indotel adjudicó 260 MHz a Claro y Viettel en República Dominicana",
+      "url": "https://www.telesemana.com/blog/2026/11/24/indotel-adjudico-260-mhz-a-claro-y-viettel-en-republica-dominicana/",
+      "reason": "范围门明确不收：频谱拍卖是动作合规、标的物不合规。"
+    },
+    {
+      "title": "Perú | MTC adjudicó 34 frecuencias de radio en 16 localidades de nueve regiones del país",
+      "url": "https://dplnews.com/peru-mtc-adjudico-34-frecuencias-radio-16-localidades-9-regiones/",
+      "reason": "范围门明确不收：无线电频率指配，不落凭证链路。"
+    },
+    {
+      "title": "El jefe de Gabinete del Gobierno argentino asegura que aún no se decidió limitar el equipamiento chino en las redes",
+      "url": "https://www.telesemana.com/blog/2026/11/25/el-jefe-de-gabinete-del-gobierno-argentino-asegura-que-aun-no-se-decidio-limitar-el-equipamiento-chino-en-las-redes/",
+      "reason": "动作门不过：仅为「尚未决定」的表态，无决定文本、无生效日、无设备清单。"
+    },
+    {
+      "title": "República Dominicana | Indotel inaugura primer Punto Wi-Fi Móvil para llevar internet gratuito",
+      "url": "https://dplnews.com/republica-dominicana-indotel-inaugura-punto-wi-fi-movil-llevar-internet-gratuito-capacitacion-digital-a-comunidades-del-pais/",
+      "reason": "范围门不过：公共 Wi-Fi 接入点与数字普及，不落 SIM/eSIM 载体或鉴权。"
+    },
+    {
+      "title": "Globe, NCS Partnership Expands Philippine Enterprise Digital Solutions",
+      "url": "https://www.telecomreviewasia.com/news/service-news/30843-globe-ncs-partnership-expands-philippine-enterprise-digital-solutions/",
+      "reason": "范围门不过：企业数字解决方案合作，公告未涉及 SIM/eSIM 载体、RSP 或鉴权机制的具体变化。"
+    },
+    {
+      "title": "Hurricane Electric Expands Global Network With New Point of Presence at iXAfrica NBOX1 in Nairobi",
+      "url": "https://www.itweb.co.za/article/hurricane-electric-expands-global-network-with-new-point-of-presence-at-ixafrica-nbox1-in-nairobi/KzQenMjy1Ez7Zd2r",
+      "reason": "范围门不过：网络接入点与骨干扩容，属基础设施，不落凭证链路。"
+    },
+    {
+      "title": "BR Captura ultrapassa 10 milhões de SIM cards gerenciados",
+      "url": "https://telesintese.com.br/br-captura-ultrapassa-10-milhoes-de-sim-cards-gerenciados/",
+      "reason": "时效门与动作门不过：软文（Publieditorial），发布于 11-19 超出 72 小时窗口，且为管理卡量的进度里程碑、非形态或机制变化。"
+    },
+    {
+      "title": "Italy reopens SIM/eSIM swap security rules（AGCOM Delibera 86/21/CIR 修订）",
+      "url": "https://yuexin.ai/regulations/italy-sim-esim-swap-security-review-2026",
+      "reason": "时效门与动作门不过：AGCOM 10-20 把修订列入议程，无最终文本、无生效日；二手合规解读稿，不构成首次或变化。"
+    },
+    {
+      "title": "Azercell Business launches eSIM services for IoT and M2M connectivity",
+      "url": "https://azertag.az/en/xeber/__azercell_business_launches_iot_and_m2m_platform_for_corporate_customers-4014463",
+      "reason": "范围门与动作门不过：原文是 IoT/M2M 设备管理平台，管理后台与数据池，未给出 eSIM/SGP.32 的载体或 profile 下发机制、无客户或参数。"
+    },
+    {
+      "title": "Temu fecha acordo com Mastercard para testar Click to Pay e agentes",
+      "url": "https://www.mobiletime.com.br/noticias/24/11/2026/temu-mastercard-acordo/",
+      "reason": "渠道合作/支付范围：电商与卡组织的支付受理测试，不落电信凭证链路，且今日 banking 池已处理。"
+    }
+  ],
+  "stats": {
+    "candidates": 148,
+    "written": 1,
+    "skippedByDedup": 2
+  },
+  "finishedAt": "2026-11-25T18:56:07.537Z"
+}

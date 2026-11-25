@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-25T20:16:03.700Z",
+  "selected": [
+    {
+      "industry": "identity",
+      "slug": "sumsub-ghana-non-doc-id-pin-selfie",
+      "score": 0.72,
+      "reason": "region-floor",
+      "region": "africa",
+      "sourceDate": "2026-11-26"
+    },
+    {
+      "industry": "telecom",
+      "slug": "cell-c-acquires-melon-mobile-mvno",
+      "score": 0.58,
+      "reason": "industry-floor",
+      "region": "africa",
+      "sourceDate": "2026-11-26"
+    },
+    {
+      "industry": "banking",
+      "slug": "satispay-adyen-smart-pos-terminal",
+      "score": 0.6,
+      "reason": "manual",
+      "region": "europe",
+      "sourceDate": "2026-11-26"
+    },
+    {
+      "industry": "telecom",
+      "slug": "huawei-mate-x8-dual-esim-three-sim-active",
+      "score": 0.62,
+      "reason": "manual",
+      "region": "apac",
+      "sourceDate": "2026-11-25"
+    },
+    {
+      "industry": "banking",
+      "slug": "clapp-visa-crypto-card-credit-line",
+      "score": 0.55,
+      "reason": "manual",
+      "region": "global",
+      "sourceDate": "2026-11-25"
+    }
+  ],
+  "alternates": [],
+  "expired": [],
+  "gaps": [
+    {
+      "region": "cis",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "mena",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "north-america",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "latam",
+      "note": "池内 0 条"
+    }
+  ],
+  "unaccounted": [],
+  "conflicts": [
+    {
+      "kind": "undated",
+      "detail": "banking/satispay-adyen-smart-pos-terminal 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/clapp-visa-crypto-card-credit-line 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    },
+    {
+      "kind": "undated",
+      "detail": "telecom/huawei-mate-x8-dual-esim-three-sim-active 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true
+    }
+  ]
+}
