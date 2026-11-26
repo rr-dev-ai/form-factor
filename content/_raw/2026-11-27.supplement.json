@@ -1,0 +1,130 @@
+{
+  "fetchedAt": "2026-11-27T01:53:29+08:00",
+  "fetchedFor": "2026-11-27",
+  "gap": ["apac", "cis", "mena", "europe", "north-america"],
+  "cellGap": ["latam/banking", "latam/telecom", "africa/banking", "africa/telecom"],
+  "industryGap": ["banking", "telecom", "identity"],
+  "items": [
+    {
+      "title": "Mastercard, BBSF launch internationally accepted cards in Syria",
+      "url": "https://npasyria.com/en/144074",
+      "publishedAt": "2026-11-25T00:00:00+03:00",
+      "industry": "banking",
+      "region": "mena",
+      "actionType": "联合部署",
+      "gateNote": "有发卡行、卡组织和处理方三者，但原文未给发卡量、金额或上线规模，只限定符合条件政府雇员；原文只有发布日期无时刻，时间以 +03:00 零时占位。终审若按「缺规模凭据」收紧可刷掉。",
+      "discoveredBy": "R1 \"25 November 2026\" OR \"26 November 2026\" MENA card issuing personalization bank eID passport publisher",
+      "note": "落在发卡与分发环节：BBSF 在叙利亚本地发 Mastercard 卡，MEPS 提供发卡与收单处理。改变之处在于从境外卡受理转为本地签发且境外通用，是制裁后卡链路的重新接通。原文未披露发卡量、卡种费率、覆盖属地网点数，也未给官方授权文件，只说此前签过备忘录。"
+    },
+    {
+      "title": "QCB Expands \"HIMYAN\" Card Acceptance to Oman",
+      "url": "https://qna.org.qa/en/News-Area/News/2026-11/26/qcb-expands-himyan-card-acceptance-to-oman",
+      "publishedAt": "2026-11-26T10:37:00+03:00",
+      "industry": "banking",
+      "region": "mena",
+      "actionType": "跨国落地",
+      "gateNote": "有明确首发市场阿曼，且已有沙特、巴林、科威特三个既有市场；但写的是「逐步接受」，未给 POS/ATM 数量、启用日期或覆盖商户名单。终审可能按渠道扩展而非机制变化剔除。",
+      "discoveredBy": "R3 \"مناقصة\" OR \"ترسية\" \"26 نوفمبر 2026\" بطاقة بنكية إصدار OR جواز سفر OR هوية",
+      "note": "落在受理环节：卡塔尔央行宣布 HIMYAN 国产支付卡在阿曼逐步可用，可在支持 POS 与 ATM 购物和取现。变化是国家卡从海湾三国扩到第四个市场，受理网络跨境延伸。原文未说接入的阿曼收单机构、终端数量、限额、手续费与具体生效日。"
+    },
+    {
+      "title": "Maldives Islamic Bank launches its Visa Islamic credit card proposition with BPC",
+      "url": "https://www.bpcbt.com/en/press/maldives-islamic-bank-launches-its-visa-islamic-credit-card-proposition-with-bpc",
+      "publishedAt": "2026-11-26T00:00:00+05:00",
+      "industry": "banking",
+      "region": "apac",
+      "actionType": "产品化节点",
+      "gateNote": "有产品名、Ujrah 机制、SmartVista 平台与首日 500 份申请，机构和卡组织具名；但无合同金额、发卡量目标和个性化产能。若终审按常规新品发布剔除，可降级为「无」或让位给同格更强候选。",
+      "discoveredBy": "R2 BPC OR \"G+D\" OR IDEMIA OR Thales \"November 26, 2026\" card personalization issuing contract bank",
+      "note": "落在发卡与处理环节：马尔代夫伊斯兰银行上线首张 Visa Ujrah 信用卡，BPC SmartVista 承担发卡全生命周期，部署为本地部署加卡处理与 Visa 连接即服务。变化是银行从依赖外部发卡转为自持卡片规则、额度与多附属卡配置。原文未给年费、授信区间、卡面材质与实体卡个性化安排。"
+    },
+    {
+      "title": "东信和平中标建行内蒙古自治区分行社保卡便携式制卡机及耗材采购项目，中标金额112.20万元",
+      "url": "https://caifuhao.eastmoney.com/news/20261125163010594713830",
+      "publishedAt": "2026-11-25T16:30:10+08:00",
+      "industry": "banking",
+      "region": "apac",
+      "actionType": "授标",
+      "gateNote": "中标方、买方、金额三项齐备，但依据的是上市公司公告转述与企查查数据，原始建行中标公告未能直接打开；金额也只覆盖便携式制卡机及耗材，无台数。终审可因一手源缺失剔除。",
+      "discoveredBy": "R2 \"2026年11月26日\" 制卡 个人化 银行卡 采购 中标 身份证",
+      "note": "落在签发与个性化设备环节：建设银行内蒙古分行采购社保卡便携式制卡机及耗材，东信和平以 112.20 万元中标，公告时间 11 月 25 日 16:30。变化是社保卡制发从固定网点向便携现场制卡延伸。原文未写采购台数、单台产能、交货期及所用制卡工艺。"
+    },
+    {
+      "title": "云南红塔银行股份有限公司公民身份信息核鉴数据采购项目-中标候选人公示",
+      "url": "https://www.ynhtbank.com/xwdt/zbcg/202611/20261125_2020910.html",
+      "publishedAt": "2026-11-25T00:00:00+08:00",
+      "industry": "identity",
+      "region": "apac",
+      "actionType": "授标",
+      "gateNote": "评标日、第一名候选人与三档单价可核，但仍是中标候选人公示而非定标；无合同总额、调用量与最终入围确认。终审若要求授标已完成，可改判为「无」。",
+      "discoveredBy": "R2 \"2026年11月26日\" 制卡 个人化 银行卡 采购 中标 身份证",
+      "note": "落在身份核验受理端：红塔银行采购公民身份二要素联网核查、证脸比对和两证一脸比对数据服务，11 月 25 日评标，第一候选人中科云从报价 0.05／0.17／0.18 元每笔，服务期三年。变化是银行把证件查验从柜台人工改为按笔调用的外部比对服务。原文未给年调用量、预算总额和上线时间。"
+    },
+    {
+      "title": "中国光大银行股份有限公司合肥分行2027-2029年社保卡制卡服务商采购项目招标公告",
+      "url": "https://www.youzhicai.com/nd/d0d5e33c-9b2a-22d4-4b57-44613e09f428-1.html",
+      "publishedAt": "2026-11-26T00:00:00+08:00",
+      "industry": "banking",
+      "region": "apac",
+      "actionType": "无",
+      "gateNote": "尚处招标阶段，无中标方，不能算授标；有 7.58 元每张限价、1 家服务商、3 年服务期。终审若只收已落地变化，会按采购预告剔除。",
+      "discoveredBy": "R2 \"2026年11月26日\" 制卡 个人化 银行卡 采购 中标 身份证",
+      "note": "落在社保卡签发与制卡环节：光大银行合肥分行招标 2027-2029 年制卡全链路服务商，要求配合安徽省新的社保卡制发卡模式做业务流程改造与通信链路对接，形成闭环，限价 7.58 元每张。变化是制卡外包与发卡流程重接。原文未给发卡量、卡片芯片规格、中标人与系统厂商。"
+    },
+    {
+      "title": "Philippines extends $40M digital ID tender, giving challengers more time to compete",
+      "url": "https://www.biometricupdate.com/202611/philippines-extends-40m-digital-id-tender-giving-challengers-more-time-to-compete",
+      "publishedAt": "2026-11-25T13:39:00-05:00",
+      "industry": "identity",
+      "region": "apac",
+      "actionType": "无",
+      "gateNote": "本次只是投标截止日从 2027-01-11 延到 02-11 并取消第二次标前会，不是授标或认证；原 PPP 已于 9 月批准。终审若按「无新事件」收紧可剔除。",
+      "discoveredBy": "R4 site:biometricupdate.com/202611 \"November 26, 2026\" OR \"November 25, 2026\" ID card wallet passport embossing",
+      "note": "落在身份登记、证件生产与核验环节：菲律宾统计署 PDNI 项目预算 24.8 亿比索，覆盖生物登记、ID 卡生产、认证服务、私营部门依赖方接入和底层 ICT 运营，采用建设-移交-运营加 20 年特许，要求支持 MOSIP／ABIS／BIAS 在自有与公私云运行。原文未给中标方，Unisys 有 30 天匹配权。"
+    },
+    {
+      "title": "Smart-ID Accounts Can Be Created Remotely With an eID Card Only Until 30 November",
+      "url": "https://rigatv.com/en/raksts/smart-id-kontu-ar-eid-karti-attalinati-var-izveidot-tikai-lidz-30-novembrim-8269185",
+      "publishedAt": "2026-11-26T19:03:00+02:00",
+      "industry": "identity",
+      "region": "europe",
+      "actionType": "无",
+      "gateNote": "属于服务商单方变更既有凭证注册路径，既非授标也非标准发布；无版本号与发证方。终审若只收七类动作，会按运营公告剔除。",
+      "discoveredBy": "R3 \"Ausschreibung\" \"26. November 2026\" Kartenpersonalisierung OR eID OR SIM-Karten Vergabe",
+      "note": "落在身份凭证签发与核验环节：拉脱维亚约 34.6 万张 Cosmo 8.1 芯片 eID 卡持有人只能在 11 月 30 日前用手机 NFC 远程开通合格 Smart-ID，12 月 1 至 9 日证书陆续撤销，此后该远程注册通道关闭。变化是芯片证书生命周期收紧。原文未给撤销技术原因、替代注册渠道和补发安排。"
+    },
+    {
+      "title": "Switzerland awards $5.3M deepfake detection contract to secure digital ID rollout",
+      "url": "https://www.biometricupdate.com/202611/switzerland-awards-5-3m-deepfake-detection-contract-to-secure-digital-id-rollout",
+      "publishedAt": "2026-11-25T11:09:00-05:00",
+      "industry": "identity",
+      "region": "europe",
+      "actionType": "授标",
+      "gateNote": "金额、承接方、Fedpol 与合同期可核，但授标决定日 11 月 18 日已在 72 小时窗外，11 月 25 日只是报道日。终审若按事件时间判时效会剔除。",
+      "discoveredBy": "R4 归档直读 biometricupdate /202611（基于 R3 法语采购词轮撞出的瑞士线索）",
+      "note": "落在 e-ID 申请人的核验环节：瑞士联邦建筑与物流局直接授予 ELCA 一份 444 万瑞郎合同，为 Fedpol 现有在线身份核验 AV 系统加 Face Deepfake Detector 模块，阻止 AI 生成自拍视频通过识别。变化是把深伪检测嵌入既有 e-ID 信任框架。原文未给检测阈值、误拒率与 e-ID 正式上线日。"
+    },
+    {
+      "title": "ZUMA subsidiary gets Ofcom clarity on UK international eSIM operations",
+      "url": "https://mettisglobal.news/ZUMA-subsidiary-gets-Ofcom-clarity-on-UK-telecom-international-eSIM-operations-65262",
+      "publishedAt": "2026-11-26T14:32:00+05:00",
+      "industry": "telecom",
+      "region": "europe",
+      "actionType": "无",
+      "gateNote": "只是 Ofcom 对 General Authorisation 适用性的监管澄清，不是产品上线或认证；无品牌名、上线日、运营商合作方、用户规模。属本期最弱一条，终审可直接剔除。",
+      "discoveredBy": "R5 \"SGP.32\" OR \"eIM\" OR \"iSIM\" \"November 26, 2026\" launch commercial certification",
+      "note": "落在 eSIM 分发与准入环节：巴基斯坦 Zuma Resources 的英国子公司获 Ofcom 澄清，可在英国通用授权框架下开展电信与国际 eSIM 业务，已向巴基斯坦证券交易所披露。变化是新主体获得开展 eSIM 分发的监管确定性。原文未说明具体品牌、profile 下载方式、SM-DP+ 合作方与商业发布日期。"
+    },
+    {
+      "title": "Miden Announces Collaboration with Visa, Enabling Frictionless Commercial Card Issuing with Enterprise-Grade Controls for African Businesses",
+      "url": "https://www.africatechsummit.com/insights/miden-announces-collaboration-with-visa-enabling-frictionless-commercial-card-issuing-with-enterprise-grade-controls-for-african-businesses",
+      "publishedAt": "2026-11-25T00:00:00+01:00",
+      "industry": "banking",
+      "region": "africa",
+      "actionType": "联合部署",
+      "gateNote": "有产品机制、Visa 西非负责人表态与四家具名客户，但无金额、发卡量、市场名单和正式合作协议文本；且稿件发布于会议站，终审可能按无规模联合宣传剔除。",
+      "discoveredBy": "R1 \"25 November 2026\" OR \"26 November 2026\" Africa bank card issuing acquiring terminal launch Visa Mastercard",
+      "note": "落在发卡与处理环节：Miden 在拉各斯发布与 Visa 直连的商业卡方案，由参与银行发行虚拟 Visa 商业卡，企业可设商户、MCC、地域限制并实时管控全生命周期，去掉多层第三方处理。变化是非洲企业发卡链路缩短。原文未给费率降幅、授权率数值、发卡行名单和覆盖国家。"
+    }
+  ]
+}

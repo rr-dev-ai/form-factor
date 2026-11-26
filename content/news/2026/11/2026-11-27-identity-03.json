@@ -1,0 +1,81 @@
+{
+  "id": "2026-11-27-identity-04",
+  "slug": "amadeus-idemia-public-security-singapore-antitrust",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [
+    "europe",
+    "north-america"
+  ],
+  "tags": [
+    "verification",
+    "biometrics",
+    "national-id"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-27T04:17:32+08:00",
+  "ingestedAt": "2026-11-27T03:10:23+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/singapore-opens-antitrust-review-of-amadeus-idemia-security-deal/",
+      "lang": "en",
+      "publishedAt": "2026-11-26T00:00:00Z"
+    },
+    {
+      "name": "Competition and Consumer Commission of Singapore",
+      "url": "https://www.ccs.gov.sg/media-and-events/newsroom/announcements-and-media-releases/ccs-consults-on-the-proposed-acquisition-by-amadeus-it-group-of-idemia-public-security/",
+      "lang": "en",
+      "publishedAt": "2026-11-25T00:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "新加坡反垄断审查 Amadeus 收购 IDEMIA 公共安全业务",
+    "en": "Singapore opens antitrust review of Amadeus-IDEMIA Public Security deal",
+    "es": "Singapore abre revisión antimonopolio de la compra de IDEMIA Public Security por Amadeus"
+  },
+  "summary": {
+    "zh": "新加坡竞争与消费者委员会 CCS 11 月 25 日就 Amadeus 收购 IDEMIA Public Security 全部股权启动公众咨询，咨询期至 12 月 8 日。这笔交易金额 12 亿欧元，涉及 IDEMIA 的边境与旅行、执法、门禁三块业务。CCS 指出双方在生物识别边境闸机、旅客通关系统与 API/PNR 上存在重叠。",
+    "en": "Singapore's Competition and Consumer Commission opened a public consultation on November 25 on Amadeus's acquisition of 100 percent of IDEMIA Public Security, with feedback due by December 8. The EUR 1.2 billion deal covers IDEMIA's border and travel, law enforcement and access divisions. CCS identified overlaps in biometric front-end border control, passenger flow systems and API/PNR.",
+    "es": "La Comisión de Competencia y Consumo de Singapur abrió el 25 de noviembre una consulta pública sobre la compra del 100 % de IDEMIA Public Security por Amadeus, con plazo hasta el 8 de diciembre. La operación de 1.200 millones de euros cubre las divisiones de fronteras y viaje, aplicación de la ley y control de acceso de IDEMIA. CCS detectó solapamientos en control biométrico de fronteras, flujo de pasajeros y API/PNR."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "新加坡竞争与消费者委员会 CCS 11 月 25 日发布公告，就西班牙旅游技术公司 Amadeus 收购 IDEMIA Public Security 全部股权的计划征求公众意见，反馈截止 12 月 8 日下午 5 点。CCS 已于 11 月 16 日受理双方的申请，将依据《竞争法》第 54 条判断这笔交易是否实质性减少竞争。这是交易在并购审查环节的新进展，交易本身的收购协议为此前达成。",
+        "en": "Singapore's Competition and Consumer Commission published a notice on November 25 seeking public feedback on Spanish travel technology company Amadeus's proposed acquisition of 100 percent of IDEMIA Public Security, with comments due by 5pm on December 8. CCS accepted the parties' application on November 16 and will assess under section 54 of the Competition Act whether the transaction substantially lessens competition. This is a new step in the merger review process; the acquisition agreement itself was reached earlier.",
+        "es": "La Comisión de Competencia y Consumo de Singapur publicó el 25 de noviembre un aviso para recoger opiniones sobre la compra del 100 % de IDEMIA Public Security por la española Amadeus, con plazo hasta el 8 de diciembre a las 17:00. CCS aceptó la solicitud de las partes el 16 de noviembre y evaluará según el artículo 54 de la Ley de Competencia si la operación reduce sustancialmente la competencia. Este es un nuevo paso en la revisión de la fusión; el acuerdo de compra se alcanzó antes."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "交易标的 IDEMIA Public Security 是生物识别技术与方案供应商，业务分为边境与旅行、执法、门禁三块，覆盖政府与政府间组织。它在新加坡通过全资子公司 Idemia Singapore Pte Ltd 运营，在航空、海运与陆路关卡提供自动边境控制与高级生物识别系统，此前也供应过旅客通关便利化系统。收购方 Amadeus 为航空公司、机场、酒店与旅行社提供分销与 IT 方案。",
+        "en": "The target, IDEMIA Public Security, supplies biometric identification technology across three divisions - border and travel, law enforcement and access - serving governmental and inter-governmental organizations. In Singapore it operates through wholly owned subsidiary Idemia Singapore Pte Ltd, providing automated border control and advanced biometric systems at air, sea and land checkpoints, and has previously supplied passenger flow facilitation systems. Buyer Amadeus provides distribution and IT solutions to airlines, airports, hotels and travel agencies.",
+        "es": "La adquirida, IDEMIA Public Security, provee tecnología biométrica en tres divisiones: fronteras y viaje, aplicación de la ley y control de acceso, para organismos gubernamentales e intergubernamentales. En Singapur opera mediante su filial íntegra Idemia Singapore Pte Ltd, que ofrece control fronterizo automatizado y sistemas biométricos avanzados en los puntos de entrada aéreos, marítimos y terrestres, y antes suministró sistemas de agilización de pasajeros. El comprador Amadeus ofrece soluciones de distribución y TI a aerolíneas, aeropuertos, hoteles y agencias de viaje."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "CCS 在公告中列出双方在新加坡可能重叠的三类供应：生物识别前端边境控制系统、旅客通关便利化方案，以及高级旅客信息 API 与乘客姓名记录 PNR 系统。CCS 还指出 IDEMIA 的生物识别后端边境控制系统、门禁方案可与这些重叠产品打包供应。此前报道显示这笔收购的协议金额为 12 亿欧元。",
+        "en": "CCS listed three areas where the parties potentially overlap in Singapore: biometric front-end border control systems, passenger flow facilitation solutions, and Advanced Passenger Information and Passenger Name Record systems. The regulator also noted that IDEMIA's biometric back-end border control systems and access control solutions could be bundled with those overlapping products. Earlier reporting put the acquisition agreement at EUR 1.2 billion.",
+        "es": "CCS enumeró tres ámbitos de posible solapamiento en Singapur: sistemas biométricos de control fronterizo de primera línea, soluciones de agilización del flujo de pasajeros y sistemas de Información Avanzada de Pasajeros y Registro de Nombres de Pasajeros. El regulador señaló además que los sistemas biométricos de control fronterizo de segunda línea y las soluciones de control de acceso de IDEMIA podrían empaquetarse con esos productos. Informes anteriores cifraron el acuerdo de compra en 1.200 millones de euros."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这笔交易把全球最大的旅游分销平台与一家主力边境核验终端商放到同一控制下，改变的是证件核验终端市场的供应格局。对机场与边检采购方，Amadeus 此前已向伦敦城市机场提供生物识别值机与行李托运，若交易获批，前端闸机、后端核验与旅客数据流可能由一家打包提供，采购谈判的位置会变。对 IDEMIA 的同行，边境生物识别与门禁是本轮身份硬件的主要增长点，控股权易手意味着一条完整产品线换东家。新加坡 CCS 的审查是关键一关：它明确点出打包供应的可能，后续若附加条件，会直接影响交易如何交割。咨询截止 12 月 8 日，决定尚未作出。",
+    "en": "The deal puts the largest global travel distribution platform and a major border verification terminal supplier under one control, reshaping the supply side of the document verification terminal market. For airport and border buyers, Amadeus already supplies biometric check-in and bag drop to London City Airport; if cleared, front-end gates, back-end verification and passenger data could come bundled from one vendor, shifting procurement leverage. For IDEMIA's rivals, border biometrics and access control are a main growth area in identity hardware, and the change of control moves a full product line to a new owner. Singapore's CCS review is a key gate: it explicitly flagged bundling, and any conditions attached would shape how the deal closes. Consultations close December 8 and no decision has been made.",
+    "es": "La operación sitúa a la mayor plataforma mundial de distribución de viaje y a un proveedor principal de terminales de verificación fronteriza bajo un mismo control, lo que reconfigura la oferta del mercado de terminales de verificación de documentos. Para compradores de aeropuertos y fronteras, Amadeus ya suministra check-in biométrico y facturación de equipaje al aeropuerto de Londres City; de aprobarse, las compuertas de primera línea, la verificación de segunda línea y los datos de pasajeros podrían venir empaquetados de un solo proveedor, cambiando el poder de negociación. Para los rivales de IDEMIA, la biometría fronteriza y el control de acceso son un área clave de crecimiento en hardware de identidad, y el cambio de control transfiere una línea completa a nuevo dueño. La revisión de CCS en Singapur es un paso decisivo: señaló expresamente el empaquetado, y las condiciones que imponga afectarán el cierre. La consulta termina el 8 de diciembre y aún no hay decisión."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11-27",
+    "tokens": 0,
+    "costUsd": 0
+  }
+}

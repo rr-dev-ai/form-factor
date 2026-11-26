@@ -1,0 +1,430 @@
+{
+  "date": "2026-11-27",
+  "industry": "banking",
+  "startedAt": "2026-11-27T02:35:19+08:00",
+  "drafts": [
+    {
+      "id": "2026-11-27-banking-01",
+      "slug": "visa-nbx-flex-card-stablecoin-europe",
+      "industry": "banking",
+      "region": "europe",
+      "regions": [],
+      "tags": [
+        "issuing",
+        "scheme-rules",
+        "digital-wallet"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "Visa",
+          "url": "https://www.visa.co.uk/about-visa/newsroom/press-releases.3484051.html",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "Visa 与 NBX 推 Flex Card，一张卡切换法币与稳定币余额",
+        "en": "Visa and NBX plan Flex Card that switches between fiat and stablecoin balances",
+        "es": "Visa y NBX planean una Flex Card que alterna entre saldos fiat y stablecoin"
+      },
+      "summary": {
+        "zh": "Visa、挪威数字资产平台 NBX、卡平台 Tieto Banktech 与发卡方 IDT Finance 于 11 月 26 日公布 Visa Flex Card 计划。该卡由 Visa Flexible Credential 驱动，持卡人可设定扣款偏好，用法币或受支持的稳定币余额完成支付。预计 2027 年先以借记功能在挪威、瑞典、丹麦、芬兰和德国上线，波兰随后。",
+        "en": "Visa, Norwegian digital asset platform NBX, card platform Tieto Banktech and issuer IDT Finance announced on 26 November a Visa Flex Card. Built on Visa Flexible Credential, it lets cardholders set preferences and pay from a fiat or supported stablecoin balance with one credential. Debit launch is expected in 2027 across Norway, Sweden, Denmark, Finland and Germany, with Poland later.",
+        "es": "Visa, la plataforma noruega de activos digitales NBX, la plataforma de tarjetas Tieto Banktech y el emisor IDT Finance anunciaron el 26 de noviembre la Visa Flex Card. Basada en Visa Flexible Credential, permite definir preferencias y pagar con un saldo fiduciario o en stablecoin admitida con una sola tarjeta. El lanzamiento en débito está previsto para 2027 en Noruega, Suecia, Dinamarca, Finlandia y Alemania, y después Polonia."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "一张卡按币种切换扣款余额",
+            "en": "One card, switchable funding balances",
+            "es": "Una tarjeta, saldos de pago intercambiables"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "Visa Flex Card 由 Visa Flexible Credential 驱动。持卡人预先设定扣款偏好，付款时系统按消费币种和可用余额选择法币或受支持的稳定币账户，不必为不同资金分别持卡。Visa 举的例子是：本地货币余额用于日常消费，美元余额用于美元计价消费，从而减少换汇。",
+            "en": "The Visa Flex Card runs on Visa Flexible Credential. Cardholders set payment preferences in advance; at checkout the system draws from a fiat or supported stablecoin balance according to the purchase currency and available funds, without carrying separate cards. Visa gives the example of a local-currency balance for everyday spending and a US-dollar balance for dollar purchases.",
+            "es": "La Visa Flex Card funciona con Visa Flexible Credential. Los titulares fijan sus preferencias y, al pagar, el sistema elige entre un saldo fiduciario o en stablecoin admitida según la divisa de la compra y los fondos disponibles, sin tarjetas separadas. Visa pone como ejemplo un saldo local para gastos diarios y un saldo en dólares para compras en dólares."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "四方分工与上线市场",
+            "en": "Four roles and launch markets",
+            "es": "Cuatro funciones y mercados de lanzamiento"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "NBX 提供客户与美元稳定币 USDM；Tieto Banktech 提供卡平台和处理；IDT Finance 提供 BIN 赞助与发卡。NBX 受挪威金融监管局监管，持有 MiCA 加密资产服务商牌照与电子货币机构牌照，并在欧洲经济区发行 USDM。",
+            "en": "NBX brings the customers and the US-dollar stablecoin USDM; Tieto Banktech supplies the card platform and processing; IDT Finance provides BIN sponsorship and issuing. NBX is supervised by Norway's Finanstilsynet, holds a MiCA CASP licence and an EMI licence, and issues USDM in the EEA.",
+            "es": "NBX aporta los clientes y la stablecoin en dólares USDM; Tieto Banktech aporta la plataforma de tarjetas y el procesamiento; IDT Finance aporta el patrocinio de BIN y la emisión. NBX está supervisada por la autoridad noruega Finanstilsynet, cuenta con licencia MiCA CASP y licencia EMI, y emite USDM en el EEE."
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "按公告口径，借记功能预计 2027 年先在挪威、瑞典、丹麦、芬兰和德国上线，波兰留待后续；同一 Visa 凭证日后还可接入传统信贷等资金来源。公告未披露费率、发卡量与具体上线月份。",
+            "en": "According to the announcement, debit functionality is expected in 2027 first in Norway, Sweden, Denmark, Finland and Germany, with Poland later; the same Visa credential may subsequently add sources such as traditional credit. No fees, issuing volumes or launch month were disclosed.",
+            "es": "Según el anuncio, la función de débito llegará en 2027 primero a Noruega, Suecia, Dinamarca, Finlandia y Alemania, y después a Polonia; la misma credencial Visa podría añadir después fuentes como el crédito tradicional. No se comunicaron comisiones, volúmenes de emisión ni mes de lanzamiento."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "对发卡行和加密平台而言，这张卡把“多余额单凭证”从概念推到有市场名单和处理方分工的产品：Visa Flexible Credential 让同一卡号按消费场景选择资金来源，减少了为稳定币单独发卡的必要。技术上，Tieto 的卡平台加 IDT Finance 的 BIN 赞助构成可在欧洲复制的组合，其他持牌平台可照此路径接入。商业上，NBX 把 USDM 的用途从持有扩展到日常消费，发卡方获得新的账户活跃场景。费率与发卡量尚未披露，能否按期落地仍待观察。",
+        "en": "For issuers and crypto platforms, the card moves the multi-balance single credential from concept toward a product with named markets and assigned roles. Visa Flexible Credential lets one card number select the funding source by purchase context, reducing the need for a separate stablecoin card. Technically, Tieto's card platform plus IDT Finance's BIN sponsorship form a combination other licensed platforms in Europe can replicate. Commercially, NBX extends USDM from a held asset to everyday spending and gives the issuer a new reason for account activity. Fees and volumes remain undisclosed.",
+        "es": "Para emisores y plataformas cripto, la tarjeta convierte la credencial única mult-saldo en un producto con mercados y roles concretos. Visa Flexible Credential permite que un mismo número elija la fuente de pago según la compra, lo que reduce la necesidad de una tarjeta stablecoin separada. La plataforma de Tieto más el patrocinio de BIN de IDT Finance forman una combinación replicable por otros licenciados en Europa. Comercialmente, NBX amplía USDM de activo retenido a gasto cotidiano. No se dieron comisiones ni volúmenes."
+      },
+      "confidence": 0.6,
+      "ai": {
+        "model": "claude-opus-6",
+        "promptVersion": "2026-11-27-banking-v1"
+      }
+    },
+    {
+      "id": "2026-11-27-banking-04",
+      "slug": "krak-usdc-secured-credit-cards-waitlist",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "tags": [
+        "issuing",
+        "digital-wallet"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/krakens-krak-moves-into-credit-with-two-us-cards-one-backed-by-a-usdc-deposit",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "Krak 开放两张美国信用卡候补，一张由 USDC 存款担保",
+        "en": "Krak opens waitlist for two US cards, one secured by USDC deposit",
+        "es": "Krak abre lista de espera para dos tarjetas estadounidenses, una garantizada con depósito USDC"
+      },
+      "summary": {
+        "zh": "Kraken 母公司 Payward 旗下 Krak 在美国开放两张 Visa Signature 信用卡候补：Krak Credit Card 与 Krak Secured Card。担保卡以账户内 USDC 稳定币存款作为额度抵押，该存款同时可赚最高 4% 年化；两卡返现最高 4%，由 First Electronic Bank 发卡、Cardless 管理，计划 2027 年初发货。",
+        "en": "Krak, the money app run by Kraken parent Payward, opened a US waitlist for two Visa Signature credit cards: the Krak Credit Card and the Krak Secured Card. The secured card uses a USDC deposit in the account as collateral while that deposit can earn up to 4% APY; both pay up to 4% cashback. First Electronic Bank will issue them and Cardless will manage the programmes, with shipping expected in early 2027.",
+        "es": "Krak, la app de pagos de Payward, matriz de Kraken, abrió en EE. UU. una lista de espera para dos tarjetas Visa Signature: Krak Credit Card y Krak Secured Card. La garantiza un depósito en USDC en la cuenta, que a la vez puede rendir hasta un 4 % anual; ambas devuelven hasta un 4 %. First Electronic Bank las emitirá y Cardless gestionará los programas, con envíos previstos para comienzos de 2027."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "两张卡面向不同信用人群",
+            "en": "Two cards for different credit profiles",
+            "es": "Dos tarjetas para perfiles de crédito distintos"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "普通卡面向已有信用记录的人；担保卡面向信用记录薄或受损的人，其额度由 Krak 账户内的 USDC 存款支撑，这笔存款在 Krakpass 会员下同时可获最高 4% 年化收益。两卡均为 Visa Signature，由 First Electronic Bank 依 Visa 牌照发行，Cardless 负责项目管理、技术与客服。",
+            "en": "The standard card targets people with an established credit history; the secured card targets thin or damaged files, with its limit backed by USDC held in the Krak account, which can earn up to 4% APY for Krakpass members. Both are Visa Signature cards issued by First Electronic Bank under Visa licence, with Cardless handling programme management, technology and servicing.",
+            "es": "La tarjeta estándar se dirige a personas con historial crediticio consolidado; la garantizada a quienes tienen historial escaso o dañado, con un límite respaldado por USDC en la cuenta, que puede rendir hasta un 4 % anual para socios Krakpass. Ambas son Visa Signature emitidas por First Electronic Bank bajo licencia Visa, con Cardless a cargo de la gestión, la tecnología y el servicio."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "返现分档与上线时间",
+            "en": "Cashback tiers and timing",
+            "es": "Tramos de reembolso y calendario"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "返现以美元或比特币计入，按余额分档：余额不足 1000 美元为 1%，达到 15 万美元为 4%；3% 至 4% 档只适用于每月前 1 万美元消费。Krak 于 11 月 24 日开放候补，计划 2027 年初发货，并非所有州都提供。会员费每月 6.29 美元，月直接存款超过 3000 美元可免。",
+            "en": "Cashback is paid in dollars or bitcoin, tiered by balance: 1% below USD 1,000 and 4% at USD 150,000 or more; the 3%–4% tiers apply only to the first USD 10,000 of monthly spend. Krak opened the waitlist on 24 November and expects to ship in early 2027, not in every state. Membership costs USD 6.29 a month, waived with more than USD 3,000 in monthly direct deposits.",
+            "es": "El reembolso se paga en dólares o bitcoin por tramos según saldo: 1 % por debajo de 1.000 USD y 4 % desde 150.000 USD; los tramos del 3 % al 4 % solo se aplican a los primeros 10.000 USD de gasto mensual. Krak abrió la lista el 24 de noviembre y prevé enviarlas a comienzos de 2027, no en todos los estados. La membresía cuesta 6,29 USD mensuales, exonerados con más de 3.000 USD de depósitos directos al mes."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "对发卡方而言，这条把稳定币存款从“可生息资产”接到传统信用额度上：USDC 同时承担抵押物和收益来源，让缺少信用记录但持有数字资产的人进入信用卡体系。技术上依赖发卡行、项目方与钱包的三方分工，属于可以在其他市场复制的组合。商业上，候补名单与会员绑定把卡产品变成留存工具，而非单笔交易产品。尚未发货，利率与各项费用未公布，实际信用成本要等条款齐全才判得准。",
+        "en": "For issuers, the card links a stablecoin deposit to a traditional credit line: USDC serves as both collateral and a yield-bearing asset, bringing people with thin credit files but digital assets into the card system. Technically it relies on a three-way split between issuer, programme manager and wallet, a combination reproducible in other markets. Commercially, tying the waitlist to membership turns the card into a retention tool rather than a single-transaction product. Shipping has not begun and rates and fees are undisclosed, so actual credit cost cannot yet be judged.",
+        "es": "Para los emisores, la tarjeta conecta un depósito stablecoin con una línea de crédito tradicional: el USDC sirve a la vez como garantía y como activo generador de rendimiento, e integra en el sistema de tarjetas a personas con historial escaso pero activos digitales. Técnicamente depende de una división tripartita entre emisor, gestor del programa y billetera, reproducible en otros mercados. Comercialmente, vincular la lista de espera a la membresía convierte la tarjeta en una herramienta de retención. Aún no se envían y no se dieron tasas ni comisiones."
+      },
+      "confidence": 0.5,
+      "ai": {
+        "model": "claude-opus-6",
+        "promptVersion": "2026-11-27-banking-v1"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Mastercard, BBSF launch internationally accepted cards in Syria",
+      "url": "https://npasyria.com/en/144074",
+      "reason": "事件日为 11-15 的 Cairo ICT 现场签署，早于 72 小时窗口下界 11-24 02:30；补位 gateNote 亦缺发卡量、金额或规模。"
+    },
+    {
+      "title": "QCB Expands \"HIMYAN\" Card Acceptance to Oman",
+      "url": "https://qna.org.qa/en/News-Area/News/2026-11/26/qcb-expands-himyan-card-acceptance-to-oman",
+      "reason": "动作门：既有国家卡受理地域扩至阿曼，无 POS/ATM 数量、启用日期或商户名单，属机制未变的能力延伸；gateNote 已预警可能被刷。"
+    },
+    {
+      "title": "Maldives Islamic Bank launches Visa Islamic card (FF News 重复稿)",
+      "url": "https://ffnews.com/newsarticle/maldives-islamic-bank-debuts-first-shariah-compliant-visa-credit-card-powered-by-bpc/",
+      "reason": "与已写入 draft 02 同一事件换信源，不另立条。"
+    },
+    {
+      "title": "Visa and NBX stablecoin Flex Card (FF News 重复稿)",
+      "url": "https://ffnews.com/newsarticle/visa-and-nbx-launch-stablecoin-linked-flex-card-for-seamless-everyday-spending/",
+      "reason": "与已写入 draft 01 同一事件换信源，不另立条。"
+    },
+    {
+      "title": "Central Bank of Egypt launches card tokenisation on Android devices",
+      "url": "https://news.google.com/search?q=Central%20Bank%20of%20Egypt%20card%20tokenisation%20Android",
+      "reason": "duplicate-of-2026-11-24-banking-01：同一埃及央行安卓卡令牌化发布，The Paypers 11-26 为换信源再报道。"
+    },
+    {
+      "title": "银联国际与吉布提东非银行落地发卡业务，拓展至87个国家",
+      "url": "https://news.google.com/search?q=%E9%93%B6%E8%81%94%E5%9B%BD%E9%99%85%20%E5%90%89%E5%B8%83%E6%8F%90%20%E4%B8%9C%E9%9D%9E%E9%93%B6%E8%A1%8C%20%E5%8F%91%E5%8D%A1",
+      "reason": "duplicate-of-2026-11-25-banking-04：同一银联吉布提首发卡事件，金融界 11-26 为再报道。"
+    },
+    {
+      "title": "中国银联与 Visa 深化互联互通",
+      "url": "https://news.google.com/search?q=%E4%B8%AD%E5%9B%BD%E9%93%B6%E8%81%94%E4%B8%8EVisa%E6%B7%B1%E5%8C%96%E4%BA%92%E8%81%94%E4%BA%92%E9%80%9A",
+      "reason": "duplicate-of-2026-11-17-banking-01：同一网络互联互通事件，11-25 为再报道。"
+    },
+    {
+      "title": "Stripe 助力 Deel 推出新卡，承包商可直接消费稳定币收入",
+      "url": "https://news.google.com/search?q=Stripe%20Deel%20%E7%A8%B3%E5%AE%9A%E5%B8%81%20%E6%96%B0%E5%8D%A1",
+      "reason": "duplicate-of-2026-11-25-banking-03：同一 Deel 稳定币消费卡事件。"
+    },
+    {
+      "title": "Visa Recurrent 订阅管理再报道",
+      "url": "https://www.pymnts.com/subscriptions/2026/banks-bring-subscription-management-into-their-apps/",
+      "reason": "duplicate-of-2026-11-21-banking-07：同一 Visa 订阅管理工具，PYMNTS 11-25 为观点稿。"
+    },
+    {
+      "title": "Miden Announces Collaboration with Visa for African Businesses",
+      "url": "https://www.africatechsummit.com/insights/miden-announces-collaboration-with-visa-enabling-frictionless-commercial-card-issuing-with-enterprise-grade-controls-for-african-businesses",
+      "reason": "duplicate-of-2026-11-19-banking-01：同一 Miden×Visa 商务卡发卡合作，会议站 11-25 为再报道。"
+    },
+    {
+      "title": "Fonepay, Nabil Bank launch Nepal Now app for foreign visitors",
+      "url": "https://kathmandupost.com/money/2026/11/26/fonepay-nabil-bank-launch-digital-payment-app-for-foreign-visitors",
+      "reason": "范围门：国际卡仅作 App 充值来源，卡不参与受理环节，无卡凭证或受理形态变化；本质为游客 QR 钱包。"
+    },
+    {
+      "title": "YEIDEP fixes January 5 for payments, directs banks to issue ATM cards",
+      "url": "https://guardian.ng/news/yeidep-fixes-january-5-for-payments-directs-banks-to-issue-atm-cards/",
+      "reason": "动作门：13 家银行批量发放既有 ATM 卡，无新载体或机制变化；政府福利项目不属凭证链形态演进。"
+    },
+    {
+      "title": "Kraken's Krak Plans US Credit Cards With USDC Option",
+      "url": "https://thedefiant.io/krak-expands-us-card-lineup-with-two-new-credit-cards",
+      "reason": "与已写入 draft 04 同一事件换信源，不另立条。"
+    },
+    {
+      "title": "Mastercard Accept: Rollout Evidence for 18 Partners",
+      "url": "https://www.haipay.net/news/mastercard-accept-partner-rollout-november-2026",
+      "reason": "事件日 11-17（Mastercard 全球发布），早于窗口下界 11-24 02:30；且该核查稿结论为 0/18 伙伴有公开落地。"
+    },
+    {
+      "title": "Visa、万事达卡手机POS方案能不能被“Accept”？",
+      "url": "https://www.mpaypass.com.cn/news/202611/25170250.html",
+      "reason": "分析稿，所述 Mastercard Accept 发于 11-17、Visa Accept 更早，均超窗；非窗内新动作。"
+    },
+    {
+      "title": "移动支付网早报11.26：Visa、万事达卡推新手机POS方案",
+      "url": "https://www.mpaypass.com.cn/news/202611/25173519.html",
+      "reason": "汇总早报，所指手机 POS 方案事件日为 11-17，超窗。"
+    },
+    {
+      "title": "California fines Afterpay $2.7M",
+      "url": "https://www.paymentsdive.com/news/california-fines-afterpay-27m/875775/",
+      "reason": "监管处罚，非七类动作，且标的是 BNPL 放贷审核，不在卡栈。"
+    },
+    {
+      "title": "Illinois fights for interchange law",
+      "url": "https://www.paymentsdive.com/news/illinois-fights-for-interchange-law/875779/",
+      "reason": "诉讼进展，非七类动作；同类交换费立法观点稿已多次按范围门拦。"
+    },
+    {
+      "title": "Payoneer gets conditional approval for trust bank",
+      "url": "https://www.paymentsdive.com/news/payoneer-gets-conditional-approval-trust-bank-occ-payo-digital/875545/",
+      "reason": "银行牌照，AGENTS.md 明确银行牌照不在范围；且为有条件批准。"
+    },
+    {
+      "title": "Cap One pursues payments modernization",
+      "url": "https://www.paymentsdive.com/news/cap-one-pursues-payments-modernization/875673/",
+      "reason": "高管访谈，无可核具体物，非七类动作。"
+    },
+    {
+      "title": "Intermex sues Western Union",
+      "url": "https://www.paymentsdive.com/news/intermex-sues-western-union/875625/",
+      "reason": "诉讼，非凭证链形态变化；标的是汇款公司。"
+    },
+    {
+      "title": "Adyen co-founder to step down",
+      "url": "https://www.paymentsdive.com/news/adyen-co-founder-van-der-does-step-down-uytdehaage/875648/",
+      "reason": "人事变动，AGENTS.md 明确不收。"
+    },
+    {
+      "title": "BTS and Veridas partner to strengthen digital identity and fraud prevention",
+      "url": "https://www.finextra.com/pressarticle/111793/bts-and-veridas-partner-to-strengthen-digital-identity-and-fraud-prevention",
+      "reason": "身份核验与生物识别，归 identity 行业，不在 banking 范围。"
+    },
+    {
+      "title": "Turrón by Plazo expands card-based BNPL offering in Spain",
+      "url": "https://www.finextra.com/pressarticle/111798/turrn-by-plazo-expands-card-based-bnpl-offering-in-spain",
+      "reason": "共同限制第 3 条：与体验礼品商签合作属分销渠道变化，无卡栈机制变化。"
+    },
+    {
+      "title": "CredAble acquires 70% stake in Reql",
+      "url": "https://www.finextra.com/pressarticle/111794/credable-acquires-70-stake-in-reql",
+      "reason": "范围门：标的为 AI 监管情报平台，不在三条链路；虽为控股权交易但不合范围。"
+    },
+    {
+      "title": "Iliad Solutions targets South African market",
+      "url": "https://www.finextra.com/pressarticle/111789/iliad-solutions-targets-south-african-market",
+      "reason": "支付测试公司开拓市场表态，无客户、合同、金额或落地时间表。"
+    },
+    {
+      "title": "NBX partners Visa for stablecoin-linked card (Finextra 重复稿)",
+      "url": "https://www.finextra.com/pressarticle/111795/nbx-partners-visa-for-stablecoin-linked-card",
+      "reason": "与 draft 01 同一事件换信源。"
+    },
+    {
+      "title": "东信和平中标建行内蒙古自治区分行社保卡便携式制卡机采购项目",
+      "url": "https://caifuhao.eastmoney.com/news/20261125163010594713830",
+      "reason": "已被 draft 03 采用，此处仅记录防重复；一手源为上市公司公告转述，confidence 压至 0.5。"
+    },
+    {
+      "title": "中国光大银行合肥分行2027-2029年社保卡制卡服务商采购项目招标公告",
+      "url": "https://www.youzhicai.com/nd/d0d5e33c-9b2a-22d4-4b57-44613e09f428-1.html",
+      "reason": "尚处招标阶段、无中标方，不构成授标；采购预告不属已落地变化。"
+    },
+    {
+      "title": "云南红塔银行公民身份信息核鉴数据采购项目-中标候选人公示",
+      "url": "https://www.ynhtbank.com/xwdt/zbcg/202611/20261125_2020910.html",
+      "reason": "identity 行业且为中标候选人公示，既非 banking 亦非定标。"
+    },
+    {
+      "title": "Philippines extends $40M digital ID tender",
+      "url": "https://www.biometricupdate.com/202611/philippines-extends-40m-digital-id-tender-giving-challengers-more-time-to-compete",
+      "reason": "identity 行业；且仅延长投标截止日，非授标或认证。"
+    },
+    {
+      "title": "Switzerland awards $5.3M deepfake detection contract",
+      "url": "https://www.biometricupdate.com/202611/switzerland-awards-5-3m-deepfake-detection-contract-to-secure-digital-id-rollout",
+      "reason": "identity 行业；授标决定日 11-18 超窗，11-25 为报道日。"
+    },
+    {
+      "title": "Smart-ID Accounts Can Be Created Remotely With an eID Card Only Until 30 November",
+      "url": "https://rigatv.com/en/raksts/smart-id-kontu-ar-eid-karti-attalinati-var-izveidot-tikai-lidz-30-novembrim-8269185",
+      "reason": "identity 行业；服务商单方变更既有凭证注册路径，无版本号与发证方。"
+    },
+    {
+      "title": "ZUMA subsidiary gets Ofcom clarity on UK international eSIM operations",
+      "url": "https://mettisglobal.news/ZUMA-subsidiary-gets-Ofcom-clarity-on-UK-telecom-international-eSIM-operations-65262",
+      "reason": "telecom 行业，不属 banking；且仅为监管适用性澄清。"
+    },
+    {
+      "title": "CY ONE CARD explained: The new prepaid card for state benefits",
+      "url": "https://www.politis.com.cy/politis-news/oikonomia/1074977/marios-droysiwtis-ghia-ta-metra-stiriksis-h-katanomi-ton-epidomaton-kapoy-mpazei-nera-na-epileghoyn-oi-khamilosintaksioukhoi-pou-tha-diathesoyn-ta-200-efrw-ikhitiko",
+      "reason": "原文为政治评论音频，未给发卡方、卡机制或上线日，不可核。"
+    },
+    {
+      "title": "RBI proposes digital payment safeguards: switch off cards, payment limits",
+      "url": "https://www.livemint.com/news/india/rbi-proposes-digital-payment-safeguards-explained-how-customers-can-control-upi-switch-off-cards-set-payment-limits-11733828333235.html",
+      "reason": "原文链接不可达，仅为提案且无文号与生效日，按不可核即不收。"
+    },
+    {
+      "title": "SoftPOS Slashes Merchant Acquisition Costs in Mexico",
+      "url": "https://mexicobusiness.news/fintech/news/softpos-slashes-merchant-acquisition-costs-mexico",
+      "reason": "原文返回 502 不可达，无可核产品名、客户或参数。"
+    },
+    {
+      "title": "Safwa Islamic Bank and Mastercard launch Fakher World Elite card",
+      "url": "https://news.google.com/search?q=Safwa%20Islamic%20Bank%20Mastercard%20Fakher%20World%20Elite",
+      "reason": "World Elite 为既有档位加权益包，按 11-07 判据拦；未见新卡体、令牌或受理机制变化。"
+    },
+    {
+      "title": "I&M launches Mastercard World Elite metal credit card",
+      "url": "https://news.google.com/search?q=I%26M%20Mastercard%20World%20Elite%20metal%20credit%20card",
+      "reason": "同为既有 World Elite 档位加金属卡体，机制未变，按既有判据拦。"
+    },
+    {
+      "title": "Metrobank brings tap-to-pay convenience to Android users with Google Pay",
+      "url": "https://news.google.com/search?q=Metrobank%20Google%20Pay%20Android%20tap%20to%20pay",
+      "reason": "把既有卡装进 Google Pay，非新受理机制；与 11-20 三星钱包同类拦。"
+    },
+    {
+      "title": "Apple Pay's Pakistan Launch Set for Early December",
+      "url": "https://news.google.com/search?q=Apple%20Pay%20Pakistan%20Launch%20Early%20December%202026",
+      "reason": "预告且无确定日期、无发卡行名单或卡产品，无法落到具体物。"
+    },
+    {
+      "title": "Vegapay Raises $10 Mn In Series A Round",
+      "url": "https://news.google.com/search?q=Vegapay%20Raises%20%2410%20Mn%20Series%20A",
+      "reason": "融资事件，非七类动作，标的不改变凭证形态。"
+    },
+    {
+      "title": "Klarna Announces Major Canada Expansion With Launch of Flexible Virtual Card",
+      "url": "https://news.google.com/search?q=Klarna%20Canada%20Expansion%20Flexible%20Virtual%20Card",
+      "reason": "无一手原文可核，且属既有虚拟卡产品的市场扩张，机制未变。"
+    },
+    {
+      "title": "Kiwe Launches Its Social Money App and Card in Egypt",
+      "url": "https://en.arageek.com/kiwe-launches-its-social-money-app-and-card-in-egypt",
+      "reason": "事件日 11-22，早于窗口下界 11-24 02:30；且核心为社交钱包，卡为附属。"
+    },
+    {
+      "title": "EFG Hermes ONE and Bank NXT 联名卡（bankingcurated 重复稿）",
+      "url": "https://bankingcurated.com/capital-risk-and-assets/how-does-the-new-efg-hermes-card-link-spending-to-investing",
+      "reason": "与 draft 05 同一事件换信源，不另立条。"
+    },
+    {
+      "title": "Visa 研究：加拿大消费者假日季消费意向",
+      "url": "https://news.google.com/search?q=Visa%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20%E6%B6%88%E8%B4%B9%E8%80%85%20%E5%81%87%E6%97%A5%E5%AD%A3",
+      "reason": "调研观点稿，非事件，无具体物。"
+    },
+    {
+      "title": "NAPAS 将进军 11 个国际市场",
+      "url": "https://news.google.com/search?q=NAPAS%2011%20%E4%B8%AA%E5%9B%BD%E9%99%85%E5%B8%82%E5%9C%BA",
+      "reason": "计划表态，无具体市场名单、上线时间表或落地产品；与 11-21 已发 VietQRGlobal 同一进程线。"
+    },
+    {
+      "title": "Black Friday 50 percent Off Unibank Card Issuance",
+      "url": "https://news.google.com/search?q=Unibank%20Black%20Friday%20Card%20Issuance%20Discount",
+      "reason": "促销折扣，非七类动作，无机制变化。"
+    },
+    {
+      "title": "Some Standard Bank virtual cards vanished – what happened?",
+      "url": "https://news.google.com/search?q=Standard%20Bank%20virtual%20cards%20vanished",
+      "reason": "服务故障报道，非七类动作，无可控机制变化。"
+    },
+    {
+      "title": "甘肃农商银行获批开办信用卡收单业务",
+      "url": "https://news.google.com/search?q=%E7%94%98%E8%82%83%E5%86%9C%E5%95%86%E9%93%B6%E8%A1%8C%20%E6%89%B9%E5%A4%8D%20%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%94%B6%E5%8D%95",
+      "reason": "单一银行资质批复，无产品名、客户或规模；未改变受理机制。"
+    },
+    {
+      "title": "Visa 与 NBX 推 Flex Card，一张卡切换法币与稳定币余额",
+      "url": "https://www.visa.co.uk/about-visa/newsroom/press-releases.3484051.html",
+      "reason": "动作门不过：11-26 仅为计划公告，借记功能预计 2027 年才在北欧五国上线，尚无已商用产品、能力参数或终端类型；产品名以外无落地节点。"
+    },
+    {
+      "title": "Krak 开放两张美国信用卡候补，一张由 USDC 存款担保",
+      "url": "https://unchainedcrypto.com/krakens-krak-moves-into-credit-with-two-us-cards-one-backed-by-a-usdc-deposit",
+      "reason": "动作门不过：11-25 仅开放候补登记，发卡与寄卡定在 2027 年初；USDC 只作授信担保而非卡机制变化，未形成可商用产品。"
+    }
+  ],
+  "stats": {
+    "candidates": 62,
+    "written": 5,
+    "skippedByDedup": 7
+  },
+  "finishedAt": "2026-11-26T20:17:11.714Z"
+}

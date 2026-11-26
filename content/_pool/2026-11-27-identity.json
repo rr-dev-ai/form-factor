@@ -1,0 +1,284 @@
+{
+  "date": "2026-11-27",
+  "industry": "identity",
+  "startedAt": "2026-11-27T03:10:23+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "Nigeria breaks ground on $70M e-passport factory",
+      "url": "https://www.biometricupdate.com/202611/nigeria-breaks-ground-on-70m-e-passport-factory",
+      "reason": "duplicate-of-2026-11-22-identity-01：尼日利亚阿布贾护照本厂同一奠基事件换源重发，金额、600万本产能与承建方均一致"
+    },
+    {
+      "title": "Peru rolls out digital national ID in Inji-based wallet",
+      "url": "https://www.biometricupdate.com/202611/peru-rolls-out-digital-national-id-in-inji-based-wallet",
+      "reason": "duplicate-of-2026-11-20-identity-02：秘鲁 RENIEC 数字身份证 11-18 上线同一事件换源，Perú Pass 钱包与 Inji 平台均相同"
+    },
+    {
+      "title": "Dr. Mwinyi receives upgraded National ID as Tanzania moves to improve access",
+      "url": "https://www.therespondents.co.tz/2026/11/dr-mwinyi-receives-upgraded-national-id.html",
+      "reason": "duplicate-of-2026-11-20-identity-05：坦桑尼亚 NIDA 升级身份证同一事件，11-25 总统领卡仪式非新形态"
+    },
+    {
+      "title": "Tanzania Unveils Next-Generation National eID And NIDA Wallet",
+      "url": "https://www.europesays.com/africa/541028",
+      "reason": "duplicate-of-2026-11-20-identity-05：5台个性化机2800卡每小时、8对4应用位与 NIDA Wallet 均与已发布条目一致"
+    },
+    {
+      "title": "Italy opens public IT-Wallet for legally recognised digital documents",
+      "url": "https://dig.watch/updates/italy-opens-it-wallet-for-digital-documents",
+      "reason": "duplicate-of-2026-11-24-identity-01：意大利 IT-Wallet 数字驾照作身份证件同一事件换源"
+    },
+    {
+      "title": "Czechia selects Wultra-led consortium for Valetka digital identity wallet",
+      "url": "https://dig.watch/updates/czechia-selects-wultra-for-digital-id-wallet",
+      "reason": "duplicate-of-2026-11-25-identity-01：捷克 Valetka 钱包财团中标同一事件换源"
+    },
+    {
+      "title": "Maldives Launches e-Gate System for Foreign Travellers",
+      "url": "https://www.plus234feed.com/article/maldives-extends-e-gate-services-to-foreign-travellers-at-velana-airport-mwwncrbh",
+      "reason": "duplicate-of-2026-11-25-identity-03：维拉纳机场 35 闸机对外籍护照开放同一事件，46 国籍31航司数字均一致"
+    },
+    {
+      "title": "Tan Son Nhat to add 10 arrival autogates and upgrade 10 departure gates",
+      "url": "https://culture.aseancoverage.com/news/tan-son-nhat-to-add-10-arrival-autogates-and-upgrade-10-departure-gates/n6656",
+      "reason": "duplicate-of-2026-11-25-identity-02：新山一机场 20 台闸机指纹虹膜直连人口库同一事件换源"
+    },
+    {
+      "title": "Burkina Faso starts enrolling everyone in a biometric ID register",
+      "url": "https://techgriot.co/english/african-tech/2026/11/burkina-faso-starts-enrolling-everyone-in-a-biometric-id-register",
+      "reason": "duplicate-of-2026-11-12-identity-01；时效门：RNIU 登记 11-11 启动已超72小时，本条为旧闻重发"
+    },
+    {
+      "title": "A verified user doesn't give an AI agent unlimited authority",
+      "url": "https://www.biometricupdate.com/202611/a-verified-user-doesnt-give-an-ai-agent-unlimited-authority",
+      "reason": "范围门：讨论 AI 智能体 OAuth 授权，非证件载体、签发或核验环节"
+    },
+    {
+      "title": "IRS buys Clearview access in facial recognition reversal",
+      "url": "https://www.biometricupdate.com/202611/irs-buys-clearview-access-in-facial-recognition-reversal",
+      "reason": "范围门+时效门：执法调查用商业人脸库，非证件核验；订阅始于 3 月 16 日已超窗"
+    },
+    {
+      "title": "US House Democrats seek records from 12 DHS surveillance vendors",
+      "url": "https://www.biometricupdate.com/202611/us-house-democrats-seek-records-from-12-dhs-surveillance-vendors",
+      "reason": "范围门：国会执法监督与监控供应商，非凭证链路"
+    },
+    {
+      "title": "Commission proposes Quantum Act and new Sovereign Tech Equity Fund",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-quantum-act-and-new-sovereign-tech-equity-fund-strengthen-europes-industrial",
+      "reason": "范围门：量子与工业政策，不涉及身份凭证载体或核验"
+    },
+    {
+      "title": "Court remands 13 alleged NAIMOS impersonators over extortion from miners",
+      "url": "https://www.ghanabusinessnews.com/2026/11/26/court-remands-13-alleged-naimos-impersonators-over-extortion-from-miners/",
+      "reason": "范围门：执法刑事案件，非凭证形态变化"
+    },
+    {
+      "title": "Child Protection Committee worried about interferences, withdrawal of defilement cases",
+      "url": "https://www.ghanabusinessnews.com/2026/11/26/child-protection-committee-worried-about-interferences-withdrawal-of-defilement-cases/",
+      "reason": "范围门：司法保护议题，与凭证链路无关"
+    },
+    {
+      "title": "CLOGSAG confirms Philip Gariba as substantive Executive Secretary",
+      "url": "https://www.ghanabusinessnews.com/2026/11/26/clogsag-confirms-philip-gariba-as-substantive-executive-secretary/",
+      "reason": "范围门：人事任命"
+    },
+    {
+      "title": "Ghana Parliament approves ratification of African Disability Protocol",
+      "url": "https://www.ghanabusinessnews.com/2026/11/26/ghana-parliament-approves-ratification-of-african-disability-protocol/",
+      "reason": "范围门：残障权利公约，非身份凭证机制"
+    },
+    {
+      "title": "Ghana must strengthen surveillance to protect expanded fishing zone",
+      "url": "https://www.ghanabusinessnews.com/2026/11/26/ghana-must-strengthen-surveillance-to-protect-expanded-fishing-zone-expert/",
+      "reason": "范围门：渔区监控观点，与凭证载体无关"
+    },
+    {
+      "title": "Ghanaian SMEs to benefit from G20-Compact investment initiative",
+      "url": "https://www.ghanabusinessnews.com/2026/11/26/ghanaian-smes-to-benefit-from-g20-compact-investment-initiative/",
+      "reason": "范围门：中小企业投资计划"
+    },
+    {
+      "title": "云南红塔银行公民身份信息核鉴数据采购项目-中标候选人公示",
+      "url": "https://www.ynhtbank.com/xwdt/zbcg/202611/20261125_2020910.html",
+      "reason": "动作门：中标候选人公示非定标，且为依赖方身份数据接入采购，不改变证件形态或核验机制"
+    },
+    {
+      "title": "Philippines extends $40M digital ID tender, giving challengers more time to compete",
+      "url": "https://www.biometricupdate.com/202611/philippines-extends-40m-digital-id-tender-giving-challengers-more-time-to-compete",
+      "reason": "动作门：投标截止从 2027-01-11 延到 02-11，非授标；PPP 9 月已批准"
+    },
+    {
+      "title": "EXTENSION OF BID SUBMISSION DATE - Philippine Digital National Identity Project",
+      "url": "https://philsys.gov.ph/pdni-bid-bulletin-3",
+      "reason": "动作门：PSA 投标延期公告，非授标"
+    },
+    {
+      "title": "Smart-ID Accounts Can Be Created Remotely With an eID Card Only Until 30 November",
+      "url": "https://rigatv.com/en/raksts/smart-id-kontu-ar-eid-karti-attalinati-var-izveidot-tikai-lidz-30-novembrim-8269185",
+      "reason": "动作门：服务商单方变更凭证注册路径与证书撤销排期，非七类动作，无版本号与发证方"
+    },
+    {
+      "title": "Switzerland awards $5.3M deepfake detection contract to secure digital ID rollout",
+      "url": "https://www.biometricupdate.com/202611/switzerland-awards-5-3m-deepfake-detection-contract-to-secure-digital-id-rollout",
+      "reason": "时效门：授标决定 11-18 已超72小时，11-25 仅为报道日"
+    },
+    {
+      "title": "Italy's Cabinet Moves to Limit Citizens to One Personal SPID Identity",
+      "url": "https://idtechwire.com/italys-cabinet-moves-to-limit-citizens-to-one-personal-spid-identity/",
+      "reason": "动作门：内阁初步批准的法令草案，须经议会与地区会议，未成法；IT-Wallet 主体 11-24 已发"
+    },
+    {
+      "title": "Moldova Advances Free, Voluntary Digital Identity Wallet Bill on EVO",
+      "url": "https://idtechwire.com/moldova-advances-free-voluntary-digital-identity-wallet-bill-on-evo/",
+      "reason": "动作门：电子身份与信任服务法案一读草案，未成法，无版本号与发证方"
+    },
+    {
+      "title": "Germany Sets Mid-December Launch for Digital Driver's License in i-Kfz App",
+      "url": "https://news.shvarz.com/germany/2026-11-26/germany-mid-december-launch-digital-drivers-license-i-kfz-app",
+      "reason": "动作门：仅为上线排期从 11 月底推迟到 12 月中，无形态或机制变化"
+    },
+    {
+      "title": "Namirial Onboarding passes the SEPBLAC evaluation for Spain",
+      "url": "https://www.namirial.com/en/news/namirial-onboarding-sepblac-spain",
+      "reason": "动作门：在既有 eIDAS2 与 ETSI 119 461 v2 合规基础上的本地评估补充，非首次认证，且属银行 KYC"
+    },
+    {
+      "title": "Toss takes face payments to self-service kiosks",
+      "url": "https://www.biometricupdate.com/202611/toss-takes-face-payments-to-self-service-kiosks",
+      "reason": "范围门：人脸识别用于支付受理，属支付链路而非证件核验"
+    },
+    {
+      "title": "US Homeland Security seeks tools to verify AI-generated digital twins",
+      "url": "https://www.biometricupdate.com/202611/us-homeland-security-seeks-tools-to-verify-ai-generated-digital-twins",
+      "reason": "动作门+范围门：SBIR 预征集非授标，AI 数字孪生鉴伪非凭证载体"
+    },
+    {
+      "title": "USCIS turns to Sayari to trace financial ties in immigration fraud investigations",
+      "url": "https://www.biometricupdate.com/202611/uscis-turns-to-sayari-to-trace-financial-ties-in-immigration-fraud-investigations",
+      "reason": "范围门：执法调查用商业关系图谱数据，非证件核验机制；且采购尚未授标"
+    },
+    {
+      "title": "US flags 1,579 federal contractors in E-Verify sweep",
+      "url": "https://www.biometricupdate.com/202611/us-flags-1579-federal-contractors-in-e-verify-sweep",
+      "reason": "范围门：雇佣资格合规审查，非凭证载体或核验终端"
+    },
+    {
+      "title": "1Password Discloses GitHub-Linked Backend Breach Exposing Metadata",
+      "url": "https://idtechwire.com/1password-discloses-github-linked-backend-breach-exposing-metadata/",
+      "reason": "范围门：数据泄露事件，AGENTS 明确身份链不收泄露"
+    },
+    {
+      "title": "Google to Require Agent IDs and MCP Access for Workspace AI Agents",
+      "url": "https://idtechwire.com/google-to-require-agent-ids-and-mcp-access-for-workspace-ai-agents/",
+      "reason": "范围门：AI 智能体身份，非政府或法定证件凭证"
+    },
+    {
+      "title": "BTS and Veridas Partner to Pair Telecom Signals With Biometric Checks",
+      "url": "https://idtechwire.com/bts-and-veridas-partner-to-pair-telecom-signals-with-biometric-checks/",
+      "reason": "动作门：渠道互售合作，无客户名、金额与落地市场，非形态机制变化"
+    },
+    {
+      "title": "Covestro Presents New Possibilities for Passport Booklets at TRUSTECH 2026",
+      "url": "https://www.covestro.com/press/trusted-materials-for-a-secure-future-covestro-presents-new-possibilities-for-passport-booklets-at-trustech-2026",
+      "reason": "动作门：展会材料展示，无授标、客户或量产参数，非新事件"
+    },
+    {
+      "title": "Infineon at TRUSTECH 2026: Trusted Security for Payment and Identity",
+      "url": "https://www.bisinfotech.com/infineon-at-trustech-2026-trusted-security-for-payment-and-identity",
+      "reason": "动作门：展会方案展示，无投产节点或客户，非形态变化"
+    },
+    {
+      "title": "Goodbye Green Mamba: South Africa prepares new high-tech passports",
+      "url": "https://www.africaninsider.com/business/goodbye-green-mamba-south-africa-prepares-new-high-tech-passports",
+      "reason": "动作门：部长表态 2027 推电子护照，无授标与参数；480 银行网点 11-20 已发"
+    },
+    {
+      "title": "Laos Completes Mobile Digital Identification Registration Drive in Vientiane",
+      "url": "https://laospost.com/laos-completes-mobile-digital-identification-registration-drive-in-vientiane-to-modernize-public-services",
+      "reason": "动作门：短期登记活动结束，无凭证形态或签发机制变化"
+    },
+    {
+      "title": "NADRA rolls out new biometric system to curb fake certificates",
+      "url": "https://english.aaj.tv/news/330482227/nadra-rolls-out-new-biometric-system-to-curb-fake-certificates",
+      "reason": "范围门：出生死亡婚姻登记证书非护照身份证 mDL 三类载体，且公告无日期"
+    },
+    {
+      "title": "17 new Aadhaar Seva Kendras set up across Haryana",
+      "url": "https://timesofindia.indiatimes.com/city/chandigarh/17-new-aadhaar-seva-kendras-set-up-across-haryana/articleshow/136163358.cms",
+      "reason": "动作门：受理点增设，非凭证形态或核验机制变化"
+    },
+    {
+      "title": "Go Hong Kong mobile app opens e-Channel self-clearance to more visitors",
+      "url": "https://www.visahq.news/2026-11-25/hk/go-hong-kong-mobile-app-opens-e-channel-self-clearance-to-more-visitors",
+      "reason": "时效门：应用 9-16 上线，11-25 为提醒再报道，已超72小时"
+    },
+    {
+      "title": "Police clearance certificates processed in minutes as Kanja launches biometric system in Mombasa",
+      "url": "https://www.jumuiya.co.ke/police-clearance-certificates-to-be-processed-in-minutes-as-kanja-launches-biometric-system-in-mombasa",
+      "reason": "范围门+时效门：无犯罪证明非三类凭证载体，MBIS 系统 7 月已上线"
+    },
+    {
+      "title": "电子普通护照制证设备维保及耗材采购(CQS26C02622)中标结果公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg//cjgg/202611/t20261125_27752775.htm",
+      "reason": "动作门：设备维保与耗材供应，无证件形态或工艺变化，同类已多次刷"
+    },
+    {
+      "title": "New Guide Highlights How Foreign Passports Can Use China's Self-Service Immigration E-Gates",
+      "url": "https://www.visahq.news/2026-11-25/cn/new-guide-highlights-how-foreign-passports-can-use-chinas-self-service-immigration-e-gates",
+      "reason": "范围门：使用指南梳理，无新增部署或机制变化"
+    },
+    {
+      "title": "eCitizen hack claims expose risks facing Kenya's digital government services",
+      "url": "https://educationnews.co.ke/news/ecitizen-hack-claims-expose-risks-facing-kenyas-digital-government-services",
+      "reason": "范围门：数据泄露事件"
+    },
+    {
+      "title": "EU and Kenya launch digital roadmap and move towards data adequacy",
+      "url": "https://newzroom.africa/news/eu-and-kenya-launch-digital-roadmap-and-move-towards-data-adequacy",
+      "reason": "动作门：合作路线图与数据充分性谈判，无具体授标或规范版本"
+    },
+    {
+      "title": "UNDP and SMART Zambia Institute sign strategic partnership",
+      "url": "https://identityweek.net/undp-and-smart-zambia-institute-sign-strategic-partnership-to-accelerate-zambias-digital-transformation/",
+      "reason": "动作门：战略合作 MoU，无标的、金额或承接方"
+    },
+    {
+      "title": "Kazakhstan shares blueprint for scaling national digital trust",
+      "url": "https://identityweek.net/kazakhstan-shares-blueprint-for-scaling-national-digital-trust/",
+      "reason": "动作门：会议表态与蓝图分享，无具体规范发布或授标"
+    },
+    {
+      "title": "E-Passport Service Begins with Local Production Set for October (Ethiopia)",
+      "url": "https://addisfortune.news/e-passport-service-begins-with-local-production-set-for-october/",
+      "reason": "时效门：本地生产 10 月开始，事件时间不明确且为旧闻重发，无法核定在72小时窗口内"
+    },
+    {
+      "title": "2026年武汉市公安局直属单位购置自助服务设备项目(二次)中标结果",
+      "url": "https://www.whzfcgxt.cn/infoDetail?type=6&uuid=2115009822316216322",
+      "reason": "时效门+动作门：10-20 评审、租赁服务，非证件形态变化"
+    },
+    {
+      "title": "Money Carer to use YEO face biometrics to protect vulnerable adults' finances",
+      "url": "https://www.biometricupdate.com/202611/money-carer-to-use-yeo-face-biometrics-to-protect-vulnerable-adults-finances",
+      "reason": "范围门：金融账户访问控制，非证件核验"
+    },
+    {
+      "title": "Thailand Deploys Artificial Intelligence in National Passport System",
+      "url": "https://thaitimes.com/thailand-deploys-artificial-intelligence-in-national-passport-system-to-strengthen-security-and-digital-services",
+      "reason": "动作门：泛化表态，无版本号、授标方或具体参数"
+    },
+    {
+      "title": "Govt eyes law changes to allow digital MyKad on MyGOV app",
+      "url": "https://www.tamilaifm.com/news-view/3021175/govt-eyes-law-changes-to-allow-digital-mykad-on-mygov-app",
+      "reason": "动作门：拟议修法与探索阶段，无具体文书；且属于分发渠道"
+    }
+  ],
+  "stats": {
+    "candidates": 172,
+    "written": 4,
+    "skippedByDedup": 9
+  },
+  "finishedAt": "2026-11-26T19:19:46.772Z"
+}

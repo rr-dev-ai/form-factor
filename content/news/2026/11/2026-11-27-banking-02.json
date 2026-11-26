@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-27-banking-02",
+  "slug": "maldives-islamic-bank-bpc-visa-ujrah-card",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "scheme-rules"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-27T04:17:32+08:00",
+  "ingestedAt": "2026-11-27T02:35:19+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "BPC Banking Technologies",
+      "url": "https://www.bpcbt.com/en/press/maldives-islamic-bank-launches-its-visa-islamic-credit-card-proposition-with-bpc",
+      "lang": "en",
+      "publishedAt": "2026-11-26T00:00:00+05:00"
+    }
+  ],
+  "title": {
+    "zh": "马尔代夫伊斯兰银行上线 Visa 伊斯兰信用卡，BPC 供平台",
+    "en": "Maldives Islamic Bank launches Visa Ujrah credit card on BPC platform",
+    "es": "Maldives Islamic Bank lanza tarjeta Visa islámica Ujrah sobre plataforma BPC"
+  },
+  "summary": {
+    "zh": "马尔代夫伊斯兰银行 11 月 26 日宣布上线 Visa 伊斯兰信用卡，采用 Ujrah 融资结构，由 BPC 的 SmartVista 平台支撑。该行把申请、账户管理、交易处理、账单与积分收回自身掌控，Visa 连接自上线日起可用，万事达卡留待后续。公告称首日收到逾 500 份申请。",
+    "en": "Maldives Islamic Bank announced on 26 November a Visa Islamic credit card built on the Ujrah structure and BPC's SmartVista platform. The bank takes control of application, account management, transaction processing, billing and rewards; Visa connectivity is live from launch and Mastercard is planned for a later phase. The bank says it received more than 500 applications on day one.",
+    "es": "Maldives Islamic Bank anunció el 26 de noviembre una tarjeta Visa islámica basada en la estructura Ujrah y la plataforma SmartVista de BPC. El banco asume la solicitud, gestión de cuentas, procesamiento, facturación y recompensas; la conexión con Visa está activa desde el lanzamiento y Mastercard se prevé más adelante. El banco afirma haber recibido más de 500 solicitudes el primer día."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "Ujrah 结构与混合交付",
+        "en": "Ujrah structure and hybrid delivery",
+        "es": "Estructura Ujrah y entrega híbrida"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Ujrah 结构让持卡人先以信用消费、再在约定期限内还款，不涉及利息，以符合伊斯兰银行原则。技术上该行采用混合交付：SmartVista 能力本地部署，卡处理与 Visa 连接以服务方式提供；该行可自行配置卡类别、额度、使用规则、币种限制与附属卡额度。",
+        "en": "The Ujrah structure lets cardholders spend on credit and repay within an agreed period without interest, to align with Islamic banking principles. Technically the bank uses a hybrid model: SmartVista capabilities deployed on-premise, with card processing and Visa connectivity delivered as a service. The bank can configure card categories, limits, usage rules, currency restrictions and supplementary-card limits itself.",
+        "es": "La estructura Ujrah permite gastar a crédito y reembolsar en un plazo acordado sin intereses, para ajustarse a la banca islámica. El banco usa un modelo híbrido: capacidades SmartVista desplegadas localmente, con procesamiento y conexión Visa como servicio. El banco puede configurar categorías, límites, reglas de uso, restricciones de divisa y límites de tarjetas complementarias."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "发卡现代化与申请规模",
+        "en": "Issuing modernisation and application volume",
+        "es": "Modernización de emisión y volumen de solicitudes"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "副首席执行官 Ahmed Riza 表示，选择 BPC 基于其既有 SmartVista 基础设施与区域伊斯兰银行经验；BPC 称双方合作已近十年。公告称首日收到 500 多份申请，未披露合同金额、发卡量目标或制卡产能。",
+        "en": "Deputy chief executive Ahmed Riza said BPC was chosen for its existing SmartVista infrastructure and regional Islamic banking experience; BPC says the two have partnered for almost a decade. More than 500 applications arrived on day one according to the announcement, which gave no contract value, issuing target or personalisation capacity.",
+        "es": "El subdirector general Ahmed Riza indicó que eligió BPC por su infraestructura SmartVista existente y su experiencia regional en banca islámica; BPC afirma que colaboran desde hace casi una década. Según el anuncio, llegaron más de 500 solicitudes el primer día, sin comunicar valor del contrato, objetivo de emisión ni capacidad de personalización."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对发卡行而言，这条变化把“合规结构”和“处理能力”拆开交付：Ujrah 让产品能进入穆斯林客群，混合部署则让银行不必替换既有基础设施就能拿到 Visa 连接。SDN 市场中伊斯兰金融占比高，这一组合给同类银行提供了可参照的路径。对 BPC 一类处理商，首日 500 份申请说明需求存在，但合同金额与发卡量目标未公开，是否会被其他市场复制仍要看后续规模。",
+    "en": "For issuers, the change separates the compliance structure from the processing capability: Ujrah opens the product to Muslim customers, while the hybrid delivery lets the bank add Visa connectivity without replacing existing infrastructure. Islamic finance carries weight in South Asian markets, making this a reference path for similar banks. For processors such as BPC, 500 day-one applications indicate demand, though the undisclosed contract value and issuing target leave replication uncertain.",
+    "es": "Para los emisores, el cambio separa la estructura de cumplimiento de la capacidad de procesamiento: Ujrah abre el producto a clientes musulmanes y el modelo híbrido permite añadir conexión Visa sin sustituir la infraestructura previa. La banca islámica pesa en los mercados del sur de Asia, lo que convierte esto en una referencia para bancos similares. Para procesadores como BPC, 500 solicitudes el primer día indican demanda, aunque el valor del contrato y el objetivo de emisión siguen sin publicarse."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "2026-11-27-banking-v1"
+  }
+}

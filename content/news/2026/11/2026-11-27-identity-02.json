@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-27-identity-03",
+  "slug": "ashikaga-bank-panasonic-face-readers-134-branches",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "biometrics",
+    "verification",
+    "national-id"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-27T04:17:32+08:00",
+  "ingestedAt": "2026-11-27T03:10:23+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/ashikaga-bank-deploys-panasonic-connect-face-readers-across-134-branches/",
+      "lang": "en",
+      "publishedAt": "2026-11-26T00:00:00Z"
+    },
+    {
+      "name": "Panasonic Connect",
+      "url": "https://news.panasonic.com/jp/press/jn261125-3",
+      "lang": "en",
+      "publishedAt": "2026-11-25T00:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "足利银行 134 网点部署松下人脸识别证件核验终端",
+    "en": "Ashikaga Bank deploys Panasonic face readers across 134 branches",
+    "es": "Ashikaga Bank despliega lectores faciales de Panasonic en 134 sucursales"
+  },
+  "summary": {
+    "zh": "日本足利银行把 Panasonic Connect 的自助人脸识别核验终端铺到全部 134 家网点，2026 年 12 月全面运行。终端读取 My Number 卡、驾照与在留卡的 IC 芯片，把现场人脸与芯片内照片一对一比对，无需事先登记。此举为 2027 年 4 月 1 日日本反洗钱法修订要求柜台读取证件芯片做准备。",
+    "en": "Japan's Ashikaga Bank is rolling out Panasonic Connect self-service facial recognition verification terminals to all 134 branches, with full operation from December 2026. The terminals read IC chips in My Number cards, driving licences and residence cards and match the live face to the chip photo one-to-one without prior enrolment. The move prepares for an April 1, 2027 revision to Japan's anti-money-laundering law requiring counter staff to read document chips.",
+    "es": "El banco japonés Ashikaga despliega terminales de verificación facial de Panasonic Connect en sus 134 sucursales, con pleno funcionamiento desde diciembre de 2026. Los terminales leen los chips IC de las tarjetas My Number, permisos de conducción y tarjetas de residencia y comparan la cara en vivo con la foto del chip uno a uno, sin registro previo. La medida anticipa la revisión de la ley japonesa contra el lavado de dinero del 1 de abril de 2027, que exigirá leer los chips en ventanilla."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "日本足利银行正在把 Panasonic Connect 开发的自助人脸识别身份验证终端铺到栃木县宇都宫的总部下辖全部 134 家网点与分理处，计划 2026 年 12 月全面投入运行。这家地方银行在 2025 年 6 月于部分网点试点柜台流程后，批准了全网部署。",
+        "en": "Japan's Ashikaga Bank is deploying self-service facial recognition identity verification terminals developed by Panasonic Connect to all 134 branches and sub-branches under its Utsunomiya, Tochigi headquarters, with full operation planned for December 2026. The regional bank approved the network-wide rollout after piloting the counter workflow at selected branches from June 2025.",
+        "es": "El banco japonés Ashikaga despliega terminales de verificación de identidad facial de Panasonic Connect en sus 134 sucursales y oficinas dependientes de la sede en Utsunomiya, prefectura de Tochigi, con pleno funcionamiento previsto para diciembre de 2026. El banco regional aprobó el despliegue en toda la red tras probar el flujo de ventanilla en algunas sucursales desde junio de 2025."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "终端由柜台电脑与 USB 连接的人脸识别读卡器组成，客户自行操作。读卡器提取 My Number 卡、驾照、在留卡与特别永住者证明书 IC 芯片内的数据，把现场人脸与芯片内照片做一对一比对，无需事先登记人脸。对 My Number 卡，系统读取姓名、出生日期、地址与性别四项基本信息，不需要 PIN，也不读取个人编号本身。",
+        "en": "The setup pairs a counter PC with a USB-connected facial recognition card reader that customers operate themselves. The reader extracts IC chip data from My Number cards, driving licences, residence cards and special permanent resident certificates and runs a one-to-one match between the live customer and the chip portrait without prior enrolment. For My Number cards it retrieves four basic attributes - name, date of birth, address and gender - without a PIN and without reading the individual My Number itself.",
+        "es": "El sistema combina un ordenador de ventanilla con un lector de tarjetas facial conectado por USB que manejan los propios clientes. El lector extrae datos del chip IC de las tarjetas My Number, permisos de conducción, tarjetas de residencia y certificados de residente permanente especial, y realiza una comparación uno a uno entre la persona presente y la foto del chip, sin registro previo. Para las tarjetas My Number lee cuatro atributos básicos: nombre, fecha de nacimiento, dirección y género, sin PIN y sin leer el propio número personal."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "足利银行此次部署是为 2027 年 4 月 1 日生效的《防止转移犯罪收益法》修订做准备。修订后的反洗钱规则要求金融机构在柜台业务中读取带芯片照片证件的 IC 芯片，此前这一电子核验要求只适用于线上开户。这套读卡器与 Panasonic Connect 供应医院药房的 My Number 卡人脸识别读卡器规格相同，截至 2026 年 5 月 19 日后者出货量已达 12.7 万台。",
+        "en": "Ashikaga Bank's rollout prepares for a revision to Japan's Act on Prevention of Transfer of Criminal Proceeds taking effect April 1, 2027. The amended anti-money-laundering rules require financial institutions to read IC chips in chip-enabled photo identity documents during in-person counter transactions, an electronic verification requirement that previously applied only to online onboarding. The reader shares its specification with Panasonic Connect's facial recognition My Number card readers for hospitals and pharmacies, which had shipped 127,000 units as of May 19, 2026.",
+        "es": "El despliegue de Ashikaga Bank anticipa la revisión de la Ley japonesa de Prevención de la Transferencia de Rentas del Crimen que entra en vigor el 1 de abril de 2027. Las normas revisadas contra el lavado exigen a las instituciones financieras leer los chips IC de documentos de identidad con foto en operaciones de ventanilla, un requisito de verificación electrónica que antes se aplicaba solo a la apertura de cuentas en línea. El lector comparte especificaciones con los lectores faciales de tarjetas My Number de Panasonic Connect para hospitales y farmacias, de los que se habían enviado 127.000 unidades hasta el 19 de mayo de 2026."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "日本把证件芯片读取从线上开户扩展到柜台，改变了银行受理身份证件的方式：过去柜员目视核对并手工录入，现在由客户自助刷芯片做人脸比对。对核验终端供应商，12.7 万台医院药房读卡器的既有装机说明这条路已经跑通，134 家网点的银行 deployment 又打开一个复制场景。对在日银行与外国居民，在留卡等证件进入同一套芯片核验流程，柜台处理的精度与留痕都在提高。这项需求由 2027 年 4 月的反洗钱修法定调，其他金融机构预计要在同一时点前完成柜台改造。",
+    "en": "Japan is extending document chip reading from online onboarding to the counter, changing how banks accept identity documents: tellers used to inspect cards visually and transcribe details by hand, while now customers self-serve a chip read and face match. For verification terminal vendors, the existing 127,000 units shipped to hospitals and pharmacies show the model is proven, and a 134-branch bank rollout opens another replicable setting. For banks and foreign residents in Japan, residence cards and other documents now enter the same chip verification flow, improving counter accuracy and audit trails. The demand is set by the April 2027 AML revision, so other financial institutions are likely to need counter upgrades on the same timetable.",
+    "es": "Japón amplía la lectura de chips de documentos de la apertura en línea a la ventanilla, cambiando la forma en que los bancos aceptan documentos de identidad: antes el empleado inspeccionaba la tarjeta y transcribía los datos a mano, y ahora el cliente lee el chip y se compara la cara por sí mismo. Para los proveedores de terminales, las 127.000 unidades enviadas a hospitales y farmacias demuestran que el modelo funciona, y el despliegue en 134 sucursales abre otro escenario replicable. Para los bancos y los residentes extranjeros, las tarjetas de residencia entran en el mismo flujo de verificación por chip, con mayor precisión y trazabilidad. La demanda la fija la revisión anti-lavado de abril de 2027, por lo que otras entidades probablemente deban adaptar sus ventanillas en el mismo plazo."
+  },
+  "confidence": 0.8,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11-27",
+    "tokens": 0,
+    "costUsd": 0
+  }
+}

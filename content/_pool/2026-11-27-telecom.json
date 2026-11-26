@@ -1,0 +1,253 @@
+{
+  "date": "2026-11-27",
+  "industry": "telecom",
+  "startedAt": "2026-11-27T02:56:16+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "Cell C Buys Melon Mobile Parent to Strengthen Digital Business",
+      "url": "https://techmoran.com/2026/11/26/cell-c-buys-melon-mobile-parent-to-strengthen-digital-business/",
+      "reason": "duplicate-of-2026-11-26-telecom-01：同一笔 Cell C 收购 Melon Mobile 母公司交易，11-26 已按并购门写过。"
+    },
+    {
+      "title": "Smart first telco to integrate national ID verification in SIM registration",
+      "url": "https://context.ph/2026/11/10/smart-first-relco-to-integrate-national-id-verification-in-sim-registration/",
+      "reason": "duplicate-of-2026-11-12-telecom-04：Smart 把 PSA NIDAS 接进 SIM 登记，事件在 11-10/11-12，11-26 的 Newsbytes.PH 稿是换源重发。"
+    },
+    {
+      "title": "ZUMA subsidiary gets Ofcom clarity on UK international eSIM operations",
+      "url": "https://mettisglobal.news/ZUMA-subsidiary-gets-Ofcom-clarity-on-UK-telecom-international-eSIM-operations-65262",
+      "reason": "动作门不过：补位池 actionType 为「无」且 gateNote 已标可能被刷。读完 PSX 原始公告（11-26）确认只有通用授权框架下的监管澄清，没有品牌名、上线日、SM-DP+ 或运营商伙伴、用户规模，补不上所缺的具体物。"
+    },
+    {
+      "title": "Vodacom Looks Beyond the MVNO Model with New Banking and Mobile Partnership",
+      "url": "https://www.telecomreviewafrica.com/articles/telecom-operators/29516-vodacom-looks-beyond-the-mvno-model-with-new-banking-and-mobile-partnership/",
+      "reason": "范围门与动作门不过：银行与移动合作属于渠道与资费组合，未给出 SIM/eSIM 载体、RSP 或鉴权机制的变化，也无产品名与落地参数。"
+    },
+    {
+      "title": "Celular Seguro registra mais de 1,6 milhão de consultas de IMEI em 150 dias",
+      "url": "https://www.mobiletime.com.br/noticias/25/11/2026/celular-seguro-consulta/",
+      "reason": "范围门与动作门不过：IMEI 查询量是进度统计，标的物是手机设备登记工具，不落 SIM/eSIM 载体、签发或受理环节。"
+    },
+    {
+      "title": "Anatel nega recurso da TIM para suspender interrupção de bloqueador de chamadas",
+      "url": "https://www.mobiletime.com.br/noticias/25/11/2026/anatel-nega-recurso-tim/",
+      "reason": "范围门不过：争点是来电拦截服务中断的监管复议，属业务合规与互联互通，不落凭证链路。"
+    },
+    {
+      "title": "Colombia: CRC prepara nuevas reglas de calidad y protección al usuario para fortalecer a los MVNOs",
+      "url": "https://www.telesemana.com/blog/2026/11/26/colombia-crc-prepara-nuevas-reglas-de-calidad-y-proteccion-al-usuario-para-fortalecer-a-los-mvnos/",
+      "reason": "动作门不过：监管机构仍在筹备规则，无发布文本、生效日与具体合规义务。"
+    },
+    {
+      "title": "Papua New Guinea Grants Digicel 15-Year 5G Spectrum License",
+      "url": "https://www.telecomreviewasia.com/news/service-news/30849-papua-new-guinea-grants-digicel-15-year-5g-spectrum-license/",
+      "reason": "范围门明确不收：5G 频谱牌照属频谱拍卖类，标的物不落凭证链路。"
+    },
+    {
+      "title": "MTN South Africa elige a Ericsson para modernizar su core de voz con IMS nativo de nube",
+      "url": "https://www.telesemana.com/blog/2026/11/26/mtn-south-africa-elige-a-ericsson-para-modernizar-su-core-de-voz-con-ims-nativo-de-nube/",
+      "reason": "范围门明确不收：核心网与 IMS 语音现代化不属载体、RSP 或网络鉴权环节。"
+    },
+    {
+      "title": "Claro activa una estación 5G en Liucura tras la recepción técnica de Subtel",
+      "url": "https://www.telesemana.com/blog/2026/11/26/claro-activa-una-estacion-5g-en-liucura-tras-la-recepcion-tecnica-de-subtel/",
+      "reason": "范围门明确不收：基站开通属核心网与基站类排除项。"
+    },
+    {
+      "title": "ETSI OSM Release TWENTY marks 10 Years of Open Source Innovation at ETSI",
+      "url": "https://www.etsi.org/newsroom/news/etsi-osm-release-twenty-marks-10-years-of-open-source-innovation-at-etsi-2/",
+      "reason": "范围门不过：网络编排与开源平台版本，不是 SIM/eSIM 规范或认证体系。"
+    },
+    {
+      "title": "Satellite operators could lift Mobile Core revenue out of its slump",
+      "url": "https://www.fierce-network.com/wireless/satellite-operators-could-lift-mobile-core-revenue-out-its-slump",
+      "reason": "范围门与动作门不过：市场收入分析稿，无具体产品、参数或客户，也不落凭证链路。"
+    },
+    {
+      "title": "Elon Musk says micro cell towers will bring Starlink Mobile indoors",
+      "url": "https://www.fierce-network.com/wireless/elon-musk-says-micro-cell-towers-will-bring-starlink-mobile-indoors",
+      "reason": "范围门与动作门不过：个人表态与室内覆盖，无 SIM 载体或鉴权链变化，也没有可核产品参数。"
+    },
+    {
+      "title": "FCC greenlights SpaceX plan to deploy up to 1M AI satellites",
+      "url": "https://www.lightreading.com/satellite/fcc-greenlights-spacex-plan-to-deploy-up-to-1m-ai-satellites",
+      "reason": "范围门不过：卫星星座与频谱许可，同 11-07 FCC 批 Amazon Leo、11-10 Globalstar 法国批准同一口径。"
+    },
+    {
+      "title": "SpaceX OK'd to deploy up to 1M AI satellites, complete constellation by 2040",
+      "url": "https://www.lightreading.com/satellite/spacex-ok-d-to-deploy-up-to-1m-ai-satellites-complete-constellation-by-2040",
+      "reason": "范围门不过：与上一条同事件，轨道数据中心星座与频谱，不落凭证链路。"
+    },
+    {
+      "title": "EE and Ericsson enhance London 5G by putting AI in the RAN",
+      "url": "https://www.lightreading.com/5g/ee-and-ericsson-enhance-london-5g-by-putting-ai-in-the-ran",
+      "reason": "范围门明确不收：AI-RAN 属基站与核心网优化，不属 SIM/eSIM 或鉴权。"
+    },
+    {
+      "title": "T-Mobile teases “world’s first” AI-RAN test before year-end",
+      "url": "https://rcrwireless.com/20261125/ai/t-mobile-ai-ran-test-year-end",
+      "reason": "范围门与动作门不过：AI-RAN 属无线网络，且仅为预告表态，无已完成的可核节点。"
+    },
+    {
+      "title": "ISAC, and the (5G version of the) 6G trick to make networks see",
+      "url": "https://rcrwireless.com/20261126/6g/isac-and-the-5g-version-of-the-6g-trick-to-make-networks-see",
+      "reason": "范围门明确不收：ISAC 属 6G 与网络能力表态，不在三条链路内。"
+    },
+    {
+      "title": "Dish, American Tower reach $525M settlement",
+      "url": "https://www.fierce-network.com/wireless/dish-american-tower-reach-525m-settlement",
+      "reason": "范围门不过：铁塔租赁纠纷和解，标的是基站基础设施，不是凭证链路环节，也不改变控股权。"
+    },
+    {
+      "title": "HKT and Huawei advance agentic operations to deliver ultimate experiences for HVCs",
+      "url": "https://totaltele.com/hkt-and-huawei-advance-agentic-operations-to-deliver-ultimate-experiences-for-hvcs/",
+      "reason": "范围门不过：运营商网络智能运维合作，无 SIM 载体、RSP 或鉴权机制的改变。"
+    },
+    {
+      "title": "Ericsson demos counter-drone and air-defense systems over 5G",
+      "url": "https://totaltele.com/ericsson-demos-counter-drone-and-air-defense-systems-over-5g/",
+      "reason": "范围门不过：5G 网络上的反无人机演示，标的物是网络应用与设备，不是凭证载体。"
+    },
+    {
+      "title": "Huawei HarmonyOS device ecosystem tops 100M",
+      "url": "https://www.mobileworldlive.com/devices/huawei-harmonyOS-device-ecosystem-tops-100m/",
+      "reason": "范围门与动作门不过：生态用户规模里程碑，无 eSIM 载体形态或 RSP 机制变化。"
+    },
+    {
+      "title": "Swisscom launches premium AI tier",
+      "url": "https://www.mobileworldlive.com/ai-cloud/swisscom-launches-premium-ai-tier/",
+      "reason": "范围门不过：AI 订阅套餐属资费与增值服务，不落凭证链路。"
+    },
+    {
+      "title": "ITU sets sights on the Moon",
+      "url": "https://www.mobileworldlive.com/network-tech/itu-sets-sights-on-the-moon/",
+      "reason": "范围门不过：月球通信频谱框架属频谱与国际组织议程，与 11-26 TeleSemana 同稿。"
+    },
+    {
+      "title": "World Communication Awards 2026 winners announced!",
+      "url": "https://totaltele.com/world-communication-awards-2026-winners-announced/",
+      "reason": "范围门与动作门不过：行业奖项名单，不是七类动作中的任何一类。"
+    },
+    {
+      "title": "Банки, ретейл и операторы: кто заплатит за уход агрегаторов из SMS-цепочки",
+      "url": "https://www.comnews.ru/content/248534/2026-11-26/2026-w48/1013/banki-reteyl-i-operatory-kto-zaplatit-za-ukhod-agregatorov-sms-cepochki",
+      "reason": "范围门不过：SMS 聚合商成本分摊属消息路由与商业模式，不落凭证载体、RSP 或网络鉴权。"
+    },
+    {
+      "title": "IIJ adds 5G support to prepaid SIM services for visitors to Japan",
+      "url": "https://www.telecompaper.com/news/iij-adds-5g-support-to-prepaid-sim-services-for-visitors-to-japan--1589766",
+      "reason": "动作门不过：面向访日旅客的预付费旅行 SIM 增加 5G，属资费与渠道变化，不改变 profile 下载或切换机制。"
+    },
+    {
+      "title": "SoSIM launches One Number Watch data pack for smartwatch eSIM users",
+      "url": "https://www.telecompaper.com/news/sosim-launches-one-number-watch-data-pack-for-smartwatch-esim-users--1589680",
+      "reason": "动作门与时效门不过：11-23 发布的资费套餐，且变化是套餐内容而非 eSIM 载体或 profile 机制。"
+    },
+    {
+      "title": "WhatsApp tests built-in travel eSIM data plans with 1Global",
+      "url": "https://www.analyticsinsight.net/amp/story/news/whatsapp-tests-built-in-esim-data-plans-for-android-users",
+      "reason": "范围门与动作门不过：即时通讯 App 内嵌旅行 eSIM 套餐属渠道合作与资费促销，prompt 明确不收；且仍是测试版解包线索，无上线日与覆盖国家。"
+    },
+    {
+      "title": "WhatsApp to Offer In-App Travel eSIMs in Select Countries",
+      "url": "https://www.urdupoint.com/technology/en/detail/apps-and-social-media/whatsapp-to-offer-in-app-travel-esims-in-select-countries-7897.html",
+      "reason": "范围门不过：与上一条同一事件，换信源报道；App 内买旅行数据套餐属渠道促销，且资费、首发国家均未公布。"
+    },
+    {
+      "title": "Rakuten Mobile and Mastercard explore integration of travel eSIMs",
+      "url": "https://www.telecompaper.com/news/rakuten-mobile-and-mastercard-explore-integration-of-travel-esims--1589486",
+      "reason": "范围门与时效门不过：11-19 新加坡金融科技节上的旅行 eSIM 与代理支付 MoU，属渠道与资费合作，且事件已早于 72 小时窗口。"
+    },
+    {
+      "title": "Kigen eSIMs added to Robustel industrial 4G/5G edge routers",
+      "url": "https://www.esim.report/news/kigen-esims-added-to-robustel-industrial-4g5g-edge-routers",
+      "reason": "时效门不过：eSIM.report 页面原文标注 Source: Kigen - Blog | November 26, 2025，是去年旧稿被索引成「26 NOV」，非窗口内事件。"
+    },
+    {
+      "title": "New SIM rules take effect across India; DoT caps connections at 9 per person",
+      "url": "https://www.ndtvprofit.com/india/no-new-sims-for-users-with-9-connections-what-dot-order-to-telcos-mean-11933690",
+      "reason": "动作门不过：9 张上限源自 2012 年既有规则，本次是 2026-08-17 通告的分阶段执行，11-30 为既有合规截止日，没有新的机制变化。"
+    },
+    {
+      "title": "India steps up SIM card checks to tackle telecom fraud",
+      "url": "https://www.voicendata.com/mobile-phones/india-steps-up-sim-card-checks-to-tackle-telecom-fraud-12397878",
+      "reason": "动作门不过：同一 DoT 8 月通告的解读稿，明确写明 9 张上限并非 2026 年新规，执行截止日不构成首次或变化。"
+    },
+    {
+      "title": "SIM cards by passport: will Ukrainians have to register numbers they have been using for years",
+      "url": "https://sud.ua/en/news/ukraine/378653-sim-karty-za-pasportom-chy-dovedetsia-ukraintsiam-reiestruvaty-nomery-iakymy-vony-korystuiutsia-rokamy",
+      "reason": "动作门不过：文中明确写提案仍停留在讨论阶段，没有新法案、强制识别程序或封号规则，国家特别通信局 11-23 答复称无需新增措施。"
+    },
+    {
+      "title": "SIM cards issued against a passport in Ukraine: will subscribers be required to register their numbers?",
+      "url": "https://thepublic.info/en/news/sim-cards-issued-against-a-passport-in-ukraine-will-subscribers-be-required-to-register-their-numbers-1795685328.html",
+      "reason": "动作门不过：与上一条同议题，截至 11-26 没有登记新的强制实名法案，也无生效日或执行机构。"
+    },
+    {
+      "title": "Attention, those with an old phone in their drawer! It may shut down on December 31",
+      "url": "https://en.haberler.com/attention-those-with-an-old-phone-in-their-drawer-2337104",
+      "reason": "动作门不过：土耳其 IMEI 一年未联网注销规则 2024 年已生效，11 月稿只是年度提醒，且标的是手机 IMEI 而非 SIM/eSIM 载体。"
+    },
+    {
+      "title": "Biometrics will become mandatory: how SIM registration rules changed in Kazakhstan",
+      "url": "https://fbrk.kz/en-gb/news/ministry-digital-development-has-proposed-carrying-out-biometric-verification-when-registering",
+      "reason": "动作门不过：仍是公开征求意见的草案，公众意见期 9 月 14 日已结束，11-24 的报道是解释性重发，没有发布令与生效日。"
+    },
+    {
+      "title": "Mandatory Biometrics for Phone Owners: Who Will Be Affected by the New Rules?",
+      "url": "https://qrnews.kz/en/news/mandatory-biometrics-for-phone-owners-who-will-be-affected-by-the-new-rules-olqPj",
+      "reason": "动作门不过：同一哈萨克斯坦草案的解读稿，且主要标的是手机 IMEI 登记，不落 SIM 载体形态或 RSP 机制。"
+    },
+    {
+      "title": "Revendeurs d'eSIM : un SMS automatique dès la première connexion",
+      "url": "https://www.news-eco.com/revendeurs-desim-un-sms-automatique-des-la-premiere-connexion/",
+      "reason": "动作门不过：与 Bisatel Telecom 合作撰写的软文，内容是 eSIM Go 平台 11-12 已更新的 API 文档说明，不是新发布的商用产品节点。"
+    },
+    {
+      "title": "Android Theft Protection: SIM Removal Now Requires PIN [App Teardown]",
+      "url": "https://jetstream.blog/?p=226604",
+      "reason": "范围门与动作门不过：Google Play 服务 v26.40 解包发现隐藏开关（isPreferenceVisible=false），未上线；且属手机防盗设置，不是运营商签发或 profile 机制。"
+    },
+    {
+      "title": "SIM swap protection: US carrier rules from 17 December",
+      "url": "https://www.globes.im/en/blog/sim-swap-protection",
+      "reason": "动作门不过：义务出自 2023 年 FCC 23-95，2026 年 11 月通知只公布 12-17 合规日；与 11-21 已拦的 FCC SIM-swap 同事件。"
+    },
+    {
+      "title": "15亿物联卡连接全球第一 中移物联网发布首颗RISC-V超级SIM芯片",
+      "url": "https://www.mscbsc.com/info/Nw5314h",
+      "reason": "时效门不过：该芯片发布于 2026 移动网络大会（11 月初），与 11-08、11-12、11-16 已拦的超级 SIM 芯片线同源，不是 72 小时窗口内事件。"
+    },
+    {
+      "title": "32位RISC-V内核超级SIM芯片成果简介",
+      "url": "http://www.sasac.gov.cn/n4470048/n32559362/n35167919/n35167934/c35329328/content.html",
+      "reason": "时效门不过：国资委成果展示页，给出 40nm、2.5MB Flash、CCRC EAL5+ 等参数，但无 11-24 之后的新发布或新产线节点。"
+    },
+    {
+      "title": "Holafly launches reseller programme for corporate eSIM plans",
+      "url": "https://www.esim.report/news/holafly-launches-reseller-programme-for-corporate-esim-plans",
+      "reason": "范围门不过：旅行 eSIM 分销计划属销售渠道变化，prompt 明确按渠道合作归资费促销处理。"
+    },
+    {
+      "title": "BICS and Airtel Africa expand roaming security in 14 markets",
+      "url": "https://www.esim.report/news/bics-and-airtel-africa-expand-roaming-security-in-14-markets",
+      "reason": "范围门不过：升级的是托管信令防火墙与漫游安全，不落 SIM 载体、RSP/profile 下载或鉴权；与 11-25 已拦同事件。"
+    },
+    {
+      "title": "StarHub and M1 agree S$1.1 billion all-share merger",
+      "url": "https://www.esim.report/news/starhub-and-m1-agree-s11-billion-all-share-merger",
+      "reason": "duplicate-of-2026-11-25-telecom-01：StarHub 合并 M1 并收购 Circles.Life，换信源重发。"
+    },
+    {
+      "title": "3News names Nosh, Airalo, Cardtonic and Prestmit for Ghana eSIMs",
+      "url": "https://www.esim.report/news/3news-names-nosh-airalo-cardtonic-and-prestmit-for-ghana-esims",
+      "reason": "范围门与动作门不过：消费者 eSIM 品牌点评，无产品首发、发放规模或监管变化。"
+    }
+  ],
+  "stats": {
+    "candidates": 197,
+    "written": 0,
+    "skippedByDedup": 2
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-27-identity-01",
+  "slug": "iproov-gov-uk-one-login-biometric-contract",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "verification",
+    "biometrics",
+    "liveness"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-27T04:17:32+08:00",
+  "ingestedAt": "2026-11-27T03:10:23+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/iproov-wins-45m-gov-uk-one-login-biometric-verification-contract/",
+      "lang": "en",
+      "publishedAt": "2026-11-26T00:00:00Z"
+    },
+    {
+      "name": "Intelligent CISO",
+      "url": "https://www.intelligentciso.com/2026/11/26/iproov-secures-45-million-uk-government-biometric-identity-verification-contract",
+      "lang": "en",
+      "publishedAt": "2026-11-26T00:00:00Z"
+    },
+    {
+      "name": "Identity Week",
+      "url": "https://identityweek.net/british-firm-iproov-wins-gov-uk-one-login-contract-worth-up-to-45-million/",
+      "lang": "en",
+      "publishedAt": "2026-11-26T16:56:55Z"
+    },
+    {
+      "name": "iProov",
+      "url": "https://www.iproov.com/press/gov-uk-one-login-contract-45-million",
+      "lang": "en",
+      "publishedAt": "2026-11-26T00:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "iProov 中标英国 One Login 生物核验合同",
+    "en": "iProov wins UK One Login biometric verification contract",
+    "es": "iProov gana el contrato de verificación biométrica de One Login del Reino Unido"
+  },
+  "summary": {
+    "zh": "英国政府数字服务局 GDS 11 月 26 日授标 iProov 一份最高 4500 万英镑、为期三年的合同，为 GOV.UK One Login 提供生物识别身份验证：开户时读取身份证件信息、把摄像头人脸与证件照片比对，并检测活体以防深伪。分包商 Signicat 提供 NFC 芯片证件读取。",
+    "en": "The UK Government Digital Service awarded iProov a contract worth up to GBP 45 million on November 26 for biometric identity verification on GOV.UK One Login. The three-year deal reads identity documents, matches a camera face to the document photo and runs liveness checks against deepfakes; subcontractor Signicat supplies NFC chip-based document reading.",
+    "es": "El Government Digital Service del Reino Unido adjudicó a iProov un contrato de hasta 45 millones de libras el 26 de noviembre para la verificación biométrica de GOV.UK One Login. El acuerdo de tres años lee documentos de identidad, compara la cara de la cámara con la foto del documento y aplica pruebas de vida; el subcontratista Signicat aporta la lectura de chips NFC."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "英国政府数字服务局 GDS 11 月 26 日把一份最高价值 4500 万英镑的合同授予 iProov，用于 GOV.UK One Login 的生物识别身份验证。合同期三年，可延长一年。iProov 自 2022 年起参与该项目的设计、测试与启动阶段，这次是正式承建运营期的核验服务。",
+        "en": "The UK Government Digital Service awarded iProov a contract worth up to GBP 45 million on November 26 for biometric identity verification on GOV.UK One Login. The contract runs for three years with an option to extend for a fourth. iProov has worked with GDS on the programme since 2022 across design, testing and launch, and will now deliver the verification service through operations.",
+        "es": "El Government Digital Service del Reino Unido adjudicó el 26 de noviembre a iProov un contrato de hasta 45 millones de libras para la verificación biométrica de GOV.UK One Login. El contrato dura tres años con opción a un cuarto. iProov ha trabajado con GDS desde 2022 en el diseño, las pruebas y el lanzamiento, y ahora presta el servicio de verificación en fase operativa."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "iProov 的核验发生在用户创建 One Login 账户时：系统读取身份证件上的个人信息，把摄像头前的人脸与证件照片比对，并判断自拍来自真实在场的人，而不是深伪视频或举起的照片。英国政府采购登记 Contracts Finder 同日披露的合同文本把光学证件核查分包给 Veriff，初期三年估值约 3350 万英镑。",
+        "en": "iProov's check runs when a user creates a One Login account: the system reads biographic details from an identity document, matches the face in front of the camera to the document photo and confirms the selfie comes from a live, present person rather than a deepfake video or a held-up photo. The contract text published the same day on the UK procurement register Contracts Finder names Veriff as subcontractor for optical document checking, with an initial three-year value of about GBP 33.5 million.",
+        "es": "La verificación de iProov se produce al crear una cuenta de One Login: el sistema lee los datos biográficos del documento, compara la cara ante la cámara con la foto del documento y confirma que la selfie proviene de una persona real y presente, no de un vídeo deepfake ni de una foto sostenida. El texto del contrato publicado el mismo día en el registro de compras británico Contracts Finder designa a Veriff como subcontratista de la comprobación óptica de documentos, con un valor inicial de unos 33,5 millones de libras para tres años."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "证件读取环节由分包商 Signicat 承担，其 ReadID 服务用 NFC 读取证件芯片并完成编排，此前已取得英国数字身份与属性信任框架的认证。One Login 目前有超过 2300 万用户、覆盖 256 项政府服务，包括税务、养老金、地段注册与公司名称核验，GDS 计划在 18 个月内把它扩展到全部中央政府服务。",
+        "en": "Subcontractor Signicat handles document reading: its ReadID service reads the document chip over NFC and orchestrates the check, having previously earned certification under the UK Digital Identity and Attributes Trust Framework. One Login now serves more than 23 million people across 256 government services, including tax, state pensions, land registry and company director checks, and GDS aims to reach every central government service within 18 months.",
+        "es": "El subcontratista Signicat se encarga de la lectura de documentos: su servicio ReadID lee el chip del documento por NFC y orquesta la comprobación, y antes obtuvo la certificación del marco de confianza de identidad digital del Reino Unido. One Login cuenta hoy con más de 23 millones de usuarios y 256 servicios gubernamentales, entre ellos impuestos, pensiones, registro de propiedades y verificación de directivos; GDS prevé cubrir todos los servicios centrales en 18 meses."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "GOV.UK One Login 覆盖英国 2300 万用户和 256 项政府服务，这套把证件读取、人脸比对和活体检测合在一起的开户核验，成为英国公民接触政府服务的主要身份验证入口。对供应商而言，合同把原本可由多家分包的证件读取与活体检测能力，通过 Signicat 与 Veriff 两个分包商整合进一份主合同，说明大额政府身份项目更倾向单一承接方统筹整条核验链。对欧洲市场，iProov 同期凭同一套人脸加 NFC 组合拿到 Smart-ID 的 eIDAS 高等级认可，英国与欧盟两套最高保证等级的核验路径正在收敛到相近技术栈。",
+    "en": "One Login serves 23 million people across 256 services, so this account-creation check that binds document reading, face matching and liveness into one flow becomes the main identity gate for UK citizens dealing with government. For vendors, the award folds document reading and liveness into a single prime contract via Signicat and Veriff, showing that large government identity projects favour one lead integrator over the whole verification chain rather than separate suppliers. In Europe, iProov this month used the same face-plus-NFC combination to earn the EU's highest assurance level for Smart-ID, so the UK and EU top-tier verification paths are converging on a similar technical stack.",
+    "es": "One Login atiende a 23 millones de personas en 256 servicios, por lo que esta verificación de apertura de cuenta que integra lectura de documentos, comparación facial y detección de vida se convierte en la principal puerta de identidad de los ciudadanos británicos ante el gobierno. Para los proveedores, la adjudicación agrupa la lectura de documentos y la detección de vida en un único contrato principal mediante Signicat y Veriff, lo que indica que los grandes proyectos gubernamentales prefieren un integrador líder para toda la cadena de verificación. En Europa, iProov usó este mes la misma combinación de cara y NFC para lograr el nivel más alto de garantía de la UE con Smart-ID, de modo que las vías británica y europea convergen en una pila técnica similar."
+  },
+  "confidence": 0.86,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11-27",
+    "tokens": 0,
+    "costUsd": 0
+  }
+}

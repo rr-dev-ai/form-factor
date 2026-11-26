@@ -1,0 +1,87 @@
+{
+  "fetchedFor": "2026-11-27",
+  "matrix": {
+    "gap": ["apac", "cis", "mena", "europe", "north-america"],
+    "cellGap": ["latam/banking", "latam/telecom", "africa/banking", "africa/telecom"],
+    "industryGap": ["banking", "telecom", "identity"],
+    "note": "index 一次通过（fetchedFor=2026-11-27，160 条，无 fetchedAt 字段）。build-matrix 计入 2 条，剔除 已发布 0／超窗 0／无日期 22／低置信 136。21 格中 latam 与 africa 的 identity 有稿，其余全空；五个全零区进入 gaps，cellGaps 四格来自 latam/africa 的 banking 与 telecom，三行业均触发 industryGap（banking 7/7、telecom 7/7、identity 5/7）。matrix.json 未落盘，以 stdout 为准。"
+  },
+  "timing": {
+    "startedAt": "2026-11-27T01:51:01+08:00",
+    "r1At": "2026-11-27T01:51:24+08:00",
+    "r2At": "2026-11-27T01:51:38+08:00",
+    "r3At": "2026-11-27T01:51:48+08:00",
+    "r4At": "2026-11-27T01:52:04+08:00",
+    "r5At": "2026-11-27T01:52:14+08:00",
+    "r6At": "2026-11-27T01:52:29+08:00",
+    "extraAt": "2026-11-27T01:53:19+08:00",
+    "writtenAt": "2026-11-27T01:53:29+08:00"
+  },
+  "phases": [
+    {
+      "phase": "R1-缺口驱动",
+      "queries": 8,
+      "at": "2026-11-27T01:51:24+08:00",
+      "basedOn": null,
+      "note": "按五个全零区各发一条「区域＋链路环节产品词」query，再给 latam/banking、latam/telecom、africa/banking、africa/telecom 四格各发一条；共 8 条，均以 11-25/26 日期锚定。命中叙利亚本地发卡、卡塔尔 HIMYAN 扩阿曼、马尔代夫 BPC 发卡与 Miden×Visa；telecom 查询仍被旅游 eSIM 站占满。"
+    },
+    {
+      "phase": "R2-机构驱动",
+      "queries": 7,
+      "at": "2026-11-27T01:51:38+08:00",
+      "basedOn": "R1 的区域＋产品词命中集中在卡组织通稿，改按具体主体检索：PRNewswire 通稿页、Enfuce/CorServ/Velera/Marqeta/Fiserv 处理商、证件局、BPC/G+D/IDEMIA/Thales 制卡厂、Finopotamus 类长尾以及中文采购词",
+      "note": "中文采购词给出三条可用候选（东信和平中标便携制卡机、红塔银行身份核鉴采购、光大银行社保卡制卡招标）；BPC 通稿页给出马尔代夫项目；Enfuce 线撞已发的 iwoca，Lianlian XCard 亦为已发同线。"
+    },
+    {
+      "phase": "R3-官方一手",
+      "queries": 6,
+      "at": "2026-11-27T01:51:48+08:00",
+      "basedOn": "R2 中文采购词有效但缺官网一手日期与承建方，转葡语 edital、西语 adjudicación、阿语 مناقصة、法语 appel d'offres、俄语 тендер、德语 Ausschreibung 六种当地采购术语反查官方公告",
+      "note": "阿语轮二次撞出卡塔尔 HIMYAN 官宣；德语轮带出拉脱维亚 Smart-ID/eID 芯片证书撤销；其余四语仍回聚合页、营销页或旧稿。采购术语本身零产出，价值仍在顺带撞到的官网稿。"
+    },
+    {
+      "phase": "R4-行业垂媒",
+      "queries": 3,
+      "archiveFetches": 3,
+      "at": "2026-11-27T01:52:04+08:00",
+      "basedOn": "R3 采购标本身近乎零产出，转 biometricupdate /202611、idtechwire 首页、paymentsindustryintelligence 首页归档直读，避开搜索结果聚合页",
+      "note": "biometricupdate 11-25 十条中，菲律宾 PDNI 延期与瑞士 ELCA 深伪检测授标两条可用；idtechwire 11-24/25 以泄露、监控和已发条目为主；paymentsindustryintelligence 首页停在 11-24 且三条全为泄露、财报与开放银行标准，范围门不过。"
+    },
+    {
+      "phase": "R5-新兴术语",
+      "queries": 3,
+      "at": "2026-11-27T01:52:14+08:00",
+      "basedOn": "R4 归档里 telecom 仍空白，改用尚未成为通用词的 SGP.32 eIM／iSIM、mDL issuance／verifiable credential pilot／age assurance、quantum-safe card／softPOS certification 反查",
+      "note": "SGP.32 轮只回客户案例、协议讲解与 ZUMA 的 Ofcom 澄清；mDL／VC 轮全为已发钱包与博客讲解；quantum-safe 轮只有英国央行报告与欧盟量子法案，均不落卡片或凭证形态变化，未收。"
+    },
+    {
+      "phase": "R6-区域补充",
+      "queries": 5,
+      "at": "2026-11-27T01:52:29+08:00",
+      "basedOn": "R5 仍无 cis／north-america／latam／africa 命中，四区换本地语言或具体主体重试，并追 R1 的 WhatsApp eSIM 线索反查官方博客，不原样重发前五轮 query",
+      "note": "俄语轮只回旧监管稿；北美 PRNewswire 轮只有 Krak 卡与 Highnote 银行牌照申请，不落形态变化；西语轮撞汇率与银行营业时间页；非洲轮回旅游 eSIM 与已发银联吉布提稿；WhatsApp 官方博客未找到，APK 解包显示功能仍在开发中，无正式发布日期，弃用。"
+    },
+    {
+      "phase": "补轮-尾轮定向",
+      "queries": 3,
+      "at": "2026-11-27T01:53:19+08:00",
+      "basedOn": "R6 后 latam/banking、latam/telecom、africa/telecom 仍空，改用西语与英语的具体银行／SIM 登记表述做最后定向，不重复 R1/R6 查询",
+      "note": "西语银行轮只回银行营业时间、汇率与利率决议；拉美 SIM 轮全被旅游 eSIM 销售页占满；非洲 SIM 轮仍是旅游卡与许可流程页。三格未补，停止追挖。",
+      "queryNote": "六轮 32 条 query（8/7/6/3/3/5）＋尾轮 3 条，合计 35 条 WebSearch；另 3 次归档页直读、12 次原文 WebFetch 核验。六轮均达到 query 下限，R3 起每轮均写明 basedOn。每轮结束均有 date -Iseconds 实测，无估算时刻。"
+    }
+  ],
+  "queryTotal": 35,
+  "verifiedButDropped": [
+    "埃及 Meeza Tap & Pay 安卓令牌化（Analytics Insight 11-26）——2026-11-24-banking-02 已发同一事件线，去重剔除",
+    "iwoca×Visa×Enfuce 英国中小企业卡（BusinessWire 11-24）——2026-11-26.supplement 已投递，去重剔除",
+    "Lianlian XCard（PRNewswire 11-25）——2026-11-19-banking-01 已发同一事件线，去重剔除",
+    "尼日利亚 7000 万美元电子护照厂动工（biometricupdate 11-25）——2026-11-22-identity-02 已发，去重剔除",
+    "秘鲁 Perú Pass 全国签发（biometricupdate 11-25）——2026-11-23 已发，去重剔除",
+    "康涅狄格 Mobile ID 破万下载（biometricupdate 11-25）——上线日 11-18 在 72 小时窗外，且同线已多次被弃用",
+    "WhatsApp 应用内旅行 eSIM（APK 解包，11-26）——无官方公告、无上线时间与国家名单，不是产品化节点，弃用",
+    "巴西央行收紧循环信贷额度（11-25/26）——改的是授信规则而非卡形态或受理机制，范围门不过",
+    "NBX×Visa Flex Card（Visa 官网 11-26）——标的是稳定币余额支付，不落三条链路，范围门不过",
+    "Krak 两张美国信用卡（BusinessWire 11-24）——无新发卡机制，仅为奖励与抵押品变化，范围门不过"
+  ],
+  "output": "content/_raw/2026-11-27.supplement.json，11 条：mena/banking 2、apac/banking 3、apac/identity 2、europe/identity 2、europe/telecom 1、africa/banking 1。cis 与 north-america 零条；latam 两格与 africa/telecom 零条；telecom 仅落 europe 一格。"
+}

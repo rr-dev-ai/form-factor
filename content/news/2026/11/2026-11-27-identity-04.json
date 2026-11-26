@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-27-identity-02",
+  "slug": "equifax-gov-uk-one-login-fraud-checks-contract",
+  "industry": "identity",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "verification",
+    "fraud",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-27T04:17:32+08:00",
+  "ingestedAt": "2026-11-27T03:10:23+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "ID Tech",
+      "url": "https://idtechwire.com/equifax-wins-5-2-million-gov-uk-one-login-fraud-checks-contract-iproov-deal-names-veriff-as-subcontractor/",
+      "lang": "en",
+      "publishedAt": "2026-11-26T00:00:00Z"
+    },
+    {
+      "name": "Contracts Finder",
+      "url": "https://www.contractsfinder.service.gov.uk/notice/d4a83e83-8e14-47f3-9087-456a8e27fa65",
+      "lang": "en",
+      "publishedAt": "2026-11-26T00:00:00Z"
+    }
+  ],
+  "title": {
+    "zh": "Equifax 中标英国 One Login 身份欺诈核查合同",
+    "en": "Equifax wins GBP 5.2 million One Login identity fraud checks contract",
+    "es": "Equifax gana un contrato de 5,2 millones de libras para comprobaciones de fraude de One Login"
+  },
+  "summary": {
+    "zh": "英国政府数字服务局 GDS 11 月 26 日在采购登记 Contracts Finder 公告，授予 Equifax 一份最高 518 万英镑的合同，为 GOV.UK One Login 运行身份欺诈核查。合同从 2026 年 10 月 28 日执行至 2029 年 10 月 27 日，可延长一年。这是与 iProov 生物识别核验合同并行的另一份独立合同。",
+    "en": "The UK Government Digital Service published a notice on procurement register Contracts Finder on November 26 awarding Equifax a contract worth up to GBP 5.18 million to run identity fraud checks for GOV.UK One Login. The contract runs from October 28, 2026 to October 27, 2029 with an optional fourth year. It is a separate contract running alongside the iProov biometric verification award.",
+    "es": "El Government Digital Service británico publicó el 26 de noviembre en el registro de compras Contracts Finder la adjudicación a Equifax de un contrato de hasta 5,18 millones de libras para comprobaciones de fraude de identidad en GOV.UK One Login. El contrato va del 28 de octubre de 2026 al 27 de octubre de 2029, con opción a un cuarto año. Es un contrato independiente que corre en paralelo con la adjudicación biométrica de iProov."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "英国政府数字服务局 GDS 11 月 26 日在政府采购登记 Contracts Finder 上披露，已向 Equifax 授出一份最高价值 518 万英镑的合同，由 Equifax 为 GOV.UK One Login 运行身份欺诈核查。公告附有已签署合同的删节本。合同执行期为 2026 年 10 月 28 日至 2029 年 10 月 27 日，并设有延长一年的选项。",
+        "en": "The UK Government Digital Service disclosed on procurement register Contracts Finder on November 26 that it had awarded Equifax a contract worth up to GBP 5.18 million to run identity fraud checks for GOV.UK One Login, publishing a redacted copy of the signed contract. The contract runs from October 28, 2026 to October 27, 2029, with an option to extend for a fourth year.",
+        "es": "El Government Digital Service británico reveló el 26 de noviembre en el registro de compras Contracts Finder que adjudicó a Equifax un contrato de hasta 5,18 millones de libras para comprobaciones de fraude de identidad en GOV.UK One Login, y publicó una copia expurgada del contrato firmado. El contrato va del 28 de octubre de 2026 al 27 de octubre de 2029, con opción a un cuarto año."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Equifax 负责的是身份欺诈数据核查，与同日披露的 iProov 合同分工不同：iProov 在开户环节读取证件、比对人脸并做活体检测，Equifax 的核查针对身份信息本身的欺诈风险。两份合同由 GDS 分别授出，各自有独立的合同编号与金额，共同构成 One Login 的开户身份核验体系。",
+        "en": "Equifax's scope is identity fraud data checking, distinct from the iProov award disclosed the same day: iProov reads documents, matches faces and runs liveness at account creation, while Equifax's checks target fraud risk in the identity information itself. GDS awarded the two contracts separately, each with its own contract number and value, and together they form One Login's account-creation identity verification system.",
+        "es": "El alcance de Equifax son comprobaciones de datos de fraude de identidad, distinto de la adjudicación a iProov publicada el mismo día: iProov lee documentos, compara caras y aplica detección de vida al crear la cuenta, mientras que las comprobaciones de Equifax se centran en el riesgo de fraude de la propia información de identidad. GDS adjudicó ambos contratos por separado, cada uno con su número y valor, y juntos forman el sistema de verificación de identidad de One Login."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "同日另一份合同文本还披露了 iProov 那份 4500 万英镑主合同此前未公开的分包安排：Veriff 承担光学证件核查。身份欺诈核查合同的具体核查字段、调用规模与 KPI 未在公开公告中详列。",
+        "en": "A second notice published the same day also disclosed subcontracting detail of iProov's GBP 45 million prime contract that had not been made public: Veriff handles optical document checking. The fraud-check contract's specific verification fields, call volumes and KPIs were not detailed in the public notice.",
+        "es": "Otro anuncio publicado el mismo día reveló también detalles de subcontratación del contrato principal de 45 millones de libras de iProov que no se hadn hecho públicos: Veriff se encarga de la comprobación óptica de documentos. El anuncio público no detalló los campos de verificación, los volúmenes de consulta ni los KPI del contrato de comprobación de fraude."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "One Login 的双合同结构把身份核验拆成两件事：iProov 负责证明屏幕前是真人且证件为真，Equifax 负责判断这套身份信息本身有没有欺诈风险。对供应商而言，这意味着政府身份项目不再由单一厂商包揽，生物识别核验与身份数据核查成为两条独立采购线，各自有明确金额。对集成商而言，接入 One Login 相关服务需要同时理解证件活体核验和欺诈数据核查两套接口。公告未披露核查字段与调用规模，这条采购的实际体量仍要看后续合同文本。",
+    "en": "One Login's two-contract structure splits identity verification into two jobs: iProov proves the person on screen is live and the document genuine, while Equifax judges whether the identity information itself carries fraud risk. For vendors, this means the government identity programme is no longer a single-supplier package; biometric verification and identity data checking are two separate procurement lines each with a defined value. For integrators, serving One Login means understanding both the liveness-and-document interface and the fraud-data interface. The notice did not disclose verification fields or call volumes, so the real scale of this award depends on the full contract text.",
+    "es": "La estructura de dos contratos de One Login separa la verificación de identidad en dos tareas: iProov demuestra que la persona ante la pantalla es real y el documento auténtico, mientras Equifax evalúa si la información de identidad conlleva riesgo de fraude. Para los proveedores, el programa gubernamental ya no es un paquete de un solo proveedor: la verificación biométrica y la comprobación de datos de fraude son dos líneas de compra independientes con valor definido. Para los integradores, atender One Login exige dominar tanto la interfaz de vida y documento como la de datos de fraude. El anuncio no reveló campos ni volúmenes, por lo que la escala real depende del texto completo del contrato."
+  },
+  "confidence": 0.74,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11-27",
+    "tokens": 0,
+    "costUsd": 0
+  }
+}
