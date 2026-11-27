@@ -1,0 +1,173 @@
+{
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-27T20:15:19.089Z",
+  "selected": [
+    {
+      "industry": "banking",
+      "slug": "visa-nbx-flex-card-stablecoin-europe",
+      "score": 0.6,
+      "reason": "region-floor",
+      "region": "europe",
+      "sourceDate": "2026-11-28"
+    },
+    {
+      "industry": "identity",
+      "slug": "st-kitts-nevis-taiwan-eid-system-handover-chip-cards",
+      "score": 0.78,
+      "reason": "region-floor",
+      "region": "north-america",
+      "sourceDate": "2026-11-28"
+    },
+    {
+      "industry": "identity",
+      "slug": "somalia-eac-epassport-production-complete-january-2027",
+      "score": 0.72,
+      "reason": "region-floor",
+      "region": "africa",
+      "sourceDate": "2026-11-28"
+    },
+    {
+      "industry": "identity",
+      "slug": "china-distributed-digital-id-interoperability-rules",
+      "score": 0.82,
+      "reason": "region-floor",
+      "region": "apac",
+      "sourceDate": "2026-11-28"
+    },
+    {
+      "industry": "identity",
+      "slug": "helan-county-id-card-self-service-issuance-terminals-award",
+      "score": 0.68,
+      "reason": "fill",
+      "region": "apac",
+      "sourceDate": "2026-11-28"
+    },
+    {
+      "industry": "banking",
+      "slug": "rbi-card-transaction-directions-2026-477",
+      "score": 0.62,
+      "reason": "manual",
+      "region": "apac",
+      "sourceDate": "2026-11-28"
+    },
+    {
+      "industry": "banking",
+      "slug": "mtn-momo-mastercard-virtual-card-benin",
+      "score": 0.65,
+      "reason": "manual",
+      "region": "africa",
+      "sourceDate": "2026-11-28"
+    },
+    {
+      "industry": "banking",
+      "slug": "klarna-one-time-card-canada-visa",
+      "score": 0.7,
+      "reason": "manual",
+      "region": "north-america",
+      "sourceDate": "2026-11-28"
+    },
+    {
+      "industry": "telecom",
+      "slug": "eastcompeace-caict-smdp-plus-test-platform",
+      "score": 0.62,
+      "reason": "manual",
+      "region": "apac",
+      "sourceDate": "2026-11-28"
+    },
+    {
+      "industry": "telecom",
+      "slug": "claro-number-verification-v2-android-native",
+      "score": 0.55,
+      "reason": "manual",
+      "region": "latam",
+      "sourceDate": "2026-11-28"
+    }
+  ],
+  "alternates": [],
+  "expired": [
+    {
+      "slug": "krak-usdc-secured-credit-cards-waitlist",
+      "eventAt": "2026-11-24T19:02:00.000Z",
+      "hours": 73
+    }
+  ],
+  "gaps": [
+    {
+      "region": "cis",
+      "note": "池内 0 条"
+    },
+    {
+      "region": "mena",
+      "note": "池内 0 条"
+    }
+  ],
+  "unaccounted": [],
+  "conflicts": [
+    {
+      "kind": "undated",
+      "detail": "banking/rbi-card-transaction-directions-2026-477 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "supplement 2026-11-27T00:00+05:30，RBI/DPSS/2026-27/477 即时生效，规则版本与发证方可核"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/klarna-one-time-card-canada-visa 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "原文 Klarna 新闻室 Toronto, November 25, 2026，一次性 Visa 预付卡加拿大上线"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/frasers-plus-virtual-visa-card-uk 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "原文 IBS Intelligence November 24, 2026，事件日超 72h 且首期 2027 初上线，不调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/metamask-card-japan-thailand-vietnam 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "原文核实额度用尽，分数 0.55 且 banking 已达 5 条上限，不调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/mtn-momo-mastercard-virtual-card-benin 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "supplement 2026-11-27T00:00+01:00，贝宁首发仪式 11-26，虚拟万事达卡已发逾 20 万张"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/prezzee-unionpay-digital-gift-card-australia 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "原文核实额度用尽，分数 0.50 且 banking 已达 5 条上限，不调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/basis-card-waitlist-same-asset-cashback 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "原文核实额度用尽，分数 0.45 且为候补登记，不调入"
+    },
+    {
+      "kind": "undated",
+      "detail": "telecom/eastcompeace-caict-smdp-plus-test-platform 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "原文腾讯新闻 2026-11-26 19:16，SM-DP+ 测试验证平台正式上线"
+    },
+    {
+      "kind": "undated",
+      "detail": "telecom/claro-number-verification-v2-android-native 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "raw 抓取时间 2026-11-27T14:04:36Z，事件 11-26，填 latam"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/visa-nbx-flex-card-stablecoin-europe 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "11-27 池旧副本缺日期；11-28 池同稿已带 11-26 日期并入选，冲突为跨天重复登记"
+    },
+    {
+      "kind": "undated",
+      "detail": "banking/krak-usdc-secured-credit-cards-waitlist 的 sources 缺 publishedAt，无法判定时效",
+      "resolved": true,
+      "resolution": "11-27 池旧副本缺日期；11-28 池同稿事件 11-24 已 73h 超窗 expired，不调入"
+    }
+  ]
+}

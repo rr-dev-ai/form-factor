@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-28-banking-07",
+  "slug": "visa-nbx-flex-card-stablecoin-europe",
+  "industry": "banking",
+  "region": "europe",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "scheme-rules",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-28T04:17:14+08:00",
+  "ingestedAt": "2026-11-28T02:30:23+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Visa",
+      "url": "https://www.visa.co.uk/about-visa/newsroom/press-releases.3484051.html",
+      "lang": "en",
+      "publishedAt": "2026-11-26T13:11:00Z"
+    },
+    {
+      "name": "Finextra",
+      "url": "https://www.finextra.com/pressarticle/111795/nbx-partners-visa-for-stablecoin-linked-card",
+      "lang": "en",
+      "publishedAt": "2026-11-26T13:11:00Z"
+    }
+  ],
+  "title": {
+    "zh": "Visa 与 NBX 推 Flex Card，一张卡切换法币与稳定币余额",
+    "en": "Visa and NBX plan Flex Card that switches between fiat and stablecoin balances",
+    "es": "Visa y NBX planean una Flex Card que alterna entre saldos fiat y stablecoin"
+  },
+  "summary": {
+    "zh": "Visa、挪威数字资产平台 NBX、卡平台 Tieto Banktech 与发卡方 IDT Finance 于 11 月 26 日公布 Visa Flex Card 计划。该卡由 Visa Flexible Credential 驱动，持卡人可设定扣款偏好，用法币或受支持的稳定币余额完成支付。预计 2027 年先以借记功能在挪威、瑞典、丹麦、芬兰和德国上线，波兰随后。",
+    "en": "Visa, Norwegian digital asset platform NBX, card platform Tieto Banktech and issuer IDT Finance announced on 26 November a Visa Flex Card. Built on Visa Flexible Credential, it lets cardholders set preferences and pay from a fiat or supported stablecoin balance with one credential. Debit launch is expected in 2027 across Norway, Sweden, Denmark, Finland and Germany, with Poland later.",
+    "es": "Visa, la plataforma noruega de activos digitales NBX, la plataforma de tarjetas Tieto Banktech y el emisor IDT Finance anunciaron el 26 de noviembre la Visa Flex Card. Basada en Visa Flexible Credential, permite definir preferencias y pagar con un saldo fiduciario o en stablecoin admitida con una sola tarjeta. El lanzamiento en débito está previsto para 2027 en Noruega, Suecia, Dinamarca, Finlandia y Alemania, y después Polonia."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "一张卡按币种切换扣款余额",
+        "en": "One card, switchable funding balances",
+        "es": "Una tarjeta, saldos de pago intercambiables"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Visa Flex Card 由 Visa Flexible Credential 驱动。持卡人预先设定扣款偏好，付款时系统按消费币种和可用余额选择法币或受支持的稳定币账户，不必为不同资金分别持卡。Visa 举的例子是：本地货币余额用于日常消费，美元余额用于美元计价消费，从而减少换汇。",
+        "en": "The Visa Flex Card runs on Visa Flexible Credential. Cardholders set payment preferences in advance; at checkout the system draws from a fiat or supported stablecoin balance according to the purchase currency and available funds, without carrying separate cards. Visa gives the example of a local-currency balance for everyday spending and a US-dollar balance for dollar purchases.",
+        "es": "La Visa Flex Card funciona con Visa Flexible Credential. Los titulares fijan sus preferencias y, al pagar, el sistema elige entre un saldo fiduciario o en stablecoin admitida según la divisa de la compra y los fondos disponibles, sin tarjetas separadas. Visa pone como ejemplo un saldo local para gastos diarios y un saldo en dólares para compras en dólares."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "四方分工与上线市场",
+        "en": "Four roles and launch markets",
+        "es": "Cuatro funciones y mercados de lanzamiento"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "NBX 提供客户与美元稳定币 USDM；Tieto Banktech 提供卡平台和处理；IDT Finance 提供 BIN 赞助与发卡。NBX 受挪威金融监管局监管，持有 MiCA 加密资产服务商牌照与电子货币机构牌照，并在欧洲经济区发行 USDM。",
+        "en": "NBX brings the customers and the US-dollar stablecoin USDM; Tieto Banktech supplies the card platform and processing; IDT Finance provides BIN sponsorship and issuing. NBX is supervised by Norway's Finanstilsynet, holds a MiCA CASP licence and an EMI licence, and issues USDM in the EEA.",
+        "es": "NBX aporta los clientes y la stablecoin en dólares USDM; Tieto Banktech aporta la plataforma de tarjetas y el procesamiento; IDT Finance aporta el patrocinio de BIN y la emisión. NBX está supervisada por la autoridad noruega Finanstilsynet, cuenta con licencia MiCA CASP y licencia EMI, y emite USDM en el EEE."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "按公告口径，借记功能预计 2027 年先在挪威、瑞典、丹麦、芬兰和德国上线，波兰留待后续；同一 Visa 凭证日后还可接入传统信贷等资金来源。公告未披露费率、发卡量与具体上线月份。",
+        "en": "According to the announcement, debit functionality is expected in 2027 first in Norway, Sweden, Denmark, Finland and Germany, with Poland later; the same Visa credential may subsequently add sources such as traditional credit. No fees, issuing volumes or launch month were disclosed.",
+        "es": "Según el anuncio, la función de débito llegará en 2027 primero a Noruega, Suecia, Dinamarca, Finlandia y Alemania, y después a Polonia; la misma credencial Visa podría añadir después fuentes como el crédito tradicional. No se comunicaron comisiones, volúmenes de emisión ni mes de lanzamiento."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对发卡行和加密平台而言，这张卡把“多余额单凭证”从概念推到有市场名单和处理方分工的产品：Visa Flexible Credential 让同一卡号按消费场景选择资金来源，减少了为稳定币单独发卡的必要。技术上，Tieto 的卡平台加 IDT Finance 的 BIN 赞助构成可在欧洲复制的组合，其他持牌平台可照此路径接入。商业上，NBX 把 USDM 的用途从持有扩展到日常消费，发卡方获得新的账户活跃场景。费率与发卡量尚未披露，能否按期落地仍待观察。",
+    "en": "For issuers and crypto platforms, the card moves the multi-balance single credential from concept toward a product with named markets and assigned roles. Visa Flexible Credential lets one card number select the funding source by purchase context, reducing the need for a separate stablecoin card. Technically, Tieto's card platform plus IDT Finance's BIN sponsorship form a combination other licensed platforms in Europe can replicate. Commercially, NBX extends USDM from a held asset to everyday spending and gives the issuer a new reason for account activity. Fees and volumes remain undisclosed.",
+    "es": "Para emisores y plataformas cripto, la tarjeta convierte la credencial única mult-saldo en un producto con mercados y roles concretos. Visa Flexible Credential permite que un mismo número elija la fuente de pago según la compra, lo que reduce la necesidad de una tarjeta stablecoin separada. La plataforma de Tieto más el patrocinio de BIN de IDT Finance forman una combinación replicable por otros licenciados en Europa. Comercialmente, NBX amplía USDM de activo retenido a gasto cotidiano. No se dieron comisiones ni volúmenes."
+  },
+  "confidence": 0.6,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "2026-11-27-banking-v1"
+  }
+}

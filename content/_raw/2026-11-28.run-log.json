@@ -1,0 +1,112 @@
+{
+  "fetchedFor": "2026-11-28",
+  "matrix": {
+    "gap": ["cis", "mena", "latam"],
+    "cellGap": [
+      "apac/banking",
+      "apac/telecom",
+      "europe/banking",
+      "europe/telecom",
+      "north-america/banking",
+      "north-america/telecom",
+      "africa/telecom",
+      "africa/identity"
+    ],
+    "industryGap": ["telecom", "banking", "identity"],
+    "note": "index 一次通过（fetchedFor=2026-11-28，121 条，无 fetchedAt 字段）。build-matrix 计入 4 条，剔除 已发布 0／超窗 0／无日期 4／低置信 113。gaps 为 cis、mena、latam 三区；cellGap 八格来自 apac/europe/north-america/africa 的空行业；industryGap 为 telecom 7/7、banking 6/7、identity 4/7。matrix.json 未落盘，以 stdout 为准。"
+  },
+  "timing": {
+    "startedAt": "2026-11-28T01:50:41+08:00",
+    "r1At": "2026-11-28T01:51:25+08:00",
+    "r2At": "2026-11-28T01:51:37+08:00",
+    "r3At": "2026-11-28T01:51:49+08:00",
+    "r4At": "2026-11-28T01:52:40+08:00",
+    "r5At": "2026-11-28T01:52:47+08:00",
+    "r6At": "2026-11-28T01:52:58+08:00",
+    "extraAt": "2026-11-28T01:55:25+08:00",
+    "finalAt": "2026-11-28T01:55:52+08:00",
+    "writtenAt": "2026-11-28T01:56:20+08:00"
+  },
+  "phases": [
+    {
+      "phase": "R1-缺口驱动",
+      "queries": 6,
+      "at": "2026-11-28T01:51:25+08:00",
+      "basedOn": null,
+      "note": "按三个全零区各发一条区域＋链路环节产品词，另给 apac/banking、europe/telecom、africa/identity 与拉美卡/证件各发一条，均带 11-26/27 日期锚定。命中 Riyadh Air RX Pay、Safwa World Elite、BCA Syariah 双卡与 Burkina Faso 生物登记；CIS 与 telecom 查询全被旅游 eSIM 站占满。Riyadh Air 打开原文实为 2026-07-26，弃。"
+    },
+    {
+      "phase": "R2-机构驱动",
+      "queries": 5,
+      "at": "2026-11-28T01:51:37+08:00",
+      "basedOn": "R1 的区域＋产品词多为通稿与旅游页，改按发卡处理商（CorServ/Velera/Marqeta/Fiserv/FIME/Enfuce）、当地央行与制卡主体、俄乌监管机构、西语证件局及 PRNewswire 一手项目稿定向",
+      "note": "iwoca 与 Visa Flex 均已在此前 supplement 投递或被范围门剔除；乌兹别克语轮只回汇率与工资卡系统；菲律宾 PDNI 延期、圣基茨 eID 移交均与已发同线。得到匈牙利 SoftPOS 招标（11-23 超窗）与 RBI 规则线索。"
+    },
+    {
+      "phase": "R3-官方一手源",
+      "queries": 6,
+      "at": "2026-11-28T01:51:49+08:00",
+      "basedOn": "R2 的机构词未出授标，改用中文政府采购词与葡/阿/西/英采购术语，并按 R1 的 11-27 日期锚定反查公告原件",
+      "note": "中文采购词一次给出三条可用候选：辽宁统一执法证件 4 万套、贺兰身份证自助发证机 77.76 万元、邮储双界面社保卡（11-24 已投）。阿语与葡语仍只回聚合站；英文 tender 轮带出 RBI 与菲律宾延期。R3 的价值继续是顺带撞官方新闻室，不在采购标本身。"
+    },
+    {
+      "phase": "R4-行业垂直媒体",
+      "queries": 3,
+      "at": "2026-11-28T01:52:40+08:00",
+      "basedOn": "R3 已覆盖证件授标与卡规则， telecom 与卡载体仍空，改读 idtechwire、biometricupdate /202611 与 paymentsindustryintelligence 归档页找独家或深度稿",
+      "note": "三条 query 中域名限定仍返回空；idtechwire 首页 Cloudflare 520，paymentsindustryintelligence 首页停在 11-24，biometricupdate /202611 首屏 11-27 九条全是观点/eID 表态，与 index 已标注重复。归档直读三次均未产出。"
+    },
+    {
+      "phase": "R5-新兴术语",
+      "queries": 3,
+      "at": "2026-11-28T01:52:47+08:00",
+      "basedOn": "R4 归档只见观点稿且 URL 已标注，改用 mDL issuance、verifiable credential pilot、age assurance、quantum-safe card、iSIM、eSIM orchestration、SGP.32 等尚未通用表述反查",
+      "note": "中国十一部门分布式数字身份规定命中；其余为印尼 VC 训练营（已发同线）、Mastercard 量子咨询（非卡凭证）、SGP.32 讲解页与旅游 eSIM。telecom 仍靠术语轮拿到 GSMA 论坛两条线索。"
+    },
+    {
+      "phase": "R6-区域补充",
+      "queries": 6,
+      "at": "2026-11-28T01:52:58+08:00",
+      "basedOn": "R5 后 cis、mena、latam 与 north-america 仍零、africa/telecom 仍空，改俄语、西语、阿语与本地机构名重试，并单列 EMVCo/PCI 认证词，不重发前面同义 query",
+      "note": "俄语轮只回汇率与卡费率页；西语轮撞 Deel 与 Global66；阿语轮撞已弃的埃及 Meeza 与世界 Legend；非洲 SIM 轮首次给出 Camtel 授标线索；认证词全为产品说明书。六轮合计 29 条 query。"
+    },
+    {
+      "phase": "R7-定向补充",
+      "queries": 4,
+      "at": "2026-11-28T01:55:25+08:00",
+      "basedOn": "R6 已拿到 Camtel 线索但 cis/latam/europe/telecom 仍空，回查一手原文并按具体国别（哈萨克、乌兹别克、墨西哥、智利）与欧洲卡个性化厂再做一轮定向",
+      "note": "一手 Business in Cameroon 核实了金额、数量与签署日；欧洲轮带出英飞凌 LED inlay，电信轮带出中国移动/联通 GSMA 论坛稿；CIS 只有乌兹别克 11-22 的字母草案（超窗），拉美只有已发 Deel。"
+    },
+    {
+      "phase": "R8-原文与尾轮",
+      "queries": 3,
+      "at": "2026-11-28T01:55:52+08:00",
+      "basedOn": "R7 的 LED inlay 与 GSMA 论坛线索需要一手核验，同时补拉美与 MENA 身份线",
+      "note": "英飞凌稿、联通稿、WhatsApp 稿逐篇核对；乌兹别克护照字母草案发布 11-22 超窗；秘鲁 RENIEC、中东国民身份词均为旧科普页，未补到新条目。"
+    },
+    {
+      "phase": "R9-最后一轮",
+      "queries": 4,
+      "at": "2026-11-28T01:55:52+08:00",
+      "basedOn": "R8 后 mena、latam、north-america 仍零，换以色列/土耳其/埃及/摩洛哥具体主体、巴西央行原文、美国州 DMV 与阿语措辞最后一轮",
+      "note": "埃及 Meeza 已于 11-24 发过同一事件线；Kiwe 卡发布 11-23 超窗；巴西央行收紧循环信贷此前已按范围门弃（改的是授信规则不是卡形态）；美国 mobile ID 全部为 11-18 上线或更早已发线。四区缺口保持不变。"
+    }
+  ],
+  "queryTotal": 40,
+  "queryNote": "九轮共 40 条 WebSearch（6/5/6/3/3/6/4/3/4），R1 达下限 6，R2 达 5，R3 达 6，R4 达 3，R5 达 3，R6 达 6，R3 起每轮均写 basedOn；另 3 次归档页直读、20 次原文 WebFetch 核验。每轮结束均有 date -Iseconds 实测，R8 与 R9 连续执行、共用同一实测时刻。",
+  "verifiedButDropped": [
+    "Riyadh Air RX Pay 品牌卡（gulfconstructiononline）——WebFetch 原文发布日期为 2026-07-26，超窗数月",
+    "Safwa Islamic Bank Fakher World Elite Mastercard（mena-fintechnexus 11-24）——发布日距开跑约 4 天，超 72 小时",
+    "BCA Syariah 两张 Visa 借记卡（asiadaily）——仅有 11-27 预售登记，无一手发布日与发卡量",
+    "埃及 Meeza Tap & Pay（Analytics Insight 11-26）——2026-11-24-banking-02 已发同一事件线",
+    "Kiwe×Banque Misr/Visa/Meeza 卡（fintechnews.ae 11-23）——发布超窗",
+    "NBX×Visa Flex Card（11-26）——11-27 已按范围门剔除，标的是稳定币余额支付",
+    "巴西央行收紧信用卡循环额度（11-25/26）——11-27 已按范围门剔除，改的是授信规则不是卡形态",
+    "乌兹别克斯坦新字母改写护照/ID MRZ 草案（effect.uz 11-22）——发布超窗",
+    "菲律宾 PDNI 投标延期（biometricupdate/philsys）——2026-11-27.supplement 已投递",
+    "塞浦路斯生物身份证父母姓名选项（alphanews）——原文被 Cloudflare 拦截，无法核验发布日期",
+    "塞内加尔矿工生物识别二维码卡（saharawire）——URL 跳首页，无法核对日期与条目",
+    "康涅狄格/北卡/犹他 Apple Wallet 排期与美国 mobile ID 稿——均为 11-18 上线或更早已发线"
+  ],
+  "output": "content/_raw/2026-11-28.supplement.json，9 条：africa/telecom 1、africa/banking 1、apac/banking 1、apac/identity 3、apac/telecom 1、europe/banking 1、global/telecom 1。cis、mena、latam 三区零条；europe/telecom、north-america/banking、north-america/telecom、africa/identity 四格未补；telecom 落到 africa/apac/global 三格。"
+}

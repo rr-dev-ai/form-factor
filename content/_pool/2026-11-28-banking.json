@@ -1,0 +1,1129 @@
+{
+  "date": "2026-11-28",
+  "industry": "banking",
+  "startedAt": "2026-11-28T02:30:23+08:00",
+  "drafts": [
+    {
+      "id": "2026-11-28-banking-03",
+      "slug": "frasers-plus-virtual-visa-card-uk",
+      "industry": "banking",
+      "region": "europe",
+      "regions": [],
+      "tags": [
+        "issuing",
+        "digital-wallet"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "IBS Intelligence",
+          "url": "https://ibsintelligence.com/ibsi-news/frasers-group-partners-with-visa-to-launch-virtual-payments-card",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "Frasers 联手 Visa 发虚拟卡，积分走出自有商户",
+        "en": "Frasers and Visa issue a virtual card that earns points outside the group",
+        "es": "Frasers y Visa emiten una tarjeta virtual que acumula puntos fuera del grupo"
+      },
+      "summary": {
+        "zh": "Frasers Group 与 Visa 推出 Frasers Plus Virtual Visa Card，英国合格客户可在 Visa 受理商户使用并累积积分，首阶段预计 2027 年初启动。卡把原有二维码支付扩展到 Apple Wallet 与 Google Wallet 非接支付。",
+        "en": "Frasers Group and Visa unveiled the Frasers Plus Virtual Visa Card for eligible UK customers: it earns points at Visa merchants beyond the group, with a first rollout expected in early 2027. The card moves Frasers Plus from QR payments to contactless through Apple Wallet and Google Wallet.",
+        "es": "Frasers Group y Visa presentaron la Frasers Plus Virtual Visa Card para clientes británicos elegibles: acumula puntos en comercios Visa ajenos al grupo, con una primera fase prevista para principios de 2027. La tarjeta sustituye el pago por QR por pagos sin contacto en Apple Wallet y Google Wallet."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "零售商信用扩展到 Visa 受理网络",
+            "en": "Retail credit extends to the Visa network",
+            "es": "El crédito minorista se extiende a la red Visa"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "Frasers Group Financial Services 开发的 Frasers Plus Virtual Visa Card 面向英国合格客户。此前 Frasers Plus 只能在集团品牌与合作商户使用，新卡把账户、账单和积分放进同一个 App，可在接受 Visa 的商户付款、分期并赚取积分，积分可回到 Sports Direct、FLANNELS、Harvey Nichols 与 Lookfantastic 等品牌消费。",
+            "en": "Developed by Frasers Group Financial Services, the Frasers Plus Virtual Visa Card is for eligible UK customers. Frasers Plus previously worked only inside the group and its partners. The new card puts the account, bill and rewards in one app and lets customers pay, spread cost and earn points at any Visa merchant; points can be redeemed at Sports Direct, FLANNELS, Harvey Nichols and Lookfantastic.",
+            "es": "Desarrollada por Frasers Group Financial Services, la Frasers Plus Virtual Visa Card se dirige a clientes británicos elegibles. Antes Frasers Plus funcionaba solo dentro del grupo y sus aliados. La nueva tarjeta reúne cuenta, factura y recompensas en una app y permite pagar, fraccionar y acumular puntos en cualquier comercio Visa; los puntos se canjean en Sports Direct, FLANNELS, Harvey Nichols y Lookfantastic."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "受理路径与推出节奏",
+            "en": "Acceptance path and rollout",
+            "es": "Aceptación y despliegue"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "在 Frasers 自有品牌消费仍走集团自己的支付基础设施，沿用原 Frasers Plus 定价与积分；其他商户交易改走 Visa 网络。新卡把集团门店和线上的二维码支付扩展为 Apple Wallet 与 Google Wallet 中的非接支付，符合条件的用户在 App 内接受更新条款即可开通，无需另行申请。首阶段预计 2027 年初开始。",
+            "en": "Purchases at Frasers brands still run over the group own payment infrastructure at existing Frasers Plus pricing and rewards; transactions elsewhere are routed over Visa. The card takes group stores and online checkout from QR codes to contactless in Apple Wallet and Google Wallet. Eligible customers activate it in the app by accepting updated terms, without a separate application. The first phase is expected to begin in early 2027.",
+            "es": "Las compras en marcas del grupo siguen usando su infraestructura de pago con los precios y puntos actuales; el resto se enruta por la red Visa. La tarjeta lleva las tiendas y el canal online del QR al pago sin contacto en Apple Wallet y Google Wallet. Los clientes elegibles la activan en la app aceptando nuevas condiciones, sin solicitud adicional. La primera fase comenzará,a principios de 2027."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "对卡组织与零售商金融服务而言，这张卡把封闭 loop 的商店信用改造成可在 Visa 网络流通的凭证，同时保留自有商户的原定价与受理通道，属于两条轨道并行的产品设计。技术上，从二维码转到钱包内非接意味着门店终端与 App 开户流程都要支持同一凭证，收单侧在集团外按普通 Visa 交易处理。商业上，Frasers 借积分把集团外消费拉回自有品牌，Visa 增加一个把零售商信用客户带进网络的入口。公告未给出发卡量、信用额度或积分兑换率，首阶段仅在 2027 年初开始，规模仍待观察。",
+        "en": "For schemes and retail financial services, the card turns a closed-loop store credit product into a credential usable across Visa while keeping the group original pricing and acceptance route, so two rails run in parallel. Moving from QR codes to wallet contactless means store terminals and the app onboarding flow must support the same credential, while outside acquirers see an ordinary Visa transaction. Frasers uses points to pull outside spending back into its brands, and Visa gains a route for retail credit customers onto its network. No issuance volumes, credit limits or redemption rates were given, and the first phase starts only in early 2027.",
+        "es": "Para esquemas y servicios financieros minoristas, la tarjeta convierte un crédito de tienda cerrado en una credencial usable en Visa, manteniendo en paralelo la ruta propia de aceptación y precios del grupo. Pasar del QR al pago sin contacto en la cartera exige que terminales y app gestionen la misma credencial; fuera del grupo, el adquirente ve una operación Visa ordinaria. Frasers usa los puntos para atraer gasto externo a sus marcas y Visa gana una vía de entrada de clientes de crédito minorista. No se dieron volúmenes, límites ni tasas de canje, y la primera fase empieza recién a principios de 2027."
+      },
+      "confidence": 0.6,
+      "ai": {
+        "model": "claude-opus-6",
+        "promptVersion": "2026-11-28-banking-v1"
+      }
+    },
+    {
+      "id": "2026-11-28-banking-04",
+      "slug": "metamask-card-japan-thailand-vietnam",
+      "industry": "banking",
+      "region": "apac",
+      "regions": [],
+      "tags": [
+        "issuing",
+        "digital-wallet"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "BigGo Finance",
+          "url": "https://finance.biggo.com/news/e814a30a-83d5-40d4-9620-ff68389465db",
+          "lang": "en"
+        },
+        {
+          "name": "Coins News",
+          "url": "https://coinsnews.com/metamask-card-expands-to-japan-thailand-and-vietnam-bringing-crypto-to-mastercard",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "MetaMask 卡进入日本、泰国与越南",
+        "en": "MetaMask Card expands to Japan, Thailand and Vietnam",
+        "es": "MetaMask Card llega a Japón, Tailandia y Vietnam"
+      },
+      "summary": {
+        "zh": "MetaMask 于 11 月 25 日宣布，其绑定自托管钱包的 Mastercard 虚拟卡在日本、泰国与越南上线。卡由 Immersve 依 Mastercard 许可发行，用 mUSD 在支付时换成当地法币，日本境内商户消费不收费。",
+        "en": "MetaMask said on 25 November that its Mastercard virtual card tied to a self-custodial wallet went live in Japan, Thailand and Vietnam. Immersve issues the card under a Mastercard licence; mUSD is converted to local fiat at payment, with no fee for domestic Japanese merchants.",
+        "es": "MetaMask anunció el 25 de noviembre que su tarjeta virtual Mastercard ligada a una cartera autocustodiada se lanzó en Japón, Tailandia y Vietnam. Immersve la emite con licencia Mastercard; mUSD se convierte a moneda local en el pago, sin cargo en comercios japoneses."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "自托管钱包直接接 Mastercard",
+            "en": "Self-custodial wallet plugged into Mastercard",
+            "es": "Cartera autocustodiada conectada a Mastercard"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "MetaMask 11 月 25 日通过官方渠道宣布 MetaMask Card 在日本、泰国与越南上线。这张虚拟借记卡由 Immersve Limited 依 Mastercard 许可发行，绑定 App 内自托管的 MetaMask Money 账户。用户用其中锚定美元的 mUSD 支付，Mastercard 商户结账时按所需金额即时换成日元等本地法币，线上可填卡号，线下可加入 Apple Pay 或 Google Pay 拍卡。",
+            "en": "MetaMask announced on 25 November that MetaMask Card went live in Japan, Thailand and Vietnam. The virtual debit card is issued by Immersve Limited under a Mastercard licence and linked to the self-custodial MetaMask Money account inside the app. Users pay from its dollar-pegged mUSD balance; the required amount is converted into yen or another local currency at a Mastercard checkout, with card details for online purchases and Apple Pay or Google Pay for taps in store.",
+            "es": "MetaMask anunció el 25 de noviembre que MetaMask Card se lanzó en Japón, Tailandia y Vietnam. La tarjeta virtual de débito la emite Immersve Limited con licencia Mastercard y se vincula a la cuenta autocustodiada MetaMask Money en la app. Los pagos salen del saldo mUSD anclado al dólar y se convierten a yenes u otra moneda local en el checkout Mastercard; los datos sirven para compras online y Apple Pay o Google Pay para pagos en tienda."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "额度、费用与市场确认",
+            "en": "Limits, fees and market confirmation",
+            "es": "Límites, comisiones y confirmación de mercados"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "日本版卡片无年费，境内商户用 mUSD 支付不另收费，单笔限额 1 万美元、每日 1.5 万美元，暂不支持 ATM 取现。相关报道同时指出，MetaMask 官方支持页面只列出日本为可用市场，泰国与越南的本地注册条件尚未公开确认；mUSD 兑换交易的对手方也未在材料中说明。",
+            "en": "The Japanese card has no annual fee and no charge for mUSD payments at domestic merchants, with a 10,000-dollar per-transaction and 15,000-dollar daily limit and no ATM withdrawals. Coverage also notes that MetaMask published support pages list Japan as available while local registration for Thailand and Vietnam is not yet confirmed, and the counterparty for mUSD conversion is not identified in the materials.",
+            "es": "La tarjeta japonesa no tiene cuota anual ni cargo por pagos con mUSD en comercios locales, con límite de 10.000 dólares por operación y 15.000 al día, sin retiradas en cajero. Los informes señalan además que las páginas oficiales solo confirman Japón como mercado disponible, sin confirmar el registro local en Tailandia y Vietnam, y que no se identifica a la contraparte de la conversión de mUSD."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "对发卡方与稳定币平台而言，这把“自托管余额直达卡网络”的组合扩到三个亚洲市场：资金在结账前留在用户钱包，收单侧仍看到普通 Mastercard 交易，商户无需部署加密受理。技术上，mUSD 在授权时换成法币，与先充值到托管预付卡的产品不同；Immersve 作为持牌发卡方承担 BIN 与网络合规。商业上，日本单笔 1 万美元的额度把它推向大额消费场景，但泰国与越南的注册状态、兑换对手方与费率仍未澄清，不能把公告的可用范围等同于三地居民都能办卡。",
+        "en": "For issuers and stablecoin platforms, this extends the self-custodied-balance-to-card-rail combination into three Asian markets: funds stay in the user wallet until checkout while acquirers see an ordinary Mastercard transaction and merchants need no crypto acceptance. Technically, mUSD is converted at authorisation, unlike products that require a pre-funded custodial card, and Immersve carries BIN and scheme compliance as licensee. The 10,000-dollar Japanese limit points to large-ticket spend. Registration in Thailand and Vietnam and the conversion counterparty remain unconfirmed, so the announcement is not proof that residents of all three markets can apply.",
+        "es": "Para emisores y plataformas de stablecoin, esto lleva la combinación de saldo autocustodiado directo a la red de tarjetas a tres mercados asiáticos: los fondos permanecen en la cartera del usuario hasta el pago y el adquirente ve una operación Mastercard ordinaria, sin aceptación cripto en el comercio. mUSD se convierte en la autorización, a diferencia de las tarjetas prepago custodiadas, e Immersve asume el BIN y el cumplimiento del esquema. El límite japonés de 10.000 dólares apunta a compras grandes. El registro en Tailandia y Vietnam y la contraparte de conversión siguen sin confirmarse, así que el anuncio no prueba que residentes de los tres mercados puedan solicitarla."
+      },
+      "confidence": 0.55,
+      "ai": {
+        "model": "claude-opus-6",
+        "promptVersion": "2026-11-28-banking-v1"
+      }
+    },
+    {
+      "id": "2026-11-28-banking-06",
+      "slug": "prezzee-unionpay-digital-gift-card-australia",
+      "industry": "banking",
+      "region": "apac",
+      "regions": [],
+      "tags": [
+        "issuing",
+        "digital-wallet"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "eCommerce News",
+          "url": "https://www.ecommercenews.com.au/news/prezzee-launches-digital-gift-cards-on-unionpay-network",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "Prezzee 在澳大利亚发行银联网络数字礼品卡",
+        "en": "Prezzee issues UnionPay-network digital gift cards in Australia",
+        "es": "Prezzee emite tarjetas regalo digitales sobre la red UnionPay en Australia"
+      },
+      "summary": {
+        "zh": "Prezzee 与银联国际 11 月 26 日宣布在澳大利亚推出 PrezzeePay：纯数字预付卡走银联网络，可在境内外受理银联的线上与线下商户分次使用，并支持 Apple Pay 或 App 内非接支付。目前仅在澳大利亚销售。",
+        "en": "Prezzee and UnionPay International announced PrezzeePay in Australia on 26 November: a digital-only prepaid card on the UnionPay network, usable in multiple transactions at online and in-store merchants in Australia and abroad, with Apple Pay or in-app contactless payments. Sales are limited to Australia for now.",
+        "es": "Prezzee y UnionPay International anunciaron el 26 de noviembre PrezzeePay en Australia: una tarjeta prepago solo digital sobre la red UnionPay, usable en varias operaciones online y en tienda dentro y fuera del país, con Apple Pay o pago sin contacto en la app. Por ahora solo se vende en Australia."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "礼品卡改走开放卡网络",
+            "en": "Gift cards move onto an open card network",
+            "es": "Tarjetas regalo pasan a una red abierta"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "Prezzee 与银联国际合作在澳大利亚推出 PrezzeePay。传统礼品卡绑定单一零售商，这张卡改为银联预付卡结构：只要商户受理银联，线上可填卡号支付，线下可把卡加入 Apple Wallet 用 Apple Pay，安卓用户在 App 内用非接支付。卡内余额可分多次用完，不能充值，也不能取现。",
+            "en": "Prezzee partnered with UnionPay International to launch PrezzeePay in Australia. Instead of a single-retailer voucher, the product uses a UnionPay prepaid card structure: card details work online wherever UnionPay is accepted, the card can enter Apple Wallet for Apple Pay, and Android users pay contactless in the app. The balance can be spent across multiple transactions; the card cannot be reloaded or used at ATMs.",
+            "es": "Prezzee se alió con UnionPay International para lanzar PrezzeePay en Australia. En lugar de un vale de un solo comercio, el producto usa una estructura de tarjeta prepago UnionPay: los datos sirven online donde se acepte UnionPay, la tarjeta puede añadirse a Apple Wallet para Apple Pay y en Android se paga sin contacto en la app. El saldo se gasta en varias operaciones; no se puede recargar ni usar en cajeros."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "发行主体与市场范围",
+            "en": "Issuer and market scope",
+            "es": "Emisor y alcance de mercado"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "PrezzeePay 是 Prezzee 的全资子公司，持有澳大利亚金融服务牌照以发行受监管的卡产品。银联国际称其卡在 183 个国家和地区受理，中国大陆以外有超过 1.1 亿商户和 180 万台 ATM；Prezzee 表示这张卡对中国大陆旅行场景尤其有用。目前卡片只能在澳大利亚购买，Prezzee 同时把它作为品牌礼品与忠诚度项目的白牌基础。",
+            "en": "PrezzeePay is a wholly owned subsidiary holding an Australian financial services licence to issue regulated card products. UnionPay International says its cards are accepted in 183 countries and regions, with over 110 million merchants and 1.8 million ATMs outside mainland China; Prezzee points to travel to mainland China as a use case. The card is currently sold only in Australia, and Prezzee also positions it as a base for branded gifting and loyalty programmes.",
+            "es": "PrezzeePay es una filial totalmente participada con licencia australiana de servicios financieros para emitir productos de tarjeta regulados. UnionPay International afirma que sus tarjetas se aceptan en 183 países y regiones, con más de 110 millones de comercios y 1,8 millones de cajeros fuera de China continental; Prezzee destaca los viajes a China continental como caso de uso. La tarjeta solo se vende en Australia y Prezzee la ofrece también como base para programas de regalo y fidelidad de marca."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "对礼品卡发行方与收单方而言，PrezzeePay 把原本闭环的商户券换成一张走银联受理网络的预付卡：品牌方无需改造门店 POS，就能让礼品余额在境内外多种商户分次花掉。技术上，卡片只存在于 App 与钱包，安卓靠 App 内非接、iPhone 靠 Apple Wallet，收单端按普通银联预付卡处理。商业上，Prezzee 借 1500 多个品牌合作方把礼品卡做成可白牌的卡项目，银联则拿到澳大利亚的发行入口。销售范围暂限澳大利亚，跨境受理能力来自银联网络，不等于当地居民可在所有市场购卡或充值。",
+        "en": "For gift-card issuers and acquirers, PrezzeePay replaces a closed-loop store voucher with a prepaid card on UnionPay acceptance: brands do not need to change POS systems, yet the balance can be spent across merchants at home and abroad. The card exists only in the app and wallet, with in-app contactless on Android and Apple Wallet on iPhone; acquirers see an ordinary UnionPay prepaid card. Prezzee uses its 1,500-plus brand partners to turn gifting into a white-label card programme, while UnionPay gains an Australian issuance entry point. Sales remain limited to Australia, and overseas acceptance comes from the scheme rather than a local issuance or top-up capability.",
+        "es": "Para emisores de tarjetas regalo y adquirentes, PrezzeePay sustituye el vale cerrado por una tarjeta prepago sobre la red UnionPay: las marcas no necesitan modificar el TPV y el saldo se gasta en distintos comercios dentro y fuera del país. La tarjeta vive solo en la app y la cartera, con pago sin contacto en Android y Apple Wallet en iPhone; el adquirente ve una tarjeta prepago UnionPay ordinaria. Prezzee usa sus más de 1.500 marcas aliadas para convertir el regalo en un programa de tarjeta de marca blanca, y UnionPay gana una vía de emisión en Australia. La venta sigue limitada al país y la aceptación internacional depende del esquema, no de emisión o recarga local."
+      },
+      "confidence": 0.5,
+      "ai": {
+        "model": "claude-opus-6",
+        "promptVersion": "2026-11-28-banking-v1"
+      }
+    },
+    {
+      "id": "2026-11-28-banking-08",
+      "slug": "krak-usdc-secured-credit-cards-waitlist",
+      "industry": "banking",
+      "region": "north-america",
+      "regions": [],
+      "tags": [
+        "issuing",
+        "digital-wallet"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "Business Wire",
+          "url": "https://www.businesswire.com/news/home/20261124881707/en/Krak-Expands-U.S.-Card-Lineup-With-Two-New-Credit-Cards-Offering-Up-to-4-Cashback-in-USD-or-Bitcoin",
+          "lang": "en",
+          "publishedAt": "2026-11-24T14:02:00-05:00"
+        },
+        {
+          "name": "Unchained",
+          "url": "https://unchainedcrypto.com/krakens-krak-moves-into-credit-with-two-us-cards-one-backed-by-a-usdc-deposit",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "Krak 开放两张美国信用卡候补，一张由 USDC 存款担保",
+        "en": "Krak opens waitlist for two US cards, one secured by USDC deposit",
+        "es": "Krak abre lista de espera para dos tarjetas estadounidenses, una garantizada con depósito USDC"
+      },
+      "summary": {
+        "zh": "Kraken 母公司 Payward 旗下 Krak 在美国开放两张 Visa Signature 信用卡候补：Krak Credit Card 与 Krak Secured Card。担保卡以账户内 USDC 稳定币存款作为额度抵押，该存款同时可赚最高 4% 年化；两卡返现最高 4%，由 First Electronic Bank 发卡、Cardless 管理，计划 2027 年初发货。",
+        "en": "Krak, the money app run by Kraken parent Payward, opened a US waitlist for two Visa Signature credit cards: the Krak Credit Card and the Krak Secured Card. The secured card uses a USDC deposit in the account as collateral while that deposit can earn up to 4% APY; both pay up to 4% cashback. First Electronic Bank will issue them and Cardless will manage the programmes, with shipping expected in early 2027.",
+        "es": "Krak, la app de pagos de Payward, matriz de Kraken, abrió en EE. UU. una lista de espera para dos tarjetas Visa Signature: Krak Credit Card y Krak Secured Card. La garantiza un depósito en USDC en la cuenta, que a la vez puede rendir hasta un 4 % anual; ambas devuelven hasta un 4 %. First Electronic Bank las emitirá y Cardless gestionará los programas, con envíos previstos para comienzos de 2027."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "两张卡面向不同信用人群",
+            "en": "Two cards for different credit profiles",
+            "es": "Dos tarjetas para perfiles de crédito distintos"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "普通卡面向已有信用记录的人；担保卡面向信用记录薄或受损的人，其额度由 Krak 账户内的 USDC 存款支撑，这笔存款在 Krakpass 会员下同时可获最高 4% 年化收益。两卡均为 Visa Signature，由 First Electronic Bank 依 Visa 牌照发行，Cardless 负责项目管理、技术与客服。",
+            "en": "The standard card targets people with an established credit history; the secured card targets thin or damaged files, with its limit backed by USDC held in the Krak account, which can earn up to 4% APY for Krakpass members. Both are Visa Signature cards issued by First Electronic Bank under Visa licence, with Cardless handling programme management, technology and servicing.",
+            "es": "La tarjeta estándar se dirige a personas con historial crediticio consolidado; la garantizada a quienes tienen historial escaso o dañado, con un límite respaldado por USDC en la cuenta, que puede rendir hasta un 4 % anual para socios Krakpass. Ambas son Visa Signature emitidas por First Electronic Bank bajo licencia Visa, con Cardless a cargo de la gestión, la tecnología y el servicio."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "返现分档与上线时间",
+            "en": "Cashback tiers and timing",
+            "es": "Tramos de reembolso y calendario"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "返现以美元或比特币计入，按余额分档：余额不足 1000 美元为 1%，达到 15 万美元为 4%；3% 至 4% 档只适用于每月前 1 万美元消费。Krak 于 11 月 24 日开放候补，计划 2027 年初发货，并非所有州都提供。会员费每月 6.29 美元，月直接存款超过 3000 美元可免。",
+            "en": "Cashback is paid in dollars or bitcoin, tiered by balance: 1% below USD 1,000 and 4% at USD 150,000 or more; the 3%–4% tiers apply only to the first USD 10,000 of monthly spend. Krak opened the waitlist on 24 November and expects to ship in early 2027, not in every state. Membership costs USD 6.29 a month, waived with more than USD 3,000 in monthly direct deposits.",
+            "es": "El reembolso se paga en dólares o bitcoin por tramos según saldo: 1 % por debajo de 1.000 USD y 4 % desde 150.000 USD; los tramos del 3 % al 4 % solo se aplican a los primeros 10.000 USD de gasto mensual. Krak abrió la lista el 24 de noviembre y prevé enviarlas a comienzos de 2027, no en todos los estados. La membresía cuesta 6,29 USD mensuales, exonerados con más de 3.000 USD de depósitos directos al mes."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "对发卡方而言，这条把稳定币存款从“可生息资产”接到传统信用额度上：USDC 同时承担抵押物和收益来源，让缺少信用记录但持有数字资产的人进入信用卡体系。技术上依赖发卡行、项目方与钱包的三方分工，属于可以在其他市场复制的组合。商业上，候补名单与会员绑定把卡产品变成留存工具，而非单笔交易产品。尚未发货，利率与各项费用未公布，实际信用成本要等条款齐全才判得准。",
+        "en": "For issuers, the card links a stablecoin deposit to a traditional credit line: USDC serves as both collateral and a yield-bearing asset, bringing people with thin credit files but digital assets into the card system. Technically it relies on a three-way split between issuer, programme manager and wallet, a combination reproducible in other markets. Commercially, tying the waitlist to membership turns the card into a retention tool rather than a single-transaction product. Shipping has not begun and rates and fees are undisclosed, so actual credit cost cannot yet be judged.",
+        "es": "Para los emisores, la tarjeta conecta un depósito stablecoin con una línea de crédito tradicional: el USDC sirve a la vez como garantía y como activo generador de rendimiento, e integra en el sistema de tarjetas a personas con historial escaso pero activos digitales. Técnicamente depende de una división tripartita entre emisor, gestor del programa y billetera, reproducible en otros mercados. Comercialmente, vincular la lista de espera a la membresía convierte la tarjeta en una herramienta de retención. Aún no se envían y no se dieron tasas ni comisiones."
+      },
+      "confidence": 0.5,
+      "ai": {
+        "model": "claude-opus-6",
+        "promptVersion": "2026-11-27-banking-v1"
+      }
+    },
+    {
+      "id": "2026-11-28-banking-09",
+      "slug": "basis-card-waitlist-same-asset-cashback",
+      "industry": "banking",
+      "region": "global",
+      "regions": [],
+      "tags": [
+        "issuing",
+        "digital-wallet"
+      ],
+      "originalLang": "en",
+      "sources": [
+        {
+          "name": "BASIS Insights",
+          "url": "https://insights.basis.pro/basis-card-applications-open-cashback-asset-spent",
+          "lang": "en"
+        }
+      ],
+      "title": {
+        "zh": "BASIS 开放卡申请，返沿用消费的同一资产",
+        "en": "BASIS opens card waitlist with cashback in the asset spent",
+        "es": "BASIS abre lista de espera con recompensas en el activo gastado"
+      },
+      "summary": {
+        "zh": "数字资产基础设施公司 BASIS 11 月 27 日开放 BASIS Card 首轮申请。Standard 与 Platinum 两档按质押仓位分资格，返现直接计入消费所用资产而非 USDT；首轮申请 12 月 31 日截止，最终发卡仍由合作发行方审核。",
+        "en": "Digital-asset infrastructure firm BASIS opened first-round applications for the BASIS Card on 27 November. Standard and Platinum tiers are gated by staked positions, and cashback is credited in the asset spent rather than USDT. Applications close on 31 December; final issuance remains subject to the issuing partner approval.",
+        "es": "La empresa de infraestructura de activos digitales BASIS abrió el 27 de noviembre la primera ronda de solicitudes de BASIS Card. Las categorías Standard y Platinum dependen del saldo en staking y la recompensa se abona en el activo gastado, no en USDT. El plazo cierra el 31 de diciembre y la emisión final depende del socio emisor."
+      },
+      "body": [
+        {
+          "kind": "h",
+          "text": {
+            "zh": "返现币种与消费币种绑定",
+            "en": "Cashback denominated in the spent asset",
+            "es": "Recompensa denominada en el activo gastado"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "BASIS 11 月 27 日宣布开放 BASIS Card 首轮等待名单申请。符合条件的消费完成后，返现计入资金钱包，使用的币种与消费时支付的资产相同：用 BTC 支付返 BTC，用 ETH 支付返 ETH，也支持 SOL 与 PAXG。返现不会自动转成 USDT，也不会自动进入质押仓位，用户自行决定后续处理。",
+            "en": "BASIS announced on 27 November that first-round waitlist applications for the BASIS Card are open. After an eligible purchase settles, cashback is credited to the funding wallet in the same asset used to pay: BTC spending returns BTC, ETH returns ETH, with SOL and PAXG also listed. The credit is not converted to USDT and does not enter a staking position automatically.",
+            "es": "BASIS anunció el 27 de noviembre la apertura de la primera lista de espera de BASIS Card. Tras liquidarse una compra elegible, la recompensa se abona en la cartera de fondos en el mismo activo usado al pagar: gastar BTC devuelve BTC y gastar ETH devuelve ETH, con SOL y PAXG también incluidos. El abono no se convierte a USDT ni entra automáticamente en staking."
+          }
+        },
+        {
+          "kind": "h",
+          "text": {
+            "zh": "分档门槛与申请流程",
+            "en": "Tier thresholds and application flow",
+            "es": "Umbrales por categoría y proceso de solicitud"
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "每张卡分 Standard 与 Platinum 两档：Standard 是黑色复合材质，基础返现 3%、首发 90 天 5%；Platinum 为金属卡，基础 5%、首发期 10%。申请时钱包合格资产至少 1000 美元，Standard 需 1000 美元有效质押、Platinum 需 1 万美元，提交与截止时各核一次。首轮申请 12 月 31 日 23:59 UTC 截止，每账户限一份。",
+            "en": "The card has Standard and Platinum tiers: the matte-black composite Standard returns 3% base cashback and 5% during a 90-day Launch Boost, while the metal Platinum returns 5% base and 10% during the boost. Applicants need at least 1,000 dollars of eligible wallet value, plus 1,000 dollars active staking for Standard or 10,000 dollars for Platinum, checked at submission and closing. The first round ends on 31 December at 23:59 UTC, one application per account.",
+            "es": "La tarjeta tiene dos categorías: Standard, de composite negro mate, devuelve 3 % base y 5 % durante 90 días de Launch Boost; Platinum, metálica, devuelve 5 % base y 10 % en el periodo de lanzamiento. Los solicitantes necesitan al menos 1.000 dólares en valor de cartera elegible, más 1.000 dólares en staking activo para Standard o 10.000 para Platinum, verificado al enviar y al cerrar. La primera ronda termina el 31 de diciembre a las 23:59 UTC, una solicitud por cuenta."
+          }
+        },
+        {
+          "kind": "p",
+          "text": {
+            "zh": "BASIS 在文件中写明等待名单获批不等于最终发卡：申请还要经 KYC 与合作发行方审核，公告未具名发行方、卡组织、可用地区或终端类型。卡片为实体复合材质或金属卡，文件同时列出制卡费、换卡费、ATM 额度与外汇费率。",
+            "en": "BASIS states in its documentation that waitlist approval is not final issuance: applicants still undergo KYC and a review by the issuing partner. The announcement does not name that issuer, the card network, available regions or terminal types. The cards are physical composite or metal products, and the documentation lists issuance, replacement, ATM and foreign-exchange terms.",
+            "es": "BASIS indica en su documentación que aprobar la lista de espera no equivale a emitir la tarjeta: los solicitantes pasan KYC y una revisión del socio emisor. El anuncio no nombra a ese emisor, la red de tarjetas, las regiones disponibles ni los tipos de terminal. Las tarjetas son físicas, de composite o metal, y la documentación detalla comisiones de emisión, reposición, cajero y cambio de divisa."
+          }
+        }
+      ],
+      "whyItMatters": {
+        "zh": "对发卡项目与加密平台而言，这张卡把返现从积分或平台代币改成与消费资产同币种结算，资金钱包与质押仓位被明确分开，产品设计上少了一步换成 USDT 的决策。技术上，分档门槛把质押状态直接接到发卡资格，标准卡与金属卡的费率和返现上限都写进公开条款，方便合作方核对。商业上，BASIS 借卡项目给自有的质押基础设施增加资金留存场景，但发行方、卡组织与可用市场都未具名，首轮只是等待名单，不能把它当作已上线的支付产品。",
+        "en": "For card programmes and crypto platforms, the product changes rewards from points or a platform token into a credit denominated in the same asset as the purchase, separating the funding wallet from the staking position and removing a conversion decision. Technically, tier eligibility is tied directly to active staked principal, with rates and caps published for a composite and a metal card so partners can check terms. Commercially, BASIS gives its staking infrastructure a new reason to hold funds. No issuer, network or available market is named, and the first round is only a waitlist, so this is not a live payment product yet.",
+        "es": "Para programas de tarjeta y plataformas cripto, el producto sustituye los puntos o tokens de la plataforma por un abono en la misma divisa del activo gastado, separando la cartera de fondos del saldo en staking y evitando una conversión a USDT. La elegibilidad por categoría depende del principal en staking activo, con tasas y topes publicados para una tarjeta de composite y otra metálica. BASIS busca así un nuevo motivo para mantener fondos en su infraestructura. No se nombra emisor, red ni mercado disponible y la primera ronda es solo una lista de espera, así que todavía no es un producto de pago en funcionamiento."
+      },
+      "confidence": 0.45,
+      "ai": {
+        "model": "claude-opus-6",
+        "promptVersion": "2026-11-28-banking-v1"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Know your customer without asking too much",
+      "url": "https://www.biometricupdate.com/202611/know-your-customer-without-asking-too-much",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Philippines signs Meta safety pact as it weighs national ID for age checks",
+      "url": "https://www.biometricupdate.com/202611/philippines-signs-meta-safety-pact-as-it-weighs-national-id-for-age-checks",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Persona links missing camera metadata to higher selfie verification failure rates",
+      "url": "https://www.biometricupdate.com/202611/persona-links-missing-camera-metadata-to-higher-selfie-verification-failure-rates",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Greece plans early 2027 launch for digital ID that works across EU borders",
+      "url": "https://www.biometricupdate.com/202611/greece-plans-early-2027-launch-for-digital-id-that-works-across-eu-borders",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "St. Kitts and Nevis prepares to issue digital ID cards after Taiwan handover",
+      "url": "https://www.biometricupdate.com/202611/st-kitts-and-nevis-prepares-to-issue-digital-id-cards-after-taiwan-handover",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Indonesia tests two wallets for government-issued credentials",
+      "url": "https://www.biometricupdate.com/202611/indonesia-tests-two-wallets-for-government-issued-credentials",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Listen: Why a TSA PreCheck pioneer wants more travelers in the fast lane",
+      "url": "https://www.biometricupdate.com/202611/listen-why-a-tsa-precheck-pioneer-wants-more-travelers-in-the-fast-lane",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "NIST facial recognition identification tests reopen with new entry rules",
+      "url": "https://www.biometricupdate.com/202611/nist-facial-recognition-identification-tests-reopen-with-new-entry-rules",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "NIST age estimation results show why rankings change by use case",
+      "url": "https://www.biometricupdate.com/202611/nist-age-estimation-results-show-why-rankings-change-by-use-case",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Australia passes Digital Duty of Care with fines tied to global revenue",
+      "url": "https://www.biometricupdate.com/202611/australia-passes-digital-duty-of-care-with-fines-tied-to-global-revenue",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "ETSI calls for a pragmatic, future-proof standardisation reform",
+      "url": "https://www.etsi.org/newsroom/news/etsis-response-nsr/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "How to Close the Visibility and Security Gap in Physical AI",
+      "url": "https://iot-now.com/2026/11/27/159542-how-to-close-the-visibility-and-security-gap-in-physical-ai/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "EBA E-mail alert 27 November, 2026",
+      "url": "https://www.eba.europa.eu/node/20308",
+      "reason": "观点或反欺诈表态，无产品名、版本或落地市场等可核具体物"
+    },
+    {
+      "title": "Jensen Huang reinstated as Nvidia CEO",
+      "url": "https://www.fierce-network.com/cloud/jensen-huang-reinstated-nvidia-ceo",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "T-Mobile is sending its leaders into retail stores to work",
+      "url": "https://www.fierce-network.com/wireless/t-mobile-sending-its-leaders-retail-stores-work",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "GeoLinks, Intracom Telecom expand licensed mmWave FWA partnership",
+      "url": "https://www.fierce-network.com/newswire/geolinks-intracom-telecom-expand-licensed-mmwave-fwa-partnership",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Connected IoT becomes the neural network of Physical AI",
+      "url": "https://www.fierce-network.com/sponsored/connected-iot-becomes-neural-network-physical-ai",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "South Korea wraps up nationwide 5G SA deployment, eyes tiered service plans",
+      "url": "https://www.lightreading.com/5g/south-korea-wraps-up-nationwide-5g-sa-deployment-eyes-tiered-service-plans",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Eurobites: Elisa, Drei claim roaming breakthrough with 5G SA",
+      "url": "https://www.lightreading.com/wireless/eurobites-elisa-drei-claim-roaming-breakthrough-with-5g-sa",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Du deploys 5G+ network at Dubai International Airport",
+      "url": "https://www.mobileeurope.co.uk/du-dxb-connectivity/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Openreach calls on critical services to migrate before PSTN switch-off",
+      "url": "https://www.mobileeurope.co.uk/openrach-pstn-switch-off-call/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "BT teams up with tech giants to help small businesses fight cyber attacks",
+      "url": "https://www.mobileeurope.co.uk/bt-cyber-sme/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Skills gap threatens Europe AI productivity gains",
+      "url": "https://www.mobileworldlive.com/europe/skills-gap-threatens-europes-ai-productivity-gains-report-finds/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Telefonica rolls out 5G+ across Madrid metro",
+      "url": "https://www.mobileworldlive.com/operators/telefonica-rolls-out-5g-across-madrid-metro/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "The Friday File: Nvidia; Huawei; SpaceX",
+      "url": "https://www.mobileworldlive.com/huawei/the-friday-file-nvidia-huawei-spacex/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "South Korea unveils fresh SA push",
+      "url": "https://www.mobileworldlive.com/asia-pacific/south-korea-unveils-sa-push-to-support-fresh-applications/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Netherlands, US row escalates over ASML curbs",
+      "url": "https://www.mobileworldlive.com/europe/asml-hits-out-at-proposed-us-curbs/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Podcast: Making profit from AI-RAN",
+      "url": "https://www.mobileworldlive.com/ai-cloud/podcast-making-profit-from-ai-ran/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "La UIT pone la mira en la Luna",
+      "url": "https://www.mobileworldlive.com/spanish/la-uit-pone-la-mira-en-la-luna/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Declaran a Huawei culpable en EE. UU. mientras celebra el éxito de HarmonyOS",
+      "url": "https://www.mobileworldlive.com/spanish/declaran-a-huawei-culpable-en-ee-uu-mientras-celebra-el-exito-de-harmonyos/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Bruselas propone un fondo de 50.000 millones de euros para la tecnología cuántica",
+      "url": "https://www.mobileworldlive.com/spanish/bruselas-propone-un-fondo-de-50-000-millones-de-euros-para-la-tecnologia-cuantica/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Amazon, CVS and Walmart Compete to Help Patients Pick Their Care",
+      "url": "https://www.pymnts.com/healthcare/2026/amazon-cvs-and-walmart-compete-to-help-patients-pick-their-care/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "AI Helps Merchants Stop Holiday Fraud Without Losing Good Customers",
+      "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/ai-helps-merchants-stop-holiday-fraud-without-losing-good-customers/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "What a Small Business Plans to Do With a Loan Says a Lot About Its Growth",
+      "url": "https://www.pymnts.com/smbs/2026/what-a-small-business-plans-to-do-with-a-loan-says-a-lot-about-its-growth/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Banks’ Biggest Opportunity Is Acting Faster on What They Already Know",
+      "url": "https://www.pymnts.com/news/banking/2026/banks-biggest-opportunity-is-acting-faster-on-what-they-already-know/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Small AI Models Give Banks a Way to Keep Sensitive Data In-House",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/small-ai-models-give-banks-a-way-to-keep-sensitive-data-in-house/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Telefónica leads the rollout of high-performance 5G in the Madrid Metro",
+      "url": "https://www.telefonica.com/en/communication-room/press-room/telefonica-leads-the-rollout-of-high-performance-5g-in-the-madrid-metro/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Claro prepara segunda versão de sua API de Number Verification",
+      "url": "https://www.mobiletime.com.br/noticias/27/11/2026/claro-number-verifiy/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "IA é usada por 90% dos funcionários da Nomad no dia a dia",
+      "url": "https://www.mobiletime.com.br/noticias/27/11/2026/ia-nomad-funcionarios/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Como a tecnologia mobile transformou o chão de loja em canal estratégico",
+      "url": "https://www.mobiletime.com.br/artigos/27/11/2026/como-a-tecnologia-mobile-transformou-o-chao-de-loja-em-canal-estrategico/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "EzPay, Multipagamentos e BTG apresentam a Central de Faturas",
+      "url": "https://www.mobiletime.com.br/noticias/27/11/2026/central-de-faturas/",
+      "reason": "账单聚合展示，不在发卡、收单或清算环节"
+    },
+    {
+      "title": "PicPay lançará mais dois agentes de IA para seus clientes PJ",
+      "url": "https://www.mobiletime.com.br/noticias/26/11/2026/picpay-agentes-para-pj/",
+      "reason": "观点或反欺诈表态，无产品名、版本或落地市场等可核具体物"
+    },
+    {
+      "title": "Visa foca seus esforços em pagamentos agênticos, diz diretor",
+      "url": "https://www.mobiletime.com.br/noticias/26/11/2026/visa-esforcos-agenticos/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Pix Automático começa a ganhar tração com novos públicos, diz head do Itaú",
+      "url": "https://www.mobiletime.com.br/noticias/26/11/2026/pix-automatico-itau/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "EXA lançará em app solução que identifica golpes em mensagens de WhatsApp",
+      "url": "https://www.mobiletime.com.br/noticias/26/11/2026/exa-lancara-agente-que-i/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Inteligência artificial da Elife reduz mais de 12 mil horas de trabalho humano no BMG",
+      "url": "https://www.mobiletime.com.br/noticias/26/11/2026/elife-ia-reduz-bmg/",
+      "reason": "观点或反欺诈表态，无产品名、版本或落地市场等可核具体物"
+    },
+    {
+      "title": "Players do setor de pagamentos revelam entusiasmo com agentes de IA para pagamentos",
+      "url": "https://www.mobiletime.com.br/noticias/26/11/2026/pagamentos-agenticos/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Senacon exige que Google amplie transparência em dados sobre anúncios",
+      "url": "https://www.mobiletime.com.br/noticias/26/11/2026/senacon-google-anuncios/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Evo conclui a aquisição da Ligga Telecom",
+      "url": "https://www.mobiletime.com.br/noticias/26/11/2026/evo-aquisicao-ligga/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Mercado global de smartphones terá queda de 14% em 2026 e 6% em 2027, diz Counterpoint",
+      "url": "https://www.mobiletime.com.br/noticias/26/11/2026/smartphones-queda-2026/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "GM integra asistencia con IA a través de Gemini en sus vehículos",
+      "url": "https://dplnews.com/gm-integrara-asistencia-ia-gemini-vehiculos/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Bandas medias en 4.5GHz y 7GHz, banda baja de 600 MHz y D2D, prioridades para la CMR-27, según GSMA",
+      "url": "https://dplnews.com/4-5-ghz-7-ghz-y-conectividad-satelital-d2d-las-prioridades-de-espectro-para-la-cmr-27-segun-gsma/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Miguel Carbini, nuevo presidente de la Conatel de Paraguay",
+      "url": "https://dplnews.com/miguel-carbini-presidente-conatel-paraguay/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Venezuela y Brasil impulsarán cooperación en IA y computación cuántica",
+      "url": "https://dplnews.com/venezuela-brasil-cooperacion-ia-computacion-cuantica/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "MinTIC formuló cargos contra Starlink por señales en cárceles de Colombia",
+      "url": "https://dplnews.com/mintic-formulo-cargos-contra-starlink-por-senales-en-carceles/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Perú | ¿Cómo proteger los negocios en la era de la Inteligencia Artificial?",
+      "url": "https://dplnews.com/peru-como-proteger-los-negocios-en-la-era-de-la-inteligencia-artificial/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Perú | Claro empresas y PRODUCE impulsan la digitalización y el crecimiento de las mypes lideradas por mujeres",
+      "url": "https://dplnews.com/peru-claro-empresas-produce-impulsan-digitalizacion-crecimiento-mypes-lideradas-mujeres/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Bolivia | Monitoreo satelital para apoyar en la prevención de incendios forestales y nanosatélite, logros de la ABE",
+      "url": "https://dplnews.com/bolivia-monitoreo-satelital-apoyar-prevencion-incendios-forestales-nanosatelite-logros-abe/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Perú | MTC fortalece acompañamiento para facilitar su migración hacia la TDT a radiodifusores del Territorio 03",
+      "url": "https://dplnews.com/peru-mtc-fortalece-acompanamiento-facilitar-migracion-tdt-radiodifusores-territorio-03/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Huawei é absolvida com base na lei RICO, mas condenada por outros 10 crimes",
+      "url": "https://dplnews.com/huawei-e-absolvida-com-base-lei-rico/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "México cambia el esquema de inversión en telecomunicaciones y apuesta a un modelo híbrido liderado por Altán",
+      "url": "https://www.telesemana.com/blog/2026/11/26/mexico-cambia-el-esquema-de-inversion-en-telecomunicaciones-y-apuesta-a-un-modelo-hibrido-liderado-por-altan/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Black Friday frenzy tests SA’s e-tailers",
+      "url": "https://www.itweb.co.za/article/black-friday-frenzy-tests-sas-e-tailers/raYAyMorm187J38N",
+      "reason": "观点或反欺诈表态，无产品名、版本或落地市场等可核具体物"
+    },
+    {
+      "title": "SABC+ positioned as future money-maker",
+      "url": "https://www.itweb.co.za/article/sabc-positioned-as-future-money-maker/JN1gPvOAR5oMjL6m",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "ITWeb TV: AI-enabled fraud targets South African retirees",
+      "url": "https://www.itweb.co.za/article/itweb-tv-ai-enabled-fraud-targets-south-african-retirees/Gb3Bw7WaGrpq2k6V",
+      "reason": "观点或反欺诈表态，无产品名、版本或落地市场等可核具体物"
+    },
+    {
+      "title": "SA developer builds open source alternative to Bitcoin",
+      "url": "https://www.itweb.co.za/article/sa-developer-builds-open-source-alternative-to-bitcoin/KBpdgvpmVJJ7LEew",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Discovery banks on ‘Superbank’ to run the show",
+      "url": "https://www.itweb.co.za/article/discovery-banks-on-superbank-to-run-the-show/wbrpOMg2drD7DLZn",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "ICASA extends spectrum input deadline to next year",
+      "url": "https://www.itweb.co.za/article/icasa-extends-spectrum-input-deadline-to-next-year/PmxVEMKE5VAvQY85",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Takealot posts profitable half-year as ecosystem grows",
+      "url": "https://www.itweb.co.za/article/takealot-posts-profitable-half-year-as-ecosystem-grows/LPp6VMrBlarMDKQz",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "AFRINIC shapes Africa's connectivity blueprint in Cape Town",
+      "url": "https://www.itweb.co.za/article/afrinic-shapes-africas-connectivity-blueprint-in-cape-town/P3gQ2MGAVgavnRD1",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "When digital trust and human behaviour collide",
+      "url": "https://www.itweb.co.za/article/when-digital-trust-and-human-behaviour-collide/Kjlyr7wBnPrvk6am",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Year-end data health check: Ten questions to ask before 31 December",
+      "url": "https://www.itweb.co.za/article/year-end-data-health-check-ten-questions-to-ask-before-31-december/6GxRKMYQOr3Mb3Wj",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "When politics enters the workplace: The real cost of uncertainty for SA employers",
+      "url": "https://www.itweb.co.za/article/when-politics-enters-the-workplace-the-real-cost-of-uncertainty-for-sa-employers/mYZRX79gKExqOgA8",
+      "reason": "观点或反欺诈表态，无产品名、版本或落地市场等可核具体物"
+    },
+    {
+      "title": "Meet Freepaid: The company behind AllNet and SIMcloud",
+      "url": "https://www.itweb.co.za/article/meet-freepaid-the-company-behind-allnet-and-simcloud/lwrKxv3Y6z3Mmg1o",
+      "reason": "观点或反欺诈表态，无产品名、版本或落地市场等可核具体物"
+    },
+    {
+      "title": "iiDENTIFii takes two top honours at inaugural South African AI Awards",
+      "url": "https://www.itweb.co.za/article/iidentifii-takes-two-top-honours-at-inaugural-south-african-ai-awards/j5alr7QAXY67pYQk",
+      "reason": "观点或反欺诈表态，无产品名、版本或落地市场等可核具体物"
+    },
+    {
+      "title": "The great consulting compression: How AI is changing what organisations buy from technology partners",
+      "url": "https://www.itweb.co.za/article/the-great-consulting-compression-how-ai-is-changing-what-organisations-buy-from-technology-partners/nWJad7bNKrN7bjO1",
+      "reason": "观点或反欺诈表态，无产品名、版本或落地市场等可核具体物"
+    },
+    {
+      "title": "Governing AI and maintaining data resilience in the public sector",
+      "url": "https://www.itweb.co.za/article/governing-ai-and-maintaining-data-resilience-in-the-public-sector/dgp45qaBAr6vX9l8",
+      "reason": "观点或反欺诈表态，无产品名、版本或落地市场等可核具体物"
+    },
+    {
+      "title": "The fiscal scissors: How agentic AI could hollow out the tax base",
+      "url": "https://www.itweb.co.za/article/the-fiscal-scissors-how-agentic-ai-could-hollow-out-the-tax-base/5yONP7ErjedMXWrb",
+      "reason": "观点或反欺诈表态，无产品名、版本或落地市场等可核具体物"
+    },
+    {
+      "title": "Outgrown software: A recipe for headaches and real business risk",
+      "url": "https://www.itweb.co.za/article/outgrown-software-a-recipe-for-headaches-and-real-business-risk/JN1gP7OARPoqjL6m",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "The shared drive isn’t a document management strategy",
+      "url": "https://www.itweb.co.za/article/the-shared-drive-isnt-a-document-management-strategy/rxP3jqBEJB3MA2ye",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Mastercard committed to safeguarding the digital ecosystem",
+      "url": "https://www.itweb.co.za/article/mastercard-committed-to-safeguarding-the-digital-ecosystem/P3gQ2qGAVea7nRD1",
+      "reason": "观点或反欺诈表态，无产品名、版本或落地市场等可核具体物"
+    },
+    {
+      "title": "\"Аврора\" не выстрелила. \"Ростелеком\" пожаловался ИТ-комитету Госдумы на закупки Android",
+      "url": "https://www.comnews.ru/content/248584/2026-11-27/2026-w48/1007/avrora-ne-vystrelila-rostelekom-pozhalovalsya-it-komitetu-gosdumy-zakupki-android",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Доля джуниор-разработчиков в российских компаниях упала",
+      "url": "https://www.comnews.ru/content/248582/2026-11-27/2026-w48/1008/dolya-dzhunior-razrabotchikov-rossiyskikh-kompaniyakh-upala",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Если спрятать ЦОДы в бездну: зачем дата-центрам Кузбасс и Якутия",
+      "url": "https://www.comnews.ru/content/248565/2026-11-27/2026-w48/1008/esli-spryatat-cody-bezdnu-zachem-data-centram-kuzbass-i-yakutiya",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Глава \"Газпром нефти\" призвал расширить применение ИИ-агентов в разных отраслях экономики",
+      "url": "https://www.comnews.ru/content/248587/2026-11-27/2026-w48/1008/glava-gazprom-nefti-prizval-rasshirit-primenenie-ii-agentov-raznykh-otraslyakh-ekonomiki",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "В Минцифры предложили создать платформу по поиску уязвимостей в ПО",
+      "url": "https://www.comnews.ru/content/248596/2026-11-27/2026-w48/1009/mincifry-predlozhili-sozdat-platformu-poisku-uyazvimostey",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "ФПК обещает прорыв в обеспечении интернетом пассажиров поездов в ближайшие годы",
+      "url": "https://www.comnews.ru/content/248597/2026-11-27/2026-w48/1009/fpk-obeschaet-proryv-obespechenii-internetom-passazhirov-poezdov-blizhayshie-gody",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Путин предложил обновить Нацстратегию развития ИИ до 2036 года",
+      "url": "https://www.comnews.ru/content/248598/2026-11-27/2026-w48/1009/putin-predlozhil-obnovit-nacstrategiyu-razvitiya-ii-do-2036-goda",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Как Совкомбанк передал ИИ обработку 1,3 млн документов в месяц",
+      "url": "https://www.comnews.ru/digital-economy/content/248499/2026-11-23/2026-w48/1016/kak-sovkombank-peredal-ii-obrabotku-13-mln-dokumentov-mesyac",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Выпущенные на внутреннем рынке долговые ценные бумаги, включенные в сектор устойчивого развития",
+      "url": "https://www.cbr.ru/statistics/macro_itm/sec_st/#a_148398page",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Выпущенные на внутреннем рынке долговые ценные бумаги, включенные в сектор устойчивого развития",
+      "url": "https://www.cbr.ru/statistics/macro_itm/sec_st/#a_149409",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Обзор ключевых показателей управляющих компаний за III квартал 2026 года",
+      "url": "https://www.cbr.ru/analytics/RSCI/review_uk/#a_156354",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Динамические ряды основных показателей деятельности доверительных управляющих на 31.09.2026",
+      "url": "https://www.cbr.ru/statistics/RSCI/du_stat/#a_156398file",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Основные показатели бухгалтерского баланса и отчета о финансовых результатах управляющих компаний на 30.09.2026",
+      "url": "https://www.cbr.ru/statistics/RSCI/#a_161699",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Динамические ряды основных показателей деятельности управляющих компаний на 31.09.2026",
+      "url": "https://www.cbr.ru/statistics/RSCI/uk_stat/#a_156330file",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Доля инвестиций нерезидентов в объеме выпусков облигаций федерального займа",
+      "url": "https://www.cbr.ru/statistics/macro_itm/external_sector/pofi/#a_164863",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Проекты нормативных документов Банка России для публичного обсуждения",
+      "url": "https://www.cbr.ru/project_na/?tab.current=t2#a_6859",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Вмененная ставка валютного свопа овернайт в юанях",
+      "url": "https://www.cbr.ru/hd_base/impliedratecny/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Сводная таблица предложений и замечаний по проекту указания Банка России",
+      "url": "https://www.cbr.ru/project_na/?tab.current=t2#a_6858",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Динамика максимальной процентной ставки (по вкладам в российских рублях) десяти кредитных организаций, привлекающих наибольший объём депозитов физических лиц",
+      "url": "https://www.cbr.ru/statistics/avgprocstav/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Реестр операторов обмена цифровых финансовых активов",
+      "url": "https://www.cbr.ru/registries/admissionfinmarket/#a_150412",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Реестр лицензий бирж и торговых систем",
+      "url": "https://www.cbr.ru/registries/rcb/#a_14174",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Реестр лицензий на осуществление клиринговой деятельности",
+      "url": "https://www.cbr.ru/registries/rcb/#a_14172",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Денежная база (в узком определении, еженедельные значения)",
+      "url": "https://www.cbr.ru/hd_base/mb_nd/mb_nd_weekly/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Перечень микрофинансовых организаций предпринимательского финансирования",
+      "url": "https://www.cbr.ru/registries/microfinance/#a_148281",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Реестр приостановленных лицензий профессиональных участников рынка ценных бумаг",
+      "url": "https://www.cbr.ru/registries/rcb/#a_14177",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Условия заключения сделок «валютный своп» по продаже иностранной валюты за рубли",
+      "url": "https://www.cbr.ru/hd_base/swap_info/sell/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Обеспечение по операциям РЕПО c Банком России в валюте Российской Федерации",
+      "url": "https://www.cbr.ru/hd_base/infodirectreporub/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Депозиты банков в Банке России",
+      "url": "https://www.cbr.ru/hd_base/ostat_depo_new/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "MTN MoMo, Ecobank launch cross-border money transfer service between Ghana, Côte d’Ivoire",
+      "url": "https://www.ghanabusinessnews.com/2026/11/27/mtn-momo-ecobank-launch-cross-border-money-transfer-service-between-ghana-cote-divoire/",
+      "reason": "移动汇款属账户转移，不改变卡或凭证载体形态"
+    },
+    {
+      "title": "Cashew farmers oppose proposed ban on Export",
+      "url": "https://www.ghanabusinessnews.com/2026/11/27/cashew-farmers-oppose-proposed-ban-on-export/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Steinmeier urges Germany not to overlook Africa’s potential",
+      "url": "https://www.ghanabusinessnews.com/2026/11/27/steinmeier-urges-germany-not-to-overlook-africas-potential/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Ghana government pays GH¢4.9b to DDEP bondholders, retires 44.1% of programme – Minister",
+      "url": "https://www.ghanabusinessnews.com/2026/11/27/ghana-government-pays-gh%c2%a24-9b-to-ddep-bondholders-retires-44-1-of-programme-minister/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "TUC assesses 2027 budget, calls for jobs and decent work under new economy programme",
+      "url": "https://www.ghanabusinessnews.com/2026/11/27/tuc-assesses-2027-budget-calls-for-jobs-and-decent-work-under-new-economy-programme/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Ghana’s Black Challenge return home to hero’s welcome after historic World Cup triumph",
+      "url": "https://www.ghanabusinessnews.com/2026/11/27/ghanas-black-challenge-return-home-to-heros-welcome-after-historic-world-cup-triumph/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "SSNIT urges workers to update beneficiary records to prevent survivor benefit delays",
+      "url": "https://www.ghanabusinessnews.com/2026/11/27/ssnit-urges-workers-to-update-beneficiary-records-to-prevent-survivor-benefit-delays/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Government urged to review 25 per cent DACF allocation for 24-Hour model markets",
+      "url": "https://www.ghanabusinessnews.com/2026/11/27/government-urged-to-review-25-per-cent-dacf-allocation-for-24-hour-model-markets/",
+      "reason": "支付侧观点、财报或渠道稿，未过动作门"
+    },
+    {
+      "title": "Payaza Enters Kenya After Repaying Sh8.5 Billion to Nigerian Investors",
+      "url": "https://techmoran.com/2026/11/27/payaza-enters-kenya-after-repaying-sh8-5-billion-to-nigerian-investors/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Absa Kenya Posts Sh15.3 Billion Nine-Month Profit as Assets Cross Sh600 Billion",
+      "url": "https://techmoran.com/2026/11/27/absa-kenya-posts-sh15-3-billion-nine-month-profit-as-assets-cross-sh600-billion/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Kenyan Telcos Oppose Upfront Spectrum Licence Fees",
+      "url": "https://techmoran.com/2026/11/27/kenyan-telcos-oppose-upfront-spectrum-licence-fees/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Kenya Targets Crypto Transactions With New Tax-Reporting Rules",
+      "url": "https://techmoran.com/2026/11/27/kenya-targets-crypto-transactions-with-new-tax-reporting-rules/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Kenya and EU Advance Data-Transfer Pact as Digital Investment Plans Expand",
+      "url": "https://techmoran.com/2026/11/27/kenya-and-eu-advance-data-transfer-pact-as-digital-investment-plans-expand/",
+      "reason": "与支付凭证载体无关，范围门不通过"
+    },
+    {
+      "title": "Camtel Awards CFA499 Million SIM Card Supply Contract to Bridge Corporation",
+      "url": "https://www.businessincameroon.com/telecom/2711-17290-camtel-awards-cfa499-million-sim-card-supply-contract-to-bridge-corporation",
+      "reason": "补位标为 telecom 行业，不属于 banking 的卡栈范围"
+    },
+    {
+      "title": "2026年统一执法证件制作（第三次）结果公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202611/t20261127_27773692.htm",
+      "reason": "补位标为 identity 行业，不属于 banking 的卡栈范围"
+    },
+    {
+      "title": "贺兰县公安局身份证自助发证机采购项目中标公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202611/t20261127_27771259.htm",
+      "reason": "补位标为 identity 行业，不属于 banking 的卡栈范围"
+    },
+    {
+      "title": "国家网信办等十一部门联合公布《分布式数字身份互通互认应用规定》，2027 年 3 月 1 日起施行",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-11-27/doc-inkaesne5481287.shtml",
+      "reason": "补位标为 identity 行业，不属于 banking 的卡栈范围"
+    },
+    {
+      "title": "陈丰伟：中国eSIM正驶入“新赛道”",
+      "url": "https://www.ccidcom.com/zhongduan/20261127/uTrSsVbGgoNn6jerl1d45v1d9rtm0.html",
+      "reason": "补位标为 telecom 行业，不属于 banking 的卡栈范围"
+    },
+    {
+      "title": "WhatsApp to Sell Travel eSIMs Inside the App, With Reliance Jio Among First Partners",
+      "url": "https://asiadaily.org/news/20685",
+      "reason": "补位标为 telecom 行业，不属于 banking 的卡栈范围"
+    },
+    {
+      "title": "Infineon and AUSTRIACARD light up payment cards with SECORA Pay with LED inlay",
+      "url": "https://www.semiconductorforu.com/infineon-and-austriacard-light-up-payment-cards-with-secora-pay-with-led-inlay",
+      "reason": "补位 gateNote 自标可能被刷：只有 Trustech 展会样品，无量产客户与首发市场，未能补上缺口，按默认刷处理"
+    },
+    {
+      "title": "ING Deutschland 推出 Visa 信用卡",
+      "url": "https://www.teltarif.de/en/ing-visa-kreditkarte-apple-pay-google-pay/news/107881.html",
+      "reason": "原文事件日 2026-11-24 11:50（欧洲中部时间），早于窗口下界 11-25 02:30 北京时间，超窗"
+    },
+    {
+      "title": "Turrón by Plazo expands card-based BNPL offering in Spain",
+      "url": "https://www.finextra.com/pressarticle/111798/turrn-by-plazo-expands-card-based-bnpl-offering-in-spain",
+      "reason": "只是把既有卡内分期方案接入新商户 Wonderbox，属商户网络扩张与销售渠道变化，机制未变"
+    },
+    {
+      "title": "paymove brings BLIK payments to AI assistants in Poland",
+      "url": "https://thepaypers-nuxt-prod-63935790743.europe-west4.run.app/payments/news/paymove-enables-blik-payments-within-ai-assistants-in-poland",
+      "reason": "BLIK 是银行 App 内的账户直付轨道，不在卡栈的发卡/受理/清算环节"
+    },
+    {
+      "title": "Visa Separates ID From Payment in AI Agent Verification",
+      "url": "https://www.galaxy.com/insights/research/visa-cli-ai-agent-identity-payments",
+      "reason": "新版 Visa CLI 由 Visa Crypto Labs 负责人 11-22 宣布，事件日早于窗口下界 11-25 02:30，超窗"
+    },
+    {
+      "title": "CredAble acquires 70% stake in Reql",
+      "url": "https://www.finextra.com/pressarticle/111794/credable-acquires-70-stake-in-reql",
+      "reason": "Reql 是企业融资与发票管理平台，标的不在三条凭证链路，并购范围门不通过"
+    },
+    {
+      "title": "Lloyds completes multiple digital trade collections between Bangladesh and the UK",
+      "url": "https://www.finextra.com/newsarticle/48813/lloyds-completes-multiple-digital-trade-collections-between-bangladesh-and-the-uk",
+      "reason": "跨境贸易收款属贸易融资，不涉及卡或凭证载体"
+    },
+    {
+      "title": "Linux Foundation aims to combat fraud with Open Financial Trust Alliance",
+      "url": "https://www.finextra.com/newsarticle/48812/linux-foundation-aims-to-combat-fraud-with-open-financial-trust-alliance",
+      "reason": "跨机构反欺诈数据联盟，不发卡、不收单、不改卡组织规则"
+    },
+    {
+      "title": "California hits BNPL lender Afterpay with $2.7m penalty",
+      "url": "https://www.finextra.com/newsarticle/48817/california-hits-bnpl-lender-afterpay-with-27m-penalty",
+      "reason": "监管罚款，未改变卡或凭证的形态与机制"
+    },
+    {
+      "title": "BofE says firms need to invest to keep pace with AI threat",
+      "url": "https://www.finextra.com/newsarticle/48822/bofe-says-firms-need-to-invest-to-keep-pace-with-ai-threat",
+      "reason": "央行表态与观点，无版本号、产品名或落地市场"
+    },
+    {
+      "title": "FinCEN takes some systems offline after suspected cyber attack",
+      "url": "https://www.finextra.com/newsarticle/48816/fincen-takes-some-systems-offline-after-suspected-cyber-attack",
+      "reason": "政府系统安全事件，不涉及支付凭证载体或受理终端"
+    },
+    {
+      "title": "Highnote applies for US national bank charter",
+      "url": "https://thepaypers.com/payments/news/highnote-applies-for-us-national-bank-charter",
+      "reason": "银行牌照申请不在支付范围门内"
+    },
+    {
+      "title": "MoonPay and Highnote file for national bank charters",
+      "url": "https://www.finextra.com/pressarticle/111800/moonpay-and-highnote-file-for-national-bank-charters",
+      "reason": "银行牌照申请，不是发卡或收单机制变化"
+    },
+    {
+      "title": "Iliad Solutions expands payment testing business into South Africa",
+      "url": "https://www.finextra.com/pressarticle/111789/iliad-solutions-targets-south-african-market",
+      "reason": "支付测试公司开拓市场，无客户、终端或卡产品等可核具体物"
+    },
+    {
+      "title": "Klarna expands Search & Compare in Europe",
+      "url": "https://thepaypers.com/payments/news/klarna-expands-search-compare-nine-european-markets",
+      "reason": "价格比较工具扩市场，不改变卡或受理机制"
+    },
+    {
+      "title": "Toduba buys BitQ in Italian welfare push",
+      "url": "https://www.midmarketnow.com/articles/toduba-acquires-bitq-welfare",
+      "reason": "BitQ 是企业福利券分销平台，标的不在卡栈，且交易金额未披露"
+    },
+    {
+      "title": "Frasers Plus / Maldives Islamic Bank 重复落地稿",
+      "url": "https://www.bpcbt.com/en/press/maldives-islamic-bank-launches-its-visa-islamic-credit-card-proposition-with-bpc",
+      "reason": "duplicate-of-2026-11-27-banking-02：马尔代夫 Visa Ujrah 卡已发布，Finextra/FF News 再报道不算新事件"
+    },
+    {
+      "title": "UQPAY deploys Visa Payment Passkey for agentic payments",
+      "url": "https://www.prnasia.com/story/557154-1.shtml",
+      "reason": "duplicate-of-2026-11-20-banking-03：同一 Visa Payment Passkey 投产事件换信源再报道"
+    },
+    {
+      "title": "中国银联与Visa深化互联互通（再报道）",
+      "url": "https://www.cnr.cn/tech/techgd/20261116/t20261116_527875040.shtml",
+      "reason": "duplicate-of-2026-11-17-banking-01：11-16 前海网络互通事件，11-25 多语稿只是再报道"
+    }
+  ],
+  "stats": {
+    "candidates": 155,
+    "written": 9,
+    "skippedByDedup": 3
+  },
+  "finishedAt": "2026-11-27T20:16:38.351Z"
+}

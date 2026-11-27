@@ -1,0 +1,98 @@
+{
+  "id": "2026-11-28-banking-01",
+  "slug": "rbi-card-transaction-directions-2026-477",
+  "industry": "banking",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "scheme-rules",
+    "tokenization",
+    "acquiring"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-28T04:17:14+08:00",
+  "ingestedAt": "2026-11-28T02:30:23+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "CorpLawUpdates",
+      "url": "https://www.corplawupdates.in/updates/rbi-digital-payments-card-based-transaction-directions-2026",
+      "lang": "en",
+      "publishedAt": "2026-11-27T00:00:00+05:30"
+    },
+    {
+      "name": "The Tribune",
+      "url": "https://www.tribuneindia.com/news/atm-withdrawals/rbi-issues-consolidated-atm-card-payment-norms-charges-capped-at-rs-23-beyond-free-atm-transaction-limits",
+      "lang": "en",
+      "publishedAt": "2026-11-27T00:00:00+05:30"
+    },
+    {
+      "name": "Livemint",
+      "url": "https://www.livemint.com/money/personal-finance/rbi-consolidates-25-card-payment-circulars-into-one-framework-what-debit-and-credit-card-users-should-know-11795785543520.html",
+      "lang": "en",
+      "publishedAt": "2026-11-27T00:00:00+05:30"
+    }
+  ],
+  "title": {
+    "zh": "印度央行合并 25 份卡支付通函，新规即时生效",
+    "en": "RBI folds 25 card-payment circulars into one rulebook",
+    "es": "El RBI concentra 25 circulares de pagos con tarjeta en una sola norma"
+  },
+  "summary": {
+    "zh": "印度储备银行 11 月 27 日发布 RBI/DPSS/2026-27/477，把 25 份卡支付通函并入单一规则并即时生效。新规保留 5000 卢比非接免密、借记卡 MDR 上限与信用卡网络选择权，要求发卡行开放交易开关。",
+    "en": "The Reserve Bank of India issued RBI/DPSS/2026-27/477 on 27 November, consolidating 25 card-payment circulars into one rulebook with immediate effect. It keeps the Rs 5,000 contactless PIN exemption, debit-card MDR caps and credit-card network choice, and requires issuers to offer transaction switches.",
+    "es": "El Banco de la Reserva de la India emitió el 27 de noviembre la circular RBI/DPSS/2026-27/477, que reúne 25 circulares sobre pagos con tarjeta en un único reglamento de efecto inmediato. Mantiene la exención de PIN en pagos sin contacto hasta 5.000 rupias, los límites de MDR y la elección de red, y exige controles de transacción a los emisores."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "25 份通函并入一份规则",
+        "en": "Twenty-five circulars become one rulebook",
+        "es": "Veinticinco circulares pasan a un único reglamento"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "RBI/DPSS/2026-27/477 于 2026 年 11 月 27 日发布并即时生效，依据 2007 年支付与结算系统法第 18 条及第 10(2) 条制定。被废止的 25 份通函发表于 2011 年 9 月至 2024 年 3 月，此前依据旧通函作出的批准与确认继续有效。规则适用于银行及非银行支付系统提供者与参与者。",
+        "en": "RBI/DPSS/2026-27/477 was issued on 27 November 2026 and took effect immediately under sections 18 and 10(2) of the Payment and Settlement Systems Act, 2007. The 25 repealed circulars date from September 2011 to March 2024; approvals granted under them remain valid. The directions bind banks and non-bank payment system providers and participants.",
+        "es": "La circular RBI/DPSS/2026-27/477 se emitió el 27 de noviembre de 2026 y entró en vigor de inmediato conforme a los artículos 18 y 10(2) de la Ley de Pagos y Sistemas de Pago de 2007. Las 25 circulares derogadas van de septiembre de 2011 a marzo de 2024; las aprobaciones previas siguen vigentes. La norma alcanza a bancos y proveedores y participantes no bancarios."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "发卡端与收单端要改的实现",
+        "en": "What issuers and acquirers must implement",
+        "es": "Qué deben aplicar emisores y adquirentes"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "发卡行须让客户全天可开关境内、境外、线上与非接交易并调整限额；符合条件的信用卡客户在发卡与换卡时要有网络选择，活跃卡不超过 100 万张的发行人豁免。非接交易每笔 5000 卢比以内可免额外认证，超过须走 AFA，客户不能被强制非接。收单端 MDR 按商户年营业额分档：小微商户实体与线上不超过 0.40%、二维码 0.30%，其他商户 0.90% 与 0.80%，单笔封顶 1000 卢比。",
+        "en": "Issuers must let customers switch domestic, international, online and contactless use on or off at any time and change limits. Eligible credit-card customers get a network choice at issuance and renewal; issuers with up to one million active cards are exempt. Contactless payments up to Rs 5,000 skip additional authentication, above that AFA applies, and no customer can be forced into contactless. Debit-card MDR caps are 0.40% for physical and online and 0.30% for QR at small merchants, 0.90% and 0.80% at others, capped at Rs 1,000 per transaction.",
+        "es": "Los emisores deben permitir activar o desactivar en todo momento el uso nacional, internacional, online y sin contacto, y modificar límites. Los clientes elegibles eligen red al emitir o renovar; quedan exentos los emisores con hasta un millón de tarjetas activas. Los pagos sin contacto de hasta 5.000 rupias no requieren autenticación adicional y por encima aplica AFA; nadie puede ser obligado al pago sin contacto. Los topes de MDR son 0,40 % en terminal y online y 0,30 % en QR para pequeños comercios, y 0,90 % y 0,80 % para los demás, con tope de 1.000 rupias por operación."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "卡不在场交易仍不得由商户或支付聚合方保存真实卡号，旧数据须清除，仅可为对账保留卡号后四位与发卡行名称。卡存档令牌需客户明示同意与额外认证，令牌服务商与请求方需注册、认证并每年审计，令牌化不得向客户收费。",
+        "en": "Merchants and payment aggregators still may not store actual card data for card-not-present transactions; existing data must be purged, leaving only the last four digits and issuer name for reconciliation. Card-on-file tokens require explicit consent and additional authentication; token service providers and requestors must register, obtain certification and undergo annual audit, and customers cannot be charged for tokenisation.",
+        "es": "Los comercios y agregadores no pueden conservar los datos reales de la tarjeta en operaciones sin presencia; deben borrar los existentes y guardar solo los últimos cuatro dígitos y el emisor para conciliación. Los tokens de archivo exigen consentimiento expreso y autenticación adicional; proveedores y solicitantes deben registrarse, certificarse y auditarse cada año, sin cargo al cliente por la tokenización."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对在印度展业的发卡行、支付聚合方与金融科技发卡项目而言，这份文件把散落 13 年的卡规则收进一个可审计的清单：合规团队能按五章逐项核对，而不必追踪 25 份通函的废止状态。技术上，交易开关、卡数据清除与令牌化审计被写成持续义务，收单与网关要确认商户分类复核和系统里的非接阈值确实一致。商业上，网络选择权继续约束信用卡发卡行与卡组织的排他协议，100 万张以下的小发行人豁免仍在，竞争位置短期不变。文件没有新增限额，也没有规定争议处理时限，不能把沉默当成放松。",
+    "en": "For issuers, payment aggregators and fintech card programmes in India, the directions turn thirteen years of scattered rules into a single checkable list. Compliance teams can work chapter by chapter instead of tracking which of 25 circulars still applies. Operationally, transaction switches, card-data purging and annual tokenisation audits become continuing duties; acquirers and gateways must confirm their merchant categorisation and contactless threshold match the text. Network choice keeps constraining exclusive issuer arrangements while the exemption below one million active cards remains, so the competitive balance is unchanged. No new limits or dispute timelines were added, and silence here is not a relaxation.",
+    "es": "Para emisores, agregadores y programas fintech de tarjetas en India, la norma convierte trece años de reglas dispersas en una lista verificable. Los equipos de cumplimiento pueden revisar por capítulos sin seguir 25 derogaciones. En la operación, los interruptores de uso, el borrado de datos y la auditoría anual de tokenización se vuelven obligaciones continuas; adquirentes y pasarelas deben comprobar categoría de comercio y umbral sin contacto. La elección de red sigue limitando acuerdos exclusivos, con la exención vigente para emisores de menos de un millón de tarjetas. No hay límites nuevos ni plazos de disputa: el silencio no es una relajación."
+  },
+  "confidence": 0.62,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "2026-11-28-banking-v1"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-28-banking-02",
+  "slug": "klarna-one-time-card-canada-visa",
+  "industry": "banking",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-28T04:17:14+08:00",
+  "ingestedAt": "2026-11-28T02:30:23+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Klarna",
+      "url": "https://www.klarna.com/international/press/klarna-announces-major-canada-expansion-with-launch-of-flexible-virtual-card/",
+      "lang": "en",
+      "publishedAt": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "name": "Fintech.ca",
+      "url": "https://fintech.ca/2026/11/25/klarna-one-time-card-for-canadian-online-shoppers",
+      "lang": "en",
+      "publishedAt": "2026-11-25T00:00:00-05:00"
+    }
+  ],
+  "title": {
+    "zh": "Klarna 在加拿大上线一次性 Visa 虚拟卡",
+    "en": "Klarna brings a single-use Visa virtual card to Canada",
+    "es": "Klarna lleva a Canadá una tarjeta virtual Visa de un solo uso"
+  },
+  "summary": {
+    "zh": "Klarna 于 11 月 25 日在加拿大推出 One-Time Card：用户在 App 内设定金额生成一次性 Visa 预付虚拟卡，可在接受 Visa 的境外电商结账使用，完成一笔或 24 小时后失效。卡由 Peoples Trust Company 发行。",
+    "en": "Klarna launched its One-Time Card in Canada on 25 November. Shoppers set an amount in the app to generate a single-use Visa prepaid virtual card usable at online Visa checkouts; the details expire after one purchase or 24 hours. Peoples Trust Company issues the card.",
+    "es": "Klarna lanzó el 25 de noviembre su One-Time Card en Canadá. El usuario fija un importe en la app y obtiene una tarjeta virtual Visa prepago de un solo uso para compras online; los datos caducan tras la compra o 24 horas. Peoples Trust Company emite la tarjeta."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "把分期能力搬出合作商户",
+        "en": "Instalments beyond partner merchants",
+        "es": "Cuotas fuera de los comercios aliados"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Klarna 11 月 25 日在多伦多宣布，加拿大用户此前只能在接入 Klarna 的商户结账处选择其分期方案。One-Time Card 让用户在 App 内输入消费金额并生成一张虚拟 Visa 预付卡，把卡号、有效期与安全码照普通卡填入结账页，即可在接受 Visa 的线上商户使用。可选 Pay in 4 免息分四期或长期融资，每笔交易单独做信用评估。",
+        "en": "Klarna announced in Toronto on 25 November that Canadian shoppers previously could use its instalment plans only at integrated merchants. The One-Time Card lets users enter a spend amount in the app, generate a virtual Visa prepaid card and fill its number, expiry and security code into a normal online checkout. Shoppers can choose Pay in 4 interest-free instalments or longer financing, with a separate credit assessment per transaction.",
+        "es": "Klarna anunció el 25 de noviembre en Toronto que los clientes canadienses solo podían usar sus planes de cuotas en comercios integrados. One-Time Card permite fijar un importe en la app, generar una tarjeta virtual Visa prepago y usar sus datos en cualquier checkout online. Se puede elegir Pay in 4 sin intereses o financiación a largo plazo, con evaluación crediticia por operación."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "单次使用与发卡主体",
+        "en": "Single use and the issuing entity",
+        "es": "Uso único y entidad emisora"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "每张 One-Time Card 只用于一次支付，交易完成后卡信息立即失效；未使用则在 24 小时后自动失效。Klarna 公告写明该卡为 Klarna Visa Prepaid Card，由 Peoples Trust Company 依 Visa 许可发行，部分商户类别如博彩被排除。合格加拿大客户从当周起可用。",
+        "en": "Each One-Time Card works for one payment: its details expire as soon as the purchase clears, or automatically after 24 hours if unused. Klarna describes it as a Klarna Visa Prepaid Card issued by Peoples Trust Company under licence from Visa International. Some merchant categories, such as gambling, are excluded. Eligible Canadian customers get access from that week.",
+        "es": "Cada One-Time Card sirve para un solo pago: los datos caducan al completarse la compra o a las 24 horas si no se usa. Klarna la describe como una Klarna Visa Prepaid Card emitida por Peoples Trust Company con licencia de Visa International. Algunas categorías, como el juego, quedan excluidas. Los clientes canadienses elegibles acceden desde esa semana."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对加拿大商户与收单方而言，这张卡把先买后付的入口从商户结账页挪到持卡人手机：没有接入 Klarna 的线上商户，仍可能收到一笔普通 Visa 卡支付，背后却是 Klarna 的信用决策。技术上，一次性卡号与 24 小时失效把预付凭证的生命周期压到单笔交易，网关按普通卡授权即可处理，不需新增 Klarna 专用接口。商业上，Klarna 绕开逐个签商户的步骤扩张可支付范围，Peoples Trust 承担发卡与预付资金管理。公告未披露发卡量、限额或手续费，也没有说明发卡方之外的资金存放安排。",
+    "en": "For Canadian merchants and acquirers, the card moves the pay-later entry point from the checkout page to the shopper phone: a retailer without a Klarna integration can receive an ordinary Visa card payment backed by a Klarna credit decision. Technically, the single-use number and 24-hour expiry compress the prepaid credential lifecycle to one transaction, so gateways can authorise it like any card without a dedicated Klarna integration. Commercially, Klarna widens where its credit can be used without signing each merchant, while Peoples Trust handles issuance and prepaid funds. Volumes, limits and fees were not disclosed.",
+    "es": "Para comercios y adquirentes canadienses, la tarjeta traslada la entrada del pago a plazos de la página de checkout al móvil del cliente: un comercio sin integración Klarna puede recibir un pago Visa ordinario respaldado por una decisión crediticia de Klarna. El número de un solo uso y su caducidad a las 24 horas reducen el ciclo de la credencial prepago a una operación, y la pasarela la autoriza como cualquier tarjeta. Klarna amplía así su alcance sin firmar comercio por comercio, y Peoples Trust gestiona emisión y fondos. No se comunicaron volúmenes, límites ni comisiones."
+  },
+  "confidence": 0.7,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "2026-11-28-banking-v1"
+  }
+}

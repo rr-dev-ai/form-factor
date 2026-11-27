@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-28-identity-02",
+  "slug": "china-distributed-digital-id-interoperability-rules",
+  "industry": "identity",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "digital-wallet",
+    "issuing",
+    "verification"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-28T04:17:14+08:00",
+  "ingestedAt": "2026-11-28T03:10:37+08:00",
+  "originalLang": "zh",
+  "sources": [
+    {
+      "name": "中国网",
+      "url": "https://big5.china.com.cn/gate/big5/news.china.com.cn/2026-11/27/content_118792292.shtml",
+      "lang": "zh",
+      "publishedAt": "2026-11-27T00:00:00+08:00"
+    },
+    {
+      "name": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20261127A0F8H000",
+      "lang": "zh",
+      "publishedAt": "2026-11-27T00:00:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "中国十一部门发布分布式数字身份互通互认规定",
+    "en": "Eleven Chinese agencies issue rules on distributed digital ID interoperability",
+    "es": "Once agencias chinas publican normas de interoperabilidad de identidad digital distribuida"
+  },
+  "summary": {
+    "zh": "国家网信办等十一部门 11 月 27 日公布《分布式数字身份互通互认应用规定》（国信办发文〔2026〕9 号），2027 年 3 月 1 日起施行。规定界定身份链运营方、权威身份认证机构、可验证凭证签发机构与应用机构的职责，确定凭证签发与验证流程，对标识符使用、密钥管理、统一编码与标识符目录提出要求，推动跨平台跨行业身份互认。",
+    "en": "China's cyberspace regulator and ten other agencies published rules on distributed digital identity interoperability on November 27, effective March 1, 2027. The rules define the roles of identity-chain operators, authoritative identity authenticators, verifiable credential issuers and relying bodies, set the issuance and verification process for credentials, and require unified coding, identifier directories and key management to let identities be recognized across platforms and industries.",
+    "es": "El regulador cibernético de China y otras diez agencias publicaron el 27 de noviembre normas sobre interoperabilidad de identidad digital distribuida, vigentes desde el 1 de marzo de 2027. Las normas definen operadores de cadena de identidad, autenticadores de identidad, emisores de credenciales verificables y organismos usuarios, fijan el proceso de emisión y verificación y exigen codificación uniforme, directorios de identificadores y gestión de claves para reconocer identidades entre plataformas e industrias."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "国家互联网信息办公室等十一部门 11 月 27 日联合公布《分布式数字身份互通互认应用规定》，文号国信办发文〔2026〕9 号，落款日期为 2026 年 11 月 13 日，自 2027 年 3 月 1 日起施行。联合发文单位包括中央编办、工业和信息化部、公安部、交通运输部、中国人民银行、海关总署、税务总局、市场监管总局、国家外汇局与国家密码管理局。",
+        "en": "China's cyberspace administration and ten other agencies jointly published the Distributed Digital Identity Interoperability Application Rules on November 27, under document number Guoxinban Fawen [2026] No. 9 dated November 13, 2026, effective March 1, 2027. Co-signatories include the central office for institutional establishment, the industry and information technology ministry, the public security ministry, the transport ministry, the central bank, customs, the tax administration, the market regulator, the foreign exchange regulator and the state cryptography administration.",
+        "es": "La Administración Cibernética de China y otras diez agencias publicaron el 27 de noviembre las Normas de Aplicación para la Interoperabilidad de Identidad Digital Distribuida, con el número Guoxinban Fawen [2026] No. 9 fechado el 13 de noviembre de 2026, vigentes desde el 1 de marzo de 2027. Entre las firmantes figuran la oficina central de establecimiento institucional, el ministerio de industria y tecnología de la información, el ministerio de seguridad pública, el de transporte, el banco central, aduanas, la administración tributaria, el regulador de mercado, el regulador de divisas y la administración estatal de criptografía."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "规定把分布式数字身份界定为基于区块链等分布式技术、由标识符、密钥、可验证凭证和可验证声明构成、由用户自主管理的新型数字身份，用于数字账户管理、登录认证和数据授权。规则把这类身份依托的基础设施明确为国家区块链网络，由统筹规划建设并遵循统一技术标准与接入规范。",
+        "en": "The rules define a distributed digital identity as a user-controlled identity built on blockchain and similar distributed technology from identifiers, keys, verifiable credentials and verifiable claims, used for digital account management, login authentication and data authorization. The rules tie these identities to a nationally planned blockchain network that follows unified technical standards and access specifications.",
+        "es": "Las normas definen la identidad digital distribuida como una identidad controlada por el usuario, construida sobre blockchain y tecnologías similares a partir de identificadores, claves, credenciales verificables y declaraciones verificables, destinada a la gestión de cuentas digitales, la autenticación de acceso y la autorización de datos. Las normas vinculan estas identidades a una red blockchain nacional planificada que sigue estándares técnicos y especificaciones de acceso unificados."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "规则列出五类参与方：分布式数字身份链运营方、权威身份认证机构、分布式数字身份应用服务机构、可验证凭证签发机构与可验证凭证应用机构，逐一规范申请注册、身份核验、凭证签发与授权使用各环节，并确定可验证凭证签发与验证的流程。对标识符使用、密钥管理、凭证使用和自主管理，规定提出具体要求。",
+        "en": "The rules name five participant categories: identity-chain operators, authoritative identity authenticators, application service providers, verifiable credential issuers and verifiable credential relying bodies. They govern registration, identity checking, credential issuance and authorized use stage by stage, and set the issuance and verification process. Specific requirements cover identifier use, key management, credential use and self-management.",
+        "es": "Las normas nombran cinco categorías de participantes: operadores de cadena de identidad, autenticadores autorizados, proveedores de servicios de aplicación, emisores de credenciales verificables y organismos usuarios de credenciales. Regulan el registro, la comprobación de identidad, la emisión de credenciales y el uso autorizado etapa por etapa, y fijan el proceso de emisión y verificación. Los requisitos específicos cubren el uso de identificadores, la gestión de claves, el uso de credenciales y la autogestión."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "规定鼓励在金融、税务、交通、海关、公共资源招投标和智能体身份标识等领域应用，明确提出统一编码规范、建立标识符目录体系，支持不同数字身份之间互通互认，降低跨平台、跨行业身份互认成本。规定同时明确了各方在网络安全、数据安全和个人信息保护方面的责任与义务。",
+        "en": "The rules encourage use in finance, taxation, transport, customs, public resource bidding and agent identity marking, and call for unified coding standards and an identifier directory system so different digital identities can be recognized across platforms and industries at lower cost. They also set out each party's responsibilities under cybersecurity, data security and personal information protection law.",
+        "es": "Las normas fomentan el uso en finanzas, impuestos, transporte, aduanas, contratación pública e identificación de agentes inteligentes, y piden estándares de codificación uniformes y un sistema de directorio de identificadores para que distintas identidades digitales se reconozcan entre plataformas e industrias con menor coste. También establecen las responsabilidades de cada parte en ciberseguridad, seguridad de datos y protección de información personal."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这份规定第一次在国家层面给出可验证凭证从签发到验证的统一流程，以及身份链运营方、签发机构与应用机构之间的职责边界。对做钱包与凭证系统的供应商，统一编码规范和标识符目录体系意味着此前各地各平台自定义的标识符要向同一套目录收敛，跨行业互认才有可对接的技术前提。对依赖方，凭证验证流程被写入规则后，银行、海关、税务等部门接入第三方数字身份的合规路径更明确，2027 年 3 月 1 日施行日给出了改造窗口；但规定未指定承建方与钱包上线时间，签发与核验系统的采购机会仍要看后续配套文件。",
+    "en": "The rules set, for the first time at national level, a unified process for verifiable credentials from issuance to verification and the boundaries between chain operators, issuers and relying bodies. For wallet and credential vendors, unified coding and an identifier directory mean locally defined identifiers must converge on one directory, which is the technical precondition for cross-industry recognition. For relying parties, putting the verification process into rules clarifies the compliance path for banks, customs and tax authorities to accept third-party digital identities, and the March 1, 2027 effective date sets a conversion window. The rules name no contractor or wallet launch date, so issuance and verification procurement still depends on follow-up documents.",
+    "es": "Estas normas establecen por primera vez a nivel nacional un proceso unificado de credenciales verificables desde la emisión hasta la verificación, y los límites entre operadores de cadena, emisores y organismos usuarios. Para los proveedores de carteras y credenciales, la codificación uniforme y un directorio de identificadores implican que los identificadores definidos localmente deben converger en un directorio común, condición técnica previa para el reconocimiento entre industrias. Para los organismos usuarios, incluir el proceso de verificación en las normas aclara la vía de cumplimiento para que bancos, aduanas y autoridades tributarias acepten identidades digitales de terceros, y el 1 de marzo de 2027 fija un plazo de adaptación. Las normas no designan contratista ni fecha de lanzamiento de cartera, por lo que las contrataciones de emisión y verificación dependerán de documentos posteriores."
+  },
+  "confidence": 0.82,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11-28",
+    "tokens": 0,
+    "costUsd": 0
+  }
+}

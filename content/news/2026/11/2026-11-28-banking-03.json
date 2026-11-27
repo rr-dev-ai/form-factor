@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-28-banking-05",
+  "slug": "mtn-momo-mastercard-virtual-card-benin",
+  "industry": "banking",
+  "region": "africa",
+  "regions": [],
+  "tags": [
+    "issuing",
+    "digital-wallet"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-28T04:17:14+08:00",
+  "ingestedAt": "2026-11-28T02:30:23+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "SaharaWire",
+      "url": "https://saharawire.com/article/mtn-mobile-money-launches-virtual-momo-mastercard-for-online-payments-in-benin",
+      "lang": "en",
+      "publishedAt": "2026-11-27T00:00:00+01:00"
+    }
+  ],
+  "title": {
+    "zh": "MTN 在贝宁推出 MoMo-Mastercard 虚拟卡",
+    "en": "MTN launches a virtual MoMo-Mastercard in Benin",
+    "es": "MTN lanza una tarjeta virtual MoMo-Mastercard en Benín"
+  },
+  "summary": {
+    "zh": "MTN Mobile Money 与 Orabank Benin、Mastercard 于 11 月 26 日在科托努推出虚拟预付卡 MoMo-Mastercard。试点已发卡超 20 万张，目标 100 万张；用户可用 App 或 USSD 开卡，卡带 3D Secure，余额上限 200 万中非法郎。",
+    "en": "MTN Mobile Money, Orabank Benin and Mastercard presented the virtual prepaid MoMo-Mastercard in Cotonou on 26 November. The pilot has issued over 200,000 cards against a target of one million. Users create the card in the app or by USSD; it carries 3D Secure and a two-million-CFA balance cap.",
+    "es": "MTN Mobile Money, Orabank Benin y Mastercard presentaron el 26 de noviembre en Cotonú la tarjeta virtual prepago MoMo-Mastercard. La prueba ha emitido más de 200.000 tarjetas sobre un objetivo de un millón. Se crea en la app o por USSD, incluye 3D Secure y un techo de saldo de dos millones de francos CFA."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "钱包、银行与卡组织三方分工",
+        "en": "Three roles: wallet, bank and scheme",
+        "es": "Tres funciones: monedero, banco y esquema"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "MoMo-Mastercard 在 11 月 26 日科托努的仪式上发布。MTN Mobile Money 管理卡项目与用户关系，Orabank Benin 作为发卡行提供银行资质，Mastercard 提供受理网络。卡是全额预付、不可透支，用户用 MoMo App 或 USSD 码 *880# 生成卡号、有效期与安全码，可在接受 Mastercard 的线上商户付款。",
+        "en": "The MoMo-Mastercard was presented at a ceremony in Cotonou on 26 November. MTN Mobile Money runs the programme and customer relationship, Orabank Benin issues the card and Mastercard supplies the acceptance network. The card is fully prepaid with no credit: users generate a number, expiry and security code in the MoMo app or with USSD code *880# for online Mastercard payments.",
+        "es": "La MoMo-Mastercard se presentó el 26 de noviembre en una ceremonia en Cotonú. MTN Mobile Money gestiona el programa y la relación con clientes, Orabank Benin emite la tarjeta y Mastercard aporta la red de aceptación. Es totalmente prepago y sin crédito: el usuario genera número, caducidad y código de seguridad en la app MoMo o con el código USSD *880# para pagos online."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "试点规模与交易限制",
+        "en": "Pilot volumes and transaction limits",
+        "es": "Volumen de prueba y límites"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "MTN Mobile Money 称试点阶段已发出超过 20 万张卡，目标是发到 100 万张以上。卡有效期 12 个月，开卡费 500 中非法郎，充值收 0.5% 佣金、支付每笔收 1.5%；余额上限 200 万中非法郎，每月累计交易与充值上限 1000 万中非法郎。线上支付通过短信验证码完成 3D Secure 核验，用户可在 MoMo 渠道查询交易并冻结卡片。",
+        "en": "MTN Mobile Money says the pilot has already issued more than 200,000 cards against a target of over one million. Cards run for 12 months, cost 500 CFA francs to create, carry a 0.5% top-up commission and a 1.5% fee per payment, with a two-million-CFA balance cap and a ten-million-CFA monthly transaction and top-up ceiling. Online payments use a one-time code by SMS for 3D Secure, and users can review transactions or block the card in MoMo channels.",
+        "es": "MTN Mobile Money afirma que la prueba ya emitió más de 200.000 tarjetas, con objetivo de superar el millón. Las tarjetas duran 12 meses, cuestan 500 francos CFA, aplican 0,5 % por recarga y 1,5 % por pago, con techo de saldo de dos millones y límite mensual de diez millones de francos CFA. Los pagos online usan un código por SMS para 3D Secure y el usuario puede consultar movimientos o bloquear la tarjeta en los canales MoMo."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对钱包运营商和发卡行而言，这条把移动钱包余额变成可在全球 Mastercard 线上商户使用的卡凭证，且把银行发卡资质、钱包获客与卡组织受理拆成清晰三方分工，其他西非市场可以照此结构复制。技术上，USSD 开卡、短信 3D Secure 与全额预付的组合绕开了智能手机和银行账户门槛，20 万张试点发卡量说明已有可观察的实际使用。商业上，0.5% 充值与 1.5% 支付费率给出了钱包变现路径，但用户承担开卡费，能否维持百万张目标仍取决于线上商户覆盖。",
+    "en": "For wallet operators and issuers, this turns mobile-money balances into a card credential usable at online Mastercard merchants worldwide and separates bank issuance, wallet distribution and scheme acceptance into a structure other West African markets can copy. USSD provisioning, SMS-based 3D Secure and full prepayment bypass the need for a smartphone or bank account, and the reported 200,000 pilot cards provide observable usage. The 0.5% top-up and 1.5% payment fees show a monetisation path, but cardholders pay to create the card and the million-card target depends on online merchant coverage.",
+    "es": "Para operadores de monedero y emisores, esto convierte el saldo de dinero móvil en una credencial de tarjeta usable en comercios online Mastercard de todo el mundo y separa emisión bancaria, distribución del monedero y aceptación del esquema en una estructura replicable en otros mercados de África occidental. La alta por USSD, el 3D Secure por SMS y el prepago íntegro evitan exigir smartphone o cuenta bancaria, y las 200.000 tarjetas de prueba muestran uso real. Las comisiones de 0,5 % por recarga y 1,5 % por pago abren una vía de ingresos, pero el usuario paga por crear la tarjeta y el objetivo del millón depende de la cobertura de comercios online."
+  },
+  "confidence": 0.65,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "2026-11-28-banking-v1"
+  }
+}

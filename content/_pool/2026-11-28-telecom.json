@@ -1,0 +1,159 @@
+{
+  "date": "2026-11-28",
+  "industry": "telecom",
+  "startedAt": "2026-11-28T02:53:10+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "Evo conclui a aquisição da Ligga Telecom",
+      "url": "https://www.mobiletime.com.br/noticias/26/11/2026/evo-aquisicao-ligga/",
+      "reason": "时效门不过：交易已于 11-16 交割并通过 Cade、Anatel 审批，11-26 稿件是迟到报道，超出 72 小时窗口"
+    },
+    {
+      "title": "Camtel Awards CFA499 Million SIM Card Supply Contract to Bridge Corporation",
+      "url": "https://www.businessincameroon.com/telecom/2711-17290-camtel-awards-cfa499-million-sim-card-supply-contract-to-bridge-corporation",
+      "reason": "范围门与动作门不过：85.4 万张蓝色品牌实体 SIM 补货，无 eSIM/iSIM/RSP 机制变化；gateNote 已标可能被刷，按默认规则刷掉"
+    },
+    {
+      "title": "陈丰伟：中国eSIM正驶入“新赛道”",
+      "url": "https://www.ccidcom.com/zhongduan/20261127/uTrSsVbGgoNn6jerl1d45v1d9rtm0.html",
+      "reason": "动作门不过：11-26 论坛演讲回顾既有规模并展望 2027，无新卡产品、合同或规范版本可核"
+    },
+    {
+      "title": "从“最大规模”到“全品类”放量：穆家松详解中国移动eSIM生态策略",
+      "url": "https://news.qq.com/rain/a/20261127A0E3D400",
+      "reason": "动作门不过：同一论坛的演讲稿，34 款手机、95 款手表与 2027 目标均为既有进展和规划，无新发布或合同"
+    },
+    {
+      "title": "中国电信重塑eSIM价值 打造智能时代“服务底座”",
+      "url": "https://www.163.com/dy/article/LCOU1JSH0511A632.html",
+      "reason": "动作门不过：论坛演讲与在网规模统计，无新产品、客户合同或规范版本；不能把表态当产品化节点"
+    },
+    {
+      "title": "GSMA Innovation Forum in Hangzhou Explores How AI Is Becoming Embedded Across Devices, Robots and Industry",
+      "url": "https://www.gsma.com/newsroom/press-release/gsma-innovation-forum-in-hangzhou-explores-how-ai-is-becoming-embedded-across-devices-robots-and-industry/",
+      "reason": "范围门不过：论坛通稿主题是 AI 与机器人，未给出 eSIM、SIM 或鉴权机制的变化"
+    },
+    {
+      "title": "WhatsApp to Sell Travel eSIMs Inside the App, With Reliance Jio Among First Partners",
+      "url": "https://asiadaily.org/news/20685",
+      "reason": "范围门不过：在聊天 App 内购买旅行数据 eSIM 属渠道合作与资费促销，11-27 已按同口径拦过 1Global 版本；本次无价格、首发国家与上线日"
+    },
+    {
+      "title": "Meta will sell travel eSIM data plans inside WhatsApp",
+      "url": "https://el-fondo-dev.alpha-nex.de/en/news/meta-will-sell-travel-esim-data-plans-inside-whatsapp",
+      "reason": "范围门不过：同一 WhatsApp 旅行 eSIM 事件的换源转写，仍是渠道合作与资费"
+    },
+    {
+      "title": "Meet Freepaid: The company behind AllNet and SIMcloud",
+      "url": "https://www.itweb.co.za/article/meet-freepaid-the-company-behind-allnet-and-simcloud/lwrKxv3Y6z3Mmg1o",
+      "reason": "范围门不过：SIMcloud 是话费、电费与短信券的 REST API 平台，不涉及 SIM 载体、profile 下发或鉴权；原文为赞助内容"
+    },
+    {
+      "title": "South Korea wraps up nationwide 5G SA deployment, eyes tiered service plans",
+      "url": "https://www.lightreading.com/5g/south-korea-wraps-up-nationwide-5g-sa-deployment-eyes-tiered-service-plans",
+      "reason": "范围门不过：5G SA 核心网部署与资费分层，不落 SIM 载体、RSP 或鉴权方式"
+    },
+    {
+      "title": "South Korea unveils fresh SA push",
+      "url": "https://www.mobileworldlive.com/asia-pacific/south-korea-unveils-sa-push-to-support-fresh-applications/",
+      "reason": "范围门不过：同一韩国 5G SA 事件的换源报道，标的是核心网与应用"
+    },
+    {
+      "title": "Eurobites: Elisa, Drei claim roaming breakthrough with 5G SA",
+      "url": "https://www.lightreading.com/wireless/eurobites-elisa-drei-claim-roaming-breakthrough-with-5g-sa",
+      "reason": "范围门不过：5G SA 漫游互通属核心网与漫游运营，未改变 SIM 载体或 profile 机制"
+    },
+    {
+      "title": "Du deploys 5G+ network at Dubai International Airport",
+      "url": "https://www.mobileeurope.co.uk/du-dxb-connectivity/",
+      "reason": "范围门不过：机场 5G 网络覆盖，不落凭证载体环节"
+    },
+    {
+      "title": "Telefonica rolls out 5G+ across Madrid metro",
+      "url": "https://www.mobileworldlive.com/operators/telefonica-rolls-out-5g-across-madrid-metro/",
+      "reason": "范围门不过：地铁 5G 网络建设，与 SIM/eSIM 载体、RSP、鉴权无关"
+    },
+    {
+      "title": "Telefónica leads the rollout of high-performance 5G in the Madrid Metro",
+      "url": "https://www.telefonica.com/en/communication-room/press-room/telefonica-leads-the-rollout-of-high-performance-5g-in-the-madrid-metro/",
+      "reason": "范围门不过：同一马德里地铁 5G 事件的运营商通稿，标的仍是网络覆盖"
+    },
+    {
+      "title": "GeoLinks, Intracom Telecom expand licensed mmWave FWA partnership",
+      "url": "https://www.fierce-network.com/newswire/geolinks-intracom-telecom-expand-licensed-mmwave-fwa-partnership",
+      "reason": "范围门不过：毫米波固定无线接入合作，不落凭证载体或鉴权链"
+    },
+    {
+      "title": "ETSI calls for a pragmatic, future-proof standardisation reform",
+      "url": "https://www.etsi.org/newsroom/news/etsis-response-nsr/",
+      "reason": "范围门与动作门不过：标准化政策表态，没有规范编号、版本或发证方"
+    },
+    {
+      "title": "Openreach calls on critical services to migrate before PSTN switch-off",
+      "url": "https://www.mobileeurope.co.uk/openrach-pstn-switch-off-call/",
+      "reason": "范围门不过：固网 PSTN 退网迁移，与 SIM/eSIM 链路无关"
+    },
+    {
+      "title": "ICASA extends spectrum input deadline to next year",
+      "url": "https://www.itweb.co.za/article/icasa-extends-spectrum-input-deadline-to-next-year/PmxVEMKE5VAvQY85",
+      "reason": "范围门不过：频谱征求意见期限，频谱事项在范围门即被拦"
+    },
+    {
+      "title": "Kenyan Telcos Oppose Upfront Spectrum Licence Fees",
+      "url": "https://techmoran.com/2026/11/27/kenyan-telcos-oppose-upfront-spectrum-licence-fees/",
+      "reason": "范围门不过：运营商对频谱牌照费的表态，不落凭证载体"
+    },
+    {
+      "title": "Bandas medias en 4.5GHz y 7GHz, banda baja de 600 MHz y D2D, prioridades para la CMR-27, según GSMA",
+      "url": "https://dplnews.com/4-5-ghz-7-ghz-y-conectividad-satelital-d2d-las-prioridades-de-espectro-para-la-cmr-27-segun-gsma/",
+      "reason": "范围门不过：GSMA 的 CMR-27 频谱优先事项，属频谱与星座，不落鉴权链"
+    },
+    {
+      "title": "MinTIC formuló cargos contra Starlink por señales en cárceles de Colombia",
+      "url": "https://dplnews.com/mintic-formulo-cargos-contra-starlink-por-senales-en-carceles/",
+      "reason": "范围门不过：监管执法围绕监狱信号覆盖，无 SIM/eSIM 载体或鉴权机制变化"
+    },
+    {
+      "title": "México cambia el esquema de inversión en telecomunicaciones y apuesta a un modelo híbrido liderado por Altán",
+      "url": "https://www.telesemana.com/blog/2026/11/26/mexico-cambia-el-esquema-de-inversion-en-telecomunicaciones-y-apuesta-a-un-modelo-hibrido-liderado-por-altan/",
+      "reason": "范围门不过：电信投资政策与网络建设模式，不落凭证链路"
+    },
+    {
+      "title": "eSIMX Launches Self-Service Platform For Travel eSIM Resellers",
+      "url": "https://markets.businessinsider.com/news/stocks/esimx-launches-self-service-platform-for-travel-esim-resellers-1036805541",
+      "reason": "范围门不过：旅行 eSIM 分销自助平台，改变的是销售渠道，按资费促销处理"
+    },
+    {
+      "title": "Semtech makes SGP.32 eSIM generally available for IoT & M2M",
+      "url": "https://droam.news/?p=11041",
+      "reason": "duplicate-of-2026-11-10-telecom-04：同为 Semtech Smart Connectivity Premium 的 SGP.32 GA，11-09 事件已发布"
+    },
+    {
+      "title": "StarHub and M1 agree S$1.1 billion all-share merger",
+      "url": "https://www.esim.report/news/starhub-and-m1-agree-s11-billion-all-share-merger",
+      "reason": "duplicate-of-2026-11-25-telecom-01：同一 StarHub×M1 全股票合并事件，本轮在 eSIM.report 首页再次出现"
+    },
+    {
+      "title": "Holafly launches reseller programme for corporate eSIM plans",
+      "url": "https://www.esim.report/news/holafly-launches-reseller-programme-for-corporate-esim-plans",
+      "reason": "范围门不过：企业 eSIM 分销计划属渠道合作，不改变 profile 下发或载体机制"
+    },
+    {
+      "title": "BICS and Airtel Africa expand roaming security in 14 markets",
+      "url": "https://www.esim.report/news/bics-and-airtel-africa-expand-roaming-security-in-14-markets",
+      "reason": "范围门不过：升级的是漫游信令与网络安全，不落 SIM 载体、RSP 或鉴权方式"
+    },
+    {
+      "title": "3News names Nosh, Airalo, Cardtonic and Prestmit for Ghana eSIMs",
+      "url": "https://www.esim.report/news/3news-names-nosh-airalo-cardtonic-and-prestmit-for-ghana-esims",
+      "reason": "范围门不过：旅行 eSIM 供应商名单，属渠道与资费信息"
+    }
+  ],
+  "stats": {
+    "candidates": 178,
+    "written": 2,
+    "skippedByDedup": 3
+  },
+  "finishedAt": "2026-11-27T20:16:38.352Z"
+}

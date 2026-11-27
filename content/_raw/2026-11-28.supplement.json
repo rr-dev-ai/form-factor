@@ -1,0 +1,117 @@
+{
+  "fetchedAt": "2026-11-28T01:55:52+08:00",
+  "fetchedFor": "2026-11-28",
+  "gap": ["cis", "mena", "latam"],
+  "cellGap": [
+    "apac/banking",
+    "apac/telecom",
+    "europe/banking",
+    "europe/telecom",
+    "north-america/banking",
+    "north-america/telecom",
+    "africa/telecom",
+    "africa/identity"
+  ],
+  "industryGap": ["telecom", "banking", "identity"],
+  "items": [
+    {
+      "title": "Camtel Awards CFA499 Million SIM Card Supply Contract to Bridge Corporation",
+      "url": "https://www.businessincameroon.com/telecom/2711-17290-camtel-awards-cfa499-million-sim-card-supply-contract-to-bridge-corporation",
+      "publishedAt": "2026-11-27T10:55:00+01:00",
+      "industry": "telecom",
+      "region": "africa",
+      "actionType": "授标",
+      "gateNote": "授标类，标的、金额 4.9929 亿中非法郎与承接方三项齐全。但这是既有蓝色品牌实体 SIM 的补货，不是 eSIM/iSIM 或 RSP 机制变化，终审若按「常规采购、无形态变化」收紧会剔除；原文为二手转述 ARMP 公告，需回查公告编号。页面未标时区，按喀麦隆 WAT 记。",
+      "discoveredBy": "\"27 November 2026\" SIM card registration biometric verification operator Africa Africa telecom regulator",
+      "note": "落在电信链路的 SIM 载体采购环节：喀麦隆国有运营商 Camtel 的蓝色品牌因库存耗尽，向 Bridge Corporation 授标 854225 张 SIM，其中 70 万张带号、154225 张空白，兼容 GSM/UMTS/LTE，四个月交付。变化是补货规模与卡号形态配比，第二轮数量从 230 万张削到 85 万张但预算不变。原文未说首批到货时间，也未说是否含 eSIM 或 5G。"
+    },
+    {
+      "title": "MTN Mobile Money Launches Virtual MoMo-Mastercard for Online Payments in Benin",
+      "url": "https://saharawire.com/article/mtn-mobile-money-launches-virtual-momo-mastercard-for-online-payments-in-benin",
+      "publishedAt": "2026-11-27T00:00:00+01:00",
+      "industry": "banking",
+      "region": "africa",
+      "actionType": "联合部署",
+      "gateNote": "联合部署类，三方角色、试点发卡量与费率可核。但卡本身是钱包派生虚拟卡，可能被按「渠道功能上线」而非发卡机制变化剔除。首发仪式 11-26 在科托努、报道 11-27，事件日在窗内；原文未给发布时刻，时间按 11-27 零点加西非时区占位。",
+      "discoveredBy": "\"27 November 2026\" UAE OR Saudi OR Egypt OR Qatar OR Saudi bank card issuing BIN sponsor processor launch",
+      "note": "落在支付链路的发卡环节：MTN 贝宁把 MoMo 钱包与 Orabank 的银行卡发卡能力接起来，用户在 App 或 USSD *880# 自助生成虚拟预付万事达卡，16 位卡号、有效期与 CVV 立即可用，试点已发逾 20 万张、目标 100 万张。变化是钱包余额首次变成可在境外网站受理的卡凭证，带 3DS 短信验证与 500 中非法郎工本费。原文没给交易量、BIN 归属与失败率。"
+    },
+    {
+      "title": "RBI Digital Payments Card-Based Transaction Directions 2026: 25 Circulars Consolidated",
+      "url": "https://www.corplawupdates.in/updates/rbi-digital-payments-card-based-transaction-directions-2026",
+      "publishedAt": "2026-11-27T00:00:00+05:30",
+      "industry": "banking",
+      "region": "apac",
+      "actionType": "无",
+      "gateNote": "七类动作均不贴，填「无」。属监管规则整合而非新增认证或产品，终审若按「无新增可核物、只是旧规归并」收紧会剔除；但网络选择权与卡数据留存规则确实改变了发卡与受理端机制，留编辑判断。原文无发布时刻，按印度标准时占位。",
+      "discoveredBy": "\"27 November 2026\" edital cartão emissão personalização banco청카드",
+      "note": "落在支付链路的签发与受理环节：印度储备银行 11-27 发布 RBI/DPSS/2026-27/477，把 2011 年至 2024 年的 25 份卡业务通函合并为一份即时生效的规则，明确信用卡发卡须给客户选择卡网络、卡须遵循 EMV 与 PCI DSS、5000 卢比以下非接免 AFA、令牌化须明示同意且不得收费、非现场交易不得存真实卡号。原文没写罚则、过渡期与争议处理天数，不能补写。"
+    },
+    {
+      "title": "2026年统一执法证件制作（第三次）结果公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202611/t20261127_27773692.htm",
+      "publishedAt": "2026-11-27T17:34:00+08:00",
+      "industry": "identity",
+      "region": "apac",
+      "actionType": "授标",
+      "gateNote": "授标类，数量、单价、供应商与采购人四项齐全。但公告写明是「第三次」，属补采而非首次制式变化，终审可能按重复采购剔除；无版本号与芯片参数，只能作供货节点记录。",
+      "discoveredBy": "政府采购 身份证 制卡 中标 公告 \"2026年11月27日\" 卡体 个人化",
+      "note": "落在身份链路的证件制作环节：辽宁省司法厅的 2026 年统一执法证件制作第三次招标落地，江苏方政科技集团中标，4 万套识别卡规格 54×85.6×1.2mm，单价 18 元。变化是执法证从皮夹挂绳组合件转为带标准识别卡的统一制式、由单一供应商批量承制。原文没说明卡内是否含芯片、是否有机读区，也没给首批交付时间。"
+    },
+    {
+      "title": "贺兰县公安局身份证自助发证机采购项目中标公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202611/t20261127_27771259.htm",
+      "publishedAt": "2026-11-27T16:16:00+08:00",
+      "industry": "identity",
+      "region": "apac",
+      "actionType": "授标",
+      "gateNote": "授标类，金额、供应商与采购人可核。但只是县级单点采购，公告未拆设备数量与部署时间表，终审若要求规模或客户名单会剔除；不能把设备清单当作已上线受理端点。",
+      "discoveredBy": "\"27 November 2026\" tender award smart card personalization national ID biometric",
+      "note": "落在身份链路的采集与发证端点：宁夏贺兰县公安局中标 77.76 万元身份证自助发证设备，含立柜式自助取证机、自助采集终端、桌面式取证机与人工采集终端，均为博纳思产品。变化是把采集与领取从单一柜台拆成自助与人工两条路径。原文未给各机型台数，也未说是否已装机投用，报价明细只在附件 PDF 里。"
+    },
+    {
+      "title": "国家网信办等十一部门联合公布《分布式数字身份互通互认应用规定》，2027 年 3 月 1 日起施行",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-11-27/doc-inkaesne5481287.shtml",
+      "publishedAt": "2026-11-27T19:43:00+08:00",
+      "industry": "identity",
+      "region": "apac",
+      "actionType": "无",
+      "gateNote": "七类动作均不贴，填「无」。这是规则层变化，离产品化节点差签发系统、钱包与依赖方接入的承建方和上线日；终审若按「政策表态无具体物」收紧会剔除，但文号与施行日明确，留作背景。",
+      "discoveredBy": "\"November 27, 2026\" \"mDL issuance\" OR \"verifiable credential pilot\" enrollment wallet launch",
+      "note": "落在身份链路的签发与验证环节：国家网信办等 11 部门公布《分布式数字身份互通互认应用规定》（国信办发文〔2026〕9 号），2027-03-01 施行，规定身份链由国家网信部门授权单位运营，机关企事业单位可作可验证凭证签发机构，验证方经链上验真，用户可自主停用凭证，并鼓励与数字人民币身份、税务、交通电子票证互通。原文未列运营单位与技术实现方。"
+    },
+    {
+      "title": "陈丰伟：中国eSIM正驶入“新赛道”",
+      "url": "https://www.ccidcom.com/zhongduan/20261127/uTrSsVbGgoNn6jerl1d45v1d9rtm0.html",
+      "publishedAt": "2026-11-27T10:10:12+08:00",
+      "industry": "telecom",
+      "region": "apac",
+      "actionType": "无",
+      "gateNote": "产品化节点勉强沾边，但无新卡产品或合同发布，填「无」更稳。与 11-08 已报的中国移动 eSIM 公版方案同属一次论坛生态，但主体与环节不同；终审若按「演讲口径、无新增可核合同」会剔除。",
+      "discoveredBy": "\"26 November 2026\" OR \"27 November 2026\" eSIM profile download launch operator subscriber RSP GSMA",
+      "note": "落在电信链路的 eSIM 分发与开卡环节：联通华盛在 11-26 杭州 GSMA eSIM 论坛披露，已落地 7 大品牌 34 款 eSIM 终端，累计支持 150 多款、打通三大系统，线下 2 万多网点 3 分钟办结、线上一键开通实名核验最快 10 分钟，入库测试压到 7 个工作日。变化是从试点转向可复制的开卡流程。原文数字均为演讲口径，2000 万台与 8000 万台是预估不是实绩。"
+    },
+    {
+      "title": "Infineon and AUSTRIACARD light up payment cards with SECORA Pay with LED inlay",
+      "url": "https://www.semiconductorforu.com/infineon-and-austriacard-light-up-payment-cards-with-secora-pay-with-led-inlay",
+      "publishedAt": "2026-11-26T00:00:00+01:00",
+      "industry": "banking",
+      "region": "europe",
+      "actionType": "产品化节点",
+      "gateNote": "产品化节点，参数、工艺变化与样品时点可核。但离动作门差量产客户与首发市场，只有展会样品；终审若按「展会展示未落地」收紧会剔除。原文为英飞凌通稿的行业站转载，未给发布时刻，按慕尼黑时区占位。",
+      "discoveredBy": "\"26 November 2026\" OR \"27 November 2026\" Europe card personalization center issuing platform launch bank contactless",
+      "note": "落在支付链路的卡片载体与上游封装工艺：英飞凌与 AUSTRIACARD 发布 SECORA Pay with LED inlay，1 至 3 颗白 LED 嵌进 EMV 双界面卡，靠 POS 的 NFC 场供电、接近终端时点亮；印刷层从 250µm 减到 150µm，提供 40nm 与 28nm 版本。原文无银行客户、出货量与单价，样品 12-01 至 03 在 Trustech 展出。"
+    },
+    {
+      "title": "WhatsApp to Sell Travel eSIMs Inside the App, With Reliance Jio Among First Partners",
+      "url": "https://asiadaily.org/news/20685",
+      "publishedAt": "2026-11-27T14:55:00Z",
+      "industry": "telecom",
+      "region": "global",
+      "actionType": "无",
+      "gateNote": "联合部署勉强沾边，但无上线日与市场名单，填「无」更稳。11-27 曾以「无官方公告」弃用，本次依据 11-26 Meta 官方博客与具名伙伴重投；终审若按「销售渠道变化、尚未落地」收紧会剔除。",
+      "discoveredBy": "\"26 November 2026\" OR \"27 November 2026\" eSIM profile download launch operator subscriber RSP GSMA",
+      "note": "电信链路 eSIM 分发：Meta 11-26 博客宣布在 WhatsApp 内购买并安装旅行数据 eSIM，首批伙伴有 Reliance Jio、Verizon、Smart Axiata、Smart Communications 与 1Global，安装走手机原生流程、落地联网才计费，用户保留原号。变化是 profile 下载入口从运营商 App 搬到聊天应用。原文无价格、国家名单与上线日。"
+    }
+  ]
+}

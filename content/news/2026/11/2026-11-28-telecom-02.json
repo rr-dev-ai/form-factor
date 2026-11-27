@@ -1,0 +1,85 @@
+{
+  "id": "2026-11-28-telecom-02",
+  "slug": "claro-number-verification-v2-android-native",
+  "industry": "telecom",
+  "region": "latam",
+  "regions": [],
+  "tags": [
+    "verification",
+    "fraud"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-28T04:17:14+08:00",
+  "ingestedAt": "2026-11-28T02:53:10+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Mobile Time",
+      "url": "https://www.mobiletime.com.br/noticias/27/11/2026/claro-number-verifiy/",
+      "lang": "en",
+      "publishedAt": "2026-11-27T14:04:36Z"
+    }
+  ],
+  "title": {
+    "zh": "Claro 把号码核验从网络转到手机系统，2027 上线",
+    "en": "Claro moves number verification from the network to the phone OS",
+    "es": "Claro traslada la verificación de número de la red al sistema del teléfono"
+  },
+  "summary": {
+    "zh": "Claro 在 11 月 26 日的行业会议上说明 Open Gateway 号码核验 API 第二版：从把 IP 交给移动网络核验，改为运营商与手机操作系统直连，在用户同意下验证或发送号码。新版先支持 Android，计划 2027 年上市，尚未披露资费与全面上线日。",
+    "en": "At an industry event on 26 November, Claro described version two of its Open Gateway Number Verification API: instead of sending an IP address to the mobile network for a check, the operator will connect directly to the phone operating system to verify or supply the number with user consent. Android comes first, with a 2027 launch planned; pricing and a full rollout date are not disclosed.",
+    "es": "En un evento del sector el 26 de noviembre, Claro describió la segunda versión de su API de verificación de número de Open Gateway: en lugar de enviar una dirección IP a la red móvil, el operador se conectará directamente al sistema operativo del teléfono para verificar o entregar el número con consentimiento del usuario. Android es el primer destino, con lanzamiento previsto en 2027; no hay precios ni fecha completa de despliegue."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "号码核验改走运营商与系统直连",
+        "en": "Verification moves to an operator-OS link",
+        "es": "La verificación pasa a un enlace operador-sistema"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Claro 数据与消息业务负责人 Ageu Dantas 在 11 月 26 日 Mobimeeting Finance + ID 2026 会议上说，Claro 正在准备 Open Gateway 号码核验 API 的第二版，计划在 2027 年推向市场。第一版把应用收到的 IP 地址送到用户所属运营商的移动网络，由网络判断这次连接是否属于该客户；第二版改为运营商与手机操作系统之间的原生直连，在用户选择同意后验证或发送手机号。",
+        "en": "Ageu Dantas, Claro's head of data analytics and messaging, said at the Mobimeeting Finance + ID 2026 event on 26 November that Claro is preparing a second version of its Open Gateway Number Verification API for a 2027 launch. Version one sends an app's IP address to the subscriber's mobile network, which checks whether the connection belongs to that customer. Version two uses a native link between the operator and the phone operating system to verify or supply the phone number after the user opts in.",
+        "es": "Ageu Dantas, responsable de analítica de datos y mensajería de Claro, dijo el 26 de noviembre en el evento Mobimeeting Finance + ID 2026 que Claro prepara una segunda versión de su API de verificación de número de Open Gateway para lanzarla en 2027. La primera versión envía la dirección IP de la aplicación a la red móvil del operador del usuario, que comprueba si la conexión pertenece a ese cliente. La segunda usa un enlace nativo entre el operador y el sistema operativo del teléfono para verificar o entregar el número tras el consentimiento del usuario."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Claro 的号码核验第二版初期只覆盖 Android 设备，公告没有给出 iOS 支持时间、接口规范版本或资费。Claro 现有的第一版 API 客户包括 Itaú、TikTok、Méliuz、Lalamove 与 Bumble，这些客户把 Claro 的接口与其他运营商的 API 组合使用。",
+        "en": "Claro's version two will cover Android devices first; the announcement gave no iOS timing, interface specification version or pricing. Customers of the current version one include Itaú, TikTok, Méliuz, Lalamove and Bumble, which combine Claro's interface with APIs from other operators.",
+        "es": "La segunda versión de Claro cubrirá primero dispositivos Android; el comunicado no dio plazos para iOS, versión de la especificación de interfaz ni precios. Los clientes de la versión actual incluyen Itaú, TikTok, Méliuz, Lalamove y Bumble, que combinan la interfaz de Claro con API de otros operadores."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "静默核验的使用规模",
+        "en": "Scale of silent verification",
+        "es": "Escala de la verificación silenciosa"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "Claro 称，不计内部调用，号码核验 API 目前每月有 1000 万次调用；用于检查用户是否换卡的 SIM Swap API 每月 4000 万次，一年前为 300 万次。Getnet 产品与业务副总裁 Mayra Borges 在同一场合说，用静默核验替代短信验证码后，一次性密码的认证流程时间缩短 66.7%，购买转化率提高 13%。",
+        "en": "Claro says its Number Verification API handles ten million calls a month excluding internal use, while its SIM Swap API, which checks whether a subscriber has changed cards, handles forty million a month against three million a year earlier. Mayra Borges, vice president of products and business at Getnet, said at the same event that replacing SMS codes with silent verification cut the one-time-password journey by 66.7% and raised purchase conversion by 13%.",
+        "es": "Claro afirma que su API de verificación de número registra diez millones de llamadas al mes sin contar uso interno, mientras que su API de SIM Swap, que comprueba si el usuario cambió de tarjeta, alcanza cuarenta millones frente a tres millones hace un año. Mayra Borges, vicepresidenta de productos y negocios de Getnet, señaló en el mismo evento que sustituir los códigos SMS redujo un 66,7 % el tiempo de autenticación con contraseña de un solo uso y elevó un 13 % la conversión de compras."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对做登录与支付风控的集成商而言，号码核验从网络侧 IP 判断改到运营商与操作系统直连，意味着客户端与运营商要共同改造接口，原先依赖 IP 归属的方案不能平移植到 Android 新版本。对银行与平台客户而言，Claro 给出的 1000 万次月调用与 Getnet 的耗时、转化数据是判断静默核验能否替代短信验证码的现有依据，但第二版要到 2027 年才上市，iOS 与定价都未定，采购决策不能按已商用能力做。对手机厂商而言，Android 先落地会把号码能力开放的路径限定在系统侧，其他运营商若要复用，需要与操作系统分别对接。",
+    "en": "For identity and fraud integrators, moving number verification from a network-side IP check to an operator-OS link means both the client and the operator must change their interfaces; designs built around IP ownership cannot simply be ported to the new Android path. For bank and platform customers, Claro's ten million monthly calls and Getnet's time and conversion figures are the available evidence for replacing SMS codes, but version two is a 2027 product with no iOS timing or pricing, so procurement cannot treat it as generally available. For handset vendors, an Android-first rollout puts the number capability in the operating system, and other operators seeking the same route will need separate OS integration.",
+    "es": "Para integradores de identidad y fraude, pasar de una comprobación de IP en la red a un enlace operador-sistema obliga a cambiar interfaces tanto en el cliente como en el operador; los diseños basados en la titularidad de la IP no se trasladan sin más a la nueva vía Android. Para bancos y plataformas, los diez millones de llamadas mensuales de Claro y los datos de tiempo y conversión de Getnet son la evidencia disponible para sustituir los códigos SMS, pero la segunda versión es un producto de 2027 sin fecha para iOS ni precios, por lo que no puede comprarse como si ya estuviera disponible. Para fabricantes de móviles, un despliegue primero en Android sitúa la capacidad de número en el sistema operativo y obliga a otros operadores a integraciones separadas."
+  },
+  "confidence": 0.55,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "2026-11-28-telecom-v1"
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "date": "2026-11-28",
+  "industry": "identity",
+  "startedAt": "2026-11-28T03:10:37+08:00",
+  "drafts": [],
+  "rejected": [
+    {
+      "title": "Wultra 财团中标捷克 EUDI 钱包 Valetka",
+      "url": "https://thepaypers.com/fraud-and-fincrime/news/wultra-led-consortium-wins-tender-for-czech-eu-digital-identity-wallet",
+      "reason": "duplicate-of-2026-11-25-identity-01：同一笔捷克国家钱包特许授标，换 thepaypers 信源重写不算新事件"
+    },
+    {
+      "title": "iProov wins £45m DSIT contract for document and biometric ID checks",
+      "url": "https://digital-gov-today.com/articles/iproov-wins-45m-dsit-contract-for-document-and-biometric-id-checks",
+      "reason": "duplicate-of-2026-11-27-identity-01：同一份 GDS £45M One Login 生物核验合同，换信源重写"
+    },
+    {
+      "title": "GOV.UK One Login keeps iProov biometrics, liveness in deal worth up to £45M",
+      "url": "https://www.biometricupdate.com/202611/gov-uk-one-login-keeps-iproov-biometrics-liveness-in-deal-worth-up-to-45m",
+      "reason": "duplicate-of-2026-11-27-identity-01：同一笔 iProov 合同，GBP 45M、三年+一年与已发稿完全一致"
+    },
+    {
+      "title": "Equifax wins £5.2M GOV.UK One Login fraud checks contract",
+      "url": "https://www.biometricupdate.com/202611/equifax-wins-5-2m-gov-uk-one-login-fraud-checks-contract",
+      "reason": "duplicate-of-2026-11-27-identity-04：同一笔 Equifax £5.18M 欺诈核查合同，BU 换源重发"
+    },
+    {
+      "title": "Amadeus–Idemia PS deal faces Singapore review over border biometrics",
+      "url": "https://www.biometricupdate.com/202611/amadeus-idemia-ps-deal-faces-singapore-review-over-border-biometrics",
+      "reason": "duplicate-of-2026-11-27-identity-03：同一宗新加坡 CCS 对 Amadeus 收购 IDEMIA PS 的审查"
+    },
+    {
+      "title": "Ashikaga Bank / Panasonic Connect 人脸核验终端",
+      "url": "https://news.panasonic.com/jp/press/jn261125-3",
+      "reason": "duplicate-of-2026-11-27-identity-02：同一批 134 网点松下人脸核验终端部署，已由 11-27 发布"
+    },
+    {
+      "title": "Italy opens digital ID wallet to public with legally valid driving licenses",
+      "url": "https://www.biometricupdate.com/202611/italy-opens-digital-id-wallet-to-public-with-legally-valid-driving-licenses-and-ids",
+      "reason": "duplicate-of-2026-11-24-identity-01：同一轮意大利 IT-Wallet 全民开放与数字驾照升格"
+    },
+    {
+      "title": "NIST SP 1800-42 mDL 在线核验参考架构",
+      "url": "https://www.biometricupdate.com/202611/nist-facial-recognition-identification-tests-reopen-with-new-entry-rules",
+      "reason": "duplicate-of-2026-11-20-identity-04：NIST  facial-recognition FRTE 评测重开属同一评测体系滚动更新，无新版本或发证方变化"
+    },
+    {
+      "title": "Claro prepara segunda versão de sua API de Number Verification",
+      "url": "https://www.mobiletime.com.br/noticias/27/11/2026/claro-number-verifiy/",
+      "reason": "已由 telecom 行业处理（2026-11-28-telecom-02）：号码核验 API 属电信链路，identity 不重复收录"
+    },
+    {
+      "title": "2026年统一执法证件制作（第三次）结果公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202611/t20261127_27773692.htm",
+      "reason": "动作门不过：公告自述「第三次」为补采，标的是皮夹/识别卡套/挂绳等辅料，无制式、芯片或个性化工艺变化，单价 18 元"
+    },
+    {
+      "title": "国家网信办等十一部门公布《分布式数字身份互通互认应用规定》",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-11-27/doc-inkaesne5481287.shtml",
+      "reason": "已写为 identity-02，本条为同一规定的 sina 转载信源，不另起稿"
+    },
+    {
+      "title": "1Password Discloses GitHub-Linked Backend Breach Exposing Metadata",
+      "url": "https://idtechwire.com/1password-discloses-github-linked-backend-breach-exposing-metadata/",
+      "reason": "范围门：企业凭证库数据泄露事件，不落在护照/身份证/mDL 载体或签发受理环节"
+    },
+    {
+      "title": "Google to Require Agent IDs and MCP Access for Workspace AI Agents",
+      "url": "https://idtechwire.com/google-to-require-agent-ids-and-mcp-access-for-workspace-ai-agents/",
+      "reason": "范围门：AI 智能体身份与工具接入，非自然人证件或核验终端"
+    },
+    {
+      "title": "US Homeland Security seeks tools to verify AI-generated digital twins",
+      "url": "https://www.biometricupdate.com/202611/us-homeland-security-seeks-tools-to-verify-ai-generated-digital-twins",
+      "reason": "范围门：研究征集，标的是 AI 生成内容鉴别，非证件形态"
+    },
+    {
+      "title": "DHS Seeks Technology to Verify ‘Human Digital Twins’ Online",
+      "url": "https://idtechwire.com/dhs-seeks-technology-to-verify-human-digital-twins-online/",
+      "reason": "范围门：同上，AI 数字孪生鉴别研究征集，非证件链路"
+    },
+    {
+      "title": "IRS Bought a Clearview AI Subscription After Telling Auditors It Had No Such Plans",
+      "url": "https://idtechwire.com/irs-bought-a-clearview-ai-subscription-after-telling-auditors-it-had-no-such-plans/",
+      "reason": "范围门：执法用人脸库采购，属执法监控，非证件签发或受理"
+    },
+    {
+      "title": "Live facial recognition procurement under scrutiny in UK policing inquiry",
+      "url": "https://www.biometricupdate.com/202611/live-facial-recognition-procurement-under-scrutiny-in-uk-policing-inquiry",
+      "reason": "范围门：英国警务实时人脸识别采购调查，执法监控非证件核验"
+    },
+    {
+      "title": "Security flaws put traveler identity records at risk across six countries",
+      "url": "https://www.biometricupdate.com/202611/security-flaws-put-traveler-identity-records-at-risk-across-six-countries",
+      "reason": "范围门：数据泄露与安全漏洞事件，不属证件形态变化"
+    },
+    {
+      "title": "Australia passes Digital Duty of Care with fines tied to global revenue",
+      "url": "https://www.biometricupdate.com/202611/australia-passes-digital-duty-of-care-with-fines-tied-to-global-revenue",
+      "reason": "范围门：社媒平台注意义务立法，标的是账号与平台，非证件载体"
+    },
+    {
+      "title": "Australia’s Senate Passes Digital Duty of Care Bill",
+      "url": "https://idtechwire.com/australias-senate-passes-digital-duty-of-care-bill-as-ofcom-and-esafety-sign-cooperation-pact/",
+      "reason": "范围门：同上，社媒平台立法与监管机构合作，非证件"
+    },
+    {
+      "title": "Philippines signs Meta safety pact as it weighs national ID for age checks",
+      "url": "https://www.biometricupdate.com/202611/philippines-signs-meta-safety-pact-as-it-weighs-national-id-for-age-checks",
+      "reason": "范围门+动作门：仍在「权衡」用国家 ID 做年龄核验，无决定、无承接方，且标的是社媒账号"
+    },
+    {
+      "title": "Florida to Require ID.me Verification for SNAP, Medicaid and Cash Assistance",
+      "url": "https://idtechwire.com/florida-to-require-id-me-verification-for-snap-medicaid-and-cash-assistance/",
+      "reason": "范围门：福利申领的依赖方接入核验，非证件载体或签发受理形态变化"
+    },
+    {
+      "title": "Cameroon to verify over 580,000 birth certificates in family allowance audit",
+      "url": "https://www.biometricupdate.com/202611/cameroon-to-verify-over-580000-birth-certificates-in-family-allowance-audit",
+      "reason": "范围门：出生证明核查审计，非护照/身份证/mDL 三类载体"
+    },
+    {
+      "title": "Know your customer without asking too much",
+      "url": "https://www.biometricupdate.com/202611/know-your-customer-without-asking-too-much",
+      "reason": "范围门：观点文章，无具体事件与可核物"
+    },
+    {
+      "title": "Greece plans early 2027 launch for digital ID that works across EU borders",
+      "url": "https://www.biometricupdate.com/202611/greece-plans-early-2027-launch-for-digital-id-that-works-across-eu-borders",
+      "reason": "动作门：事件为 11-04 eIDAS 通报与 11-23 厂商 case study，只有 2027 年初上线排期，无新授标或版本发布"
+    },
+    {
+      "title": "Indonesia tests two wallets for government-issued credentials",
+      "url": "https://www.biometricupdate.com/202611/indonesia-tests-two-wallets-for-government-issued-credentials",
+      "reason": "动作门：11-23～27 五天 bootcamp 培训演练，结果要到 2027-03 峰会展示，无落地钱包或承建合同"
+    },
+    {
+      "title": "Digital driving license to debut in Germany’s i-Kfz app in December",
+      "url": "https://www.biometricupdate.com/202611/digital-driving-license-to-debut-in-germanys-i-kfz-app-in-december",
+      "reason": "动作门：Heise 观点稿，12 月排期且仅德国境内有效、尚无照片，d-you 钱包已由 11-21-identity-03 发布"
+    },
+    {
+      "title": "Hopae pitches EUDI Wallet intermediaries for bank onboarding",
+      "url": "https://www.biometricupdate.com/202611/hopae-pitches-eudi-wallet-intermediaries-for-bank-onboarding",
+      "reason": "动作门：17 页白皮书，无合同、客户或产品发布，仅 2027 Q1 拟申请 QTSP 资质"
+    },
+    {
+      "title": "Turks and Caicos pushes first national ID cards to 2028",
+      "url": "https://www.biometricupdate.com/202611/turks-and-caicos-pushes-first-national-id-cards-to-2028",
+      "reason": "动作门：上线时间从 2027 推迟到 2028，法案仍在起草、系统采购暂停待内阁批准，无承建方"
+    },
+    {
+      "title": "Italy’s Cabinet Moves to Limit Citizens to One Personal SPID Identity",
+      "url": "https://idtechwire.com/italys-cabinet-moves-to-limit-citizens-to-one-personal-spid-identity/",
+      "reason": "动作门：内阁初步批准的法令草案，未成法、无版本号与发证方"
+    },
+    {
+      "title": "Moldova Advances Free, Voluntary Digital Identity Wallet Bill on EVO",
+      "url": "https://idtechwire.com/moldova-advances-free-voluntary-digital-identity-wallet-bill-on-evo/",
+      "reason": "动作门：一读通过的法案草案，无承建方与上线日"
+    },
+    {
+      "title": "Smart Adds Philippine National ID Selfie Checks to SIM Registration",
+      "url": "https://idtechwire.com/smart-adds-philippine-national-id-selfie-checks-to-sim-registration/",
+      "reason": "动作门：运营商把 PSA 国家 ID 自拍核验接入 SIM 注册，属依赖方渠道接入，非签发或核验侧机制变化；且归 telecom"
+    },
+    {
+      "title": "BTS and Veridas Partner to Pair Telecom Signals With Biometric Checks",
+      "url": "https://idtechwire.com/bts-and-veridas-partner-to-pair-telecom-signals-with-biometric-checks/",
+      "reason": "动作门：企业合作意向，无客户、金额、规模或落地市场"
+    },
+    {
+      "title": "Kazakhstan shares blueprint for scaling national digital trust",
+      "url": "https://identityweek.net/kazakhstan-shares-blueprint-for-scaling-national-digital-trust/",
+      "reason": "动作门：经验分享与路线图，无新授标、版本或产品发布"
+    },
+    {
+      "title": "All Indians to get digital citizenship certificates, hard copies only on request: MHA",
+      "url": "https://www.thehindu.com/news/national/all-indians-to-get-digital-citizenship-certificates-hard-copies-only-on-request-mha/article71751630.ece",
+      "reason": "范围门+动作门：公民登记证书非护照/身份证/mDL 三类载体，且通知未给生效日、无版本号与承建方"
+    },
+    {
+      "title": "Persona links missing camera metadata to higher selfie verification failure rates",
+      "url": "https://www.biometricupdate.com/202611/persona-links-missing-camera-metadata-to-higher-selfie-verification-failure-rates",
+      "reason": "动作门：厂商研究结论，无产品发布、认证或部署变化"
+    },
+    {
+      "title": "NIST age estimation results show why rankings change by use case",
+      "url": "https://www.biometricupdate.com/202611/nist-age-estimation-results-show-why-rankings-change-by-use-case",
+      "reason": "动作门：评测结果解读，非规范版本发布，且年龄估算标的是账号非证件"
+    },
+    {
+      "title": "Listen: Why a TSA PreCheck pioneer wants more travelers in the fast lane",
+      "url": "https://www.biometricupdate.com/202611/listen-why-a-tsa-precheck-pioneer-wants-more-travelers-in-the-fast-lane",
+      "reason": "动作门：播客访谈，无新事件与可核物"
+    },
+    {
+      "title": "Authsignal Launches Flows, a No-Code Builder for Authentication Journeys",
+      "url": "https://idtechwire.com/authsignal-launches-flows-a-no-code-builder-for-authentication-journeys/",
+      "reason": "范围门：企业 IAM 认证流程编排工具，非自然人证件或核验终端"
+    },
+    {
+      "title": "EU hit by AI-assisted cyber campaign",
+      "url": "https://identityweek.net/eu-hit-by-ai-assisted-cyber-campaign/",
+      "reason": "范围门：网络攻击事件，非证件形态变化"
+    },
+    {
+      "title": "榆林市公安局三合一身份证制证设备竞争性谈判公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxtpgg/202611/t20261126_27764006.htm",
+      "reason": "动作门：11-26 谈判公告，尚未授标，无中标方；且为政务大厅单台设备，无规模"
+    },
+    {
+      "title": "瑞安市公安局安全存储扩容中标公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg//zbgg/202611/t20261127_27766809.htm",
+      "reason": "范围门：公安数据存储扩容，与证件载体或制发设备无关"
+    },
+    {
+      "title": "人社部人事考试中心人事考试业务网区域适配改造中标公告",
+      "url": "https://www.zycg.gov.cn/freecms/site/zygjjgzfcgzx/ggxx/info/2026/278a0fef-ab6b-4d64-82df-49ef5956a9a4.html?id=5d8b43b2-ea04-11f1-9615-fa163ee0ead6",
+      "reason": "范围门：考试网站适配改造，与证件链路无关"
+    },
+    {
+      "title": "新虹街道虹桥枢纽综合养护项目公开招标公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202611/t20261127_27772935.htm",
+      "reason": "范围门：枢纽物业养护，无关"
+    },
+    {
+      "title": "South Africa plans biometric e-passport rollout in 2027",
+      "url": "https://globalnewsflix.com/a/f543f4ac9e79ff34/south-africa-plans-biometric-e-passport-for-2027",
+      "reason": "动作门：部长表态、2027 排期，最终设计与申请日未公布，无承接方"
+    },
+    {
+      "title": "New South African passport coming in 2027: What we know so far",
+      "url": "https://www.europesays.com/africa/544985",
+      "reason": "动作门：2027 生物护照为计划表态，无承接方、制式参数与投产线；文中 480 银行网点受理为 11-19 已发布事件的复述"
+    },
+    {
+      "title": "The Mira app is an investment in time itself",
+      "url": "https://www.thenationalnews.com/opinion/editorial/2026/11/27/ai-mira-uae-smart-government-tamm/",
+      "reason": "范围门+动作门：AI 服务入口意见文章，2027-03 才上线，证件续期只是代办事项"
+    },
+    {
+      "title": "Dubai launches world’s first Smart Housing Passport",
+      "url": "https://economymiddleeast.com/news/dubai-launches-worlds-first-smart-housing-passport-to-unify-property-records-and-enable-ai-powered-maintenance/",
+      "reason": "范围门：房产数字档案，非自然人身份凭证"
+    },
+    {
+      "title": "Hajj pilgrims can travel within Saudi Arabia, carrying digital visitor ID, instead of passport",
+      "url": "https://saudigazette.com.sa/article/661044/saudi-arabia/hajj-pilgrims-can-travel-within-saudi-arabia-carrying-digital-visitor-id-instead-of-passport",
+      "reason": "范围门：朝觐访客在 Absher 平台领取的数字访客 ID，属服务入口而非证件签发或核验形态变化，且无明确日期"
+    },
+    {
+      "title": "Smart-ID: Remote Sign-Up for Some eID Card Holders Ends on 30 November",
+      "url": "https://www.rigatv.com/en/raksts/smart-id-dalai-eid-karsu-lietotaju-registracijas-iespeja-beigsies-30-novembri-8305300",
+      "reason": "动作门：证书撤销与远程注册窗口关闭通知，属既有能力运维调整，无新版本或产品发布"
+    },
+    {
+      "title": "MobiKwik’s Zaakpay Adds Visa Payment Passkey for Online Checkout in India",
+      "url": "https://idtechwire.com/mobikwiks-zaakpay-adds-visa-payment-passkey-for-online-checkout-in-india/",
+      "reason": "范围门：支付通行密钥，归 banking"
+    },
+    {
+      "title": "AI Update: Amazon Says Attackers’ AI Agents Found and Exploited a Zero-Day on Their Own",
+      "url": "https://idtechwire.com/ai-update-amazon-says-attackers-ai-agents-found-and-exploited-a-zero-day-on-their-own/",
+      "reason": "范围门：安全漏洞与 AI 智能体，非证件链路"
+    },
+    {
+      "title": "Enhancing national ID cards with security & innovation | Thales",
+      "url": "https://www.thalesgroup.com/en/solutions-catalogue/public-security/civil-identity/national-identity-cards",
+      "reason": "动作门：产品目录页，无新事件、版本或客户"
+    },
+    {
+      "title": "Smart ID Card Updates: Latest News and Future Roadmap",
+      "url": "https://market3m.org/smart-id-card-updates-latest-news-and-future-roadmap",
+      "reason": "动作门：SEO 综述页，无一手日期与可核事件"
+    }
+  ],
+  "stats": {
+    "candidates": 96,
+    "written": 4,
+    "skippedByDedup": 8
+  },
+  "finishedAt": "2026-11-27T19:19:34.119Z"
+}

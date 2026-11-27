@@ -1,0 +1,91 @@
+{
+  "id": "2026-11-28-telecom-01",
+  "slug": "eastcompeace-caict-smdp-plus-test-platform",
+  "industry": "telecom",
+  "region": "apac",
+  "regions": [],
+  "tags": [
+    "esim",
+    "rsp"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-28T04:17:14+08:00",
+  "ingestedAt": "2026-11-28T02:53:10+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "Eastcompeace",
+      "url": "https://www.eastcompeace.com/978.html",
+      "lang": "en",
+      "publishedAt": "2026-11-26T19:16:00+08:00"
+    },
+    {
+      "name": "证券时报",
+      "url": "https://news.qq.com/rain/a/20261126A0EU7O00",
+      "lang": "zh",
+      "publishedAt": "2026-11-26T19:16:00+08:00"
+    }
+  ],
+  "title": {
+    "zh": "东信和平与信通院上线 SM-DP+ 测试验证平台",
+    "en": "Eastcompeace and CAICT launch an SM-DP+ test platform",
+    "es": "Eastcompeace y CAICT lanzan una plataforma de pruebas SM-DP+"
+  },
+  "summary": {
+    "zh": "东信和平与中国信息通信研究院联合建设的 SM-DP+ 测试验证平台已上线，于 11 月 26 日对外披露。平台对标 GSMA 规范与国内合规要求，为手机、穿戴、5G 物联网和工业终端提供 profile 生成、加密与远程激活的一站式验证环境。",
+    "en": "Eastcompeace and the China Academy of Information and Communications Technology have put an SM-DP+ test and validation platform online, disclosed on 26 November. Benchmarked against GSMA specifications and domestic rules, it gives handset, wearable, 5G IoT and industrial terminal makers a single environment to verify profile generation, encryption and remote activation.",
+    "es": "Eastcompeace y la Academia China de Tecnología de la Información y las Comunicaciones han puesto en marcha una plataforma de pruebas SM-DP+, divulgada el 26 de noviembre. Basada en las especificaciones GSMA y la normativa local, ofrece a fabricantes de móviles, wearables, IoT 5G y terminales industriales un entorno único para verificar generación de perfiles, cifrado y activación remota."
+  },
+  "body": [
+    {
+      "kind": "h",
+      "text": {
+        "zh": "验证环境覆盖 SM-DP+ 核心流程",
+        "en": "The environment covers the SM-DP+ flow",
+        "es": "El entorno cubre el flujo SM-DP+"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "东信和平在 11 月 26 日发布的消息中说，东信和平与中国信息通信研究院联合建设的 SM-DP+ 测试验证平台已经上线。SM-DP+ 是 eSIM 远程配置体系里生成配置文件、做安全加密并远程下发的平台。该平台对标 GSMA 国际规范和国内行业合规要求，面向终端厂商提供一站式的标准化 eSIM 测试验证环境；公告没有给出平台的具体版本号、所在城市或已接入的终端厂商名单。",
+        "en": "Eastcompeace said on 26 November that the SM-DP+ test and validation platform built with the China Academy of Information and Communications Technology is online. SM-DP+ generates eSIM profiles, encrypts them and delivers them remotely. The platform is benchmarked against GSMA specifications and domestic regulatory requirements and offers terminal makers a standardised eSIM test environment; the announcement gave no version number, location or list of connected terminal vendors.",
+        "es": "Eastcompeace comunicó el 26 de noviembre que la plataforma de pruebas y validación SM-DP+ construida con la Academia China de Tecnología de la Información y las Comunicaciones ya está en funcionamiento. SM-DP+ genera perfiles eSIM, los cifra y los entrega de forma remota. La plataforma sigue las especificaciones GSMA y los requisitos locales y ofrece a los fabricantes un entorno normalizado de prueba eSIM; el comunicado no dio número de versión, ubicación ni lista de fabricantes conectados."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "东信和平承担平台的接口适配、系统部署与设备集成，平台可以批量生成合规的订阅数据，并模拟远程激活流程。测试范围覆盖消费手机、智能穿戴、5G 物联网与工业终端四类设备，把原本分散在厂商自测和运营商联调中的环节集中到同一套环境。",
+        "en": "Eastcompeace handled interface adaptation, system deployment and equipment integration for the platform. The platform can generate compliant subscription data in bulk and simulate remote activation. Compatibility checks cover consumer smartphones, smart wearables, 5G IoT devices and industrial terminals, bringing checks that were spread across vendor self-testing and operator joint testing into one environment.",
+        "es": "Eastcompeace se encargó de la adaptación de interfaces, el despliegue del sistema y la integración de equipos. La plataforma genera datos de suscripción conformes en lotes y simula la activación remota. Las pruebas de compatibilidad cubren móviles, wearables, dispositivos IoT 5G y terminales industriales, y reúnen comprobaciones antes dispersas entre pruebas de fabricante y pruebas conjuntas con operadores."
+      }
+    },
+    {
+      "kind": "h",
+      "text": {
+        "zh": "eSIM 从物联网走向手机后的验证缺口",
+        "en": "The verification gap after eSIM reached phones",
+        "es": "La brecha de verificación tras la llegada de eSIM al móvil"
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "SM-DP+ 测试验证平台的推出背景是 eSIM 从物联网扩展到消费电子。东信和平在公告中说，手机 eSIM 商用后，终端厂商需要按统一口径验证 profile 生成、下载与激活，标准化测试成为规模化部署的前提。平台目前公开的能力集中在测试与验证，公告没有说明它是否直接承担商用 profile 的签发，也没有披露收费方式或服务开通时间。",
+        "en": "The platform follows eSIM's move from IoT into consumer electronics. Eastcompeace says that once eSIM went commercial in smartphones, terminal makers needed a common way to verify profile generation, download and activation, making standardised testing a precondition for large-scale rollout. The disclosed scope is testing and validation; the announcement does not say whether the platform also issues commercial profiles, nor how the service is charged or when it opens to outside customers.",
+        "es": "La plataforma responde al paso de eSIM del IoT a la electrónica de consumo. Eastcompeace señala que, con la comercialización de eSIM en móviles, los fabricantes necesitaban verificar de forma uniforme la generación, descarga y activación de perfiles, y que las pruebas normalizadas son condición para el despliegue a gran escala. El alcance divulgado es prueba y validación; el comunicado no dice si la plataforma también emite perfiles comerciales ni cómo se cobra el servicio."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "对手机与物联网终端厂商而言，SM-DP+ 测试验证平台把 profile 生成、加密和远程激活的联调从逐家运营商对接变成一处可重复执行的检查，新机型的入库与出海测试有望少走重复流程。对东信和平而言，这一步把卡商的角色从供卡与写卡扩到 eSIM 签发链的验证服务，客户从运营商延伸到终端厂。对集成商而言，需要确认平台对 GSMA 规范和国内合规要求的具体解读口径，以及它能否与自有的 eIM 或第三方 SM-DP+ 互联互通；公告尚未披露这些接口细节，也没有给出商用收费与对外开放时间。",
+    "en": "For handset and IoT vendors, the SM-DP+ platform turns profile generation, encryption and remote activation checks from bilateral operator integration work into a repeatable test, reducing duplicated work for new device certification and export. For Eastcompeace, it extends a card maker's role from card supply and personalisation into validation services on the eSIM issuing chain, with terminal makers as customers alongside operators. Integrators need to check how the platform interprets GSMA specifications and domestic rules, and whether it interoperates with their own eIM or a third-party SM-DP+; those interfaces, pricing and opening dates remain undisclosed.",
+    "es": "Para fabricantes de móviles e IoT, la plataforma SM-DP+ convierte las pruebas de generación, cifrado y activación remota de integraciones bilaterales con operadores en verificaciones repetibles, y reduce trabajo duplicado en certificación y exportación. Para Eastcompeace, amplía el papel de fabricante de tarjetas hacia servicios de validación en la cadena de emisión eSIM, con fabricantes de terminales como nuevos clientes. Los integradores deben comprobar cómo interpreta la plataforma las especificaciones GSMA y la normativa local, y si interoperará con su eIM o un SM-DP+ de terceros; esas interfaces, precios y fechas de apertura siguen sin comunicarse."
+  },
+  "confidence": 0.62,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "2026-11-28-telecom-v1"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-28-identity-01",
+  "slug": "st-kitts-nevis-taiwan-eid-system-handover-chip-cards",
+  "industry": "identity",
+  "region": "north-america",
+  "regions": [],
+  "tags": [
+    "national-id",
+    "secure-chip",
+    "issuing"
+  ],
+  "status": "published",
+  "publishedAt": "2026-11-28T04:17:14+08:00",
+  "ingestedAt": "2026-11-28T03:10:37+08:00",
+  "originalLang": "en",
+  "sources": [
+    {
+      "name": "St. Kitts and Nevis Information Service",
+      "url": "https://www.sknis.gov.kn/2026/11/25/government-marks-completion-of-phase-one-at-eid-handover-ceremony-outlines-plans-for-phase-two-card-distribution/",
+      "lang": "en",
+      "publishedAt": "2026-11-25T00:00:00Z"
+    },
+    {
+      "name": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202611/st-kitts-and-nevis-prepares-to-issue-digital-id-cards-after-taiwan-handover",
+      "lang": "en",
+      "publishedAt": "2026-11-27T14:55:56Z"
+    }
+  ],
+  "title": {
+    "zh": "圣基茨和尼维斯接收台湾交付的国家数字身份系统",
+    "en": "St. Kitts and Nevis receives Taiwan-delivered national digital ID system",
+    "es": "San Cristóbal y Nieves recibe el sistema nacional de identidad digital entregado por Taiwán"
+  },
+  "summary": {
+    "zh": "圣基茨和尼维斯政府 11 月 25 日在巴斯特尔正式接收台湾交付的国家数字身份认证系统，第一阶段完成。政府已拿到处理卡片申请、生产带嵌入式安全芯片证件并对照官方记录核验身份的设备与软件，第二阶段将在国家安全部设发证办公室，启动全国 eID 卡签发。",
+    "en": "The government of St. Kitts and Nevis formally received its national Digital Identity Authentication System from Taiwan on November 25 in Basseterre, completing phase one. It has taken delivery of equipment and software to process card applications, produce cards with embedded security chips and verify identity against official records; phase two sets up a card distribution office in the Ministry of National Security and begins nationwide eID issuance.",
+    "es": "El gobierno de San Cristóbal y Nieves recibió formalmente de Taiwán su Sistema Nacional de Autenticación de Identidad Digital el 25 de noviembre en Basseterre, completando la primera fase. Ha recibido equipos y software para tramitar solicitudes, producir tarjetas con chip de seguridad integrado y verificar identidades; la segunda fase crea una oficina de distribución e inicia en todo el país la emisión de eID."
+  },
+  "body": [
+    {
+      "kind": "p",
+      "text": {
+        "zh": "圣基茨和尼维斯政府 11 月 25 日在巴斯特尔万豪酒店举行交接仪式，正式从台湾接收国家数字身份认证系统，标志这个项目第一阶段完工。项目源自两国 2022 年 12 月签署的数字身份合作协议，此后两地技术团队完成系统设计、测试与人员培训。",
+        "en": "The government of St. Kitts and Nevis held a handover ceremony at the St. Kitts Marriott Resort on November 25 and formally received its national Digital Identity Authentication System from Taiwan, marking the end of phase one. The project stems from a digital identity cooperation agreement the two governments signed in December 2022, after which local and Taiwanese teams designed and tested the system and trained personnel.",
+        "es": "El gobierno de San Cristóbal y Nieves celebró el 25 de noviembre una ceremonia en el St. Kitts Marriott Resort y recibió formalmente de Taiwán su Sistema Nacional de Autenticación de Identidad Digital, cerrando la primera fase. El proyecto surge de un acuerdo de cooperación en identidad digital firmado en diciembre de 2022, tras el cual los equipos locales y taiwaneses diseñaron y probaron el sistema y capacitaron al personal."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "随系统一同交付的还有制发证件所需的硬件与软件：政府声明称已收到处理卡片申请的设备、生产带嵌入式安全芯片卡片的生产线，以及把卡内信息与官方记录比对的核验软件，同时拿到卡片个性化生产软件。这意味着签发与核验两侧的技术能力都已落到当地政府手中。",
+        "en": "Delivered alongside the system is the hardware and software needed to produce documents. The government statement says it has received equipment to process card applications, machinery to produce cards with embedded security chips, software to check card data against official records, and software for card production and personalization. Both the issuance and verification capabilities now sit with the local government.",
+        "es": "Junto con el sistema se entregaron los equipos y el software necesarios para producir documentos. El comunicado gubernamental señala que recibió equipo para tramitar solicitudes, maquinaria para fabricar tarjetas con chip de seguridad integrado, software para contrastar los datos de la tarjeta con registros oficiales y software de producción y personalización. Tanto la emisión como la verificación quedan ahora en manos del gobierno local."
+      }
+    },
+    {
+      "kind": "p",
+      "text": {
+        "zh": "第二阶段将在国家安全部设立卡片发放办公室，面向全国居民登记并签发首批 eID 卡。政府表示后续会把这张卡接入出生证明申请、社会服务与税务缴纳，并让创业者通过在线商业申请平台用它完成身份核验。护照在线申请也在改造，接入 eID 后申请人可在家完成身份验证，再到现场领取护照。",
+        "en": "Phase two will set up a card distribution office inside the Ministry of National Security to enroll residents and issue the first eID cards nationwide. The government says it will later link the card to birth certificate applications, social services and tax payments, and let entrepreneurs verify identity through the online business application platform. An online passport application is also being reworked so that, once connected to the eID system, applicants can confirm identity at home and collect the passport in person.",
+        "es": "La segunda fase creará una oficina de distribución de tarjetas dentro del Ministerio de Seguridad Nacional para registrar a los residentes y emitir las primeras eID en todo el país. El gobierno prevé vincular la tarjeta a solicitudes de partidas de nacimiento, servicios sociales y pagos de impuestos, y permitir a los emprendedores verificar su identidad en la plataforma empresarial en línea. También se adapta la solicitud de pasaporte en línea para que, al conectarse al sistema eID, el solicitante confirme su identidad en casa y recoja el pasaporte en persona."
+      }
+    }
+  ],
+  "whyItMatters": {
+    "zh": "这是一次把身份系统连同芯片卡生产能力整体移交到当地政府手中的交付，而非仅上线一个登录入口。对证件供应链而言，卡片生产与个性化软件落到本国，意味着后续 inlay、芯片与个人化设备采购会在本地形成持续需求，供应商若要进入加勒比国家身份项目，需要对接国家安全部这一新的发证主体。对区域市场，圣基茨和尼维斯是继圣卢西亚之后再推国家认证层的加勒比国家，eID 卡被设计为出生证明、社保、税务与护照申请的通用身份底座，说明小型岛国正把证件签发从单一护照扩展到可复用的身份层。",
+    "en": "This is a transfer of the full identity system together with chip-card production capability to the local government, not merely the launch of a login service. For the document supply chain, placing card production and personalization software in-country means recurring local demand for inlays, chips and personalization equipment, and suppliers targeting Caribbean identity programmes now face a new issuing authority in the Ministry of National Security. Regionally, St. Kitts and Nevis follows Saint Lucia in building a national authentication layer: the eID card is designed as a shared identity base for birth certificates, social services, tax and passport applications, showing small island states extending issuance beyond the single passport into a reusable identity layer.",
+    "es": "Esto es una transferencia del sistema de identidad completo junto con la capacidad de producir tarjetas con chip al gobierno local, no solo el lanzamiento de un servicio de acceso. Para la cadena de suministro de documentos, ubicar en el país la producción y personalización de tarjetas implica demanda local recurrente de inlays, chips y equipos de personalización, y los proveedores que apunten a programas caribeños enfrentan ahora una nueva autoridad emisora en el Ministerio de Seguridad Nacional. En la región, San Cristóbal y Nieves sigue a Santa Lucía al construir una capa nacional de autenticación: la eID se concibe como base de identidad compartida para partidas de nacimiento, servicios sociales, impuestos y pasaportes, lo que muestra que los pequeños estados insulares amplían la emisión más allá del pasaporte hacia una capa de identidad reutilizable."
+  },
+  "confidence": 0.78,
+  "ai": {
+    "model": "claude-opus-6",
+    "promptVersion": "identity-editor-2026-11-28",
+    "tokens": 0,
+    "costUsd": 0
+  }
+}
